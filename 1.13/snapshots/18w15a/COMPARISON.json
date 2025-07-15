@@ -1,0 +1,134 @@
+{
+  "blocks": [
+    {
+      "type": "entries",
+      "value": {
+        "name": "🗒️ List",
+        "differences": {
+          "added": [
+            "blue_ice.json",
+            "conduit.json"
+          ],
+          "removed": []
+        }
+      }
+    }
+  ],
+  "recipes": [
+    {
+      "type": "entries",
+      "value": {
+        "name": "🗒️ List",
+        "differences": {
+          "added": [
+            "blue_ice.json",
+            "conduit.json"
+          ],
+          "removed": []
+        }
+      }
+    }
+  ],
+  "translations": [
+    {
+      "type": "entries",
+      "value": {
+        "name": "Keys",
+        "differences": {
+          "added": [
+            "menu.savingLevel: Saving world",
+            "options.biomeBlendRadius: Biome Blend",
+            "block.minecraft.blue_ice: Blue Ice",
+            "block.minecraft.conduit: Conduit",
+            "item.minecraft.dolphin_spawn_egg: Spawn Dolphin",
+            "item.minecraft.nautilus_shell: Nautilus Shell",
+            "item.minecraft.heart_of_the_sea: Heart of the Sea",
+            "entity.minecraft.dolphin: Dolphin",
+            "effect.conduit_power: Conduit Power"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "text",
+      "value": {
+        "title": "Changes",
+        "values": [
+          {
+            "key": "item.minecraft.tipped_arrow.effect.turtle_master",
+            "previous": "Arrow of The Turtle Master",
+            "current": "Arrow of the Turtle Master"
+          },
+          {
+            "key": "item.minecraft.splash_potion.effect.turtle_master",
+            "previous": "Potion of the Turtle Master",
+            "current": "Splash Potion of the Turtle Master"
+          }
+        ]
+      }
+    }
+  ],
+  "file_structure": [
+    {
+      "type": "entries",
+      "value": {
+        "name": "data",
+        "differences": {
+          "added": [
+            "minecraft/advancements/recipes/building_blocks/blue_ice.json",
+            "minecraft/advancements/recipes/misc/conduit.json",
+            "minecraft/loot_tables/entities/dolphin.json",
+            "minecraft/recipes/blue_ice.json",
+            "minecraft/recipes/conduit.json",
+            "minecraft/tags/blocks/ice.json"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "assets",
+        "differences": {
+          "added": [
+            "minecraft/blockstates/blue_ice.json",
+            "minecraft/blockstates/conduit.json",
+            "minecraft/models/block/blue_ice.json",
+            "minecraft/models/block/conduit.json",
+            "minecraft/models/item/blue_ice.json",
+            "minecraft/models/item/conduit.json",
+            "minecraft/models/item/dolphin_spawn_egg.json",
+            "minecraft/models/item/heart_of_the_sea.json",
+            "minecraft/models/item/nautilus_shell.json",
+            "minecraft/textures/blocks/blue_ice.png",
+            "minecraft/textures/entity/conduit/base.png",
+            "minecraft/textures/entity/conduit/cage.png",
+            "minecraft/textures/entity/conduit/entity_core.png",
+            "minecraft/textures/entity/conduit/wind.png",
+            "minecraft/textures/entity/conduit/wind_vertical.png",
+            "minecraft/textures/entity/dolphin.png",
+            "minecraft/textures/items/heart_of_the_sea.png",
+            "minecraft/textures/items/nautilus_shell.png"
+          ],
+          "removed": []
+        }
+      }
+    }
+  ],
+  "misc": [
+    {
+      "type": "entries",
+      "value": {
+        "name": "splashes",
+        "differences": {
+          "added": [
+            "Thank you for the fish!"
+          ],
+          "removed": []
+        }
+      }
+    }
+  ]
+}

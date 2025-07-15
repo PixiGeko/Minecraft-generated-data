@@ -1,0 +1,29 @@
+{
+  "definition": {
+    "type": "minecraft:test",
+    "properties": {}
+  },
+  "properties": {
+    "test_block_mode": [
+      "start",
+      "log",
+      "fail",
+      "accept"
+    ]
+  },
+  "states": {
+    "20391": {
+      "test_block_mode": "start"
+    },
+    "20392": {
+      "test_block_mode": "log"
+    },
+    "20393": {
+      "test_block_mode": "fail"
+    },
+    "20394": {
+      "test_block_mode": "accept"
+    },
+    "default": 20391
+  }
+}

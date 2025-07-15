@@ -1,0 +1,369 @@
+{
+  "version_data": [
+    {
+      "type": "table",
+      "value": {
+        "previousLabel": "19w46a",
+        "currentLabel": "19w46b",
+        "values": [
+          {
+            "key": "World version",
+            "previous": "2216",
+            "current": "2217"
+          },
+          {
+            "key": "Protocol version",
+            "previous": "563",
+            "current": "564"
+          }
+        ]
+      }
+    },
+    {
+      "type": "title",
+      "value": {
+        "title": "Libraries",
+        "id": "version-data-libraries",
+        "size": 3
+      }
+    },
+    {
+      "type": "table",
+      "value": {
+        "title": "Versions",
+        "previousLabel": "19w46a",
+        "currentLabel": "19w46b",
+        "values": [
+          {
+            "key": "org.lwjgl:lwjgl-glfw",
+            "previous": "3.2.1",
+            "current": "3.2.2"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-glfw",
+            "previous": "3.2.1",
+            "current": "3.2.2"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-jemalloc",
+            "previous": "3.2.1",
+            "current": "3.2.2"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-jemalloc",
+            "previous": "3.2.1",
+            "current": "3.2.2"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-openal",
+            "previous": "3.2.1",
+            "current": "3.2.2"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-openal",
+            "previous": "3.2.1",
+            "current": "3.2.2"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-opengl",
+            "previous": "3.2.1",
+            "current": "3.2.2"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-opengl",
+            "previous": "3.2.1",
+            "current": "3.2.2"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-stb",
+            "previous": "3.2.1",
+            "current": "3.2.2"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-stb",
+            "previous": "3.2.1",
+            "current": "3.2.2"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-tinyfd",
+            "previous": "3.2.1",
+            "current": "3.2.2"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-tinyfd",
+            "previous": "3.2.1",
+            "current": "3.2.2"
+          },
+          {
+            "key": "org.lwjgl:lwjgl",
+            "previous": "3.2.1",
+            "current": "3.2.2"
+          },
+          {
+            "key": "org.lwjgl:lwjgl",
+            "previous": "3.2.1",
+            "current": "3.2.2"
+          }
+        ]
+      }
+    }
+  ],
+  "translations": [
+    {
+      "type": "entries",
+      "value": {
+        "name": "Keys",
+        "differences": {
+          "added": [
+            "narration.suggestion.tooltip: Selected suggestion %d out of %d: %s (%s)",
+            "narration.suggestion: Selected suggestion %d out of %d: %s"
+          ],
+          "removed": []
+        }
+      }
+    }
+  ],
+  "mappings": [
+    {
+      "type": "title",
+      "value": {
+        "title": "Server",
+        "id": "server-mappings",
+        "size": 2
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "Changes",
+        "lines": [
+          "XXX.entity.animal.Bee$BeeGoToBlockGoal \u001b[2;31m-1M\u001b[0m",
+          "XXX.levelgen.flat.FlatLevelGeneratorSettings \u001b[2;32m+1M\u001b[0m"
+        ]
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.entity.animal.Bee$BeeGoToBlockGoal",
+        "differences": {
+          "added": [
+            "boolean canBeeContinueToUse()"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.level.levelgen.flat.FlatLevelGeneratorSettings",
+        "differences": {
+          "added": [],
+          "removed": [
+            "IllegalArgumentException lambda$fromString$12(ResourceLocation)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "title",
+      "value": {
+        "title": "Client",
+        "id": "client-mappings",
+        "size": 2
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "Classes",
+        "differences": {
+          "added": [
+            "XXX.gui.screens.ConfirmScreen",
+            "XXX.gui.screens.ConnectScreen$1",
+            "XXX.gui.screens.CreateBuffetWorldScreen$1",
+            "XXX.gui.screens.CreateBuffetWorldScreen$BiomeList$Entry",
+            "XXX.gui.screens.CreateFlatWorldScreen$1",
+            "XXX.gui.screens.CreateFlatWorldScreen$DetailsList$Entry",
+            "XXX.gui.screens.DemoIntroScreen",
+            "XXX.gui.screens.DisconnectedScreen",
+            "XXX.gui.screens.ErrorScreen",
+            "XXX.gui.screens.InBedChatScreen",
+            "XXX.gui.screens.LanguageSelectScreen$LanguageSelectionList",
+            "XXX.gui.screens.LevelLoadingScreen",
+            "XXX.gui.screens.LoadingOverlay$LogoTexture",
+            "XXX.gui.screens.MenuScreens$ScreenConstructor",
+            "XXX.gui.screens.OptionsScreen",
+            "XXX.gui.screens.OutOfMemoryScreen",
+            "XXX.gui.screens.PauseScreen",
+            "XXX.gui.screens.PresetFlatWorldScreen$PresetInfo",
+            "XXX.gui.screens.PresetFlatWorldScreen$PresetsList$Entry",
+            "XXX.gui.screens.ReceivingLevelScreen",
+            "XXX.gui.screens.ShareToLanScreen",
+            "XXX.gui.screens.SoundOptionsScreen",
+            "XXX.gui.screens.VideoSettingsScreen",
+            "XXX.screens.achievement.StatsScreen",
+            "XXX.screens.achievement.StatsScreen$GeneralStatisticsList",
+            "XXX.screens.achievement.StatsScreen$ItemStatisticsList",
+            "XXX.screens.achievement.StatsScreen$ItemStatisticsList$ItemRow",
+            "XXX.screens.achievement.StatsScreen$MobsStatisticsList$MobRow",
+            "XXX.screens.achievement.package-info",
+            "XXX.screens.advancements.AdvancementTabType",
+            "XXX.screens.advancements.AdvancementWidget",
+            "XXX.screens.advancements.AdvancementsScreen",
+            "XXX.screens.controls.ControlList",
+            "XXX.screens.controls.ControlList$CategoryEntry",
+            "XXX.screens.controls.ControlList$KeyEntry",
+            "XXX.screens.controls.ControlList$KeyEntry$2",
+            "XXX.screens.controls.package-info"
+          ],
+          "removed": [
+            "XXX.gui.screens.ConfirmLinkScreen",
+            "XXX.gui.screens.ConnectScreen",
+            "XXX.gui.screens.CreateBuffetWorldScreen",
+            "XXX.gui.screens.CreateBuffetWorldScreen$BiomeList",
+            "XXX.gui.screens.CreateFlatWorldScreen",
+            "XXX.gui.screens.CreateFlatWorldScreen$DetailsList",
+            "XXX.gui.screens.DeathScreen",
+            "XXX.gui.screens.DirectJoinServerScreen",
+            "XXX.gui.screens.EditServerScreen",
+            "XXX.gui.screens.GenericDirtMessageScreen",
+            "XXX.gui.screens.LanguageSelectScreen",
+            "XXX.gui.screens.LanguageSelectScreen$LanguageSelectionList$Entry",
+            "XXX.gui.screens.LoadingOverlay",
+            "XXX.gui.screens.MenuScreens",
+            "XXX.gui.screens.MouseSettingsScreen",
+            "XXX.gui.screens.OptionsSubScreen",
+            "XXX.gui.screens.Overlay",
+            "XXX.gui.screens.PresetFlatWorldScreen",
+            "XXX.gui.screens.PresetFlatWorldScreen$PresetsList",
+            "XXX.gui.screens.ProgressScreen",
+            "XXX.gui.screens.Screen",
+            "XXX.gui.screens.SkinCustomizationScreen",
+            "XXX.gui.screens.TitleScreen",
+            "XXX.gui.screens.WinScreen",
+            "XXX.screens.achievement.StatsScreen$1",
+            "XXX.screens.achievement.StatsScreen$GeneralStatisticsList$Entry",
+            "XXX.screens.achievement.StatsScreen$ItemStatisticsList$ItemComparator",
+            "XXX.screens.achievement.StatsScreen$MobsStatisticsList",
+            "XXX.screens.achievement.StatsUpdateListener",
+            "XXX.screens.advancements.AdvancementTab",
+            "XXX.screens.advancements.AdvancementTabType$1",
+            "XXX.screens.advancements.AdvancementWidgetType",
+            "XXX.screens.advancements.package-info",
+            "XXX.screens.controls.ControlList$1",
+            "XXX.screens.controls.ControlList$Entry",
+            "XXX.screens.controls.ControlList$KeyEntry$1",
+            "XXX.screens.controls.ControlsScreen",
+            "XXX.screens.inventory.AbstractCommandBlockEditScreen"
+          ]
+        }
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "Changes",
+        "lines": [
+          "XXX.gui.components.CommandSuggestions \u001b[2;32m+13M\u001b[0m \u001b[2;31m-12M\u001b[0m | \u001b[2;32m+1P\u001b[0m \u001b[2;31m-1P\u001b[0m",
+          "XXX.gui.components.CommandSuggestions$SuggestionsList \u001b[2;32m+4M\u001b[0m \u001b[2;31m-2M\u001b[0m | \u001b[2;32m+1P\u001b[0m",
+          "XXX.gui.screens.ChatScreen \u001b[2;32m+1M\u001b[0m",
+          "XXX.entity.animal.Bee$BeeGoToBlockGoal \u001b[2;31m-1M\u001b[0m",
+          "XXX.levelgen.flat.FlatLevelGeneratorSettings \u001b[2;32m+1M\u001b[0m"
+        ]
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.client.gui.components.CommandSuggestions",
+        "differences": {
+          "added": [
+            "void showSuggestions()",
+            "boolean access$100(CommandSuggestions)",
+            "int access$200(CommandSuggestions)",
+            "EditBox access$300(CommandSuggestions)",
+            "int access$400(CommandSuggestions)",
+            "Font access$500(CommandSuggestions)",
+            "Screen access$600(CommandSuggestions)",
+            "Minecraft access$700(CommandSuggestions)",
+            "int access$800(CommandSuggestions)",
+            "String access$900(String,String)",
+            "boolean access$1002(CommandSuggestions,boolean)",
+            "CommandSuggestions$SuggestionsList access$1102(CommandSuggestions,CommandSuggestions$SuggestionsList)"
+          ],
+          "removed": [
+            "void showSuggestions(boolean)",
+            "String getNarrationMessage()",
+            "boolean access$200(CommandSuggestions)",
+            "int access$300(CommandSuggestions)",
+            "EditBox access$400(CommandSuggestions)",
+            "int access$500(CommandSuggestions)",
+            "Font access$600(CommandSuggestions)",
+            "Screen access$700(CommandSuggestions)",
+            "Minecraft access$800(CommandSuggestions)",
+            "int access$900(CommandSuggestions)",
+            "String access$1000(String,String)",
+            "boolean access$1102(CommandSuggestions,boolean)",
+            "CommandSuggestions$SuggestionsList access$1202(CommandSuggestions,CommandSuggestions$SuggestionsList)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.client.gui.components.CommandSuggestions$SuggestionsList",
+        "differences": {
+          "added": [
+            "void <init>(CommandSuggestions,int,int,int,Suggestions)",
+            "void <init>(CommandSuggestions,int,int,int,Suggestions,CommandSuggestions$1)"
+          ],
+          "removed": [
+            "void <init>(CommandSuggestions,int,int,int,Suggestions,boolean)",
+            "String getNarrationMessage()",
+            "void <init>(CommandSuggestions,int,int,int,Suggestions,boolean,CommandSuggestions$1)",
+            "String access$100(CommandSuggestions$SuggestionsList)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.client.gui.screens.ChatScreen",
+        "differences": {
+          "added": [],
+          "removed": [
+            "CommandSuggestions access$000(ChatScreen)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.entity.animal.Bee$BeeGoToBlockGoal",
+        "differences": {
+          "added": [
+            "boolean canBeeContinueToUse()"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.level.levelgen.flat.FlatLevelGeneratorSettings",
+        "differences": {
+          "added": [],
+          "removed": [
+            "IllegalArgumentException lambda$fromString$12(ResourceLocation)"
+          ]
+        }
+      }
+    }
+  ]
+}

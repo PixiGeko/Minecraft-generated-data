@@ -1,0 +1,25 @@
+{
+  "definition": {
+    "type": "minecraft:rotated_pillar",
+    "properties": {}
+  },
+  "properties": {
+    "axis": [
+      "x",
+      "y",
+      "z"
+    ]
+  },
+  "states": {
+    "201": {
+      "axis": "x"
+    },
+    "202": {
+      "axis": "y"
+    },
+    "203": {
+      "axis": "z"
+    },
+    "default": 202
+  }
+}

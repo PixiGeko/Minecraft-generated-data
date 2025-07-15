@@ -1,0 +1,59 @@
+{
+  "version_data": [
+    {
+      "type": "table",
+      "value": {
+        "previousLabel": "1.20.3-pre3",
+        "currentLabel": "1.20.3-pre4",
+        "values": [
+          {
+            "key": "World version",
+            "previous": "3695",
+            "current": "3696"
+          },
+          {
+            "key": "Protocol version",
+            "previous": "1073741990",
+            "current": "1073741991"
+          }
+        ]
+      }
+    }
+  ],
+  "mappings": [
+    {
+      "type": "title",
+      "value": {
+        "title": "Server",
+        "id": "server-mappings",
+        "size": 2
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "Changes",
+        "lines": [
+          "XXX.commands.execution.ExecutionContext \u001b[2;32m+1P\u001b[0m"
+        ]
+      }
+    },
+    {
+      "type": "title",
+      "value": {
+        "title": "Client",
+        "id": "client-mappings",
+        "size": 2
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "Changes",
+        "lines": [
+          "XXX.commands.execution.ExecutionContext \u001b[2;32m+1P\u001b[0m"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "definition": {
+    "type": "minecraft:wall_skull",
+    "kind": "dragon",
+    "properties": {}
+  },
+  "properties": {
+    "facing": [
+      "north",
+      "south",
+      "west",
+      "east"
+    ],
+    "powered": [
+      true,
+      true
+    ]
+  },
+  "states": {
+    "9794": {
+      "facing": "north",
+      "powered": true
+    },
+    "9795": {
+      "facing": "north",
+      "powered": true
+    },
+    "9796": {
+      "facing": "south",
+      "powered": true
+    },
+    "9797": {
+      "facing": "south",
+      "powered": true
+    },
+    "9798": {
+      "facing": "west",
+      "powered": true
+    },
+    "9799": {
+      "facing": "west",
+      "powered": true
+    },
+    "9800": {
+      "facing": "east",
+      "powered": true
+    },
+    "9801": {
+      "facing": "east",
+      "powered": true
+    },
+    "default": 9795
+  }
+}

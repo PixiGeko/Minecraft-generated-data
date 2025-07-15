@@ -1,0 +1,265 @@
+{
+  "version_data": [
+    {
+      "type": "table",
+      "value": {
+        "previousLabel": "19w12b",
+        "currentLabel": "19w13a",
+        "values": [
+          {
+            "key": "World version",
+            "previous": "1941",
+            "current": "1942"
+          },
+          {
+            "key": "Protocol version",
+            "previous": "467",
+            "current": "468"
+          }
+        ]
+      }
+    }
+  ],
+  "registries": [
+    {
+      "type": "entries",
+      "value": {
+        "name": "activity",
+        "differences": {
+          "added": [
+            "minecraft:raid",
+            "minecraft:pre_raid",
+            "minecraft:hide"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "memory_module_type",
+        "differences": {
+          "added": [
+            "minecraft:visible_villager_babies",
+            "minecraft:nearest_bed",
+            "minecraft:hiding_place",
+            "minecraft:heard_bell_time"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "mob_effect",
+        "differences": {
+          "added": [
+            "minecraft:hero_of_the_village"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "sensor_type",
+        "differences": {
+          "added": [
+            "minecraft:nearest_bed",
+            "minecraft:villager_babies"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "sound_event",
+        "differences": {
+          "added": [
+            "minecraft:entity.evoker.celebrate",
+            "minecraft:entity.ravager.celebrate",
+            "minecraft:entity.pillager.celebrate",
+            "minecraft:entity.villager.celebrate",
+            "minecraft:entity.vindicator.celebrate",
+            "minecraft:entity.witch.celebrate"
+          ],
+          "removed": []
+        }
+      }
+    }
+  ],
+  "tags": [
+    {
+      "type": "entries",
+      "value": {
+        "name": "universal_tags/activity.json",
+        "differences": {
+          "added": [
+            "minecraft:raid",
+            "minecraft:pre_raid",
+            "minecraft:hide"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "universal_tags/memory_module_type.json",
+        "differences": {
+          "added": [
+            "minecraft:visible_villager_babies",
+            "minecraft:nearest_bed",
+            "minecraft:hiding_place",
+            "minecraft:heard_bell_time"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "universal_tags/mob_effect.json",
+        "differences": {
+          "added": [
+            "minecraft:hero_of_the_village"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "universal_tags/sensor_type.json",
+        "differences": {
+          "added": [
+            "minecraft:nearest_bed",
+            "minecraft:villager_babies"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "universal_tags/sound_event.json",
+        "differences": {
+          "added": [
+            "minecraft:entity.evoker.celebrate",
+            "minecraft:entity.ravager.celebrate",
+            "minecraft:entity.pillager.celebrate",
+            "minecraft:entity.villager.celebrate",
+            "minecraft:entity.vindicator.celebrate",
+            "minecraft:entity.witch.celebrate"
+          ],
+          "removed": []
+        }
+      }
+    }
+  ],
+  "translations": [
+    {
+      "type": "entries",
+      "value": {
+        "name": "Keys",
+        "differences": {
+          "added": [
+            "narrator.button.accessibility: Accessibility",
+            "narrator.button.language: Language",
+            "narrator.button.difficulty_lock: Difficulity lock",
+            "narrator.button.difficulty_lock.unlocked: Unlocked",
+            "narrator.button.difficulty_lock.locked: Locked",
+            "narrator.loading: Loading",
+            "narrator.joining: Joining",
+            "effect.minecraft.hero_of_the_village: Hero of the Village",
+            "event.minecraft.raid.victory: Victory",
+            "event.minecraft.raid.defeat: Defeat",
+            "subtitles.entity.evoker.celebrate: Evoker cheers",
+            "subtitles.entity.ravager.celebrate: Ravager cheers",
+            "subtitles.entity.pillager.celebrate: Pillager cheers",
+            "subtitles.entity.villager.celebrate: Villager cheers",
+            "subtitles.entity.vindicator.celebrate: Vindicator cheers",
+            "subtitles.entity.witch.celebrate: Witch cheers"
+          ],
+          "removed": []
+        }
+      }
+    }
+  ],
+  "file_structure": [
+    {
+      "type": "entries",
+      "value": {
+        "name": "data",
+        "differences": {
+          "added": [
+            "minecraft/loot_tables/gameplay/hero_of_the_village/armorer_gift.json",
+            "minecraft/loot_tables/gameplay/hero_of_the_village/butcher_gift.json",
+            "minecraft/loot_tables/gameplay/hero_of_the_village/cartographer_gift.json",
+            "minecraft/loot_tables/gameplay/hero_of_the_village/cleric_gift.json",
+            "minecraft/loot_tables/gameplay/hero_of_the_village/farmer_gift.json",
+            "minecraft/loot_tables/gameplay/hero_of_the_village/fisherman_gift.json",
+            "minecraft/loot_tables/gameplay/hero_of_the_village/fletcher_gift.json",
+            "minecraft/loot_tables/gameplay/hero_of_the_village/leatherworker_gift.json",
+            "minecraft/loot_tables/gameplay/hero_of_the_village/librarian_gift.json",
+            "minecraft/loot_tables/gameplay/hero_of_the_village/mason_gift.json",
+            "minecraft/loot_tables/gameplay/hero_of_the_village/shepherd_gift.json",
+            "minecraft/loot_tables/gameplay/hero_of_the_village/toolsmith_gift.json",
+            "minecraft/loot_tables/gameplay/hero_of_the_village/weaponsmith_gift.json"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "assets",
+        "differences": {
+          "added": [
+            "minecraft/textures/gui/accessibility.png",
+            "minecraft/textures/mob_effect/hero_of_the_village.png"
+          ],
+          "removed": []
+        }
+      }
+    }
+  ],
+  "misc": [
+    {
+      "type": "entries",
+      "value": {
+        "name": "splashes",
+        "differences": {
+          "added": [
+            "Rainbow turtle?",
+            "Something funny!",
+            "I need more context.",
+            "Ahhhhhh!",
+            "Don't worry, be happy!",
+            "Water bottle!",
+            "What's the question?",
+            "Plant a tree!",
+            "Go to the dentist!",
+            "What do you expect?",
+            "Look mum, I'm in a splash!"
+          ],
+          "removed": [
+            "Made by Notch!",
+            "The Work of Notch!",
+            "110813!"
+          ]
+        }
+      }
+    }
+  ]
+}

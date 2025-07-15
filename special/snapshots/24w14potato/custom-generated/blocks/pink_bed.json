@@ -1,0 +1,106 @@
+{
+  "definition": {
+    "type": "minecraft:bed",
+    "color": "pink",
+    "properties": {}
+  },
+  "properties": {
+    "facing": [
+      "north",
+      "south",
+      "west",
+      "east"
+    ],
+    "occupied": [
+      true,
+      true
+    ],
+    "part": [
+      "head",
+      "foot"
+    ]
+  },
+  "states": {
+    "3876": {
+      "facing": "north",
+      "occupied": true,
+      "part": "head"
+    },
+    "3877": {
+      "facing": "north",
+      "occupied": true,
+      "part": "foot"
+    },
+    "3878": {
+      "facing": "north",
+      "occupied": true,
+      "part": "head"
+    },
+    "3879": {
+      "facing": "north",
+      "occupied": true,
+      "part": "foot"
+    },
+    "3880": {
+      "facing": "south",
+      "occupied": true,
+      "part": "head"
+    },
+    "3881": {
+      "facing": "south",
+      "occupied": true,
+      "part": "foot"
+    },
+    "3882": {
+      "facing": "south",
+      "occupied": true,
+      "part": "head"
+    },
+    "3883": {
+      "facing": "south",
+      "occupied": true,
+      "part": "foot"
+    },
+    "3884": {
+      "facing": "west",
+      "occupied": true,
+      "part": "head"
+    },
+    "3885": {
+      "facing": "west",
+      "occupied": true,
+      "part": "foot"
+    },
+    "3886": {
+      "facing": "west",
+      "occupied": true,
+      "part": "head"
+    },
+    "3887": {
+      "facing": "west",
+      "occupied": true,
+      "part": "foot"
+    },
+    "3888": {
+      "facing": "east",
+      "occupied": true,
+      "part": "head"
+    },
+    "3889": {
+      "facing": "east",
+      "occupied": true,
+      "part": "foot"
+    },
+    "3890": {
+      "facing": "east",
+      "occupied": true,
+      "part": "head"
+    },
+    "3891": {
+      "facing": "east",
+      "occupied": true,
+      "part": "foot"
+    },
+    "default": 3879
+  }
+}

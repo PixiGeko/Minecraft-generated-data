@@ -1,0 +1,67 @@
+{
+  "properties": {
+    "type": [
+      "normal",
+      "sticky"
+    ],
+    "facing": [
+      "north",
+      "east",
+      "south",
+      "west",
+      "up",
+      "down"
+    ]
+  },
+  "states": {
+    "1962": {
+      "type": "normal",
+      "facing": "north"
+    },
+    "1963": {
+      "type": "sticky",
+      "facing": "north"
+    },
+    "1964": {
+      "type": "normal",
+      "facing": "east"
+    },
+    "1965": {
+      "type": "sticky",
+      "facing": "east"
+    },
+    "1966": {
+      "type": "normal",
+      "facing": "south"
+    },
+    "1967": {
+      "type": "sticky",
+      "facing": "south"
+    },
+    "1968": {
+      "type": "normal",
+      "facing": "west"
+    },
+    "1969": {
+      "type": "sticky",
+      "facing": "west"
+    },
+    "1970": {
+      "type": "normal",
+      "facing": "up"
+    },
+    "1971": {
+      "type": "sticky",
+      "facing": "up"
+    },
+    "1972": {
+      "type": "normal",
+      "facing": "down"
+    },
+    "1973": {
+      "type": "sticky",
+      "facing": "down"
+    },
+    "default": 1962
+  }
+}

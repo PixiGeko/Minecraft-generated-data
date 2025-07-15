@@ -1,0 +1,3286 @@
+{
+  "version_data": [
+    {
+      "type": "table",
+      "value": {
+        "previousLabel": "19w41a",
+        "currentLabel": "19w42a",
+        "values": [
+          {
+            "key": "World version",
+            "previous": "2210",
+            "current": "2212"
+          },
+          {
+            "key": "Protocol version",
+            "previous": "558",
+            "current": "559"
+          }
+        ]
+      }
+    },
+    {
+      "type": "title",
+      "value": {
+        "title": "Libraries",
+        "id": "version-data-libraries",
+        "size": 3
+      }
+    },
+    {
+      "type": "table",
+      "value": {
+        "title": "Versions",
+        "previousLabel": "19w41a",
+        "currentLabel": "19w42a",
+        "values": [
+          {
+            "key": "org.lwjgl:lwjgl-glfw",
+            "previous": "3.2.1",
+            "current": "3.2.2"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-glfw",
+            "previous": "3.2.1",
+            "current": "3.2.2"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-jemalloc",
+            "previous": "3.2.1",
+            "current": "3.2.2"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-jemalloc",
+            "previous": "3.2.1",
+            "current": "3.2.2"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-openal",
+            "previous": "3.2.1",
+            "current": "3.2.2"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-openal",
+            "previous": "3.2.1",
+            "current": "3.2.2"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-opengl",
+            "previous": "3.2.1",
+            "current": "3.2.2"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-opengl",
+            "previous": "3.2.1",
+            "current": "3.2.2"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-stb",
+            "previous": "3.2.1",
+            "current": "3.2.2"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-stb",
+            "previous": "3.2.1",
+            "current": "3.2.2"
+          },
+          {
+            "key": "org.lwjgl:lwjgl",
+            "previous": "3.2.1",
+            "current": "3.2.2"
+          },
+          {
+            "key": "org.lwjgl:lwjgl",
+            "previous": "3.2.1",
+            "current": "3.2.2"
+          }
+        ]
+      }
+    }
+  ],
+  "translations": [
+    {
+      "type": "entries",
+      "value": {
+        "name": "Keys",
+        "differences": {
+          "added": [
+            "chat.copy.click: Click to copy to Clipboard"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "text",
+      "value": {
+        "title": "Changes",
+        "values": [
+          {
+            "key": "block.minecraft.bee_nest",
+            "previous": "Bee nest",
+            "current": "Bee Nest"
+          }
+        ]
+      }
+    }
+  ],
+  "file_structure": [
+    {
+      "type": "entries",
+      "value": {
+        "name": "data",
+        "differences": {
+          "added": [
+            "minecraft/tags/items/lectern_books.json"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "assets",
+        "differences": {
+          "added": [
+            "minecraft/textures/entity/chest/christmas_left.png",
+            "minecraft/textures/entity/chest/christmas_right.png",
+            "minecraft/textures/entity/chest/normal_left.png",
+            "minecraft/textures/entity/chest/normal_right.png",
+            "minecraft/textures/entity/chest/trapped_left.png",
+            "minecraft/textures/entity/chest/trapped_right.png"
+          ],
+          "removed": [
+            "minecraft/textures/block/wax_block.png",
+            "minecraft/textures/entity/chest/christmas_double.png",
+            "minecraft/textures/entity/chest/normal_double.png",
+            "minecraft/textures/entity/chest/trapped_double.png",
+            "minecraft/textures/item/crystallized_honey.png"
+          ]
+        }
+      }
+    }
+  ],
+  "mappings": [
+    {
+      "type": "title",
+      "value": {
+        "title": "Server",
+        "id": "server-mappings",
+        "size": 2
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "Classes",
+        "differences": {
+          "added": [
+            "XXX.core.dispenser.DispenseItemBehavior$3",
+            "XXX.core.dispenser.DispenseItemBehavior$5",
+            "XXX.core.dispenser.DispenseItemBehavior$7",
+            "XXX.core.dispenser.DispenseItemBehavior$8",
+            "XXX.core.dispenser.DispenseItemBehavior$9",
+            "XXX.core.dispenser.ShulkerBoxDispenseBehavior",
+            "XXX.minecraft.core.package-info",
+            "XXX.core.particles.BlockParticleOption$1",
+            "XXX.core.particles.DustParticleOptions$1",
+            "XXX.core.particles.ItemParticleOption$1",
+            "XXX.core.particles.ParticleOptions$Deserializer",
+            "XXX.core.particles.ParticleTypes",
+            "XXX.core.particles.SimpleParticleType$1",
+            "XXX.minecraft.data.DataGenerator",
+            "XXX.minecraft.data.HashCache",
+            "XXX.data.advancements.AdvancementProvider",
+            "XXX.data.advancements.HusbandryAdvancements",
+            "XXX.data.advancements.StoryAdvancements",
+            "XXX.data.advancements.package-info",
+            "XXX.data.info.CommandsReport",
+            "XXX.data.info.package-info",
+            "XXX.data.loot.ChestLoot",
+            "XXX.data.loot.FishingLoot",
+            "XXX.data.loot.LootTableProvider",
+            "XXX.minecraft.data.package-info",
+            "XXX.data.recipes.RecipeProvider",
+            "XXX.data.recipes.ShapedRecipeBuilder$Result",
+            "XXX.data.recipes.ShapelessRecipeBuilder$Result",
+            "XXX.data.recipes.SimpleCookingRecipeBuilder$Result",
+            "XXX.data.recipes.SingleItemRecipeBuilder$Result",
+            "XXX.data.recipes.SpecialRecipeBuilder$1",
+            "XXX.data.structures.NbtToSnbt",
+            "XXX.data.structures.SnbtToNbt$Filter",
+            "XXX.data.structures.StructureUpdater",
+            "XXX.data.tags.BlockTagsProvider",
+            "XXX.data.tags.FluidTagsProvider",
+            "XXX.data.tags.TagsProvider",
+            "XXX.gametest.framework.BeforeBatch",
+            "XXX.gametest.framework.GameTestAssertException",
+            "XXX.gametest.framework.GameTestBatch",
+            "XXX.gametest.framework.GameTestBatchRunner$1",
+            "XXX.gametest.framework.GameTestGenerator",
+            "XXX.gametest.framework.GameTestInfo",
+            "XXX.gametest.framework.GameTestRegistry",
+            "XXX.gametest.framework.GameTestRunner$1",
+            "XXX.gametest.framework.GameTestSequence$Condition",
+            "XXX.gametest.framework.GameTestServer$1",
+            "XXX.gametest.framework.GameTestTimeoutException",
+            "XXX.gametest.framework.MultipleTestTracker",
+            "XXX.gametest.framework.TeamcityTestReporter",
+            "XXX.gametest.framework.TestCommand",
+            "XXX.gametest.framework.TestFunction",
+            "XXX.gametest.framework.TestReporter",
+            "XXX.minecraft.locale.Language",
+            "XXX.minecraft.nbt.ByteArrayTag",
+            "XXX.minecraft.nbt.ByteTag",
+            "XXX.minecraft.nbt.ByteTag$Cache",
+            "XXX.minecraft.nbt.CompoundTag",
+            "XXX.minecraft.nbt.DoubleTag",
+            "XXX.minecraft.nbt.EndTag",
+            "XXX.minecraft.nbt.FloatTag",
+            "XXX.minecraft.nbt.IntArrayTag",
+            "XXX.minecraft.nbt.IntTag",
+            "XXX.minecraft.nbt.IntTag$Cache",
+            "XXX.minecraft.nbt.ListTag$1",
+            "XXX.minecraft.nbt.LongArrayTag$1",
+            "XXX.minecraft.nbt.LongTag$1",
+            "XXX.minecraft.nbt.NbtAccounter",
+            "XXX.minecraft.nbt.NbtIo",
+            "XXX.minecraft.nbt.NbtUtils",
+            "XXX.minecraft.nbt.ShortTag",
+            "XXX.minecraft.nbt.ShortTag$Cache",
+            "XXX.minecraft.nbt.StringTag$1",
+            "XXX.minecraft.nbt.TagParser",
+            "XXX.minecraft.nbt.TagType$1",
+            "XXX.minecraft.nbt.package-info",
+            "XXX.minecraft.network.CipherDecoder",
+            "XXX.minecraft.network.CompressionDecoder",
+            "XXX.minecraft.network.Connection",
+            "XXX.minecraft.network.Connection$2",
+            "XXX.minecraft.network.ConnectionProtocol",
+            "XXX.minecraft.network.ConnectionProtocol$PacketSet",
+            "XXX.minecraft.network.FriendlyByteBuf",
+            "XXX.minecraft.network.PacketEncoder",
+            "XXX.minecraft.network.SkipPacketException",
+            "XXX.minecraft.network.Varint21LengthFieldPrepender",
+            "XXX.network.chat.ChatType",
+            "XXX.network.chat.ClickEvent$Action",
+            "XXX.network.chat.Component$1",
+            "XXX.network.chat.ComponentUtils",
+            "XXX.network.chat.HoverEvent",
+            "XXX.network.chat.KeybindComponent",
+            "XXX.network.chat.NbtComponent$BlockNbtComponent",
+            "XXX.network.chat.NbtComponent$StorageNbtComponent",
+            "XXX.network.chat.SelectorComponent",
+            "XXX.network.chat.Style$1",
+            "XXX.network.chat.TextComponent",
+            "XXX.network.chat.TranslatableFormatException",
+            "XXX.minecraft.network.package-info",
+            "XXX.network.protocol.PacketFlow",
+            "XXX.protocol.game.ClientGamePacketListener",
+            "XXX.protocol.game.ClientboundAddExperienceOrbPacket",
+            "XXX.protocol.game.ClientboundAddMobPacket",
+            "XXX.protocol.game.ClientboundAddPlayerPacket",
+            "XXX.protocol.game.ClientboundAwardStatsPacket",
+            "XXX.protocol.game.ClientboundBlockDestructionPacket",
+            "XXX.protocol.game.ClientboundBlockEventPacket",
+            "XXX.protocol.game.ClientboundBossEventPacket",
+            "XXX.protocol.game.ClientboundBossEventPacket$Operation",
+            "XXX.protocol.game.ClientboundChatPacket",
+            "XXX.protocol.game.ClientboundChunkBlocksUpdatePacket$BlockUpdate",
+            "XXX.protocol.game.ClientboundCommandsPacket",
+            "XXX.protocol.game.ClientboundCommandsPacket$Entry",
+            "XXX.protocol.game.ClientboundContainerClosePacket",
+            "XXX.protocol.game.ClientboundContainerSetDataPacket",
+            "XXX.protocol.game.ClientboundCooldownPacket",
+            "XXX.protocol.game.ClientboundCustomSoundPacket",
+            "XXX.protocol.game.ClientboundEntityEventPacket",
+            "XXX.protocol.game.ClientboundForgetLevelChunkPacket",
+            "XXX.protocol.game.ClientboundHorseScreenOpenPacket",
+            "XXX.protocol.game.ClientboundLevelChunkPacket",
+            "XXX.protocol.game.ClientboundLevelParticlesPacket",
+            "XXX.protocol.game.ClientboundLoginPacket",
+            "XXX.protocol.game.ClientboundMerchantOffersPacket",
+            "XXX.protocol.game.ClientboundMoveEntityPacket$Pos",
+            "XXX.protocol.game.ClientboundMoveEntityPacket$Rot",
+            "XXX.protocol.game.ClientboundOpenBookPacket",
+            "XXX.protocol.game.ClientboundOpenSignEditorPacket",
+            "XXX.protocol.game.ClientboundPlayerAbilitiesPacket",
+            "XXX.protocol.game.ClientboundPlayerCombatPacket$1",
+            "XXX.protocol.game.ClientboundPlayerInfoPacket",
+            "XXX.protocol.game.ClientboundPlayerInfoPacket$Action",
+            "XXX.protocol.game.ClientboundPlayerLookAtPacket",
+            "XXX.protocol.game.ClientboundPlayerPositionPacket$RelativeArgument",
+            "XXX.protocol.game.ClientboundRecipePacket$State",
+            "XXX.protocol.game.ClientboundRemoveMobEffectPacket",
+            "XXX.protocol.game.ClientboundRespawnPacket",
+            "XXX.protocol.game.ClientboundSelectAdvancementsTabPacket",
+            "XXX.protocol.game.ClientboundSetBorderPacket$1",
+            "XXX.protocol.game.ClientboundSetCameraPacket",
+            "XXX.protocol.game.ClientboundSetChunkCacheCenterPacket",
+            "XXX.protocol.game.ClientboundSetDisplayObjectivePacket",
+            "XXX.protocol.game.ClientboundSetEntityLinkPacket",
+            "XXX.protocol.game.ClientboundSetEquippedItemPacket",
+            "XXX.protocol.game.ClientboundSetHealthPacket",
+            "XXX.protocol.game.ClientboundSetPassengersPacket",
+            "XXX.protocol.game.ClientboundSetScorePacket",
+            "XXX.protocol.game.ClientboundSetTimePacket",
+            "XXX.protocol.game.ClientboundSetTitlesPacket$Type",
+            "XXX.protocol.game.ClientboundSoundPacket",
+            "XXX.protocol.game.ClientboundTabListPacket",
+            "XXX.protocol.game.ClientboundTakeItemEntityPacket",
+            "XXX.protocol.game.ClientboundUpdateAdvancementsPacket",
+            "XXX.protocol.game.ClientboundUpdateAttributesPacket$AttributeSnapshot",
+            "XXX.protocol.game.ClientboundUpdateRecipesPacket",
+            "XXX.protocol.game.DebugPackets",
+            "XXX.protocol.game.ServerGamePacketListener",
+            "XXX.protocol.game.ServerboundBlockEntityTagQuery",
+            "XXX.protocol.game.ServerboundChatPacket",
+            "XXX.protocol.game.ServerboundClientCommandPacket$Action",
+            "XXX.protocol.game.ServerboundCommandSuggestionPacket",
+            "XXX.protocol.game.ServerboundContainerButtonClickPacket",
+            "XXX.protocol.game.ServerboundContainerClosePacket",
+            "XXX.protocol.game.ServerboundEditBookPacket",
+            "XXX.protocol.game.ServerboundInteractPacket",
+            "XXX.protocol.game.ServerboundKeepAlivePacket",
+            "XXX.protocol.game.ServerboundMovePlayerPacket",
+            "XXX.protocol.game.ServerboundMovePlayerPacket$PosRot",
+            "XXX.protocol.game.ServerboundMoveVehiclePacket",
+            "XXX.protocol.game.ServerboundPickItemPacket",
+            "XXX.protocol.game.ServerboundPlayerAbilitiesPacket",
+            "XXX.protocol.game.ServerboundPlayerActionPacket$Action",
+            "XXX.protocol.game.ServerboundPlayerCommandPacket$Action",
+            "XXX.protocol.game.ServerboundRecipeBookUpdatePacket",
+            "XXX.protocol.game.ServerboundRenameItemPacket",
+            "XXX.protocol.game.ServerboundResourcePackPacket$Action",
+            "XXX.protocol.game.ServerboundSeenAdvancementsPacket$Action",
+            "XXX.protocol.game.ServerboundSetBeaconPacket",
+            "XXX.protocol.game.ServerboundSetCommandBlockPacket",
+            "XXX.protocol.game.ServerboundSetCreativeModeSlotPacket",
+            "XXX.protocol.game.ServerboundSetStructureBlockPacket",
+            "XXX.protocol.game.ServerboundSwingPacket",
+            "XXX.protocol.game.ServerboundUseItemOnPacket",
+            "XXX.protocol.game.package-info",
+            "XXX.protocol.handshake.ServerHandshakePacketListener",
+            "XXX.protocol.login.ClientLoginPacketListener",
+            "XXX.protocol.login.ClientboundGameProfilePacket",
+            "XXX.protocol.login.ClientboundLoginCompressionPacket",
+            "XXX.protocol.login.ServerLoginPacketListener",
+            "XXX.protocol.login.ServerboundHelloPacket",
+            "XXX.protocol.login.package-info",
+            "XXX.protocol.status.ClientStatusPacketListener",
+            "XXX.protocol.status.ClientboundStatusResponsePacket",
+            "XXX.protocol.status.ServerStatus$Players",
+            "XXX.protocol.status.ServerStatus$Serializer",
+            "XXX.protocol.status.ServerStatus$Version$Serializer",
+            "XXX.protocol.status.ServerboundPingRequestPacket",
+            "XXX.protocol.status.package-info",
+            "XXX.network.syncher.EntityDataSerializer",
+            "XXX.network.syncher.EntityDataSerializers$1",
+            "XXX.network.syncher.EntityDataSerializers$11",
+            "XXX.network.syncher.EntityDataSerializers$13",
+            "XXX.network.syncher.EntityDataSerializers$15",
+            "XXX.network.syncher.EntityDataSerializers$17",
+            "XXX.network.syncher.EntityDataSerializers$19",
+            "XXX.network.syncher.EntityDataSerializers$3",
+            "XXX.network.syncher.EntityDataSerializers$5",
+            "XXX.network.syncher.EntityDataSerializers$7",
+            "XXX.network.syncher.EntityDataSerializers$9",
+            "XXX.network.syncher.SynchedEntityData$DataItem",
+            "XXX.minecraft.obfuscate.DontObfuscateOrShrink",
+            "XXX.minecraft.obfuscate.package-info",
+            "XXX.minecraft.recipebook.PlaceRecipe",
+            "XXX.minecraft.recipebook.ServerPlaceSmeltingRecipe",
+            "XXX.minecraft.resources.ResourceLocation",
+            "XXX.minecraft.resources.package-info",
+            "XXX.minecraft.server.ChainedJsonException",
+            "XXX.minecraft.server.ChainedJsonException$Entry",
+            "XXX.minecraft.server.ConsoleInputSource",
+            "XXX.minecraft.server.Eula",
+            "XXX.minecraft.server.MinecraftServer",
+            "XXX.minecraft.server.MinecraftServer$2",
+            "XXX.minecraft.server.PlayerAdvancements",
+            "XXX.minecraft.server.RunningOnDifferentThreadException",
+            "XXX.minecraft.server.ServerFunctionManager",
+            "XXX.minecraft.server.ServerInterface",
+            "XXX.minecraft.server.ServerScoreboard$Method",
+            "XXX.server.bossevents.CustomBossEvent",
+            "XXX.server.bossevents.package-info",
+            "XXX.server.commands.AdvancementCommands$1",
+            "XXX.server.commands.AdvancementCommands$Action$1",
+            "XXX.server.commands.AdvancementCommands$Mode",
+            "XXX.server.commands.BanListCommands",
+            "XXX.server.commands.BossBarCommands",
+            "XXX.server.commands.CloneCommands",
+            "XXX.server.commands.CloneCommands$Mode",
+            "XXX.server.commands.DataPackCommand$Inserter",
+            "XXX.server.commands.DebugCommand",
+            "XXX.server.commands.DefaultGameModeCommands",
+            "XXX.server.commands.EffectCommands",
+            "XXX.server.commands.EnchantCommand",
+            "XXX.server.commands.ExecuteCommand$CommandNumericPredicate",
+            "XXX.server.commands.ExperienceCommand",
+            "XXX.server.commands.FillCommand",
+            "XXX.server.commands.ForceLoadCommand",
+            "XXX.server.commands.GameModeCommand",
+            "XXX.server.commands.GameRuleCommand$1",
+            "XXX.server.commands.HelpCommand",
+            "XXX.server.commands.KillCommand",
+            "XXX.server.commands.LocateCommand",
+            "XXX.server.commands.LootCommand$Callback",
+            "XXX.server.commands.LootCommand$TailProvider",
+            "XXX.server.commands.OpCommand",
+            "XXX.server.commands.PardonIpCommand",
+            "XXX.server.commands.PlaySoundCommand",
+            "XXX.server.commands.RaidCommand",
+            "XXX.server.commands.ReloadCommand",
+            "XXX.server.commands.SaveAllCommand",
+            "XXX.server.commands.SaveOnCommand",
+            "XXX.server.commands.ScheduleCommand",
+            "XXX.server.commands.SeedCommand",
+            "XXX.server.commands.SetBlockCommand$Filter",
+            "XXX.server.commands.SetPlayerIdleTimeoutCommand",
+            "XXX.server.commands.SetWorldSpawnCommand",
+            "XXX.server.commands.SpreadPlayersCommand",
+            "XXX.server.commands.StopCommand",
+            "XXX.server.commands.SummonCommand",
+            "XXX.server.commands.TeamCommand",
+            "XXX.server.commands.TeleportCommand",
+            "XXX.server.commands.TellRawCommand",
+            "XXX.server.commands.TitleCommand",
+            "XXX.server.commands.WeatherCommand",
+            "XXX.server.commands.WorldBorderCommand",
+            "XXX.commands.data.BlockDataAccessor$1",
+            "XXX.commands.data.DataCommands",
+            "XXX.commands.data.DataCommands$DataManipulatorDecorator",
+            "XXX.commands.data.EntityDataAccessor",
+            "XXX.commands.data.StorageDataAccessor",
+            "XXX.commands.data.package-info",
+            "XXX.server.dedicated.DedicatedPlayerList",
+            "XXX.server.dedicated.DedicatedServer$1",
+            "XXX.server.dedicated.DedicatedServerProperties",
+            "XXX.server.dedicated.ServerWatchdog",
+            "XXX.server.dedicated.Settings",
+            "XXX.server.dedicated.Settings$MutableValue",
+            "XXX.server.gui.MinecraftServerGui",
+            "XXX.server.gui.MinecraftServerGui$2",
+            "XXX.server.gui.StatsComponent",
+            "XXX.server.level.BlockDestructionProgress",
+            "XXX.server.level.ChunkHolder$1",
+            "XXX.server.level.ChunkHolder$ChunkLoadingFailure$1",
+            "XXX.server.level.ChunkHolder$LevelChangeListener",
+            "XXX.server.level.ChunkMap",
+            "XXX.server.level.ChunkMap$2",
+            "XXX.server.level.ChunkMap$TrackedEntity",
+            "XXX.server.level.ChunkTaskPriorityQueueSorter",
+            "XXX.server.level.ChunkTaskPriorityQueueSorter$Message",
+            "XXX.server.level.ChunkTracker",
+            "XXX.server.level.DemoMode",
+            "XXX.server.level.DistanceManager",
+            "XXX.server.level.DistanceManager$FixedPlayerDistanceChunkTracker",
+            "XXX.server.level.FeatureSimulator",
+            "XXX.server.level.SectionTracker",
+            "XXX.server.level.ServerChunkCache",
+            "XXX.server.level.ServerChunkCache$MainThreadExecutor",
+            "XXX.server.level.ServerLevel",
+            "XXX.server.level.ServerPlayerGameMode",
+            "XXX.server.level.ThreadedLevelLightEngine$TaskType",
+            "XXX.server.level.TicketType",
+            "XXX.server.level.WorldGenTickList",
+            "XXX.level.progress.ChunkProgressListener",
+            "XXX.level.progress.LoggerChunkProgressListener",
+            "XXX.level.progress.StoringChunkProgressListener",
+            "XXX.server.network.LegacyQueryHandler",
+            "XXX.server.network.ServerConnectionListener",
+            "XXX.server.network.ServerConnectionListener$2",
+            "XXX.server.network.ServerGamePacketListenerImpl",
+            "XXX.server.network.ServerHandshakePacketListenerImpl",
+            "XXX.server.network.ServerLoginPacketListenerImpl",
+            "XXX.server.network.ServerLoginPacketListenerImpl$State",
+            "XXX.server.network.package-info",
+            "XXX.server.packs.AbstractResourcePack",
+            "XXX.server.packs.FolderResourcePack",
+            "XXX.server.packs.PackType",
+            "XXX.server.packs.VanillaPack",
+            "XXX.metadata.pack.PackMetadataSection",
+            "XXX.metadata.pack.package-info",
+            "XXX.server.packs.package-info",
+            "XXX.packs.repository.PackCompatibility",
+            "XXX.packs.repository.RepositorySource",
+            "XXX.packs.repository.UnopenedPack",
+            "XXX.packs.repository.UnopenedPack$UnopenedPackConstructor",
+            "XXX.packs.resources.FallbackResourceManager",
+            "XXX.packs.resources.PreparableReloadListener",
+            "XXX.packs.resources.ProfiledReloadInstance",
+            "XXX.packs.resources.ProfiledReloadInstance$State",
+            "XXX.packs.resources.ReloadableResourceManager",
+            "XXX.packs.resources.ResourceManager",
+            "XXX.packs.resources.SimpleJsonResourceReloadListener",
+            "XXX.packs.resources.SimpleReloadInstance",
+            "XXX.packs.resources.SimpleReloadInstance$StateFactory",
+            "XXX.packs.resources.SimpleResource",
+            "XXX.server.players.BanListEntry",
+            "XXX.server.players.GameProfileCache$1",
+            "XXX.server.players.GameProfileCache$GameProfileInfo",
+            "XXX.server.players.IpBanList",
+            "XXX.server.players.OldUsersConverter",
+            "XXX.server.players.OldUsersConverter$2",
+            "XXX.server.players.OldUsersConverter$4",
+            "XXX.server.players.OldUsersConverter$ConversionError",
+            "XXX.server.players.PlayerList$1",
+            "XXX.server.players.ServerOpListEntry",
+            "XXX.server.players.StoredUserList",
+            "XXX.server.players.StoredUserList$Serializer",
+            "XXX.server.players.UserBanListEntry",
+            "XXX.server.players.UserWhiteListEntry",
+            "XXX.server.rcon.NetworkDataOutputStream",
+            "XXX.server.rcon.RconConsoleSource",
+            "XXX.rcon.thread.GenericThread",
+            "XXX.rcon.thread.QueryThreadGs4$RequestChallenge",
+            "XXX.rcon.thread.RconThread",
+            "XXX.minecraft.sounds.SoundEvent",
+            "XXX.minecraft.sounds.SoundSource",
+            "XXX.minecraft.stats.RecipeBook",
+            "XXX.minecraft.stats.ServerStatsCounter",
+            "XXX.minecraft.stats.StatFormatter",
+            "XXX.minecraft.stats.Stats",
+            "XXX.minecraft.stats.package-info",
+            "XXX.minecraft.tags.BlockTags$Wrapper",
+            "XXX.minecraft.tags.EntityTypeTags$Wrapper",
+            "XXX.minecraft.tags.FluidTags$Wrapper",
+            "XXX.minecraft.tags.ItemTags$Wrapper",
+            "XXX.minecraft.tags.Tag",
+            "XXX.minecraft.tags.Tag$Entry",
+            "XXX.minecraft.tags.Tag$ValuesEntry",
+            "XXX.minecraft.tags.TagManager",
+            "XXX.minecraft.tags.package-info",
+            "XXX.minecraft.util.ClassInstanceMultiMap",
+            "XXX.minecraft.util.Crypt",
+            "XXX.minecraft.util.CsvOutput$1",
+            "XXX.minecraft.util.Deserializer",
+            "XXX.minecraft.util.GsonHelper",
+            "XXX.minecraft.util.InsensitiveStringMap",
+            "XXX.minecraft.util.LimitedCapacityList",
+            "XXX.minecraft.util.LowerCaseEnumTypeAdapterFactory",
+            "XXX.minecraft.util.Mth",
+            "XXX.minecraft.util.RewindableStream",
+            "XXX.minecraft.util.Serializable",
+            "XXX.minecraft.util.StringRepresentable",
+            "XXX.minecraft.util.Tuple",
+            "XXX.minecraft.util.VisibleForDebug",
+            "XXX.minecraft.util.WeighedRandom$WeighedRandomItem",
+            "XXX.util.datafix.DataFixers",
+            "XXX.util.datafix.DataFixers$2",
+            "XXX.util.datafix.OminousBannerRenameFix",
+            "XXX.datafix.fixes.AdvancementsFix",
+            "XXX.datafix.fixes.BedItemColorFix",
+            "XXX.datafix.fixes.BiomeFix",
+            "XXX.datafix.fixes.BlockEntityBlockStateFix",
+            "XXX.datafix.fixes.BlockEntityIdFix",
+            "XXX.datafix.fixes.BlockEntityKeepPacked",
+            "XXX.datafix.fixes.BlockEntitySignTextStrictJsonFix",
+            "XXX.datafix.fixes.BlockNameFlatteningFix",
+            "XXX.datafix.fixes.BlockRenameFix$1",
+            "XXX.datafix.fixes.BlockStateStructureTemplateFix",
+            "XXX.datafix.fixes.ChunkBiomeFix",
+            "XXX.datafix.fixes.ChunkPalettedStorageFix",
+            "XXX.datafix.fixes.ChunkPalettedStorageFix$DataLayer",
+            "XXX.datafix.fixes.ChunkPalettedStorageFix$Direction$Axis",
+            "XXX.datafix.fixes.ChunkPalettedStorageFix$Section",
+            "XXX.datafix.fixes.ChunkStatusFix",
+            "XXX.datafix.fixes.ChunkStructuresTemplateRenameFix",
+            "XXX.datafix.fixes.ColorlessShulkerEntityFix",
+            "XXX.datafix.fixes.EntityArmorStandSilentFix",
+            "XXX.datafix.fixes.EntityCatSplitFix",
+            "XXX.datafix.fixes.EntityCustomNameToComponentFix",
+            "XXX.datafix.fixes.EntityEquipmentToArmorAndHandFix",
+            "XXX.datafix.fixes.EntityHorseSaddleFix",
+            "XXX.datafix.fixes.EntityIdFix",
+            "XXX.datafix.fixes.EntityMinecartIdentifiersFix",
+            "XXX.datafix.fixes.EntityPaintingMotiveFix",
+            "XXX.datafix.fixes.EntityRavagerRenameFix",
+            "XXX.datafix.fixes.EntityRenameFix",
+            "XXX.datafix.fixes.EntityShulkerColorFix",
+            "XXX.datafix.fixes.EntityStringUuidFix",
+            "XXX.datafix.fixes.EntityTippedArrowFix",
+            "XXX.datafix.fixes.EntityZombieSplitFix",
+            "XXX.datafix.fixes.ForcePoiRebuild",
+            "XXX.datafix.fixes.IglooMetadataRemovalFix",
+            "XXX.datafix.fixes.ItemCustomNameToComponentFix",
+            "XXX.datafix.fixes.ItemLoreFix",
+            "XXX.datafix.fixes.ItemRenameFix",
+            "XXX.datafix.fixes.ItemShulkerBoxColorFix",
+            "XXX.datafix.fixes.ItemStackEnchantmentNamesFix",
+            "XXX.datafix.fixes.ItemStackSpawnEggFix",
+            "XXX.datafix.fixes.ItemWaterPotionFix",
+            "XXX.datafix.fixes.LeavesFix",
+            "XXX.datafix.fixes.LeavesFix$Section",
+            "XXX.datafix.fixes.LevelFlatGeneratorInfoFix",
+            "XXX.datafix.fixes.MobSpawnerEntityIdentifiersFix",
+            "XXX.datafix.fixes.NewVillageFix",
+            "XXX.datafix.fixes.ObjectiveRenderTypeFix",
+            "XXX.datafix.fixes.OptionsForceVBOFix",
+            "XXX.datafix.fixes.OptionsKeyTranslationFix",
+            "XXX.datafix.fixes.PoiTypeRename",
+            "XXX.datafix.fixes.RecipesRenameningFix",
+            "XXX.datafix.fixes.RenamedCoralFansFix",
+            "XXX.datafix.fixes.ReorganizePoi",
+            "XXX.datafix.fixes.SimpleEntityRenameFix",
+            "XXX.datafix.fixes.StatsCounterFix"
+          ],
+          "removed": [
+            "XXX.core.dispenser.DispenseItemBehavior$22",
+            "XXX.core.dispenser.DispenseItemBehavior$4",
+            "XXX.core.dispenser.DispenseItemBehavior$6",
+            "XXX.core.dispenser.DispenseItemBehavior$7$1",
+            "XXX.core.dispenser.DispenseItemBehavior$8$1",
+            "XXX.core.dispenser.OptionalDispenseItemBehavior",
+            "XXX.core.dispenser.package-info",
+            "XXX.core.particles.BlockParticleOption",
+            "XXX.core.particles.DustParticleOptions",
+            "XXX.core.particles.ItemParticleOption",
+            "XXX.core.particles.ParticleOptions",
+            "XXX.core.particles.ParticleType",
+            "XXX.core.particles.SimpleParticleType",
+            "XXX.core.particles.package-info",
+            "XXX.minecraft.data.DataProvider",
+            "XXX.minecraft.data.Main",
+            "XXX.data.advancements.AdventureAdvancements",
+            "XXX.data.advancements.NetherAdvancements",
+            "XXX.data.advancements.TheEndAdvancements",
+            "XXX.data.info.BlockListReport",
+            "XXX.data.info.RegistryDumpReport",
+            "XXX.data.loot.BlockLoot",
+            "XXX.data.loot.EntityLoot",
+            "XXX.data.loot.GiftLoot",
+            "XXX.data.loot.package-info",
+            "XXX.data.recipes.FinishedRecipe",
+            "XXX.data.recipes.ShapedRecipeBuilder",
+            "XXX.data.recipes.ShapelessRecipeBuilder",
+            "XXX.data.recipes.SimpleCookingRecipeBuilder",
+            "XXX.data.recipes.SingleItemRecipeBuilder",
+            "XXX.data.recipes.SpecialRecipeBuilder",
+            "XXX.data.recipes.package-info",
+            "XXX.data.structures.SnbtToNbt",
+            "XXX.data.structures.SnbtToNbt$TaskResult",
+            "XXX.data.structures.package-info",
+            "XXX.data.tags.EntityTypeTagsProvider",
+            "XXX.data.tags.ItemTagsProvider",
+            "XXX.data.tags.package-info",
+            "XXX.gametest.framework.GameTest",
+            "XXX.gametest.framework.GameTestAssertPosException",
+            "XXX.gametest.framework.GameTestBatchRunner",
+            "XXX.gametest.framework.GameTestEvent",
+            "XXX.gametest.framework.GameTestHelper",
+            "XXX.gametest.framework.GameTestListener",
+            "XXX.gametest.framework.GameTestRunner",
+            "XXX.gametest.framework.GameTestSequence",
+            "XXX.gametest.framework.GameTestServer",
+            "XXX.gametest.framework.GameTestTicker",
+            "XXX.gametest.framework.LogTestReporter",
+            "XXX.gametest.framework.StructureUtils",
+            "XXX.gametest.framework.TestClassNameArgument",
+            "XXX.gametest.framework.TestCommand$TestSummaryDisplayer",
+            "XXX.gametest.framework.TestFunctionArgument",
+            "XXX.gametest.framework.package-info",
+            "XXX.minecraft.locale.package-info",
+            "XXX.minecraft.nbt.ByteArrayTag$1",
+            "XXX.minecraft.nbt.ByteTag$1",
+            "XXX.minecraft.nbt.CollectionTag",
+            "XXX.minecraft.nbt.CompoundTag$1",
+            "XXX.minecraft.nbt.DoubleTag$1",
+            "XXX.minecraft.nbt.EndTag$1",
+            "XXX.minecraft.nbt.FloatTag$1",
+            "XXX.minecraft.nbt.IntArrayTag$1",
+            "XXX.minecraft.nbt.IntTag$1",
+            "XXX.minecraft.nbt.ListTag",
+            "XXX.minecraft.nbt.LongArrayTag",
+            "XXX.minecraft.nbt.LongTag",
+            "XXX.minecraft.nbt.LongTag$Cache",
+            "XXX.minecraft.nbt.NbtAccounter$1",
+            "XXX.minecraft.nbt.NbtOps",
+            "XXX.minecraft.nbt.NumericTag",
+            "XXX.minecraft.nbt.ShortTag$1",
+            "XXX.minecraft.nbt.StringTag",
+            "XXX.minecraft.nbt.Tag",
+            "XXX.minecraft.nbt.TagType",
+            "XXX.minecraft.nbt.TagTypes",
+            "XXX.minecraft.network.CipherBase",
+            "XXX.minecraft.network.CipherEncoder",
+            "XXX.minecraft.network.CompressionEncoder",
+            "XXX.minecraft.network.Connection$1",
+            "XXX.minecraft.network.Connection$PacketHolder",
+            "XXX.minecraft.network.ConnectionProtocol$1",
+            "XXX.minecraft.network.ConnectionProtocol$ProtocolBuilder",
+            "XXX.minecraft.network.PacketDecoder",
+            "XXX.minecraft.network.PacketListener",
+            "XXX.minecraft.network.Varint21FrameDecoder",
+            "XXX.network.chat.BaseComponent",
+            "XXX.network.chat.ClickEvent",
+            "XXX.network.chat.Component",
+            "XXX.network.chat.Component$Serializer",
+            "XXX.network.chat.ContextAwareComponent",
+            "XXX.network.chat.HoverEvent$Action",
+            "XXX.network.chat.NbtComponent",
+            "XXX.network.chat.NbtComponent$EntityNbtComponent",
+            "XXX.network.chat.ScoreComponent",
+            "XXX.network.chat.Style",
+            "XXX.network.chat.Style$Serializer",
+            "XXX.network.chat.TranslatableComponent",
+            "XXX.network.chat.package-info",
+            "XXX.network.protocol.Packet",
+            "XXX.network.protocol.PacketUtils",
+            "XXX.protocol.game.ClientboundAddEntityPacket",
+            "XXX.protocol.game.ClientboundAddGlobalEntityPacket",
+            "XXX.protocol.game.ClientboundAddPaintingPacket",
+            "XXX.protocol.game.ClientboundAnimatePacket",
+            "XXX.protocol.game.ClientboundBlockBreakAckPacket",
+            "XXX.protocol.game.ClientboundBlockEntityDataPacket",
+            "XXX.protocol.game.ClientboundBlockUpdatePacket",
+            "XXX.protocol.game.ClientboundBossEventPacket$1",
+            "XXX.protocol.game.ClientboundChangeDifficultyPacket",
+            "XXX.protocol.game.ClientboundChunkBlocksUpdatePacket",
+            "XXX.protocol.game.ClientboundCommandSuggestionsPacket",
+            "XXX.protocol.game.ClientboundCommandsPacket$1",
+            "XXX.protocol.game.ClientboundContainerAckPacket",
+            "XXX.protocol.game.ClientboundContainerSetContentPacket",
+            "XXX.protocol.game.ClientboundContainerSetSlotPacket",
+            "XXX.protocol.game.ClientboundCustomPayloadPacket",
+            "XXX.protocol.game.ClientboundDisconnectPacket",
+            "XXX.protocol.game.ClientboundExplodePacket",
+            "XXX.protocol.game.ClientboundGameEventPacket",
+            "XXX.protocol.game.ClientboundKeepAlivePacket",
+            "XXX.protocol.game.ClientboundLevelEventPacket",
+            "XXX.protocol.game.ClientboundLightUpdatePacket",
+            "XXX.protocol.game.ClientboundMapItemDataPacket",
+            "XXX.protocol.game.ClientboundMoveEntityPacket",
+            "XXX.protocol.game.ClientboundMoveEntityPacket$PosRot",
+            "XXX.protocol.game.ClientboundMoveVehiclePacket",
+            "XXX.protocol.game.ClientboundOpenScreenPacket",
+            "XXX.protocol.game.ClientboundPlaceGhostRecipePacket",
+            "XXX.protocol.game.ClientboundPlayerCombatPacket",
+            "XXX.protocol.game.ClientboundPlayerCombatPacket$Event",
+            "XXX.protocol.game.ClientboundPlayerInfoPacket$1",
+            "XXX.protocol.game.ClientboundPlayerInfoPacket$PlayerUpdate",
+            "XXX.protocol.game.ClientboundPlayerPositionPacket",
+            "XXX.protocol.game.ClientboundRecipePacket",
+            "XXX.protocol.game.ClientboundRemoveEntitiesPacket",
+            "XXX.protocol.game.ClientboundResourcePackPacket",
+            "XXX.protocol.game.ClientboundRotateHeadPacket",
+            "XXX.protocol.game.ClientboundSetBorderPacket",
+            "XXX.protocol.game.ClientboundSetBorderPacket$Type",
+            "XXX.protocol.game.ClientboundSetCarriedItemPacket",
+            "XXX.protocol.game.ClientboundSetChunkCacheRadiusPacket",
+            "XXX.protocol.game.ClientboundSetEntityDataPacket",
+            "XXX.protocol.game.ClientboundSetEntityMotionPacket",
+            "XXX.protocol.game.ClientboundSetExperiencePacket",
+            "XXX.protocol.game.ClientboundSetObjectivePacket",
+            "XXX.protocol.game.ClientboundSetPlayerTeamPacket",
+            "XXX.protocol.game.ClientboundSetSpawnPositionPacket",
+            "XXX.protocol.game.ClientboundSetTitlesPacket",
+            "XXX.protocol.game.ClientboundSoundEntityPacket",
+            "XXX.protocol.game.ClientboundStopSoundPacket",
+            "XXX.protocol.game.ClientboundTagQueryPacket",
+            "XXX.protocol.game.ClientboundTeleportEntityPacket",
+            "XXX.protocol.game.ClientboundUpdateAttributesPacket",
+            "XXX.protocol.game.ClientboundUpdateMobEffectPacket",
+            "XXX.protocol.game.ClientboundUpdateTagsPacket",
+            "XXX.protocol.game.DebugVillagerNameGenerator",
+            "XXX.protocol.game.ServerboundAcceptTeleportationPacket",
+            "XXX.protocol.game.ServerboundChangeDifficultyPacket",
+            "XXX.protocol.game.ServerboundClientCommandPacket",
+            "XXX.protocol.game.ServerboundClientInformationPacket",
+            "XXX.protocol.game.ServerboundContainerAckPacket",
+            "XXX.protocol.game.ServerboundContainerClickPacket",
+            "XXX.protocol.game.ServerboundCustomPayloadPacket",
+            "XXX.protocol.game.ServerboundEntityTagQuery",
+            "XXX.protocol.game.ServerboundInteractPacket$Action",
+            "XXX.protocol.game.ServerboundLockDifficultyPacket",
+            "XXX.protocol.game.ServerboundMovePlayerPacket$Pos",
+            "XXX.protocol.game.ServerboundMovePlayerPacket$Rot",
+            "XXX.protocol.game.ServerboundPaddleBoatPacket",
+            "XXX.protocol.game.ServerboundPlaceRecipePacket",
+            "XXX.protocol.game.ServerboundPlayerActionPacket",
+            "XXX.protocol.game.ServerboundPlayerCommandPacket",
+            "XXX.protocol.game.ServerboundPlayerInputPacket",
+            "XXX.protocol.game.ServerboundRecipeBookUpdatePacket$Purpose",
+            "XXX.protocol.game.ServerboundResourcePackPacket",
+            "XXX.protocol.game.ServerboundSeenAdvancementsPacket",
+            "XXX.protocol.game.ServerboundSelectTradePacket",
+            "XXX.protocol.game.ServerboundSetCarriedItemPacket",
+            "XXX.protocol.game.ServerboundSetCommandMinecartPacket",
+            "XXX.protocol.game.ServerboundSetJigsawBlockPacket",
+            "XXX.protocol.game.ServerboundSignUpdatePacket",
+            "XXX.protocol.game.ServerboundTeleportToEntityPacket",
+            "XXX.protocol.game.ServerboundUseItemPacket",
+            "XXX.protocol.handshake.ClientIntentionPacket",
+            "XXX.protocol.handshake.package-info",
+            "XXX.protocol.login.ClientboundCustomQueryPacket",
+            "XXX.protocol.login.ClientboundHelloPacket",
+            "XXX.protocol.login.ClientboundLoginDisconnectPacket",
+            "XXX.protocol.login.ServerboundCustomQueryPacket",
+            "XXX.protocol.login.ServerboundKeyPacket",
+            "XXX.network.protocol.package-info",
+            "XXX.protocol.status.ClientboundPongResponsePacket",
+            "XXX.protocol.status.ServerStatus",
+            "XXX.protocol.status.ServerStatus$Players$Serializer",
+            "XXX.protocol.status.ServerStatus$Version",
+            "XXX.protocol.status.ServerStatusPacketListener",
+            "XXX.protocol.status.ServerboundStatusRequestPacket",
+            "XXX.network.syncher.EntityDataAccessor",
+            "XXX.network.syncher.EntityDataSerializers",
+            "XXX.network.syncher.EntityDataSerializers$10",
+            "XXX.network.syncher.EntityDataSerializers$12",
+            "XXX.network.syncher.EntityDataSerializers$14",
+            "XXX.network.syncher.EntityDataSerializers$16",
+            "XXX.network.syncher.EntityDataSerializers$18",
+            "XXX.network.syncher.EntityDataSerializers$2",
+            "XXX.network.syncher.EntityDataSerializers$4",
+            "XXX.network.syncher.EntityDataSerializers$6",
+            "XXX.network.syncher.EntityDataSerializers$8",
+            "XXX.network.syncher.SynchedEntityData",
+            "XXX.network.syncher.package-info",
+            "XXX.minecraft.obfuscate.KeepAfterObfuscation",
+            "net.minecraft.package-info",
+            "XXX.minecraft.recipebook.ServerPlaceRecipe",
+            "XXX.minecraft.recipebook.package-info",
+            "XXX.minecraft.resources.ResourceLocation$Serializer",
+            "XXX.minecraft.server.Bootstrap",
+            "XXX.minecraft.server.ChainedJsonException$1",
+            "XXX.minecraft.server.ConsoleInput",
+            "XXX.minecraft.server.DebugLoggedPrintStream",
+            "XXX.minecraft.server.LoggedPrintStream",
+            "XXX.minecraft.server.MinecraftServer$1",
+            "XXX.minecraft.server.MinecraftServer$3",
+            "XXX.minecraft.server.PlayerAdvancements$1",
+            "XXX.minecraft.server.ServerAdvancementManager",
+            "XXX.minecraft.server.ServerFunctionManager$QueuedCommand",
+            "XXX.minecraft.server.ServerScoreboard",
+            "XXX.minecraft.server.TickTask",
+            "XXX.server.bossevents.CustomBossEvents",
+            "XXX.server.commands.AdvancementCommands",
+            "XXX.server.commands.AdvancementCommands$Action",
+            "XXX.server.commands.AdvancementCommands$Action$2",
+            "XXX.server.commands.BanIpCommands",
+            "XXX.server.commands.BanPlayerCommands",
+            "XXX.server.commands.ClearInventoryCommands",
+            "XXX.server.commands.CloneCommands$CloneBlockInfo",
+            "XXX.server.commands.DataPackCommand",
+            "XXX.server.commands.DeOpCommands",
+            "XXX.server.commands.DebugPathCommand",
+            "XXX.server.commands.DifficultyCommand",
+            "XXX.server.commands.EmoteCommands",
+            "XXX.server.commands.ExecuteCommand",
+            "XXX.server.commands.ExecuteCommand$CommandPredicate",
+            "XXX.server.commands.ExperienceCommand$Type",
+            "XXX.server.commands.FillCommand$Mode",
+            "XXX.server.commands.FunctionCommand",
+            "XXX.server.commands.GameRuleCommand",
+            "XXX.server.commands.GiveCommand",
+            "XXX.server.commands.KickCommand",
+            "XXX.server.commands.ListPlayersCommand",
+            "XXX.server.commands.LootCommand",
+            "XXX.server.commands.LootCommand$DropConsumer",
+            "XXX.server.commands.MsgCommand",
+            "XXX.server.commands.PardonCommand",
+            "XXX.server.commands.ParticleCommand",
+            "XXX.server.commands.PublishCommand",
+            "XXX.server.commands.RecipeCommand",
+            "XXX.server.commands.ReplaceItemCommand",
+            "XXX.server.commands.SaveOffCommand",
+            "XXX.server.commands.SayCommand",
+            "XXX.server.commands.ScoreboardCommand",
+            "XXX.server.commands.SetBlockCommand",
+            "XXX.server.commands.SetBlockCommand$Mode",
+            "XXX.server.commands.SetSpawnCommand",
+            "XXX.server.commands.SpectateCommand",
+            "XXX.server.commands.SpreadPlayersCommand$Position",
+            "XXX.server.commands.StopSoundCommand",
+            "XXX.server.commands.TagCommand",
+            "XXX.server.commands.TeamMsgCommand",
+            "XXX.server.commands.TeleportCommand$LookAt",
+            "XXX.server.commands.TimeCommand",
+            "XXX.server.commands.TriggerCommand",
+            "XXX.server.commands.WhitelistCommand",
+            "XXX.commands.data.BlockDataAccessor",
+            "XXX.commands.data.DataAccessor",
+            "XXX.commands.data.DataCommands$DataManipulator",
+            "XXX.commands.data.DataCommands$DataProvider",
+            "XXX.commands.data.EntityDataAccessor$1",
+            "XXX.commands.data.StorageDataAccessor$1",
+            "XXX.server.commands.package-info",
+            "XXX.server.dedicated.DedicatedServer",
+            "XXX.server.dedicated.DedicatedServer$2",
+            "XXX.server.dedicated.DedicatedServerSettings",
+            "XXX.server.dedicated.ServerWatchdog$1",
+            "XXX.server.dedicated.Settings$1",
+            "XXX.server.dedicated.package-info",
+            "XXX.server.gui.MinecraftServerGui$1",
+            "XXX.server.gui.PlayerListComponent",
+            "XXX.server.gui.package-info",
+            "XXX.server.level.ChunkHolder",
+            "XXX.server.level.ChunkHolder$ChunkLoadingFailure",
+            "XXX.server.level.ChunkHolder$FullChunkStatus",
+            "XXX.server.level.ChunkHolder$PlayerProvider",
+            "XXX.server.level.ChunkMap$1",
+            "XXX.server.level.ChunkMap$DistanceManager",
+            "XXX.server.level.ChunkTaskPriorityQueue",
+            "XXX.server.level.ChunkTaskPriorityQueueSorter$1",
+            "XXX.server.level.ChunkTaskPriorityQueueSorter$Release",
+            "XXX.server.level.ColumnPos",
+            "XXX.server.level.DerivedServerLevel",
+            "XXX.server.level.DistanceManager$ChunkTicketTracker",
+            "XXX.server.level.DistanceManager$PlayerTicketTracker",
+            "XXX.server.level.PlayerMap",
+            "XXX.server.level.ServerBossEvent",
+            "XXX.server.level.ServerChunkCache$1",
+            "XXX.server.level.ServerEntity",
+            "XXX.server.level.ServerPlayer",
+            "XXX.server.level.ThreadedLevelLightEngine",
+            "XXX.server.level.Ticket",
+            "XXX.server.level.WorldGenRegion",
+            "XXX.server.level.package-info",
+            "XXX.level.progress.ChunkProgressListenerFactory",
+            "XXX.level.progress.ProcessorChunkProgressListener",
+            "XXX.level.progress.package-info",
+            "XXX.server.network.MemoryServerHandshakePacketListenerImpl",
+            "XXX.server.network.ServerConnectionListener$1",
+            "XXX.server.network.ServerConnectionListener$LatencySimulator",
+            "XXX.server.network.ServerGamePacketListenerImpl$1",
+            "XXX.server.network.ServerHandshakePacketListenerImpl$1",
+            "XXX.server.network.ServerLoginPacketListenerImpl$1",
+            "XXX.server.network.ServerStatusPacketListenerImpl",
+            "XXX.minecraft.server.package-info",
+            "XXX.server.packs.FileResourcePack",
+            "XXX.server.packs.Pack",
+            "XXX.server.packs.ResourcePackFileNotFoundException",
+            "XXX.packs.metadata.MetadataSectionSerializer",
+            "XXX.metadata.pack.PackMetadataSectionSerializer",
+            "XXX.packs.metadata.package-info",
+            "XXX.packs.repository.FolderRepositorySource",
+            "XXX.packs.repository.PackRepository",
+            "XXX.packs.repository.ServerPacksSource",
+            "XXX.packs.repository.UnopenedPack$Position",
+            "XXX.packs.repository.package-info",
+            "XXX.packs.resources.FallbackResourceManager$LeakedResourceWarningInputStream",
+            "XXX.packs.resources.PreparableReloadListener$PreparationBarrier",
+            "XXX.packs.resources.ProfiledReloadInstance$1",
+            "XXX.packs.resources.ReloadInstance",
+            "XXX.packs.resources.Resource",
+            "XXX.packs.resources.ResourceManagerReloadListener",
+            "XXX.packs.resources.SimplePreparableReloadListener",
+            "XXX.packs.resources.SimpleReloadInstance$1",
+            "XXX.packs.resources.SimpleReloadableResourceManager",
+            "XXX.packs.resources.package-info",
+            "XXX.server.players.GameProfileCache",
+            "XXX.server.players.GameProfileCache$2",
+            "XXX.server.players.GameProfileCache$Serializer",
+            "XXX.server.players.IpBanListEntry",
+            "XXX.server.players.OldUsersConverter$1",
+            "XXX.server.players.OldUsersConverter$3",
+            "XXX.server.players.OldUsersConverter$5",
+            "XXX.server.players.PlayerList",
+            "XXX.server.players.ServerOpList",
+            "XXX.server.players.StoredUserEntry",
+            "XXX.server.players.StoredUserList$1",
+            "XXX.server.players.UserBanList",
+            "XXX.server.players.UserWhiteList",
+            "XXX.server.players.package-info",
+            "XXX.server.rcon.PktUtils",
+            "XXX.server.rcon.package-info",
+            "XXX.rcon.thread.QueryThreadGs4",
+            "XXX.rcon.thread.RconClient",
+            "XXX.rcon.thread.package-info",
+            "XXX.minecraft.sounds.SoundEvents",
+            "XXX.minecraft.sounds.package-info",
+            "XXX.minecraft.stats.ServerRecipeBook",
+            "XXX.minecraft.stats.Stat",
+            "XXX.minecraft.stats.StatType",
+            "XXX.minecraft.stats.StatsCounter",
+            "XXX.minecraft.tags.BlockTags",
+            "XXX.minecraft.tags.EntityTypeTags",
+            "XXX.minecraft.tags.FluidTags",
+            "XXX.minecraft.tags.ItemTags",
+            "XXX.minecraft.tags.SynchronizableTagCollection",
+            "XXX.minecraft.tags.Tag$Builder",
+            "XXX.minecraft.tags.Tag$TagEntry",
+            "XXX.minecraft.tags.TagCollection",
+            "XXX.minecraft.tags.TagManager$Preparations",
+            "XXX.minecraft.util.BitStorage",
+            "XXX.minecraft.util.CrudeIncrementalIntIdentityHashBiMap",
+            "XXX.minecraft.util.CsvOutput",
+            "XXX.minecraft.util.CsvOutput$Builder",
+            "XXX.minecraft.util.FrameTimer",
+            "XXX.minecraft.util.HttpUtil",
+            "XXX.minecraft.util.LazyLoadedValue",
+            "XXX.minecraft.util.LinearCongruentialGenerator",
+            "XXX.minecraft.util.LowerCaseEnumTypeAdapterFactory$1",
+            "XXX.minecraft.util.ProgressListener",
+            "XXX.minecraft.util.RewindableStream$1",
+            "XXX.minecraft.util.SmoothDouble",
+            "XXX.minecraft.util.StringUtil",
+            "XXX.minecraft.util.Unit",
+            "XXX.minecraft.util.WeighedRandom",
+            "XXX.util.datafix.DataFixTypes",
+            "XXX.util.datafix.DataFixers$1",
+            "XXX.util.datafix.OminousBannerBlockEntityRenameFix",
+            "XXX.datafix.fixes.AddNewChoices",
+            "XXX.datafix.fixes.BedBlockEntityInjecter",
+            "XXX.datafix.fixes.BeehivePoiRenameFix",
+            "XXX.datafix.fixes.BlockEntityBannerColorFix",
+            "XXX.datafix.fixes.BlockEntityCustomNameToComponentFix",
+            "XXX.datafix.fixes.BlockEntityJukeboxFix",
+            "XXX.datafix.fixes.BlockEntityShulkerBoxColorFix",
+            "XXX.datafix.fixes.BlockEntitySignTextStrictJsonFix$1",
+            "XXX.datafix.fixes.BlockRenameFix",
+            "XXX.datafix.fixes.BlockStateData",
+            "XXX.datafix.fixes.CatTypeFix",
+            "XXX.datafix.fixes.ChunkLightRemoveFix",
+            "XXX.datafix.fixes.ChunkPalettedStorageFix$1",
+            "XXX.datafix.fixes.ChunkPalettedStorageFix$Direction",
+            "XXX.datafix.fixes.ChunkPalettedStorageFix$Direction$AxisDirection",
+            "XXX.datafix.fixes.ChunkPalettedStorageFix$UpgradeChunk",
+            "XXX.datafix.fixes.ChunkStatusFix2",
+            "XXX.datafix.fixes.ChunkToProtochunkFix",
+            "XXX.datafix.fixes.DyeItemRenameFix",
+            "XXX.datafix.fixes.EntityBlockStateFix",
+            "XXX.datafix.fixes.EntityCodSalmonFix",
+            "XXX.datafix.fixes.EntityElderGuardianSplitFix",
+            "XXX.datafix.fixes.EntityHealthFix",
+            "XXX.datafix.fixes.EntityHorseSplitFix",
+            "XXX.datafix.fixes.EntityItemFrameDirectionFix",
+            "XXX.datafix.fixes.EntityPaintingItemFrameDirectionFix",
+            "XXX.datafix.fixes.EntityPufferfishRenameFix",
+            "XXX.datafix.fixes.EntityRedundantChanceTagsFix",
+            "XXX.datafix.fixes.EntityRidingToPassengersFix",
+            "XXX.datafix.fixes.EntitySkeletonSplitFix",
+            "XXX.datafix.fixes.EntityTheRenameningFix",
+            "XXX.datafix.fixes.EntityWolfColorFix",
+            "XXX.datafix.fixes.EntityZombieVillagerTypeFix",
+            "XXX.datafix.fixes.HeightmapRenamingFix",
+            "XXX.datafix.fixes.ItemBannerColorFix",
+            "XXX.datafix.fixes.ItemIdFix",
+            "XXX.datafix.fixes.ItemPotionFix",
+            "XXX.datafix.fixes.ItemRenameFix$1",
+            "XXX.datafix.fixes.ItemSpawnEggFix",
+            "XXX.datafix.fixes.ItemStackMapIdFix",
+            "XXX.datafix.fixes.ItemStackTheFlatteningFix",
+            "XXX.datafix.fixes.ItemWrittenBookPagesStrictJsonFix",
+            "XXX.datafix.fixes.LeavesFix$LeavesSection",
+            "XXX.datafix.fixes.LevelDataGeneratorOptionsFix",
+            "XXX.datafix.fixes.MapIdFix",
+            "XXX.datafix.fixes.NamedEntityFix",
+            "XXX.datafix.fixes.ObjectiveDisplayNameFix",
+            "XXX.datafix.fixes.OptionsAddTextBackgroundFix",
+            "XXX.datafix.fixes.OptionsKeyLwjgl3Fix",
+            "XXX.datafix.fixes.OptionsLowerCaseLanguageFix",
+            "XXX.datafix.fixes.RecipesFix",
+            "XXX.datafix.fixes.References",
+            "XXX.datafix.fixes.RenamedCoralFix",
+            "XXX.datafix.fixes.SavedDataVillageCropFix",
+            "XXX.datafix.fixes.SimplestEntityRenameFix",
+            "XXX.datafix.fixes.StructureReferenceCountFix"
+          ]
+        }
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "Changes",
+        "lines": [
+          "XXX.mojang.math.Vector3f \u001b[2;32m+3P\u001b[0m \u001b[2;31m-1P\u001b[0m",
+          "XXX.core.dispenser.DispenseItemBehavior$11 \u001b[2;31m-1M\u001b[0m",
+          "XXX.core.dispenser.DispenseItemBehavior$20 \u001b[2;31m-1M\u001b[0m | \u001b[2;31m-1P\u001b[0m",
+          "XXX.minecraft.world.InteractionResult \u001b[2;32m+2M\u001b[0m | \u001b[2;32m+1P\u001b[0m",
+          "XXX.world.entity.Entity \u001b[2;32m+3M\u001b[0m \u001b[2;31m-3M\u001b[0m",
+          "XXX.world.entity.LivingEntity \u001b[2;32m+1M\u001b[0m",
+          "XXX.entity.projectile.AbstractHurtingProjectile \u001b[2;32m+1M\u001b[0m | \u001b[2;31m-1P\u001b[0m",
+          "XXX.level.block.BarrelBlock \u001b[2;32m+1M\u001b[0m \u001b[2;31m-1M\u001b[0m",
+          "XXX.level.block.BeaconBlock \u001b[2;32m+1M\u001b[0m \u001b[2;31m-1M\u001b[0m",
+          "XXX.level.block.BeehiveBlock \u001b[2;32m+1M\u001b[0m \u001b[2;31m-1M\u001b[0m",
+          "XXX.level.block.BellBlock \u001b[2;32m+1M\u001b[0m \u001b[2;31m-1M\u001b[0m",
+          "XXX.level.block.BrewingStandBlock \u001b[2;32m+1M\u001b[0m \u001b[2;31m-1M\u001b[0m",
+          "XXX.level.block.ButtonBlock \u001b[2;32m+1M\u001b[0m \u001b[2;31m-1M\u001b[0m",
+          "XXX.level.block.CampfireBlock \u001b[2;32m+1M\u001b[0m \u001b[2;31m-1M\u001b[0m",
+          "XXX.level.block.CartographyTableBlock \u001b[2;32m+1M\u001b[0m \u001b[2;31m-1M\u001b[0m",
+          "XXX.level.block.CauldronBlock \u001b[2;32m+1M\u001b[0m \u001b[2;31m-1M\u001b[0m",
+          "XXX.level.block.ComparatorBlock \u001b[2;32m+1M\u001b[0m \u001b[2;31m-1M\u001b[0m",
+          "XXX.level.block.DoorBlock \u001b[2;32m+1M\u001b[0m \u001b[2;31m-1M\u001b[0m",
+          "XXX.level.block.FenceGateBlock \u001b[2;32m+1M\u001b[0m \u001b[2;31m-1M\u001b[0m",
+          "XXX.level.block.HopperBlock \u001b[2;32m+1M\u001b[0m \u001b[2;31m-1M\u001b[0m",
+          "XXX.level.block.JukeboxBlock \u001b[2;32m+1M\u001b[0m \u001b[2;31m-1M\u001b[0m",
+          "XXX.level.block.LeverBlock \u001b[2;32m+1M\u001b[0m \u001b[2;31m-1M\u001b[0m",
+          "XXX.level.block.NoteBlock \u001b[2;32m+1M\u001b[0m \u001b[2;31m-1M\u001b[0m",
+          "XXX.level.block.RedStoneOreBlock \u001b[2;32m+1M\u001b[0m \u001b[2;31m-1M\u001b[0m",
+          "XXX.level.block.RepeaterBlock \u001b[2;32m+1M\u001b[0m \u001b[2;31m-1M\u001b[0m",
+          "XXX.level.block.StructureBlock \u001b[2;32m+1M\u001b[0m \u001b[2;31m-1M\u001b[0m",
+          "XXX.level.block.SweetBerryBushBlock \u001b[2;32m+1M\u001b[0m \u001b[2;31m-1M\u001b[0m",
+          "XXX.level.block.TntBlock \u001b[2;32m+1M\u001b[0m \u001b[2;31m-1M\u001b[0m",
+          "XXX.level.block.TrapDoorBlock \u001b[2;32m+1M\u001b[0m \u001b[2;31m-1M\u001b[0m",
+          "XXX.block.piston.MovingPistonBlock \u001b[2;32m+1M\u001b[0m \u001b[2;31m-1M\u001b[0m",
+          "XXX.block.piston.PistonMovingBlockEntity$1 \u001b[2;32m+1P\u001b[0m",
+          "XXX.levelgen.structure.StructureStart \u001b[2;32m+1M\u001b[0m"
+        ]
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.core.dispenser.DispenseItemBehavior$11",
+        "differences": {
+          "added": [
+            "void lambda$execute$0(ItemStack,SmallFireball)"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.core.dispenser.DispenseItemBehavior$20",
+        "differences": {
+          "added": [
+            "ItemStack takeLiquid(BlockSource,ItemStack,ItemStack)"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.InteractionResult",
+        "differences": {
+          "added": [],
+          "removed": [
+            "boolean consumesAction()",
+            "boolean shouldSwing()"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.entity.Entity",
+        "differences": {
+          "added": [
+            "void refreshBoundingBox()",
+            "float getJumpFactor()",
+            "float getSpeedFactor()"
+          ],
+          "removed": [
+            "void reapplyPosition()",
+            "float getBlockJumpFactor()",
+            "float getBlockSpeedFactor()"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.entity.LivingEntity",
+        "differences": {
+          "added": [],
+          "removed": [
+            "void swing(InteractionHand,boolean)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.entity.projectile.AbstractHurtingProjectile",
+        "differences": {
+          "added": [],
+          "removed": [
+            "void onHit(HitResult)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.level.block.BarrelBlock",
+        "differences": {
+          "added": [
+            "boolean use(BlockState,Level,BlockPos,Player,InteractionHand,BlockHitResult)"
+          ],
+          "removed": [
+            "InteractionResult use(BlockState,Level,BlockPos,Player,InteractionHand,BlockHitResult)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.level.block.BeaconBlock",
+        "differences": {
+          "added": [
+            "boolean use(BlockState,Level,BlockPos,Player,InteractionHand,BlockHitResult)"
+          ],
+          "removed": [
+            "InteractionResult use(BlockState,Level,BlockPos,Player,InteractionHand,BlockHitResult)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.level.block.BeehiveBlock",
+        "differences": {
+          "added": [
+            "boolean use(BlockState,Level,BlockPos,Player,InteractionHand,BlockHitResult)"
+          ],
+          "removed": [
+            "InteractionResult use(BlockState,Level,BlockPos,Player,InteractionHand,BlockHitResult)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.level.block.BellBlock",
+        "differences": {
+          "added": [
+            "boolean use(BlockState,Level,BlockPos,Player,InteractionHand,BlockHitResult)"
+          ],
+          "removed": [
+            "InteractionResult use(BlockState,Level,BlockPos,Player,InteractionHand,BlockHitResult)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.level.block.BrewingStandBlock",
+        "differences": {
+          "added": [
+            "boolean use(BlockState,Level,BlockPos,Player,InteractionHand,BlockHitResult)"
+          ],
+          "removed": [
+            "InteractionResult use(BlockState,Level,BlockPos,Player,InteractionHand,BlockHitResult)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.level.block.ButtonBlock",
+        "differences": {
+          "added": [
+            "boolean use(BlockState,Level,BlockPos,Player,InteractionHand,BlockHitResult)"
+          ],
+          "removed": [
+            "InteractionResult use(BlockState,Level,BlockPos,Player,InteractionHand,BlockHitResult)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.level.block.CampfireBlock",
+        "differences": {
+          "added": [
+            "boolean use(BlockState,Level,BlockPos,Player,InteractionHand,BlockHitResult)"
+          ],
+          "removed": [
+            "InteractionResult use(BlockState,Level,BlockPos,Player,InteractionHand,BlockHitResult)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.level.block.CartographyTableBlock",
+        "differences": {
+          "added": [
+            "boolean use(BlockState,Level,BlockPos,Player,InteractionHand,BlockHitResult)"
+          ],
+          "removed": [
+            "InteractionResult use(BlockState,Level,BlockPos,Player,InteractionHand,BlockHitResult)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.level.block.CauldronBlock",
+        "differences": {
+          "added": [
+            "boolean use(BlockState,Level,BlockPos,Player,InteractionHand,BlockHitResult)"
+          ],
+          "removed": [
+            "InteractionResult use(BlockState,Level,BlockPos,Player,InteractionHand,BlockHitResult)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.level.block.ComparatorBlock",
+        "differences": {
+          "added": [
+            "boolean use(BlockState,Level,BlockPos,Player,InteractionHand,BlockHitResult)"
+          ],
+          "removed": [
+            "InteractionResult use(BlockState,Level,BlockPos,Player,InteractionHand,BlockHitResult)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.level.block.DoorBlock",
+        "differences": {
+          "added": [
+            "boolean use(BlockState,Level,BlockPos,Player,InteractionHand,BlockHitResult)"
+          ],
+          "removed": [
+            "InteractionResult use(BlockState,Level,BlockPos,Player,InteractionHand,BlockHitResult)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.level.block.FenceGateBlock",
+        "differences": {
+          "added": [
+            "boolean use(BlockState,Level,BlockPos,Player,InteractionHand,BlockHitResult)"
+          ],
+          "removed": [
+            "InteractionResult use(BlockState,Level,BlockPos,Player,InteractionHand,BlockHitResult)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.level.block.HopperBlock",
+        "differences": {
+          "added": [
+            "boolean use(BlockState,Level,BlockPos,Player,InteractionHand,BlockHitResult)"
+          ],
+          "removed": [
+            "InteractionResult use(BlockState,Level,BlockPos,Player,InteractionHand,BlockHitResult)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.level.block.JukeboxBlock",
+        "differences": {
+          "added": [
+            "boolean use(BlockState,Level,BlockPos,Player,InteractionHand,BlockHitResult)"
+          ],
+          "removed": [
+            "InteractionResult use(BlockState,Level,BlockPos,Player,InteractionHand,BlockHitResult)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.level.block.LeverBlock",
+        "differences": {
+          "added": [
+            "boolean use(BlockState,Level,BlockPos,Player,InteractionHand,BlockHitResult)"
+          ],
+          "removed": [
+            "InteractionResult use(BlockState,Level,BlockPos,Player,InteractionHand,BlockHitResult)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.level.block.NoteBlock",
+        "differences": {
+          "added": [
+            "boolean use(BlockState,Level,BlockPos,Player,InteractionHand,BlockHitResult)"
+          ],
+          "removed": [
+            "InteractionResult use(BlockState,Level,BlockPos,Player,InteractionHand,BlockHitResult)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.level.block.RedStoneOreBlock",
+        "differences": {
+          "added": [
+            "boolean use(BlockState,Level,BlockPos,Player,InteractionHand,BlockHitResult)"
+          ],
+          "removed": [
+            "InteractionResult use(BlockState,Level,BlockPos,Player,InteractionHand,BlockHitResult)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.level.block.RepeaterBlock",
+        "differences": {
+          "added": [
+            "boolean use(BlockState,Level,BlockPos,Player,InteractionHand,BlockHitResult)"
+          ],
+          "removed": [
+            "InteractionResult use(BlockState,Level,BlockPos,Player,InteractionHand,BlockHitResult)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.level.block.StructureBlock",
+        "differences": {
+          "added": [
+            "boolean use(BlockState,Level,BlockPos,Player,InteractionHand,BlockHitResult)"
+          ],
+          "removed": [
+            "InteractionResult use(BlockState,Level,BlockPos,Player,InteractionHand,BlockHitResult)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.level.block.SweetBerryBushBlock",
+        "differences": {
+          "added": [
+            "boolean use(BlockState,Level,BlockPos,Player,InteractionHand,BlockHitResult)"
+          ],
+          "removed": [
+            "InteractionResult use(BlockState,Level,BlockPos,Player,InteractionHand,BlockHitResult)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.level.block.TntBlock",
+        "differences": {
+          "added": [
+            "boolean use(BlockState,Level,BlockPos,Player,InteractionHand,BlockHitResult)"
+          ],
+          "removed": [
+            "InteractionResult use(BlockState,Level,BlockPos,Player,InteractionHand,BlockHitResult)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.level.block.TrapDoorBlock",
+        "differences": {
+          "added": [
+            "boolean use(BlockState,Level,BlockPos,Player,InteractionHand,BlockHitResult)"
+          ],
+          "removed": [
+            "InteractionResult use(BlockState,Level,BlockPos,Player,InteractionHand,BlockHitResult)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.level.block.piston.MovingPistonBlock",
+        "differences": {
+          "added": [
+            "boolean use(BlockState,Level,BlockPos,Player,InteractionHand,BlockHitResult)"
+          ],
+          "removed": [
+            "InteractionResult use(BlockState,Level,BlockPos,Player,InteractionHand,BlockHitResult)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.level.levelgen.structure.StructureStart",
+        "differences": {
+          "added": [],
+          "removed": [
+            "int getReferences()"
+          ]
+        }
+      }
+    },
+    {
+      "type": "title",
+      "value": {
+        "title": "Client",
+        "id": "client-mappings",
+        "size": 2
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "Classes",
+        "differences": {
+          "added": [
+            "XXX.client.renderer.ItemInHandRenderer",
+            "XXX.client.renderer.ItemModelShaper",
+            "XXX.client.renderer.LevelRenderer$1",
+            "XXX.client.renderer.LightTexture",
+            "XXX.client.renderer.MultiBufferSource$BufferSource",
+            "XXX.client.renderer.OutlineBufferSource$1",
+            "XXX.client.renderer.PanoramaRenderer",
+            "XXX.client.renderer.PostPass",
+            "XXX.client.renderer.RenderBuffers",
+            "XXX.client.renderer.RenderStateShard$AlphaStateShard",
+            "XXX.client.renderer.RenderStateShard$CullStateShard",
+            "XXX.client.renderer.RenderStateShard$DiffuseLightingStateShard",
+            "XXX.client.renderer.RenderStateShard$LayeringStateShard",
+            "XXX.client.renderer.RenderStateShard$LineStateShard",
+            "XXX.client.renderer.RenderStateShard$TextureStateShard",
+            "XXX.client.renderer.RenderStateShard$TransparencyStateShard",
+            "XXX.client.renderer.RenderType",
+            "XXX.client.renderer.RenderType$CompositeRenderType",
+            "XXX.client.renderer.RenderType$CompositeState$CompositeStateBuilder",
+            "XXX.client.renderer.ViewArea",
+            "XXX.renderer.banner.BannerTextures",
+            "XXX.renderer.banner.BannerTextures$TextureCache",
+            "XXX.renderer.banner.package-info",
+            "XXX.renderer.block.BlockRenderDispatcher",
+            "XXX.renderer.block.LiquidBlockRenderer",
+            "XXX.renderer.block.ModelBlockRenderer$1",
+            "XXX.renderer.block.ModelBlockRenderer$AmbientOcclusionFace",
+            "XXX.renderer.block.ModelBlockRenderer$Cache",
+            "XXX.renderer.block.ModelBlockRenderer$Cache$2",
+            "XXX.block.model.BakedQuad",
+            "XXX.block.model.BlockElement$1",
+            "XXX.block.model.BlockElementFace",
+            "XXX.block.model.BlockElementRotation",
+            "XXX.block.model.BlockFaceUV$Deserializer",
+            "XXX.block.model.BlockModel$1",
+            "XXX.block.model.BlockModel$Deserializer",
+            "XXX.block.model.BlockModelDefinition",
+            "XXX.block.model.BlockModelDefinition$Deserializer",
+            "XXX.block.model.FaceBakery",
+            "XXX.block.model.ItemModelGenerator",
+            "XXX.block.model.ItemModelGenerator$Span",
+            "XXX.block.model.ItemOverride",
+            "XXX.block.model.ItemOverrides",
+            "XXX.block.model.ItemTransform$Deserializer",
+            "XXX.block.model.ItemTransforms$1",
+            "XXX.block.model.ItemTransforms$TransformType",
+            "XXX.block.model.MultiVariant$Deserializer",
+            "XXX.block.model.Variant$Deserializer",
+            "XXX.model.multipart.Condition",
+            "XXX.model.multipart.MultiPart",
+            "XXX.model.multipart.OrCondition",
+            "XXX.model.multipart.Selector$Deserializer",
+            "XXX.block.model.package-info",
+            "XXX.block.statemap.package-info",
+            "XXX.renderer.blockentity.BeaconRenderer",
+            "XXX.renderer.blockentity.BellRenderer",
+            "XXX.renderer.blockentity.BlockEntityRenderer",
+            "XXX.renderer.blockentity.ChestRenderer",
+            "XXX.entity.layers.FoxHeldItemLayer",
+            "XXX.entity.layers.HumanoidArmorLayer",
+            "XXX.entity.layers.IronGolemCrackinessLayer",
+            "XXX.entity.layers.ItemInHandLayer",
+            "XXX.entity.layers.MushroomCowMushroomLayer",
+            "XXX.entity.layers.ParrotOnShoulderLayer",
+            "XXX.entity.layers.PigSaddleLayer",
+            "XXX.entity.layers.SheepFurLayer",
+            "XXX.entity.layers.ShulkerHeadLayer$1",
+            "XXX.entity.layers.SnowGolemHeadLayer",
+            "XXX.entity.layers.SpinAttackEffectLayer",
+            "XXX.core.dispenser.DispenseItemBehavior$3",
+            "XXX.core.dispenser.DispenseItemBehavior$5",
+            "XXX.core.dispenser.DispenseItemBehavior$7",
+            "XXX.core.dispenser.DispenseItemBehavior$8",
+            "XXX.core.dispenser.DispenseItemBehavior$9",
+            "XXX.core.dispenser.ShulkerBoxDispenseBehavior",
+            "XXX.minecraft.core.package-info",
+            "XXX.core.particles.BlockParticleOption$1",
+            "XXX.core.particles.DustParticleOptions$1",
+            "XXX.core.particles.ItemParticleOption$1",
+            "XXX.core.particles.ParticleOptions$Deserializer",
+            "XXX.core.particles.ParticleTypes",
+            "XXX.core.particles.SimpleParticleType$1",
+            "XXX.minecraft.data.DataGenerator",
+            "XXX.minecraft.data.HashCache",
+            "XXX.data.advancements.AdvancementProvider",
+            "XXX.data.advancements.HusbandryAdvancements",
+            "XXX.data.advancements.StoryAdvancements",
+            "XXX.data.advancements.package-info",
+            "XXX.data.info.CommandsReport",
+            "XXX.data.info.package-info",
+            "XXX.data.loot.ChestLoot",
+            "XXX.data.loot.FishingLoot",
+            "XXX.data.loot.LootTableProvider",
+            "XXX.minecraft.data.package-info",
+            "XXX.data.recipes.RecipeProvider",
+            "XXX.data.recipes.ShapedRecipeBuilder$Result",
+            "XXX.data.recipes.ShapelessRecipeBuilder$Result",
+            "XXX.data.recipes.SimpleCookingRecipeBuilder$Result",
+            "XXX.data.recipes.SingleItemRecipeBuilder$Result",
+            "XXX.data.recipes.SpecialRecipeBuilder$1",
+            "XXX.data.structures.NbtToSnbt",
+            "XXX.data.structures.SnbtToNbt$Filter",
+            "XXX.data.structures.StructureUpdater",
+            "XXX.data.tags.BlockTagsProvider",
+            "XXX.data.tags.FluidTagsProvider",
+            "XXX.data.tags.TagsProvider",
+            "XXX.gametest.framework.BeforeBatch",
+            "XXX.gametest.framework.GameTestAssertException",
+            "XXX.gametest.framework.GameTestBatch",
+            "XXX.gametest.framework.GameTestBatchRunner$1",
+            "XXX.gametest.framework.GameTestGenerator",
+            "XXX.gametest.framework.GameTestInfo",
+            "XXX.gametest.framework.GameTestRegistry",
+            "XXX.gametest.framework.GameTestRunner$1",
+            "XXX.gametest.framework.GameTestSequence$Condition",
+            "XXX.gametest.framework.GameTestServer$1",
+            "XXX.gametest.framework.GameTestTimeoutException",
+            "XXX.gametest.framework.MultipleTestTracker",
+            "XXX.gametest.framework.TeamcityTestReporter",
+            "XXX.gametest.framework.TestCommand",
+            "XXX.gametest.framework.TestFunction",
+            "XXX.gametest.framework.TestReporter",
+            "XXX.minecraft.locale.Language",
+            "XXX.minecraft.nbt.ByteArrayTag",
+            "XXX.minecraft.nbt.ByteTag",
+            "XXX.minecraft.nbt.ByteTag$Cache",
+            "XXX.minecraft.nbt.CompoundTag",
+            "XXX.minecraft.nbt.DoubleTag",
+            "XXX.minecraft.nbt.EndTag",
+            "XXX.minecraft.nbt.FloatTag",
+            "XXX.minecraft.nbt.IntArrayTag",
+            "XXX.minecraft.nbt.IntTag",
+            "XXX.minecraft.nbt.IntTag$Cache",
+            "XXX.minecraft.nbt.ListTag$1",
+            "XXX.minecraft.nbt.LongArrayTag$1",
+            "XXX.minecraft.nbt.LongTag$1",
+            "XXX.minecraft.nbt.NbtAccounter",
+            "XXX.minecraft.nbt.NbtIo",
+            "XXX.minecraft.nbt.NbtUtils",
+            "XXX.minecraft.nbt.ShortTag",
+            "XXX.minecraft.nbt.ShortTag$Cache",
+            "XXX.minecraft.nbt.StringTag$1",
+            "XXX.minecraft.nbt.TagParser",
+            "XXX.minecraft.nbt.TagType$1",
+            "XXX.minecraft.nbt.package-info",
+            "XXX.minecraft.network.CipherDecoder",
+            "XXX.minecraft.network.CompressionDecoder",
+            "XXX.minecraft.network.Connection",
+            "XXX.minecraft.network.Connection$2",
+            "XXX.minecraft.network.ConnectionProtocol",
+            "XXX.minecraft.network.ConnectionProtocol$PacketSet",
+            "XXX.minecraft.network.FriendlyByteBuf",
+            "XXX.minecraft.network.PacketEncoder",
+            "XXX.minecraft.network.SkipPacketException",
+            "XXX.minecraft.network.Varint21LengthFieldPrepender",
+            "XXX.network.chat.ChatType",
+            "XXX.network.chat.ClickEvent$Action",
+            "XXX.network.chat.Component$1",
+            "XXX.network.chat.ComponentUtils",
+            "XXX.network.chat.HoverEvent",
+            "XXX.network.chat.KeybindComponent",
+            "XXX.network.chat.NbtComponent$BlockNbtComponent",
+            "XXX.network.chat.NbtComponent$StorageNbtComponent",
+            "XXX.network.chat.SelectorComponent",
+            "XXX.network.chat.Style$1",
+            "XXX.network.chat.TextComponent",
+            "XXX.network.chat.TranslatableFormatException",
+            "XXX.minecraft.network.package-info",
+            "XXX.network.protocol.PacketFlow",
+            "XXX.protocol.game.ClientGamePacketListener",
+            "XXX.protocol.game.ClientboundAddExperienceOrbPacket",
+            "XXX.protocol.game.ClientboundAddMobPacket",
+            "XXX.protocol.game.ClientboundAddPlayerPacket",
+            "XXX.protocol.game.ClientboundAwardStatsPacket",
+            "XXX.protocol.game.ClientboundBlockDestructionPacket",
+            "XXX.protocol.game.ClientboundBlockEventPacket",
+            "XXX.protocol.game.ClientboundBossEventPacket",
+            "XXX.protocol.game.ClientboundBossEventPacket$Operation",
+            "XXX.protocol.game.ClientboundChatPacket",
+            "XXX.protocol.game.ClientboundChunkBlocksUpdatePacket$BlockUpdate",
+            "XXX.protocol.game.ClientboundCommandsPacket",
+            "XXX.protocol.game.ClientboundCommandsPacket$Entry",
+            "XXX.protocol.game.ClientboundContainerClosePacket",
+            "XXX.protocol.game.ClientboundContainerSetDataPacket",
+            "XXX.protocol.game.ClientboundCooldownPacket",
+            "XXX.protocol.game.ClientboundCustomSoundPacket",
+            "XXX.protocol.game.ClientboundEntityEventPacket",
+            "XXX.protocol.game.ClientboundForgetLevelChunkPacket",
+            "XXX.protocol.game.ClientboundHorseScreenOpenPacket",
+            "XXX.protocol.game.ClientboundLevelChunkPacket",
+            "XXX.protocol.game.ClientboundLevelParticlesPacket",
+            "XXX.protocol.game.ClientboundLoginPacket",
+            "XXX.protocol.game.ClientboundMerchantOffersPacket",
+            "XXX.protocol.game.ClientboundMoveEntityPacket$Pos",
+            "XXX.protocol.game.ClientboundMoveEntityPacket$Rot",
+            "XXX.protocol.game.ClientboundOpenBookPacket",
+            "XXX.protocol.game.ClientboundOpenSignEditorPacket",
+            "XXX.protocol.game.ClientboundPlayerAbilitiesPacket",
+            "XXX.protocol.game.ClientboundPlayerCombatPacket$1",
+            "XXX.protocol.game.ClientboundPlayerInfoPacket",
+            "XXX.protocol.game.ClientboundPlayerInfoPacket$Action",
+            "XXX.protocol.game.ClientboundPlayerLookAtPacket",
+            "XXX.protocol.game.ClientboundPlayerPositionPacket$RelativeArgument",
+            "XXX.protocol.game.ClientboundRecipePacket$State",
+            "XXX.protocol.game.ClientboundRemoveMobEffectPacket",
+            "XXX.protocol.game.ClientboundRespawnPacket",
+            "XXX.protocol.game.ClientboundSelectAdvancementsTabPacket",
+            "XXX.protocol.game.ClientboundSetBorderPacket$1",
+            "XXX.protocol.game.ClientboundSetCameraPacket",
+            "XXX.protocol.game.ClientboundSetChunkCacheCenterPacket",
+            "XXX.protocol.game.ClientboundSetDisplayObjectivePacket",
+            "XXX.protocol.game.ClientboundSetEntityLinkPacket",
+            "XXX.protocol.game.ClientboundSetEquippedItemPacket",
+            "XXX.protocol.game.ClientboundSetHealthPacket",
+            "XXX.protocol.game.ClientboundSetPassengersPacket",
+            "XXX.protocol.game.ClientboundSetScorePacket",
+            "XXX.protocol.game.ClientboundSetTimePacket",
+            "XXX.protocol.game.ClientboundSetTitlesPacket$Type",
+            "XXX.protocol.game.ClientboundSoundPacket",
+            "XXX.protocol.game.ClientboundTabListPacket",
+            "XXX.protocol.game.ClientboundTakeItemEntityPacket",
+            "XXX.protocol.game.ClientboundUpdateAdvancementsPacket",
+            "XXX.protocol.game.ClientboundUpdateAttributesPacket$AttributeSnapshot",
+            "XXX.protocol.game.ClientboundUpdateRecipesPacket",
+            "XXX.protocol.game.DebugPackets",
+            "XXX.protocol.game.ServerGamePacketListener",
+            "XXX.protocol.game.ServerboundBlockEntityTagQuery",
+            "XXX.protocol.game.ServerboundChatPacket",
+            "XXX.protocol.game.ServerboundClientCommandPacket$Action",
+            "XXX.protocol.game.ServerboundCommandSuggestionPacket",
+            "XXX.protocol.game.ServerboundContainerButtonClickPacket",
+            "XXX.protocol.game.ServerboundContainerClosePacket",
+            "XXX.protocol.game.ServerboundEditBookPacket",
+            "XXX.protocol.game.ServerboundInteractPacket",
+            "XXX.protocol.game.ServerboundKeepAlivePacket",
+            "XXX.protocol.game.ServerboundMovePlayerPacket",
+            "XXX.protocol.game.ServerboundMovePlayerPacket$PosRot",
+            "XXX.protocol.game.ServerboundMoveVehiclePacket",
+            "XXX.protocol.game.ServerboundPickItemPacket",
+            "XXX.protocol.game.ServerboundPlayerAbilitiesPacket",
+            "XXX.protocol.game.ServerboundPlayerActionPacket$Action",
+            "XXX.protocol.game.ServerboundPlayerCommandPacket$Action",
+            "XXX.protocol.game.ServerboundRecipeBookUpdatePacket",
+            "XXX.protocol.game.ServerboundRenameItemPacket",
+            "XXX.protocol.game.ServerboundResourcePackPacket$Action",
+            "XXX.protocol.game.ServerboundSeenAdvancementsPacket$Action",
+            "XXX.protocol.game.ServerboundSetBeaconPacket",
+            "XXX.protocol.game.ServerboundSetCommandBlockPacket",
+            "XXX.protocol.game.ServerboundSetCreativeModeSlotPacket",
+            "XXX.protocol.game.ServerboundSetStructureBlockPacket",
+            "XXX.protocol.game.ServerboundSwingPacket",
+            "XXX.protocol.game.ServerboundUseItemOnPacket",
+            "XXX.protocol.game.package-info",
+            "XXX.protocol.handshake.ServerHandshakePacketListener",
+            "XXX.protocol.login.ClientLoginPacketListener",
+            "XXX.protocol.login.ClientboundGameProfilePacket",
+            "XXX.protocol.login.ClientboundLoginCompressionPacket",
+            "XXX.protocol.login.ServerLoginPacketListener",
+            "XXX.protocol.login.ServerboundHelloPacket",
+            "XXX.protocol.login.package-info",
+            "XXX.protocol.status.ClientStatusPacketListener",
+            "XXX.protocol.status.ClientboundStatusResponsePacket",
+            "XXX.protocol.status.ServerStatus$Players",
+            "XXX.protocol.status.ServerStatus$Serializer",
+            "XXX.protocol.status.ServerStatus$Version$Serializer",
+            "XXX.protocol.status.ServerboundPingRequestPacket",
+            "XXX.protocol.status.package-info",
+            "XXX.network.syncher.EntityDataSerializer",
+            "XXX.network.syncher.EntityDataSerializers$1",
+            "XXX.network.syncher.EntityDataSerializers$11",
+            "XXX.network.syncher.EntityDataSerializers$13",
+            "XXX.network.syncher.EntityDataSerializers$15",
+            "XXX.network.syncher.EntityDataSerializers$17",
+            "XXX.network.syncher.EntityDataSerializers$19",
+            "XXX.network.syncher.EntityDataSerializers$3",
+            "XXX.network.syncher.EntityDataSerializers$5",
+            "XXX.network.syncher.EntityDataSerializers$7",
+            "XXX.network.syncher.EntityDataSerializers$9",
+            "XXX.network.syncher.SynchedEntityData$DataItem",
+            "XXX.minecraft.obfuscate.DontObfuscateOrShrink",
+            "XXX.minecraft.obfuscate.package-info",
+            "XXX.minecraft.realms.AbstractRealmsButton",
+            "XXX.minecraft.realms.DisconnectedRealmsScreen$1",
+            "XXX.minecraft.realms.Realms",
+            "XXX.minecraft.realms.RealmsAnvilLevelStorageSource",
+            "XXX.minecraft.realms.RealmsButton",
+            "XXX.minecraft.realms.RealmsClickableScrolledSelectionList",
+            "XXX.minecraft.realms.RealmsConfirmResultListener",
+            "XXX.minecraft.realms.RealmsConnect$1",
+            "XXX.minecraft.realms.RealmsEditBox",
+            "XXX.minecraft.realms.RealmsLabel",
+            "XXX.minecraft.realms.RealmsLevelSummary",
+            "XXX.minecraft.realms.RealmsObjectSelectionList",
+            "XXX.minecraft.realms.RealmsScreen",
+            "XXX.minecraft.realms.RealmsScrolledSelectionList",
+            "XXX.minecraft.realms.RealmsServerAddress",
+            "XXX.minecraft.realms.RealmsSimpleScrolledSelectionList",
+            "XXX.minecraft.realms.RealmsSliderButton",
+            "XXX.minecraft.realms.RealmsVertexFormat",
+            "XXX.minecraft.realms.RepeatedNarrator",
+            "XXX.minecraft.realms.Tezzelator",
+            "XXX.realms.pluginapi.LoadedRealmsPlugin",
+            "XXX.realms.pluginapi.package-info",
+            "XXX.minecraft.recipebook.ServerPlaceRecipe",
+            "XXX.minecraft.recipebook.package-info",
+            "XXX.minecraft.resources.ResourceLocation$Serializer",
+            "XXX.minecraft.server.Bootstrap",
+            "XXX.minecraft.server.ChainedJsonException$1",
+            "XXX.minecraft.server.ConsoleInput",
+            "XXX.minecraft.server.DebugLoggedPrintStream",
+            "XXX.minecraft.server.LoggedPrintStream",
+            "XXX.minecraft.server.MinecraftServer$1",
+            "XXX.minecraft.server.MinecraftServer$3",
+            "XXX.minecraft.server.PlayerAdvancements$1",
+            "XXX.minecraft.server.ServerAdvancementManager",
+            "XXX.minecraft.server.ServerFunctionManager$QueuedCommand",
+            "XXX.minecraft.server.ServerScoreboard",
+            "XXX.minecraft.server.TickTask",
+            "XXX.server.bossevents.CustomBossEvents",
+            "XXX.server.commands.AdvancementCommands",
+            "XXX.server.commands.AdvancementCommands$Action",
+            "XXX.server.commands.AdvancementCommands$Action$2",
+            "XXX.server.commands.BanIpCommands",
+            "XXX.server.commands.BanPlayerCommands",
+            "XXX.server.commands.ClearInventoryCommands",
+            "XXX.server.commands.CloneCommands$CloneBlockInfo",
+            "XXX.server.commands.DataPackCommand",
+            "XXX.server.commands.DeOpCommands",
+            "XXX.server.commands.DebugPathCommand",
+            "XXX.server.commands.DifficultyCommand",
+            "XXX.server.commands.EmoteCommands",
+            "XXX.server.commands.ExecuteCommand",
+            "XXX.server.commands.ExecuteCommand$CommandPredicate",
+            "XXX.server.commands.ExperienceCommand$Type",
+            "XXX.server.commands.FillCommand$Mode",
+            "XXX.server.commands.FunctionCommand",
+            "XXX.server.commands.GameRuleCommand",
+            "XXX.server.commands.GiveCommand",
+            "XXX.server.commands.KickCommand",
+            "XXX.server.commands.ListPlayersCommand",
+            "XXX.server.commands.LootCommand",
+            "XXX.server.commands.LootCommand$DropConsumer",
+            "XXX.server.commands.MsgCommand",
+            "XXX.server.commands.PardonCommand",
+            "XXX.server.commands.ParticleCommand",
+            "XXX.server.commands.PublishCommand",
+            "XXX.server.commands.RecipeCommand",
+            "XXX.server.commands.ReplaceItemCommand",
+            "XXX.server.commands.SaveOffCommand",
+            "XXX.server.commands.SayCommand",
+            "XXX.server.commands.ScoreboardCommand",
+            "XXX.server.commands.SetBlockCommand",
+            "XXX.server.commands.SetBlockCommand$Mode",
+            "XXX.server.commands.SetSpawnCommand",
+            "XXX.server.commands.SpectateCommand",
+            "XXX.server.commands.SpreadPlayersCommand$Position",
+            "XXX.server.commands.StopSoundCommand",
+            "XXX.server.commands.TagCommand",
+            "XXX.server.commands.TeamMsgCommand",
+            "XXX.server.commands.TeleportCommand$LookAt",
+            "XXX.server.commands.TimeCommand",
+            "XXX.server.commands.TriggerCommand",
+            "XXX.server.commands.WhitelistCommand",
+            "XXX.commands.data.BlockDataAccessor",
+            "XXX.commands.data.DataAccessor",
+            "XXX.commands.data.DataCommands$DataManipulator",
+            "XXX.commands.data.DataCommands$DataProvider",
+            "XXX.commands.data.EntityDataAccessor$1",
+            "XXX.commands.data.StorageDataAccessor$1",
+            "XXX.server.commands.package-info",
+            "XXX.server.dedicated.DedicatedServer",
+            "XXX.server.dedicated.DedicatedServer$2",
+            "XXX.server.dedicated.DedicatedServerSettings",
+            "XXX.server.dedicated.ServerWatchdog$1",
+            "XXX.server.dedicated.Settings$1",
+            "XXX.server.dedicated.package-info",
+            "XXX.server.gui.MinecraftServerGui$1",
+            "XXX.server.gui.PlayerListComponent",
+            "XXX.server.gui.package-info",
+            "XXX.server.level.ChunkHolder",
+            "XXX.server.level.ChunkHolder$ChunkLoadingFailure",
+            "XXX.server.level.ChunkHolder$FullChunkStatus",
+            "XXX.server.level.ChunkHolder$PlayerProvider",
+            "XXX.server.level.ChunkMap$1",
+            "XXX.server.level.ChunkMap$DistanceManager",
+            "XXX.server.level.ChunkTaskPriorityQueue",
+            "XXX.server.level.ChunkTaskPriorityQueueSorter$1",
+            "XXX.server.level.ChunkTaskPriorityQueueSorter$Release",
+            "XXX.server.level.ColumnPos",
+            "XXX.server.level.DerivedServerLevel",
+            "XXX.server.level.DistanceManager$ChunkTicketTracker",
+            "XXX.server.level.DistanceManager$PlayerTicketTracker",
+            "XXX.server.level.PlayerMap",
+            "XXX.server.level.ServerBossEvent",
+            "XXX.server.level.ServerChunkCache$1",
+            "XXX.server.level.ServerEntity",
+            "XXX.server.level.ServerPlayer",
+            "XXX.server.level.ThreadedLevelLightEngine",
+            "XXX.server.level.Ticket",
+            "XXX.server.level.WorldGenRegion",
+            "XXX.server.level.package-info",
+            "XXX.level.progress.ChunkProgressListenerFactory",
+            "XXX.level.progress.ProcessorChunkProgressListener",
+            "XXX.level.progress.package-info",
+            "XXX.server.network.MemoryServerHandshakePacketListenerImpl",
+            "XXX.server.network.ServerConnectionListener$1",
+            "XXX.server.network.ServerConnectionListener$LatencySimulator",
+            "XXX.server.network.ServerGamePacketListenerImpl$1",
+            "XXX.server.network.ServerHandshakePacketListenerImpl$1",
+            "XXX.server.network.ServerLoginPacketListenerImpl$1",
+            "XXX.server.network.ServerStatusPacketListenerImpl",
+            "XXX.minecraft.server.package-info",
+            "XXX.server.packs.FileResourcePack",
+            "XXX.server.packs.Pack",
+            "XXX.server.packs.ResourcePackFileNotFoundException",
+            "XXX.packs.metadata.MetadataSectionSerializer",
+            "XXX.metadata.pack.PackMetadataSectionSerializer",
+            "XXX.packs.metadata.package-info",
+            "XXX.packs.repository.FolderRepositorySource",
+            "XXX.packs.repository.PackRepository",
+            "XXX.packs.repository.ServerPacksSource",
+            "XXX.packs.repository.UnopenedPack$Position",
+            "XXX.packs.repository.package-info",
+            "XXX.packs.resources.FallbackResourceManager$LeakedResourceWarningInputStream",
+            "XXX.packs.resources.PreparableReloadListener$PreparationBarrier",
+            "XXX.packs.resources.ProfiledReloadInstance$1",
+            "XXX.packs.resources.ReloadInstance",
+            "XXX.packs.resources.Resource",
+            "XXX.packs.resources.ResourceManagerReloadListener",
+            "XXX.packs.resources.SimplePreparableReloadListener",
+            "XXX.packs.resources.SimpleReloadInstance$1",
+            "XXX.packs.resources.SimpleReloadableResourceManager",
+            "XXX.packs.resources.package-info",
+            "XXX.server.players.GameProfileCache",
+            "XXX.server.players.GameProfileCache$2",
+            "XXX.server.players.GameProfileCache$Serializer",
+            "XXX.server.players.IpBanListEntry",
+            "XXX.server.players.OldUsersConverter$1",
+            "XXX.server.players.OldUsersConverter$3",
+            "XXX.server.players.OldUsersConverter$5",
+            "XXX.server.players.PlayerList",
+            "XXX.server.players.ServerOpList",
+            "XXX.server.players.StoredUserEntry",
+            "XXX.server.players.StoredUserList$1",
+            "XXX.server.players.UserBanList",
+            "XXX.server.players.UserWhiteList",
+            "XXX.server.players.package-info",
+            "XXX.server.rcon.PktUtils",
+            "XXX.server.rcon.package-info",
+            "XXX.rcon.thread.QueryThreadGs4",
+            "XXX.rcon.thread.RconClient",
+            "XXX.rcon.thread.package-info",
+            "XXX.minecraft.sounds.SoundEvents",
+            "XXX.minecraft.sounds.package-info",
+            "XXX.minecraft.stats.ServerRecipeBook",
+            "XXX.minecraft.stats.Stat",
+            "XXX.minecraft.stats.StatType",
+            "XXX.minecraft.stats.StatsCounter",
+            "XXX.minecraft.tags.BlockTags",
+            "XXX.minecraft.tags.EntityTypeTags",
+            "XXX.minecraft.tags.FluidTags",
+            "XXX.minecraft.tags.ItemTags",
+            "XXX.minecraft.tags.SynchronizableTagCollection",
+            "XXX.minecraft.tags.Tag$Builder",
+            "XXX.minecraft.tags.Tag$TagEntry",
+            "XXX.minecraft.tags.TagCollection",
+            "XXX.minecraft.tags.TagManager$Preparations",
+            "XXX.minecraft.util.BitStorage",
+            "XXX.minecraft.util.CrudeIncrementalIntIdentityHashBiMap",
+            "XXX.minecraft.util.CsvOutput",
+            "XXX.minecraft.util.CsvOutput$Builder",
+            "XXX.minecraft.util.FrameTimer",
+            "XXX.minecraft.util.HttpUtil",
+            "XXX.minecraft.util.LazyLoadedValue",
+            "XXX.minecraft.util.LinearCongruentialGenerator",
+            "XXX.minecraft.util.LowerCaseEnumTypeAdapterFactory$1",
+            "XXX.minecraft.util.ProgressListener",
+            "XXX.minecraft.util.RewindableStream$1",
+            "XXX.minecraft.util.SmoothDouble",
+            "XXX.minecraft.util.StringUtil",
+            "XXX.minecraft.util.Unit",
+            "XXX.minecraft.util.WeighedRandom",
+            "XXX.util.datafix.DataFixTypes",
+            "XXX.util.datafix.DataFixers$1",
+            "XXX.util.datafix.OminousBannerBlockEntityRenameFix",
+            "XXX.datafix.fixes.AddNewChoices",
+            "XXX.datafix.fixes.BedBlockEntityInjecter",
+            "XXX.datafix.fixes.BeehivePoiRenameFix",
+            "XXX.datafix.fixes.BlockEntityBannerColorFix",
+            "XXX.datafix.fixes.BlockEntityCustomNameToComponentFix",
+            "XXX.datafix.fixes.BlockEntityJukeboxFix",
+            "XXX.datafix.fixes.BlockEntityShulkerBoxColorFix",
+            "XXX.datafix.fixes.BlockEntitySignTextStrictJsonFix$1",
+            "XXX.datafix.fixes.BlockRenameFix",
+            "XXX.datafix.fixes.BlockStateData",
+            "XXX.datafix.fixes.CatTypeFix",
+            "XXX.datafix.fixes.ChunkLightRemoveFix",
+            "XXX.datafix.fixes.ChunkPalettedStorageFix$1",
+            "XXX.datafix.fixes.ChunkPalettedStorageFix$Direction",
+            "XXX.datafix.fixes.ChunkPalettedStorageFix$Direction$AxisDirection",
+            "XXX.datafix.fixes.ChunkPalettedStorageFix$UpgradeChunk",
+            "XXX.datafix.fixes.ChunkStatusFix2",
+            "XXX.datafix.fixes.ChunkToProtochunkFix",
+            "XXX.datafix.fixes.DyeItemRenameFix",
+            "XXX.datafix.fixes.EntityBlockStateFix",
+            "XXX.datafix.fixes.EntityCodSalmonFix",
+            "XXX.datafix.fixes.EntityElderGuardianSplitFix",
+            "XXX.datafix.fixes.EntityHealthFix",
+            "XXX.datafix.fixes.EntityHorseSplitFix",
+            "XXX.datafix.fixes.EntityItemFrameDirectionFix",
+            "XXX.datafix.fixes.EntityPaintingItemFrameDirectionFix",
+            "XXX.datafix.fixes.EntityPufferfishRenameFix",
+            "XXX.datafix.fixes.EntityRedundantChanceTagsFix",
+            "XXX.datafix.fixes.EntityRidingToPassengersFix",
+            "XXX.datafix.fixes.EntitySkeletonSplitFix",
+            "XXX.datafix.fixes.EntityTheRenameningFix",
+            "XXX.datafix.fixes.EntityWolfColorFix",
+            "XXX.datafix.fixes.EntityZombieVillagerTypeFix",
+            "XXX.datafix.fixes.HeightmapRenamingFix",
+            "XXX.datafix.fixes.ItemBannerColorFix",
+            "XXX.datafix.fixes.ItemIdFix",
+            "XXX.datafix.fixes.ItemPotionFix",
+            "XXX.datafix.fixes.ItemRenameFix$1",
+            "XXX.datafix.fixes.ItemSpawnEggFix",
+            "XXX.datafix.fixes.ItemStackMapIdFix",
+            "XXX.datafix.fixes.ItemStackTheFlatteningFix",
+            "XXX.datafix.fixes.ItemWrittenBookPagesStrictJsonFix",
+            "XXX.datafix.fixes.LeavesFix$LeavesSection",
+            "XXX.datafix.fixes.LevelDataGeneratorOptionsFix",
+            "XXX.datafix.fixes.MapIdFix",
+            "XXX.datafix.fixes.NamedEntityFix",
+            "XXX.datafix.fixes.ObjectiveDisplayNameFix",
+            "XXX.datafix.fixes.OptionsAddTextBackgroundFix",
+            "XXX.datafix.fixes.OptionsKeyLwjgl3Fix",
+            "XXX.datafix.fixes.OptionsLowerCaseLanguageFix",
+            "XXX.datafix.fixes.RecipesFix",
+            "XXX.datafix.fixes.References",
+            "XXX.datafix.fixes.RenamedCoralFix",
+            "XXX.datafix.fixes.SavedDataVillageCropFix",
+            "XXX.datafix.fixes.SimplestEntityRenameFix"
+          ],
+          "removed": [
+            "XXX.client.renderer.ItemBlockRenderTypes",
+            "XXX.client.renderer.ItemInHandRenderer$1",
+            "XXX.client.renderer.LevelRenderer",
+            "XXX.client.renderer.LevelRenderer$RenderChunkInfo",
+            "XXX.client.renderer.MultiBufferSource",
+            "XXX.client.renderer.OutlineBufferSource",
+            "XXX.client.renderer.OutlineBufferSource$EntityOutlineGenerator",
+            "XXX.client.renderer.PostChain",
+            "XXX.client.renderer.Rect2i",
+            "XXX.client.renderer.RenderStateShard",
+            "XXX.client.renderer.RenderStateShard$BooleanStateShard",
+            "XXX.client.renderer.RenderStateShard$DepthTestStateShard",
+            "XXX.client.renderer.RenderStateShard$FogStateShard",
+            "XXX.client.renderer.RenderStateShard$LightmapStateShard",
+            "XXX.client.renderer.RenderStateShard$OffsetTexturingStateShard",
+            "XXX.client.renderer.RenderStateShard$TexturingStateShard",
+            "XXX.client.renderer.RenderStateShard$WriteMaskStateShard",
+            "XXX.client.renderer.RenderType$1",
+            "XXX.client.renderer.RenderType$CompositeState",
+            "XXX.client.renderer.ScreenEffectRenderer",
+            "XXX.client.renderer.VirtualScreen",
+            "XXX.renderer.banner.BannerTextures$1",
+            "XXX.renderer.banner.BannerTextures$TimestampedBannerTexture",
+            "XXX.renderer.block.BlockModelShaper",
+            "XXX.renderer.block.BlockRenderDispatcher$1",
+            "XXX.renderer.block.ModelBlockRenderer",
+            "XXX.renderer.block.ModelBlockRenderer$AdjacencyInfo",
+            "XXX.renderer.block.ModelBlockRenderer$AmbientVertexRemap",
+            "XXX.renderer.block.ModelBlockRenderer$Cache$1",
+            "XXX.renderer.block.ModelBlockRenderer$SizeInfo",
+            "XXX.block.model.BlockElement",
+            "XXX.block.model.BlockElement$Deserializer",
+            "XXX.block.model.BlockElementFace$Deserializer",
+            "XXX.block.model.BlockFaceUV",
+            "XXX.block.model.BlockModel",
+            "XXX.block.model.BlockModel$Bookkeep",
+            "XXX.block.model.BlockModel$LoopException",
+            "XXX.block.model.BlockModelDefinition$Context",
+            "XXX.block.model.BlockModelDefinition$MissingVariantException",
+            "XXX.block.model.FaceBakery$1",
+            "XXX.block.model.ItemModelGenerator$1",
+            "XXX.block.model.ItemModelGenerator$SpanFacing",
+            "XXX.block.model.ItemOverride$Deserializer",
+            "XXX.block.model.ItemTransform",
+            "XXX.block.model.ItemTransforms",
+            "XXX.block.model.ItemTransforms$Deserializer",
+            "XXX.block.model.MultiVariant",
+            "XXX.block.model.Variant",
+            "XXX.model.multipart.AndCondition",
+            "XXX.model.multipart.KeyValueCondition",
+            "XXX.model.multipart.MultiPart$Deserializer",
+            "XXX.model.multipart.Selector",
+            "XXX.model.multipart.package-info",
+            "XXX.renderer.block.package-info",
+            "XXX.renderer.blockentity.BannerRenderer",
+            "XXX.renderer.blockentity.BedRenderer",
+            "XXX.renderer.blockentity.BlockEntityRenderDispatcher",
+            "XXX.renderer.blockentity.CampfireRenderer",
+            "XXX.renderer.blockentity.ChestRenderer$1",
+            "XXX.entity.layers.EyesLayer",
+            "XXX.entity.layers.HorseArmorLayer",
+            "XXX.entity.layers.HumanoidArmorLayer$1",
+            "XXX.entity.layers.IronGolemFlowerLayer",
+            "XXX.entity.layers.LlamaDecorLayer",
+            "XXX.entity.layers.PandaHoldsItemLayer",
+            "XXX.entity.layers.PhantomEyesLayer",
+            "XXX.entity.layers.RenderLayer",
+            "XXX.entity.layers.ShulkerHeadLayer",
+            "XXX.entity.layers.SlimeOuterLayer",
+            "XXX.entity.layers.SpiderEyesLayer",
+            "XXX.core.dispenser.DispenseItemBehavior$22",
+            "XXX.core.dispenser.DispenseItemBehavior$4",
+            "XXX.core.dispenser.DispenseItemBehavior$6",
+            "XXX.core.dispenser.DispenseItemBehavior$7$1",
+            "XXX.core.dispenser.DispenseItemBehavior$8$1",
+            "XXX.core.dispenser.OptionalDispenseItemBehavior",
+            "XXX.core.dispenser.package-info",
+            "XXX.core.particles.BlockParticleOption",
+            "XXX.core.particles.DustParticleOptions",
+            "XXX.core.particles.ItemParticleOption",
+            "XXX.core.particles.ParticleOptions",
+            "XXX.core.particles.ParticleType",
+            "XXX.core.particles.SimpleParticleType",
+            "XXX.core.particles.package-info",
+            "XXX.minecraft.data.DataProvider",
+            "XXX.minecraft.data.Main",
+            "XXX.data.advancements.AdventureAdvancements",
+            "XXX.data.advancements.NetherAdvancements",
+            "XXX.data.advancements.TheEndAdvancements",
+            "XXX.data.info.BlockListReport",
+            "XXX.data.info.RegistryDumpReport",
+            "XXX.data.loot.BlockLoot",
+            "XXX.data.loot.EntityLoot",
+            "XXX.data.loot.GiftLoot",
+            "XXX.data.loot.package-info",
+            "XXX.data.recipes.FinishedRecipe",
+            "XXX.data.recipes.ShapedRecipeBuilder",
+            "XXX.data.recipes.ShapelessRecipeBuilder",
+            "XXX.data.recipes.SimpleCookingRecipeBuilder",
+            "XXX.data.recipes.SingleItemRecipeBuilder",
+            "XXX.data.recipes.SpecialRecipeBuilder",
+            "XXX.data.recipes.package-info",
+            "XXX.data.structures.SnbtToNbt",
+            "XXX.data.structures.SnbtToNbt$TaskResult",
+            "XXX.data.structures.package-info",
+            "XXX.data.tags.EntityTypeTagsProvider",
+            "XXX.data.tags.ItemTagsProvider",
+            "XXX.data.tags.package-info",
+            "XXX.gametest.framework.GameTest",
+            "XXX.gametest.framework.GameTestAssertPosException",
+            "XXX.gametest.framework.GameTestBatchRunner",
+            "XXX.gametest.framework.GameTestEvent",
+            "XXX.gametest.framework.GameTestHelper",
+            "XXX.gametest.framework.GameTestListener",
+            "XXX.gametest.framework.GameTestRunner",
+            "XXX.gametest.framework.GameTestSequence",
+            "XXX.gametest.framework.GameTestServer",
+            "XXX.gametest.framework.GameTestTicker",
+            "XXX.gametest.framework.LogTestReporter",
+            "XXX.gametest.framework.StructureUtils",
+            "XXX.gametest.framework.TestClassNameArgument",
+            "XXX.gametest.framework.TestCommand$TestSummaryDisplayer",
+            "XXX.gametest.framework.TestFunctionArgument",
+            "XXX.gametest.framework.package-info",
+            "XXX.minecraft.locale.package-info",
+            "XXX.minecraft.nbt.ByteArrayTag$1",
+            "XXX.minecraft.nbt.ByteTag$1",
+            "XXX.minecraft.nbt.CollectionTag",
+            "XXX.minecraft.nbt.CompoundTag$1",
+            "XXX.minecraft.nbt.DoubleTag$1",
+            "XXX.minecraft.nbt.EndTag$1",
+            "XXX.minecraft.nbt.FloatTag$1",
+            "XXX.minecraft.nbt.IntArrayTag$1",
+            "XXX.minecraft.nbt.IntTag$1",
+            "XXX.minecraft.nbt.ListTag",
+            "XXX.minecraft.nbt.LongArrayTag",
+            "XXX.minecraft.nbt.LongTag",
+            "XXX.minecraft.nbt.LongTag$Cache",
+            "XXX.minecraft.nbt.NbtAccounter$1",
+            "XXX.minecraft.nbt.NbtOps",
+            "XXX.minecraft.nbt.NumericTag",
+            "XXX.minecraft.nbt.ShortTag$1",
+            "XXX.minecraft.nbt.StringTag",
+            "XXX.minecraft.nbt.Tag",
+            "XXX.minecraft.nbt.TagType",
+            "XXX.minecraft.nbt.TagTypes",
+            "XXX.minecraft.network.CipherBase",
+            "XXX.minecraft.network.CipherEncoder",
+            "XXX.minecraft.network.CompressionEncoder",
+            "XXX.minecraft.network.Connection$1",
+            "XXX.minecraft.network.Connection$PacketHolder",
+            "XXX.minecraft.network.ConnectionProtocol$1",
+            "XXX.minecraft.network.ConnectionProtocol$ProtocolBuilder",
+            "XXX.minecraft.network.PacketDecoder",
+            "XXX.minecraft.network.PacketListener",
+            "XXX.minecraft.network.Varint21FrameDecoder",
+            "XXX.network.chat.BaseComponent",
+            "XXX.network.chat.ClickEvent",
+            "XXX.network.chat.Component",
+            "XXX.network.chat.Component$Serializer",
+            "XXX.network.chat.ContextAwareComponent",
+            "XXX.network.chat.HoverEvent$Action",
+            "XXX.network.chat.NbtComponent",
+            "XXX.network.chat.NbtComponent$EntityNbtComponent",
+            "XXX.network.chat.ScoreComponent",
+            "XXX.network.chat.Style",
+            "XXX.network.chat.Style$Serializer",
+            "XXX.network.chat.TranslatableComponent",
+            "XXX.network.chat.package-info",
+            "XXX.network.protocol.Packet",
+            "XXX.network.protocol.PacketUtils",
+            "XXX.protocol.game.ClientboundAddEntityPacket",
+            "XXX.protocol.game.ClientboundAddGlobalEntityPacket",
+            "XXX.protocol.game.ClientboundAddPaintingPacket",
+            "XXX.protocol.game.ClientboundAnimatePacket",
+            "XXX.protocol.game.ClientboundBlockBreakAckPacket",
+            "XXX.protocol.game.ClientboundBlockEntityDataPacket",
+            "XXX.protocol.game.ClientboundBlockUpdatePacket",
+            "XXX.protocol.game.ClientboundBossEventPacket$1",
+            "XXX.protocol.game.ClientboundChangeDifficultyPacket",
+            "XXX.protocol.game.ClientboundChunkBlocksUpdatePacket",
+            "XXX.protocol.game.ClientboundCommandSuggestionsPacket",
+            "XXX.protocol.game.ClientboundCommandsPacket$1",
+            "XXX.protocol.game.ClientboundContainerAckPacket",
+            "XXX.protocol.game.ClientboundContainerSetContentPacket",
+            "XXX.protocol.game.ClientboundContainerSetSlotPacket",
+            "XXX.protocol.game.ClientboundCustomPayloadPacket",
+            "XXX.protocol.game.ClientboundDisconnectPacket",
+            "XXX.protocol.game.ClientboundExplodePacket",
+            "XXX.protocol.game.ClientboundGameEventPacket",
+            "XXX.protocol.game.ClientboundKeepAlivePacket",
+            "XXX.protocol.game.ClientboundLevelEventPacket",
+            "XXX.protocol.game.ClientboundLightUpdatePacket",
+            "XXX.protocol.game.ClientboundMapItemDataPacket",
+            "XXX.protocol.game.ClientboundMoveEntityPacket",
+            "XXX.protocol.game.ClientboundMoveEntityPacket$PosRot",
+            "XXX.protocol.game.ClientboundMoveVehiclePacket",
+            "XXX.protocol.game.ClientboundOpenScreenPacket",
+            "XXX.protocol.game.ClientboundPlaceGhostRecipePacket",
+            "XXX.protocol.game.ClientboundPlayerCombatPacket",
+            "XXX.protocol.game.ClientboundPlayerCombatPacket$Event",
+            "XXX.protocol.game.ClientboundPlayerInfoPacket$1",
+            "XXX.protocol.game.ClientboundPlayerInfoPacket$PlayerUpdate",
+            "XXX.protocol.game.ClientboundPlayerPositionPacket",
+            "XXX.protocol.game.ClientboundRecipePacket",
+            "XXX.protocol.game.ClientboundRemoveEntitiesPacket",
+            "XXX.protocol.game.ClientboundResourcePackPacket",
+            "XXX.protocol.game.ClientboundRotateHeadPacket",
+            "XXX.protocol.game.ClientboundSetBorderPacket",
+            "XXX.protocol.game.ClientboundSetBorderPacket$Type",
+            "XXX.protocol.game.ClientboundSetCarriedItemPacket",
+            "XXX.protocol.game.ClientboundSetChunkCacheRadiusPacket",
+            "XXX.protocol.game.ClientboundSetEntityDataPacket",
+            "XXX.protocol.game.ClientboundSetEntityMotionPacket",
+            "XXX.protocol.game.ClientboundSetExperiencePacket",
+            "XXX.protocol.game.ClientboundSetObjectivePacket",
+            "XXX.protocol.game.ClientboundSetPlayerTeamPacket",
+            "XXX.protocol.game.ClientboundSetSpawnPositionPacket",
+            "XXX.protocol.game.ClientboundSetTitlesPacket",
+            "XXX.protocol.game.ClientboundSoundEntityPacket",
+            "XXX.protocol.game.ClientboundStopSoundPacket",
+            "XXX.protocol.game.ClientboundTagQueryPacket",
+            "XXX.protocol.game.ClientboundTeleportEntityPacket",
+            "XXX.protocol.game.ClientboundUpdateAttributesPacket",
+            "XXX.protocol.game.ClientboundUpdateMobEffectPacket",
+            "XXX.protocol.game.ClientboundUpdateTagsPacket",
+            "XXX.protocol.game.DebugVillagerNameGenerator",
+            "XXX.protocol.game.ServerboundAcceptTeleportationPacket",
+            "XXX.protocol.game.ServerboundChangeDifficultyPacket",
+            "XXX.protocol.game.ServerboundClientCommandPacket",
+            "XXX.protocol.game.ServerboundClientInformationPacket",
+            "XXX.protocol.game.ServerboundContainerAckPacket",
+            "XXX.protocol.game.ServerboundContainerClickPacket",
+            "XXX.protocol.game.ServerboundCustomPayloadPacket",
+            "XXX.protocol.game.ServerboundEntityTagQuery",
+            "XXX.protocol.game.ServerboundInteractPacket$Action",
+            "XXX.protocol.game.ServerboundLockDifficultyPacket",
+            "XXX.protocol.game.ServerboundMovePlayerPacket$Pos",
+            "XXX.protocol.game.ServerboundMovePlayerPacket$Rot",
+            "XXX.protocol.game.ServerboundPaddleBoatPacket",
+            "XXX.protocol.game.ServerboundPlaceRecipePacket",
+            "XXX.protocol.game.ServerboundPlayerActionPacket",
+            "XXX.protocol.game.ServerboundPlayerCommandPacket",
+            "XXX.protocol.game.ServerboundPlayerInputPacket",
+            "XXX.protocol.game.ServerboundRecipeBookUpdatePacket$Purpose",
+            "XXX.protocol.game.ServerboundResourcePackPacket",
+            "XXX.protocol.game.ServerboundSeenAdvancementsPacket",
+            "XXX.protocol.game.ServerboundSelectTradePacket",
+            "XXX.protocol.game.ServerboundSetCarriedItemPacket",
+            "XXX.protocol.game.ServerboundSetCommandMinecartPacket",
+            "XXX.protocol.game.ServerboundSetJigsawBlockPacket",
+            "XXX.protocol.game.ServerboundSignUpdatePacket",
+            "XXX.protocol.game.ServerboundTeleportToEntityPacket",
+            "XXX.protocol.game.ServerboundUseItemPacket",
+            "XXX.protocol.handshake.ClientIntentionPacket",
+            "XXX.protocol.handshake.package-info",
+            "XXX.protocol.login.ClientboundCustomQueryPacket",
+            "XXX.protocol.login.ClientboundHelloPacket",
+            "XXX.protocol.login.ClientboundLoginDisconnectPacket",
+            "XXX.protocol.login.ServerboundCustomQueryPacket",
+            "XXX.protocol.login.ServerboundKeyPacket",
+            "XXX.network.protocol.package-info",
+            "XXX.protocol.status.ClientboundPongResponsePacket",
+            "XXX.protocol.status.ServerStatus",
+            "XXX.protocol.status.ServerStatus$Players$Serializer",
+            "XXX.protocol.status.ServerStatus$Version",
+            "XXX.protocol.status.ServerStatusPacketListener",
+            "XXX.protocol.status.ServerboundStatusRequestPacket",
+            "XXX.network.syncher.EntityDataAccessor",
+            "XXX.network.syncher.EntityDataSerializers",
+            "XXX.network.syncher.EntityDataSerializers$10",
+            "XXX.network.syncher.EntityDataSerializers$12",
+            "XXX.network.syncher.EntityDataSerializers$14",
+            "XXX.network.syncher.EntityDataSerializers$16",
+            "XXX.network.syncher.EntityDataSerializers$18",
+            "XXX.network.syncher.EntityDataSerializers$2",
+            "XXX.network.syncher.EntityDataSerializers$4",
+            "XXX.network.syncher.EntityDataSerializers$6",
+            "XXX.network.syncher.EntityDataSerializers$8",
+            "XXX.network.syncher.SynchedEntityData",
+            "XXX.network.syncher.package-info",
+            "XXX.minecraft.obfuscate.KeepAfterObfuscation",
+            "net.minecraft.package-info",
+            "XXX.minecraft.realms.DisconnectedRealmsScreen",
+            "XXX.minecraft.realms.RealmListEntry",
+            "XXX.minecraft.realms.RealmsAbstractButtonProxy",
+            "XXX.minecraft.realms.RealmsBridge",
+            "XXX.minecraft.realms.RealmsButtonProxy",
+            "XXX.minecraft.realms.RealmsClickableScrolledSelectionListProxy",
+            "XXX.minecraft.realms.RealmsConnect",
+            "XXX.minecraft.realms.RealmsDefaultVertexFormat",
+            "XXX.minecraft.realms.RealmsGuiEventListener",
+            "XXX.minecraft.realms.RealmsLabelProxy",
+            "XXX.minecraft.realms.RealmsMth",
+            "XXX.minecraft.realms.RealmsObjectSelectionListProxy",
+            "XXX.minecraft.realms.RealmsScreenProxy",
+            "XXX.minecraft.realms.RealmsScrolledSelectionListProxy",
+            "XXX.minecraft.realms.RealmsSharedConstants",
+            "XXX.minecraft.realms.RealmsSimpleScrolledSelectionListProxy",
+            "XXX.minecraft.realms.RealmsSliderButtonProxy",
+            "XXX.minecraft.realms.RealmsVertexFormatElement",
+            "XXX.minecraft.realms.RepeatedNarrator$Params",
+            "XXX.minecraft.realms.package-info",
+            "XXX.realms.pluginapi.RealmsPlugin",
+            "XXX.minecraft.recipebook.PlaceRecipe",
+            "XXX.minecraft.recipebook.ServerPlaceSmeltingRecipe",
+            "XXX.minecraft.resources.ResourceLocation",
+            "XXX.minecraft.resources.package-info",
+            "XXX.minecraft.server.ChainedJsonException",
+            "XXX.minecraft.server.ChainedJsonException$Entry",
+            "XXX.minecraft.server.ConsoleInputSource",
+            "XXX.minecraft.server.Eula",
+            "XXX.minecraft.server.MinecraftServer",
+            "XXX.minecraft.server.MinecraftServer$2",
+            "XXX.minecraft.server.PlayerAdvancements",
+            "XXX.minecraft.server.RunningOnDifferentThreadException",
+            "XXX.minecraft.server.ServerFunctionManager",
+            "XXX.minecraft.server.ServerInterface",
+            "XXX.minecraft.server.ServerScoreboard$Method",
+            "XXX.server.bossevents.CustomBossEvent",
+            "XXX.server.bossevents.package-info",
+            "XXX.server.commands.AdvancementCommands$1",
+            "XXX.server.commands.AdvancementCommands$Action$1",
+            "XXX.server.commands.AdvancementCommands$Mode",
+            "XXX.server.commands.BanListCommands",
+            "XXX.server.commands.BossBarCommands",
+            "XXX.server.commands.CloneCommands",
+            "XXX.server.commands.CloneCommands$Mode",
+            "XXX.server.commands.DataPackCommand$Inserter",
+            "XXX.server.commands.DebugCommand",
+            "XXX.server.commands.DefaultGameModeCommands",
+            "XXX.server.commands.EffectCommands",
+            "XXX.server.commands.EnchantCommand",
+            "XXX.server.commands.ExecuteCommand$CommandNumericPredicate",
+            "XXX.server.commands.ExperienceCommand",
+            "XXX.server.commands.FillCommand",
+            "XXX.server.commands.ForceLoadCommand",
+            "XXX.server.commands.GameModeCommand",
+            "XXX.server.commands.GameRuleCommand$1",
+            "XXX.server.commands.HelpCommand",
+            "XXX.server.commands.KillCommand",
+            "XXX.server.commands.LocateCommand",
+            "XXX.server.commands.LootCommand$Callback",
+            "XXX.server.commands.LootCommand$TailProvider",
+            "XXX.server.commands.OpCommand",
+            "XXX.server.commands.PardonIpCommand",
+            "XXX.server.commands.PlaySoundCommand",
+            "XXX.server.commands.RaidCommand",
+            "XXX.server.commands.ReloadCommand",
+            "XXX.server.commands.SaveAllCommand",
+            "XXX.server.commands.SaveOnCommand",
+            "XXX.server.commands.ScheduleCommand",
+            "XXX.server.commands.SeedCommand",
+            "XXX.server.commands.SetBlockCommand$Filter",
+            "XXX.server.commands.SetPlayerIdleTimeoutCommand",
+            "XXX.server.commands.SetWorldSpawnCommand",
+            "XXX.server.commands.SpreadPlayersCommand",
+            "XXX.server.commands.StopCommand",
+            "XXX.server.commands.SummonCommand",
+            "XXX.server.commands.TeamCommand",
+            "XXX.server.commands.TeleportCommand",
+            "XXX.server.commands.TellRawCommand",
+            "XXX.server.commands.TitleCommand",
+            "XXX.server.commands.WeatherCommand",
+            "XXX.server.commands.WorldBorderCommand",
+            "XXX.commands.data.BlockDataAccessor$1",
+            "XXX.commands.data.DataCommands",
+            "XXX.commands.data.DataCommands$DataManipulatorDecorator",
+            "XXX.commands.data.EntityDataAccessor",
+            "XXX.commands.data.StorageDataAccessor",
+            "XXX.commands.data.package-info",
+            "XXX.server.dedicated.DedicatedPlayerList",
+            "XXX.server.dedicated.DedicatedServer$1",
+            "XXX.server.dedicated.DedicatedServerProperties",
+            "XXX.server.dedicated.ServerWatchdog",
+            "XXX.server.dedicated.Settings",
+            "XXX.server.dedicated.Settings$MutableValue",
+            "XXX.server.gui.MinecraftServerGui",
+            "XXX.server.gui.MinecraftServerGui$2",
+            "XXX.server.gui.StatsComponent",
+            "XXX.server.level.BlockDestructionProgress",
+            "XXX.server.level.ChunkHolder$1",
+            "XXX.server.level.ChunkHolder$ChunkLoadingFailure$1",
+            "XXX.server.level.ChunkHolder$LevelChangeListener",
+            "XXX.server.level.ChunkMap",
+            "XXX.server.level.ChunkMap$2",
+            "XXX.server.level.ChunkMap$TrackedEntity",
+            "XXX.server.level.ChunkTaskPriorityQueueSorter",
+            "XXX.server.level.ChunkTaskPriorityQueueSorter$Message",
+            "XXX.server.level.ChunkTracker",
+            "XXX.server.level.DemoMode",
+            "XXX.server.level.DistanceManager",
+            "XXX.server.level.DistanceManager$FixedPlayerDistanceChunkTracker",
+            "XXX.server.level.FeatureSimulator",
+            "XXX.server.level.SectionTracker",
+            "XXX.server.level.ServerChunkCache",
+            "XXX.server.level.ServerChunkCache$MainThreadExecutor",
+            "XXX.server.level.ServerLevel",
+            "XXX.server.level.ServerPlayerGameMode",
+            "XXX.server.level.ThreadedLevelLightEngine$TaskType",
+            "XXX.server.level.TicketType",
+            "XXX.server.level.WorldGenTickList",
+            "XXX.level.progress.ChunkProgressListener",
+            "XXX.level.progress.LoggerChunkProgressListener",
+            "XXX.level.progress.StoringChunkProgressListener",
+            "XXX.server.network.LegacyQueryHandler",
+            "XXX.server.network.ServerConnectionListener",
+            "XXX.server.network.ServerConnectionListener$2",
+            "XXX.server.network.ServerGamePacketListenerImpl",
+            "XXX.server.network.ServerHandshakePacketListenerImpl",
+            "XXX.server.network.ServerLoginPacketListenerImpl",
+            "XXX.server.network.ServerLoginPacketListenerImpl$State",
+            "XXX.server.network.package-info",
+            "XXX.server.packs.AbstractResourcePack",
+            "XXX.server.packs.FolderResourcePack",
+            "XXX.server.packs.PackType",
+            "XXX.server.packs.VanillaPack",
+            "XXX.metadata.pack.PackMetadataSection",
+            "XXX.metadata.pack.package-info",
+            "XXX.server.packs.package-info",
+            "XXX.packs.repository.PackCompatibility",
+            "XXX.packs.repository.RepositorySource",
+            "XXX.packs.repository.UnopenedPack",
+            "XXX.packs.repository.UnopenedPack$UnopenedPackConstructor",
+            "XXX.packs.resources.FallbackResourceManager",
+            "XXX.packs.resources.PreparableReloadListener",
+            "XXX.packs.resources.ProfiledReloadInstance",
+            "XXX.packs.resources.ProfiledReloadInstance$State",
+            "XXX.packs.resources.ReloadableResourceManager",
+            "XXX.packs.resources.ResourceManager",
+            "XXX.packs.resources.SimpleJsonResourceReloadListener",
+            "XXX.packs.resources.SimpleReloadInstance",
+            "XXX.packs.resources.SimpleReloadInstance$StateFactory",
+            "XXX.packs.resources.SimpleResource",
+            "XXX.server.players.BanListEntry",
+            "XXX.server.players.GameProfileCache$1",
+            "XXX.server.players.GameProfileCache$GameProfileInfo",
+            "XXX.server.players.IpBanList",
+            "XXX.server.players.OldUsersConverter",
+            "XXX.server.players.OldUsersConverter$2",
+            "XXX.server.players.OldUsersConverter$4",
+            "XXX.server.players.OldUsersConverter$ConversionError",
+            "XXX.server.players.PlayerList$1",
+            "XXX.server.players.ServerOpListEntry",
+            "XXX.server.players.StoredUserList",
+            "XXX.server.players.StoredUserList$Serializer",
+            "XXX.server.players.UserBanListEntry",
+            "XXX.server.players.UserWhiteListEntry",
+            "XXX.server.rcon.NetworkDataOutputStream",
+            "XXX.server.rcon.RconConsoleSource",
+            "XXX.rcon.thread.GenericThread",
+            "XXX.rcon.thread.QueryThreadGs4$RequestChallenge",
+            "XXX.rcon.thread.RconThread",
+            "XXX.minecraft.sounds.SoundEvent",
+            "XXX.minecraft.sounds.SoundSource",
+            "XXX.minecraft.stats.RecipeBook",
+            "XXX.minecraft.stats.ServerStatsCounter",
+            "XXX.minecraft.stats.StatFormatter",
+            "XXX.minecraft.stats.Stats",
+            "XXX.minecraft.stats.package-info",
+            "XXX.minecraft.tags.BlockTags$Wrapper",
+            "XXX.minecraft.tags.EntityTypeTags$Wrapper",
+            "XXX.minecraft.tags.FluidTags$Wrapper",
+            "XXX.minecraft.tags.ItemTags$Wrapper",
+            "XXX.minecraft.tags.Tag",
+            "XXX.minecraft.tags.Tag$Entry",
+            "XXX.minecraft.tags.Tag$ValuesEntry",
+            "XXX.minecraft.tags.TagManager",
+            "XXX.minecraft.tags.package-info",
+            "XXX.minecraft.util.ClassInstanceMultiMap",
+            "XXX.minecraft.util.Crypt",
+            "XXX.minecraft.util.CsvOutput$1",
+            "XXX.minecraft.util.Deserializer",
+            "XXX.minecraft.util.GsonHelper",
+            "XXX.minecraft.util.InsensitiveStringMap",
+            "XXX.minecraft.util.LimitedCapacityList",
+            "XXX.minecraft.util.LowerCaseEnumTypeAdapterFactory",
+            "XXX.minecraft.util.Mth",
+            "XXX.minecraft.util.RewindableStream",
+            "XXX.minecraft.util.Serializable",
+            "XXX.minecraft.util.StringRepresentable",
+            "XXX.minecraft.util.Tuple",
+            "XXX.minecraft.util.VisibleForDebug",
+            "XXX.minecraft.util.WeighedRandom$WeighedRandomItem",
+            "XXX.util.datafix.DataFixers",
+            "XXX.util.datafix.DataFixers$2",
+            "XXX.util.datafix.OminousBannerRenameFix",
+            "XXX.datafix.fixes.AdvancementsFix",
+            "XXX.datafix.fixes.BedItemColorFix",
+            "XXX.datafix.fixes.BiomeFix",
+            "XXX.datafix.fixes.BlockEntityBlockStateFix",
+            "XXX.datafix.fixes.BlockEntityIdFix",
+            "XXX.datafix.fixes.BlockEntityKeepPacked",
+            "XXX.datafix.fixes.BlockEntitySignTextStrictJsonFix",
+            "XXX.datafix.fixes.BlockNameFlatteningFix",
+            "XXX.datafix.fixes.BlockRenameFix$1",
+            "XXX.datafix.fixes.BlockStateStructureTemplateFix",
+            "XXX.datafix.fixes.ChunkBiomeFix",
+            "XXX.datafix.fixes.ChunkPalettedStorageFix",
+            "XXX.datafix.fixes.ChunkPalettedStorageFix$DataLayer",
+            "XXX.datafix.fixes.ChunkPalettedStorageFix$Direction$Axis",
+            "XXX.datafix.fixes.ChunkPalettedStorageFix$Section",
+            "XXX.datafix.fixes.ChunkStatusFix",
+            "XXX.datafix.fixes.ChunkStructuresTemplateRenameFix",
+            "XXX.datafix.fixes.ColorlessShulkerEntityFix",
+            "XXX.datafix.fixes.EntityArmorStandSilentFix",
+            "XXX.datafix.fixes.EntityCatSplitFix",
+            "XXX.datafix.fixes.EntityCustomNameToComponentFix",
+            "XXX.datafix.fixes.EntityEquipmentToArmorAndHandFix",
+            "XXX.datafix.fixes.EntityHorseSaddleFix",
+            "XXX.datafix.fixes.EntityIdFix",
+            "XXX.datafix.fixes.EntityMinecartIdentifiersFix",
+            "XXX.datafix.fixes.EntityPaintingMotiveFix",
+            "XXX.datafix.fixes.EntityRavagerRenameFix",
+            "XXX.datafix.fixes.EntityRenameFix",
+            "XXX.datafix.fixes.EntityShulkerColorFix",
+            "XXX.datafix.fixes.EntityStringUuidFix",
+            "XXX.datafix.fixes.EntityTippedArrowFix",
+            "XXX.datafix.fixes.EntityZombieSplitFix",
+            "XXX.datafix.fixes.ForcePoiRebuild",
+            "XXX.datafix.fixes.IglooMetadataRemovalFix",
+            "XXX.datafix.fixes.ItemCustomNameToComponentFix",
+            "XXX.datafix.fixes.ItemLoreFix",
+            "XXX.datafix.fixes.ItemRenameFix",
+            "XXX.datafix.fixes.ItemShulkerBoxColorFix",
+            "XXX.datafix.fixes.ItemStackEnchantmentNamesFix",
+            "XXX.datafix.fixes.ItemStackSpawnEggFix",
+            "XXX.datafix.fixes.ItemWaterPotionFix",
+            "XXX.datafix.fixes.LeavesFix",
+            "XXX.datafix.fixes.LeavesFix$Section",
+            "XXX.datafix.fixes.LevelFlatGeneratorInfoFix",
+            "XXX.datafix.fixes.MobSpawnerEntityIdentifiersFix",
+            "XXX.datafix.fixes.NewVillageFix",
+            "XXX.datafix.fixes.ObjectiveRenderTypeFix",
+            "XXX.datafix.fixes.OptionsForceVBOFix",
+            "XXX.datafix.fixes.OptionsKeyTranslationFix",
+            "XXX.datafix.fixes.PoiTypeRename",
+            "XXX.datafix.fixes.RecipesRenameningFix",
+            "XXX.datafix.fixes.RenamedCoralFansFix",
+            "XXX.datafix.fixes.ReorganizePoi",
+            "XXX.datafix.fixes.SimpleEntityRenameFix",
+            "XXX.datafix.fixes.StatsCounterFix"
+          ]
+        }
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "Changes",
+        "lines": [
+          "XXX.blaze3d.vertex.DefaultVertexFormat \u001b[2;32m+1P\u001b[0m",
+          "XXX.mojang.math.Quaternion \u001b[2;31m-1M\u001b[0m",
+          "XXX.mojang.math.Vector4f \u001b[2;32m+1M\u001b[0m | \u001b[2;32m+4P\u001b[0m \u001b[2;31m-1P\u001b[0m",
+          "XXX.gui.components.ChatComponent \u001b[2;32m+1M\u001b[0m",
+          "XXX.client.model.ColorableListModel \u001b[2;32m+1M\u001b[0m \u001b[2;31m-1M\u001b[0m",
+          "XXX.client.model.ListModel \u001b[2;31m-1M\u001b[0m",
+          "XXX.client.model.ZombieModel \u001b[2;32m+2M\u001b[0m \u001b[2;31m-2M\u001b[0m",
+          "XXX.core.dispenser.DispenseItemBehavior$11 \u001b[2;31m-1M\u001b[0m",
+          "XXX.core.dispenser.DispenseItemBehavior$20 \u001b[2;31m-1M\u001b[0m | \u001b[2;31m-1P\u001b[0m",
+          "XXX.minecraft.world.InteractionResultHolder \u001b[2;32m+2M\u001b[0m \u001b[2;31m-3M\u001b[0m | \u001b[2;31m-1P\u001b[0m",
+          "XXX.entity.player.Player \u001b[2;32m+3M\u001b[0m",
+          "XXX.world.item.LeadItem \u001b[2;32m+1M\u001b[0m \u001b[2;31m-1M\u001b[0m",
+          "XXX.level.block.AbstractFurnaceBlock \u001b[2;32m+1M\u001b[0m \u001b[2;31m-1M\u001b[0m",
+          "XXX.level.block.AnvilBlock \u001b[2;32m+1M\u001b[0m \u001b[2;31m-1M\u001b[0m",
+          "XXX.level.block.BedBlock \u001b[2;32m+1M\u001b[0m \u001b[2;31m-1M\u001b[0m",
+          "XXX.level.block.Block \u001b[2;32m+1M\u001b[0m \u001b[2;31m-1M\u001b[0m",
+          "XXX.level.block.CakeBlock \u001b[2;32m+2M\u001b[0m \u001b[2;31m-2M\u001b[0m",
+          "XXX.level.block.ChestBlock \u001b[2;32m+1M\u001b[0m \u001b[2;31m-1M\u001b[0m",
+          "XXX.level.block.CommandBlock \u001b[2;32m+1M\u001b[0m \u001b[2;31m-1M\u001b[0m",
+          "XXX.level.block.ComposterBlock \u001b[2;32m+1M\u001b[0m \u001b[2;31m-1M\u001b[0m",
+          "XXX.level.block.CraftingTableBlock \u001b[2;32m+1M\u001b[0m \u001b[2;31m-1M\u001b[0m",
+          "XXX.level.block.DaylightDetectorBlock \u001b[2;32m+1M\u001b[0m \u001b[2;31m-1M\u001b[0m",
+          "XXX.level.block.DispenserBlock \u001b[2;32m+1M\u001b[0m \u001b[2;31m-1M\u001b[0m",
+          "XXX.level.block.DragonEggBlock \u001b[2;32m+1M\u001b[0m \u001b[2;31m-1M\u001b[0m",
+          "XXX.level.block.EnchantmentTableBlock \u001b[2;32m+1M\u001b[0m \u001b[2;31m-1M\u001b[0m",
+          "XXX.level.block.EnderChestBlock \u001b[2;32m+1M\u001b[0m \u001b[2;31m-1M\u001b[0m",
+          "XXX.level.block.FenceBlock \u001b[2;32m+1M\u001b[0m \u001b[2;31m-1M\u001b[0m",
+          "XXX.level.block.FletchingTableBlock \u001b[2;32m+1M\u001b[0m \u001b[2;31m-1M\u001b[0m",
+          "XXX.level.block.FlowerPotBlock \u001b[2;32m+1M\u001b[0m \u001b[2;31m-1M\u001b[0m",
+          "XXX.level.block.GrindstoneBlock \u001b[2;32m+1M\u001b[0m \u001b[2;31m-1M\u001b[0m",
+          "XXX.level.block.JigsawBlock \u001b[2;32m+1M\u001b[0m \u001b[2;31m-1M\u001b[0m",
+          "XXX.level.block.LecternBlock \u001b[2;32m+1M\u001b[0m \u001b[2;31m-1M\u001b[0m",
+          "XXX.level.block.LoomBlock \u001b[2;32m+1M\u001b[0m \u001b[2;31m-1M\u001b[0m",
+          "XXX.level.block.PumpkinBlock \u001b[2;32m+1M\u001b[0m \u001b[2;31m-1M\u001b[0m",
+          "XXX.level.block.ShulkerBoxBlock \u001b[2;32m+1M\u001b[0m \u001b[2;31m-1M\u001b[0m",
+          "XXX.level.block.SignBlock \u001b[2;32m+1M\u001b[0m \u001b[2;31m-1M\u001b[0m",
+          "XXX.level.block.SmithingTableBlock \u001b[2;32m+1M\u001b[0m \u001b[2;31m-1M\u001b[0m",
+          "XXX.level.block.StairBlock \u001b[2;32m+1M\u001b[0m \u001b[2;31m-1M\u001b[0m",
+          "XXX.level.block.StonecutterBlock \u001b[2;32m+1M\u001b[0m \u001b[2;31m-1M\u001b[0m",
+          "XXX.block.piston.PistonMath \u001b[2;32m+1M\u001b[0m \u001b[2;31m-3M\u001b[0m",
+          "XXX.block.piston.PistonMovingBlockEntity \u001b[2;32m+5M\u001b[0m \u001b[2;31m-6M\u001b[0m",
+          "XXX.block.piston.PistonStructureResolver \u001b[2;32m+1M\u001b[0m",
+          "XXX.block.state.BlockState \u001b[2;32m+1M\u001b[0m \u001b[2;31m-1M\u001b[0m"
+        ]
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "com.mojang.math.Quaternion",
+        "differences": {
+          "added": [
+            "Quaternion copy()"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "com.mojang.math.Vector4f",
+        "differences": {
+          "added": [],
+          "removed": [
+            "float multiplyRow(int,Matrix4f,float,float,float,float)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.client.gui.components.ChatComponent",
+        "differences": {
+          "added": [],
+          "removed": [
+            "boolean isChatVisible()"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.client.model.ColorableListModel",
+        "differences": {
+          "added": [
+            "void <init>(Function)"
+          ],
+          "removed": [
+            "void <init>()"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.client.model.ListModel",
+        "differences": {
+          "added": [
+            "void <init>(Function)"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.client.model.ZombieModel",
+        "differences": {
+          "added": [
+            "void <init>(Function,float,boolean)",
+            "void <init>(Function,float,float,int,int)"
+          ],
+          "removed": [
+            "void <init>(float,boolean)",
+            "void <init>(float,float,int,int)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.core.dispenser.DispenseItemBehavior$11",
+        "differences": {
+          "added": [
+            "void lambda$execute$0(ItemStack,SmallFireball)"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.core.dispenser.DispenseItemBehavior$20",
+        "differences": {
+          "added": [
+            "ItemStack takeLiquid(BlockSource,ItemStack,ItemStack)"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.InteractionResultHolder",
+        "differences": {
+          "added": [
+            "void <init>(InteractionResult,Object,boolean)",
+            "boolean shouldSwingOnSuccess()",
+            "InteractionResultHolder successNoSwing(Object)"
+          ],
+          "removed": [
+            "void <init>(InteractionResult,Object)",
+            "InteractionResultHolder consume(Object)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.entity.player.Player",
+        "differences": {
+          "added": [],
+          "removed": [
+            "boolean tryToStartFallFlying()",
+            "void startFallFlying()",
+            "void stopFallFlying()"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.item.LeadItem",
+        "differences": {
+          "added": [
+            "boolean bindPlayerMobs(Player,Level,BlockPos)"
+          ],
+          "removed": [
+            "InteractionResult bindPlayerMobs(Player,Level,BlockPos)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.level.block.AbstractFurnaceBlock",
+        "differences": {
+          "added": [
+            "boolean use(BlockState,Level,BlockPos,Player,InteractionHand,BlockHitResult)"
+          ],
+          "removed": [
+            "InteractionResult use(BlockState,Level,BlockPos,Player,InteractionHand,BlockHitResult)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.level.block.AnvilBlock",
+        "differences": {
+          "added": [
+            "boolean use(BlockState,Level,BlockPos,Player,InteractionHand,BlockHitResult)"
+          ],
+          "removed": [
+            "InteractionResult use(BlockState,Level,BlockPos,Player,InteractionHand,BlockHitResult)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.level.block.BedBlock",
+        "differences": {
+          "added": [
+            "boolean use(BlockState,Level,BlockPos,Player,InteractionHand,BlockHitResult)"
+          ],
+          "removed": [
+            "InteractionResult use(BlockState,Level,BlockPos,Player,InteractionHand,BlockHitResult)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.level.block.Block",
+        "differences": {
+          "added": [
+            "boolean use(BlockState,Level,BlockPos,Player,InteractionHand,BlockHitResult)"
+          ],
+          "removed": [
+            "InteractionResult use(BlockState,Level,BlockPos,Player,InteractionHand,BlockHitResult)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.level.block.CakeBlock",
+        "differences": {
+          "added": [
+            "boolean use(BlockState,Level,BlockPos,Player,InteractionHand,BlockHitResult)",
+            "boolean eat(LevelAccessor,BlockPos,BlockState,Player)"
+          ],
+          "removed": [
+            "InteractionResult use(BlockState,Level,BlockPos,Player,InteractionHand,BlockHitResult)",
+            "InteractionResult eat(LevelAccessor,BlockPos,BlockState,Player)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.level.block.ChestBlock",
+        "differences": {
+          "added": [
+            "boolean use(BlockState,Level,BlockPos,Player,InteractionHand,BlockHitResult)"
+          ],
+          "removed": [
+            "InteractionResult use(BlockState,Level,BlockPos,Player,InteractionHand,BlockHitResult)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.level.block.CommandBlock",
+        "differences": {
+          "added": [
+            "boolean use(BlockState,Level,BlockPos,Player,InteractionHand,BlockHitResult)"
+          ],
+          "removed": [
+            "InteractionResult use(BlockState,Level,BlockPos,Player,InteractionHand,BlockHitResult)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.level.block.ComposterBlock",
+        "differences": {
+          "added": [
+            "boolean use(BlockState,Level,BlockPos,Player,InteractionHand,BlockHitResult)"
+          ],
+          "removed": [
+            "InteractionResult use(BlockState,Level,BlockPos,Player,InteractionHand,BlockHitResult)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.level.block.CraftingTableBlock",
+        "differences": {
+          "added": [
+            "boolean use(BlockState,Level,BlockPos,Player,InteractionHand,BlockHitResult)"
+          ],
+          "removed": [
+            "InteractionResult use(BlockState,Level,BlockPos,Player,InteractionHand,BlockHitResult)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.level.block.DaylightDetectorBlock",
+        "differences": {
+          "added": [
+            "boolean use(BlockState,Level,BlockPos,Player,InteractionHand,BlockHitResult)"
+          ],
+          "removed": [
+            "InteractionResult use(BlockState,Level,BlockPos,Player,InteractionHand,BlockHitResult)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.level.block.DispenserBlock",
+        "differences": {
+          "added": [
+            "boolean use(BlockState,Level,BlockPos,Player,InteractionHand,BlockHitResult)"
+          ],
+          "removed": [
+            "InteractionResult use(BlockState,Level,BlockPos,Player,InteractionHand,BlockHitResult)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.level.block.DragonEggBlock",
+        "differences": {
+          "added": [
+            "boolean use(BlockState,Level,BlockPos,Player,InteractionHand,BlockHitResult)"
+          ],
+          "removed": [
+            "InteractionResult use(BlockState,Level,BlockPos,Player,InteractionHand,BlockHitResult)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.level.block.EnchantmentTableBlock",
+        "differences": {
+          "added": [
+            "boolean use(BlockState,Level,BlockPos,Player,InteractionHand,BlockHitResult)"
+          ],
+          "removed": [
+            "InteractionResult use(BlockState,Level,BlockPos,Player,InteractionHand,BlockHitResult)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.level.block.EnderChestBlock",
+        "differences": {
+          "added": [
+            "boolean use(BlockState,Level,BlockPos,Player,InteractionHand,BlockHitResult)"
+          ],
+          "removed": [
+            "InteractionResult use(BlockState,Level,BlockPos,Player,InteractionHand,BlockHitResult)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.level.block.FenceBlock",
+        "differences": {
+          "added": [
+            "boolean use(BlockState,Level,BlockPos,Player,InteractionHand,BlockHitResult)"
+          ],
+          "removed": [
+            "InteractionResult use(BlockState,Level,BlockPos,Player,InteractionHand,BlockHitResult)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.level.block.FletchingTableBlock",
+        "differences": {
+          "added": [
+            "boolean use(BlockState,Level,BlockPos,Player,InteractionHand,BlockHitResult)"
+          ],
+          "removed": [
+            "InteractionResult use(BlockState,Level,BlockPos,Player,InteractionHand,BlockHitResult)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.level.block.FlowerPotBlock",
+        "differences": {
+          "added": [
+            "boolean use(BlockState,Level,BlockPos,Player,InteractionHand,BlockHitResult)"
+          ],
+          "removed": [
+            "InteractionResult use(BlockState,Level,BlockPos,Player,InteractionHand,BlockHitResult)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.level.block.GrindstoneBlock",
+        "differences": {
+          "added": [
+            "boolean use(BlockState,Level,BlockPos,Player,InteractionHand,BlockHitResult)"
+          ],
+          "removed": [
+            "InteractionResult use(BlockState,Level,BlockPos,Player,InteractionHand,BlockHitResult)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.level.block.JigsawBlock",
+        "differences": {
+          "added": [
+            "boolean use(BlockState,Level,BlockPos,Player,InteractionHand,BlockHitResult)"
+          ],
+          "removed": [
+            "InteractionResult use(BlockState,Level,BlockPos,Player,InteractionHand,BlockHitResult)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.level.block.LecternBlock",
+        "differences": {
+          "added": [
+            "boolean use(BlockState,Level,BlockPos,Player,InteractionHand,BlockHitResult)"
+          ],
+          "removed": [
+            "InteractionResult use(BlockState,Level,BlockPos,Player,InteractionHand,BlockHitResult)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.level.block.LoomBlock",
+        "differences": {
+          "added": [
+            "boolean use(BlockState,Level,BlockPos,Player,InteractionHand,BlockHitResult)"
+          ],
+          "removed": [
+            "InteractionResult use(BlockState,Level,BlockPos,Player,InteractionHand,BlockHitResult)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.level.block.PumpkinBlock",
+        "differences": {
+          "added": [
+            "boolean use(BlockState,Level,BlockPos,Player,InteractionHand,BlockHitResult)"
+          ],
+          "removed": [
+            "InteractionResult use(BlockState,Level,BlockPos,Player,InteractionHand,BlockHitResult)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.level.block.ShulkerBoxBlock",
+        "differences": {
+          "added": [
+            "boolean use(BlockState,Level,BlockPos,Player,InteractionHand,BlockHitResult)"
+          ],
+          "removed": [
+            "InteractionResult use(BlockState,Level,BlockPos,Player,InteractionHand,BlockHitResult)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.level.block.SignBlock",
+        "differences": {
+          "added": [
+            "boolean use(BlockState,Level,BlockPos,Player,InteractionHand,BlockHitResult)"
+          ],
+          "removed": [
+            "InteractionResult use(BlockState,Level,BlockPos,Player,InteractionHand,BlockHitResult)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.level.block.SmithingTableBlock",
+        "differences": {
+          "added": [
+            "boolean use(BlockState,Level,BlockPos,Player,InteractionHand,BlockHitResult)"
+          ],
+          "removed": [
+            "InteractionResult use(BlockState,Level,BlockPos,Player,InteractionHand,BlockHitResult)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.level.block.StairBlock",
+        "differences": {
+          "added": [
+            "boolean use(BlockState,Level,BlockPos,Player,InteractionHand,BlockHitResult)"
+          ],
+          "removed": [
+            "InteractionResult use(BlockState,Level,BlockPos,Player,InteractionHand,BlockHitResult)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.level.block.StonecutterBlock",
+        "differences": {
+          "added": [
+            "boolean use(BlockState,Level,BlockPos,Player,InteractionHand,BlockHitResult)"
+          ],
+          "removed": [
+            "InteractionResult use(BlockState,Level,BlockPos,Player,InteractionHand,BlockHitResult)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.level.block.piston.PistonMath",
+        "differences": {
+          "added": [
+            "List getEntityMovementAreas(boolean,AABB,Direction,double)",
+            "AABB getEntityMovementAreaOnTop(AABB)",
+            "AABB getEntityMovementAreaInFront(AABB,Direction,double)"
+          ],
+          "removed": [
+            "AABB getMovementArea(AABB,Direction,double)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.level.block.piston.PistonMovingBlockEntity",
+        "differences": {
+          "added": [
+            "AABB findIntersectingAABB(AABB,List)",
+            "boolean entitiesOnSurfaceMoveWithBlock()",
+            "boolean isStickyForEntitities(Block)",
+            "double getDeltaX(AABB,Direction,AABB)",
+            "double getDeltaY(AABB,Direction,AABB)",
+            "double getDeltaZ(AABB,Direction,AABB)"
+          ],
+          "removed": [
+            "void moveEntityByPiston(Direction,Entity,double,Direction)",
+            "void moveStuckEntities(float)",
+            "boolean matchesStickyCritera(AABB,Entity)",
+            "boolean isStickyForEntities()",
+            "boolean lambda$moveStuckEntities$1(AABB,Entity)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.level.block.piston.PistonStructureResolver",
+        "differences": {
+          "added": [],
+          "removed": [
+            "boolean canStickToEachOther(Block,Block)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.level.block.state.BlockState",
+        "differences": {
+          "added": [
+            "boolean use(Level,Player,InteractionHand,BlockHitResult)"
+          ],
+          "removed": [
+            "InteractionResult use(Level,Player,InteractionHand,BlockHitResult)"
+          ]
+        }
+      }
+    }
+  ]
+}

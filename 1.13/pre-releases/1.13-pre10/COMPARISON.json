@@ -1,0 +1,66 @@
+{
+  "commands": [
+    {
+      "type": "entries",
+      "value": {
+        "name": "team",
+        "differences": {
+          "added": [
+            "team modify <team: team> friendlyFire <allowed: bool>"
+          ],
+          "removed": [
+            "team modify <team: team> friendlyfire <allowed: bool>"
+          ]
+        }
+      }
+    }
+  ],
+  "translations": [
+    {
+      "type": "entries",
+      "value": {
+        "name": "Keys",
+        "differences": {
+          "added": [
+            "optimizeWorld.confirm.title: Optimize world",
+            "optimizeWorld.confirm.description: This will attempt to optimize your world by making sure all data is stored in the most recent game format. This can take a very long time, depending on your world. Once done, your world may play faster but will no longer be compatible with older versions of the game. Are you sure you wish to proceed?",
+            "optimizeWorld.title: Optimizing World '%s'",
+            "optimizeWorld.stage.upgrading: Upgrading all chunks...",
+            "selectWorld.edit.optimize: Optimize World"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "text",
+      "value": {
+        "title": "Changes",
+        "values": [
+          {
+            "key": "options.fullscreen.resolution",
+            "previous": "Fullscreen resolution",
+            "current": "Fullscreen Resolution"
+          }
+        ]
+      }
+    }
+  ],
+  "file_structure": [
+    {
+      "type": "entries",
+      "value": {
+        "name": "data",
+        "differences": {
+          "added": [
+            "minecraft/tags/blocks/trapdoors.json",
+            "minecraft/tags/blocks/wooden_trapdoors.json",
+            "minecraft/tags/items/trapdoors.json",
+            "minecraft/tags/items/wooden_trapdoors.json"
+          ],
+          "removed": []
+        }
+      }
+    }
+  ]
+}

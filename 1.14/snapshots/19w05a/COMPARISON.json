@@ -1,0 +1,304 @@
+{
+  "version_data": [
+    {
+      "type": "table",
+      "value": {
+        "previousLabel": "19w04b",
+        "currentLabel": "19w05a",
+        "values": [
+          {
+            "key": "World version",
+            "previous": "1927",
+            "current": "1930"
+          },
+          {
+            "key": "Protocol version",
+            "previous": "457",
+            "current": "458"
+          }
+        ]
+      }
+    }
+  ],
+  "registries": [
+    {
+      "type": "entries",
+      "value": {
+        "name": "entity_type",
+        "differences": {
+          "added": [
+            "minecraft:trader_llama",
+            "minecraft:wandering_trader",
+            "minecraft:ravager"
+          ],
+          "removed": [
+            "minecraft:illager_beast"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "item",
+        "differences": {
+          "added": [
+            "minecraft:ravager_spawn_egg",
+            "minecraft:trader_llama_spawn_egg",
+            "minecraft:wandering_trader_spawn_egg"
+          ],
+          "removed": [
+            "minecraft:illager_beast_spawn_egg"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "particle_type",
+        "differences": {
+          "added": [
+            "minecraft:composter"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "sound_event",
+        "differences": {
+          "added": [
+            "minecraft:entity.ravager.ambient",
+            "minecraft:entity.ravager.attack",
+            "minecraft:entity.ravager.death",
+            "minecraft:entity.ravager.hurt",
+            "minecraft:entity.ravager.step",
+            "minecraft:entity.ravager.stunned",
+            "minecraft:entity.ravager.roar",
+            "minecraft:block.lantern.break",
+            "minecraft:block.lantern.fall",
+            "minecraft:block.lantern.hit",
+            "minecraft:block.lantern.place",
+            "minecraft:block.lantern.step",
+            "minecraft:entity.wandering_trader.ambient",
+            "minecraft:entity.wandering_trader.death",
+            "minecraft:entity.wandering_trader.hurt",
+            "minecraft:entity.wandering_trader.no",
+            "minecraft:entity.wandering_trader.trade",
+            "minecraft:entity.wandering_trader.yes"
+          ],
+          "removed": [
+            "minecraft:entity.illager_beast.ambient",
+            "minecraft:entity.illager_beast.attack",
+            "minecraft:entity.illager_beast.death",
+            "minecraft:entity.illager_beast.hurt",
+            "minecraft:entity.illager_beast.step",
+            "minecraft:entity.illager_beast.stunned",
+            "minecraft:entity.illager_beast.roar"
+          ]
+        }
+      }
+    }
+  ],
+  "tags": [
+    {
+      "type": "entries",
+      "value": {
+        "name": "all_entities_without_drop.json",
+        "differences": {
+          "added": [
+            "minecraft:wandering_trader"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "all_entities_with_drop.json",
+        "differences": {
+          "added": [
+            "minecraft:ravager",
+            "minecraft:trader_llama"
+          ],
+          "removed": [
+            "minecraft:illager_beast"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "all_living_entities_without_drop.json",
+        "differences": {
+          "added": [
+            "minecraft:wandering_trader"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "universal_tags/entity_type.json",
+        "differences": {
+          "added": [
+            "minecraft:trader_llama",
+            "minecraft:wandering_trader",
+            "minecraft:ravager"
+          ],
+          "removed": [
+            "minecraft:illager_beast"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "universal_tags/item.json",
+        "differences": {
+          "added": [
+            "minecraft:ravager_spawn_egg",
+            "minecraft:trader_llama_spawn_egg",
+            "minecraft:wandering_trader_spawn_egg"
+          ],
+          "removed": [
+            "minecraft:illager_beast_spawn_egg"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "universal_tags/particle_type.json",
+        "differences": {
+          "added": [
+            "minecraft:composter"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "universal_tags/sound_event.json",
+        "differences": {
+          "added": [
+            "minecraft:entity.ravager.ambient",
+            "minecraft:entity.ravager.attack",
+            "minecraft:entity.ravager.death",
+            "minecraft:entity.ravager.hurt",
+            "minecraft:entity.ravager.step",
+            "minecraft:entity.ravager.stunned",
+            "minecraft:entity.ravager.roar",
+            "minecraft:block.lantern.break",
+            "minecraft:block.lantern.fall",
+            "minecraft:block.lantern.hit",
+            "minecraft:block.lantern.place",
+            "minecraft:block.lantern.step",
+            "minecraft:entity.wandering_trader.ambient",
+            "minecraft:entity.wandering_trader.death",
+            "minecraft:entity.wandering_trader.hurt",
+            "minecraft:entity.wandering_trader.no",
+            "minecraft:entity.wandering_trader.trade",
+            "minecraft:entity.wandering_trader.yes"
+          ],
+          "removed": [
+            "minecraft:entity.illager_beast.ambient",
+            "minecraft:entity.illager_beast.attack",
+            "minecraft:entity.illager_beast.death",
+            "minecraft:entity.illager_beast.hurt",
+            "minecraft:entity.illager_beast.step",
+            "minecraft:entity.illager_beast.stunned",
+            "minecraft:entity.illager_beast.roar"
+          ]
+        }
+      }
+    }
+  ],
+  "translations": [
+    {
+      "type": "entries",
+      "value": {
+        "name": "Keys",
+        "differences": {
+          "added": [
+            "item.minecraft.ravager_spawn_egg: Ravager Spawn Egg",
+            "item.minecraft.trader_llama_spawn_egg: Trader Llama Spawn Egg",
+            "item.minecraft.wandering_trader_spawn_egg: Wandering Trader Spawn Egg",
+            "entity.minecraft.ravager: Ravager",
+            "entity.minecraft.trader_llama: Trader Llama",
+            "entity.minecraft.wandering_trader: Wandering Trader",
+            "subtitles.entity.ravager.step: Ravager steps",
+            "subtitles.entity.ravager.stunned: Ravager stunned",
+            "subtitles.entity.ravager.roar: Ravager roars",
+            "subtitles.entity.ravager.attack: Ravager bites",
+            "subtitles.entity.ravager.death: Ravager dies",
+            "subtitles.entity.ravager.hurt: Ravager hurts",
+            "subtitles.entity.ravager.ambient: Ravager grunts"
+          ],
+          "removed": [
+            "item.minecraft.illager_beast_spawn_egg: Illager Beast Spawn Egg",
+            "entity.minecraft.illager_beast: Illager Beast",
+            "subtitles.entity.illager_beast.step: Illager Beast steps",
+            "subtitles.entity.illager_beast.stunned: Illager Beast stunned",
+            "subtitles.entity.illager_beast.roar: Illager Beast roars",
+            "subtitles.entity.illager_beast.attack: Illager Beast bites",
+            "subtitles.entity.illager_beast.death: Illager Beast dies",
+            "subtitles.entity.illager_beast.hurt: Illager Beast hurts",
+            "subtitles.entity.illager_beast.ambient: Illager Beast grunts"
+          ]
+        }
+      }
+    }
+  ],
+  "file_structure": [
+    {
+      "type": "entries",
+      "value": {
+        "name": "data",
+        "differences": {
+          "added": [
+            "minecraft/loot_tables/entities/ravager.json",
+            "minecraft/loot_tables/entities/trader_llama.json",
+            "minecraft/loot_tables/entities/wandering_trader.json",
+            "minecraft/tags/blocks/dragon_immune.json",
+            "minecraft/tags/blocks/wither_immune.json"
+          ],
+          "removed": [
+            "minecraft/loot_tables/entities/illager_beast.json"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "assets",
+        "differences": {
+          "added": [
+            "minecraft/models/item/ravager_spawn_egg.json",
+            "minecraft/models/item/trader_llama_spawn_egg.json",
+            "minecraft/models/item/wandering_trader_spawn_egg.json",
+            "minecraft/textures/entity/illager/ravager.png",
+            "minecraft/textures/entity/llama/decor/trader_llama.png",
+            "minecraft/textures/entity/wandering_trader.png"
+          ],
+          "removed": [
+            "minecraft/models/item/illager_beast_spawn_egg.json",
+            "minecraft/textures/entity/illager/beast.png"
+          ]
+        }
+      }
+    }
+  ]
+}

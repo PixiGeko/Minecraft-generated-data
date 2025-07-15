@@ -1,0 +1,104 @@
+{
+  "blocks": [
+    {
+      "type": "entries",
+      "value": {
+        "name": "🗒️ List",
+        "differences": {
+          "added": [
+            "scaffolding.json"
+          ],
+          "removed": []
+        }
+      }
+    }
+  ],
+  "commands": [
+    {
+      "type": "entries",
+      "value": {
+        "name": "🗒️ List",
+        "differences": {
+          "added": [
+            "loot.txt"
+          ],
+          "removed": [
+            "drop.txt"
+          ]
+        }
+      }
+    }
+  ],
+  "recipes": [
+    {
+      "type": "entries",
+      "value": {
+        "name": "🗒️ List",
+        "differences": {
+          "added": [
+            "scaffolding.json"
+          ],
+          "removed": []
+        }
+      }
+    }
+  ],
+  "translations": [
+    {
+      "type": "entries",
+      "value": {
+        "name": "Keys",
+        "differences": {
+          "added": [
+            "block.minecraft.scaffolding: Scaffolding",
+            "block.minecraft.illager_banner: Illager Banner"
+          ],
+          "removed": []
+        }
+      }
+    }
+  ],
+  "file_structure": [
+    {
+      "type": "entries",
+      "value": {
+        "name": "data",
+        "differences": {
+          "added": [
+            "minecraft/advancements/recipes/decorations/scaffolding.json",
+            "minecraft/loot_tables/blocks/scaffolding.json",
+            "minecraft/recipes/scaffolding.json"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "assets",
+        "differences": {
+          "added": [
+            "minecraft/blockstates/scaffolding.json",
+            "minecraft/models/block/orientable_with_bottom.json",
+            "minecraft/models/block/scaffolding_stable.json",
+            "minecraft/models/block/scaffolding_unstable.json",
+            "minecraft/models/item/scaffolding.json",
+            "minecraft/textures/block/lectern_base.png",
+            "minecraft/textures/block/scaffolding_bottom.png",
+            "minecraft/textures/block/scaffolding_side.png",
+            "minecraft/textures/block/scaffolding_top.png"
+          ],
+          "removed": [
+            "minecraft/models/block/grindstone_inventory.json",
+            "minecraft/textures/block/lectern.png",
+            "minecraft/textures/block/lectern_base_sides.png",
+            "minecraft/textures/block/lectern_base_top.png",
+            "minecraft/textures/block/lectern_bottom.png",
+            "minecraft/textures/block/lectern_top_sides.png"
+          ]
+        }
+      }
+    }
+  ]
+}

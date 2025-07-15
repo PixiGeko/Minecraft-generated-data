@@ -1,0 +1,84 @@
+{
+  "definition": {
+    "type": "minecraft:bamboo_stalk",
+    "properties": {}
+  },
+  "properties": {
+    "age": [
+      0,
+      1
+    ],
+    "leaves": [
+      "none",
+      "small",
+      "large"
+    ],
+    "stage": [
+      0,
+      1
+    ]
+  },
+  "states": {
+    "13894": {
+      "age": 0,
+      "leaves": "none",
+      "stage": 0
+    },
+    "13895": {
+      "age": 0,
+      "leaves": "none",
+      "stage": 1
+    },
+    "13896": {
+      "age": 0,
+      "leaves": "small",
+      "stage": 0
+    },
+    "13897": {
+      "age": 0,
+      "leaves": "small",
+      "stage": 1
+    },
+    "13898": {
+      "age": 0,
+      "leaves": "large",
+      "stage": 0
+    },
+    "13899": {
+      "age": 0,
+      "leaves": "large",
+      "stage": 1
+    },
+    "13900": {
+      "age": 1,
+      "leaves": "none",
+      "stage": 0
+    },
+    "13901": {
+      "age": 1,
+      "leaves": "none",
+      "stage": 1
+    },
+    "13902": {
+      "age": 1,
+      "leaves": "small",
+      "stage": 0
+    },
+    "13903": {
+      "age": 1,
+      "leaves": "small",
+      "stage": 1
+    },
+    "13904": {
+      "age": 1,
+      "leaves": "large",
+      "stage": 0
+    },
+    "13905": {
+      "age": 1,
+      "leaves": "large",
+      "stage": 1
+    },
+    "default": 13894
+  }
+}

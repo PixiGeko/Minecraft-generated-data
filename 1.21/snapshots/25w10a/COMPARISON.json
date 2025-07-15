@@ -1,0 +1,568 @@
+{
+  "version_data": [
+    {
+      "type": "table",
+      "value": {
+        "previousLabel": "25w09b",
+        "currentLabel": "25w10a",
+        "values": [
+          {
+            "key": "DataPack version",
+            "previous": "69",
+            "current": "70"
+          },
+          {
+            "key": "ResourcePack version",
+            "previous": "53",
+            "current": "54"
+          },
+          {
+            "key": "World version",
+            "previous": "4318",
+            "current": "4319"
+          },
+          {
+            "key": "Protocol version",
+            "previous": "1073742061",
+            "current": "1073742062"
+          }
+        ]
+      }
+    }
+  ],
+  "commands": [
+    {
+      "type": "entries",
+      "value": {
+        "name": "gamerule",
+        "differences": {
+          "added": [
+            "gamerule tntExplodes <value: bool>"
+          ],
+          "removed": []
+        }
+      }
+    }
+  ],
+  "translations": [
+    {
+      "type": "entries",
+      "value": {
+        "name": "Keys",
+        "differences": {
+          "added": [
+            "block.minecraft.tnt.disabled: TNT explosions are disabled",
+            "gamerule.tntExplodes: Allow TNT to be activated and to explode",
+            "snbt.parser.expected_number_or_boolean: Expected a number or a boolean",
+            "snbt.parser.expected_string_uuid: Expected a string representing a valid UUID",
+            "snbt.parser.infinity_not_allowed: Non-finite numbers are not allowed",
+            "snbt.parser.invalid_codepoint: Invalid Unicode character value: %s",
+            "snbt.parser.no_such_operation: No such operation: %s"
+          ],
+          "removed": []
+        }
+      }
+    }
+  ],
+  "file_structure": [
+    {
+      "type": "entries",
+      "value": {
+        "name": "data",
+        "differences": {
+          "added": [
+            "minecraft/tags/item/flowers.json"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "assets",
+        "differences": {
+          "added": [
+            "minecraft/textures/misc/enchanted_glint_armor.png",
+            "minecraft/textures/misc/enchanted_glint_armor.png.mcmeta"
+          ],
+          "removed": [
+            "minecraft/textures/misc/enchanted_glint_entity.png",
+            "minecraft/textures/misc/enchanted_glint_entity.png.mcmeta"
+          ]
+        }
+      }
+    }
+  ],
+  "mappings": [
+    {
+      "type": "title",
+      "value": {
+        "title": "Server",
+        "id": "server-mappings",
+        "size": 2
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "Classes",
+        "differences": {
+          "added": [],
+          "removed": [
+            "XXX.advancements.critereon.DataComponentMatchers",
+            "XXX.minecraft.nbt.SnbtOperations$1",
+            "XXX.minecraft.nbt.SnbtOperations$3",
+            "XXX.minecraft.nbt.SnbtOperations$BuiltinOperation"
+          ]
+        }
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "Changes",
+        "lines": [
+          "XXX.advancements.critereon.BlockPredicate \u001b[2;32m+3M\u001b[0m \u001b[2;31m-1M\u001b[0m | \u001b[2;32m+1P\u001b[0m",
+          "XXX.advancements.critereon.EntityPredicate \u001b[2;32m+2M\u001b[0m \u001b[2;31m-2M\u001b[0m | \u001b[2;32m+1P\u001b[0m \u001b[2;31m-1P\u001b[0m",
+          "XXX.advancements.critereon.ItemPredicate \u001b[2;32m+2M\u001b[0m \u001b[2;31m-3M\u001b[0m | \u001b[2;32m+1P\u001b[0m \u001b[2;31m-2P\u001b[0m",
+          "XXX.core.component.DataComponentExactPredicate \u001b[2;32m+1M\u001b[0m",
+          "XXX.component.predicates.DataComponentPredicate$Single \u001b[2;32m+1M\u001b[0m",
+          "XXX.advancements.packs.VanillaHusbandryAdvancements \u001b[2;32m+6M\u001b[0m \u001b[2;31m-5M\u001b[0m | \u001b[2;32m+1P\u001b[0m",
+          "XXX.server.level.ServerLevel \u001b[2;32m+1M\u001b[0m \u001b[2;31m-1M\u001b[0m",
+          "XXX.packrat.commands.GreedyPredicateParseRule \u001b[2;32m+1M\u001b[0m | \u001b[2;32m+1P\u001b[0m",
+          "XXX.world.item.ShearsItem \u001b[2;32m+1M\u001b[0m",
+          "XXX.world.level.GameRules \u001b[2;32m+1P\u001b[0m",
+          "XXX.gameevent.vibrations.VibrationSystem \u001b[2;32m+1P\u001b[0m \u001b[2;31m-1P\u001b[0m"
+        ]
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.advancements.critereon.BlockPredicate",
+        "differences": {
+          "added": [
+            "void <init>(Optional,Optional,Optional)"
+          ],
+          "removed": [
+            "void <init>(Optional,Optional,Optional,DataComponentMatchers)",
+            "boolean matchesComponents(BlockEntity,DataComponentMatchers)",
+            "DataComponentMatchers components()"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.advancements.critereon.EntityPredicate",
+        "differences": {
+          "added": [
+            "void <init>(Optional,Optional,Optional,EntityPredicate$LocationWrapper,Optional,Optional,Optional,Optional,Optional,Optional,Optional,Optional,Optional,Optional,Optional,Optional)",
+            "Optional components()"
+          ],
+          "removed": [
+            "void <init>(Optional,Optional,Optional,EntityPredicate$LocationWrapper,Optional,Optional,Optional,Optional,Optional,Optional,Optional,Optional,Optional,Optional,Optional,DataComponentMatchers)",
+            "DataComponentMatchers components()"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.advancements.critereon.ItemPredicate",
+        "differences": {
+          "added": [
+            "void <init>(Optional,MinMaxBounds$Ints,DataComponentExactPredicate,Map)",
+            "DataComponentExactPredicate components()",
+            "Map subPredicates()"
+          ],
+          "removed": [
+            "void <init>(Optional,MinMaxBounds$Ints,DataComponentMatchers)",
+            "DataComponentMatchers components()"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.core.component.DataComponentExactPredicate",
+        "differences": {
+          "added": [],
+          "removed": [
+            "boolean isEmpty()"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.core.component.predicates.DataComponentPredicate$Single",
+        "differences": {
+          "added": [],
+          "removed": [
+            "DataComponentPredicate$Single fromEntry(Map$Entry)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.data.advancements.packs.VanillaHusbandryAdvancements",
+        "differences": {
+          "added": [
+            "Advancement$Builder addTamedWolfVariants(Advancement$Builder,HolderLookup$Provider)",
+            "void lambda$addTamedWolfVariants$5(HolderLookup$RegistryLookup,Advancement$Builder,ResourceKey)",
+            "ResourceLocation lambda$addCatVariants$3(Holder$Reference)",
+            "void lambda$addBreedable$1(Advancement$Builder,HolderGetter,EntityType)",
+            "void lambda$addLeashedFrogVariants$0(Advancement$Builder,HolderGetter,HolderGetter,Holder$Reference)"
+          ],
+          "removed": [
+            "Stream sortedVariants(HolderLookup)",
+            "Advancement$Builder addTamedWolfVariants(Advancement$Builder,HolderLookup)",
+            "void lambda$addTamedWolfVariants$5(Advancement$Builder,Holder$Reference)",
+            "void lambda$addBreedable$3(Advancement$Builder,HolderGetter,EntityType)",
+            "void lambda$addLeashedFrogVariants$1(Advancement$Builder,HolderGetter,HolderGetter,Holder$Reference)",
+            "ResourceLocation lambda$static$0(Holder$Reference)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.server.level.ServerLevel",
+        "differences": {
+          "added": [
+            "boolean areEntitiesActuallyTicking(ChunkPos)"
+          ],
+          "removed": [
+            "boolean areEntitiesActuallyLoadedAndTicking(ChunkPos)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.util.parsing.packrat.commands.GreedyPredicateParseRule",
+        "differences": {
+          "added": [],
+          "removed": [
+            "void <init>(int,int,DelayedException)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.item.ShearsItem",
+        "differences": {
+          "added": [],
+          "removed": [
+            "boolean mineBlock(ItemStack,Level,BlockState,BlockPos,LivingEntity)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "title",
+      "value": {
+        "title": "Client",
+        "id": "client-mappings",
+        "size": 2
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "Classes",
+        "differences": {
+          "added": [],
+          "removed": [
+            "XXX.advancements.critereon.DataComponentMatchers$Builder",
+            "XXX.minecraft.nbt.SnbtOperations",
+            "XXX.minecraft.nbt.SnbtOperations$2",
+            "XXX.minecraft.nbt.SnbtOperations$BuiltinKey"
+          ]
+        }
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "Changes",
+        "lines": [
+          "XXX.blaze3d.systems.RenderSystem \u001b[2;32m+2M\u001b[0m \u001b[2;31m-1M\u001b[0m",
+          "XXX.blaze3d.systems.RenderSystem$AutoStorageIndexBuffer \u001b[2;32m+2M\u001b[0m \u001b[2;31m-1M\u001b[0m",
+          "XXX.blaze3d.vertex.VertexFormat \u001b[2;32m+3M\u001b[0m \u001b[2;31m-1M\u001b[0m",
+          "XXX.advancements.critereon.BlockPredicate$Builder \u001b[2;32m+1M\u001b[0m | \u001b[2;32m+1P\u001b[0m",
+          "XXX.advancements.critereon.EntityPredicate$Builder \u001b[2;32m+1M\u001b[0m \u001b[2;31m-1M\u001b[0m | \u001b[2;32m+1P\u001b[0m \u001b[2;31m-1P\u001b[0m",
+          "XXX.advancements.critereon.ItemPredicate$Builder \u001b[2;32m+1M\u001b[0m \u001b[2;31m-2M\u001b[0m | \u001b[2;32m+1P\u001b[0m \u001b[2;31m-2P\u001b[0m",
+          "XXX.client.renderer.RenderStateShard \u001b[2;32m+1M\u001b[0m \u001b[2;31m-2M\u001b[0m | \u001b[2;32m+1P\u001b[0m",
+          "XXX.renderer.entity.ItemRenderer \u001b[2;32m+1P\u001b[0m \u001b[2;31m-1P\u001b[0m",
+          "XXX.component.predicates.DataComponentPredicate \u001b[2;32m+2M\u001b[0m | \u001b[2;32m+2P\u001b[0m",
+          "XXX.component.predicates.DataComponentPredicate$Type \u001b[2;32m+2M\u001b[0m | \u001b[2;32m+1P\u001b[0m",
+          "XXX.minecraft.nbt.CompoundTag \u001b[2;32m+3M\u001b[0m \u001b[2;31m-2M\u001b[0m",
+          "XXX.minecraft.nbt.SnbtGrammar \u001b[2;32m+24M\u001b[0m \u001b[2;31m-19M\u001b[0m | \u001b[2;32m+3P\u001b[0m",
+          "XXX.minecraft.tags.ItemTags \u001b[2;32m+1P\u001b[0m",
+          "XXX.world.entity.Entity \u001b[2;32m+2P\u001b[0m",
+          "XXX.world.entity.Marker \u001b[2;31m-2P\u001b[0m",
+          "XXX.item.component.CustomData \u001b[2;32m+2M\u001b[0m \u001b[2;31m-5M\u001b[0m | \u001b[2;31m-2P\u001b[0m",
+          "XXX.level.block.TntBlock \u001b[2;32m+2M\u001b[0m \u001b[2;31m-2M\u001b[0m"
+        ]
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "com.mojang.blaze3d.systems.RenderSystem",
+        "differences": {
+          "added": [
+            "GpuBuffer getQuadVertexBuffer(Supplier)"
+          ],
+          "removed": [
+            "GpuBuffer getQuadVertexBuffer()",
+            "String lambda$getQuadVertexBuffer$2()"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "com.mojang.blaze3d.systems.RenderSystem$AutoStorageIndexBuffer",
+        "differences": {
+          "added": [
+            "void lambda$intConsumer$1(ByteBuffer,int)"
+          ],
+          "removed": [
+            "void lambda$intConsumer$2(ByteBuffer,int)",
+            "String lambda$ensureStorage$1()"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "com.mojang.blaze3d.vertex.VertexFormat",
+        "differences": {
+          "added": [
+            "String lambda$uploadImmediateIndexBuffer$2()"
+          ],
+          "removed": [
+            "String lambda$uploadImmediateIndexBuffer$4()",
+            "String lambda$uploadImmediateIndexBuffer$3()",
+            "String lambda$uploadImmediateVertexBuffer$2()"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.advancements.critereon.BlockPredicate$Builder",
+        "differences": {
+          "added": [],
+          "removed": [
+            "BlockPredicate$Builder components(DataComponentMatchers)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.advancements.critereon.EntityPredicate$Builder",
+        "differences": {
+          "added": [
+            "EntityPredicate$Builder components(DataComponentExactPredicate)"
+          ],
+          "removed": [
+            "EntityPredicate$Builder components(DataComponentMatchers)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.advancements.critereon.ItemPredicate$Builder",
+        "differences": {
+          "added": [
+            "ItemPredicate$Builder withSubPredicate(DataComponentPredicate$Type,DataComponentPredicate)",
+            "ItemPredicate$Builder hasComponents(DataComponentExactPredicate)"
+          ],
+          "removed": [
+            "ItemPredicate$Builder withComponents(DataComponentMatchers)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.client.renderer.RenderStateShard",
+        "differences": {
+          "added": [
+            "RenderTarget lambda$static$17()",
+            "void lambda$static$11()"
+          ],
+          "removed": [
+            "RenderTarget lambda$static$11()"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.core.component.predicates.DataComponentPredicate",
+        "differences": {
+          "added": [],
+          "removed": [
+            "List lambda$static$1(Map)",
+            "Map lambda$static$0(List)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.core.component.predicates.DataComponentPredicate$Type",
+        "differences": {
+          "added": [],
+          "removed": [
+            "StreamCodec singleStreamCodec()",
+            "DataComponentPredicate$Single lambda$new$2(DataComponentPredicate)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.nbt.CompoundTag",
+        "differences": {
+          "added": [
+            "void lambda$read$4(String)",
+            "void lambda$read$3(String,Tag,String)"
+          ],
+          "removed": [
+            "void lambda$read$5(String)",
+            "void lambda$read$4(String,Tag,String)",
+            "void lambda$copy$3(HashMap,String,Tag)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.nbt.SnbtGrammar",
+        "differences": {
+          "added": [
+            "Object lambda$createParser$23(Atom,DynamicOps,Atom,Atom,ParseState)",
+            "Object lambda$createParser$22(Atom,Atom,DynamicOps,Atom,Object,ParseState)",
+            "List lambda$createParser$21(Atom,Scope)",
+            "SnbtGrammar$ArrayPrefix lambda$createParser$20(Atom,Scope)",
+            "List lambda$createParser$19(Atom,Scope)",
+            "Object lambda$createParser$18(Atom,Object,DynamicOps,Scope)",
+            "List lambda$createParser$17(Atom,Scope)",
+            "Map$Entry lambda$createParser$16(Atom,Atom,ParseState)",
+            "String lambda$createParser$15(Atom,Atom,Scope)",
+            "Object lambda$createParser$14(Atom,Object,Object,DynamicOps,ParseState)",
+            "String lambda$createParser$10(Atom,Scope)",
+            "String lambda$createParser$9(Atom,Scope)",
+            "String lambda$createParser$8(Atom,Atom,Atom,Atom,Atom,ParseState)",
+            "Object lambda$createParser$7(Atom,Atom,Atom,Atom,Atom,DynamicOps,ParseState)",
+            "SnbtGrammar$Signed lambda$createParser$6(Atom,Atom,Scope)",
+            "SnbtGrammar$TypeSuffix lambda$createParser$5(Atom,Scope)",
+            "SnbtGrammar$IntegerLiteral lambda$createParser$4(Atom,Atom,Atom,Atom,Atom,Scope)",
+            "SnbtGrammar$IntegerSuffix lambda$createParser$3(Atom,Scope)",
+            "SnbtGrammar$Sign lambda$createParser$2(Atom,Scope)"
+          ],
+          "removed": [
+            "Object convertFloat(DynamicOps,ParseState,String)",
+            "Object convertDouble(DynamicOps,ParseState,String)",
+            "Object lambda$createParser$26(Atom,DynamicOps,Atom,Atom,ParseState)",
+            "Object lambda$createParser$25(Atom,Atom,DynamicOps,Atom,Object,ParseState)",
+            "List lambda$createParser$24(Atom,Scope)",
+            "SnbtGrammar$ArrayPrefix lambda$createParser$23(Atom,Scope)",
+            "List lambda$createParser$22(Atom,Scope)",
+            "Object lambda$createParser$21(Atom,Object,DynamicOps,Scope)",
+            "List lambda$createParser$20(Atom,Scope)",
+            "Map$Entry lambda$createParser$19(Atom,Atom,ParseState)",
+            "String lambda$createParser$18(Atom,Atom,Scope)",
+            "Object lambda$createParser$17(Atom,Atom,DynamicOps,Object,Object,ParseState)",
+            "List lambda$createParser$16(Atom,Scope)",
+            "String lambda$createParser$15(Atom,Scope)",
+            "String lambda$createParser$14(Atom,Scope)",
+            "String lambda$createParser$10(Atom,Atom,Atom,Atom,Atom,ParseState)",
+            "Object lambda$createParser$9(Atom,Atom,Atom,Atom,Atom,DynamicOps,ParseState)",
+            "SnbtGrammar$Signed lambda$createParser$8(Atom,Atom,Scope)",
+            "SnbtGrammar$TypeSuffix lambda$createParser$7(Atom,Scope)",
+            "SnbtGrammar$IntegerLiteral lambda$createParser$6(Atom,Atom,Atom,Atom,Atom,Scope)",
+            "SnbtGrammar$IntegerSuffix lambda$createParser$5(Atom,Scope)",
+            "SnbtGrammar$Sign lambda$createParser$4(Atom,Scope)",
+            "Message lambda$static$3(Object)",
+            "Message lambda$static$2(Object)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.item.component.CustomData",
+        "differences": {
+          "added": [
+            "Predicate itemMatcher(DataComponentType,CompoundTag)",
+            "void addToTooltip(Item$TooltipContext,Consumer,TooltipFlag,DataComponentGetter)",
+            "CustomData lambda$update$6(Tag)",
+            "Optional lambda$parseEntityType$5(ResourceKey,ResourceLocation,HolderLookup$RegistryLookup)",
+            "boolean lambda$itemMatcher$4(DataComponentType,CompoundTag,ItemStack)"
+          ],
+          "removed": [
+            "CustomData lambda$update$5(Tag)",
+            "Optional lambda$parseEntityType$4(ResourceKey,ResourceLocation,HolderLookup$RegistryLookup)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.level.block.TntBlock",
+        "differences": {
+          "added": [
+            "void prime(Level,BlockPos)",
+            "void prime(Level,BlockPos,LivingEntity)"
+          ],
+          "removed": [
+            "boolean prime(Level,BlockPos)",
+            "boolean prime(Level,BlockPos,LivingEntity)"
+          ]
+        }
+      }
+    }
+  ],
+  "custom": [
+    {
+      "type": "title",
+      "value": {
+        "title": "datapacks.json",
+        "id": "custom-datapacks-json",
+        "size": 2
+      }
+    }
+  ]
+}

@@ -1,0 +1,110 @@
+{
+  "version_data": [
+    {
+      "type": "table",
+      "value": {
+        "previousLabel": "1.19.3-rc2",
+        "currentLabel": "1.19.3-rc3",
+        "values": [
+          {
+            "key": "World version",
+            "previous": "3216",
+            "current": "3217"
+          },
+          {
+            "key": "Protocol version",
+            "previous": "1073741937",
+            "current": "1073741938"
+          }
+        ]
+      }
+    },
+    {
+      "type": "title",
+      "value": {
+        "title": "Libraries",
+        "id": "version-data-libraries",
+        "size": 3
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "🗒️ List",
+        "differences": {
+          "added": [
+            "org.lwjgl:lwjgl-glfw (natives-windows-arm64) V3.3.1",
+            "org.lwjgl:lwjgl-jemalloc (natives-windows-arm64) V3.3.1",
+            "org.lwjgl:lwjgl-openal (natives-windows-arm64) V3.3.1",
+            "org.lwjgl:lwjgl-opengl (natives-windows-arm64) V3.3.1",
+            "org.lwjgl:lwjgl-stb (natives-windows-arm64) V3.3.1",
+            "org.lwjgl:lwjgl-tinyfd (natives-windows-arm64) V3.3.1",
+            "org.lwjgl:lwjgl (natives-windows-arm64) V3.3.1"
+          ],
+          "removed": [
+            "com.mojang:text2speech (natives-linux) V1.13.9",
+            "com.mojang:text2speech (natives-windows) V1.13.9"
+          ]
+        }
+      }
+    },
+    {
+      "type": "table",
+      "value": {
+        "title": "Versions",
+        "previousLabel": "1.19.3-rc2",
+        "currentLabel": "1.19.3-rc3",
+        "values": [
+          {
+            "key": "com.mojang:text2speech",
+            "previous": "1.13.9",
+            "current": "1.16.7"
+          }
+        ]
+      }
+    }
+  ],
+  "mappings": [
+    {
+      "type": "title",
+      "value": {
+        "title": "Server",
+        "id": "server-mappings",
+        "size": 2
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "Changes",
+        "lines": [
+          "XXX.protocol.game.ClientboundRespawnPacket \u001b[2;32m+2M\u001b[0m \u001b[2;31m-2M\u001b[0m | \u001b[2;32m+4P\u001b[0m \u001b[2;31m-1P\u001b[0m"
+        ]
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.network.protocol.game.ClientboundRespawnPacket",
+        "differences": {
+          "added": [
+            "void <init>(ResourceKey,ResourceKey,long,GameType,GameType,boolean,boolean,boolean,Optional)",
+            "boolean shouldKeepAllPlayerData()"
+          ],
+          "removed": [
+            "void <init>(ResourceKey,ResourceKey,long,GameType,GameType,boolean,boolean,byte,Optional)",
+            "boolean shouldKeep(byte)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "title",
+      "value": {
+        "title": "Client",
+        "id": "client-mappings",
+        "size": 2
+      }
+    }
+  ]
+}

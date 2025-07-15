@@ -1,0 +1,330 @@
+{
+  "blocks": [
+    {
+      "type": "entries",
+      "value": {
+        "name": "🗒️ List",
+        "differences": {
+          "added": [
+            "melon.json"
+          ],
+          "removed": [
+            "melon_block.json"
+          ]
+        }
+      }
+    }
+  ],
+  "recipes": [
+    {
+      "type": "entries",
+      "value": {
+        "name": "🗒️ List",
+        "differences": {
+          "added": [
+            "glistering_melon_slice.json",
+            "melon.json"
+          ],
+          "removed": [
+            "melon_block.json",
+            "speckled_melon.json"
+          ]
+        }
+      }
+    }
+  ],
+  "translations": [
+    {
+      "type": "entries",
+      "value": {
+        "name": "Keys",
+        "differences": {
+          "added": [
+            "block.minecraft.melon: Melon",
+            "block.minecraft.potted_oak_sapling: Potted Oak Sapling",
+            "block.minecraft.potted_spruce_sapling: Potted Spruce Sapling",
+            "block.minecraft.potted_birch_sapling: Potted Birch Sapling",
+            "block.minecraft.potted_jungle_sapling: Potted Jungle Sapling",
+            "block.minecraft.potted_acacia_sapling: Potted Acacia Sapling",
+            "block.minecraft.potted_dark_oak_sapling: Potted Dark Oak Sapling",
+            "block.minecraft.potted_fern: Potted Fern",
+            "block.minecraft.potted_dandelion: Potted Dandelion",
+            "block.minecraft.potted_poppy: Potted Poppy",
+            "block.minecraft.potted_blue_orchid: Potted Blue Orchid",
+            "block.minecraft.potted_allium: Potted Allium",
+            "block.minecraft.potted_azure_bluet: Potted Azure Bluet",
+            "block.minecraft.potted_red_tulip: Potted Red Tulip",
+            "block.minecraft.potted_orange_tulip: Potted Orange Tulip",
+            "block.minecraft.potted_white_tulip: Potted White Tulip",
+            "block.minecraft.potted_pink_tulip: Potted Pink Tulip",
+            "block.minecraft.potted_oxeye_daisy: Potted Oxeye Daisy",
+            "block.minecraft.potted_red_mushroom: Potted Red Mushroom",
+            "block.minecraft.potted_brown_mushroom: Potted Brown Mushroom",
+            "block.minecraft.potted_dead_bush: Potted Dead Bush",
+            "block.minecraft.potted_cactus: Potted Cactus",
+            "item.minecraft.melon_slice: Melon Slice",
+            "item.minecraft.glistering_melon_slice: Glistering Melon Slice",
+            "realms.missing.module.error.text: Realms could not be opened right now, please try again later",
+            "realms.missing.snapshot.error.text: Realms is currently not supported in snapshots"
+          ],
+          "removed": [
+            "block.minecraft.melon_block: Melon",
+            "item.minecraft.melon: Melon Slice",
+            "item.minecraft.speckled_melon: Glistering Melon"
+          ]
+        }
+      }
+    },
+    {
+      "type": "text",
+      "value": {
+        "title": "Changes",
+        "values": [
+          {
+            "key": "selectWorld.versionJoinButton",
+            "previous": "Use Anyway",
+            "current": "Load Anyway"
+          },
+          {
+            "key": "createWorld.customize.buffet.generatortype",
+            "previous": "World generator :",
+            "current": "World generator:"
+          },
+          {
+            "key": "multiplayer.disconnect.banned",
+            "previous": "You are banned from this server.",
+            "current": "You are banned from this server"
+          },
+          {
+            "key": "multiplayer.disconnect.ip_banned",
+            "previous": "You have been IP banned.",
+            "current": "You have been IP banned from this server"
+          },
+          {
+            "key": "multiplayer.disconnect.kicked",
+            "previous": "Kicked by an operator.",
+            "current": "Kicked by an operator"
+          },
+          {
+            "key": "multiplayer.disconnect.name_taken",
+            "previous": "That name is already taken.",
+            "current": "That name is already taken"
+          },
+          {
+            "key": "demo.day.6",
+            "previous": "You have passed your fifth day, use F2 to save a screenshot of your creation",
+            "current": "You have passed your fifth day, use {} to save a screenshot of your creation"
+          },
+          {
+            "key": "disconnect.loginFailed",
+            "previous": "Failed to login",
+            "current": "Failed to log in"
+          },
+          {
+            "key": "disconnect.loginFailedInfo",
+            "previous": "Failed to login: %s",
+            "current": "Failed to log in: %s"
+          },
+          {
+            "key": "options.narrator.off",
+            "previous": "Off",
+            "current": "OFF"
+          },
+          {
+            "key": "entity.minecraft.ender_crystal",
+            "previous": "Ender Crystal",
+            "current": "End Crystal"
+          },
+          {
+            "key": "entity.minecraft.tnt",
+            "previous": "Block of TNT",
+            "current": "Primed TNT"
+          },
+          {
+            "key": "death.attack.hotFloor",
+            "previous": "%1$s discovered floor was lava",
+            "current": "%1$s discovered the floor was lava"
+          },
+          {
+            "key": "death.attack.mob.item",
+            "previous": "%1$s was slaim by %2$s using %3$s",
+            "current": "%1$s was slain by %2$s using %3$s"
+          },
+          {
+            "key": "stat.minecraft.play_record",
+            "previous": "Records Played",
+            "current": "Music Discs Played"
+          },
+          {
+            "key": "subtitles.entity.generic.small_fall",
+            "previous": "Something tripped",
+            "current": "Something trips"
+          },
+          {
+            "key": "subtitles.entity.llama.angry",
+            "previous": "Llama bleats angry",
+            "current": "Llama bleats angrily"
+          },
+          {
+            "key": "subtitles.turtle.ambient_land",
+            "previous": "Turtle chirp",
+            "current": "Turtle chirps"
+          },
+          {
+            "key": "subtitles.item.armor.equip",
+            "previous": "Gear equipped",
+            "current": "Gear equips"
+          },
+          {
+            "key": "subtitles.item.armor.equip_elytra",
+            "previous": "Elytra rustles",
+            "current": "Elytra rustle"
+          },
+          {
+            "key": "debug.crash.message",
+            "previous": "FC + C is held down. This will crash the game unless released.",
+            "current": "F3 + C is held down. This will crash the game unless released."
+          },
+          {
+            "key": "advancements.adventure.sleep_in_bed.title",
+            "previous": "Sweet dreams",
+            "current": "Sweet Dreams"
+          },
+          {
+            "key": "advancements.adventure.sniper_duel.title",
+            "previous": "Sniper duel",
+            "current": "Sniper Duel"
+          },
+          {
+            "key": "advancements.adventure.sniper_duel.description",
+            "previous": "Kill a skeleton with an arrow from more than 50 meters",
+            "current": "Kill a Skeleton with an arrow from more than 50 meters"
+          },
+          {
+            "key": "advancements.end.elytra.description",
+            "previous": "Find an Elytra",
+            "current": "Find Elytra"
+          },
+          {
+            "key": "advancements.end.respawn_dragon.description",
+            "previous": "Respawn the ender dragon",
+            "current": "Respawn the Ender Dragon"
+          },
+          {
+            "key": "advancements.nether.get_wither_skull.description",
+            "previous": "Obtain a wither skeleton's skull",
+            "current": "Obtain a Wither Skeleton's skull"
+          },
+          {
+            "key": "advancements.nether.fast_travel.description",
+            "previous": "Use the Nether to travel 7km in the Overworld",
+            "current": "Use the Nether to travel 7 km in the Overworld"
+          },
+          {
+            "key": "advancements.nether.uneasy_alliance.description",
+            "previous": "Rescue a Ghast from the Nether, bring it safely home to the Overworld... and then kill it.",
+            "current": "Rescue a Ghast from the Nether, bring it safely home to the Overworld... and then kill it"
+          },
+          {
+            "key": "advancements.story.cure_zombie_villager.description",
+            "previous": "Weaken and then cure a zombie villager",
+            "current": "Weaken and then cure a Zombie Villager"
+          },
+          {
+            "key": "advancements.story.follow_ender_eye.description",
+            "previous": "Follow an Ender Eye",
+            "current": "Follow an Eye of Ender"
+          },
+          {
+            "key": "argument.entity.options.dx.description",
+            "previous": "Entities between x and dx",
+            "current": "Entities between x and x + dx"
+          },
+          {
+            "key": "argument.entity.options.dy.description",
+            "previous": "Entities between y and dy",
+            "current": "Entities between y and y + dy"
+          },
+          {
+            "key": "argument.entity.options.dz.description",
+            "previous": "Entities between z and dz",
+            "current": "Entities between z and z + dz"
+          },
+          {
+            "key": "commands.whitelist.enabled",
+            "previous": "Whitelist is now turned on.",
+            "current": "Whitelist is now turned on"
+          },
+          {
+            "key": "commands.whitelist.disabled",
+            "previous": "Whitelist is now turned off.",
+            "current": "Whitelist is now turned off"
+          }
+        ]
+      }
+    }
+  ],
+  "file_structure": [
+    {
+      "type": "entries",
+      "value": {
+        "name": "data",
+        "differences": {
+          "added": [
+            "minecraft/advancements/recipes/brewing/glistering_melon_slice.json",
+            "minecraft/advancements/recipes/building_blocks/melon.json",
+            "minecraft/recipes/glistering_melon_slice.json",
+            "minecraft/recipes/melon.json"
+          ],
+          "removed": [
+            "minecraft/advancements/recipes/brewing/speckled_melon.json",
+            "minecraft/advancements/recipes/building_blocks/melon_block.json",
+            "minecraft/recipes/melon_block.json",
+            "minecraft/recipes/speckled_melon.json"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "assets",
+        "differences": {
+          "added": [
+            "minecraft/blockstates/melon.json",
+            "minecraft/models/block/melon.json",
+            "minecraft/models/item/glistering_melon_slice.json",
+            "minecraft/models/item/melon_slice.json",
+            "minecraft/textures/entity/conduit/closed_eye.png",
+            "minecraft/textures/entity/conduit/open_eye.png",
+            "minecraft/textures/items/glistering_melon_slice.png",
+            "minecraft/textures/items/melon_slice.png"
+          ],
+          "removed": [
+            "minecraft/blockstates/melon_block.json",
+            "minecraft/models/block/melon_block.json",
+            "minecraft/models/item/melon_block.json",
+            "minecraft/models/item/speckled_melon.json",
+            "minecraft/textures/entity/conduit/entity_core.png",
+            "minecraft/textures/items/melon.png",
+            "minecraft/textures/items/speckled_melon.png"
+          ]
+        }
+      }
+    }
+  ],
+  "misc": [
+    {
+      "type": "entries",
+      "value": {
+        "name": "splashes",
+        "differences": {
+          "added": [
+            "All rumors are true!"
+          ],
+          "removed": []
+        }
+      }
+    }
+  ]
+}

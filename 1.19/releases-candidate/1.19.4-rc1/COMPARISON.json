@@ -1,0 +1,226 @@
+{
+  "version_data": [
+    {
+      "type": "table",
+      "value": {
+        "previousLabel": "1.19.4-pre4",
+        "currentLabel": "1.19.4-rc1",
+        "values": [
+          {
+            "key": "World version",
+            "previous": "3333",
+            "current": "3334"
+          },
+          {
+            "key": "Protocol version",
+            "previous": "1073741947",
+            "current": "1073741948"
+          }
+        ]
+      }
+    }
+  ],
+  "mappings": [
+    {
+      "type": "title",
+      "value": {
+        "title": "Server",
+        "id": "server-mappings",
+        "size": 2
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "Changes",
+        "lines": [
+          "XXX.network.syncher.SynchedEntityData \u001b[2;32m+1M\u001b[0m",
+          "XXX.minecraft.server.MinecraftServer \u001b[2;32m+2M\u001b[0m",
+          "XXX.world.entity.Display \u001b[2;32m+2M\u001b[0m \u001b[2;31m-2M\u001b[0m | \u001b[2;32m+5P\u001b[0m \u001b[2;31m-3P\u001b[0m",
+          "XXX.world.entity.Display$FloatInterpolator \u001b[2;32m+2M\u001b[0m \u001b[2;31m-2M\u001b[0m",
+          "XXX.world.entity.Display$IntInterpolator \u001b[2;32m+2M\u001b[0m \u001b[2;31m-2M\u001b[0m",
+          "XXX.world.entity.Display$Interpolator \u001b[2;32m+1M\u001b[0m | \u001b[2;32m+1P\u001b[0m \u001b[2;31m-1P\u001b[0m"
+        ]
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.network.syncher.SynchedEntityData",
+        "differences": {
+          "added": [],
+          "removed": [
+            "void set(EntityDataAccessor,Object,boolean)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.server.MinecraftServer",
+        "differences": {
+          "added": [],
+          "removed": [
+            "void synchronizeTime(ServerLevel)",
+            "void forceTimeSynchronization()"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.entity.Display",
+        "differences": {
+          "added": [
+            "void setInterpolationStartTick(long)",
+            "long getInterpolationStartTick()"
+          ],
+          "removed": [
+            "void setInterpolationDelay(int)",
+            "int getInterpolationDelay()"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.entity.Display$FloatInterpolator",
+        "differences": {
+          "added": [
+            "void updateValue(float,Float)",
+            "void updateValue(float,Object)"
+          ],
+          "removed": [
+            "Float getGeneric(float)",
+            "Object getGeneric(float)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.entity.Display$IntInterpolator",
+        "differences": {
+          "added": [
+            "void updateValue(float,Integer)",
+            "void updateValue(float,Object)"
+          ],
+          "removed": [
+            "Integer getGeneric(float)",
+            "Object getGeneric(float)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.entity.Display$Interpolator",
+        "differences": {
+          "added": [],
+          "removed": [
+            "void updateValue(float,Object)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "title",
+      "value": {
+        "title": "Client",
+        "id": "client-mappings",
+        "size": 2
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "Changes",
+        "lines": [
+          "XXX.minecraft.server.MinecraftServer \u001b[2;32m+2M\u001b[0m",
+          "XXX.world.entity.Display \u001b[2;32m+2M\u001b[0m \u001b[2;31m-2M\u001b[0m | \u001b[2;32m+5P\u001b[0m \u001b[2;31m-3P\u001b[0m",
+          "XXX.world.entity.Display$FloatInterpolator \u001b[2;32m+2M\u001b[0m \u001b[2;31m-2M\u001b[0m",
+          "XXX.world.entity.Display$IntInterpolator \u001b[2;32m+2M\u001b[0m \u001b[2;31m-2M\u001b[0m",
+          "XXX.world.entity.Display$Interpolator \u001b[2;32m+1M\u001b[0m | \u001b[2;32m+1P\u001b[0m \u001b[2;31m-1P\u001b[0m"
+        ]
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.server.MinecraftServer",
+        "differences": {
+          "added": [],
+          "removed": [
+            "void synchronizeTime(ServerLevel)",
+            "void forceTimeSynchronization()"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.entity.Display",
+        "differences": {
+          "added": [
+            "void setInterpolationStartTick(long)",
+            "long getInterpolationStartTick()"
+          ],
+          "removed": [
+            "void setInterpolationDelay(int)",
+            "int getInterpolationDelay()"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.entity.Display$FloatInterpolator",
+        "differences": {
+          "added": [
+            "void updateValue(float,Float)",
+            "void updateValue(float,Object)"
+          ],
+          "removed": [
+            "Float getGeneric(float)",
+            "Object getGeneric(float)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.entity.Display$IntInterpolator",
+        "differences": {
+          "added": [
+            "void updateValue(float,Integer)",
+            "void updateValue(float,Object)"
+          ],
+          "removed": [
+            "Integer getGeneric(float)",
+            "Object getGeneric(float)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.entity.Display$Interpolator",
+        "differences": {
+          "added": [],
+          "removed": [
+            "void updateValue(float,Object)"
+          ]
+        }
+      }
+    }
+  ]
+}

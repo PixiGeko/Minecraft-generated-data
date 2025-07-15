@@ -1,0 +1,57 @@
+{
+  "version_data": [
+    {
+      "type": "table",
+      "value": {
+        "previousLabel": "1.13-pre10",
+        "currentLabel": "1.13",
+        "values": [
+          {
+            "key": "ResourcePack version",
+            "previous": "3",
+            "current": "4"
+          }
+        ]
+      }
+    },
+    {
+      "type": "title",
+      "value": {
+        "title": "Libraries",
+        "id": "version-data-libraries",
+        "size": 3
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "🗒️ List",
+        "differences": {
+          "added": [
+            "com.mojang:realms V1.13.4"
+          ],
+          "removed": []
+        }
+      }
+    }
+  ],
+  "translations": [
+    {
+      "type": "entries",
+      "value": {
+        "name": "Keys",
+        "differences": {
+          "added": [
+            "optimizeWorld.stage.counting: Counting chunks...",
+            "optimizeWorld.stage.finished: Finishing up...",
+            "optimizeWorld.stage.failed: Failed! :(",
+            "optimizeWorld.info.converted: Upgraded chunks: %s",
+            "optimizeWorld.info.skipped: Skipped chunks: %s",
+            "optimizeWorld.info.total: Total chunks: %s"
+          ],
+          "removed": []
+        }
+      }
+    }
+  ]
+}

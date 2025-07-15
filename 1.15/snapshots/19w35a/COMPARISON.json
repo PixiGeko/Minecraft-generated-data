@@ -1,0 +1,144 @@
+{
+  "version_data": [
+    {
+      "type": "table",
+      "value": {
+        "previousLabel": "19w34a",
+        "currentLabel": "19w35a",
+        "values": [
+          {
+            "key": "World version",
+            "previous": "2200",
+            "current": "2201"
+          },
+          {
+            "key": "Protocol version",
+            "previous": "550",
+            "current": "551"
+          }
+        ]
+      }
+    },
+    {
+      "type": "title",
+      "value": {
+        "title": "Libraries",
+        "id": "version-data-libraries",
+        "size": 3
+      }
+    },
+    {
+      "type": "table",
+      "value": {
+        "title": "Versions",
+        "previousLabel": "19w34a",
+        "currentLabel": "19w35a",
+        "values": [
+          {
+            "key": "org.lwjgl:lwjgl-glfw",
+            "previous": "3.2.1",
+            "current": "3.2.2"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-glfw",
+            "previous": "3.2.1",
+            "current": "3.2.2"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-jemalloc",
+            "previous": "3.2.1",
+            "current": "3.2.2"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-jemalloc",
+            "previous": "3.2.1",
+            "current": "3.2.2"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-openal",
+            "previous": "3.2.1",
+            "current": "3.2.2"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-openal",
+            "previous": "3.2.1",
+            "current": "3.2.2"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-opengl",
+            "previous": "3.2.1",
+            "current": "3.2.2"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-opengl",
+            "previous": "3.2.1",
+            "current": "3.2.2"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-stb",
+            "previous": "3.2.1",
+            "current": "3.2.2"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-stb",
+            "previous": "3.2.1",
+            "current": "3.2.2"
+          },
+          {
+            "key": "org.lwjgl:lwjgl",
+            "previous": "3.2.1",
+            "current": "3.2.2"
+          },
+          {
+            "key": "org.lwjgl:lwjgl",
+            "previous": "3.2.1",
+            "current": "3.2.2"
+          }
+        ]
+      }
+    }
+  ],
+  "registries": [
+    {
+      "type": "entries",
+      "value": {
+        "name": "memory_module_type",
+        "differences": {
+          "added": [
+            "minecraft:last_woken"
+          ],
+          "removed": []
+        }
+      }
+    }
+  ],
+  "tags": [
+    {
+      "type": "entries",
+      "value": {
+        "name": "universal_tags/memory_module_type.json",
+        "differences": {
+          "added": [
+            "minecraft:last_woken"
+          ],
+          "removed": []
+        }
+      }
+    }
+  ],
+  "translations": [
+    {
+      "type": "entries",
+      "value": {
+        "name": "Keys",
+        "differences": {
+          "added": [],
+          "removed": [
+            "deathScreen.deleteWorld: Delete world",
+            "deathScreen.leaveServer: Leave server"
+          ]
+        }
+      }
+    }
+  ]
+}

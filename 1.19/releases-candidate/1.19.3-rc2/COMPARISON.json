@@ -1,0 +1,63 @@
+{
+  "version_data": [
+    {
+      "type": "table",
+      "value": {
+        "previousLabel": "1.19.3-rc1",
+        "currentLabel": "1.19.3-rc2",
+        "values": [
+          {
+            "key": "World version",
+            "previous": "3215",
+            "current": "3216"
+          },
+          {
+            "key": "Protocol version",
+            "previous": "1073741936",
+            "current": "1073741937"
+          }
+        ]
+      }
+    }
+  ],
+  "mappings": [
+    {
+      "type": "title",
+      "value": {
+        "title": "Server",
+        "id": "server-mappings",
+        "size": 2
+      }
+    },
+    {
+      "type": "title",
+      "value": {
+        "title": "Client",
+        "id": "client-mappings",
+        "size": 2
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "Changes",
+        "lines": [
+          "XXX.minecraft.client.Minecraft \u001b[2;31m-2M\u001b[0m"
+        ]
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.client.Minecraft",
+        "differences": {
+          "added": [
+            "void lambda$prepareForMultiplayer$56(Optional)",
+            "void lambda$prepareForMultiplayer$55(ProfileKeyPair)"
+          ],
+          "removed": []
+        }
+      }
+    }
+  ]
+}

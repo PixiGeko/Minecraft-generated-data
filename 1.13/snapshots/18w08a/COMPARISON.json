@@ -1,0 +1,45 @@
+{
+  "translations": [
+    {
+      "type": "entries",
+      "value": {
+        "name": "Keys",
+        "differences": {
+          "added": [
+            "chat.coordinates: %s, %s, %s",
+            "chat.coordinates.tooltip: Click to teleport",
+            "subtitles.entity.squid.squirt: Squid shoots ink"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "text",
+      "value": {
+        "title": "Changes",
+        "values": [
+          {
+            "key": "commands.locate.success",
+            "previous": "The nearest %s is at %s %s %s (%s blocks away)",
+            "current": "The nearest %s is at %s (%s blocks away)"
+          }
+        ]
+      }
+    }
+  ],
+  "file_structure": [
+    {
+      "type": "entries",
+      "value": {
+        "name": "assets",
+        "differences": {
+          "added": [
+            "minecraft/textures/items/sea_grass.png"
+          ],
+          "removed": []
+        }
+      }
+    }
+  ]
+}

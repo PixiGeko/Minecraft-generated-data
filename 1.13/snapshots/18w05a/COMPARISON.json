@@ -1,0 +1,118 @@
+{
+  "version_data": [
+    {
+      "type": "title",
+      "value": {
+        "title": "Libraries",
+        "id": "version-data-libraries",
+        "size": 3
+      }
+    },
+    {
+      "type": "table",
+      "value": {
+        "title": "Versions",
+        "previousLabel": "18w03b",
+        "currentLabel": "18w05a",
+        "values": [
+          {
+            "key": "com.mojang:brigadier",
+            "previous": "0.1.20",
+            "current": "0.1.23"
+          }
+        ]
+      }
+    }
+  ],
+  "commands": [
+    {
+      "type": "entries",
+      "value": {
+        "name": "🗒️ List",
+        "differences": {
+          "added": [
+            "bossbar.txt"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "execute",
+        "differences": {
+          "added": [
+            "execute store result bossbar <id: resource_location> max",
+            "execute store result bossbar <id: resource_location> value",
+            "execute store success bossbar <id: resource_location> max",
+            "execute store success bossbar <id: resource_location> value"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "setidletimeout",
+        "differences": {
+          "added": [
+            "setidletimeout <minutes: integer>"
+          ],
+          "removed": [
+            "setidletimeout <seconds: integer>"
+          ]
+        }
+      }
+    }
+  ],
+  "translations": [
+    {
+      "type": "entries",
+      "value": {
+        "name": "Keys",
+        "differences": {
+          "added": [
+            "commands.bossbar.create.success: Created custom bossbar %s",
+            "commands.bossbar.remove.success: Removed custom bossbar %s",
+            "commands.bossbar.list.bars.none: There are no custom bossbars active",
+            "commands.bossbar.list.bars.some: There are %s custom bossbars active: %s",
+            "commands.bossbar.set.players.success.none: Custom bossbar %s no longer has any players",
+            "commands.bossbar.set.players.success.some: Custom bossbar %s now has %s players: %s",
+            "commands.bossbar.set.name.success: Custom bossbar %s has been renamed",
+            "commands.bossbar.set.color.success: Custom bossbar %s has changed color",
+            "commands.bossbar.set.style.success: Custom bossbar %s has changed style",
+            "commands.bossbar.set.value.success: Custom bossbar %s has changed value to %s",
+            "commands.bossbar.set.max.success: Custom bossbar %s has changed maximum to %s",
+            "commands.bossbar.set.visible.success.visible: Custom bossbar %s is now visible",
+            "commands.bossbar.set.visible.success.hidden: Custom bossbar %s is now hidden",
+            "commands.bossbar.get.value: Custom bossbar %s has a value of %s",
+            "commands.bossbar.get.max: Custom bossbar %s has a maximum of %s",
+            "commands.bossbar.get.visible.visible: Custom bossbar %s is currently shown",
+            "commands.bossbar.get.visible.hidden: Custom bossbar %s is currently hidden",
+            "commands.bossbar.get.players.none: Custom bossbar %s has no players currently online",
+            "commands.bossbar.get.players.some: Custom bossbar %s has %s players currently online: %s",
+            "commands.trigger.simple.success: Triggered %s",
+            "commands.trigger.add.success: Triggered %s (added %s to value)",
+            "commands.trigger.set.success: Triggered %s (set value to %s)"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "text",
+      "value": {
+        "title": "Changes",
+        "values": [
+          {
+            "key": "commands.setidletimeout.success",
+            "previous": "The player idle timeout is now %s seconds",
+            "current": "The player idle timeout is now %s minutes"
+          }
+        ]
+      }
+    }
+  ]
+}

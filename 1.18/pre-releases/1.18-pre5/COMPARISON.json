@@ -1,0 +1,711 @@
+{
+  "version_data": [
+    {
+      "type": "table",
+      "value": {
+        "previousLabel": "1.18-pre4",
+        "currentLabel": "1.18-pre5",
+        "values": [
+          {
+            "key": "World version",
+            "previous": "2850",
+            "current": "2851"
+          },
+          {
+            "key": "Protocol version",
+            "previous": "1073741876",
+            "current": "1073741877"
+          }
+        ]
+      }
+    },
+    {
+      "type": "title",
+      "value": {
+        "title": "Libraries",
+        "id": "version-data-libraries",
+        "size": 3
+      }
+    },
+    {
+      "type": "table",
+      "value": {
+        "title": "Versions",
+        "previousLabel": "1.18-pre4",
+        "currentLabel": "1.18-pre5",
+        "values": [
+          {
+            "key": "com.mojang:authlib",
+            "previous": "3.2.37",
+            "current": "3.2.38"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-glfw",
+            "previous": "3.2.1",
+            "current": "3.2.2"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-glfw",
+            "previous": "3.2.1",
+            "current": "3.2.2"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-jemalloc",
+            "previous": "3.2.1",
+            "current": "3.2.2"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-jemalloc",
+            "previous": "3.2.1",
+            "current": "3.2.2"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-openal",
+            "previous": "3.2.1",
+            "current": "3.2.2"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-openal",
+            "previous": "3.2.1",
+            "current": "3.2.2"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-opengl",
+            "previous": "3.2.1",
+            "current": "3.2.2"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-opengl",
+            "previous": "3.2.1",
+            "current": "3.2.2"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-stb",
+            "previous": "3.2.1",
+            "current": "3.2.2"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-stb",
+            "previous": "3.2.1",
+            "current": "3.2.2"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-tinyfd",
+            "previous": "3.2.1",
+            "current": "3.2.2"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-tinyfd",
+            "previous": "3.2.1",
+            "current": "3.2.2"
+          },
+          {
+            "key": "org.lwjgl:lwjgl",
+            "previous": "3.2.1",
+            "current": "3.2.2"
+          },
+          {
+            "key": "org.lwjgl:lwjgl",
+            "previous": "3.2.1",
+            "current": "3.2.2"
+          }
+        ]
+      }
+    }
+  ],
+  "registries": [
+    {
+      "type": "entries",
+      "value": {
+        "name": "block_predicate_type",
+        "differences": {
+          "added": [
+            "minecraft:matching_block_tag",
+            "minecraft:has_sturdy_face"
+          ],
+          "removed": []
+        }
+      }
+    }
+  ],
+  "tags": [
+    {
+      "type": "entries",
+      "value": {
+        "name": "universal_tags/block_predicate_type.json",
+        "differences": {
+          "added": [
+            "minecraft:matching_block_tag",
+            "minecraft:has_sturdy_face"
+          ],
+          "removed": []
+        }
+      }
+    }
+  ],
+  "file_structure": [
+    {
+      "type": "entries",
+      "value": {
+        "name": "data",
+        "differences": {
+          "added": [
+            "minecraft/tags/blocks/azalea_grows_on.json",
+            "minecraft/tags/blocks/azalea_root_replaceable.json",
+            "minecraft/tags/blocks/replaceable_plants.json",
+            "minecraft/tags/blocks/terracotta.json",
+            "minecraft/tags/items/dirt.json",
+            "minecraft/tags/items/terracotta.json"
+          ],
+          "removed": []
+        }
+      }
+    }
+  ],
+  "mappings": [
+    {
+      "type": "title",
+      "value": {
+        "title": "Server",
+        "id": "server-mappings",
+        "size": 2
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "Classes",
+        "differences": {
+          "added": [],
+          "removed": [
+            "XXX.levelgen.blockpredicates.InsideWorldBoundsPredicate"
+          ]
+        }
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "Changes",
+        "lines": [
+          "XXX.minecraft.core.QuartPos \u001b[2;32m+1M\u001b[0m",
+          "XXX.data.worldgen.SurfaceRuleData \u001b[2;32m+2M\u001b[0m",
+          "XXX.data.worldgen.TerrainProvider \u001b[2;32m+2M\u001b[0m",
+          "XXX.worldgen.features.CaveFeatures \u001b[2;32m+7M\u001b[0m \u001b[2;31m-7M\u001b[0m",
+          "XXX.worldgen.features.VegetationFeatures \u001b[2;32m+2M\u001b[0m \u001b[2;31m-2M\u001b[0m",
+          "XXX.minecraft.tags.BlockTags \u001b[2;32m+4P\u001b[0m",
+          "XXX.minecraft.tags.ItemTags \u001b[2;32m+2P\u001b[0m",
+          "XXX.minecraft.util.BitStorage \u001b[2;32m+1P\u001b[0m",
+          "XXX.level.chunk.PalettedContainer \u001b[2;32m+5M\u001b[0m \u001b[2;31m-3M\u001b[0m",
+          "XXX.level.levelgen.Aquifer \u001b[2;32m+1M\u001b[0m \u001b[2;31m-1M\u001b[0m",
+          "XXX.level.levelgen.Aquifer$NoiseBasedAquifer \u001b[2;32m+1M\u001b[0m \u001b[2;31m-1M\u001b[0m | \u001b[2;31m-1P\u001b[0m",
+          "XXX.level.levelgen.BelowZeroRetrogen \u001b[2;32m+4M\u001b[0m \u001b[2;31m-3M\u001b[0m",
+          "XXX.level.levelgen.NoiseBasedChunkGenerator \u001b[2;32m+2M\u001b[0m \u001b[2;31m-2M\u001b[0m",
+          "XXX.level.levelgen.SurfaceRules \u001b[2;32m+1M\u001b[0m \u001b[2;31m-1M\u001b[0m",
+          "XXX.level.levelgen.SurfaceRules$Context \u001b[2;32m+2M\u001b[0m | \u001b[2;32m+6P\u001b[0m",
+          "XXX.level.levelgen.SurfaceSystem \u001b[2;32m+1M\u001b[0m \u001b[2;31m-2M\u001b[0m | \u001b[2;31m-2P\u001b[0m",
+          "XXX.levelgen.blockpredicates.BlockPredicate \u001b[2;32m+4M\u001b[0m"
+        ]
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.core.QuartPos",
+        "differences": {
+          "added": [],
+          "removed": [
+            "int quartLocal(int)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.data.worldgen.SurfaceRuleData",
+        "differences": {
+          "added": [],
+          "removed": [
+            "SurfaceRules$RuleSource overworldLike(boolean,boolean,boolean)",
+            "SurfaceRules$RuleSource[] lambda$overworldLike$0(int)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.data.worldgen.TerrainProvider",
+        "differences": {
+          "added": [],
+          "removed": [
+            "TerrainShaper caves()",
+            "TerrainShaper floatingIslands()"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.data.worldgen.features.CaveFeatures",
+        "differences": {
+          "added": [
+            "ConfiguredFeature lambda$static$13()",
+            "ConfiguredFeature lambda$static$12()",
+            "ConfiguredFeature lambda$static$11()",
+            "ConfiguredFeature lambda$static$10()",
+            "ConfiguredFeature lambda$static$9()",
+            "ConfiguredFeature lambda$static$4()",
+            "ConfiguredFeature lambda$static$3()"
+          ],
+          "removed": [
+            "PlacedFeature lambda$static$13()",
+            "PlacedFeature lambda$static$12()",
+            "PlacedFeature lambda$static$11()",
+            "PlacedFeature lambda$static$10()",
+            "PlacedFeature lambda$static$9()",
+            "PlacedFeature lambda$static$4()",
+            "PlacedFeature lambda$static$3()"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.data.worldgen.features.VegetationFeatures",
+        "differences": {
+          "added": [
+            "ConfiguredFeature lambda$static$13()",
+            "ConfiguredFeature lambda$static$12()"
+          ],
+          "removed": [
+            "PlacedFeature lambda$static$13()",
+            "PlacedFeature lambda$static$12()"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.level.chunk.PalettedContainer",
+        "differences": {
+          "added": [
+            "void lambda$count$8(PalettedContainer$CountConsumer,Int2IntMap$Entry)",
+            "void lambda$count$7(Int2IntMap,int)",
+            "int lambda$read$6(IdMap,Palette,SimpleBitStorage,int)"
+          ],
+          "removed": [
+            "void swapPalette(int[],IntUnaryOperator)",
+            "void lambda$count$9(PalettedContainer$CountConsumer,Int2IntMap$Entry)",
+            "void lambda$count$8(Int2IntMap,int)",
+            "int lambda$write$7(HashMapPalette,int)",
+            "int lambda$read$6(IdMap,Palette,int)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.level.levelgen.Aquifer",
+        "differences": {
+          "added": [
+            "Aquifer create(NoiseChunk,ChunkPos,NormalNoise,NormalNoise,NormalNoise,NormalNoise,PositionalRandomFactory,NoiseSampler,int,int,Aquifer$FluidPicker)"
+          ],
+          "removed": [
+            "Aquifer create(NoiseChunk,ChunkPos,NormalNoise,NormalNoise,NormalNoise,NormalNoise,PositionalRandomFactory,int,int,Aquifer$FluidPicker)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.level.levelgen.Aquifer$NoiseBasedAquifer",
+        "differences": {
+          "added": [
+            "void <init>(NoiseChunk,ChunkPos,NormalNoise,NormalNoise,NormalNoise,NormalNoise,PositionalRandomFactory,NoiseSampler,int,int,Aquifer$FluidPicker)"
+          ],
+          "removed": [
+            "void <init>(NoiseChunk,ChunkPos,NormalNoise,NormalNoise,NormalNoise,NormalNoise,PositionalRandomFactory,int,int,Aquifer$FluidPicker)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.level.levelgen.BelowZeroRetrogen",
+        "differences": {
+          "added": [
+            "void removeBedrock(ProtoChunk)",
+            "boolean hasAllBedrockMissing()",
+            "void lambda$removeBedrock$6(ProtoChunk,BlockPos)"
+          ],
+          "removed": [
+            "void applyBedrockMask(ProtoChunk)",
+            "boolean hasBedrockHoles()",
+            "boolean hasBedrockHole(int,int)",
+            "void lambda$applyBedrockMask$6(ProtoChunk,BlockPos)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.level.levelgen.NoiseBasedChunkGenerator",
+        "differences": {
+          "added": [
+            "BlockState debugPreliminarySurfaceLevel(int,int,int,BlockState)",
+            "Aquifer$FluidStatus lambda$new$5(Aquifer$FluidStatus,Aquifer$FluidStatus,Aquifer$FluidStatus,int,int,int)"
+          ],
+          "removed": [
+            "BlockState debugPreliminarySurfaceLevel(NoiseChunk,int,int,int,BlockState)",
+            "Aquifer$FluidStatus lambda$new$5(Aquifer$FluidStatus,int,Aquifer$FluidStatus,Aquifer$FluidStatus,int,int,int)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.level.levelgen.SurfaceRules",
+        "differences": {
+          "added": [
+            "SurfaceRules$RuleSource sequence(SurfaceRules$RuleSource,SurfaceRules$RuleSource[])"
+          ],
+          "removed": [
+            "SurfaceRules$RuleSource sequence(SurfaceRules$RuleSource[])"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.level.levelgen.SurfaceRules$Context",
+        "differences": {
+          "added": [],
+          "removed": [
+            "int blockCoordToSurfaceCell(int)",
+            "int surfaceCellToBlockCoord(int)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.level.levelgen.SurfaceSystem",
+        "differences": {
+          "added": [
+            "void <init>(NoiseSampler,Registry,BlockState,int,long,WorldgenRandom$Algorithm)",
+            "int getMinSurfaceLevel(NoiseChunk,int,int)"
+          ],
+          "removed": [
+            "void <init>(Registry,BlockState,int,long,WorldgenRandom$Algorithm)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.level.levelgen.blockpredicates.BlockPredicate",
+        "differences": {
+          "added": [],
+          "removed": [
+            "BlockPredicate matchesBlocks(List)",
+            "BlockPredicate matchesTag(Tag,Vec3i)",
+            "BlockPredicate matchesTag(Tag)",
+            "BlockPredicate hasSturdyFace(Vec3i,Direction)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "title",
+      "value": {
+        "title": "Client",
+        "id": "client-mappings",
+        "size": 2
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "Classes",
+        "differences": {
+          "added": [
+            "XXX.levelgen.blockpredicates.InsideWorldBoundsPredicate"
+          ],
+          "removed": [
+            "XXX.levelgen.blockpredicates.HasSturdyFacePredicate",
+            "XXX.levelgen.blockpredicates.MatchingBlockTagPredicate"
+          ]
+        }
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "Changes",
+        "lines": [
+          "XXX.minecraft.core.QuartPos \u001b[2;32m+1M\u001b[0m",
+          "XXX.data.worldgen.SurfaceRuleData \u001b[2;32m+2M\u001b[0m",
+          "XXX.data.worldgen.TerrainProvider \u001b[2;32m+2M\u001b[0m",
+          "XXX.worldgen.features.CaveFeatures \u001b[2;32m+7M\u001b[0m \u001b[2;31m-7M\u001b[0m",
+          "XXX.worldgen.features.VegetationFeatures \u001b[2;32m+2M\u001b[0m \u001b[2;31m-2M\u001b[0m",
+          "XXX.minecraft.util.SimpleBitStorage \u001b[2;32m+2M\u001b[0m \u001b[2;31m-2M\u001b[0m",
+          "XXX.minecraft.util.ZeroBitStorage \u001b[2;32m+1M\u001b[0m",
+          "XXX.ai.goal.PanicGoal \u001b[2;32m+1M\u001b[0m \u001b[2;31m-1M\u001b[0m | \u001b[2;32m+1P\u001b[0m",
+          "XXX.level.chunk.PalettedContainer$Data \u001b[2;31m-1M\u001b[0m",
+          "XXX.level.levelgen.NoiseChunk \u001b[2;32m+8M\u001b[0m \u001b[2;31m-9M\u001b[0m | \u001b[2;32m+2P\u001b[0m \u001b[2;31m-1P\u001b[0m",
+          "XXX.level.levelgen.NoiseGeneratorSettings \u001b[2;32m+6M\u001b[0m \u001b[2;31m-4M\u001b[0m | \u001b[2;31m-1P\u001b[0m",
+          "XXX.levelgen.blending.BlendingData \u001b[2;32m+3M\u001b[0m \u001b[2;31m-1M\u001b[0m | \u001b[2;32m+2P\u001b[0m",
+          "XXX.levelgen.blockpredicates.BlockPredicateType \u001b[2;32m+2P\u001b[0m",
+          "XXX.levelgen.feature.RootSystemFeature \u001b[2;32m+1M\u001b[0m \u001b[2;31m-1M\u001b[0m",
+          "XXX.feature.configurations.RootSystemConfiguration \u001b[2;32m+3M\u001b[0m \u001b[2;31m-2M\u001b[0m | \u001b[2;32m+1P\u001b[0m",
+          "XXX.levelgen.heightproviders.UniformHeight \u001b[2;32m+1P\u001b[0m"
+        ]
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.core.QuartPos",
+        "differences": {
+          "added": [],
+          "removed": [
+            "int quartLocal(int)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.data.worldgen.SurfaceRuleData",
+        "differences": {
+          "added": [],
+          "removed": [
+            "SurfaceRules$RuleSource overworldLike(boolean,boolean,boolean)",
+            "SurfaceRules$RuleSource[] lambda$overworldLike$0(int)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.data.worldgen.TerrainProvider",
+        "differences": {
+          "added": [],
+          "removed": [
+            "TerrainShaper caves()",
+            "TerrainShaper floatingIslands()"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.data.worldgen.features.CaveFeatures",
+        "differences": {
+          "added": [
+            "ConfiguredFeature lambda$static$13()",
+            "ConfiguredFeature lambda$static$12()",
+            "ConfiguredFeature lambda$static$11()",
+            "ConfiguredFeature lambda$static$10()",
+            "ConfiguredFeature lambda$static$9()",
+            "ConfiguredFeature lambda$static$4()",
+            "ConfiguredFeature lambda$static$3()"
+          ],
+          "removed": [
+            "PlacedFeature lambda$static$13()",
+            "PlacedFeature lambda$static$12()",
+            "PlacedFeature lambda$static$11()",
+            "PlacedFeature lambda$static$10()",
+            "PlacedFeature lambda$static$9()",
+            "PlacedFeature lambda$static$4()",
+            "PlacedFeature lambda$static$3()"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.data.worldgen.features.VegetationFeatures",
+        "differences": {
+          "added": [
+            "ConfiguredFeature lambda$static$13()",
+            "ConfiguredFeature lambda$static$12()"
+          ],
+          "removed": [
+            "PlacedFeature lambda$static$13()",
+            "PlacedFeature lambda$static$12()"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.util.SimpleBitStorage",
+        "differences": {
+          "added": [
+            "void <init>(int,int,IntStream)",
+            "void lambda$new$0(MutableInt,int)"
+          ],
+          "removed": [
+            "void <init>(int,int,int[])",
+            "void unpack(int[])"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.util.ZeroBitStorage",
+        "differences": {
+          "added": [],
+          "removed": [
+            "void unpack(int[])"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.entity.ai.goal.PanicGoal",
+        "differences": {
+          "added": [
+            "BlockPos lookForWater(BlockGetter,Entity,int,int)"
+          ],
+          "removed": [
+            "BlockPos lookForWater(BlockGetter,Entity,int)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.level.chunk.PalettedContainer$Data",
+        "differences": {
+          "added": [
+            "void set(int,Object)"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.level.levelgen.NoiseChunk",
+        "differences": {
+          "added": [
+            "TerrainInfo terrainInfoWide(NoiseSampler,int,int)",
+            "TerrainInfo terrainInfoInterpolated(int,int)",
+            "void lambda$updateForZ$7(double,NoiseChunk$NoiseInterpolator)",
+            "void lambda$updateForX$6(double,NoiseChunk$NoiseInterpolator)",
+            "void lambda$updateForY$5(double,NoiseChunk$NoiseInterpolator)",
+            "void lambda$selectCellYZ$4(int,int,NoiseChunk$NoiseInterpolator)",
+            "void lambda$advanceCellX$3(int,NoiseChunk$NoiseInterpolator)",
+            "void lambda$initializeForFirstCellX$2(NoiseChunk$NoiseInterpolator)",
+            "TerrainInfo lambda$terrainInfoWide$1(NoiseSampler,long)"
+          ],
+          "removed": [
+            "int preliminarySurfaceLevel(int,int)",
+            "int computePreliminarySurfaceLevel(long)",
+            "void lambda$updateForZ$6(double,NoiseChunk$NoiseInterpolator)",
+            "void lambda$updateForX$5(double,NoiseChunk$NoiseInterpolator)",
+            "void lambda$updateForY$4(double,NoiseChunk$NoiseInterpolator)",
+            "void lambda$selectCellYZ$3(int,int,NoiseChunk$NoiseInterpolator)",
+            "void lambda$advanceCellX$2(int,NoiseChunk$NoiseInterpolator)",
+            "void lambda$initializeForFirstCellX$1(NoiseChunk$NoiseInterpolator)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.level.levelgen.NoiseGeneratorSettings",
+        "differences": {
+          "added": [
+            "NoiseGeneratorSettings register(ResourceKey,NoiseGeneratorSettings)",
+            "NoiseGeneratorSettings endLikePreset(StructureSettings,BlockState,BlockState,boolean,boolean)",
+            "NoiseGeneratorSettings netherLikePreset(StructureSettings,BlockState,BlockState)",
+            "NoiseGeneratorSettings overworld(StructureSettings,boolean,boolean)"
+          ],
+          "removed": [
+            "void register(ResourceKey,NoiseGeneratorSettings)",
+            "NoiseGeneratorSettings end()",
+            "NoiseGeneratorSettings nether()",
+            "NoiseGeneratorSettings overworld(boolean,boolean)",
+            "NoiseGeneratorSettings caves()",
+            "NoiseGeneratorSettings floatingIslands()"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.level.levelgen.blending.BlendingData",
+        "differences": {
+          "added": [
+            "double[] getDensityColumn(ChunkAccess,int,int)"
+          ],
+          "removed": [
+            "double read1(ChunkAccess,BlockPos$MutableBlockPos)",
+            "double read7(ChunkAccess,BlockPos$MutableBlockPos)",
+            "double[] getDensityColumn(ChunkAccess,int,int,int)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.level.levelgen.feature.RootSystemFeature",
+        "differences": {
+          "added": [
+            "boolean tryPlaceAzaleaTree(WorldGenLevel,ChunkGenerator,RootSystemConfiguration,Random,BlockPos)"
+          ],
+          "removed": [
+            "void placeDirt(BlockPos,int,WorldGenLevel,RootSystemConfiguration,Random)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.level.levelgen.feature.configurations.RootSystemConfiguration",
+        "differences": {
+          "added": [
+            "void <init>(Supplier,int,int,ResourceLocation,BlockStateProvider,int,int,int,int,BlockStateProvider,int,int)",
+            "App lambda$static$12(RecordCodecBuilder$Instance)"
+          ],
+          "removed": [
+            "void <init>(Supplier,int,int,ResourceLocation,BlockStateProvider,int,int,int,int,BlockStateProvider,int,int,BlockPredicate)",
+            "App lambda$static$13(RecordCodecBuilder$Instance)",
+            "BlockPredicate lambda$static$12(RootSystemConfiguration)"
+          ]
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,175 @@
+{
+  "version_data": [
+    {
+      "type": "table",
+      "value": {
+        "previousLabel": "1.15.2-pre1",
+        "currentLabel": "1.15.2-pre2",
+        "values": [
+          {
+            "key": "World version",
+            "previous": "2228",
+            "current": "2229"
+          },
+          {
+            "key": "Protocol version",
+            "previous": "576",
+            "current": "577"
+          }
+        ]
+      }
+    },
+    {
+      "type": "title",
+      "value": {
+        "title": "Libraries",
+        "id": "version-data-libraries",
+        "size": 3
+      }
+    },
+    {
+      "type": "table",
+      "value": {
+        "title": "Versions",
+        "previousLabel": "1.15.2-pre1",
+        "currentLabel": "1.15.2-pre2",
+        "values": [
+          {
+            "key": "org.lwjgl:lwjgl-glfw",
+            "previous": "3.2.1",
+            "current": "3.2.2"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-glfw",
+            "previous": "3.2.1",
+            "current": "3.2.2"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-jemalloc",
+            "previous": "3.2.1",
+            "current": "3.2.2"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-jemalloc",
+            "previous": "3.2.1",
+            "current": "3.2.2"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-openal",
+            "previous": "3.2.1",
+            "current": "3.2.2"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-openal",
+            "previous": "3.2.1",
+            "current": "3.2.2"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-opengl",
+            "previous": "3.2.1",
+            "current": "3.2.2"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-opengl",
+            "previous": "3.2.1",
+            "current": "3.2.2"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-stb",
+            "previous": "3.2.1",
+            "current": "3.2.2"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-stb",
+            "previous": "3.2.1",
+            "current": "3.2.2"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-tinyfd",
+            "previous": "3.2.1",
+            "current": "3.2.2"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-tinyfd",
+            "previous": "3.2.1",
+            "current": "3.2.2"
+          },
+          {
+            "key": "org.lwjgl:lwjgl",
+            "previous": "3.2.1",
+            "current": "3.2.2"
+          },
+          {
+            "key": "org.lwjgl:lwjgl",
+            "previous": "3.2.1",
+            "current": "3.2.2"
+          }
+        ]
+      }
+    }
+  ],
+  "mappings": [
+    {
+      "type": "title",
+      "value": {
+        "title": "Server",
+        "id": "server-mappings",
+        "size": 2
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "Changes",
+        "lines": [
+          "XXX.world.effect.MobEffectInstance \u001b[2;32m+1M\u001b[0m \u001b[2;31m-1M\u001b[0m"
+        ]
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.effect.MobEffectInstance",
+        "differences": {
+          "added": [
+            "boolean tick(LivingEntity)"
+          ],
+          "removed": [
+            "boolean tick(LivingEntity,Runnable)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "title",
+      "value": {
+        "title": "Client",
+        "id": "client-mappings",
+        "size": 2
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "Changes",
+        "lines": [
+          "XXX.world.effect.MobEffectInstance \u001b[2;32m+1M\u001b[0m \u001b[2;31m-1M\u001b[0m"
+        ]
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.effect.MobEffectInstance",
+        "differences": {
+          "added": [
+            "boolean tick(LivingEntity)"
+          ],
+          "removed": [
+            "boolean tick(LivingEntity,Runnable)"
+          ]
+        }
+      }
+    }
+  ]
+}

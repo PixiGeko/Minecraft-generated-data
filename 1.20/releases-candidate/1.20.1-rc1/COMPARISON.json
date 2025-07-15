@@ -1,0 +1,133 @@
+{
+  "version_data": [
+    {
+      "type": "table",
+      "value": {
+        "previousLabel": "1.20",
+        "currentLabel": "1.20.1-rc1",
+        "values": [
+          {
+            "key": "World version",
+            "previous": "3463",
+            "current": "3464"
+          },
+          {
+            "key": "Protocol version",
+            "previous": "763",
+            "current": "1073741966"
+          }
+        ]
+      }
+    }
+  ],
+  "mappings": [
+    {
+      "type": "title",
+      "value": {
+        "title": "Server",
+        "id": "server-mappings",
+        "size": 2
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "Changes",
+        "lines": [
+          "XXX.minecraft.network.Connection \u001b[2;32m+1M\u001b[0m | \u001b[2;32m+1P\u001b[0m",
+          "XXX.level.chunk.ChunkStatus \u001b[2;32m+2M\u001b[0m \u001b[2;31m-1M\u001b[0m"
+        ]
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.network.Connection",
+        "differences": {
+          "added": [],
+          "removed": [
+            "ChannelFuture connect(InetSocketAddress,boolean,Connection)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.level.chunk.ChunkStatus",
+        "differences": {
+          "added": [
+            "Either lambda$generate$20(ChunkAccess,ProfiledDuration,Either)"
+          ],
+          "removed": [
+            "Either lambda$generate$21(ProfiledDuration,Either)",
+            "void lambda$generate$20(ChunkAccess)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "title",
+      "value": {
+        "title": "Client",
+        "id": "client-mappings",
+        "size": 2
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "Changes",
+        "lines": [
+          "XXX.mojang.realmsclient.RealmsMainScreen \u001b[2;32m+1M\u001b[0m \u001b[2;31m-1M\u001b[0m",
+          "XXX.gui.screens.RealmsNotificationsScreen \u001b[2;32m+1M\u001b[0m \u001b[2;31m-1M\u001b[0m",
+          "XXX.gui.screens.ConnectScreen \u001b[2;32m+2P\u001b[0m",
+          "XXX.level.chunk.ChunkStatus \u001b[2;32m+2M\u001b[0m \u001b[2;31m-1M\u001b[0m"
+        ]
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "com.mojang.realmsclient.RealmsMainScreen",
+        "differences": {
+          "added": [
+            "void drawPopup(GuiGraphics)"
+          ],
+          "removed": [
+            "void drawPopup(GuiGraphics,int,int,float)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "com.mojang.realmsclient.gui.screens.RealmsNotificationsScreen",
+        "differences": {
+          "added": [
+            "void drawIcons(GuiGraphics,int,int)"
+          ],
+          "removed": [
+            "void drawIcons(GuiGraphics)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.level.chunk.ChunkStatus",
+        "differences": {
+          "added": [
+            "Either lambda$generate$20(ChunkAccess,ProfiledDuration,Either)"
+          ],
+          "removed": [
+            "Either lambda$generate$21(ProfiledDuration,Either)",
+            "void lambda$generate$20(ChunkAccess)"
+          ]
+        }
+      }
+    }
+  ]
+}

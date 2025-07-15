@@ -1,0 +1,96 @@
+{
+  "commands": [
+    {
+      "type": "entries",
+      "value": {
+        "name": "execute",
+        "differences": {
+          "added": [
+            "execute anchored <anchor: entity_anchor>",
+            "execute facing entity <targets: entity> <anchor: entity_anchor>",
+            "execute facing <pos: vec3>",
+            "execute if score <target: score_holder> <targetObjective: objective> matches <range: range>",
+            "execute in overworld",
+            "execute in the_end",
+            "execute in the_nether",
+            "execute positioned as <entities: entity>",
+            "execute positioned <pos: vec3>",
+            "execute rotated as <entities: entity>",
+            "execute rotated <rot: rotation>",
+            "execute unless score <target: score_holder> <targetObjective: objective> matches <range: range>"
+          ],
+          "removed": [
+            "execute offset <pos: vec3>"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "teleport",
+        "differences": {
+          "added": [
+            "teleport <destination: entity>",
+            "teleport <location: vec3>",
+            "teleport <targets: entity> <destination: entity>",
+            "teleport <targets: entity> <location: vec3> facing entity <facingEntity: entity> <facingAnchor: entity_anchor>"
+          ],
+          "removed": [
+            "teleport <destination: entity> facing <facingEntity: entity>",
+            "teleport <destination: entity> facing <facingLocation: vec3>",
+            "teleport <location: vec3> facing <facingEntity: entity>",
+            "teleport <location: vec3> facing <facingLocation: vec3>",
+            "teleport <location: vec3> <rotation: rotation>",
+            "teleport <targets: entity> <destination: entity> facing <facingEntity: entity>",
+            "teleport <targets: entity> <destination: entity> facing <facingLocation: vec3>",
+            "teleport <targets: entity> <location: vec3> facing <facingEntity: entity>"
+          ]
+        }
+      }
+    }
+  ],
+  "file_structure": [
+    {
+      "type": "entries",
+      "value": {
+        "name": "data",
+        "differences": {
+          "added": [
+            "minecraft/tags/blocks/enderman_holdable.json"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "assets",
+        "differences": {
+          "added": [
+            "minecraft/lang/en_us.json"
+          ],
+          "removed": [
+            "minecraft/lang/en_us.lang"
+          ]
+        }
+      }
+    }
+  ],
+  "misc": [
+    {
+      "type": "entries",
+      "value": {
+        "name": "parsers",
+        "differences": {
+          "added": [
+            "minecraft:entity_anchor",
+            "minecraft:range"
+          ],
+          "removed": []
+        }
+      }
+    }
+  ]
+}

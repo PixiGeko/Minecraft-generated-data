@@ -1,0 +1,10 @@
+advancement grant <targets: entity> only <advancement: resource_location> <criterion: string>
+advancement grant <targets: entity> from <advancement: resource_location>
+advancement grant <targets: entity> until <advancement: resource_location>
+advancement grant <targets: entity> through <advancement: resource_location>
+advancement grant <targets: entity> everything
+advancement revoke <targets: entity> only <advancement: resource_location> <criterion: string>
+advancement revoke <targets: entity> from <advancement: resource_location>
+advancement revoke <targets: entity> until <advancement: resource_location>
+advancement revoke <targets: entity> through <advancement: resource_location>
+advancement revoke <targets: entity> everything

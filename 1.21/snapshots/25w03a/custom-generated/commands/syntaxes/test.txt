@@ -1,0 +1,18 @@
+test clearall <radius: integer>
+test clearthat
+test clearthese
+test create <id: resource_location> <width: integer> <height: integer> <depth: integer>
+test locate <tests: resource>
+test pos <var: string>
+test resetclosest
+test resetthat
+test resetthese
+test run <tests: resource_selector> <numberOfTimes: integer> <untilFailed: bool> <rotationSteps: integer> <testsPerRow: integer>
+test runclosest <numberOfTimes: integer> <untilFailed: bool>
+test runfailed <numberOfTimes: integer> <untilFailed: bool> <rotationSteps: integer> <testsPerRow: integer>
+test runfailed <onlyRequiredTests: bool> <numberOfTimes: integer> <untilFailed: bool> <rotationSteps: integer> <testsPerRow: integer>
+test runmultiple <tests: resource_selector> <amount: integer>
+test runthat <numberOfTimes: integer> <untilFailed: bool>
+test runthese <numberOfTimes: integer> <untilFailed: bool>
+test stop
+test verify <tests: resource_selector>

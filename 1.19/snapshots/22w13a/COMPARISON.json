@@ -1,0 +1,3897 @@
+{
+  "version_data": [
+    {
+      "type": "table",
+      "value": {
+        "previousLabel": "22w12a",
+        "currentLabel": "22w13a",
+        "values": [
+          {
+            "key": "World version",
+            "previous": "3082",
+            "current": "3085"
+          },
+          {
+            "key": "Protocol version",
+            "previous": "1073741899",
+            "current": "1073741900"
+          }
+        ]
+      }
+    },
+    {
+      "type": "title",
+      "value": {
+        "title": "Libraries",
+        "id": "version-data-libraries",
+        "size": 3
+      }
+    },
+    {
+      "type": "table",
+      "value": {
+        "title": "Versions",
+        "previousLabel": "22w12a",
+        "currentLabel": "22w13a",
+        "values": [
+          {
+            "key": "org.lwjgl:lwjgl-glfw",
+            "previous": "3.2.1",
+            "current": "3.2.2"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-glfw",
+            "previous": "3.2.1",
+            "current": "3.2.2"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-jemalloc",
+            "previous": "3.2.1",
+            "current": "3.2.2"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-jemalloc",
+            "previous": "3.2.1",
+            "current": "3.2.2"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-openal",
+            "previous": "3.2.1",
+            "current": "3.2.2"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-openal",
+            "previous": "3.2.1",
+            "current": "3.2.2"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-opengl",
+            "previous": "3.2.1",
+            "current": "3.2.2"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-opengl",
+            "previous": "3.2.1",
+            "current": "3.2.2"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-stb",
+            "previous": "3.2.1",
+            "current": "3.2.2"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-stb",
+            "previous": "3.2.1",
+            "current": "3.2.2"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-tinyfd",
+            "previous": "3.2.1",
+            "current": "3.2.2"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-tinyfd",
+            "previous": "3.2.1",
+            "current": "3.2.2"
+          },
+          {
+            "key": "org.lwjgl:lwjgl",
+            "previous": "3.2.1",
+            "current": "3.2.2"
+          },
+          {
+            "key": "org.lwjgl:lwjgl",
+            "previous": "3.2.1",
+            "current": "3.2.2"
+          }
+        ]
+      }
+    }
+  ],
+  "registries": [
+    {
+      "type": "entries",
+      "value": {
+        "name": "block",
+        "differences": {
+          "added": [
+            "minecraft:reinforced_deepslate"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "entity_type",
+        "differences": {
+          "added": [
+            "minecraft:allay"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "game_event",
+        "differences": {
+          "added": [
+            "minecraft:block_activate",
+            "minecraft:block_deactivate",
+            "minecraft:drink",
+            "minecraft:elytra_glide",
+            "minecraft:entity_damage",
+            "minecraft:entity_die",
+            "minecraft:entity_interact",
+            "minecraft:entity_roar",
+            "minecraft:entity_shake",
+            "minecraft:item_interact_finish",
+            "minecraft:item_interact_start",
+            "minecraft:note_block_play"
+          ],
+          "removed": [
+            "minecraft:block_press",
+            "minecraft:block_switch",
+            "minecraft:block_unpress",
+            "minecraft:block_unswitch",
+            "minecraft:drinking_finish",
+            "minecraft:elytra_free_fall",
+            "minecraft:entity_damaged",
+            "minecraft:entity_dying",
+            "minecraft:entity_killed",
+            "minecraft:fishing_rod_cast",
+            "minecraft:fishing_rod_reel_in",
+            "minecraft:mob_interact",
+            "minecraft:minecart_moving",
+            "minecraft:ravager_roar",
+            "minecraft:ring_bell",
+            "minecraft:shulker_close",
+            "minecraft:shulker_open",
+            "minecraft:wolf_shaking"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "item",
+        "differences": {
+          "added": [
+            "minecraft:reinforced_deepslate",
+            "minecraft:allay_spawn_egg"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "memory_module_type",
+        "differences": {
+          "added": [
+            "minecraft:liked_player",
+            "minecraft:liked_noteblock",
+            "minecraft:liked_noteblock_cooldown_ticks",
+            "minecraft:item_pickup_cooldown_ticks"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "particle_type",
+        "differences": {
+          "added": [
+            "minecraft:allay_dust"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "sound_event",
+        "differences": {
+          "added": [
+            "minecraft:entity.allay.ambient_with_item",
+            "minecraft:entity.allay.ambient_without_item",
+            "minecraft:entity.allay.death",
+            "minecraft:entity.allay.flap",
+            "minecraft:entity.allay.hurt",
+            "minecraft:entity.allay.item_given",
+            "minecraft:entity.allay.item_taken"
+          ],
+          "removed": []
+        }
+      }
+    }
+  ],
+  "tags": [
+    {
+      "type": "entries",
+      "value": {
+        "name": "all_blocks_without_drop.json",
+        "differences": {
+          "added": [
+            "minecraft:reinforced_deepslate"
+          ],
+          "removed": [
+            "minecraft:sculk_shrieker"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "all_blocks_with_drop.json",
+        "differences": {
+          "added": [
+            "minecraft:sculk_shrieker"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "all_entities_without_drop.json",
+        "differences": {
+          "added": [
+            "minecraft:allay"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "all_living_entities_without_drop.json",
+        "differences": {
+          "added": [
+            "minecraft:allay"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "all_survival_blocks_without_drop.json",
+        "differences": {
+          "added": [
+            "minecraft:reinforced_deepslate"
+          ],
+          "removed": [
+            "minecraft:sculk_shrieker"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "universal_tags/block.json",
+        "differences": {
+          "added": [
+            "minecraft:reinforced_deepslate"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "universal_tags/entity_type.json",
+        "differences": {
+          "added": [
+            "minecraft:allay"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "universal_tags/game_event.json",
+        "differences": {
+          "added": [
+            "minecraft:block_activate",
+            "minecraft:block_deactivate",
+            "minecraft:drink",
+            "minecraft:elytra_glide",
+            "minecraft:entity_damage",
+            "minecraft:entity_die",
+            "minecraft:entity_interact",
+            "minecraft:entity_roar",
+            "minecraft:entity_shake",
+            "minecraft:item_interact_finish",
+            "minecraft:item_interact_start",
+            "minecraft:note_block_play"
+          ],
+          "removed": [
+            "minecraft:block_press",
+            "minecraft:block_switch",
+            "minecraft:block_unpress",
+            "minecraft:block_unswitch",
+            "minecraft:drinking_finish",
+            "minecraft:elytra_free_fall",
+            "minecraft:entity_damaged",
+            "minecraft:entity_dying",
+            "minecraft:entity_killed",
+            "minecraft:fishing_rod_cast",
+            "minecraft:fishing_rod_reel_in",
+            "minecraft:mob_interact",
+            "minecraft:minecart_moving",
+            "minecraft:ravager_roar",
+            "minecraft:ring_bell",
+            "minecraft:shulker_close",
+            "minecraft:shulker_open",
+            "minecraft:wolf_shaking"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "universal_tags/item.json",
+        "differences": {
+          "added": [
+            "minecraft:reinforced_deepslate",
+            "minecraft:allay_spawn_egg"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "universal_tags/memory_module_type.json",
+        "differences": {
+          "added": [
+            "minecraft:liked_player",
+            "minecraft:liked_noteblock",
+            "minecraft:liked_noteblock_cooldown_ticks",
+            "minecraft:item_pickup_cooldown_ticks"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "universal_tags/particle_type.json",
+        "differences": {
+          "added": [
+            "minecraft:allay_dust"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "universal_tags/sound_event.json",
+        "differences": {
+          "added": [
+            "minecraft:entity.allay.ambient_with_item",
+            "minecraft:entity.allay.ambient_without_item",
+            "minecraft:entity.allay.death",
+            "minecraft:entity.allay.flap",
+            "minecraft:entity.allay.hurt",
+            "minecraft:entity.allay.item_given",
+            "minecraft:entity.allay.item_taken"
+          ],
+          "removed": []
+        }
+      }
+    }
+  ],
+  "blocks": [
+    {
+      "type": "entries",
+      "value": {
+        "name": "🗒️ List",
+        "differences": {
+          "added": [
+            "reinforced_deepslate.json"
+          ],
+          "removed": []
+        }
+      }
+    }
+  ],
+  "recipes": [
+    {
+      "type": "ansi",
+      "value": {
+        "title": "acacia_chest_boat.json",
+        "lines": [
+          "\u001b[1;2mGroup:\u001b[0m none -> chest_boat"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "birch_chest_boat.json",
+        "lines": [
+          "\u001b[1;2mGroup:\u001b[0m none -> chest_boat"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "chest_minecart.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m minecraft:crafting_shaped -> minecraft:crafting_shapeless"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "dark_oak_chest_boat.json",
+        "lines": [
+          "\u001b[1;2mGroup:\u001b[0m none -> chest_boat"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "furnace_minecart.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m minecraft:crafting_shaped -> minecraft:crafting_shapeless"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "hopper_minecart.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m minecraft:crafting_shaped -> minecraft:crafting_shapeless"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "jungle_chest_boat.json",
+        "lines": [
+          "\u001b[1;2mGroup:\u001b[0m none -> chest_boat"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "mangrove_chest_boat.json",
+        "lines": [
+          "\u001b[1;2mGroup:\u001b[0m none -> chest_boat"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "oak_chest_boat.json",
+        "lines": [
+          "\u001b[1;2mGroup:\u001b[0m none -> chest_boat"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "spruce_chest_boat.json",
+        "lines": [
+          "\u001b[1;2mGroup:\u001b[0m none -> chest_boat"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "tnt_minecart.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m minecraft:crafting_shaped -> minecraft:crafting_shapeless"
+        ]
+      }
+    }
+  ],
+  "translations": [
+    {
+      "type": "entries",
+      "value": {
+        "name": "Keys",
+        "differences": {
+          "added": [
+            "block.minecraft.reinforced_deepslate: Reinforced Deepslate",
+            "item.minecraft.allay_spawn_egg: Allay Spawn Egg",
+            "entity.minecraft.allay: Allay",
+            "subtitles.entity.allay.death: Allay dies",
+            "subtitles.entity.allay.hurt: Allay hurts",
+            "subtitles.entity.allay.ambient_with_item: Allay seeks",
+            "subtitles.entity.allay.ambient_without_item: Allay yearns",
+            "subtitles.entity.allay.item_given: Allay chortles",
+            "subtitles.entity.allay.item_taken: Allay allays",
+            "subtitles.entity.allay.throw: Allay tosses",
+            "advancements.adventure.kill_mob_near_sculk_catalyst.title: It spreads",
+            "advancements.adventure.kill_mob_near_sculk_catalyst.description: Kill a mob near a sculk catalyst",
+            "advancements.husbandry.froglights.title: With our powers combined!",
+            "advancements.husbandry.froglights.description: Have all froglights in your inventory",
+            "advancements.husbandry.tadpole_in_a_bucket.title: Bukkit bukkit",
+            "advancements.husbandry.tadpole_in_a_bucket.description: Catch a tadpole in a bucket"
+          ],
+          "removed": []
+        }
+      }
+    }
+  ],
+  "file_structure": [
+    {
+      "type": "entries",
+      "value": {
+        "name": "generated",
+        "differences": {
+          "added": [
+            "reports/worldgen/minecraft/worldgen/configured_feature/sculk_patch_ancient_city.json",
+            "reports/worldgen/minecraft/worldgen/configured_feature/sculk_patch_deep_dark.json",
+            "reports/worldgen/minecraft/worldgen/placed_feature/sculk_patch_ancient_city.json",
+            "reports/worldgen/minecraft/worldgen/placed_feature/sculk_patch_deep_dark.json",
+            "reports/worldgen/minecraft/worldgen/processor_list/ancient_city_generic_degradation.json",
+            "reports/worldgen/minecraft/worldgen/processor_list/ancient_city_start_degradation.json",
+            "reports/worldgen/minecraft/worldgen/processor_list/ancient_city_walls_degradation.json",
+            "reports/worldgen/minecraft/worldgen/structure/ancient_city.json",
+            "reports/worldgen/minecraft/worldgen/structure_set/ancient_cities.json",
+            "reports/worldgen/minecraft/worldgen/template_pool/ancient_city/city/entrance.json",
+            "reports/worldgen/minecraft/worldgen/template_pool/ancient_city/city_center/walls.json",
+            "reports/worldgen/minecraft/worldgen/template_pool/ancient_city/city_center.json",
+            "reports/worldgen/minecraft/worldgen/template_pool/ancient_city/sculk.json",
+            "reports/worldgen/minecraft/worldgen/template_pool/ancient_city/structures.json",
+            "reports/worldgen/minecraft/worldgen/template_pool/ancient_city/walls/no_corners.json",
+            "reports/worldgen/minecraft/worldgen/template_pool/ancient_city/walls.json"
+          ],
+          "removed": [
+            "reports/worldgen/minecraft/worldgen/configured_feature/sculk_patch.json",
+            "reports/worldgen/minecraft/worldgen/placed_feature/sculk_patch.json"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "data",
+        "differences": {
+          "added": [
+            "minecraft/advancements/adventure/kill_mob_near_sculk_catalyst.json",
+            "minecraft/advancements/husbandry/froglights.json",
+            "minecraft/advancements/husbandry/tadpole_in_a_bucket.json",
+            "minecraft/loot_tables/blocks/reinforced_deepslate.json",
+            "minecraft/loot_tables/chests/ancient_city.json",
+            "minecraft/loot_tables/chests/ancient_city_ice_box.json",
+            "minecraft/loot_tables/entities/allay.json",
+            "minecraft/structures/ancient_city/city/entrance/bottom_piece.nbt",
+            "minecraft/structures/ancient_city/city/entrance/bottom_piece_1.nbt",
+            "minecraft/structures/ancient_city/city/entrance/bottom_piece_2.nbt",
+            "minecraft/structures/ancient_city/city/entrance/bottom_piece_3.nbt",
+            "minecraft/structures/ancient_city/city/entrance/entrance_connector.nbt",
+            "minecraft/structures/ancient_city/city/entrance/entrance_path_1.nbt",
+            "minecraft/structures/ancient_city/city/entrance/entrance_path_2.nbt",
+            "minecraft/structures/ancient_city/city/entrance/entrance_path_3.nbt",
+            "minecraft/structures/ancient_city/city/entrance/entrance_path_4.nbt",
+            "minecraft/structures/ancient_city/city/entrance/entrance_path_5.nbt",
+            "minecraft/structures/ancient_city/city/entrance/top_piece.nbt",
+            "minecraft/structures/ancient_city/city_center/city_center_1.nbt",
+            "minecraft/structures/ancient_city/city_center/city_center_2.nbt",
+            "minecraft/structures/ancient_city/city_center/city_center_3.nbt",
+            "minecraft/structures/ancient_city/city_center/walls/bottom_1.nbt",
+            "minecraft/structures/ancient_city/city_center/walls/bottom_2.nbt",
+            "minecraft/structures/ancient_city/city_center/walls/bottom_left_corner.nbt",
+            "minecraft/structures/ancient_city/city_center/walls/bottom_right_corner.nbt",
+            "minecraft/structures/ancient_city/city_center/walls/bottom_right_corner_1.nbt",
+            "minecraft/structures/ancient_city/city_center/walls/bottom_right_corner_2.nbt",
+            "minecraft/structures/ancient_city/city_center/walls/left.nbt",
+            "minecraft/structures/ancient_city/city_center/walls/right.nbt",
+            "minecraft/structures/ancient_city/city_center/walls/top.nbt",
+            "minecraft/structures/ancient_city/city_center/walls/top_left_corner.nbt",
+            "minecraft/structures/ancient_city/city_center/walls/top_right_corner.nbt",
+            "minecraft/structures/ancient_city/structures/barracks.nbt",
+            "minecraft/structures/ancient_city/structures/camp_1.nbt",
+            "minecraft/structures/ancient_city/structures/camp_2.nbt",
+            "minecraft/structures/ancient_city/structures/camp_3.nbt",
+            "minecraft/structures/ancient_city/structures/chamber_1.nbt",
+            "minecraft/structures/ancient_city/structures/chamber_2.nbt",
+            "minecraft/structures/ancient_city/structures/chamber_3.nbt",
+            "minecraft/structures/ancient_city/structures/ice_box_1.nbt",
+            "minecraft/structures/ancient_city/structures/large_pillar_1.nbt",
+            "minecraft/structures/ancient_city/structures/large_ruin_1.nbt",
+            "minecraft/structures/ancient_city/structures/medium_pillar_1.nbt",
+            "minecraft/structures/ancient_city/structures/medium_ruin_1.nbt",
+            "minecraft/structures/ancient_city/structures/medium_ruin_2.nbt",
+            "minecraft/structures/ancient_city/structures/sauna_1.nbt",
+            "minecraft/structures/ancient_city/structures/small_portal_statue.nbt",
+            "minecraft/structures/ancient_city/structures/small_ruin_1.nbt",
+            "minecraft/structures/ancient_city/structures/small_ruin_2.nbt",
+            "minecraft/structures/ancient_city/structures/small_statue.nbt",
+            "minecraft/structures/ancient_city/structures/tall_ruin_1.nbt",
+            "minecraft/structures/ancient_city/structures/tall_ruin_2.nbt",
+            "minecraft/structures/ancient_city/structures/tall_ruin_3.nbt",
+            "minecraft/structures/ancient_city/structures/tall_ruin_4.nbt",
+            "minecraft/structures/ancient_city/walls/intact_corner_wall_1.nbt",
+            "minecraft/structures/ancient_city/walls/intact_horizontal_wall_1.nbt",
+            "minecraft/structures/ancient_city/walls/intact_horizontal_wall_2.nbt",
+            "minecraft/structures/ancient_city/walls/intact_horizontal_wall_bridge.nbt",
+            "minecraft/structures/ancient_city/walls/intact_horizontal_wall_passage_1.nbt",
+            "minecraft/structures/ancient_city/walls/intact_horizontal_wall_stairs_1.nbt",
+            "minecraft/structures/ancient_city/walls/intact_horizontal_wall_stairs_2.nbt",
+            "minecraft/structures/ancient_city/walls/intact_horizontal_wall_stairs_3.nbt",
+            "minecraft/structures/ancient_city/walls/intact_horizontal_wall_stairs_4.nbt",
+            "minecraft/structures/ancient_city/walls/intact_horizontal_wall_stairs_upward.nbt",
+            "minecraft/structures/ancient_city/walls/intact_intersection_wall_1.nbt",
+            "minecraft/structures/ancient_city/walls/intact_lshape_wall_1.nbt",
+            "minecraft/structures/ancient_city/walls/ruined_corner_wall_1.nbt",
+            "minecraft/structures/ancient_city/walls/ruined_corner_wall_2.nbt",
+            "minecraft/structures/ancient_city/walls/ruined_horizontal_wall_stairs_1.nbt",
+            "minecraft/structures/ancient_city/walls/ruined_horizontal_wall_stairs_2.nbt",
+            "minecraft/structures/ancient_city/walls/ruined_horizontal_wall_stairs_3.nbt",
+            "minecraft/structures/ancient_city/walls/ruined_horizontal_wall_stairs_4.nbt",
+            "minecraft/structures/pillager_outpost/feature_cage_with_allays.nbt",
+            "minecraft/tags/blocks/ancient_city_center_replaceable.json",
+            "minecraft/tags/blocks/ancient_city_replaceable.json",
+            "minecraft/tags/blocks/wool_carpets.json",
+            "minecraft/tags/game_events/ignore_vibrations_on_occluding_block.json",
+            "minecraft/tags/items/wool_carpets.json",
+            "minecraft/tags/worldgen/biome/has_structure/ancient_city.json"
+          ],
+          "removed": [
+            "minecraft/tags/blocks/carpets.json",
+            "minecraft/tags/items/carpets.json"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "assets",
+        "differences": {
+          "added": [
+            "minecraft/blockstates/reinforced_deepslate.json",
+            "minecraft/models/block/reinforced_deepslate.json",
+            "minecraft/models/block/sculk_shrieker_can_summon.json",
+            "minecraft/models/block/template_sculk_shrieker.json",
+            "minecraft/models/item/allay_spawn_egg.json",
+            "minecraft/models/item/reinforced_deepslate.json",
+            "minecraft/particles/allay_dust.json",
+            "minecraft/textures/block/reinforced_deepslate_bottom.png",
+            "minecraft/textures/block/reinforced_deepslate_side.png",
+            "minecraft/textures/block/reinforced_deepslate_top.png",
+            "minecraft/textures/block/sculk_shrieker_can_summon_inner_top.png",
+            "minecraft/textures/block/sculk_shrieker_can_summon_inner_top.png.mcmeta",
+            "minecraft/textures/entity/allay/allay.png"
+          ],
+          "removed": [
+            "minecraft/textures/entity/warden/warden_ears.png"
+          ]
+        }
+      }
+    }
+  ],
+  "mappings": [
+    {
+      "type": "title",
+      "value": {
+        "title": "Server",
+        "id": "server-mappings",
+        "size": 2
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "Classes",
+        "differences": {
+          "added": [
+            "XXX.minecraft.util.ParticleUtils",
+            "XXX.minecraft.util.SimpleBitStorage",
+            "XXX.minecraft.util.SmoothDouble",
+            "XXX.minecraft.util.SortedArraySet$ArrayIterator",
+            "XXX.minecraft.util.StringDecomposer",
+            "XXX.minecraft.util.StringRepresentable$1",
+            "XXX.datafix.fixes.SpawnerDataFix",
+            "XXX.datafix.fixes.StatsRenameFix",
+            "XXX.datafix.fixes.StructureReferenceCountFix",
+            "XXX.datafix.fixes.StructuresBecomeConfiguredFix",
+            "XXX.datafix.fixes.TeamDisplayNameFix",
+            "XXX.datafix.fixes.TrappedChestBlockEntityFix$TrappedChestSection",
+            "XXX.datafix.fixes.VillagerFollowRangeFix",
+            "XXX.datafix.fixes.VillagerTradeFix",
+            "XXX.datafix.fixes.WeaponSmithChestLootTableFix",
+            "XXX.datafix.fixes.WorldGenSettingsFix",
+            "XXX.datafix.fixes.WorldGenSettingsHeightAndBiomeFix",
+            "XXX.datafix.fixes.ZombieVillagerRebuildXpFix",
+            "XXX.util.datafix.package-info",
+            "XXX.datafix.schemas.NamespacedSchema$1",
+            "XXX.datafix.schemas.V102",
+            "XXX.datafix.schemas.V106",
+            "XXX.datafix.schemas.V1125",
+            "XXX.datafix.schemas.V143",
+            "XXX.datafix.schemas.V1451_1",
+            "XXX.datafix.schemas.V1451_3",
+            "XXX.datafix.schemas.V1451_5",
+            "XXX.datafix.schemas.V1451_6$1",
+            "XXX.datafix.schemas.V1451_7",
+            "XXX.datafix.schemas.V1466",
+            "XXX.datafix.schemas.V1481",
+            "XXX.datafix.schemas.V1486",
+            "XXX.datafix.schemas.V1800",
+            "XXX.datafix.schemas.V1904",
+            "XXX.datafix.schemas.V1909",
+            "XXX.datafix.schemas.V1928",
+            "XXX.datafix.schemas.V1931",
+            "XXX.datafix.schemas.V2501",
+            "XXX.datafix.schemas.V2505",
+            "XXX.datafix.schemas.V2519",
+            "XXX.datafix.schemas.V2551",
+            "XXX.datafix.schemas.V2571",
+            "XXX.datafix.schemas.V2686",
+            "XXX.datafix.schemas.V2704",
+            "XXX.datafix.schemas.V2831",
+            "XXX.datafix.schemas.V2842",
+            "XXX.datafix.schemas.V3078",
+            "XXX.datafix.schemas.V3082",
+            "XXX.ai.behavior.FollowTemptation",
+            "XXX.ai.behavior.GateBehavior$OrderPolicy",
+            "XXX.ai.behavior.GateBehavior$RunningPolicy$1",
+            "XXX.ai.behavior.GiveGiftToHero",
+            "XXX.ai.behavior.StopAttackingIfTargetInvalid",
+            "XXX.ai.behavior.StrollAroundPoi",
+            "XXX.ai.behavior.StrollToPoiList",
+            "XXX.ai.behavior.TradeWithVillager",
+            "XXX.ai.behavior.TryFindLandNearWater",
+            "XXX.ai.behavior.TryLaySpawnOnWaterNearLand",
+            "XXX.ai.behavior.UseBonemeal",
+            "XXX.ai.behavior.VictoryStroll",
+            "XXX.ai.behavior.VillagerCalmDown",
+            "XXX.ai.behavior.VillagerMakeLove",
+            "XXX.ai.behavior.WakeUp",
+            "XXX.ai.behavior.WorkAtPoi",
+            "XXX.ai.behavior.package-info",
+            "XXX.ai.control.Control",
+            "XXX.ai.control.JumpControl",
+            "XXX.ai.control.MoveControl",
+            "XXX.ai.control.SmoothSwimmingLookControl",
+            "XXX.ai.control.package-info",
+            "XXX.ai.goal.BegGoal",
+            "XXX.ai.goal.BreakDoorGoal",
+            "XXX.ai.goal.BreedGoal",
+            "XXX.ai.goal.CatSitOnBlockGoal",
+            "XXX.ai.goal.DolphinJumpGoal",
+            "XXX.ai.goal.EatBlockGoal",
+            "XXX.ai.goal.FloatGoal",
+            "XXX.ai.goal.FollowFlockLeaderGoal",
+            "XXX.ai.goal.FollowOwnerGoal",
+            "XXX.ai.goal.Goal",
+            "XXX.ai.goal.GoalSelector",
+            "XXX.ai.goal.GoalSelector$2",
+            "XXX.ai.goal.InteractGoal",
+            "XXX.ai.goal.LandOnOwnersShoulderGoal",
+            "XXX.ai.goal.LlamaFollowCaravanGoal",
+            "XXX.ai.goal.LookAtTradingPlayerGoal",
+            "XXX.ai.goal.MoveBackToVillageGoal",
+            "XXX.ai.goal.MoveToBlockGoal",
+            "XXX.ai.goal.MoveTowardsTargetGoal",
+            "XXX.ai.goal.OfferFlowerGoal",
+            "XXX.ai.goal.PanicGoal",
+            "XXX.ai.goal.RandomLookAroundGoal",
+            "XXX.ai.goal.RandomSwimmingGoal",
+            "XXX.ai.goal.RangedBowAttackGoal",
+            "XXX.ai.goal.RangedCrossbowAttackGoal$CrossbowState",
+            "XXX.ai.goal.RestrictSunGoal",
+            "XXX.ai.goal.SitWhenOrderedToGoal",
+            "XXX.ai.goal.SwellGoal",
+            "XXX.ai.goal.TradeWithPlayerGoal",
+            "XXX.ai.goal.UseItemGoal",
+            "XXX.ai.goal.WaterAvoidingRandomStrollGoal",
+            "XXX.ai.goal.ZombieAttackGoal",
+            "XXX.goal.target.DefendVillageTargetGoal",
+            "XXX.goal.target.NearestAttackableTargetGoal",
+            "XXX.goal.target.NearestHealableRaiderTargetGoal",
+            "XXX.goal.target.OwnerHurtByTargetGoal",
+            "XXX.goal.target.ResetUniversalAngerTargetGoal",
+            "XXX.goal.target.package-info",
+            "XXX.ai.gossip.GossipContainer$EntityGossips",
+            "XXX.ai.gossip.GossipType",
+            "XXX.ai.memory.ExpirableValue",
+            "XXX.ai.memory.MemoryStatus",
+            "XXX.ai.memory.WalkTarget",
+            "XXX.ai.navigation.FlyingPathNavigation",
+            "XXX.ai.navigation.PathNavigation",
+            "XXX.ai.navigation.WaterBoundPathNavigation",
+            "XXX.entity.ai.package-info",
+            "XXX.ai.sensing.AxolotlAttackablesSensor",
+            "XXX.ai.sensing.FrogAttackablesSensor",
+            "XXX.ai.sensing.HoglinSpecificSensor",
+            "XXX.ai.sensing.IsInWaterSensor",
+            "XXX.ai.sensing.NearestItemSensor",
+            "XXX.ai.sensing.NearestVisibleLivingEntitySensor",
+            "XXX.ai.sensing.PiglinSpecificSensor",
+            "XXX.ai.sensing.SecondaryPoiSensor",
+            "XXX.ai.sensing.Sensor",
+            "XXX.ai.sensing.TemptingSensor",
+            "XXX.ai.sensing.VillagerHostilesSensor",
+            "XXX.ai.sensing.package-info",
+            "XXX.ai.targeting.package-info",
+            "XXX.ai.util.AirRandomPos",
+            "XXX.ai.util.GoalUtils",
+            "XXX.ai.util.LandRandomPos",
+            "XXX.ai.util.package-info",
+            "XXX.ai.village.ReputationEventType$1",
+            "XXX.ai.village.VillageSiege$State",
+            "XXX.village.poi.PoiManager",
+            "XXX.village.poi.PoiManager$Occupancy",
+            "XXX.village.poi.PoiSection",
+            "XXX.village.poi.package-info",
+            "XXX.entity.ambient.Bat",
+            "XXX.entity.animal.AbstractFish",
+            "XXX.entity.animal.AbstractFish$FishSwimGoal",
+            "XXX.entity.animal.AbstractSchoolingFish",
+            "XXX.entity.animal.Animal",
+            "XXX.entity.animal.Bee$1",
+            "XXX.entity.animal.Bee$BeeAttackGoal",
+            "XXX.entity.animal.Bee$BeeEnterHiveGoal",
+            "XXX.entity.animal.Bee$BeeGoToKnownFlowerGoal",
+            "XXX.entity.animal.Bee$BeeHurtByOtherGoal",
+            "XXX.entity.animal.Bee$BeeLookControl",
+            "XXX.entity.animal.Bee$BeeWanderGoal",
+            "XXX.entity.animal.Cat",
+            "XXX.entity.animal.Cat$CatRelaxOnOwnerGoal",
+            "XXX.entity.animal.Chicken",
+            "XXX.entity.animal.Cow",
+            "XXX.entity.animal.Dolphin$DolphinSwimToTreasureGoal",
+            "XXX.entity.animal.Dolphin$PlayWithItemsGoal",
+            "XXX.entity.animal.Fox",
+            "XXX.entity.animal.Fox$FaceplantGoal",
+            "XXX.entity.animal.Fox$FoxBehaviorGoal",
+            "XXX.entity.animal.Fox$FoxEatBerriesGoal",
+            "XXX.entity.animal.Fox$FoxFollowParentGoal",
+            "XXX.entity.animal.Fox$FoxLookAtPlayerGoal",
+            "XXX.entity.animal.Fox$FoxMeleeAttackGoal",
+            "XXX.entity.animal.Fox$FoxPanicGoal",
+            "XXX.entity.animal.Fox$FoxSearchForItemsGoal",
+            "XXX.entity.animal.Fox$PerchAndSearchGoal",
+            "XXX.entity.animal.Fox$SleepGoal",
+            "XXX.entity.animal.Fox$Type",
+            "XXX.entity.animal.IronGolem$Crackiness",
+            "XXX.entity.animal.MushroomCow$MushroomType",
+            "XXX.entity.animal.Ocelot$OcelotAvoidEntityGoal",
+            "XXX.entity.animal.Panda",
+            "XXX.entity.animal.Panda$PandaAttackGoal",
+            "XXX.entity.animal.Panda$PandaBreedGoal",
+            "XXX.entity.animal.Panda$PandaLieOnBackGoal",
+            "XXX.entity.animal.Panda$PandaMoveControl",
+            "XXX.entity.animal.Panda$PandaRollGoal",
+            "XXX.entity.animal.Panda$PandaSneezeGoal",
+            "XXX.entity.animal.Parrot$1",
+            "XXX.entity.animal.Pig",
+            "XXX.entity.animal.PolarBear$PolarBearAttackPlayersGoal",
+            "XXX.entity.animal.PolarBear$PolarBearMeleeAttackGoal",
+            "XXX.entity.animal.Pufferfish",
+            "XXX.entity.animal.Rabbit",
+            "XXX.entity.animal.Rabbit$RabbitAvoidEntityGoal",
+            "XXX.entity.animal.Rabbit$RabbitJumpControl",
+            "XXX.entity.animal.Rabbit$RabbitPanicGoal",
+            "XXX.entity.animal.Salmon",
+            "XXX.entity.animal.Sheep$1",
+            "XXX.entity.animal.ShoulderRidingEntity",
+            "XXX.entity.animal.Squid",
+            "XXX.entity.animal.Squid$SquidRandomMovementGoal",
+            "XXX.entity.animal.TropicalFish$Pattern",
+            "XXX.entity.animal.Turtle",
+            "XXX.entity.animal.Turtle$TurtleGoHomeGoal",
+            "XXX.entity.animal.Turtle$TurtleLayEggGoal",
+            "XXX.entity.animal.Turtle$TurtlePanicGoal",
+            "XXX.entity.animal.Turtle$TurtleRandomStrollGoal",
+            "XXX.entity.animal.WaterAnimal",
+            "XXX.entity.animal.Wolf$WolfAvoidEntityGoal",
+            "XXX.levelgen.feature.OreFeature",
+            "XXX.levelgen.feature.RandomBooleanSelectorFeature",
+            "XXX.levelgen.feature.RandomSelectorFeature",
+            "XXX.levelgen.feature.ReplaceBlockFeature",
+            "XXX.levelgen.feature.ScatteredOreFeature",
+            "XXX.levelgen.feature.SeaPickleFeature",
+            "XXX.levelgen.feature.SimpleBlockFeature",
+            "XXX.levelgen.feature.SnowAndFreezeFeature",
+            "XXX.levelgen.feature.SpikeFeature$EndSpike",
+            "XXX.levelgen.feature.SpringFeature",
+            "XXX.levelgen.feature.TwistingVinesFeature",
+            "XXX.levelgen.feature.VegetationPatchFeature",
+            "XXX.levelgen.feature.VoidStartPlatformFeature",
+            "XXX.levelgen.feature.WeepingVinesFeature",
+            "XXX.feature.configurations.BlockColumnConfiguration",
+            "XXX.feature.configurations.BlockPileConfiguration",
+            "XXX.feature.configurations.ColumnFeatureConfiguration",
+            "XXX.feature.configurations.DeltaFeatureConfiguration",
+            "XXX.feature.configurations.DripstoneClusterConfiguration",
+            "XXX.feature.configurations.FeatureConfiguration",
+            "XXX.feature.configurations.HugeMushroomFeatureConfiguration",
+            "XXX.feature.configurations.LayerConfiguration",
+            "XXX.feature.configurations.NetherForestVegetationConfig",
+            "XXX.feature.configurations.OreConfiguration",
+            "XXX.feature.configurations.PointedDripstoneConfiguration",
+            "XXX.feature.configurations.RandomBooleanFeatureConfiguration",
+            "XXX.feature.configurations.RandomPatchConfiguration",
+            "XXX.feature.configurations.ReplaceSphereConfiguration",
+            "XXX.feature.configurations.SculkPatchConfiguration",
+            "XXX.feature.configurations.SimpleRandomFeatureConfiguration",
+            "XXX.feature.configurations.SpringConfiguration",
+            "XXX.feature.configurations.TreeConfiguration$TreeConfigurationBuilder",
+            "XXX.feature.configurations.UnderwaterMagmaConfiguration",
+            "XXX.feature.configurations.package-info",
+            "XXX.feature.featuresize.FeatureSizeType",
+            "XXX.feature.featuresize.TwoLayersFeatureSize",
+            "XXX.feature.foliageplacers.AcaciaFoliagePlacer",
+            "XXX.feature.foliageplacers.BushFoliagePlacer",
+            "XXX.feature.foliageplacers.FancyFoliagePlacer",
+            "XXX.feature.foliageplacers.FoliagePlacer$FoliageAttachment",
+            "XXX.feature.foliageplacers.MegaJungleFoliagePlacer",
+            "XXX.feature.foliageplacers.PineFoliagePlacer",
+            "XXX.feature.foliageplacers.SpruceFoliagePlacer",
+            "XXX.levelgen.feature.package-info",
+            "XXX.feature.stateproviders.BlockStateProviderType",
+            "XXX.feature.stateproviders.NoiseBasedStateProvider",
+            "XXX.feature.stateproviders.NoiseThresholdProvider",
+            "XXX.feature.stateproviders.RotatedBlockProvider",
+            "XXX.feature.stateproviders.WeightedStateProvider",
+            "XXX.feature.treedecorators.AlterGroundDecorator",
+            "XXX.feature.treedecorators.CocoaDecorator",
+            "XXX.feature.treedecorators.TreeDecorator",
+            "XXX.feature.treedecorators.TrunkVineDecorator",
+            "XXX.feature.trunkplacers.BendingTrunkPlacer",
+            "XXX.feature.trunkplacers.FancyTrunkPlacer",
+            "XXX.feature.trunkplacers.ForkingTrunkPlacer",
+            "XXX.feature.trunkplacers.MegaJungleTrunkPlacer",
+            "XXX.feature.trunkplacers.TrunkPlacer",
+            "XXX.feature.trunkplacers.package-info",
+            "XXX.levelgen.flat.FlatLevelGeneratorPreset",
+            "XXX.levelgen.flat.FlatLevelGeneratorPresets$Bootstrap",
+            "XXX.levelgen.flat.package-info",
+            "XXX.levelgen.heightproviders.ConstantHeight",
+            "XXX.levelgen.heightproviders.HeightProviderType",
+            "XXX.levelgen.heightproviders.UniformHeight",
+            "XXX.levelgen.heightproviders.WeightedListHeight",
+            "XXX.levelgen.material.MaterialRuleList",
+            "XXX.levelgen.material.package-info",
+            "XXX.levelgen.placement.BiomeFilter",
+            "XXX.levelgen.placement.CarvingMaskPlacement",
+            "XXX.levelgen.placement.CountOnEveryLayerPlacement",
+            "XXX.levelgen.placement.EnvironmentScanPlacement",
+            "XXX.levelgen.placement.HeightmapPlacement",
+            "XXX.levelgen.placement.NoiseBasedCountPlacement",
+            "XXX.levelgen.placement.PlacedFeature",
+            "XXX.levelgen.placement.PlacementContext",
+            "XXX.levelgen.placement.PlacementModifier",
+            "XXX.levelgen.placement.RandomOffsetPlacement",
+            "XXX.levelgen.placement.RepeatingPlacement",
+            "XXX.levelgen.placement.SurfaceWaterDepthFilter",
+            "XXX.levelgen.presets.WorldPreset",
+            "XXX.levelgen.presets.WorldPresets$Bootstrap",
+            "XXX.levelgen.structure.BoundingBox$1",
+            "XXX.levelgen.structure.BuiltinStructures",
+            "XXX.levelgen.structure.PoolElementStructurePiece",
+            "XXX.levelgen.structure.ScatteredFeaturePiece",
+            "XXX.levelgen.structure.SinglePieceStructure$PieceConstructor",
+            "XXX.levelgen.structure.Structure$GenerationContext",
+            "XXX.levelgen.structure.package-info",
+            "XXX.structure.pieces.PieceGenerator$Context",
+            "XXX.structure.pieces.PieceGeneratorSupplier$Context",
+            "XXX.structure.pieces.StructurePieceSerializationContext",
+            "XXX.structure.pieces.StructurePieceType$ContextlessType",
+            "XXX.structure.pieces.StructurePiecesBuilder",
+            "XXX.structure.placement.ConcentricRingsStructurePlacement",
+            "XXX.structure.placement.RandomSpreadType",
+            "XXX.structure.placement.StructurePlacement",
+            "XXX.structure.placement.StructurePlacement$FrequencyReducer",
+            "XXX.structure.placement.StructurePlacementType",
+            "XXX.structure.pools.EmptyPoolElement",
+            "XXX.structure.pools.JigsawJunction",
+            "XXX.structure.pools.JigsawPlacement$PieceFactory",
+            "XXX.structure.pools.JigsawPlacement$Placer",
+            "XXX.structure.pools.ListPoolElement",
+            "XXX.structure.pools.StructurePoolElement",
+            "XXX.structure.pools.StructureTemplatePool",
+            "XXX.structure.pools.package-info",
+            "XXX.structure.structures.BuriedTreasurePieces$BuriedTreasurePiece",
+            "XXX.structure.structures.DesertPyramidPiece",
+            "XXX.structure.structures.EndCityPieces",
+            "XXX.structure.structures.EndCityPieces$2",
+            "XXX.structure.structures.EndCityPieces$4",
+            "XXX.structure.structures.EndCityPieces$SectionGenerator",
+            "XXX.structure.structures.IglooPieces",
+            "XXX.structure.structures.IglooStructure"
+          ],
+          "removed": [
+            "XXX.data.worldgen.AncientCityStructurePieces",
+            "XXX.minecraft.util.OptionEnum",
+            "XXX.minecraft.util.ProgressListener",
+            "XXX.minecraft.util.SimpleBitStorage$InitializationException",
+            "XXX.minecraft.util.SortedArraySet",
+            "XXX.minecraft.util.SpawnUtil",
+            "XXX.minecraft.util.StringRepresentable",
+            "XXX.minecraft.util.StringRepresentable$EnumCodec",
+            "XXX.datafix.fixes.SimplestEntityRenameFix",
+            "XXX.datafix.fixes.StatsCounterFix",
+            "XXX.datafix.fixes.StriderGravityFix",
+            "XXX.datafix.fixes.StructureSettingsFlattenFix",
+            "XXX.datafix.fixes.StructuresBecomeConfiguredFix$Conversion",
+            "XXX.datafix.fixes.TrappedChestBlockEntityFix",
+            "XXX.datafix.fixes.VillagerDataFix",
+            "XXX.datafix.fixes.VillagerRebuildLevelAndXpFix",
+            "XXX.datafix.fixes.WallPropertyFix",
+            "XXX.datafix.fixes.WorldGenSettingsDisallowOldCustomWorldsFix",
+            "XXX.datafix.fixes.WorldGenSettingsFix$StructureFeatureConfiguration",
+            "XXX.datafix.fixes.WriteAndReadFix",
+            "XXX.datafix.fixes.package-info",
+            "XXX.datafix.schemas.NamespacedSchema",
+            "XXX.datafix.schemas.V100",
+            "XXX.datafix.schemas.V1022",
+            "XXX.datafix.schemas.V107",
+            "XXX.datafix.schemas.V135",
+            "XXX.datafix.schemas.V1451",
+            "XXX.datafix.schemas.V1451_2",
+            "XXX.datafix.schemas.V1451_4",
+            "XXX.datafix.schemas.V1451_6",
+            "XXX.datafix.schemas.V1451_6$2",
+            "XXX.datafix.schemas.V1460",
+            "XXX.datafix.schemas.V1470",
+            "XXX.datafix.schemas.V1483",
+            "XXX.datafix.schemas.V1510",
+            "XXX.datafix.schemas.V1801",
+            "XXX.datafix.schemas.V1906",
+            "XXX.datafix.schemas.V1920",
+            "XXX.datafix.schemas.V1929",
+            "XXX.datafix.schemas.V2100",
+            "XXX.datafix.schemas.V2502",
+            "XXX.datafix.schemas.V2509",
+            "XXX.datafix.schemas.V2522",
+            "XXX.datafix.schemas.V2568",
+            "XXX.datafix.schemas.V2684",
+            "XXX.datafix.schemas.V2688",
+            "XXX.datafix.schemas.V2707",
+            "XXX.datafix.schemas.V2832",
+            "XXX.datafix.schemas.V3076",
+            "XXX.datafix.schemas.V3081",
+            "XXX.datafix.schemas.V3083",
+            "XXX.ai.behavior.FlyingRandomStroll",
+            "XXX.ai.behavior.GateBehavior",
+            "XXX.ai.behavior.GateBehavior$RunningPolicy",
+            "XXX.ai.behavior.GateBehavior$RunningPolicy$2",
+            "XXX.ai.behavior.GoAndGiveItemsToTarget",
+            "XXX.ai.behavior.StayCloseToTarget",
+            "XXX.ai.behavior.StopBeingAngryIfTargetDead",
+            "XXX.ai.behavior.StrollToPoi",
+            "XXX.ai.behavior.Swim",
+            "XXX.ai.behavior.TryFindLand",
+            "XXX.ai.behavior.TryFindWater",
+            "XXX.ai.behavior.UpdateActivityFromSchedule",
+            "XXX.ai.behavior.ValidateNearbyPoi",
+            "XXX.ai.behavior.VillageBoundRandomStroll",
+            "XXX.ai.behavior.VillagerGoalPackages",
+            "XXX.ai.behavior.VillagerPanicTrigger",
+            "XXX.ai.behavior.WorkAtComposter",
+            "XXX.ai.behavior.YieldJobSite",
+            "XXX.ai.control.BodyRotationControl",
+            "XXX.ai.control.FlyingMoveControl",
+            "XXX.ai.control.LookControl",
+            "XXX.ai.control.MoveControl$Operation",
+            "XXX.ai.control.SmoothSwimmingMoveControl",
+            "XXX.ai.goal.AvoidEntityGoal",
+            "XXX.ai.goal.BoatGoals",
+            "XXX.ai.goal.BreathAirGoal",
+            "XXX.ai.goal.CatLieOnBedGoal",
+            "XXX.ai.goal.ClimbOnTopOfPowderSnowGoal",
+            "XXX.ai.goal.DoorInteractGoal",
+            "XXX.ai.goal.FleeSunGoal",
+            "XXX.ai.goal.FollowBoatGoal",
+            "XXX.ai.goal.FollowMobGoal",
+            "XXX.ai.goal.FollowParentGoal",
+            "XXX.ai.goal.Goal$Flag",
+            "XXX.ai.goal.GoalSelector$1",
+            "XXX.ai.goal.GolemRandomStrollInVillageGoal",
+            "XXX.ai.goal.JumpGoal",
+            "XXX.ai.goal.LeapAtTargetGoal",
+            "XXX.ai.goal.LookAtPlayerGoal",
+            "XXX.ai.goal.MeleeAttackGoal",
+            "XXX.ai.goal.MoveThroughVillageGoal",
+            "XXX.ai.goal.MoveTowardsRestrictionGoal",
+            "XXX.ai.goal.OcelotAttackGoal",
+            "XXX.ai.goal.OpenDoorGoal",
+            "XXX.ai.goal.PathfindToRaidGoal",
+            "XXX.ai.goal.RandomStrollGoal",
+            "XXX.ai.goal.RangedAttackGoal",
+            "XXX.ai.goal.RangedCrossbowAttackGoal",
+            "XXX.ai.goal.RemoveBlockGoal",
+            "XXX.ai.goal.RunAroundLikeCrazyGoal",
+            "XXX.ai.goal.StrollThroughVillageGoal",
+            "XXX.ai.goal.TemptGoal",
+            "XXX.ai.goal.TryFindWaterGoal",
+            "XXX.ai.goal.WaterAvoidingRandomFlyingGoal",
+            "XXX.ai.goal.WrappedGoal",
+            "XXX.ai.goal.package-info",
+            "XXX.goal.target.HurtByTargetGoal",
+            "XXX.goal.target.NearestAttackableWitchTargetGoal",
+            "XXX.goal.target.NonTameRandomTargetGoal",
+            "XXX.goal.target.OwnerHurtTargetGoal",
+            "XXX.goal.target.TargetGoal",
+            "XXX.ai.gossip.GossipContainer",
+            "XXX.ai.gossip.GossipContainer$GossipEntry",
+            "XXX.ai.gossip.package-info",
+            "XXX.ai.memory.MemoryModuleType",
+            "XXX.ai.memory.NearestVisibleLivingEntities",
+            "XXX.ai.memory.package-info",
+            "XXX.ai.navigation.GroundPathNavigation",
+            "XXX.ai.navigation.WallClimberNavigation",
+            "XXX.ai.navigation.package-info",
+            "XXX.ai.sensing.AdultSensor",
+            "XXX.ai.sensing.DummySensor",
+            "XXX.ai.sensing.GolemSensor",
+            "XXX.ai.sensing.HurtBySensor",
+            "XXX.ai.sensing.NearestBedSensor",
+            "XXX.ai.sensing.NearestLivingEntitySensor",
+            "XXX.ai.sensing.PiglinBruteSpecificSensor",
+            "XXX.ai.sensing.PlayerSensor",
+            "XXX.ai.sensing.Sensing",
+            "XXX.ai.sensing.SensorType",
+            "XXX.ai.sensing.VillagerBabiesSensor",
+            "XXX.ai.sensing.WardenEntitySensor",
+            "XXX.ai.targeting.TargetingConditions",
+            "XXX.ai.util.AirAndWaterRandomPos",
+            "XXX.ai.util.DefaultRandomPos",
+            "XXX.ai.util.HoverRandomPos",
+            "XXX.ai.util.RandomPos",
+            "XXX.ai.village.ReputationEventType",
+            "XXX.ai.village.VillageSiege",
+            "XXX.ai.village.package-info",
+            "XXX.village.poi.PoiManager$DistanceTracker",
+            "XXX.village.poi.PoiRecord",
+            "XXX.village.poi.PoiType",
+            "XXX.entity.ambient.AmbientCreature",
+            "XXX.entity.ambient.package-info",
+            "XXX.entity.animal.AbstractFish$FishMoveControl",
+            "XXX.entity.animal.AbstractGolem",
+            "XXX.entity.animal.AbstractSchoolingFish$SchoolSpawnGroupData",
+            "XXX.entity.animal.Bee",
+            "XXX.entity.animal.Bee$BaseBeeGoal",
+            "XXX.entity.animal.Bee$BeeBecomeAngryTargetGoal",
+            "XXX.entity.animal.Bee$BeeGoToHiveGoal",
+            "XXX.entity.animal.Bee$BeeGrowCropGoal",
+            "XXX.entity.animal.Bee$BeeLocateHiveGoal",
+            "XXX.entity.animal.Bee$BeePollinateGoal",
+            "XXX.entity.animal.Bucketable",
+            "XXX.entity.animal.Cat$CatAvoidEntityGoal",
+            "XXX.entity.animal.Cat$CatTemptGoal",
+            "XXX.entity.animal.Cod",
+            "XXX.entity.animal.Dolphin",
+            "XXX.entity.animal.Dolphin$DolphinSwimWithPlayerGoal",
+            "XXX.entity.animal.FlyingAnimal",
+            "XXX.entity.animal.Fox$DefendTrustedTargetGoal",
+            "XXX.entity.animal.Fox$FoxAlertableEntitiesSelector",
+            "XXX.entity.animal.Fox$FoxBreedGoal",
+            "XXX.entity.animal.Fox$FoxFloatGoal",
+            "XXX.entity.animal.Fox$FoxGroupData",
+            "XXX.entity.animal.Fox$FoxLookControl",
+            "XXX.entity.animal.Fox$FoxMoveControl",
+            "XXX.entity.animal.Fox$FoxPounceGoal",
+            "XXX.entity.animal.Fox$FoxStrollThroughVillageGoal",
+            "XXX.entity.animal.Fox$SeekShelterGoal",
+            "XXX.entity.animal.Fox$StalkPreyGoal",
+            "XXX.entity.animal.IronGolem",
+            "XXX.entity.animal.MushroomCow",
+            "XXX.entity.animal.Ocelot",
+            "XXX.entity.animal.Ocelot$OcelotTemptGoal",
+            "XXX.entity.animal.Panda$Gene",
+            "XXX.entity.animal.Panda$PandaAvoidGoal",
+            "XXX.entity.animal.Panda$PandaHurtByTargetGoal",
+            "XXX.entity.animal.Panda$PandaLookAtPlayerGoal",
+            "XXX.entity.animal.Panda$PandaPanicGoal",
+            "XXX.entity.animal.Panda$PandaSitGoal",
+            "XXX.entity.animal.Parrot",
+            "XXX.entity.animal.Parrot$ParrotWanderGoal",
+            "XXX.entity.animal.PolarBear",
+            "XXX.entity.animal.PolarBear$PolarBearHurtByTargetGoal",
+            "XXX.entity.animal.PolarBear$PolarBearPanicGoal",
+            "XXX.entity.animal.Pufferfish$PufferfishPuffGoal",
+            "XXX.entity.animal.Rabbit$EvilRabbitAttackGoal",
+            "XXX.entity.animal.Rabbit$RabbitGroupData",
+            "XXX.entity.animal.Rabbit$RabbitMoveControl",
+            "XXX.entity.animal.Rabbit$RaidGardenGoal",
+            "XXX.entity.animal.Sheep",
+            "XXX.entity.animal.Sheep$2",
+            "XXX.entity.animal.SnowGolem",
+            "XXX.entity.animal.Squid$SquidFleeGoal",
+            "XXX.entity.animal.TropicalFish",
+            "XXX.entity.animal.TropicalFish$TropicalFishGroupData",
+            "XXX.entity.animal.Turtle$TurtleBreedGoal",
+            "XXX.entity.animal.Turtle$TurtleGoToWaterGoal",
+            "XXX.entity.animal.Turtle$TurtleMoveControl",
+            "XXX.entity.animal.Turtle$TurtlePathNavigation",
+            "XXX.entity.animal.Turtle$TurtleTravelGoal",
+            "XXX.entity.animal.Wolf",
+            "XXX.entity.animal.Wolf$WolfPanicGoal",
+            "XXX.animal.allay.AllayAi",
+            "XXX.level.levelgen.Beardifier$Rigid",
+            "XXX.levelgen.feature.PointedDripstoneFeature",
+            "XXX.levelgen.feature.RandomPatchFeature",
+            "XXX.levelgen.feature.ReplaceBlobsFeature",
+            "XXX.levelgen.feature.RootSystemFeature",
+            "XXX.levelgen.feature.SculkPatchFeature",
+            "XXX.levelgen.feature.SeagrassFeature",
+            "XXX.levelgen.feature.SimpleRandomSelectorFeature",
+            "XXX.levelgen.feature.SpikeFeature",
+            "XXX.levelgen.feature.SpikeFeature$SpikeCacheLoader",
+            "XXX.levelgen.feature.TreeFeature",
+            "XXX.levelgen.feature.UnderwaterMagmaFeature",
+            "XXX.levelgen.feature.VinesFeature",
+            "XXX.levelgen.feature.WaterloggedVegetationPatchFeature",
+            "XXX.levelgen.feature.WeightedPlacedFeature",
+            "XXX.feature.configurations.BlockColumnConfiguration$Layer",
+            "XXX.feature.configurations.BlockStateConfiguration",
+            "XXX.feature.configurations.CountConfiguration",
+            "XXX.feature.configurations.DiskConfiguration",
+            "XXX.feature.configurations.EndGatewayConfiguration",
+            "XXX.feature.configurations.GeodeConfiguration",
+            "XXX.feature.configurations.LargeDripstoneConfiguration",
+            "XXX.feature.configurations.MultifaceGrowthConfiguration",
+            "XXX.feature.configurations.NoneFeatureConfiguration",
+            "XXX.feature.configurations.OreConfiguration$TargetBlockState",
+            "XXX.feature.configurations.ProbabilityFeatureConfiguration",
+            "XXX.feature.configurations.RandomFeatureConfiguration",
+            "XXX.feature.configurations.ReplaceBlockConfiguration",
+            "XXX.feature.configurations.RootSystemConfiguration",
+            "XXX.feature.configurations.SimpleBlockConfiguration",
+            "XXX.feature.configurations.SpikeConfiguration",
+            "XXX.feature.configurations.TreeConfiguration",
+            "XXX.feature.configurations.TwistingVinesConfig",
+            "XXX.feature.configurations.VegetationPatchConfiguration",
+            "XXX.feature.featuresize.FeatureSize",
+            "XXX.feature.featuresize.ThreeLayersFeatureSize",
+            "XXX.feature.featuresize.package-info",
+            "XXX.feature.foliageplacers.BlobFoliagePlacer",
+            "XXX.feature.foliageplacers.DarkOakFoliagePlacer",
+            "XXX.feature.foliageplacers.FoliagePlacer",
+            "XXX.feature.foliageplacers.FoliagePlacerType",
+            "XXX.feature.foliageplacers.MegaPineFoliagePlacer",
+            "XXX.feature.foliageplacers.RandomSpreadFoliagePlacer",
+            "XXX.feature.foliageplacers.package-info",
+            "XXX.feature.stateproviders.BlockStateProvider",
+            "XXX.feature.stateproviders.DualNoiseProvider",
+            "XXX.feature.stateproviders.NoiseProvider",
+            "XXX.feature.stateproviders.RandomizedIntStateProvider",
+            "XXX.feature.stateproviders.SimpleStateProvider",
+            "XXX.feature.stateproviders.package-info",
+            "XXX.feature.treedecorators.BeehiveDecorator",
+            "XXX.feature.treedecorators.LeaveVineDecorator",
+            "XXX.feature.treedecorators.TreeDecoratorType",
+            "XXX.feature.treedecorators.package-info",
+            "XXX.feature.trunkplacers.DarkOakTrunkPlacer",
+            "XXX.feature.trunkplacers.FancyTrunkPlacer$FoliageCoords",
+            "XXX.feature.trunkplacers.GiantTrunkPlacer",
+            "XXX.feature.trunkplacers.StraightTrunkPlacer",
+            "XXX.feature.trunkplacers.TrunkPlacerType",
+            "XXX.levelgen.flat.FlatLayerInfo",
+            "XXX.levelgen.flat.FlatLevelGeneratorPresets",
+            "XXX.levelgen.flat.FlatLevelGeneratorSettings",
+            "XXX.levelgen.heightproviders.BiasedToBottomHeight",
+            "XXX.levelgen.heightproviders.HeightProvider",
+            "XXX.levelgen.heightproviders.TrapezoidHeight",
+            "XXX.levelgen.heightproviders.VeryBiasedToBottomHeight",
+            "XXX.levelgen.heightproviders.package-info",
+            "XXX.levelgen.material.WorldGenMaterialRule",
+            "XXX.level.levelgen.package-info",
+            "XXX.levelgen.placement.BlockPredicateFilter",
+            "XXX.levelgen.placement.CaveSurface",
+            "XXX.levelgen.placement.CountPlacement",
+            "XXX.levelgen.placement.HeightRangePlacement",
+            "XXX.levelgen.placement.InSquarePlacement",
+            "XXX.levelgen.placement.NoiseThresholdCountPlacement",
+            "XXX.levelgen.placement.PlacedFeature$test",
+            "XXX.levelgen.placement.PlacementFilter",
+            "XXX.levelgen.placement.PlacementModifierType",
+            "XXX.levelgen.placement.RarityFilter",
+            "XXX.levelgen.placement.SurfaceRelativeThresholdFilter",
+            "XXX.levelgen.placement.package-info",
+            "XXX.levelgen.presets.WorldPresets",
+            "XXX.levelgen.structure.BoundingBox",
+            "XXX.levelgen.structure.BuiltinStructureSets",
+            "XXX.levelgen.structure.LegacyStructureDataHandler",
+            "XXX.levelgen.structure.PostPlacementProcessor",
+            "XXX.levelgen.structure.SinglePieceStructure",
+            "XXX.levelgen.structure.Structure",
+            "XXX.levelgen.structure.Structure$GenerationStub",
+            "XXX.levelgen.structure.TerrainAdjustment",
+            "XXX.structure.pieces.PieceGenerator",
+            "XXX.structure.pieces.PieceGeneratorSupplier",
+            "XXX.structure.pieces.PiecesContainer",
+            "XXX.structure.pieces.StructurePieceType",
+            "XXX.structure.pieces.StructurePieceType$StructureTemplateType",
+            "XXX.structure.pieces.package-info",
+            "XXX.structure.placement.RandomSpreadStructurePlacement",
+            "XXX.structure.placement.RandomSpreadType$1",
+            "XXX.structure.placement.StructurePlacement$ExclusionZone",
+            "XXX.structure.placement.StructurePlacement$FrequencyReductionMethod",
+            "XXX.structure.placement.package-info",
+            "XXX.structure.pools.FeaturePoolElement",
+            "XXX.structure.pools.JigsawPlacement",
+            "XXX.structure.pools.JigsawPlacement$PieceState",
+            "XXX.structure.pools.LegacySinglePoolElement",
+            "XXX.structure.pools.SinglePoolElement",
+            "XXX.structure.pools.StructurePoolElementType",
+            "XXX.structure.pools.StructureTemplatePool$Projection",
+            "XXX.structure.structures.BuriedTreasurePieces",
+            "XXX.structure.structures.BuriedTreasureStructure",
+            "XXX.structure.structures.DesertPyramidStructure",
+            "XXX.structure.structures.EndCityPieces$1",
+            "XXX.structure.structures.EndCityPieces$3",
+            "XXX.structure.structures.EndCityPieces$EndCityPiece",
+            "XXX.structure.structures.EndCityStructure",
+            "XXX.structure.structures.IglooPieces$IglooPiece",
+            "XXX.structure.structures.JigsawStructure"
+          ]
+        }
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "Changes",
+        "lines": [
+          "XXX.minecraft.advancements.CriteriaTriggers \u001b[2;32m+1P\u001b[0m",
+          "XXX.data.loot.BlockLoot \u001b[2;32m+1M\u001b[0m | \u001b[2;32m+1P\u001b[0m",
+          "XXX.models.model.TextureMapping \u001b[2;32m+1M\u001b[0m",
+          "XXX.data.worldgen.ProcessorLists \u001b[2;32m+3P\u001b[0m",
+          "XXX.data.worldgen.Structures \u001b[2;32m+5M\u001b[0m | \u001b[2;32m+1P\u001b[0m",
+          "XXX.gametest.framework.GameTestHelper \u001b[2;32m+1M\u001b[0m",
+          "XXX.minecraft.sounds.SoundEvents \u001b[2;32m+7P\u001b[0m",
+          "XXX.minecraft.tags.BiomeTags \u001b[2;32m+1P\u001b[0m",
+          "XXX.minecraft.tags.ItemTags \u001b[2;32m+1P\u001b[0m \u001b[2;31m-1P\u001b[0m",
+          "XXX.minecraft.util.Mth \u001b[2;32m+1M\u001b[0m",
+          "XXX.world.entity.EntityType \u001b[2;32m+1P\u001b[0m",
+          "XXX.world.entity.HumanoidArm \u001b[2;32m+3M\u001b[0m \u001b[2;31m-3M\u001b[0m | \u001b[2;32m+2P\u001b[0m \u001b[2;31m-1P\u001b[0m",
+          "XXX.ai.behavior.BehaviorUtils \u001b[2;32m+1M\u001b[0m",
+          "XXX.animal.frog.ShootTongue \u001b[2;32m+1M\u001b[0m | \u001b[2;32m+1P\u001b[0m \u001b[2;31m-1P\u001b[0m",
+          "XXX.animal.frog.ShootTongue$State \u001b[2;32m+1P\u001b[0m",
+          "XXX.monster.warden.AngerManagement \u001b[2;32m+3M\u001b[0m \u001b[2;31m-5M\u001b[0m",
+          "XXX.monster.warden.Warden \u001b[2;32m+7M\u001b[0m \u001b[2;31m-6M\u001b[0m | \u001b[2;31m-2P\u001b[0m",
+          "XXX.monster.warden.WardenAi \u001b[2;32m+1M\u001b[0m \u001b[2;31m-1M\u001b[0m | \u001b[2;32m+2P\u001b[0m",
+          "XXX.entity.vehicle.Minecart \u001b[2;32m+1M\u001b[0m",
+          "XXX.entity.vehicle.MinecartCommandBlock \u001b[2;32m+1M\u001b[0m",
+          "XXX.entity.vehicle.MinecartFurnace \u001b[2;32m+1M\u001b[0m \u001b[2;31m-1M\u001b[0m",
+          "XXX.entity.vehicle.MinecartSpawner \u001b[2;32m+1M\u001b[0m",
+          "XXX.entity.vehicle.MinecartTNT \u001b[2;32m+1M\u001b[0m",
+          "XXX.world.level.StructureManager \u001b[2;32m+1M\u001b[0m \u001b[2;31m-1M\u001b[0m",
+          "XXX.level.biome.Biome$TemperatureModifier \u001b[2;31m-2M\u001b[0m | \u001b[2;31m-1P\u001b[0m",
+          "XXX.level.block.NoteBlock \u001b[2;32m+1M\u001b[0m \u001b[2;31m-1M\u001b[0m",
+          "XXX.level.block.SculkShriekerBlock \u001b[2;32m+1M\u001b[0m \u001b[2;31m-2M\u001b[0m | \u001b[2;32m+1P\u001b[0m",
+          "XXX.level.block.TripWireHookBlock \u001b[2;32m+1M\u001b[0m \u001b[2;31m-1M\u001b[0m",
+          "XXX.block.entity.SculkSensorBlockEntity \u001b[2;32m+2M\u001b[0m \u001b[2;31m-1M\u001b[0m",
+          "XXX.level.gameevent.GameEvent \u001b[2;32m+12P\u001b[0m \u001b[2;31m-18P\u001b[0m",
+          "XXX.gameevent.vibrations.VibrationListener$ReceivingEvent \u001b[2;32m+13M\u001b[0m \u001b[2;31m-4M\u001b[0m | \u001b[2;32m+1P\u001b[0m",
+          "XXX.level.levelgen.Beardifier \u001b[2;32m+7M\u001b[0m \u001b[2;31m-3M\u001b[0m | \u001b[2;31m-2P\u001b[0m",
+          "XXX.level.levelgen.GenerationStep$Decoration \u001b[2;31m-2M\u001b[0m | \u001b[2;31m-1P\u001b[0m",
+          "XXX.levelgen.structure.StructureSpawnOverride$BoundingBoxType \u001b[2;31m-2M\u001b[0m | \u001b[2;31m-1P\u001b[0m",
+          "XXX.structure.structures.JungleTempleStructure \u001b[2;32m+1M\u001b[0m \u001b[2;31m-2M\u001b[0m",
+          "XXX.structure.structures.MineshaftStructure \u001b[2;32m+1M\u001b[0m \u001b[2;31m-1M\u001b[0m",
+          "XXX.structure.structures.NetherFossilStructure \u001b[2;32m+1M\u001b[0m \u001b[2;31m-1M\u001b[0m",
+          "XXX.structure.structures.OceanRuinStructure$Type \u001b[2;31m-2M\u001b[0m | \u001b[2;31m-1P\u001b[0m",
+          "XXX.structure.structures.RuinedPortalStructure \u001b[2;32m+2M\u001b[0m \u001b[2;31m-2M\u001b[0m",
+          "XXX.structure.structures.ShipwreckStructure \u001b[2;32m+1M\u001b[0m \u001b[2;31m-1M\u001b[0m",
+          "XXX.structure.structures.StrongholdPieces$FillerCorridor \u001b[2;31m-1M\u001b[0m",
+          "XXX.structure.structures.StrongholdPieces$PrisonHall \u001b[2;31m-1M\u001b[0m",
+          "XXX.structure.structures.StrongholdPieces$RoomCrossing \u001b[2;31m-1M\u001b[0m",
+          "XXX.structure.structures.StrongholdPieces$StairsDown \u001b[2;31m-1M\u001b[0m",
+          "XXX.structure.structures.StrongholdPieces$Straight \u001b[2;31m-1M\u001b[0m",
+          "XXX.structure.structures.StrongholdPieces$StrongholdPiece \u001b[2;31m-1M\u001b[0m",
+          "XXX.structure.structures.StrongholdPieces$Turn \u001b[2;31m-1M\u001b[0m",
+          "XXX.structure.structures.WoodlandMansionStructure \u001b[2;32m+2M\u001b[0m \u001b[2;31m-3M\u001b[0m",
+          "XXX.structure.templatesystem.BlockRotProcessor \u001b[2;32m+5M\u001b[0m \u001b[2;31m-1M\u001b[0m | \u001b[2;32m+1P\u001b[0m"
+        ]
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.data.loot.BlockLoot",
+        "differences": {
+          "added": [],
+          "removed": [
+            "LootTable$Builder createMangroveLeavesDrops(Block)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.data.models.model.TextureMapping",
+        "differences": {
+          "added": [],
+          "removed": [
+            "TextureMapping sculkShrieker(boolean)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.data.worldgen.Structures",
+        "differences": {
+          "added": [],
+          "removed": [
+            "Structure$StructureSettings structure(TagKey,Map,GenerationStep$Decoration,TerrainAdjustment)",
+            "Structure$StructureSettings structure(TagKey,GenerationStep$Decoration,TerrainAdjustment)",
+            "Structure$StructureSettings structure(TagKey,TerrainAdjustment)",
+            "StructureSpawnOverride lambda$static$1(MobCategory)",
+            "MobCategory lambda$static$0(MobCategory)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.gametest.framework.GameTestHelper",
+        "differences": {
+          "added": [],
+          "removed": [
+            "void assertItemEntityNotPresent(Item,BlockPos,double)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.util.Mth",
+        "differences": {
+          "added": [],
+          "removed": [
+            "float cube(float)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.entity.HumanoidArm",
+        "differences": {
+          "added": [
+            "void <init>(String,int,Component)",
+            "String toString()",
+            "Component getName()"
+          ],
+          "removed": [
+            "void <init>(String,int,int,String)",
+            "int getId()",
+            "String getKey()"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.entity.ai.behavior.BehaviorUtils",
+        "differences": {
+          "added": [],
+          "removed": [
+            "void setWalkAndLookTargetMemories(LivingEntity,PositionTracker,float,int)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.entity.animal.frog.ShootTongue",
+        "differences": {
+          "added": [],
+          "removed": [
+            "void eatEntity(ServerLevel,Frog)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.entity.monster.warden.AngerManagement",
+        "differences": {
+          "added": [
+            "LivingEntity lambda$getActiveEntity$6(Entity)",
+            "boolean lambda$getActiveEntity$5(Entity)",
+            "Integer lambda$addAnger$4(int,UUID,Integer)",
+            "void lambda$tick$3(UUID)",
+            "Integer lambda$tick$2(UUID,Integer)"
+          ],
+          "removed": [
+            "LivingEntity lambda$getActiveEntity$4(Entity)",
+            "boolean lambda$getActiveEntity$3(Entity)",
+            "Integer lambda$addAnger$2(int,UUID,Integer)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.entity.monster.warden.Warden",
+        "differences": {
+          "added": [
+            "float getEarAnimation(float)",
+            "Brain$Provider brainProvider()",
+            "void onSignalReceive(ServerLevel,GameEventListener,BlockPos,GameEvent,Entity,int)",
+            "Boolean lambda$onSignalReceive$3(Entity,LivingEntity)",
+            "boolean lambda$increaseAngerAt$2(LivingEntity)",
+            "void lambda$readAdditionalSaveData$1(AngerManagement)"
+          ],
+          "removed": [
+            "float getTendrilAnimation(float)",
+            "void onSignalReceive(ServerLevel,GameEventListener,BlockPos,GameEvent,Entity,Entity,int)",
+            "Boolean lambda$onSignalReceive$5(Entity,LivingEntity)",
+            "boolean lambda$increaseAngerAt$4(LivingEntity)",
+            "void lambda$readAdditionalSaveData$3(VibrationListener)",
+            "void lambda$readAdditionalSaveData$2(AngerManagement)",
+            "void lambda$addAdditionalSaveData$1(CompoundTag,Tag)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.entity.monster.warden.WardenAi",
+        "differences": {
+          "added": [
+            "Brain makeBrain(Warden,Brain)"
+          ],
+          "removed": [
+            "Brain makeBrain(Warden,Dynamic)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.entity.vehicle.Minecart",
+        "differences": {
+          "added": [],
+          "removed": [
+            "Item getDropItem()"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.entity.vehicle.MinecartCommandBlock",
+        "differences": {
+          "added": [],
+          "removed": [
+            "Item getDropItem()"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.entity.vehicle.MinecartFurnace",
+        "differences": {
+          "added": [
+            "void destroy(DamageSource)"
+          ],
+          "removed": [
+            "Item getDropItem()"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.entity.vehicle.MinecartSpawner",
+        "differences": {
+          "added": [],
+          "removed": [
+            "Item getDropItem()"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.entity.vehicle.MinecartTNT",
+        "differences": {
+          "added": [],
+          "removed": [
+            "Item getDropItem()"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.level.StructureManager",
+        "differences": {
+          "added": [
+            "List startsForStructure(SectionPos,Predicate)"
+          ],
+          "removed": [
+            "List startsForStructure(ChunkPos,Predicate)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.level.biome.Biome$TemperatureModifier",
+        "differences": {
+          "added": [
+            "Biome$TemperatureModifier byName(String)",
+            "Biome$TemperatureModifier lambda$static$0(Biome$TemperatureModifier)"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.level.block.NoteBlock",
+        "differences": {
+          "added": [
+            "void playNote(Level,BlockPos)"
+          ],
+          "removed": [
+            "void playNote(Entity,Level,BlockPos)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.level.block.SculkShriekerBlock",
+        "differences": {
+          "added": [
+            "void lambda$getTicker$4(Level,BlockPos,BlockState,SculkShriekerBlockEntity)",
+            "void lambda$shriek$3(ServerLevel,BlockPos,BlockState,WardenSpawnTracker)"
+          ],
+          "removed": [
+            "void lambda$getTicker$3(Level,BlockPos,BlockState,SculkShriekerBlockEntity)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.level.block.TripWireHookBlock",
+        "differences": {
+          "added": [
+            "void playSound(Level,BlockPos,boolean,boolean,boolean,boolean)"
+          ],
+          "removed": [
+            "void emitState(Level,BlockPos,boolean,boolean,boolean,boolean)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.level.block.entity.SculkSensorBlockEntity",
+        "differences": {
+          "added": [
+            "void onSignalReceive(ServerLevel,GameEventListener,BlockPos,GameEvent,Entity,int)"
+          ],
+          "removed": [
+            "void onSignalReceive(ServerLevel,GameEventListener,BlockPos,GameEvent,Entity,Entity,int)",
+            "void onSignalSchedule()"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.level.gameevent.vibrations.VibrationListener$ReceivingEvent",
+        "differences": {
+          "added": [
+            "void <init>(GameEvent,int,Vec3,UUID)",
+            "void <init>(GameEvent,int,Vec3,UUID,Entity)",
+            "Optional lambda$getEntity$1(ServerLevel)",
+            "App lambda$static$0(RecordCodecBuilder$Instance)"
+          ],
+          "removed": [
+            "void <init>(GameEvent,int,Vec3,UUID,UUID)",
+            "void <init>(GameEvent,int,Vec3,UUID,UUID,Entity)",
+            "UUID getProjectileOwner(Entity)",
+            "Optional getProjectileOwner(ServerLevel)",
+            "UUID projectileOwnerUuid()",
+            "Optional lambda$getProjectileOwner$7(ServerLevel)",
+            "Projectile lambda$getProjectileOwner$6(Entity)",
+            "boolean lambda$getProjectileOwner$5(Entity)",
+            "Optional lambda$getEntity$4(ServerLevel)",
+            "App lambda$static$3(RecordCodecBuilder$Instance)",
+            "VibrationListener$ReceivingEvent lambda$static$2(GameEvent,Integer,Vec3,Optional,Optional)",
+            "Optional lambda$static$1(VibrationListener$ReceivingEvent)",
+            "Optional lambda$static$0(VibrationListener$ReceivingEvent)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.level.levelgen.Beardifier",
+        "differences": {
+          "added": [
+            "void <init>(StructureManager,ChunkAccess)",
+            "double getBeardContribution(int,int,int)",
+            "void lambda$new$1(ChunkPos,int,int,StructureStart)"
+          ],
+          "removed": [
+            "Beardifier forStructuresInChunk(StructureManager,ChunkPos)",
+            "void <init>(ObjectListIterator,ObjectListIterator)",
+            "double getBeardContribution(int,int,int,int)",
+            "boolean isInKernelRange(int)",
+            "double computeBeardContribution(int,double,int)",
+            "void lambda$forStructuresInChunk$2(ChunkPos,ObjectList,int,int,ObjectList,StructureStart)",
+            "boolean lambda$forStructuresInChunk$1(Structure)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.level.levelgen.GenerationStep$Decoration",
+        "differences": {
+          "added": [
+            "GenerationStep$Decoration byName(String)",
+            "GenerationStep$Decoration lambda$static$0(GenerationStep$Decoration)"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.level.levelgen.structure.StructureSpawnOverride$BoundingBoxType",
+        "differences": {
+          "added": [
+            "StructureSpawnOverride$BoundingBoxType byName(String)",
+            "StructureSpawnOverride$BoundingBoxType[] lambda$static$0()"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.level.levelgen.structure.structures.JungleTempleStructure",
+        "differences": {
+          "added": [
+            "void <init>(HolderSet,Map,GenerationStep$Decoration,boolean)",
+            "App lambda$static$0(RecordCodecBuilder$Instance)"
+          ],
+          "removed": [
+            "void <init>(Structure$StructureSettings)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.level.levelgen.structure.structures.MineshaftStructure",
+        "differences": {
+          "added": [
+            "void <init>(HolderSet,Map,GenerationStep$Decoration,boolean,MineshaftStructure$Type)"
+          ],
+          "removed": [
+            "void <init>(Structure$StructureSettings,MineshaftStructure$Type)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.level.levelgen.structure.structures.NetherFossilStructure",
+        "differences": {
+          "added": [
+            "void <init>(HolderSet,Map,GenerationStep$Decoration,boolean,HeightProvider)"
+          ],
+          "removed": [
+            "void <init>(Structure$StructureSettings,HeightProvider)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.level.levelgen.structure.structures.OceanRuinStructure$Type",
+        "differences": {
+          "added": [
+            "OceanRuinStructure$Type byName(String)",
+            "OceanRuinStructure$Type lambda$static$0(OceanRuinStructure$Type)"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.level.levelgen.structure.structures.RuinedPortalStructure",
+        "differences": {
+          "added": [
+            "void <init>(HolderSet,Map,GenerationStep$Decoration,boolean,List)",
+            "void <init>(HolderSet,Map,GenerationStep$Decoration,boolean,RuinedPortalStructure$Setup)"
+          ],
+          "removed": [
+            "void <init>(Structure$StructureSettings,List)",
+            "void <init>(Structure$StructureSettings,RuinedPortalStructure$Setup)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.level.levelgen.structure.structures.ShipwreckStructure",
+        "differences": {
+          "added": [
+            "void <init>(HolderSet,Map,GenerationStep$Decoration,boolean,boolean)"
+          ],
+          "removed": [
+            "void <init>(Structure$StructureSettings,boolean)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.level.levelgen.structure.structures.StrongholdPieces$FillerCorridor",
+        "differences": {
+          "added": [
+            "NoiseEffect getNoiseEffect()"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.level.levelgen.structure.structures.StrongholdPieces$PrisonHall",
+        "differences": {
+          "added": [
+            "NoiseEffect getNoiseEffect()"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.level.levelgen.structure.structures.StrongholdPieces$RoomCrossing",
+        "differences": {
+          "added": [
+            "NoiseEffect getNoiseEffect()"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.level.levelgen.structure.structures.StrongholdPieces$StairsDown",
+        "differences": {
+          "added": [
+            "NoiseEffect getNoiseEffect()"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.level.levelgen.structure.structures.StrongholdPieces$Straight",
+        "differences": {
+          "added": [
+            "NoiseEffect getNoiseEffect()"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.level.levelgen.structure.structures.StrongholdPieces$StrongholdPiece",
+        "differences": {
+          "added": [
+            "NoiseEffect getNoiseEffect()"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.level.levelgen.structure.structures.StrongholdPieces$Turn",
+        "differences": {
+          "added": [
+            "NoiseEffect getNoiseEffect()"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.level.levelgen.structure.structures.WoodlandMansionStructure",
+        "differences": {
+          "added": [
+            "void <init>(HolderSet,Map,GenerationStep$Decoration,boolean)",
+            "void lambda$findGenerationPoint$1(Structure$GenerationContext,BlockPos,Rotation,StructurePiecesBuilder)",
+            "App lambda$static$0(RecordCodecBuilder$Instance)"
+          ],
+          "removed": [
+            "void <init>(Structure$StructureSettings)",
+            "void lambda$findGenerationPoint$0(Structure$GenerationContext,BlockPos,Rotation,StructurePiecesBuilder)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.level.levelgen.structure.templatesystem.BlockRotProcessor",
+        "differences": {
+          "added": [
+            "Float lambda$static$0(BlockRotProcessor)"
+          ],
+          "removed": [
+            "void <init>(TagKey,float)",
+            "void <init>(Optional,float)",
+            "App lambda$static$2(RecordCodecBuilder$Instance)",
+            "Float lambda$static$1(BlockRotProcessor)",
+            "Optional lambda$static$0(BlockRotProcessor)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "title",
+      "value": {
+        "title": "Client",
+        "id": "client-mappings",
+        "size": 2
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "Classes",
+        "differences": {
+          "added": [
+            "XXX.minecraft.client.OptionInstance$AltEnum",
+            "XXX.minecraft.client.OptionInstance$SliderableValueSet",
+            "XXX.client.model.AnimationUtils",
+            "XXX.client.model.ArmorStandArmorModel",
+            "XXX.client.model.AxolotlModel",
+            "XXX.client.model.BeeModel",
+            "XXX.client.model.BoatModel",
+            "XXX.client.model.CatModel",
+            "XXX.client.model.ChickenModel",
+            "XXX.client.model.ColorableAgeableListModel",
+            "XXX.client.model.CowModel",
+            "XXX.client.model.DolphinModel",
+            "XXX.client.model.ElytraModel",
+            "XXX.client.model.EndermiteModel",
+            "XXX.client.model.EvokerFangsModel",
+            "XXX.client.model.FrogModel",
+            "XXX.client.model.GiantZombieModel",
+            "XXX.client.model.GuardianModel",
+            "XXX.client.model.HierarchicalModel",
+            "XXX.client.model.HorseModel",
+            "XXX.client.model.HumanoidModel$1",
+            "XXX.client.model.IllagerModel",
+            "XXX.client.model.LavaSlimeModel",
+            "XXX.client.model.ListModel",
+            "XXX.client.model.LlamaSpitModel",
+            "XXX.client.model.Model",
+            "XXX.client.model.OcelotModel",
+            "XXX.client.model.ParrotModel",
+            "XXX.client.model.ParrotModel$State",
+            "XXX.client.model.PigModel",
+            "XXX.client.model.PlayerModel",
+            "XXX.client.model.PufferfishBigModel",
+            "XXX.client.model.PufferfishSmallModel",
+            "XXX.client.model.RabbitModel",
+            "XXX.client.model.SalmonModel",
+            "XXX.client.model.SheepModel",
+            "XXX.client.model.ShulkerBulletModel",
+            "XXX.client.model.SilverfishModel",
+            "XXX.client.model.SkullModel",
+            "XXX.client.model.SlimeModel",
+            "XXX.client.model.SpiderModel",
+            "XXX.client.model.StriderModel",
+            "XXX.client.model.TridentModel",
+            "XXX.client.model.TropicalFishModelB",
+            "XXX.client.model.VexModel",
+            "XXX.client.model.VillagerModel",
+            "XXX.client.model.WitchModel",
+            "XXX.client.model.WolfModel",
+            "XXX.client.model.ZombieVillagerModel",
+            "XXX.model.dragon.package-info",
+            "XXX.model.geom.LayerDefinitions",
+            "XXX.model.geom.ModelLayers",
+            "XXX.model.geom.ModelPart$Cube",
+            "XXX.model.geom.ModelPart$Vertex",
+            "XXX.model.geom.PartNames",
+            "XXX.geom.builders.CubeDefinition",
+            "XXX.geom.builders.CubeListBuilder",
+            "XXX.geom.builders.MaterialDefinition",
+            "XXX.geom.builders.PartDefinition",
+            "XXX.geom.builders.package-info",
+            "XXX.client.model.package-info",
+            "XXX.client.multiplayer.ClientAdvancements$Listener",
+            "XXX.client.multiplayer.ClientChunkCache$Storage",
+            "XXX.client.multiplayer.ClientLevel",
+            "XXX.client.multiplayer.ClientLevel$ClientLevelData",
+            "XXX.client.multiplayer.ClientPacketListener",
+            "XXX.client.multiplayer.ClientSuggestionProvider",
+            "XXX.client.multiplayer.PlayerInfo",
+            "XXX.client.multiplayer.ServerData$ServerPackStatus",
+            "XXX.client.multiplayer.ServerStatusPinger",
+            "XXX.client.multiplayer.ServerStatusPinger$2",
+            "XXX.client.multiplayer.package-info",
+            "XXX.multiplayer.prediction.BlockStatePredictionHandler$ServerVerifiedState",
+            "XXX.multiplayer.prediction.package-info",
+            "XXX.multiplayer.resolver.AddressCheck$1",
+            "XXX.multiplayer.resolver.ResolvedServerAddress$1",
+            "XXX.multiplayer.resolver.ServerAddressResolver",
+            "XXX.multiplayer.resolver.ServerRedirectHandler",
+            "XXX.minecraft.client.package-info",
+            "XXX.client.particle.AshParticle$Provider",
+            "XXX.client.particle.AttackSweepParticle$Provider",
+            "XXX.client.particle.BlockMarker",
+            "XXX.client.particle.BreakingItemParticle",
+            "XXX.client.particle.BreakingItemParticle$SlimeProvider",
+            "XXX.client.particle.BubbleColumnUpParticle",
+            "XXX.client.particle.BubbleParticle",
+            "XXX.client.particle.BubblePopParticle",
+            "XXX.client.particle.CampfireSmokeParticle",
+            "XXX.client.particle.CampfireSmokeParticle$SignalProvider",
+            "XXX.client.particle.CritParticle$DamageIndicatorProvider",
+            "XXX.client.particle.CritParticle$Provider",
+            "XXX.client.particle.DragonBreathParticle$Provider",
+            "XXX.client.particle.DripParticle$CoolingDripHangParticle",
+            "XXX.client.particle.DripParticle$DripLandParticle",
+            "XXX.client.particle.DripParticle$DripstoneLavaFallProvider",
+            "XXX.client.particle.DripParticle$DripstoneWaterFallProvider",
+            "XXX.client.particle.DripParticle$FallAndLandParticle",
+            "XXX.client.particle.DripParticle$HoneyFallAndLandParticle",
+            "XXX.client.particle.DripParticle$HoneyHangProvider",
+            "XXX.client.particle.DripParticle$LavaFallProvider",
+            "XXX.client.particle.DripParticle$LavaLandProvider",
+            "XXX.client.particle.DripParticle$ObsidianTearFallProvider",
+            "XXX.client.particle.DripParticle$ObsidianTearLandProvider",
+            "XXX.client.particle.DripParticle$WaterFallProvider",
+            "XXX.client.particle.DustColorTransitionParticle",
+            "XXX.client.particle.DustParticle",
+            "XXX.client.particle.DustParticleBase",
+            "XXX.client.particle.EnchantmentTableParticle$NautilusProvider",
+            "XXX.client.particle.EndRodParticle",
+            "XXX.client.particle.ExplodeParticle",
+            "XXX.client.particle.FallingDustParticle",
+            "XXX.client.particle.FireworkParticles",
+            "XXX.client.particle.FireworkParticles$FlashProvider",
+            "XXX.client.particle.FireworkParticles$SparkParticle",
+            "XXX.client.particle.FireworkParticles$Starter",
+            "XXX.client.particle.FlameParticle$Provider",
+            "XXX.client.particle.GlowParticle",
+            "XXX.renderer.entity.ArmorStandRenderer",
+            "XXX.renderer.entity.AxolotlRenderer",
+            "XXX.renderer.entity.BeeRenderer",
+            "XXX.renderer.entity.BoatRenderer",
+            "XXX.renderer.entity.CaveSpiderRenderer",
+            "XXX.renderer.entity.ChickenRenderer",
+            "XXX.renderer.entity.CowRenderer",
+            "XXX.renderer.entity.DolphinRenderer",
+            "XXX.renderer.entity.DrownedRenderer",
+            "XXX.renderer.entity.EndCrystalRenderer",
+            "XXX.renderer.entity.EnderDragonRenderer$DragonModel",
+            "XXX.renderer.entity.EndermiteRenderer",
+            "XXX.renderer.entity.EntityRenderer",
+            "XXX.renderer.entity.EntityRendererProvider$Context",
+            "XXX.renderer.entity.EvokerFangsRenderer",
+            "XXX.renderer.entity.EvokerRenderer$1",
+            "XXX.renderer.entity.FallingBlockRenderer",
+            "XXX.renderer.entity.FishingHookRenderer",
+            "XXX.renderer.entity.FrogRenderer",
+            "XXX.renderer.entity.GiantMobRenderer",
+            "XXX.renderer.entity.GoatRenderer",
+            "XXX.renderer.entity.HoglinRenderer",
+            "XXX.renderer.entity.HumanoidMobRenderer",
+            "XXX.renderer.entity.IllagerRenderer",
+            "XXX.renderer.entity.IllusionerRenderer$1",
+            "XXX.renderer.entity.ItemEntityRenderer",
+            "XXX.renderer.entity.ItemRenderer",
+            "XXX.renderer.entity.LightningBoltRenderer",
+            "XXX.renderer.entity.LivingEntityRenderer$1",
+            "XXX.renderer.entity.LlamaSpitRenderer",
+            "XXX.renderer.entity.MinecartRenderer",
+            "XXX.renderer.entity.MushroomCowRenderer",
+            "XXX.renderer.entity.OcelotRenderer",
+            "XXX.renderer.entity.PandaRenderer",
+            "XXX.renderer.entity.PhantomRenderer",
+            "XXX.renderer.entity.PiglinRenderer",
+            "XXX.renderer.entity.PolarBearRenderer",
+            "XXX.renderer.entity.RabbitRenderer",
+            "XXX.renderer.entity.RenderLayerParent",
+            "XXX.renderer.entity.SheepRenderer",
+            "XXX.renderer.entity.ShulkerRenderer",
+            "XXX.renderer.entity.SkeletonRenderer",
+            "XXX.renderer.entity.SnowGolemRenderer",
+            "XXX.renderer.entity.SpiderRenderer",
+            "XXX.renderer.entity.StrayRenderer",
+            "XXX.renderer.entity.TadpoleRenderer",
+            "XXX.renderer.entity.ThrownTridentRenderer",
+            "XXX.renderer.entity.TntMinecartRenderer",
+            "XXX.renderer.entity.TropicalFishRenderer",
+            "XXX.renderer.entity.UndeadHorseRenderer",
+            "XXX.renderer.entity.VillagerRenderer",
+            "XXX.renderer.entity.VindicatorRenderer$1",
+            "XXX.renderer.entity.WardenRenderer",
+            "XXX.renderer.entity.WitherBossRenderer",
+            "XXX.renderer.entity.WitherSkullRenderer",
+            "XXX.renderer.entity.ZoglinRenderer",
+            "XXX.renderer.entity.ZombieVillagerRenderer",
+            "XXX.entity.layers.BeeStingerLayer",
+            "XXX.entity.layers.CarriedBlockLayer",
+            "XXX.entity.layers.CreeperPowerLayer",
+            "XXX.entity.layers.CustomHeadLayer",
+            "XXX.entity.layers.DolphinCarryingItemLayer",
+            "XXX.entity.layers.ElytraLayer",
+            "XXX.entity.layers.EnergySwirlLayer",
+            "XXX.entity.layers.FoxHeldItemLayer",
+            "XXX.entity.layers.HorseMarkingLayer",
+            "XXX.entity.layers.HumanoidArmorLayer$1",
+            "XXX.entity.layers.IronGolemFlowerLayer",
+            "XXX.entity.layers.LlamaDecorLayer",
+            "XXX.entity.layers.PandaHoldsItemLayer",
+            "XXX.entity.layers.PhantomEyesLayer",
+            "XXX.entity.layers.RenderLayer",
+            "XXX.entity.layers.SheepFurLayer",
+            "XXX.entity.layers.SlimeOuterLayer",
+            "XXX.entity.layers.SpiderEyesLayer",
+            "XXX.entity.layers.StrayClothingLayer",
+            "XXX.entity.layers.TropicalFishPatternLayer",
+            "XXX.entity.layers.WardenEmissiveLayer",
+            "XXX.minecraft.util.ParticleUtils",
+            "XXX.minecraft.util.SimpleBitStorage",
+            "XXX.minecraft.util.SmoothDouble",
+            "XXX.minecraft.util.SortedArraySet$ArrayIterator",
+            "XXX.minecraft.util.StringDecomposer",
+            "XXX.minecraft.util.StringRepresentable$1",
+            "XXX.datafix.fixes.SpawnerDataFix",
+            "XXX.datafix.fixes.StatsRenameFix",
+            "XXX.datafix.fixes.StructureReferenceCountFix",
+            "XXX.datafix.fixes.StructuresBecomeConfiguredFix",
+            "XXX.datafix.fixes.TeamDisplayNameFix",
+            "XXX.datafix.fixes.TrappedChestBlockEntityFix$TrappedChestSection",
+            "XXX.datafix.fixes.VillagerFollowRangeFix",
+            "XXX.datafix.fixes.VillagerTradeFix",
+            "XXX.datafix.fixes.WeaponSmithChestLootTableFix",
+            "XXX.datafix.fixes.WorldGenSettingsFix",
+            "XXX.datafix.fixes.WorldGenSettingsHeightAndBiomeFix",
+            "XXX.datafix.fixes.ZombieVillagerRebuildXpFix",
+            "XXX.util.datafix.package-info",
+            "XXX.datafix.schemas.NamespacedSchema$1",
+            "XXX.datafix.schemas.V102",
+            "XXX.datafix.schemas.V106",
+            "XXX.datafix.schemas.V1125",
+            "XXX.datafix.schemas.V143",
+            "XXX.datafix.schemas.V1451_1",
+            "XXX.datafix.schemas.V1451_3",
+            "XXX.datafix.schemas.V1451_5",
+            "XXX.datafix.schemas.V1451_6$1",
+            "XXX.datafix.schemas.V1451_7",
+            "XXX.datafix.schemas.V1466",
+            "XXX.datafix.schemas.V1481",
+            "XXX.datafix.schemas.V1486",
+            "XXX.datafix.schemas.V1800",
+            "XXX.datafix.schemas.V1904",
+            "XXX.datafix.schemas.V1909",
+            "XXX.datafix.schemas.V1928",
+            "XXX.datafix.schemas.V1931",
+            "XXX.datafix.schemas.V2501",
+            "XXX.datafix.schemas.V2505",
+            "XXX.datafix.schemas.V2519",
+            "XXX.datafix.schemas.V2551",
+            "XXX.datafix.schemas.V2571",
+            "XXX.datafix.schemas.V2686",
+            "XXX.datafix.schemas.V2704",
+            "XXX.datafix.schemas.V2831",
+            "XXX.datafix.schemas.V2842",
+            "XXX.datafix.schemas.V3078",
+            "XXX.datafix.schemas.V3082",
+            "XXX.ai.behavior.FollowTemptation",
+            "XXX.ai.behavior.GateBehavior$OrderPolicy",
+            "XXX.ai.behavior.GateBehavior$RunningPolicy$1",
+            "XXX.ai.behavior.GiveGiftToHero",
+            "XXX.ai.behavior.StopAttackingIfTargetInvalid",
+            "XXX.ai.behavior.StrollAroundPoi",
+            "XXX.ai.behavior.StrollToPoiList",
+            "XXX.ai.behavior.TradeWithVillager",
+            "XXX.ai.behavior.TryFindLandNearWater",
+            "XXX.ai.behavior.TryLaySpawnOnWaterNearLand",
+            "XXX.ai.behavior.UseBonemeal",
+            "XXX.ai.behavior.VictoryStroll",
+            "XXX.ai.behavior.VillagerCalmDown",
+            "XXX.ai.behavior.VillagerMakeLove",
+            "XXX.ai.behavior.WakeUp",
+            "XXX.ai.behavior.WorkAtPoi",
+            "XXX.ai.behavior.package-info",
+            "XXX.ai.control.Control",
+            "XXX.ai.control.JumpControl",
+            "XXX.ai.control.MoveControl",
+            "XXX.ai.control.SmoothSwimmingLookControl",
+            "XXX.ai.control.package-info",
+            "XXX.ai.goal.BegGoal",
+            "XXX.ai.goal.BreakDoorGoal",
+            "XXX.ai.goal.BreedGoal",
+            "XXX.ai.goal.CatSitOnBlockGoal",
+            "XXX.ai.goal.DolphinJumpGoal",
+            "XXX.ai.goal.EatBlockGoal",
+            "XXX.ai.goal.FloatGoal",
+            "XXX.ai.goal.FollowFlockLeaderGoal",
+            "XXX.ai.goal.FollowOwnerGoal",
+            "XXX.ai.goal.Goal",
+            "XXX.ai.goal.GoalSelector",
+            "XXX.ai.goal.GoalSelector$2",
+            "XXX.ai.goal.InteractGoal",
+            "XXX.ai.goal.LandOnOwnersShoulderGoal",
+            "XXX.ai.goal.LlamaFollowCaravanGoal",
+            "XXX.ai.goal.LookAtTradingPlayerGoal",
+            "XXX.ai.goal.MoveBackToVillageGoal",
+            "XXX.ai.goal.MoveToBlockGoal",
+            "XXX.ai.goal.MoveTowardsTargetGoal",
+            "XXX.ai.goal.OfferFlowerGoal",
+            "XXX.ai.goal.PanicGoal",
+            "XXX.ai.goal.RandomLookAroundGoal",
+            "XXX.ai.goal.RandomSwimmingGoal",
+            "XXX.ai.goal.RangedBowAttackGoal",
+            "XXX.ai.goal.RangedCrossbowAttackGoal$CrossbowState",
+            "XXX.ai.goal.RestrictSunGoal",
+            "XXX.ai.goal.SitWhenOrderedToGoal",
+            "XXX.ai.goal.SwellGoal",
+            "XXX.ai.goal.TradeWithPlayerGoal",
+            "XXX.ai.goal.UseItemGoal",
+            "XXX.ai.goal.WaterAvoidingRandomStrollGoal",
+            "XXX.ai.goal.ZombieAttackGoal",
+            "XXX.goal.target.DefendVillageTargetGoal",
+            "XXX.goal.target.NearestAttackableTargetGoal",
+            "XXX.goal.target.NearestHealableRaiderTargetGoal",
+            "XXX.goal.target.OwnerHurtByTargetGoal",
+            "XXX.goal.target.ResetUniversalAngerTargetGoal",
+            "XXX.goal.target.package-info",
+            "XXX.ai.gossip.GossipContainer$EntityGossips",
+            "XXX.ai.gossip.GossipType",
+            "XXX.ai.memory.ExpirableValue",
+            "XXX.ai.memory.MemoryStatus",
+            "XXX.ai.memory.WalkTarget",
+            "XXX.ai.navigation.FlyingPathNavigation",
+            "XXX.ai.navigation.PathNavigation",
+            "XXX.ai.navigation.WaterBoundPathNavigation",
+            "XXX.entity.ai.package-info",
+            "XXX.ai.sensing.AxolotlAttackablesSensor",
+            "XXX.ai.sensing.FrogAttackablesSensor",
+            "XXX.ai.sensing.HoglinSpecificSensor",
+            "XXX.ai.sensing.IsInWaterSensor",
+            "XXX.ai.sensing.NearestItemSensor",
+            "XXX.ai.sensing.NearestVisibleLivingEntitySensor",
+            "XXX.ai.sensing.PiglinSpecificSensor",
+            "XXX.ai.sensing.SecondaryPoiSensor",
+            "XXX.ai.sensing.Sensor",
+            "XXX.ai.sensing.TemptingSensor",
+            "XXX.ai.sensing.VillagerHostilesSensor",
+            "XXX.ai.sensing.package-info",
+            "XXX.ai.targeting.package-info",
+            "XXX.ai.util.AirRandomPos",
+            "XXX.ai.util.GoalUtils",
+            "XXX.ai.util.LandRandomPos",
+            "XXX.ai.util.package-info",
+            "XXX.ai.village.ReputationEventType$1",
+            "XXX.ai.village.VillageSiege$State",
+            "XXX.village.poi.PoiManager",
+            "XXX.village.poi.PoiManager$Occupancy",
+            "XXX.village.poi.PoiSection",
+            "XXX.village.poi.package-info",
+            "XXX.entity.ambient.Bat",
+            "XXX.entity.animal.AbstractFish",
+            "XXX.entity.animal.AbstractFish$FishSwimGoal",
+            "XXX.entity.animal.AbstractSchoolingFish",
+            "XXX.entity.animal.Animal",
+            "XXX.entity.animal.Bee$1",
+            "XXX.entity.animal.Bee$BeeAttackGoal",
+            "XXX.entity.animal.Bee$BeeEnterHiveGoal",
+            "XXX.entity.animal.Bee$BeeGoToKnownFlowerGoal",
+            "XXX.entity.animal.Bee$BeeHurtByOtherGoal",
+            "XXX.entity.animal.Bee$BeeLookControl",
+            "XXX.entity.animal.Bee$BeeWanderGoal",
+            "XXX.entity.animal.Cat",
+            "XXX.entity.animal.Cat$CatRelaxOnOwnerGoal",
+            "XXX.entity.animal.Chicken",
+            "XXX.entity.animal.Cow",
+            "XXX.entity.animal.Dolphin$DolphinSwimToTreasureGoal",
+            "XXX.entity.animal.Dolphin$PlayWithItemsGoal",
+            "XXX.entity.animal.Fox",
+            "XXX.entity.animal.Fox$FaceplantGoal",
+            "XXX.entity.animal.Fox$FoxBehaviorGoal",
+            "XXX.entity.animal.Fox$FoxEatBerriesGoal",
+            "XXX.entity.animal.Fox$FoxFollowParentGoal",
+            "XXX.entity.animal.Fox$FoxLookAtPlayerGoal",
+            "XXX.entity.animal.Fox$FoxMeleeAttackGoal",
+            "XXX.entity.animal.Fox$FoxPanicGoal",
+            "XXX.entity.animal.Fox$FoxSearchForItemsGoal",
+            "XXX.entity.animal.Fox$PerchAndSearchGoal",
+            "XXX.entity.animal.Fox$SleepGoal",
+            "XXX.entity.animal.Fox$Type",
+            "XXX.entity.animal.IronGolem$Crackiness",
+            "XXX.entity.animal.MushroomCow$MushroomType",
+            "XXX.entity.animal.Ocelot$OcelotAvoidEntityGoal",
+            "XXX.entity.animal.Panda",
+            "XXX.entity.animal.Panda$PandaAttackGoal",
+            "XXX.entity.animal.Panda$PandaBreedGoal",
+            "XXX.entity.animal.Panda$PandaLieOnBackGoal",
+            "XXX.entity.animal.Panda$PandaMoveControl",
+            "XXX.entity.animal.Panda$PandaRollGoal",
+            "XXX.entity.animal.Panda$PandaSneezeGoal",
+            "XXX.entity.animal.Parrot$1",
+            "XXX.entity.animal.Pig",
+            "XXX.entity.animal.PolarBear$PolarBearAttackPlayersGoal",
+            "XXX.entity.animal.PolarBear$PolarBearMeleeAttackGoal",
+            "XXX.entity.animal.Pufferfish",
+            "XXX.entity.animal.Rabbit",
+            "XXX.entity.animal.Rabbit$RabbitAvoidEntityGoal",
+            "XXX.entity.animal.Rabbit$RabbitJumpControl",
+            "XXX.entity.animal.Rabbit$RabbitPanicGoal",
+            "XXX.entity.animal.Salmon",
+            "XXX.entity.animal.Sheep$1",
+            "XXX.entity.animal.ShoulderRidingEntity",
+            "XXX.entity.animal.Squid",
+            "XXX.entity.animal.Squid$SquidRandomMovementGoal",
+            "XXX.entity.animal.TropicalFish$Pattern",
+            "XXX.entity.animal.Turtle",
+            "XXX.entity.animal.Turtle$TurtleGoHomeGoal",
+            "XXX.entity.animal.Turtle$TurtleLayEggGoal",
+            "XXX.entity.animal.Turtle$TurtlePanicGoal",
+            "XXX.entity.animal.Turtle$TurtleRandomStrollGoal",
+            "XXX.entity.animal.WaterAnimal",
+            "XXX.entity.animal.Wolf$WolfAvoidEntityGoal",
+            "XXX.levelgen.feature.OreFeature",
+            "XXX.levelgen.feature.RandomBooleanSelectorFeature",
+            "XXX.levelgen.feature.RandomSelectorFeature",
+            "XXX.levelgen.feature.ReplaceBlockFeature",
+            "XXX.levelgen.feature.ScatteredOreFeature",
+            "XXX.levelgen.feature.SeaPickleFeature",
+            "XXX.levelgen.feature.SimpleBlockFeature",
+            "XXX.levelgen.feature.SnowAndFreezeFeature",
+            "XXX.levelgen.feature.SpikeFeature$EndSpike",
+            "XXX.levelgen.feature.SpringFeature",
+            "XXX.levelgen.feature.TwistingVinesFeature",
+            "XXX.levelgen.feature.VegetationPatchFeature",
+            "XXX.levelgen.feature.VoidStartPlatformFeature",
+            "XXX.levelgen.feature.WeepingVinesFeature",
+            "XXX.feature.configurations.BlockColumnConfiguration",
+            "XXX.feature.configurations.BlockPileConfiguration",
+            "XXX.feature.configurations.ColumnFeatureConfiguration",
+            "XXX.feature.configurations.DeltaFeatureConfiguration",
+            "XXX.feature.configurations.DripstoneClusterConfiguration",
+            "XXX.feature.configurations.FeatureConfiguration",
+            "XXX.feature.configurations.HugeMushroomFeatureConfiguration",
+            "XXX.feature.configurations.LayerConfiguration",
+            "XXX.feature.configurations.NetherForestVegetationConfig",
+            "XXX.feature.configurations.OreConfiguration",
+            "XXX.feature.configurations.PointedDripstoneConfiguration",
+            "XXX.feature.configurations.RandomBooleanFeatureConfiguration",
+            "XXX.feature.configurations.RandomPatchConfiguration",
+            "XXX.feature.configurations.ReplaceSphereConfiguration",
+            "XXX.feature.configurations.SculkPatchConfiguration",
+            "XXX.feature.configurations.SimpleRandomFeatureConfiguration",
+            "XXX.feature.configurations.SpringConfiguration",
+            "XXX.feature.configurations.TreeConfiguration$TreeConfigurationBuilder",
+            "XXX.feature.configurations.UnderwaterMagmaConfiguration",
+            "XXX.feature.configurations.package-info",
+            "XXX.feature.featuresize.FeatureSizeType",
+            "XXX.feature.featuresize.TwoLayersFeatureSize",
+            "XXX.feature.foliageplacers.AcaciaFoliagePlacer",
+            "XXX.feature.foliageplacers.BushFoliagePlacer",
+            "XXX.feature.foliageplacers.FancyFoliagePlacer",
+            "XXX.feature.foliageplacers.FoliagePlacer$FoliageAttachment",
+            "XXX.feature.foliageplacers.MegaJungleFoliagePlacer",
+            "XXX.feature.foliageplacers.PineFoliagePlacer",
+            "XXX.feature.foliageplacers.SpruceFoliagePlacer",
+            "XXX.levelgen.feature.package-info",
+            "XXX.feature.stateproviders.BlockStateProviderType",
+            "XXX.feature.stateproviders.NoiseBasedStateProvider",
+            "XXX.feature.stateproviders.NoiseThresholdProvider",
+            "XXX.feature.stateproviders.RotatedBlockProvider",
+            "XXX.feature.stateproviders.WeightedStateProvider",
+            "XXX.feature.treedecorators.AlterGroundDecorator",
+            "XXX.feature.treedecorators.CocoaDecorator",
+            "XXX.feature.treedecorators.TreeDecorator",
+            "XXX.feature.treedecorators.TrunkVineDecorator",
+            "XXX.feature.trunkplacers.BendingTrunkPlacer",
+            "XXX.feature.trunkplacers.FancyTrunkPlacer",
+            "XXX.feature.trunkplacers.ForkingTrunkPlacer",
+            "XXX.feature.trunkplacers.MegaJungleTrunkPlacer",
+            "XXX.feature.trunkplacers.TrunkPlacer",
+            "XXX.feature.trunkplacers.package-info",
+            "XXX.levelgen.flat.FlatLevelGeneratorPreset",
+            "XXX.levelgen.flat.FlatLevelGeneratorPresets$Bootstrap",
+            "XXX.levelgen.flat.package-info",
+            "XXX.levelgen.heightproviders.ConstantHeight",
+            "XXX.levelgen.heightproviders.HeightProviderType",
+            "XXX.levelgen.heightproviders.UniformHeight",
+            "XXX.levelgen.heightproviders.WeightedListHeight",
+            "XXX.levelgen.material.MaterialRuleList",
+            "XXX.levelgen.material.package-info",
+            "XXX.levelgen.placement.BiomeFilter",
+            "XXX.levelgen.placement.CarvingMaskPlacement",
+            "XXX.levelgen.placement.CountOnEveryLayerPlacement",
+            "XXX.levelgen.placement.EnvironmentScanPlacement",
+            "XXX.levelgen.placement.HeightmapPlacement",
+            "XXX.levelgen.placement.NoiseBasedCountPlacement",
+            "XXX.levelgen.placement.PlacedFeature",
+            "XXX.levelgen.placement.PlacementContext",
+            "XXX.levelgen.placement.PlacementModifier",
+            "XXX.levelgen.placement.RandomOffsetPlacement",
+            "XXX.levelgen.placement.RepeatingPlacement",
+            "XXX.levelgen.placement.SurfaceWaterDepthFilter",
+            "XXX.levelgen.presets.WorldPreset",
+            "XXX.levelgen.presets.WorldPresets$Bootstrap",
+            "XXX.levelgen.structure.BoundingBox$1",
+            "XXX.levelgen.structure.BuiltinStructures",
+            "XXX.levelgen.structure.PoolElementStructurePiece",
+            "XXX.levelgen.structure.ScatteredFeaturePiece",
+            "XXX.levelgen.structure.SinglePieceStructure$PieceConstructor",
+            "XXX.levelgen.structure.Structure$GenerationContext",
+            "XXX.levelgen.structure.package-info",
+            "XXX.structure.pieces.PieceGenerator$Context",
+            "XXX.structure.pieces.PieceGeneratorSupplier$Context",
+            "XXX.structure.pieces.StructurePieceSerializationContext",
+            "XXX.structure.pieces.StructurePieceType$ContextlessType",
+            "XXX.structure.pieces.StructurePiecesBuilder",
+            "XXX.structure.placement.ConcentricRingsStructurePlacement",
+            "XXX.structure.placement.RandomSpreadType",
+            "XXX.structure.placement.StructurePlacement",
+            "XXX.structure.placement.StructurePlacement$FrequencyReducer",
+            "XXX.structure.placement.StructurePlacementType",
+            "XXX.structure.pools.EmptyPoolElement",
+            "XXX.structure.pools.JigsawJunction",
+            "XXX.structure.pools.JigsawPlacement$PieceFactory",
+            "XXX.structure.pools.JigsawPlacement$Placer",
+            "XXX.structure.pools.ListPoolElement",
+            "XXX.structure.pools.StructurePoolElement",
+            "XXX.structure.pools.StructureTemplatePool",
+            "XXX.structure.pools.package-info",
+            "XXX.structure.structures.BuriedTreasurePieces$BuriedTreasurePiece",
+            "XXX.structure.structures.DesertPyramidPiece",
+            "XXX.structure.structures.EndCityPieces",
+            "XXX.structure.structures.EndCityPieces$2",
+            "XXX.structure.structures.EndCityPieces$4",
+            "XXX.structure.structures.EndCityPieces$SectionGenerator",
+            "XXX.structure.structures.IglooPieces",
+            "XXX.structure.structures.IglooStructure"
+          ],
+          "removed": [
+            "XXX.minecraft.client.OptionInstance$CaptionBasedToString",
+            "XXX.minecraft.client.OptionInstance$CycleableValueSet",
+            "XXX.minecraft.client.OptionInstance$SliderableOrCyclableValueSet",
+            "XXX.minecraft.client.OptionInstance$TooltipSupplier",
+            "XXX.client.model.AllayModel",
+            "XXX.client.model.ArmedModel",
+            "XXX.client.model.ArmorStandModel",
+            "XXX.client.model.BatModel",
+            "XXX.client.model.BlazeModel",
+            "XXX.client.model.BookModel",
+            "XXX.client.model.ChestedHorseModel",
+            "XXX.client.model.CodModel",
+            "XXX.client.model.ColorableHierarchicalModel",
+            "XXX.client.model.CreeperModel",
+            "XXX.client.model.DrownedModel",
+            "XXX.client.model.EndermanModel",
+            "XXX.client.model.EntityModel",
+            "XXX.client.model.FoxModel",
+            "XXX.client.model.GhastModel",
+            "XXX.client.model.GoatModel",
+            "XXX.client.model.HeadedModel",
+            "XXX.client.model.HoglinModel",
+            "XXX.client.model.HumanoidModel",
+            "XXX.client.model.HumanoidModel$ArmPose",
+            "XXX.client.model.IronGolemModel",
+            "XXX.client.model.LeashKnotModel",
+            "XXX.client.model.LlamaModel",
+            "XXX.client.model.MinecartModel",
+            "XXX.client.model.ModelUtils",
+            "XXX.client.model.PandaModel",
+            "XXX.client.model.ParrotModel$1",
+            "XXX.client.model.PhantomModel",
+            "XXX.client.model.PiglinModel",
+            "XXX.client.model.PolarBearModel",
+            "XXX.client.model.PufferfishMidModel",
+            "XXX.client.model.QuadrupedModel",
+            "XXX.client.model.RavagerModel",
+            "XXX.client.model.SheepFurModel",
+            "XXX.client.model.ShieldModel",
+            "XXX.client.model.ShulkerModel",
+            "XXX.client.model.SkeletonModel",
+            "XXX.client.model.SkullModelBase",
+            "XXX.client.model.SnowGolemModel",
+            "XXX.client.model.SquidModel",
+            "XXX.client.model.TadpoleModel",
+            "XXX.client.model.TropicalFishModelA",
+            "XXX.client.model.TurtleModel",
+            "XXX.client.model.VillagerHeadModel",
+            "XXX.client.model.WardenModel",
+            "XXX.client.model.WitherBossModel",
+            "XXX.client.model.ZombieModel",
+            "XXX.model.dragon.DragonHeadModel",
+            "XXX.model.geom.EntityModelSet",
+            "XXX.model.geom.ModelLayerLocation",
+            "XXX.model.geom.ModelPart",
+            "XXX.model.geom.ModelPart$Polygon",
+            "XXX.model.geom.ModelPart$Visitor",
+            "XXX.model.geom.PartPose",
+            "XXX.geom.builders.CubeDeformation",
+            "XXX.geom.builders.LayerDefinition",
+            "XXX.geom.builders.MeshDefinition",
+            "XXX.geom.builders.UVPair",
+            "XXX.model.geom.package-info",
+            "XXX.client.multiplayer.ClientAdvancements",
+            "XXX.client.multiplayer.ClientChunkCache",
+            "XXX.client.multiplayer.ClientHandshakePacketListenerImpl",
+            "XXX.client.multiplayer.ClientLevel$1",
+            "XXX.client.multiplayer.ClientLevel$EntityCallbacks",
+            "XXX.client.multiplayer.ClientPacketListener$1",
+            "XXX.client.multiplayer.MultiPlayerGameMode",
+            "XXX.client.multiplayer.ServerData",
+            "XXX.client.multiplayer.ServerList",
+            "XXX.client.multiplayer.ServerStatusPinger$1",
+            "XXX.client.multiplayer.ServerStatusPinger$2$1",
+            "XXX.multiplayer.prediction.BlockStatePredictionHandler",
+            "XXX.multiplayer.prediction.PredictiveAction",
+            "XXX.multiplayer.resolver.AddressCheck",
+            "XXX.multiplayer.resolver.ResolvedServerAddress",
+            "XXX.multiplayer.resolver.ServerAddress",
+            "XXX.multiplayer.resolver.ServerNameResolver",
+            "XXX.multiplayer.resolver.package-info",
+            "XXX.client.particle.AshParticle",
+            "XXX.client.particle.AttackSweepParticle",
+            "XXX.client.particle.BaseAshSmokeParticle",
+            "XXX.client.particle.BlockMarker$Provider",
+            "XXX.client.particle.BreakingItemParticle$Provider",
+            "XXX.client.particle.BreakingItemParticle$SnowballProvider",
+            "XXX.client.particle.BubbleColumnUpParticle$Provider",
+            "XXX.client.particle.BubbleParticle$Provider",
+            "XXX.client.particle.BubblePopParticle$Provider",
+            "XXX.client.particle.CampfireSmokeParticle$CosyProvider",
+            "XXX.client.particle.CritParticle",
+            "XXX.client.particle.CritParticle$MagicProvider",
+            "XXX.client.particle.DragonBreathParticle",
+            "XXX.client.particle.DripParticle",
+            "XXX.client.particle.DripParticle$DripHangParticle",
+            "XXX.client.particle.DripParticle$DripstoneFallAndLandParticle",
+            "XXX.client.particle.DripParticle$DripstoneLavaHangProvider",
+            "XXX.client.particle.DripParticle$DripstoneWaterHangProvider",
+            "XXX.client.particle.DripParticle$FallingParticle",
+            "XXX.client.particle.DripParticle$HoneyFallProvider",
+            "XXX.client.particle.DripParticle$HoneyLandProvider",
+            "XXX.client.particle.DripParticle$LavaHangProvider",
+            "XXX.client.particle.DripParticle$NectarFallProvider",
+            "XXX.client.particle.DripParticle$ObsidianTearHangProvider",
+            "XXX.client.particle.DripParticle$SporeBlossomFallProvider",
+            "XXX.client.particle.DripParticle$WaterHangProvider",
+            "XXX.client.particle.DustColorTransitionParticle$Provider",
+            "XXX.client.particle.DustParticle$Provider",
+            "XXX.client.particle.EnchantmentTableParticle",
+            "XXX.client.particle.EnchantmentTableParticle$Provider",
+            "XXX.client.particle.EndRodParticle$Provider",
+            "XXX.client.particle.ExplodeParticle$Provider",
+            "XXX.client.particle.FallingDustParticle$Provider",
+            "XXX.client.particle.FireworkParticles$1",
+            "XXX.client.particle.FireworkParticles$OverlayParticle",
+            "XXX.client.particle.FireworkParticles$SparkProvider",
+            "XXX.client.particle.FlameParticle",
+            "XXX.client.particle.FlameParticle$SmallFlameProvider",
+            "XXX.client.particle.GlowParticle$AllayDustProvider",
+            "XXX.renderer.entity.AllayRenderer",
+            "XXX.renderer.entity.ArrowRenderer",
+            "XXX.renderer.entity.BatRenderer",
+            "XXX.renderer.entity.BlazeRenderer",
+            "XXX.renderer.entity.CatRenderer",
+            "XXX.renderer.entity.ChestedHorseRenderer",
+            "XXX.renderer.entity.CodRenderer",
+            "XXX.renderer.entity.CreeperRenderer",
+            "XXX.renderer.entity.DragonFireballRenderer",
+            "XXX.renderer.entity.ElderGuardianRenderer",
+            "XXX.renderer.entity.EnderDragonRenderer",
+            "XXX.renderer.entity.EndermanRenderer",
+            "XXX.renderer.entity.EntityRenderDispatcher",
+            "XXX.renderer.entity.EntityRendererProvider",
+            "XXX.renderer.entity.EntityRenderers",
+            "XXX.renderer.entity.EvokerRenderer",
+            "XXX.renderer.entity.ExperienceOrbRenderer",
+            "XXX.renderer.entity.FireworkEntityRenderer",
+            "XXX.renderer.entity.FoxRenderer",
+            "XXX.renderer.entity.GhastRenderer",
+            "XXX.renderer.entity.GlowSquidRenderer",
+            "XXX.renderer.entity.GuardianRenderer",
+            "XXX.renderer.entity.HorseRenderer",
+            "XXX.renderer.entity.HuskRenderer",
+            "XXX.renderer.entity.IllusionerRenderer",
+            "XXX.renderer.entity.IronGolemRenderer",
+            "XXX.renderer.entity.ItemFrameRenderer",
+            "XXX.renderer.entity.LeashKnotRenderer",
+            "XXX.renderer.entity.LivingEntityRenderer",
+            "XXX.renderer.entity.LlamaRenderer",
+            "XXX.renderer.entity.MagmaCubeRenderer",
+            "XXX.renderer.entity.MobRenderer",
+            "XXX.renderer.entity.NoopRenderer",
+            "XXX.renderer.entity.PaintingRenderer",
+            "XXX.renderer.entity.ParrotRenderer",
+            "XXX.renderer.entity.PigRenderer",
+            "XXX.renderer.entity.PillagerRenderer",
+            "XXX.renderer.entity.PufferfishRenderer",
+            "XXX.renderer.entity.RavagerRenderer",
+            "XXX.renderer.entity.SalmonRenderer",
+            "XXX.renderer.entity.ShulkerBulletRenderer",
+            "XXX.renderer.entity.SilverfishRenderer",
+            "XXX.renderer.entity.SlimeRenderer",
+            "XXX.renderer.entity.SpectralArrowRenderer",
+            "XXX.renderer.entity.SquidRenderer",
+            "XXX.renderer.entity.StriderRenderer",
+            "XXX.renderer.entity.ThrownItemRenderer",
+            "XXX.renderer.entity.TippableArrowRenderer",
+            "XXX.renderer.entity.TntRenderer",
+            "XXX.renderer.entity.TurtleRenderer",
+            "XXX.renderer.entity.VexRenderer",
+            "XXX.renderer.entity.VindicatorRenderer",
+            "XXX.renderer.entity.WanderingTraderRenderer",
+            "XXX.renderer.entity.WitchRenderer",
+            "XXX.renderer.entity.WitherSkeletonRenderer",
+            "XXX.renderer.entity.WolfRenderer",
+            "XXX.renderer.entity.ZombieRenderer",
+            "XXX.entity.layers.ArrowLayer",
+            "XXX.entity.layers.CapeLayer",
+            "XXX.entity.layers.CatCollarLayer",
+            "XXX.entity.layers.CrossedArmsItemLayer",
+            "XXX.entity.layers.Deadmau5EarsLayer",
+            "XXX.entity.layers.DrownedOuterLayer",
+            "XXX.entity.layers.EnderEyesLayer",
+            "XXX.entity.layers.EyesLayer",
+            "XXX.entity.layers.HorseArmorLayer",
+            "XXX.entity.layers.HumanoidArmorLayer",
+            "XXX.entity.layers.IronGolemCrackinessLayer",
+            "XXX.entity.layers.ItemInHandLayer",
+            "XXX.entity.layers.MushroomCowMushroomLayer",
+            "XXX.entity.layers.ParrotOnShoulderLayer",
+            "XXX.entity.layers.PlayerItemInHandLayer",
+            "XXX.entity.layers.SaddleLayer",
+            "XXX.entity.layers.ShulkerHeadLayer",
+            "XXX.entity.layers.SnowGolemHeadLayer",
+            "XXX.entity.layers.SpinAttackEffectLayer",
+            "XXX.entity.layers.StuckInBodyLayer",
+            "XXX.entity.layers.VillagerProfessionLayer",
+            "XXX.entity.layers.WardenEmissiveLayer$AlphaFunction",
+            "XXX.data.worldgen.AncientCityStructurePools",
+            "XXX.minecraft.util.OptionEnum",
+            "XXX.minecraft.util.ProgressListener",
+            "XXX.minecraft.util.SimpleBitStorage$InitializationException",
+            "XXX.minecraft.util.SortedArraySet",
+            "XXX.minecraft.util.SpawnUtil",
+            "XXX.minecraft.util.StringRepresentable",
+            "XXX.minecraft.util.StringRepresentable$EnumCodec",
+            "XXX.datafix.fixes.SimplestEntityRenameFix",
+            "XXX.datafix.fixes.StatsCounterFix",
+            "XXX.datafix.fixes.StriderGravityFix",
+            "XXX.datafix.fixes.StructureSettingsFlattenFix",
+            "XXX.datafix.fixes.StructuresBecomeConfiguredFix$Conversion",
+            "XXX.datafix.fixes.TrappedChestBlockEntityFix",
+            "XXX.datafix.fixes.VillagerDataFix",
+            "XXX.datafix.fixes.VillagerRebuildLevelAndXpFix",
+            "XXX.datafix.fixes.WallPropertyFix",
+            "XXX.datafix.fixes.WorldGenSettingsDisallowOldCustomWorldsFix",
+            "XXX.datafix.fixes.WorldGenSettingsFix$StructureFeatureConfiguration",
+            "XXX.datafix.fixes.WriteAndReadFix",
+            "XXX.datafix.fixes.package-info",
+            "XXX.datafix.schemas.NamespacedSchema",
+            "XXX.datafix.schemas.V100",
+            "XXX.datafix.schemas.V1022",
+            "XXX.datafix.schemas.V107",
+            "XXX.datafix.schemas.V135",
+            "XXX.datafix.schemas.V1451",
+            "XXX.datafix.schemas.V1451_2",
+            "XXX.datafix.schemas.V1451_4",
+            "XXX.datafix.schemas.V1451_6",
+            "XXX.datafix.schemas.V1451_6$2",
+            "XXX.datafix.schemas.V1460",
+            "XXX.datafix.schemas.V1470",
+            "XXX.datafix.schemas.V1483",
+            "XXX.datafix.schemas.V1510",
+            "XXX.datafix.schemas.V1801",
+            "XXX.datafix.schemas.V1906",
+            "XXX.datafix.schemas.V1920",
+            "XXX.datafix.schemas.V1929",
+            "XXX.datafix.schemas.V2100",
+            "XXX.datafix.schemas.V2502",
+            "XXX.datafix.schemas.V2509",
+            "XXX.datafix.schemas.V2522",
+            "XXX.datafix.schemas.V2568",
+            "XXX.datafix.schemas.V2684",
+            "XXX.datafix.schemas.V2688",
+            "XXX.datafix.schemas.V2707",
+            "XXX.datafix.schemas.V2832",
+            "XXX.datafix.schemas.V3076",
+            "XXX.datafix.schemas.V3081",
+            "XXX.datafix.schemas.V3083",
+            "XXX.ai.behavior.FlyingRandomStroll",
+            "XXX.ai.behavior.GateBehavior",
+            "XXX.ai.behavior.GateBehavior$RunningPolicy",
+            "XXX.ai.behavior.GateBehavior$RunningPolicy$2",
+            "XXX.ai.behavior.GoAndGiveItemsToTarget",
+            "XXX.ai.behavior.StayCloseToTarget",
+            "XXX.ai.behavior.StopBeingAngryIfTargetDead",
+            "XXX.ai.behavior.StrollToPoi",
+            "XXX.ai.behavior.Swim",
+            "XXX.ai.behavior.TryFindLand",
+            "XXX.ai.behavior.TryFindWater",
+            "XXX.ai.behavior.UpdateActivityFromSchedule",
+            "XXX.ai.behavior.ValidateNearbyPoi",
+            "XXX.ai.behavior.VillageBoundRandomStroll",
+            "XXX.ai.behavior.VillagerGoalPackages",
+            "XXX.ai.behavior.VillagerPanicTrigger",
+            "XXX.ai.behavior.WorkAtComposter",
+            "XXX.ai.behavior.YieldJobSite",
+            "XXX.ai.control.BodyRotationControl",
+            "XXX.ai.control.FlyingMoveControl",
+            "XXX.ai.control.LookControl",
+            "XXX.ai.control.MoveControl$Operation",
+            "XXX.ai.control.SmoothSwimmingMoveControl",
+            "XXX.ai.goal.AvoidEntityGoal",
+            "XXX.ai.goal.BoatGoals",
+            "XXX.ai.goal.BreathAirGoal",
+            "XXX.ai.goal.CatLieOnBedGoal",
+            "XXX.ai.goal.ClimbOnTopOfPowderSnowGoal",
+            "XXX.ai.goal.DoorInteractGoal",
+            "XXX.ai.goal.FleeSunGoal",
+            "XXX.ai.goal.FollowBoatGoal",
+            "XXX.ai.goal.FollowMobGoal",
+            "XXX.ai.goal.FollowParentGoal",
+            "XXX.ai.goal.Goal$Flag",
+            "XXX.ai.goal.GoalSelector$1",
+            "XXX.ai.goal.GolemRandomStrollInVillageGoal",
+            "XXX.ai.goal.JumpGoal",
+            "XXX.ai.goal.LeapAtTargetGoal",
+            "XXX.ai.goal.LookAtPlayerGoal",
+            "XXX.ai.goal.MeleeAttackGoal",
+            "XXX.ai.goal.MoveThroughVillageGoal",
+            "XXX.ai.goal.MoveTowardsRestrictionGoal",
+            "XXX.ai.goal.OcelotAttackGoal",
+            "XXX.ai.goal.OpenDoorGoal",
+            "XXX.ai.goal.PathfindToRaidGoal",
+            "XXX.ai.goal.RandomStrollGoal",
+            "XXX.ai.goal.RangedAttackGoal",
+            "XXX.ai.goal.RangedCrossbowAttackGoal",
+            "XXX.ai.goal.RemoveBlockGoal",
+            "XXX.ai.goal.RunAroundLikeCrazyGoal",
+            "XXX.ai.goal.StrollThroughVillageGoal",
+            "XXX.ai.goal.TemptGoal",
+            "XXX.ai.goal.TryFindWaterGoal",
+            "XXX.ai.goal.WaterAvoidingRandomFlyingGoal",
+            "XXX.ai.goal.WrappedGoal",
+            "XXX.ai.goal.package-info",
+            "XXX.goal.target.HurtByTargetGoal",
+            "XXX.goal.target.NearestAttackableWitchTargetGoal",
+            "XXX.goal.target.NonTameRandomTargetGoal",
+            "XXX.goal.target.OwnerHurtTargetGoal",
+            "XXX.goal.target.TargetGoal",
+            "XXX.ai.gossip.GossipContainer",
+            "XXX.ai.gossip.GossipContainer$GossipEntry",
+            "XXX.ai.gossip.package-info",
+            "XXX.ai.memory.MemoryModuleType",
+            "XXX.ai.memory.NearestVisibleLivingEntities",
+            "XXX.ai.memory.package-info",
+            "XXX.ai.navigation.GroundPathNavigation",
+            "XXX.ai.navigation.WallClimberNavigation",
+            "XXX.ai.navigation.package-info",
+            "XXX.ai.sensing.AdultSensor",
+            "XXX.ai.sensing.DummySensor",
+            "XXX.ai.sensing.GolemSensor",
+            "XXX.ai.sensing.HurtBySensor",
+            "XXX.ai.sensing.NearestBedSensor",
+            "XXX.ai.sensing.NearestLivingEntitySensor",
+            "XXX.ai.sensing.PiglinBruteSpecificSensor",
+            "XXX.ai.sensing.PlayerSensor",
+            "XXX.ai.sensing.Sensing",
+            "XXX.ai.sensing.SensorType",
+            "XXX.ai.sensing.VillagerBabiesSensor",
+            "XXX.ai.sensing.WardenEntitySensor",
+            "XXX.ai.targeting.TargetingConditions",
+            "XXX.ai.util.AirAndWaterRandomPos",
+            "XXX.ai.util.DefaultRandomPos",
+            "XXX.ai.util.HoverRandomPos",
+            "XXX.ai.util.RandomPos",
+            "XXX.ai.village.ReputationEventType",
+            "XXX.ai.village.VillageSiege",
+            "XXX.ai.village.package-info",
+            "XXX.village.poi.PoiManager$DistanceTracker",
+            "XXX.village.poi.PoiRecord",
+            "XXX.village.poi.PoiType",
+            "XXX.entity.ambient.AmbientCreature",
+            "XXX.entity.ambient.package-info",
+            "XXX.entity.animal.AbstractFish$FishMoveControl",
+            "XXX.entity.animal.AbstractGolem",
+            "XXX.entity.animal.AbstractSchoolingFish$SchoolSpawnGroupData",
+            "XXX.entity.animal.Bee",
+            "XXX.entity.animal.Bee$BaseBeeGoal",
+            "XXX.entity.animal.Bee$BeeBecomeAngryTargetGoal",
+            "XXX.entity.animal.Bee$BeeGoToHiveGoal",
+            "XXX.entity.animal.Bee$BeeGrowCropGoal",
+            "XXX.entity.animal.Bee$BeeLocateHiveGoal",
+            "XXX.entity.animal.Bee$BeePollinateGoal",
+            "XXX.entity.animal.Bucketable",
+            "XXX.entity.animal.Cat$CatAvoidEntityGoal",
+            "XXX.entity.animal.Cat$CatTemptGoal",
+            "XXX.entity.animal.Cod",
+            "XXX.entity.animal.Dolphin",
+            "XXX.entity.animal.Dolphin$DolphinSwimWithPlayerGoal",
+            "XXX.entity.animal.FlyingAnimal",
+            "XXX.entity.animal.Fox$DefendTrustedTargetGoal",
+            "XXX.entity.animal.Fox$FoxAlertableEntitiesSelector",
+            "XXX.entity.animal.Fox$FoxBreedGoal",
+            "XXX.entity.animal.Fox$FoxFloatGoal",
+            "XXX.entity.animal.Fox$FoxGroupData",
+            "XXX.entity.animal.Fox$FoxLookControl",
+            "XXX.entity.animal.Fox$FoxMoveControl",
+            "XXX.entity.animal.Fox$FoxPounceGoal",
+            "XXX.entity.animal.Fox$FoxStrollThroughVillageGoal",
+            "XXX.entity.animal.Fox$SeekShelterGoal",
+            "XXX.entity.animal.Fox$StalkPreyGoal",
+            "XXX.entity.animal.IronGolem",
+            "XXX.entity.animal.MushroomCow",
+            "XXX.entity.animal.Ocelot",
+            "XXX.entity.animal.Ocelot$OcelotTemptGoal",
+            "XXX.entity.animal.Panda$Gene",
+            "XXX.entity.animal.Panda$PandaAvoidGoal",
+            "XXX.entity.animal.Panda$PandaHurtByTargetGoal",
+            "XXX.entity.animal.Panda$PandaLookAtPlayerGoal",
+            "XXX.entity.animal.Panda$PandaPanicGoal",
+            "XXX.entity.animal.Panda$PandaSitGoal",
+            "XXX.entity.animal.Parrot",
+            "XXX.entity.animal.Parrot$ParrotWanderGoal",
+            "XXX.entity.animal.PolarBear",
+            "XXX.entity.animal.PolarBear$PolarBearHurtByTargetGoal",
+            "XXX.entity.animal.PolarBear$PolarBearPanicGoal",
+            "XXX.entity.animal.Pufferfish$PufferfishPuffGoal",
+            "XXX.entity.animal.Rabbit$EvilRabbitAttackGoal",
+            "XXX.entity.animal.Rabbit$RabbitGroupData",
+            "XXX.entity.animal.Rabbit$RabbitMoveControl",
+            "XXX.entity.animal.Rabbit$RaidGardenGoal",
+            "XXX.entity.animal.Sheep",
+            "XXX.entity.animal.Sheep$2",
+            "XXX.entity.animal.SnowGolem",
+            "XXX.entity.animal.Squid$SquidFleeGoal",
+            "XXX.entity.animal.TropicalFish",
+            "XXX.entity.animal.TropicalFish$TropicalFishGroupData",
+            "XXX.entity.animal.Turtle$TurtleBreedGoal",
+            "XXX.entity.animal.Turtle$TurtleGoToWaterGoal",
+            "XXX.entity.animal.Turtle$TurtleMoveControl",
+            "XXX.entity.animal.Turtle$TurtlePathNavigation",
+            "XXX.entity.animal.Turtle$TurtleTravelGoal",
+            "XXX.entity.animal.Wolf",
+            "XXX.entity.animal.Wolf$WolfPanicGoal",
+            "XXX.animal.allay.AllayAi",
+            "XXX.level.levelgen.Beardifier$Rigid",
+            "XXX.levelgen.feature.PointedDripstoneFeature",
+            "XXX.levelgen.feature.RandomPatchFeature",
+            "XXX.levelgen.feature.ReplaceBlobsFeature",
+            "XXX.levelgen.feature.RootSystemFeature",
+            "XXX.levelgen.feature.SculkPatchFeature",
+            "XXX.levelgen.feature.SeagrassFeature",
+            "XXX.levelgen.feature.SimpleRandomSelectorFeature",
+            "XXX.levelgen.feature.SpikeFeature",
+            "XXX.levelgen.feature.SpikeFeature$SpikeCacheLoader",
+            "XXX.levelgen.feature.TreeFeature",
+            "XXX.levelgen.feature.UnderwaterMagmaFeature",
+            "XXX.levelgen.feature.VinesFeature",
+            "XXX.levelgen.feature.WaterloggedVegetationPatchFeature",
+            "XXX.levelgen.feature.WeightedPlacedFeature",
+            "XXX.feature.configurations.BlockColumnConfiguration$Layer",
+            "XXX.feature.configurations.BlockStateConfiguration",
+            "XXX.feature.configurations.CountConfiguration",
+            "XXX.feature.configurations.DiskConfiguration",
+            "XXX.feature.configurations.EndGatewayConfiguration",
+            "XXX.feature.configurations.GeodeConfiguration",
+            "XXX.feature.configurations.LargeDripstoneConfiguration",
+            "XXX.feature.configurations.MultifaceGrowthConfiguration",
+            "XXX.feature.configurations.NoneFeatureConfiguration",
+            "XXX.feature.configurations.OreConfiguration$TargetBlockState",
+            "XXX.feature.configurations.ProbabilityFeatureConfiguration",
+            "XXX.feature.configurations.RandomFeatureConfiguration",
+            "XXX.feature.configurations.ReplaceBlockConfiguration",
+            "XXX.feature.configurations.RootSystemConfiguration",
+            "XXX.feature.configurations.SimpleBlockConfiguration",
+            "XXX.feature.configurations.SpikeConfiguration",
+            "XXX.feature.configurations.TreeConfiguration",
+            "XXX.feature.configurations.TwistingVinesConfig",
+            "XXX.feature.configurations.VegetationPatchConfiguration",
+            "XXX.feature.featuresize.FeatureSize",
+            "XXX.feature.featuresize.ThreeLayersFeatureSize",
+            "XXX.feature.featuresize.package-info",
+            "XXX.feature.foliageplacers.BlobFoliagePlacer",
+            "XXX.feature.foliageplacers.DarkOakFoliagePlacer",
+            "XXX.feature.foliageplacers.FoliagePlacer",
+            "XXX.feature.foliageplacers.FoliagePlacerType",
+            "XXX.feature.foliageplacers.MegaPineFoliagePlacer",
+            "XXX.feature.foliageplacers.RandomSpreadFoliagePlacer",
+            "XXX.feature.foliageplacers.package-info",
+            "XXX.feature.stateproviders.BlockStateProvider",
+            "XXX.feature.stateproviders.DualNoiseProvider",
+            "XXX.feature.stateproviders.NoiseProvider",
+            "XXX.feature.stateproviders.RandomizedIntStateProvider",
+            "XXX.feature.stateproviders.SimpleStateProvider",
+            "XXX.feature.stateproviders.package-info",
+            "XXX.feature.treedecorators.BeehiveDecorator",
+            "XXX.feature.treedecorators.LeaveVineDecorator",
+            "XXX.feature.treedecorators.TreeDecoratorType",
+            "XXX.feature.treedecorators.package-info",
+            "XXX.feature.trunkplacers.DarkOakTrunkPlacer",
+            "XXX.feature.trunkplacers.FancyTrunkPlacer$FoliageCoords",
+            "XXX.feature.trunkplacers.GiantTrunkPlacer",
+            "XXX.feature.trunkplacers.StraightTrunkPlacer",
+            "XXX.feature.trunkplacers.TrunkPlacerType",
+            "XXX.levelgen.flat.FlatLayerInfo",
+            "XXX.levelgen.flat.FlatLevelGeneratorPresets",
+            "XXX.levelgen.flat.FlatLevelGeneratorSettings",
+            "XXX.levelgen.heightproviders.BiasedToBottomHeight",
+            "XXX.levelgen.heightproviders.HeightProvider",
+            "XXX.levelgen.heightproviders.TrapezoidHeight",
+            "XXX.levelgen.heightproviders.VeryBiasedToBottomHeight",
+            "XXX.levelgen.heightproviders.package-info",
+            "XXX.levelgen.material.WorldGenMaterialRule",
+            "XXX.level.levelgen.package-info",
+            "XXX.levelgen.placement.BlockPredicateFilter",
+            "XXX.levelgen.placement.CaveSurface",
+            "XXX.levelgen.placement.CountPlacement",
+            "XXX.levelgen.placement.HeightRangePlacement",
+            "XXX.levelgen.placement.InSquarePlacement",
+            "XXX.levelgen.placement.NoiseThresholdCountPlacement",
+            "XXX.levelgen.placement.PlacedFeature$test",
+            "XXX.levelgen.placement.PlacementFilter",
+            "XXX.levelgen.placement.PlacementModifierType",
+            "XXX.levelgen.placement.RarityFilter",
+            "XXX.levelgen.placement.SurfaceRelativeThresholdFilter",
+            "XXX.levelgen.placement.package-info",
+            "XXX.levelgen.presets.WorldPresets",
+            "XXX.levelgen.structure.BoundingBox",
+            "XXX.levelgen.structure.BuiltinStructureSets",
+            "XXX.levelgen.structure.LegacyStructureDataHandler",
+            "XXX.levelgen.structure.PostPlacementProcessor",
+            "XXX.levelgen.structure.SinglePieceStructure",
+            "XXX.levelgen.structure.Structure",
+            "XXX.levelgen.structure.Structure$GenerationStub",
+            "XXX.levelgen.structure.TerrainAdjustment",
+            "XXX.structure.pieces.PieceGenerator",
+            "XXX.structure.pieces.PieceGeneratorSupplier",
+            "XXX.structure.pieces.PiecesContainer",
+            "XXX.structure.pieces.StructurePieceType",
+            "XXX.structure.pieces.StructurePieceType$StructureTemplateType",
+            "XXX.structure.pieces.package-info",
+            "XXX.structure.placement.RandomSpreadStructurePlacement",
+            "XXX.structure.placement.RandomSpreadType$1",
+            "XXX.structure.placement.StructurePlacement$ExclusionZone",
+            "XXX.structure.placement.StructurePlacement$FrequencyReductionMethod",
+            "XXX.structure.placement.package-info",
+            "XXX.structure.pools.FeaturePoolElement",
+            "XXX.structure.pools.JigsawPlacement",
+            "XXX.structure.pools.JigsawPlacement$PieceState",
+            "XXX.structure.pools.LegacySinglePoolElement",
+            "XXX.structure.pools.SinglePoolElement",
+            "XXX.structure.pools.StructurePoolElementType",
+            "XXX.structure.pools.StructureTemplatePool$Projection",
+            "XXX.structure.structures.BuriedTreasurePieces",
+            "XXX.structure.structures.BuriedTreasureStructure",
+            "XXX.structure.structures.DesertPyramidStructure",
+            "XXX.structure.structures.EndCityPieces$1",
+            "XXX.structure.structures.EndCityPieces$3",
+            "XXX.structure.structures.EndCityPieces$EndCityPiece",
+            "XXX.structure.structures.EndCityStructure",
+            "XXX.structure.structures.IglooPieces$IglooPiece",
+            "XXX.structure.structures.JigsawStructure"
+          ]
+        }
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "Changes",
+        "lines": [
+          "XXX.advancements.critereon.KilledTrigger$TriggerInstance \u001b[2;32m+1M\u001b[0m",
+          "XXX.minecraft.client.OptionInstance \u001b[2;32m+16M\u001b[0m \u001b[2;31m-11M\u001b[0m | \u001b[2;32m+2P\u001b[0m \u001b[2;31m-1P\u001b[0m",
+          "XXX.minecraft.client.OptionInstance$Enum \u001b[2;32m+1M\u001b[0m \u001b[2;31m-3M\u001b[0m",
+          "XXX.minecraft.client.OptionInstance$IntRangeBase \u001b[2;31m-2M\u001b[0m",
+          "XXX.minecraft.client.OptionInstance$LazyEnum \u001b[2;32m+1M\u001b[0m \u001b[2;31m-3M\u001b[0m",
+          "XXX.minecraft.client.OptionInstance$UnitDouble \u001b[2;32m+3M\u001b[0m \u001b[2;31m-5M\u001b[0m",
+          "XXX.gui.components.CycleButton$Builder \u001b[2;32m+1M\u001b[0m",
+          "XXX.minecraft.core.Direction \u001b[2;32m+8M\u001b[0m \u001b[2;31m-9M\u001b[0m | \u001b[2;32m+1P\u001b[0m \u001b[2;31m-2P\u001b[0m",
+          "XXX.minecraft.core.Direction$Axis \u001b[2;31m-1M\u001b[0m | \u001b[2;32m+1P\u001b[0m \u001b[2;31m-2P\u001b[0m",
+          "XXX.core.dispenser.BoatDispenseItemBehavior \u001b[2;32m+1M\u001b[0m | \u001b[2;32m+1P\u001b[0m",
+          "XXX.core.particles.ParticleTypes \u001b[2;32m+1P\u001b[0m",
+          "XXX.data.advancements.HusbandryAdvancements \u001b[2;32m+1P\u001b[0m",
+          "XXX.models.model.ModelTemplates \u001b[2;32m+1P\u001b[0m",
+          "XXX.models.model.TextureSlot \u001b[2;32m+1P\u001b[0m",
+          "XXX.data.recipes.RecipeProvider \u001b[2;32m+1M\u001b[0m",
+          "XXX.data.worldgen.StructureSets \u001b[2;32m+1P\u001b[0m",
+          "XXX.worldgen.features.CaveFeatures \u001b[2;32m+2P\u001b[0m \u001b[2;31m-1P\u001b[0m",
+          "XXX.worldgen.placement.CavePlacements \u001b[2;32m+2P\u001b[0m \u001b[2;31m-1P\u001b[0m",
+          "XXX.minecraft.sounds.SoundEvents \u001b[2;32m+7P\u001b[0m",
+          "XXX.minecraft.tags.BiomeTags \u001b[2;32m+1P\u001b[0m",
+          "XXX.minecraft.tags.ItemTags \u001b[2;32m+1P\u001b[0m \u001b[2;31m-1P\u001b[0m",
+          "XXX.minecraft.util.Mth \u001b[2;32m+1M\u001b[0m",
+          "XXX.world.entity.EntityType \u001b[2;32m+1P\u001b[0m",
+          "XXX.world.entity.HumanoidArm \u001b[2;32m+3M\u001b[0m \u001b[2;31m-3M\u001b[0m | \u001b[2;32m+2P\u001b[0m \u001b[2;31m-1P\u001b[0m",
+          "XXX.ai.behavior.BehaviorUtils \u001b[2;32m+1M\u001b[0m",
+          "XXX.animal.frog.ShootTongue \u001b[2;32m+1M\u001b[0m | \u001b[2;32m+1P\u001b[0m \u001b[2;31m-1P\u001b[0m",
+          "XXX.animal.frog.ShootTongue$State \u001b[2;32m+1P\u001b[0m",
+          "XXX.monster.warden.AngerManagement \u001b[2;32m+3M\u001b[0m \u001b[2;31m-5M\u001b[0m",
+          "XXX.monster.warden.Warden \u001b[2;32m+7M\u001b[0m \u001b[2;31m-6M\u001b[0m | \u001b[2;31m-2P\u001b[0m",
+          "XXX.monster.warden.WardenAi \u001b[2;32m+1M\u001b[0m \u001b[2;31m-1M\u001b[0m | \u001b[2;32m+2P\u001b[0m",
+          "XXX.entity.vehicle.Minecart \u001b[2;32m+1M\u001b[0m",
+          "XXX.entity.vehicle.MinecartCommandBlock \u001b[2;32m+1M\u001b[0m",
+          "XXX.entity.vehicle.MinecartFurnace \u001b[2;32m+1M\u001b[0m \u001b[2;31m-1M\u001b[0m",
+          "XXX.entity.vehicle.MinecartSpawner \u001b[2;32m+1M\u001b[0m",
+          "XXX.entity.vehicle.MinecartTNT \u001b[2;32m+1M\u001b[0m",
+          "XXX.world.level.StructureManager \u001b[2;32m+1M\u001b[0m \u001b[2;31m-1M\u001b[0m",
+          "XXX.level.biome.Biome$TemperatureModifier \u001b[2;31m-2M\u001b[0m | \u001b[2;31m-1P\u001b[0m",
+          "XXX.level.block.NoteBlock \u001b[2;32m+1M\u001b[0m \u001b[2;31m-1M\u001b[0m",
+          "XXX.level.block.SculkShriekerBlock \u001b[2;32m+1M\u001b[0m \u001b[2;31m-2M\u001b[0m | \u001b[2;32m+1P\u001b[0m",
+          "XXX.level.block.TripWireHookBlock \u001b[2;32m+1M\u001b[0m \u001b[2;31m-1M\u001b[0m",
+          "XXX.block.entity.SculkSensorBlockEntity \u001b[2;32m+2M\u001b[0m \u001b[2;31m-1M\u001b[0m",
+          "XXX.level.gameevent.GameEvent \u001b[2;32m+12P\u001b[0m \u001b[2;31m-18P\u001b[0m",
+          "XXX.gameevent.vibrations.VibrationListener$ReceivingEvent \u001b[2;32m+13M\u001b[0m \u001b[2;31m-4M\u001b[0m | \u001b[2;32m+1P\u001b[0m",
+          "XXX.level.levelgen.Beardifier \u001b[2;32m+7M\u001b[0m \u001b[2;31m-3M\u001b[0m | \u001b[2;31m-2P\u001b[0m",
+          "XXX.level.levelgen.GenerationStep$Decoration \u001b[2;31m-2M\u001b[0m | \u001b[2;31m-1P\u001b[0m",
+          "XXX.levelgen.structure.StructureSpawnOverride$BoundingBoxType \u001b[2;31m-2M\u001b[0m | \u001b[2;31m-1P\u001b[0m",
+          "XXX.structure.structures.JungleTempleStructure \u001b[2;32m+1M\u001b[0m \u001b[2;31m-2M\u001b[0m",
+          "XXX.structure.structures.MineshaftStructure \u001b[2;32m+1M\u001b[0m \u001b[2;31m-1M\u001b[0m",
+          "XXX.structure.structures.NetherFossilStructure \u001b[2;32m+1M\u001b[0m \u001b[2;31m-1M\u001b[0m",
+          "XXX.structure.structures.OceanRuinStructure$Type \u001b[2;31m-2M\u001b[0m | \u001b[2;31m-1P\u001b[0m",
+          "XXX.structure.structures.RuinedPortalStructure \u001b[2;32m+2M\u001b[0m \u001b[2;31m-2M\u001b[0m",
+          "XXX.structure.structures.ShipwreckStructure \u001b[2;32m+1M\u001b[0m \u001b[2;31m-1M\u001b[0m",
+          "XXX.structure.structures.StrongholdPieces$FillerCorridor \u001b[2;31m-1M\u001b[0m",
+          "XXX.structure.structures.StrongholdPieces$PrisonHall \u001b[2;31m-1M\u001b[0m",
+          "XXX.structure.structures.StrongholdPieces$RoomCrossing \u001b[2;31m-1M\u001b[0m",
+          "XXX.structure.structures.StrongholdPieces$StairsDown \u001b[2;31m-1M\u001b[0m",
+          "XXX.structure.structures.StrongholdPieces$Straight \u001b[2;31m-1M\u001b[0m",
+          "XXX.structure.structures.StrongholdPieces$StrongholdPiece \u001b[2;31m-1M\u001b[0m",
+          "XXX.structure.structures.StrongholdPieces$Turn \u001b[2;31m-1M\u001b[0m",
+          "XXX.structure.structures.WoodlandMansionStructure \u001b[2;32m+2M\u001b[0m \u001b[2;31m-3M\u001b[0m",
+          "XXX.structure.templatesystem.BlockRotProcessor \u001b[2;32m+5M\u001b[0m \u001b[2;31m-1M\u001b[0m | \u001b[2;32m+1P\u001b[0m"
+        ]
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.advancements.critereon.KilledTrigger$TriggerInstance",
+        "differences": {
+          "added": [],
+          "removed": [
+            "KilledTrigger$TriggerInstance playerKilledEntityNearSculkCatalyst()"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.client.OptionInstance",
+        "differences": {
+          "added": [
+            "OptionInstance createBoolean(String,Function,boolean)",
+            "OptionInstance createBoolean(String,Function,boolean,Consumer)",
+            "void <init>(String,Function,Function,OptionInstance$ValueSet,Object,Consumer)",
+            "void <init>(String,Function,Function,OptionInstance$ValueSet,Codec,Object,Consumer)",
+            "Function noTooltip()",
+            "Component getCaption()",
+            "OptionInstance$ValueSet clampingLazyMax(int,IntSupplier)",
+            "Object lambda$set$5(Object)",
+            "OptionInstance$TooltipSupplier lambda$noTooltip$4(Minecraft)",
+            "List lambda$noTooltip$3(Object)",
+            "Component lambda$createBoolean$2(Boolean)"
+          ],
+          "removed": [
+            "OptionInstance createBoolean(String,OptionInstance$TooltipSupplierFactory,boolean)",
+            "OptionInstance createBoolean(String,OptionInstance$TooltipSupplierFactory,boolean,Consumer)",
+            "void <init>(String,OptionInstance$TooltipSupplierFactory,OptionInstance$CaptionBasedToString,OptionInstance$ValueSet,Object,Consumer)",
+            "void <init>(String,OptionInstance$TooltipSupplierFactory,OptionInstance$CaptionBasedToString,OptionInstance$ValueSet,Codec,Object,Consumer)",
+            "OptionInstance$TooltipSupplierFactory noTooltip()",
+            "OptionInstance$TooltipSupplierFactory cachedConstantTooltip(Component)",
+            "OptionInstance$CaptionBasedToString forOptionEnum()",
+            "List splitTooltip(Minecraft,Component)",
+            "Object lambda$set$9(Object)",
+            "Component lambda$forOptionEnum$8(Component,OptionEnum)",
+            "OptionInstance$TooltipSupplier lambda$cachedConstantTooltip$7(Component,Minecraft)",
+            "List lambda$cachedConstantTooltip$6(List,Object)",
+            "OptionInstance$TooltipSupplier lambda$noTooltip$5(Minecraft)",
+            "List lambda$noTooltip$4(Object)",
+            "Component lambda$new$3(OptionInstance$CaptionBasedToString,Object)",
+            "Component lambda$createBoolean$2(Component,Boolean)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.client.OptionInstance$Enum",
+        "differences": {
+          "added": [
+            "Function createButton(OptionInstance$TooltipSupplier,Options,int,int,int)",
+            "AbstractWidget lambda$createButton$1(OptionInstance$TooltipSupplier,int,int,int,Options,OptionInstance)",
+            "void lambda$createButton$0(OptionInstance,Options,CycleButton,Object)"
+          ],
+          "removed": [
+            "CycleButton$ValueListSupplier valueListSupplier()"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.client.OptionInstance$IntRangeBase",
+        "differences": {
+          "added": [
+            "Function createButton(OptionInstance$TooltipSupplier,Options,int,int,int)",
+            "AbstractWidget lambda$createButton$0(Options,int,int,int,OptionInstance$TooltipSupplier,OptionInstance)"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.client.OptionInstance$LazyEnum",
+        "differences": {
+          "added": [
+            "Function createButton(OptionInstance$TooltipSupplier,Options,int,int,int)",
+            "AbstractWidget lambda$createButton$1(OptionInstance$TooltipSupplier,int,int,int,Options,OptionInstance)",
+            "void lambda$createButton$0(OptionInstance,Options,CycleButton,Object)"
+          ],
+          "removed": [
+            "CycleButton$ValueListSupplier valueListSupplier()"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.client.OptionInstance$UnitDouble",
+        "differences": {
+          "added": [
+            "Function createButton(OptionInstance$TooltipSupplier,Options,int,int,int)",
+            "Double lambda$codec$3(Either)",
+            "Double lambda$codec$2(Boolean)",
+            "Double lambda$codec$1(Double)",
+            "AbstractWidget lambda$createButton$0(Options,int,int,int,OptionInstance$TooltipSupplier,OptionInstance)"
+          ],
+          "removed": [
+            "Double lambda$codec$2(Either)",
+            "Double lambda$codec$1(Boolean)",
+            "Double lambda$codec$0(Double)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.client.gui.components.CycleButton$Builder",
+        "differences": {
+          "added": [],
+          "removed": [
+            "CycleButton$Builder withValues(CycleButton$ValueListSupplier)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.core.Direction",
+        "differences": {
+          "added": [
+            "Direction lambda$static$8(Direction,Direction)",
+            "Direction lambda$static$7(Direction)",
+            "Long lambda$static$6(Direction)",
+            "Direction[] lambda$static$5(int)",
+            "int lambda$static$4(Direction)",
+            "boolean lambda$static$3(Direction)",
+            "Direction[] lambda$static$2(int)",
+            "int lambda$static$1(Direction)",
+            "Direction lambda$static$0(Direction)"
+          ],
+          "removed": [
+            "Direction lambda$static$7(Direction,Direction)",
+            "Direction lambda$static$6(Direction)",
+            "Long lambda$static$5(Direction)",
+            "Direction[] lambda$static$4(int)",
+            "int lambda$static$3(Direction)",
+            "boolean lambda$static$2(Direction)",
+            "Direction[] lambda$static$1(int)",
+            "int lambda$static$0(Direction)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.core.Direction$Axis",
+        "differences": {
+          "added": [
+            "Direction$Axis lambda$static$0(Direction$Axis)"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.core.dispenser.BoatDispenseItemBehavior",
+        "differences": {
+          "added": [],
+          "removed": [
+            "void <init>(Boat$Type,boolean)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.data.recipes.RecipeProvider",
+        "differences": {
+          "added": [],
+          "removed": [
+            "void chestBoat(Consumer,ItemLike,ItemLike)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.util.Mth",
+        "differences": {
+          "added": [],
+          "removed": [
+            "float cube(float)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.entity.HumanoidArm",
+        "differences": {
+          "added": [
+            "void <init>(String,int,Component)",
+            "String toString()",
+            "Component getName()"
+          ],
+          "removed": [
+            "void <init>(String,int,int,String)",
+            "int getId()",
+            "String getKey()"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.entity.ai.behavior.BehaviorUtils",
+        "differences": {
+          "added": [],
+          "removed": [
+            "void setWalkAndLookTargetMemories(LivingEntity,PositionTracker,float,int)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.entity.animal.frog.ShootTongue",
+        "differences": {
+          "added": [],
+          "removed": [
+            "void eatEntity(ServerLevel,Frog)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.entity.monster.warden.AngerManagement",
+        "differences": {
+          "added": [
+            "LivingEntity lambda$getActiveEntity$6(Entity)",
+            "boolean lambda$getActiveEntity$5(Entity)",
+            "Integer lambda$addAnger$4(int,UUID,Integer)",
+            "void lambda$tick$3(UUID)",
+            "Integer lambda$tick$2(UUID,Integer)"
+          ],
+          "removed": [
+            "LivingEntity lambda$getActiveEntity$4(Entity)",
+            "boolean lambda$getActiveEntity$3(Entity)",
+            "Integer lambda$addAnger$2(int,UUID,Integer)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.entity.monster.warden.Warden",
+        "differences": {
+          "added": [
+            "float getEarAnimation(float)",
+            "Brain$Provider brainProvider()",
+            "void onSignalReceive(ServerLevel,GameEventListener,BlockPos,GameEvent,Entity,int)",
+            "Boolean lambda$onSignalReceive$3(Entity,LivingEntity)",
+            "boolean lambda$increaseAngerAt$2(LivingEntity)",
+            "void lambda$readAdditionalSaveData$1(AngerManagement)"
+          ],
+          "removed": [
+            "float getTendrilAnimation(float)",
+            "void onSignalReceive(ServerLevel,GameEventListener,BlockPos,GameEvent,Entity,Entity,int)",
+            "Boolean lambda$onSignalReceive$5(Entity,LivingEntity)",
+            "boolean lambda$increaseAngerAt$4(LivingEntity)",
+            "void lambda$readAdditionalSaveData$3(VibrationListener)",
+            "void lambda$readAdditionalSaveData$2(AngerManagement)",
+            "void lambda$addAdditionalSaveData$1(CompoundTag,Tag)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.entity.monster.warden.WardenAi",
+        "differences": {
+          "added": [
+            "Brain makeBrain(Warden,Brain)"
+          ],
+          "removed": [
+            "Brain makeBrain(Warden,Dynamic)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.entity.vehicle.Minecart",
+        "differences": {
+          "added": [],
+          "removed": [
+            "Item getDropItem()"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.entity.vehicle.MinecartCommandBlock",
+        "differences": {
+          "added": [],
+          "removed": [
+            "Item getDropItem()"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.entity.vehicle.MinecartFurnace",
+        "differences": {
+          "added": [
+            "void destroy(DamageSource)"
+          ],
+          "removed": [
+            "Item getDropItem()"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.entity.vehicle.MinecartSpawner",
+        "differences": {
+          "added": [],
+          "removed": [
+            "Item getDropItem()"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.entity.vehicle.MinecartTNT",
+        "differences": {
+          "added": [],
+          "removed": [
+            "Item getDropItem()"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.level.StructureManager",
+        "differences": {
+          "added": [
+            "List startsForStructure(SectionPos,Predicate)"
+          ],
+          "removed": [
+            "List startsForStructure(ChunkPos,Predicate)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.level.biome.Biome$TemperatureModifier",
+        "differences": {
+          "added": [
+            "Biome$TemperatureModifier byName(String)",
+            "Biome$TemperatureModifier lambda$static$0(Biome$TemperatureModifier)"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.level.block.NoteBlock",
+        "differences": {
+          "added": [
+            "void playNote(Level,BlockPos)"
+          ],
+          "removed": [
+            "void playNote(Entity,Level,BlockPos)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.level.block.SculkShriekerBlock",
+        "differences": {
+          "added": [
+            "void lambda$getTicker$4(Level,BlockPos,BlockState,SculkShriekerBlockEntity)",
+            "void lambda$shriek$3(ServerLevel,BlockPos,BlockState,WardenSpawnTracker)"
+          ],
+          "removed": [
+            "void lambda$getTicker$3(Level,BlockPos,BlockState,SculkShriekerBlockEntity)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.level.block.TripWireHookBlock",
+        "differences": {
+          "added": [
+            "void playSound(Level,BlockPos,boolean,boolean,boolean,boolean)"
+          ],
+          "removed": [
+            "void emitState(Level,BlockPos,boolean,boolean,boolean,boolean)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.level.block.entity.SculkSensorBlockEntity",
+        "differences": {
+          "added": [
+            "void onSignalReceive(ServerLevel,GameEventListener,BlockPos,GameEvent,Entity,int)"
+          ],
+          "removed": [
+            "void onSignalReceive(ServerLevel,GameEventListener,BlockPos,GameEvent,Entity,Entity,int)",
+            "void onSignalSchedule()"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.level.gameevent.vibrations.VibrationListener$ReceivingEvent",
+        "differences": {
+          "added": [
+            "void <init>(GameEvent,int,Vec3,UUID)",
+            "void <init>(GameEvent,int,Vec3,UUID,Entity)",
+            "Optional lambda$getEntity$1(ServerLevel)",
+            "App lambda$static$0(RecordCodecBuilder$Instance)"
+          ],
+          "removed": [
+            "void <init>(GameEvent,int,Vec3,UUID,UUID)",
+            "void <init>(GameEvent,int,Vec3,UUID,UUID,Entity)",
+            "UUID getProjectileOwner(Entity)",
+            "Optional getProjectileOwner(ServerLevel)",
+            "UUID projectileOwnerUuid()",
+            "Optional lambda$getProjectileOwner$7(ServerLevel)",
+            "Projectile lambda$getProjectileOwner$6(Entity)",
+            "boolean lambda$getProjectileOwner$5(Entity)",
+            "Optional lambda$getEntity$4(ServerLevel)",
+            "App lambda$static$3(RecordCodecBuilder$Instance)",
+            "VibrationListener$ReceivingEvent lambda$static$2(GameEvent,Integer,Vec3,Optional,Optional)",
+            "Optional lambda$static$1(VibrationListener$ReceivingEvent)",
+            "Optional lambda$static$0(VibrationListener$ReceivingEvent)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.level.levelgen.Beardifier",
+        "differences": {
+          "added": [
+            "void <init>(StructureManager,ChunkAccess)",
+            "double getBeardContribution(int,int,int)",
+            "void lambda$new$1(ChunkPos,int,int,StructureStart)"
+          ],
+          "removed": [
+            "Beardifier forStructuresInChunk(StructureManager,ChunkPos)",
+            "void <init>(ObjectListIterator,ObjectListIterator)",
+            "double getBeardContribution(int,int,int,int)",
+            "boolean isInKernelRange(int)",
+            "double computeBeardContribution(int,double,int)",
+            "void lambda$forStructuresInChunk$2(ChunkPos,ObjectList,int,int,ObjectList,StructureStart)",
+            "boolean lambda$forStructuresInChunk$1(Structure)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.level.levelgen.GenerationStep$Decoration",
+        "differences": {
+          "added": [
+            "GenerationStep$Decoration byName(String)",
+            "GenerationStep$Decoration lambda$static$0(GenerationStep$Decoration)"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.level.levelgen.structure.StructureSpawnOverride$BoundingBoxType",
+        "differences": {
+          "added": [
+            "StructureSpawnOverride$BoundingBoxType byName(String)",
+            "StructureSpawnOverride$BoundingBoxType[] lambda$static$0()"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.level.levelgen.structure.structures.JungleTempleStructure",
+        "differences": {
+          "added": [
+            "void <init>(HolderSet,Map,GenerationStep$Decoration,boolean)",
+            "App lambda$static$0(RecordCodecBuilder$Instance)"
+          ],
+          "removed": [
+            "void <init>(Structure$StructureSettings)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.level.levelgen.structure.structures.MineshaftStructure",
+        "differences": {
+          "added": [
+            "void <init>(HolderSet,Map,GenerationStep$Decoration,boolean,MineshaftStructure$Type)"
+          ],
+          "removed": [
+            "void <init>(Structure$StructureSettings,MineshaftStructure$Type)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.level.levelgen.structure.structures.NetherFossilStructure",
+        "differences": {
+          "added": [
+            "void <init>(HolderSet,Map,GenerationStep$Decoration,boolean,HeightProvider)"
+          ],
+          "removed": [
+            "void <init>(Structure$StructureSettings,HeightProvider)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.level.levelgen.structure.structures.OceanRuinStructure$Type",
+        "differences": {
+          "added": [
+            "OceanRuinStructure$Type byName(String)",
+            "OceanRuinStructure$Type lambda$static$0(OceanRuinStructure$Type)"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.level.levelgen.structure.structures.RuinedPortalStructure",
+        "differences": {
+          "added": [
+            "void <init>(HolderSet,Map,GenerationStep$Decoration,boolean,List)",
+            "void <init>(HolderSet,Map,GenerationStep$Decoration,boolean,RuinedPortalStructure$Setup)"
+          ],
+          "removed": [
+            "void <init>(Structure$StructureSettings,List)",
+            "void <init>(Structure$StructureSettings,RuinedPortalStructure$Setup)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.level.levelgen.structure.structures.ShipwreckStructure",
+        "differences": {
+          "added": [
+            "void <init>(HolderSet,Map,GenerationStep$Decoration,boolean,boolean)"
+          ],
+          "removed": [
+            "void <init>(Structure$StructureSettings,boolean)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.level.levelgen.structure.structures.StrongholdPieces$FillerCorridor",
+        "differences": {
+          "added": [
+            "NoiseEffect getNoiseEffect()"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.level.levelgen.structure.structures.StrongholdPieces$PrisonHall",
+        "differences": {
+          "added": [
+            "NoiseEffect getNoiseEffect()"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.level.levelgen.structure.structures.StrongholdPieces$RoomCrossing",
+        "differences": {
+          "added": [
+            "NoiseEffect getNoiseEffect()"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.level.levelgen.structure.structures.StrongholdPieces$StairsDown",
+        "differences": {
+          "added": [
+            "NoiseEffect getNoiseEffect()"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.level.levelgen.structure.structures.StrongholdPieces$Straight",
+        "differences": {
+          "added": [
+            "NoiseEffect getNoiseEffect()"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.level.levelgen.structure.structures.StrongholdPieces$StrongholdPiece",
+        "differences": {
+          "added": [
+            "NoiseEffect getNoiseEffect()"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.level.levelgen.structure.structures.StrongholdPieces$Turn",
+        "differences": {
+          "added": [
+            "NoiseEffect getNoiseEffect()"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.level.levelgen.structure.structures.WoodlandMansionStructure",
+        "differences": {
+          "added": [
+            "void <init>(HolderSet,Map,GenerationStep$Decoration,boolean)",
+            "void lambda$findGenerationPoint$1(Structure$GenerationContext,BlockPos,Rotation,StructurePiecesBuilder)",
+            "App lambda$static$0(RecordCodecBuilder$Instance)"
+          ],
+          "removed": [
+            "void <init>(Structure$StructureSettings)",
+            "void lambda$findGenerationPoint$0(Structure$GenerationContext,BlockPos,Rotation,StructurePiecesBuilder)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.level.levelgen.structure.templatesystem.BlockRotProcessor",
+        "differences": {
+          "added": [
+            "Float lambda$static$0(BlockRotProcessor)"
+          ],
+          "removed": [
+            "void <init>(TagKey,float)",
+            "void <init>(Optional,float)",
+            "App lambda$static$2(RecordCodecBuilder$Instance)",
+            "Float lambda$static$1(BlockRotProcessor)",
+            "Optional lambda$static$0(BlockRotProcessor)"
+          ]
+        }
+      }
+    }
+  ]
+}

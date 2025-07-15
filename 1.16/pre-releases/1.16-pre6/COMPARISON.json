@@ -1,0 +1,831 @@
+{
+  "version_data": [
+    {
+      "type": "table",
+      "value": {
+        "previousLabel": "1.16-pre5",
+        "currentLabel": "1.16-pre6",
+        "values": [
+          {
+            "key": "World version",
+            "previous": "2561",
+            "current": "2562"
+          },
+          {
+            "key": "Protocol version",
+            "previous": "729",
+            "current": "730"
+          }
+        ]
+      }
+    },
+    {
+      "type": "title",
+      "value": {
+        "title": "Libraries",
+        "id": "version-data-libraries",
+        "size": 3
+      }
+    },
+    {
+      "type": "table",
+      "value": {
+        "title": "Versions",
+        "previousLabel": "1.16-pre5",
+        "currentLabel": "1.16-pre6",
+        "values": [
+          {
+            "key": "org.lwjgl:lwjgl-glfw",
+            "previous": "3.2.1",
+            "current": "3.2.2"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-glfw",
+            "previous": "3.2.1",
+            "current": "3.2.2"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-jemalloc",
+            "previous": "3.2.1",
+            "current": "3.2.2"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-jemalloc",
+            "previous": "3.2.1",
+            "current": "3.2.2"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-openal",
+            "previous": "3.2.1",
+            "current": "3.2.2"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-openal",
+            "previous": "3.2.1",
+            "current": "3.2.2"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-opengl",
+            "previous": "3.2.1",
+            "current": "3.2.2"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-opengl",
+            "previous": "3.2.1",
+            "current": "3.2.2"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-stb",
+            "previous": "3.2.1",
+            "current": "3.2.2"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-stb",
+            "previous": "3.2.1",
+            "current": "3.2.2"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-tinyfd",
+            "previous": "3.2.1",
+            "current": "3.2.2"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-tinyfd",
+            "previous": "3.2.1",
+            "current": "3.2.2"
+          },
+          {
+            "key": "org.lwjgl:lwjgl",
+            "previous": "3.2.1",
+            "current": "3.2.2"
+          },
+          {
+            "key": "org.lwjgl:lwjgl",
+            "previous": "3.2.1",
+            "current": "3.2.2"
+          }
+        ]
+      }
+    }
+  ],
+  "translations": [
+    {
+      "type": "entries",
+      "value": {
+        "name": "Keys",
+        "differences": {
+          "added": [
+            "gui.recipebook.search_hint: Search..."
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "text",
+      "value": {
+        "title": "Changes",
+        "values": [
+          {
+            "key": "subtitles.entity.zombified_piglin.angry",
+            "previous": "Zombified Piglin angers",
+            "current": "Zombified Piglin grunts angrily"
+          }
+        ]
+      }
+    }
+  ],
+  "mappings": [
+    {
+      "type": "title",
+      "value": {
+        "title": "Server",
+        "id": "server-mappings",
+        "size": 2
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "Classes",
+        "differences": {
+          "added": [],
+          "removed": [
+            "XXX.advancements.critereon.PlayerInteractTrigger$TriggerInstance"
+          ]
+        }
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "Changes",
+        "lines": [
+          "XXX.server.level.ServerPlayerGameMode \u001b[2;32m+2M\u001b[0m | \u001b[2;32m+1P\u001b[0m",
+          "XXX.datafix.fixes.BlockRenameFixWithJigsaw \u001b[2;31m-1P\u001b[0m",
+          "XXX.ai.goal.RangedCrossbowAttackGoal \u001b[2;32m+1M\u001b[0m | \u001b[2;32m+2P\u001b[0m",
+          "XXX.ai.sensing.PiglinSpecificSensor \u001b[2;32m+1M\u001b[0m",
+          "XXX.entity.monster.Strider \u001b[2;32m+2M\u001b[0m",
+          "XXX.entity.monster.ZombifiedPiglin \u001b[2;32m+1M\u001b[0m | \u001b[2;32m+2P\u001b[0m \u001b[2;31m-2P\u001b[0m",
+          "XXX.monster.hoglin.HoglinAi \u001b[2;32m+4M\u001b[0m \u001b[2;31m-4M\u001b[0m",
+          "XXX.monster.piglin.Piglin \u001b[2;32m+1M\u001b[0m \u001b[2;31m-7M\u001b[0m",
+          "XXX.monster.piglin.PiglinAi \u001b[2;32m+5M\u001b[0m \u001b[2;31m-3M\u001b[0m | \u001b[2;32m+1P\u001b[0m",
+          "XXX.entity.projectile.ThrownEnderpearl \u001b[2;31m-1M\u001b[0m",
+          "XXX.world.level.Level \u001b[2;32m+2M\u001b[0m \u001b[2;31m-1M\u001b[0m",
+          "XXX.level.block.Block \u001b[2;32m+1M\u001b[0m",
+          "XXX.level.block.RedStoneWireBlock \u001b[2;32m+1M\u001b[0m \u001b[2;31m-1M\u001b[0m | \u001b[2;32m+1P\u001b[0m \u001b[2;31m-1P\u001b[0m",
+          "XXX.level.block.RedstoneLampBlock \u001b[2;31m-1M\u001b[0m",
+          "XXX.block.state.BlockBehaviour \u001b[2;32m+1M\u001b[0m \u001b[2;31m-1M\u001b[0m",
+          "XXX.block.state.BlockBehaviour$BlockStateBase \u001b[2;32m+2M\u001b[0m",
+          "XXX.level.material.MaterialColor \u001b[2;32m+7P\u001b[0m"
+        ]
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.server.level.ServerPlayerGameMode",
+        "differences": {
+          "added": [],
+          "removed": [
+            "void setGameModeForPlayer(GameType,GameType)",
+            "GameType getPreviousGameModeForPlayer()"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.entity.ai.goal.RangedCrossbowAttackGoal",
+        "differences": {
+          "added": [],
+          "removed": [
+            "void <clinit>()"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.entity.ai.sensing.PiglinSpecificSensor",
+        "differences": {
+          "added": [],
+          "removed": [
+            "boolean isValidRepellent(ServerLevel,BlockPos)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.entity.monster.Strider",
+        "differences": {
+          "added": [],
+          "removed": [
+            "boolean isPanicking()",
+            "boolean isBeingTempted()"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.entity.monster.ZombifiedPiglin",
+        "differences": {
+          "added": [],
+          "removed": [
+            "void maybePlayFirstAngerSound()"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.entity.monster.hoglin.HoglinAi",
+        "differences": {
+          "added": [
+            "void playActivitySound(Hoglin)",
+            "void maybePlayActivitySound(Hoglin)",
+            "boolean isIdle(Hoglin)",
+            "void lambda$playActivitySound$2(Hoglin,Activity)"
+          ],
+          "removed": [
+            "Optional getSoundForCurrentActivity(Hoglin)",
+            "SoundEvent getSoundForActivity(Hoglin,Activity)",
+            "boolean isNearRepellent(Hoglin)",
+            "SoundEvent lambda$getSoundForCurrentActivity$2(Hoglin,Activity)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.entity.monster.piglin.Piglin",
+        "differences": {
+          "added": [
+            "void playAdmiringSound()",
+            "void playAmbientSound()",
+            "void playAngrySound()",
+            "void playCelebrateSound()",
+            "void playRetreatSound()",
+            "void playJealousSound()",
+            "void playConvertedSound()"
+          ],
+          "removed": [
+            "void playSound(SoundEvent)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.entity.monster.piglin.PiglinAi",
+        "differences": {
+          "added": [
+            "void playActivitySound(Piglin)",
+            "void maybePlayActivitySound(Piglin)",
+            "void lambda$playActivitySound$6(Piglin,Activity)"
+          ],
+          "removed": [
+            "CopyMemoryWithExpiry babyAvoidNemesis()",
+            "void holdInOffhand(Piglin,ItemStack)",
+            "Optional getSoundForCurrentActivity(Piglin)",
+            "SoundEvent getSoundForActivity(Piglin,Activity)",
+            "SoundEvent lambda$getSoundForCurrentActivity$6(Piglin,Activity)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.entity.projectile.ThrownEnderpearl",
+        "differences": {
+          "added": [
+            "void onHitBlock(BlockHitResult)"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.level.Level",
+        "differences": {
+          "added": [
+            "boolean destroyBlock(BlockPos,boolean,Entity)"
+          ],
+          "removed": [
+            "boolean setBlock(BlockPos,BlockState,int,int)",
+            "boolean destroyBlock(BlockPos,boolean,Entity,int)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.level.block.Block",
+        "differences": {
+          "added": [],
+          "removed": [
+            "void updateOrDestroy(BlockState,BlockState,LevelAccessor,BlockPos,int,int)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.level.block.RedStoneWireBlock",
+        "differences": {
+          "added": [
+            "void updateIndirectNeighbourShapes(BlockState,LevelAccessor,BlockPos,int)"
+          ],
+          "removed": [
+            "void updateIndirectNeighbourShapes(BlockState,LevelAccessor,BlockPos,int,int)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.level.block.RedstoneLampBlock",
+        "differences": {
+          "added": [
+            "void onPlace(BlockState,Level,BlockPos,BlockState,boolean)"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.level.block.state.BlockBehaviour",
+        "differences": {
+          "added": [
+            "void updateIndirectNeighbourShapes(BlockState,LevelAccessor,BlockPos,int)"
+          ],
+          "removed": [
+            "void updateIndirectNeighbourShapes(BlockState,LevelAccessor,BlockPos,int,int)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.level.block.state.BlockBehaviour$BlockStateBase",
+        "differences": {
+          "added": [],
+          "removed": [
+            "void updateNeighbourShapes(LevelAccessor,BlockPos,int,int)",
+            "void updateIndirectNeighbourShapes(LevelAccessor,BlockPos,int,int)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "title",
+      "value": {
+        "title": "Client",
+        "id": "client-mappings",
+        "size": 2
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "Classes",
+        "differences": {
+          "added": [
+            "XXX.blaze3d.vertex.BreakingTextureGenerator",
+            "XXX.blaze3d.vertex.BufferBuilder$1",
+            "XXX.blaze3d.vertex.BufferBuilder$State",
+            "XXX.blaze3d.vertex.BufferVertexConsumer",
+            "XXX.blaze3d.vertex.DefaultedVertexConsumer",
+            "XXX.blaze3d.vertex.PoseStack$1"
+          ],
+          "removed": [
+            "XXX.blaze3d.vertex.BufferBuilder",
+            "XXX.blaze3d.vertex.BufferBuilder$DrawState",
+            "XXX.blaze3d.vertex.BufferUploader",
+            "XXX.blaze3d.vertex.DefaultVertexFormat",
+            "XXX.blaze3d.vertex.PoseStack",
+            "XXX.blaze3d.vertex.PoseStack$Pose",
+            "XXX.advancements.critereon.PlayerInteractTrigger"
+          ]
+        }
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "Changes",
+        "lines": [
+          "XXX.blaze3d.platform.InputConstants$Key \u001b[2;32m+1M\u001b[0m",
+          "XXX.minecraft.advancements.CriteriaTriggers \u001b[2;32m+1P\u001b[0m",
+          "XXX.advancements.critereon.EntityPredicate \u001b[2;32m+1M\u001b[0m",
+          "XXX.gui.components.CommandSuggestions \u001b[2;32m+1M\u001b[0m",
+          "XXX.gui.components.CommandSuggestions$SuggestionsList \u001b[2;32m+2M\u001b[0m \u001b[2;31m-2M\u001b[0m | \u001b[2;32m+1P\u001b[0m \u001b[2;31m-1P\u001b[0m",
+          "XXX.screens.debug.GameModeSwitcherScreen \u001b[2;32m+1M\u001b[0m",
+          "XXX.screens.inventory.AbstractContainerScreen \u001b[2;32m+1M\u001b[0m",
+          "XXX.screens.recipebook.RecipeBookComponent \u001b[2;32m+1P\u001b[0m",
+          "XXX.renderer.debug.BeeDebugRenderer \u001b[2;32m+9M\u001b[0m \u001b[2;31m-7M\u001b[0m",
+          "XXX.renderer.entity.ItemRenderer \u001b[2;32m+2M\u001b[0m",
+          "XXX.resources.sounds.AbstractSoundInstance \u001b[2;32m+1M\u001b[0m",
+          "XXX.data.advancements.NetherAdvancements \u001b[2;32m+1P\u001b[0m",
+          "XXX.protocol.game.ClientboundLoginPacket \u001b[2;32m+2M\u001b[0m \u001b[2;31m-1M\u001b[0m | \u001b[2;32m+1P\u001b[0m",
+          "XXX.protocol.game.ClientboundRespawnPacket \u001b[2;32m+2M\u001b[0m \u001b[2;31m-1M\u001b[0m | \u001b[2;32m+1P\u001b[0m",
+          "XXX.server.level.FeatureSimulator \u001b[2;32m+2M\u001b[0m \u001b[2;31m-2M\u001b[0m",
+          "XXX.server.level.WorldGenRegion \u001b[2;32m+2M\u001b[0m \u001b[2;31m-2M\u001b[0m",
+          "XXX.util.datafix.DataFixers \u001b[2;32m+4M\u001b[0m \u001b[2;31m-30M\u001b[0m",
+          "XXX.datafix.fixes.EntityRedundantChanceTagsFix \u001b[2;32m+5M\u001b[0m \u001b[2;31m-3M\u001b[0m | \u001b[2;32m+1P\u001b[0m",
+          "XXX.datafix.fixes.WorldGenSettingsFix \u001b[2;32m+9M\u001b[0m \u001b[2;31m-8M\u001b[0m",
+          "XXX.world.entity.Entity \u001b[2;32m+1M\u001b[0m",
+          "XXX.world.entity.Mob \u001b[2;32m+1M\u001b[0m",
+          "XXX.entity.monster.Phantom$PhantomAttackPlayerTargetGoal \u001b[2;31m-1M\u001b[0m",
+          "XXX.entity.monster.Zoglin \u001b[2;31m-3M\u001b[0m",
+          "XXX.monster.hoglin.Hoglin \u001b[2;32m+1M\u001b[0m \u001b[2;31m-4M\u001b[0m",
+          "XXX.world.level.LevelWriter \u001b[2;32m+2M\u001b[0m | \u001b[2;32m+2P\u001b[0m \u001b[2;31m-2P\u001b[0m"
+        ]
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "com.mojang.blaze3d.platform.InputConstants$Key",
+        "differences": {
+          "added": [],
+          "removed": [
+            "OptionalInt getNumericKeyValue()"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.advancements.critereon.EntityPredicate",
+        "differences": {
+          "added": [],
+          "removed": [
+            "void <init>(EntityTypePredicate,DistancePredicate,LocationPredicate,MobEffectsPredicate,NbtPredicate,EntityFlagsPredicate,EntityEquipmentPredicate,PlayerPredicate,FishingHookPredicate,String,ResourceLocation)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.client.gui.components.CommandSuggestions",
+        "differences": {
+          "added": [],
+          "removed": [
+            "List sortSuggestions(Suggestions)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.client.gui.components.CommandSuggestions$SuggestionsList",
+        "differences": {
+          "added": [
+            "void <init>(CommandSuggestions,int,int,int,Suggestions,boolean)",
+            "void <init>(CommandSuggestions,int,int,int,Suggestions,boolean,CommandSuggestions$1)"
+          ],
+          "removed": [
+            "void <init>(CommandSuggestions,int,int,int,List,boolean)",
+            "void <init>(CommandSuggestions,int,int,int,List,boolean,CommandSuggestions$1)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.client.gui.screens.debug.GameModeSwitcherScreen",
+        "differences": {
+          "added": [],
+          "removed": [
+            "GameType getDefaultSelected()"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.client.gui.screens.inventory.AbstractContainerScreen",
+        "differences": {
+          "added": [],
+          "removed": [
+            "void checkHotbarMouseClicked(int)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.client.renderer.debug.BeeDebugRenderer",
+        "differences": {
+          "added": [
+            "void addBeeToSetInMap(Map,BeeDebugRenderer$BeeInfo,BlockPos)",
+            "void lambda$updateLastLookedAtUuid$11(Entity)",
+            "boolean lambda$getHiveMembers$10(BlockPos,BeeDebugRenderer$BeeInfo)",
+            "void lambda$renderFlowerInfos$9(Map$Entry)",
+            "void lambda$renderFlowerInfos$8(Map,BeeDebugRenderer$BeeInfo)",
+            "void lambda$createHiveBlacklistMap$7(Map,BeeDebugRenderer$BeeInfo)",
+            "void lambda$null$6(Map,BeeDebugRenderer$BeeInfo,BlockPos)"
+          ],
+          "removed": [
+            "void lambda$updateLastLookedAtUuid$14(Entity)",
+            "List lambda$getGhostHives$13(BlockPos)",
+            "boolean lambda$getHiveMembers$12(BlockPos,BeeDebugRenderer$BeeInfo)",
+            "void lambda$renderFlowerInfos$11(Map$Entry)",
+            "void lambda$renderFlowerInfos$10(Map,BeeDebugRenderer$BeeInfo)",
+            "Set lambda$null$9(BlockPos)",
+            "void lambda$createHiveBlacklistMap$8(Map,BeeDebugRenderer$BeeInfo)",
+            "void lambda$null$7(Map,BeeDebugRenderer$BeeInfo,BlockPos)",
+            "Set lambda$null$6(BlockPos)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.client.renderer.entity.ItemRenderer",
+        "differences": {
+          "added": [],
+          "removed": [
+            "VertexConsumer getCompassFoilBuffer(MultiBufferSource,RenderType,PoseStack$Pose)",
+            "VertexConsumer getCompassFoilBufferDirect(MultiBufferSource,RenderType,PoseStack$Pose)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.client.resources.sounds.AbstractSoundInstance",
+        "differences": {
+          "added": [],
+          "removed": [
+            "String toString()"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.network.protocol.game.ClientboundLoginPacket",
+        "differences": {
+          "added": [
+            "void <init>(int,GameType,long,boolean,Set,RegistryAccess$RegistryHolder,ResourceKey,ResourceKey,int,int,boolean,boolean,boolean,boolean)"
+          ],
+          "removed": [
+            "void <init>(int,GameType,GameType,long,boolean,Set,RegistryAccess$RegistryHolder,ResourceKey,ResourceKey,int,int,boolean,boolean,boolean,boolean)",
+            "GameType getPreviousGameType()"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.network.protocol.game.ClientboundRespawnPacket",
+        "differences": {
+          "added": [
+            "void <init>(ResourceKey,ResourceKey,long,GameType,boolean,boolean,boolean)"
+          ],
+          "removed": [
+            "void <init>(ResourceKey,ResourceKey,long,GameType,GameType,boolean,boolean,boolean)",
+            "GameType getPreviousPlayerGameType()"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.server.level.FeatureSimulator",
+        "differences": {
+          "added": [
+            "boolean setBlock(BlockPos,BlockState,int)",
+            "boolean destroyBlock(BlockPos,boolean,Entity)"
+          ],
+          "removed": [
+            "boolean setBlock(BlockPos,BlockState,int,int)",
+            "boolean destroyBlock(BlockPos,boolean,Entity,int)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.server.level.WorldGenRegion",
+        "differences": {
+          "added": [
+            "boolean destroyBlock(BlockPos,boolean,Entity)",
+            "boolean setBlock(BlockPos,BlockState,int)"
+          ],
+          "removed": [
+            "boolean destroyBlock(BlockPos,boolean,Entity,int)",
+            "boolean setBlock(BlockPos,BlockState,int,int)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.util.datafix.DataFixers",
+        "differences": {
+          "added": [
+            "String lambda$addFixers$32(String)",
+            "String lambda$addFixers$31(String)",
+            "String lambda$addFixers$30(String)",
+            "String lambda$addFixers$29(String)",
+            "String lambda$addFixers$28(String)",
+            "String lambda$addFixers$27(String)",
+            "String lambda$addFixers$26(String)",
+            "String lambda$addFixers$25(String)",
+            "String lambda$addFixers$24(String)",
+            "String lambda$addFixers$23(String)",
+            "String lambda$addFixers$22(String)",
+            "String lambda$addFixers$21(String)",
+            "String lambda$addFixers$20(String)",
+            "String lambda$addFixers$19(String)",
+            "String lambda$addFixers$18(String)",
+            "String lambda$addFixers$17(String)",
+            "String lambda$addFixers$16(String)",
+            "String lambda$addFixers$15(String)",
+            "String lambda$addFixers$14(String)",
+            "String lambda$addFixers$13(String)",
+            "String lambda$addFixers$12(String)",
+            "String lambda$addFixers$11(String)",
+            "String lambda$addFixers$10(String)",
+            "String lambda$addFixers$9(String)",
+            "String lambda$addFixers$8(String)",
+            "String lambda$addFixers$7(String)",
+            "String lambda$addFixers$6(String)",
+            "String lambda$addFixers$5(String)",
+            "String lambda$addFixers$4(String)",
+            "String lambda$addFixers$3(String)"
+          ],
+          "removed": [
+            "UnaryOperator createRenamer(Map)",
+            "UnaryOperator createRenamer(String,String)",
+            "String lambda$createRenamer$4(String,String,String)",
+            "String lambda$createRenamer$3(Map,String)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.util.datafix.fixes.EntityRedundantChanceTagsFix",
+        "differences": {
+          "added": [
+            "Typed lambda$makeRule$3(Typed)",
+            "Dynamic lambda$null$2(Dynamic)",
+            "Dynamic lambda$null$1(Dynamic)"
+          ],
+          "removed": [
+            "boolean isZeroList(OptionalDynamic,int)",
+            "Boolean lambda$isZeroList$3(int,List)",
+            "boolean lambda$null$2(Float)",
+            "Typed lambda$makeRule$1(Typed)",
+            "void <clinit>()"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.util.datafix.fixes.WorldGenSettingsFix",
+        "differences": {
+          "added": [
+            "Dynamic lambda$fixFlatStructures$11(DynamicOps,Map$Entry)",
+            "Dynamic lambda$fixFlatStructures$10(OptionalDynamic,Map$Entry)",
+            "void lambda$fixFlatStructures$9(MutableBoolean,MutableInt,MutableInt,MutableInt,Map,Map)",
+            "void lambda$null$8(MutableBoolean,MutableInt,MutableInt,MutableInt,Map,Dynamic,Dynamic)",
+            "void lambda$null$7(Dynamic,MutableBoolean,MutableInt,MutableInt,MutableInt,Map,Map)",
+            "void lambda$null$6(Dynamic,MutableBoolean,MutableInt,MutableInt,MutableInt,Map,Dynamic,Dynamic)",
+            "void lambda$fix$5(ImmutableMap$Builder,DynamicOps,String)",
+            "Optional lambda$fix$4(Dynamic)"
+          ],
+          "removed": [
+            "Dynamic lambda$fixFlatStructures$12(DynamicOps,Map$Entry)",
+            "Dynamic lambda$fixFlatStructures$11(OptionalDynamic,Map$Entry)",
+            "void lambda$fixFlatStructures$10(MutableBoolean,MutableInt,MutableInt,MutableInt,Map,Map)",
+            "void lambda$null$9(MutableBoolean,MutableInt,MutableInt,MutableInt,Map,Dynamic,Dynamic)",
+            "void lambda$null$8(Dynamic,MutableBoolean,MutableInt,MutableInt,MutableInt,Map,Map)",
+            "void lambda$null$7(Dynamic,MutableBoolean,MutableInt,MutableInt,MutableInt,Map,Dynamic,Dynamic)",
+            "void lambda$fix$6(ImmutableMap$Builder,DynamicOps,String)",
+            "Optional lambda$fix$5(Dynamic)",
+            "Dynamic lambda$fix$4(Dynamic)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.entity.Entity",
+        "differences": {
+          "added": [],
+          "removed": [
+            "void removeAfterChangingDimensions()"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.entity.Mob",
+        "differences": {
+          "added": [],
+          "removed": [
+            "void removeAfterChangingDimensions()"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.entity.monster.Phantom$PhantomAttackPlayerTargetGoal",
+        "differences": {
+          "added": [
+            "int lambda$canUse$0(Player,Player)"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.entity.monster.Zoglin",
+        "differences": {
+          "added": [
+            "void playActivitySound()",
+            "void maybePlayActivitySound()",
+            "float getMovementSpeed()"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.entity.monster.hoglin.Hoglin",
+        "differences": {
+          "added": [
+            "void playAmbientSound()",
+            "void playAngrySound()",
+            "void playRetreatSound()",
+            "void playConvertedSound()"
+          ],
+          "removed": [
+            "void playSound(SoundEvent)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.level.LevelWriter",
+        "differences": {
+          "added": [],
+          "removed": [
+            "boolean setBlock(BlockPos,BlockState,int)",
+            "boolean destroyBlock(BlockPos,boolean,Entity)"
+          ]
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "recipes": [
+    {
+      "type": "entries",
+      "value": {
+        "name": "🗒️ List",
+        "differences": {
+          "added": [
+            "dried_kelp_block.json",
+            "dried_kelp_from_smelting.json"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "dried_kelp.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m smelting -> crafting_shapeless\n\u001b[1;2mResult:\u001b[0m \u001b[2;0mdried_kelp\u001b[0m \u001b[2;33mx1\u001b[0m -> \u001b[2;0mdried_kelp\u001b[0m \u001b[2;33mx9\u001b[0m"
+        ]
+      }
+    }
+  ],
+  "translations": [
+    {
+      "type": "entries",
+      "value": {
+        "name": "Keys",
+        "differences": {
+          "added": [
+            "item.minecraft.pufferfish_bucket: Puffer Fish Bucket",
+            "item.minecraft.salmon_bucket: Salmon Bucket",
+            "item.minecraft.cod_bucket: Cod Bucket",
+            "item.minecraft.cod_mob_spawn_egg: Spawn Cod",
+            "item.minecraft.puffer_fish_spawn_egg: Spawn Puffer Fish",
+            "item.minecraft.salmon_mob_spawn_egg: Spawn Salmon"
+          ],
+          "removed": []
+        }
+      }
+    }
+  ],
+  "file_structure": [
+    {
+      "type": "entries",
+      "value": {
+        "name": "data",
+        "differences": {
+          "added": [
+            "minecraft/advancements/recipes/building_blocks/dried_kelp_block.json",
+            "minecraft/advancements/recipes/food/dried_kelp_from_smelting.json",
+            "minecraft/loot_tables/entities/cod_mob.json",
+            "minecraft/loot_tables/entities/puffer_fish.json",
+            "minecraft/loot_tables/entities/salmon_mob.json",
+            "minecraft/recipes/dried_kelp_block.json",
+            "minecraft/recipes/dried_kelp_from_smelting.json"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "assets",
+        "differences": {
+          "added": [
+            "minecraft/models/item/cod_bucket.json",
+            "minecraft/models/item/cod_mob_spawn_egg.json",
+            "minecraft/models/item/pufferfish_bucket.json",
+            "minecraft/models/item/puffer_fish_spawn_egg.json",
+            "minecraft/models/item/salmon_bucket.json",
+            "minecraft/models/item/salmon_mob_spawn_egg.json",
+            "minecraft/textures/entity/fish/cod_mob.png",
+            "minecraft/textures/entity/fish/pufferfish.png",
+            "minecraft/textures/entity/fish/salmon_mob.png",
+            "minecraft/textures/items/clownfish_bucket.png",
+            "minecraft/textures/items/cod_bucket.png",
+            "minecraft/textures/items/fish_pufferfish_raw.png",
+            "minecraft/textures/items/pufferfish_bucket.png",
+            "minecraft/textures/items/salmon_bucket.png"
+          ],
+          "removed": []
+        }
+      }
+    }
+  ]
+}

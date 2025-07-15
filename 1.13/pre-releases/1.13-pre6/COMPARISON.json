@@ -1,0 +1,81 @@
+{
+  "version_data": [
+    {
+      "type": "title",
+      "value": {
+        "title": "Libraries",
+        "id": "version-data-libraries",
+        "size": 3
+      }
+    },
+    {
+      "type": "table",
+      "value": {
+        "title": "Versions",
+        "previousLabel": "1.13-pre5",
+        "currentLabel": "1.13-pre6",
+        "values": [
+          {
+            "key": "com.mojang:datafixerupper",
+            "previous": "1.0.3",
+            "current": "1.0.12"
+          }
+        ]
+      }
+    }
+  ],
+  "translations": [
+    {
+      "type": "entries",
+      "value": {
+        "name": "Keys",
+        "differences": {
+          "added": [
+            "menu.working: Working...",
+            "menu.savingChunks: Saving chunks",
+            "menu.preparingSpawn: Preparing spawn area",
+            "multiplayer.message_not_delivered: Can't deliver chat message, check server logs",
+            "multiplayer.status.finished: Finished",
+            "multiplayer.status.quitting: Quitting",
+            "multiplayer.status.request_handled: Status requst has been handled",
+            "connect.aborted: Aborted",
+            "debug.inspect.help: F3 + I = Copy entity or block data to clipboard",
+            "debug.inspect.block: Copied block data to clipboard",
+            "debug.inspect.entity: Copied entity data to clipboard",
+            "commands.replaceitem.entity.failed: Could not put %s in slot %s"
+          ],
+          "removed": [
+            "options.forceUnicodeFont: Force Unicode Font"
+          ]
+        }
+      }
+    },
+    {
+      "type": "text",
+      "value": {
+        "title": "Changes",
+        "values": [
+          {
+            "key": "commands.replaceitem.slot.inapplicable",
+            "previous": "The target does not have the specified slot",
+            "current": "The target does not have slot %s"
+          }
+        ]
+      }
+    }
+  ],
+  "file_structure": [
+    {
+      "type": "entries",
+      "value": {
+        "name": "assets",
+        "differences": {
+          "added": [],
+          "removed": [
+            "minecraft/textures/font/ascii.png"
+          ]
+        }
+      }
+    }
+  ]
+}

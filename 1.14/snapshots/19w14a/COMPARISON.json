@@ -1,0 +1,78 @@
+{
+  "version_data": [
+    {
+      "type": "table",
+      "value": {
+        "previousLabel": "19w13b",
+        "currentLabel": "19w14a",
+        "values": [
+          {
+            "key": "World version",
+            "previous": "1943",
+            "current": "1944"
+          },
+          {
+            "key": "Protocol version",
+            "previous": "469",
+            "current": "470"
+          }
+        ]
+      }
+    }
+  ],
+  "translations": [
+    {
+      "type": "entries",
+      "value": {
+        "name": "Keys",
+        "differences": {
+          "added": [
+            "narrator.controls.reset: Reset %s button",
+            "narrator.controls.bound: %s is bound to %s",
+            "narrator.controls.unbound: %s is not bound",
+            "narrator.select.world: Selected %s, last played: %s, %s, %s, version: %s",
+            "narrator.loading.done: Done"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "text",
+      "value": {
+        "title": "Changes",
+        "values": [
+          {
+            "key": "narrator.button.difficulty_lock",
+            "previous": "Difficulity lock",
+            "current": "Difficulty lock"
+          },
+          {
+            "key": "narrator.loading",
+            "previous": "Loading",
+            "current": "Loading: %s"
+          },
+          {
+            "key": "block.minecraft.jigsaw",
+            "previous": "Jigsaw block",
+            "current": "Jigsaw Block"
+          }
+        ]
+      }
+    }
+  ],
+  "misc": [
+    {
+      "type": "entries",
+      "value": {
+        "name": "splashes",
+        "differences": {
+          "added": [
+            "It came from space."
+          ],
+          "removed": []
+        }
+      }
+    }
+  ]
+}

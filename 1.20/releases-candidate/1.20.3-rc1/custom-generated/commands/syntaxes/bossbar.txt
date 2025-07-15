@@ -1,0 +1,24 @@
+bossbar add <id: resource_location> <name: component>
+bossbar get <id: resource_location> max
+bossbar get <id: resource_location> players
+bossbar get <id: resource_location> value
+bossbar get <id: resource_location> visible
+bossbar list
+bossbar remove <id: resource_location>
+bossbar set <id: resource_location> color blue
+bossbar set <id: resource_location> color green
+bossbar set <id: resource_location> color pink
+bossbar set <id: resource_location> color purple
+bossbar set <id: resource_location> color red
+bossbar set <id: resource_location> color white
+bossbar set <id: resource_location> color yellow
+bossbar set <id: resource_location> max <max: integer>
+bossbar set <id: resource_location> name <name: component>
+bossbar set <id: resource_location> players <targets: entity>
+bossbar set <id: resource_location> style notched_10
+bossbar set <id: resource_location> style notched_12
+bossbar set <id: resource_location> style notched_20
+bossbar set <id: resource_location> style notched_6
+bossbar set <id: resource_location> style progress
+bossbar set <id: resource_location> value <value: integer>
+bossbar set <id: resource_location> visible <visible: bool>

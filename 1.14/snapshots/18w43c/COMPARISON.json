@@ -1,0 +1,43 @@
+{
+  "version_data": [
+    {
+      "type": "title",
+      "value": {
+        "title": "Libraries",
+        "id": "version-data-libraries",
+        "size": 3
+      }
+    },
+    {
+      "type": "table",
+      "value": {
+        "title": "Versions",
+        "previousLabel": "18w43b",
+        "currentLabel": "18w43c",
+        "values": [
+          {
+            "key": "com.mojang:realms",
+            "previous": "1.13.3",
+            "current": "1.14.0"
+          }
+        ]
+      }
+    }
+  ],
+  "translations": [
+    {
+      "type": "entries",
+      "value": {
+        "name": "Keys",
+        "differences": {
+          "added": [
+            "argument.time.invalid_tick_count: Tick count must be non-negative"
+          ],
+          "removed": [
+            "argument.time.not_nonnegative_integer: Not a non-negative integer: %s"
+          ]
+        }
+      }
+    }
+  ]
+}

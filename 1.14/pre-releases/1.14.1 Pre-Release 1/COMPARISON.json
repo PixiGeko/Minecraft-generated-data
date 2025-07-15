@@ -1,0 +1,80 @@
+{
+  "version_data": [
+    {
+      "type": "table",
+      "value": {
+        "previousLabel": "1.14",
+        "currentLabel": "1.14.1 Pre-Release 1",
+        "values": [
+          {
+            "key": "World version",
+            "previous": "1952",
+            "current": "1955"
+          },
+          {
+            "key": "Protocol version",
+            "previous": "477",
+            "current": "478"
+          }
+        ]
+      }
+    }
+  ],
+  "registries": [
+    {
+      "type": "entries",
+      "value": {
+        "name": "memory_module_type",
+        "differences": {
+          "added": [
+            "minecraft:cant_reach_walk_target_since"
+          ],
+          "removed": []
+        }
+      }
+    }
+  ],
+  "tags": [
+    {
+      "type": "entries",
+      "value": {
+        "name": "universal_tags/memory_module_type.json",
+        "differences": {
+          "added": [
+            "minecraft:cant_reach_walk_target_since"
+          ],
+          "removed": []
+        }
+      }
+    }
+  ],
+  "translations": [
+    {
+      "type": "entries",
+      "value": {
+        "name": "Keys",
+        "differences": {
+          "added": [
+            "menu.paused: Game paused",
+            "debug.pause.help: F3 + Esc = Pause without pause menu (if pausing is possible)"
+          ],
+          "removed": []
+        }
+      }
+    }
+  ],
+  "misc": [
+    {
+      "type": "entries",
+      "value": {
+        "name": "splashes",
+        "differences": {
+          "added": [
+            "Awesome game design right there!"
+          ],
+          "removed": []
+        }
+      }
+    }
+  ]
+}

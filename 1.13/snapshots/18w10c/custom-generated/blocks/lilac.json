@@ -1,0 +1,17 @@
+{
+  "properties": {
+    "half": [
+      "upper",
+      "lower"
+    ]
+  },
+  "states": {
+    "6502": {
+      "half": "upper"
+    },
+    "6503": {
+      "half": "lower"
+    },
+    "default": 6503
+  }
+}

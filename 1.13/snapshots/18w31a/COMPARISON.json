@@ -1,0 +1,122 @@
+{
+  "version_data": [
+    {
+      "type": "title",
+      "value": {
+        "title": "Libraries",
+        "id": "version-data-libraries",
+        "size": 3
+      }
+    },
+    {
+      "type": "table",
+      "value": {
+        "title": "Versions",
+        "previousLabel": "18w30b",
+        "currentLabel": "18w31a",
+        "values": [
+          {
+            "key": "it.unimi.dsi:fastutil",
+            "previous": "7.1.0",
+            "current": "8.2.1"
+          }
+        ]
+      }
+    }
+  ],
+  "commands": [
+    {
+      "type": "entries",
+      "value": {
+        "name": "🗒️ List",
+        "differences": {
+          "added": [
+            "chunk.txt"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "execute",
+        "differences": {
+          "added": [
+            "execute in <dimension>"
+          ],
+          "removed": [
+            "execute in overworld",
+            "execute in the_end",
+            "execute in the_nether"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "worldborder",
+        "differences": {
+          "added": [
+            "worldborder add <distance: float> <time: integer>",
+            "worldborder set <distance: float> <time: integer>"
+          ],
+          "removed": [
+            "worldborder add <distance: integer> <time: integer>",
+            "worldborder set <distance: integer> <time: integer>"
+          ]
+        }
+      }
+    }
+  ],
+  "translations": [
+    {
+      "type": "entries",
+      "value": {
+        "name": "Keys",
+        "differences": {
+          "added": [
+            "menu.loadingForcedChunks: Loading forced chunks for dimension %s",
+            "death.attack.even_more_magic: %1$s was killed by even more magic",
+            "death.attack.message_too_long: Actually, message was too long to deliver fully. Sorry! Here's stripped version: %s",
+            "commands.chunk.forced: Marked chunk (%s, %s) as force loaded",
+            "commands.chunk.unforced: Marked chunk (%s, %s) as not force loaded",
+            "commands.chunk.not.forced: Could not mark chunk (%s, %s) as force loaded, already so",
+            "commands.chunk.not.unforced: Could not mark chunk (%s, %s) as not force loaded, already so",
+            "argument.dimension.invalid: Unknown dimension '%s'"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "text",
+      "value": {
+        "title": "Changes",
+        "values": [
+          {
+            "key": "multiplayer.message_not_delivered",
+            "previous": "Can't deliver chat message, check server logs",
+            "current": "Can't deliver chat message starting with %s, check server logs"
+          }
+        ]
+      }
+    }
+  ],
+  "file_structure": [
+    {
+      "type": "entries",
+      "value": {
+        "name": "data",
+        "differences": {
+          "added": [
+            "minecraft/tags/blocks/coral_plants.json",
+            "minecraft/tags/blocks/underwater_bonemeals.json"
+          ],
+          "removed": []
+        }
+      }
+    }
+  ]
+}

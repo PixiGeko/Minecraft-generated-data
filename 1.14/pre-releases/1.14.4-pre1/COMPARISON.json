@@ -1,0 +1,138 @@
+{
+  "version_data": [
+    {
+      "type": "table",
+      "value": {
+        "previousLabel": "1.14.3",
+        "currentLabel": "1.14.4-pre1",
+        "values": [
+          {
+            "key": "World version",
+            "previous": "1968",
+            "current": "1969"
+          },
+          {
+            "key": "Protocol version",
+            "previous": "490",
+            "current": "491"
+          }
+        ]
+      }
+    },
+    {
+      "type": "title",
+      "value": {
+        "title": "Libraries",
+        "id": "version-data-libraries",
+        "size": 3
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "🗒️ List",
+        "differences": {
+          "added": [],
+          "removed": [
+            "com.mojang:realms V1.14.17"
+          ]
+        }
+      }
+    }
+  ],
+  "commands": [
+    {
+      "type": "entries",
+      "value": {
+        "name": "debug",
+        "differences": {
+          "added": [
+            "debug report"
+          ],
+          "removed": []
+        }
+      }
+    }
+  ],
+  "translations": [
+    {
+      "type": "entries",
+      "value": {
+        "name": "Keys",
+        "differences": {
+          "added": [
+            "options.fullscreen.unavailable: Setting unavailable",
+            "commands.debug.reportSaved: Created debug report in %s",
+            "commands.debug.reportFailed: Failed to create debug report"
+          ],
+          "removed": []
+        }
+      }
+    }
+  ],
+  "file_structure": [
+    {
+      "type": "entries",
+      "value": {
+        "name": "assets",
+        "differences": {
+          "added": [
+            "realms/lang/en_us.json",
+            "realms/textures/gui/realms/accept_icon.png",
+            "realms/textures/gui/realms/adventure.png",
+            "realms/textures/gui/realms/configure_icon.png",
+            "realms/textures/gui/realms/cross_icon.png",
+            "realms/textures/gui/realms/cross_player_icon.png",
+            "realms/textures/gui/realms/darken.png",
+            "realms/textures/gui/realms/empty_frame.png",
+            "realms/textures/gui/realms/experience.png",
+            "realms/textures/gui/realms/expired_icon.png",
+            "realms/textures/gui/realms/expires_soon_icon.png",
+            "realms/textures/gui/realms/images/balloon_trip.png",
+            "realms/textures/gui/realms/images/desert.png",
+            "realms/textures/gui/realms/images/dornenstein_estate.png",
+            "realms/textures/gui/realms/images/escher_tunnel.png",
+            "realms/textures/gui/realms/images/factory_floor.png",
+            "realms/textures/gui/realms/images/flower_mountain.png",
+            "realms/textures/gui/realms/images/gray.png",
+            "realms/textures/gui/realms/images/halloween_woods.png",
+            "realms/textures/gui/realms/images/imperium.png",
+            "realms/textures/gui/realms/images/ludo.png",
+            "realms/textures/gui/realms/images/makersspleef.png",
+            "realms/textures/gui/realms/images/negentropy.png",
+            "realms/textures/gui/realms/images/pumpkin_party.png",
+            "realms/textures/gui/realms/images/sand_castle.png",
+            "realms/textures/gui/realms/images/sparrenhout.png",
+            "realms/textures/gui/realms/images/spindlewood.png",
+            "realms/textures/gui/realms/images/tree_houses.png",
+            "realms/textures/gui/realms/inspiration.png",
+            "realms/textures/gui/realms/invitation_icons.png",
+            "realms/textures/gui/realms/invite_icon.png",
+            "realms/textures/gui/realms/leave_icon.png",
+            "realms/textures/gui/realms/link_icons.png",
+            "realms/textures/gui/realms/news_icon.png",
+            "realms/textures/gui/realms/news_notification_mainscreen.png",
+            "realms/textures/gui/realms/new_world.png",
+            "realms/textures/gui/realms/off_icon.png",
+            "realms/textures/gui/realms/on_icon.png",
+            "realms/textures/gui/realms/op_icon.png",
+            "realms/textures/gui/realms/plus_icon.png",
+            "realms/textures/gui/realms/popup.png",
+            "realms/textures/gui/realms/questionmark.png",
+            "realms/textures/gui/realms/reject_icon.png",
+            "realms/textures/gui/realms/restore_icon.png",
+            "realms/textures/gui/realms/slot_frame.png",
+            "realms/textures/gui/realms/survival_spawn.png",
+            "realms/textures/gui/realms/trailer_icons.png",
+            "realms/textures/gui/realms/trial_icon.png",
+            "realms/textures/gui/realms/upload.png",
+            "realms/textures/gui/realms/user_icon.png",
+            "realms/textures/gui/realms/world_icon.png",
+            "realms/textures/gui/title/realms.png"
+          ],
+          "removed": []
+        }
+      }
+    }
+  ]
+}

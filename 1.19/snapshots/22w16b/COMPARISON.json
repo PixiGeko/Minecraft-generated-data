@@ -1,0 +1,93 @@
+{
+  "version_data": [
+    {
+      "type": "table",
+      "value": {
+        "previousLabel": "22w16a",
+        "currentLabel": "22w16b",
+        "values": [
+          {
+            "key": "World version",
+            "previous": "3091",
+            "current": "3092"
+          },
+          {
+            "key": "Protocol version",
+            "previous": "1073741904",
+            "current": "1073741905"
+          }
+        ]
+      }
+    }
+  ],
+  "mappings": [
+    {
+      "type": "title",
+      "value": {
+        "title": "Server",
+        "id": "server-mappings",
+        "size": 2
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "Changes",
+        "lines": [
+          "XXX.level.storage.LevelStorageSource \u001b[2;32m+3M\u001b[0m \u001b[2;31m-2M\u001b[0m"
+        ]
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.level.storage.LevelStorageSource",
+        "differences": {
+          "added": [
+            "LevelSummary lambda$levelSummaryReader$5(LevelStorageSource$LevelDirectory,boolean,Path,DataFixer)",
+            "PrimaryLevelData lambda$getLevelData$4(DynamicOps,DataPackConfig,Lifecycle,Path,DataFixer)"
+          ],
+          "removed": [
+            "LevelSummary lambda$levelSummaryReader$6(LevelStorageSource$LevelDirectory,boolean,Path,DataFixer)",
+            "PrimaryLevelData lambda$getLevelData$5(DynamicOps,DataPackConfig,Lifecycle,Path,DataFixer)",
+            "List lambda$loadLevelSummaries$4(List)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "title",
+      "value": {
+        "title": "Client",
+        "id": "client-mappings",
+        "size": 2
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "Changes",
+        "lines": [
+          "XXX.level.storage.LevelStorageSource \u001b[2;32m+3M\u001b[0m \u001b[2;31m-2M\u001b[0m"
+        ]
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.level.storage.LevelStorageSource",
+        "differences": {
+          "added": [
+            "LevelSummary lambda$levelSummaryReader$5(LevelStorageSource$LevelDirectory,boolean,Path,DataFixer)",
+            "PrimaryLevelData lambda$getLevelData$4(DynamicOps,DataPackConfig,Lifecycle,Path,DataFixer)"
+          ],
+          "removed": [
+            "LevelSummary lambda$levelSummaryReader$6(LevelStorageSource$LevelDirectory,boolean,Path,DataFixer)",
+            "PrimaryLevelData lambda$getLevelData$5(DynamicOps,DataPackConfig,Lifecycle,Path,DataFixer)",
+            "List lambda$loadLevelSummaries$4(List)"
+          ]
+        }
+      }
+    }
+  ]
+}

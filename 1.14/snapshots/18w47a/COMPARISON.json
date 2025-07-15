@@ -1,0 +1,58 @@
+{
+  "commands": [
+    {
+      "type": "entries",
+      "value": {
+        "name": "locate",
+        "differences": {
+          "added": [
+            "locate Pillager_Outpost"
+          ],
+          "removed": []
+        }
+      }
+    }
+  ],
+  "translations": [
+    {
+      "type": "entries",
+      "value": {
+        "name": "Keys",
+        "differences": {
+          "added": [
+            "effect.minecraft.bad_omen: Bad Omen",
+            "event.minecraft.raid: Raid",
+            "event.minecraft.raid.mobs_remaining: Mobs remaining: %s",
+            "subtitles.event.raid.horn_local: Ominous horn blares",
+            "subtitles.event.raid.horn_distant: Ominous horn echos far away"
+          ],
+          "removed": []
+        }
+      }
+    }
+  ],
+  "file_structure": [
+    {
+      "type": "entries",
+      "value": {
+        "name": "data",
+        "differences": {
+          "added": [
+            "minecraft/loot_tables/chests/pillager_outpost.json",
+            "minecraft/structures/pillager_outpost/base_plate.nbt",
+            "minecraft/structures/pillager_outpost/feature_cage1.nbt",
+            "minecraft/structures/pillager_outpost/feature_cage2.nbt",
+            "minecraft/structures/pillager_outpost/feature_logs.nbt",
+            "minecraft/structures/pillager_outpost/feature_plate.nbt",
+            "minecraft/structures/pillager_outpost/feature_targets.nbt",
+            "minecraft/structures/pillager_outpost/feature_tent1.nbt",
+            "minecraft/structures/pillager_outpost/feature_tent2.nbt",
+            "minecraft/structures/pillager_outpost/watchtower.nbt",
+            "minecraft/structures/pillager_outpost/watchtower_overgrown.nbt"
+          ],
+          "removed": []
+        }
+      }
+    }
+  ]
+}

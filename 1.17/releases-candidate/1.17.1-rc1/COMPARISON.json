@@ -1,0 +1,284 @@
+{
+  "version_data": [
+    {
+      "type": "table",
+      "value": {
+        "previousLabel": "1.17.1-pre3",
+        "currentLabel": "1.17.1-rc1",
+        "values": [
+          {
+            "key": "World version",
+            "previous": "2727",
+            "current": "2728"
+          },
+          {
+            "key": "Protocol version",
+            "previous": "1073741862",
+            "current": "1073741863"
+          }
+        ]
+      }
+    },
+    {
+      "type": "title",
+      "value": {
+        "title": "Libraries",
+        "id": "version-data-libraries",
+        "size": 3
+      }
+    },
+    {
+      "type": "table",
+      "value": {
+        "title": "Versions",
+        "previousLabel": "1.17.1-pre3",
+        "currentLabel": "1.17.1-rc1",
+        "values": [
+          {
+            "key": "org.lwjgl:lwjgl-glfw",
+            "previous": "3.2.1",
+            "current": "3.2.2"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-glfw",
+            "previous": "3.2.1",
+            "current": "3.2.2"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-jemalloc",
+            "previous": "3.2.1",
+            "current": "3.2.2"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-jemalloc",
+            "previous": "3.2.1",
+            "current": "3.2.2"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-openal",
+            "previous": "3.2.1",
+            "current": "3.2.2"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-openal",
+            "previous": "3.2.1",
+            "current": "3.2.2"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-opengl",
+            "previous": "3.2.1",
+            "current": "3.2.2"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-opengl",
+            "previous": "3.2.1",
+            "current": "3.2.2"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-stb",
+            "previous": "3.2.1",
+            "current": "3.2.2"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-stb",
+            "previous": "3.2.1",
+            "current": "3.2.2"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-tinyfd",
+            "previous": "3.2.1",
+            "current": "3.2.2"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-tinyfd",
+            "previous": "3.2.1",
+            "current": "3.2.2"
+          },
+          {
+            "key": "org.lwjgl:lwjgl",
+            "previous": "3.2.1",
+            "current": "3.2.2"
+          },
+          {
+            "key": "org.lwjgl:lwjgl",
+            "previous": "3.2.1",
+            "current": "3.2.2"
+          }
+        ]
+      }
+    }
+  ],
+  "translations": [
+    {
+      "type": "entries",
+      "value": {
+        "name": "Keys",
+        "differences": {
+          "added": [
+            "death.attack.dryout: %1$s died from dehydration",
+            "death.attack.dryout.player: %1$s died from dehydration whilst trying to escape %2$s"
+          ],
+          "removed": []
+        }
+      }
+    }
+  ],
+  "mappings": [
+    {
+      "type": "title",
+      "value": {
+        "title": "Server",
+        "id": "server-mappings",
+        "size": 2
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "Changes",
+        "lines": [
+          "XXX.block.entity.SkullBlockEntity \u001b[2;32m+4M\u001b[0m \u001b[2;31m-1M\u001b[0m",
+          "XXX.level.storage.LevelStorageSource$LevelStorageAccess \u001b[2;32m+1M\u001b[0m \u001b[2;31m-1M\u001b[0m"
+        ]
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.level.block.entity.SkullBlockEntity",
+        "differences": {
+          "added": [
+            "void lambda$updateGameprofile$2(GameProfile,Consumer)"
+          ],
+          "removed": [
+            "void lambda$updateGameprofile$6(Consumer,GameProfile,Optional)",
+            "void lambda$updateGameprofile$5(Optional,Consumer,GameProfile)",
+            "void lambda$updateGameprofile$4(Consumer,GameProfile)",
+            "void lambda$updateGameprofile$2(Consumer,GameProfile)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.level.storage.LevelStorageSource$LevelStorageAccess",
+        "differences": {
+          "added": [
+            "File getIconFile()"
+          ],
+          "removed": [
+            "Optional getIconFile()"
+          ]
+        }
+      }
+    },
+    {
+      "type": "title",
+      "value": {
+        "title": "Client",
+        "id": "client-mappings",
+        "size": 2
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "Changes",
+        "lines": [
+          "XXX.screens.worldselection.EditWorldScreen \u001b[2;32m+9M\u001b[0m \u001b[2;31m-7M\u001b[0m",
+          "XXX.minecraft.server.MinecraftServer \u001b[2;32m+10M\u001b[0m \u001b[2;31m-10M\u001b[0m | \u001b[2;31m-1P\u001b[0m",
+          "XXX.server.players.GameProfileCache \u001b[2;32m+8M\u001b[0m \u001b[2;31m-8M\u001b[0m"
+        ]
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.client.gui.screens.worldselection.EditWorldScreen",
+        "differences": {
+          "added": [
+            "void lambda$init$11(String)",
+            "void lambda$init$8(Button)",
+            "void lambda$init$7(DataResult$PartialResult)",
+            "DataResult lambda$init$6(JsonElement)",
+            "void lambda$init$5(Button)",
+            "void lambda$init$4(boolean,boolean)",
+            "void lambda$init$0(Button)"
+          ],
+          "removed": [
+            "void lambda$init$13(String)",
+            "boolean lambda$init$12(Path)",
+            "void lambda$init$11(Button)",
+            "void lambda$init$8(DataResult$PartialResult)",
+            "DataResult lambda$init$7(JsonElement)",
+            "void lambda$init$6(Button)",
+            "void lambda$init$5(boolean,boolean)",
+            "void lambda$init$4(Button)",
+            "void lambda$init$0(Path)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.server.MinecraftServer",
+        "differences": {
+          "added": [
+            "boolean hasWorldScreenshot()",
+            "File getWorldScreenshotFile()",
+            "void lambda$startRecordingMetrics$16(Consumer,ProfileResults)",
+            "void lambda$startMetricsRecordingTick$14(Path)",
+            "boolean lambda$getSelectedPacks$13(Collection,String)",
+            "void lambda$reloadResources$12(Collection,ServerResources)",
+            "CompletionStage lambda$reloadResources$11(ImmutableList)",
+            "ImmutableList lambda$reloadResources$10(Collection)",
+            "String lambda$fillSystemReport$7()",
+            "String lambda$tickChildren$6(ServerLevel)"
+          ],
+          "removed": [
+            "Optional getWorldScreenshotFile()",
+            "void lambda$startRecordingMetrics$17(Consumer,ProfileResults)",
+            "void lambda$startMetricsRecordingTick$16(Path)",
+            "boolean lambda$getSelectedPacks$14(Collection,String)",
+            "void lambda$reloadResources$13(Collection,ServerResources)",
+            "CompletionStage lambda$reloadResources$12(ImmutableList)",
+            "ImmutableList lambda$reloadResources$11(Collection)",
+            "String lambda$fillSystemReport$10()",
+            "String lambda$tickChildren$7(ServerLevel)",
+            "void lambda$updateStatusIcon$6(ServerStatus,File)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.server.players.GameProfileCache",
+        "differences": {
+          "added": [
+            "GameProfile lookupGameProfile(GameProfileRepository,String)",
+            "GameProfile get(String)",
+            "GameProfile get(UUID)",
+            "GameProfileCache$GameProfileInfo readGameProfile(JsonElement,DateFormat)",
+            "void lambda$getAsync$3(Consumer,GameProfile,Throwable)",
+            "void lambda$getAsync$2(String,GameProfile,Throwable)",
+            "GameProfile lambda$getAsync$1(String)",
+            "void lambda$getAsync$0(Consumer,GameProfile,Throwable)"
+          ],
+          "removed": [
+            "Optional lookupGameProfile(GameProfileRepository,String)",
+            "Optional get(String)",
+            "Optional get(UUID)",
+            "Optional readGameProfile(JsonElement,DateFormat)",
+            "void lambda$getAsync$3(Consumer,Optional,Throwable)",
+            "void lambda$getAsync$2(String,Optional,Throwable)",
+            "Optional lambda$getAsync$1(String)",
+            "void lambda$getAsync$0(Consumer,Optional,Throwable)"
+          ]
+        }
+      }
+    }
+  ]
+}

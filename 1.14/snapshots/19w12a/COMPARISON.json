@@ -1,0 +1,315 @@
+{
+  "version_data": [
+    {
+      "type": "table",
+      "value": {
+        "previousLabel": "19w11b",
+        "currentLabel": "19w12a",
+        "values": [
+          {
+            "key": "World version",
+            "previous": "1938",
+            "current": "1940"
+          },
+          {
+            "key": "Protocol version",
+            "previous": "465",
+            "current": "466"
+          }
+        ]
+      }
+    },
+    {
+      "type": "title",
+      "value": {
+        "title": "Libraries",
+        "id": "version-data-libraries",
+        "size": 3
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "🗒️ List",
+        "differences": {
+          "added": [],
+          "removed": [
+            "com.paulscode:codecjorbis V20101023",
+            "com.paulscode:codecwav V20101023",
+            "com.paulscode:libraryjavasound V20101123",
+            "com.paulscode:soundsystem V20120107"
+          ]
+        }
+      }
+    },
+    {
+      "type": "table",
+      "value": {
+        "title": "Versions",
+        "previousLabel": "19w11b",
+        "currentLabel": "19w12a",
+        "values": [
+          {
+            "key": "com.mojang:realms",
+            "previous": "1.14.1",
+            "current": "1.14.2"
+          }
+        ]
+      }
+    }
+  ],
+  "registries": [
+    {
+      "type": "entries",
+      "value": {
+        "name": "activity",
+        "differences": {
+          "added": [
+            "minecraft:play"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "block",
+        "differences": {
+          "added": [
+            "minecraft:cut_sandstone_slab",
+            "minecraft:cut_red_sandstone_slab"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "item",
+        "differences": {
+          "added": [
+            "minecraft:cut_sandstone_slab",
+            "minecraft:cut_red_sandstone_slab"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "memory_module_type",
+        "differences": {
+          "added": [
+            "minecraft:secondary_job_site",
+            "minecraft:golem_spawn_conditions"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "sensor_type",
+        "differences": {
+          "added": [
+            "minecraft:secondary_pois"
+          ],
+          "removed": []
+        }
+      }
+    }
+  ],
+  "tags": [
+    {
+      "type": "entries",
+      "value": {
+        "name": "all_blocks_with_drop.json",
+        "differences": {
+          "added": [
+            "minecraft:cut_red_sandstone_slab",
+            "minecraft:cut_sandstone_slab"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "universal_tags/activity.json",
+        "differences": {
+          "added": [
+            "minecraft:play"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "universal_tags/block.json",
+        "differences": {
+          "added": [
+            "minecraft:cut_sandstone_slab",
+            "minecraft:cut_red_sandstone_slab"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "universal_tags/item.json",
+        "differences": {
+          "added": [
+            "minecraft:cut_sandstone_slab",
+            "minecraft:cut_red_sandstone_slab"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "universal_tags/memory_module_type.json",
+        "differences": {
+          "added": [
+            "minecraft:secondary_job_site",
+            "minecraft:golem_spawn_conditions"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "universal_tags/sensor_type.json",
+        "differences": {
+          "added": [
+            "minecraft:secondary_pois"
+          ],
+          "removed": []
+        }
+      }
+    }
+  ],
+  "blocks": [
+    {
+      "type": "entries",
+      "value": {
+        "name": "🗒️ List",
+        "differences": {
+          "added": [
+            "cut_red_sandstone_slab.json",
+            "cut_sandstone_slab.json"
+          ],
+          "removed": []
+        }
+      }
+    }
+  ],
+  "recipes": [
+    {
+      "type": "entries",
+      "value": {
+        "name": "🗒️ List",
+        "differences": {
+          "added": [
+            "cut_red_sandstone_slab.json",
+            "cut_red_sandstone_slab_from_cut_red_sandstone_stonecutting.json",
+            "cut_red_sandstone_slab_from_red_sandstone_stonecutting.json",
+            "cut_sandstone_slab.json",
+            "cut_sandstone_slab_from_cut_sandstone_stonecutting.json",
+            "cut_sandstone_slab_from_sandstone_stonecutting.json"
+          ],
+          "removed": []
+        }
+      }
+    }
+  ],
+  "translations": [
+    {
+      "type": "entries",
+      "value": {
+        "name": "Keys",
+        "differences": {
+          "added": [
+            "block.minecraft.cut_sandstone_slab: Cut Sandstone Slab",
+            "block.minecraft.cut_red_sandstone_slab: Cut Red Sandstone Slab"
+          ],
+          "removed": [
+            "selectWorld.newWorld.copyOf: Copy of %s"
+          ]
+        }
+      }
+    }
+  ],
+  "file_structure": [
+    {
+      "type": "entries",
+      "value": {
+        "name": "data",
+        "differences": {
+          "added": [
+            "minecraft/advancements/recipes/building_blocks/cut_red_sandstone_slab.json",
+            "minecraft/advancements/recipes/building_blocks/cut_red_sandstone_slab_from_cut_red_sandstone_stonecutting.json",
+            "minecraft/advancements/recipes/building_blocks/cut_red_sandstone_slab_from_red_sandstone_stonecutting.json",
+            "minecraft/advancements/recipes/building_blocks/cut_sandstone_slab.json",
+            "minecraft/advancements/recipes/building_blocks/cut_sandstone_slab_from_cut_sandstone_stonecutting.json",
+            "minecraft/advancements/recipes/building_blocks/cut_sandstone_slab_from_sandstone_stonecutting.json",
+            "minecraft/loot_tables/blocks/cut_red_sandstone_slab.json",
+            "minecraft/loot_tables/blocks/cut_sandstone_slab.json",
+            "minecraft/recipes/cut_red_sandstone_slab.json",
+            "minecraft/recipes/cut_red_sandstone_slab_from_cut_red_sandstone_stonecutting.json",
+            "minecraft/recipes/cut_red_sandstone_slab_from_red_sandstone_stonecutting.json",
+            "minecraft/recipes/cut_sandstone_slab.json",
+            "minecraft/recipes/cut_sandstone_slab_from_cut_sandstone_stonecutting.json",
+            "minecraft/recipes/cut_sandstone_slab_from_sandstone_stonecutting.json"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "assets",
+        "differences": {
+          "added": [
+            "minecraft/blockstates/cut_red_sandstone_slab.json",
+            "minecraft/blockstates/cut_sandstone_slab.json",
+            "minecraft/models/block/cut_red_sandstone_slab.json",
+            "minecraft/models/block/cut_red_sandstone_slab_top.json",
+            "minecraft/models/block/cut_sandstone_slab.json",
+            "minecraft/models/block/cut_sandstone_slab_top.json",
+            "minecraft/models/item/cut_red_sandstone_slab.json",
+            "minecraft/models/item/cut_sandstone_slab.json"
+          ],
+          "removed": []
+        }
+      }
+    }
+  ],
+  "misc": [
+    {
+      "type": "entries",
+      "value": {
+        "name": "splashes",
+        "differences": {
+          "added": [],
+          "removed": [
+            "Hobo humping slobo babe!"
+          ]
+        }
+      }
+    }
+  ]
+}

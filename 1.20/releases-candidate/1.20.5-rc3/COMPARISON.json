@@ -1,0 +1,59 @@
+{
+  "version_data": [
+    {
+      "type": "table",
+      "value": {
+        "previousLabel": "1.20.5-rc2",
+        "currentLabel": "1.20.5-rc3",
+        "values": [
+          {
+            "key": "World version",
+            "previous": "3835",
+            "current": "3836"
+          },
+          {
+            "key": "Protocol version",
+            "previous": "1073742014",
+            "current": "1073742015"
+          }
+        ]
+      }
+    }
+  ],
+  "mappings": [
+    {
+      "type": "title",
+      "value": {
+        "title": "Server",
+        "id": "server-mappings",
+        "size": 2
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "Changes",
+        "lines": [
+          "XXX.minecraft.core.MappedRegistry \u001b[2;32m+1P\u001b[0m"
+        ]
+      }
+    },
+    {
+      "type": "title",
+      "value": {
+        "title": "Client",
+        "id": "client-mappings",
+        "size": 2
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "Changes",
+        "lines": [
+          "XXX.minecraft.core.MappedRegistry \u001b[2;32m+1P\u001b[0m"
+        ]
+      }
+    }
+  ]
+}

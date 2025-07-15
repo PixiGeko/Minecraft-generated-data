@@ -1,0 +1,135 @@
+{
+  "version_data": [
+    {
+      "type": "table",
+      "value": {
+        "previousLabel": "1.14 Pre-Release 2",
+        "currentLabel": "1.14 Pre-Release 3",
+        "values": [
+          {
+            "key": "World version",
+            "previous": "1948",
+            "current": "1949"
+          },
+          {
+            "key": "Protocol version",
+            "previous": "473",
+            "current": "474"
+          }
+        ]
+      }
+    },
+    {
+      "type": "title",
+      "value": {
+        "title": "Libraries",
+        "id": "version-data-libraries",
+        "size": 3
+      }
+    },
+    {
+      "type": "table",
+      "value": {
+        "title": "Versions",
+        "previousLabel": "1.14 Pre-Release 2",
+        "currentLabel": "1.14 Pre-Release 3",
+        "values": [
+          {
+            "key": "com.mojang:realms",
+            "previous": "1.14.6",
+            "current": "1.14.8"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-glfw",
+            "previous": "3.2.1",
+            "current": "3.1.6"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-glfw",
+            "previous": "3.2.1",
+            "current": "3.1.6"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-jemalloc",
+            "previous": "3.2.1",
+            "current": "3.1.6"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-jemalloc",
+            "previous": "3.2.1",
+            "current": "3.1.6"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-openal",
+            "previous": "3.2.1",
+            "current": "3.1.6"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-openal",
+            "previous": "3.2.1",
+            "current": "3.1.6"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-opengl",
+            "previous": "3.2.1",
+            "current": "3.1.6"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-opengl",
+            "previous": "3.2.1",
+            "current": "3.1.6"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-stb",
+            "previous": "3.2.1",
+            "current": "3.1.6"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-stb",
+            "previous": "3.2.1",
+            "current": "3.1.6"
+          },
+          {
+            "key": "org.lwjgl:lwjgl",
+            "previous": "3.2.1",
+            "current": "3.1.6"
+          },
+          {
+            "key": "org.lwjgl:lwjgl",
+            "previous": "3.2.1",
+            "current": "3.1.6"
+          },
+          {
+            "key": "org.lwjgl:lwjgl",
+            "previous": "3.2.1",
+            "current": "3.1.6"
+          }
+        ]
+      }
+    }
+  ],
+  "translations": [
+    {
+      "type": "entries",
+      "value": {
+        "name": "Keys",
+        "differences": {
+          "added": [
+            "gui.narrate.editBox: %s edit box",
+            "selectWorld.search: search for worlds",
+            "chat.editBox: chat",
+            "structure_block.position.x: relative Position x",
+            "structure_block.position.y: relative position y",
+            "structure_block.position.z: relative position z",
+            "structure_block.size.x: structure size x",
+            "structure_block.size.y: structure size y",
+            "structure_block.size.z: structure size z",
+            "structure_block.integrity.integrity: Structure Integrity",
+            "structure_block.integrity.seed: Structure Seed"
+          ],
+          "removed": []
+        }
+      }
+    }
+  ]
+}

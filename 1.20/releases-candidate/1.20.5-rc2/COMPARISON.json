@@ -1,0 +1,84 @@
+{
+  "version_data": [
+    {
+      "type": "table",
+      "value": {
+        "previousLabel": "1.20.5-rc1",
+        "currentLabel": "1.20.5-rc2",
+        "values": [
+          {
+            "key": "World version",
+            "previous": "3834",
+            "current": "3835"
+          },
+          {
+            "key": "Protocol version",
+            "previous": "1073742013",
+            "current": "1073742014"
+          }
+        ]
+      }
+    }
+  ],
+  "mappings": [
+    {
+      "type": "title",
+      "value": {
+        "title": "Server",
+        "id": "server-mappings",
+        "size": 2
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "Changes",
+        "lines": [
+          "XXX.minecraft.util.EncoderCache$2 \u001b[2;32m+1M\u001b[0m"
+        ]
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.util.EncoderCache$2",
+        "differences": {
+          "added": [],
+          "removed": [
+            "Object lambda$encode$0(Object)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "title",
+      "value": {
+        "title": "Client",
+        "id": "client-mappings",
+        "size": 2
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "Changes",
+        "lines": [
+          "XXX.entity.npc.VillagerTrades$EnchantBookForEmeralds \u001b[2;32m+2M\u001b[0m"
+        ]
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.entity.npc.VillagerTrades$EnchantBookForEmeralds",
+        "differences": {
+          "added": [],
+          "removed": [
+            "Enchantment getEnchantment(RandomSource,FeatureFlagSet)",
+            "boolean lambda$getEnchantment$1(FeatureFlagSet,Enchantment)"
+          ]
+        }
+      }
+    }
+  ]
+}

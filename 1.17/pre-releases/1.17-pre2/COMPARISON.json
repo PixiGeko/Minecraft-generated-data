@@ -1,0 +1,558 @@
+{
+  "version_data": [
+    {
+      "type": "table",
+      "value": {
+        "previousLabel": "1.17-pre1",
+        "currentLabel": "1.17-pre2",
+        "values": [
+          {
+            "key": "World version",
+            "previous": "2716",
+            "current": "2718"
+          },
+          {
+            "key": "Protocol version",
+            "previous": "1073741853",
+            "current": "1073741854"
+          }
+        ]
+      }
+    },
+    {
+      "type": "title",
+      "value": {
+        "title": "Libraries",
+        "id": "version-data-libraries",
+        "size": 3
+      }
+    },
+    {
+      "type": "table",
+      "value": {
+        "title": "Versions",
+        "previousLabel": "1.17-pre1",
+        "currentLabel": "1.17-pre2",
+        "values": [
+          {
+            "key": "com.github.oshi:oshi-core",
+            "previous": "5.3.4",
+            "current": "5.7.4"
+          },
+          {
+            "key": "net.java.dev.jna:jna-platform",
+            "previous": "5.6.0",
+            "current": "5.8.0"
+          },
+          {
+            "key": "net.java.dev.jna:jna",
+            "previous": "5.6.0",
+            "current": "5.8.0"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-glfw",
+            "previous": "3.2.1",
+            "current": "3.2.2"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-glfw",
+            "previous": "3.2.1",
+            "current": "3.2.2"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-jemalloc",
+            "previous": "3.2.1",
+            "current": "3.2.2"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-jemalloc",
+            "previous": "3.2.1",
+            "current": "3.2.2"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-openal",
+            "previous": "3.2.1",
+            "current": "3.2.2"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-openal",
+            "previous": "3.2.1",
+            "current": "3.2.2"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-opengl",
+            "previous": "3.2.1",
+            "current": "3.2.2"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-opengl",
+            "previous": "3.2.1",
+            "current": "3.2.2"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-stb",
+            "previous": "3.2.1",
+            "current": "3.2.2"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-stb",
+            "previous": "3.2.1",
+            "current": "3.2.2"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-tinyfd",
+            "previous": "3.2.1",
+            "current": "3.2.2"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-tinyfd",
+            "previous": "3.2.1",
+            "current": "3.2.2"
+          },
+          {
+            "key": "org.lwjgl:lwjgl",
+            "previous": "3.2.1",
+            "current": "3.2.2"
+          },
+          {
+            "key": "org.lwjgl:lwjgl",
+            "previous": "3.2.1",
+            "current": "3.2.2"
+          }
+        ]
+      }
+    }
+  ],
+  "registries": [
+    {
+      "type": "entries",
+      "value": {
+        "name": "block",
+        "differences": {
+          "added": [
+            "minecraft:flowering_azalea_leaves"
+          ],
+          "removed": [
+            "minecraft:azalea_leaves_flowers"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "item",
+        "differences": {
+          "added": [
+            "minecraft:flowering_azalea_leaves"
+          ],
+          "removed": [
+            "minecraft:azalea_leaves_flowers"
+          ]
+        }
+      }
+    }
+  ],
+  "tags": [
+    {
+      "type": "entries",
+      "value": {
+        "name": "all_blocks_with_drop.json",
+        "differences": {
+          "added": [
+            "minecraft:flowering_azalea_leaves"
+          ],
+          "removed": [
+            "minecraft:azalea_leaves_flowers"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "universal_tags/block.json",
+        "differences": {
+          "added": [
+            "minecraft:flowering_azalea_leaves"
+          ],
+          "removed": [
+            "minecraft:azalea_leaves_flowers"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "universal_tags/item.json",
+        "differences": {
+          "added": [
+            "minecraft:flowering_azalea_leaves"
+          ],
+          "removed": [
+            "minecraft:azalea_leaves_flowers"
+          ]
+        }
+      }
+    }
+  ],
+  "blocks": [
+    {
+      "type": "entries",
+      "value": {
+        "name": "🗒️ List",
+        "differences": {
+          "added": [
+            "flowering_azalea_leaves.json"
+          ],
+          "removed": [
+            "azalea_leaves_flowers.json"
+          ]
+        }
+      }
+    }
+  ],
+  "translations": [
+    {
+      "type": "entries",
+      "value": {
+        "name": "Keys",
+        "differences": {
+          "added": [
+            "block.minecraft.flowering_azalea_leaves: Flowering Azalea Leaves"
+          ],
+          "removed": [
+            "block.minecraft.azalea_leaves_flowers: Flowering Azalea Leaves"
+          ]
+        }
+      }
+    },
+    {
+      "type": "text",
+      "value": {
+        "title": "Changes",
+        "values": [
+          {
+            "key": "commands.debug.started",
+            "previous": "Started 10 second tick profiling (use '/debug stop' to stop early)",
+            "current": "Started tick profiling"
+          }
+        ]
+      }
+    }
+  ],
+  "file_structure": [
+    {
+      "type": "entries",
+      "value": {
+        "name": "data",
+        "differences": {
+          "added": [
+            "minecraft/loot_tables/blocks/flowering_azalea_leaves.json"
+          ],
+          "removed": [
+            "minecraft/loot_tables/blocks/azalea_leaves_flowers.json"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "assets",
+        "differences": {
+          "added": [
+            "minecraft/blockstates/flowering_azalea_leaves.json",
+            "minecraft/models/block/flowering_azalea_leaves.json",
+            "minecraft/models/item/flowering_azalea_leaves.json",
+            "minecraft/textures/block/flowering_azalea_leaves.png"
+          ],
+          "removed": [
+            "minecraft/blockstates/azalea_leaves_flowers.json",
+            "minecraft/models/block/azalea_leaves_flowers.json",
+            "minecraft/models/item/azalea_leaves_flowers.json",
+            "minecraft/textures/block/azalea_leaves_flowers.png"
+          ]
+        }
+      }
+    }
+  ],
+  "mappings": [
+    {
+      "type": "title",
+      "value": {
+        "title": "Server",
+        "id": "server-mappings",
+        "size": 2
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "Changes",
+        "lines": [
+          "XXX.data.worldgen.Features$States \u001b[2;32m+1P\u001b[0m \u001b[2;31m-1P\u001b[0m",
+          "XXX.metrics.profiling.ServerMetricsSamplersProvider \u001b[2;32m+1M\u001b[0m | \u001b[2;32m+1P\u001b[0m",
+          "XXX.entity.projectile.LargeFireball \u001b[2;32m+1M\u001b[0m \u001b[2;31m-1M\u001b[0m",
+          "XXX.level.block.Blocks \u001b[2;32m+1P\u001b[0m \u001b[2;31m-1P\u001b[0m",
+          "XXX.levelgen.structure.NetherFossilFeature$FeatureStart$1 \u001b[2;32m+1M\u001b[0m \u001b[2;31m-1M\u001b[0m | \u001b[2;32m+1P\u001b[0m \u001b[2;31m-1P\u001b[0m",
+          "XXX.saveddata.maps.MapDecoration$Type \u001b[2;32m+3M\u001b[0m \u001b[2;31m-2M\u001b[0m | \u001b[2;32m+1P\u001b[0m"
+        ]
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.util.profiling.metrics.profiling.ServerMetricsSamplersProvider",
+        "differences": {
+          "added": [],
+          "removed": [
+            "void <clinit>()"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.entity.projectile.LargeFireball",
+        "differences": {
+          "added": [
+            "void <init>(Level,LivingEntity,double,double,double)"
+          ],
+          "removed": [
+            "void <init>(Level,LivingEntity,double,double,double,int)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.level.levelgen.structure.NetherFossilFeature$FeatureStart$1",
+        "differences": {
+          "added": [
+            "void <init>(NetherFossilFeature$FeatureStart,LevelHeightAccessor)"
+          ],
+          "removed": [
+            "void <init>(NetherFossilFeature$FeatureStart,ChunkGenerator)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.level.saveddata.maps.MapDecoration$Type",
+        "differences": {
+          "added": [
+            "void <init>(String,int,boolean)",
+            "void <init>(String,int,boolean,int)"
+          ],
+          "removed": [
+            "void <init>(String,int,boolean,boolean)",
+            "void <init>(String,int,boolean,int,boolean)",
+            "boolean shouldTrackCount()"
+          ]
+        }
+      }
+    },
+    {
+      "type": "title",
+      "value": {
+        "title": "Client",
+        "id": "client-mappings",
+        "size": 2
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "Classes",
+        "differences": {
+          "added": [
+            "XXX.client.gui.Gui",
+            "XXX.client.gui.GuiComponent",
+            "XXX.client.gui.MapRenderer$MapInstance",
+            "XXX.gui.chat.NarratorChatListener",
+            "XXX.gui.chat.StandardChatListener",
+            "XXX.gui.components.AbstractButton",
+            "XXX.gui.components.AbstractSelectionList",
+            "XXX.gui.components.AbstractSelectionList$SelectionDirection",
+            "XXX.gui.components.AbstractSliderButton",
+            "XXX.gui.components.BossHealthOverlay",
+            "XXX.gui.components.Button",
+            "XXX.gui.components.Button$OnTooltip",
+            "XXX.gui.components.Checkbox",
+            "XXX.gui.components.CommandSuggestions$SuggestionsList",
+            "XXX.gui.components.ContainerObjectSelectionList",
+            "XXX.gui.components.CycleButton",
+            "XXX.gui.components.CycleButton$OnValueChange",
+            "XXX.gui.components.CycleButton$ValueListSupplier",
+            "XXX.gui.components.CycleButton$ValueListSupplier$2",
+            "XXX.gui.components.DebugScreenOverlay$1",
+            "XXX.gui.components.ImageButton",
+            "XXX.gui.components.LockIconButton",
+            "XXX.gui.components.MultiLineLabel",
+            "XXX.gui.components.MultiLineLabel$2",
+            "XXX.gui.components.ObjectSelectionList",
+            "XXX.gui.components.OptionsList",
+            "XXX.gui.components.PlayerTabOverlay",
+            "XXX.gui.components.SliderButton",
+            "XXX.gui.components.SubtitleOverlay",
+            "XXX.gui.components.TooltipAccessor",
+            "XXX.gui.components.Widget",
+            "XXX.components.events.ContainerEventHandler",
+            "XXX.components.events.package-info",
+            "XXX.components.spectator.SpectatorGui",
+            "XXX.components.toasts.AdvancementToast",
+            "XXX.components.toasts.SystemToast",
+            "XXX.components.toasts.Toast",
+            "XXX.components.toasts.ToastComponent",
+            "XXX.components.toasts.TutorialToast",
+            "XXX.components.toasts.package-info",
+            "XXX.gui.font.FontManager",
+            "XXX.gui.font.FontSet",
+            "XXX.gui.font.FontTexture$Node",
+            "XXX.font.glyphs.BakedGlyph"
+          ],
+          "removed": [
+            "XXX.client.gui.Font$StringRenderOutput",
+            "XXX.client.gui.Gui$HeartType",
+            "XXX.client.gui.MapRenderer",
+            "XXX.gui.chat.ChatListener",
+            "XXX.gui.chat.OverlayChatListener",
+            "XXX.gui.chat.package-info",
+            "XXX.gui.components.AbstractOptionSliderButton",
+            "XXX.gui.components.AbstractSelectionList$Entry",
+            "XXX.gui.components.AbstractSelectionList$TrackedList",
+            "XXX.gui.components.AbstractWidget",
+            "XXX.gui.components.BossHealthOverlay$1",
+            "XXX.gui.components.Button$OnPress",
+            "XXX.gui.components.ChatComponent",
+            "XXX.gui.components.CommandSuggestions",
+            "XXX.gui.components.ComponentRenderUtils",
+            "XXX.gui.components.ContainerObjectSelectionList$Entry",
+            "XXX.gui.components.CycleButton$Builder",
+            "XXX.gui.components.CycleButton$TooltipSupplier",
+            "XXX.gui.components.CycleButton$ValueListSupplier$1",
+            "XXX.gui.components.DebugScreenOverlay",
+            "XXX.gui.components.EditBox",
+            "XXX.gui.components.LerpingBossEvent",
+            "XXX.gui.components.LockIconButton$Icon",
+            "XXX.gui.components.MultiLineLabel$1",
+            "XXX.gui.components.MultiLineLabel$TextWithWidth",
+            "XXX.gui.components.ObjectSelectionList$Entry",
+            "XXX.gui.components.OptionsList$Entry",
+            "XXX.gui.components.PlayerTabOverlay$PlayerInfoComparator",
+            "XXX.gui.components.StateSwitchingButton",
+            "XXX.gui.components.SubtitleOverlay$Subtitle",
+            "XXX.gui.components.VolumeSlider",
+            "XXX.components.events.AbstractContainerEventHandler",
+            "XXX.components.events.GuiEventListener",
+            "XXX.gui.components.package-info",
+            "XXX.components.spectator.package-info",
+            "XXX.components.toasts.RecipeToast",
+            "XXX.components.toasts.SystemToast$SystemToastIds",
+            "XXX.components.toasts.Toast$Visibility",
+            "XXX.components.toasts.ToastComponent$ToastInstance",
+            "XXX.components.toasts.TutorialToast$Icons",
+            "XXX.gui.font.AllMissingGlyphProvider",
+            "XXX.gui.font.FontManager$1",
+            "XXX.gui.font.FontTexture",
+            "XXX.gui.font.TextFieldHelper",
+            "XXX.font.glyphs.BakedGlyph$1"
+          ]
+        }
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "Changes",
+        "lines": [
+          "XXX.client.gui.Font \u001b[2;31m-1P\u001b[0m",
+          "XXX.client.renderer.RenderType \u001b[2;32m+4M\u001b[0m | \u001b[2;32m+2P\u001b[0m",
+          "XXX.metrics.profiling.ServerMetricsSamplersProvider \u001b[2;32m+1M\u001b[0m | \u001b[2;32m+1P\u001b[0m",
+          "XXX.entity.projectile.LargeFireball \u001b[2;32m+1M\u001b[0m \u001b[2;31m-1M\u001b[0m",
+          "XXX.level.block.Blocks \u001b[2;32m+1P\u001b[0m \u001b[2;31m-1P\u001b[0m",
+          "XXX.levelgen.structure.NetherFossilFeature$FeatureStart$1 \u001b[2;32m+1M\u001b[0m \u001b[2;31m-1M\u001b[0m | \u001b[2;32m+1P\u001b[0m \u001b[2;31m-1P\u001b[0m",
+          "XXX.saveddata.maps.MapDecoration$Type \u001b[2;32m+3M\u001b[0m \u001b[2;31m-2M\u001b[0m | \u001b[2;32m+1P\u001b[0m"
+        ]
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.client.renderer.RenderType",
+        "differences": {
+          "added": [],
+          "removed": [
+            "RenderType textPolygonOffset(ResourceLocation)",
+            "RenderType textIntensityPolygonOffset(ResourceLocation)",
+            "RenderType lambda$static$21(ResourceLocation)",
+            "RenderType lambda$static$20(ResourceLocation)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.util.profiling.metrics.profiling.ServerMetricsSamplersProvider",
+        "differences": {
+          "added": [],
+          "removed": [
+            "void <clinit>()"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.entity.projectile.LargeFireball",
+        "differences": {
+          "added": [
+            "void <init>(Level,LivingEntity,double,double,double)"
+          ],
+          "removed": [
+            "void <init>(Level,LivingEntity,double,double,double,int)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.level.levelgen.structure.NetherFossilFeature$FeatureStart$1",
+        "differences": {
+          "added": [
+            "void <init>(NetherFossilFeature$FeatureStart,LevelHeightAccessor)"
+          ],
+          "removed": [
+            "void <init>(NetherFossilFeature$FeatureStart,ChunkGenerator)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.level.saveddata.maps.MapDecoration$Type",
+        "differences": {
+          "added": [
+            "void <init>(String,int,boolean)",
+            "void <init>(String,int,boolean,int)"
+          ],
+          "removed": [
+            "void <init>(String,int,boolean,boolean)",
+            "void <init>(String,int,boolean,int,boolean)",
+            "boolean shouldTrackCount()"
+          ]
+        }
+      }
+    }
+  ]
+}

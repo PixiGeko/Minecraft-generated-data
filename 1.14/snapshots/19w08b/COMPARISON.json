@@ -1,0 +1,41 @@
+{
+  "version_data": [
+    {
+      "type": "table",
+      "value": {
+        "previousLabel": "19w08a",
+        "currentLabel": "19w08b",
+        "values": [
+          {
+            "key": "World version",
+            "previous": "1933",
+            "current": "1934"
+          },
+          {
+            "key": "Protocol version",
+            "previous": "461",
+            "current": "462"
+          }
+        ]
+      }
+    }
+  ],
+  "file_structure": [
+    {
+      "type": "entries",
+      "value": {
+        "name": "assets",
+        "differences": {
+          "added": [
+            "minecraft/textures/mob_effect/instant_damage.png",
+            "minecraft/textures/mob_effect/instant_health.png"
+          ],
+          "removed": [
+            "minecraft/textures/mob_effect/harm.png",
+            "minecraft/textures/mob_effect/heal.png"
+          ]
+        }
+      }
+    }
+  ]
+}

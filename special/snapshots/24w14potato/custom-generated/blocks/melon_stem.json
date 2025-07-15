@@ -1,0 +1,48 @@
+{
+  "definition": {
+    "type": "minecraft:stem",
+    "attached_stem": "minecraft:attached_melon_stem",
+    "fruit": "minecraft:melon",
+    "properties": {},
+    "seed": "minecraft:melon_seeds"
+  },
+  "properties": {
+    "age": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ]
+  },
+  "states": {
+    "9012": {
+      "age": 0
+    },
+    "9013": {
+      "age": 1
+    },
+    "9014": {
+      "age": 2
+    },
+    "9015": {
+      "age": 3
+    },
+    "9016": {
+      "age": 4
+    },
+    "9017": {
+      "age": 5
+    },
+    "9018": {
+      "age": 6
+    },
+    "9019": {
+      "age": 7
+    },
+    "default": 9012
+  }
+}

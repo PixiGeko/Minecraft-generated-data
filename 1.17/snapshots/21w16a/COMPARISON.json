@@ -1,0 +1,1567 @@
+{
+  "version_data": [
+    {
+      "type": "table",
+      "value": {
+        "previousLabel": "21w15a",
+        "currentLabel": "21w16a",
+        "values": [
+          {
+            "key": "World version",
+            "previous": "2709",
+            "current": "2711"
+          },
+          {
+            "key": "Protocol version",
+            "previous": "1073741846",
+            "current": "1073741847"
+          }
+        ]
+      }
+    },
+    {
+      "type": "title",
+      "value": {
+        "title": "Libraries",
+        "id": "version-data-libraries",
+        "size": 3
+      }
+    },
+    {
+      "type": "table",
+      "value": {
+        "title": "Versions",
+        "previousLabel": "21w15a",
+        "currentLabel": "21w16a",
+        "values": [
+          {
+            "key": "org.lwjgl:lwjgl-glfw",
+            "previous": "3.2.1",
+            "current": "3.2.2"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-glfw",
+            "previous": "3.2.1",
+            "current": "3.2.2"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-jemalloc",
+            "previous": "3.2.1",
+            "current": "3.2.2"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-jemalloc",
+            "previous": "3.2.1",
+            "current": "3.2.2"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-openal",
+            "previous": "3.2.1",
+            "current": "3.2.2"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-openal",
+            "previous": "3.2.1",
+            "current": "3.2.2"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-opengl",
+            "previous": "3.2.1",
+            "current": "3.2.2"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-opengl",
+            "previous": "3.2.1",
+            "current": "3.2.2"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-stb",
+            "previous": "3.2.1",
+            "current": "3.2.2"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-stb",
+            "previous": "3.2.1",
+            "current": "3.2.2"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-tinyfd",
+            "previous": "3.2.1",
+            "current": "3.2.2"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-tinyfd",
+            "previous": "3.2.1",
+            "current": "3.2.2"
+          },
+          {
+            "key": "org.lwjgl:lwjgl",
+            "previous": "3.2.1",
+            "current": "3.2.2"
+          },
+          {
+            "key": "org.lwjgl:lwjgl",
+            "previous": "3.2.1",
+            "current": "3.2.2"
+          }
+        ]
+      }
+    }
+  ],
+  "registries": [
+    {
+      "type": "entries",
+      "value": {
+        "name": "custom_stat",
+        "differences": {
+          "added": [
+            "minecraft:play_time",
+            "minecraft:total_world_time"
+          ],
+          "removed": [
+            "minecraft:play_one_minute"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "worldgen/feature",
+        "differences": {
+          "added": [
+            "minecraft:replace_single_block"
+          ],
+          "removed": [
+            "minecraft:emerald_ore"
+          ]
+        }
+      }
+    }
+  ],
+  "tags": [
+    {
+      "type": "entries",
+      "value": {
+        "name": "universal_tags/custom_stat.json",
+        "differences": {
+          "added": [
+            "minecraft:play_time",
+            "minecraft:total_world_time"
+          ],
+          "removed": [
+            "minecraft:play_one_minute"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "universal_tags/worldgen/feature.json",
+        "differences": {
+          "added": [
+            "minecraft:replace_single_block"
+          ],
+          "removed": [
+            "minecraft:emerald_ore"
+          ]
+        }
+      }
+    }
+  ],
+  "recipes": [
+    {
+      "type": "ansi",
+      "value": {
+        "title": "dried_kelp_block.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m minecraft:crafting_shapeless -> minecraft:crafting_shaped"
+        ]
+      }
+    }
+  ],
+  "translations": [
+    {
+      "type": "entries",
+      "value": {
+        "name": "Keys",
+        "differences": {
+          "added": [
+            "multiplayer.applyingPack: Applying resource pack",
+            "stat.minecraft.play_time: Time Played",
+            "stat.minecraft.total_world_time: Time with World Open"
+          ],
+          "removed": [
+            "stat.minecraft.play_one_minute: Time Played"
+          ]
+        }
+      }
+    }
+  ],
+  "file_structure": [
+    {
+      "type": "entries",
+      "value": {
+        "name": "data",
+        "differences": {
+          "added": [
+            "minecraft/tags/blocks/moss_replaceable.json"
+          ],
+          "removed": [
+            "minecraft/tags/blocks/lush_plants_replaceable.json"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "assets",
+        "differences": {
+          "added": [
+            "minecraft/shaders/core/rendertype_text_intensity.fsh",
+            "minecraft/shaders/core/rendertype_text_intensity.json",
+            "minecraft/shaders/core/rendertype_text_intensity.vsh",
+            "minecraft/shaders/core/rendertype_text_intensity_see_through.fsh",
+            "minecraft/shaders/core/rendertype_text_intensity_see_through.json",
+            "minecraft/shaders/core/rendertype_text_intensity_see_through.vsh"
+          ],
+          "removed": [
+            "minecraft/textures/block/root_vines_head.png"
+          ]
+        }
+      }
+    }
+  ],
+  "mappings": [
+    {
+      "type": "title",
+      "value": {
+        "title": "Server",
+        "id": "server-mappings",
+        "size": 2
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "Classes",
+        "differences": {
+          "added": [
+            "XXX.datafix.fixes.StructureReferenceCountFix",
+            "XXX.level.block.JigsawBlock",
+            "XXX.level.block.KelpBlock",
+            "XXX.level.block.LadderBlock",
+            "XXX.level.block.LanternBlock",
+            "XXX.level.block.LayeredCauldronBlock",
+            "XXX.level.block.LecternBlock",
+            "XXX.level.block.LevelEvent",
+            "XXX.level.block.LeverBlock$1",
+            "XXX.level.block.LightningRodBlock",
+            "XXX.level.block.LiquidBlockContainer",
+            "XXX.level.block.MagmaBlock",
+            "XXX.level.block.Mirror",
+            "XXX.level.block.MossBlock",
+            "XXX.level.block.MushroomBlock",
+            "XXX.level.block.NetherPortalBlock",
+            "XXX.level.block.NetherSproutsBlock",
+            "XXX.level.block.NetherWartBlock",
+            "XXX.level.block.NoteBlock",
+            "XXX.level.block.ObserverBlock",
+            "XXX.level.block.PipeBlock",
+            "XXX.level.block.PlayerWallHeadBlock",
+            "XXX.level.block.PotatoBlock",
+            "XXX.level.block.PoweredBlock",
+            "XXX.level.block.PoweredRailBlock$1",
+            "XXX.level.block.PressurePlateBlock$1",
+            "XXX.level.block.PumpkinBlock",
+            "XXX.level.block.RailBlock$1",
+            "XXX.level.block.RailState$1",
+            "XXX.level.block.RedStoneWireBlock",
+            "XXX.level.block.RedstoneLampBlock",
+            "XXX.level.block.RedstoneTorchBlock$Toggle",
+            "XXX.level.block.RenderShape",
+            "XXX.level.block.RespawnAnchorBlock",
+            "XXX.level.block.RodBlock",
+            "XXX.level.block.RootedDirtBlock",
+            "XXX.level.block.RotatedPillarBlock",
+            "XXX.level.block.Rotation",
+            "XXX.level.block.SandBlock",
+            "XXX.level.block.ScaffoldingBlock",
+            "XXX.level.block.SeaPickleBlock",
+            "XXX.level.block.ShulkerBoxBlock",
+            "XXX.level.block.SignBlock",
+            "XXX.level.block.SkullBlock",
+            "XXX.level.block.SkullBlock$Types",
+            "XXX.level.block.SlabBlock$1",
+            "XXX.level.block.SmallDripleafBlock",
+            "XXX.level.block.SmokerBlock",
+            "XXX.level.block.SnowLayerBlock$1",
+            "XXX.level.block.SoulFireBlock",
+            "XXX.level.block.SoundType",
+            "XXX.level.block.SpongeBlock",
+            "XXX.level.block.SpreadingSnowyDirtBlock",
+            "XXX.level.block.StainedGlassPaneBlock",
+            "XXX.level.block.StairBlock$1",
+            "XXX.level.block.StemBlock",
+            "XXX.level.block.StoneButtonBlock",
+            "XXX.level.block.StructureBlock",
+            "XXX.level.block.StructureVoidBlock",
+            "XXX.level.block.SupportType",
+            "XXX.level.block.SupportType$2",
+            "XXX.level.block.SweetBerryBushBlock",
+            "XXX.level.block.TallGrassBlock",
+            "XXX.level.block.TargetBlock",
+            "XXX.level.block.TntBlock",
+            "XXX.level.block.TrapDoorBlock",
+            "XXX.level.block.TrappedChestBlock",
+            "XXX.level.block.TripWireBlock$1",
+            "XXX.level.block.TripWireHookBlock$1",
+            "XXX.level.block.TwistingVinesBlock",
+            "XXX.level.block.VineBlock",
+            "XXX.level.block.WallBannerBlock",
+            "XXX.level.block.WallBlock$1",
+            "XXX.level.block.WallSkullBlock",
+            "XXX.level.block.WaterlilyBlock",
+            "XXX.level.block.WeatheringCopper$WeatherState",
+            "XXX.level.block.WeatheringCopperSlabBlock",
+            "XXX.level.block.WebBlock",
+            "XXX.level.block.WeepingVinesPlantBlock",
+            "XXX.level.block.WetSpongeBlock",
+            "XXX.level.block.WitherSkullBlock",
+            "XXX.level.block.WoodButtonBlock",
+            "XXX.block.entity.AbstractFurnaceBlockEntity",
+            "XXX.block.entity.BannerBlockEntity",
+            "XXX.block.entity.BannerPattern$Builder",
+            "XXX.block.entity.BarrelBlockEntity$1",
+            "XXX.block.entity.BeaconBlockEntity",
+            "XXX.block.entity.BeaconBlockEntity$BeaconBeamSection",
+            "XXX.block.entity.BeehiveBlockEntity",
+            "XXX.block.entity.BeehiveBlockEntity$BeeData",
+            "XXX.block.entity.BellBlockEntity",
+            "XXX.block.entity.BlastFurnaceBlockEntity",
+            "XXX.block.entity.BlockEntityTicker",
+            "XXX.block.entity.BlockEntityType$BlockEntitySupplier",
+            "XXX.block.entity.BrewingStandBlockEntity",
+            "XXX.block.entity.CampfireBlockEntity",
+            "XXX.block.entity.ChestBlockEntity$1",
+            "XXX.block.entity.CommandBlockEntity",
+            "XXX.block.entity.CommandBlockEntity$Mode",
+            "XXX.block.entity.ConduitBlockEntity",
+            "XXX.block.entity.DaylightDetectorBlockEntity",
+            "XXX.block.entity.DropperBlockEntity",
+            "XXX.block.entity.EnderChestBlockEntity",
+            "XXX.block.entity.FurnaceBlockEntity",
+            "XXX.block.entity.HopperBlockEntity",
+            "XXX.block.entity.JigsawBlockEntity$JointType",
+            "XXX.block.entity.LecternBlockEntity",
+            "XXX.block.entity.LecternBlockEntity$2",
+            "XXX.block.entity.RandomizableContainerBlockEntity",
+            "XXX.block.entity.ShulkerBoxBlockEntity",
+            "XXX.block.entity.ShulkerBoxBlockEntity$AnimationStatus",
+            "XXX.block.entity.SkullBlockEntity",
+            "XXX.block.entity.SpawnerBlockEntity",
+            "XXX.block.entity.StructureBlockEntity",
+            "XXX.block.entity.TheEndGatewayBlockEntity",
+            "XXX.block.entity.TickingBlockEntity",
+            "XXX.block.entity.package-info",
+            "XXX.block.grower.AbstractTreeGrower",
+            "XXX.level.levelgen.BaseStoneSource",
+            "XXX.level.levelgen.Cavifier",
+            "XXX.level.levelgen.Column",
+            "XXX.level.levelgen.Column$Range",
+            "XXX.level.levelgen.DebugLevelSource",
+            "XXX.level.levelgen.DepthBasedReplacingBaseStoneSource",
+            "XXX.level.levelgen.GenerationStep",
+            "XXX.level.levelgen.GenerationStep$Decoration",
+            "XXX.level.levelgen.GeodeCrackSettings",
+            "XXX.level.levelgen.Heightmap",
+            "XXX.level.levelgen.Heightmap$Usage"
+          ],
+          "removed": [
+            "XXX.datafix.fixes.StriderGravityFix",
+            "XXX.level.block.IronBarsBlock",
+            "XXX.level.block.JukeboxBlock",
+            "XXX.level.block.KelpPlantBlock",
+            "XXX.level.block.LadderBlock$1",
+            "XXX.level.block.LavaCauldronBlock",
+            "XXX.level.block.LeavesBlock",
+            "XXX.level.block.LecternBlock$1",
+            "XXX.level.block.LeverBlock",
+            "XXX.level.block.LightBlock",
+            "XXX.level.block.LiquidBlock",
+            "XXX.level.block.LoomBlock",
+            "XXX.level.block.MelonBlock",
+            "XXX.level.block.Mirror$1",
+            "XXX.level.block.MultifaceBlock",
+            "XXX.level.block.MyceliumBlock",
+            "XXX.level.block.NetherPortalBlock$1",
+            "XXX.level.block.NetherVines",
+            "XXX.level.block.NetherrackBlock",
+            "XXX.level.block.NyliumBlock",
+            "XXX.level.block.OreBlock",
+            "XXX.level.block.PlayerHeadBlock",
+            "XXX.level.block.PointedDripstoneBlock",
+            "XXX.level.block.PowderSnowBlock",
+            "XXX.level.block.PoweredRailBlock",
+            "XXX.level.block.PressurePlateBlock",
+            "XXX.level.block.PressurePlateBlock$Sensitivity",
+            "XXX.level.block.RailBlock",
+            "XXX.level.block.RailState",
+            "XXX.level.block.RedStoneOreBlock",
+            "XXX.level.block.RedStoneWireBlock$1",
+            "XXX.level.block.RedstoneTorchBlock",
+            "XXX.level.block.RedstoneWallTorchBlock",
+            "XXX.level.block.RepeaterBlock",
+            "XXX.level.block.RespawnAnchorBlock$1",
+            "XXX.level.block.RodBlock$1",
+            "XXX.level.block.RootsBlock",
+            "XXX.level.block.RotatedPillarBlock$1",
+            "XXX.level.block.Rotation$1",
+            "XXX.level.block.SaplingBlock",
+            "XXX.level.block.SculkSensorBlock",
+            "XXX.level.block.SeagrassBlock",
+            "XXX.level.block.ShulkerBoxBlock$1",
+            "XXX.level.block.SimpleWaterloggedBlock",
+            "XXX.level.block.SkullBlock$Type",
+            "XXX.level.block.SlabBlock",
+            "XXX.level.block.SlimeBlock",
+            "XXX.level.block.SmithingTableBlock",
+            "XXX.level.block.SnowLayerBlock",
+            "XXX.level.block.SnowyDirtBlock",
+            "XXX.level.block.SoulSandBlock",
+            "XXX.level.block.SpawnerBlock",
+            "XXX.level.block.SporeBlossomBlock",
+            "XXX.level.block.StainedGlassBlock",
+            "XXX.level.block.StairBlock",
+            "XXX.level.block.StandingSignBlock",
+            "XXX.level.block.StemGrownBlock",
+            "XXX.level.block.StonecutterBlock",
+            "XXX.level.block.StructureBlock$1",
+            "XXX.level.block.SugarCaneBlock",
+            "XXX.level.block.SupportType$1",
+            "XXX.level.block.SupportType$3",
+            "XXX.level.block.TallFlowerBlock",
+            "XXX.level.block.TallSeagrassBlock",
+            "XXX.level.block.TintedGlassBlock",
+            "XXX.level.block.TorchBlock",
+            "XXX.level.block.TrapDoorBlock$1",
+            "XXX.level.block.TripWireBlock",
+            "XXX.level.block.TripWireHookBlock",
+            "XXX.level.block.TurtleEggBlock",
+            "XXX.level.block.TwistingVinesPlantBlock",
+            "XXX.level.block.VineBlock$1",
+            "XXX.level.block.WallBlock",
+            "XXX.level.block.WallSignBlock",
+            "XXX.level.block.WallTorchBlock",
+            "XXX.level.block.WeatheringCopper",
+            "XXX.level.block.WeatheringCopperFullBlock",
+            "XXX.level.block.WeatheringCopperStairBlock",
+            "XXX.level.block.WeepingVinesBlock",
+            "XXX.level.block.WeightedPressurePlateBlock",
+            "XXX.level.block.WitherRoseBlock",
+            "XXX.level.block.WitherWallSkullBlock",
+            "XXX.level.block.WoolCarpetBlock",
+            "XXX.block.entity.AbstractFurnaceBlockEntity$1",
+            "XXX.block.entity.BannerPattern",
+            "XXX.block.entity.BarrelBlockEntity",
+            "XXX.block.entity.BaseContainerBlockEntity",
+            "XXX.block.entity.BeaconBlockEntity$1",
+            "XXX.block.entity.BedBlockEntity",
+            "XXX.block.entity.BeehiveBlockEntity$1",
+            "XXX.block.entity.BeehiveBlockEntity$BeeReleaseStatus",
+            "XXX.block.entity.BellBlockEntity$ResonationEndAction",
+            "XXX.block.entity.BlockEntity",
+            "XXX.block.entity.BlockEntityType",
+            "XXX.block.entity.BlockEntityType$Builder",
+            "XXX.block.entity.BrewingStandBlockEntity$1",
+            "XXX.block.entity.ChestBlockEntity",
+            "XXX.block.entity.ChestLidController",
+            "XXX.block.entity.CommandBlockEntity$1",
+            "XXX.block.entity.ComparatorBlockEntity",
+            "XXX.block.entity.ContainerOpenersCounter",
+            "XXX.block.entity.DispenserBlockEntity",
+            "XXX.block.entity.EnchantmentTableBlockEntity",
+            "XXX.block.entity.EnderChestBlockEntity$1",
+            "XXX.block.entity.Hopper",
+            "XXX.block.entity.JigsawBlockEntity",
+            "XXX.block.entity.JukeboxBlockEntity",
+            "XXX.block.entity.LecternBlockEntity$1",
+            "XXX.block.entity.LidBlockEntity",
+            "XXX.block.entity.SculkSensorBlockEntity",
+            "XXX.block.entity.ShulkerBoxBlockEntity$1",
+            "XXX.block.entity.SignBlockEntity",
+            "XXX.block.entity.SmokerBlockEntity",
+            "XXX.block.entity.SpawnerBlockEntity$1",
+            "XXX.block.entity.StructureBlockEntity$UpdateType",
+            "XXX.block.entity.TheEndPortalBlockEntity",
+            "XXX.block.entity.TrappedChestBlockEntity",
+            "XXX.block.grower.AbstractMegaTreeGrower",
+            "XXX.block.grower.AcaciaTreeGrower",
+            "XXX.level.levelgen.Aquifer$1",
+            "XXX.level.levelgen.Aquifer$NoiseBasedAquifer$AquiferStatus",
+            "XXX.level.levelgen.Beardifier",
+            "XXX.level.levelgen.Cavifier$QuantizedSpaghettiRarity",
+            "XXX.level.levelgen.Column$Line",
+            "XXX.level.levelgen.Column$Ray",
+            "XXX.level.levelgen.Decoratable",
+            "XXX.level.levelgen.FlatLevelSource",
+            "XXX.level.levelgen.GenerationStep$Carving",
+            "XXX.level.levelgen.GeodeBlockSettings",
+            "XXX.level.levelgen.GeodeLayerSettings",
+            "XXX.level.levelgen.Heightmap$Types",
+            "XXX.level.levelgen.NoiseBasedChunkGenerator",
+            "XXX.level.levelgen.OreVeinifier$VeinType"
+          ]
+        }
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "Changes",
+        "lines": [
+          "XXX.data.models.BlockModelGenerators \u001b[2;32m+1M\u001b[0m",
+          "XXX.data.recipes.RecipeProvider \u001b[2;32m+12M\u001b[0m \u001b[2;31m-3M\u001b[0m",
+          "XXX.data.recipes.ShapedRecipeBuilder$Result \u001b[2;32m+1M\u001b[0m \u001b[2;31m-1M\u001b[0m | \u001b[2;31m-1P\u001b[0m",
+          "XXX.data.worldgen.BiomeDefaultFeatures \u001b[2;32m+1M\u001b[0m",
+          "XXX.data.worldgen.Features$States \u001b[2;32m+3P\u001b[0m",
+          "XXX.minecraft.stats.ServerStatsCounter \u001b[2;31m-2P\u001b[0m",
+          "XXX.minecraft.stats.Stats \u001b[2;32m+2P\u001b[0m \u001b[2;31m-1P\u001b[0m",
+          "XXX.level.block.AzaleaBlock \u001b[2;32m+4M\u001b[0m \u001b[2;31m-1M\u001b[0m | \u001b[2;32m+2P\u001b[0m \u001b[2;31m-1P\u001b[0m",
+          "XXX.level.block.InfestedBlock \u001b[2;32m+6M\u001b[0m \u001b[2;31m-1M\u001b[0m | \u001b[2;32m+2P\u001b[0m",
+          "XXX.level.levelgen.NoiseGeneratorSettings \u001b[2;32m+2M\u001b[0m \u001b[2;31m-1M\u001b[0m | \u001b[2;32m+1P\u001b[0m",
+          "XXX.levelgen.carver.CanyonCarverConfiguration \u001b[2;32m+1M\u001b[0m \u001b[2;31m-1M\u001b[0m",
+          "XXX.levelgen.carver.CanyonWorldCarver \u001b[2;32m+3M\u001b[0m \u001b[2;31m-3M\u001b[0m",
+          "XXX.levelgen.carver.CarverDebugSettings \u001b[2;32m+6M\u001b[0m \u001b[2;31m-1M\u001b[0m | \u001b[2;32m+3P\u001b[0m",
+          "XXX.levelgen.carver.CaveCarverConfiguration \u001b[2;32m+2M\u001b[0m \u001b[2;31m-2M\u001b[0m",
+          "XXX.levelgen.carver.ConfiguredWorldCarver \u001b[2;32m+1M\u001b[0m \u001b[2;31m-1M\u001b[0m",
+          "XXX.levelgen.carver.UnderwaterCanyonWorldCarver \u001b[2;32m+2M\u001b[0m \u001b[2;31m-2M\u001b[0m",
+          "XXX.levelgen.carver.WorldCarver \u001b[2;32m+4M\u001b[0m \u001b[2;31m-3M\u001b[0m | \u001b[2;32m+2P\u001b[0m \u001b[2;31m-1P\u001b[0m",
+          "XXX.levelgen.structure.StructurePiece \u001b[2;32m+1M\u001b[0m \u001b[2;31m-1M\u001b[0m"
+        ]
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.data.models.BlockModelGenerators",
+        "differences": {
+          "added": [],
+          "removed": [
+            "void createInfestedDeepslate()"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.data.recipes.RecipeProvider",
+        "differences": {
+          "added": [
+            "void compactMaterialRecipes(Consumer,ItemLike,ItemLike)",
+            "String getFromName(ItemLike,ItemLike)",
+            "String getBlockName(ItemLike)"
+          ],
+          "removed": [
+            "void oneToOneConversionRecipe(Consumer,ItemLike,ItemLike,String)",
+            "void oneToOneConversionRecipe(Consumer,ItemLike,ItemLike,String,int)",
+            "void nineBlockStorageRecipes(Consumer,ItemLike,ItemLike)",
+            "void nineBlockStorageRecipesWithCustomPacking(Consumer,ItemLike,ItemLike,String,String)",
+            "void nineBlockStorageRecipesRecipesWithCustomUnpacking(Consumer,ItemLike,ItemLike,String,String)",
+            "void nineBlockStorageRecipes(Consumer,ItemLike,ItemLike,String,String,String,String)",
+            "void simpleCookingRecipe(Consumer,String,SimpleCookingSerializer,int,ItemLike,ItemLike,float)",
+            "String getItemName(ItemLike)",
+            "String getSimpleRecipeName(ItemLike)",
+            "String getConversionRecipeName(ItemLike,ItemLike)",
+            "String getSmeltingRecipeName(ItemLike)",
+            "String getBlastingRecipeName(ItemLike)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.data.recipes.ShapedRecipeBuilder$Result",
+        "differences": {
+          "added": [
+            "void <init>(ShapedRecipeBuilder,ResourceLocation,Item,int,String,List,Map,Advancement$Builder,ResourceLocation)"
+          ],
+          "removed": [
+            "void <init>(ResourceLocation,Item,int,String,List,Map,Advancement$Builder,ResourceLocation)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.data.worldgen.BiomeDefaultFeatures",
+        "differences": {
+          "added": [],
+          "removed": [
+            "void addDefaultUndergroundVariety(BiomeGenerationSettings$Builder,boolean)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.level.block.AzaleaBlock",
+        "differences": {
+          "added": [
+            "VoxelShape getBlockSupportShape(BlockState,BlockGetter,BlockPos)"
+          ],
+          "removed": [
+            "VoxelShape getShape(BlockState,BlockGetter,BlockPos,CollisionContext)",
+            "boolean isValidBonemealTarget(BlockGetter,BlockPos,BlockState,boolean)",
+            "boolean isBonemealSuccess(Level,Random,BlockPos,BlockState)",
+            "void performBonemeal(ServerLevel,Random,BlockPos,BlockState)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.level.block.InfestedBlock",
+        "differences": {
+          "added": [
+            "BlockState stateByHostBlock(Block)"
+          ],
+          "removed": [
+            "BlockState infestedStateByHost(BlockState)",
+            "BlockState hostStateByInfested(BlockState)",
+            "BlockState getNewStateWithProperties(Map,BlockState,Supplier)",
+            "BlockState lambda$getNewStateWithProperties$2(Supplier,BlockState)",
+            "BlockState lambda$hostStateByInfested$1()",
+            "BlockState lambda$infestedStateByHost$0(BlockState)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.level.levelgen.NoiseGeneratorSettings",
+        "differences": {
+          "added": [
+            "void <init>(StructureSettings,NoiseSettings,BlockState,BlockState,int,int,int,int,boolean,boolean,boolean,boolean)"
+          ],
+          "removed": [
+            "void <init>(StructureSettings,NoiseSettings,BlockState,BlockState,int,int,int,int,boolean,boolean,boolean,boolean,boolean)",
+            "boolean isOreVeinsEnabled()"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.level.levelgen.carver.CanyonCarverConfiguration",
+        "differences": {
+          "added": [
+            "void <init>(float,HeightProvider,FloatProvider,VerticalAnchor,CarverDebugSettings,FloatProvider,CanyonCarverConfiguration$CanyonShapeConfiguration)"
+          ],
+          "removed": [
+            "void <init>(float,HeightProvider,FloatProvider,VerticalAnchor,boolean,CarverDebugSettings,FloatProvider,CanyonCarverConfiguration$CanyonShapeConfiguration)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.level.levelgen.carver.CanyonWorldCarver",
+        "differences": {
+          "added": [
+            "boolean carve(CarvingContext,CanyonCarverConfiguration,ChunkAccess,Function,Random,int,ChunkPos,BitSet)",
+            "void doCarve(CarvingContext,CanyonCarverConfiguration,ChunkAccess,Function,long,int,double,double,double,float,float,float,int,int,double,BitSet)",
+            "boolean carve(CarvingContext,CarverConfiguration,ChunkAccess,Function,Random,int,ChunkPos,BitSet)"
+          ],
+          "removed": [
+            "boolean carve(CarvingContext,CanyonCarverConfiguration,ChunkAccess,Function,Random,Aquifer,ChunkPos,BitSet)",
+            "void doCarve(CarvingContext,CanyonCarverConfiguration,ChunkAccess,Function,long,Aquifer,double,double,double,float,float,float,int,int,double,BitSet)",
+            "boolean carve(CarvingContext,CarverConfiguration,ChunkAccess,Function,Random,Aquifer,ChunkPos,BitSet)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.level.levelgen.carver.CarverDebugSettings",
+        "differences": {
+          "added": [
+            "void <init>(boolean,BlockState)"
+          ],
+          "removed": [
+            "CarverDebugSettings of(boolean,BlockState,BlockState,BlockState,BlockState)",
+            "CarverDebugSettings of(BlockState,BlockState,BlockState,BlockState)",
+            "void <init>(boolean,BlockState,BlockState,BlockState,BlockState)",
+            "BlockState getWaterState()",
+            "BlockState getLavaState()",
+            "BlockState getBarrierState()"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.level.levelgen.carver.CaveCarverConfiguration",
+        "differences": {
+          "added": [
+            "void <init>(float,HeightProvider,FloatProvider,VerticalAnchor,CarverDebugSettings,FloatProvider,FloatProvider,FloatProvider)",
+            "void <init>(float,HeightProvider,FloatProvider,VerticalAnchor,FloatProvider,FloatProvider,FloatProvider)"
+          ],
+          "removed": [
+            "void <init>(float,HeightProvider,FloatProvider,VerticalAnchor,boolean,CarverDebugSettings,FloatProvider,FloatProvider,FloatProvider)",
+            "void <init>(float,HeightProvider,FloatProvider,VerticalAnchor,boolean,FloatProvider,FloatProvider,FloatProvider)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.level.levelgen.carver.ConfiguredWorldCarver",
+        "differences": {
+          "added": [
+            "boolean carve(CarvingContext,ChunkAccess,Function,Random,int,ChunkPos,BitSet)"
+          ],
+          "removed": [
+            "boolean carve(CarvingContext,ChunkAccess,Function,Random,Aquifer,ChunkPos,BitSet)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.level.levelgen.carver.UnderwaterCanyonWorldCarver",
+        "differences": {
+          "added": [
+            "boolean carveBlock(CarvingContext,CanyonCarverConfiguration,ChunkAccess,Function,BitSet,Random,BlockPos$MutableBlockPos,BlockPos$MutableBlockPos,int,MutableBoolean)",
+            "boolean carveBlock(CarvingContext,CarverConfiguration,ChunkAccess,Function,BitSet,Random,BlockPos$MutableBlockPos,BlockPos$MutableBlockPos,int,MutableBoolean)"
+          ],
+          "removed": [
+            "boolean carveBlock(CarvingContext,CanyonCarverConfiguration,ChunkAccess,Function,BitSet,Random,BlockPos$MutableBlockPos,BlockPos$MutableBlockPos,Aquifer,MutableBoolean)",
+            "boolean carveBlock(CarvingContext,CarverConfiguration,ChunkAccess,Function,BitSet,Random,BlockPos$MutableBlockPos,BlockPos$MutableBlockPos,Aquifer,MutableBoolean)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.level.levelgen.carver.WorldCarver",
+        "differences": {
+          "added": [
+            "boolean carveEllipsoid(CarvingContext,CarverConfiguration,ChunkAccess,Function,long,int,double,double,double,double,double,BitSet,WorldCarver$CarveSkipChecker)",
+            "boolean carveBlock(CarvingContext,CarverConfiguration,ChunkAccess,Function,BitSet,Random,BlockPos$MutableBlockPos,BlockPos$MutableBlockPos,int,MutableBoolean)",
+            "BlockState getCaveAirState(CarverConfiguration)"
+          ],
+          "removed": [
+            "boolean carveEllipsoid(CarvingContext,CarverConfiguration,ChunkAccess,Function,long,Aquifer,double,double,double,double,double,BitSet,WorldCarver$CarveSkipChecker)",
+            "boolean carveBlock(CarvingContext,CarverConfiguration,ChunkAccess,Function,BitSet,Random,BlockPos$MutableBlockPos,BlockPos$MutableBlockPos,Aquifer,MutableBoolean)",
+            "BlockState getCarveState(CarvingContext,CarverConfiguration,BlockPos,Aquifer)",
+            "BlockState getDebugState(CarverConfiguration,BlockState)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.level.levelgen.structure.StructurePiece",
+        "differences": {
+          "added": [
+            "void maybeGenerateBlock(WorldGenLevel,BoundingBox,Random,float,int,int,int,BlockState,boolean)"
+          ],
+          "removed": [
+            "void maybeGenerateBlock(WorldGenLevel,BoundingBox,Random,float,int,int,int,BlockState)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "title",
+      "value": {
+        "title": "Client",
+        "id": "client-mappings",
+        "size": 2
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "Classes",
+        "differences": {
+          "added": [
+            "XXX.datafix.fixes.StriderGravityFix",
+            "XXX.datafix.fixes.SwimStatsRenameFix",
+            "XXX.level.block.IronBarsBlock",
+            "XXX.level.block.JukeboxBlock",
+            "XXX.level.block.KelpPlantBlock",
+            "XXX.level.block.LadderBlock$1",
+            "XXX.level.block.LavaCauldronBlock",
+            "XXX.level.block.LeavesBlock",
+            "XXX.level.block.LecternBlock$1",
+            "XXX.level.block.LeverBlock",
+            "XXX.level.block.LightBlock",
+            "XXX.level.block.LiquidBlock",
+            "XXX.level.block.LoomBlock",
+            "XXX.level.block.MelonBlock",
+            "XXX.level.block.Mirror$1",
+            "XXX.level.block.MultifaceBlock",
+            "XXX.level.block.MyceliumBlock",
+            "XXX.level.block.NetherPortalBlock$1",
+            "XXX.level.block.NetherVines",
+            "XXX.level.block.NetherrackBlock",
+            "XXX.level.block.NyliumBlock",
+            "XXX.level.block.OreBlock",
+            "XXX.level.block.PlayerHeadBlock",
+            "XXX.level.block.PointedDripstoneBlock",
+            "XXX.level.block.PowderSnowBlock",
+            "XXX.level.block.PoweredRailBlock",
+            "XXX.level.block.PressurePlateBlock",
+            "XXX.level.block.PressurePlateBlock$Sensitivity",
+            "XXX.level.block.RailBlock",
+            "XXX.level.block.RailState",
+            "XXX.level.block.RedStoneOreBlock",
+            "XXX.level.block.RedStoneWireBlock$1",
+            "XXX.level.block.RedstoneTorchBlock",
+            "XXX.level.block.RedstoneWallTorchBlock",
+            "XXX.level.block.RepeaterBlock",
+            "XXX.level.block.RespawnAnchorBlock$1",
+            "XXX.level.block.RodBlock$1",
+            "XXX.level.block.RootsBlock",
+            "XXX.level.block.RotatedPillarBlock$1",
+            "XXX.level.block.Rotation$1",
+            "XXX.level.block.SaplingBlock",
+            "XXX.level.block.SculkSensorBlock",
+            "XXX.level.block.SeagrassBlock",
+            "XXX.level.block.ShulkerBoxBlock$1",
+            "XXX.level.block.SimpleWaterloggedBlock",
+            "XXX.level.block.SkullBlock$Type",
+            "XXX.level.block.SlabBlock",
+            "XXX.level.block.SlimeBlock",
+            "XXX.level.block.SmithingTableBlock",
+            "XXX.level.block.SnowLayerBlock",
+            "XXX.level.block.SnowyDirtBlock",
+            "XXX.level.block.SoulSandBlock",
+            "XXX.level.block.SpawnerBlock",
+            "XXX.level.block.SporeBlossomBlock",
+            "XXX.level.block.StainedGlassBlock",
+            "XXX.level.block.StairBlock",
+            "XXX.level.block.StandingSignBlock",
+            "XXX.level.block.StemGrownBlock",
+            "XXX.level.block.StonecutterBlock",
+            "XXX.level.block.StructureBlock$1",
+            "XXX.level.block.SugarCaneBlock",
+            "XXX.level.block.SupportType$1",
+            "XXX.level.block.SupportType$3",
+            "XXX.level.block.TallFlowerBlock",
+            "XXX.level.block.TallSeagrassBlock",
+            "XXX.level.block.TintedGlassBlock",
+            "XXX.level.block.TorchBlock",
+            "XXX.level.block.TrapDoorBlock$1",
+            "XXX.level.block.TripWireBlock",
+            "XXX.level.block.TripWireHookBlock",
+            "XXX.level.block.TurtleEggBlock",
+            "XXX.level.block.TwistingVinesPlantBlock",
+            "XXX.level.block.VineBlock$1",
+            "XXX.level.block.WallBlock",
+            "XXX.level.block.WallSignBlock",
+            "XXX.level.block.WallTorchBlock",
+            "XXX.level.block.WeatheringCopper",
+            "XXX.level.block.WeatheringCopperFullBlock",
+            "XXX.level.block.WeatheringCopperStairBlock",
+            "XXX.level.block.WeepingVinesBlock",
+            "XXX.level.block.WeightedPressurePlateBlock",
+            "XXX.level.block.WitherRoseBlock",
+            "XXX.level.block.WitherWallSkullBlock",
+            "XXX.level.block.WoolCarpetBlock",
+            "XXX.block.entity.AbstractFurnaceBlockEntity$1",
+            "XXX.block.entity.BannerPattern",
+            "XXX.block.entity.BarrelBlockEntity",
+            "XXX.block.entity.BaseContainerBlockEntity",
+            "XXX.block.entity.BeaconBlockEntity$1",
+            "XXX.block.entity.BedBlockEntity",
+            "XXX.block.entity.BeehiveBlockEntity$1",
+            "XXX.block.entity.BeehiveBlockEntity$BeeReleaseStatus",
+            "XXX.block.entity.BellBlockEntity$ResonationEndAction",
+            "XXX.block.entity.BlockEntity",
+            "XXX.block.entity.BlockEntityType",
+            "XXX.block.entity.BlockEntityType$Builder",
+            "XXX.block.entity.BrewingStandBlockEntity$1",
+            "XXX.block.entity.ChestBlockEntity",
+            "XXX.block.entity.ChestLidController",
+            "XXX.block.entity.CommandBlockEntity$1",
+            "XXX.block.entity.ComparatorBlockEntity",
+            "XXX.block.entity.ContainerOpenersCounter",
+            "XXX.block.entity.DispenserBlockEntity",
+            "XXX.block.entity.EnchantmentTableBlockEntity",
+            "XXX.block.entity.EnderChestBlockEntity$1",
+            "XXX.block.entity.Hopper",
+            "XXX.block.entity.JigsawBlockEntity",
+            "XXX.block.entity.JukeboxBlockEntity",
+            "XXX.block.entity.LecternBlockEntity$1",
+            "XXX.block.entity.LidBlockEntity",
+            "XXX.block.entity.SculkSensorBlockEntity",
+            "XXX.block.entity.ShulkerBoxBlockEntity$1",
+            "XXX.block.entity.SignBlockEntity",
+            "XXX.block.entity.SmokerBlockEntity",
+            "XXX.block.entity.SpawnerBlockEntity$1",
+            "XXX.block.entity.StructureBlockEntity$UpdateType",
+            "XXX.block.entity.TheEndPortalBlockEntity",
+            "XXX.block.entity.TrappedChestBlockEntity",
+            "XXX.block.grower.AbstractMegaTreeGrower",
+            "XXX.block.grower.AcaciaTreeGrower",
+            "XXX.level.levelgen.Beardifier",
+            "XXX.level.levelgen.Cavifier$QuantizedSpaghettiRarity",
+            "XXX.level.levelgen.Column$Line",
+            "XXX.level.levelgen.Column$Ray",
+            "XXX.level.levelgen.Decoratable",
+            "XXX.level.levelgen.FlatLevelSource",
+            "XXX.level.levelgen.GenerationStep$Carving",
+            "XXX.level.levelgen.GeodeBlockSettings",
+            "XXX.level.levelgen.GeodeLayerSettings",
+            "XXX.level.levelgen.Heightmap$Types",
+            "XXX.level.levelgen.NoiseBasedChunkGenerator"
+          ],
+          "removed": [
+            "XXX.minecraft.client.Camera$NearPlane",
+            "XXX.datafix.fixes.StatsRenameFix",
+            "XXX.datafix.fixes.StructureReferenceCountFix",
+            "XXX.level.block.InfestedRotatedPillarBlock",
+            "XXX.level.block.JigsawBlock",
+            "XXX.level.block.KelpBlock",
+            "XXX.level.block.LadderBlock",
+            "XXX.level.block.LanternBlock",
+            "XXX.level.block.LayeredCauldronBlock",
+            "XXX.level.block.LecternBlock",
+            "XXX.level.block.LevelEvent",
+            "XXX.level.block.LeverBlock$1",
+            "XXX.level.block.LightningRodBlock",
+            "XXX.level.block.LiquidBlockContainer",
+            "XXX.level.block.MagmaBlock",
+            "XXX.level.block.Mirror",
+            "XXX.level.block.MossBlock",
+            "XXX.level.block.MushroomBlock",
+            "XXX.level.block.NetherPortalBlock",
+            "XXX.level.block.NetherSproutsBlock",
+            "XXX.level.block.NetherWartBlock",
+            "XXX.level.block.NoteBlock",
+            "XXX.level.block.ObserverBlock",
+            "XXX.level.block.PipeBlock",
+            "XXX.level.block.PlayerWallHeadBlock",
+            "XXX.level.block.PotatoBlock",
+            "XXX.level.block.PoweredBlock",
+            "XXX.level.block.PoweredRailBlock$1",
+            "XXX.level.block.PressurePlateBlock$1",
+            "XXX.level.block.PumpkinBlock",
+            "XXX.level.block.RailBlock$1",
+            "XXX.level.block.RailState$1",
+            "XXX.level.block.RedStoneWireBlock",
+            "XXX.level.block.RedstoneLampBlock",
+            "XXX.level.block.RedstoneTorchBlock$Toggle",
+            "XXX.level.block.RenderShape",
+            "XXX.level.block.RespawnAnchorBlock",
+            "XXX.level.block.RodBlock",
+            "XXX.level.block.RootedDirtBlock",
+            "XXX.level.block.RotatedPillarBlock",
+            "XXX.level.block.Rotation",
+            "XXX.level.block.SandBlock",
+            "XXX.level.block.ScaffoldingBlock",
+            "XXX.level.block.SeaPickleBlock",
+            "XXX.level.block.ShulkerBoxBlock",
+            "XXX.level.block.SignBlock",
+            "XXX.level.block.SkullBlock",
+            "XXX.level.block.SkullBlock$Types",
+            "XXX.level.block.SlabBlock$1",
+            "XXX.level.block.SmallDripleafBlock",
+            "XXX.level.block.SmokerBlock",
+            "XXX.level.block.SnowLayerBlock$1",
+            "XXX.level.block.SoulFireBlock",
+            "XXX.level.block.SoundType",
+            "XXX.level.block.SpongeBlock",
+            "XXX.level.block.SpreadingSnowyDirtBlock",
+            "XXX.level.block.StainedGlassPaneBlock",
+            "XXX.level.block.StairBlock$1",
+            "XXX.level.block.StemBlock",
+            "XXX.level.block.StoneButtonBlock",
+            "XXX.level.block.StructureBlock",
+            "XXX.level.block.StructureVoidBlock",
+            "XXX.level.block.SupportType",
+            "XXX.level.block.SupportType$2",
+            "XXX.level.block.SweetBerryBushBlock",
+            "XXX.level.block.TallGrassBlock",
+            "XXX.level.block.TargetBlock",
+            "XXX.level.block.TntBlock",
+            "XXX.level.block.TrapDoorBlock",
+            "XXX.level.block.TrappedChestBlock",
+            "XXX.level.block.TripWireBlock$1",
+            "XXX.level.block.TripWireHookBlock$1",
+            "XXX.level.block.TwistingVinesBlock",
+            "XXX.level.block.VineBlock",
+            "XXX.level.block.WallBannerBlock",
+            "XXX.level.block.WallBlock$1",
+            "XXX.level.block.WallSkullBlock",
+            "XXX.level.block.WaterlilyBlock",
+            "XXX.level.block.WeatheringCopper$WeatherState",
+            "XXX.level.block.WeatheringCopperSlabBlock",
+            "XXX.level.block.WebBlock",
+            "XXX.level.block.WeepingVinesPlantBlock",
+            "XXX.level.block.WetSpongeBlock",
+            "XXX.level.block.WitherSkullBlock",
+            "XXX.level.block.WoodButtonBlock",
+            "XXX.block.entity.AbstractFurnaceBlockEntity",
+            "XXX.block.entity.BannerBlockEntity",
+            "XXX.block.entity.BannerPattern$Builder",
+            "XXX.block.entity.BarrelBlockEntity$1",
+            "XXX.block.entity.BeaconBlockEntity",
+            "XXX.block.entity.BeaconBlockEntity$BeaconBeamSection",
+            "XXX.block.entity.BeehiveBlockEntity",
+            "XXX.block.entity.BeehiveBlockEntity$BeeData",
+            "XXX.block.entity.BellBlockEntity",
+            "XXX.block.entity.BlastFurnaceBlockEntity",
+            "XXX.block.entity.BlockEntityTicker",
+            "XXX.block.entity.BlockEntityType$BlockEntitySupplier",
+            "XXX.block.entity.BrewingStandBlockEntity",
+            "XXX.block.entity.CampfireBlockEntity",
+            "XXX.block.entity.ChestBlockEntity$1",
+            "XXX.block.entity.CommandBlockEntity",
+            "XXX.block.entity.CommandBlockEntity$Mode",
+            "XXX.block.entity.ConduitBlockEntity",
+            "XXX.block.entity.DaylightDetectorBlockEntity",
+            "XXX.block.entity.DropperBlockEntity",
+            "XXX.block.entity.EnderChestBlockEntity",
+            "XXX.block.entity.FurnaceBlockEntity",
+            "XXX.block.entity.HopperBlockEntity",
+            "XXX.block.entity.JigsawBlockEntity$JointType",
+            "XXX.block.entity.LecternBlockEntity",
+            "XXX.block.entity.LecternBlockEntity$2",
+            "XXX.block.entity.RandomizableContainerBlockEntity",
+            "XXX.block.entity.ShulkerBoxBlockEntity",
+            "XXX.block.entity.ShulkerBoxBlockEntity$AnimationStatus",
+            "XXX.block.entity.SkullBlockEntity",
+            "XXX.block.entity.SpawnerBlockEntity",
+            "XXX.block.entity.StructureBlockEntity",
+            "XXX.block.entity.TheEndGatewayBlockEntity",
+            "XXX.block.entity.TickingBlockEntity",
+            "XXX.block.entity.package-info",
+            "XXX.block.grower.AbstractTreeGrower",
+            "XXX.block.grower.AzaleaTreeGrower",
+            "XXX.level.levelgen.Aquifer$NoiseBasedAquifer",
+            "XXX.level.levelgen.BaseStoneSource",
+            "XXX.level.levelgen.Cavifier",
+            "XXX.level.levelgen.Column",
+            "XXX.level.levelgen.Column$Range",
+            "XXX.level.levelgen.DebugLevelSource",
+            "XXX.level.levelgen.DepthBasedReplacingBaseStoneSource",
+            "XXX.level.levelgen.GenerationStep",
+            "XXX.level.levelgen.GenerationStep$Decoration",
+            "XXX.level.levelgen.GeodeCrackSettings",
+            "XXX.level.levelgen.Heightmap",
+            "XXX.level.levelgen.Heightmap$Usage",
+            "XXX.level.levelgen.NoiseBasedChunkGenerator$OreVeinNoiseSource",
+            "XXX.level.levelgen.OreVeinifier"
+          ]
+        }
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "Changes",
+        "lines": [
+          "XXX.blaze3d.platform.GlConst \u001b[2;32m+2P\u001b[0m \u001b[2;31m-3P\u001b[0m",
+          "net.minecraft.SharedConstants \u001b[2;32m+5P\u001b[0m \u001b[2;31m-1P\u001b[0m",
+          "XXX.minecraft.client.Camera \u001b[2;32m+1M\u001b[0m",
+          "XXX.client.renderer.GameRenderer \u001b[2;32m+2M\u001b[0m | \u001b[2;32m+2P\u001b[0m",
+          "XXX.client.renderer.RenderType \u001b[2;32m+4M\u001b[0m | \u001b[2;32m+2P\u001b[0m",
+          "XXX.renderer.entity.FishingHookRenderer \u001b[2;32m+1P\u001b[0m",
+          "XXX.client.resources.ClientPackSource \u001b[2;32m+8M\u001b[0m \u001b[2;31m-7M\u001b[0m | \u001b[2;32m+1P\u001b[0m",
+          "XXX.client.server.IntegratedServer \u001b[2;32m+1M\u001b[0m",
+          "XXX.data.recipes.RecipeBuilder \u001b[2;32m+3M\u001b[0m | \u001b[2;32m+2P\u001b[0m \u001b[2;31m-1P\u001b[0m",
+          "XXX.data.recipes.ShapedRecipeBuilder \u001b[2;32m+1M\u001b[0m \u001b[2;31m-3M\u001b[0m | \u001b[2;31m-1P\u001b[0m",
+          "XXX.data.recipes.ShapelessRecipeBuilder \u001b[2;32m+1M\u001b[0m \u001b[2;31m-3M\u001b[0m | \u001b[2;31m-1P\u001b[0m",
+          "XXX.data.recipes.SimpleCookingRecipeBuilder \u001b[2;32m+3M\u001b[0m \u001b[2;31m-2M\u001b[0m",
+          "XXX.data.recipes.SingleItemRecipeBuilder \u001b[2;32m+4M\u001b[0m \u001b[2;31m-2M\u001b[0m",
+          "XXX.data.worldgen.Carvers \u001b[2;32m+1P\u001b[0m \u001b[2;31m-1P\u001b[0m",
+          "XXX.data.worldgen.Features \u001b[2;32m+3P\u001b[0m",
+          "XXX.minecraft.tags.BlockTags \u001b[2;32m+1P\u001b[0m \u001b[2;31m-1P\u001b[0m",
+          "XXX.minecraft.util.StringUtil \u001b[2;32m+1M\u001b[0m | \u001b[2;32m+1P\u001b[0m",
+          "XXX.minecraft.world.InteractionResult \u001b[2;32m+1M\u001b[0m | \u001b[2;32m+1P\u001b[0m",
+          "XXX.world.entity.Entity \u001b[2;32m+3M\u001b[0m \u001b[2;31m-2M\u001b[0m | \u001b[2;32m+1P\u001b[0m \u001b[2;31m-1P\u001b[0m",
+          "XXX.world.entity.LivingEntity \u001b[2;32m+2M\u001b[0m",
+          "XXX.world.item.DebugStickItem \u001b[2;32m+1M\u001b[0m \u001b[2;31m-1M\u001b[0m",
+          "XXX.level.chunk.ChunkGenerator \u001b[2;32m+1M\u001b[0m",
+          "XXX.level.levelgen.Aquifer \u001b[2;32m+2M\u001b[0m \u001b[2;31m-14M\u001b[0m | \u001b[2;32m+3P\u001b[0m \u001b[2;31m-24P\u001b[0m",
+          "XXX.level.levelgen.NoiseInterpolator \u001b[2;32m+1M\u001b[0m \u001b[2;31m-1M\u001b[0m",
+          "XXX.level.levelgen.SingleBaseStoneSource \u001b[2;32m+1M\u001b[0m \u001b[2;31m-1M\u001b[0m",
+          "XXX.levelgen.carver.CarverConfiguration \u001b[2;32m+4M\u001b[0m \u001b[2;31m-3M\u001b[0m | \u001b[2;32m+1P\u001b[0m",
+          "XXX.levelgen.carver.CaveWorldCarver \u001b[2;32m+4M\u001b[0m \u001b[2;31m-4M\u001b[0m",
+          "XXX.levelgen.carver.NetherWorldCarver \u001b[2;32m+2M\u001b[0m \u001b[2;31m-2M\u001b[0m",
+          "XXX.levelgen.carver.UnderwaterCaveWorldCarver \u001b[2;32m+3M\u001b[0m \u001b[2;31m-3M\u001b[0m",
+          "XXX.levelgen.feature.Feature \u001b[2;32m+1P\u001b[0m \u001b[2;31m-1P\u001b[0m",
+          "XXX.levelgen.feature.RootSystemFeature \u001b[2;32m+1M\u001b[0m",
+          "XXX.levelgen.feature.StructureFeature \u001b[2;32m+1M\u001b[0m",
+          "XXX.feature.configurations.ReplaceBlockConfiguration \u001b[2;32m+3M\u001b[0m \u001b[2;31m-3M\u001b[0m | \u001b[2;32m+1P\u001b[0m \u001b[2;31m-2P\u001b[0m",
+          "XXX.feature.configurations.RootSystemConfiguration \u001b[2;32m+3M\u001b[0m \u001b[2;31m-2M\u001b[0m | \u001b[2;32m+1P\u001b[0m",
+          "XXX.levelgen.structure.MineShaftPieces$MineShaftCorridor \u001b[2;32m+2M\u001b[0m \u001b[2;31m-1M\u001b[0m",
+          "XXX.level.material.MaterialColor \u001b[2;32m+1P\u001b[0m"
+        ]
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.client.Camera",
+        "differences": {
+          "added": [],
+          "removed": [
+            "Camera$NearPlane getNearPlane()"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.client.renderer.GameRenderer",
+        "differences": {
+          "added": [],
+          "removed": [
+            "ShaderInstance getRendertypeTextIntensityShader()",
+            "ShaderInstance getRendertypeTextIntensitySeeThroughShader()"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.client.renderer.RenderType",
+        "differences": {
+          "added": [],
+          "removed": [
+            "RenderType textIntensity(ResourceLocation)",
+            "RenderType textIntensitySeeThrough(ResourceLocation)",
+            "RenderType lambda$static$19(ResourceLocation)",
+            "RenderType lambda$static$18(ResourceLocation)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.client.resources.ClientPackSource",
+        "differences": {
+          "added": [
+            "CompletableFuture downloadAndSelectResourcePack(String,String)",
+            "PackResources lambda$createProgrammerArtPack$7(File)",
+            "PackResources lambda$setServerPack$6(File)",
+            "void lambda$downloadAndSelectResourcePack$5(File,Void,Throwable)",
+            "void lambda$null$4(Minecraft)",
+            "void lambda$null$3(Minecraft,boolean)",
+            "CompletionStage lambda$downloadAndSelectResourcePack$2(String,File,Object)"
+          ],
+          "removed": [
+            "CompletableFuture downloadAndSelectResourcePack(String,String,boolean)",
+            "PackResources lambda$createProgrammerArtPack$9(File)",
+            "PackResources lambda$setServerPack$7(File)",
+            "void lambda$downloadAndSelectResourcePack$6(File,Void,Throwable)",
+            "void lambda$null$5(Minecraft)",
+            "void lambda$null$4(Minecraft,boolean)",
+            "CompletionStage lambda$downloadAndSelectResourcePack$3(String,File,boolean,Object)",
+            "void lambda$null$2(boolean,Minecraft)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.client.server.IntegratedServer",
+        "differences": {
+          "added": [],
+          "removed": [
+            "void tickPaused()"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.data.recipes.RecipeBuilder",
+        "differences": {
+          "added": [],
+          "removed": [
+            "void save(Consumer)",
+            "void save(Consumer,String)",
+            "ResourceLocation getDefaultRecipeId(ItemLike)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.data.recipes.ShapedRecipeBuilder",
+        "differences": {
+          "added": [
+            "void save(Consumer)",
+            "void save(Consumer,String)",
+            "void <clinit>()"
+          ],
+          "removed": [
+            "Item getResult()"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.data.recipes.ShapelessRecipeBuilder",
+        "differences": {
+          "added": [
+            "void save(Consumer)",
+            "void save(Consumer,String)",
+            "void <clinit>()"
+          ],
+          "removed": [
+            "Item getResult()"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.data.recipes.SimpleCookingRecipeBuilder",
+        "differences": {
+          "added": [
+            "void save(Consumer)",
+            "void save(Consumer,String)"
+          ],
+          "removed": [
+            "Item getResult()",
+            "RecipeBuilder group(String)",
+            "RecipeBuilder unlockedBy(String,CriterionTriggerInstance)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.data.recipes.SingleItemRecipeBuilder",
+        "differences": {
+          "added": [
+            "SingleItemRecipeBuilder unlocks(String,CriterionTriggerInstance)",
+            "void save(Consumer,String)"
+          ],
+          "removed": [
+            "SingleItemRecipeBuilder unlockedBy(String,CriterionTriggerInstance)",
+            "Item getResult()",
+            "RecipeBuilder group(String)",
+            "RecipeBuilder unlockedBy(String,CriterionTriggerInstance)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.util.StringUtil",
+        "differences": {
+          "added": [],
+          "removed": [
+            "boolean endsWithNewLine(String)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.InteractionResult",
+        "differences": {
+          "added": [],
+          "removed": [
+            "boolean shouldAwardStats()"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.entity.Entity",
+        "differences": {
+          "added": [
+            "boolean isGlowing()",
+            "void setGlowing(boolean)"
+          ],
+          "removed": [
+            "boolean hasGlowingTag()",
+            "void setGlowingTag(boolean)",
+            "boolean isCurrentlyGlowing()"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.entity.LivingEntity",
+        "differences": {
+          "added": [],
+          "removed": [
+            "void updateGlowingStatus()",
+            "boolean isCurrentlyGlowing()"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.item.DebugStickItem",
+        "differences": {
+          "added": [
+            "void handleInteraction(Player,BlockState,LevelAccessor,BlockPos,boolean,ItemStack)"
+          ],
+          "removed": [
+            "boolean handleInteraction(Player,BlockState,LevelAccessor,BlockPos,boolean,ItemStack)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.level.chunk.ChunkGenerator",
+        "differences": {
+          "added": [],
+          "removed": [
+            "Aquifer createAquifer(ChunkAccess)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.level.levelgen.Aquifer",
+        "differences": {
+          "added": [
+            "void <init>(int,int,NormalNoise,NormalNoise,NoiseGeneratorSettings,NoiseSampler,int,int)",
+            "int getIndex(int,int,int)",
+            "void computeAt(int,int,int)",
+            "boolean isLavaLevel(int)",
+            "double similarity(int,int)",
+            "double calculatePressure(int,double,int,int)",
+            "int gridX(int)",
+            "int gridY(int)",
+            "int gridZ(int)",
+            "int getWaterLevel(long)",
+            "int computeAquifer(int,int,int)",
+            "int getLastWaterLevel()",
+            "double getLastBarrierDensity()",
+            "boolean shouldScheduleWaterUpdate()"
+          ],
+          "removed": [
+            "Aquifer create(ChunkPos,NormalNoise,NormalNoise,NormalNoise,NoiseGeneratorSettings,NoiseSampler,int,int)",
+            "Aquifer createDisabled(int,BlockState)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.level.levelgen.NoiseInterpolator",
+        "differences": {
+          "added": [
+            "void <init>(int,int,int,int,int,int,NoiseInterpolator$NoiseColumnFiller)"
+          ],
+          "removed": [
+            "void <init>(int,int,int,ChunkPos,int,NoiseInterpolator$NoiseColumnFiller)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.level.levelgen.SingleBaseStoneSource",
+        "differences": {
+          "added": [
+            "BlockState getBaseStone(int,int,int)"
+          ],
+          "removed": [
+            "BlockState getBaseBlock(int,int,int)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.level.levelgen.carver.CarverConfiguration",
+        "differences": {
+          "added": [
+            "void <init>(float,HeightProvider,FloatProvider,VerticalAnchor,CarverDebugSettings)",
+            "App lambda$static$5(RecordCodecBuilder$Instance)",
+            "CarverDebugSettings lambda$null$4(CarverConfiguration)"
+          ],
+          "removed": [
+            "void <init>(float,HeightProvider,FloatProvider,VerticalAnchor,boolean,CarverDebugSettings)",
+            "App lambda$static$6(RecordCodecBuilder$Instance)",
+            "CarverDebugSettings lambda$null$5(CarverConfiguration)",
+            "Boolean lambda$null$4(CarverConfiguration)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.level.levelgen.carver.CaveWorldCarver",
+        "differences": {
+          "added": [
+            "boolean carve(CarvingContext,CaveCarverConfiguration,ChunkAccess,Function,Random,int,ChunkPos,BitSet)",
+            "void createRoom(CarvingContext,CaveCarverConfiguration,ChunkAccess,Function,long,int,double,double,double,float,double,BitSet,WorldCarver$CarveSkipChecker)",
+            "void createTunnel(CarvingContext,CaveCarverConfiguration,ChunkAccess,Function,long,int,double,double,double,double,double,float,float,float,int,int,double,BitSet,WorldCarver$CarveSkipChecker)",
+            "boolean carve(CarvingContext,CarverConfiguration,ChunkAccess,Function,Random,int,ChunkPos,BitSet)"
+          ],
+          "removed": [
+            "boolean carve(CarvingContext,CaveCarverConfiguration,ChunkAccess,Function,Random,Aquifer,ChunkPos,BitSet)",
+            "void createRoom(CarvingContext,CaveCarverConfiguration,ChunkAccess,Function,long,Aquifer,double,double,double,float,double,BitSet,WorldCarver$CarveSkipChecker)",
+            "void createTunnel(CarvingContext,CaveCarverConfiguration,ChunkAccess,Function,long,Aquifer,double,double,double,double,double,float,float,float,int,int,double,BitSet,WorldCarver$CarveSkipChecker)",
+            "boolean carve(CarvingContext,CarverConfiguration,ChunkAccess,Function,Random,Aquifer,ChunkPos,BitSet)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.level.levelgen.carver.NetherWorldCarver",
+        "differences": {
+          "added": [
+            "boolean carveBlock(CarvingContext,CaveCarverConfiguration,ChunkAccess,Function,BitSet,Random,BlockPos$MutableBlockPos,BlockPos$MutableBlockPos,int,MutableBoolean)",
+            "boolean carveBlock(CarvingContext,CarverConfiguration,ChunkAccess,Function,BitSet,Random,BlockPos$MutableBlockPos,BlockPos$MutableBlockPos,int,MutableBoolean)"
+          ],
+          "removed": [
+            "boolean carveBlock(CarvingContext,CaveCarverConfiguration,ChunkAccess,Function,BitSet,Random,BlockPos$MutableBlockPos,BlockPos$MutableBlockPos,Aquifer,MutableBoolean)",
+            "boolean carveBlock(CarvingContext,CarverConfiguration,ChunkAccess,Function,BitSet,Random,BlockPos$MutableBlockPos,BlockPos$MutableBlockPos,Aquifer,MutableBoolean)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.level.levelgen.carver.UnderwaterCaveWorldCarver",
+        "differences": {
+          "added": [
+            "boolean carveBlock(CarvingContext,CaveCarverConfiguration,ChunkAccess,Function,BitSet,Random,BlockPos$MutableBlockPos,BlockPos$MutableBlockPos,int,MutableBoolean)",
+            "boolean carveBlock(WorldCarver,ChunkAccess,Random,BlockPos$MutableBlockPos,BlockPos$MutableBlockPos,int)",
+            "boolean carveBlock(CarvingContext,CarverConfiguration,ChunkAccess,Function,BitSet,Random,BlockPos$MutableBlockPos,BlockPos$MutableBlockPos,int,MutableBoolean)"
+          ],
+          "removed": [
+            "boolean carveBlock(CarvingContext,CaveCarverConfiguration,ChunkAccess,Function,BitSet,Random,BlockPos$MutableBlockPos,BlockPos$MutableBlockPos,Aquifer,MutableBoolean)",
+            "boolean carveBlock(WorldCarver,ChunkAccess,Random,BlockPos$MutableBlockPos,BlockPos$MutableBlockPos,Aquifer)",
+            "boolean carveBlock(CarvingContext,CarverConfiguration,ChunkAccess,Function,BitSet,Random,BlockPos$MutableBlockPos,BlockPos$MutableBlockPos,Aquifer,MutableBoolean)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.level.levelgen.feature.RootSystemFeature",
+        "differences": {
+          "added": [],
+          "removed": [
+            "boolean isAllowedTreeSpace(BlockState,int,int)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.level.levelgen.feature.StructureFeature",
+        "differences": {
+          "added": [],
+          "removed": [
+            "WeightedRandomList getSpecialUndergroundWaterAnimals()"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.level.levelgen.feature.configurations.ReplaceBlockConfiguration",
+        "differences": {
+          "added": [
+            "App lambda$static$2(RecordCodecBuilder$Instance)",
+            "BlockState lambda$null$1(ReplaceBlockConfiguration)",
+            "BlockState lambda$null$0(ReplaceBlockConfiguration)"
+          ],
+          "removed": [
+            "void <init>(List)",
+            "App lambda$static$1(RecordCodecBuilder$Instance)",
+            "List lambda$null$0(ReplaceBlockConfiguration)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.level.levelgen.feature.configurations.RootSystemConfiguration",
+        "differences": {
+          "added": [
+            "void <init>(Supplier,int,int,ResourceLocation,BlockStateProvider,int,int,int,int,BlockStateProvider,int)",
+            "App lambda$static$11(RecordCodecBuilder$Instance)"
+          ],
+          "removed": [
+            "void <init>(Supplier,int,int,ResourceLocation,BlockStateProvider,int,int,int,int,BlockStateProvider,int,int)",
+            "App lambda$static$12(RecordCodecBuilder$Instance)",
+            "Integer lambda$null$11(RootSystemConfiguration)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.level.levelgen.structure.MineShaftPieces$MineShaftCorridor",
+        "differences": {
+          "added": [
+            "void placeCobWeb(WorldGenLevel,BoundingBox,Random,float,int,int,int)"
+          ],
+          "removed": [
+            "void maybePlaceCobWeb(WorldGenLevel,BoundingBox,Random,float,int,int,int)",
+            "boolean hasSturdyNeighbours(WorldGenLevel,BoundingBox,int,int,int,int)"
+          ]
+        }
+      }
+    }
+  ]
+}

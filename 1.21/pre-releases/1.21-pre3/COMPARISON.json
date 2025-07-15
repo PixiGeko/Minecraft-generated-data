@@ -1,0 +1,302 @@
+{
+  "version_data": [
+    {
+      "type": "table",
+      "value": {
+        "previousLabel": "1.21-pre2",
+        "currentLabel": "1.21-pre3",
+        "values": [
+          {
+            "key": "DataPack version",
+            "previous": "47",
+            "current": "48"
+          },
+          {
+            "key": "World version",
+            "previous": "3949",
+            "current": "3950"
+          },
+          {
+            "key": "Protocol version",
+            "previous": "1073742024",
+            "current": "1073742025"
+          }
+        ]
+      }
+    }
+  ],
+  "registries": [
+    {
+      "type": "entries",
+      "value": {
+        "name": "enchantment_entity_effect_type",
+        "differences": {
+          "added": [
+            "minecraft:replace_disk"
+          ],
+          "removed": [
+            "minecraft:replace_disc"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "enchantment_location_based_effect_type",
+        "differences": {
+          "added": [
+            "minecraft:replace_disk"
+          ],
+          "removed": [
+            "minecraft:replace_disc"
+          ]
+        }
+      }
+    }
+  ],
+  "tags": [
+    {
+      "type": "entries",
+      "value": {
+        "name": "universal_tags/enchantment_entity_effect_type.json",
+        "differences": {
+          "added": [
+            "minecraft:replace_disk"
+          ],
+          "removed": [
+            "minecraft:replace_disc"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "universal_tags/enchantment_location_based_effect_type.json",
+        "differences": {
+          "added": [
+            "minecraft:replace_disk"
+          ],
+          "removed": [
+            "minecraft:replace_disc"
+          ]
+        }
+      }
+    }
+  ],
+  "mappings": [
+    {
+      "type": "title",
+      "value": {
+        "title": "Server",
+        "id": "server-mappings",
+        "size": 2
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "Changes",
+        "lines": [
+          "XXX.gametest.framework.GameTestHelper \u001b[2;32m+1M\u001b[0m",
+          "XXX.minecraft.util.CommonColors \u001b[2;32m+2P\u001b[0m",
+          "XXX.entity.decoration.ItemFrame \u001b[2;32m+1M\u001b[0m \u001b[2;31m-1M\u001b[0m",
+          "XXX.entity.projectile.ThrownEnderpearl \u001b[2;32m+1M\u001b[0m",
+          "XXX.world.item.LeadItem \u001b[2;32m+3M\u001b[0m \u001b[2;31m-1M\u001b[0m",
+          "XXX.world.item.TridentItem \u001b[2;32m+1M\u001b[0m",
+          "XXX.saveddata.maps.MapItemSavedData \u001b[2;32m+1M\u001b[0m | \u001b[2;32m+1P\u001b[0m"
+        ]
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.gametest.framework.GameTestHelper",
+        "differences": {
+          "added": [],
+          "removed": [
+            "void assertEntityPosition(Entity,AABB,String)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.entity.decoration.ItemFrame",
+        "differences": {
+          "added": [
+            "MapId getFramedMapId()"
+          ],
+          "removed": [
+            "MapId getFramedMapId(ItemStack)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.entity.projectile.ThrownEnderpearl",
+        "differences": {
+          "added": [],
+          "removed": [
+            "void onInsideBlock(BlockState)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.item.LeadItem",
+        "differences": {
+          "added": [
+            "boolean lambda$bindPlayerMobs$0(Player,Entity)"
+          ],
+          "removed": [
+            "List leashableInArea(Level,BlockPos,Predicate)",
+            "boolean lambda$leashableInArea$1(Predicate,Entity)",
+            "boolean lambda$bindPlayerMobs$0(Player,Leashable)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.item.TridentItem",
+        "differences": {
+          "added": [],
+          "removed": [
+            "boolean isTooDamagedToUse(ItemStack)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.level.saveddata.maps.MapItemSavedData",
+        "differences": {
+          "added": [],
+          "removed": [
+            "String getFrameKey(int)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "title",
+      "value": {
+        "title": "Client",
+        "id": "client-mappings",
+        "size": 2
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "Classes",
+        "differences": {
+          "added": [
+            "XXX.enchantment.effects.ReplaceDisc"
+          ],
+          "removed": [
+            "XXX.enchantment.effects.ReplaceDisk"
+          ]
+        }
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "Changes",
+        "lines": [
+          "net.minecraft.SharedConstants \u001b[2;32m+1P\u001b[0m",
+          "XXX.gametest.framework.GameTestHelper \u001b[2;32m+1M\u001b[0m",
+          "XXX.server.level.ServerEntity \u001b[2;32m+4P\u001b[0m \u001b[2;31m-4P\u001b[0m",
+          "XXX.world.entity.Leashable \u001b[2;32m+2M\u001b[0m | \u001b[2;32m+2P\u001b[0m",
+          "XXX.ai.attributes.AttributeInstance \u001b[2;32m+1M\u001b[0m",
+          "XXX.entity.decoration.LeashFenceKnotEntity \u001b[2;32m+1M\u001b[0m",
+          "XXX.entity.player.Player \u001b[2;32m+1M\u001b[0m",
+          "XXX.entity.vehicle.Boat \u001b[2;32m+1M\u001b[0m"
+        ]
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.gametest.framework.GameTestHelper",
+        "differences": {
+          "added": [],
+          "removed": [
+            "void assertEntityPosition(Entity,AABB,String)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.entity.Leashable",
+        "differences": {
+          "added": [],
+          "removed": [
+            "void elasticRangeLeashBehaviour(Entity,float)",
+            "void legacyElasticRangeLeashBehaviour(Entity,Entity,float)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.entity.ai.attributes.AttributeInstance",
+        "differences": {
+          "added": [],
+          "removed": [
+            "void addOrReplacePermanentModifier(AttributeModifier)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.entity.decoration.LeashFenceKnotEntity",
+        "differences": {
+          "added": [],
+          "removed": [
+            "boolean lambda$interact$0(Player,Leashable)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.entity.player.Player",
+        "differences": {
+          "added": [],
+          "removed": [
+            "boolean isIgnoringFallDamageFromCurrentImpulse()"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.entity.vehicle.Boat",
+        "differences": {
+          "added": [],
+          "removed": [
+            "void elasticRangeLeashBehaviour(Entity,float)"
+          ]
+        }
+      }
+    }
+  ]
+}

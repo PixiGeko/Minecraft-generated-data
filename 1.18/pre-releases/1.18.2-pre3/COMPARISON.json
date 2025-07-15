@@ -1,0 +1,677 @@
+{
+  "version_data": [
+    {
+      "type": "table",
+      "value": {
+        "previousLabel": "1.18.2-pre2",
+        "currentLabel": "1.18.2-pre3",
+        "values": [
+          {
+            "key": "World version",
+            "previous": "2972",
+            "current": "2973"
+          },
+          {
+            "key": "Protocol version",
+            "previous": "1073741895",
+            "current": "1073741896"
+          }
+        ]
+      }
+    },
+    {
+      "type": "title",
+      "value": {
+        "title": "Libraries",
+        "id": "version-data-libraries",
+        "size": 3
+      }
+    },
+    {
+      "type": "table",
+      "value": {
+        "title": "Versions",
+        "previousLabel": "1.18.2-pre2",
+        "currentLabel": "1.18.2-pre3",
+        "values": [
+          {
+            "key": "org.lwjgl:lwjgl-glfw",
+            "previous": "3.2.1",
+            "current": "3.2.2"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-glfw",
+            "previous": "3.2.1",
+            "current": "3.2.2"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-jemalloc",
+            "previous": "3.2.1",
+            "current": "3.2.2"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-jemalloc",
+            "previous": "3.2.1",
+            "current": "3.2.2"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-openal",
+            "previous": "3.2.1",
+            "current": "3.2.2"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-openal",
+            "previous": "3.2.1",
+            "current": "3.2.2"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-opengl",
+            "previous": "3.2.1",
+            "current": "3.2.2"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-opengl",
+            "previous": "3.2.1",
+            "current": "3.2.2"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-stb",
+            "previous": "3.2.1",
+            "current": "3.2.2"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-stb",
+            "previous": "3.2.1",
+            "current": "3.2.2"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-tinyfd",
+            "previous": "3.2.1",
+            "current": "3.2.2"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-tinyfd",
+            "previous": "3.2.1",
+            "current": "3.2.2"
+          },
+          {
+            "key": "org.lwjgl:lwjgl",
+            "previous": "3.2.1",
+            "current": "3.2.2"
+          },
+          {
+            "key": "org.lwjgl:lwjgl",
+            "previous": "3.2.1",
+            "current": "3.2.2"
+          }
+        ]
+      }
+    }
+  ],
+  "commands": [
+    {
+      "type": "entries",
+      "value": {
+        "name": "attribute",
+        "differences": {
+          "added": [
+            "attribute <target: entity> <attribute: resource> get <scale: double>",
+            "attribute <target: entity> <attribute: resource> base set <value: double>",
+            "attribute <target: entity> <attribute: resource> base get <scale: double>",
+            "attribute <target: entity> <attribute: resource> modifier add <uuid: uuid> <name: string> <value: double> add",
+            "attribute <target: entity> <attribute: resource> modifier add <uuid: uuid> <name: string> <value: double> multiply",
+            "attribute <target: entity> <attribute: resource> modifier add <uuid: uuid> <name: string> <value: double> multiply_base",
+            "attribute <target: entity> <attribute: resource> modifier remove <uuid: uuid>",
+            "attribute <target: entity> <attribute: resource> modifier value get <uuid: uuid> <scale: double>"
+          ],
+          "removed": [
+            "attribute <target: entity> <attribute: resource_location> get <scale: double>",
+            "attribute <target: entity> <attribute: resource_location> base set <value: double>",
+            "attribute <target: entity> <attribute: resource_location> base get <scale: double>",
+            "attribute <target: entity> <attribute: resource_location> modifier add <uuid: uuid> <name: string> <value: double> add",
+            "attribute <target: entity> <attribute: resource_location> modifier add <uuid: uuid> <name: string> <value: double> multiply",
+            "attribute <target: entity> <attribute: resource_location> modifier add <uuid: uuid> <name: string> <value: double> multiply_base",
+            "attribute <target: entity> <attribute: resource_location> modifier remove <uuid: uuid>",
+            "attribute <target: entity> <attribute: resource_location> modifier value get <uuid: uuid> <scale: double>"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "placefeature",
+        "differences": {
+          "added": [
+            "placefeature <feature: resource> <pos: block_pos>"
+          ],
+          "removed": [
+            "placefeature <feature: resource_location> <pos: block_pos>"
+          ]
+        }
+      }
+    }
+  ],
+  "misc": [
+    {
+      "type": "entries",
+      "value": {
+        "name": "parsers",
+        "differences": {
+          "added": [
+            "minecraft:resource"
+          ],
+          "removed": []
+        }
+      }
+    }
+  ],
+  "mappings": [
+    {
+      "type": "title",
+      "value": {
+        "title": "Server",
+        "id": "server-mappings",
+        "size": 2
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "Classes",
+        "differences": {
+          "added": [
+            "XXX.minecraft.commands.SharedSuggestionProvider$TextCoordinates",
+            "XXX.commands.arguments.AngleArgument$SingleAngle",
+            "XXX.commands.arguments.ComponentArgument",
+            "XXX.commands.arguments.DimensionArgument",
+            "XXX.commands.arguments.EntityAnchorArgument$Anchor",
+            "XXX.commands.arguments.EntityArgument$Serializer",
+            "XXX.commands.arguments.GameProfileArgument",
+            "XXX.commands.arguments.GameProfileArgument$SelectorResult",
+            "XXX.commands.arguments.MessageArgument",
+            "XXX.commands.arguments.MessageArgument$Part",
+            "XXX.commands.arguments.NbtPathArgument",
+            "XXX.commands.arguments.NbtPathArgument$CompoundChildNode",
+            "XXX.commands.arguments.NbtPathArgument$MatchElementNode",
+            "XXX.commands.arguments.NbtPathArgument$MatchRootObjectNode",
+            "XXX.commands.arguments.NbtPathArgument$Node",
+            "XXX.commands.arguments.ObjectiveArgument",
+            "XXX.commands.arguments.OperationArgument",
+            "XXX.commands.arguments.OperationArgument$SimpleOperation",
+            "XXX.commands.arguments.RangeArgument",
+            "XXX.commands.arguments.RangeArgument$Ints",
+            "XXX.commands.arguments.ResourceLocationArgument$LocatedResource"
+          ],
+          "removed": [
+            "XXX.minecraft.commands.SharedSuggestionProvider$ElementSuggestionType",
+            "XXX.commands.arguments.AngleArgument",
+            "XXX.commands.arguments.ColorArgument",
+            "XXX.commands.arguments.CompoundTagArgument",
+            "XXX.commands.arguments.EntityAnchorArgument",
+            "XXX.commands.arguments.EntityArgument",
+            "XXX.commands.arguments.EntitySummonArgument",
+            "XXX.commands.arguments.GameProfileArgument$Result",
+            "XXX.commands.arguments.ItemEnchantmentArgument",
+            "XXX.commands.arguments.MessageArgument$Message",
+            "XXX.commands.arguments.MobEffectArgument",
+            "XXX.commands.arguments.NbtPathArgument$AllElementsNode",
+            "XXX.commands.arguments.NbtPathArgument$IndexedElementNode",
+            "XXX.commands.arguments.NbtPathArgument$MatchObjectNode",
+            "XXX.commands.arguments.NbtPathArgument$NbtPath",
+            "XXX.commands.arguments.NbtTagArgument",
+            "XXX.commands.arguments.ObjectiveCriteriaArgument",
+            "XXX.commands.arguments.OperationArgument$Operation",
+            "XXX.commands.arguments.ParticleArgument",
+            "XXX.commands.arguments.RangeArgument$Floats",
+            "XXX.commands.arguments.ResourceKeyArgument",
+            "XXX.commands.arguments.ResourceLocationArgument"
+          ]
+        }
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "Changes",
+        "lines": [
+          "XXX.commands.synchronization.SuggestionProviders \u001b[2;32m+2M\u001b[0m \u001b[2;31m-3M\u001b[0m | \u001b[2;31m-1P\u001b[0m",
+          "XXX.server.commands.PlaceFeatureCommand \u001b[2;32m+2M\u001b[0m \u001b[2;31m-1M\u001b[0m",
+          "XXX.server.network.TextFilterClient \u001b[2;32m+2M\u001b[0m \u001b[2;31m-1M\u001b[0m",
+          "XXX.world.item.MapItem \u001b[2;32m+1M\u001b[0m \u001b[2;31m-1M\u001b[0m",
+          "XXX.level.chunk.ChunkGenerator \u001b[2;32m+2M\u001b[0m \u001b[2;31m-3M\u001b[0m | \u001b[2;32m+1P\u001b[0m \u001b[2;31m-1P\u001b[0m",
+          "XXX.level.levelgen.NoiseRouterData \u001b[2;32m+7M\u001b[0m \u001b[2;31m-6M\u001b[0m",
+          "XXX.level.levelgen.NoiseSettings \u001b[2;32m+3M\u001b[0m \u001b[2;31m-6M\u001b[0m | \u001b[2;31m-3P\u001b[0m",
+          "XXX.levelgen.feature.ConfiguredStructureFeature \u001b[2;31m-1M\u001b[0m | \u001b[2;31m-1P\u001b[0m",
+          "XXX.structure.placement.ConcentricRingsStructurePlacement \u001b[2;32m+1M\u001b[0m \u001b[2;31m-1M\u001b[0m",
+          "XXX.structure.placement.StructurePlacement \u001b[2;32m+1P\u001b[0m \u001b[2;31m-1P\u001b[0m"
+        ]
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.commands.synchronization.SuggestionProviders",
+        "differences": {
+          "added": [
+            "CompletableFuture lambda$static$5(CommandContext,SuggestionsBuilder)",
+            "Message lambda$static$4(EntityType)",
+            "CompletableFuture lambda$static$3(CommandContext,SuggestionsBuilder)"
+          ],
+          "removed": [
+            "CompletableFuture lambda$static$4(CommandContext,SuggestionsBuilder)",
+            "Message lambda$static$3(EntityType)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.server.commands.PlaceFeatureCommand",
+        "differences": {
+          "added": [
+            "int placeFeature(CommandSourceStack,ResourceLocationArgument$LocatedResource,BlockPos)"
+          ],
+          "removed": [
+            "int placeFeature(CommandSourceStack,Holder,BlockPos)",
+            "String lambda$placeFeature$3(ResourceKey)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.server.network.TextFilterClient",
+        "differences": {
+          "added": [
+            "void <init>(URI,String,int,String,String,TextFilterClient$IgnoreStrategy,int)"
+          ],
+          "removed": [
+            "void <init>(URL,URL,URL,String,int,String,String,TextFilterClient$IgnoreStrategy,int)",
+            "URL getEndpoint(URI,JsonObject,String,String)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.item.MapItem",
+        "differences": {
+          "added": [
+            "boolean isBiomeWatery(boolean[],int,int,int)"
+          ],
+          "removed": [
+            "boolean isBiomeWatery(boolean[],int,int)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.level.chunk.ChunkGenerator",
+        "differences": {
+          "added": [
+            "boolean hasFeatureChunkInRange(ResourceKey,int,int,int)",
+            "long seed()",
+            "void lambda$createStructures$20(StructureFeatureManager,SectionPos,ChunkAccess,ChunkPos,RegistryAccess,StructureManager,long,Holder)"
+          ],
+          "removed": [
+            "boolean hasFeatureChunkInRange(ResourceKey,long,int,int,int)",
+            "void lambda$createStructures$20(StructureFeatureManager,SectionPos,ChunkAccess,long,ChunkPos,RegistryAccess,StructureManager,Holder)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.level.levelgen.NoiseRouterData",
+        "differences": {
+          "added": [
+            "NoiseRouterWithOnlyNoises overworld(NoiseSettings)",
+            "DensityFunction finalDensity(NoiseSettings,boolean,boolean,boolean)",
+            "NoiseRouterWithOnlyNoises noiseRouter(NoiseSettings,boolean,boolean)",
+            "DensityFunction noiseGradientDensity(DensityFunction,DensityFunction,DensityFunction)",
+            "int lambda$noiseRouter$1(OreVeinifier$VeinType)",
+            "int lambda$noiseRouter$0(OreVeinifier$VeinType)"
+          ],
+          "removed": [
+            "NoiseRouterWithOnlyNoises overworld(NoiseSettings,boolean)",
+            "DensityFunction postProcess(NoiseSettings,DensityFunction)",
+            "NoiseRouterWithOnlyNoises overworldWithNewCaves(NoiseSettings,boolean)",
+            "NoiseRouterWithOnlyNoises noNewCaves(NoiseSettings)",
+            "DensityFunction noiseGradientDensity(DensityFunction,DensityFunction)",
+            "int lambda$overworldWithNewCaves$1(OreVeinifier$VeinType)",
+            "int lambda$overworldWithNewCaves$0(OreVeinifier$VeinType)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.level.levelgen.NoiseSettings",
+        "differences": {
+          "added": [
+            "void <init>(int,int,NoiseSamplingSettings,NoiseSlider,NoiseSlider,int,int,boolean,boolean,boolean,TerrainShaper)",
+            "NoiseSettings create(int,int,NoiseSamplingSettings,NoiseSlider,NoiseSlider,int,int,boolean,boolean,boolean,TerrainShaper)",
+            "NoiseSettings overworldNoiseSettings(boolean,boolean)",
+            "boolean islandNoiseOverride()",
+            "boolean isAmplified()",
+            "boolean largeBiomes()"
+          ],
+          "removed": [
+            "void <init>(int,int,NoiseSamplingSettings,NoiseSlider,NoiseSlider,int,int,TerrainShaper)",
+            "NoiseSettings create(int,int,NoiseSamplingSettings,NoiseSlider,NoiseSlider,int,int,TerrainShaper)",
+            "NoiseSettings overworldNoiseSettings(boolean)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.level.levelgen.feature.ConfiguredStructureFeature",
+        "differences": {
+          "added": [
+            "ConfiguredStructureFeature lambda$static$1()"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.level.levelgen.structure.placement.ConcentricRingsStructurePlacement",
+        "differences": {
+          "added": [
+            "boolean isFeatureChunk(ChunkGenerator,int,int)"
+          ],
+          "removed": [
+            "boolean isFeatureChunk(ChunkGenerator,long,int,int)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "title",
+      "value": {
+        "title": "Client",
+        "id": "client-mappings",
+        "size": 2
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "Classes",
+        "differences": {
+          "added": [
+            "XXX.commands.arguments.AngleArgument",
+            "XXX.commands.arguments.ColorArgument",
+            "XXX.commands.arguments.CompoundTagArgument",
+            "XXX.commands.arguments.EntityAnchorArgument",
+            "XXX.commands.arguments.EntityArgument",
+            "XXX.commands.arguments.EntitySummonArgument",
+            "XXX.commands.arguments.GameProfileArgument$Result",
+            "XXX.commands.arguments.ItemEnchantmentArgument",
+            "XXX.commands.arguments.MessageArgument$Message",
+            "XXX.commands.arguments.MobEffectArgument",
+            "XXX.commands.arguments.NbtPathArgument$AllElementsNode",
+            "XXX.commands.arguments.NbtPathArgument$IndexedElementNode",
+            "XXX.commands.arguments.NbtPathArgument$MatchObjectNode",
+            "XXX.commands.arguments.NbtPathArgument$NbtPath",
+            "XXX.commands.arguments.NbtTagArgument",
+            "XXX.commands.arguments.ObjectiveCriteriaArgument",
+            "XXX.commands.arguments.OperationArgument$Operation",
+            "XXX.commands.arguments.ParticleArgument",
+            "XXX.commands.arguments.RangeArgument$Floats",
+            "XXX.commands.arguments.ResourceLocationArgument"
+          ],
+          "removed": [
+            "XXX.minecraft.commands.SharedSuggestionProvider$TextCoordinates",
+            "XXX.commands.arguments.AngleArgument$SingleAngle",
+            "XXX.commands.arguments.ComponentArgument",
+            "XXX.commands.arguments.DimensionArgument",
+            "XXX.commands.arguments.EntityAnchorArgument$Anchor",
+            "XXX.commands.arguments.EntityArgument$Serializer",
+            "XXX.commands.arguments.GameProfileArgument",
+            "XXX.commands.arguments.GameProfileArgument$SelectorResult",
+            "XXX.commands.arguments.MessageArgument",
+            "XXX.commands.arguments.MessageArgument$Part",
+            "XXX.commands.arguments.NbtPathArgument",
+            "XXX.commands.arguments.NbtPathArgument$CompoundChildNode",
+            "XXX.commands.arguments.NbtPathArgument$MatchElementNode",
+            "XXX.commands.arguments.NbtPathArgument$MatchRootObjectNode",
+            "XXX.commands.arguments.NbtPathArgument$Node",
+            "XXX.commands.arguments.ObjectiveArgument",
+            "XXX.commands.arguments.OperationArgument",
+            "XXX.commands.arguments.OperationArgument$SimpleOperation",
+            "XXX.commands.arguments.RangeArgument",
+            "XXX.commands.arguments.RangeArgument$Ints",
+            "XXX.commands.arguments.ResourceKeyArgument$Serializer"
+          ]
+        }
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "Changes",
+        "lines": [
+          "XXX.mojang.realmsclient.RealmsMainScreen \u001b[2;32m+1P\u001b[0m \u001b[2;31m-1P\u001b[0m",
+          "XXX.components.events.GuiEventListener \u001b[2;32m+1P\u001b[0m",
+          "XXX.screens.inventory.BookEditScreen \u001b[2;31m-1P\u001b[0m",
+          "XXX.client.multiplayer.ClientSuggestionProvider \u001b[2;32m+4M\u001b[0m \u001b[2;31m-1M\u001b[0m",
+          "XXX.minecraft.commands.CommandSourceStack \u001b[2;32m+3M\u001b[0m \u001b[2;31m-1M\u001b[0m",
+          "XXX.minecraft.commands.SharedSuggestionProvider \u001b[2;32m+1M\u001b[0m | \u001b[2;32m+2P\u001b[0m \u001b[2;31m-1P\u001b[0m",
+          "XXX.commands.arguments.ResourceOrTagLocationArgument \u001b[2;31m-1M\u001b[0m",
+          "XXX.server.commands.PlaceFeatureCommand \u001b[2;32m+2M\u001b[0m \u001b[2;31m-1M\u001b[0m",
+          "XXX.server.network.TextFilterClient \u001b[2;32m+2M\u001b[0m \u001b[2;31m-1M\u001b[0m",
+          "XXX.world.item.MapItem \u001b[2;32m+1M\u001b[0m \u001b[2;31m-1M\u001b[0m",
+          "XXX.level.chunk.ChunkGenerator \u001b[2;32m+2M\u001b[0m \u001b[2;31m-3M\u001b[0m | \u001b[2;32m+1P\u001b[0m \u001b[2;31m-1P\u001b[0m",
+          "XXX.level.levelgen.NoiseRouterData \u001b[2;32m+7M\u001b[0m \u001b[2;31m-6M\u001b[0m",
+          "XXX.level.levelgen.NoiseSettings \u001b[2;32m+3M\u001b[0m \u001b[2;31m-6M\u001b[0m | \u001b[2;31m-3P\u001b[0m",
+          "XXX.levelgen.feature.ConfiguredStructureFeature \u001b[2;31m-1M\u001b[0m | \u001b[2;31m-1P\u001b[0m",
+          "XXX.structure.placement.ConcentricRingsStructurePlacement \u001b[2;32m+1M\u001b[0m \u001b[2;31m-1M\u001b[0m",
+          "XXX.structure.placement.StructurePlacement \u001b[2;32m+1P\u001b[0m \u001b[2;31m-1P\u001b[0m"
+        ]
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.client.multiplayer.ClientSuggestionProvider",
+        "differences": {
+          "added": [
+            "CompletableFuture customSuggestion(CommandContext,SuggestionsBuilder)"
+          ],
+          "removed": [
+            "CompletableFuture suggestRegistryElements(ResourceKey,SharedSuggestionProvider$ElementSuggestionType,SuggestionsBuilder,CommandContext)",
+            "CompletableFuture customSuggestion(CommandContext)",
+            "CompletableFuture lambda$suggestRegistryElements$1(CommandContext)",
+            "CompletableFuture lambda$suggestRegistryElements$0(SharedSuggestionProvider$ElementSuggestionType,SuggestionsBuilder,Registry)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.commands.CommandSourceStack",
+        "differences": {
+          "added": [
+            "CompletableFuture customSuggestion(CommandContext,SuggestionsBuilder)"
+          ],
+          "removed": [
+            "CompletableFuture customSuggestion(CommandContext)",
+            "CompletableFuture suggestRegistryElements(ResourceKey,SharedSuggestionProvider$ElementSuggestionType,SuggestionsBuilder,CommandContext)",
+            "CompletableFuture lambda$suggestRegistryElements$1(SharedSuggestionProvider$ElementSuggestionType,SuggestionsBuilder,Registry)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.commands.SharedSuggestionProvider",
+        "differences": {
+          "added": [],
+          "removed": [
+            "void suggestRegistryElements(Registry,SharedSuggestionProvider$ElementSuggestionType,SuggestionsBuilder)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.commands.arguments.ResourceOrTagLocationArgument",
+        "differences": {
+          "added": [
+            "void lambda$listSuggestions$3(SuggestionsBuilder,Registry)"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.server.commands.PlaceFeatureCommand",
+        "differences": {
+          "added": [
+            "int placeFeature(CommandSourceStack,ResourceLocationArgument$LocatedResource,BlockPos)"
+          ],
+          "removed": [
+            "int placeFeature(CommandSourceStack,Holder,BlockPos)",
+            "String lambda$placeFeature$3(ResourceKey)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.server.network.TextFilterClient",
+        "differences": {
+          "added": [
+            "void <init>(URI,String,int,String,String,TextFilterClient$IgnoreStrategy,int)"
+          ],
+          "removed": [
+            "void <init>(URL,URL,URL,String,int,String,String,TextFilterClient$IgnoreStrategy,int)",
+            "URL getEndpoint(URI,JsonObject,String,String)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.item.MapItem",
+        "differences": {
+          "added": [
+            "boolean isBiomeWatery(boolean[],int,int,int)"
+          ],
+          "removed": [
+            "boolean isBiomeWatery(boolean[],int,int)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.level.chunk.ChunkGenerator",
+        "differences": {
+          "added": [
+            "boolean hasFeatureChunkInRange(ResourceKey,int,int,int)",
+            "long seed()",
+            "void lambda$createStructures$20(StructureFeatureManager,SectionPos,ChunkAccess,ChunkPos,RegistryAccess,StructureManager,long,Holder)"
+          ],
+          "removed": [
+            "boolean hasFeatureChunkInRange(ResourceKey,long,int,int,int)",
+            "void lambda$createStructures$20(StructureFeatureManager,SectionPos,ChunkAccess,long,ChunkPos,RegistryAccess,StructureManager,Holder)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.level.levelgen.NoiseRouterData",
+        "differences": {
+          "added": [
+            "NoiseRouterWithOnlyNoises overworld(NoiseSettings)",
+            "DensityFunction finalDensity(NoiseSettings,boolean,boolean,boolean)",
+            "NoiseRouterWithOnlyNoises noiseRouter(NoiseSettings,boolean,boolean)",
+            "DensityFunction noiseGradientDensity(DensityFunction,DensityFunction,DensityFunction)",
+            "int lambda$noiseRouter$1(OreVeinifier$VeinType)",
+            "int lambda$noiseRouter$0(OreVeinifier$VeinType)"
+          ],
+          "removed": [
+            "NoiseRouterWithOnlyNoises overworld(NoiseSettings,boolean)",
+            "DensityFunction postProcess(NoiseSettings,DensityFunction)",
+            "NoiseRouterWithOnlyNoises overworldWithNewCaves(NoiseSettings,boolean)",
+            "NoiseRouterWithOnlyNoises noNewCaves(NoiseSettings)",
+            "DensityFunction noiseGradientDensity(DensityFunction,DensityFunction)",
+            "int lambda$overworldWithNewCaves$1(OreVeinifier$VeinType)",
+            "int lambda$overworldWithNewCaves$0(OreVeinifier$VeinType)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.level.levelgen.NoiseSettings",
+        "differences": {
+          "added": [
+            "void <init>(int,int,NoiseSamplingSettings,NoiseSlider,NoiseSlider,int,int,boolean,boolean,boolean,TerrainShaper)",
+            "NoiseSettings create(int,int,NoiseSamplingSettings,NoiseSlider,NoiseSlider,int,int,boolean,boolean,boolean,TerrainShaper)",
+            "NoiseSettings overworldNoiseSettings(boolean,boolean)",
+            "boolean islandNoiseOverride()",
+            "boolean isAmplified()",
+            "boolean largeBiomes()"
+          ],
+          "removed": [
+            "void <init>(int,int,NoiseSamplingSettings,NoiseSlider,NoiseSlider,int,int,TerrainShaper)",
+            "NoiseSettings create(int,int,NoiseSamplingSettings,NoiseSlider,NoiseSlider,int,int,TerrainShaper)",
+            "NoiseSettings overworldNoiseSettings(boolean)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.level.levelgen.feature.ConfiguredStructureFeature",
+        "differences": {
+          "added": [
+            "ConfiguredStructureFeature lambda$static$1()"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.level.levelgen.structure.placement.ConcentricRingsStructurePlacement",
+        "differences": {
+          "added": [
+            "boolean isFeatureChunk(ChunkGenerator,int,int)"
+          ],
+          "removed": [
+            "boolean isFeatureChunk(ChunkGenerator,long,int,int)"
+          ]
+        }
+      }
+    }
+  ]
+}

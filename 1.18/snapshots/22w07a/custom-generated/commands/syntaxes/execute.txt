@@ -1,0 +1,82 @@
+execute run
+execute if block <pos: block_pos> <block: block_predicate>
+execute if score <target: score_holder> <targetObjective: objective> = <source: score_holder> <sourceObjective: objective>
+execute if score <target: score_holder> <targetObjective: objective> < <source: score_holder> <sourceObjective: objective>
+execute if score <target: score_holder> <targetObjective: objective> <= <source: score_holder> <sourceObjective: objective>
+execute if score <target: score_holder> <targetObjective: objective> > <source: score_holder> <sourceObjective: objective>
+execute if score <target: score_holder> <targetObjective: objective> >= <source: score_holder> <sourceObjective: objective>
+execute if score <target: score_holder> <targetObjective: objective> matches <range: int_range>
+execute if blocks <start: block_pos> <end: block_pos> <destination: block_pos> all
+execute if blocks <start: block_pos> <end: block_pos> <destination: block_pos> masked
+execute if entity <entities: entity>
+execute if predicate <predicate: resource_location>
+execute if data entity <source: entity> <path: nbt_path>
+execute if data block <sourcePos: block_pos> <path: nbt_path>
+execute if data storage <source: resource_location> <path: nbt_path>
+execute unless block <pos: block_pos> <block: block_predicate>
+execute unless score <target: score_holder> <targetObjective: objective> = <source: score_holder> <sourceObjective: objective>
+execute unless score <target: score_holder> <targetObjective: objective> < <source: score_holder> <sourceObjective: objective>
+execute unless score <target: score_holder> <targetObjective: objective> <= <source: score_holder> <sourceObjective: objective>
+execute unless score <target: score_holder> <targetObjective: objective> > <source: score_holder> <sourceObjective: objective>
+execute unless score <target: score_holder> <targetObjective: objective> >= <source: score_holder> <sourceObjective: objective>
+execute unless score <target: score_holder> <targetObjective: objective> matches <range: int_range>
+execute unless blocks <start: block_pos> <end: block_pos> <destination: block_pos> all
+execute unless blocks <start: block_pos> <end: block_pos> <destination: block_pos> masked
+execute unless entity <entities: entity>
+execute unless predicate <predicate: resource_location>
+execute unless data entity <source: entity> <path: nbt_path>
+execute unless data block <sourcePos: block_pos> <path: nbt_path>
+execute unless data storage <source: resource_location> <path: nbt_path>
+execute as <targets: entity>
+execute at <targets: entity>
+execute store result score <targets: score_holder> <objective: objective>
+execute store result bossbar <id: resource_location> value
+execute store result bossbar <id: resource_location> max
+execute store result entity <target: entity> <path: nbt_path> int <scale: double>
+execute store result entity <target: entity> <path: nbt_path> float <scale: double>
+execute store result entity <target: entity> <path: nbt_path> short <scale: double>
+execute store result entity <target: entity> <path: nbt_path> long <scale: double>
+execute store result entity <target: entity> <path: nbt_path> double <scale: double>
+execute store result entity <target: entity> <path: nbt_path> byte <scale: double>
+execute store result block <targetPos: block_pos> <path: nbt_path> int <scale: double>
+execute store result block <targetPos: block_pos> <path: nbt_path> float <scale: double>
+execute store result block <targetPos: block_pos> <path: nbt_path> short <scale: double>
+execute store result block <targetPos: block_pos> <path: nbt_path> long <scale: double>
+execute store result block <targetPos: block_pos> <path: nbt_path> double <scale: double>
+execute store result block <targetPos: block_pos> <path: nbt_path> byte <scale: double>
+execute store result storage <target: resource_location> <path: nbt_path> int <scale: double>
+execute store result storage <target: resource_location> <path: nbt_path> float <scale: double>
+execute store result storage <target: resource_location> <path: nbt_path> short <scale: double>
+execute store result storage <target: resource_location> <path: nbt_path> long <scale: double>
+execute store result storage <target: resource_location> <path: nbt_path> double <scale: double>
+execute store result storage <target: resource_location> <path: nbt_path> byte <scale: double>
+execute store success score <targets: score_holder> <objective: objective>
+execute store success bossbar <id: resource_location> value
+execute store success bossbar <id: resource_location> max
+execute store success entity <target: entity> <path: nbt_path> int <scale: double>
+execute store success entity <target: entity> <path: nbt_path> float <scale: double>
+execute store success entity <target: entity> <path: nbt_path> short <scale: double>
+execute store success entity <target: entity> <path: nbt_path> long <scale: double>
+execute store success entity <target: entity> <path: nbt_path> double <scale: double>
+execute store success entity <target: entity> <path: nbt_path> byte <scale: double>
+execute store success block <targetPos: block_pos> <path: nbt_path> int <scale: double>
+execute store success block <targetPos: block_pos> <path: nbt_path> float <scale: double>
+execute store success block <targetPos: block_pos> <path: nbt_path> short <scale: double>
+execute store success block <targetPos: block_pos> <path: nbt_path> long <scale: double>
+execute store success block <targetPos: block_pos> <path: nbt_path> double <scale: double>
+execute store success block <targetPos: block_pos> <path: nbt_path> byte <scale: double>
+execute store success storage <target: resource_location> <path: nbt_path> int <scale: double>
+execute store success storage <target: resource_location> <path: nbt_path> float <scale: double>
+execute store success storage <target: resource_location> <path: nbt_path> short <scale: double>
+execute store success storage <target: resource_location> <path: nbt_path> long <scale: double>
+execute store success storage <target: resource_location> <path: nbt_path> double <scale: double>
+execute store success storage <target: resource_location> <path: nbt_path> byte <scale: double>
+execute positioned <pos: vec3>
+execute positioned as <targets: entity>
+execute rotated <rot: rotation>
+execute rotated as <targets: entity>
+execute facing entity <targets: entity> <anchor: entity_anchor>
+execute facing <pos: vec3>
+execute align <axes: swizzle>
+execute anchored <anchor: entity_anchor>
+execute in <dimension: dimension>

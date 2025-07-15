@@ -1,0 +1,93 @@
+{
+  "version_data": [
+    {
+      "type": "table",
+      "value": {
+        "previousLabel": "1.14.3-pre2",
+        "currentLabel": "1.14.3-pre3",
+        "values": [
+          {
+            "key": "World version",
+            "previous": "1965",
+            "current": "1966"
+          },
+          {
+            "key": "Protocol version",
+            "previous": "487",
+            "current": "488"
+          }
+        ]
+      }
+    }
+  ],
+  "registries": [
+    {
+      "type": "entries",
+      "value": {
+        "name": "recipe_serializer",
+        "differences": {
+          "added": [
+            "minecraft:crafting_special_repairitem"
+          ],
+          "removed": []
+        }
+      }
+    }
+  ],
+  "tags": [
+    {
+      "type": "entries",
+      "value": {
+        "name": "universal_tags/recipe_serializer.json",
+        "differences": {
+          "added": [
+            "minecraft:crafting_special_repairitem"
+          ],
+          "removed": []
+        }
+      }
+    }
+  ],
+  "commands": [
+    {
+      "type": "entries",
+      "value": {
+        "name": "gamerule",
+        "differences": {
+          "added": [
+            "gamerule disableRaids <value: bool>"
+          ],
+          "removed": []
+        }
+      }
+    }
+  ],
+  "recipes": [
+    {
+      "type": "entries",
+      "value": {
+        "name": "🗒️ List",
+        "differences": {
+          "added": [
+            "repair_item.json"
+          ],
+          "removed": []
+        }
+      }
+    }
+  ],
+  "file_structure": [
+    {
+      "type": "entries",
+      "value": {
+        "name": "data",
+        "differences": {
+          "added": [
+            "minecraft/recipes/repair_item.json"
+          ],
+          "removed": []
+        }
+      }
+    }
+  ]
+}

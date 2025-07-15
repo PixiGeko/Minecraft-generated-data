@@ -1,0 +1,215 @@
+{
+  "version_data": [
+    {
+      "type": "table",
+      "value": {
+        "previousLabel": "19w07a",
+        "currentLabel": "19w08a",
+        "values": [
+          {
+            "key": "World version",
+            "previous": "1932",
+            "current": "1933"
+          },
+          {
+            "key": "Protocol version",
+            "previous": "460",
+            "current": "461"
+          }
+        ]
+      }
+    },
+    {
+      "type": "title",
+      "value": {
+        "title": "Libraries",
+        "id": "version-data-libraries",
+        "size": 3
+      }
+    },
+    {
+      "type": "table",
+      "value": {
+        "title": "Versions",
+        "previousLabel": "19w07a",
+        "currentLabel": "19w08a",
+        "values": [
+          {
+            "key": "com.mojang:brigadier",
+            "previous": "1.0.14",
+            "current": "1.0.17"
+          }
+        ]
+      }
+    }
+  ],
+  "registries": [
+    {
+      "type": "entries",
+      "value": {
+        "name": "item",
+        "differences": {
+          "added": [
+            "minecraft:leather_horse_armor"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "sound_event",
+        "differences": {
+          "added": [
+            "minecraft:entity.fox.screech",
+            "minecraft:entity.mooshroom.convert",
+            "minecraft:entity.mooshroom.eat",
+            "minecraft:entity.mooshroom.milk",
+            "minecraft:entity.mooshroom.suspicious_milk"
+          ],
+          "removed": [
+            "minecraft:entity.fox.bark"
+          ]
+        }
+      }
+    }
+  ],
+  "tags": [
+    {
+      "type": "entries",
+      "value": {
+        "name": "universal_tags/item.json",
+        "differences": {
+          "added": [
+            "minecraft:leather_horse_armor"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "universal_tags/sound_event.json",
+        "differences": {
+          "added": [
+            "minecraft:entity.fox.screech",
+            "minecraft:entity.mooshroom.convert",
+            "minecraft:entity.mooshroom.eat",
+            "minecraft:entity.mooshroom.milk",
+            "minecraft:entity.mooshroom.suspicious_milk"
+          ],
+          "removed": [
+            "minecraft:entity.fox.bark"
+          ]
+        }
+      }
+    }
+  ],
+  "recipes": [
+    {
+      "type": "entries",
+      "value": {
+        "name": "🗒️ List",
+        "differences": {
+          "added": [
+            "leather_horse_armor.json"
+          ],
+          "removed": []
+        }
+      }
+    }
+  ],
+  "translations": [
+    {
+      "type": "entries",
+      "value": {
+        "name": "Keys",
+        "differences": {
+          "added": [
+            "item.minecraft.leather_horse_armor: Leather Horse Armor",
+            "subtitles.entity.fox.screech: Fox screeches",
+            "subtitles.entity.mooshroom.convert: Mooshroom transforms",
+            "subtitles.entity.mooshroom.eat: Mooshroom eats",
+            "subtitles.entity.mooshroom.milk: Mooshroom gets milked",
+            "subtitles.entity.mooshroom.suspicious_milk: Mooshroom gets milked suspiciously",
+            "argument.long.low: Long must not be less than %s, found %s",
+            "argument.long.big: Long must not be more than %s, found %s",
+            "parsing.long.invalid: Invalid long '%s'",
+            "parsing.long.expected: Expected long"
+          ],
+          "removed": [
+            "options.saturation: Saturation",
+            "subtitles.entity.fox.bark: Fox barks"
+          ]
+        }
+      }
+    }
+  ],
+  "file_structure": [
+    {
+      "type": "entries",
+      "value": {
+        "name": "data",
+        "differences": {
+          "added": [
+            "minecraft/advancements/recipes/misc/leather_horse_armor.json",
+            "minecraft/recipes/leather_horse_armor.json",
+            "minecraft/structures/village/common/iron_golem.nbt"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "assets",
+        "differences": {
+          "added": [
+            "minecraft/models/item/leather_horse_armor.json",
+            "minecraft/textures/entity/cow/brown_mooshroom.png",
+            "minecraft/textures/entity/cow/red_mooshroom.png",
+            "minecraft/textures/entity/horse/armor/horse_armor_leather.png",
+            "minecraft/textures/item/leather_horse_armor.png",
+            "minecraft/textures/mob_effect/absorption.png",
+            "minecraft/textures/mob_effect/bad_omen.png",
+            "minecraft/textures/mob_effect/blindness.png",
+            "minecraft/textures/mob_effect/conduit_power.png",
+            "minecraft/textures/mob_effect/dolphins_grace.png",
+            "minecraft/textures/mob_effect/fire_resistance.png",
+            "minecraft/textures/mob_effect/glowing.png",
+            "minecraft/textures/mob_effect/harm.png",
+            "minecraft/textures/mob_effect/haste.png",
+            "minecraft/textures/mob_effect/heal.png",
+            "minecraft/textures/mob_effect/health_boost.png",
+            "minecraft/textures/mob_effect/hunger.png",
+            "minecraft/textures/mob_effect/invisibility.png",
+            "minecraft/textures/mob_effect/jump_boost.png",
+            "minecraft/textures/mob_effect/levitation.png",
+            "minecraft/textures/mob_effect/luck.png",
+            "minecraft/textures/mob_effect/mining_fatigue.png",
+            "minecraft/textures/mob_effect/nausea.png",
+            "minecraft/textures/mob_effect/night_vision.png",
+            "minecraft/textures/mob_effect/poison.png",
+            "minecraft/textures/mob_effect/regeneration.png",
+            "minecraft/textures/mob_effect/resistance.png",
+            "minecraft/textures/mob_effect/saturation.png",
+            "minecraft/textures/mob_effect/slowness.png",
+            "minecraft/textures/mob_effect/slow_falling.png",
+            "minecraft/textures/mob_effect/speed.png",
+            "minecraft/textures/mob_effect/strength.png",
+            "minecraft/textures/mob_effect/unluck.png",
+            "minecraft/textures/mob_effect/water_breathing.png",
+            "minecraft/textures/mob_effect/weakness.png",
+            "minecraft/textures/mob_effect/wither.png"
+          ],
+          "removed": [
+            "minecraft/textures/entity/cow/mooshroom.png"
+          ]
+        }
+      }
+    }
+  ]
+}

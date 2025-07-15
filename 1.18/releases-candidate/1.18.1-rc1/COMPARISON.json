@@ -1,0 +1,269 @@
+{
+  "version_data": [
+    {
+      "type": "table",
+      "value": {
+        "previousLabel": "1.18.1-pre1",
+        "currentLabel": "1.18.1-rc1",
+        "values": [
+          {
+            "key": "World version",
+            "previous": "2861",
+            "current": "2862"
+          },
+          {
+            "key": "Protocol version",
+            "previous": "1073741885",
+            "current": "1073741886"
+          }
+        ]
+      }
+    },
+    {
+      "type": "title",
+      "value": {
+        "title": "Libraries",
+        "id": "version-data-libraries",
+        "size": 3
+      }
+    },
+    {
+      "type": "table",
+      "value": {
+        "title": "Versions",
+        "previousLabel": "1.18.1-pre1",
+        "currentLabel": "1.18.1-rc1",
+        "values": [
+          {
+            "key": "org.lwjgl:lwjgl-glfw",
+            "previous": "3.2.1",
+            "current": "3.2.2"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-glfw",
+            "previous": "3.2.1",
+            "current": "3.2.2"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-jemalloc",
+            "previous": "3.2.1",
+            "current": "3.2.2"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-jemalloc",
+            "previous": "3.2.1",
+            "current": "3.2.2"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-openal",
+            "previous": "3.2.1",
+            "current": "3.2.2"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-openal",
+            "previous": "3.2.1",
+            "current": "3.2.2"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-opengl",
+            "previous": "3.2.1",
+            "current": "3.2.2"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-opengl",
+            "previous": "3.2.1",
+            "current": "3.2.2"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-stb",
+            "previous": "3.2.1",
+            "current": "3.2.2"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-stb",
+            "previous": "3.2.1",
+            "current": "3.2.2"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-tinyfd",
+            "previous": "3.2.1",
+            "current": "3.2.2"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-tinyfd",
+            "previous": "3.2.1",
+            "current": "3.2.2"
+          },
+          {
+            "key": "org.lwjgl:lwjgl",
+            "previous": "3.2.1",
+            "current": "3.2.2"
+          },
+          {
+            "key": "org.lwjgl:lwjgl",
+            "previous": "3.2.1",
+            "current": "3.2.2"
+          }
+        ]
+      }
+    }
+  ],
+  "mappings": [
+    {
+      "type": "title",
+      "value": {
+        "title": "Server",
+        "id": "server-mappings",
+        "size": 2
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "Changes",
+        "lines": [
+          "XXX.server.level.ChunkMap \u001b[2;32m+2M\u001b[0m \u001b[2;31m-5M\u001b[0m",
+          "XXX.datafix.fixes.ChunkToProtochunkFix \u001b[2;31m-3M\u001b[0m"
+        ]
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.server.level.ChunkMap",
+        "differences": {
+          "added": [
+            "boolean isChunkInEuclideanRange(ChunkPos,ServerPlayer,boolean,int)",
+            "boolean isChunkInEuclideanRange(ChunkPos,int,int,int)",
+            "boolean isChunkInEuclideanRange(int,int,int,int,int)",
+            "boolean isChunkOnEuclideanBorder(ChunkPos,ServerPlayer,boolean,int)",
+            "boolean isChunkOnEuclideanBorder(int,int,int,int,int)"
+          ],
+          "removed": [
+            "boolean isChunkInRange(int,int,int,int,int)",
+            "boolean isChunkOnRangeBorder(int,int,int,int,int)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.util.datafix.fixes.ChunkToProtochunkFix",
+        "differences": {
+          "added": [
+            "Dynamic createEmptyChunk(Dynamic)",
+            "void lambda$createEmptyChunk$9(ImmutableMap$Builder,Dynamic,Dynamic)",
+            "void lambda$createEmptyChunk$8(ImmutableMap$Builder,Dynamic,Dynamic)"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "title",
+      "value": {
+        "title": "Client",
+        "id": "client-mappings",
+        "size": 2
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "Changes",
+        "lines": [
+          "XXX.blaze3d.shaders.Uniform \u001b[2;32m+1M\u001b[0m",
+          "XXX.blaze3d.systems.RenderSystem \u001b[2;32m+9M\u001b[0m \u001b[2;31m-6M\u001b[0m | \u001b[2;32m+1P\u001b[0m",
+          "net.minecraft.Util \u001b[2;32m+1M\u001b[0m",
+          "XXX.server.level.ChunkMap \u001b[2;32m+2M\u001b[0m \u001b[2;31m-5M\u001b[0m",
+          "XXX.datafix.fixes.ChunkToProtochunkFix \u001b[2;31m-3M\u001b[0m"
+        ]
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "com.mojang.blaze3d.shaders.Uniform",
+        "differences": {
+          "added": [],
+          "removed": [
+            "void set(Matrix3f)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "com.mojang.blaze3d.systems.RenderSystem",
+        "differences": {
+          "added": [
+            "void lambda$setShaderGameTime$69(float)",
+            "void lambda$restoreProjectionMatrix$68()",
+            "void lambda$backupProjectionMatrix$67()",
+            "void lambda$applyModelViewMatrix$66(Matrix4f)",
+            "void lambda$resetTextureMatrix$65()",
+            "void lambda$setTextureMatrix$64(Matrix4f)"
+          ],
+          "removed": [
+            "void setInverseViewRotationMatrix(Matrix3f)",
+            "Matrix3f getInverseViewRotationMatrix()",
+            "void lambda$setShaderGameTime$70(float)",
+            "void lambda$restoreProjectionMatrix$69()",
+            "void lambda$backupProjectionMatrix$68()",
+            "void lambda$applyModelViewMatrix$67(Matrix4f)",
+            "void lambda$resetTextureMatrix$66()",
+            "void lambda$setTextureMatrix$65(Matrix4f)",
+            "void lambda$setInverseViewRotationMatrix$64(Matrix3f)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.Util",
+        "differences": {
+          "added": [],
+          "removed": [
+            "void logAndPauseIfInIde(String,Throwable)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.server.level.ChunkMap",
+        "differences": {
+          "added": [
+            "boolean isChunkInEuclideanRange(ChunkPos,ServerPlayer,boolean,int)",
+            "boolean isChunkInEuclideanRange(ChunkPos,int,int,int)",
+            "boolean isChunkInEuclideanRange(int,int,int,int,int)",
+            "boolean isChunkOnEuclideanBorder(ChunkPos,ServerPlayer,boolean,int)",
+            "boolean isChunkOnEuclideanBorder(int,int,int,int,int)"
+          ],
+          "removed": [
+            "boolean isChunkInRange(int,int,int,int,int)",
+            "boolean isChunkOnRangeBorder(int,int,int,int,int)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.util.datafix.fixes.ChunkToProtochunkFix",
+        "differences": {
+          "added": [
+            "Dynamic createEmptyChunk(Dynamic)",
+            "void lambda$createEmptyChunk$9(ImmutableMap$Builder,Dynamic,Dynamic)",
+            "void lambda$createEmptyChunk$8(ImmutableMap$Builder,Dynamic,Dynamic)"
+          ],
+          "removed": []
+        }
+      }
+    }
+  ]
+}

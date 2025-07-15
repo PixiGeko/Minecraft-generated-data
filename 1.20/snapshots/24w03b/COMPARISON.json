@@ -1,0 +1,159 @@
+{
+  "version_data": [
+    {
+      "type": "table",
+      "value": {
+        "previousLabel": "24w03a",
+        "currentLabel": "24w03b",
+        "values": [
+          {
+            "key": "World version",
+            "previous": "3804",
+            "current": "3805"
+          },
+          {
+            "key": "Protocol version",
+            "previous": "1073741995",
+            "current": "1073741996"
+          }
+        ]
+      }
+    }
+  ],
+  "registries": [
+    {
+      "type": "entries",
+      "value": {
+        "name": "particle_type",
+        "differences": {
+          "added": [],
+          "removed": [
+            "minecraft:gust_dust"
+          ]
+        }
+      }
+    }
+  ],
+  "tags": [
+    {
+      "type": "entries",
+      "value": {
+        "name": "universal_tags/particle_type.json",
+        "differences": {
+          "added": [],
+          "removed": [
+            "minecraft:gust_dust"
+          ]
+        }
+      }
+    }
+  ],
+  "file_structure": [
+    {
+      "type": "entries",
+      "value": {
+        "name": "assets",
+        "differences": {
+          "added": [],
+          "removed": [
+            "minecraft/particles/gust_dust.json"
+          ]
+        }
+      }
+    }
+  ],
+  "mappings": [
+    {
+      "type": "title",
+      "value": {
+        "title": "Server",
+        "id": "server-mappings",
+        "size": 2
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "Changes",
+        "lines": [
+          "XXX.entity.item.ItemEntity \u001b[2;32m+2P\u001b[0m",
+          "XXX.level.block.CrafterBlock \u001b[2;32m+1M\u001b[0m \u001b[2;31m-2M\u001b[0m"
+        ]
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.level.block.CrafterBlock",
+        "differences": {
+          "added": [
+            "void lambda$dispenseFrom$1(ItemStack)",
+            "void lambda$dispenseFrom$0(ServerLevel,BlockPos,CrafterBlockEntity,BlockState,ItemStack)"
+          ],
+          "removed": [
+            "void lambda$dispenseFrom$0(ItemStack)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "title",
+      "value": {
+        "title": "Client",
+        "id": "client-mappings",
+        "size": 2
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "Classes",
+        "differences": {
+          "added": [
+            "XXX.client.particle.GustDustParticle"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "Changes",
+        "lines": [
+          "XXX.core.particles.ParticleTypes \u001b[2;31m-1P\u001b[0m",
+          "XXX.gametest.framework.GameTestHelper \u001b[2;31m-1M\u001b[0m",
+          "XXX.entity.item.ItemEntity \u001b[2;32m+2P\u001b[0m",
+          "XXX.level.block.CrafterBlock \u001b[2;32m+1M\u001b[0m \u001b[2;31m-2M\u001b[0m"
+        ]
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.gametest.framework.GameTestHelper",
+        "differences": {
+          "added": [
+            "void assertValueEqual(Number,Number,String)"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.level.block.CrafterBlock",
+        "differences": {
+          "added": [
+            "void lambda$dispenseFrom$1(ItemStack)",
+            "void lambda$dispenseFrom$0(ServerLevel,BlockPos,CrafterBlockEntity,BlockState,ItemStack)"
+          ],
+          "removed": [
+            "void lambda$dispenseFrom$0(ItemStack)"
+          ]
+        }
+      }
+    }
+  ]
+}

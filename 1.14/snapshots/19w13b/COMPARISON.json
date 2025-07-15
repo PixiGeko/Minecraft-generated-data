@@ -1,0 +1,143 @@
+{
+  "version_data": [
+    {
+      "type": "table",
+      "value": {
+        "previousLabel": "19w13a",
+        "currentLabel": "19w13b",
+        "values": [
+          {
+            "key": "World version",
+            "previous": "1942",
+            "current": "1943"
+          },
+          {
+            "key": "Protocol version",
+            "previous": "468",
+            "current": "469"
+          }
+        ]
+      }
+    }
+  ],
+  "registries": [
+    {
+      "type": "entries",
+      "value": {
+        "name": "sound_event",
+        "differences": {
+          "added": [
+            "minecraft:block.bell.resonate"
+          ],
+          "removed": []
+        }
+      }
+    }
+  ],
+  "tags": [
+    {
+      "type": "entries",
+      "value": {
+        "name": "universal_tags/sound_event.json",
+        "differences": {
+          "added": [
+            "minecraft:block.bell.resonate"
+          ],
+          "removed": []
+        }
+      }
+    }
+  ],
+  "recipes": [
+    {
+      "type": "entries",
+      "value": {
+        "name": "🗒️ List",
+        "differences": {
+          "added": [
+            "chiseled_stone_bricks_from_stone_bricks_stonecutting.json"
+          ],
+          "removed": []
+        }
+      }
+    }
+  ],
+  "translations": [
+    {
+      "type": "entries",
+      "value": {
+        "name": "Keys",
+        "differences": {
+          "added": [
+            "merchant.trades: Trades",
+            "event.minecraft.raid.raiders_remaining: Raiders remaining: %s",
+            "block.minecraft.banner.globe.black: Black Globe",
+            "block.minecraft.banner.globe.red: Red Globe",
+            "block.minecraft.banner.globe.green: Green Globe",
+            "block.minecraft.banner.globe.brown: Brown Globe",
+            "block.minecraft.banner.globe.blue: Blue Globe",
+            "block.minecraft.banner.globe.purple: Purple Globe",
+            "block.minecraft.banner.globe.cyan: Cyan Globe",
+            "block.minecraft.banner.globe.light_gray: Light Gray Globe",
+            "block.minecraft.banner.globe.gray: Gray Globe",
+            "block.minecraft.banner.globe.pink: Pink Globe",
+            "block.minecraft.banner.globe.lime: Lime Globe",
+            "block.minecraft.banner.globe.yellow: Yellow Globe",
+            "block.minecraft.banner.globe.light_blue: Light Blue Globe",
+            "block.minecraft.banner.globe.magenta: Magenta Globe",
+            "block.minecraft.banner.globe.orange: Orange Globe",
+            "block.minecraft.banner.globe.white: White Globe",
+            "subtitles.block.bell.resonate: Bell resonates"
+          ],
+          "removed": [
+            "event.minecraft.raid.mobs_remaining: Mobs remaining: %s"
+          ]
+        }
+      }
+    },
+    {
+      "type": "text",
+      "value": {
+        "title": "Changes",
+        "values": [
+          {
+            "key": "item.minecraft.globe_banner_pattern",
+            "previous": "Globe Pattern",
+            "current": "Banner Pattern"
+          }
+        ]
+      }
+    }
+  ],
+  "file_structure": [
+    {
+      "type": "entries",
+      "value": {
+        "name": "data",
+        "differences": {
+          "added": [
+            "minecraft/advancements/recipes/building_blocks/chiseled_stone_bricks_from_stone_bricks_stonecutting.json",
+            "minecraft/recipes/chiseled_stone_bricks_from_stone_bricks_stonecutting.json",
+            "minecraft/tags/entity_types/raiders.json"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "assets",
+        "differences": {
+          "added": [
+            "minecraft/textures/entity/shield/globe.png",
+            "minecraft/textures/gui/container/villager2.png"
+          ],
+          "removed": [
+            "minecraft/textures/gui/container/villager.png"
+          ]
+        }
+      }
+    }
+  ]
+}

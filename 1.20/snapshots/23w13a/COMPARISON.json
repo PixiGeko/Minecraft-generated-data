@@ -1,0 +1,1685 @@
+{
+  "version_data": [
+    {
+      "type": "table",
+      "value": {
+        "previousLabel": "23w12a",
+        "currentLabel": "23w13a",
+        "values": [
+          {
+            "key": "World version",
+            "previous": "3442",
+            "current": "3443"
+          },
+          {
+            "key": "Protocol version",
+            "previous": "1073741951",
+            "current": "1073741952"
+          }
+        ]
+      }
+    }
+  ],
+  "tags": [
+    {
+      "type": "entries",
+      "value": {
+        "name": "all_entities_without_drop.json",
+        "differences": {
+          "added": [
+            "minecraft:sniffer"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "all_entities_with_drop.json",
+        "differences": {
+          "added": [],
+          "removed": [
+            "minecraft:sniffer"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "all_living_entities_without_drop.json",
+        "differences": {
+          "added": [
+            "minecraft:sniffer"
+          ],
+          "removed": []
+        }
+      }
+    }
+  ],
+  "translations": [
+    {
+      "type": "text",
+      "value": {
+        "title": "Changes",
+        "values": [
+          {
+            "key": "item.minecraft.smithing_template.netherite_upgrade.base_slot_description",
+            "previous": "Add diamond armor, weapon or tool",
+            "current": "Add diamond armor, weapon, or tool"
+          }
+        ]
+      }
+    }
+  ],
+  "file_structure": [
+    {
+      "type": "entries",
+      "value": {
+        "name": "assets",
+        "differences": {
+          "added": [
+            "minecraft/textures/block/sniffer_egg_not_cracked_bottom.png",
+            "minecraft/textures/block/sniffer_egg_not_cracked_east.png",
+            "minecraft/textures/block/sniffer_egg_not_cracked_north.png",
+            "minecraft/textures/block/sniffer_egg_not_cracked_south.png",
+            "minecraft/textures/block/sniffer_egg_not_cracked_top.png",
+            "minecraft/textures/block/sniffer_egg_not_cracked_west.png",
+            "minecraft/textures/block/sniffer_egg_slightly_cracked_bottom.png",
+            "minecraft/textures/block/sniffer_egg_slightly_cracked_east.png",
+            "minecraft/textures/block/sniffer_egg_slightly_cracked_north.png",
+            "minecraft/textures/block/sniffer_egg_slightly_cracked_south.png",
+            "minecraft/textures/block/sniffer_egg_slightly_cracked_top.png",
+            "minecraft/textures/block/sniffer_egg_slightly_cracked_west.png",
+            "minecraft/textures/block/sniffer_egg_very_cracked_bottom.png",
+            "minecraft/textures/block/sniffer_egg_very_cracked_east.png",
+            "minecraft/textures/block/sniffer_egg_very_cracked_north.png",
+            "minecraft/textures/block/sniffer_egg_very_cracked_south.png",
+            "minecraft/textures/block/sniffer_egg_very_cracked_top.png",
+            "minecraft/textures/block/sniffer_egg_very_cracked_west.png"
+          ],
+          "removed": [
+            "minecraft/models/block/torchflower_crop_stage2.json",
+            "minecraft/textures/block/sniffer_egg_not_cracked.png",
+            "minecraft/textures/block/sniffer_egg_slightly_cracked.png",
+            "minecraft/textures/block/sniffer_egg_very_cracked.png",
+            "minecraft/textures/block/torchflower_crop_stage2.png"
+          ]
+        }
+      }
+    }
+  ],
+  "mappings": [
+    {
+      "type": "title",
+      "value": {
+        "title": "Server",
+        "id": "server-mappings",
+        "size": 2
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "Classes",
+        "differences": {
+          "added": [
+            "XXX.level.lighting.DynamicGraphMinFixedPoint$2",
+            "XXX.level.lighting.LayerLightEventListener",
+            "XXX.level.lighting.LayerLightSectionStorage",
+            "XXX.level.lighting.LevelLightEngine",
+            "XXX.level.lighting.SkyLightEngine",
+            "XXX.level.lighting.SkyLightSectionStorage$1",
+            "XXX.level.lighting.SpatialLongSet",
+            "XXX.level.lighting.package-info",
+            "XXX.level.material.FlowingFluid",
+            "XXX.level.material.Fluid",
+            "XXX.level.material.Fluids",
+            "XXX.level.material.LavaFluid",
+            "XXX.level.material.LavaFluid$Source",
+            "XXX.level.material.Material$Builder",
+            "XXX.level.material.MaterialColor$Brightness",
+            "XXX.level.material.WaterFluid",
+            "XXX.level.material.WaterFluid$Source",
+            "XXX.world.level.package-info",
+            "XXX.level.pathfinder.BinaryHeap",
+            "XXX.level.pathfinder.FlyNodeEvaluator",
+            "XXX.level.pathfinder.NodeEvaluator",
+            "XXX.level.pathfinder.PathComputationType",
+            "XXX.level.pathfinder.SwimNodeEvaluator",
+            "XXX.level.pathfinder.WalkNodeEvaluator",
+            "XXX.level.portal.PortalForcer",
+            "XXX.level.portal.PortalShape",
+            "XXX.level.redstone.CollectingNeighborUpdater",
+            "XXX.level.redstone.CollectingNeighborUpdater$MultiNeighborUpdate",
+            "XXX.level.redstone.CollectingNeighborUpdater$ShapeUpdate",
+            "XXX.level.redstone.InstantNeighborUpdater",
+            "XXX.level.redstone.Redstone",
+            "XXX.level.saveddata.SavedData",
+            "XXX.saveddata.maps.MapBanner$1",
+            "XXX.saveddata.maps.MapDecoration$Type",
+            "XXX.saveddata.maps.MapIndex",
+            "XXX.saveddata.maps.MapItemSavedData$HoldingPlayer",
+            "XXX.saveddata.maps.package-info",
+            "XXX.level.storage.CommandStorage",
+            "XXX.level.storage.DataVersion",
+            "XXX.level.storage.DimensionDataStorage",
+            "XXX.level.storage.LevelResource",
+            "XXX.level.storage.LevelStorageSource",
+            "XXX.level.storage.LevelStorageSource$LevelDirectory",
+            "XXX.level.storage.LevelStorageSource$LevelStorageAccess$1",
+            "XXX.level.storage.LevelSummary",
+            "XXX.level.storage.LevelVersion",
+            "XXX.level.storage.PrimaryLevelData",
+            "XXX.level.storage.ServerLevelData",
+            "XXX.level.storage.WritableLevelData",
+            "XXX.storage.loot.Deserializers",
+            "XXX.storage.loot.GsonAdapterFactory$Builder",
+            "XXX.storage.loot.GsonAdapterFactory$JsonAdapter",
+            "XXX.storage.loot.IntRange$IntChecker",
+            "XXX.storage.loot.IntRange$Serializer",
+            "XXX.storage.loot.ItemModifierManager$FunctionSequence",
+            "XXX.storage.loot.LootContext$Builder",
+            "XXX.storage.loot.LootContext$EntityTarget",
+            "XXX.storage.loot.LootContextUser",
+            "XXX.storage.loot.LootPool$Builder",
+            "XXX.storage.loot.LootTable",
+            "XXX.storage.loot.LootTable$Serializer",
+            "XXX.storage.loot.PredicateManager",
+            "XXX.storage.loot.Serializer",
+            "XXX.storage.loot.ValidationContext",
+            "XXX.loot.entries.AlternativesEntry$Builder",
+            "XXX.loot.entries.CompositeEntryBase",
+            "XXX.loot.entries.CompositeEntryBase$CompositeEntryConstructor",
+            "XXX.loot.entries.DynamicLoot$Serializer",
+            "XXX.loot.entries.EmptyLootItem$Serializer",
+            "XXX.loot.entries.EntryGroup$Builder",
+            "XXX.loot.entries.LootItem$Serializer",
+            "XXX.loot.entries.LootPoolEntry",
+            "XXX.loot.entries.LootPoolEntryContainer$Builder",
+            "XXX.loot.entries.LootPoolEntryType",
+            "XXX.loot.entries.LootPoolSingletonContainer$1",
+            "XXX.loot.entries.LootPoolSingletonContainer$DummyBuilder",
+            "XXX.loot.entries.LootPoolSingletonContainer$EntryConstructor",
+            "XXX.loot.entries.LootTableReference",
+            "XXX.loot.entries.SequentialEntry",
+            "XXX.loot.entries.TagEntry",
+            "XXX.loot.entries.TagEntry$Serializer",
+            "XXX.loot.functions.ApplyBonusCount",
+            "XXX.loot.functions.ApplyBonusCount$Formula",
+            "XXX.loot.functions.ApplyBonusCount$OreDrops",
+            "XXX.loot.functions.ApplyBonusCount$UniformBonusCount",
+            "XXX.loot.functions.ApplyExplosionDecay$Serializer",
+            "XXX.loot.functions.CopyBlockState$Builder",
+            "XXX.loot.functions.CopyNameFunction",
+            "XXX.loot.functions.CopyNameFunction$Serializer",
+            "XXX.loot.functions.CopyNbtFunction$Builder",
+            "XXX.loot.functions.CopyNbtFunction$MergeStrategy",
+            "XXX.loot.functions.CopyNbtFunction$MergeStrategy$2",
+            "XXX.loot.functions.CopyNbtFunction$Serializer",
+            "XXX.loot.functions.EnchantRandomlyFunction$Builder",
+            "XXX.loot.functions.EnchantWithLevelsFunction",
+            "XXX.loot.functions.EnchantWithLevelsFunction$Serializer",
+            "XXX.loot.functions.ExplorationMapFunction$Builder",
+            "XXX.loot.functions.FillPlayerHead",
+            "XXX.loot.functions.FunctionUserBuilder",
+            "XXX.loot.functions.LimitCount$Serializer",
+            "XXX.loot.functions.LootItemConditionalFunction$Builder",
+            "XXX.loot.functions.LootItemConditionalFunction$Serializer",
+            "XXX.loot.functions.LootItemFunction$Builder",
+            "XXX.loot.functions.LootItemFunctions",
+            "XXX.loot.functions.LootingEnchantFunction$Builder",
+            "XXX.loot.functions.SetAttributesFunction",
+            "XXX.loot.functions.SetAttributesFunction$Builder",
+            "XXX.loot.functions.SetAttributesFunction$ModifierBuilder",
+            "XXX.loot.functions.SetBannerPatternFunction",
+            "XXX.loot.functions.SetBannerPatternFunction$Serializer",
+            "XXX.loot.functions.SetContainerContents$Builder",
+            "XXX.loot.functions.SetContainerLootTable",
+            "XXX.loot.functions.SetEnchantmentsFunction",
+            "XXX.loot.functions.SetEnchantmentsFunction$Serializer",
+            "XXX.loot.functions.SetInstrumentFunction$Serializer",
+            "XXX.loot.functions.SetItemCountFunction$Serializer",
+            "XXX.loot.functions.SetItemDamageFunction$Serializer",
+            "XXX.loot.functions.SetLoreFunction$Builder",
+            "XXX.loot.functions.SetNameFunction",
+            "XXX.loot.functions.SetNbtFunction",
+            "XXX.loot.functions.SetPotionFunction",
+            "XXX.loot.functions.SetStewEffectFunction",
+            "XXX.loot.functions.SetStewEffectFunction$Serializer",
+            "XXX.loot.functions.SmeltItemFunction$Serializer",
+            "XXX.storage.loot.package-info",
+            "XXX.loot.parameters.LootContextParamSet",
+            "XXX.loot.parameters.LootContextParamSets",
+            "XXX.loot.parameters.package-info",
+            "XXX.loot.predicates.AlternativeLootItemCondition$Builder",
+            "XXX.loot.predicates.BonusLevelTableCondition",
+            "XXX.loot.predicates.ConditionReference",
+            "XXX.loot.predicates.ConditionUserBuilder",
+            "XXX.loot.predicates.DamageSourceCondition$Serializer",
+            "XXX.loot.predicates.EntityHasScoreCondition$Builder",
+            "XXX.loot.predicates.ExplosionCondition",
+            "XXX.loot.predicates.InvertedLootItemCondition",
+            "XXX.loot.predicates.LocationCheck",
+            "XXX.loot.predicates.LootItemBlockStatePropertyCondition",
+            "XXX.loot.predicates.LootItemBlockStatePropertyCondition$Serializer",
+            "XXX.loot.predicates.LootItemCondition$Builder",
+            "XXX.loot.predicates.LootItemConditions",
+            "XXX.loot.predicates.LootItemEntityPropertyCondition$Serializer",
+            "XXX.loot.predicates.LootItemKilledByPlayerCondition$Serializer",
+            "XXX.loot.predicates.LootItemRandomChanceCondition$Serializer",
+            "XXX.loot.predicates.LootItemRandomChanceWithLootingCondition$Serializer",
+            "XXX.loot.predicates.MatchTool$Serializer",
+            "XXX.loot.predicates.TimeCheck$Builder",
+            "XXX.loot.predicates.ValueCheckCondition",
+            "XXX.loot.predicates.WeatherCheck",
+            "XXX.loot.predicates.WeatherCheck$Serializer",
+            "XXX.providers.nbt.ContextNbtProvider",
+            "XXX.providers.nbt.ContextNbtProvider$2",
+            "XXX.providers.nbt.ContextNbtProvider$InlineSerializer",
+            "XXX.providers.nbt.LootNbtProviderType",
+            "XXX.providers.nbt.NbtProviders",
+            "XXX.providers.nbt.StorageNbtProvider$Serializer",
+            "XXX.providers.number.BinomialDistributionGenerator",
+            "XXX.providers.number.ConstantValue",
+            "XXX.providers.number.ConstantValue$Serializer",
+            "XXX.providers.number.NumberProvider",
+            "XXX.providers.number.ScoreboardValue",
+            "XXX.providers.number.UniformGenerator",
+            "XXX.providers.number.package-info",
+            "XXX.providers.score.ContextScoreboardNameProvider$InlineSerializer",
+            "XXX.providers.score.FixedScoreboardNameProvider",
+            "XXX.providers.score.LootScoreProviderType",
+            "XXX.providers.score.ScoreboardNameProviders",
+            "XXX.level.storage.package-info",
+            "XXX.level.timers.FunctionCallback$Serializer",
+            "XXX.level.timers.FunctionTagCallback$Serializer",
+            "XXX.level.timers.TimerCallback$Serializer",
+            "XXX.level.timers.TimerQueue",
+            "XXX.level.timers.package-info",
+            "XXX.world.phys.AABB",
+            "XXX.world.phys.EntityHitResult",
+            "XXX.world.phys.HitResult$Type",
+            "XXX.world.phys.Vec3",
+            "XXX.phys.shapes.ArrayVoxelShape",
+            "XXX.phys.shapes.BitSetDiscreteVoxelShape",
+            "XXX.phys.shapes.CollisionContext",
+            "XXX.phys.shapes.CubeVoxelShape",
+            "XXX.phys.shapes.DiscreteVoxelShape",
+            "XXX.phys.shapes.DiscreteVoxelShape$IntLineConsumer",
+            "XXX.phys.shapes.EntityCollisionContext$1",
+            "XXX.phys.shapes.IndexMerger",
+            "XXX.phys.shapes.IndirectMerger",
+            "XXX.phys.shapes.OffsetDoubleList",
+            "XXX.phys.shapes.Shapes$DoubleLineConsumer",
+            "XXX.phys.shapes.SubShape",
+            "XXX.phys.shapes.package-info",
+            "XXX.world.scores.PlayerTeam",
+            "XXX.world.scores.Scoreboard",
+            "XXX.world.scores.Team",
+            "XXX.world.scores.Team$Visibility",
+            "XXX.scores.criteria.ObjectiveCriteria$RenderType",
+            "XXX.world.scores.package-info",
+            "XXX.world.ticks.BlackholeTickAccess$1",
+            "XXX.world.ticks.ContainerSingleItem",
+            "XXX.world.ticks.LevelTickAccess",
+            "XXX.world.ticks.LevelTicks$PosAndContainerConsumer",
+            "XXX.world.ticks.SavedTick",
+            "XXX.world.ticks.ScheduledTick",
+            "XXX.world.ticks.SerializableTickContainer",
+            "XXX.world.ticks.TickContainerAccess",
+            "XXX.world.ticks.WorldGenTickAccess"
+          ],
+          "removed": [
+            "XXX.level.lighting.LayerLightEngine",
+            "XXX.level.lighting.LayerLightEventListener$DummyLightLayerEventListener",
+            "XXX.level.lighting.LayerLightSectionStorage$1",
+            "XXX.level.lighting.LeveledPriorityQueue",
+            "XXX.level.lighting.LightEventListener",
+            "XXX.level.lighting.SkyLightSectionStorage",
+            "XXX.level.lighting.SkyLightSectionStorage$SkyDataLayerStorageMap",
+            "XXX.level.lighting.SpatialLongSet$InternalMap",
+            "XXX.level.material.EmptyFluid",
+            "XXX.level.material.FlowingFluid$1",
+            "XXX.level.material.FluidState",
+            "XXX.level.material.FogType",
+            "XXX.level.material.LavaFluid$Flowing",
+            "XXX.level.material.Material",
+            "XXX.level.material.MaterialColor",
+            "XXX.level.material.PushReaction",
+            "XXX.level.material.WaterFluid$Flowing",
+            "XXX.level.material.package-info",
+            "XXX.level.pathfinder.AmphibiousNodeEvaluator",
+            "XXX.level.pathfinder.BlockPathTypes",
+            "XXX.level.pathfinder.Node",
+            "XXX.level.pathfinder.Path",
+            "XXX.level.pathfinder.PathFinder",
+            "XXX.level.pathfinder.Target",
+            "XXX.level.pathfinder.package-info",
+            "XXX.level.portal.PortalInfo",
+            "XXX.level.portal.package-info",
+            "XXX.level.redstone.CollectingNeighborUpdater$FullNeighborUpdate",
+            "XXX.level.redstone.CollectingNeighborUpdater$NeighborUpdates",
+            "XXX.level.redstone.CollectingNeighborUpdater$SimpleNeighborUpdate",
+            "XXX.level.redstone.NeighborUpdater",
+            "XXX.level.redstone.package-info",
+            "XXX.saveddata.maps.MapBanner",
+            "XXX.saveddata.maps.MapDecoration",
+            "XXX.saveddata.maps.MapFrame",
+            "XXX.saveddata.maps.MapItemSavedData",
+            "XXX.saveddata.maps.MapItemSavedData$MapPatch",
+            "XXX.level.saveddata.package-info",
+            "XXX.level.storage.CommandStorage$Container",
+            "XXX.level.storage.DerivedLevelData",
+            "XXX.level.storage.LevelData",
+            "XXX.level.storage.LevelStorageException",
+            "XXX.level.storage.LevelStorageSource$LevelCandidates",
+            "XXX.level.storage.LevelStorageSource$LevelStorageAccess",
+            "XXX.level.storage.LevelStorageSource$LevelStorageAccess$2",
+            "XXX.level.storage.LevelSummary$BackupStatus",
+            "XXX.level.storage.PlayerDataStorage",
+            "XXX.level.storage.PrimaryLevelData$SpecialWorldProperty",
+            "XXX.level.storage.WorldData",
+            "XXX.storage.loot.BuiltInLootTables",
+            "XXX.storage.loot.GsonAdapterFactory",
+            "XXX.storage.loot.GsonAdapterFactory$InlineSerializer",
+            "XXX.storage.loot.IntRange",
+            "XXX.storage.loot.IntRange$IntLimiter",
+            "XXX.storage.loot.ItemModifierManager",
+            "XXX.storage.loot.LootContext",
+            "XXX.storage.loot.LootContext$DynamicDrop",
+            "XXX.storage.loot.LootContext$EntityTarget$Serializer",
+            "XXX.storage.loot.LootPool",
+            "XXX.storage.loot.LootPool$Serializer",
+            "XXX.storage.loot.LootTable$Builder",
+            "XXX.storage.loot.LootTables",
+            "XXX.storage.loot.PredicateManager$CompositePredicate",
+            "XXX.storage.loot.SerializerType",
+            "XXX.loot.entries.AlternativesEntry",
+            "XXX.loot.entries.ComposableEntryContainer",
+            "XXX.loot.entries.CompositeEntryBase$1",
+            "XXX.loot.entries.DynamicLoot",
+            "XXX.loot.entries.EmptyLootItem",
+            "XXX.loot.entries.EntryGroup",
+            "XXX.loot.entries.LootItem",
+            "XXX.loot.entries.LootPoolEntries",
+            "XXX.loot.entries.LootPoolEntryContainer",
+            "XXX.loot.entries.LootPoolEntryContainer$Serializer",
+            "XXX.loot.entries.LootPoolSingletonContainer",
+            "XXX.loot.entries.LootPoolSingletonContainer$Builder",
+            "XXX.loot.entries.LootPoolSingletonContainer$EntryBase",
+            "XXX.loot.entries.LootPoolSingletonContainer$Serializer",
+            "XXX.loot.entries.LootTableReference$Serializer",
+            "XXX.loot.entries.SequentialEntry$Builder",
+            "XXX.loot.entries.TagEntry$1",
+            "XXX.loot.entries.package-info",
+            "XXX.loot.functions.ApplyBonusCount$BinomialWithBonusCount",
+            "XXX.loot.functions.ApplyBonusCount$FormulaDeserializer",
+            "XXX.loot.functions.ApplyBonusCount$Serializer",
+            "XXX.loot.functions.ApplyExplosionDecay",
+            "XXX.loot.functions.CopyBlockState",
+            "XXX.loot.functions.CopyBlockState$Serializer",
+            "XXX.loot.functions.CopyNameFunction$NameSource",
+            "XXX.loot.functions.CopyNbtFunction",
+            "XXX.loot.functions.CopyNbtFunction$CopyOperation",
+            "XXX.loot.functions.CopyNbtFunction$MergeStrategy$1",
+            "XXX.loot.functions.CopyNbtFunction$MergeStrategy$3",
+            "XXX.loot.functions.EnchantRandomlyFunction",
+            "XXX.loot.functions.EnchantRandomlyFunction$Serializer",
+            "XXX.loot.functions.EnchantWithLevelsFunction$Builder",
+            "XXX.loot.functions.ExplorationMapFunction",
+            "XXX.loot.functions.ExplorationMapFunction$Serializer",
+            "XXX.loot.functions.FillPlayerHead$Serializer",
+            "XXX.loot.functions.LimitCount",
+            "XXX.loot.functions.LootItemConditionalFunction",
+            "XXX.loot.functions.LootItemConditionalFunction$DummyBuilder",
+            "XXX.loot.functions.LootItemFunction",
+            "XXX.loot.functions.LootItemFunctionType",
+            "XXX.loot.functions.LootingEnchantFunction",
+            "XXX.loot.functions.LootingEnchantFunction$Serializer",
+            "XXX.loot.functions.SetAttributesFunction$1",
+            "XXX.loot.functions.SetAttributesFunction$Modifier",
+            "XXX.loot.functions.SetAttributesFunction$Serializer",
+            "XXX.loot.functions.SetBannerPatternFunction$Builder",
+            "XXX.loot.functions.SetContainerContents",
+            "XXX.loot.functions.SetContainerContents$Serializer",
+            "XXX.loot.functions.SetContainerLootTable$Serializer",
+            "XXX.loot.functions.SetEnchantmentsFunction$Builder",
+            "XXX.loot.functions.SetInstrumentFunction",
+            "XXX.loot.functions.SetItemCountFunction",
+            "XXX.loot.functions.SetItemDamageFunction",
+            "XXX.loot.functions.SetLoreFunction",
+            "XXX.loot.functions.SetLoreFunction$Serializer",
+            "XXX.loot.functions.SetNameFunction$Serializer",
+            "XXX.loot.functions.SetNbtFunction$Serializer",
+            "XXX.loot.functions.SetPotionFunction$Serializer",
+            "XXX.loot.functions.SetStewEffectFunction$Builder",
+            "XXX.loot.functions.SmeltItemFunction",
+            "XXX.loot.functions.package-info",
+            "XXX.loot.parameters.LootContextParam",
+            "XXX.loot.parameters.LootContextParamSet$Builder",
+            "XXX.loot.parameters.LootContextParams",
+            "XXX.loot.predicates.AlternativeLootItemCondition",
+            "XXX.loot.predicates.AlternativeLootItemCondition$Serializer",
+            "XXX.loot.predicates.BonusLevelTableCondition$Serializer",
+            "XXX.loot.predicates.ConditionReference$Serializer",
+            "XXX.loot.predicates.DamageSourceCondition",
+            "XXX.loot.predicates.EntityHasScoreCondition",
+            "XXX.loot.predicates.EntityHasScoreCondition$Serializer",
+            "XXX.loot.predicates.ExplosionCondition$Serializer",
+            "XXX.loot.predicates.InvertedLootItemCondition$Serializer",
+            "XXX.loot.predicates.LocationCheck$Serializer",
+            "XXX.loot.predicates.LootItemBlockStatePropertyCondition$Builder",
+            "XXX.loot.predicates.LootItemCondition",
+            "XXX.loot.predicates.LootItemConditionType",
+            "XXX.loot.predicates.LootItemEntityPropertyCondition",
+            "XXX.loot.predicates.LootItemKilledByPlayerCondition",
+            "XXX.loot.predicates.LootItemRandomChanceCondition",
+            "XXX.loot.predicates.LootItemRandomChanceWithLootingCondition",
+            "XXX.loot.predicates.MatchTool",
+            "XXX.loot.predicates.TimeCheck",
+            "XXX.loot.predicates.TimeCheck$Serializer",
+            "XXX.loot.predicates.ValueCheckCondition$Serializer",
+            "XXX.loot.predicates.WeatherCheck$Builder",
+            "XXX.loot.predicates.package-info",
+            "XXX.providers.nbt.ContextNbtProvider$1",
+            "XXX.providers.nbt.ContextNbtProvider$Getter",
+            "XXX.providers.nbt.ContextNbtProvider$Serializer",
+            "XXX.providers.nbt.NbtProvider",
+            "XXX.providers.nbt.StorageNbtProvider",
+            "XXX.providers.nbt.package-info",
+            "XXX.providers.number.BinomialDistributionGenerator$Serializer",
+            "XXX.providers.number.ConstantValue$InlineSerializer",
+            "XXX.providers.number.LootNumberProviderType",
+            "XXX.providers.number.NumberProviders",
+            "XXX.providers.number.ScoreboardValue$Serializer",
+            "XXX.providers.number.UniformGenerator$Serializer",
+            "XXX.providers.score.ContextScoreboardNameProvider",
+            "XXX.providers.score.ContextScoreboardNameProvider$Serializer",
+            "XXX.providers.score.FixedScoreboardNameProvider$Serializer",
+            "XXX.providers.score.ScoreboardNameProvider",
+            "XXX.providers.score.package-info",
+            "XXX.level.timers.FunctionCallback",
+            "XXX.level.timers.FunctionTagCallback",
+            "XXX.level.timers.TimerCallback",
+            "XXX.level.timers.TimerCallbacks",
+            "XXX.level.timers.TimerQueue$Event",
+            "XXX.minecraft.world.package-info",
+            "XXX.world.phys.BlockHitResult",
+            "XXX.world.phys.HitResult",
+            "XXX.world.phys.Vec2",
+            "XXX.world.phys.package-info",
+            "XXX.phys.shapes.ArrayVoxelShape$1",
+            "XXX.phys.shapes.BooleanOp",
+            "XXX.phys.shapes.CubePointRange",
+            "XXX.phys.shapes.DiscreteCubeMerger",
+            "XXX.phys.shapes.DiscreteVoxelShape$IntFaceConsumer",
+            "XXX.phys.shapes.EntityCollisionContext",
+            "XXX.phys.shapes.IdenticalMerger",
+            "XXX.phys.shapes.IndexMerger$IndexConsumer",
+            "XXX.phys.shapes.NonOverlappingMerger",
+            "XXX.phys.shapes.Shapes",
+            "XXX.phys.shapes.SliceShape",
+            "XXX.phys.shapes.VoxelShape",
+            "XXX.world.scores.Objective",
+            "XXX.world.scores.Score",
+            "XXX.world.scores.ScoreboardSaveData",
+            "XXX.world.scores.Team$CollisionRule",
+            "XXX.scores.criteria.ObjectiveCriteria",
+            "XXX.scores.criteria.package-info",
+            "XXX.world.ticks.BlackholeTickAccess",
+            "XXX.world.ticks.BlackholeTickAccess$2",
+            "XXX.world.ticks.LevelChunkTicks",
+            "XXX.world.ticks.LevelTicks",
+            "XXX.world.ticks.ProtoChunkTicks",
+            "XXX.world.ticks.SavedTick$1",
+            "XXX.world.ticks.ScheduledTick$1",
+            "XXX.world.ticks.TickAccess",
+            "XXX.world.ticks.TickPriority",
+            "XXX.world.ticks.package-info"
+          ]
+        }
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "Changes",
+        "lines": [
+          "XXX.minecraft.core.Direction \u001b[2;32m+2M\u001b[0m \u001b[2;31m-6M\u001b[0m | \u001b[2;31m-1P\u001b[0m",
+          "XXX.models.model.ModelTemplates \u001b[2;32m+1P\u001b[0m",
+          "XXX.gametest.framework.GameTestHelper \u001b[2;31m-1M\u001b[0m",
+          "XXX.server.level.SectionTracker \u001b[2;31m-1M\u001b[0m",
+          "XXX.world.entity.LivingEntity \u001b[2;32m+4M\u001b[0m \u001b[2;31m-4M\u001b[0m",
+          "XXX.entity.animal.Pig \u001b[2;32m+3M\u001b[0m \u001b[2;31m-3M\u001b[0m",
+          "XXX.animal.horse.AbstractHorse \u001b[2;32m+4M\u001b[0m \u001b[2;31m-3M\u001b[0m",
+          "XXX.animal.sniffer.Sniffer \u001b[2;32m+1M\u001b[0m \u001b[2;31m-3M\u001b[0m | \u001b[2;32m+1P\u001b[0m \u001b[2;31m-1P\u001b[0m",
+          "XXX.world.item.BrushItem \u001b[2;32m+2M\u001b[0m \u001b[2;31m-1M\u001b[0m | \u001b[2;32m+1P\u001b[0m \u001b[2;31m-1P\u001b[0m",
+          "XXX.level.block.AmethystClusterBlock \u001b[2;31m-1M\u001b[0m",
+          "XXX.level.block.BasePressurePlateBlock \u001b[2;31m-1M\u001b[0m",
+          "XXX.level.block.BrushableBlock \u001b[2;31m-1M\u001b[0m",
+          "XXX.level.block.DoorBlock \u001b[2;31m-1M\u001b[0m",
+          "XXX.level.block.EndRodBlock \u001b[2;31m-1M\u001b[0m",
+          "XXX.level.block.IceBlock \u001b[2;31m-1M\u001b[0m",
+          "XXX.level.block.LanternBlock \u001b[2;31m-1M\u001b[0m",
+          "XXX.level.block.PointedDripstoneBlock \u001b[2;31m-1M\u001b[0m",
+          "XXX.level.block.SculkVeinBlock \u001b[2;31m-1M\u001b[0m",
+          "XXX.level.block.ShulkerBoxBlock \u001b[2;31m-1M\u001b[0m",
+          "XXX.level.block.SignBlock \u001b[2;32m+1M\u001b[0m",
+          "XXX.level.block.StructureVoidBlock \u001b[2;31m-1M\u001b[0m",
+          "XXX.block.entity.SignBlockEntity \u001b[2;32m+5M\u001b[0m",
+          "XXX.structure.templatesystem.StructureProcessor \u001b[2;32m+1M\u001b[0m \u001b[2;31m-1M\u001b[0m",
+          "XXX.level.lighting.BlockLightEngine \u001b[2;32m+1M\u001b[0m",
+          "XXX.level.lighting.DynamicGraphMinFixedPoint \u001b[2;32m+2M\u001b[0m \u001b[2;31m-4M\u001b[0m | \u001b[2;32m+2P\u001b[0m \u001b[2;31m-3P\u001b[0m"
+        ]
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.core.Direction",
+        "differences": {
+          "added": [
+            "Direction fromNormal(BlockPos)",
+            "Direction fromNormal(int,int,int)",
+            "String lambda$verifyVertical$8()",
+            "Direction lambda$static$7(Direction,Direction)",
+            "Direction lambda$static$6(Direction)",
+            "Long lambda$static$5(Direction)"
+          ],
+          "removed": [
+            "Direction fromDelta(int,int,int)",
+            "String lambda$verifyVertical$5()"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.gametest.framework.GameTestHelper",
+        "differences": {
+          "added": [
+            "void continuouslyUse(BlockPos,Player,BlockHitResult)"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.server.level.SectionTracker",
+        "differences": {
+          "added": [
+            "boolean isSource(long)"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.entity.LivingEntity",
+        "differences": {
+          "added": [
+            "void travelRidden(LivingEntity,Vec3)",
+            "void tickRidden(LivingEntity,Vec3)",
+            "Vec3 getRiddenInput(LivingEntity,Vec3)",
+            "float getRiddenSpeed(LivingEntity)"
+          ],
+          "removed": [
+            "void travelRidden(Player,Vec3)",
+            "void tickRidden(Player,Vec3)",
+            "Vec3 getRiddenInput(Player,Vec3)",
+            "float getRiddenSpeed(Player)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.entity.animal.Pig",
+        "differences": {
+          "added": [
+            "void tickRidden(LivingEntity,Vec3)",
+            "Vec3 getRiddenInput(LivingEntity,Vec3)",
+            "float getRiddenSpeed(LivingEntity)"
+          ],
+          "removed": [
+            "void tickRidden(Player,Vec3)",
+            "Vec3 getRiddenInput(Player,Vec3)",
+            "float getRiddenSpeed(Player)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.entity.animal.horse.AbstractHorse",
+        "differences": {
+          "added": [
+            "void tickRidden(LivingEntity,Vec3)",
+            "Vec3 getRiddenInput(LivingEntity,Vec3)",
+            "float getRiddenSpeed(LivingEntity)"
+          ],
+          "removed": [
+            "boolean isWoodSoundType(SoundType)",
+            "void tickRidden(Player,Vec3)",
+            "Vec3 getRiddenInput(Player,Vec3)",
+            "float getRiddenSpeed(Player)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.entity.animal.sniffer.Sniffer",
+        "differences": {
+          "added": [
+            "boolean isMoving()",
+            "boolean isMovingInWater()",
+            "boolean isMovingOnLand()"
+          ],
+          "removed": [
+            "double getPassengersRidingOffset()"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.item.BrushItem",
+        "differences": {
+          "added": [
+            "void spawnDustParticles(Level,BlockHitResult,BlockState,Vec3)"
+          ],
+          "removed": [
+            "HitResult calculateUseHit(LivingEntity)",
+            "void spawnDustParticles(Level,BlockHitResult,BlockState,Vec3,boolean)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.level.block.AmethystClusterBlock",
+        "differences": {
+          "added": [
+            "PushReaction getPistonPushReaction(BlockState)"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.level.block.BasePressurePlateBlock",
+        "differences": {
+          "added": [
+            "PushReaction getPistonPushReaction(BlockState)"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.level.block.BrushableBlock",
+        "differences": {
+          "added": [
+            "PushReaction getPistonPushReaction(BlockState)"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.level.block.DoorBlock",
+        "differences": {
+          "added": [
+            "PushReaction getPistonPushReaction(BlockState)"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.level.block.EndRodBlock",
+        "differences": {
+          "added": [
+            "PushReaction getPistonPushReaction(BlockState)"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.level.block.IceBlock",
+        "differences": {
+          "added": [
+            "PushReaction getPistonPushReaction(BlockState)"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.level.block.LanternBlock",
+        "differences": {
+          "added": [
+            "PushReaction getPistonPushReaction(BlockState)"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.level.block.PointedDripstoneBlock",
+        "differences": {
+          "added": [
+            "PushReaction getPistonPushReaction(BlockState)"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.level.block.SculkVeinBlock",
+        "differences": {
+          "added": [
+            "PushReaction getPistonPushReaction(BlockState)"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.level.block.ShulkerBoxBlock",
+        "differences": {
+          "added": [
+            "PushReaction getPistonPushReaction(BlockState)"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.level.block.SignBlock",
+        "differences": {
+          "added": [],
+          "removed": [
+            "Vec3 getSignHitboxCenterPosition(BlockState)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.level.block.StructureVoidBlock",
+        "differences": {
+          "added": [
+            "PushReaction getPistonPushReaction(BlockState)"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.level.block.entity.SignBlockEntity",
+        "differences": {
+          "added": [],
+          "removed": [
+            "SignText loadLines(SignText)",
+            "Component loadLine(Component)",
+            "boolean canExecuteClickCommands(boolean,Player)",
+            "boolean executeClickCommandsIfPresent(ServerPlayer,ServerLevel,BlockPos,boolean)",
+            "CommandSourceStack createCommandSourceStack(ServerPlayer,ServerLevel,BlockPos)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.level.levelgen.structure.templatesystem.StructureProcessor",
+        "differences": {
+          "added": [
+            "List finalizeProcessing(LevelAccessor,BlockPos,BlockPos,List,List,StructurePlaceSettings)"
+          ],
+          "removed": [
+            "List finalizeProcessing(ServerLevelAccessor,BlockPos,BlockPos,List,List,StructurePlaceSettings)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.level.lighting.BlockLightEngine",
+        "differences": {
+          "added": [],
+          "removed": [
+            "void <init>(LightChunkGetter,BlockLightSectionStorage)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.level.lighting.DynamicGraphMinFixedPoint",
+        "differences": {
+          "added": [
+            "int getKey(int,int)",
+            "void checkFirstQueuedLevel(int)",
+            "void dequeue(long,int,int,boolean)",
+            "void enqueue(long,int,int)"
+          ],
+          "removed": [
+            "int calculatePriority(int,int)",
+            "boolean isSource(long)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "title",
+      "value": {
+        "title": "Client",
+        "id": "client-mappings",
+        "size": 2
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "Classes",
+        "differences": {
+          "added": [
+            "XXX.level.lighting.LayerLightEngine",
+            "XXX.level.lighting.LayerLightEventListener$DummyLightLayerEventListener",
+            "XXX.level.lighting.LayerLightSectionStorage$1",
+            "XXX.level.lighting.LightEventListener",
+            "XXX.level.lighting.SkyLightSectionStorage",
+            "XXX.level.lighting.SkyLightSectionStorage$SkyDataLayerStorageMap",
+            "XXX.level.lighting.SpatialLongSet$InternalMap",
+            "XXX.level.material.EmptyFluid",
+            "XXX.level.material.FlowingFluid$1",
+            "XXX.level.material.FluidState",
+            "XXX.level.material.FogType",
+            "XXX.level.material.LavaFluid$Flowing",
+            "XXX.level.material.Material",
+            "XXX.level.material.MaterialColor",
+            "XXX.level.material.PushReaction",
+            "XXX.level.material.WaterFluid$Flowing",
+            "XXX.level.material.package-info",
+            "XXX.level.pathfinder.AmphibiousNodeEvaluator",
+            "XXX.level.pathfinder.BlockPathTypes",
+            "XXX.level.pathfinder.Node",
+            "XXX.level.pathfinder.Path",
+            "XXX.level.pathfinder.PathFinder",
+            "XXX.level.pathfinder.Target",
+            "XXX.level.pathfinder.package-info",
+            "XXX.level.portal.PortalInfo",
+            "XXX.level.portal.package-info",
+            "XXX.level.redstone.CollectingNeighborUpdater$FullNeighborUpdate",
+            "XXX.level.redstone.CollectingNeighborUpdater$NeighborUpdates",
+            "XXX.level.redstone.CollectingNeighborUpdater$SimpleNeighborUpdate",
+            "XXX.level.redstone.NeighborUpdater",
+            "XXX.level.redstone.package-info",
+            "XXX.saveddata.maps.MapBanner",
+            "XXX.saveddata.maps.MapDecoration",
+            "XXX.saveddata.maps.MapFrame",
+            "XXX.saveddata.maps.MapItemSavedData",
+            "XXX.saveddata.maps.MapItemSavedData$MapPatch",
+            "XXX.level.saveddata.package-info",
+            "XXX.level.storage.CommandStorage$Container",
+            "XXX.level.storage.DerivedLevelData",
+            "XXX.level.storage.LevelData",
+            "XXX.level.storage.LevelStorageException",
+            "XXX.level.storage.LevelStorageSource$LevelCandidates",
+            "XXX.level.storage.LevelStorageSource$LevelStorageAccess",
+            "XXX.level.storage.LevelStorageSource$LevelStorageAccess$2",
+            "XXX.level.storage.LevelSummary$BackupStatus",
+            "XXX.level.storage.PlayerDataStorage",
+            "XXX.level.storage.PrimaryLevelData$SpecialWorldProperty",
+            "XXX.level.storage.WorldData",
+            "XXX.storage.loot.BuiltInLootTables",
+            "XXX.storage.loot.GsonAdapterFactory",
+            "XXX.storage.loot.GsonAdapterFactory$InlineSerializer",
+            "XXX.storage.loot.IntRange",
+            "XXX.storage.loot.IntRange$IntLimiter",
+            "XXX.storage.loot.ItemModifierManager",
+            "XXX.storage.loot.LootContext",
+            "XXX.storage.loot.LootContext$DynamicDrop",
+            "XXX.storage.loot.LootContext$EntityTarget$Serializer",
+            "XXX.storage.loot.LootPool",
+            "XXX.storage.loot.LootPool$Serializer",
+            "XXX.storage.loot.LootTable$Builder",
+            "XXX.storage.loot.LootTables",
+            "XXX.storage.loot.PredicateManager$CompositePredicate",
+            "XXX.storage.loot.SerializerType",
+            "XXX.loot.entries.AlternativesEntry",
+            "XXX.loot.entries.ComposableEntryContainer",
+            "XXX.loot.entries.CompositeEntryBase$1",
+            "XXX.loot.entries.DynamicLoot",
+            "XXX.loot.entries.EmptyLootItem",
+            "XXX.loot.entries.EntryGroup",
+            "XXX.loot.entries.LootItem",
+            "XXX.loot.entries.LootPoolEntries",
+            "XXX.loot.entries.LootPoolEntryContainer",
+            "XXX.loot.entries.LootPoolEntryContainer$Serializer",
+            "XXX.loot.entries.LootPoolSingletonContainer",
+            "XXX.loot.entries.LootPoolSingletonContainer$Builder",
+            "XXX.loot.entries.LootPoolSingletonContainer$EntryBase",
+            "XXX.loot.entries.LootPoolSingletonContainer$Serializer",
+            "XXX.loot.entries.LootTableReference$Serializer",
+            "XXX.loot.entries.SequentialEntry$Builder",
+            "XXX.loot.entries.TagEntry$1",
+            "XXX.loot.entries.package-info",
+            "XXX.loot.functions.ApplyBonusCount$BinomialWithBonusCount",
+            "XXX.loot.functions.ApplyBonusCount$FormulaDeserializer",
+            "XXX.loot.functions.ApplyBonusCount$Serializer",
+            "XXX.loot.functions.ApplyExplosionDecay",
+            "XXX.loot.functions.CopyBlockState",
+            "XXX.loot.functions.CopyBlockState$Serializer",
+            "XXX.loot.functions.CopyNameFunction$NameSource",
+            "XXX.loot.functions.CopyNbtFunction",
+            "XXX.loot.functions.CopyNbtFunction$CopyOperation",
+            "XXX.loot.functions.CopyNbtFunction$MergeStrategy$1",
+            "XXX.loot.functions.CopyNbtFunction$MergeStrategy$3",
+            "XXX.loot.functions.EnchantRandomlyFunction",
+            "XXX.loot.functions.EnchantRandomlyFunction$Serializer",
+            "XXX.loot.functions.EnchantWithLevelsFunction$Builder",
+            "XXX.loot.functions.ExplorationMapFunction",
+            "XXX.loot.functions.ExplorationMapFunction$Serializer",
+            "XXX.loot.functions.FillPlayerHead$Serializer",
+            "XXX.loot.functions.LimitCount",
+            "XXX.loot.functions.LootItemConditionalFunction",
+            "XXX.loot.functions.LootItemConditionalFunction$DummyBuilder",
+            "XXX.loot.functions.LootItemFunction",
+            "XXX.loot.functions.LootItemFunctionType",
+            "XXX.loot.functions.LootingEnchantFunction",
+            "XXX.loot.functions.LootingEnchantFunction$Serializer",
+            "XXX.loot.functions.SetAttributesFunction$1",
+            "XXX.loot.functions.SetAttributesFunction$Modifier",
+            "XXX.loot.functions.SetAttributesFunction$Serializer",
+            "XXX.loot.functions.SetBannerPatternFunction$Builder",
+            "XXX.loot.functions.SetContainerContents",
+            "XXX.loot.functions.SetContainerContents$Serializer",
+            "XXX.loot.functions.SetContainerLootTable$Serializer",
+            "XXX.loot.functions.SetEnchantmentsFunction$Builder",
+            "XXX.loot.functions.SetInstrumentFunction",
+            "XXX.loot.functions.SetItemCountFunction",
+            "XXX.loot.functions.SetItemDamageFunction",
+            "XXX.loot.functions.SetLoreFunction",
+            "XXX.loot.functions.SetLoreFunction$Serializer",
+            "XXX.loot.functions.SetNameFunction$Serializer",
+            "XXX.loot.functions.SetNbtFunction$Serializer",
+            "XXX.loot.functions.SetPotionFunction$Serializer",
+            "XXX.loot.functions.SetStewEffectFunction$Builder",
+            "XXX.loot.functions.SmeltItemFunction",
+            "XXX.loot.functions.package-info",
+            "XXX.loot.parameters.LootContextParam",
+            "XXX.loot.parameters.LootContextParamSet$Builder",
+            "XXX.loot.parameters.LootContextParams",
+            "XXX.loot.predicates.AlternativeLootItemCondition",
+            "XXX.loot.predicates.AlternativeLootItemCondition$Serializer",
+            "XXX.loot.predicates.BonusLevelTableCondition$Serializer",
+            "XXX.loot.predicates.ConditionReference$Serializer",
+            "XXX.loot.predicates.DamageSourceCondition",
+            "XXX.loot.predicates.EntityHasScoreCondition",
+            "XXX.loot.predicates.EntityHasScoreCondition$Serializer",
+            "XXX.loot.predicates.ExplosionCondition$Serializer",
+            "XXX.loot.predicates.InvertedLootItemCondition$Serializer",
+            "XXX.loot.predicates.LocationCheck$Serializer",
+            "XXX.loot.predicates.LootItemBlockStatePropertyCondition$Builder",
+            "XXX.loot.predicates.LootItemCondition",
+            "XXX.loot.predicates.LootItemConditionType",
+            "XXX.loot.predicates.LootItemEntityPropertyCondition",
+            "XXX.loot.predicates.LootItemKilledByPlayerCondition",
+            "XXX.loot.predicates.LootItemRandomChanceCondition",
+            "XXX.loot.predicates.LootItemRandomChanceWithLootingCondition",
+            "XXX.loot.predicates.MatchTool",
+            "XXX.loot.predicates.TimeCheck",
+            "XXX.loot.predicates.TimeCheck$Serializer",
+            "XXX.loot.predicates.ValueCheckCondition$Serializer",
+            "XXX.loot.predicates.WeatherCheck$Builder",
+            "XXX.loot.predicates.package-info",
+            "XXX.providers.nbt.ContextNbtProvider$1",
+            "XXX.providers.nbt.ContextNbtProvider$Getter",
+            "XXX.providers.nbt.ContextNbtProvider$Serializer",
+            "XXX.providers.nbt.NbtProvider",
+            "XXX.providers.nbt.StorageNbtProvider",
+            "XXX.providers.nbt.package-info",
+            "XXX.providers.number.BinomialDistributionGenerator$Serializer",
+            "XXX.providers.number.ConstantValue$InlineSerializer",
+            "XXX.providers.number.LootNumberProviderType",
+            "XXX.providers.number.NumberProviders",
+            "XXX.providers.number.ScoreboardValue$Serializer",
+            "XXX.providers.number.UniformGenerator$Serializer",
+            "XXX.providers.score.ContextScoreboardNameProvider",
+            "XXX.providers.score.ContextScoreboardNameProvider$Serializer",
+            "XXX.providers.score.FixedScoreboardNameProvider$Serializer",
+            "XXX.providers.score.ScoreboardNameProvider",
+            "XXX.providers.score.package-info",
+            "XXX.level.timers.FunctionCallback",
+            "XXX.level.timers.FunctionTagCallback",
+            "XXX.level.timers.TimerCallback",
+            "XXX.level.timers.TimerCallbacks",
+            "XXX.level.timers.TimerQueue$Event",
+            "XXX.minecraft.world.package-info",
+            "XXX.world.phys.BlockHitResult",
+            "XXX.world.phys.HitResult",
+            "XXX.world.phys.Vec2",
+            "XXX.world.phys.package-info",
+            "XXX.phys.shapes.ArrayVoxelShape$1",
+            "XXX.phys.shapes.BooleanOp",
+            "XXX.phys.shapes.CubePointRange",
+            "XXX.phys.shapes.DiscreteCubeMerger",
+            "XXX.phys.shapes.DiscreteVoxelShape$IntFaceConsumer",
+            "XXX.phys.shapes.EntityCollisionContext",
+            "XXX.phys.shapes.IdenticalMerger",
+            "XXX.phys.shapes.IndexMerger$IndexConsumer",
+            "XXX.phys.shapes.NonOverlappingMerger",
+            "XXX.phys.shapes.Shapes",
+            "XXX.phys.shapes.SliceShape",
+            "XXX.phys.shapes.VoxelShape",
+            "XXX.world.scores.Objective",
+            "XXX.world.scores.Score",
+            "XXX.world.scores.ScoreboardSaveData",
+            "XXX.world.scores.Team$CollisionRule",
+            "XXX.scores.criteria.ObjectiveCriteria",
+            "XXX.scores.criteria.package-info",
+            "XXX.world.ticks.BlackholeTickAccess",
+            "XXX.world.ticks.BlackholeTickAccess$2",
+            "XXX.world.ticks.LevelChunkTicks",
+            "XXX.world.ticks.LevelTicks",
+            "XXX.world.ticks.ProtoChunkTicks",
+            "XXX.world.ticks.SavedTick$1",
+            "XXX.world.ticks.ScheduledTick$1",
+            "XXX.world.ticks.TickAccess",
+            "XXX.world.ticks.TickPriority",
+            "XXX.world.ticks.package-info"
+          ],
+          "removed": [
+            "XXX.level.lighting.LayerLightEventListener",
+            "XXX.level.lighting.LayerLightSectionStorage",
+            "XXX.level.lighting.LevelLightEngine",
+            "XXX.level.lighting.LeveledPriorityQueue$1",
+            "XXX.level.lighting.SkyLightEngine",
+            "XXX.level.lighting.SkyLightSectionStorage$1",
+            "XXX.level.lighting.SpatialLongSet",
+            "XXX.level.lighting.package-info",
+            "XXX.level.material.FlowingFluid",
+            "XXX.level.material.Fluid",
+            "XXX.level.material.Fluids",
+            "XXX.level.material.LavaFluid",
+            "XXX.level.material.LavaFluid$Source",
+            "XXX.level.material.Material$Builder",
+            "XXX.level.material.MaterialColor$Brightness",
+            "XXX.level.material.WaterFluid",
+            "XXX.level.material.WaterFluid$Source",
+            "XXX.world.level.package-info",
+            "XXX.level.pathfinder.BinaryHeap",
+            "XXX.level.pathfinder.FlyNodeEvaluator",
+            "XXX.level.pathfinder.NodeEvaluator",
+            "XXX.level.pathfinder.PathComputationType",
+            "XXX.level.pathfinder.SwimNodeEvaluator",
+            "XXX.level.pathfinder.WalkNodeEvaluator",
+            "XXX.level.portal.PortalForcer",
+            "XXX.level.portal.PortalShape",
+            "XXX.level.redstone.CollectingNeighborUpdater",
+            "XXX.level.redstone.CollectingNeighborUpdater$MultiNeighborUpdate",
+            "XXX.level.redstone.CollectingNeighborUpdater$ShapeUpdate",
+            "XXX.level.redstone.InstantNeighborUpdater",
+            "XXX.level.redstone.Redstone",
+            "XXX.level.saveddata.SavedData",
+            "XXX.saveddata.maps.MapBanner$1",
+            "XXX.saveddata.maps.MapDecoration$Type",
+            "XXX.saveddata.maps.MapIndex",
+            "XXX.saveddata.maps.MapItemSavedData$HoldingPlayer",
+            "XXX.saveddata.maps.package-info",
+            "XXX.level.storage.CommandStorage",
+            "XXX.level.storage.DataVersion",
+            "XXX.level.storage.DimensionDataStorage",
+            "XXX.level.storage.LevelResource",
+            "XXX.level.storage.LevelStorageSource",
+            "XXX.level.storage.LevelStorageSource$LevelDirectory",
+            "XXX.level.storage.LevelStorageSource$LevelStorageAccess$1",
+            "XXX.level.storage.LevelSummary",
+            "XXX.level.storage.LevelVersion",
+            "XXX.level.storage.PrimaryLevelData",
+            "XXX.level.storage.ServerLevelData",
+            "XXX.level.storage.WritableLevelData",
+            "XXX.storage.loot.Deserializers",
+            "XXX.storage.loot.GsonAdapterFactory$Builder",
+            "XXX.storage.loot.GsonAdapterFactory$JsonAdapter",
+            "XXX.storage.loot.IntRange$IntChecker",
+            "XXX.storage.loot.IntRange$Serializer",
+            "XXX.storage.loot.ItemModifierManager$FunctionSequence",
+            "XXX.storage.loot.LootContext$Builder",
+            "XXX.storage.loot.LootContext$EntityTarget",
+            "XXX.storage.loot.LootContextUser",
+            "XXX.storage.loot.LootPool$Builder",
+            "XXX.storage.loot.LootTable",
+            "XXX.storage.loot.LootTable$Serializer",
+            "XXX.storage.loot.PredicateManager",
+            "XXX.storage.loot.Serializer",
+            "XXX.storage.loot.ValidationContext",
+            "XXX.loot.entries.AlternativesEntry$Builder",
+            "XXX.loot.entries.CompositeEntryBase",
+            "XXX.loot.entries.CompositeEntryBase$CompositeEntryConstructor",
+            "XXX.loot.entries.DynamicLoot$Serializer",
+            "XXX.loot.entries.EmptyLootItem$Serializer",
+            "XXX.loot.entries.EntryGroup$Builder",
+            "XXX.loot.entries.LootItem$Serializer",
+            "XXX.loot.entries.LootPoolEntry",
+            "XXX.loot.entries.LootPoolEntryContainer$Builder",
+            "XXX.loot.entries.LootPoolEntryType",
+            "XXX.loot.entries.LootPoolSingletonContainer$1",
+            "XXX.loot.entries.LootPoolSingletonContainer$DummyBuilder",
+            "XXX.loot.entries.LootPoolSingletonContainer$EntryConstructor",
+            "XXX.loot.entries.LootTableReference",
+            "XXX.loot.entries.SequentialEntry",
+            "XXX.loot.entries.TagEntry",
+            "XXX.loot.entries.TagEntry$Serializer",
+            "XXX.loot.functions.ApplyBonusCount",
+            "XXX.loot.functions.ApplyBonusCount$Formula",
+            "XXX.loot.functions.ApplyBonusCount$OreDrops",
+            "XXX.loot.functions.ApplyBonusCount$UniformBonusCount",
+            "XXX.loot.functions.ApplyExplosionDecay$Serializer",
+            "XXX.loot.functions.CopyBlockState$Builder",
+            "XXX.loot.functions.CopyNameFunction",
+            "XXX.loot.functions.CopyNameFunction$Serializer",
+            "XXX.loot.functions.CopyNbtFunction$Builder",
+            "XXX.loot.functions.CopyNbtFunction$MergeStrategy",
+            "XXX.loot.functions.CopyNbtFunction$MergeStrategy$2",
+            "XXX.loot.functions.CopyNbtFunction$Serializer",
+            "XXX.loot.functions.EnchantRandomlyFunction$Builder",
+            "XXX.loot.functions.EnchantWithLevelsFunction",
+            "XXX.loot.functions.EnchantWithLevelsFunction$Serializer",
+            "XXX.loot.functions.ExplorationMapFunction$Builder",
+            "XXX.loot.functions.FillPlayerHead",
+            "XXX.loot.functions.FunctionUserBuilder",
+            "XXX.loot.functions.LimitCount$Serializer",
+            "XXX.loot.functions.LootItemConditionalFunction$Builder",
+            "XXX.loot.functions.LootItemConditionalFunction$Serializer",
+            "XXX.loot.functions.LootItemFunction$Builder",
+            "XXX.loot.functions.LootItemFunctions",
+            "XXX.loot.functions.LootingEnchantFunction$Builder",
+            "XXX.loot.functions.SetAttributesFunction",
+            "XXX.loot.functions.SetAttributesFunction$Builder",
+            "XXX.loot.functions.SetAttributesFunction$ModifierBuilder",
+            "XXX.loot.functions.SetBannerPatternFunction",
+            "XXX.loot.functions.SetBannerPatternFunction$Serializer",
+            "XXX.loot.functions.SetContainerContents$Builder",
+            "XXX.loot.functions.SetContainerLootTable",
+            "XXX.loot.functions.SetEnchantmentsFunction",
+            "XXX.loot.functions.SetEnchantmentsFunction$Serializer",
+            "XXX.loot.functions.SetInstrumentFunction$Serializer",
+            "XXX.loot.functions.SetItemCountFunction$Serializer",
+            "XXX.loot.functions.SetItemDamageFunction$Serializer",
+            "XXX.loot.functions.SetLoreFunction$Builder",
+            "XXX.loot.functions.SetNameFunction",
+            "XXX.loot.functions.SetNbtFunction",
+            "XXX.loot.functions.SetPotionFunction",
+            "XXX.loot.functions.SetStewEffectFunction",
+            "XXX.loot.functions.SetStewEffectFunction$Serializer",
+            "XXX.loot.functions.SmeltItemFunction$Serializer",
+            "XXX.storage.loot.package-info",
+            "XXX.loot.parameters.LootContextParamSet",
+            "XXX.loot.parameters.LootContextParamSets",
+            "XXX.loot.parameters.package-info",
+            "XXX.loot.predicates.AlternativeLootItemCondition$Builder",
+            "XXX.loot.predicates.BonusLevelTableCondition",
+            "XXX.loot.predicates.ConditionReference",
+            "XXX.loot.predicates.ConditionUserBuilder",
+            "XXX.loot.predicates.DamageSourceCondition$Serializer",
+            "XXX.loot.predicates.EntityHasScoreCondition$Builder",
+            "XXX.loot.predicates.ExplosionCondition",
+            "XXX.loot.predicates.InvertedLootItemCondition",
+            "XXX.loot.predicates.LocationCheck",
+            "XXX.loot.predicates.LootItemBlockStatePropertyCondition",
+            "XXX.loot.predicates.LootItemBlockStatePropertyCondition$Serializer",
+            "XXX.loot.predicates.LootItemCondition$Builder",
+            "XXX.loot.predicates.LootItemConditions",
+            "XXX.loot.predicates.LootItemEntityPropertyCondition$Serializer",
+            "XXX.loot.predicates.LootItemKilledByPlayerCondition$Serializer",
+            "XXX.loot.predicates.LootItemRandomChanceCondition$Serializer",
+            "XXX.loot.predicates.LootItemRandomChanceWithLootingCondition$Serializer",
+            "XXX.loot.predicates.MatchTool$Serializer",
+            "XXX.loot.predicates.TimeCheck$Builder",
+            "XXX.loot.predicates.ValueCheckCondition",
+            "XXX.loot.predicates.WeatherCheck",
+            "XXX.loot.predicates.WeatherCheck$Serializer",
+            "XXX.providers.nbt.ContextNbtProvider",
+            "XXX.providers.nbt.ContextNbtProvider$2",
+            "XXX.providers.nbt.ContextNbtProvider$InlineSerializer",
+            "XXX.providers.nbt.LootNbtProviderType",
+            "XXX.providers.nbt.NbtProviders",
+            "XXX.providers.nbt.StorageNbtProvider$Serializer",
+            "XXX.providers.number.BinomialDistributionGenerator",
+            "XXX.providers.number.ConstantValue",
+            "XXX.providers.number.ConstantValue$Serializer",
+            "XXX.providers.number.NumberProvider",
+            "XXX.providers.number.ScoreboardValue",
+            "XXX.providers.number.UniformGenerator",
+            "XXX.providers.number.package-info",
+            "XXX.providers.score.ContextScoreboardNameProvider$InlineSerializer",
+            "XXX.providers.score.FixedScoreboardNameProvider",
+            "XXX.providers.score.LootScoreProviderType",
+            "XXX.providers.score.ScoreboardNameProviders",
+            "XXX.level.storage.package-info",
+            "XXX.level.timers.FunctionCallback$Serializer",
+            "XXX.level.timers.FunctionTagCallback$Serializer",
+            "XXX.level.timers.TimerCallback$Serializer",
+            "XXX.level.timers.TimerQueue",
+            "XXX.level.timers.package-info",
+            "XXX.world.phys.AABB",
+            "XXX.world.phys.EntityHitResult",
+            "XXX.world.phys.HitResult$Type",
+            "XXX.world.phys.Vec3",
+            "XXX.phys.shapes.ArrayVoxelShape",
+            "XXX.phys.shapes.BitSetDiscreteVoxelShape",
+            "XXX.phys.shapes.CollisionContext",
+            "XXX.phys.shapes.CubeVoxelShape",
+            "XXX.phys.shapes.DiscreteVoxelShape",
+            "XXX.phys.shapes.DiscreteVoxelShape$IntLineConsumer",
+            "XXX.phys.shapes.EntityCollisionContext$1",
+            "XXX.phys.shapes.IndexMerger",
+            "XXX.phys.shapes.IndirectMerger",
+            "XXX.phys.shapes.OffsetDoubleList",
+            "XXX.phys.shapes.Shapes$DoubleLineConsumer",
+            "XXX.phys.shapes.SubShape",
+            "XXX.phys.shapes.package-info",
+            "XXX.world.scores.PlayerTeam",
+            "XXX.world.scores.Scoreboard",
+            "XXX.world.scores.Team",
+            "XXX.world.scores.Team$Visibility",
+            "XXX.scores.criteria.ObjectiveCriteria$RenderType",
+            "XXX.world.scores.package-info",
+            "XXX.world.ticks.BlackholeTickAccess$1",
+            "XXX.world.ticks.ContainerSingleItem",
+            "XXX.world.ticks.LevelTickAccess",
+            "XXX.world.ticks.LevelTicks$PosAndContainerConsumer",
+            "XXX.world.ticks.SavedTick",
+            "XXX.world.ticks.ScheduledTick",
+            "XXX.world.ticks.SerializableTickContainer",
+            "XXX.world.ticks.TickContainerAccess",
+            "XXX.world.ticks.WorldGenTickAccess"
+          ]
+        }
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "Changes",
+        "lines": [
+          "XXX.minecraft.client.Options \u001b[2;32m+1P\u001b[0m",
+          "XXX.animation.definitions.SnifferAnimation \u001b[2;32m+1P\u001b[0m",
+          "XXX.gui.screens.VideoSettingsScreen \u001b[2;32m+1M\u001b[0m",
+          "XXX.minecraft.core.Direction \u001b[2;32m+2M\u001b[0m \u001b[2;31m-6M\u001b[0m | \u001b[2;31m-1P\u001b[0m",
+          "XXX.models.model.ModelTemplates \u001b[2;32m+1P\u001b[0m",
+          "XXX.gametest.framework.GameTestHelper \u001b[2;31m-1M\u001b[0m",
+          "XXX.animal.camel.Camel \u001b[2;32m+4M\u001b[0m \u001b[2;31m-4M\u001b[0m | \u001b[2;32m+1P\u001b[0m",
+          "XXX.entity.monster.Strider \u001b[2;32m+3M\u001b[0m \u001b[2;31m-3M\u001b[0m",
+          "XXX.entity.projectile.ProjectileUtil \u001b[2;32m+3M\u001b[0m \u001b[2;31m-1M\u001b[0m",
+          "XXX.world.level.LightLayer \u001b[2;32m+1M\u001b[0m \u001b[2;31m-1M\u001b[0m | \u001b[2;31m-1P\u001b[0m",
+          "XXX.level.block.BaseRailBlock \u001b[2;31m-1M\u001b[0m",
+          "XXX.level.block.BedBlock \u001b[2;31m-1M\u001b[0m",
+          "XXX.level.block.BellBlock \u001b[2;31m-1M\u001b[0m",
+          "XXX.level.block.Blocks \u001b[2;32m+4M\u001b[0m \u001b[2;31m-2M\u001b[0m",
+          "XXX.level.block.BuddingAmethystBlock \u001b[2;31m-1M\u001b[0m",
+          "XXX.level.block.CeilingHangingSignBlock \u001b[2;32m+1M\u001b[0m",
+          "XXX.level.block.GlazedTerracottaBlock \u001b[2;31m-1M\u001b[0m",
+          "XXX.level.block.PitcherCropBlock \u001b[2;32m+1P\u001b[0m \u001b[2;31m-2P\u001b[0m",
+          "XXX.level.block.WallHangingSignBlock \u001b[2;32m+2M\u001b[0m",
+          "XXX.level.block.WallSignBlock \u001b[2;32m+1M\u001b[0m",
+          "XXX.block.entity.SignText \u001b[2;31m-2M\u001b[0m",
+          "XXX.block.state.BlockBehaviour \u001b[2;31m-1M\u001b[0m",
+          "XXX.block.state.BlockBehaviour$BlockStateBase \u001b[2;32m+1M\u001b[0m | \u001b[2;32m+2P\u001b[0m",
+          "XXX.block.state.BlockBehaviour$Properties \u001b[2;32m+2M\u001b[0m | \u001b[2;32m+2P\u001b[0m",
+          "XXX.structure.templatesystem.CappedProcessor \u001b[2;32m+1M\u001b[0m \u001b[2;31m-1M\u001b[0m",
+          "XXX.structure.templatesystem.StructureTemplate \u001b[2;32m+1M\u001b[0m \u001b[2;31m-1M\u001b[0m",
+          "XXX.level.lighting.DynamicGraphMinFixedPoint$1 \u001b[2;32m+1P\u001b[0m \u001b[2;31m-1P\u001b[0m"
+        ]
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.client.gui.screens.VideoSettingsScreen",
+        "differences": {
+          "added": [],
+          "removed": [
+            "boolean mouseScrolled(double,double,double)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.core.Direction",
+        "differences": {
+          "added": [
+            "Direction fromNormal(BlockPos)",
+            "Direction fromNormal(int,int,int)",
+            "String lambda$verifyVertical$8()",
+            "Direction lambda$static$7(Direction,Direction)",
+            "Direction lambda$static$6(Direction)",
+            "Long lambda$static$5(Direction)"
+          ],
+          "removed": [
+            "Direction fromDelta(int,int,int)",
+            "String lambda$verifyVertical$5()"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.gametest.framework.GameTestHelper",
+        "differences": {
+          "added": [
+            "void continuouslyUse(BlockPos,Player,BlockHitResult)"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.entity.animal.camel.Camel",
+        "differences": {
+          "added": [
+            "void tickRidden(LivingEntity,Vec3)",
+            "float getRiddenSpeed(LivingEntity)",
+            "Vec3 getRiddenInput(LivingEntity,Vec3)",
+            "void standUpPanic()"
+          ],
+          "removed": [
+            "void tickRidden(Player,Vec3)",
+            "float getRiddenSpeed(Player)",
+            "Vec3 getRiddenInput(Player,Vec3)",
+            "void standUpInstantly()"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.entity.monster.Strider",
+        "differences": {
+          "added": [
+            "void tickRidden(LivingEntity,Vec3)",
+            "Vec3 getRiddenInput(LivingEntity,Vec3)",
+            "float getRiddenSpeed(LivingEntity)"
+          ],
+          "removed": [
+            "void tickRidden(Player,Vec3)",
+            "Vec3 getRiddenInput(Player,Vec3)",
+            "float getRiddenSpeed(Player)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.entity.projectile.ProjectileUtil",
+        "differences": {
+          "added": [
+            "HitResult getHitResult(Entity,Predicate)"
+          ],
+          "removed": [
+            "HitResult getHitResultOnMoveVector(Entity,Predicate)",
+            "HitResult getHitResultOnViewVector(Entity,Predicate,double)",
+            "HitResult getHitResult(Vec3,Entity,Predicate,Vec3,Level)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.level.LightLayer",
+        "differences": {
+          "added": [
+            "void <init>(String,int,int)"
+          ],
+          "removed": [
+            "void <init>(String,int)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.level.block.BaseRailBlock",
+        "differences": {
+          "added": [
+            "PushReaction getPistonPushReaction(BlockState)"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.level.block.BedBlock",
+        "differences": {
+          "added": [
+            "PushReaction getPistonPushReaction(BlockState)"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.level.block.BellBlock",
+        "differences": {
+          "added": [
+            "PushReaction getPistonPushReaction(BlockState)"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.level.block.Blocks",
+        "differences": {
+          "added": [
+            "RotatedPillarBlock log(MaterialColor,MaterialColor,SoundType,FeatureFlag[])",
+            "ButtonBlock woodenButton(BlockSetType)"
+          ],
+          "removed": [
+            "RotatedPillarBlock log(MaterialColor,MaterialColor,SoundType)",
+            "ButtonBlock woodenButton(BlockSetType,FeatureFlag[])",
+            "FlowerPotBlock flowerPot(Block,FeatureFlag[])",
+            "CandleBlock candle(MaterialColor)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.level.block.BuddingAmethystBlock",
+        "differences": {
+          "added": [
+            "PushReaction getPistonPushReaction(BlockState)"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.level.block.CeilingHangingSignBlock",
+        "differences": {
+          "added": [],
+          "removed": [
+            "boolean shouldTryToChainAnotherHangingSign(Player,BlockHitResult,SignBlockEntity,ItemStack)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.level.block.GlazedTerracottaBlock",
+        "differences": {
+          "added": [
+            "PushReaction getPistonPushReaction(BlockState)"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.level.block.WallHangingSignBlock",
+        "differences": {
+          "added": [],
+          "removed": [
+            "boolean shouldTryToChainAnotherHangingSign(BlockState,Player,BlockHitResult,SignBlockEntity,ItemStack)",
+            "boolean isHittingEditableSide(BlockHitResult,BlockState)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.level.block.WallSignBlock",
+        "differences": {
+          "added": [],
+          "removed": [
+            "Vec3 getSignHitboxCenterPosition(BlockState)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.level.block.entity.SignText",
+        "differences": {
+          "added": [
+            "boolean executeClickCommandsIfPresent(ServerPlayer,ServerLevel,BlockPos)",
+            "CommandSourceStack createCommandSourceStack(ServerPlayer,ServerLevel,BlockPos)"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.level.block.state.BlockBehaviour",
+        "differences": {
+          "added": [
+            "PushReaction getPistonPushReaction(BlockState)"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.level.block.state.BlockBehaviour$BlockStateBase",
+        "differences": {
+          "added": [],
+          "removed": [
+            "boolean ignitedByLava()"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.level.block.state.BlockBehaviour$Properties",
+        "differences": {
+          "added": [],
+          "removed": [
+            "BlockBehaviour$Properties ignitedByLava()",
+            "BlockBehaviour$Properties pushReaction(PushReaction)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.level.levelgen.structure.templatesystem.CappedProcessor",
+        "differences": {
+          "added": [
+            "List finalizeProcessing(LevelAccessor,BlockPos,BlockPos,List,List,StructurePlaceSettings)"
+          ],
+          "removed": [
+            "List finalizeProcessing(ServerLevelAccessor,BlockPos,BlockPos,List,List,StructurePlaceSettings)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.level.levelgen.structure.templatesystem.StructureTemplate",
+        "differences": {
+          "added": [
+            "List processBlockInfos(LevelAccessor,BlockPos,BlockPos,StructurePlaceSettings,List)"
+          ],
+          "removed": [
+            "List processBlockInfos(ServerLevelAccessor,BlockPos,BlockPos,StructurePlaceSettings,List)"
+          ]
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,2932 @@
+{
+  "version_data": [
+    {
+      "type": "table",
+      "value": {
+        "previousLabel": "23w17a",
+        "currentLabel": "23w18a",
+        "values": [
+          {
+            "key": "DataPack version",
+            "previous": "14",
+            "current": "15"
+          },
+          {
+            "key": "World version",
+            "previous": "3452",
+            "current": "3453"
+          },
+          {
+            "key": "Protocol version",
+            "previous": "1073741956",
+            "current": "1073741957"
+          }
+        ]
+      }
+    }
+  ],
+  "registries": [
+    {
+      "type": "entries",
+      "value": {
+        "name": "loot_condition_type",
+        "differences": {
+          "added": [
+            "minecraft:all_of",
+            "minecraft:any_of"
+          ],
+          "removed": [
+            "minecraft:alternative"
+          ]
+        }
+      }
+    }
+  ],
+  "tags": [
+    {
+      "type": "entries",
+      "value": {
+        "name": "universal_tags/loot_condition_type.json",
+        "differences": {
+          "added": [
+            "minecraft:all_of",
+            "minecraft:any_of"
+          ],
+          "removed": [
+            "minecraft:alternative"
+          ]
+        }
+      }
+    }
+  ],
+  "translations": [
+    {
+      "type": "entries",
+      "value": {
+        "name": "Keys",
+        "differences": {
+          "added": [
+            "advancements.adventure.read_power_from_chiseled_bookshelf.description: Read the power signal of a Chiseled Bookshelf using a Comparator",
+            "advancements.adventure.read_power_from_chiseled_bookshelf.title: The Power of Books",
+            "telemetry.event.advancement_made.title: Advancement Made",
+            "telemetry.event.advancement_made.description: Understanding the context behind receiving an advancement can help us better understand and improve the progression of the game",
+            "telemetry.event.game_load_times.title: Game Load Times",
+            "telemetry.event.game_load_times.description: This event can help us figure out where improvements to startup performance are needed by measuring execution times of the startup phases",
+            "telemetry.property.advancement_id.title: Advancement ID",
+            "telemetry.property.advancement_game_time.title: Game Time (Ticks)",
+            "telemetry.property.launcher_name.title: Launcher Name",
+            "telemetry.property.load_time_bootstrap_ms.title: Bootstrap Time (Milliseconds)",
+            "telemetry.property.load_time_loading_overlay_ms.title: Time in Loading Screen (Milliseconds)",
+            "telemetry.property.load_time_pre_window_ms.title: Time Before Window Opens (Milliseconds)",
+            "telemetry.property.load_time_total_time_ms.title: Total Load Time (Milliseconds)",
+            "telemetry.property.realms_map_content.title: Realms Map Content (Minigame Name)"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "text",
+      "value": {
+        "title": "Changes",
+        "values": [
+          {
+            "key": "advancements.adventure.craft_decorated_pot_using_only_sherds.title",
+            "previous": "Careful restoration",
+            "current": "Careful Restoration"
+          },
+          {
+            "key": "advancements.adventure.trim_with_any_armor_pattern.title",
+            "previous": "Crafting a new look",
+            "current": "Crafting a New Look"
+          },
+          {
+            "key": "advancements.adventure.salvage_sherd.title",
+            "previous": "Respecting the remnants",
+            "current": "Respecting the Remnants"
+          },
+          {
+            "key": "advancements.adventure.trim_with_all_exclusive_armor_patterns.title",
+            "previous": "Smithing with style",
+            "current": "Smithing with Style"
+          },
+          {
+            "key": "advancements.husbandry.feed_snifflet.title",
+            "previous": "Little sniffs",
+            "current": "Little Sniffs"
+          },
+          {
+            "key": "advancements.husbandry.obtain_sniffer_egg.title",
+            "previous": "Smells interesting",
+            "current": "Smells Interesting"
+          },
+          {
+            "key": "advancements.husbandry.plant_any_sniffer_seed.title",
+            "previous": "Planting the past",
+            "current": "Planting the Past"
+          }
+        ]
+      }
+    }
+  ],
+  "file_structure": [
+    {
+      "type": "entries",
+      "value": {
+        "name": "data",
+        "differences": {
+          "added": [
+            "minecraft/advancements/adventure/read_power_of_chiseled_bookshelf.json"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "assets",
+        "differences": {
+          "added": [
+            "minecraft/shaders/core/rendertype_gui.fsh",
+            "minecraft/shaders/core/rendertype_gui.json",
+            "minecraft/shaders/core/rendertype_gui.vsh",
+            "minecraft/shaders/core/rendertype_gui_ghost_recipe_overlay.fsh",
+            "minecraft/shaders/core/rendertype_gui_ghost_recipe_overlay.json",
+            "minecraft/shaders/core/rendertype_gui_ghost_recipe_overlay.vsh",
+            "minecraft/shaders/core/rendertype_gui_overlay.fsh",
+            "minecraft/shaders/core/rendertype_gui_overlay.json",
+            "minecraft/shaders/core/rendertype_gui_overlay.vsh",
+            "minecraft/shaders/core/rendertype_gui_text_highlight.fsh",
+            "minecraft/shaders/core/rendertype_gui_text_highlight.json",
+            "minecraft/shaders/core/rendertype_gui_text_highlight.vsh"
+          ],
+          "removed": [
+            "minecraft/shaders/core/block.fsh",
+            "minecraft/shaders/core/block.json",
+            "minecraft/shaders/core/block.vsh",
+            "minecraft/shaders/core/new_entity.fsh",
+            "minecraft/shaders/core/new_entity.json",
+            "minecraft/shaders/core/new_entity.vsh"
+          ]
+        }
+      }
+    }
+  ],
+  "mappings": [
+    {
+      "type": "title",
+      "value": {
+        "title": "Server",
+        "id": "server-mappings",
+        "size": 2
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "Classes",
+        "differences": {
+          "added": [
+            "XXX.advancements.critereon.CuredZombieVillagerTrigger",
+            "XXX.advancements.critereon.DamagePredicate",
+            "XXX.advancements.critereon.DamageSourcePredicate",
+            "XXX.advancements.critereon.DeserializationContext",
+            "XXX.advancements.critereon.DistanceTrigger",
+            "XXX.advancements.critereon.EffectsChangedTrigger",
+            "XXX.advancements.critereon.EnchantedItemTrigger",
+            "XXX.advancements.critereon.EnchantmentPredicate",
+            "XXX.advancements.critereon.EnterBlockTrigger$TriggerInstance",
+            "XXX.advancements.critereon.EntityEquipmentPredicate$Builder",
+            "XXX.advancements.critereon.EntityFlagsPredicate$Builder",
+            "XXX.advancements.critereon.EntityHurtPlayerTrigger$TriggerInstance",
+            "XXX.advancements.critereon.EntityPredicate$Builder",
+            "XXX.advancements.critereon.ItemInteractWithBlockTrigger$TriggerInstance",
+            "XXX.advancements.critereon.PlacedBlockTrigger",
+            "XXX.level.lighting.LightEngine$1",
+            "XXX.level.lighting.LightEventListener",
+            "XXX.level.lighting.SkyLightEngine$1",
+            "XXX.level.lighting.SkyLightSectionStorage$SkyDataLayerStorageMap",
+            "XXX.level.lighting.SpatialLongSet$InternalMap",
+            "XXX.level.material.EmptyFluid",
+            "XXX.level.material.FlowingFluid$1",
+            "XXX.level.material.FluidState",
+            "XXX.level.material.FogType",
+            "XXX.level.material.LavaFluid$Flowing",
+            "XXX.level.material.MapColor",
+            "XXX.level.material.PushReaction",
+            "XXX.level.material.WaterFluid$Flowing",
+            "XXX.level.material.package-info",
+            "XXX.level.pathfinder.AmphibiousNodeEvaluator",
+            "XXX.level.pathfinder.BlockPathTypes",
+            "XXX.level.pathfinder.Node",
+            "XXX.level.pathfinder.Path",
+            "XXX.level.pathfinder.PathFinder",
+            "XXX.level.pathfinder.Target",
+            "XXX.level.pathfinder.package-info",
+            "XXX.level.portal.PortalInfo",
+            "XXX.level.portal.package-info",
+            "XXX.level.redstone.CollectingNeighborUpdater$FullNeighborUpdate",
+            "XXX.level.redstone.CollectingNeighborUpdater$NeighborUpdates",
+            "XXX.level.redstone.CollectingNeighborUpdater$SimpleNeighborUpdate",
+            "XXX.level.redstone.NeighborUpdater",
+            "XXX.level.redstone.package-info",
+            "XXX.saveddata.maps.MapBanner",
+            "XXX.saveddata.maps.MapDecoration",
+            "XXX.saveddata.maps.MapFrame",
+            "XXX.saveddata.maps.MapItemSavedData",
+            "XXX.saveddata.maps.MapItemSavedData$MapPatch",
+            "XXX.level.saveddata.package-info",
+            "XXX.level.storage.CommandStorage$Container",
+            "XXX.level.storage.DerivedLevelData",
+            "XXX.level.storage.LevelData",
+            "XXX.level.storage.LevelStorageException",
+            "XXX.level.storage.LevelStorageSource$LevelCandidates",
+            "XXX.level.storage.LevelStorageSource$LevelStorageAccess",
+            "XXX.level.storage.LevelStorageSource$LevelStorageAccess$2",
+            "XXX.level.storage.LevelSummary$BackupStatus",
+            "XXX.level.storage.PlayerDataStorage",
+            "XXX.level.storage.PrimaryLevelData$SpecialWorldProperty",
+            "XXX.level.storage.WorldData",
+            "XXX.storage.loot.BuiltInLootTables",
+            "XXX.storage.loot.GsonAdapterFactory",
+            "XXX.storage.loot.GsonAdapterFactory$InlineSerializer",
+            "XXX.storage.loot.IntRange",
+            "XXX.storage.loot.IntRange$IntLimiter",
+            "XXX.storage.loot.LootContext",
+            "XXX.storage.loot.LootContext$DynamicDrop",
+            "XXX.storage.loot.LootContext$EntityTarget$Serializer",
+            "XXX.storage.loot.LootContextUser",
+            "XXX.storage.loot.LootDataManager",
+            "XXX.storage.loot.LootDataManager$CompositePredicate",
+            "XXX.storage.loot.LootDataResolver",
+            "XXX.storage.loot.LootDataType$Validator",
+            "XXX.storage.loot.LootPool$Builder",
+            "XXX.storage.loot.LootTable",
+            "XXX.storage.loot.LootTable$Serializer",
+            "XXX.storage.loot.SerializerType",
+            "XXX.loot.entries.AlternativesEntry",
+            "XXX.loot.entries.ComposableEntryContainer",
+            "XXX.loot.entries.CompositeEntryBase$1",
+            "XXX.loot.entries.DynamicLoot",
+            "XXX.loot.entries.EmptyLootItem",
+            "XXX.loot.entries.EntryGroup",
+            "XXX.loot.entries.LootItem",
+            "XXX.loot.entries.LootPoolEntries",
+            "XXX.loot.entries.LootPoolEntryContainer",
+            "XXX.loot.entries.LootPoolEntryContainer$Serializer",
+            "XXX.loot.entries.LootPoolSingletonContainer",
+            "XXX.loot.entries.LootPoolSingletonContainer$Builder",
+            "XXX.loot.entries.LootPoolSingletonContainer$EntryBase",
+            "XXX.loot.entries.LootPoolSingletonContainer$Serializer",
+            "XXX.loot.entries.LootTableReference$Serializer",
+            "XXX.loot.entries.SequentialEntry$Builder",
+            "XXX.loot.entries.TagEntry$1",
+            "XXX.loot.entries.package-info",
+            "XXX.loot.functions.ApplyBonusCount$BinomialWithBonusCount",
+            "XXX.loot.functions.ApplyBonusCount$FormulaDeserializer",
+            "XXX.loot.functions.ApplyBonusCount$Serializer",
+            "XXX.loot.functions.ApplyExplosionDecay",
+            "XXX.loot.functions.CopyBlockState",
+            "XXX.loot.functions.CopyBlockState$Serializer",
+            "XXX.loot.functions.CopyNameFunction$NameSource",
+            "XXX.loot.functions.CopyNbtFunction",
+            "XXX.loot.functions.CopyNbtFunction$CopyOperation",
+            "XXX.loot.functions.CopyNbtFunction$MergeStrategy$1",
+            "XXX.loot.functions.CopyNbtFunction$MergeStrategy$3",
+            "XXX.loot.functions.EnchantRandomlyFunction",
+            "XXX.loot.functions.EnchantRandomlyFunction$Serializer",
+            "XXX.loot.functions.EnchantWithLevelsFunction$Builder",
+            "XXX.loot.functions.ExplorationMapFunction",
+            "XXX.loot.functions.ExplorationMapFunction$Serializer",
+            "XXX.loot.functions.FillPlayerHead$Serializer",
+            "XXX.loot.functions.FunctionReference$Serializer",
+            "XXX.loot.functions.LimitCount",
+            "XXX.loot.functions.LootItemConditionalFunction",
+            "XXX.loot.functions.LootItemConditionalFunction$DummyBuilder",
+            "XXX.loot.functions.LootItemFunction",
+            "XXX.loot.functions.LootItemFunctionType",
+            "XXX.loot.functions.LootingEnchantFunction",
+            "XXX.loot.functions.LootingEnchantFunction$Serializer",
+            "XXX.loot.functions.SetAttributesFunction$1",
+            "XXX.loot.functions.SetAttributesFunction$Modifier",
+            "XXX.loot.functions.SetAttributesFunction$Serializer",
+            "XXX.loot.functions.SetBannerPatternFunction$Builder",
+            "XXX.loot.functions.SetContainerContents",
+            "XXX.loot.functions.SetContainerContents$Serializer",
+            "XXX.loot.functions.SetContainerLootTable$Serializer",
+            "XXX.loot.functions.SetEnchantmentsFunction$Builder",
+            "XXX.loot.functions.SetInstrumentFunction",
+            "XXX.loot.functions.SetItemCountFunction",
+            "XXX.loot.functions.SetItemDamageFunction",
+            "XXX.loot.functions.SetLoreFunction",
+            "XXX.loot.functions.SetLoreFunction$Serializer",
+            "XXX.loot.functions.SetNameFunction$Serializer",
+            "XXX.loot.functions.SetNbtFunction$Serializer",
+            "XXX.loot.functions.SetPotionFunction$Serializer",
+            "XXX.loot.functions.SetStewEffectFunction$Builder",
+            "XXX.loot.functions.SmeltItemFunction",
+            "XXX.loot.functions.package-info",
+            "XXX.loot.parameters.LootContextParam",
+            "XXX.loot.parameters.LootContextParamSet$Builder",
+            "XXX.loot.parameters.LootContextParams",
+            "XXX.loot.predicates.AlternativeLootItemCondition",
+            "XXX.loot.predicates.AlternativeLootItemCondition$Serializer",
+            "XXX.loot.predicates.ConditionReference$Serializer",
+            "XXX.loot.predicates.DamageSourceCondition",
+            "XXX.loot.predicates.EntityHasScoreCondition",
+            "XXX.loot.predicates.EntityHasScoreCondition$Serializer",
+            "XXX.loot.predicates.ExplosionCondition$Serializer",
+            "XXX.loot.predicates.InvertedLootItemCondition$Serializer",
+            "XXX.loot.predicates.LocationCheck$Serializer",
+            "XXX.loot.predicates.LootItemBlockStatePropertyCondition$Builder",
+            "XXX.loot.predicates.LootItemCondition",
+            "XXX.loot.predicates.LootItemConditionType",
+            "XXX.loot.predicates.LootItemEntityPropertyCondition",
+            "XXX.loot.predicates.LootItemKilledByPlayerCondition",
+            "XXX.loot.predicates.LootItemRandomChanceCondition",
+            "XXX.loot.predicates.LootItemRandomChanceWithLootingCondition",
+            "XXX.loot.predicates.MatchTool",
+            "XXX.loot.predicates.TimeCheck",
+            "XXX.loot.predicates.TimeCheck$Serializer",
+            "XXX.loot.predicates.ValueCheckCondition$Serializer",
+            "XXX.loot.predicates.WeatherCheck$Builder",
+            "XXX.loot.predicates.package-info",
+            "XXX.providers.nbt.ContextNbtProvider$1",
+            "XXX.providers.nbt.ContextNbtProvider$Getter",
+            "XXX.providers.nbt.ContextNbtProvider$Serializer",
+            "XXX.providers.nbt.NbtProvider",
+            "XXX.providers.nbt.StorageNbtProvider",
+            "XXX.providers.nbt.package-info",
+            "XXX.providers.number.BinomialDistributionGenerator$Serializer",
+            "XXX.providers.number.ConstantValue$InlineSerializer",
+            "XXX.providers.number.LootNumberProviderType",
+            "XXX.providers.number.NumberProviders",
+            "XXX.providers.number.ScoreboardValue$Serializer",
+            "XXX.providers.number.UniformGenerator$Serializer",
+            "XXX.providers.score.ContextScoreboardNameProvider",
+            "XXX.providers.score.ContextScoreboardNameProvider$Serializer",
+            "XXX.providers.score.FixedScoreboardNameProvider$Serializer",
+            "XXX.providers.score.ScoreboardNameProvider",
+            "XXX.providers.score.package-info",
+            "XXX.level.timers.FunctionCallback",
+            "XXX.level.timers.FunctionTagCallback",
+            "XXX.level.timers.TimerCallback",
+            "XXX.level.timers.TimerCallbacks",
+            "XXX.level.timers.TimerQueue$Event",
+            "XXX.minecraft.world.package-info",
+            "XXX.world.phys.BlockHitResult",
+            "XXX.world.phys.HitResult",
+            "XXX.world.phys.Vec2",
+            "XXX.world.phys.package-info",
+            "XXX.phys.shapes.ArrayVoxelShape$1",
+            "XXX.phys.shapes.BooleanOp",
+            "XXX.phys.shapes.CubePointRange",
+            "XXX.phys.shapes.DiscreteCubeMerger",
+            "XXX.phys.shapes.DiscreteVoxelShape$IntFaceConsumer",
+            "XXX.phys.shapes.EntityCollisionContext",
+            "XXX.phys.shapes.IdenticalMerger",
+            "XXX.phys.shapes.IndexMerger$IndexConsumer",
+            "XXX.phys.shapes.NonOverlappingMerger",
+            "XXX.phys.shapes.Shapes",
+            "XXX.phys.shapes.SliceShape",
+            "XXX.phys.shapes.VoxelShape",
+            "XXX.world.scores.Objective",
+            "XXX.world.scores.Score",
+            "XXX.world.scores.ScoreboardSaveData",
+            "XXX.world.scores.Team$CollisionRule",
+            "XXX.scores.criteria.ObjectiveCriteria",
+            "XXX.scores.criteria.package-info",
+            "XXX.world.ticks.BlackholeTickAccess",
+            "XXX.world.ticks.BlackholeTickAccess$2",
+            "XXX.world.ticks.LevelChunkTicks",
+            "XXX.world.ticks.LevelTicks",
+            "XXX.world.ticks.ProtoChunkTicks",
+            "XXX.world.ticks.SavedTick$1",
+            "XXX.world.ticks.ScheduledTick$1",
+            "XXX.world.ticks.TickAccess",
+            "XXX.world.ticks.TickPriority",
+            "XXX.world.ticks.package-info"
+          ],
+          "removed": [
+            "XXX.advancements.critereon.ContextAwarePredicate",
+            "XXX.advancements.critereon.CuredZombieVillagerTrigger$TriggerInstance",
+            "XXX.advancements.critereon.DamagePredicate$Builder",
+            "XXX.advancements.critereon.DamageSourcePredicate$Builder",
+            "XXX.advancements.critereon.DistancePredicate",
+            "XXX.advancements.critereon.DistanceTrigger$TriggerInstance",
+            "XXX.advancements.critereon.EffectsChangedTrigger$TriggerInstance",
+            "XXX.advancements.critereon.EnchantedItemTrigger$TriggerInstance",
+            "XXX.advancements.critereon.EnterBlockTrigger",
+            "XXX.advancements.critereon.EntityEquipmentPredicate",
+            "XXX.advancements.critereon.EntityFlagsPredicate",
+            "XXX.advancements.critereon.EntityHurtPlayerTrigger",
+            "XXX.advancements.critereon.EntityPredicate",
+            "XXX.advancements.critereon.ItemUsedOnLocationTrigger$TriggerInstance",
+            "XXX.level.lighting.LightEngine$QueueEntry",
+            "XXX.level.lighting.SkyLightEngine",
+            "XXX.level.lighting.SkyLightSectionStorage",
+            "XXX.level.lighting.SpatialLongSet",
+            "XXX.level.lighting.package-info",
+            "XXX.level.material.FlowingFluid",
+            "XXX.level.material.Fluid",
+            "XXX.level.material.Fluids",
+            "XXX.level.material.LavaFluid",
+            "XXX.level.material.LavaFluid$Source",
+            "XXX.level.material.MapColor$Brightness",
+            "XXX.level.material.WaterFluid",
+            "XXX.level.material.WaterFluid$Source",
+            "XXX.world.level.package-info",
+            "XXX.level.pathfinder.BinaryHeap",
+            "XXX.level.pathfinder.FlyNodeEvaluator",
+            "XXX.level.pathfinder.NodeEvaluator",
+            "XXX.level.pathfinder.PathComputationType",
+            "XXX.level.pathfinder.SwimNodeEvaluator",
+            "XXX.level.pathfinder.WalkNodeEvaluator",
+            "XXX.level.portal.PortalForcer",
+            "XXX.level.portal.PortalShape",
+            "XXX.level.redstone.CollectingNeighborUpdater",
+            "XXX.level.redstone.CollectingNeighborUpdater$MultiNeighborUpdate",
+            "XXX.level.redstone.CollectingNeighborUpdater$ShapeUpdate",
+            "XXX.level.redstone.InstantNeighborUpdater",
+            "XXX.level.redstone.Redstone",
+            "XXX.level.saveddata.SavedData",
+            "XXX.saveddata.maps.MapBanner$1",
+            "XXX.saveddata.maps.MapDecoration$Type",
+            "XXX.saveddata.maps.MapIndex",
+            "XXX.saveddata.maps.MapItemSavedData$HoldingPlayer",
+            "XXX.saveddata.maps.package-info",
+            "XXX.level.storage.CommandStorage",
+            "XXX.level.storage.DataVersion",
+            "XXX.level.storage.DimensionDataStorage",
+            "XXX.level.storage.LevelResource",
+            "XXX.level.storage.LevelStorageSource",
+            "XXX.level.storage.LevelStorageSource$LevelDirectory",
+            "XXX.level.storage.LevelStorageSource$LevelStorageAccess$1",
+            "XXX.level.storage.LevelSummary",
+            "XXX.level.storage.LevelVersion",
+            "XXX.level.storage.PrimaryLevelData",
+            "XXX.level.storage.ServerLevelData",
+            "XXX.level.storage.WritableLevelData",
+            "XXX.storage.loot.Deserializers",
+            "XXX.storage.loot.GsonAdapterFactory$Builder",
+            "XXX.storage.loot.GsonAdapterFactory$JsonAdapter",
+            "XXX.storage.loot.IntRange$IntChecker",
+            "XXX.storage.loot.IntRange$Serializer",
+            "XXX.storage.loot.LootContext$Builder",
+            "XXX.storage.loot.LootContext$EntityTarget",
+            "XXX.storage.loot.LootContext$VisitedEntry",
+            "XXX.storage.loot.LootDataId",
+            "XXX.storage.loot.LootDataManager$1",
+            "XXX.storage.loot.LootDataManager$FunctionSequence",
+            "XXX.storage.loot.LootDataType",
+            "XXX.storage.loot.LootPool",
+            "XXX.storage.loot.LootPool$Serializer",
+            "XXX.storage.loot.LootTable$Builder",
+            "XXX.storage.loot.Serializer",
+            "XXX.storage.loot.ValidationContext",
+            "XXX.loot.entries.AlternativesEntry$Builder",
+            "XXX.loot.entries.CompositeEntryBase",
+            "XXX.loot.entries.CompositeEntryBase$CompositeEntryConstructor",
+            "XXX.loot.entries.DynamicLoot$Serializer",
+            "XXX.loot.entries.EmptyLootItem$Serializer",
+            "XXX.loot.entries.EntryGroup$Builder",
+            "XXX.loot.entries.LootItem$Serializer",
+            "XXX.loot.entries.LootPoolEntry",
+            "XXX.loot.entries.LootPoolEntryContainer$Builder",
+            "XXX.loot.entries.LootPoolEntryType",
+            "XXX.loot.entries.LootPoolSingletonContainer$1",
+            "XXX.loot.entries.LootPoolSingletonContainer$DummyBuilder",
+            "XXX.loot.entries.LootPoolSingletonContainer$EntryConstructor",
+            "XXX.loot.entries.LootTableReference",
+            "XXX.loot.entries.SequentialEntry",
+            "XXX.loot.entries.TagEntry",
+            "XXX.loot.entries.TagEntry$Serializer",
+            "XXX.loot.functions.ApplyBonusCount",
+            "XXX.loot.functions.ApplyBonusCount$Formula",
+            "XXX.loot.functions.ApplyBonusCount$OreDrops",
+            "XXX.loot.functions.ApplyBonusCount$UniformBonusCount",
+            "XXX.loot.functions.ApplyExplosionDecay$Serializer",
+            "XXX.loot.functions.CopyBlockState$Builder",
+            "XXX.loot.functions.CopyNameFunction",
+            "XXX.loot.functions.CopyNameFunction$Serializer",
+            "XXX.loot.functions.CopyNbtFunction$Builder",
+            "XXX.loot.functions.CopyNbtFunction$MergeStrategy",
+            "XXX.loot.functions.CopyNbtFunction$MergeStrategy$2",
+            "XXX.loot.functions.CopyNbtFunction$Serializer",
+            "XXX.loot.functions.EnchantRandomlyFunction$Builder",
+            "XXX.loot.functions.EnchantWithLevelsFunction",
+            "XXX.loot.functions.EnchantWithLevelsFunction$Serializer",
+            "XXX.loot.functions.ExplorationMapFunction$Builder",
+            "XXX.loot.functions.FillPlayerHead",
+            "XXX.loot.functions.FunctionReference",
+            "XXX.loot.functions.FunctionUserBuilder",
+            "XXX.loot.functions.LimitCount$Serializer",
+            "XXX.loot.functions.LootItemConditionalFunction$Builder",
+            "XXX.loot.functions.LootItemConditionalFunction$Serializer",
+            "XXX.loot.functions.LootItemFunction$Builder",
+            "XXX.loot.functions.LootItemFunctions",
+            "XXX.loot.functions.LootingEnchantFunction$Builder",
+            "XXX.loot.functions.SetAttributesFunction",
+            "XXX.loot.functions.SetAttributesFunction$Builder",
+            "XXX.loot.functions.SetAttributesFunction$ModifierBuilder",
+            "XXX.loot.functions.SetBannerPatternFunction",
+            "XXX.loot.functions.SetBannerPatternFunction$Serializer",
+            "XXX.loot.functions.SetContainerContents$Builder",
+            "XXX.loot.functions.SetContainerLootTable",
+            "XXX.loot.functions.SetEnchantmentsFunction",
+            "XXX.loot.functions.SetEnchantmentsFunction$Serializer",
+            "XXX.loot.functions.SetInstrumentFunction$Serializer",
+            "XXX.loot.functions.SetItemCountFunction$Serializer",
+            "XXX.loot.functions.SetItemDamageFunction$Serializer",
+            "XXX.loot.functions.SetLoreFunction$Builder",
+            "XXX.loot.functions.SetNameFunction",
+            "XXX.loot.functions.SetNbtFunction",
+            "XXX.loot.functions.SetPotionFunction",
+            "XXX.loot.functions.SetStewEffectFunction",
+            "XXX.loot.functions.SetStewEffectFunction$Serializer",
+            "XXX.loot.functions.SmeltItemFunction$Serializer",
+            "XXX.storage.loot.package-info",
+            "XXX.loot.parameters.LootContextParamSet",
+            "XXX.loot.parameters.LootContextParamSets",
+            "XXX.loot.parameters.package-info",
+            "XXX.loot.predicates.AllOfCondition$Builder",
+            "XXX.loot.predicates.AnyOfCondition",
+            "XXX.loot.predicates.AnyOfCondition$Serializer",
+            "XXX.loot.predicates.CompositeLootItemCondition$Builder",
+            "XXX.loot.predicates.ConditionReference",
+            "XXX.loot.predicates.ConditionUserBuilder",
+            "XXX.loot.predicates.DamageSourceCondition$Serializer",
+            "XXX.loot.predicates.EntityHasScoreCondition$Builder",
+            "XXX.loot.predicates.ExplosionCondition",
+            "XXX.loot.predicates.InvertedLootItemCondition",
+            "XXX.loot.predicates.LocationCheck",
+            "XXX.loot.predicates.LootItemBlockStatePropertyCondition",
+            "XXX.loot.predicates.LootItemBlockStatePropertyCondition$Serializer",
+            "XXX.loot.predicates.LootItemCondition$Builder",
+            "XXX.loot.predicates.LootItemConditions",
+            "XXX.loot.predicates.LootItemEntityPropertyCondition$Serializer",
+            "XXX.loot.predicates.LootItemKilledByPlayerCondition$Serializer",
+            "XXX.loot.predicates.LootItemRandomChanceCondition$Serializer",
+            "XXX.loot.predicates.LootItemRandomChanceWithLootingCondition$Serializer",
+            "XXX.loot.predicates.MatchTool$Serializer",
+            "XXX.loot.predicates.TimeCheck$Builder",
+            "XXX.loot.predicates.ValueCheckCondition",
+            "XXX.loot.predicates.WeatherCheck",
+            "XXX.loot.predicates.WeatherCheck$Serializer",
+            "XXX.providers.nbt.ContextNbtProvider",
+            "XXX.providers.nbt.ContextNbtProvider$2",
+            "XXX.providers.nbt.ContextNbtProvider$InlineSerializer",
+            "XXX.providers.nbt.LootNbtProviderType",
+            "XXX.providers.nbt.NbtProviders",
+            "XXX.providers.nbt.StorageNbtProvider$Serializer",
+            "XXX.providers.number.BinomialDistributionGenerator",
+            "XXX.providers.number.ConstantValue",
+            "XXX.providers.number.ConstantValue$Serializer",
+            "XXX.providers.number.NumberProvider",
+            "XXX.providers.number.ScoreboardValue",
+            "XXX.providers.number.UniformGenerator",
+            "XXX.providers.number.package-info",
+            "XXX.providers.score.ContextScoreboardNameProvider$InlineSerializer",
+            "XXX.providers.score.FixedScoreboardNameProvider",
+            "XXX.providers.score.LootScoreProviderType",
+            "XXX.providers.score.ScoreboardNameProviders",
+            "XXX.level.storage.package-info",
+            "XXX.level.timers.FunctionCallback$Serializer",
+            "XXX.level.timers.FunctionTagCallback$Serializer",
+            "XXX.level.timers.TimerCallback$Serializer",
+            "XXX.level.timers.TimerQueue",
+            "XXX.level.timers.package-info",
+            "XXX.world.phys.AABB",
+            "XXX.world.phys.EntityHitResult",
+            "XXX.world.phys.HitResult$Type",
+            "XXX.world.phys.Vec3",
+            "XXX.phys.shapes.ArrayVoxelShape",
+            "XXX.phys.shapes.BitSetDiscreteVoxelShape",
+            "XXX.phys.shapes.CollisionContext",
+            "XXX.phys.shapes.CubeVoxelShape",
+            "XXX.phys.shapes.DiscreteVoxelShape",
+            "XXX.phys.shapes.DiscreteVoxelShape$IntLineConsumer",
+            "XXX.phys.shapes.EntityCollisionContext$1",
+            "XXX.phys.shapes.IndexMerger",
+            "XXX.phys.shapes.IndirectMerger",
+            "XXX.phys.shapes.OffsetDoubleList",
+            "XXX.phys.shapes.Shapes$DoubleLineConsumer",
+            "XXX.phys.shapes.SubShape",
+            "XXX.phys.shapes.package-info",
+            "XXX.world.scores.PlayerTeam",
+            "XXX.world.scores.Scoreboard",
+            "XXX.world.scores.Team",
+            "XXX.world.scores.Team$Visibility",
+            "XXX.scores.criteria.ObjectiveCriteria$RenderType",
+            "XXX.world.scores.package-info",
+            "XXX.world.ticks.BlackholeTickAccess$1",
+            "XXX.world.ticks.ContainerSingleItem",
+            "XXX.world.ticks.LevelTickAccess",
+            "XXX.world.ticks.LevelTicks$PosAndContainerConsumer",
+            "XXX.world.ticks.SavedTick",
+            "XXX.world.ticks.ScheduledTick",
+            "XXX.world.ticks.SerializableTickContainer",
+            "XXX.world.ticks.TickContainerAccess",
+            "XXX.world.ticks.WorldGenTickAccess"
+          ]
+        }
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "Changes",
+        "lines": [
+          "net.minecraft.SharedConstants \u001b[2;32m+2P\u001b[0m",
+          "XXX.minecraft.advancements.Advancement$Builder \u001b[2;32m+3M\u001b[0m \u001b[2;31m-2M\u001b[0m | \u001b[2;32m+1P\u001b[0m",
+          "XXX.advancements.critereon.BeeNestDestroyedTrigger \u001b[2;32m+2M\u001b[0m \u001b[2;31m-2M\u001b[0m",
+          "XXX.advancements.critereon.BredAnimalsTrigger \u001b[2;32m+2M\u001b[0m \u001b[2;31m-2M\u001b[0m",
+          "XXX.advancements.critereon.BrewedPotionTrigger \u001b[2;32m+2M\u001b[0m \u001b[2;31m-2M\u001b[0m",
+          "XXX.advancements.critereon.ChangeDimensionTrigger \u001b[2;32m+2M\u001b[0m \u001b[2;31m-2M\u001b[0m",
+          "XXX.advancements.critereon.ChanneledLightningTrigger \u001b[2;32m+2M\u001b[0m \u001b[2;31m-2M\u001b[0m",
+          "XXX.advancements.critereon.ConstructBeaconTrigger \u001b[2;32m+2M\u001b[0m \u001b[2;31m-2M\u001b[0m",
+          "XXX.advancements.critereon.ConsumeItemTrigger \u001b[2;32m+2M\u001b[0m \u001b[2;31m-2M\u001b[0m",
+          "XXX.advancements.critereon.FilledBucketTrigger \u001b[2;32m+2M\u001b[0m \u001b[2;31m-2M\u001b[0m",
+          "XXX.advancements.critereon.FishingRodHookedTrigger$TriggerInstance \u001b[2;32m+1M\u001b[0m \u001b[2;31m-1M\u001b[0m | \u001b[2;32m+1P\u001b[0m \u001b[2;31m-1P\u001b[0m",
+          "XXX.advancements.critereon.InventoryChangeTrigger$TriggerInstance \u001b[2;32m+1M\u001b[0m \u001b[2;31m-1M\u001b[0m",
+          "XXX.advancements.critereon.ItemDurabilityTrigger$TriggerInstance \u001b[2;32m+2M\u001b[0m \u001b[2;31m-2M\u001b[0m",
+          "XXX.advancements.critereon.KilledByCrossbowTrigger$TriggerInstance \u001b[2;32m+1M\u001b[0m \u001b[2;31m-1M\u001b[0m | \u001b[2;32m+1P\u001b[0m \u001b[2;31m-1P\u001b[0m",
+          "XXX.advancements.critereon.KilledTrigger$TriggerInstance \u001b[2;32m+1M\u001b[0m \u001b[2;31m-1M\u001b[0m | \u001b[2;32m+1P\u001b[0m \u001b[2;31m-1P\u001b[0m",
+          "XXX.advancements.critereon.LevitationTrigger$TriggerInstance \u001b[2;32m+1M\u001b[0m \u001b[2;31m-1M\u001b[0m",
+          "XXX.advancements.critereon.LightningStrikeTrigger \u001b[2;32m+2M\u001b[0m \u001b[2;31m-2M\u001b[0m",
+          "XXX.advancements.critereon.LootTableTrigger \u001b[2;32m+2M\u001b[0m \u001b[2;31m-2M\u001b[0m",
+          "XXX.advancements.critereon.PickedUpItemTrigger \u001b[2;32m+2M\u001b[0m \u001b[2;31m-2M\u001b[0m",
+          "XXX.advancements.critereon.PlayerHurtEntityTrigger \u001b[2;32m+2M\u001b[0m \u001b[2;31m-2M\u001b[0m",
+          "XXX.advancements.critereon.PlayerInteractTrigger \u001b[2;32m+2M\u001b[0m \u001b[2;31m-2M\u001b[0m",
+          "XXX.advancements.critereon.PlayerTrigger$TriggerInstance \u001b[2;32m+1M\u001b[0m \u001b[2;31m-1M\u001b[0m",
+          "XXX.advancements.critereon.RecipeCraftedTrigger$TriggerInstance \u001b[2;32m+1M\u001b[0m \u001b[2;31m-1M\u001b[0m",
+          "XXX.advancements.critereon.RecipeUnlockedTrigger$TriggerInstance \u001b[2;32m+1M\u001b[0m \u001b[2;31m-1M\u001b[0m",
+          "XXX.advancements.critereon.ShotCrossbowTrigger \u001b[2;32m+2M\u001b[0m \u001b[2;31m-2M\u001b[0m",
+          "XXX.advancements.critereon.SimpleCriterionTrigger \u001b[2;32m+1P\u001b[0m \u001b[2;31m-1P\u001b[0m",
+          "XXX.advancements.critereon.SlideDownBlockTrigger$TriggerInstance \u001b[2;32m+1M\u001b[0m \u001b[2;31m-1M\u001b[0m",
+          "XXX.advancements.critereon.StartRidingTrigger \u001b[2;32m+2M\u001b[0m \u001b[2;31m-2M\u001b[0m",
+          "XXX.advancements.critereon.SummonedEntityTrigger$TriggerInstance \u001b[2;32m+1M\u001b[0m \u001b[2;31m-1M\u001b[0m | \u001b[2;32m+1P\u001b[0m \u001b[2;31m-1P\u001b[0m",
+          "XXX.advancements.critereon.TameAnimalTrigger \u001b[2;32m+2M\u001b[0m \u001b[2;31m-2M\u001b[0m",
+          "XXX.advancements.critereon.TargetBlockTrigger \u001b[2;32m+2M\u001b[0m \u001b[2;31m-2M\u001b[0m",
+          "XXX.advancements.critereon.TradeTrigger \u001b[2;32m+2M\u001b[0m \u001b[2;31m-2M\u001b[0m",
+          "XXX.advancements.critereon.UsedEnderEyeTrigger \u001b[2;32m+2M\u001b[0m \u001b[2;31m-2M\u001b[0m",
+          "XXX.advancements.critereon.UsedTotemTrigger \u001b[2;32m+2M\u001b[0m \u001b[2;31m-2M\u001b[0m",
+          "XXX.advancements.critereon.UsingItemTrigger \u001b[2;32m+2M\u001b[0m \u001b[2;31m-2M\u001b[0m",
+          "XXX.advancements.packs.VanillaAdventureAdvancements \u001b[2;32m+8M\u001b[0m \u001b[2;31m-2M\u001b[0m",
+          "XXX.advancements.packs.VanillaNetherAdvancements \u001b[2;32m+1P\u001b[0m \u001b[2;31m-1P\u001b[0m",
+          "XXX.network.syncher.SynchedEntityData \u001b[2;32m+1M\u001b[0m",
+          "XXX.minecraft.server.Bootstrap \u001b[2;32m+1P\u001b[0m",
+          "XXX.minecraft.util.ExtraCodecs \u001b[2;32m+1M\u001b[0m",
+          "XXX.world.entity.Entity \u001b[2;32m+16M\u001b[0m \u001b[2;31m-13M\u001b[0m | \u001b[2;32m+1P\u001b[0m",
+          "XXX.world.entity.LivingEntity \u001b[2;32m+1M\u001b[0m \u001b[2;31m-1M\u001b[0m",
+          "XXX.animal.sniffer.Sniffer \u001b[2;32m+1M\u001b[0m | \u001b[2;32m+2P\u001b[0m",
+          "XXX.world.level.BlockCollisions \u001b[2;32m+1M\u001b[0m \u001b[2;31m-3M\u001b[0m | \u001b[2;32m+1P\u001b[0m",
+          "XXX.world.level.CollisionGetter \u001b[2;32m+8M\u001b[0m \u001b[2;31m-4M\u001b[0m",
+          "XXX.world.level.SpawnData$CustomSpawnRules \u001b[2;32m+1M\u001b[0m",
+          "XXX.structure.placement.RandomSpreadStructurePlacement \u001b[2;32m+2M\u001b[0m \u001b[2;31m-2M\u001b[0m"
+        ]
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.advancements.Advancement$Builder",
+        "differences": {
+          "added": [
+            "void <init>(ResourceLocation,DisplayInfo,AdvancementRewards,Map,String[][])",
+            "void <init>()"
+          ],
+          "removed": [
+            "void <init>(ResourceLocation,DisplayInfo,AdvancementRewards,Map,String[][],boolean)",
+            "void <init>(boolean)",
+            "Advancement$Builder recipeAdvancement()"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.advancements.critereon.BeeNestDestroyedTrigger",
+        "differences": {
+          "added": [
+            "BeeNestDestroyedTrigger$TriggerInstance createInstance(JsonObject,EntityPredicate$Composite,DeserializationContext)",
+            "AbstractCriterionTriggerInstance createInstance(JsonObject,EntityPredicate$Composite,DeserializationContext)"
+          ],
+          "removed": [
+            "BeeNestDestroyedTrigger$TriggerInstance createInstance(JsonObject,ContextAwarePredicate,DeserializationContext)",
+            "AbstractCriterionTriggerInstance createInstance(JsonObject,ContextAwarePredicate,DeserializationContext)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.advancements.critereon.BredAnimalsTrigger",
+        "differences": {
+          "added": [
+            "BredAnimalsTrigger$TriggerInstance createInstance(JsonObject,EntityPredicate$Composite,DeserializationContext)",
+            "AbstractCriterionTriggerInstance createInstance(JsonObject,EntityPredicate$Composite,DeserializationContext)"
+          ],
+          "removed": [
+            "BredAnimalsTrigger$TriggerInstance createInstance(JsonObject,ContextAwarePredicate,DeserializationContext)",
+            "AbstractCriterionTriggerInstance createInstance(JsonObject,ContextAwarePredicate,DeserializationContext)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.advancements.critereon.BrewedPotionTrigger",
+        "differences": {
+          "added": [
+            "BrewedPotionTrigger$TriggerInstance createInstance(JsonObject,EntityPredicate$Composite,DeserializationContext)",
+            "AbstractCriterionTriggerInstance createInstance(JsonObject,EntityPredicate$Composite,DeserializationContext)"
+          ],
+          "removed": [
+            "BrewedPotionTrigger$TriggerInstance createInstance(JsonObject,ContextAwarePredicate,DeserializationContext)",
+            "AbstractCriterionTriggerInstance createInstance(JsonObject,ContextAwarePredicate,DeserializationContext)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.advancements.critereon.ChangeDimensionTrigger",
+        "differences": {
+          "added": [
+            "ChangeDimensionTrigger$TriggerInstance createInstance(JsonObject,EntityPredicate$Composite,DeserializationContext)",
+            "AbstractCriterionTriggerInstance createInstance(JsonObject,EntityPredicate$Composite,DeserializationContext)"
+          ],
+          "removed": [
+            "ChangeDimensionTrigger$TriggerInstance createInstance(JsonObject,ContextAwarePredicate,DeserializationContext)",
+            "AbstractCriterionTriggerInstance createInstance(JsonObject,ContextAwarePredicate,DeserializationContext)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.advancements.critereon.ChanneledLightningTrigger",
+        "differences": {
+          "added": [
+            "ChanneledLightningTrigger$TriggerInstance createInstance(JsonObject,EntityPredicate$Composite,DeserializationContext)",
+            "AbstractCriterionTriggerInstance createInstance(JsonObject,EntityPredicate$Composite,DeserializationContext)"
+          ],
+          "removed": [
+            "ChanneledLightningTrigger$TriggerInstance createInstance(JsonObject,ContextAwarePredicate,DeserializationContext)",
+            "AbstractCriterionTriggerInstance createInstance(JsonObject,ContextAwarePredicate,DeserializationContext)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.advancements.critereon.ConstructBeaconTrigger",
+        "differences": {
+          "added": [
+            "ConstructBeaconTrigger$TriggerInstance createInstance(JsonObject,EntityPredicate$Composite,DeserializationContext)",
+            "AbstractCriterionTriggerInstance createInstance(JsonObject,EntityPredicate$Composite,DeserializationContext)"
+          ],
+          "removed": [
+            "ConstructBeaconTrigger$TriggerInstance createInstance(JsonObject,ContextAwarePredicate,DeserializationContext)",
+            "AbstractCriterionTriggerInstance createInstance(JsonObject,ContextAwarePredicate,DeserializationContext)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.advancements.critereon.ConsumeItemTrigger",
+        "differences": {
+          "added": [
+            "ConsumeItemTrigger$TriggerInstance createInstance(JsonObject,EntityPredicate$Composite,DeserializationContext)",
+            "AbstractCriterionTriggerInstance createInstance(JsonObject,EntityPredicate$Composite,DeserializationContext)"
+          ],
+          "removed": [
+            "ConsumeItemTrigger$TriggerInstance createInstance(JsonObject,ContextAwarePredicate,DeserializationContext)",
+            "AbstractCriterionTriggerInstance createInstance(JsonObject,ContextAwarePredicate,DeserializationContext)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.advancements.critereon.FilledBucketTrigger",
+        "differences": {
+          "added": [
+            "FilledBucketTrigger$TriggerInstance createInstance(JsonObject,EntityPredicate$Composite,DeserializationContext)",
+            "AbstractCriterionTriggerInstance createInstance(JsonObject,EntityPredicate$Composite,DeserializationContext)"
+          ],
+          "removed": [
+            "FilledBucketTrigger$TriggerInstance createInstance(JsonObject,ContextAwarePredicate,DeserializationContext)",
+            "AbstractCriterionTriggerInstance createInstance(JsonObject,ContextAwarePredicate,DeserializationContext)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.advancements.critereon.FishingRodHookedTrigger$TriggerInstance",
+        "differences": {
+          "added": [
+            "void <init>(EntityPredicate$Composite,ItemPredicate,EntityPredicate$Composite,ItemPredicate)"
+          ],
+          "removed": [
+            "void <init>(ContextAwarePredicate,ItemPredicate,ContextAwarePredicate,ItemPredicate)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.advancements.critereon.InventoryChangeTrigger$TriggerInstance",
+        "differences": {
+          "added": [
+            "void <init>(EntityPredicate$Composite,MinMaxBounds$Ints,MinMaxBounds$Ints,MinMaxBounds$Ints,ItemPredicate[])"
+          ],
+          "removed": [
+            "void <init>(ContextAwarePredicate,MinMaxBounds$Ints,MinMaxBounds$Ints,MinMaxBounds$Ints,ItemPredicate[])"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.advancements.critereon.ItemDurabilityTrigger$TriggerInstance",
+        "differences": {
+          "added": [
+            "void <init>(EntityPredicate$Composite,ItemPredicate,MinMaxBounds$Ints,MinMaxBounds$Ints)",
+            "ItemDurabilityTrigger$TriggerInstance changedDurability(EntityPredicate$Composite,ItemPredicate,MinMaxBounds$Ints)"
+          ],
+          "removed": [
+            "void <init>(ContextAwarePredicate,ItemPredicate,MinMaxBounds$Ints,MinMaxBounds$Ints)",
+            "ItemDurabilityTrigger$TriggerInstance changedDurability(ContextAwarePredicate,ItemPredicate,MinMaxBounds$Ints)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.advancements.critereon.KilledByCrossbowTrigger$TriggerInstance",
+        "differences": {
+          "added": [
+            "void <init>(EntityPredicate$Composite,EntityPredicate$Composite[],MinMaxBounds$Ints)"
+          ],
+          "removed": [
+            "void <init>(ContextAwarePredicate,ContextAwarePredicate[],MinMaxBounds$Ints)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.advancements.critereon.KilledTrigger$TriggerInstance",
+        "differences": {
+          "added": [
+            "void <init>(ResourceLocation,EntityPredicate$Composite,EntityPredicate$Composite,DamageSourcePredicate)"
+          ],
+          "removed": [
+            "void <init>(ResourceLocation,ContextAwarePredicate,ContextAwarePredicate,DamageSourcePredicate)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.advancements.critereon.LevitationTrigger$TriggerInstance",
+        "differences": {
+          "added": [
+            "void <init>(EntityPredicate$Composite,DistancePredicate,MinMaxBounds$Ints)"
+          ],
+          "removed": [
+            "void <init>(ContextAwarePredicate,DistancePredicate,MinMaxBounds$Ints)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.advancements.critereon.LightningStrikeTrigger",
+        "differences": {
+          "added": [
+            "LightningStrikeTrigger$TriggerInstance createInstance(JsonObject,EntityPredicate$Composite,DeserializationContext)",
+            "AbstractCriterionTriggerInstance createInstance(JsonObject,EntityPredicate$Composite,DeserializationContext)"
+          ],
+          "removed": [
+            "LightningStrikeTrigger$TriggerInstance createInstance(JsonObject,ContextAwarePredicate,DeserializationContext)",
+            "AbstractCriterionTriggerInstance createInstance(JsonObject,ContextAwarePredicate,DeserializationContext)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.advancements.critereon.LootTableTrigger",
+        "differences": {
+          "added": [
+            "LootTableTrigger$TriggerInstance createInstance(JsonObject,EntityPredicate$Composite,DeserializationContext)",
+            "AbstractCriterionTriggerInstance createInstance(JsonObject,EntityPredicate$Composite,DeserializationContext)"
+          ],
+          "removed": [
+            "LootTableTrigger$TriggerInstance createInstance(JsonObject,ContextAwarePredicate,DeserializationContext)",
+            "AbstractCriterionTriggerInstance createInstance(JsonObject,ContextAwarePredicate,DeserializationContext)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.advancements.critereon.PickedUpItemTrigger",
+        "differences": {
+          "added": [
+            "PickedUpItemTrigger$TriggerInstance createInstance(JsonObject,EntityPredicate$Composite,DeserializationContext)",
+            "AbstractCriterionTriggerInstance createInstance(JsonObject,EntityPredicate$Composite,DeserializationContext)"
+          ],
+          "removed": [
+            "PickedUpItemTrigger$TriggerInstance createInstance(JsonObject,ContextAwarePredicate,DeserializationContext)",
+            "AbstractCriterionTriggerInstance createInstance(JsonObject,ContextAwarePredicate,DeserializationContext)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.advancements.critereon.PlayerHurtEntityTrigger",
+        "differences": {
+          "added": [
+            "PlayerHurtEntityTrigger$TriggerInstance createInstance(JsonObject,EntityPredicate$Composite,DeserializationContext)",
+            "AbstractCriterionTriggerInstance createInstance(JsonObject,EntityPredicate$Composite,DeserializationContext)"
+          ],
+          "removed": [
+            "PlayerHurtEntityTrigger$TriggerInstance createInstance(JsonObject,ContextAwarePredicate,DeserializationContext)",
+            "AbstractCriterionTriggerInstance createInstance(JsonObject,ContextAwarePredicate,DeserializationContext)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.advancements.critereon.PlayerInteractTrigger",
+        "differences": {
+          "added": [
+            "PlayerInteractTrigger$TriggerInstance createInstance(JsonObject,EntityPredicate$Composite,DeserializationContext)",
+            "AbstractCriterionTriggerInstance createInstance(JsonObject,EntityPredicate$Composite,DeserializationContext)"
+          ],
+          "removed": [
+            "PlayerInteractTrigger$TriggerInstance createInstance(JsonObject,ContextAwarePredicate,DeserializationContext)",
+            "AbstractCriterionTriggerInstance createInstance(JsonObject,ContextAwarePredicate,DeserializationContext)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.advancements.critereon.PlayerTrigger$TriggerInstance",
+        "differences": {
+          "added": [
+            "void <init>(ResourceLocation,EntityPredicate$Composite)"
+          ],
+          "removed": [
+            "void <init>(ResourceLocation,ContextAwarePredicate)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.advancements.critereon.RecipeCraftedTrigger$TriggerInstance",
+        "differences": {
+          "added": [
+            "void <init>(EntityPredicate$Composite,ResourceLocation,List)"
+          ],
+          "removed": [
+            "void <init>(ContextAwarePredicate,ResourceLocation,List)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.advancements.critereon.RecipeUnlockedTrigger$TriggerInstance",
+        "differences": {
+          "added": [
+            "void <init>(EntityPredicate$Composite,ResourceLocation)"
+          ],
+          "removed": [
+            "void <init>(ContextAwarePredicate,ResourceLocation)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.advancements.critereon.ShotCrossbowTrigger",
+        "differences": {
+          "added": [
+            "ShotCrossbowTrigger$TriggerInstance createInstance(JsonObject,EntityPredicate$Composite,DeserializationContext)",
+            "AbstractCriterionTriggerInstance createInstance(JsonObject,EntityPredicate$Composite,DeserializationContext)"
+          ],
+          "removed": [
+            "ShotCrossbowTrigger$TriggerInstance createInstance(JsonObject,ContextAwarePredicate,DeserializationContext)",
+            "AbstractCriterionTriggerInstance createInstance(JsonObject,ContextAwarePredicate,DeserializationContext)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.advancements.critereon.SlideDownBlockTrigger$TriggerInstance",
+        "differences": {
+          "added": [
+            "void <init>(EntityPredicate$Composite,Block,StatePropertiesPredicate)"
+          ],
+          "removed": [
+            "void <init>(ContextAwarePredicate,Block,StatePropertiesPredicate)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.advancements.critereon.StartRidingTrigger",
+        "differences": {
+          "added": [
+            "StartRidingTrigger$TriggerInstance createInstance(JsonObject,EntityPredicate$Composite,DeserializationContext)",
+            "AbstractCriterionTriggerInstance createInstance(JsonObject,EntityPredicate$Composite,DeserializationContext)"
+          ],
+          "removed": [
+            "StartRidingTrigger$TriggerInstance createInstance(JsonObject,ContextAwarePredicate,DeserializationContext)",
+            "AbstractCriterionTriggerInstance createInstance(JsonObject,ContextAwarePredicate,DeserializationContext)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.advancements.critereon.SummonedEntityTrigger$TriggerInstance",
+        "differences": {
+          "added": [
+            "void <init>(EntityPredicate$Composite,EntityPredicate$Composite)"
+          ],
+          "removed": [
+            "void <init>(ContextAwarePredicate,ContextAwarePredicate)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.advancements.critereon.TameAnimalTrigger",
+        "differences": {
+          "added": [
+            "TameAnimalTrigger$TriggerInstance createInstance(JsonObject,EntityPredicate$Composite,DeserializationContext)",
+            "AbstractCriterionTriggerInstance createInstance(JsonObject,EntityPredicate$Composite,DeserializationContext)"
+          ],
+          "removed": [
+            "TameAnimalTrigger$TriggerInstance createInstance(JsonObject,ContextAwarePredicate,DeserializationContext)",
+            "AbstractCriterionTriggerInstance createInstance(JsonObject,ContextAwarePredicate,DeserializationContext)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.advancements.critereon.TargetBlockTrigger",
+        "differences": {
+          "added": [
+            "TargetBlockTrigger$TriggerInstance createInstance(JsonObject,EntityPredicate$Composite,DeserializationContext)",
+            "AbstractCriterionTriggerInstance createInstance(JsonObject,EntityPredicate$Composite,DeserializationContext)"
+          ],
+          "removed": [
+            "TargetBlockTrigger$TriggerInstance createInstance(JsonObject,ContextAwarePredicate,DeserializationContext)",
+            "AbstractCriterionTriggerInstance createInstance(JsonObject,ContextAwarePredicate,DeserializationContext)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.advancements.critereon.TradeTrigger",
+        "differences": {
+          "added": [
+            "TradeTrigger$TriggerInstance createInstance(JsonObject,EntityPredicate$Composite,DeserializationContext)",
+            "AbstractCriterionTriggerInstance createInstance(JsonObject,EntityPredicate$Composite,DeserializationContext)"
+          ],
+          "removed": [
+            "TradeTrigger$TriggerInstance createInstance(JsonObject,ContextAwarePredicate,DeserializationContext)",
+            "AbstractCriterionTriggerInstance createInstance(JsonObject,ContextAwarePredicate,DeserializationContext)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.advancements.critereon.UsedEnderEyeTrigger",
+        "differences": {
+          "added": [
+            "UsedEnderEyeTrigger$TriggerInstance createInstance(JsonObject,EntityPredicate$Composite,DeserializationContext)",
+            "AbstractCriterionTriggerInstance createInstance(JsonObject,EntityPredicate$Composite,DeserializationContext)"
+          ],
+          "removed": [
+            "UsedEnderEyeTrigger$TriggerInstance createInstance(JsonObject,ContextAwarePredicate,DeserializationContext)",
+            "AbstractCriterionTriggerInstance createInstance(JsonObject,ContextAwarePredicate,DeserializationContext)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.advancements.critereon.UsedTotemTrigger",
+        "differences": {
+          "added": [
+            "UsedTotemTrigger$TriggerInstance createInstance(JsonObject,EntityPredicate$Composite,DeserializationContext)",
+            "AbstractCriterionTriggerInstance createInstance(JsonObject,EntityPredicate$Composite,DeserializationContext)"
+          ],
+          "removed": [
+            "UsedTotemTrigger$TriggerInstance createInstance(JsonObject,ContextAwarePredicate,DeserializationContext)",
+            "AbstractCriterionTriggerInstance createInstance(JsonObject,ContextAwarePredicate,DeserializationContext)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.advancements.critereon.UsingItemTrigger",
+        "differences": {
+          "added": [
+            "UsingItemTrigger$TriggerInstance createInstance(JsonObject,EntityPredicate$Composite,DeserializationContext)",
+            "AbstractCriterionTriggerInstance createInstance(JsonObject,EntityPredicate$Composite,DeserializationContext)"
+          ],
+          "removed": [
+            "UsingItemTrigger$TriggerInstance createInstance(JsonObject,ContextAwarePredicate,DeserializationContext)",
+            "AbstractCriterionTriggerInstance createInstance(JsonObject,ContextAwarePredicate,DeserializationContext)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.data.advancements.packs.VanillaAdventureAdvancements",
+        "differences": {
+          "added": [
+            "String[] lambda$respectingTheRemnantsCriterions$1(int)",
+            "void lambda$smithingWithStyle$0(Map,Advancement$Builder,Item)"
+          ],
+          "removed": [
+            "CriterionTriggerInstance placedBlockReadByComparator(Block)",
+            "CriterionTriggerInstance placedComparatorReadingBlock(Block)",
+            "String[] lambda$respectingTheRemnantsCriterions$5(int)",
+            "void lambda$smithingWithStyle$4(Map,Advancement$Builder,Item)",
+            "LootItemCondition$Builder[] lambda$placedComparatorReadingBlock$3(int)",
+            "AllOfCondition$Builder lambda$placedComparatorReadingBlock$2(Block,Direction)",
+            "LootItemCondition$Builder[] lambda$placedBlockReadByComparator$1(int)",
+            "LootItemCondition$Builder lambda$placedBlockReadByComparator$0(Direction)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.network.syncher.SynchedEntityData",
+        "differences": {
+          "added": [],
+          "removed": [
+            "boolean hasItem(EntityDataAccessor)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.util.ExtraCodecs",
+        "differences": {
+          "added": [],
+          "removed": [
+            "MapCodec validate(MapCodec,Function)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.entity.Entity",
+        "differences": {
+          "added": [
+            "boolean walkingOnBlock(boolean,Vec3)",
+            "boolean lambda$hasExactlyOnePlayerPassenger$15(Entity)",
+            "Iterator lambda$getIndirectPassengers$14()",
+            "void lambda$refreshDimensions$13(EntityDimensions,Vec3)",
+            "void lambda$teleportPassengers$12(Entity)",
+            "Style lambda$getDisplayName$11(Style)",
+            "String lambda$fillCrashReportCategory$7()",
+            "PortalInfo lambda$findDimensionEntryPoint$6(ServerLevel,BlockUtil$FoundRectangle)",
+            "boolean lambda$findDimensionEntryPoint$5(BlockState,BlockPos)",
+            "boolean lambda$removePassenger$4(Entity,Entity)",
+            "void lambda$startRiding$3(Entity)",
+            "boolean lambda$startRiding$2(Entity)",
+            "boolean lambda$isInWall$1(AABB,BlockPos)"
+          ],
+          "removed": [
+            "void checkSupportingBlock(boolean)",
+            "boolean isStateClimbable(BlockState)",
+            "boolean vibrationAndSoundEffectsFromBlock(BlockPos,BlockState,boolean,boolean,Vec3)",
+            "boolean lambda$hasExactlyOnePlayerPassenger$16(Entity)",
+            "Iterator lambda$getIndirectPassengers$15()",
+            "void lambda$refreshDimensions$14(EntityDimensions,Vec3)",
+            "void lambda$teleportPassengers$13(Entity)",
+            "Style lambda$getDisplayName$12(Style)",
+            "String lambda$fillCrashReportCategory$11()",
+            "PortalInfo lambda$findDimensionEntryPoint$7(ServerLevel,BlockUtil$FoundRectangle)",
+            "boolean lambda$findDimensionEntryPoint$6(BlockState,BlockPos)",
+            "boolean lambda$removePassenger$5(Entity,Entity)",
+            "void lambda$startRiding$4(Entity)",
+            "boolean lambda$startRiding$3(Entity)",
+            "boolean lambda$isInWall$2(AABB,BlockPos)",
+            "BlockState lambda$checkFallDamage$1(BlockPos)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.entity.LivingEntity",
+        "differences": {
+          "added": [
+            "double getJumpBoostPower()"
+          ],
+          "removed": [
+            "float getJumpBoostPower()"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.entity.animal.sniffer.Sniffer",
+        "differences": {
+          "added": [],
+          "removed": [
+            "EntityDimensions getDimensions(Pose)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.level.BlockCollisions",
+        "differences": {
+          "added": [
+            "void <init>(CollisionGetter,Entity,AABB)",
+            "void <init>(CollisionGetter,Entity,AABB,boolean)",
+            "VoxelShape computeNext()"
+          ],
+          "removed": [
+            "void <init>(CollisionGetter,Entity,AABB,boolean,BiFunction)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.level.CollisionGetter",
+        "differences": {
+          "added": [
+            "AABB lambda$findFreePosition$3(double,double,double,AABB)",
+            "Stream lambda$findFreePosition$2(VoxelShape)",
+            "boolean lambda$findFreePosition$1(VoxelShape)",
+            "Iterator lambda$getBlockCollisions$0(Entity,AABB)"
+          ],
+          "removed": [
+            "Optional findSupportingBlock(Entity,AABB)",
+            "AABB lambda$findFreePosition$6(double,double,double,AABB)",
+            "Stream lambda$findFreePosition$5(VoxelShape)",
+            "boolean lambda$findFreePosition$4(VoxelShape)",
+            "BlockPos lambda$findSupportingBlock$3(BlockPos$MutableBlockPos,VoxelShape)",
+            "VoxelShape lambda$collidesWithSuffocatingBlock$2(BlockPos$MutableBlockPos,VoxelShape)",
+            "Iterator lambda$getBlockCollisions$1(Entity,AABB)",
+            "VoxelShape lambda$getBlockCollisions$0(BlockPos$MutableBlockPos,VoxelShape)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.level.SpawnData$CustomSpawnRules",
+        "differences": {
+          "added": [],
+          "removed": [
+            "MapCodec lightLimit(String)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.level.levelgen.structure.placement.RandomSpreadStructurePlacement",
+        "differences": {
+          "added": [
+            "DataResult lambda$static$2(RandomSpreadStructurePlacement)",
+            "String lambda$static$1()"
+          ],
+          "removed": [
+            "DataResult validate(RandomSpreadStructurePlacement)",
+            "String lambda$validate$1()"
+          ]
+        }
+      }
+    },
+    {
+      "type": "title",
+      "value": {
+        "title": "Client",
+        "id": "client-mappings",
+        "size": 2
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "Classes",
+        "differences": {
+          "added": [
+            "XXX.blaze3d.font.TrueTypeGlyphProvider$Glyph",
+            "XXX.blaze3d.font.package-info",
+            "XXX.blaze3d.pipeline.MainTarget",
+            "XXX.blaze3d.pipeline.MainTarget$Dimension",
+            "XXX.blaze3d.pipeline.RenderPipeline",
+            "XXX.blaze3d.pipeline.TextureTarget",
+            "XXX.blaze3d.platform.ClipboardManager",
+            "XXX.blaze3d.platform.DisplayData",
+            "XXX.blaze3d.platform.GlConst",
+            "XXX.blaze3d.platform.GlDebug$LogEntry",
+            "XXX.blaze3d.platform.GlStateManager$BlendState",
+            "XXX.blaze3d.platform.GlStateManager$ColorLogicState",
+            "XXX.blaze3d.platform.GlStateManager$CullState",
+            "XXX.blaze3d.platform.GlStateManager$DestFactor",
+            "XXX.blaze3d.platform.GlStateManager$PolygonOffsetState",
+            "XXX.blaze3d.platform.GlStateManager$SourceFactor",
+            "XXX.blaze3d.platform.GlStateManager$StencilState",
+            "XXX.blaze3d.platform.GlStateManager$Viewport",
+            "XXX.blaze3d.platform.IconSet",
+            "XXX.blaze3d.platform.InputConstants$Key",
+            "XXX.blaze3d.platform.Lighting",
+            "XXX.blaze3d.platform.MemoryTracker",
+            "XXX.blaze3d.platform.MonitorCreator",
+            "XXX.blaze3d.platform.NativeImage$Format",
+            "XXX.blaze3d.platform.NativeImage$WriteCallback",
+            "XXX.blaze3d.platform.TextureUtil",
+            "XXX.blaze3d.platform.Window",
+            "XXX.blaze3d.platform.WindowEventHandler",
+            "XXX.blaze3d.preprocessor.GlslPreprocessor",
+            "XXX.blaze3d.preprocessor.package-info",
+            "XXX.blaze3d.shaders.BlendMode",
+            "XXX.blaze3d.shaders.EffectProgram",
+            "XXX.blaze3d.shaders.FogShape",
+            "XXX.blaze3d.shaders.Program$Type",
+            "XXX.blaze3d.shaders.Shader",
+            "XXX.blaze3d.shaders.package-info",
+            "XXX.blaze3d.systems.RenderSystem$1",
+            "XXX.blaze3d.systems.RenderSystem$AutoStorageIndexBuffer$IndexGenerator",
+            "XXX.blaze3d.systems.TimerQuery$FrameProfile",
+            "XXX.blaze3d.systems.package-info",
+            "XXX.blaze3d.vertex.BufferBuilder$1",
+            "XXX.blaze3d.vertex.BufferBuilder$RenderedBuffer",
+            "XXX.blaze3d.vertex.BufferUploader",
+            "XXX.blaze3d.vertex.DefaultVertexFormat",
+            "XXX.blaze3d.vertex.PoseStack",
+            "XXX.blaze3d.vertex.SheetedDecalTextureGenerator",
+            "XXX.blaze3d.vertex.VertexBuffer",
+            "XXX.advancements.critereon.CuredZombieVillagerTrigger",
+            "XXX.advancements.critereon.DamagePredicate",
+            "XXX.advancements.critereon.DamageSourcePredicate",
+            "XXX.advancements.critereon.DeserializationContext",
+            "XXX.advancements.critereon.DistanceTrigger",
+            "XXX.advancements.critereon.EffectsChangedTrigger",
+            "XXX.advancements.critereon.EnchantedItemTrigger",
+            "XXX.advancements.critereon.EnchantmentPredicate",
+            "XXX.advancements.critereon.EnterBlockTrigger$TriggerInstance",
+            "XXX.advancements.critereon.EntityEquipmentPredicate$Builder",
+            "XXX.advancements.critereon.EntityFlagsPredicate$Builder",
+            "XXX.advancements.critereon.EntityHurtPlayerTrigger$TriggerInstance",
+            "XXX.advancements.critereon.EntityPredicate$Builder",
+            "XXX.advancements.critereon.ItemInteractWithBlockTrigger$TriggerInstance",
+            "XXX.advancements.critereon.PlacedBlockTrigger",
+            "XXX.gui.font.FontManager$Preparation",
+            "XXX.gui.font.FontSet",
+            "XXX.gui.font.FontTexture",
+            "XXX.gui.font.GlyphRenderTypes",
+            "XXX.gui.font.TextFieldHelper",
+            "XXX.gui.font.TextFieldHelper$CursorStep",
+            "XXX.font.glyphs.BakedGlyph$Effect",
+            "XXX.font.glyphs.SpecialGlyphs",
+            "XXX.font.glyphs.SpecialGlyphs$PixelProvider",
+            "XXX.gui.font.package-info",
+            "XXX.font.providers.BitmapProvider$Builder",
+            "XXX.font.providers.BitmapProvider$Glyph$1",
+            "XXX.font.providers.GlyphProviderBuilder$Loader",
+            "XXX.font.providers.GlyphProviderBuilderType",
+            "XXX.font.providers.TrueTypeGlyphProviderBuilder",
+            "XXX.font.providers.UnihexProvider$Builder",
+            "XXX.client.renderer.RenderStateShard$DepthTestStateShard",
+            "XXX.client.renderer.RenderStateShard$LayeringStateShard",
+            "XXX.client.renderer.RenderStateShard$LineStateShard",
+            "XXX.client.renderer.RenderStateShard$MultiTextureStateShard$Builder",
+            "XXX.client.renderer.RenderStateShard$OutputStateShard",
+            "XXX.client.renderer.RenderStateShard$ShaderStateShard",
+            "XXX.client.renderer.RenderStateShard$TexturingStateShard",
+            "XXX.client.renderer.RenderStateShard$WriteMaskStateShard",
+            "XXX.client.renderer.RenderType$CompositeRenderType",
+            "XXX.client.renderer.RenderType$CompositeState$CompositeStateBuilder",
+            "XXX.client.renderer.RunningTrimmedMean",
+            "XXX.client.renderer.ShaderInstance",
+            "XXX.client.renderer.Sheets",
+            "XXX.client.renderer.SpriteCoordinateExpander",
+            "XXX.client.renderer.VirtualScreen",
+            "XXX.renderer.block.BlockRenderDispatcher",
+            "XXX.renderer.block.LiquidBlockRenderer",
+            "XXX.renderer.block.ModelBlockRenderer",
+            "XXX.renderer.block.ModelBlockRenderer$AdjacencyInfo",
+            "XXX.renderer.block.ModelBlockRenderer$AmbientVertexRemap",
+            "XXX.renderer.block.ModelBlockRenderer$Cache$1",
+            "XXX.renderer.block.ModelBlockRenderer$SizeInfo",
+            "XXX.block.model.BlockElement",
+            "XXX.block.model.BlockElement$Deserializer",
+            "XXX.block.model.BlockElementFace$Deserializer",
+            "XXX.block.model.BlockFaceUV",
+            "XXX.block.model.BlockModel",
+            "XXX.block.model.BlockModel$GuiLight",
+            "XXX.block.model.BlockModelDefinition",
+            "XXX.block.model.BlockModelDefinition$Deserializer",
+            "XXX.block.model.FaceBakery",
+            "XXX.block.model.ItemModelGenerator",
+            "XXX.block.model.ItemModelGenerator$Span",
+            "XXX.block.model.ItemOverride",
+            "XXX.block.model.ItemOverride$Predicate",
+            "XXX.block.model.ItemOverrides$BakedOverride",
+            "XXX.block.model.ItemTransform",
+            "XXX.block.model.ItemTransforms",
+            "XXX.block.model.ItemTransforms$Deserializer",
+            "XXX.block.model.MultiVariant$Deserializer",
+            "XXX.block.model.Variant$Deserializer",
+            "XXX.model.multipart.Condition",
+            "XXX.model.multipart.MultiPart",
+            "XXX.model.multipart.OrCondition",
+            "XXX.model.multipart.Selector$Deserializer",
+            "XXX.block.model.package-info",
+            "XXX.renderer.blockentity.BannerRenderer",
+            "XXX.renderer.blockentity.BedRenderer",
+            "XXX.renderer.blockentity.BlockEntityRenderDispatcher",
+            "XXX.renderer.blockentity.BlockEntityRendererProvider",
+            "XXX.renderer.blockentity.BlockEntityRenderers",
+            "XXX.renderer.blockentity.BrushableBlockRenderer",
+            "XXX.renderer.blockentity.CampfireRenderer",
+            "XXX.renderer.blockentity.ConduitRenderer",
+            "XXX.renderer.blockentity.EnchantTableRenderer",
+            "XXX.renderer.blockentity.HangingSignRenderer$HangingSignModel",
+            "XXX.renderer.blockentity.PistonHeadRenderer",
+            "XXX.renderer.blockentity.SignRenderer",
+            "XXX.renderer.blockentity.SkullBlockRenderer",
+            "XXX.renderer.blockentity.StructureBlockRenderer",
+            "XXX.renderer.blockentity.TheEndGatewayRenderer",
+            "XXX.renderer.blockentity.package-info",
+            "XXX.renderer.chunk.ChunkRenderDispatcher$ChunkTaskResult",
+            "XXX.renderer.chunk.ChunkRenderDispatcher$CompiledChunk$1",
+            "XXX.renderer.chunk.ChunkRenderDispatcher$RenderChunk$ChunkCompileTask",
+            "XXX.renderer.chunk.ChunkRenderDispatcher$RenderChunk$RebuildTask$CompileResults",
+            "XXX.renderer.chunk.RenderChunk",
+            "XXX.renderer.chunk.RenderRegionCache",
+            "XXX.renderer.chunk.VisGraph",
+            "XXX.renderer.chunk.VisibilitySet",
+            "XXX.renderer.culling.Frustum",
+            "XXX.renderer.debug.BeeDebugRenderer",
+            "XXX.renderer.debug.BeeDebugRenderer$HiveInfo",
+            "XXX.renderer.debug.BrainDebugRenderer$BrainDump",
+            "XXX.renderer.debug.ChunkBorderRenderer",
+            "XXX.renderer.debug.ChunkDebugRenderer$ChunkData",
+            "XXX.renderer.debug.DebugRenderer",
+            "XXX.renderer.debug.GameEventListenerRenderer",
+            "XXX.renderer.debug.GameEventListenerRenderer$TrackedListener",
+            "XXX.renderer.debug.GameTestDebugRenderer$Marker",
+            "XXX.renderer.debug.GoalSelectorDebugRenderer$DebugGoal",
+            "XXX.renderer.debug.HeightMapRenderer$1",
+            "XXX.renderer.debug.LightSectionDebugRenderer",
+            "XXX.renderer.debug.LightSectionDebugRenderer$SectionData",
+            "XXX.renderer.debug.PathfindingRenderer",
+            "XXX.renderer.debug.SolidFaceRenderer",
+            "XXX.level.lighting.LightEngine$QueueEntry",
+            "XXX.level.lighting.SkyLightEngine",
+            "XXX.level.lighting.SkyLightSectionStorage",
+            "XXX.level.lighting.SpatialLongSet",
+            "XXX.level.lighting.package-info",
+            "XXX.level.material.FlowingFluid",
+            "XXX.level.material.Fluid",
+            "XXX.level.material.Fluids",
+            "XXX.level.material.LavaFluid",
+            "XXX.level.material.LavaFluid$Source",
+            "XXX.level.material.MapColor$Brightness",
+            "XXX.level.material.WaterFluid",
+            "XXX.level.material.WaterFluid$Source",
+            "XXX.world.level.package-info",
+            "XXX.level.pathfinder.BinaryHeap",
+            "XXX.level.pathfinder.FlyNodeEvaluator",
+            "XXX.level.pathfinder.NodeEvaluator",
+            "XXX.level.pathfinder.PathComputationType",
+            "XXX.level.pathfinder.SwimNodeEvaluator",
+            "XXX.level.pathfinder.WalkNodeEvaluator",
+            "XXX.level.portal.PortalForcer",
+            "XXX.level.portal.PortalShape",
+            "XXX.level.redstone.CollectingNeighborUpdater",
+            "XXX.level.redstone.CollectingNeighborUpdater$MultiNeighborUpdate",
+            "XXX.level.redstone.CollectingNeighborUpdater$ShapeUpdate",
+            "XXX.level.redstone.InstantNeighborUpdater",
+            "XXX.level.redstone.Redstone",
+            "XXX.level.saveddata.SavedData",
+            "XXX.saveddata.maps.MapBanner$1",
+            "XXX.saveddata.maps.MapDecoration$Type",
+            "XXX.saveddata.maps.MapIndex",
+            "XXX.saveddata.maps.MapItemSavedData$HoldingPlayer",
+            "XXX.saveddata.maps.package-info",
+            "XXX.level.storage.CommandStorage",
+            "XXX.level.storage.DataVersion",
+            "XXX.level.storage.DimensionDataStorage",
+            "XXX.level.storage.LevelResource",
+            "XXX.level.storage.LevelStorageSource",
+            "XXX.level.storage.LevelStorageSource$LevelDirectory",
+            "XXX.level.storage.LevelStorageSource$LevelStorageAccess$1",
+            "XXX.level.storage.LevelSummary",
+            "XXX.level.storage.LevelVersion",
+            "XXX.level.storage.PrimaryLevelData",
+            "XXX.level.storage.ServerLevelData",
+            "XXX.level.storage.WritableLevelData",
+            "XXX.storage.loot.Deserializers",
+            "XXX.storage.loot.GsonAdapterFactory$Builder",
+            "XXX.storage.loot.GsonAdapterFactory$JsonAdapter",
+            "XXX.storage.loot.IntRange$IntChecker",
+            "XXX.storage.loot.IntRange$Serializer",
+            "XXX.storage.loot.LootContext$Builder",
+            "XXX.storage.loot.LootContext$EntityTarget",
+            "XXX.storage.loot.LootContext$VisitedEntry",
+            "XXX.storage.loot.LootDataId",
+            "XXX.storage.loot.LootDataManager$1",
+            "XXX.storage.loot.LootDataManager$FunctionSequence",
+            "XXX.storage.loot.LootDataType",
+            "XXX.storage.loot.LootPool",
+            "XXX.storage.loot.LootPool$Serializer",
+            "XXX.storage.loot.LootTable$Builder",
+            "XXX.storage.loot.Serializer",
+            "XXX.storage.loot.ValidationContext",
+            "XXX.loot.entries.AlternativesEntry$Builder",
+            "XXX.loot.entries.CompositeEntryBase",
+            "XXX.loot.entries.CompositeEntryBase$CompositeEntryConstructor",
+            "XXX.loot.entries.DynamicLoot$Serializer",
+            "XXX.loot.entries.EmptyLootItem$Serializer",
+            "XXX.loot.entries.EntryGroup$Builder",
+            "XXX.loot.entries.LootItem$Serializer",
+            "XXX.loot.entries.LootPoolEntry",
+            "XXX.loot.entries.LootPoolEntryContainer$Builder",
+            "XXX.loot.entries.LootPoolEntryType",
+            "XXX.loot.entries.LootPoolSingletonContainer$1",
+            "XXX.loot.entries.LootPoolSingletonContainer$DummyBuilder",
+            "XXX.loot.entries.LootPoolSingletonContainer$EntryConstructor",
+            "XXX.loot.entries.LootTableReference",
+            "XXX.loot.entries.SequentialEntry",
+            "XXX.loot.entries.TagEntry",
+            "XXX.loot.entries.TagEntry$Serializer",
+            "XXX.loot.functions.ApplyBonusCount",
+            "XXX.loot.functions.ApplyBonusCount$Formula",
+            "XXX.loot.functions.ApplyBonusCount$OreDrops",
+            "XXX.loot.functions.ApplyBonusCount$UniformBonusCount",
+            "XXX.loot.functions.ApplyExplosionDecay$Serializer",
+            "XXX.loot.functions.CopyBlockState$Builder",
+            "XXX.loot.functions.CopyNameFunction",
+            "XXX.loot.functions.CopyNameFunction$Serializer",
+            "XXX.loot.functions.CopyNbtFunction$Builder",
+            "XXX.loot.functions.CopyNbtFunction$MergeStrategy",
+            "XXX.loot.functions.CopyNbtFunction$MergeStrategy$2",
+            "XXX.loot.functions.CopyNbtFunction$Serializer",
+            "XXX.loot.functions.EnchantRandomlyFunction$Builder",
+            "XXX.loot.functions.EnchantWithLevelsFunction",
+            "XXX.loot.functions.EnchantWithLevelsFunction$Serializer",
+            "XXX.loot.functions.ExplorationMapFunction$Builder",
+            "XXX.loot.functions.FillPlayerHead",
+            "XXX.loot.functions.FunctionReference",
+            "XXX.loot.functions.FunctionUserBuilder",
+            "XXX.loot.functions.LimitCount$Serializer",
+            "XXX.loot.functions.LootItemConditionalFunction$Builder",
+            "XXX.loot.functions.LootItemConditionalFunction$Serializer",
+            "XXX.loot.functions.LootItemFunction$Builder",
+            "XXX.loot.functions.LootItemFunctions",
+            "XXX.loot.functions.LootingEnchantFunction$Builder",
+            "XXX.loot.functions.SetAttributesFunction",
+            "XXX.loot.functions.SetAttributesFunction$Builder",
+            "XXX.loot.functions.SetAttributesFunction$ModifierBuilder",
+            "XXX.loot.functions.SetBannerPatternFunction",
+            "XXX.loot.functions.SetBannerPatternFunction$Serializer",
+            "XXX.loot.functions.SetContainerContents$Builder",
+            "XXX.loot.functions.SetContainerLootTable",
+            "XXX.loot.functions.SetEnchantmentsFunction",
+            "XXX.loot.functions.SetEnchantmentsFunction$Serializer",
+            "XXX.loot.functions.SetInstrumentFunction$Serializer",
+            "XXX.loot.functions.SetItemCountFunction$Serializer",
+            "XXX.loot.functions.SetItemDamageFunction$Serializer",
+            "XXX.loot.functions.SetLoreFunction$Builder",
+            "XXX.loot.functions.SetNameFunction",
+            "XXX.loot.functions.SetNbtFunction",
+            "XXX.loot.functions.SetPotionFunction",
+            "XXX.loot.functions.SetStewEffectFunction",
+            "XXX.loot.functions.SetStewEffectFunction$Serializer",
+            "XXX.loot.functions.SmeltItemFunction$Serializer",
+            "XXX.storage.loot.package-info",
+            "XXX.loot.parameters.LootContextParamSet",
+            "XXX.loot.parameters.LootContextParamSets",
+            "XXX.loot.parameters.package-info",
+            "XXX.loot.predicates.AlternativeLootItemCondition$Builder",
+            "XXX.loot.predicates.ConditionReference",
+            "XXX.loot.predicates.ConditionUserBuilder",
+            "XXX.loot.predicates.DamageSourceCondition$Serializer",
+            "XXX.loot.predicates.EntityHasScoreCondition$Builder",
+            "XXX.loot.predicates.ExplosionCondition",
+            "XXX.loot.predicates.InvertedLootItemCondition",
+            "XXX.loot.predicates.LocationCheck",
+            "XXX.loot.predicates.LootItemBlockStatePropertyCondition",
+            "XXX.loot.predicates.LootItemBlockStatePropertyCondition$Serializer",
+            "XXX.loot.predicates.LootItemCondition$Builder",
+            "XXX.loot.predicates.LootItemConditions",
+            "XXX.loot.predicates.LootItemEntityPropertyCondition$Serializer",
+            "XXX.loot.predicates.LootItemKilledByPlayerCondition$Serializer",
+            "XXX.loot.predicates.LootItemRandomChanceCondition$Serializer",
+            "XXX.loot.predicates.LootItemRandomChanceWithLootingCondition$Serializer",
+            "XXX.loot.predicates.MatchTool$Serializer",
+            "XXX.loot.predicates.TimeCheck$Builder",
+            "XXX.loot.predicates.ValueCheckCondition",
+            "XXX.loot.predicates.WeatherCheck",
+            "XXX.loot.predicates.WeatherCheck$Serializer",
+            "XXX.providers.nbt.ContextNbtProvider",
+            "XXX.providers.nbt.ContextNbtProvider$2",
+            "XXX.providers.nbt.ContextNbtProvider$InlineSerializer",
+            "XXX.providers.nbt.LootNbtProviderType",
+            "XXX.providers.nbt.NbtProviders",
+            "XXX.providers.nbt.StorageNbtProvider$Serializer",
+            "XXX.providers.number.BinomialDistributionGenerator",
+            "XXX.providers.number.ConstantValue",
+            "XXX.providers.number.ConstantValue$Serializer",
+            "XXX.providers.number.NumberProvider",
+            "XXX.providers.number.ScoreboardValue",
+            "XXX.providers.number.UniformGenerator",
+            "XXX.providers.number.package-info",
+            "XXX.providers.score.ContextScoreboardNameProvider$InlineSerializer",
+            "XXX.providers.score.FixedScoreboardNameProvider",
+            "XXX.providers.score.LootScoreProviderType",
+            "XXX.providers.score.ScoreboardNameProviders",
+            "XXX.level.storage.package-info",
+            "XXX.level.timers.FunctionCallback$Serializer",
+            "XXX.level.timers.FunctionTagCallback$Serializer",
+            "XXX.level.timers.TimerCallback$Serializer",
+            "XXX.level.timers.TimerQueue",
+            "XXX.level.timers.package-info",
+            "XXX.world.phys.AABB",
+            "XXX.world.phys.EntityHitResult",
+            "XXX.world.phys.HitResult$Type",
+            "XXX.world.phys.Vec3",
+            "XXX.phys.shapes.ArrayVoxelShape",
+            "XXX.phys.shapes.BitSetDiscreteVoxelShape",
+            "XXX.phys.shapes.CollisionContext",
+            "XXX.phys.shapes.CubeVoxelShape",
+            "XXX.phys.shapes.DiscreteVoxelShape",
+            "XXX.phys.shapes.DiscreteVoxelShape$IntLineConsumer",
+            "XXX.phys.shapes.EntityCollisionContext$1",
+            "XXX.phys.shapes.IndexMerger",
+            "XXX.phys.shapes.IndirectMerger",
+            "XXX.phys.shapes.OffsetDoubleList",
+            "XXX.phys.shapes.Shapes$DoubleLineConsumer",
+            "XXX.phys.shapes.SubShape",
+            "XXX.phys.shapes.package-info",
+            "XXX.world.scores.PlayerTeam",
+            "XXX.world.scores.Scoreboard",
+            "XXX.world.scores.Team",
+            "XXX.world.scores.Team$Visibility",
+            "XXX.scores.criteria.ObjectiveCriteria$RenderType",
+            "XXX.world.scores.package-info",
+            "XXX.world.ticks.BlackholeTickAccess$1",
+            "XXX.world.ticks.ContainerSingleItem",
+            "XXX.world.ticks.LevelTickAccess",
+            "XXX.world.ticks.LevelTicks$PosAndContainerConsumer",
+            "XXX.world.ticks.SavedTick",
+            "XXX.world.ticks.ScheduledTick",
+            "XXX.world.ticks.SerializableTickContainer",
+            "XXX.world.ticks.TickContainerAccess",
+            "XXX.world.ticks.WorldGenTickAccess"
+          ],
+          "removed": [
+            "XXX.blaze3d.font.TrueTypeGlyphProvider",
+            "XXX.blaze3d.font.TrueTypeGlyphProvider$Glyph$1",
+            "XXX.mojang.blaze3d.package-info",
+            "XXX.blaze3d.pipeline.MainTarget$AttachmentState",
+            "XXX.blaze3d.pipeline.RenderCall",
+            "XXX.blaze3d.pipeline.RenderTarget",
+            "XXX.blaze3d.pipeline.package-info",
+            "XXX.blaze3d.platform.DebugMemoryUntracker",
+            "XXX.blaze3d.platform.GLX",
+            "XXX.blaze3d.platform.GlDebug",
+            "XXX.blaze3d.platform.GlStateManager",
+            "XXX.blaze3d.platform.GlStateManager$BooleanState",
+            "XXX.blaze3d.platform.GlStateManager$ColorMask",
+            "XXX.blaze3d.platform.GlStateManager$DepthState",
+            "XXX.blaze3d.platform.GlStateManager$LogicOp",
+            "XXX.blaze3d.platform.GlStateManager$ScissorState",
+            "XXX.blaze3d.platform.GlStateManager$StencilFunc",
+            "XXX.blaze3d.platform.GlStateManager$TextureState",
+            "XXX.blaze3d.platform.GlUtil",
+            "XXX.blaze3d.platform.InputConstants",
+            "XXX.blaze3d.platform.InputConstants$Type",
+            "XXX.blaze3d.platform.MacosUtil",
+            "XXX.blaze3d.platform.Monitor",
+            "XXX.blaze3d.platform.NativeImage",
+            "XXX.blaze3d.platform.NativeImage$InternalGlFormat",
+            "XXX.blaze3d.platform.ScreenManager",
+            "XXX.blaze3d.platform.VideoMode",
+            "XXX.blaze3d.platform.Window$WindowInitFailed",
+            "XXX.blaze3d.platform.package-info",
+            "XXX.blaze3d.preprocessor.GlslPreprocessor$Context",
+            "XXX.blaze3d.shaders.AbstractUniform",
+            "XXX.blaze3d.shaders.Effect",
+            "XXX.blaze3d.shaders.EffectProgram$1",
+            "XXX.blaze3d.shaders.Program",
+            "XXX.blaze3d.shaders.ProgramManager",
+            "XXX.blaze3d.shaders.Uniform",
+            "XXX.blaze3d.systems.RenderSystem",
+            "XXX.blaze3d.systems.RenderSystem$AutoStorageIndexBuffer",
+            "XXX.blaze3d.systems.TimerQuery",
+            "XXX.blaze3d.systems.TimerQuery$TimerQueryLazyLoader",
+            "XXX.blaze3d.vertex.BufferBuilder",
+            "XXX.blaze3d.vertex.BufferBuilder$DrawState",
+            "XXX.blaze3d.vertex.BufferBuilder$SortState",
+            "XXX.blaze3d.vertex.BufferVertexConsumer",
+            "XXX.blaze3d.vertex.DefaultedVertexConsumer",
+            "XXX.blaze3d.vertex.PoseStack$Pose",
+            "XXX.blaze3d.vertex.Tesselator",
+            "XXX.blaze3d.vertex.VertexBuffer$Usage",
+            "XXX.advancements.critereon.ContextAwarePredicate",
+            "XXX.advancements.critereon.CuredZombieVillagerTrigger$TriggerInstance",
+            "XXX.advancements.critereon.DamagePredicate$Builder",
+            "XXX.advancements.critereon.DamageSourcePredicate$Builder",
+            "XXX.advancements.critereon.DistancePredicate",
+            "XXX.advancements.critereon.DistanceTrigger$TriggerInstance",
+            "XXX.advancements.critereon.EffectsChangedTrigger$TriggerInstance",
+            "XXX.advancements.critereon.EnchantedItemTrigger$TriggerInstance",
+            "XXX.advancements.critereon.EnterBlockTrigger",
+            "XXX.advancements.critereon.EntityEquipmentPredicate",
+            "XXX.advancements.critereon.EntityFlagsPredicate",
+            "XXX.advancements.critereon.EntityHurtPlayerTrigger",
+            "XXX.advancements.critereon.EntityPredicate",
+            "XXX.advancements.critereon.ItemUsedOnLocationTrigger$TriggerInstance",
+            "XXX.gui.font.FontManager$FontDefinitionFile",
+            "XXX.gui.font.FontManager$UnresolvedBuilderBundle",
+            "XXX.gui.font.FontSet$GlyphInfoFilter",
+            "XXX.gui.font.FontTexture$Node",
+            "XXX.gui.font.GlyphRenderTypes$1",
+            "XXX.gui.font.TextFieldHelper$1",
+            "XXX.font.glyphs.BakedGlyph",
+            "XXX.font.glyphs.EmptyGlyph",
+            "XXX.font.glyphs.SpecialGlyphs$1",
+            "XXX.font.glyphs.package-info",
+            "XXX.font.providers.BitmapProvider",
+            "XXX.font.providers.BitmapProvider$Glyph",
+            "XXX.font.providers.GlyphProviderDefinition",
+            "XXX.font.providers.GlyphProviderDefinition$Reference",
+            "XXX.font.providers.ProviderReferenceDefinition",
+            "XXX.font.providers.TrueTypeGlyphProviderDefinition$Shift",
+            "XXX.font.providers.UnihexProvider$ByteContents",
+            "XXX.client.renderer.RenderStateShard$CullStateShard",
+            "XXX.client.renderer.RenderStateShard$EmptyTextureStateShard",
+            "XXX.client.renderer.RenderStateShard$LightmapStateShard",
+            "XXX.client.renderer.RenderStateShard$MultiTextureStateShard",
+            "XXX.client.renderer.RenderStateShard$OffsetTexturingStateShard",
+            "XXX.client.renderer.RenderStateShard$OverlayStateShard",
+            "XXX.client.renderer.RenderStateShard$TextureStateShard",
+            "XXX.client.renderer.RenderStateShard$TransparencyStateShard",
+            "XXX.client.renderer.RenderType",
+            "XXX.client.renderer.RenderType$CompositeState",
+            "XXX.client.renderer.RenderType$OutlineProperty",
+            "XXX.client.renderer.ScreenEffectRenderer",
+            "XXX.client.renderer.ShaderInstance$1",
+            "XXX.client.renderer.Sheets$1",
+            "XXX.client.renderer.ViewArea",
+            "XXX.renderer.block.BlockModelShaper",
+            "XXX.renderer.block.BlockRenderDispatcher$1",
+            "XXX.renderer.block.LiquidBlockRenderer$1",
+            "XXX.renderer.block.ModelBlockRenderer$1",
+            "XXX.renderer.block.ModelBlockRenderer$AmbientOcclusionFace",
+            "XXX.renderer.block.ModelBlockRenderer$Cache",
+            "XXX.renderer.block.ModelBlockRenderer$Cache$2",
+            "XXX.block.model.BakedQuad",
+            "XXX.block.model.BlockElement$1",
+            "XXX.block.model.BlockElementFace",
+            "XXX.block.model.BlockElementRotation",
+            "XXX.block.model.BlockFaceUV$Deserializer",
+            "XXX.block.model.BlockModel$Deserializer",
+            "XXX.block.model.BlockModel$LoopException",
+            "XXX.block.model.BlockModelDefinition$Context",
+            "XXX.block.model.BlockModelDefinition$MissingVariantException",
+            "XXX.block.model.FaceBakery$1",
+            "XXX.block.model.ItemModelGenerator$1",
+            "XXX.block.model.ItemModelGenerator$SpanFacing",
+            "XXX.block.model.ItemOverride$Deserializer",
+            "XXX.block.model.ItemOverrides",
+            "XXX.block.model.ItemOverrides$PropertyMatcher",
+            "XXX.block.model.ItemTransform$Deserializer",
+            "XXX.block.model.ItemTransforms$1",
+            "XXX.block.model.MultiVariant",
+            "XXX.block.model.Variant",
+            "XXX.model.multipart.AndCondition",
+            "XXX.model.multipart.KeyValueCondition",
+            "XXX.model.multipart.MultiPart$Deserializer",
+            "XXX.model.multipart.Selector",
+            "XXX.model.multipart.package-info",
+            "XXX.renderer.block.package-info",
+            "XXX.renderer.blockentity.BeaconRenderer",
+            "XXX.renderer.blockentity.BellRenderer",
+            "XXX.renderer.blockentity.BlockEntityRenderer",
+            "XXX.renderer.blockentity.BlockEntityRendererProvider$Context",
+            "XXX.renderer.blockentity.BrightnessCombiner",
+            "XXX.renderer.blockentity.BrushableBlockRenderer$1",
+            "XXX.renderer.blockentity.ChestRenderer",
+            "XXX.renderer.blockentity.DecoratedPotRenderer",
+            "XXX.renderer.blockentity.HangingSignRenderer",
+            "XXX.renderer.blockentity.LecternRenderer",
+            "XXX.renderer.blockentity.ShulkerBoxRenderer",
+            "XXX.renderer.blockentity.SignRenderer$SignModel",
+            "XXX.renderer.blockentity.SpawnerRenderer",
+            "XXX.renderer.blockentity.StructureBlockRenderer$1",
+            "XXX.renderer.blockentity.TheEndPortalRenderer",
+            "XXX.renderer.chunk.ChunkRenderDispatcher",
+            "XXX.renderer.chunk.ChunkRenderDispatcher$CompiledChunk",
+            "XXX.renderer.chunk.ChunkRenderDispatcher$RenderChunk",
+            "XXX.renderer.chunk.ChunkRenderDispatcher$RenderChunk$RebuildTask",
+            "XXX.renderer.chunk.ChunkRenderDispatcher$RenderChunk$ResortTransparencyTask",
+            "XXX.renderer.chunk.RenderChunkRegion",
+            "XXX.renderer.chunk.RenderRegionCache$ChunkInfo",
+            "XXX.renderer.chunk.VisGraph$1",
+            "XXX.renderer.chunk.package-info",
+            "XXX.renderer.culling.package-info",
+            "XXX.renderer.debug.BeeDebugRenderer$BeeInfo",
+            "XXX.renderer.debug.BrainDebugRenderer",
+            "XXX.renderer.debug.BrainDebugRenderer$PoiInfo",
+            "XXX.renderer.debug.ChunkDebugRenderer",
+            "XXX.renderer.debug.CollisionBoxRenderer",
+            "XXX.renderer.debug.DebugRenderer$SimpleDebugRenderer",
+            "XXX.renderer.debug.GameEventListenerRenderer$TrackedGameEvent",
+            "XXX.renderer.debug.GameTestDebugRenderer",
+            "XXX.renderer.debug.GoalSelectorDebugRenderer",
+            "XXX.renderer.debug.HeightMapRenderer",
+            "XXX.renderer.debug.LightDebugRenderer",
+            "XXX.renderer.debug.LightSectionDebugRenderer$1",
+            "XXX.renderer.debug.NeighborsUpdateRenderer",
+            "XXX.renderer.debug.RaidDebugRenderer",
+            "XXX.renderer.debug.StructureRenderer",
+            "XXX.telemetry.events.GameLoadTimesEvent",
+            "XXX.level.lighting.LightEventListener",
+            "XXX.level.lighting.SkyLightEngine$1",
+            "XXX.level.lighting.SkyLightSectionStorage$SkyDataLayerStorageMap",
+            "XXX.level.lighting.SpatialLongSet$InternalMap",
+            "XXX.level.material.EmptyFluid",
+            "XXX.level.material.FlowingFluid$1",
+            "XXX.level.material.FluidState",
+            "XXX.level.material.FogType",
+            "XXX.level.material.LavaFluid$Flowing",
+            "XXX.level.material.MapColor",
+            "XXX.level.material.PushReaction",
+            "XXX.level.material.WaterFluid$Flowing",
+            "XXX.level.material.package-info",
+            "XXX.level.pathfinder.AmphibiousNodeEvaluator",
+            "XXX.level.pathfinder.BlockPathTypes",
+            "XXX.level.pathfinder.Node",
+            "XXX.level.pathfinder.Path",
+            "XXX.level.pathfinder.PathFinder",
+            "XXX.level.pathfinder.Target",
+            "XXX.level.pathfinder.package-info",
+            "XXX.level.portal.PortalInfo",
+            "XXX.level.portal.package-info",
+            "XXX.level.redstone.CollectingNeighborUpdater$FullNeighborUpdate",
+            "XXX.level.redstone.CollectingNeighborUpdater$NeighborUpdates",
+            "XXX.level.redstone.CollectingNeighborUpdater$SimpleNeighborUpdate",
+            "XXX.level.redstone.NeighborUpdater",
+            "XXX.level.redstone.package-info",
+            "XXX.saveddata.maps.MapBanner",
+            "XXX.saveddata.maps.MapDecoration",
+            "XXX.saveddata.maps.MapFrame",
+            "XXX.saveddata.maps.MapItemSavedData",
+            "XXX.saveddata.maps.MapItemSavedData$MapPatch",
+            "XXX.level.saveddata.package-info",
+            "XXX.level.storage.CommandStorage$Container",
+            "XXX.level.storage.DerivedLevelData",
+            "XXX.level.storage.LevelData",
+            "XXX.level.storage.LevelStorageException",
+            "XXX.level.storage.LevelStorageSource$LevelCandidates",
+            "XXX.level.storage.LevelStorageSource$LevelStorageAccess",
+            "XXX.level.storage.LevelStorageSource$LevelStorageAccess$2",
+            "XXX.level.storage.LevelSummary$BackupStatus",
+            "XXX.level.storage.PlayerDataStorage",
+            "XXX.level.storage.PrimaryLevelData$SpecialWorldProperty",
+            "XXX.level.storage.WorldData",
+            "XXX.storage.loot.BuiltInLootTables",
+            "XXX.storage.loot.GsonAdapterFactory",
+            "XXX.storage.loot.GsonAdapterFactory$InlineSerializer",
+            "XXX.storage.loot.IntRange",
+            "XXX.storage.loot.IntRange$IntLimiter",
+            "XXX.storage.loot.LootContext",
+            "XXX.storage.loot.LootContext$DynamicDrop",
+            "XXX.storage.loot.LootContext$EntityTarget$Serializer",
+            "XXX.storage.loot.LootContextUser",
+            "XXX.storage.loot.LootDataManager",
+            "XXX.storage.loot.LootDataManager$CompositePredicate",
+            "XXX.storage.loot.LootDataResolver",
+            "XXX.storage.loot.LootDataType$Validator",
+            "XXX.storage.loot.LootPool$Builder",
+            "XXX.storage.loot.LootTable",
+            "XXX.storage.loot.LootTable$Serializer",
+            "XXX.storage.loot.SerializerType",
+            "XXX.loot.entries.AlternativesEntry",
+            "XXX.loot.entries.ComposableEntryContainer",
+            "XXX.loot.entries.CompositeEntryBase$1",
+            "XXX.loot.entries.DynamicLoot",
+            "XXX.loot.entries.EmptyLootItem",
+            "XXX.loot.entries.EntryGroup",
+            "XXX.loot.entries.LootItem",
+            "XXX.loot.entries.LootPoolEntries",
+            "XXX.loot.entries.LootPoolEntryContainer",
+            "XXX.loot.entries.LootPoolEntryContainer$Serializer",
+            "XXX.loot.entries.LootPoolSingletonContainer",
+            "XXX.loot.entries.LootPoolSingletonContainer$Builder",
+            "XXX.loot.entries.LootPoolSingletonContainer$EntryBase",
+            "XXX.loot.entries.LootPoolSingletonContainer$Serializer",
+            "XXX.loot.entries.LootTableReference$Serializer",
+            "XXX.loot.entries.SequentialEntry$Builder",
+            "XXX.loot.entries.TagEntry$1",
+            "XXX.loot.entries.package-info",
+            "XXX.loot.functions.ApplyBonusCount$BinomialWithBonusCount",
+            "XXX.loot.functions.ApplyBonusCount$FormulaDeserializer",
+            "XXX.loot.functions.ApplyBonusCount$Serializer",
+            "XXX.loot.functions.ApplyExplosionDecay",
+            "XXX.loot.functions.CopyBlockState",
+            "XXX.loot.functions.CopyBlockState$Serializer",
+            "XXX.loot.functions.CopyNameFunction$NameSource",
+            "XXX.loot.functions.CopyNbtFunction",
+            "XXX.loot.functions.CopyNbtFunction$CopyOperation",
+            "XXX.loot.functions.CopyNbtFunction$MergeStrategy$1",
+            "XXX.loot.functions.CopyNbtFunction$MergeStrategy$3",
+            "XXX.loot.functions.EnchantRandomlyFunction",
+            "XXX.loot.functions.EnchantRandomlyFunction$Serializer",
+            "XXX.loot.functions.EnchantWithLevelsFunction$Builder",
+            "XXX.loot.functions.ExplorationMapFunction",
+            "XXX.loot.functions.ExplorationMapFunction$Serializer",
+            "XXX.loot.functions.FillPlayerHead$Serializer",
+            "XXX.loot.functions.FunctionReference$Serializer",
+            "XXX.loot.functions.LimitCount",
+            "XXX.loot.functions.LootItemConditionalFunction",
+            "XXX.loot.functions.LootItemConditionalFunction$DummyBuilder",
+            "XXX.loot.functions.LootItemFunction",
+            "XXX.loot.functions.LootItemFunctionType",
+            "XXX.loot.functions.LootingEnchantFunction",
+            "XXX.loot.functions.LootingEnchantFunction$Serializer",
+            "XXX.loot.functions.SetAttributesFunction$1",
+            "XXX.loot.functions.SetAttributesFunction$Modifier",
+            "XXX.loot.functions.SetAttributesFunction$Serializer",
+            "XXX.loot.functions.SetBannerPatternFunction$Builder",
+            "XXX.loot.functions.SetContainerContents",
+            "XXX.loot.functions.SetContainerContents$Serializer",
+            "XXX.loot.functions.SetContainerLootTable$Serializer",
+            "XXX.loot.functions.SetEnchantmentsFunction$Builder",
+            "XXX.loot.functions.SetInstrumentFunction",
+            "XXX.loot.functions.SetItemCountFunction",
+            "XXX.loot.functions.SetItemDamageFunction",
+            "XXX.loot.functions.SetLoreFunction",
+            "XXX.loot.functions.SetLoreFunction$Serializer",
+            "XXX.loot.functions.SetNameFunction$Serializer",
+            "XXX.loot.functions.SetNbtFunction$Serializer",
+            "XXX.loot.functions.SetPotionFunction$Serializer",
+            "XXX.loot.functions.SetStewEffectFunction$Builder",
+            "XXX.loot.functions.SmeltItemFunction",
+            "XXX.loot.functions.package-info",
+            "XXX.loot.parameters.LootContextParam",
+            "XXX.loot.parameters.LootContextParamSet$Builder",
+            "XXX.loot.parameters.LootContextParams",
+            "XXX.loot.predicates.AllOfCondition",
+            "XXX.loot.predicates.AllOfCondition$Serializer",
+            "XXX.loot.predicates.AnyOfCondition$Builder",
+            "XXX.loot.predicates.CompositeLootItemCondition",
+            "XXX.loot.predicates.CompositeLootItemCondition$Serializer",
+            "XXX.loot.predicates.ConditionReference$Serializer",
+            "XXX.loot.predicates.DamageSourceCondition",
+            "XXX.loot.predicates.EntityHasScoreCondition",
+            "XXX.loot.predicates.EntityHasScoreCondition$Serializer",
+            "XXX.loot.predicates.ExplosionCondition$Serializer",
+            "XXX.loot.predicates.InvertedLootItemCondition$Serializer",
+            "XXX.loot.predicates.LocationCheck$Serializer",
+            "XXX.loot.predicates.LootItemBlockStatePropertyCondition$Builder",
+            "XXX.loot.predicates.LootItemCondition",
+            "XXX.loot.predicates.LootItemConditionType",
+            "XXX.loot.predicates.LootItemEntityPropertyCondition",
+            "XXX.loot.predicates.LootItemKilledByPlayerCondition",
+            "XXX.loot.predicates.LootItemRandomChanceCondition",
+            "XXX.loot.predicates.LootItemRandomChanceWithLootingCondition",
+            "XXX.loot.predicates.MatchTool",
+            "XXX.loot.predicates.TimeCheck",
+            "XXX.loot.predicates.TimeCheck$Serializer",
+            "XXX.loot.predicates.ValueCheckCondition$Serializer",
+            "XXX.loot.predicates.WeatherCheck$Builder",
+            "XXX.loot.predicates.package-info",
+            "XXX.providers.nbt.ContextNbtProvider$1",
+            "XXX.providers.nbt.ContextNbtProvider$Getter",
+            "XXX.providers.nbt.ContextNbtProvider$Serializer",
+            "XXX.providers.nbt.NbtProvider",
+            "XXX.providers.nbt.StorageNbtProvider",
+            "XXX.providers.nbt.package-info",
+            "XXX.providers.number.BinomialDistributionGenerator$Serializer",
+            "XXX.providers.number.ConstantValue$InlineSerializer",
+            "XXX.providers.number.LootNumberProviderType",
+            "XXX.providers.number.NumberProviders",
+            "XXX.providers.number.ScoreboardValue$Serializer",
+            "XXX.providers.number.UniformGenerator$Serializer",
+            "XXX.providers.score.ContextScoreboardNameProvider",
+            "XXX.providers.score.ContextScoreboardNameProvider$Serializer",
+            "XXX.providers.score.FixedScoreboardNameProvider$Serializer",
+            "XXX.providers.score.ScoreboardNameProvider",
+            "XXX.providers.score.package-info",
+            "XXX.level.timers.FunctionCallback",
+            "XXX.level.timers.FunctionTagCallback",
+            "XXX.level.timers.TimerCallback",
+            "XXX.level.timers.TimerCallbacks",
+            "XXX.level.timers.TimerQueue$Event",
+            "XXX.minecraft.world.package-info",
+            "XXX.world.phys.BlockHitResult",
+            "XXX.world.phys.HitResult",
+            "XXX.world.phys.Vec2",
+            "XXX.world.phys.package-info",
+            "XXX.phys.shapes.ArrayVoxelShape$1",
+            "XXX.phys.shapes.BooleanOp",
+            "XXX.phys.shapes.CubePointRange",
+            "XXX.phys.shapes.DiscreteCubeMerger",
+            "XXX.phys.shapes.DiscreteVoxelShape$IntFaceConsumer",
+            "XXX.phys.shapes.EntityCollisionContext",
+            "XXX.phys.shapes.IdenticalMerger",
+            "XXX.phys.shapes.IndexMerger$IndexConsumer",
+            "XXX.phys.shapes.NonOverlappingMerger",
+            "XXX.phys.shapes.Shapes",
+            "XXX.phys.shapes.SliceShape",
+            "XXX.phys.shapes.VoxelShape",
+            "XXX.world.scores.Objective",
+            "XXX.world.scores.Score",
+            "XXX.world.scores.ScoreboardSaveData",
+            "XXX.world.scores.Team$CollisionRule",
+            "XXX.scores.criteria.ObjectiveCriteria",
+            "XXX.scores.criteria.package-info",
+            "XXX.world.ticks.BlackholeTickAccess",
+            "XXX.world.ticks.BlackholeTickAccess$2",
+            "XXX.world.ticks.LevelChunkTicks",
+            "XXX.world.ticks.LevelTicks",
+            "XXX.world.ticks.ProtoChunkTicks",
+            "XXX.world.ticks.SavedTick$1",
+            "XXX.world.ticks.ScheduledTick$1",
+            "XXX.world.ticks.TickAccess",
+            "XXX.world.ticks.TickPriority",
+            "XXX.world.ticks.package-info"
+          ]
+        }
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "Changes",
+        "lines": [
+          "XXX.blaze3d.font.SpaceProvider \u001b[2;32m+3M\u001b[0m \u001b[2;31m-6M\u001b[0m",
+          "net.minecraft.SharedConstants \u001b[2;32m+2P\u001b[0m",
+          "XXX.minecraft.advancements.Advancement$Builder \u001b[2;32m+3M\u001b[0m \u001b[2;31m-2M\u001b[0m | \u001b[2;32m+1P\u001b[0m",
+          "XXX.advancements.critereon.BeeNestDestroyedTrigger \u001b[2;32m+2M\u001b[0m \u001b[2;31m-2M\u001b[0m",
+          "XXX.advancements.critereon.BredAnimalsTrigger \u001b[2;32m+2M\u001b[0m \u001b[2;31m-2M\u001b[0m",
+          "XXX.advancements.critereon.BrewedPotionTrigger \u001b[2;32m+2M\u001b[0m \u001b[2;31m-2M\u001b[0m",
+          "XXX.advancements.critereon.ChangeDimensionTrigger \u001b[2;32m+2M\u001b[0m \u001b[2;31m-2M\u001b[0m",
+          "XXX.advancements.critereon.ChanneledLightningTrigger \u001b[2;32m+2M\u001b[0m \u001b[2;31m-2M\u001b[0m",
+          "XXX.advancements.critereon.ConstructBeaconTrigger \u001b[2;32m+2M\u001b[0m \u001b[2;31m-2M\u001b[0m",
+          "XXX.advancements.critereon.ConsumeItemTrigger \u001b[2;32m+2M\u001b[0m \u001b[2;31m-2M\u001b[0m",
+          "XXX.advancements.critereon.FilledBucketTrigger \u001b[2;32m+2M\u001b[0m \u001b[2;31m-2M\u001b[0m",
+          "XXX.advancements.critereon.FishingRodHookedTrigger$TriggerInstance \u001b[2;32m+1M\u001b[0m \u001b[2;31m-1M\u001b[0m | \u001b[2;32m+1P\u001b[0m \u001b[2;31m-1P\u001b[0m",
+          "XXX.advancements.critereon.InventoryChangeTrigger$TriggerInstance \u001b[2;32m+1M\u001b[0m \u001b[2;31m-1M\u001b[0m",
+          "XXX.advancements.critereon.ItemDurabilityTrigger$TriggerInstance \u001b[2;32m+2M\u001b[0m \u001b[2;31m-2M\u001b[0m",
+          "XXX.advancements.critereon.KilledByCrossbowTrigger$TriggerInstance \u001b[2;32m+1M\u001b[0m \u001b[2;31m-1M\u001b[0m | \u001b[2;32m+1P\u001b[0m \u001b[2;31m-1P\u001b[0m",
+          "XXX.advancements.critereon.KilledTrigger$TriggerInstance \u001b[2;32m+1M\u001b[0m \u001b[2;31m-1M\u001b[0m | \u001b[2;32m+1P\u001b[0m \u001b[2;31m-1P\u001b[0m",
+          "XXX.advancements.critereon.LevitationTrigger$TriggerInstance \u001b[2;32m+1M\u001b[0m \u001b[2;31m-1M\u001b[0m",
+          "XXX.advancements.critereon.LightningStrikeTrigger \u001b[2;32m+2M\u001b[0m \u001b[2;31m-2M\u001b[0m",
+          "XXX.advancements.critereon.LootTableTrigger \u001b[2;32m+2M\u001b[0m \u001b[2;31m-2M\u001b[0m",
+          "XXX.advancements.critereon.PickedUpItemTrigger \u001b[2;32m+2M\u001b[0m \u001b[2;31m-2M\u001b[0m",
+          "XXX.advancements.critereon.PlayerHurtEntityTrigger \u001b[2;32m+2M\u001b[0m \u001b[2;31m-2M\u001b[0m",
+          "XXX.advancements.critereon.PlayerInteractTrigger \u001b[2;32m+2M\u001b[0m \u001b[2;31m-2M\u001b[0m",
+          "XXX.advancements.critereon.PlayerTrigger$TriggerInstance \u001b[2;32m+1M\u001b[0m \u001b[2;31m-1M\u001b[0m",
+          "XXX.advancements.critereon.RecipeCraftedTrigger$TriggerInstance \u001b[2;32m+1M\u001b[0m \u001b[2;31m-1M\u001b[0m",
+          "XXX.advancements.critereon.RecipeUnlockedTrigger$TriggerInstance \u001b[2;32m+1M\u001b[0m \u001b[2;31m-1M\u001b[0m",
+          "XXX.advancements.critereon.ShotCrossbowTrigger \u001b[2;32m+2M\u001b[0m \u001b[2;31m-2M\u001b[0m",
+          "XXX.advancements.critereon.SimpleCriterionTrigger \u001b[2;32m+1P\u001b[0m \u001b[2;31m-1P\u001b[0m",
+          "XXX.advancements.critereon.SlideDownBlockTrigger$TriggerInstance \u001b[2;32m+1M\u001b[0m \u001b[2;31m-1M\u001b[0m",
+          "XXX.advancements.critereon.StartRidingTrigger \u001b[2;32m+2M\u001b[0m \u001b[2;31m-2M\u001b[0m",
+          "XXX.advancements.critereon.SummonedEntityTrigger$TriggerInstance \u001b[2;32m+1M\u001b[0m \u001b[2;31m-1M\u001b[0m | \u001b[2;32m+1P\u001b[0m \u001b[2;31m-1P\u001b[0m",
+          "XXX.advancements.critereon.TameAnimalTrigger \u001b[2;32m+2M\u001b[0m \u001b[2;31m-2M\u001b[0m",
+          "XXX.advancements.critereon.TargetBlockTrigger \u001b[2;32m+2M\u001b[0m \u001b[2;31m-2M\u001b[0m",
+          "XXX.advancements.critereon.TradeTrigger \u001b[2;32m+2M\u001b[0m \u001b[2;31m-2M\u001b[0m",
+          "XXX.advancements.critereon.UsedEnderEyeTrigger \u001b[2;32m+2M\u001b[0m \u001b[2;31m-2M\u001b[0m",
+          "XXX.advancements.critereon.UsedTotemTrigger \u001b[2;32m+2M\u001b[0m \u001b[2;31m-2M\u001b[0m",
+          "XXX.advancements.critereon.UsingItemTrigger \u001b[2;32m+2M\u001b[0m \u001b[2;31m-2M\u001b[0m",
+          "XXX.gui.components.DebugScreenOverlay \u001b[2;32m+10M\u001b[0m \u001b[2;31m-8M\u001b[0m",
+          "XXX.gui.screens.LevelLoadingScreen \u001b[2;32m+2M\u001b[0m \u001b[2;31m-1M\u001b[0m",
+          "XXX.client.multiplayer.ClientAdvancements \u001b[2;32m+1M\u001b[0m \u001b[2;31m-1M\u001b[0m | \u001b[2;32m+1P\u001b[0m",
+          "XXX.client.multiplayer.ClientHandshakePacketListenerImpl \u001b[2;32m+1M\u001b[0m | \u001b[2;32m+1P\u001b[0m",
+          "XXX.client.renderer.GameRenderer \u001b[2;32m+15M\u001b[0m \u001b[2;31m-11M\u001b[0m | \u001b[2;32m+4P\u001b[0m \u001b[2;31m-2P\u001b[0m",
+          "XXX.client.renderer.LevelRenderer \u001b[2;32m+3M\u001b[0m \u001b[2;31m-1M\u001b[0m",
+          "XXX.client.telemetry.TelemetryEventType \u001b[2;32m+2P\u001b[0m",
+          "XXX.client.telemetry.WorldSessionTelemetryManager \u001b[2;32m+3M\u001b[0m \u001b[2;31m-1M\u001b[0m",
+          "XXX.advancements.packs.VanillaAdventureAdvancements \u001b[2;32m+8M\u001b[0m \u001b[2;31m-2M\u001b[0m",
+          "XXX.advancements.packs.VanillaNetherAdvancements \u001b[2;32m+1P\u001b[0m \u001b[2;31m-1P\u001b[0m",
+          "XXX.network.syncher.SynchedEntityData \u001b[2;32m+1M\u001b[0m",
+          "XXX.structure.structures.JigsawStructure \u001b[2;32m+1M\u001b[0m \u001b[2;31m-2M\u001b[0m",
+          "XXX.level.lighting.LightEngine \u001b[2;31m-2M\u001b[0m | \u001b[2;32m+1P\u001b[0m \u001b[2;31m-1P\u001b[0m"
+        ]
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "com.mojang.blaze3d.font.SpaceProvider",
+        "differences": {
+          "added": [
+            "void <init>(Int2FloatMap)",
+            "GlyphProviderBuilder builderFromJson(JsonObject)",
+            "Either lambda$builderFromJson$3(GlyphProviderBuilder$Loader)",
+            "GlyphProvider lambda$builderFromJson$2(Int2FloatMap,ResourceManager)",
+            "void lambda$new$1(Int2FloatMap$Entry)",
+            "float lambda$new$0(float)"
+          ],
+          "removed": [
+            "void <init>(Map)",
+            "void lambda$new$1(Integer,Float)",
+            "float lambda$new$0(Float)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.advancements.Advancement$Builder",
+        "differences": {
+          "added": [
+            "void <init>(ResourceLocation,DisplayInfo,AdvancementRewards,Map,String[][])",
+            "void <init>()"
+          ],
+          "removed": [
+            "void <init>(ResourceLocation,DisplayInfo,AdvancementRewards,Map,String[][],boolean)",
+            "void <init>(boolean)",
+            "Advancement$Builder recipeAdvancement()"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.advancements.critereon.BeeNestDestroyedTrigger",
+        "differences": {
+          "added": [
+            "BeeNestDestroyedTrigger$TriggerInstance createInstance(JsonObject,EntityPredicate$Composite,DeserializationContext)",
+            "AbstractCriterionTriggerInstance createInstance(JsonObject,EntityPredicate$Composite,DeserializationContext)"
+          ],
+          "removed": [
+            "BeeNestDestroyedTrigger$TriggerInstance createInstance(JsonObject,ContextAwarePredicate,DeserializationContext)",
+            "AbstractCriterionTriggerInstance createInstance(JsonObject,ContextAwarePredicate,DeserializationContext)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.advancements.critereon.BredAnimalsTrigger",
+        "differences": {
+          "added": [
+            "BredAnimalsTrigger$TriggerInstance createInstance(JsonObject,EntityPredicate$Composite,DeserializationContext)",
+            "AbstractCriterionTriggerInstance createInstance(JsonObject,EntityPredicate$Composite,DeserializationContext)"
+          ],
+          "removed": [
+            "BredAnimalsTrigger$TriggerInstance createInstance(JsonObject,ContextAwarePredicate,DeserializationContext)",
+            "AbstractCriterionTriggerInstance createInstance(JsonObject,ContextAwarePredicate,DeserializationContext)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.advancements.critereon.BrewedPotionTrigger",
+        "differences": {
+          "added": [
+            "BrewedPotionTrigger$TriggerInstance createInstance(JsonObject,EntityPredicate$Composite,DeserializationContext)",
+            "AbstractCriterionTriggerInstance createInstance(JsonObject,EntityPredicate$Composite,DeserializationContext)"
+          ],
+          "removed": [
+            "BrewedPotionTrigger$TriggerInstance createInstance(JsonObject,ContextAwarePredicate,DeserializationContext)",
+            "AbstractCriterionTriggerInstance createInstance(JsonObject,ContextAwarePredicate,DeserializationContext)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.advancements.critereon.ChangeDimensionTrigger",
+        "differences": {
+          "added": [
+            "ChangeDimensionTrigger$TriggerInstance createInstance(JsonObject,EntityPredicate$Composite,DeserializationContext)",
+            "AbstractCriterionTriggerInstance createInstance(JsonObject,EntityPredicate$Composite,DeserializationContext)"
+          ],
+          "removed": [
+            "ChangeDimensionTrigger$TriggerInstance createInstance(JsonObject,ContextAwarePredicate,DeserializationContext)",
+            "AbstractCriterionTriggerInstance createInstance(JsonObject,ContextAwarePredicate,DeserializationContext)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.advancements.critereon.ChanneledLightningTrigger",
+        "differences": {
+          "added": [
+            "ChanneledLightningTrigger$TriggerInstance createInstance(JsonObject,EntityPredicate$Composite,DeserializationContext)",
+            "AbstractCriterionTriggerInstance createInstance(JsonObject,EntityPredicate$Composite,DeserializationContext)"
+          ],
+          "removed": [
+            "ChanneledLightningTrigger$TriggerInstance createInstance(JsonObject,ContextAwarePredicate,DeserializationContext)",
+            "AbstractCriterionTriggerInstance createInstance(JsonObject,ContextAwarePredicate,DeserializationContext)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.advancements.critereon.ConstructBeaconTrigger",
+        "differences": {
+          "added": [
+            "ConstructBeaconTrigger$TriggerInstance createInstance(JsonObject,EntityPredicate$Composite,DeserializationContext)",
+            "AbstractCriterionTriggerInstance createInstance(JsonObject,EntityPredicate$Composite,DeserializationContext)"
+          ],
+          "removed": [
+            "ConstructBeaconTrigger$TriggerInstance createInstance(JsonObject,ContextAwarePredicate,DeserializationContext)",
+            "AbstractCriterionTriggerInstance createInstance(JsonObject,ContextAwarePredicate,DeserializationContext)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.advancements.critereon.ConsumeItemTrigger",
+        "differences": {
+          "added": [
+            "ConsumeItemTrigger$TriggerInstance createInstance(JsonObject,EntityPredicate$Composite,DeserializationContext)",
+            "AbstractCriterionTriggerInstance createInstance(JsonObject,EntityPredicate$Composite,DeserializationContext)"
+          ],
+          "removed": [
+            "ConsumeItemTrigger$TriggerInstance createInstance(JsonObject,ContextAwarePredicate,DeserializationContext)",
+            "AbstractCriterionTriggerInstance createInstance(JsonObject,ContextAwarePredicate,DeserializationContext)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.advancements.critereon.FilledBucketTrigger",
+        "differences": {
+          "added": [
+            "FilledBucketTrigger$TriggerInstance createInstance(JsonObject,EntityPredicate$Composite,DeserializationContext)",
+            "AbstractCriterionTriggerInstance createInstance(JsonObject,EntityPredicate$Composite,DeserializationContext)"
+          ],
+          "removed": [
+            "FilledBucketTrigger$TriggerInstance createInstance(JsonObject,ContextAwarePredicate,DeserializationContext)",
+            "AbstractCriterionTriggerInstance createInstance(JsonObject,ContextAwarePredicate,DeserializationContext)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.advancements.critereon.FishingRodHookedTrigger$TriggerInstance",
+        "differences": {
+          "added": [
+            "void <init>(EntityPredicate$Composite,ItemPredicate,EntityPredicate$Composite,ItemPredicate)"
+          ],
+          "removed": [
+            "void <init>(ContextAwarePredicate,ItemPredicate,ContextAwarePredicate,ItemPredicate)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.advancements.critereon.InventoryChangeTrigger$TriggerInstance",
+        "differences": {
+          "added": [
+            "void <init>(EntityPredicate$Composite,MinMaxBounds$Ints,MinMaxBounds$Ints,MinMaxBounds$Ints,ItemPredicate[])"
+          ],
+          "removed": [
+            "void <init>(ContextAwarePredicate,MinMaxBounds$Ints,MinMaxBounds$Ints,MinMaxBounds$Ints,ItemPredicate[])"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.advancements.critereon.ItemDurabilityTrigger$TriggerInstance",
+        "differences": {
+          "added": [
+            "void <init>(EntityPredicate$Composite,ItemPredicate,MinMaxBounds$Ints,MinMaxBounds$Ints)",
+            "ItemDurabilityTrigger$TriggerInstance changedDurability(EntityPredicate$Composite,ItemPredicate,MinMaxBounds$Ints)"
+          ],
+          "removed": [
+            "void <init>(ContextAwarePredicate,ItemPredicate,MinMaxBounds$Ints,MinMaxBounds$Ints)",
+            "ItemDurabilityTrigger$TriggerInstance changedDurability(ContextAwarePredicate,ItemPredicate,MinMaxBounds$Ints)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.advancements.critereon.KilledByCrossbowTrigger$TriggerInstance",
+        "differences": {
+          "added": [
+            "void <init>(EntityPredicate$Composite,EntityPredicate$Composite[],MinMaxBounds$Ints)"
+          ],
+          "removed": [
+            "void <init>(ContextAwarePredicate,ContextAwarePredicate[],MinMaxBounds$Ints)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.advancements.critereon.KilledTrigger$TriggerInstance",
+        "differences": {
+          "added": [
+            "void <init>(ResourceLocation,EntityPredicate$Composite,EntityPredicate$Composite,DamageSourcePredicate)"
+          ],
+          "removed": [
+            "void <init>(ResourceLocation,ContextAwarePredicate,ContextAwarePredicate,DamageSourcePredicate)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.advancements.critereon.LevitationTrigger$TriggerInstance",
+        "differences": {
+          "added": [
+            "void <init>(EntityPredicate$Composite,DistancePredicate,MinMaxBounds$Ints)"
+          ],
+          "removed": [
+            "void <init>(ContextAwarePredicate,DistancePredicate,MinMaxBounds$Ints)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.advancements.critereon.LightningStrikeTrigger",
+        "differences": {
+          "added": [
+            "LightningStrikeTrigger$TriggerInstance createInstance(JsonObject,EntityPredicate$Composite,DeserializationContext)",
+            "AbstractCriterionTriggerInstance createInstance(JsonObject,EntityPredicate$Composite,DeserializationContext)"
+          ],
+          "removed": [
+            "LightningStrikeTrigger$TriggerInstance createInstance(JsonObject,ContextAwarePredicate,DeserializationContext)",
+            "AbstractCriterionTriggerInstance createInstance(JsonObject,ContextAwarePredicate,DeserializationContext)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.advancements.critereon.LootTableTrigger",
+        "differences": {
+          "added": [
+            "LootTableTrigger$TriggerInstance createInstance(JsonObject,EntityPredicate$Composite,DeserializationContext)",
+            "AbstractCriterionTriggerInstance createInstance(JsonObject,EntityPredicate$Composite,DeserializationContext)"
+          ],
+          "removed": [
+            "LootTableTrigger$TriggerInstance createInstance(JsonObject,ContextAwarePredicate,DeserializationContext)",
+            "AbstractCriterionTriggerInstance createInstance(JsonObject,ContextAwarePredicate,DeserializationContext)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.advancements.critereon.PickedUpItemTrigger",
+        "differences": {
+          "added": [
+            "PickedUpItemTrigger$TriggerInstance createInstance(JsonObject,EntityPredicate$Composite,DeserializationContext)",
+            "AbstractCriterionTriggerInstance createInstance(JsonObject,EntityPredicate$Composite,DeserializationContext)"
+          ],
+          "removed": [
+            "PickedUpItemTrigger$TriggerInstance createInstance(JsonObject,ContextAwarePredicate,DeserializationContext)",
+            "AbstractCriterionTriggerInstance createInstance(JsonObject,ContextAwarePredicate,DeserializationContext)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.advancements.critereon.PlayerHurtEntityTrigger",
+        "differences": {
+          "added": [
+            "PlayerHurtEntityTrigger$TriggerInstance createInstance(JsonObject,EntityPredicate$Composite,DeserializationContext)",
+            "AbstractCriterionTriggerInstance createInstance(JsonObject,EntityPredicate$Composite,DeserializationContext)"
+          ],
+          "removed": [
+            "PlayerHurtEntityTrigger$TriggerInstance createInstance(JsonObject,ContextAwarePredicate,DeserializationContext)",
+            "AbstractCriterionTriggerInstance createInstance(JsonObject,ContextAwarePredicate,DeserializationContext)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.advancements.critereon.PlayerInteractTrigger",
+        "differences": {
+          "added": [
+            "PlayerInteractTrigger$TriggerInstance createInstance(JsonObject,EntityPredicate$Composite,DeserializationContext)",
+            "AbstractCriterionTriggerInstance createInstance(JsonObject,EntityPredicate$Composite,DeserializationContext)"
+          ],
+          "removed": [
+            "PlayerInteractTrigger$TriggerInstance createInstance(JsonObject,ContextAwarePredicate,DeserializationContext)",
+            "AbstractCriterionTriggerInstance createInstance(JsonObject,ContextAwarePredicate,DeserializationContext)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.advancements.critereon.PlayerTrigger$TriggerInstance",
+        "differences": {
+          "added": [
+            "void <init>(ResourceLocation,EntityPredicate$Composite)"
+          ],
+          "removed": [
+            "void <init>(ResourceLocation,ContextAwarePredicate)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.advancements.critereon.RecipeCraftedTrigger$TriggerInstance",
+        "differences": {
+          "added": [
+            "void <init>(EntityPredicate$Composite,ResourceLocation,List)"
+          ],
+          "removed": [
+            "void <init>(ContextAwarePredicate,ResourceLocation,List)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.advancements.critereon.RecipeUnlockedTrigger$TriggerInstance",
+        "differences": {
+          "added": [
+            "void <init>(EntityPredicate$Composite,ResourceLocation)"
+          ],
+          "removed": [
+            "void <init>(ContextAwarePredicate,ResourceLocation)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.advancements.critereon.ShotCrossbowTrigger",
+        "differences": {
+          "added": [
+            "ShotCrossbowTrigger$TriggerInstance createInstance(JsonObject,EntityPredicate$Composite,DeserializationContext)",
+            "AbstractCriterionTriggerInstance createInstance(JsonObject,EntityPredicate$Composite,DeserializationContext)"
+          ],
+          "removed": [
+            "ShotCrossbowTrigger$TriggerInstance createInstance(JsonObject,ContextAwarePredicate,DeserializationContext)",
+            "AbstractCriterionTriggerInstance createInstance(JsonObject,ContextAwarePredicate,DeserializationContext)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.advancements.critereon.SlideDownBlockTrigger$TriggerInstance",
+        "differences": {
+          "added": [
+            "void <init>(EntityPredicate$Composite,Block,StatePropertiesPredicate)"
+          ],
+          "removed": [
+            "void <init>(ContextAwarePredicate,Block,StatePropertiesPredicate)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.advancements.critereon.StartRidingTrigger",
+        "differences": {
+          "added": [
+            "StartRidingTrigger$TriggerInstance createInstance(JsonObject,EntityPredicate$Composite,DeserializationContext)",
+            "AbstractCriterionTriggerInstance createInstance(JsonObject,EntityPredicate$Composite,DeserializationContext)"
+          ],
+          "removed": [
+            "StartRidingTrigger$TriggerInstance createInstance(JsonObject,ContextAwarePredicate,DeserializationContext)",
+            "AbstractCriterionTriggerInstance createInstance(JsonObject,ContextAwarePredicate,DeserializationContext)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.advancements.critereon.SummonedEntityTrigger$TriggerInstance",
+        "differences": {
+          "added": [
+            "void <init>(EntityPredicate$Composite,EntityPredicate$Composite)"
+          ],
+          "removed": [
+            "void <init>(ContextAwarePredicate,ContextAwarePredicate)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.advancements.critereon.TameAnimalTrigger",
+        "differences": {
+          "added": [
+            "TameAnimalTrigger$TriggerInstance createInstance(JsonObject,EntityPredicate$Composite,DeserializationContext)",
+            "AbstractCriterionTriggerInstance createInstance(JsonObject,EntityPredicate$Composite,DeserializationContext)"
+          ],
+          "removed": [
+            "TameAnimalTrigger$TriggerInstance createInstance(JsonObject,ContextAwarePredicate,DeserializationContext)",
+            "AbstractCriterionTriggerInstance createInstance(JsonObject,ContextAwarePredicate,DeserializationContext)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.advancements.critereon.TargetBlockTrigger",
+        "differences": {
+          "added": [
+            "TargetBlockTrigger$TriggerInstance createInstance(JsonObject,EntityPredicate$Composite,DeserializationContext)",
+            "AbstractCriterionTriggerInstance createInstance(JsonObject,EntityPredicate$Composite,DeserializationContext)"
+          ],
+          "removed": [
+            "TargetBlockTrigger$TriggerInstance createInstance(JsonObject,ContextAwarePredicate,DeserializationContext)",
+            "AbstractCriterionTriggerInstance createInstance(JsonObject,ContextAwarePredicate,DeserializationContext)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.advancements.critereon.TradeTrigger",
+        "differences": {
+          "added": [
+            "TradeTrigger$TriggerInstance createInstance(JsonObject,EntityPredicate$Composite,DeserializationContext)",
+            "AbstractCriterionTriggerInstance createInstance(JsonObject,EntityPredicate$Composite,DeserializationContext)"
+          ],
+          "removed": [
+            "TradeTrigger$TriggerInstance createInstance(JsonObject,ContextAwarePredicate,DeserializationContext)",
+            "AbstractCriterionTriggerInstance createInstance(JsonObject,ContextAwarePredicate,DeserializationContext)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.advancements.critereon.UsedEnderEyeTrigger",
+        "differences": {
+          "added": [
+            "UsedEnderEyeTrigger$TriggerInstance createInstance(JsonObject,EntityPredicate$Composite,DeserializationContext)",
+            "AbstractCriterionTriggerInstance createInstance(JsonObject,EntityPredicate$Composite,DeserializationContext)"
+          ],
+          "removed": [
+            "UsedEnderEyeTrigger$TriggerInstance createInstance(JsonObject,ContextAwarePredicate,DeserializationContext)",
+            "AbstractCriterionTriggerInstance createInstance(JsonObject,ContextAwarePredicate,DeserializationContext)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.advancements.critereon.UsedTotemTrigger",
+        "differences": {
+          "added": [
+            "UsedTotemTrigger$TriggerInstance createInstance(JsonObject,EntityPredicate$Composite,DeserializationContext)",
+            "AbstractCriterionTriggerInstance createInstance(JsonObject,EntityPredicate$Composite,DeserializationContext)"
+          ],
+          "removed": [
+            "UsedTotemTrigger$TriggerInstance createInstance(JsonObject,ContextAwarePredicate,DeserializationContext)",
+            "AbstractCriterionTriggerInstance createInstance(JsonObject,ContextAwarePredicate,DeserializationContext)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.advancements.critereon.UsingItemTrigger",
+        "differences": {
+          "added": [
+            "UsingItemTrigger$TriggerInstance createInstance(JsonObject,EntityPredicate$Composite,DeserializationContext)",
+            "AbstractCriterionTriggerInstance createInstance(JsonObject,EntityPredicate$Composite,DeserializationContext)"
+          ],
+          "removed": [
+            "UsingItemTrigger$TriggerInstance createInstance(JsonObject,ContextAwarePredicate,DeserializationContext)",
+            "AbstractCriterionTriggerInstance createInstance(JsonObject,ContextAwarePredicate,DeserializationContext)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.client.gui.components.DebugScreenOverlay",
+        "differences": {
+          "added": [
+            "String lambda$getSystemInformation$8(TagKey)",
+            "LevelChunk lambda$getServerChunk$7(Either)",
+            "LevelChunk lambda$getServerChunk$6(ChunkHolder$ChunkLoadingFailure)",
+            "LevelChunk lambda$getServerChunk$5(ChunkAccess)",
+            "Optional lambda$getLevel$4(IntegratedServer)",
+            "String lambda$printBiome$3(Biome)",
+            "String lambda$printBiome$2(ResourceKey)",
+            "String lambda$getGameInformation$1(Object2IntMap,MobCategory)"
+          ],
+          "removed": [
+            "void renderLines(GuiGraphics,List,boolean)",
+            "String lambda$getSystemInformation$10(TagKey)",
+            "LevelChunk lambda$getServerChunk$8(Either)",
+            "LevelChunk lambda$getServerChunk$7(ChunkHolder$ChunkLoadingFailure)",
+            "LevelChunk lambda$getServerChunk$6(ChunkAccess)",
+            "Optional lambda$getLevel$5(IntegratedServer)",
+            "String lambda$printBiome$4(Biome)",
+            "String lambda$printBiome$3(ResourceKey)",
+            "String lambda$getGameInformation$2(Object2IntMap,MobCategory)",
+            "void lambda$render$1(GuiGraphics)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.client.gui.screens.LevelLoadingScreen",
+        "differences": {
+          "added": [
+            "void lambda$static$0(Object2IntOpenHashMap)"
+          ],
+          "removed": [
+            "void lambda$static$1(Object2IntOpenHashMap)",
+            "void lambda$renderChunks$0(int,GuiGraphics,int,int,int,int,int,StoringChunkProgressListener,int,int,int)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.client.multiplayer.ClientAdvancements",
+        "differences": {
+          "added": [
+            "void <init>(Minecraft)"
+          ],
+          "removed": [
+            "void <init>(Minecraft,WorldSessionTelemetryManager)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.client.multiplayer.ClientHandshakePacketListenerImpl",
+        "differences": {
+          "added": [],
+          "removed": [
+            "void setMinigameName(String)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.client.renderer.GameRenderer",
+        "differences": {
+          "added": [
+            "ShaderInstance getBlockShader()",
+            "ShaderInstance getNewEntityShader()",
+            "void lambda$takeAutoScreenshot$66(NativeImage,Path)",
+            "void lambda$tryTakeScreenshotIfNeeded$65(Path)",
+            "String lambda$render$64()",
+            "String lambda$render$62(int,int)",
+            "String lambda$render$61()",
+            "String lambda$render$60()",
+            "boolean lambda$pick$59(Entity)",
+            "void lambda$reloadShaders$58(Pair)",
+            "void lambda$reloadShaders$57(Pair)"
+          ],
+          "removed": [
+            "ShaderInstance getRendertypeGuiShader()",
+            "ShaderInstance getRendertypeGuiOverlayShader()",
+            "ShaderInstance getRendertypeGuiTextHighlightShader()",
+            "ShaderInstance getRendertypeGuiGhostRecipeOverlayShader()",
+            "void lambda$takeAutoScreenshot$68(NativeImage,Path)",
+            "void lambda$tryTakeScreenshotIfNeeded$67(Path)",
+            "String lambda$render$66()",
+            "String lambda$render$65()",
+            "String lambda$render$64(int,int)",
+            "String lambda$render$62()",
+            "boolean lambda$pick$61(Entity)",
+            "void lambda$reloadShaders$60(Pair)",
+            "void lambda$reloadShaders$59(Pair)",
+            "void lambda$reloadShaders$58(ShaderInstance)",
+            "void lambda$reloadShaders$57(ShaderInstance)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.client.renderer.LevelRenderer",
+        "differences": {
+          "added": [
+            "void renderVoxelShape(PoseStack,VertexConsumer,VoxelShape,double,double,double,float,float,float,float)"
+          ],
+          "removed": [
+            "Vec3 mixColor(float)",
+            "Vec3 shiftHue(float,float,float,float)",
+            "void renderVoxelShape(PoseStack,VertexConsumer,VoxelShape,double,double,double,float,float,float,float,boolean)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.client.telemetry.WorldSessionTelemetryManager",
+        "differences": {
+          "added": [
+            "void <init>(TelemetryEventSender,boolean,Duration)"
+          ],
+          "removed": [
+            "void <init>(TelemetryEventSender,boolean,Duration,String)",
+            "void onAdvancementDone(Level,Advancement)",
+            "void lambda$onAdvancementDone$1(ResourceLocation,long,TelemetryPropertyMap$Builder)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.data.advancements.packs.VanillaAdventureAdvancements",
+        "differences": {
+          "added": [
+            "String[] lambda$respectingTheRemnantsCriterions$1(int)",
+            "void lambda$smithingWithStyle$0(Map,Advancement$Builder,Item)"
+          ],
+          "removed": [
+            "CriterionTriggerInstance placedBlockReadByComparator(Block)",
+            "CriterionTriggerInstance placedComparatorReadingBlock(Block)",
+            "String[] lambda$respectingTheRemnantsCriterions$5(int)",
+            "void lambda$smithingWithStyle$4(Map,Advancement$Builder,Item)",
+            "LootItemCondition$Builder[] lambda$placedComparatorReadingBlock$3(int)",
+            "AllOfCondition$Builder lambda$placedComparatorReadingBlock$2(Block,Direction)",
+            "LootItemCondition$Builder[] lambda$placedBlockReadByComparator$1(int)",
+            "LootItemCondition$Builder lambda$placedBlockReadByComparator$0(Direction)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.network.syncher.SynchedEntityData",
+        "differences": {
+          "added": [],
+          "removed": [
+            "boolean hasItem(EntityDataAccessor)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.level.levelgen.structure.structures.JigsawStructure",
+        "differences": {
+          "added": [
+            "Function verifyRange()",
+            "DataResult lambda$verifyRange$9(JigsawStructure)"
+          ],
+          "removed": [
+            "DataResult verifyRange(JigsawStructure)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.level.lighting.LightEngine",
+        "differences": {
+          "added": [
+            "void clearQueuedSectionBlocks(long)",
+            "boolean lambda$clearQueuedSectionBlocks$0(long,long)"
+          ],
+          "removed": []
+        }
+      }
+    }
+  ]
+}

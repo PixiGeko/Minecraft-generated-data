@@ -1,0 +1,45 @@
+{
+  "version_data": [
+    {
+      "type": "title",
+      "value": {
+        "title": "Libraries",
+        "id": "version-data-libraries",
+        "size": 3
+      }
+    },
+    {
+      "type": "table",
+      "value": {
+        "title": "Versions",
+        "previousLabel": "18w02a",
+        "currentLabel": "18w03a",
+        "values": [
+          {
+            "key": "com.mojang:brigadier",
+            "previous": "0.1.15",
+            "current": "0.1.19"
+          }
+        ]
+      }
+    }
+  ],
+  "commands": [
+    {
+      "type": "entries",
+      "value": {
+        "name": "execute",
+        "differences": {
+          "added": [
+            "execute positioned as <targets: entity>",
+            "execute rotated as <targets: entity>"
+          ],
+          "removed": [
+            "execute positioned as <entities: entity>",
+            "execute rotated as <entities: entity>"
+          ]
+        }
+      }
+    }
+  ]
+}

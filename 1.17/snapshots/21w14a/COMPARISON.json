@@ -1,0 +1,1106 @@
+{
+  "version_data": [
+    {
+      "type": "table",
+      "value": {
+        "previousLabel": "21w13a",
+        "currentLabel": "21w14a",
+        "values": [
+          {
+            "key": "World version",
+            "previous": "2705",
+            "current": "2706"
+          },
+          {
+            "key": "Protocol version",
+            "previous": "1073741844",
+            "current": "1073741845"
+          }
+        ]
+      }
+    },
+    {
+      "type": "title",
+      "value": {
+        "title": "Libraries",
+        "id": "version-data-libraries",
+        "size": 3
+      }
+    },
+    {
+      "type": "table",
+      "value": {
+        "title": "Versions",
+        "previousLabel": "21w13a",
+        "currentLabel": "21w14a",
+        "values": [
+          {
+            "key": "org.lwjgl:lwjgl-glfw",
+            "previous": "3.2.1",
+            "current": "3.2.2"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-glfw",
+            "previous": "3.2.1",
+            "current": "3.2.2"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-jemalloc",
+            "previous": "3.2.1",
+            "current": "3.2.2"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-jemalloc",
+            "previous": "3.2.1",
+            "current": "3.2.2"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-openal",
+            "previous": "3.2.1",
+            "current": "3.2.2"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-openal",
+            "previous": "3.2.1",
+            "current": "3.2.2"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-opengl",
+            "previous": "3.2.1",
+            "current": "3.2.2"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-opengl",
+            "previous": "3.2.1",
+            "current": "3.2.2"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-stb",
+            "previous": "3.2.1",
+            "current": "3.2.2"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-stb",
+            "previous": "3.2.1",
+            "current": "3.2.2"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-tinyfd",
+            "previous": "3.2.1",
+            "current": "3.2.2"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-tinyfd",
+            "previous": "3.2.1",
+            "current": "3.2.2"
+          },
+          {
+            "key": "org.lwjgl:lwjgl",
+            "previous": "3.2.1",
+            "current": "3.2.2"
+          },
+          {
+            "key": "org.lwjgl:lwjgl",
+            "previous": "3.2.1",
+            "current": "3.2.2"
+          }
+        ]
+      }
+    }
+  ],
+  "registries": [
+    {
+      "type": "entries",
+      "value": {
+        "name": "block",
+        "differences": {
+          "added": [
+            "minecraft:waxed_oxidized_copper",
+            "minecraft:waxed_oxidized_cut_copper",
+            "minecraft:waxed_oxidized_cut_copper_stairs",
+            "minecraft:waxed_oxidized_cut_copper_slab"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "item",
+        "differences": {
+          "added": [
+            "minecraft:raw_iron",
+            "minecraft:raw_copper",
+            "minecraft:raw_gold",
+            "minecraft:waxed_oxidized_copper",
+            "minecraft:waxed_oxidized_cut_copper",
+            "minecraft:waxed_oxidized_cut_copper_stairs",
+            "minecraft:waxed_oxidized_cut_copper_slab"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "worldgen/carver",
+        "differences": {
+          "added": [
+            "minecraft:underwater_canyon",
+            "minecraft:underwater_cave"
+          ],
+          "removed": []
+        }
+      }
+    }
+  ],
+  "tags": [
+    {
+      "type": "entries",
+      "value": {
+        "name": "all_blocks_with_drop.json",
+        "differences": {
+          "added": [
+            "minecraft:waxed_oxidized_copper",
+            "minecraft:waxed_oxidized_cut_copper",
+            "minecraft:waxed_oxidized_cut_copper_slab",
+            "minecraft:waxed_oxidized_cut_copper_stairs"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "universal_tags/block.json",
+        "differences": {
+          "added": [
+            "minecraft:waxed_oxidized_copper",
+            "minecraft:waxed_oxidized_cut_copper",
+            "minecraft:waxed_oxidized_cut_copper_stairs",
+            "minecraft:waxed_oxidized_cut_copper_slab"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "universal_tags/item.json",
+        "differences": {
+          "added": [
+            "minecraft:raw_iron",
+            "minecraft:raw_copper",
+            "minecraft:raw_gold",
+            "minecraft:waxed_oxidized_copper",
+            "minecraft:waxed_oxidized_cut_copper",
+            "minecraft:waxed_oxidized_cut_copper_stairs",
+            "minecraft:waxed_oxidized_cut_copper_slab"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "universal_tags/worldgen/carver.json",
+        "differences": {
+          "added": [
+            "minecraft:underwater_canyon",
+            "minecraft:underwater_cave"
+          ],
+          "removed": []
+        }
+      }
+    }
+  ],
+  "blocks": [
+    {
+      "type": "entries",
+      "value": {
+        "name": "🗒️ List",
+        "differences": {
+          "added": [
+            "waxed_oxidized_copper.json",
+            "waxed_oxidized_cut_copper.json",
+            "waxed_oxidized_cut_copper_slab.json",
+            "waxed_oxidized_cut_copper_stairs.json"
+          ],
+          "removed": []
+        }
+      }
+    }
+  ],
+  "recipes": [
+    {
+      "type": "entries",
+      "value": {
+        "name": "🗒️ List",
+        "differences": {
+          "added": [
+            "coal_from_blasting_coal_ore.json",
+            "coal_from_blasting_deepslate_coal_ore.json",
+            "coal_from_smelting_coal_ore.json",
+            "coal_from_smelting_deepslate_coal_ore.json",
+            "copper_ingot_from_blasting_copper_ore.json",
+            "copper_ingot_from_blasting_deepslate_copper_ore.json",
+            "copper_ingot_from_blasting_raw_copper.json",
+            "copper_ingot_from_smelting_copper_ore.json",
+            "copper_ingot_from_smelting_deepslate_copper_ore.json",
+            "copper_ingot_from_smelting_raw_copper.json",
+            "diamond_from_blasting_deepslate_diamond_ore.json",
+            "diamond_from_blasting_diamond_ore.json",
+            "diamond_from_smelting_deepslate_diamond_ore.json",
+            "diamond_from_smelting_diamond_ore.json",
+            "emerald_from_blasting_deepslate_emerald_ore.json",
+            "emerald_from_blasting_emerald_ore.json",
+            "emerald_from_smelting_deepslate_emerald_ore.json",
+            "emerald_from_smelting_emerald_ore.json",
+            "gold_ingot_from_blasting_deepslate_gold_ore.json",
+            "gold_ingot_from_blasting_gold_ore.json",
+            "gold_ingot_from_blasting_raw_gold.json",
+            "gold_ingot_from_smelting_deepslate_gold_ore.json",
+            "gold_ingot_from_smelting_gold_ore.json",
+            "gold_ingot_from_smelting_raw_gold.json",
+            "iron_ingot_from_blasting_deepslate_iron_ore.json",
+            "iron_ingot_from_blasting_iron_ore.json",
+            "iron_ingot_from_blasting_raw_iron.json",
+            "iron_ingot_from_smelting_deepslate_iron_ore.json",
+            "iron_ingot_from_smelting_iron_ore.json",
+            "iron_ingot_from_smelting_raw_iron.json",
+            "lapis_lazuli_from_blasting_deepslate_lapis_ore.json",
+            "lapis_lazuli_from_blasting_lapis_ore.json",
+            "lapis_lazuli_from_smelting_deepslate_lapis_ore.json",
+            "lapis_lazuli_from_smelting_lapis_ore.json",
+            "redstone_from_blasting_deepslate_redstone_ore.json",
+            "redstone_from_blasting_redstone_ore.json",
+            "redstone_from_smelting_deepslate_redstone_ore.json",
+            "redstone_from_smelting_redstone_ore.json",
+            "waxed_oxidized_copper_from_honeycomb.json",
+            "waxed_oxidized_cut_copper.json",
+            "waxed_oxidized_cut_copper_from_honeycomb.json",
+            "waxed_oxidized_cut_copper_from_waxed_oxidized_copper_stonecutting.json",
+            "waxed_oxidized_cut_copper_slab.json",
+            "waxed_oxidized_cut_copper_slab_from_honeycomb.json",
+            "waxed_oxidized_cut_copper_slab_from_waxed_oxidized_copper_stonecutting.json",
+            "waxed_oxidized_cut_copper_slab_from_waxed_oxidized_cut_copper_stonecutting.json",
+            "waxed_oxidized_cut_copper_stairs.json",
+            "waxed_oxidized_cut_copper_stairs_from_honeycomb.json",
+            "waxed_oxidized_cut_copper_stairs_from_waxed_oxidized_copper_stonecutting.json",
+            "waxed_oxidized_cut_copper_stairs_from_waxed_oxidized_cut_copper_stonecutting.json"
+          ],
+          "removed": [
+            "coal_from_blasting.json",
+            "coal_from_smelting.json",
+            "copper_ingot.json",
+            "copper_ingot_from_blasting.json",
+            "diamond_from_blasting.json",
+            "diamond_from_smelting.json",
+            "emerald_from_blasting.json",
+            "emerald_from_smelting.json",
+            "gold_ingot.json",
+            "gold_ingot_from_blasting.json",
+            "iron_ingot.json",
+            "iron_ingot_from_blasting.json",
+            "lapis_from_blasting.json",
+            "lapis_from_smelting.json",
+            "redstone_from_blasting.json",
+            "redstone_from_smelting.json"
+          ]
+        }
+      }
+    }
+  ],
+  "translations": [
+    {
+      "type": "entries",
+      "value": {
+        "name": "Keys",
+        "differences": {
+          "added": [
+            "block.minecraft.waxed_oxidized_copper: Waxed Oxidized Copper",
+            "block.minecraft.waxed_oxidized_cut_copper: Waxed Oxidized Cut Copper",
+            "block.minecraft.waxed_oxidized_cut_copper_stairs: Waxed Oxidized Cut Copper Stairs",
+            "block.minecraft.waxed_oxidized_cut_copper_slab: Waxed Oxidized Cut Copper Slab",
+            "item.minecraft.raw_copper: Raw Copper",
+            "item.minecraft.raw_iron: Raw Iron",
+            "item.minecraft.raw_gold: Raw Gold"
+          ],
+          "removed": []
+        }
+      }
+    }
+  ],
+  "file_structure": [
+    {
+      "type": "entries",
+      "value": {
+        "name": "data",
+        "differences": {
+          "added": [
+            "minecraft/advancements/recipes/building_blocks/waxed_oxidized_copper_from_honeycomb.json",
+            "minecraft/advancements/recipes/building_blocks/waxed_oxidized_cut_copper.json",
+            "minecraft/advancements/recipes/building_blocks/waxed_oxidized_cut_copper_from_honeycomb.json",
+            "minecraft/advancements/recipes/building_blocks/waxed_oxidized_cut_copper_from_waxed_oxidized_copper_stonecutting.json",
+            "minecraft/advancements/recipes/building_blocks/waxed_oxidized_cut_copper_slab.json",
+            "minecraft/advancements/recipes/building_blocks/waxed_oxidized_cut_copper_slab_from_honeycomb.json",
+            "minecraft/advancements/recipes/building_blocks/waxed_oxidized_cut_copper_slab_from_waxed_oxidized_copper_stonecutting.json",
+            "minecraft/advancements/recipes/building_blocks/waxed_oxidized_cut_copper_slab_from_waxed_oxidized_cut_copper_stonecutting.json",
+            "minecraft/advancements/recipes/building_blocks/waxed_oxidized_cut_copper_stairs.json",
+            "minecraft/advancements/recipes/building_blocks/waxed_oxidized_cut_copper_stairs_from_honeycomb.json",
+            "minecraft/advancements/recipes/building_blocks/waxed_oxidized_cut_copper_stairs_from_waxed_oxidized_copper_stonecutting.json",
+            "minecraft/advancements/recipes/building_blocks/waxed_oxidized_cut_copper_stairs_from_waxed_oxidized_cut_copper_stonecutting.json",
+            "minecraft/advancements/recipes/misc/coal_from_blasting_coal_ore.json",
+            "minecraft/advancements/recipes/misc/coal_from_blasting_deepslate_coal_ore.json",
+            "minecraft/advancements/recipes/misc/coal_from_smelting_coal_ore.json",
+            "minecraft/advancements/recipes/misc/coal_from_smelting_deepslate_coal_ore.json",
+            "minecraft/advancements/recipes/misc/copper_ingot_from_blasting_copper_ore.json",
+            "minecraft/advancements/recipes/misc/copper_ingot_from_blasting_deepslate_copper_ore.json",
+            "minecraft/advancements/recipes/misc/copper_ingot_from_blasting_raw_copper.json",
+            "minecraft/advancements/recipes/misc/copper_ingot_from_smelting_copper_ore.json",
+            "minecraft/advancements/recipes/misc/copper_ingot_from_smelting_deepslate_copper_ore.json",
+            "minecraft/advancements/recipes/misc/copper_ingot_from_smelting_raw_copper.json",
+            "minecraft/advancements/recipes/misc/diamond_from_blasting_deepslate_diamond_ore.json",
+            "minecraft/advancements/recipes/misc/diamond_from_blasting_diamond_ore.json",
+            "minecraft/advancements/recipes/misc/diamond_from_smelting_deepslate_diamond_ore.json",
+            "minecraft/advancements/recipes/misc/diamond_from_smelting_diamond_ore.json",
+            "minecraft/advancements/recipes/misc/emerald_from_blasting_deepslate_emerald_ore.json",
+            "minecraft/advancements/recipes/misc/emerald_from_blasting_emerald_ore.json",
+            "minecraft/advancements/recipes/misc/emerald_from_smelting_deepslate_emerald_ore.json",
+            "minecraft/advancements/recipes/misc/emerald_from_smelting_emerald_ore.json",
+            "minecraft/advancements/recipes/misc/gold_ingot_from_blasting_deepslate_gold_ore.json",
+            "minecraft/advancements/recipes/misc/gold_ingot_from_blasting_gold_ore.json",
+            "minecraft/advancements/recipes/misc/gold_ingot_from_blasting_raw_gold.json",
+            "minecraft/advancements/recipes/misc/gold_ingot_from_smelting_deepslate_gold_ore.json",
+            "minecraft/advancements/recipes/misc/gold_ingot_from_smelting_gold_ore.json",
+            "minecraft/advancements/recipes/misc/gold_ingot_from_smelting_raw_gold.json",
+            "minecraft/advancements/recipes/misc/iron_ingot_from_blasting_deepslate_iron_ore.json",
+            "minecraft/advancements/recipes/misc/iron_ingot_from_blasting_iron_ore.json",
+            "minecraft/advancements/recipes/misc/iron_ingot_from_blasting_raw_iron.json",
+            "minecraft/advancements/recipes/misc/iron_ingot_from_smelting_deepslate_iron_ore.json",
+            "minecraft/advancements/recipes/misc/iron_ingot_from_smelting_iron_ore.json",
+            "minecraft/advancements/recipes/misc/iron_ingot_from_smelting_raw_iron.json",
+            "minecraft/advancements/recipes/misc/lapis_lazuli_from_blasting_deepslate_lapis_ore.json",
+            "minecraft/advancements/recipes/misc/lapis_lazuli_from_blasting_lapis_ore.json",
+            "minecraft/advancements/recipes/misc/lapis_lazuli_from_smelting_deepslate_lapis_ore.json",
+            "minecraft/advancements/recipes/misc/lapis_lazuli_from_smelting_lapis_ore.json",
+            "minecraft/advancements/recipes/redstone/redstone_from_blasting_deepslate_redstone_ore.json",
+            "minecraft/advancements/recipes/redstone/redstone_from_blasting_redstone_ore.json",
+            "minecraft/advancements/recipes/redstone/redstone_from_smelting_deepslate_redstone_ore.json",
+            "minecraft/advancements/recipes/redstone/redstone_from_smelting_redstone_ore.json",
+            "minecraft/loot_tables/blocks/waxed_oxidized_copper.json",
+            "minecraft/loot_tables/blocks/waxed_oxidized_cut_copper.json",
+            "minecraft/loot_tables/blocks/waxed_oxidized_cut_copper_slab.json",
+            "minecraft/loot_tables/blocks/waxed_oxidized_cut_copper_stairs.json",
+            "minecraft/recipes/coal_from_blasting_coal_ore.json",
+            "minecraft/recipes/coal_from_blasting_deepslate_coal_ore.json",
+            "minecraft/recipes/coal_from_smelting_coal_ore.json",
+            "minecraft/recipes/coal_from_smelting_deepslate_coal_ore.json",
+            "minecraft/recipes/copper_ingot_from_blasting_copper_ore.json",
+            "minecraft/recipes/copper_ingot_from_blasting_deepslate_copper_ore.json",
+            "minecraft/recipes/copper_ingot_from_blasting_raw_copper.json",
+            "minecraft/recipes/copper_ingot_from_smelting_copper_ore.json",
+            "minecraft/recipes/copper_ingot_from_smelting_deepslate_copper_ore.json",
+            "minecraft/recipes/copper_ingot_from_smelting_raw_copper.json",
+            "minecraft/recipes/diamond_from_blasting_deepslate_diamond_ore.json",
+            "minecraft/recipes/diamond_from_blasting_diamond_ore.json",
+            "minecraft/recipes/diamond_from_smelting_deepslate_diamond_ore.json",
+            "minecraft/recipes/diamond_from_smelting_diamond_ore.json",
+            "minecraft/recipes/emerald_from_blasting_deepslate_emerald_ore.json",
+            "minecraft/recipes/emerald_from_blasting_emerald_ore.json",
+            "minecraft/recipes/emerald_from_smelting_deepslate_emerald_ore.json",
+            "minecraft/recipes/emerald_from_smelting_emerald_ore.json",
+            "minecraft/recipes/gold_ingot_from_blasting_deepslate_gold_ore.json",
+            "minecraft/recipes/gold_ingot_from_blasting_gold_ore.json",
+            "minecraft/recipes/gold_ingot_from_blasting_raw_gold.json",
+            "minecraft/recipes/gold_ingot_from_smelting_deepslate_gold_ore.json",
+            "minecraft/recipes/gold_ingot_from_smelting_gold_ore.json",
+            "minecraft/recipes/gold_ingot_from_smelting_raw_gold.json",
+            "minecraft/recipes/iron_ingot_from_blasting_deepslate_iron_ore.json",
+            "minecraft/recipes/iron_ingot_from_blasting_iron_ore.json",
+            "minecraft/recipes/iron_ingot_from_blasting_raw_iron.json",
+            "minecraft/recipes/iron_ingot_from_smelting_deepslate_iron_ore.json",
+            "minecraft/recipes/iron_ingot_from_smelting_iron_ore.json",
+            "minecraft/recipes/iron_ingot_from_smelting_raw_iron.json",
+            "minecraft/recipes/lapis_lazuli_from_blasting_deepslate_lapis_ore.json",
+            "minecraft/recipes/lapis_lazuli_from_blasting_lapis_ore.json",
+            "minecraft/recipes/lapis_lazuli_from_smelting_deepslate_lapis_ore.json",
+            "minecraft/recipes/lapis_lazuli_from_smelting_lapis_ore.json",
+            "minecraft/recipes/redstone_from_blasting_deepslate_redstone_ore.json",
+            "minecraft/recipes/redstone_from_blasting_redstone_ore.json",
+            "minecraft/recipes/redstone_from_smelting_deepslate_redstone_ore.json",
+            "minecraft/recipes/redstone_from_smelting_redstone_ore.json",
+            "minecraft/recipes/waxed_oxidized_copper_from_honeycomb.json",
+            "minecraft/recipes/waxed_oxidized_cut_copper.json",
+            "minecraft/recipes/waxed_oxidized_cut_copper_from_honeycomb.json",
+            "minecraft/recipes/waxed_oxidized_cut_copper_from_waxed_oxidized_copper_stonecutting.json",
+            "minecraft/recipes/waxed_oxidized_cut_copper_slab.json",
+            "minecraft/recipes/waxed_oxidized_cut_copper_slab_from_honeycomb.json",
+            "minecraft/recipes/waxed_oxidized_cut_copper_slab_from_waxed_oxidized_copper_stonecutting.json",
+            "minecraft/recipes/waxed_oxidized_cut_copper_slab_from_waxed_oxidized_cut_copper_stonecutting.json",
+            "minecraft/recipes/waxed_oxidized_cut_copper_stairs.json",
+            "minecraft/recipes/waxed_oxidized_cut_copper_stairs_from_honeycomb.json",
+            "minecraft/recipes/waxed_oxidized_cut_copper_stairs_from_waxed_oxidized_copper_stonecutting.json",
+            "minecraft/recipes/waxed_oxidized_cut_copper_stairs_from_waxed_oxidized_cut_copper_stonecutting.json"
+          ],
+          "removed": [
+            "minecraft/advancements/recipes/misc/coal_from_blasting.json",
+            "minecraft/advancements/recipes/misc/coal_from_smelting.json",
+            "minecraft/advancements/recipes/misc/copper_ingot.json",
+            "minecraft/advancements/recipes/misc/copper_ingot_from_blasting.json",
+            "minecraft/advancements/recipes/misc/diamond_from_blasting.json",
+            "minecraft/advancements/recipes/misc/diamond_from_smelting.json",
+            "minecraft/advancements/recipes/misc/emerald_from_blasting.json",
+            "minecraft/advancements/recipes/misc/emerald_from_smelting.json",
+            "minecraft/advancements/recipes/misc/gold_ingot.json",
+            "minecraft/advancements/recipes/misc/gold_ingot_from_blasting.json",
+            "minecraft/advancements/recipes/misc/iron_ingot.json",
+            "minecraft/advancements/recipes/misc/iron_ingot_from_blasting.json",
+            "minecraft/advancements/recipes/misc/lapis_from_blasting.json",
+            "minecraft/advancements/recipes/misc/lapis_from_smelting.json",
+            "minecraft/advancements/recipes/redstone/redstone_from_blasting.json",
+            "minecraft/advancements/recipes/redstone/redstone_from_smelting.json",
+            "minecraft/recipes/coal_from_blasting.json",
+            "minecraft/recipes/coal_from_smelting.json",
+            "minecraft/recipes/copper_ingot.json",
+            "minecraft/recipes/copper_ingot_from_blasting.json",
+            "minecraft/recipes/diamond_from_blasting.json",
+            "minecraft/recipes/diamond_from_smelting.json",
+            "minecraft/recipes/emerald_from_blasting.json",
+            "minecraft/recipes/emerald_from_smelting.json",
+            "minecraft/recipes/gold_ingot.json",
+            "minecraft/recipes/gold_ingot_from_blasting.json",
+            "minecraft/recipes/iron_ingot.json",
+            "minecraft/recipes/iron_ingot_from_blasting.json",
+            "minecraft/recipes/lapis_from_blasting.json",
+            "minecraft/recipes/lapis_from_smelting.json",
+            "minecraft/recipes/redstone_from_blasting.json",
+            "minecraft/recipes/redstone_from_smelting.json"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "assets",
+        "differences": {
+          "added": [
+            "minecraft/blockstates/waxed_oxidized_copper.json",
+            "minecraft/blockstates/waxed_oxidized_cut_copper.json",
+            "minecraft/blockstates/waxed_oxidized_cut_copper_slab.json",
+            "minecraft/blockstates/waxed_oxidized_cut_copper_stairs.json",
+            "minecraft/models/item/raw_copper.json",
+            "minecraft/models/item/raw_gold.json",
+            "minecraft/models/item/raw_iron.json",
+            "minecraft/models/item/waxed_oxidized_copper.json",
+            "minecraft/models/item/waxed_oxidized_cut_copper.json",
+            "minecraft/models/item/waxed_oxidized_cut_copper_slab.json",
+            "minecraft/models/item/waxed_oxidized_cut_copper_stairs.json",
+            "minecraft/textures/item/raw_copper.png",
+            "minecraft/textures/item/raw_gold.png",
+            "minecraft/textures/item/raw_iron.png"
+          ],
+          "removed": []
+        }
+      }
+    }
+  ],
+  "mappings": [
+    {
+      "type": "title",
+      "value": {
+        "title": "Server",
+        "id": "server-mappings",
+        "size": 2
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "Classes",
+        "differences": {
+          "added": [],
+          "removed": [
+            "XXX.levelgen.carver.UnderwaterCanyonWorldCarver"
+          ]
+        }
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "Changes",
+        "lines": [
+          "XXX.data.loot.BlockLoot \u001b[2;32m+7M\u001b[0m \u001b[2;31m-1M\u001b[0m",
+          "XXX.data.recipes.RecipeProvider \u001b[2;32m+3M\u001b[0m \u001b[2;31m-1M\u001b[0m | \u001b[2;32m+8P\u001b[0m",
+          "XXX.minecraft.server.Bootstrap \u001b[2;32m+4M\u001b[0m \u001b[2;31m-1M\u001b[0m",
+          "XXX.entity.projectile.FishingHook \u001b[2;32m+4M\u001b[0m \u001b[2;31m-2M\u001b[0m",
+          "XXX.entity.projectile.ThrownPotion \u001b[2;32m+1M\u001b[0m \u001b[2;31m-1M\u001b[0m",
+          "XXX.world.inventory.InventoryMenu \u001b[2;32m+1M\u001b[0m",
+          "XXX.world.item.Items \u001b[2;32m+7P\u001b[0m",
+          "XXX.level.block.Blocks \u001b[2;32m+4P\u001b[0m",
+          "XXX.level.dimension.DimensionType \u001b[2;32m+1P\u001b[0m",
+          "XXX.level.levelgen.Aquifer \u001b[2;32m+1M\u001b[0m \u001b[2;31m-1M\u001b[0m",
+          "XXX.levelgen.carver.WorldCarver \u001b[2;32m+2P\u001b[0m",
+          "XXX.levelgen.structure.StructureStart \u001b[2;32m+2M\u001b[0m \u001b[2;31m-1M\u001b[0m",
+          "XXX.levelgen.surfacebuilders.DefaultSurfaceBuilder \u001b[2;32m+3M\u001b[0m \u001b[2;31m-3M\u001b[0m | \u001b[2;31m-1P\u001b[0m",
+          "XXX.levelgen.surfacebuilders.FrozenOceanSurfaceBuilder \u001b[2;32m+2M\u001b[0m \u001b[2;31m-2M\u001b[0m",
+          "XXX.levelgen.surfacebuilders.GravellyMountainSurfaceBuilder \u001b[2;32m+2M\u001b[0m \u001b[2;31m-2M\u001b[0m",
+          "XXX.levelgen.surfacebuilders.NetherCappedSurfaceBuilder \u001b[2;32m+2M\u001b[0m \u001b[2;31m-2M\u001b[0m",
+          "XXX.levelgen.surfacebuilders.NetherSurfaceBuilder \u001b[2;32m+2M\u001b[0m \u001b[2;31m-2M\u001b[0m",
+          "XXX.levelgen.surfacebuilders.ShatteredSavanaSurfaceBuilder \u001b[2;32m+2M\u001b[0m \u001b[2;31m-2M\u001b[0m",
+          "XXX.levelgen.surfacebuilders.SurfaceBuilder \u001b[2;32m+1P\u001b[0m \u001b[2;31m-1P\u001b[0m",
+          "XXX.levelgen.surfacebuilders.WoodedBadlandsSurfaceBuilder \u001b[2;32m+2M\u001b[0m \u001b[2;31m-2M\u001b[0m"
+        ]
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.data.loot.BlockLoot",
+        "differences": {
+          "added": [
+            "LootTable$Builder lambda$dropPottedContents$78(Block)"
+          ],
+          "removed": [
+            "LootTable$Builder lambda$dropPottedContents$84(Block)",
+            "LootTable$Builder lambda$accept$83(Block)",
+            "LootTable$Builder lambda$accept$82(Block)",
+            "LootTable$Builder lambda$accept$81(Block)",
+            "LootTable$Builder lambda$accept$80(Block)",
+            "LootTable$Builder lambda$accept$79(Block)",
+            "LootTable$Builder lambda$accept$78(Block)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.data.recipes.RecipeProvider",
+        "differences": {
+          "added": [
+            "void stair(Consumer,ItemLike,ItemLike)"
+          ],
+          "removed": [
+            "void oreSmelting(Consumer,List,ItemLike,float,int)",
+            "void oreBlasting(Consumer,List,ItemLike,float,int)",
+            "void oreCooking(Consumer,SimpleCookingSerializer,List,ItemLike,float,int,String)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.server.Bootstrap",
+        "differences": {
+          "added": [
+            "void lambda$validate$2(String)"
+          ],
+          "removed": [
+            "void checkBootstrapCalled(Supplier)",
+            "RuntimeException createBootstrapException(Supplier)",
+            "void lambda$validate$3(String)",
+            "String lambda$validate$2()"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.entity.projectile.FishingHook",
+        "differences": {
+          "added": [
+            "void setHookedEntity()",
+            "void bringInHookedEntity()"
+          ],
+          "removed": [
+            "void setHookedEntity(Entity)",
+            "void pullEntity(Entity)",
+            "void onClientRemoval()",
+            "void updateOwnerInfo(FishingHook)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.entity.projectile.ThrownPotion",
+        "differences": {
+          "added": [
+            "void dowseFire(BlockPos,Direction)"
+          ],
+          "removed": [
+            "void dowseFire(BlockPos)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.inventory.InventoryMenu",
+        "differences": {
+          "added": [],
+          "removed": [
+            "boolean isHotbarSlot(int)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.level.levelgen.Aquifer",
+        "differences": {
+          "added": [
+            "void <init>(int,int,NormalNoise,NormalNoise,NoiseGeneratorSettings,NoiseSampler,int)"
+          ],
+          "removed": [
+            "void <init>(int,int,NormalNoise,NormalNoise,NoiseGeneratorSettings,NoiseSampler,int,int)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.level.levelgen.structure.StructureStart",
+        "differences": {
+          "added": [
+            "IllegalStateException lambda$getBoundingBox$0()"
+          ],
+          "removed": [
+            "BoundingBox createBoundingBox()",
+            "IllegalStateException lambda$createBoundingBox$0()"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.level.levelgen.surfacebuilders.DefaultSurfaceBuilder",
+        "differences": {
+          "added": [
+            "void apply(Random,ChunkAccess,Biome,int,int,int,double,BlockState,BlockState,int,long,SurfaceBuilderBaseConfiguration)",
+            "void apply(Random,ChunkAccess,Biome,int,int,int,double,BlockState,BlockState,BlockState,BlockState,BlockState,int)",
+            "void apply(Random,ChunkAccess,Biome,int,int,int,double,BlockState,BlockState,int,long,SurfaceBuilderConfiguration)"
+          ],
+          "removed": [
+            "void apply(Random,ChunkAccess,Biome,int,int,int,double,BlockState,BlockState,int,int,long,SurfaceBuilderBaseConfiguration)",
+            "void apply(Random,ChunkAccess,Biome,int,int,int,double,BlockState,BlockState,BlockState,BlockState,BlockState,int,int)",
+            "void apply(Random,ChunkAccess,Biome,int,int,int,double,BlockState,BlockState,int,int,long,SurfaceBuilderConfiguration)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.level.levelgen.surfacebuilders.FrozenOceanSurfaceBuilder",
+        "differences": {
+          "added": [
+            "void apply(Random,ChunkAccess,Biome,int,int,int,double,BlockState,BlockState,int,long,SurfaceBuilderBaseConfiguration)",
+            "void apply(Random,ChunkAccess,Biome,int,int,int,double,BlockState,BlockState,int,long,SurfaceBuilderConfiguration)"
+          ],
+          "removed": [
+            "void apply(Random,ChunkAccess,Biome,int,int,int,double,BlockState,BlockState,int,int,long,SurfaceBuilderBaseConfiguration)",
+            "void apply(Random,ChunkAccess,Biome,int,int,int,double,BlockState,BlockState,int,int,long,SurfaceBuilderConfiguration)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.level.levelgen.surfacebuilders.GravellyMountainSurfaceBuilder",
+        "differences": {
+          "added": [
+            "void apply(Random,ChunkAccess,Biome,int,int,int,double,BlockState,BlockState,int,long,SurfaceBuilderBaseConfiguration)",
+            "void apply(Random,ChunkAccess,Biome,int,int,int,double,BlockState,BlockState,int,long,SurfaceBuilderConfiguration)"
+          ],
+          "removed": [
+            "void apply(Random,ChunkAccess,Biome,int,int,int,double,BlockState,BlockState,int,int,long,SurfaceBuilderBaseConfiguration)",
+            "void apply(Random,ChunkAccess,Biome,int,int,int,double,BlockState,BlockState,int,int,long,SurfaceBuilderConfiguration)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.level.levelgen.surfacebuilders.NetherCappedSurfaceBuilder",
+        "differences": {
+          "added": [
+            "void apply(Random,ChunkAccess,Biome,int,int,int,double,BlockState,BlockState,int,long,SurfaceBuilderBaseConfiguration)",
+            "void apply(Random,ChunkAccess,Biome,int,int,int,double,BlockState,BlockState,int,long,SurfaceBuilderConfiguration)"
+          ],
+          "removed": [
+            "void apply(Random,ChunkAccess,Biome,int,int,int,double,BlockState,BlockState,int,int,long,SurfaceBuilderBaseConfiguration)",
+            "void apply(Random,ChunkAccess,Biome,int,int,int,double,BlockState,BlockState,int,int,long,SurfaceBuilderConfiguration)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.level.levelgen.surfacebuilders.NetherSurfaceBuilder",
+        "differences": {
+          "added": [
+            "void apply(Random,ChunkAccess,Biome,int,int,int,double,BlockState,BlockState,int,long,SurfaceBuilderBaseConfiguration)",
+            "void apply(Random,ChunkAccess,Biome,int,int,int,double,BlockState,BlockState,int,long,SurfaceBuilderConfiguration)"
+          ],
+          "removed": [
+            "void apply(Random,ChunkAccess,Biome,int,int,int,double,BlockState,BlockState,int,int,long,SurfaceBuilderBaseConfiguration)",
+            "void apply(Random,ChunkAccess,Biome,int,int,int,double,BlockState,BlockState,int,int,long,SurfaceBuilderConfiguration)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.level.levelgen.surfacebuilders.ShatteredSavanaSurfaceBuilder",
+        "differences": {
+          "added": [
+            "void apply(Random,ChunkAccess,Biome,int,int,int,double,BlockState,BlockState,int,long,SurfaceBuilderBaseConfiguration)",
+            "void apply(Random,ChunkAccess,Biome,int,int,int,double,BlockState,BlockState,int,long,SurfaceBuilderConfiguration)"
+          ],
+          "removed": [
+            "void apply(Random,ChunkAccess,Biome,int,int,int,double,BlockState,BlockState,int,int,long,SurfaceBuilderBaseConfiguration)",
+            "void apply(Random,ChunkAccess,Biome,int,int,int,double,BlockState,BlockState,int,int,long,SurfaceBuilderConfiguration)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.level.levelgen.surfacebuilders.WoodedBadlandsSurfaceBuilder",
+        "differences": {
+          "added": [
+            "void apply(Random,ChunkAccess,Biome,int,int,int,double,BlockState,BlockState,int,long,SurfaceBuilderBaseConfiguration)",
+            "void apply(Random,ChunkAccess,Biome,int,int,int,double,BlockState,BlockState,int,long,SurfaceBuilderConfiguration)"
+          ],
+          "removed": [
+            "void apply(Random,ChunkAccess,Biome,int,int,int,double,BlockState,BlockState,int,int,long,SurfaceBuilderBaseConfiguration)",
+            "void apply(Random,ChunkAccess,Biome,int,int,int,double,BlockState,BlockState,int,int,long,SurfaceBuilderConfiguration)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "title",
+      "value": {
+        "title": "Client",
+        "id": "client-mappings",
+        "size": 2
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "Classes",
+        "differences": {
+          "added": [],
+          "removed": [
+            "XXX.levelgen.carver.UnderwaterCaveWorldCarver"
+          ]
+        }
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "Changes",
+        "lines": [
+          "net.minecraft.SharedConstants \u001b[2;32m+1M\u001b[0m",
+          "XXX.screens.inventory.AbstractCommandBlockEditScreen \u001b[2;31m-1M\u001b[0m | \u001b[2;31m-1P\u001b[0m",
+          "XXX.minecraft.core.Registry \u001b[2;32m+5M\u001b[0m \u001b[2;31m-4M\u001b[0m",
+          "XXX.minecraft.data.BlockFamilies \u001b[2;32m+1P\u001b[0m",
+          "XXX.data.worldgen.Carvers \u001b[2;32m+2P\u001b[0m",
+          "XXX.data.worldgen.Features \u001b[2;32m+1P\u001b[0m",
+          "XXX.world.entity.Entity \u001b[2;32m+1M\u001b[0m",
+          "XXX.entity.projectile.Projectile \u001b[2;32m+1P\u001b[0m",
+          "XXX.level.biome.Biome \u001b[2;32m+1M\u001b[0m \u001b[2;31m-1M\u001b[0m",
+          "XXX.level.chunk.BulkSectionAccess \u001b[2;32m+1M\u001b[0m \u001b[2;31m-1M\u001b[0m",
+          "XXX.level.levelgen.NoiseGeneratorSettings \u001b[2;32m+2M\u001b[0m \u001b[2;31m-1M\u001b[0m | \u001b[2;32m+1P\u001b[0m",
+          "XXX.levelgen.feature.OceanMonumentFeature$OceanMonumentStart \u001b[2;32m+2M\u001b[0m | \u001b[2;32m+1P\u001b[0m",
+          "XXX.levelgen.structure.NoiseAffectingStructureStart \u001b[2;32m+1M\u001b[0m \u001b[2;31m-1M\u001b[0m",
+          "XXX.levelgen.surfacebuilders.BadlandsSurfaceBuilder \u001b[2;32m+2M\u001b[0m \u001b[2;31m-2M\u001b[0m",
+          "XXX.levelgen.surfacebuilders.ConfiguredSurfaceBuilder \u001b[2;32m+1M\u001b[0m \u001b[2;31m-1M\u001b[0m",
+          "XXX.levelgen.surfacebuilders.ErodedBadlandsSurfaceBuilder \u001b[2;32m+2M\u001b[0m \u001b[2;31m-2M\u001b[0m",
+          "XXX.levelgen.surfacebuilders.GiantTreeTaigaSurfaceBuilder \u001b[2;32m+2M\u001b[0m \u001b[2;31m-2M\u001b[0m",
+          "XXX.levelgen.surfacebuilders.MountainSurfaceBuilder \u001b[2;32m+2M\u001b[0m \u001b[2;31m-2M\u001b[0m",
+          "XXX.levelgen.surfacebuilders.NetherForestSurfaceBuilder \u001b[2;32m+2M\u001b[0m \u001b[2;31m-2M\u001b[0m",
+          "XXX.levelgen.surfacebuilders.NopeSurfaceBuilder \u001b[2;32m+2M\u001b[0m \u001b[2;31m-2M\u001b[0m",
+          "XXX.levelgen.surfacebuilders.SwampSurfaceBuilder \u001b[2;32m+2M\u001b[0m \u001b[2;31m-2M\u001b[0m"
+        ]
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.SharedConstants",
+        "differences": {
+          "added": [],
+          "removed": [
+            "void tryDetectVersion()"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.client.gui.screens.inventory.AbstractCommandBlockEditScreen",
+        "differences": {
+          "added": [
+            "void onClose()"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.core.Registry",
+        "differences": {
+          "added": [
+            "Object lambda$keys$59(DynamicOps,ResourceLocation)",
+            "DataResult lambda$decode$58(Pair)",
+            "Pair lambda$decode$57(DynamicOps,Object)",
+            "DataResult lambda$decode$56(Number)"
+          ],
+          "removed": [
+            "Object lambda$keys$60(DynamicOps,ResourceLocation)",
+            "DataResult lambda$decode$59(Pair)",
+            "Pair lambda$decode$58(DynamicOps,Object)",
+            "DataResult lambda$decode$57(Number)",
+            "String lambda$new$56(ResourceKey)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.entity.Entity",
+        "differences": {
+          "added": [],
+          "removed": [
+            "void onClientRemoval()"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.level.biome.Biome",
+        "differences": {
+          "added": [
+            "void buildSurfaceAt(Random,ChunkAccess,int,int,int,double,BlockState,BlockState,int,long)"
+          ],
+          "removed": [
+            "void buildSurfaceAt(Random,ChunkAccess,int,int,int,double,BlockState,BlockState,int,int,long)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.level.chunk.BulkSectionAccess",
+        "differences": {
+          "added": [
+            "LevelChunkSection lambda$getSection$0(BlockPos,long)"
+          ],
+          "removed": [
+            "LevelChunkSection lambda$getSection$0(BlockPos,int,long)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.level.levelgen.NoiseGeneratorSettings",
+        "differences": {
+          "added": [
+            "void <init>(StructureSettings,NoiseSettings,BlockState,BlockState,int,int,int,boolean,boolean,boolean,boolean)"
+          ],
+          "removed": [
+            "void <init>(StructureSettings,NoiseSettings,BlockState,BlockState,int,int,int,int,boolean,boolean,boolean,boolean)",
+            "int getMinSurfaceLevel()"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.level.levelgen.feature.OceanMonumentFeature$OceanMonumentStart",
+        "differences": {
+          "added": [],
+          "removed": [
+            "void generatePieces(ChunkPos)",
+            "void placeInChunk(WorldGenLevel,StructureFeatureManager,ChunkGenerator,Random,BoundingBox,ChunkPos)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.level.levelgen.structure.NoiseAffectingStructureStart",
+        "differences": {
+          "added": [
+            "BoundingBox getBoundingBox()"
+          ],
+          "removed": [
+            "BoundingBox createBoundingBox()"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.level.levelgen.surfacebuilders.BadlandsSurfaceBuilder",
+        "differences": {
+          "added": [
+            "void apply(Random,ChunkAccess,Biome,int,int,int,double,BlockState,BlockState,int,long,SurfaceBuilderBaseConfiguration)",
+            "void apply(Random,ChunkAccess,Biome,int,int,int,double,BlockState,BlockState,int,long,SurfaceBuilderConfiguration)"
+          ],
+          "removed": [
+            "void apply(Random,ChunkAccess,Biome,int,int,int,double,BlockState,BlockState,int,int,long,SurfaceBuilderBaseConfiguration)",
+            "void apply(Random,ChunkAccess,Biome,int,int,int,double,BlockState,BlockState,int,int,long,SurfaceBuilderConfiguration)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.level.levelgen.surfacebuilders.ConfiguredSurfaceBuilder",
+        "differences": {
+          "added": [
+            "void apply(Random,ChunkAccess,Biome,int,int,int,double,BlockState,BlockState,int,long)"
+          ],
+          "removed": [
+            "void apply(Random,ChunkAccess,Biome,int,int,int,double,BlockState,BlockState,int,int,long)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.level.levelgen.surfacebuilders.ErodedBadlandsSurfaceBuilder",
+        "differences": {
+          "added": [
+            "void apply(Random,ChunkAccess,Biome,int,int,int,double,BlockState,BlockState,int,long,SurfaceBuilderBaseConfiguration)",
+            "void apply(Random,ChunkAccess,Biome,int,int,int,double,BlockState,BlockState,int,long,SurfaceBuilderConfiguration)"
+          ],
+          "removed": [
+            "void apply(Random,ChunkAccess,Biome,int,int,int,double,BlockState,BlockState,int,int,long,SurfaceBuilderBaseConfiguration)",
+            "void apply(Random,ChunkAccess,Biome,int,int,int,double,BlockState,BlockState,int,int,long,SurfaceBuilderConfiguration)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.level.levelgen.surfacebuilders.GiantTreeTaigaSurfaceBuilder",
+        "differences": {
+          "added": [
+            "void apply(Random,ChunkAccess,Biome,int,int,int,double,BlockState,BlockState,int,long,SurfaceBuilderBaseConfiguration)",
+            "void apply(Random,ChunkAccess,Biome,int,int,int,double,BlockState,BlockState,int,long,SurfaceBuilderConfiguration)"
+          ],
+          "removed": [
+            "void apply(Random,ChunkAccess,Biome,int,int,int,double,BlockState,BlockState,int,int,long,SurfaceBuilderBaseConfiguration)",
+            "void apply(Random,ChunkAccess,Biome,int,int,int,double,BlockState,BlockState,int,int,long,SurfaceBuilderConfiguration)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.level.levelgen.surfacebuilders.MountainSurfaceBuilder",
+        "differences": {
+          "added": [
+            "void apply(Random,ChunkAccess,Biome,int,int,int,double,BlockState,BlockState,int,long,SurfaceBuilderBaseConfiguration)",
+            "void apply(Random,ChunkAccess,Biome,int,int,int,double,BlockState,BlockState,int,long,SurfaceBuilderConfiguration)"
+          ],
+          "removed": [
+            "void apply(Random,ChunkAccess,Biome,int,int,int,double,BlockState,BlockState,int,int,long,SurfaceBuilderBaseConfiguration)",
+            "void apply(Random,ChunkAccess,Biome,int,int,int,double,BlockState,BlockState,int,int,long,SurfaceBuilderConfiguration)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.level.levelgen.surfacebuilders.NetherForestSurfaceBuilder",
+        "differences": {
+          "added": [
+            "void apply(Random,ChunkAccess,Biome,int,int,int,double,BlockState,BlockState,int,long,SurfaceBuilderBaseConfiguration)",
+            "void apply(Random,ChunkAccess,Biome,int,int,int,double,BlockState,BlockState,int,long,SurfaceBuilderConfiguration)"
+          ],
+          "removed": [
+            "void apply(Random,ChunkAccess,Biome,int,int,int,double,BlockState,BlockState,int,int,long,SurfaceBuilderBaseConfiguration)",
+            "void apply(Random,ChunkAccess,Biome,int,int,int,double,BlockState,BlockState,int,int,long,SurfaceBuilderConfiguration)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.level.levelgen.surfacebuilders.NopeSurfaceBuilder",
+        "differences": {
+          "added": [
+            "void apply(Random,ChunkAccess,Biome,int,int,int,double,BlockState,BlockState,int,long,SurfaceBuilderBaseConfiguration)",
+            "void apply(Random,ChunkAccess,Biome,int,int,int,double,BlockState,BlockState,int,long,SurfaceBuilderConfiguration)"
+          ],
+          "removed": [
+            "void apply(Random,ChunkAccess,Biome,int,int,int,double,BlockState,BlockState,int,int,long,SurfaceBuilderBaseConfiguration)",
+            "void apply(Random,ChunkAccess,Biome,int,int,int,double,BlockState,BlockState,int,int,long,SurfaceBuilderConfiguration)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.level.levelgen.surfacebuilders.SwampSurfaceBuilder",
+        "differences": {
+          "added": [
+            "void apply(Random,ChunkAccess,Biome,int,int,int,double,BlockState,BlockState,int,long,SurfaceBuilderBaseConfiguration)",
+            "void apply(Random,ChunkAccess,Biome,int,int,int,double,BlockState,BlockState,int,long,SurfaceBuilderConfiguration)"
+          ],
+          "removed": [
+            "void apply(Random,ChunkAccess,Biome,int,int,int,double,BlockState,BlockState,int,int,long,SurfaceBuilderBaseConfiguration)",
+            "void apply(Random,ChunkAccess,Biome,int,int,int,double,BlockState,BlockState,int,int,long,SurfaceBuilderConfiguration)"
+          ]
+        }
+      }
+    }
+  ]
+}

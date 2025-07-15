@@ -1,0 +1,64 @@
+{
+  "version_data": [
+    {
+      "type": "table",
+      "value": {
+        "previousLabel": "1.19.4-rc3",
+        "currentLabel": "1.19.4",
+        "values": [
+          {
+            "key": "World version",
+            "previous": "3336",
+            "current": "3337"
+          },
+          {
+            "key": "Protocol version",
+            "previous": "1073741950",
+            "current": "762"
+          }
+        ]
+      }
+    }
+  ],
+  "translations": [
+    {
+      "type": "entries",
+      "value": {
+        "name": "Keys",
+        "differences": {
+          "added": [
+            "mco.configure.world.subscription.recurring.info: Changes made to your Realms subscription such as stacking time or turning off recurring billing will not be reflected until your next bill date."
+          ],
+          "removed": []
+        }
+      }
+    }
+  ],
+  "mappings": [
+    {
+      "type": "title",
+      "value": {
+        "title": "Server",
+        "id": "server-mappings",
+        "size": 2
+      }
+    },
+    {
+      "type": "title",
+      "value": {
+        "title": "Client",
+        "id": "client-mappings",
+        "size": 2
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "Changes",
+        "lines": [
+          "XXX.gui.screens.RealmsSubscriptionInfoScreen \u001b[2;32m+1P\u001b[0m"
+        ]
+      }
+    }
+  ]
+}

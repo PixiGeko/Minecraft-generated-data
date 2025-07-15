@@ -1,0 +1,236 @@
+{
+  "version_data": [
+    {
+      "type": "table",
+      "value": {
+        "previousLabel": "1.16.4-pre2",
+        "currentLabel": "1.16.4-rc1",
+        "values": [
+          {
+            "key": "World version",
+            "previous": "2582",
+            "current": "2583"
+          },
+          {
+            "key": "Protocol version",
+            "previous": "1073741826",
+            "current": "1073741827"
+          }
+        ]
+      }
+    },
+    {
+      "type": "title",
+      "value": {
+        "title": "Libraries",
+        "id": "version-data-libraries",
+        "size": 3
+      }
+    },
+    {
+      "type": "table",
+      "value": {
+        "title": "Versions",
+        "previousLabel": "1.16.4-pre2",
+        "currentLabel": "1.16.4-rc1",
+        "values": [
+          {
+            "key": "com.mojang:authlib",
+            "previous": "2.0.26",
+            "current": "2.0.27"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-glfw",
+            "previous": "3.2.1",
+            "current": "3.2.2"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-glfw",
+            "previous": "3.2.1",
+            "current": "3.2.2"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-jemalloc",
+            "previous": "3.2.1",
+            "current": "3.2.2"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-jemalloc",
+            "previous": "3.2.1",
+            "current": "3.2.2"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-openal",
+            "previous": "3.2.1",
+            "current": "3.2.2"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-openal",
+            "previous": "3.2.1",
+            "current": "3.2.2"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-opengl",
+            "previous": "3.2.1",
+            "current": "3.2.2"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-opengl",
+            "previous": "3.2.1",
+            "current": "3.2.2"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-stb",
+            "previous": "3.2.1",
+            "current": "3.2.2"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-stb",
+            "previous": "3.2.1",
+            "current": "3.2.2"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-tinyfd",
+            "previous": "3.2.1",
+            "current": "3.2.2"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-tinyfd",
+            "previous": "3.2.1",
+            "current": "3.2.2"
+          },
+          {
+            "key": "org.lwjgl:lwjgl",
+            "previous": "3.2.1",
+            "current": "3.2.2"
+          },
+          {
+            "key": "org.lwjgl:lwjgl",
+            "previous": "3.2.1",
+            "current": "3.2.2"
+          }
+        ]
+      }
+    }
+  ],
+  "translations": [
+    {
+      "type": "entries",
+      "value": {
+        "name": "Keys",
+        "differences": {
+          "added": [
+            "disconnect.loginFailedInfo.insufficientPrivileges: Multiplayer is disabled. Please check your Microsoft account settings.",
+            "options.hideMatchedNames: Hide Matched Names",
+            "options.hideMatchedNames.tooltip: 3rd-party Servers may send chat messages in non-standard formats.\nWith this option on: hidden players will be matched based on chat sender names."
+          ],
+          "removed": []
+        }
+      }
+    }
+  ],
+  "mappings": [
+    {
+      "type": "title",
+      "value": {
+        "title": "Server",
+        "id": "server-mappings",
+        "size": 2
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "Changes",
+        "lines": [
+          "XXX.minecraft.util.StringDecomposer \u001b[2;32m+2M\u001b[0m"
+        ]
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.util.StringDecomposer",
+        "differences": {
+          "added": [],
+          "removed": [
+            "String getPlainText(FormattedText)",
+            "boolean lambda$getPlainText$2(StringBuilder,int,Style,int)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "title",
+      "value": {
+        "title": "Client",
+        "id": "client-mappings",
+        "size": 2
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "Changes",
+        "lines": [
+          "XXX.realmsclient.dto.RealmsServer \u001b[2;32m+1M\u001b[0m",
+          "XXX.util.task.ConnectTask \u001b[2;32m+1M\u001b[0m \u001b[2;31m-1M\u001b[0m | \u001b[2;32m+1P\u001b[0m",
+          "XXX.screens.social.PlayerSocialManager \u001b[2;32m+1M\u001b[0m | \u001b[2;32m+1P\u001b[0m",
+          "XXX.minecraft.realms.RealmsConnect$1 \u001b[2;32m+1M\u001b[0m \u001b[2;31m-1M\u001b[0m | \u001b[2;32m+1P\u001b[0m"
+        ]
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "com.mojang.realmsclient.dto.RealmsServer",
+        "differences": {
+          "added": [],
+          "removed": [
+            "ServerData toServerData(String)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "com.mojang.realmsclient.util.task.ConnectTask",
+        "differences": {
+          "added": [
+            "void <init>(Screen,RealmsServerAddress)"
+          ],
+          "removed": [
+            "void <init>(Screen,RealmsServer,RealmsServerAddress)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.client.gui.screens.social.PlayerSocialManager",
+        "differences": {
+          "added": [],
+          "removed": [
+            "UUID getDiscoveredUUID(String)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.realms.RealmsConnect$1",
+        "differences": {
+          "added": [
+            "void <init>(RealmsConnect,String,String,int,Minecraft)"
+          ],
+          "removed": [
+            "void <init>(RealmsConnect,String,String,int,Minecraft,RealmsServer)"
+          ]
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "commands": [
+    {
+      "type": "entries",
+      "value": {
+        "name": "bossbar",
+        "differences": {
+          "added": [
+            "bossbar add <id: resource_location> <name: component>"
+          ],
+          "removed": [
+            "bossbar create <id: resource_location> <name: component>"
+          ]
+        }
+      }
+    }
+  ],
+  "translations": [
+    {
+      "type": "entries",
+      "value": {
+        "name": "Keys",
+        "differences": {
+          "added": [
+            "subtitles.entity.husk.converted_to_zombie: Husk converted to Zombie"
+          ],
+          "removed": []
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,651 @@
+{
+  "version_data": [
+    {
+      "type": "table",
+      "value": {
+        "previousLabel": "1.20.2-pre3",
+        "currentLabel": "1.20.2-pre4",
+        "values": [
+          {
+            "key": "World version",
+            "previous": "3574",
+            "current": "3575"
+          },
+          {
+            "key": "Protocol version",
+            "previous": "1073741974",
+            "current": "1073741975"
+          }
+        ]
+      }
+    }
+  ],
+  "file_structure": [
+    {
+      "type": "entries",
+      "value": {
+        "name": "data",
+        "differences": {
+          "added": [
+            "minecraft/tags/damage_type/always_kills_armor_stands.json"
+          ],
+          "removed": []
+        }
+      }
+    }
+  ],
+  "mappings": [
+    {
+      "type": "title",
+      "value": {
+        "title": "Server",
+        "id": "server-mappings",
+        "size": 2
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "Classes",
+        "differences": {
+          "added": [
+            "XXX.minecraft.core.BlockSourceImpl",
+            "XXX.minecraft.core.QuartPos",
+            "XXX.minecraft.core.Registry$1",
+            "XXX.minecraft.core.RegistryAccess",
+            "XXX.minecraft.core.RegistryAccess$1FrozenAccess",
+            "XXX.minecraft.core.RegistryAccess$ImmutableRegistryAccess",
+            "XXX.minecraft.core.RegistryCodecs",
+            "XXX.minecraft.core.RegistrySetBuilder",
+            "XXX.minecraft.core.RegistrySetBuilder$BuildState",
+            "XXX.minecraft.core.RegistrySetBuilder$CompositeOwner",
+            "XXX.minecraft.core.RegistrySetBuilder$RegisteredValue",
+            "XXX.minecraft.core.RegistrySetBuilder$RegistryContents",
+            "XXX.minecraft.core.RegistrySetBuilder$RegistryStub",
+            "XXX.minecraft.core.RegistrySetBuilder$ValueAndHolder",
+            "XXX.minecraft.core.RegistrySynchronization$NetworkedRegistryData",
+            "XXX.minecraft.core.SectionPos",
+            "XXX.minecraft.core.UUIDUtil",
+            "XXX.minecraft.core.WritableRegistry",
+            "XXX.core.cauldron.package-info"
+          ],
+          "removed": [
+            "XXX.minecraft.core.Registry",
+            "XXX.minecraft.core.Registry$2",
+            "XXX.minecraft.core.RegistryAccess$1",
+            "XXX.minecraft.core.RegistryAccess$Frozen",
+            "XXX.minecraft.core.RegistryAccess$RegistryEntry",
+            "XXX.minecraft.core.RegistryCodecs$RegistryEntry",
+            "XXX.minecraft.core.RegistrySetBuilder$1",
+            "XXX.minecraft.core.RegistrySetBuilder$BuildState$1",
+            "XXX.minecraft.core.RegistrySetBuilder$EmptyTagLookup",
+            "XXX.minecraft.core.RegistrySetBuilder$RegistryBootstrap",
+            "XXX.minecraft.core.RegistrySetBuilder$RegistryContents$1",
+            "XXX.minecraft.core.RegistrySetBuilder$UniversalLookup",
+            "XXX.minecraft.core.RegistrySynchronization",
+            "XXX.minecraft.core.Rotations",
+            "XXX.minecraft.core.SectionPos$1",
+            "XXX.minecraft.core.Vec3i",
+            "XXX.core.cauldron.CauldronInteraction",
+            "XXX.core.dispenser.AbstractProjectileDispenseBehavior"
+          ]
+        }
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "Changes",
+        "lines": [
+          "XXX.core.dispenser.BoatDispenseItemBehavior \u001b[2;32m+2M\u001b[0m \u001b[2;31m-2M\u001b[0m",
+          "XXX.core.dispenser.DispenseItemBehavior \u001b[2;32m+2M\u001b[0m \u001b[2;31m-2M\u001b[0m | \u001b[2;32m+1P\u001b[0m \u001b[2;31m-1P\u001b[0m",
+          "XXX.core.dispenser.DispenseItemBehavior$10 \u001b[2;32m+1M\u001b[0m \u001b[2;31m-1M\u001b[0m",
+          "XXX.core.dispenser.DispenseItemBehavior$12 \u001b[2;32m+1M\u001b[0m \u001b[2;31m-1M\u001b[0m",
+          "XXX.core.dispenser.DispenseItemBehavior$14 \u001b[2;32m+2M\u001b[0m \u001b[2;31m-2M\u001b[0m",
+          "XXX.core.dispenser.DispenseItemBehavior$16 \u001b[2;32m+1M\u001b[0m \u001b[2;31m-1M\u001b[0m",
+          "XXX.core.dispenser.DispenseItemBehavior$18 \u001b[2;32m+1M\u001b[0m \u001b[2;31m-1M\u001b[0m",
+          "XXX.core.dispenser.DispenseItemBehavior$21 \u001b[2;32m+1M\u001b[0m \u001b[2;31m-1M\u001b[0m",
+          "XXX.core.dispenser.DispenseItemBehavior$23 \u001b[2;32m+1M\u001b[0m \u001b[2;31m-1M\u001b[0m",
+          "XXX.core.dispenser.DispenseItemBehavior$25 \u001b[2;32m+1M\u001b[0m \u001b[2;31m-1M\u001b[0m",
+          "XXX.core.dispenser.DispenseItemBehavior$27 \u001b[2;32m+1M\u001b[0m \u001b[2;31m-1M\u001b[0m",
+          "XXX.core.dispenser.OptionalDispenseItemBehavior \u001b[2;32m+1M\u001b[0m \u001b[2;31m-1M\u001b[0m",
+          "XXX.core.dispenser.ShulkerBoxDispenseBehavior \u001b[2;32m+1M\u001b[0m \u001b[2;31m-1M\u001b[0m",
+          "XXX.world.item.ArmorItem \u001b[2;32m+1M\u001b[0m \u001b[2;31m-1M\u001b[0m",
+          "XXX.level.block.DispenserBlock \u001b[2;32m+2M\u001b[0m \u001b[2;31m-2M\u001b[0m | \u001b[2;32m+1P\u001b[0m",
+          "XXX.level.block.DropperBlock \u001b[2;32m+1M\u001b[0m \u001b[2;31m-1M\u001b[0m | \u001b[2;32m+1P\u001b[0m"
+        ]
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.core.dispenser.BoatDispenseItemBehavior",
+        "differences": {
+          "added": [
+            "ItemStack execute(BlockSource,ItemStack)",
+            "void playSound(BlockSource)"
+          ],
+          "removed": [
+            "ItemStack execute(BlockSource,ItemStack)",
+            "void playSound(BlockSource)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.core.dispenser.DispenseItemBehavior",
+        "differences": {
+          "added": [
+            "void setEntityPokingOutOfBlock(BlockSource,Entity,Direction)",
+            "ItemStack lambda$static$0(BlockSource,ItemStack)"
+          ],
+          "removed": [
+            "Vec3 getEntityPokingOutOfBlockPos(BlockSource,EntityType,Direction)",
+            "ItemStack lambda$static$0(BlockSource,ItemStack)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.core.dispenser.DispenseItemBehavior$10",
+        "differences": {
+          "added": [
+            "ItemStack execute(BlockSource,ItemStack)"
+          ],
+          "removed": [
+            "ItemStack execute(BlockSource,ItemStack)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.core.dispenser.DispenseItemBehavior$12",
+        "differences": {
+          "added": [
+            "ItemStack execute(BlockSource,ItemStack)"
+          ],
+          "removed": [
+            "ItemStack execute(BlockSource,ItemStack)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.core.dispenser.DispenseItemBehavior$14",
+        "differences": {
+          "added": [
+            "ItemStack execute(BlockSource,ItemStack)",
+            "void playSound(BlockSource)"
+          ],
+          "removed": [
+            "ItemStack execute(BlockSource,ItemStack)",
+            "void playSound(BlockSource)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.core.dispenser.DispenseItemBehavior$16",
+        "differences": {
+          "added": [
+            "ItemStack execute(BlockSource,ItemStack)"
+          ],
+          "removed": [
+            "ItemStack execute(BlockSource,ItemStack)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.core.dispenser.DispenseItemBehavior$18",
+        "differences": {
+          "added": [
+            "ItemStack execute(BlockSource,ItemStack)"
+          ],
+          "removed": [
+            "ItemStack execute(BlockSource,ItemStack)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.core.dispenser.DispenseItemBehavior$21",
+        "differences": {
+          "added": [
+            "ItemStack execute(BlockSource,ItemStack)"
+          ],
+          "removed": [
+            "ItemStack execute(BlockSource,ItemStack)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.core.dispenser.DispenseItemBehavior$23",
+        "differences": {
+          "added": [
+            "ItemStack execute(BlockSource,ItemStack)"
+          ],
+          "removed": [
+            "ItemStack execute(BlockSource,ItemStack)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.core.dispenser.DispenseItemBehavior$25",
+        "differences": {
+          "added": [
+            "ItemStack execute(BlockSource,ItemStack)"
+          ],
+          "removed": [
+            "ItemStack execute(BlockSource,ItemStack)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.core.dispenser.DispenseItemBehavior$27",
+        "differences": {
+          "added": [
+            "ItemStack execute(BlockSource,ItemStack)"
+          ],
+          "removed": [
+            "ItemStack execute(BlockSource,ItemStack)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.core.dispenser.OptionalDispenseItemBehavior",
+        "differences": {
+          "added": [
+            "void playSound(BlockSource)"
+          ],
+          "removed": [
+            "void playSound(BlockSource)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.core.dispenser.ShulkerBoxDispenseBehavior",
+        "differences": {
+          "added": [
+            "ItemStack execute(BlockSource,ItemStack)"
+          ],
+          "removed": [
+            "ItemStack execute(BlockSource,ItemStack)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.item.ArmorItem",
+        "differences": {
+          "added": [
+            "boolean dispenseArmor(BlockSource,ItemStack)"
+          ],
+          "removed": [
+            "boolean dispenseArmor(BlockSource,ItemStack)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.level.block.DispenserBlock",
+        "differences": {
+          "added": [
+            "void dispenseFrom(ServerLevel,BlockPos)",
+            "Position getDispensePosition(BlockSource)"
+          ],
+          "removed": [
+            "void dispenseFrom(ServerLevel,BlockState,BlockPos)",
+            "Position getDispensePosition(BlockSource)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.level.block.DropperBlock",
+        "differences": {
+          "added": [
+            "void dispenseFrom(ServerLevel,BlockPos)"
+          ],
+          "removed": [
+            "void dispenseFrom(ServerLevel,BlockState,BlockPos)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "title",
+      "value": {
+        "title": "Client",
+        "id": "client-mappings",
+        "size": 2
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "Classes",
+        "differences": {
+          "added": [
+            "XXX.minecraft.core.BlockSourceImpl",
+            "XXX.minecraft.core.QuartPos",
+            "XXX.minecraft.core.Registry$1",
+            "XXX.minecraft.core.RegistryAccess",
+            "XXX.minecraft.core.RegistryAccess$1FrozenAccess",
+            "XXX.minecraft.core.RegistryAccess$ImmutableRegistryAccess",
+            "XXX.minecraft.core.RegistryCodecs",
+            "XXX.minecraft.core.RegistrySetBuilder",
+            "XXX.minecraft.core.RegistrySetBuilder$BuildState",
+            "XXX.minecraft.core.RegistrySetBuilder$CompositeOwner",
+            "XXX.minecraft.core.RegistrySetBuilder$RegisteredValue",
+            "XXX.minecraft.core.RegistrySetBuilder$RegistryContents",
+            "XXX.minecraft.core.RegistrySetBuilder$RegistryStub",
+            "XXX.minecraft.core.RegistrySetBuilder$ValueAndHolder",
+            "XXX.minecraft.core.RegistrySynchronization$NetworkedRegistryData",
+            "XXX.minecraft.core.SectionPos",
+            "XXX.minecraft.core.UUIDUtil",
+            "XXX.minecraft.core.WritableRegistry",
+            "XXX.core.cauldron.package-info"
+          ],
+          "removed": [
+            "XXX.minecraft.core.Registry",
+            "XXX.minecraft.core.Registry$2",
+            "XXX.minecraft.core.RegistryAccess$1",
+            "XXX.minecraft.core.RegistryAccess$Frozen",
+            "XXX.minecraft.core.RegistryAccess$RegistryEntry",
+            "XXX.minecraft.core.RegistryCodecs$RegistryEntry",
+            "XXX.minecraft.core.RegistrySetBuilder$1",
+            "XXX.minecraft.core.RegistrySetBuilder$BuildState$1",
+            "XXX.minecraft.core.RegistrySetBuilder$EmptyTagLookup",
+            "XXX.minecraft.core.RegistrySetBuilder$RegistryBootstrap",
+            "XXX.minecraft.core.RegistrySetBuilder$RegistryContents$1",
+            "XXX.minecraft.core.RegistrySetBuilder$UniversalLookup",
+            "XXX.minecraft.core.RegistrySynchronization",
+            "XXX.minecraft.core.Rotations",
+            "XXX.minecraft.core.SectionPos$1",
+            "XXX.minecraft.core.Vec3i",
+            "XXX.core.cauldron.CauldronInteraction",
+            "XXX.core.dispenser.AbstractProjectileDispenseBehavior"
+          ]
+        }
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "Changes",
+        "lines": [
+          "XXX.core.dispenser.BoatDispenseItemBehavior \u001b[2;32m+2M\u001b[0m \u001b[2;31m-2M\u001b[0m",
+          "XXX.core.dispenser.DispenseItemBehavior \u001b[2;32m+2M\u001b[0m \u001b[2;31m-2M\u001b[0m | \u001b[2;32m+1P\u001b[0m \u001b[2;31m-1P\u001b[0m",
+          "XXX.core.dispenser.DispenseItemBehavior$10 \u001b[2;32m+1M\u001b[0m \u001b[2;31m-1M\u001b[0m",
+          "XXX.core.dispenser.DispenseItemBehavior$12 \u001b[2;32m+1M\u001b[0m \u001b[2;31m-1M\u001b[0m",
+          "XXX.core.dispenser.DispenseItemBehavior$14 \u001b[2;32m+2M\u001b[0m \u001b[2;31m-2M\u001b[0m",
+          "XXX.core.dispenser.DispenseItemBehavior$16 \u001b[2;32m+1M\u001b[0m \u001b[2;31m-1M\u001b[0m",
+          "XXX.core.dispenser.DispenseItemBehavior$18 \u001b[2;32m+1M\u001b[0m \u001b[2;31m-1M\u001b[0m",
+          "XXX.core.dispenser.DispenseItemBehavior$21 \u001b[2;32m+1M\u001b[0m \u001b[2;31m-1M\u001b[0m",
+          "XXX.core.dispenser.DispenseItemBehavior$23 \u001b[2;32m+1M\u001b[0m \u001b[2;31m-1M\u001b[0m",
+          "XXX.core.dispenser.DispenseItemBehavior$25 \u001b[2;32m+1M\u001b[0m \u001b[2;31m-1M\u001b[0m",
+          "XXX.core.dispenser.DispenseItemBehavior$27 \u001b[2;32m+1M\u001b[0m \u001b[2;31m-1M\u001b[0m",
+          "XXX.core.dispenser.OptionalDispenseItemBehavior \u001b[2;32m+1M\u001b[0m \u001b[2;31m-1M\u001b[0m",
+          "XXX.core.dispenser.ShulkerBoxDispenseBehavior \u001b[2;32m+1M\u001b[0m \u001b[2;31m-1M\u001b[0m",
+          "XXX.minecraft.tags.DamageTypeTags \u001b[2;32m+1P\u001b[0m",
+          "XXX.world.item.ArmorItem$1 \u001b[2;32m+1M\u001b[0m \u001b[2;31m-1M\u001b[0m",
+          "XXX.world.item.MinecartItem$1 \u001b[2;32m+2M\u001b[0m \u001b[2;31m-2M\u001b[0m"
+        ]
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.core.dispenser.BoatDispenseItemBehavior",
+        "differences": {
+          "added": [
+            "ItemStack execute(BlockSource,ItemStack)",
+            "void playSound(BlockSource)"
+          ],
+          "removed": [
+            "ItemStack execute(BlockSource,ItemStack)",
+            "void playSound(BlockSource)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.core.dispenser.DispenseItemBehavior",
+        "differences": {
+          "added": [
+            "void setEntityPokingOutOfBlock(BlockSource,Entity,Direction)",
+            "ItemStack lambda$static$0(BlockSource,ItemStack)"
+          ],
+          "removed": [
+            "Vec3 getEntityPokingOutOfBlockPos(BlockSource,EntityType,Direction)",
+            "ItemStack lambda$static$0(BlockSource,ItemStack)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.core.dispenser.DispenseItemBehavior$10",
+        "differences": {
+          "added": [
+            "ItemStack execute(BlockSource,ItemStack)"
+          ],
+          "removed": [
+            "ItemStack execute(BlockSource,ItemStack)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.core.dispenser.DispenseItemBehavior$12",
+        "differences": {
+          "added": [
+            "ItemStack execute(BlockSource,ItemStack)"
+          ],
+          "removed": [
+            "ItemStack execute(BlockSource,ItemStack)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.core.dispenser.DispenseItemBehavior$14",
+        "differences": {
+          "added": [
+            "ItemStack execute(BlockSource,ItemStack)",
+            "void playSound(BlockSource)"
+          ],
+          "removed": [
+            "ItemStack execute(BlockSource,ItemStack)",
+            "void playSound(BlockSource)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.core.dispenser.DispenseItemBehavior$16",
+        "differences": {
+          "added": [
+            "ItemStack execute(BlockSource,ItemStack)"
+          ],
+          "removed": [
+            "ItemStack execute(BlockSource,ItemStack)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.core.dispenser.DispenseItemBehavior$18",
+        "differences": {
+          "added": [
+            "ItemStack execute(BlockSource,ItemStack)"
+          ],
+          "removed": [
+            "ItemStack execute(BlockSource,ItemStack)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.core.dispenser.DispenseItemBehavior$21",
+        "differences": {
+          "added": [
+            "ItemStack execute(BlockSource,ItemStack)"
+          ],
+          "removed": [
+            "ItemStack execute(BlockSource,ItemStack)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.core.dispenser.DispenseItemBehavior$23",
+        "differences": {
+          "added": [
+            "ItemStack execute(BlockSource,ItemStack)"
+          ],
+          "removed": [
+            "ItemStack execute(BlockSource,ItemStack)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.core.dispenser.DispenseItemBehavior$25",
+        "differences": {
+          "added": [
+            "ItemStack execute(BlockSource,ItemStack)"
+          ],
+          "removed": [
+            "ItemStack execute(BlockSource,ItemStack)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.core.dispenser.DispenseItemBehavior$27",
+        "differences": {
+          "added": [
+            "ItemStack execute(BlockSource,ItemStack)"
+          ],
+          "removed": [
+            "ItemStack execute(BlockSource,ItemStack)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.core.dispenser.OptionalDispenseItemBehavior",
+        "differences": {
+          "added": [
+            "void playSound(BlockSource)"
+          ],
+          "removed": [
+            "void playSound(BlockSource)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.core.dispenser.ShulkerBoxDispenseBehavior",
+        "differences": {
+          "added": [
+            "ItemStack execute(BlockSource,ItemStack)"
+          ],
+          "removed": [
+            "ItemStack execute(BlockSource,ItemStack)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.item.ArmorItem$1",
+        "differences": {
+          "added": [
+            "ItemStack execute(BlockSource,ItemStack)"
+          ],
+          "removed": [
+            "ItemStack execute(BlockSource,ItemStack)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.item.MinecartItem$1",
+        "differences": {
+          "added": [
+            "ItemStack execute(BlockSource,ItemStack)",
+            "void playSound(BlockSource)"
+          ],
+          "removed": [
+            "ItemStack execute(BlockSource,ItemStack)",
+            "void playSound(BlockSource)"
+          ]
+        }
+      }
+    }
+  ]
+}

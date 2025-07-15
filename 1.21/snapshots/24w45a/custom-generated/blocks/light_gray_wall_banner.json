@@ -1,0 +1,30 @@
+{
+  "definition": {
+    "type": "minecraft:wall_banner",
+    "color": "light_gray",
+    "properties": {}
+  },
+  "properties": {
+    "facing": [
+      "north",
+      "south",
+      "west",
+      "east"
+    ]
+  },
+  "states": {
+    "11862": {
+      "facing": "north"
+    },
+    "11863": {
+      "facing": "south"
+    },
+    "11864": {
+      "facing": "west"
+    },
+    "11865": {
+      "facing": "east"
+    },
+    "default": 11862
+  }
+}

@@ -1,0 +1,209 @@
+{
+  "version_data": [
+    {
+      "type": "table",
+      "value": {
+        "previousLabel": "1.16-pre8",
+        "currentLabel": "1.16-rc1",
+        "values": [
+          {
+            "key": "World version",
+            "previous": "2564",
+            "current": "2565"
+          },
+          {
+            "key": "Protocol version",
+            "previous": "733",
+            "current": "734"
+          }
+        ]
+      }
+    },
+    {
+      "type": "title",
+      "value": {
+        "title": "Libraries",
+        "id": "version-data-libraries",
+        "size": 3
+      }
+    },
+    {
+      "type": "table",
+      "value": {
+        "title": "Versions",
+        "previousLabel": "1.16-pre8",
+        "currentLabel": "1.16-rc1",
+        "values": [
+          {
+            "key": "org.lwjgl:lwjgl-glfw",
+            "previous": "3.2.1",
+            "current": "3.2.2"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-glfw",
+            "previous": "3.2.1",
+            "current": "3.2.2"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-jemalloc",
+            "previous": "3.2.1",
+            "current": "3.2.2"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-jemalloc",
+            "previous": "3.2.1",
+            "current": "3.2.2"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-openal",
+            "previous": "3.2.1",
+            "current": "3.2.2"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-openal",
+            "previous": "3.2.1",
+            "current": "3.2.2"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-opengl",
+            "previous": "3.2.1",
+            "current": "3.2.2"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-opengl",
+            "previous": "3.2.1",
+            "current": "3.2.2"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-stb",
+            "previous": "3.2.1",
+            "current": "3.2.2"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-stb",
+            "previous": "3.2.1",
+            "current": "3.2.2"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-tinyfd",
+            "previous": "3.2.1",
+            "current": "3.2.2"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-tinyfd",
+            "previous": "3.2.1",
+            "current": "3.2.2"
+          },
+          {
+            "key": "org.lwjgl:lwjgl",
+            "previous": "3.2.1",
+            "current": "3.2.2"
+          },
+          {
+            "key": "org.lwjgl:lwjgl",
+            "previous": "3.2.1",
+            "current": "3.2.2"
+          }
+        ]
+      }
+    }
+  ],
+  "misc": [
+    {
+      "type": "entries",
+      "value": {
+        "name": "splashes",
+        "differences": {
+          "added": [
+            "This parrot is no more! It has ceased to be!",
+            "Wash your hands!",
+            "Soap and water!",
+            "Support local businesses!",
+            "Stay home and play games!",
+            "Stay safe!",
+            "Stay strong!",
+            "Cough or sneeze into your elbow!",
+            "Don’t touch your face!",
+            "Support elderly relatives and friends!",
+            "Prepare, but don’t hoard!",
+            "Gamers unite – separately in your own homes!",
+            "Save the world – stay inside!",
+            "Shop for your elders!",
+            "Hang out with your friends online!",
+            "Honey, I grew the bees!",
+            "Find your claw!",
+            "Everybody do the Leif!",
+            "<3 Max & 99 & Ducky!",
+            "Bushy eyebrows!",
+            "Edit is a name!",
+            "From free range developers!",
+            "Music by Lena Raine!",
+            "Aww man!",
+            "#minecraftfarms",
+            "And my pickaxe!",
+            "Envision! Create! Share!",
+            "Fabulous graphics!",
+            "Also try Minecraft Dungeons!",
+            "Vanilla!",
+            "May contain traces of citrus!",
+            "Zoglin!?"
+          ],
+          "removed": [
+            "Undocumented!",
+            "Down with O.P.P.!",
+            "Lewd with two dudes with food!",
+            "Switches and ores!",
+            "Huge tracts of land!",
+            "Totally forgot about Dre!",
+            "Popping tags!",
+            "Getting ready to show!",
+            "Getting ready to know!",
+            "Getting ready to drop!",
+            "Getting ready to shock!",
+            "Getting ready to freak!",
+            "Getting ready to speak!"
+          ]
+        }
+      }
+    }
+  ],
+  "mappings": [
+    {
+      "type": "title",
+      "value": {
+        "title": "Server",
+        "id": "server-mappings",
+        "size": 2
+      }
+    },
+    {
+      "type": "title",
+      "value": {
+        "title": "Client",
+        "id": "client-mappings",
+        "size": 2
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "Changes",
+        "lines": [
+          "XXX.world.inventory.StonecutterMenu \u001b[2;32m+1M\u001b[0m"
+        ]
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.inventory.StonecutterMenu",
+        "differences": {
+          "added": [],
+          "removed": [
+            "boolean isValidRecipeIndex(int)"
+          ]
+        }
+      }
+    }
+  ]
+}

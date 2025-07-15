@@ -1,0 +1,320 @@
+{
+  "version_data": [
+    {
+      "type": "table",
+      "value": {
+        "previousLabel": "1.16-pre6",
+        "currentLabel": "1.16-pre7",
+        "values": [
+          {
+            "key": "World version",
+            "previous": "2562",
+            "current": "2563"
+          },
+          {
+            "key": "Protocol version",
+            "previous": "730",
+            "current": "732"
+          }
+        ]
+      }
+    },
+    {
+      "type": "title",
+      "value": {
+        "title": "Libraries",
+        "id": "version-data-libraries",
+        "size": 3
+      }
+    },
+    {
+      "type": "table",
+      "value": {
+        "title": "Versions",
+        "previousLabel": "1.16-pre6",
+        "currentLabel": "1.16-pre7",
+        "values": [
+          {
+            "key": "org.lwjgl:lwjgl-glfw",
+            "previous": "3.2.1",
+            "current": "3.2.2"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-glfw",
+            "previous": "3.2.1",
+            "current": "3.2.2"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-jemalloc",
+            "previous": "3.2.1",
+            "current": "3.2.2"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-jemalloc",
+            "previous": "3.2.1",
+            "current": "3.2.2"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-openal",
+            "previous": "3.2.1",
+            "current": "3.2.2"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-openal",
+            "previous": "3.2.1",
+            "current": "3.2.2"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-opengl",
+            "previous": "3.2.1",
+            "current": "3.2.2"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-opengl",
+            "previous": "3.2.1",
+            "current": "3.2.2"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-stb",
+            "previous": "3.2.1",
+            "current": "3.2.2"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-stb",
+            "previous": "3.2.1",
+            "current": "3.2.2"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-tinyfd",
+            "previous": "3.2.1",
+            "current": "3.2.2"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-tinyfd",
+            "previous": "3.2.1",
+            "current": "3.2.2"
+          },
+          {
+            "key": "org.lwjgl:lwjgl",
+            "previous": "3.2.1",
+            "current": "3.2.2"
+          },
+          {
+            "key": "org.lwjgl:lwjgl",
+            "previous": "3.2.1",
+            "current": "3.2.2"
+          }
+        ]
+      }
+    }
+  ],
+  "mappings": [
+    {
+      "type": "title",
+      "value": {
+        "title": "Server",
+        "id": "server-mappings",
+        "size": 2
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "Classes",
+        "differences": {
+          "added": [
+            "XXX.protocol.game.ClientboundSetEquippedItemPacket"
+          ],
+          "removed": [
+            "XXX.protocol.game.ClientboundSetEquipmentPacket"
+          ]
+        }
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "Changes",
+        "lines": [
+          "XXX.entity.monster.ZombifiedPiglin \u001b[2;31m-1M\u001b[0m",
+          "XXX.entity.player.Player \u001b[2;32m+1M\u001b[0m"
+        ]
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.entity.monster.ZombifiedPiglin",
+        "differences": {
+          "added": [
+            "boolean isAlwaysExperienceDropper()"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.entity.player.Player",
+        "differences": {
+          "added": [],
+          "removed": [
+            "void setRemainingFireTicks(int)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "title",
+      "value": {
+        "title": "Client",
+        "id": "client-mappings",
+        "size": 2
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "Changes",
+        "lines": [
+          "XXX.blaze3d.platform.Window \u001b[2;32m+1M\u001b[0m",
+          "XXX.minecraft.client.Minecraft \u001b[2;32m+1M\u001b[0m",
+          "XXX.minecraft.client.MouseHandler \u001b[2;32m+1M\u001b[0m",
+          "XXX.client.multiplayer.ClientPacketListener \u001b[2;32m+11M\u001b[0m \u001b[2;31m-9M\u001b[0m",
+          "XXX.protocol.game.ClientGamePacketListener \u001b[2;32m+1P\u001b[0m \u001b[2;31m-1P\u001b[0m",
+          "XXX.protocol.game.ClientboundLevelChunkPacket \u001b[2;32m+2M\u001b[0m \u001b[2;31m-1M\u001b[0m | \u001b[2;32m+1P\u001b[0m",
+          "XXX.server.level.ChunkHolder \u001b[2;31m-1P\u001b[0m",
+          "XXX.world.entity.LivingEntity \u001b[2;32m+14M\u001b[0m \u001b[2;31m-4M\u001b[0m",
+          "XXX.world.level.CollisionSpliterator \u001b[2;32m+2M\u001b[0m"
+        ]
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "com.mojang.blaze3d.platform.Window",
+        "differences": {
+          "added": [],
+          "removed": [
+            "void onEnter(long,boolean)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.client.Minecraft",
+        "differences": {
+          "added": [],
+          "removed": [
+            "void cursorEntered()"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.client.MouseHandler",
+        "differences": {
+          "added": [],
+          "removed": [
+            "void cursorEntered()"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.client.multiplayer.ClientPacketListener",
+        "differences": {
+          "added": [
+            "void handleSetEquippedItem(ClientboundSetEquippedItemPacket)",
+            "void lambda$handlePlaceRecipe$7(AbstractContainerMenu,Recipe)",
+            "Void lambda$downloadCallback$6(Throwable)",
+            "void lambda$downloadCallback$5()",
+            "void lambda$handleResourcePack$4(String,String)",
+            "void lambda$null$3(String,String,boolean)",
+            "void lambda$handleAddOrRemoveRecipes$2(ClientRecipeBook,RecipeCollection)",
+            "void lambda$handleAddOrRemoveRecipes$1(ClientRecipeBook,Recipe)",
+            "void lambda$handleGameEvent$0()"
+          ],
+          "removed": [
+            "void handleSetEquipment(ClientboundSetEquipmentPacket)",
+            "void lambda$handlePlaceRecipe$9(AbstractContainerMenu,Recipe)",
+            "Void lambda$downloadCallback$8(Throwable)",
+            "void lambda$downloadCallback$7()",
+            "void lambda$handleResourcePack$6(String,String)",
+            "void lambda$null$5(String,String,boolean)",
+            "void lambda$handleAddOrRemoveRecipes$4(ClientRecipeBook,RecipeCollection)",
+            "void lambda$handleAddOrRemoveRecipes$3(ClientRecipeBook,Recipe)",
+            "void lambda$handleGameEvent$2()",
+            "void lambda$handleSetEquipment$1(Entity,Pair)",
+            "void lambda$handleLevelChunk$0(LevelChunk,BlockPos)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.network.protocol.game.ClientboundLevelChunkPacket",
+        "differences": {
+          "added": [
+            "void <init>(LevelChunk,int)"
+          ],
+          "removed": [
+            "void <init>(LevelChunk,int,boolean)",
+            "boolean forgetOldData()"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.entity.LivingEntity",
+        "differences": {
+          "added": [
+            "void lambda$stopSleeping$9(BlockPos)",
+            "Vec3 lambda$null$8(BlockPos)",
+            "Boolean lambda$checkBedExists$7(BlockPos)",
+            "void lambda$updateFallFlying$6(LivingEntity)"
+          ],
+          "removed": [
+            "void swapHandItems()",
+            "void detectEquipmentUpdates()",
+            "Map collectEquipmentChanges()",
+            "void handleHandSwap(Map)",
+            "void handleEquipmentChanges(Map)",
+            "ItemStack getLastArmorItem(EquipmentSlot)",
+            "void setLastArmorItem(EquipmentSlot,ItemStack)",
+            "ItemStack getLastHandItem(EquipmentSlot)",
+            "void setLastHandItem(EquipmentSlot,ItemStack)",
+            "void lambda$stopSleeping$10(BlockPos)",
+            "Vec3 lambda$null$9(BlockPos)",
+            "Boolean lambda$checkBedExists$8(BlockPos)",
+            "void lambda$updateFallFlying$7(LivingEntity)",
+            "void lambda$handleEquipmentChanges$6(List,EquipmentSlot,ItemStack)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.level.CollisionSpliterator",
+        "differences": {
+          "added": [],
+          "removed": [
+            "boolean isCloseToBorder(VoxelShape,AABB)",
+            "boolean isOutsideBorder(VoxelShape,AABB)"
+          ]
+        }
+      }
+    }
+  ]
+}

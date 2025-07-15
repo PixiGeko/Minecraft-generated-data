@@ -1,0 +1,128 @@
+{
+  "version_data": [
+    {
+      "type": "table",
+      "value": {
+        "previousLabel": "19w14b",
+        "currentLabel": "1.14 Pre-Release 1",
+        "values": [
+          {
+            "key": "World version",
+            "previous": "1945",
+            "current": "1947"
+          },
+          {
+            "key": "Protocol version",
+            "previous": "471",
+            "current": "472"
+          }
+        ]
+      }
+    },
+    {
+      "type": "title",
+      "value": {
+        "title": "Libraries",
+        "id": "version-data-libraries",
+        "size": 3
+      }
+    },
+    {
+      "type": "table",
+      "value": {
+        "title": "Versions",
+        "previousLabel": "19w14b",
+        "currentLabel": "1.14 Pre-Release 1",
+        "values": [
+          {
+            "key": "com.mojang:datafixerupper",
+            "previous": "2.0.23",
+            "current": "2.0.24"
+          },
+          {
+            "key": "com.mojang:realms",
+            "previous": "1.14.4",
+            "current": "1.14.6"
+          },
+          {
+            "key": "com.mojang:text2speech",
+            "previous": "1.11.2",
+            "current": "1.11.3"
+          },
+          {
+            "key": "com.mojang:text2speech",
+            "previous": "1.11.2",
+            "current": "1.11.3"
+          }
+        ]
+      }
+    }
+  ],
+  "translations": [
+    {
+      "type": "entries",
+      "value": {
+        "name": "Keys",
+        "differences": {
+          "added": [
+            "selectWorld.backupEraseCache: Erase cached data"
+          ],
+          "removed": []
+        }
+      }
+    }
+  ],
+  "file_structure": [
+    {
+      "type": "entries",
+      "value": {
+        "name": "data",
+        "differences": {
+          "added": [
+            "minecraft/structures/village/desert/villagers/baby.nbt",
+            "minecraft/structures/village/plains/villagers/baby.nbt",
+            "minecraft/structures/village/savanna/villagers/baby.nbt",
+            "minecraft/structures/village/snowy/villagers/baby.nbt",
+            "minecraft/structures/village/taiga/villagers/baby.nbt"
+          ],
+          "removed": [
+            "minecraft/structures/village/snowy/houses/snowy_butchers_shop.nbt",
+            "minecraft/structures/village/taiga/houses/taiga_decoration_1.nbt",
+            "minecraft/structures/village/taiga/houses/taiga_lamp_post_1.nbt",
+            "minecraft/structures/village/taiga/houses/taiga_meeting_point_1.nbt",
+            "minecraft/structures/village/taiga/houses/taiga_sheperds_house_1.nbt",
+            "minecraft/structures/village/taiga/houses/taiga_weapon_smith_1.nbt",
+            "minecraft/tags/blocks/armorer_poi.json",
+            "minecraft/tags/blocks/butcher_poi.json",
+            "minecraft/tags/blocks/cartographer_poi.json",
+            "minecraft/tags/blocks/cleric_poi.json",
+            "minecraft/tags/blocks/farmer_poi.json",
+            "minecraft/tags/blocks/fisherman_poi.json",
+            "minecraft/tags/blocks/fletcher_poi.json",
+            "minecraft/tags/blocks/job_site_poi.json",
+            "minecraft/tags/blocks/leatherworker_poi.json",
+            "minecraft/tags/blocks/librarian_poi.json",
+            "minecraft/tags/blocks/mason_poi.json",
+            "minecraft/tags/blocks/meeting_site_poi.json",
+            "minecraft/tags/blocks/points_of_interest.json",
+            "minecraft/tags/blocks/shepherd_poi.json",
+            "minecraft/tags/blocks/toolsmith_poi.json",
+            "minecraft/tags/blocks/weaponsmith_poi.json"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "assets",
+        "differences": {
+          "added": [
+            "minecraft/textures/gui/checkbox.png"
+          ],
+          "removed": []
+        }
+      }
+    }
+  ]
+}

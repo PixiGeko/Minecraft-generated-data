@@ -1,0 +1,32 @@
+{
+  "definition": {
+    "type": "minecraft:brushable",
+    "brush_completed_sound": "minecraft:item.brush.brushing.sand",
+    "brush_sound": "minecraft:item.brush.brushing.sand",
+    "properties": {},
+    "turns_into": "minecraft:sand"
+  },
+  "properties": {
+    "dusted": [
+      0,
+      1,
+      2,
+      3
+    ]
+  },
+  "states": {
+    "113": {
+      "dusted": 0
+    },
+    "114": {
+      "dusted": 1
+    },
+    "115": {
+      "dusted": 2
+    },
+    "116": {
+      "dusted": 3
+    },
+    "default": 113
+  }
+}

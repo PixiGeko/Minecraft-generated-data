@@ -1,0 +1,229 @@
+{
+  "version_data": [
+    {
+      "type": "table",
+      "value": {
+        "previousLabel": "1.19-pre2",
+        "currentLabel": "1.19-pre3",
+        "values": [
+          {
+            "key": "World version",
+            "previous": "3099",
+            "current": "3100"
+          },
+          {
+            "key": "Protocol version",
+            "previous": "1073741910",
+            "current": "1073741911"
+          }
+        ]
+      }
+    }
+  ],
+  "registries": [
+    {
+      "type": "entries",
+      "value": {
+        "name": "memory_module_type",
+        "differences": {
+          "added": [
+            "minecraft:unreachable_tongue_targets"
+          ],
+          "removed": []
+        }
+      }
+    }
+  ],
+  "tags": [
+    {
+      "type": "entries",
+      "value": {
+        "name": "universal_tags/memory_module_type.json",
+        "differences": {
+          "added": [
+            "minecraft:unreachable_tongue_targets"
+          ],
+          "removed": []
+        }
+      }
+    }
+  ],
+  "mappings": [
+    {
+      "type": "title",
+      "value": {
+        "title": "Server",
+        "id": "server-mappings",
+        "size": 2
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "Changes",
+        "lines": [
+          "XXX.commands.arguments.MessageArgument$ChatMessage \u001b[2;32m+5M\u001b[0m \u001b[2;31m-3M\u001b[0m | \u001b[2;32m+2P\u001b[0m \u001b[2;31m-1P\u001b[0m",
+          "XXX.gametest.framework.GameTestHelper \u001b[2;32m+1M\u001b[0m",
+          "XXX.animal.allay.Allay \u001b[2;32m+1M\u001b[0m | \u001b[2;32m+1P\u001b[0m",
+          "XXX.entity.item.ItemEntity \u001b[2;32m+1M\u001b[0m"
+        ]
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.commands.arguments.MessageArgument$ChatMessage",
+        "differences": {
+          "added": [
+            "void <init>(Component,MessageSignature,boolean)",
+            "FilteredText verify(CommandSourceStack,FilteredText)",
+            "Component plain()"
+          ],
+          "removed": [
+            "void <init>(String,Component,MessageSignature,boolean)",
+            "PlayerChatMessage getSignedMessage(FilteredText)",
+            "void verify(CommandSourceStack,PlayerChatMessage)",
+            "String plain()",
+            "Component formatted()"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.gametest.framework.GameTestHelper",
+        "differences": {
+          "added": [],
+          "removed": [
+            "List getEntities(EntityType,BlockPos,double)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.entity.animal.allay.Allay",
+        "differences": {
+          "added": [],
+          "removed": [
+            "Iterable iteratePathfindingStartNodeCandidatePositions()"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.entity.item.ItemEntity",
+        "differences": {
+          "added": [],
+          "removed": [
+            "Entity getResponsibleEntity()"
+          ]
+        }
+      }
+    },
+    {
+      "type": "title",
+      "value": {
+        "title": "Client",
+        "id": "client-mappings",
+        "size": 2
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "Changes",
+        "lines": [
+          "XXX.client.multiplayer.ClientPacketListener \u001b[2;32m+1M\u001b[0m \u001b[2;31m-1M\u001b[0m",
+          "XXX.renderer.block.ModelBlockRenderer \u001b[2;31m-1M\u001b[0m",
+          "XXX.commands.arguments.MessageArgument$Message \u001b[2;32m+2M\u001b[0m \u001b[2;31m-2M\u001b[0m",
+          "XXX.network.chat.MessageSignature \u001b[2;32m+1M\u001b[0m",
+          "XXX.animal.allay.Allay \u001b[2;32m+1M\u001b[0m | \u001b[2;32m+1P\u001b[0m",
+          "XXX.entity.item.ItemEntity \u001b[2;32m+1M\u001b[0m"
+        ]
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.client.multiplayer.ClientPacketListener",
+        "differences": {
+          "added": [
+            "boolean hasValidSignature(PlayerChatMessage)"
+          ],
+          "removed": [
+            "boolean hasValidSignature(PlayerChatMessage,PlayerInfo)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.client.renderer.block.ModelBlockRenderer",
+        "differences": {
+          "added": [
+            "boolean isInteriorOccluded(BlockAndTintGetter,BlockState,BlockPos)"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.commands.arguments.MessageArgument$Message",
+        "differences": {
+          "added": [
+            "CompletableFuture resolveComponent(CommandSourceStack)",
+            "Component resolvePlainChat(CommandSourceStack)"
+          ],
+          "removed": [
+            "CompletableFuture resolveDecoratedComponent(CommandSourceStack)",
+            "Component resolveComponent(CommandSourceStack)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.network.chat.MessageSignature",
+        "differences": {
+          "added": [],
+          "removed": [
+            "boolean isValid(UUID)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.entity.animal.allay.Allay",
+        "differences": {
+          "added": [],
+          "removed": [
+            "Iterable iteratePathfindingStartNodeCandidatePositions()"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.entity.item.ItemEntity",
+        "differences": {
+          "added": [],
+          "removed": [
+            "Entity getResponsibleEntity()"
+          ]
+        }
+      }
+    }
+  ]
+}

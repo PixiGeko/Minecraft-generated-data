@@ -1,0 +1,78 @@
+{
+  "version_data": [
+    {
+      "type": "table",
+      "value": {
+        "previousLabel": "23w51a",
+        "currentLabel": "23w51b",
+        "values": [
+          {
+            "key": "World version",
+            "previous": "3801",
+            "current": "3802"
+          },
+          {
+            "key": "Protocol version",
+            "previous": "1073741993",
+            "current": "1073741994"
+          }
+        ]
+      }
+    }
+  ],
+  "translations": [
+    {
+      "type": "entries",
+      "value": {
+        "name": "Keys",
+        "differences": {
+          "added": [
+            "item.minecraft.scute: Scute"
+          ],
+          "removed": []
+        }
+      }
+    }
+  ],
+  "mappings": [
+    {
+      "type": "title",
+      "value": {
+        "title": "Server",
+        "id": "server-mappings",
+        "size": 2
+      }
+    },
+    {
+      "type": "title",
+      "value": {
+        "title": "Client",
+        "id": "client-mappings",
+        "size": 2
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "Changes",
+        "lines": [
+          "XXX.world.entity.EntityAttachments \u001b[2;32m+1M\u001b[0m \u001b[2;31m-1M\u001b[0m | \u001b[2;31m-1P\u001b[0m"
+        ]
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.entity.EntityAttachments",
+        "differences": {
+          "added": [
+            "void <clinit>()"
+          ],
+          "removed": [
+            "EntityAttachments createDefault(float,float)"
+          ]
+        }
+      }
+    }
+  ]
+}

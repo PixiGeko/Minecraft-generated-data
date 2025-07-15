@@ -1,0 +1,51 @@
+{
+  "version_data": [
+    {
+      "type": "table",
+      "value": {
+        "previousLabel": "1.14.4-pre3",
+        "currentLabel": "1.14.4-pre4",
+        "values": [
+          {
+            "key": "World version",
+            "previous": "1971",
+            "current": "1972"
+          },
+          {
+            "key": "Protocol version",
+            "previous": "493",
+            "current": "494"
+          }
+        ]
+      }
+    }
+  ],
+  "registries": [
+    {
+      "type": "entries",
+      "value": {
+        "name": "memory_module_type",
+        "differences": {
+          "added": [
+            "minecraft:opened_doors"
+          ],
+          "removed": []
+        }
+      }
+    }
+  ],
+  "tags": [
+    {
+      "type": "entries",
+      "value": {
+        "name": "universal_tags/memory_module_type.json",
+        "differences": {
+          "added": [
+            "minecraft:opened_doors"
+          ],
+          "removed": []
+        }
+      }
+    }
+  ]
+}

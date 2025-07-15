@@ -1,0 +1,120 @@
+{
+  "blocks": [
+    {
+      "type": "entries",
+      "value": {
+        "name": "🗒️ List",
+        "differences": {
+          "added": [
+            "blue_coral_plant.json",
+            "pink_coral_plant.json",
+            "purple_coral_plant.json",
+            "red_coral_plant.json",
+            "yellow_coral_plant.json"
+          ],
+          "removed": []
+        }
+      }
+    }
+  ],
+  "commands": [
+    {
+      "type": "entries",
+      "value": {
+        "name": "locate",
+        "differences": {
+          "added": [
+            "locate Buried_Treasure"
+          ],
+          "removed": []
+        }
+      }
+    }
+  ],
+  "translations": [
+    {
+      "type": "entries",
+      "value": {
+        "name": "Keys",
+        "differences": {
+          "added": [
+            "item.minecraft.clownfish_bucket: Tropical Fish Bucket",
+            "item.minecraft.tropical_fish_spawn_egg: Spawn Tropical Fish",
+            "filled_map.buried_treasure: Buried Treasure Map",
+            "stat.minecraft.time_since_rest: Since Last Rest"
+          ],
+          "removed": [
+            "stat.minecraft.time_since_sleep: Since Last Rest"
+          ]
+        }
+      }
+    }
+  ],
+  "file_structure": [
+    {
+      "type": "entries",
+      "value": {
+        "name": "data",
+        "differences": {
+          "added": [
+            "minecraft/loot_tables/chests/buried_treasure.json",
+            "minecraft/loot_tables/entities/tropical_fish.json",
+            "minecraft/tags/blocks/coral_plants.json",
+            "minecraft/tags/items/coral_plants.json"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "assets",
+        "differences": {
+          "added": [
+            "minecraft/blockstates/blue_coral_plant.json",
+            "minecraft/blockstates/pink_coral_plant.json",
+            "minecraft/blockstates/purple_coral_plant.json",
+            "minecraft/blockstates/red_coral_plant.json",
+            "minecraft/blockstates/yellow_coral_plant.json",
+            "minecraft/models/block/blue_coral_plant.json",
+            "minecraft/models/block/pink_coral_plant.json",
+            "minecraft/models/block/purple_coral_plant.json",
+            "minecraft/models/block/red_coral_plant.json",
+            "minecraft/models/block/yellow_coral_plant.json",
+            "minecraft/models/item/blue_coral_plant.json",
+            "minecraft/models/item/clownfish_bucket.json",
+            "minecraft/models/item/pink_coral_plant.json",
+            "minecraft/models/item/purple_coral_plant.json",
+            "minecraft/models/item/red_coral_plant.json",
+            "minecraft/models/item/trident_in_hand.json",
+            "minecraft/models/item/tropical_fish_spawn_egg.json",
+            "minecraft/models/item/yellow_coral_plant.json",
+            "minecraft/textures/blocks/blue_coral_plant.png",
+            "minecraft/textures/blocks/pink_coral_plant.png",
+            "minecraft/textures/blocks/purple_coral_plant.png",
+            "minecraft/textures/blocks/red_coral_plant.png",
+            "minecraft/textures/blocks/yellow_coral_plant.png",
+            "minecraft/textures/entity/fish/tropical_a.png",
+            "minecraft/textures/entity/fish/tropical_a_pattern_1.png",
+            "minecraft/textures/entity/fish/tropical_a_pattern_2.png",
+            "minecraft/textures/entity/fish/tropical_a_pattern_3.png",
+            "minecraft/textures/entity/fish/tropical_a_pattern_4.png",
+            "minecraft/textures/entity/fish/tropical_a_pattern_5.png",
+            "minecraft/textures/entity/fish/tropical_a_pattern_6.png",
+            "minecraft/textures/entity/fish/tropical_b.png",
+            "minecraft/textures/entity/fish/tropical_b_pattern_1.png",
+            "minecraft/textures/entity/fish/tropical_b_pattern_2.png",
+            "minecraft/textures/entity/fish/tropical_b_pattern_3.png",
+            "minecraft/textures/entity/fish/tropical_b_pattern_4.png",
+            "minecraft/textures/entity/fish/tropical_b_pattern_5.png",
+            "minecraft/textures/entity/fish/tropical_b_pattern_6.png",
+            "minecraft/textures/entity/phantom_eyes.png",
+            "minecraft/textures/items/trident.png"
+          ],
+          "removed": []
+        }
+      }
+    }
+  ]
+}

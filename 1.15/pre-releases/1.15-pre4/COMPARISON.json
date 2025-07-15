@@ -1,0 +1,494 @@
+{
+  "version_data": [
+    {
+      "type": "table",
+      "value": {
+        "previousLabel": "1.15-pre3",
+        "currentLabel": "1.15-pre4",
+        "values": [
+          {
+            "key": "World version",
+            "previous": "2220",
+            "current": "2221"
+          },
+          {
+            "key": "Protocol version",
+            "previous": "567",
+            "current": "569"
+          }
+        ]
+      }
+    },
+    {
+      "type": "title",
+      "value": {
+        "title": "Libraries",
+        "id": "version-data-libraries",
+        "size": 3
+      }
+    },
+    {
+      "type": "table",
+      "value": {
+        "title": "Versions",
+        "previousLabel": "1.15-pre3",
+        "currentLabel": "1.15-pre4",
+        "values": [
+          {
+            "key": "org.lwjgl:lwjgl-glfw",
+            "previous": "3.2.1",
+            "current": "3.2.2"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-glfw",
+            "previous": "3.2.1",
+            "current": "3.2.2"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-jemalloc",
+            "previous": "3.2.1",
+            "current": "3.2.2"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-jemalloc",
+            "previous": "3.2.1",
+            "current": "3.2.2"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-openal",
+            "previous": "3.2.1",
+            "current": "3.2.2"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-openal",
+            "previous": "3.2.1",
+            "current": "3.2.2"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-opengl",
+            "previous": "3.2.1",
+            "current": "3.2.2"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-opengl",
+            "previous": "3.2.1",
+            "current": "3.2.2"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-stb",
+            "previous": "3.2.1",
+            "current": "3.2.2"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-stb",
+            "previous": "3.2.1",
+            "current": "3.2.2"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-tinyfd",
+            "previous": "3.2.1",
+            "current": "3.2.2"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-tinyfd",
+            "previous": "3.2.1",
+            "current": "3.2.2"
+          },
+          {
+            "key": "org.lwjgl:lwjgl",
+            "previous": "3.2.1",
+            "current": "3.2.2"
+          },
+          {
+            "key": "org.lwjgl:lwjgl",
+            "previous": "3.2.1",
+            "current": "3.2.2"
+          }
+        ]
+      }
+    }
+  ],
+  "file_structure": [
+    {
+      "type": "entries",
+      "value": {
+        "name": "assets",
+        "differences": {
+          "added": [
+            "minecraft/textures/map/map_background_checkerboard.png"
+          ],
+          "removed": []
+        }
+      }
+    }
+  ],
+  "mappings": [
+    {
+      "type": "title",
+      "value": {
+        "title": "Server",
+        "id": "server-mappings",
+        "size": 2
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "Changes",
+        "lines": [
+          "XXX.gametest.framework.GameTestHelper \u001b[2;32m+1M\u001b[0m",
+          "XXX.entity.animal.Panda \u001b[2;32m+9M\u001b[0m \u001b[2;31m-7M\u001b[0m | \u001b[2;32m+2P\u001b[0m",
+          "XXX.entity.animal.Panda$PandaBreedGoal \u001b[2;32m+1M\u001b[0m \u001b[2;31m-2M\u001b[0m | \u001b[2;32m+1P\u001b[0m \u001b[2;31m-1P\u001b[0m",
+          "XXX.world.level.Explosion \u001b[2;32m+2M\u001b[0m \u001b[2;31m-2M\u001b[0m",
+          "XXX.level.block.Block \u001b[2;32m+1M\u001b[0m",
+          "XXX.level.block.GrassPathBlock \u001b[2;32m+1M\u001b[0m",
+          "XXX.level.block.ShulkerBoxBlock \u001b[2;32m+1M\u001b[0m \u001b[2;31m-1M\u001b[0m",
+          "XXX.block.piston.PistonBaseBlock \u001b[2;32m+1M\u001b[0m \u001b[2;31m-1M\u001b[0m",
+          "XXX.block.state.BlockState \u001b[2;32m+1M\u001b[0m",
+          "XXX.level.lighting.DynamicGraphMinFixedPoint \u001b[2;32m+1M\u001b[0m \u001b[2;31m-1M\u001b[0m"
+        ]
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.gametest.framework.GameTestHelper",
+        "differences": {
+          "added": [],
+          "removed": [
+            "void assertItemEntityPresent(Item,BlockPos,double)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.entity.animal.Panda",
+        "differences": {
+          "added": [
+            "Predicate access$500()",
+            "Random access$600(Panda)",
+            "Random access$700(Panda)",
+            "void access$800(Panda)",
+            "Random access$1000(Panda)",
+            "boolean access$1400(Panda)",
+            "boolean access$1500(Panda)"
+          ],
+          "removed": [
+            "TargetingConditions access$500()",
+            "Panda$PandaLookAtPlayerGoal access$600(Panda)",
+            "Predicate access$700()",
+            "Random access$800(Panda)",
+            "void access$1000(Panda)",
+            "Random access$1400(Panda)",
+            "Random access$1500(Panda)",
+            "boolean access$1600(Panda)",
+            "boolean access$1700(Panda)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.entity.animal.Panda$PandaBreedGoal",
+        "differences": {
+          "added": [
+            "void <init>(Panda,double)",
+            "void <clinit>()"
+          ],
+          "removed": [
+            "void <init>(Panda,Panda,double)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.level.Explosion",
+        "differences": {
+          "added": [
+            "void addBlockDrops(ObjectArrayList,ItemStack)",
+            "void lambda$finalizeExplosion$0(ObjectArrayList,ItemStack)"
+          ],
+          "removed": [
+            "void addBlockDrops(ObjectArrayList,ItemStack,BlockPos)",
+            "void lambda$finalizeExplosion$0(ObjectArrayList,BlockPos,ItemStack)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.level.block.Block",
+        "differences": {
+          "added": [],
+          "removed": [
+            "boolean isSuffocating(BlockState,BlockGetter,BlockPos)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.level.block.GrassPathBlock",
+        "differences": {
+          "added": [],
+          "removed": [
+            "boolean isViewBlocking(BlockState,BlockGetter,BlockPos)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.level.block.ShulkerBoxBlock",
+        "differences": {
+          "added": [
+            "boolean isViewBlocking(BlockState,BlockGetter,BlockPos)"
+          ],
+          "removed": [
+            "boolean isSuffocating(BlockState,BlockGetter,BlockPos)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.level.block.piston.PistonBaseBlock",
+        "differences": {
+          "added": [
+            "boolean isViewBlocking(BlockState,BlockGetter,BlockPos)"
+          ],
+          "removed": [
+            "boolean isSuffocating(BlockState,BlockGetter,BlockPos)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.level.block.state.BlockState",
+        "differences": {
+          "added": [],
+          "removed": [
+            "boolean isSuffocating(BlockGetter,BlockPos)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.level.lighting.DynamicGraphMinFixedPoint",
+        "differences": {
+          "added": [
+            "void lambda$removeIf$0(LongPredicate,long)"
+          ],
+          "removed": [
+            "void lambda$removeIf$0(LongPredicate,LongList,long)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "title",
+      "value": {
+        "title": "Client",
+        "id": "client-mappings",
+        "size": 2
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "Changes",
+        "lines": [
+          "XXX.blaze3d.platform.Lighting \u001b[2;31m-2M\u001b[0m | \u001b[2;31m-2P\u001b[0m",
+          "XXX.client.model.ArmorStandModel \u001b[2;32m+3M\u001b[0m",
+          "XXX.client.renderer.LevelRenderer \u001b[2;32m+6M\u001b[0m \u001b[2;31m-5M\u001b[0m | \u001b[2;32m+1P\u001b[0m \u001b[2;31m-1P\u001b[0m",
+          "XXX.client.renderer.ScreenEffectRenderer \u001b[2;32m+1M\u001b[0m",
+          "XXX.gametest.framework.GameTestHelper \u001b[2;32m+1M\u001b[0m",
+          "XXX.entity.animal.Panda$PandaLookAtPlayerGoal \u001b[2;32m+1M\u001b[0m",
+          "XXX.level.biome.Biome \u001b[2;32m+1M\u001b[0m | \u001b[2;32m+1P\u001b[0m",
+          "XXX.level.block.AbstractGlassBlock \u001b[2;32m+1M\u001b[0m \u001b[2;31m-1M\u001b[0m",
+          "XXX.level.block.FarmBlock \u001b[2;32m+1M\u001b[0m",
+          "XXX.level.block.LeavesBlock \u001b[2;32m+1M\u001b[0m \u001b[2;31m-1M\u001b[0m",
+          "XXX.level.block.SoulsandBlock \u001b[2;32m+1M\u001b[0m",
+          "XXX.block.piston.MovingPistonBlock \u001b[2;32m+1M\u001b[0m \u001b[2;31m-1M\u001b[0m"
+        ]
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "com.mojang.blaze3d.platform.Lighting",
+        "differences": {
+          "added": [
+            "void setupGui(Matrix4f)",
+            "void <clinit>()"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.client.model.ArmorStandModel",
+        "differences": {
+          "added": [],
+          "removed": [
+            "void prepareMobModel(ArmorStand,float,float,float)",
+            "void prepareMobModel(LivingEntity,float,float,float)",
+            "void prepareMobModel(Entity,float,float,float)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.client.renderer.LevelRenderer",
+        "differences": {
+          "added": [
+            "SortedSet lambda$destroyBlockProgress$4(long)",
+            "String lambda$addParticle$3(double,double,double)",
+            "void lambda$renderShape$2(VertexConsumer,Matrix4f,double,double,double,float,float,float,float,double,double,double,double,double,double)",
+            "String lambda$renderChunkLayer$1(RenderType)",
+            "VertexConsumer lambda$renderLevel$0(MultiBufferSource$BufferSource,VertexConsumer,RenderType)"
+          ],
+          "removed": [
+            "SortedSet lambda$destroyBlockProgress$5(long)",
+            "String lambda$addParticle$4(double,double,double)",
+            "void lambda$renderShape$3(VertexConsumer,Matrix4f,double,double,double,float,float,float,float,double,double,double,double,double,double)",
+            "String lambda$renderChunkLayer$2(RenderType)",
+            "VertexConsumer lambda$renderLevel$1(MultiBufferSource$BufferSource,VertexConsumer,RenderType)",
+            "double lambda$setupRender$0(BlockPos,LevelRenderer$RenderChunkInfo)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.client.renderer.ScreenEffectRenderer",
+        "differences": {
+          "added": [],
+          "removed": [
+            "BlockState getViewBlockingState(Player)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.gametest.framework.GameTestHelper",
+        "differences": {
+          "added": [],
+          "removed": [
+            "void assertItemEntityPresent(Item,BlockPos,double)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.entity.animal.Panda$PandaLookAtPlayerGoal",
+        "differences": {
+          "added": [],
+          "removed": [
+            "void setTarget(LivingEntity)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.level.biome.Biome",
+        "differences": {
+          "added": [],
+          "removed": [
+            "int calculateSkyColor()"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.level.block.AbstractGlassBlock",
+        "differences": {
+          "added": [
+            "boolean isViewBlocking(BlockState,BlockGetter,BlockPos)"
+          ],
+          "removed": [
+            "boolean isSuffocating(BlockState,BlockGetter,BlockPos)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.level.block.FarmBlock",
+        "differences": {
+          "added": [],
+          "removed": [
+            "boolean isViewBlocking(BlockState,BlockGetter,BlockPos)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.level.block.LeavesBlock",
+        "differences": {
+          "added": [
+            "boolean isViewBlocking(BlockState,BlockGetter,BlockPos)"
+          ],
+          "removed": [
+            "boolean isSuffocating(BlockState,BlockGetter,BlockPos)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.level.block.SoulsandBlock",
+        "differences": {
+          "added": [],
+          "removed": [
+            "boolean isViewBlocking(BlockState,BlockGetter,BlockPos)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.level.block.piston.MovingPistonBlock",
+        "differences": {
+          "added": [
+            "boolean isViewBlocking(BlockState,BlockGetter,BlockPos)"
+          ],
+          "removed": [
+            "boolean isSuffocating(BlockState,BlockGetter,BlockPos)"
+          ]
+        }
+      }
+    }
+  ]
+}

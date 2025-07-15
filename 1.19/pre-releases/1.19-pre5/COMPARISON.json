@@ -1,0 +1,273 @@
+{
+  "version_data": [
+    {
+      "type": "table",
+      "value": {
+        "previousLabel": "1.19-pre4",
+        "currentLabel": "1.19-pre5",
+        "values": [
+          {
+            "key": "World version",
+            "previous": "3101",
+            "current": "3102"
+          },
+          {
+            "key": "Protocol version",
+            "previous": "1073741912",
+            "current": "1073741913"
+          }
+        ]
+      }
+    }
+  ],
+  "translations": [
+    {
+      "type": "entries",
+      "value": {
+        "name": "Keys",
+        "differences": {
+          "added": [
+            "chat.disabled.profile.moreInfo: Chat not allowed by account settings. Cannot send or view messages.",
+            "subtitles.block.sculk.charge: Sculk bubbles",
+            "subtitles.block.sculk.spread: Sculk spreads"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "text",
+      "value": {
+        "title": "Changes",
+        "values": [
+          {
+            "key": "chat.disabled.profile",
+            "previous": "Chat not allowed by account settings. Cannot send message",
+            "current": "Chat not allowed by account settings. Press '%s' again for more information"
+          }
+        ]
+      }
+    }
+  ],
+  "mappings": [
+    {
+      "type": "title",
+      "value": {
+        "title": "Server",
+        "id": "server-mappings",
+        "size": 2
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "Classes",
+        "differences": {
+          "added": [
+            "XXX.level.chunk.PalettedContainer$Strategy",
+            "XXX.level.chunk.PalettedContainer$Strategy$2"
+          ],
+          "removed": [
+            "XXX.level.chunk.PalettedContainer$Strategy$1",
+            "XXX.level.chunk.PalettedContainerRO",
+            "XXX.level.chunk.PalettedContainerRO$Unpacker"
+          ]
+        }
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "Changes",
+        "lines": [
+          "XXX.animal.allay.Allay \u001b[2;32m+1M\u001b[0m",
+          "XXX.levelgen.presets.WorldPreset \u001b[2;32m+1M\u001b[0m"
+        ]
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.entity.animal.allay.Allay",
+        "differences": {
+          "added": [],
+          "removed": [
+            "Vec3 getLeashOffset()"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.level.levelgen.presets.WorldPreset",
+        "differences": {
+          "added": [],
+          "removed": [
+            "DataResult requireOverworld(WorldPreset)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "title",
+      "value": {
+        "title": "Client",
+        "id": "client-mappings",
+        "size": 2
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "Classes",
+        "differences": {
+          "added": [
+            "XXX.level.chunk.PalettedContainer$Strategy",
+            "XXX.level.chunk.PalettedContainer$Strategy$2"
+          ],
+          "removed": [
+            "XXX.level.chunk.PalettedContainer$Strategy$1",
+            "XXX.level.chunk.PalettedContainerRO",
+            "XXX.level.chunk.PalettedContainerRO$Unpacker"
+          ]
+        }
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "Changes",
+        "lines": [
+          "XXX.minecraft.client.Minecraft \u001b[2;32m+30M\u001b[0m \u001b[2;31m-29M\u001b[0m",
+          "XXX.minecraft.client.Minecraft$ChatStatus \u001b[2;32m+2P\u001b[0m",
+          "XXX.client.gui.Gui \u001b[2;32m+2M\u001b[0m | \u001b[2;32m+1P\u001b[0m",
+          "XXX.gui.screens.ConfirmLinkScreen \u001b[2;32m+1M\u001b[0m",
+          "XXX.minecraft.nbt.StringTag \u001b[2;31m-1P\u001b[0m",
+          "XXX.animal.allay.Allay \u001b[2;32m+1M\u001b[0m",
+          "XXX.levelgen.presets.WorldPreset \u001b[2;32m+1M\u001b[0m"
+        ]
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.client.Minecraft",
+        "differences": {
+          "added": [
+            "PackResources lambda$adaptV4$52(Supplier)",
+            "PackResources lambda$adaptV3$51(Supplier)",
+            "Style lambda$grabHugeScreenshot$50(File,Style)",
+            "Style lambda$grabPanoramixScreenshot$49(File,Style)",
+            "void lambda$grabPanoramixScreenshot$48(Component)",
+            "CompletionStage lambda$delayTextureReload$47(CompletableFuture)",
+            "String lambda$fillSystemReport$46(LanguageManager)",
+            "String lambda$fillSystemReport$45(Options)",
+            "String lambda$fillSystemReport$42()",
+            "String lambda$fillSystemReport$41(Minecraft)",
+            "String lambda$fillSystemReport$40(String)",
+            "void lambda$doWorldLoad$39(Component)",
+            "String lambda$doWorldLoad$38(WorldStem)",
+            "IntegratedServer lambda$doWorldLoad$37(LevelStorageSource$LevelStorageAccess,PackRepository,WorldStem,Services,Thread)",
+            "ChunkProgressListener lambda$doWorldLoad$36(int)",
+            "boolean lambda$tick$35()",
+            "void lambda$tick$34()",
+            "void lambda$debugClientMetricsStart$33(Consumer,ProfileResults)",
+            "void lambda$debugClientMetricsStart$32(ProfileResults)",
+            "void lambda$debugClientMetricsStart$31(Consumer,CompletableFuture,CompletableFuture)",
+            "void lambda$debugClientMetricsStart$30(Consumer,Path)",
+            "void lambda$debugClientMetricsStart$29(SystemReport,Consumer,List)",
+            "void lambda$debugClientMetricsStart$28(Consumer,Path)",
+            "void lambda$debugClientMetricsStart$27(Consumer,Component)",
+            "Style lambda$debugClientMetricsStart$26(Path,Style)",
+            "void lambda$debugClientMetricsStart$25(Consumer,ProfileResults)",
+            "void lambda$debugClientMetricsStart$24(Consumer,double,int)",
+            "void lambda$runTick$23(TimerQuery)",
+            "void lambda$runTick$22(CompletableFuture)"
+          ],
+          "removed": [
+            "PackResources lambda$adaptV4$53(Supplier)",
+            "PackResources lambda$adaptV3$52(Supplier)",
+            "Style lambda$grabHugeScreenshot$51(File,Style)",
+            "Style lambda$grabPanoramixScreenshot$50(File,Style)",
+            "void lambda$grabPanoramixScreenshot$49(Component)",
+            "CompletionStage lambda$delayTextureReload$48(CompletableFuture)",
+            "String lambda$fillSystemReport$47(LanguageManager)",
+            "String lambda$fillSystemReport$46(Options)",
+            "String lambda$fillSystemReport$45()",
+            "String lambda$fillSystemReport$42(Minecraft)",
+            "String lambda$fillSystemReport$41(String)",
+            "void lambda$doWorldLoad$40(Component)",
+            "String lambda$doWorldLoad$39(WorldStem)",
+            "IntegratedServer lambda$doWorldLoad$38(LevelStorageSource$LevelStorageAccess,PackRepository,WorldStem,Services,Thread)",
+            "ChunkProgressListener lambda$doWorldLoad$37(int)",
+            "boolean lambda$tick$36()",
+            "void lambda$tick$35()",
+            "void lambda$debugClientMetricsStart$34(Consumer,ProfileResults)",
+            "void lambda$debugClientMetricsStart$33(ProfileResults)",
+            "void lambda$debugClientMetricsStart$32(Consumer,CompletableFuture,CompletableFuture)",
+            "void lambda$debugClientMetricsStart$31(Consumer,Path)",
+            "void lambda$debugClientMetricsStart$30(SystemReport,Consumer,List)",
+            "void lambda$debugClientMetricsStart$29(Consumer,Path)",
+            "void lambda$debugClientMetricsStart$28(Consumer,Component)",
+            "Style lambda$debugClientMetricsStart$27(Path,Style)",
+            "void lambda$debugClientMetricsStart$26(Consumer,ProfileResults)",
+            "void lambda$debugClientMetricsStart$25(Consumer,double,int)",
+            "void lambda$runTick$24(TimerQuery)",
+            "void lambda$runTick$23(CompletableFuture)",
+            "void lambda$openChatScreen$22(boolean)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.client.gui.Gui",
+        "differences": {
+          "added": [],
+          "removed": [
+            "void setChatDisabledByPlayerShown(boolean)",
+            "boolean isShowingChatDisabledByPlayer()"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.client.gui.screens.ConfirmLinkScreen",
+        "differences": {
+          "added": [],
+          "removed": [
+            "void <init>(BooleanConsumer,Component,String,boolean)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.entity.animal.allay.Allay",
+        "differences": {
+          "added": [],
+          "removed": [
+            "Vec3 getLeashOffset()"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.level.levelgen.presets.WorldPreset",
+        "differences": {
+          "added": [],
+          "removed": [
+            "DataResult requireOverworld(WorldPreset)"
+          ]
+        }
+      }
+    }
+  ]
+}

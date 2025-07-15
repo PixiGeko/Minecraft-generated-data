@@ -1,0 +1,186 @@
+{
+  "version_data": [
+    {
+      "type": "table",
+      "value": {
+        "previousLabel": "1.18.1-rc2",
+        "currentLabel": "1.18.1-rc3",
+        "values": [
+          {
+            "key": "World version",
+            "previous": "2863",
+            "current": "2864"
+          },
+          {
+            "key": "Protocol version",
+            "previous": "1073741887",
+            "current": "1073741888"
+          }
+        ]
+      }
+    },
+    {
+      "type": "title",
+      "value": {
+        "title": "Libraries",
+        "id": "version-data-libraries",
+        "size": 3
+      }
+    },
+    {
+      "type": "table",
+      "value": {
+        "title": "Versions",
+        "previousLabel": "1.18.1-rc2",
+        "currentLabel": "1.18.1-rc3",
+        "values": [
+          {
+            "key": "org.lwjgl:lwjgl-glfw",
+            "previous": "3.2.1",
+            "current": "3.2.2"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-glfw",
+            "previous": "3.2.1",
+            "current": "3.2.2"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-jemalloc",
+            "previous": "3.2.1",
+            "current": "3.2.2"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-jemalloc",
+            "previous": "3.2.1",
+            "current": "3.2.2"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-openal",
+            "previous": "3.2.1",
+            "current": "3.2.2"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-openal",
+            "previous": "3.2.1",
+            "current": "3.2.2"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-opengl",
+            "previous": "3.2.1",
+            "current": "3.2.2"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-opengl",
+            "previous": "3.2.1",
+            "current": "3.2.2"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-stb",
+            "previous": "3.2.1",
+            "current": "3.2.2"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-stb",
+            "previous": "3.2.1",
+            "current": "3.2.2"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-tinyfd",
+            "previous": "3.2.1",
+            "current": "3.2.2"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-tinyfd",
+            "previous": "3.2.1",
+            "current": "3.2.2"
+          },
+          {
+            "key": "org.lwjgl:lwjgl",
+            "previous": "3.2.1",
+            "current": "3.2.2"
+          },
+          {
+            "key": "org.lwjgl:lwjgl",
+            "previous": "3.2.1",
+            "current": "3.2.2"
+          }
+        ]
+      }
+    }
+  ],
+  "mappings": [
+    {
+      "type": "title",
+      "value": {
+        "title": "Server",
+        "id": "server-mappings",
+        "size": 2
+      }
+    },
+    {
+      "type": "title",
+      "value": {
+        "title": "Client",
+        "id": "client-mappings",
+        "size": 2
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "Changes",
+        "lines": [
+          "net.minecraft.Util \u001b[2;32m+19M\u001b[0m \u001b[2;31m-17M\u001b[0m"
+        ]
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.Util",
+        "differences": {
+          "added": [
+            "String lambda$sanitizeName$16(CharPredicate,int)",
+            "void lambda$prefix$15(Consumer,String,String)",
+            "List lambda$sequenceFailFast$14(List,Void)",
+            "void lambda$sequenceFailFast$13(List,CompletableFuture[],CompletableFuture,CompletableFuture)",
+            "void lambda$sequenceFailFast$12(CompletableFuture,List,int,Object,Throwable)",
+            "CompletableFuture lambda$sequence$11(CompletableFuture,CompletableFuture)",
+            "List lambda$sequence$10(List,List)",
+            "CompletableFuture lambda$sequence$9(CompletableFuture,CompletableFuture)",
+            "List lambda$sequence$8(Object,List)",
+            "boolean lambda$getVmArguments$7(String)",
+            "Object lambda$wrapThreadWithTaskName$6(String,Supplier)",
+            "void lambda$wrapThreadWithTaskName$5(String,Runnable)",
+            "Thread lambda$makeIoExecutor$4(Runnable)",
+            "ForkJoinWorkerThread lambda$makeExecutor$3(String,ForkJoinPool)",
+            "void lambda$static$2(String)",
+            "IllegalStateException lambda$static$1()",
+            "boolean lambda$static$0(FileSystemProvider)"
+          ],
+          "removed": [
+            "void preInitLog4j()",
+            "String lambda$sanitizeName$17(CharPredicate,int)",
+            "void lambda$prefix$16(Consumer,String,String)",
+            "List lambda$sequenceFailFast$15(List,Void)",
+            "void lambda$sequenceFailFast$14(List,CompletableFuture[],CompletableFuture,CompletableFuture)",
+            "void lambda$sequenceFailFast$13(CompletableFuture,List,int,Object,Throwable)",
+            "CompletableFuture lambda$sequence$12(CompletableFuture,CompletableFuture)",
+            "List lambda$sequence$11(List,List)",
+            "CompletableFuture lambda$sequence$10(CompletableFuture,CompletableFuture)",
+            "List lambda$sequence$9(Object,List)",
+            "boolean lambda$getVmArguments$8(String)",
+            "Object lambda$wrapThreadWithTaskName$7(String,Supplier)",
+            "void lambda$wrapThreadWithTaskName$6(String,Runnable)",
+            "Thread lambda$makeIoExecutor$5(Runnable)",
+            "ForkJoinWorkerThread lambda$makeExecutor$4(String,ForkJoinPool)",
+            "void lambda$static$3(String)",
+            "IllegalStateException lambda$static$2()",
+            "boolean lambda$static$1(FileSystemProvider)",
+            "void lambda$static$0(LoggerContext,PropertyChangeEvent)"
+          ]
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+attribute <target: entity> <attribute: resource> base get <scale: double>
+attribute <target: entity> <attribute: resource> base set <value: double>
+attribute <target: entity> <attribute: resource> get <scale: double>
+attribute <target: entity> <attribute: resource> modifier add <uuid: uuid> <name: string> <value: double> add_multiplied_base
+attribute <target: entity> <attribute: resource> modifier add <uuid: uuid> <name: string> <value: double> add_multiplied_total
+attribute <target: entity> <attribute: resource> modifier add <uuid: uuid> <name: string> <value: double> add_value
+attribute <target: entity> <attribute: resource> modifier remove <uuid: uuid>
+attribute <target: entity> <attribute: resource> modifier value get <uuid: uuid> <scale: double>

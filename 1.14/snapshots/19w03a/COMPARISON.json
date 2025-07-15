@@ -1,0 +1,6169 @@
+{
+  "version_data": [
+    {
+      "type": "table",
+      "value": {
+        "previousLabel": "19w02a",
+        "currentLabel": "19w03a",
+        "values": [
+          {
+            "key": "World version",
+            "previous": "1921",
+            "current": "1922"
+          },
+          {
+            "key": "Protocol version",
+            "previous": "452",
+            "current": "453"
+          }
+        ]
+      }
+    },
+    {
+      "type": "title",
+      "value": {
+        "title": "Libraries",
+        "id": "version-data-libraries",
+        "size": 3
+      }
+    },
+    {
+      "type": "table",
+      "value": {
+        "title": "Versions",
+        "previousLabel": "19w02a",
+        "currentLabel": "19w03a",
+        "values": [
+          {
+            "key": "com.mojang:realms",
+            "previous": "1.14.0",
+            "current": "1.14.1"
+          }
+        ]
+      }
+    }
+  ],
+  "registries": [
+    {
+      "type": "entries",
+      "value": {
+        "name": "🗒️ List",
+        "differences": {
+          "added": [
+            "recipe_serializer.txt",
+            "recipe_type.txt"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "block",
+        "differences": {
+          "added": [
+            "minecraft:composter"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "item",
+        "differences": {
+          "added": [
+            "minecraft:composter"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "sound_event",
+        "differences": {
+          "added": [
+            "minecraft:block.barrel.close",
+            "minecraft:block.barrel.open",
+            "minecraft:block.blastfurnace.fire_crackle",
+            "minecraft:block.composter.empty",
+            "minecraft:block.composter.fill",
+            "minecraft:block.composter.fill_success",
+            "minecraft:block.composter.ready",
+            "minecraft:block.crop.break",
+            "minecraft:item.crop.plant",
+            "minecraft:block.nether_wart.break",
+            "minecraft:item.nether_wart.plant",
+            "minecraft:entity.player.hurt_sweet_berry_bush",
+            "minecraft:block.smoker.smoke",
+            "minecraft:block.sweet_berry_bush.break",
+            "minecraft:block.sweet_berry_bush.place",
+            "minecraft:item.sweet_berries.pick_from_bush"
+          ],
+          "removed": []
+        }
+      }
+    }
+  ],
+  "tags": [
+    {
+      "type": "entries",
+      "value": {
+        "name": "🗒️ List",
+        "differences": {
+          "added": [
+            "universal_tags/recipe_serializer.json",
+            "universal_tags/recipe_type.json"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "all_blocks_with_drop.json",
+        "differences": {
+          "added": [
+            "minecraft:composter"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "universal_tags/block.json",
+        "differences": {
+          "added": [
+            "minecraft:composter"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "universal_tags/item.json",
+        "differences": {
+          "added": [
+            "minecraft:composter"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "universal_tags/sound_event.json",
+        "differences": {
+          "added": [
+            "minecraft:block.barrel.close",
+            "minecraft:block.barrel.open",
+            "minecraft:block.blastfurnace.fire_crackle",
+            "minecraft:block.composter.empty",
+            "minecraft:block.composter.fill",
+            "minecraft:block.composter.fill_success",
+            "minecraft:block.composter.ready",
+            "minecraft:block.crop.break",
+            "minecraft:item.crop.plant",
+            "minecraft:block.nether_wart.break",
+            "minecraft:item.nether_wart.plant",
+            "minecraft:entity.player.hurt_sweet_berry_bush",
+            "minecraft:block.smoker.smoke",
+            "minecraft:block.sweet_berry_bush.break",
+            "minecraft:block.sweet_berry_bush.place",
+            "minecraft:item.sweet_berries.pick_from_bush"
+          ],
+          "removed": []
+        }
+      }
+    }
+  ],
+  "blocks": [
+    {
+      "type": "entries",
+      "value": {
+        "name": "🗒️ List",
+        "differences": {
+          "added": [
+            "composter.json"
+          ],
+          "removed": []
+        }
+      }
+    }
+  ],
+  "recipes": [
+    {
+      "type": "entries",
+      "value": {
+        "name": "🗒️ List",
+        "differences": {
+          "added": [
+            "baked_potato_from_campfire_cooking.json",
+            "composter.json",
+            "cooked_beef_from_campfire_cooking.json",
+            "cooked_chicken_from_campfire_cooking.json",
+            "cooked_cod_from_campfire_cooking.json",
+            "cooked_mutton_from_campfire_cooking.json",
+            "cooked_porkchop_from_campfire_cooking.json",
+            "cooked_rabbit_from_campfire_cooking.json",
+            "cooked_salmon_from_campfire_cooking.json",
+            "dried_kelp_from_campfire_cooking.json"
+          ],
+          "removed": [
+            "baked_potato_from_campfire.json",
+            "cooked_beef_from_campfire.json",
+            "cooked_chicken_from_campfire.json",
+            "cooked_cod_from_campfire.json",
+            "cooked_mutton_from_campfire.json",
+            "cooked_porkchop_from_campfire.json",
+            "cooked_rabbit_from_campfire.json",
+            "cooked_salmon_from_campfire.json",
+            "dried_kelp_from_campfire.json"
+          ]
+        }
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "acacia_boat.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "acacia_button.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shapeless -> minecraft:crafting_shapeless"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "acacia_door.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "acacia_fence.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "acacia_fence_gate.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "acacia_planks.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shapeless -> minecraft:crafting_shapeless"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "acacia_pressure_plate.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "acacia_sign.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "acacia_slab.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "acacia_stairs.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "acacia_trapdoor.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "acacia_wood.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "activator_rail.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "andesite.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shapeless -> minecraft:crafting_shapeless"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "andesite_slab.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "andesite_stairs.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "andesite_wall.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "anvil.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "armor_dye.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_special_armordye -> minecraft:crafting_special_armordye"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "armor_stand.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "arrow.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "baked_potato.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m smelting -> minecraft:smelting"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "baked_potato_from_smoking.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m smoking -> minecraft:smoking"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "banner_duplicate.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_special_bannerduplicate -> minecraft:crafting_special_bannerduplicate"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "barrel.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "beacon.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "beetroot_soup.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shapeless -> minecraft:crafting_shapeless"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "birch_boat.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "birch_button.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shapeless -> minecraft:crafting_shapeless"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "birch_door.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "birch_fence.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "birch_fence_gate.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "birch_planks.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shapeless -> minecraft:crafting_shapeless"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "birch_pressure_plate.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "birch_sign.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "birch_slab.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "birch_stairs.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "birch_trapdoor.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "birch_wood.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "black_banner.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "black_bed.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "black_bed_from_white_bed.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shapeless -> minecraft:crafting_shapeless"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "black_carpet.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "black_carpet_from_white_carpet.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "black_concrete_powder.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shapeless -> minecraft:crafting_shapeless"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "black_dye.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shapeless -> minecraft:crafting_shapeless"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "black_dye_from_wither_rose.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shapeless -> minecraft:crafting_shapeless"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "black_glazed_terracotta.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m smelting -> minecraft:smelting"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "black_stained_glass.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "black_stained_glass_pane.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "black_stained_glass_pane_from_glass_pane.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "black_terracotta.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "black_wool.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shapeless -> minecraft:crafting_shapeless"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "blast_furnace.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "blaze_powder.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shapeless -> minecraft:crafting_shapeless"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "blue_banner.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "blue_bed.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "blue_bed_from_white_bed.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shapeless -> minecraft:crafting_shapeless"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "blue_carpet.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "blue_carpet_from_white_carpet.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "blue_concrete_powder.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shapeless -> minecraft:crafting_shapeless"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "blue_dye.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shapeless -> minecraft:crafting_shapeless"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "blue_dye_from_cornflower.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shapeless -> minecraft:crafting_shapeless"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "blue_glazed_terracotta.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m smelting -> minecraft:smelting"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "blue_ice.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "blue_stained_glass.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "blue_stained_glass_pane.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "blue_stained_glass_pane_from_glass_pane.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "blue_terracotta.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "blue_wool.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shapeless -> minecraft:crafting_shapeless"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "bone_block.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "bone_meal.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shapeless -> minecraft:crafting_shapeless"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "bone_meal_from_bone_block.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shapeless -> minecraft:crafting_shapeless"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "book.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shapeless -> minecraft:crafting_shapeless"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "bookshelf.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "book_cloning.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_special_bookcloning -> minecraft:crafting_special_bookcloning"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "bow.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "bowl.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "bread.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "brewing_stand.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "brick.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m smelting -> minecraft:smelting"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "bricks.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "brick_slab.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "brick_stairs.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "brick_wall.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "brown_banner.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "brown_bed.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "brown_bed_from_white_bed.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shapeless -> minecraft:crafting_shapeless"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "brown_carpet.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "brown_carpet_from_white_carpet.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "brown_concrete_powder.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shapeless -> minecraft:crafting_shapeless"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "brown_dye.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shapeless -> minecraft:crafting_shapeless"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "brown_glazed_terracotta.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m smelting -> minecraft:smelting"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "brown_stained_glass.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "brown_stained_glass_pane.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "brown_stained_glass_pane_from_glass_pane.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "brown_terracotta.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "brown_wool.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shapeless -> minecraft:crafting_shapeless"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "bucket.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "cake.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "campfire.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "carrot_on_a_stick.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "cartography_table.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "cauldron.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "charcoal.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m smelting -> minecraft:smelting"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "chest.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "chest_minecart.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "chiseled_quartz_block.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "chiseled_red_sandstone.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "chiseled_sandstone.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "chiseled_stone_bricks.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "clay.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "clock.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "coal.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shapeless -> minecraft:crafting_shapeless"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "coal_block.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "coal_from_blasting.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m blasting -> minecraft:blasting"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "coal_from_smelting.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m smelting -> minecraft:smelting"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "coarse_dirt.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "cobblestone_slab.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "cobblestone_stairs.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "cobblestone_wall.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "comparator.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "compass.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "conduit.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "cooked_beef.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m smelting -> minecraft:smelting"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "cooked_beef_from_smoking.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m smoking -> minecraft:smoking"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "cooked_chicken.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m smelting -> minecraft:smelting"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "cooked_chicken_from_smoking.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m smoking -> minecraft:smoking"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "cooked_cod.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m smelting -> minecraft:smelting"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "cooked_cod_from_smoking.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m smoking -> minecraft:smoking"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "cooked_mutton.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m smelting -> minecraft:smelting"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "cooked_mutton_from_smoking.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m smoking -> minecraft:smoking"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "cooked_porkchop.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m smelting -> minecraft:smelting"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "cooked_porkchop_from_smoking.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m smoking -> minecraft:smoking"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "cooked_rabbit.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m smelting -> minecraft:smelting"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "cooked_rabbit_from_smoking.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m smoking -> minecraft:smoking"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "cooked_salmon.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m smelting -> minecraft:smelting"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "cooked_salmon_from_smoking.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m smoking -> minecraft:smoking"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "cookie.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "cracked_stone_bricks.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m smelting -> minecraft:smelting"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "crafting_table.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "creeper_banner_pattern.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shapeless -> minecraft:crafting_shapeless"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "crossbow.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "cut_red_sandstone.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "cut_sandstone.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "cyan_banner.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "cyan_bed.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "cyan_bed_from_white_bed.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shapeless -> minecraft:crafting_shapeless"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "cyan_carpet.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "cyan_carpet_from_white_carpet.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "cyan_concrete_powder.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shapeless -> minecraft:crafting_shapeless"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "cyan_dye.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shapeless -> minecraft:crafting_shapeless"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "cyan_glazed_terracotta.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m smelting -> minecraft:smelting"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "cyan_stained_glass.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "cyan_stained_glass_pane.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "cyan_stained_glass_pane_from_glass_pane.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "cyan_terracotta.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "cyan_wool.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shapeless -> minecraft:crafting_shapeless"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "dark_oak_boat.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "dark_oak_button.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shapeless -> minecraft:crafting_shapeless"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "dark_oak_door.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "dark_oak_fence.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "dark_oak_fence_gate.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "dark_oak_planks.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shapeless -> minecraft:crafting_shapeless"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "dark_oak_pressure_plate.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "dark_oak_sign.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "dark_oak_slab.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "dark_oak_stairs.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "dark_oak_trapdoor.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "dark_oak_wood.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "dark_prismarine.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "dark_prismarine_slab.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "dark_prismarine_stairs.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "daylight_detector.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "detector_rail.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "diamond.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shapeless -> minecraft:crafting_shapeless"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "diamond_axe.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "diamond_block.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "diamond_boots.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "diamond_chestplate.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "diamond_from_blasting.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m blasting -> minecraft:blasting"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "diamond_from_smelting.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m smelting -> minecraft:smelting"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "diamond_helmet.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "diamond_hoe.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "diamond_leggings.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "diamond_pickaxe.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "diamond_shovel.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "diamond_sword.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "diorite.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "diorite_slab.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "diorite_stairs.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "diorite_wall.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "dispenser.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "dried_kelp.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shapeless -> minecraft:crafting_shapeless"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "dried_kelp_block.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shapeless -> minecraft:crafting_shapeless"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "dried_kelp_from_smelting.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m smelting -> minecraft:smelting"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "dried_kelp_from_smoking.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m smoking -> minecraft:smoking"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "dropper.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "emerald.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shapeless -> minecraft:crafting_shapeless"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "emerald_block.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "emerald_from_blasting.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m blasting -> minecraft:blasting"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "emerald_from_smelting.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m smelting -> minecraft:smelting"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "enchanting_table.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "ender_chest.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "ender_eye.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shapeless -> minecraft:crafting_shapeless"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "end_crystal.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "end_rod.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "end_stone_bricks.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "end_stone_brick_slab.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "end_stone_brick_stairs.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "end_stone_brick_wall.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "fermented_spider_eye.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shapeless -> minecraft:crafting_shapeless"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "firework_rocket.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_special_firework_rocket -> minecraft:crafting_special_firework_rocket"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "firework_star.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_special_firework_star -> minecraft:crafting_special_firework_star"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "firework_star_fade.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_special_firework_star_fade -> minecraft:crafting_special_firework_star_fade"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "fire_charge.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shapeless -> minecraft:crafting_shapeless"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "fishing_rod.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "flint_and_steel.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shapeless -> minecraft:crafting_shapeless"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "flower_banner_pattern.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shapeless -> minecraft:crafting_shapeless"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "flower_pot.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "furnace.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "furnace_minecart.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "glass.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m smelting -> minecraft:smelting"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "glass_bottle.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "glass_pane.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "glistering_melon_slice.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "glowstone.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "golden_apple.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "golden_axe.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "golden_boots.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "golden_carrot.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "golden_chestplate.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "golden_helmet.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "golden_hoe.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "golden_leggings.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "golden_pickaxe.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "golden_shovel.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "golden_sword.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "gold_block.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "gold_ingot.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m smelting -> minecraft:smelting"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "gold_ingot_from_blasting.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m blasting -> minecraft:blasting"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "gold_ingot_from_gold_block.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shapeless -> minecraft:crafting_shapeless"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "gold_ingot_from_nuggets.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "gold_nugget.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shapeless -> minecraft:crafting_shapeless"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "gold_nugget_from_blasting.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m blasting -> minecraft:blasting"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "gold_nugget_from_smelting.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m smelting -> minecraft:smelting"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "granite.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shapeless -> minecraft:crafting_shapeless"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "granite_slab.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "granite_stairs.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "granite_wall.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "gray_banner.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "gray_bed.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "gray_bed_from_white_bed.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shapeless -> minecraft:crafting_shapeless"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "gray_carpet.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "gray_carpet_from_white_carpet.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "gray_concrete_powder.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shapeless -> minecraft:crafting_shapeless"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "gray_dye.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shapeless -> minecraft:crafting_shapeless"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "gray_glazed_terracotta.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m smelting -> minecraft:smelting"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "gray_stained_glass.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "gray_stained_glass_pane.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "gray_stained_glass_pane_from_glass_pane.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "gray_terracotta.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "gray_wool.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shapeless -> minecraft:crafting_shapeless"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "green_banner.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "green_bed.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "green_bed_from_white_bed.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shapeless -> minecraft:crafting_shapeless"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "green_carpet.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "green_carpet_from_white_carpet.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "green_concrete_powder.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shapeless -> minecraft:crafting_shapeless"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "green_dye.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m smelting -> minecraft:smelting"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "green_glazed_terracotta.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m smelting -> minecraft:smelting"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "green_stained_glass.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "green_stained_glass_pane.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "green_stained_glass_pane_from_glass_pane.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "green_terracotta.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "green_wool.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shapeless -> minecraft:crafting_shapeless"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "grindstone.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "hay_block.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "heavy_weighted_pressure_plate.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "hopper.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "hopper_minecart.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "iron_axe.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "iron_bars.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "iron_block.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "iron_boots.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "iron_chestplate.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "iron_door.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "iron_helmet.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "iron_hoe.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "iron_ingot.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m smelting -> minecraft:smelting"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "iron_ingot_from_blasting.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m blasting -> minecraft:blasting"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "iron_ingot_from_iron_block.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shapeless -> minecraft:crafting_shapeless"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "iron_ingot_from_nuggets.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "iron_leggings.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "iron_nugget.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shapeless -> minecraft:crafting_shapeless"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "iron_nugget_from_blasting.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m blasting -> minecraft:blasting"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "iron_nugget_from_smelting.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m smelting -> minecraft:smelting"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "iron_pickaxe.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "iron_shovel.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "iron_sword.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "iron_trapdoor.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "item_frame.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "jack_o_lantern.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "jukebox.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "jungle_boat.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "jungle_button.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shapeless -> minecraft:crafting_shapeless"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "jungle_door.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "jungle_fence.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "jungle_fence_gate.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "jungle_planks.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shapeless -> minecraft:crafting_shapeless"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "jungle_pressure_plate.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "jungle_sign.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "jungle_slab.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "jungle_stairs.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "jungle_trapdoor.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "jungle_wood.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "ladder.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "lantern.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "lapis_block.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "lapis_from_blasting.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m blasting -> minecraft:blasting"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "lapis_from_smelting.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m smelting -> minecraft:smelting"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "lapis_lazuli.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shapeless -> minecraft:crafting_shapeless"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "lead.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "leather.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "leather_boots.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "leather_chestplate.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "leather_helmet.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "leather_leggings.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "lectern.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "lever.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "light_blue_banner.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "light_blue_bed.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "light_blue_bed_from_white_bed.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shapeless -> minecraft:crafting_shapeless"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "light_blue_carpet.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "light_blue_carpet_from_white_carpet.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "light_blue_concrete_powder.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shapeless -> minecraft:crafting_shapeless"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "light_blue_dye_from_blue_orchid.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shapeless -> minecraft:crafting_shapeless"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "light_blue_dye_from_blue_white_dye.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shapeless -> minecraft:crafting_shapeless"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "light_blue_glazed_terracotta.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m smelting -> minecraft:smelting"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "light_blue_stained_glass.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "light_blue_stained_glass_pane.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "light_blue_stained_glass_pane_from_glass_pane.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "light_blue_terracotta.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "light_blue_wool.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shapeless -> minecraft:crafting_shapeless"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "light_gray_banner.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "light_gray_bed.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "light_gray_bed_from_white_bed.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shapeless -> minecraft:crafting_shapeless"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "light_gray_carpet.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "light_gray_carpet_from_white_carpet.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "light_gray_concrete_powder.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shapeless -> minecraft:crafting_shapeless"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "light_gray_dye_from_azure_bluet.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shapeless -> minecraft:crafting_shapeless"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "light_gray_dye_from_black_white_dye.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shapeless -> minecraft:crafting_shapeless"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "light_gray_dye_from_gray_white_dye.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shapeless -> minecraft:crafting_shapeless"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "light_gray_dye_from_oxeye_daisy.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shapeless -> minecraft:crafting_shapeless"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "light_gray_dye_from_white_tulip.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shapeless -> minecraft:crafting_shapeless"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "light_gray_glazed_terracotta.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m smelting -> minecraft:smelting"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "light_gray_stained_glass.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "light_gray_stained_glass_pane.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "light_gray_stained_glass_pane_from_glass_pane.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "light_gray_terracotta.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "light_gray_wool.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shapeless -> minecraft:crafting_shapeless"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "light_weighted_pressure_plate.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "lime_banner.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "lime_bed.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "lime_bed_from_white_bed.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shapeless -> minecraft:crafting_shapeless"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "lime_carpet.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "lime_carpet_from_white_carpet.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "lime_concrete_powder.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shapeless -> minecraft:crafting_shapeless"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "lime_dye.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shapeless -> minecraft:crafting_shapeless"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "lime_dye_from_smelting.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m smelting -> minecraft:smelting"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "lime_glazed_terracotta.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m smelting -> minecraft:smelting"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "lime_stained_glass.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "lime_stained_glass_pane.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "lime_stained_glass_pane_from_glass_pane.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "lime_terracotta.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "lime_wool.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shapeless -> minecraft:crafting_shapeless"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "loom.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "magenta_banner.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "magenta_bed.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "magenta_bed_from_white_bed.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shapeless -> minecraft:crafting_shapeless"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "magenta_carpet.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "magenta_carpet_from_white_carpet.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "magenta_concrete_powder.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shapeless -> minecraft:crafting_shapeless"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "magenta_dye_from_allium.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shapeless -> minecraft:crafting_shapeless"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "magenta_dye_from_blue_red_pink.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shapeless -> minecraft:crafting_shapeless"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "magenta_dye_from_blue_red_white_dye.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shapeless -> minecraft:crafting_shapeless"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "magenta_dye_from_lilac.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shapeless -> minecraft:crafting_shapeless"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "magenta_dye_from_purple_and_pink.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shapeless -> minecraft:crafting_shapeless"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "magenta_glazed_terracotta.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m smelting -> minecraft:smelting"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "magenta_stained_glass.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "magenta_stained_glass_pane.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "magenta_stained_glass_pane_from_glass_pane.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "magenta_terracotta.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "magenta_wool.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shapeless -> minecraft:crafting_shapeless"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "magma_block.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "magma_cream.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shapeless -> minecraft:crafting_shapeless"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "map.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "map_cloning.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_special_mapcloning -> minecraft:crafting_special_mapcloning"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "map_extending.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_special_mapextending -> minecraft:crafting_special_mapextending"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "melon.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "melon_seeds.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shapeless -> minecraft:crafting_shapeless"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "minecart.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "mojang_banner_pattern.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shapeless -> minecraft:crafting_shapeless"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "mossy_cobblestone.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shapeless -> minecraft:crafting_shapeless"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "mossy_cobblestone_slab.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "mossy_cobblestone_stairs.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "mossy_cobblestone_wall.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "mossy_stone_bricks.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shapeless -> minecraft:crafting_shapeless"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "mossy_stone_brick_slab.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "mossy_stone_brick_stairs.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "mossy_stone_brick_wall.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "mushroom_stew.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shapeless -> minecraft:crafting_shapeless"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "nether_brick.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m smelting -> minecraft:smelting"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "nether_bricks.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "nether_brick_fence.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "nether_brick_slab.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "nether_brick_stairs.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "nether_brick_wall.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "nether_wart_block.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "note_block.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "oak_boat.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "oak_button.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shapeless -> minecraft:crafting_shapeless"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "oak_door.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "oak_fence.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "oak_fence_gate.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "oak_planks.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shapeless -> minecraft:crafting_shapeless"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "oak_pressure_plate.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "oak_sign.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "oak_slab.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "oak_stairs.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "oak_trapdoor.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "oak_wood.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "observer.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "orange_banner.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "orange_bed.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "orange_bed_from_white_bed.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shapeless -> minecraft:crafting_shapeless"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "orange_carpet.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "orange_carpet_from_white_carpet.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "orange_concrete_powder.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shapeless -> minecraft:crafting_shapeless"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "orange_dye_from_orange_tulip.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shapeless -> minecraft:crafting_shapeless"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "orange_dye_from_red_yellow.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shapeless -> minecraft:crafting_shapeless"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "orange_glazed_terracotta.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m smelting -> minecraft:smelting"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "orange_stained_glass.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "orange_stained_glass_pane.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "orange_stained_glass_pane_from_glass_pane.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "orange_terracotta.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "orange_wool.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shapeless -> minecraft:crafting_shapeless"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "packed_ice.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shapeless -> minecraft:crafting_shapeless"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "painting.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "paper.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "pink_banner.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "pink_bed.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "pink_bed_from_white_bed.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shapeless -> minecraft:crafting_shapeless"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "pink_carpet.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "pink_carpet_from_white_carpet.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "pink_concrete_powder.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shapeless -> minecraft:crafting_shapeless"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "pink_dye_from_peony.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shapeless -> minecraft:crafting_shapeless"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "pink_dye_from_pink_tulip.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shapeless -> minecraft:crafting_shapeless"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "pink_dye_from_red_white_dye.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shapeless -> minecraft:crafting_shapeless"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "pink_glazed_terracotta.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m smelting -> minecraft:smelting"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "pink_stained_glass.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "pink_stained_glass_pane.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "pink_stained_glass_pane_from_glass_pane.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "pink_terracotta.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "pink_wool.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shapeless -> minecraft:crafting_shapeless"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "piston.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "polished_andesite.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "polished_andesite_slab.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "polished_andesite_stairs.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "polished_diorite.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "polished_diorite_slab.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "polished_diorite_stairs.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "polished_granite.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "polished_granite_slab.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "polished_granite_stairs.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "popped_chorus_fruit.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m smelting -> minecraft:smelting"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "powered_rail.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "prismarine.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "prismarine_bricks.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "prismarine_brick_slab.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "prismarine_brick_stairs.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "prismarine_slab.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "prismarine_stairs.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "prismarine_wall.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "pumpkin_pie.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shapeless -> minecraft:crafting_shapeless"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "pumpkin_seeds.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shapeless -> minecraft:crafting_shapeless"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "purple_banner.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "purple_bed.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "purple_bed_from_white_bed.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shapeless -> minecraft:crafting_shapeless"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "purple_carpet.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "purple_carpet_from_white_carpet.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "purple_concrete_powder.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shapeless -> minecraft:crafting_shapeless"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "purple_dye.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shapeless -> minecraft:crafting_shapeless"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "purple_glazed_terracotta.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m smelting -> minecraft:smelting"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "purple_stained_glass.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "purple_stained_glass_pane.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "purple_stained_glass_pane_from_glass_pane.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "purple_terracotta.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "purple_wool.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shapeless -> minecraft:crafting_shapeless"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "purpur_block.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "purpur_pillar.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "purpur_slab.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "purpur_stairs.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "quartz.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m smelting -> minecraft:smelting"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "quartz_block.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "quartz_from_blasting.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m blasting -> minecraft:blasting"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "quartz_pillar.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "quartz_slab.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "quartz_stairs.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "rabbit_stew_from_brown_mushroom.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shapeless -> minecraft:crafting_shapeless"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "rabbit_stew_from_red_mushroom.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shapeless -> minecraft:crafting_shapeless"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "rail.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "redstone.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shapeless -> minecraft:crafting_shapeless"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "redstone_block.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "redstone_from_blasting.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m blasting -> minecraft:blasting"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "redstone_from_smelting.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m smelting -> minecraft:smelting"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "redstone_lamp.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "redstone_torch.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "red_banner.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "red_bed.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "red_bed_from_white_bed.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shapeless -> minecraft:crafting_shapeless"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "red_carpet.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "red_carpet_from_white_carpet.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "red_concrete_powder.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shapeless -> minecraft:crafting_shapeless"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "red_dye_from_beetroot.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shapeless -> minecraft:crafting_shapeless"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "red_dye_from_poppy.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shapeless -> minecraft:crafting_shapeless"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "red_dye_from_rose_bush.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shapeless -> minecraft:crafting_shapeless"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "red_dye_from_tulip.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shapeless -> minecraft:crafting_shapeless"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "red_glazed_terracotta.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m smelting -> minecraft:smelting"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "red_nether_bricks.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "red_nether_brick_slab.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "red_nether_brick_stairs.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "red_nether_brick_wall.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "red_sandstone.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "red_sandstone_slab.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "red_sandstone_stairs.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "red_sandstone_wall.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "red_stained_glass.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "red_stained_glass_pane.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "red_stained_glass_pane_from_glass_pane.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "red_terracotta.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "red_wool.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shapeless -> minecraft:crafting_shapeless"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "repeater.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "sandstone.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "sandstone_slab.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "sandstone_stairs.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "sandstone_wall.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "scaffolding.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "sea_lantern.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "shears.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "shield.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "shield_decoration.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_special_shielddecoration -> minecraft:crafting_special_shielddecoration"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "shulker_box.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "shulker_box_coloring.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_special_shulkerboxcoloring -> minecraft:crafting_special_shulkerboxcoloring"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "skull_banner_pattern.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shapeless -> minecraft:crafting_shapeless"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "slime_ball.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shapeless -> minecraft:crafting_shapeless"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "slime_block.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "smoker.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "smooth_quartz.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m smelting -> minecraft:smelting"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "smooth_quartz_slab.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "smooth_quartz_stairs.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "smooth_red_sandstone.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m smelting -> minecraft:smelting"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "smooth_red_sandstone_slab.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "smooth_red_sandstone_stairs.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "smooth_sandstone.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m smelting -> minecraft:smelting"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "smooth_sandstone_slab.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "smooth_sandstone_stairs.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "smooth_stone.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m smelting -> minecraft:smelting"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "smooth_stone_slab.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "snow.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "snow_block.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "spectral_arrow.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "sponge.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m smelting -> minecraft:smelting"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "spruce_boat.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "spruce_button.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shapeless -> minecraft:crafting_shapeless"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "spruce_door.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "spruce_fence.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "spruce_fence_gate.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "spruce_planks.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shapeless -> minecraft:crafting_shapeless"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "spruce_pressure_plate.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "spruce_sign.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "spruce_slab.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "spruce_stairs.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "spruce_trapdoor.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "spruce_wood.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "stick.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "sticky_piston.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "stick_from_bamboo_item.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "stone.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m smelting -> minecraft:smelting"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "stone_axe.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "stone_bricks.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "stone_brick_slab.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "stone_brick_stairs.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "stone_brick_wall.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "stone_button.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shapeless -> minecraft:crafting_shapeless"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "stone_hoe.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "stone_pickaxe.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "stone_pressure_plate.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "stone_shovel.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "stone_slab.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "stone_stairs.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "stone_sword.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "sugar.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shapeless -> minecraft:crafting_shapeless"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "suspicious_stew.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_special_suspiciousstew -> minecraft:crafting_special_suspiciousstew"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "terracotta.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m smelting -> minecraft:smelting"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "tipped_arrow.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_special_tippedarrow -> minecraft:crafting_special_tippedarrow"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "tnt.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "tnt_minecart.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "torch.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "trapped_chest.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shapeless -> minecraft:crafting_shapeless"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "tripwire_hook.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "turtle_helmet.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "wheat.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shapeless -> minecraft:crafting_shapeless"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "white_banner.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "white_bed.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "white_carpet.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "white_concrete_powder.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shapeless -> minecraft:crafting_shapeless"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "white_dye.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shapeless -> minecraft:crafting_shapeless"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "white_dye_from_lily_of_the_valley.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shapeless -> minecraft:crafting_shapeless"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "white_glazed_terracotta.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m smelting -> minecraft:smelting"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "white_stained_glass.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "white_stained_glass_pane.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "white_stained_glass_pane_from_glass_pane.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "white_terracotta.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "white_wool_from_string.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "wooden_axe.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "wooden_hoe.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "wooden_pickaxe.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "wooden_shovel.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "wooden_sword.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "writable_book.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shapeless -> minecraft:crafting_shapeless"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "yellow_banner.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "yellow_bed.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "yellow_bed_from_white_bed.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shapeless -> minecraft:crafting_shapeless"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "yellow_carpet.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "yellow_carpet_from_white_carpet.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "yellow_concrete_powder.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shapeless -> minecraft:crafting_shapeless"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "yellow_dye_from_dandelion.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shapeless -> minecraft:crafting_shapeless"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "yellow_dye_from_sunflower.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shapeless -> minecraft:crafting_shapeless"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "yellow_glazed_terracotta.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m smelting -> minecraft:smelting"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "yellow_stained_glass.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "yellow_stained_glass_pane.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "yellow_stained_glass_pane_from_glass_pane.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "yellow_terracotta.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shaped -> minecraft:crafting_shaped"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "yellow_wool.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m crafting_shapeless -> minecraft:crafting_shapeless"
+        ]
+      }
+    }
+  ],
+  "translations": [
+    {
+      "type": "entries",
+      "value": {
+        "name": "Keys",
+        "differences": {
+          "added": [
+            "block.minecraft.composter: Composter",
+            "subtitles.block.barrel.close: Barrel closes",
+            "subtitles.block.barrel.open: Barrel opens",
+            "subtitles.block.blastfurnace.fire_crackle: Blast furnace crackles",
+            "subtitles.block.smoker.smoke: Smoker smokes",
+            "subtitles.item.crop.plant: Crop planted",
+            "subtitles.item.nether_wart.plant: Crop planted",
+            "subtitles.item.berries.pick: Berries pop"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "text",
+      "value": {
+        "title": "Changes",
+        "values": [
+          {
+            "key": "lectern.take_book",
+            "previous": "Take book",
+            "current": "Take Book"
+          }
+        ]
+      }
+    }
+  ],
+  "file_structure": [
+    {
+      "type": "entries",
+      "value": {
+        "name": "data",
+        "differences": {
+          "added": [
+            "minecraft/advancements/recipes/food/baked_potato_from_campfire_cooking.json",
+            "minecraft/advancements/recipes/food/cooked_beef_from_campfire_cooking.json",
+            "minecraft/advancements/recipes/food/cooked_chicken_from_campfire_cooking.json",
+            "minecraft/advancements/recipes/food/cooked_cod_from_campfire_cooking.json",
+            "minecraft/advancements/recipes/food/cooked_mutton_from_campfire_cooking.json",
+            "minecraft/advancements/recipes/food/cooked_porkchop_from_campfire_cooking.json",
+            "minecraft/advancements/recipes/food/cooked_rabbit_from_campfire_cooking.json",
+            "minecraft/advancements/recipes/food/cooked_salmon_from_campfire_cooking.json",
+            "minecraft/advancements/recipes/food/dried_kelp_from_campfire_cooking.json",
+            "minecraft/advancements/recipes/misc/composter.json",
+            "minecraft/loot_tables/blocks/composter.json",
+            "minecraft/recipes/baked_potato_from_campfire_cooking.json",
+            "minecraft/recipes/composter.json",
+            "minecraft/recipes/cooked_beef_from_campfire_cooking.json",
+            "minecraft/recipes/cooked_chicken_from_campfire_cooking.json",
+            "minecraft/recipes/cooked_cod_from_campfire_cooking.json",
+            "minecraft/recipes/cooked_mutton_from_campfire_cooking.json",
+            "minecraft/recipes/cooked_porkchop_from_campfire_cooking.json",
+            "minecraft/recipes/cooked_rabbit_from_campfire_cooking.json",
+            "minecraft/recipes/cooked_salmon_from_campfire_cooking.json",
+            "minecraft/recipes/dried_kelp_from_campfire_cooking.json",
+            "minecraft/tags/blocks/wooden_fences.json",
+            "minecraft/tags/items/wooden_fences.json"
+          ],
+          "removed": [
+            "minecraft/advancements/recipes/food/baked_potato_from_campfire.json",
+            "minecraft/advancements/recipes/food/cooked_beef_from_campfire.json",
+            "minecraft/advancements/recipes/food/cooked_chicken_from_campfire.json",
+            "minecraft/advancements/recipes/food/cooked_cod_from_campfire.json",
+            "minecraft/advancements/recipes/food/cooked_mutton_from_campfire.json",
+            "minecraft/advancements/recipes/food/cooked_porkchop_from_campfire.json",
+            "minecraft/advancements/recipes/food/cooked_rabbit_from_campfire.json",
+            "minecraft/advancements/recipes/food/cooked_salmon_from_campfire.json",
+            "minecraft/advancements/recipes/food/dried_kelp_from_campfire.json",
+            "minecraft/recipes/baked_potato_from_campfire.json",
+            "minecraft/recipes/cooked_beef_from_campfire.json",
+            "minecraft/recipes/cooked_chicken_from_campfire.json",
+            "minecraft/recipes/cooked_cod_from_campfire.json",
+            "minecraft/recipes/cooked_mutton_from_campfire.json",
+            "minecraft/recipes/cooked_porkchop_from_campfire.json",
+            "minecraft/recipes/cooked_rabbit_from_campfire.json",
+            "minecraft/recipes/cooked_salmon_from_campfire.json",
+            "minecraft/recipes/dried_kelp_from_campfire.json"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "assets",
+        "differences": {
+          "added": [
+            "minecraft/blockstates/composter.json",
+            "minecraft/models/block/campfire_off.json",
+            "minecraft/models/block/composter.json",
+            "minecraft/models/block/composter_contents1.json",
+            "minecraft/models/block/composter_contents2.json",
+            "minecraft/models/block/composter_contents3.json",
+            "minecraft/models/block/composter_contents4.json",
+            "minecraft/models/block/composter_contents5.json",
+            "minecraft/models/block/composter_contents6.json",
+            "minecraft/models/block/composter_contents7.json",
+            "minecraft/models/block/composter_contents_ready.json",
+            "minecraft/models/item/composter.json",
+            "minecraft/textures/block/campfire_log.png",
+            "minecraft/textures/block/campfire_log_lit.png",
+            "minecraft/textures/block/campfire_log_lit.png.mcmeta",
+            "minecraft/textures/block/composter_bottom.png",
+            "minecraft/textures/block/composter_compost.png",
+            "minecraft/textures/block/composter_ready.png",
+            "minecraft/textures/block/composter_side.png",
+            "minecraft/textures/block/composter_top.png",
+            "minecraft/textures/item/campfire.png"
+          ],
+          "removed": [
+            "minecraft/models/block/campfire_on.json",
+            "minecraft/textures/block/campfire_side.png",
+            "minecraft/textures/block/campfire_top.png",
+            "minecraft/textures/block/campfire_top_on.png",
+            "minecraft/textures/block/campfire_top_on.png.mcmeta"
+          ]
+        }
+      }
+    }
+  ]
+}

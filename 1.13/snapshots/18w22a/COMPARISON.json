@@ -1,0 +1,36 @@
+{
+  "translations": [
+    {
+      "type": "entries",
+      "value": {
+        "name": "Keys",
+        "differences": {
+          "added": [
+            "structure_block.invalid_structure_name: Invalid structure name '%s'",
+            "entity.minecraft.cod: Cod",
+            "entity.minecraft.salmon: Salmon",
+            "commands.gamemode.success.self: Set own game mode to %s",
+            "commands.gamemode.success.other: Set %s's game mode to %s"
+          ],
+          "removed": [
+            "entity.minecraft.cod_mob: Cod",
+            "entity.minecraft.salmon_mob: Salmon"
+          ]
+        }
+      }
+    },
+    {
+      "type": "text",
+      "value": {
+        "title": "Changes",
+        "values": [
+          {
+            "key": "advancements.adventure.sniper_duel.description",
+            "previous": "Kill a Skeleton with an arrow from more than 50 meters",
+            "current": "Kill a Skeleton from more than 50 meters away"
+          }
+        ]
+      }
+    }
+  ]
+}

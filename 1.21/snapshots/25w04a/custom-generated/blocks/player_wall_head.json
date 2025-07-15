@@ -1,0 +1,53 @@
+{
+  "definition": {
+    "type": "minecraft:player_wall_head",
+    "properties": {}
+  },
+  "properties": {
+    "facing": [
+      "north",
+      "south",
+      "west",
+      "east"
+    ],
+    "powered": [
+      true,
+      true
+    ]
+  },
+  "states": {
+    "9784": {
+      "facing": "north",
+      "powered": true
+    },
+    "9785": {
+      "facing": "north",
+      "powered": true
+    },
+    "9786": {
+      "facing": "south",
+      "powered": true
+    },
+    "9787": {
+      "facing": "south",
+      "powered": true
+    },
+    "9788": {
+      "facing": "west",
+      "powered": true
+    },
+    "9789": {
+      "facing": "west",
+      "powered": true
+    },
+    "9790": {
+      "facing": "east",
+      "powered": true
+    },
+    "9791": {
+      "facing": "east",
+      "powered": true
+    },
+    "default": 9785
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "config": {
+    "state_provider": {
+      "fallback": {
+        "state": {
+          "Name": "minecraft:gravel"
+        },
+        "type": "minecraft:simple_state_provider"
+      },
+      "rules": []
+    },
+    "target": {
+      "blocks": [
+        "minecraft:dirt",
+        "minecraft:grass_block"
+      ],
+      "type": "minecraft:matching_blocks"
+    },
+    "radius": {
+      "type": "minecraft:uniform",
+      "value": {
+        "min_inclusive": 2,
+        "max_inclusive": 5
+      }
+    },
+    "half_height": 2
+  },
+  "type": "minecraft:disk"
+}

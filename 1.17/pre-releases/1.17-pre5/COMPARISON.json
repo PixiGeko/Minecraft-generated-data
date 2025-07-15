@@ -1,0 +1,381 @@
+{
+  "version_data": [
+    {
+      "type": "table",
+      "value": {
+        "previousLabel": "1.17-pre4",
+        "currentLabel": "1.17-pre5",
+        "values": [
+          {
+            "key": "World version",
+            "previous": "2720",
+            "current": "2721"
+          },
+          {
+            "key": "Protocol version",
+            "previous": "1073741856",
+            "current": "1073741857"
+          }
+        ]
+      }
+    },
+    {
+      "type": "title",
+      "value": {
+        "title": "Libraries",
+        "id": "version-data-libraries",
+        "size": 3
+      }
+    },
+    {
+      "type": "table",
+      "value": {
+        "title": "Versions",
+        "previousLabel": "1.17-pre4",
+        "currentLabel": "1.17-pre5",
+        "values": [
+          {
+            "key": "org.lwjgl:lwjgl-glfw",
+            "previous": "3.2.1",
+            "current": "3.2.2"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-glfw",
+            "previous": "3.2.1",
+            "current": "3.2.2"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-jemalloc",
+            "previous": "3.2.1",
+            "current": "3.2.2"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-jemalloc",
+            "previous": "3.2.1",
+            "current": "3.2.2"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-openal",
+            "previous": "3.2.1",
+            "current": "3.2.2"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-openal",
+            "previous": "3.2.1",
+            "current": "3.2.2"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-opengl",
+            "previous": "3.2.1",
+            "current": "3.2.2"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-opengl",
+            "previous": "3.2.1",
+            "current": "3.2.2"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-stb",
+            "previous": "3.2.1",
+            "current": "3.2.2"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-stb",
+            "previous": "3.2.1",
+            "current": "3.2.2"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-tinyfd",
+            "previous": "3.2.1",
+            "current": "3.2.2"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-tinyfd",
+            "previous": "3.2.1",
+            "current": "3.2.2"
+          },
+          {
+            "key": "org.lwjgl:lwjgl",
+            "previous": "3.2.1",
+            "current": "3.2.2"
+          },
+          {
+            "key": "org.lwjgl:lwjgl",
+            "previous": "3.2.1",
+            "current": "3.2.2"
+          }
+        ]
+      }
+    }
+  ],
+  "mappings": [
+    {
+      "type": "title",
+      "value": {
+        "title": "Server",
+        "id": "server-mappings",
+        "size": 2
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "Classes",
+        "differences": {
+          "added": [],
+          "removed": [
+            "XXX.datafix.schemas.V1451_6$2"
+          ]
+        }
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "Changes",
+        "lines": [
+          "XXX.server.dedicated.DedicatedServerSettings \u001b[2;32m+1M\u001b[0m \u001b[2;31m-1M\u001b[0m",
+          "XXX.datafix.fixes.ObjectiveRenderTypeFix \u001b[2;32m+1M\u001b[0m \u001b[2;31m-2M\u001b[0m",
+          "XXX.datafix.schemas.V1451_6 \u001b[2;32m+8M\u001b[0m | \u001b[2;32m+3P\u001b[0m",
+          "XXX.datafix.schemas.V1460 \u001b[2;32m+4M\u001b[0m \u001b[2;31m-3M\u001b[0m",
+          "XXX.level.block.PointedDripstoneBlock \u001b[2;32m+1M\u001b[0m",
+          "XXX.block.state.BlockBehaviour \u001b[2;32m+1M\u001b[0m"
+        ]
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.server.dedicated.DedicatedServerSettings",
+        "differences": {
+          "added": [
+            "void <init>(RegistryAccess,Path)"
+          ],
+          "removed": [
+            "void <init>(Path)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.util.datafix.fixes.ObjectiveRenderTypeFix",
+        "differences": {
+          "added": [
+            "Function lambda$makeRule$2(DynamicOps)",
+            "Pair lambda$makeRule$1(Pair)"
+          ],
+          "removed": [
+            "Typed lambda$makeRule$1(Typed)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.util.datafix.schemas.V1451_6",
+        "differences": {
+          "added": [],
+          "removed": [
+            "Map createCriterionTypes(Schema)",
+            "TypeTemplate lambda$createCriterionTypes$7()",
+            "TypeTemplate lambda$createCriterionTypes$6()",
+            "TypeTemplate lambda$createCriterionTypes$5(Schema)",
+            "TypeTemplate lambda$createCriterionTypes$4(Schema)",
+            "TypeTemplate lambda$createCriterionTypes$3(Schema)",
+            "TypeTemplate lambda$registerTypes$2(Map)",
+            "void <clinit>()"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.util.datafix.schemas.V1460",
+        "differences": {
+          "added": [
+            "TypeTemplate lambda$registerTypes$46(Schema)",
+            "TypeTemplate lambda$registerTypes$44()",
+            "TypeTemplate lambda$registerTypes$42(Schema)"
+          ],
+          "removed": [
+            "TypeTemplate lambda$registerTypes$47(Schema)",
+            "TypeTemplate lambda$registerTypes$46()",
+            "TypeTemplate lambda$registerTypes$44(Schema)",
+            "TypeTemplate lambda$registerTypes$42(Map)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.level.block.PointedDripstoneBlock",
+        "differences": {
+          "added": [],
+          "removed": [
+            "boolean isCollisionShapeFullBlock(BlockState,BlockGetter,BlockPos)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.level.block.state.BlockBehaviour",
+        "differences": {
+          "added": [],
+          "removed": [
+            "boolean isCollisionShapeFullBlock(BlockState,BlockGetter,BlockPos)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "title",
+      "value": {
+        "title": "Client",
+        "id": "client-mappings",
+        "size": 2
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "Classes",
+        "differences": {
+          "added": [],
+          "removed": [
+            "XXX.datafix.schemas.V1451_6$2"
+          ]
+        }
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "Changes",
+        "lines": [
+          "XXX.gui.screens.RealmsResetWorldScreen \u001b[2;32m+3M\u001b[0m \u001b[2;31m-2M\u001b[0m",
+          "XXX.server.dedicated.DedicatedServerSettings \u001b[2;32m+1M\u001b[0m \u001b[2;31m-1M\u001b[0m",
+          "XXX.datafix.fixes.ObjectiveRenderTypeFix \u001b[2;32m+1M\u001b[0m \u001b[2;31m-2M\u001b[0m",
+          "XXX.datafix.schemas.V1451_6 \u001b[2;32m+8M\u001b[0m | \u001b[2;32m+3P\u001b[0m",
+          "XXX.datafix.schemas.V1460 \u001b[2;32m+4M\u001b[0m \u001b[2;31m-3M\u001b[0m",
+          "XXX.level.block.PointedDripstoneBlock \u001b[2;32m+1M\u001b[0m",
+          "XXX.block.state.BlockBehaviour \u001b[2;32m+1M\u001b[0m"
+        ]
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "com.mojang.realmsclient.gui.screens.RealmsResetWorldScreen",
+        "differences": {
+          "added": [
+            "void lambda$generationSelectionCallback$8(WorldGenerationInfo)",
+            "void lambda$templateSelectionCallback$7(WorldTemplate)"
+          ],
+          "removed": [
+            "void lambda$generationSelectionCallback$9(WorldGenerationInfo)",
+            "void lambda$templateSelectionCallback$8(WorldTemplate)",
+            "void lambda$switchSlot$7(Runnable)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.server.dedicated.DedicatedServerSettings",
+        "differences": {
+          "added": [
+            "void <init>(RegistryAccess,Path)"
+          ],
+          "removed": [
+            "void <init>(Path)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.util.datafix.fixes.ObjectiveRenderTypeFix",
+        "differences": {
+          "added": [
+            "Function lambda$makeRule$2(DynamicOps)",
+            "Pair lambda$makeRule$1(Pair)"
+          ],
+          "removed": [
+            "Typed lambda$makeRule$1(Typed)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.util.datafix.schemas.V1451_6",
+        "differences": {
+          "added": [],
+          "removed": [
+            "Map createCriterionTypes(Schema)",
+            "TypeTemplate lambda$createCriterionTypes$7()",
+            "TypeTemplate lambda$createCriterionTypes$6()",
+            "TypeTemplate lambda$createCriterionTypes$5(Schema)",
+            "TypeTemplate lambda$createCriterionTypes$4(Schema)",
+            "TypeTemplate lambda$createCriterionTypes$3(Schema)",
+            "TypeTemplate lambda$registerTypes$2(Map)",
+            "void <clinit>()"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.util.datafix.schemas.V1460",
+        "differences": {
+          "added": [
+            "TypeTemplate lambda$registerTypes$46(Schema)",
+            "TypeTemplate lambda$registerTypes$44()",
+            "TypeTemplate lambda$registerTypes$42(Schema)"
+          ],
+          "removed": [
+            "TypeTemplate lambda$registerTypes$47(Schema)",
+            "TypeTemplate lambda$registerTypes$46()",
+            "TypeTemplate lambda$registerTypes$44(Schema)",
+            "TypeTemplate lambda$registerTypes$42(Map)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.level.block.PointedDripstoneBlock",
+        "differences": {
+          "added": [],
+          "removed": [
+            "boolean isCollisionShapeFullBlock(BlockState,BlockGetter,BlockPos)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.level.block.state.BlockBehaviour",
+        "differences": {
+          "added": [],
+          "removed": [
+            "boolean isCollisionShapeFullBlock(BlockState,BlockGetter,BlockPos)"
+          ]
+        }
+      }
+    }
+  ]
+}

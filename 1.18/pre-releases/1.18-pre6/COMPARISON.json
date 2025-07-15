@@ -1,0 +1,354 @@
+{
+  "version_data": [
+    {
+      "type": "table",
+      "value": {
+        "previousLabel": "1.18-pre5",
+        "currentLabel": "1.18-pre6",
+        "values": [
+          {
+            "key": "World version",
+            "previous": "2851",
+            "current": "2853"
+          },
+          {
+            "key": "Protocol version",
+            "previous": "1073741877",
+            "current": "1073741878"
+          }
+        ]
+      }
+    },
+    {
+      "type": "title",
+      "value": {
+        "title": "Libraries",
+        "id": "version-data-libraries",
+        "size": 3
+      }
+    },
+    {
+      "type": "table",
+      "value": {
+        "title": "Versions",
+        "previousLabel": "1.18-pre5",
+        "currentLabel": "1.18-pre6",
+        "values": [
+          {
+            "key": "org.lwjgl:lwjgl-glfw",
+            "previous": "3.2.1",
+            "current": "3.2.2"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-glfw",
+            "previous": "3.2.1",
+            "current": "3.2.2"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-jemalloc",
+            "previous": "3.2.1",
+            "current": "3.2.2"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-jemalloc",
+            "previous": "3.2.1",
+            "current": "3.2.2"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-openal",
+            "previous": "3.2.1",
+            "current": "3.2.2"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-openal",
+            "previous": "3.2.1",
+            "current": "3.2.2"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-opengl",
+            "previous": "3.2.1",
+            "current": "3.2.2"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-opengl",
+            "previous": "3.2.1",
+            "current": "3.2.2"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-stb",
+            "previous": "3.2.1",
+            "current": "3.2.2"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-stb",
+            "previous": "3.2.1",
+            "current": "3.2.2"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-tinyfd",
+            "previous": "3.2.1",
+            "current": "3.2.2"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-tinyfd",
+            "previous": "3.2.1",
+            "current": "3.2.2"
+          },
+          {
+            "key": "org.lwjgl:lwjgl",
+            "previous": "3.2.1",
+            "current": "3.2.2"
+          },
+          {
+            "key": "org.lwjgl:lwjgl",
+            "previous": "3.2.1",
+            "current": "3.2.2"
+          }
+        ]
+      }
+    }
+  ],
+  "file_structure": [
+    {
+      "type": "entries",
+      "value": {
+        "name": "generated",
+        "differences": {
+          "added": [
+            "reports/worldgen/minecraft/worldgen/placed_feature/patch_melon_sparse.json"
+          ],
+          "removed": []
+        }
+      }
+    }
+  ],
+  "mappings": [
+    {
+      "type": "title",
+      "value": {
+        "title": "Server",
+        "id": "server-mappings",
+        "size": 2
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "Changes",
+        "lines": [
+          "XXX.server.level.ChunkMap \u001b[2;32m+35M\u001b[0m \u001b[2;31m-35M\u001b[0m | \u001b[2;32m+1P\u001b[0m",
+          "XXX.server.level.ServerLevel \u001b[2;32m+1M\u001b[0m",
+          "XXX.world.entity.Entity \u001b[2;32m+2M\u001b[0m \u001b[2;31m-3M\u001b[0m",
+          "XXX.levelgen.blockpredicates.BlockPredicate \u001b[2;32m+1M\u001b[0m",
+          "XXX.phys.shapes.EntityCollisionContext \u001b[2;32m+1M\u001b[0m \u001b[2;31m-2M\u001b[0m | \u001b[2;31m-1P\u001b[0m",
+          "XXX.phys.shapes.Shapes \u001b[2;31m-3M\u001b[0m"
+        ]
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.server.level.ChunkMap",
+        "differences": {
+          "added": [
+            "String lambda$printFuture$47(ChunkHolder$ChunkLoadingFailure)",
+            "String lambda$printFuture$46(LevelChunk)",
+            "Integer lambda$dumpChunks$45(LevelChunk)",
+            "Optional lambda$dumpChunks$42(ChunkAccess)",
+            "void lambda$setViewDistance$41(ChunkPos,int,MutableObject,ServerPlayer)",
+            "void lambda$prepareAccessibleChunk$40(ChunkHolder,Runnable)",
+            "Either lambda$prepareAccessibleChunk$39(Either)",
+            "LevelChunk lambda$prepareAccessibleChunk$38(List)",
+            "void lambda$prepareTickingChunk$37(ChunkHolder,Runnable)",
+            "void lambda$prepareTickingChunk$36(ChunkPos,Either)",
+            "void lambda$prepareTickingChunk$35(ChunkPos,LevelChunk)",
+            "void lambda$prepareTickingChunk$34(MutableObject,LevelChunk,ServerPlayer)",
+            "void lambda$prepareTickingChunk$33(ChunkHolder,Runnable)",
+            "Either lambda$prepareTickingChunk$32(Either)",
+            "Either lambda$prepareTickingChunk$31(List)",
+            "ChunkStatus lambda$prepareTickingChunk$30(int)",
+            "void lambda$protoChunkToFullChunk$29(ChunkHolder,Runnable)",
+            "Either lambda$protoChunkToFullChunk$28(ChunkHolder,Either)",
+            "ChunkAccess lambda$protoChunkToFullChunk$27(ChunkHolder,ChunkAccess)",
+            "ChunkHolder$FullChunkStatus lambda$protoChunkToFullChunk$26(ChunkHolder)",
+            "void lambda$protoChunkToFullChunk$25(ProtoChunk,LevelChunk)",
+            "String lambda$releaseLightTicket$24(ChunkPos)",
+            "void lambda$releaseLightTicket$23(ChunkPos)",
+            "CompletionStage lambda$scheduleChunkGeneration$22(ChunkPos,ChunkHolder,ChunkStatus,Executor,Either)",
+            "CompletableFuture lambda$scheduleChunkGeneration$21(ChunkPos,ChunkHolder$ChunkLoadingFailure)",
+            "CompletableFuture lambda$scheduleChunkGeneration$20(ChunkPos,ChunkHolder,ChunkStatus,Executor,List)",
+            "CompletableFuture lambda$scheduleChunkGeneration$19(ChunkHolder,ChunkAccess)",
+            "void lambda$scheduleChunkGeneration$18(ChunkHolder,Runnable)",
+            "String lambda$scheduleChunkGeneration$17(ChunkStatus)",
+            "ChunkStatus lambda$scheduleChunkGeneration$16(ChunkStatus,int)",
+            "Either lambda$scheduleChunkLoad$15(ChunkPos)",
+            "CompletableFuture lambda$schedule$14(ChunkHolder,ChunkAccess)",
+            "void lambda$scheduleUnload$13(ChunkHolder,Void,Throwable)",
+            "void lambda$scheduleUnload$12(ChunkHolder,CompletableFuture,long,ChunkAccess)",
+            "void lambda$saveAllChunks$11(ChunkHolder)"
+          ],
+          "removed": [
+            "boolean saveChunkIfNeeded(ChunkHolder)",
+            "String lambda$printFuture$46(ChunkHolder$ChunkLoadingFailure)",
+            "String lambda$printFuture$45(LevelChunk)",
+            "Integer lambda$dumpChunks$42(LevelChunk)",
+            "Optional lambda$dumpChunks$41(ChunkAccess)",
+            "void lambda$setViewDistance$40(ChunkPos,int,MutableObject,ServerPlayer)",
+            "void lambda$prepareAccessibleChunk$39(ChunkHolder,Runnable)",
+            "Either lambda$prepareAccessibleChunk$38(Either)",
+            "LevelChunk lambda$prepareAccessibleChunk$37(List)",
+            "void lambda$prepareTickingChunk$36(ChunkHolder,Runnable)",
+            "void lambda$prepareTickingChunk$35(ChunkPos,Either)",
+            "void lambda$prepareTickingChunk$34(ChunkPos,LevelChunk)",
+            "void lambda$prepareTickingChunk$33(MutableObject,LevelChunk,ServerPlayer)",
+            "void lambda$prepareTickingChunk$32(ChunkHolder,Runnable)",
+            "Either lambda$prepareTickingChunk$31(Either)",
+            "Either lambda$prepareTickingChunk$30(List)",
+            "ChunkStatus lambda$prepareTickingChunk$29(int)",
+            "void lambda$protoChunkToFullChunk$28(ChunkHolder,Runnable)",
+            "Either lambda$protoChunkToFullChunk$27(ChunkHolder,Either)",
+            "ChunkAccess lambda$protoChunkToFullChunk$26(ChunkHolder,ChunkAccess)",
+            "ChunkHolder$FullChunkStatus lambda$protoChunkToFullChunk$25(ChunkHolder)",
+            "void lambda$protoChunkToFullChunk$24(ProtoChunk,LevelChunk)",
+            "String lambda$releaseLightTicket$23(ChunkPos)",
+            "void lambda$releaseLightTicket$22(ChunkPos)",
+            "CompletionStage lambda$scheduleChunkGeneration$21(ChunkPos,ChunkHolder,ChunkStatus,Executor,Either)",
+            "CompletableFuture lambda$scheduleChunkGeneration$20(ChunkPos,ChunkHolder$ChunkLoadingFailure)",
+            "CompletableFuture lambda$scheduleChunkGeneration$19(ChunkPos,ChunkHolder,ChunkStatus,Executor,List)",
+            "CompletableFuture lambda$scheduleChunkGeneration$18(ChunkHolder,ChunkAccess)",
+            "void lambda$scheduleChunkGeneration$17(ChunkHolder,Runnable)",
+            "String lambda$scheduleChunkGeneration$16(ChunkStatus)",
+            "ChunkStatus lambda$scheduleChunkGeneration$15(ChunkStatus,int)",
+            "Either lambda$scheduleChunkLoad$14(ChunkPos)",
+            "CompletableFuture lambda$schedule$13(ChunkHolder,ChunkAccess)",
+            "void lambda$scheduleUnload$12(ChunkHolder,Void,Throwable)",
+            "void lambda$scheduleUnload$11(ChunkHolder,CompletableFuture,long,ChunkAccess)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.server.level.ServerLevel",
+        "differences": {
+          "added": [],
+          "removed": [
+            "void lambda$onStructureStartsAvailable$23(ChunkAccess)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.entity.Entity",
+        "differences": {
+          "added": [
+            "Vec3 collideBoundingBoxHeuristically(Entity,Vec3,AABB,Level,CollisionContext,List)",
+            "Vec3 collideBoundingBoxLegacy(Vec3,AABB,List)",
+            "Vec3 collideBoundingBox(Vec3,AABB,LevelReader,CollisionContext,List)"
+          ],
+          "removed": [
+            "Vec3 collideBoundingBox(Entity,Vec3,AABB,Level,List)",
+            "Vec3 collideWithShapes(Vec3,AABB,List)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.level.levelgen.blockpredicates.BlockPredicate",
+        "differences": {
+          "added": [],
+          "removed": [
+            "BlockPredicate hasSturdyFace(Direction)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.phys.shapes.EntityCollisionContext",
+        "differences": {
+          "added": [
+            "void <init>(boolean,double,ItemStack,ItemStack,Predicate,Entity)",
+            "boolean hasItemOnFeet(Item)"
+          ],
+          "removed": [
+            "void <init>(boolean,double,ItemStack,Predicate,Entity)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.phys.shapes.Shapes",
+        "differences": {
+          "added": [
+            "double collide(Direction$Axis,AABB,LevelReader,double,CollisionContext,Iterable)",
+            "double collide(AABB,LevelReader,double,CollisionContext,AxisCycle,Iterable)",
+            "int lastC(double,double,double)"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "title",
+      "value": {
+        "title": "Client",
+        "id": "client-mappings",
+        "size": 2
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "Changes",
+        "lines": [
+          "XXX.blaze3d.platform.GlStateManager \u001b[2;32m+1P\u001b[0m",
+          "net.minecraft.SharedConstants \u001b[2;31m-1P\u001b[0m",
+          "XXX.level.biome.Biome \u001b[2;32m+4M\u001b[0m \u001b[2;31m-1M\u001b[0m",
+          "XXX.levelgen.blending.BlendingData \u001b[2;31m-1P\u001b[0m",
+          "XXX.phys.shapes.CollisionContext \u001b[2;31m-1P\u001b[0m",
+          "XXX.phys.shapes.EntityCollisionContext$1 \u001b[2;32m+1M\u001b[0m \u001b[2;31m-1M\u001b[0m"
+        ]
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.level.biome.Biome",
+        "differences": {
+          "added": [
+            "boolean isColdEnoughToSnow(BlockPos)"
+          ],
+          "removed": [
+            "boolean coldEnoughToSnow(BlockPos)",
+            "boolean warmEnoughToRain(BlockPos)",
+            "boolean shouldMeltFrozenOceanIcebergSlightly(BlockPos)",
+            "boolean shouldSnowGolemBurn(BlockPos)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.phys.shapes.EntityCollisionContext$1",
+        "differences": {
+          "added": [
+            "void <init>(boolean,double,ItemStack,ItemStack,Predicate,Entity)"
+          ],
+          "removed": [
+            "void <init>(boolean,double,ItemStack,Predicate,Entity)"
+          ]
+        }
+      }
+    }
+  ]
+}

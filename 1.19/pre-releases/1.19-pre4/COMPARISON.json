@@ -1,0 +1,111 @@
+{
+  "version_data": [
+    {
+      "type": "table",
+      "value": {
+        "previousLabel": "1.19-pre3",
+        "currentLabel": "1.19-pre4",
+        "values": [
+          {
+            "key": "World version",
+            "previous": "3100",
+            "current": "3101"
+          },
+          {
+            "key": "Protocol version",
+            "previous": "1073741911",
+            "current": "1073741912"
+          }
+        ]
+      }
+    }
+  ],
+  "translations": [
+    {
+      "type": "entries",
+      "value": {
+        "name": "Keys",
+        "differences": {
+          "added": [
+            "multiplayer.disconnect.out_of_order_chat: Out-of-order chat packet received. Did your system time change?"
+          ],
+          "removed": []
+        }
+      }
+    }
+  ],
+  "mappings": [
+    {
+      "type": "title",
+      "value": {
+        "title": "Server",
+        "id": "server-mappings",
+        "size": 2
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "Changes",
+        "lines": [
+          "XXX.level.chunk.PalettedContainer$Data \u001b[2;32m+1M\u001b[0m"
+        ]
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.level.chunk.PalettedContainer$Data",
+        "differences": {
+          "added": [],
+          "removed": [
+            "PalettedContainer$Data copy()"
+          ]
+        }
+      }
+    },
+    {
+      "type": "title",
+      "value": {
+        "title": "Client",
+        "id": "client-mappings",
+        "size": 2
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "Changes",
+        "lines": [
+          "XXX.screens.inventory.AbstractContainerScreen \u001b[2;32m+1M\u001b[0m",
+          "XXX.minecraft.nbt.StringTag \u001b[2;32m+1P\u001b[0m",
+          "XXX.level.chunk.PalettedContainer$Data \u001b[2;32m+1M\u001b[0m"
+        ]
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.client.gui.screens.inventory.AbstractContainerScreen",
+        "differences": {
+          "added": [],
+          "removed": [
+            "void clearDraggingState()"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.level.chunk.PalettedContainer$Data",
+        "differences": {
+          "added": [],
+          "removed": [
+            "PalettedContainer$Data copy()"
+          ]
+        }
+      }
+    }
+  ]
+}

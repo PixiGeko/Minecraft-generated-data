@@ -1,0 +1,132 @@
+{
+  "version_data": [
+    {
+      "type": "table",
+      "value": {
+        "previousLabel": "1.21.2-pre3",
+        "currentLabel": "1.21.2-pre4",
+        "values": [
+          {
+            "key": "World version",
+            "previous": "4075",
+            "current": "4076"
+          },
+          {
+            "key": "Protocol version",
+            "previous": "1073742039",
+            "current": "1073742040"
+          }
+        ]
+      }
+    }
+  ],
+  "mappings": [
+    {
+      "type": "title",
+      "value": {
+        "title": "Server",
+        "id": "server-mappings",
+        "size": 2
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "Changes",
+        "lines": [
+          "XXX.level.block.HoneyBlock \u001b[2;32m+2M\u001b[0m"
+        ]
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.level.block.HoneyBlock",
+        "differences": {
+          "added": [],
+          "removed": [
+            "double getOldDeltaY(double)",
+            "double getNewDeltaY(double)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "title",
+      "value": {
+        "title": "Client",
+        "id": "client-mappings",
+        "size": 2
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "Changes",
+        "lines": [
+          "XXX.screens.recipebook.RecipeBookComponent \u001b[2;32m+5M\u001b[0m \u001b[2;31m-5M\u001b[0m",
+          "XXX.renderer.entity.WanderingTraderRenderer \u001b[2;31m-2M\u001b[0m",
+          "XXX.level.block.HoneyBlock \u001b[2;32m+2M\u001b[0m"
+        ]
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.client.gui.screens.recipebook.RecipeBookComponent",
+        "differences": {
+          "added": [
+            "void lambda$updateNarration$6(List,AbstractWidget)",
+            "boolean lambda$updateCollections$5(RecipeCollection)",
+            "boolean lambda$updateCollections$4(ObjectSet,RecipeCollection)",
+            "boolean lambda$updateCollections$3(RecipeCollection)",
+            "void lambda$updateCollections$2(RecipeCollection)"
+          ],
+          "removed": [
+            "void selectMatchingRecipes()",
+            "void lambda$updateNarration$5(List,AbstractWidget)",
+            "boolean lambda$updateCollections$4(RecipeCollection)",
+            "boolean lambda$updateCollections$3(ObjectSet,RecipeCollection)",
+            "boolean lambda$updateCollections$2(RecipeCollection)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.client.renderer.entity.WanderingTraderRenderer",
+        "differences": {
+          "added": [
+            "void scale(VillagerRenderState,PoseStack)",
+            "void scale(LivingEntityRenderState,PoseStack)"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.level.block.HoneyBlock",
+        "differences": {
+          "added": [],
+          "removed": [
+            "double getOldDeltaY(double)",
+            "double getNewDeltaY(double)"
+          ]
+        }
+      }
+    }
+  ],
+  "custom": [
+    {
+      "type": "title",
+      "value": {
+        "title": "datapacks.json",
+        "id": "custom-datapacks-json",
+        "size": 2
+      }
+    }
+  ]
+}

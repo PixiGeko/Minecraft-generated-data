@@ -1,0 +1,5916 @@
+## Comparison with [21w44a](https://github.com/PixiGeko/Minecraft-generated-data/tree/21w44a)
+
+> [!TIP]
+> - [Version data](#version-data)
+>     - [Libraries](#version-data-libraries)
+> - [Registries](#registries)
+> - [Tags](#tags)
+> - [Translations](#translations)
+> - [File structure](#file-structure)
+> - [Mappings](#mappings)
+>   - [Server](#server-mappings)
+>   - [Client](#client-mappings)
+
+<br/><br/>
+<details><summary><b><ins>VERSION DATA</ins></b><a name="version-data"></a></summary>
+<br/>
+<table><tr><th></th><th align="left">21w44a</th><th>1.18-pre1</th></tr><tr><td>World version</td><td><pre>2845</pre></td><td><pre>2847</pre></td></tr><tr><td>Protocol version</td><td><pre>1073741872</pre></td><td><pre>1073741873</pre></td></tr></table>
+<h3>Libraries<a name="version-data-libraries"></a></h3>
+<details>
+<summary>
+Versions
+</summary>
+<table><tr><th></th><th align="left">21w44a</th><th>1.18-pre1</th></tr><tr><td>org.lwjgl:lwjgl-glfw</td><td><pre>3.2.1</pre></td><td><pre>3.2.2</pre></td></tr><tr><td>org.lwjgl:lwjgl-glfw</td><td><pre>3.2.1</pre></td><td><pre>3.2.2</pre></td></tr><tr><td>org.lwjgl:lwjgl-jemalloc</td><td><pre>3.2.1</pre></td><td><pre>3.2.2</pre></td></tr><tr><td>org.lwjgl:lwjgl-jemalloc</td><td><pre>3.2.1</pre></td><td><pre>3.2.2</pre></td></tr><tr><td>org.lwjgl:lwjgl-openal</td><td><pre>3.2.1</pre></td><td><pre>3.2.2</pre></td></tr><tr><td>org.lwjgl:lwjgl-openal</td><td><pre>3.2.1</pre></td><td><pre>3.2.2</pre></td></tr><tr><td>org.lwjgl:lwjgl-opengl</td><td><pre>3.2.1</pre></td><td><pre>3.2.2</pre></td></tr><tr><td>org.lwjgl:lwjgl-opengl</td><td><pre>3.2.1</pre></td><td><pre>3.2.2</pre></td></tr><tr><td>org.lwjgl:lwjgl-stb</td><td><pre>3.2.1</pre></td><td><pre>3.2.2</pre></td></tr><tr><td>org.lwjgl:lwjgl-stb</td><td><pre>3.2.1</pre></td><td><pre>3.2.2</pre></td></tr><tr><td>org.lwjgl:lwjgl-tinyfd</td><td><pre>3.2.1</pre></td><td><pre>3.2.2</pre></td></tr><tr><td>org.lwjgl:lwjgl-tinyfd</td><td><pre>3.2.1</pre></td><td><pre>3.2.2</pre></td></tr><tr><td>org.lwjgl:lwjgl</td><td><pre>3.2.1</pre></td><td><pre>3.2.2</pre></td></tr><tr><td>org.lwjgl:lwjgl</td><td><pre>3.2.1</pre></td><td><pre>3.2.2</pre></td></tr></table>
+</details>
+</details>
+<hr/>
+<details><summary><b><ins>REGISTRIES</ins></b><a name="registries"></a></summary>
+<br/>
+<details>
+<summary>
+🗒️ List
+</summary>
+
+```diff
+- worldgen/decorator.txt
++ worldgen/placement_modifier_type.txt
+```
+
+</details>
+<details>
+<summary>
+block_predicate_type
+</summary>
+
+```diff
++ minecraft:inside_world_bounds
++ minecraft:solid
+```
+
+</details>
+<details>
+<summary>
+height_provider_type
+</summary>
+
+```diff
++ minecraft:weighted_list
+```
+
+</details>
+<details>
+<summary>
+worldgen/feature
+</summary>
+
+```diff
+- minecraft:decorated
+```
+
+</details>
+</details>
+<hr/>
+<details><summary><b><ins>TAGS</ins></b><a name="tags"></a></summary>
+<br/>
+<details>
+<summary>
+🗒️ List
+</summary>
+
+```diff
+- universal_tags/worldgen/decorator.json
++ universal_tags/worldgen/placement_modifier_type.json
+```
+
+</details>
+<details>
+<summary>
+universal_tags/block_predicate_type.json
+</summary>
+
+```diff
++ minecraft:inside_world_bounds
++ minecraft:solid
+```
+
+</details>
+<details>
+<summary>
+universal_tags/height_provider_type.json
+</summary>
+
+```diff
++ minecraft:weighted_list
+```
+
+</details>
+<details>
+<summary>
+universal_tags/worldgen/feature.json
+</summary>
+
+```diff
+- minecraft:decorated
+```
+
+</details>
+</details>
+<hr/>
+<details><summary><b><ins>TRANSLATIONS</ins></b><a name="translations"></a></summary>
+<br/>
+<details>
+<summary>
+Keys
+</summary>
+
+```diff
++ advancements.adventure.play_jukebox_in_meadows.description: Make the Meadows come alive with the sound of music from a jukebox
++ advancements.adventure.play_jukebox_in_meadows.title: Sound of Music
+- advancements.husbandry.play_jukebox_in_meadows.description: Make the Meadows come alive with the sound of music from a jukebox
+- advancements.husbandry.play_jukebox_in_meadows.title: Sound of Music
++ generator.amplified.info: Notice: Just for fun! Requires a beefy computer.
+```
+
+</details>
+</details>
+<hr/>
+<details><summary><b><ins>FILE STRUCTURE</ins></b><a name="file-structure"></a></summary>
+<br/>
+<details>
+<summary>
+generated
+</summary>
+
+```diff
+- reports/biomes/badlands.json
+- reports/biomes/bamboo_jungle.json
+- reports/biomes/basalt_deltas.json
+- reports/biomes/beach.json
+- reports/biomes/birch_forest.json
+- reports/biomes/cold_ocean.json
+- reports/biomes/crimson_forest.json
+- reports/biomes/dark_forest.json
+- reports/biomes/deep_cold_ocean.json
+- reports/biomes/deep_frozen_ocean.json
+- reports/biomes/deep_lukewarm_ocean.json
+- reports/biomes/deep_ocean.json
+- reports/biomes/desert.json
+- reports/biomes/dripstone_caves.json
+- reports/biomes/end_barrens.json
+- reports/biomes/end_highlands.json
+- reports/biomes/end_midlands.json
+- reports/biomes/eroded_badlands.json
+- reports/biomes/flower_forest.json
+- reports/biomes/forest.json
+- reports/biomes/frozen_ocean.json
+- reports/biomes/frozen_peaks.json
+- reports/biomes/frozen_river.json
+- reports/biomes/grove.json
+- reports/biomes/ice_spikes.json
+- reports/biomes/jagged_peaks.json
+- reports/biomes/jungle.json
+- reports/biomes/lukewarm_ocean.json
+- reports/biomes/lush_caves.json
+- reports/biomes/meadow.json
+- reports/biomes/mushroom_fields.json
+- reports/biomes/nether_wastes.json
+- reports/biomes/ocean.json
+- reports/biomes/old_growth_birch_forest.json
+- reports/biomes/old_growth_pine_taiga.json
+- reports/biomes/old_growth_spruce_taiga.json
+- reports/biomes/plains.json
+- reports/biomes/river.json
+- reports/biomes/savanna_plateau.json
+- reports/biomes/savanna.json
+- reports/biomes/small_end_islands.json
+- reports/biomes/snowy_beach.json
+- reports/biomes/snowy_plains.json
+- reports/biomes/snowy_slopes.json
+- reports/biomes/snowy_taiga.json
+- reports/biomes/soul_sand_valley.json
+- reports/biomes/sparse_jungle.json
+- reports/biomes/stony_peaks.json
+- reports/biomes/stony_shore.json
+- reports/biomes/sunflower_plains.json
+- reports/biomes/swamp.json
+- reports/biomes/taiga.json
+- reports/biomes/the_end.json
+- reports/biomes/the_void.json
+- reports/biomes/warm_ocean.json
+- reports/biomes/warped_forest.json
+- reports/biomes/windswept_forest.json
+- reports/biomes/windswept_gravelly_hills.json
+- reports/biomes/windswept_hills.json
+- reports/biomes/windswept_savanna.json
+- reports/biomes/wooded_badlands.json
++ reports/worldgen/minecraft/dimension_type/overworld_caves.json
++ reports/worldgen/minecraft/dimension_type/overworld.json
++ reports/worldgen/minecraft/dimension_type/the_end.json
++ reports/worldgen/minecraft/dimension_type/the_nether.json
++ reports/worldgen/minecraft/dimension/overworld.json
++ reports/worldgen/minecraft/dimension/the_end.json
++ reports/worldgen/minecraft/dimension/the_nether.json
++ reports/worldgen/minecraft/worldgen/biome/badlands.json
++ reports/worldgen/minecraft/worldgen/biome/bamboo_jungle.json
++ reports/worldgen/minecraft/worldgen/biome/basalt_deltas.json
++ reports/worldgen/minecraft/worldgen/biome/beach.json
++ reports/worldgen/minecraft/worldgen/biome/birch_forest.json
++ reports/worldgen/minecraft/worldgen/biome/cold_ocean.json
++ reports/worldgen/minecraft/worldgen/biome/crimson_forest.json
++ reports/worldgen/minecraft/worldgen/biome/dark_forest.json
++ reports/worldgen/minecraft/worldgen/biome/deep_cold_ocean.json
++ reports/worldgen/minecraft/worldgen/biome/deep_frozen_ocean.json
++ reports/worldgen/minecraft/worldgen/biome/deep_lukewarm_ocean.json
++ reports/worldgen/minecraft/worldgen/biome/deep_ocean.json
++ reports/worldgen/minecraft/worldgen/biome/desert.json
++ reports/worldgen/minecraft/worldgen/biome/dripstone_caves.json
++ reports/worldgen/minecraft/worldgen/biome/end_barrens.json
++ reports/worldgen/minecraft/worldgen/biome/end_highlands.json
++ reports/worldgen/minecraft/worldgen/biome/end_midlands.json
++ reports/worldgen/minecraft/worldgen/biome/eroded_badlands.json
++ reports/worldgen/minecraft/worldgen/biome/flower_forest.json
++ reports/worldgen/minecraft/worldgen/biome/forest.json
++ reports/worldgen/minecraft/worldgen/biome/frozen_ocean.json
++ reports/worldgen/minecraft/worldgen/biome/frozen_peaks.json
++ reports/worldgen/minecraft/worldgen/biome/frozen_river.json
++ reports/worldgen/minecraft/worldgen/biome/grove.json
++ reports/worldgen/minecraft/worldgen/biome/ice_spikes.json
++ reports/worldgen/minecraft/worldgen/biome/jagged_peaks.json
++ reports/worldgen/minecraft/worldgen/biome/jungle.json
++ reports/worldgen/minecraft/worldgen/biome/lukewarm_ocean.json
++ reports/worldgen/minecraft/worldgen/biome/lush_caves.json
++ reports/worldgen/minecraft/worldgen/biome/meadow.json
++ reports/worldgen/minecraft/worldgen/biome/mushroom_fields.json
++ reports/worldgen/minecraft/worldgen/biome/nether_wastes.json
++ reports/worldgen/minecraft/worldgen/biome/ocean.json
++ reports/worldgen/minecraft/worldgen/biome/old_growth_birch_forest.json
++ reports/worldgen/minecraft/worldgen/biome/old_growth_pine_taiga.json
++ reports/worldgen/minecraft/worldgen/biome/old_growth_spruce_taiga.json
++ reports/worldgen/minecraft/worldgen/biome/plains.json
++ reports/worldgen/minecraft/worldgen/biome/river.json
++ reports/worldgen/minecraft/worldgen/biome/savanna_plateau.json
++ reports/worldgen/minecraft/worldgen/biome/savanna.json
++ reports/worldgen/minecraft/worldgen/biome/small_end_islands.json
++ reports/worldgen/minecraft/worldgen/biome/snowy_beach.json
++ reports/worldgen/minecraft/worldgen/biome/snowy_plains.json
++ reports/worldgen/minecraft/worldgen/biome/snowy_slopes.json
++ reports/worldgen/minecraft/worldgen/biome/snowy_taiga.json
++ reports/worldgen/minecraft/worldgen/biome/soul_sand_valley.json
++ reports/worldgen/minecraft/worldgen/biome/sparse_jungle.json
++ reports/worldgen/minecraft/worldgen/biome/stony_peaks.json
++ reports/worldgen/minecraft/worldgen/biome/stony_shore.json
++ reports/worldgen/minecraft/worldgen/biome/sunflower_plains.json
++ reports/worldgen/minecraft/worldgen/biome/swamp.json
++ reports/worldgen/minecraft/worldgen/biome/taiga.json
++ reports/worldgen/minecraft/worldgen/biome/the_end.json
++ reports/worldgen/minecraft/worldgen/biome/the_void.json
++ reports/worldgen/minecraft/worldgen/biome/warm_ocean.json
++ reports/worldgen/minecraft/worldgen/biome/warped_forest.json
++ reports/worldgen/minecraft/worldgen/biome/windswept_forest.json
++ reports/worldgen/minecraft/worldgen/biome/windswept_gravelly_hills.json
++ reports/worldgen/minecraft/worldgen/biome/windswept_hills.json
++ reports/worldgen/minecraft/worldgen/biome/windswept_savanna.json
++ reports/worldgen/minecraft/worldgen/biome/wooded_badlands.json
++ reports/worldgen/minecraft/worldgen/configured_carver/canyon.json
++ reports/worldgen/minecraft/worldgen/configured_carver/cave_extra_underground.json
++ reports/worldgen/minecraft/worldgen/configured_carver/cave.json
++ reports/worldgen/minecraft/worldgen/configured_carver/nether_cave.json
++ reports/worldgen/minecraft/worldgen/configured_feature/acacia.json
++ reports/worldgen/minecraft/worldgen/configured_feature/amethyst_geode.json
++ reports/worldgen/minecraft/worldgen/configured_feature/azalea_tree.json
++ reports/worldgen/minecraft/worldgen/configured_feature/bamboo_no_podzol.json
++ reports/worldgen/minecraft/worldgen/configured_feature/bamboo_some_podzol.json
++ reports/worldgen/minecraft/worldgen/configured_feature/bamboo_vegetation.json
++ reports/worldgen/minecraft/worldgen/configured_feature/basalt_blobs.json
++ reports/worldgen/minecraft/worldgen/configured_feature/basalt_pillar.json
++ reports/worldgen/minecraft/worldgen/configured_feature/birch_bees_0002.json
++ reports/worldgen/minecraft/worldgen/configured_feature/birch_bees_002.json
++ reports/worldgen/minecraft/worldgen/configured_feature/birch_bees_005.json
++ reports/worldgen/minecraft/worldgen/configured_feature/birch_tall.json
++ reports/worldgen/minecraft/worldgen/configured_feature/birch.json
++ reports/worldgen/minecraft/worldgen/configured_feature/blackstone_blobs.json
++ reports/worldgen/minecraft/worldgen/configured_feature/blue_ice.json
++ reports/worldgen/minecraft/worldgen/configured_feature/bonus_chest.json
++ reports/worldgen/minecraft/worldgen/configured_feature/cave_vine_in_moss.json
++ reports/worldgen/minecraft/worldgen/configured_feature/cave_vine.json
++ reports/worldgen/minecraft/worldgen/configured_feature/chorus_plant.json
++ reports/worldgen/minecraft/worldgen/configured_feature/clay_pool_with_dripleaves.json
++ reports/worldgen/minecraft/worldgen/configured_feature/clay_with_dripleaves.json
++ reports/worldgen/minecraft/worldgen/configured_feature/crimson_forest_vegetation_bonemeal.json
++ reports/worldgen/minecraft/worldgen/configured_feature/crimson_forest_vegetation.json
++ reports/worldgen/minecraft/worldgen/configured_feature/crimson_fungus_planted.json
++ reports/worldgen/minecraft/worldgen/configured_feature/crimson_fungus.json
++ reports/worldgen/minecraft/worldgen/configured_feature/dark_forest_vegetation.json
++ reports/worldgen/minecraft/worldgen/configured_feature/dark_oak.json
++ reports/worldgen/minecraft/worldgen/configured_feature/delta.json
++ reports/worldgen/minecraft/worldgen/configured_feature/desert_well.json
++ reports/worldgen/minecraft/worldgen/configured_feature/disk_clay.json
++ reports/worldgen/minecraft/worldgen/configured_feature/disk_gravel.json
++ reports/worldgen/minecraft/worldgen/configured_feature/disk_sand.json
++ reports/worldgen/minecraft/worldgen/configured_feature/dripleaf.json
++ reports/worldgen/minecraft/worldgen/configured_feature/dripstone_cluster.json
++ reports/worldgen/minecraft/worldgen/configured_feature/end_gateway_delayed.json
++ reports/worldgen/minecraft/worldgen/configured_feature/end_gateway_return.json
++ reports/worldgen/minecraft/worldgen/configured_feature/end_island.json
++ reports/worldgen/minecraft/worldgen/configured_feature/end_spike.json
++ reports/worldgen/minecraft/worldgen/configured_feature/fancy_oak_bees_0002.json
++ reports/worldgen/minecraft/worldgen/configured_feature/fancy_oak_bees_002.json
++ reports/worldgen/minecraft/worldgen/configured_feature/fancy_oak_bees_005.json
++ reports/worldgen/minecraft/worldgen/configured_feature/fancy_oak_bees.json
++ reports/worldgen/minecraft/worldgen/configured_feature/fancy_oak.json
++ reports/worldgen/minecraft/worldgen/configured_feature/flower_default.json
++ reports/worldgen/minecraft/worldgen/configured_feature/flower_flower_forest.json
++ reports/worldgen/minecraft/worldgen/configured_feature/flower_meadow.json
++ reports/worldgen/minecraft/worldgen/configured_feature/flower_plain.json
++ reports/worldgen/minecraft/worldgen/configured_feature/flower_swamp.json
++ reports/worldgen/minecraft/worldgen/configured_feature/forest_flowers.json
++ reports/worldgen/minecraft/worldgen/configured_feature/forest_rock.json
++ reports/worldgen/minecraft/worldgen/configured_feature/fossil_coal.json
++ reports/worldgen/minecraft/worldgen/configured_feature/fossil_diamonds.json
++ reports/worldgen/minecraft/worldgen/configured_feature/freeze_top_layer.json
++ reports/worldgen/minecraft/worldgen/configured_feature/glow_lichen.json
++ reports/worldgen/minecraft/worldgen/configured_feature/glowstone_extra.json
++ reports/worldgen/minecraft/worldgen/configured_feature/huge_brown_mushroom.json
++ reports/worldgen/minecraft/worldgen/configured_feature/huge_red_mushroom.json
++ reports/worldgen/minecraft/worldgen/configured_feature/ice_patch.json
++ reports/worldgen/minecraft/worldgen/configured_feature/ice_spike.json
++ reports/worldgen/minecraft/worldgen/configured_feature/iceberg_blue.json
++ reports/worldgen/minecraft/worldgen/configured_feature/iceberg_packed.json
++ reports/worldgen/minecraft/worldgen/configured_feature/jungle_bush.json
++ reports/worldgen/minecraft/worldgen/configured_feature/jungle_tree_no_vine.json
++ reports/worldgen/minecraft/worldgen/configured_feature/jungle_tree.json
++ reports/worldgen/minecraft/worldgen/configured_feature/kelp.json
++ reports/worldgen/minecraft/worldgen/configured_feature/lake_lava.json
++ reports/worldgen/minecraft/worldgen/configured_feature/large_basalt_columns_temp.json
++ reports/worldgen/minecraft/worldgen/configured_feature/large_dripstone.json
++ reports/worldgen/minecraft/worldgen/configured_feature/lush_caves_clay.json
++ reports/worldgen/minecraft/worldgen/configured_feature/meadow_trees.json
++ reports/worldgen/minecraft/worldgen/configured_feature/mega_jungle_tree.json
++ reports/worldgen/minecraft/worldgen/configured_feature/mega_pine.json
++ reports/worldgen/minecraft/worldgen/configured_feature/mega_spruce.json
++ reports/worldgen/minecraft/worldgen/configured_feature/monster_room.json
++ reports/worldgen/minecraft/worldgen/configured_feature/moss_patch_bonemeal.json
++ reports/worldgen/minecraft/worldgen/configured_feature/moss_patch_ceiling.json
++ reports/worldgen/minecraft/worldgen/configured_feature/moss_patch.json
++ reports/worldgen/minecraft/worldgen/configured_feature/moss_vegetation.json
++ reports/worldgen/minecraft/worldgen/configured_feature/mushroom_island_vegetation.json
++ reports/worldgen/minecraft/worldgen/configured_feature/nether_sprouts_bonemeal.json
++ reports/worldgen/minecraft/worldgen/configured_feature/nether_sprouts.json
++ reports/worldgen/minecraft/worldgen/configured_feature/oak_bees_0002.json
++ reports/worldgen/minecraft/worldgen/configured_feature/oak_bees_002.json
++ reports/worldgen/minecraft/worldgen/configured_feature/oak_bees_005.json
++ reports/worldgen/minecraft/worldgen/configured_feature/oak.json
++ reports/worldgen/minecraft/worldgen/configured_feature/ore_ancient_debris_large.json
++ reports/worldgen/minecraft/worldgen/configured_feature/ore_ancient_debris_small.json
++ reports/worldgen/minecraft/worldgen/configured_feature/ore_andesite.json
++ reports/worldgen/minecraft/worldgen/configured_feature/ore_blackstone.json
++ reports/worldgen/minecraft/worldgen/configured_feature/ore_clay.json
++ reports/worldgen/minecraft/worldgen/configured_feature/ore_coal_buried.json
++ reports/worldgen/minecraft/worldgen/configured_feature/ore_coal.json
++ reports/worldgen/minecraft/worldgen/configured_feature/ore_copper_large.json
++ reports/worldgen/minecraft/worldgen/configured_feature/ore_copper_small.json
++ reports/worldgen/minecraft/worldgen/configured_feature/ore_diamond_buried.json
++ reports/worldgen/minecraft/worldgen/configured_feature/ore_diamond_large.json
++ reports/worldgen/minecraft/worldgen/configured_feature/ore_diamond_small.json
++ reports/worldgen/minecraft/worldgen/configured_feature/ore_diorite.json
++ reports/worldgen/minecraft/worldgen/configured_feature/ore_dirt.json
++ reports/worldgen/minecraft/worldgen/configured_feature/ore_emerald.json
++ reports/worldgen/minecraft/worldgen/configured_feature/ore_gold_buried.json
++ reports/worldgen/minecraft/worldgen/configured_feature/ore_gold.json
++ reports/worldgen/minecraft/worldgen/configured_feature/ore_granite.json
++ reports/worldgen/minecraft/worldgen/configured_feature/ore_gravel_nether.json
++ reports/worldgen/minecraft/worldgen/configured_feature/ore_gravel.json
++ reports/worldgen/minecraft/worldgen/configured_feature/ore_infested.json
++ reports/worldgen/minecraft/worldgen/configured_feature/ore_iron_small.json
++ reports/worldgen/minecraft/worldgen/configured_feature/ore_iron.json
++ reports/worldgen/minecraft/worldgen/configured_feature/ore_lapis_buried.json
++ reports/worldgen/minecraft/worldgen/configured_feature/ore_lapis.json
++ reports/worldgen/minecraft/worldgen/configured_feature/ore_magma.json
++ reports/worldgen/minecraft/worldgen/configured_feature/ore_nether_gold.json
++ reports/worldgen/minecraft/worldgen/configured_feature/ore_quartz.json
++ reports/worldgen/minecraft/worldgen/configured_feature/ore_redstone.json
++ reports/worldgen/minecraft/worldgen/configured_feature/ore_soul_sand.json
++ reports/worldgen/minecraft/worldgen/configured_feature/ore_tuff.json
++ reports/worldgen/minecraft/worldgen/configured_feature/patch_berry_bush.json
++ reports/worldgen/minecraft/worldgen/configured_feature/patch_brown_mushroom.json
++ reports/worldgen/minecraft/worldgen/configured_feature/patch_cactus.json
++ reports/worldgen/minecraft/worldgen/configured_feature/patch_crimson_roots.json
++ reports/worldgen/minecraft/worldgen/configured_feature/patch_dead_bush.json
++ reports/worldgen/minecraft/worldgen/configured_feature/patch_fire.json
++ reports/worldgen/minecraft/worldgen/configured_feature/patch_grass_jungle.json
++ reports/worldgen/minecraft/worldgen/configured_feature/patch_grass.json
++ reports/worldgen/minecraft/worldgen/configured_feature/patch_large_fern.json
++ reports/worldgen/minecraft/worldgen/configured_feature/patch_melon.json
++ reports/worldgen/minecraft/worldgen/configured_feature/patch_pumpkin.json
++ reports/worldgen/minecraft/worldgen/configured_feature/patch_red_mushroom.json
++ reports/worldgen/minecraft/worldgen/configured_feature/patch_soul_fire.json
++ reports/worldgen/minecraft/worldgen/configured_feature/patch_sugar_cane.json
++ reports/worldgen/minecraft/worldgen/configured_feature/patch_sunflower.json
++ reports/worldgen/minecraft/worldgen/configured_feature/patch_taiga_grass.json
++ reports/worldgen/minecraft/worldgen/configured_feature/patch_tall_grass.json
++ reports/worldgen/minecraft/worldgen/configured_feature/patch_waterlily.json
++ reports/worldgen/minecraft/worldgen/configured_feature/pile_hay.json
++ reports/worldgen/minecraft/worldgen/configured_feature/pile_ice.json
++ reports/worldgen/minecraft/worldgen/configured_feature/pile_melon.json
++ reports/worldgen/minecraft/worldgen/configured_feature/pile_pumpkin.json
++ reports/worldgen/minecraft/worldgen/configured_feature/pile_snow.json
++ reports/worldgen/minecraft/worldgen/configured_feature/pine.json
++ reports/worldgen/minecraft/worldgen/configured_feature/pointed_dripstone.json
++ reports/worldgen/minecraft/worldgen/configured_feature/rooted_azalea_tree.json
++ reports/worldgen/minecraft/worldgen/configured_feature/sea_pickle.json
++ reports/worldgen/minecraft/worldgen/configured_feature/seagrass_mid.json
++ reports/worldgen/minecraft/worldgen/configured_feature/seagrass_short.json
++ reports/worldgen/minecraft/worldgen/configured_feature/seagrass_simple.json
++ reports/worldgen/minecraft/worldgen/configured_feature/seagrass_slightly_less_short.json
++ reports/worldgen/minecraft/worldgen/configured_feature/seagrass_tall.json
++ reports/worldgen/minecraft/worldgen/configured_feature/single_piece_of_grass.json
++ reports/worldgen/minecraft/worldgen/configured_feature/small_basalt_columns.json
++ reports/worldgen/minecraft/worldgen/configured_feature/spore_blossom.json
++ reports/worldgen/minecraft/worldgen/configured_feature/spring_lava_frozen.json
++ reports/worldgen/minecraft/worldgen/configured_feature/spring_lava_nether.json
++ reports/worldgen/minecraft/worldgen/configured_feature/spring_lava_overworld.json
++ reports/worldgen/minecraft/worldgen/configured_feature/spring_nether_closed.json
++ reports/worldgen/minecraft/worldgen/configured_feature/spring_nether_open.json
++ reports/worldgen/minecraft/worldgen/configured_feature/spring_water.json
++ reports/worldgen/minecraft/worldgen/configured_feature/spruce.json
++ reports/worldgen/minecraft/worldgen/configured_feature/super_birch_bees_0002.json
++ reports/worldgen/minecraft/worldgen/configured_feature/super_birch_bees.json
++ reports/worldgen/minecraft/worldgen/configured_feature/swamp_oak.json
++ reports/worldgen/minecraft/worldgen/configured_feature/trees_birch_and_oak.json
++ reports/worldgen/minecraft/worldgen/configured_feature/trees_flower_forest.json
++ reports/worldgen/minecraft/worldgen/configured_feature/trees_grove.json
++ reports/worldgen/minecraft/worldgen/configured_feature/trees_jungle.json
++ reports/worldgen/minecraft/worldgen/configured_feature/trees_old_growth_pine_taiga.json
++ reports/worldgen/minecraft/worldgen/configured_feature/trees_old_growth_spruce_taiga.json
++ reports/worldgen/minecraft/worldgen/configured_feature/trees_plains.json
++ reports/worldgen/minecraft/worldgen/configured_feature/trees_savanna.json
++ reports/worldgen/minecraft/worldgen/configured_feature/trees_sparse_jungle.json
++ reports/worldgen/minecraft/worldgen/configured_feature/trees_taiga.json
++ reports/worldgen/minecraft/worldgen/configured_feature/trees_water.json
++ reports/worldgen/minecraft/worldgen/configured_feature/trees_windswept_hills.json
++ reports/worldgen/minecraft/worldgen/configured_feature/twisting_vines_bonemeal.json
++ reports/worldgen/minecraft/worldgen/configured_feature/twisting_vines.json
++ reports/worldgen/minecraft/worldgen/configured_feature/underwater_magma.json
++ reports/worldgen/minecraft/worldgen/configured_feature/vines.json
++ reports/worldgen/minecraft/worldgen/configured_feature/void_start_platform.json
++ reports/worldgen/minecraft/worldgen/configured_feature/warm_ocean_vegetation.json
++ reports/worldgen/minecraft/worldgen/configured_feature/warped_forest_vegetation_bonemeal.json
++ reports/worldgen/minecraft/worldgen/configured_feature/warped_forest_vegetation.json
++ reports/worldgen/minecraft/worldgen/configured_feature/warped_fungus_planted.json
++ reports/worldgen/minecraft/worldgen/configured_feature/warped_fungus.json
++ reports/worldgen/minecraft/worldgen/configured_feature/weeping_vines.json
++ reports/worldgen/minecraft/worldgen/configured_structure_feature/bastion_remnant.json
++ reports/worldgen/minecraft/worldgen/configured_structure_feature/buried_treasure.json
++ reports/worldgen/minecraft/worldgen/configured_structure_feature/desert_pyramid.json
++ reports/worldgen/minecraft/worldgen/configured_structure_feature/end_city.json
++ reports/worldgen/minecraft/worldgen/configured_structure_feature/fortress.json
++ reports/worldgen/minecraft/worldgen/configured_structure_feature/igloo.json
++ reports/worldgen/minecraft/worldgen/configured_structure_feature/jungle_pyramid.json
++ reports/worldgen/minecraft/worldgen/configured_structure_feature/mansion.json
++ reports/worldgen/minecraft/worldgen/configured_structure_feature/mineshaft_mesa.json
++ reports/worldgen/minecraft/worldgen/configured_structure_feature/mineshaft.json
++ reports/worldgen/minecraft/worldgen/configured_structure_feature/monument.json
++ reports/worldgen/minecraft/worldgen/configured_structure_feature/nether_fossil.json
++ reports/worldgen/minecraft/worldgen/configured_structure_feature/ocean_ruin_cold.json
++ reports/worldgen/minecraft/worldgen/configured_structure_feature/ocean_ruin_warm.json
++ reports/worldgen/minecraft/worldgen/configured_structure_feature/pillager_outpost.json
++ reports/worldgen/minecraft/worldgen/configured_structure_feature/ruined_portal_desert.json
++ reports/worldgen/minecraft/worldgen/configured_structure_feature/ruined_portal_jungle.json
++ reports/worldgen/minecraft/worldgen/configured_structure_feature/ruined_portal_mountain.json
++ reports/worldgen/minecraft/worldgen/configured_structure_feature/ruined_portal_nether.json
++ reports/worldgen/minecraft/worldgen/configured_structure_feature/ruined_portal_ocean.json
++ reports/worldgen/minecraft/worldgen/configured_structure_feature/ruined_portal_swamp.json
++ reports/worldgen/minecraft/worldgen/configured_structure_feature/ruined_portal.json
++ reports/worldgen/minecraft/worldgen/configured_structure_feature/shipwreck_beached.json
++ reports/worldgen/minecraft/worldgen/configured_structure_feature/shipwreck.json
++ reports/worldgen/minecraft/worldgen/configured_structure_feature/stronghold.json
++ reports/worldgen/minecraft/worldgen/configured_structure_feature/swamp_hut.json
++ reports/worldgen/minecraft/worldgen/configured_structure_feature/village_desert.json
++ reports/worldgen/minecraft/worldgen/configured_structure_feature/village_plains.json
++ reports/worldgen/minecraft/worldgen/configured_structure_feature/village_savanna.json
++ reports/worldgen/minecraft/worldgen/configured_structure_feature/village_snowy.json
++ reports/worldgen/minecraft/worldgen/configured_structure_feature/village_taiga.json
++ reports/worldgen/minecraft/worldgen/noise_settings/amplified.json
++ reports/worldgen/minecraft/worldgen/noise_settings/caves.json
++ reports/worldgen/minecraft/worldgen/noise_settings/end.json
++ reports/worldgen/minecraft/worldgen/noise_settings/floating_islands.json
++ reports/worldgen/minecraft/worldgen/noise_settings/large_biomes.json
++ reports/worldgen/minecraft/worldgen/noise_settings/nether.json
++ reports/worldgen/minecraft/worldgen/noise_settings/overworld.json
++ reports/worldgen/minecraft/worldgen/noise/aquifer_barrier.json
++ reports/worldgen/minecraft/worldgen/noise/aquifer_fluid_level_floodedness.json
++ reports/worldgen/minecraft/worldgen/noise/aquifer_fluid_level_spread.json
++ reports/worldgen/minecraft/worldgen/noise/aquifer_lava.json
++ reports/worldgen/minecraft/worldgen/noise/badlands_pillar_roof.json
++ reports/worldgen/minecraft/worldgen/noise/badlands_pillar.json
++ reports/worldgen/minecraft/worldgen/noise/badlands_surface.json
++ reports/worldgen/minecraft/worldgen/noise/calcite.json
++ reports/worldgen/minecraft/worldgen/noise/cave_cheese.json
++ reports/worldgen/minecraft/worldgen/noise/cave_entrance.json
++ reports/worldgen/minecraft/worldgen/noise/cave_layer.json
++ reports/worldgen/minecraft/worldgen/noise/clay_bands_offset.json
++ reports/worldgen/minecraft/worldgen/noise/continentalness_large.json
++ reports/worldgen/minecraft/worldgen/noise/continentalness.json
++ reports/worldgen/minecraft/worldgen/noise/erosion_large.json
++ reports/worldgen/minecraft/worldgen/noise/erosion.json
++ reports/worldgen/minecraft/worldgen/noise/gravel_layer.json
++ reports/worldgen/minecraft/worldgen/noise/gravel.json
++ reports/worldgen/minecraft/worldgen/noise/ice.json
++ reports/worldgen/minecraft/worldgen/noise/iceberg_pillar_roof.json
++ reports/worldgen/minecraft/worldgen/noise/iceberg_pillar.json
++ reports/worldgen/minecraft/worldgen/noise/iceberg_surface.json
++ reports/worldgen/minecraft/worldgen/noise/jagged.json
++ reports/worldgen/minecraft/worldgen/noise/nether_state_selector.json
++ reports/worldgen/minecraft/worldgen/noise/nether_wart.json
++ reports/worldgen/minecraft/worldgen/noise/netherrack.json
++ reports/worldgen/minecraft/worldgen/noise/noodle_ridge_a.json
++ reports/worldgen/minecraft/worldgen/noise/noodle_ridge_b.json
++ reports/worldgen/minecraft/worldgen/noise/noodle_thickness.json
++ reports/worldgen/minecraft/worldgen/noise/noodle.json
++ reports/worldgen/minecraft/worldgen/noise/offset.json
++ reports/worldgen/minecraft/worldgen/noise/ore_gap.json
++ reports/worldgen/minecraft/worldgen/noise/ore_vein_a.json
++ reports/worldgen/minecraft/worldgen/noise/ore_vein_b.json
++ reports/worldgen/minecraft/worldgen/noise/ore_veininess.json
++ reports/worldgen/minecraft/worldgen/noise/packed_ice.json
++ reports/worldgen/minecraft/worldgen/noise/patch.json
++ reports/worldgen/minecraft/worldgen/noise/pillar_rareness.json
++ reports/worldgen/minecraft/worldgen/noise/pillar_thickness.json
++ reports/worldgen/minecraft/worldgen/noise/pillar.json
++ reports/worldgen/minecraft/worldgen/noise/powder_snow.json
++ reports/worldgen/minecraft/worldgen/noise/ridge.json
++ reports/worldgen/minecraft/worldgen/noise/soul_sand_layer.json
++ reports/worldgen/minecraft/worldgen/noise/spaghetti_2d_elevation.json
++ reports/worldgen/minecraft/worldgen/noise/spaghetti_2d_modulator.json
++ reports/worldgen/minecraft/worldgen/noise/spaghetti_2d_thickness.json
++ reports/worldgen/minecraft/worldgen/noise/spaghetti_2d.json
++ reports/worldgen/minecraft/worldgen/noise/spaghetti_3d_1.json
++ reports/worldgen/minecraft/worldgen/noise/spaghetti_3d_2.json
++ reports/worldgen/minecraft/worldgen/noise/spaghetti_3d_rarity.json
++ reports/worldgen/minecraft/worldgen/noise/spaghetti_3d_thickness.json
++ reports/worldgen/minecraft/worldgen/noise/spaghetti_roughness_modulator.json
++ reports/worldgen/minecraft/worldgen/noise/spaghetti_roughness.json
++ reports/worldgen/minecraft/worldgen/noise/surface_secondary.json
++ reports/worldgen/minecraft/worldgen/noise/surface_swamp.json
++ reports/worldgen/minecraft/worldgen/noise/surface.json
++ reports/worldgen/minecraft/worldgen/noise/temperature_large.json
++ reports/worldgen/minecraft/worldgen/noise/temperature.json
++ reports/worldgen/minecraft/worldgen/noise/vegetation_large.json
++ reports/worldgen/minecraft/worldgen/noise/vegetation.json
++ reports/worldgen/minecraft/worldgen/placed_feature/acacia_checked.json
++ reports/worldgen/minecraft/worldgen/placed_feature/amethyst_geode.json
++ reports/worldgen/minecraft/worldgen/placed_feature/bamboo_light.json
++ reports/worldgen/minecraft/worldgen/placed_feature/bamboo_vegetation.json
++ reports/worldgen/minecraft/worldgen/placed_feature/bamboo.json
++ reports/worldgen/minecraft/worldgen/placed_feature/basalt_blobs.json
++ reports/worldgen/minecraft/worldgen/placed_feature/basalt_pillar.json
++ reports/worldgen/minecraft/worldgen/placed_feature/birch_bees_0002.json
++ reports/worldgen/minecraft/worldgen/placed_feature/birch_bees_002.json
++ reports/worldgen/minecraft/worldgen/placed_feature/birch_checked.json
++ reports/worldgen/minecraft/worldgen/placed_feature/birch_tall.json
++ reports/worldgen/minecraft/worldgen/placed_feature/blackstone_blobs.json
++ reports/worldgen/minecraft/worldgen/placed_feature/blue_ice.json
++ reports/worldgen/minecraft/worldgen/placed_feature/brown_mushroom_nether.json
++ reports/worldgen/minecraft/worldgen/placed_feature/brown_mushroom_normal.json
++ reports/worldgen/minecraft/worldgen/placed_feature/brown_mushroom_old_growth.json
++ reports/worldgen/minecraft/worldgen/placed_feature/brown_mushroom_swamp.json
++ reports/worldgen/minecraft/worldgen/placed_feature/brown_mushroom_taiga.json
++ reports/worldgen/minecraft/worldgen/placed_feature/cave_vines.json
++ reports/worldgen/minecraft/worldgen/placed_feature/chorus_plant.json
++ reports/worldgen/minecraft/worldgen/placed_feature/classic_vines_cave_feature.json
++ reports/worldgen/minecraft/worldgen/placed_feature/crimson_forest_vegetation.json
++ reports/worldgen/minecraft/worldgen/placed_feature/crimson_fungi.json
++ reports/worldgen/minecraft/worldgen/placed_feature/dark_forest_vegetation.json
++ reports/worldgen/minecraft/worldgen/placed_feature/dark_oak_checked.json
++ reports/worldgen/minecraft/worldgen/placed_feature/delta.json
++ reports/worldgen/minecraft/worldgen/placed_feature/desert_well.json
++ reports/worldgen/minecraft/worldgen/placed_feature/disk_clay.json
++ reports/worldgen/minecraft/worldgen/placed_feature/disk_gravel.json
++ reports/worldgen/minecraft/worldgen/placed_feature/disk_sand.json
++ reports/worldgen/minecraft/worldgen/placed_feature/dripstone_cluster.json
++ reports/worldgen/minecraft/worldgen/placed_feature/end_gateway_return.json
++ reports/worldgen/minecraft/worldgen/placed_feature/end_island_decorated.json
++ reports/worldgen/minecraft/worldgen/placed_feature/end_spike.json
++ reports/worldgen/minecraft/worldgen/placed_feature/fancy_oak_bees_0002.json
++ reports/worldgen/minecraft/worldgen/placed_feature/fancy_oak_bees_002.json
++ reports/worldgen/minecraft/worldgen/placed_feature/fancy_oak_bees.json
++ reports/worldgen/minecraft/worldgen/placed_feature/fancy_oak_checked.json
++ reports/worldgen/minecraft/worldgen/placed_feature/flower_default.json
++ reports/worldgen/minecraft/worldgen/placed_feature/flower_flower_forest.json
++ reports/worldgen/minecraft/worldgen/placed_feature/flower_forest_flowers.json
++ reports/worldgen/minecraft/worldgen/placed_feature/flower_meadow.json
++ reports/worldgen/minecraft/worldgen/placed_feature/flower_plain.json
++ reports/worldgen/minecraft/worldgen/placed_feature/flower_swamp.json
++ reports/worldgen/minecraft/worldgen/placed_feature/flower_warm.json
++ reports/worldgen/minecraft/worldgen/placed_feature/forest_flowers.json
++ reports/worldgen/minecraft/worldgen/placed_feature/forest_rock.json
++ reports/worldgen/minecraft/worldgen/placed_feature/fossil_lower.json
++ reports/worldgen/minecraft/worldgen/placed_feature/fossil_upper.json
++ reports/worldgen/minecraft/worldgen/placed_feature/freeze_top_layer.json
++ reports/worldgen/minecraft/worldgen/placed_feature/glow_lichen.json
++ reports/worldgen/minecraft/worldgen/placed_feature/glowstone_extra.json
++ reports/worldgen/minecraft/worldgen/placed_feature/glowstone.json
++ reports/worldgen/minecraft/worldgen/placed_feature/grass_bonemeal.json
++ reports/worldgen/minecraft/worldgen/placed_feature/ice_patch.json
++ reports/worldgen/minecraft/worldgen/placed_feature/ice_spike.json
++ reports/worldgen/minecraft/worldgen/placed_feature/iceberg_blue.json
++ reports/worldgen/minecraft/worldgen/placed_feature/iceberg_packed.json
++ reports/worldgen/minecraft/worldgen/placed_feature/jungle_bush.json
++ reports/worldgen/minecraft/worldgen/placed_feature/jungle_tree.json
++ reports/worldgen/minecraft/worldgen/placed_feature/kelp_cold.json
++ reports/worldgen/minecraft/worldgen/placed_feature/kelp_warm.json
++ reports/worldgen/minecraft/worldgen/placed_feature/lake_lava_surface.json
++ reports/worldgen/minecraft/worldgen/placed_feature/lake_lava_underground.json
++ reports/worldgen/minecraft/worldgen/placed_feature/large_basalt_columns.json
++ reports/worldgen/minecraft/worldgen/placed_feature/large_dripstone.json
++ reports/worldgen/minecraft/worldgen/placed_feature/lush_caves_ceiling_vegetation.json
++ reports/worldgen/minecraft/worldgen/placed_feature/lush_caves_clay.json
++ reports/worldgen/minecraft/worldgen/placed_feature/lush_caves_vegetation.json
++ reports/worldgen/minecraft/worldgen/placed_feature/mega_jungle_tree_checked.json
++ reports/worldgen/minecraft/worldgen/placed_feature/mega_pine_checked.json
++ reports/worldgen/minecraft/worldgen/placed_feature/mega_spruce_checked.json
++ reports/worldgen/minecraft/worldgen/placed_feature/monster_room_deep.json
++ reports/worldgen/minecraft/worldgen/placed_feature/monster_room.json
++ reports/worldgen/minecraft/worldgen/placed_feature/mushroom_island_vegetation.json
++ reports/worldgen/minecraft/worldgen/placed_feature/nether_sprouts.json
++ reports/worldgen/minecraft/worldgen/placed_feature/oak_bees_0002.json
++ reports/worldgen/minecraft/worldgen/placed_feature/oak_bees_002.json
++ reports/worldgen/minecraft/worldgen/placed_feature/oak_checked.json
++ reports/worldgen/minecraft/worldgen/placed_feature/ore_ancient_debris_large.json
++ reports/worldgen/minecraft/worldgen/placed_feature/ore_andesite_lower.json
++ reports/worldgen/minecraft/worldgen/placed_feature/ore_andesite_upper.json
++ reports/worldgen/minecraft/worldgen/placed_feature/ore_blackstone.json
++ reports/worldgen/minecraft/worldgen/placed_feature/ore_clay.json
++ reports/worldgen/minecraft/worldgen/placed_feature/ore_coal_lower.json
++ reports/worldgen/minecraft/worldgen/placed_feature/ore_coal_upper.json
++ reports/worldgen/minecraft/worldgen/placed_feature/ore_copper_large.json
++ reports/worldgen/minecraft/worldgen/placed_feature/ore_copper.json
++ reports/worldgen/minecraft/worldgen/placed_feature/ore_debris_small.json
++ reports/worldgen/minecraft/worldgen/placed_feature/ore_diamond_buried.json
++ reports/worldgen/minecraft/worldgen/placed_feature/ore_diamond_large.json
++ reports/worldgen/minecraft/worldgen/placed_feature/ore_diamond.json
++ reports/worldgen/minecraft/worldgen/placed_feature/ore_diorite_lower.json
++ reports/worldgen/minecraft/worldgen/placed_feature/ore_diorite_upper.json
++ reports/worldgen/minecraft/worldgen/placed_feature/ore_dirt.json
++ reports/worldgen/minecraft/worldgen/placed_feature/ore_emerald.json
++ reports/worldgen/minecraft/worldgen/placed_feature/ore_gold_deltas.json
++ reports/worldgen/minecraft/worldgen/placed_feature/ore_gold_extra.json
++ reports/worldgen/minecraft/worldgen/placed_feature/ore_gold_lower.json
++ reports/worldgen/minecraft/worldgen/placed_feature/ore_gold_nether.json
++ reports/worldgen/minecraft/worldgen/placed_feature/ore_gold.json
++ reports/worldgen/minecraft/worldgen/placed_feature/ore_granite_lower.json
++ reports/worldgen/minecraft/worldgen/placed_feature/ore_granite_upper.json
++ reports/worldgen/minecraft/worldgen/placed_feature/ore_gravel_nether.json
++ reports/worldgen/minecraft/worldgen/placed_feature/ore_gravel.json
++ reports/worldgen/minecraft/worldgen/placed_feature/ore_infested.json
++ reports/worldgen/minecraft/worldgen/placed_feature/ore_iron_middle.json
++ reports/worldgen/minecraft/worldgen/placed_feature/ore_iron_small.json
++ reports/worldgen/minecraft/worldgen/placed_feature/ore_iron_upper.json
++ reports/worldgen/minecraft/worldgen/placed_feature/ore_lapis_buried.json
++ reports/worldgen/minecraft/worldgen/placed_feature/ore_lapis.json
++ reports/worldgen/minecraft/worldgen/placed_feature/ore_magma.json
++ reports/worldgen/minecraft/worldgen/placed_feature/ore_quartz_deltas.json
++ reports/worldgen/minecraft/worldgen/placed_feature/ore_quartz_nether.json
++ reports/worldgen/minecraft/worldgen/placed_feature/ore_redstone_lower.json
++ reports/worldgen/minecraft/worldgen/placed_feature/ore_redstone.json
++ reports/worldgen/minecraft/worldgen/placed_feature/ore_soul_sand.json
++ reports/worldgen/minecraft/worldgen/placed_feature/ore_tuff.json
++ reports/worldgen/minecraft/worldgen/placed_feature/patch_berry_common.json
++ reports/worldgen/minecraft/worldgen/placed_feature/patch_berry_rare.json
++ reports/worldgen/minecraft/worldgen/placed_feature/patch_cactus_decorated.json
++ reports/worldgen/minecraft/worldgen/placed_feature/patch_cactus_desert.json
++ reports/worldgen/minecraft/worldgen/placed_feature/patch_crimson_roots.json
++ reports/worldgen/minecraft/worldgen/placed_feature/patch_dead_bush_2.json
++ reports/worldgen/minecraft/worldgen/placed_feature/patch_dead_bush_badlands.json
++ reports/worldgen/minecraft/worldgen/placed_feature/patch_dead_bush.json
++ reports/worldgen/minecraft/worldgen/placed_feature/patch_fire.json
++ reports/worldgen/minecraft/worldgen/placed_feature/patch_grass_badlands.json
++ reports/worldgen/minecraft/worldgen/placed_feature/patch_grass_forest.json
++ reports/worldgen/minecraft/worldgen/placed_feature/patch_grass_jungle.json
++ reports/worldgen/minecraft/worldgen/placed_feature/patch_grass_normal.json
++ reports/worldgen/minecraft/worldgen/placed_feature/patch_grass_plain.json
++ reports/worldgen/minecraft/worldgen/placed_feature/patch_grass_savanna.json
++ reports/worldgen/minecraft/worldgen/placed_feature/patch_grass_taiga_2.json
++ reports/worldgen/minecraft/worldgen/placed_feature/patch_grass_taiga.json
++ reports/worldgen/minecraft/worldgen/placed_feature/patch_large_fern.json
++ reports/worldgen/minecraft/worldgen/placed_feature/patch_melon.json
++ reports/worldgen/minecraft/worldgen/placed_feature/patch_pumpkin.json
++ reports/worldgen/minecraft/worldgen/placed_feature/patch_soul_fire.json
++ reports/worldgen/minecraft/worldgen/placed_feature/patch_sugar_cane_badlands.json
++ reports/worldgen/minecraft/worldgen/placed_feature/patch_sugar_cane_desert.json
++ reports/worldgen/minecraft/worldgen/placed_feature/patch_sugar_cane_swamp.json
++ reports/worldgen/minecraft/worldgen/placed_feature/patch_sugar_cane.json
++ reports/worldgen/minecraft/worldgen/placed_feature/patch_sunflower.json
++ reports/worldgen/minecraft/worldgen/placed_feature/patch_tall_grass_2.json
++ reports/worldgen/minecraft/worldgen/placed_feature/patch_tall_grass.json
++ reports/worldgen/minecraft/worldgen/placed_feature/patch_waterlily.json
++ reports/worldgen/minecraft/worldgen/placed_feature/pine_checked.json
++ reports/worldgen/minecraft/worldgen/placed_feature/pine_on_snow.json
++ reports/worldgen/minecraft/worldgen/placed_feature/pointed_dripstone.json
++ reports/worldgen/minecraft/worldgen/placed_feature/red_mushroom_nether.json
++ reports/worldgen/minecraft/worldgen/placed_feature/red_mushroom_normal.json
++ reports/worldgen/minecraft/worldgen/placed_feature/red_mushroom_old_growth.json
++ reports/worldgen/minecraft/worldgen/placed_feature/red_mushroom_swamp.json
++ reports/worldgen/minecraft/worldgen/placed_feature/red_mushroom_taiga.json
++ reports/worldgen/minecraft/worldgen/placed_feature/rooted_azalea_tree.json
++ reports/worldgen/minecraft/worldgen/placed_feature/sea_pickle.json
++ reports/worldgen/minecraft/worldgen/placed_feature/seagrass_cold.json
++ reports/worldgen/minecraft/worldgen/placed_feature/seagrass_deep_cold.json
++ reports/worldgen/minecraft/worldgen/placed_feature/seagrass_deep_warm.json
++ reports/worldgen/minecraft/worldgen/placed_feature/seagrass_deep.json
++ reports/worldgen/minecraft/worldgen/placed_feature/seagrass_normal.json
++ reports/worldgen/minecraft/worldgen/placed_feature/seagrass_river.json
++ reports/worldgen/minecraft/worldgen/placed_feature/seagrass_simple.json
++ reports/worldgen/minecraft/worldgen/placed_feature/seagrass_swamp.json
++ reports/worldgen/minecraft/worldgen/placed_feature/seagrass_warm.json
++ reports/worldgen/minecraft/worldgen/placed_feature/small_basalt_columns.json
++ reports/worldgen/minecraft/worldgen/placed_feature/spore_blossom.json
++ reports/worldgen/minecraft/worldgen/placed_feature/spring_closed_double.json
++ reports/worldgen/minecraft/worldgen/placed_feature/spring_closed.json
++ reports/worldgen/minecraft/worldgen/placed_feature/spring_delta.json
++ reports/worldgen/minecraft/worldgen/placed_feature/spring_lava_frozen.json
++ reports/worldgen/minecraft/worldgen/placed_feature/spring_lava.json
++ reports/worldgen/minecraft/worldgen/placed_feature/spring_open.json
++ reports/worldgen/minecraft/worldgen/placed_feature/spring_water.json
++ reports/worldgen/minecraft/worldgen/placed_feature/spruce_checked.json
++ reports/worldgen/minecraft/worldgen/placed_feature/spruce_on_snow.json
++ reports/worldgen/minecraft/worldgen/placed_feature/super_birch_bees_0002.json
++ reports/worldgen/minecraft/worldgen/placed_feature/super_birch_bees.json
++ reports/worldgen/minecraft/worldgen/placed_feature/trees_badlands.json
++ reports/worldgen/minecraft/worldgen/placed_feature/trees_birch_and_oak.json
++ reports/worldgen/minecraft/worldgen/placed_feature/trees_birch.json
++ reports/worldgen/minecraft/worldgen/placed_feature/trees_flower_forest.json
++ reports/worldgen/minecraft/worldgen/placed_feature/trees_grove.json
++ reports/worldgen/minecraft/worldgen/placed_feature/trees_jungle.json
++ reports/worldgen/minecraft/worldgen/placed_feature/trees_meadow.json
++ reports/worldgen/minecraft/worldgen/placed_feature/trees_old_growth_pine_taiga.json
++ reports/worldgen/minecraft/worldgen/placed_feature/trees_old_growth_spruce_taiga.json
++ reports/worldgen/minecraft/worldgen/placed_feature/trees_plains.json
++ reports/worldgen/minecraft/worldgen/placed_feature/trees_savanna.json
++ reports/worldgen/minecraft/worldgen/placed_feature/trees_snowy.json
++ reports/worldgen/minecraft/worldgen/placed_feature/trees_sparse_jungle.json
++ reports/worldgen/minecraft/worldgen/placed_feature/trees_swamp.json
++ reports/worldgen/minecraft/worldgen/placed_feature/trees_taiga.json
++ reports/worldgen/minecraft/worldgen/placed_feature/trees_water.json
++ reports/worldgen/minecraft/worldgen/placed_feature/trees_windswept_forest.json
++ reports/worldgen/minecraft/worldgen/placed_feature/trees_windswept_hills.json
++ reports/worldgen/minecraft/worldgen/placed_feature/trees_windswept_savanna.json
++ reports/worldgen/minecraft/worldgen/placed_feature/twisting_vines.json
++ reports/worldgen/minecraft/worldgen/placed_feature/underwater_magma.json
++ reports/worldgen/minecraft/worldgen/placed_feature/vines.json
++ reports/worldgen/minecraft/worldgen/placed_feature/void_start_platform.json
++ reports/worldgen/minecraft/worldgen/placed_feature/warm_ocean_vegetation.json
++ reports/worldgen/minecraft/worldgen/placed_feature/warped_forest_vegetation.json
++ reports/worldgen/minecraft/worldgen/placed_feature/warped_fungi.json
++ reports/worldgen/minecraft/worldgen/placed_feature/weeping_vines.json
++ reports/worldgen/minecraft/worldgen/processor_list/bastion_generic_degradation.json
++ reports/worldgen/minecraft/worldgen/processor_list/bottom_rampart.json
++ reports/worldgen/minecraft/worldgen/processor_list/bridge.json
++ reports/worldgen/minecraft/worldgen/processor_list/empty.json
++ reports/worldgen/minecraft/worldgen/processor_list/entrance_replacement.json
++ reports/worldgen/minecraft/worldgen/processor_list/farm_desert.json
++ reports/worldgen/minecraft/worldgen/processor_list/farm_plains.json
++ reports/worldgen/minecraft/worldgen/processor_list/farm_savanna.json
++ reports/worldgen/minecraft/worldgen/processor_list/farm_snowy.json
++ reports/worldgen/minecraft/worldgen/processor_list/farm_taiga.json
++ reports/worldgen/minecraft/worldgen/processor_list/fossil_coal.json
++ reports/worldgen/minecraft/worldgen/processor_list/fossil_diamonds.json
++ reports/worldgen/minecraft/worldgen/processor_list/fossil_rot.json
++ reports/worldgen/minecraft/worldgen/processor_list/high_rampart.json
++ reports/worldgen/minecraft/worldgen/processor_list/high_wall.json
++ reports/worldgen/minecraft/worldgen/processor_list/housing.json
++ reports/worldgen/minecraft/worldgen/processor_list/mossify_10_percent.json
++ reports/worldgen/minecraft/worldgen/processor_list/mossify_20_percent.json
++ reports/worldgen/minecraft/worldgen/processor_list/mossify_70_percent.json
++ reports/worldgen/minecraft/worldgen/processor_list/outpost_rot.json
++ reports/worldgen/minecraft/worldgen/processor_list/rampart_degradation.json
++ reports/worldgen/minecraft/worldgen/processor_list/roof.json
++ reports/worldgen/minecraft/worldgen/processor_list/side_wall_degradation.json
++ reports/worldgen/minecraft/worldgen/processor_list/stable_degradation.json
++ reports/worldgen/minecraft/worldgen/processor_list/street_plains.json
++ reports/worldgen/minecraft/worldgen/processor_list/street_savanna.json
++ reports/worldgen/minecraft/worldgen/processor_list/street_snowy_or_taiga.json
++ reports/worldgen/minecraft/worldgen/processor_list/treasure_rooms.json
++ reports/worldgen/minecraft/worldgen/processor_list/zombie_desert.json
++ reports/worldgen/minecraft/worldgen/processor_list/zombie_plains.json
++ reports/worldgen/minecraft/worldgen/processor_list/zombie_savanna.json
++ reports/worldgen/minecraft/worldgen/processor_list/zombie_snowy.json
++ reports/worldgen/minecraft/worldgen/processor_list/zombie_taiga.json
++ reports/worldgen/minecraft/worldgen/template_pool/bastion/blocks/gold.json
++ reports/worldgen/minecraft/worldgen/template_pool/bastion/bridge/bridge_pieces.json
++ reports/worldgen/minecraft/worldgen/template_pool/bastion/bridge/connectors.json
++ reports/worldgen/minecraft/worldgen/template_pool/bastion/bridge/legs.json
++ reports/worldgen/minecraft/worldgen/template_pool/bastion/bridge/rampart_plates.json
++ reports/worldgen/minecraft/worldgen/template_pool/bastion/bridge/ramparts.json
++ reports/worldgen/minecraft/worldgen/template_pool/bastion/bridge/starting_pieces.json
++ reports/worldgen/minecraft/worldgen/template_pool/bastion/bridge/walls.json
++ reports/worldgen/minecraft/worldgen/template_pool/bastion/hoglin_stable/connectors.json
++ reports/worldgen/minecraft/worldgen/template_pool/bastion/hoglin_stable/large_stables/inner.json
++ reports/worldgen/minecraft/worldgen/template_pool/bastion/hoglin_stable/large_stables/outer.json
++ reports/worldgen/minecraft/worldgen/template_pool/bastion/hoglin_stable/mirrored_starting_pieces.json
++ reports/worldgen/minecraft/worldgen/template_pool/bastion/hoglin_stable/posts.json
++ reports/worldgen/minecraft/worldgen/template_pool/bastion/hoglin_stable/rampart_plates.json
++ reports/worldgen/minecraft/worldgen/template_pool/bastion/hoglin_stable/ramparts.json
++ reports/worldgen/minecraft/worldgen/template_pool/bastion/hoglin_stable/small_stables/inner.json
++ reports/worldgen/minecraft/worldgen/template_pool/bastion/hoglin_stable/small_stables/outer.json
++ reports/worldgen/minecraft/worldgen/template_pool/bastion/hoglin_stable/stairs.json
++ reports/worldgen/minecraft/worldgen/template_pool/bastion/hoglin_stable/starting_pieces.json
++ reports/worldgen/minecraft/worldgen/template_pool/bastion/hoglin_stable/wall_bases.json
++ reports/worldgen/minecraft/worldgen/template_pool/bastion/hoglin_stable/walls.json
++ reports/worldgen/minecraft/worldgen/template_pool/bastion/mobs/hoglin.json
++ reports/worldgen/minecraft/worldgen/template_pool/bastion/mobs/piglin_melee.json
++ reports/worldgen/minecraft/worldgen/template_pool/bastion/mobs/piglin.json
++ reports/worldgen/minecraft/worldgen/template_pool/bastion/starts.json
++ reports/worldgen/minecraft/worldgen/template_pool/bastion/treasure/bases.json
++ reports/worldgen/minecraft/worldgen/template_pool/bastion/treasure/bases/centers.json
++ reports/worldgen/minecraft/worldgen/template_pool/bastion/treasure/brains.json
++ reports/worldgen/minecraft/worldgen/template_pool/bastion/treasure/connectors.json
++ reports/worldgen/minecraft/worldgen/template_pool/bastion/treasure/corners/bottom.json
++ reports/worldgen/minecraft/worldgen/template_pool/bastion/treasure/corners/edges.json
++ reports/worldgen/minecraft/worldgen/template_pool/bastion/treasure/corners/middle.json
++ reports/worldgen/minecraft/worldgen/template_pool/bastion/treasure/corners/top.json
++ reports/worldgen/minecraft/worldgen/template_pool/bastion/treasure/entrances.json
++ reports/worldgen/minecraft/worldgen/template_pool/bastion/treasure/extensions/houses.json
++ reports/worldgen/minecraft/worldgen/template_pool/bastion/treasure/extensions/large_pool.json
++ reports/worldgen/minecraft/worldgen/template_pool/bastion/treasure/extensions/small_pool.json
++ reports/worldgen/minecraft/worldgen/template_pool/bastion/treasure/ramparts.json
++ reports/worldgen/minecraft/worldgen/template_pool/bastion/treasure/roofs.json
++ reports/worldgen/minecraft/worldgen/template_pool/bastion/treasure/stairs.json
++ reports/worldgen/minecraft/worldgen/template_pool/bastion/treasure/walls.json
++ reports/worldgen/minecraft/worldgen/template_pool/bastion/treasure/walls/bottom.json
++ reports/worldgen/minecraft/worldgen/template_pool/bastion/treasure/walls/mid.json
++ reports/worldgen/minecraft/worldgen/template_pool/bastion/treasure/walls/outer.json
++ reports/worldgen/minecraft/worldgen/template_pool/bastion/treasure/walls/top.json
++ reports/worldgen/minecraft/worldgen/template_pool/bastion/units/center_pieces.json
++ reports/worldgen/minecraft/worldgen/template_pool/bastion/units/edge_wall_units.json
++ reports/worldgen/minecraft/worldgen/template_pool/bastion/units/edges.json
++ reports/worldgen/minecraft/worldgen/template_pool/bastion/units/fillers/stage_0.json
++ reports/worldgen/minecraft/worldgen/template_pool/bastion/units/large_ramparts.json
++ reports/worldgen/minecraft/worldgen/template_pool/bastion/units/pathways.json
++ reports/worldgen/minecraft/worldgen/template_pool/bastion/units/rampart_plates.json
++ reports/worldgen/minecraft/worldgen/template_pool/bastion/units/ramparts.json
++ reports/worldgen/minecraft/worldgen/template_pool/bastion/units/stages/rot/stage_1.json
++ reports/worldgen/minecraft/worldgen/template_pool/bastion/units/stages/stage_0.json
++ reports/worldgen/minecraft/worldgen/template_pool/bastion/units/stages/stage_1.json
++ reports/worldgen/minecraft/worldgen/template_pool/bastion/units/stages/stage_2.json
++ reports/worldgen/minecraft/worldgen/template_pool/bastion/units/stages/stage_3.json
++ reports/worldgen/minecraft/worldgen/template_pool/bastion/units/wall_units.json
++ reports/worldgen/minecraft/worldgen/template_pool/bastion/units/walls/wall_bases.json
++ reports/worldgen/minecraft/worldgen/template_pool/empty.json
++ reports/worldgen/minecraft/worldgen/template_pool/pillager_outpost/base_plates.json
++ reports/worldgen/minecraft/worldgen/template_pool/pillager_outpost/feature_plates.json
++ reports/worldgen/minecraft/worldgen/template_pool/pillager_outpost/features.json
++ reports/worldgen/minecraft/worldgen/template_pool/pillager_outpost/towers.json
++ reports/worldgen/minecraft/worldgen/template_pool/village/common/animals.json
++ reports/worldgen/minecraft/worldgen/template_pool/village/common/butcher_animals.json
++ reports/worldgen/minecraft/worldgen/template_pool/village/common/cats.json
++ reports/worldgen/minecraft/worldgen/template_pool/village/common/iron_golem.json
++ reports/worldgen/minecraft/worldgen/template_pool/village/common/sheep.json
++ reports/worldgen/minecraft/worldgen/template_pool/village/common/well_bottoms.json
++ reports/worldgen/minecraft/worldgen/template_pool/village/desert/decor.json
++ reports/worldgen/minecraft/worldgen/template_pool/village/desert/houses.json
++ reports/worldgen/minecraft/worldgen/template_pool/village/desert/streets.json
++ reports/worldgen/minecraft/worldgen/template_pool/village/desert/terminators.json
++ reports/worldgen/minecraft/worldgen/template_pool/village/desert/town_centers.json
++ reports/worldgen/minecraft/worldgen/template_pool/village/desert/villagers.json
++ reports/worldgen/minecraft/worldgen/template_pool/village/desert/zombie/decor.json
++ reports/worldgen/minecraft/worldgen/template_pool/village/desert/zombie/houses.json
++ reports/worldgen/minecraft/worldgen/template_pool/village/desert/zombie/streets.json
++ reports/worldgen/minecraft/worldgen/template_pool/village/desert/zombie/terminators.json
++ reports/worldgen/minecraft/worldgen/template_pool/village/desert/zombie/villagers.json
++ reports/worldgen/minecraft/worldgen/template_pool/village/plains/decor.json
++ reports/worldgen/minecraft/worldgen/template_pool/village/plains/houses.json
++ reports/worldgen/minecraft/worldgen/template_pool/village/plains/streets.json
++ reports/worldgen/minecraft/worldgen/template_pool/village/plains/terminators.json
++ reports/worldgen/minecraft/worldgen/template_pool/village/plains/town_centers.json
++ reports/worldgen/minecraft/worldgen/template_pool/village/plains/trees.json
++ reports/worldgen/minecraft/worldgen/template_pool/village/plains/villagers.json
++ reports/worldgen/minecraft/worldgen/template_pool/village/plains/zombie/decor.json
++ reports/worldgen/minecraft/worldgen/template_pool/village/plains/zombie/houses.json
++ reports/worldgen/minecraft/worldgen/template_pool/village/plains/zombie/streets.json
++ reports/worldgen/minecraft/worldgen/template_pool/village/plains/zombie/villagers.json
++ reports/worldgen/minecraft/worldgen/template_pool/village/savanna/decor.json
++ reports/worldgen/minecraft/worldgen/template_pool/village/savanna/houses.json
++ reports/worldgen/minecraft/worldgen/template_pool/village/savanna/streets.json
++ reports/worldgen/minecraft/worldgen/template_pool/village/savanna/terminators.json
++ reports/worldgen/minecraft/worldgen/template_pool/village/savanna/town_centers.json
++ reports/worldgen/minecraft/worldgen/template_pool/village/savanna/trees.json
++ reports/worldgen/minecraft/worldgen/template_pool/village/savanna/villagers.json
++ reports/worldgen/minecraft/worldgen/template_pool/village/savanna/zombie/decor.json
++ reports/worldgen/minecraft/worldgen/template_pool/village/savanna/zombie/houses.json
++ reports/worldgen/minecraft/worldgen/template_pool/village/savanna/zombie/streets.json
++ reports/worldgen/minecraft/worldgen/template_pool/village/savanna/zombie/terminators.json
++ reports/worldgen/minecraft/worldgen/template_pool/village/savanna/zombie/villagers.json
++ reports/worldgen/minecraft/worldgen/template_pool/village/snowy/decor.json
++ reports/worldgen/minecraft/worldgen/template_pool/village/snowy/houses.json
++ reports/worldgen/minecraft/worldgen/template_pool/village/snowy/streets.json
++ reports/worldgen/minecraft/worldgen/template_pool/village/snowy/terminators.json
++ reports/worldgen/minecraft/worldgen/template_pool/village/snowy/town_centers.json
++ reports/worldgen/minecraft/worldgen/template_pool/village/snowy/trees.json
++ reports/worldgen/minecraft/worldgen/template_pool/village/snowy/villagers.json
++ reports/worldgen/minecraft/worldgen/template_pool/village/snowy/zombie/decor.json
++ reports/worldgen/minecraft/worldgen/template_pool/village/snowy/zombie/houses.json
++ reports/worldgen/minecraft/worldgen/template_pool/village/snowy/zombie/streets.json
++ reports/worldgen/minecraft/worldgen/template_pool/village/snowy/zombie/villagers.json
++ reports/worldgen/minecraft/worldgen/template_pool/village/taiga/decor.json
++ reports/worldgen/minecraft/worldgen/template_pool/village/taiga/houses.json
++ reports/worldgen/minecraft/worldgen/template_pool/village/taiga/streets.json
++ reports/worldgen/minecraft/worldgen/template_pool/village/taiga/terminators.json
++ reports/worldgen/minecraft/worldgen/template_pool/village/taiga/town_centers.json
++ reports/worldgen/minecraft/worldgen/template_pool/village/taiga/villagers.json
++ reports/worldgen/minecraft/worldgen/template_pool/village/taiga/zombie/decor.json
++ reports/worldgen/minecraft/worldgen/template_pool/village/taiga/zombie/houses.json
++ reports/worldgen/minecraft/worldgen/template_pool/village/taiga/zombie/streets.json
++ reports/worldgen/minecraft/worldgen/template_pool/village/taiga/zombie/villagers.json
+```
+
+</details>
+<details>
+<summary>
+data
+</summary>
+
+```diff
+- minecraft/advancements/adventure/caves_and_cliffs.json
++ minecraft/advancements/adventure/fall_from_world_height.json
++ minecraft/advancements/adventure/play_jukebox_in_meadows.json
+- minecraft/advancements/adventure/ride_strider_in_overworld_lava.json
+- minecraft/advancements/husbandry/play_jukebox_in_meadows.json
++ minecraft/advancements/nether/ride_strider_in_overworld_lava.json
+```
+
+</details>
+</details>
+<hr/>
+<details><summary><b><ins>MAPPINGS</ins></b><a name="mappings"></a></summary>
+<br/>
+<h2>Server<a name="server-mappings"></a></h2>
+<details>
+<summary>
+Classes
+</summary>
+
+```diff
+- XXX.ai.attributes.Attribute
++ XXX.ai.attributes.AttributeInstance
+- XXX.ai.attributes.AttributeMap
++ XXX.ai.attributes.AttributeModifier
+- XXX.ai.attributes.AttributeModifier$Operation
++ XXX.ai.attributes.Attributes
++ XXX.ai.attributes.AttributeSupplier
+- XXX.ai.attributes.AttributeSupplier$Builder
+- XXX.ai.attributes.DefaultAttributes
+- XXX.ai.attributes.package-info
++ XXX.ai.attributes.RangedAttribute
++ XXX.ai.behavior.AcquirePoi
+- XXX.ai.behavior.AcquirePoi$JitteredLinearRetry
++ XXX.ai.behavior.AnimalMakeLove
+- XXX.ai.behavior.AnimalPanic
++ XXX.ai.behavior.AssignProfessionFromJobSite
+- XXX.ai.behavior.BabyFollowAdult
++ XXX.ai.behavior.BackUpIfTooClose
+- XXX.ai.behavior.BecomePassiveIfMemoryPresent
++ XXX.ai.behavior.Behavior
+- XXX.ai.behavior.Behavior$Status
++ XXX.ai.behavior.BehaviorUtils
+- XXX.ai.behavior.BlockPosTracker
++ XXX.ai.behavior.CelebrateVillagersSurvivedRaid
+- XXX.ai.behavior.CopyMemoryWithExpiry
++ XXX.ai.behavior.CountDownCooldownTicks
+- XXX.ai.behavior.CrossbowAttack
++ XXX.ai.behavior.CrossbowAttack$CrossbowState
+- XXX.ai.behavior.DismountOrSkipMounting
++ XXX.ai.behavior.DoNothing
+- XXX.ai.behavior.EntityTracker
++ XXX.ai.behavior.EraseMemoryIf
+- XXX.ai.behavior.FollowTemptation
++ XXX.ai.behavior.GateBehavior
+- XXX.ai.behavior.GateBehavior$OrderPolicy
++ XXX.ai.behavior.GateBehavior$RunningPolicy
+- XXX.ai.behavior.GateBehavior$RunningPolicy$1
++ XXX.ai.behavior.GateBehavior$RunningPolicy$2
+- XXX.ai.behavior.GiveGiftToHero
++ XXX.ai.behavior.GoOutsideToCelebrate
+- XXX.ai.behavior.GoToCelebrateLocation
++ XXX.ai.behavior.GoToClosestVillage
+- XXX.ai.behavior.GoToPotentialJobSite
++ XXX.ai.behavior.GoToWantedItem
+- XXX.ai.behavior.HarvestFarmland
++ XXX.ai.behavior.InsideBrownianWalk
+- XXX.ai.behavior.InteractWith
++ XXX.ai.behavior.InteractWithDoor
+- XXX.ai.behavior.JumpOnBed
++ XXX.ai.behavior.LocateHidingPlace
+- XXX.ai.behavior.LocateHidingPlaceDuringRaid
++ XXX.ai.behavior.LongJumpMidJump
+- XXX.ai.behavior.LongJumpToRandomPos
++ XXX.ai.behavior.LongJumpToRandomPos$PossibleJump
+- XXX.ai.behavior.LookAndFollowTradingPlayerSink
++ XXX.ai.behavior.LookAtTargetSink
+- XXX.ai.behavior.MeleeAttack
++ XXX.ai.behavior.Mount
+- XXX.ai.behavior.MoveToSkySeeingSpot
++ XXX.ai.behavior.MoveToTargetSink
++ XXX.ai.behavior.package-info
+- XXX.ai.behavior.PlayTagWithOtherKids
++ XXX.ai.behavior.PoiCompetitorScan
+- XXX.ai.behavior.PositionTracker
++ XXX.ai.behavior.PrepareRamNearestTarget
+- XXX.ai.behavior.PrepareRamNearestTarget$RamCandidate
++ XXX.ai.behavior.RamTarget
+- XXX.ai.behavior.RandomStroll
++ XXX.ai.behavior.RandomSwim
+- XXX.ai.behavior.ReactToBell
++ XXX.ai.behavior.ResetProfession
+- XXX.ai.behavior.ResetRaidStatus
++ XXX.ai.behavior.RingBell
+- XXX.ai.behavior.RunIf
++ XXX.ai.behavior.RunOne
+- XXX.ai.behavior.RunSometimes
++ XXX.ai.behavior.SetClosestHomeAsWalkTarget
+- XXX.ai.behavior.SetEntityLookTarget
++ XXX.ai.behavior.SetHiddenState
+- XXX.ai.behavior.SetLookAndInteract
++ XXX.ai.behavior.SetRaidStatus
+- XXX.ai.behavior.SetWalkTargetAwayFrom
++ XXX.ai.behavior.SetWalkTargetFromAttackTargetIfTargetOutOfReach
+- XXX.ai.behavior.SetWalkTargetFromBlockMemory
++ XXX.ai.behavior.SetWalkTargetFromLookTarget
+- XXX.ai.behavior.ShowTradesToPlayer
++ XXX.ai.behavior.ShufflingList
+- XXX.ai.behavior.ShufflingList$WeightedEntry
++ XXX.ai.behavior.ShufflingList$WeightedEntry$1
+- XXX.ai.behavior.SleepInBed
++ XXX.ai.behavior.SocializeAtBell
+- XXX.ai.behavior.StartAttacking
++ XXX.ai.behavior.StartCelebratingIfTargetDead
+- XXX.ai.behavior.StopAttackingIfTargetInvalid
++ XXX.ai.behavior.StopBeingAngryIfTargetDead
+- XXX.ai.behavior.StrollAroundPoi
++ XXX.ai.behavior.StrollToPoi
+- XXX.ai.behavior.StrollToPoiList
++ XXX.ai.behavior.Swim
+- XXX.ai.behavior.TradeWithVillager
++ XXX.ai.behavior.TryFindWater
+- XXX.ai.behavior.UpdateActivityFromSchedule
++ XXX.ai.behavior.UseBonemeal
+- XXX.ai.behavior.ValidateNearbyPoi
++ XXX.ai.behavior.VictoryStroll
+- XXX.ai.behavior.VillageBoundRandomStroll
++ XXX.ai.behavior.VillagerCalmDown
+- XXX.ai.behavior.VillagerGoalPackages
++ XXX.ai.behavior.VillagerMakeLove
+- XXX.ai.behavior.VillagerPanicTrigger
++ XXX.ai.behavior.WakeUp
+- XXX.ai.behavior.WorkAtComposter
++ XXX.ai.behavior.WorkAtPoi
+- XXX.ai.behavior.YieldJobSite
+- XXX.ai.control.BodyRotationControl
++ XXX.ai.control.Control
+- XXX.ai.control.FlyingMoveControl
++ XXX.ai.control.JumpControl
+- XXX.ai.control.LookControl
++ XXX.ai.control.MoveControl
+- XXX.ai.control.MoveControl$Operation
++ XXX.ai.control.package-info
++ XXX.ai.control.SmoothSwimmingLookControl
+- XXX.ai.control.SmoothSwimmingMoveControl
+- XXX.ai.goal.AvoidEntityGoal
++ XXX.ai.goal.BegGoal
+- XXX.ai.goal.BoatGoals
++ XXX.ai.goal.BreakDoorGoal
+- XXX.ai.goal.BreathAirGoal
++ XXX.ai.goal.BreedGoal
+- XXX.ai.goal.CatLieOnBedGoal
++ XXX.ai.goal.CatSitOnBlockGoal
+- XXX.ai.goal.DolphinJumpGoal
++ XXX.ai.goal.DoorInteractGoal
+- XXX.ai.goal.EatBlockGoal
++ XXX.ai.goal.FleeSunGoal
+- XXX.ai.goal.FloatGoal
++ XXX.ai.goal.FollowBoatGoal
+- XXX.ai.goal.FollowFlockLeaderGoal
++ XXX.ai.goal.FollowMobGoal
+- XXX.ai.goal.FollowOwnerGoal
++ XXX.ai.goal.FollowParentGoal
+- XXX.ai.goal.Goal
++ XXX.ai.goal.Goal$Flag
+- XXX.ai.goal.GoalSelector
++ XXX.ai.goal.GoalSelector$1
+- XXX.ai.goal.GoalSelector$2
++ XXX.ai.goal.GolemRandomStrollInVillageGoal
+- XXX.ai.goal.InteractGoal
++ XXX.ai.goal.JumpGoal
+- XXX.ai.goal.LandOnOwnersShoulderGoal
++ XXX.ai.goal.LeapAtTargetGoal
+- XXX.ai.goal.LlamaFollowCaravanGoal
++ XXX.ai.goal.LookAtPlayerGoal
+- XXX.ai.goal.LookAtTradingPlayerGoal
++ XXX.ai.goal.MeleeAttackGoal
+- XXX.ai.goal.MoveBackToVillageGoal
++ XXX.ai.goal.MoveThroughVillageGoal
+- XXX.ai.goal.MoveToBlockGoal
++ XXX.ai.goal.MoveTowardsRestrictionGoal
+- XXX.ai.goal.MoveTowardsTargetGoal
++ XXX.ai.goal.OcelotAttackGoal
+- XXX.ai.goal.OfferFlowerGoal
++ XXX.ai.goal.OpenDoorGoal
++ XXX.ai.goal.package-info
+- XXX.ai.goal.PanicGoal
++ XXX.ai.goal.PathfindToRaidGoal
+- XXX.ai.goal.RandomLookAroundGoal
++ XXX.ai.goal.RandomStrollGoal
+- XXX.ai.goal.RandomSwimmingGoal
++ XXX.ai.goal.RangedAttackGoal
+- XXX.ai.goal.RangedBowAttackGoal
++ XXX.ai.goal.RangedCrossbowAttackGoal
+- XXX.ai.goal.RangedCrossbowAttackGoal$CrossbowState
++ XXX.ai.goal.RemoveBlockGoal
+- XXX.ai.goal.RestrictSunGoal
++ XXX.ai.goal.RunAroundLikeCrazyGoal
+- XXX.ai.goal.SitWhenOrderedToGoal
++ XXX.ai.goal.StrollThroughVillageGoal
+- XXX.ai.goal.SwellGoal
++ XXX.ai.goal.TemptGoal
+- XXX.ai.goal.TradeWithPlayerGoal
++ XXX.ai.goal.TryFindWaterGoal
+- XXX.ai.goal.UseItemGoal
++ XXX.ai.goal.WaterAvoidingRandomFlyingGoal
+- XXX.ai.goal.WaterAvoidingRandomStrollGoal
++ XXX.ai.goal.WrappedGoal
+- XXX.ai.goal.ZombieAttackGoal
++ XXX.ai.gossip.GossipContainer
+- XXX.ai.gossip.GossipContainer$EntityGossips
++ XXX.ai.gossip.GossipContainer$GossipEntry
+- XXX.ai.gossip.GossipType
++ XXX.ai.gossip.package-info
+- XXX.ai.memory.ExpirableValue
++ XXX.ai.memory.MemoryModuleType
+- XXX.ai.memory.MemoryStatus
++ XXX.ai.memory.NearestVisibleLivingEntities
++ XXX.ai.memory.package-info
+- XXX.ai.memory.WalkTarget
+- XXX.ai.navigation.FlyingPathNavigation
++ XXX.ai.navigation.GroundPathNavigation
++ XXX.ai.navigation.package-info
+- XXX.ai.navigation.PathNavigation
++ XXX.ai.navigation.WallClimberNavigation
+- XXX.ai.navigation.WaterBoundPathNavigation
++ XXX.ai.sensing.AdultSensor
+- XXX.ai.sensing.AxolotlAttackablesSensor
++ XXX.ai.sensing.DummySensor
+- XXX.ai.sensing.GolemSensor
++ XXX.ai.sensing.HoglinSpecificSensor
+- XXX.ai.sensing.HurtBySensor
++ XXX.ai.sensing.NearestBedSensor
+- XXX.ai.sensing.NearestItemSensor
++ XXX.ai.sensing.NearestLivingEntitySensor
+- XXX.ai.sensing.NearestVisibleLivingEntitySensor
++ XXX.ai.sensing.package-info
++ XXX.ai.sensing.PiglinBruteSpecificSensor
+- XXX.ai.sensing.PiglinSpecificSensor
++ XXX.ai.sensing.PlayerSensor
+- XXX.ai.sensing.SecondaryPoiSensor
++ XXX.ai.sensing.Sensing
+- XXX.ai.sensing.Sensor
++ XXX.ai.sensing.SensorType
+- XXX.ai.sensing.TemptingSensor
++ XXX.ai.sensing.VillagerBabiesSensor
+- XXX.ai.sensing.VillagerHostilesSensor
++ XXX.ai.targeting.package-info
+- XXX.ai.targeting.TargetingConditions
+- XXX.ai.util.AirAndWaterRandomPos
++ XXX.ai.util.AirRandomPos
+- XXX.ai.util.DefaultRandomPos
++ XXX.ai.util.GoalUtils
+- XXX.ai.util.HoverRandomPos
++ XXX.ai.util.LandRandomPos
++ XXX.ai.util.package-info
+- XXX.ai.util.RandomPos
+- XXX.ai.village.package-info
+- XXX.ai.village.ReputationEventType
++ XXX.ai.village.ReputationEventType$1
+- XXX.ai.village.VillageSiege
++ XXX.ai.village.VillageSiege$State
+- XXX.animal.axolotl.Axolotl
++ XXX.animal.axolotl.Axolotl$AxolotlGroupData
+- XXX.animal.axolotl.Axolotl$AxolotlLookControl
++ XXX.animal.axolotl.Axolotl$AxolotlMoveControl
+- XXX.animal.axolotl.Axolotl$AxolotlPathNavigation
++ XXX.animal.axolotl.Axolotl$Variant
+- XXX.animal.axolotl.AxolotlAi
++ XXX.animal.axolotl.package-info
++ XXX.animal.axolotl.PlayDead
+- XXX.animal.axolotl.ValidatePlayDead
+- XXX.animal.goat.Goat
++ XXX.animal.goat.Goat$GoatNodeEvaluator
+- XXX.animal.goat.Goat$GoatPathNavigation
++ XXX.animal.goat.GoatAi
+- XXX.animal.goat.package-info
++ XXX.animal.horse.AbstractChestedHorse
+- XXX.animal.horse.AbstractChestedHorse$1
++ XXX.animal.horse.AbstractHorse
+- XXX.animal.horse.AbstractHorse$1
++ XXX.animal.horse.Donkey
+- XXX.animal.horse.Horse
++ XXX.animal.horse.Horse$HorseGroupData
+- XXX.animal.horse.Llama
++ XXX.animal.horse.Llama$LlamaAttackWolfGoal
+- XXX.animal.horse.Llama$LlamaGroupData
++ XXX.animal.horse.Llama$LlamaHurtByTargetGoal
+- XXX.animal.horse.Markings
++ XXX.animal.horse.Mule
+- XXX.animal.horse.package-info
+- XXX.animal.horse.SkeletonHorse
++ XXX.animal.horse.SkeletonTrapGoal
+- XXX.animal.horse.TraderLlama
++ XXX.animal.horse.TraderLlama$TraderLlamaDefendWanderingTraderGoal
+- XXX.animal.horse.Variant
++ XXX.animal.horse.ZombieHorse
++ XXX.boss.enderdragon.EndCrystal
+- XXX.boss.enderdragon.EnderDragon
++ XXX.boss.enderdragon.package-info
+- XXX.boss.wither.package-info
+- XXX.boss.wither.WitherBoss
++ XXX.boss.wither.WitherBoss$WitherDoNothingGoal
+- XXX.data.info.package-info
++ XXX.data.loot.BlockLoot
+- XXX.data.loot.ChestLoot
++ XXX.data.loot.EntityLoot
+- XXX.data.loot.FishingLoot
++ XXX.data.loot.GiftLoot
+- XXX.data.loot.LootTableProvider
+- XXX.data.loot.package-info
++ XXX.data.loot.PiglinBarterLoot
++ XXX.data.models.BlockModelGenerators
+- XXX.data.models.BlockModelGenerators$1
++ XXX.data.models.BlockModelGenerators$BlockEntityModelGenerator
+- XXX.data.models.BlockModelGenerators$BlockFamilyProvider
++ XXX.data.models.BlockModelGenerators$BlockStateGeneratorSupplier
+- XXX.data.models.BlockModelGenerators$TintState
++ XXX.data.models.BlockModelGenerators$WoodProvider
+- XXX.data.models.ItemModelGenerators
++ XXX.data.models.ModelProvider
+- XXX.data.models.package-info
+- XXX.data.recipes.FinishedRecipe
++ XXX.data.recipes.package-info
++ XXX.data.recipes.RecipeBuilder
+- XXX.data.recipes.RecipeProvider
++ XXX.data.recipes.ShapedRecipeBuilder
+- XXX.data.recipes.ShapedRecipeBuilder$Result
++ XXX.data.recipes.ShapelessRecipeBuilder
+- XXX.data.recipes.ShapelessRecipeBuilder$Result
++ XXX.data.recipes.SimpleCookingRecipeBuilder
+- XXX.data.recipes.SimpleCookingRecipeBuilder$Result
++ XXX.data.recipes.SingleItemRecipeBuilder
+- XXX.data.recipes.SingleItemRecipeBuilder$Result
++ XXX.data.recipes.SpecialRecipeBuilder
+- XXX.data.recipes.SpecialRecipeBuilder$1
++ XXX.data.recipes.UpgradeRecipeBuilder
+- XXX.data.recipes.UpgradeRecipeBuilder$Result
+- XXX.data.structures.NbtToSnbt
+- XXX.data.structures.package-info
++ XXX.data.structures.SnbtToNbt
+- XXX.data.structures.SnbtToNbt$Filter
++ XXX.data.structures.SnbtToNbt$StructureConversionException
+- XXX.data.structures.SnbtToNbt$TaskResult
++ XXX.data.structures.StructureUpdater
++ XXX.data.tags.BlockTagsProvider
+- XXX.data.tags.EntityTypeTagsProvider
++ XXX.data.tags.FluidTagsProvider
+- XXX.data.tags.GameEventTagsProvider
++ XXX.data.tags.ItemTagsProvider
+- XXX.data.tags.package-info
+- XXX.data.tags.TagsProvider
++ XXX.data.tags.TagsProvider$TagAppender
++ XXX.data.worldgen.BastionBridgePools
+- XXX.data.worldgen.BastionHoglinStablePools
++ XXX.data.worldgen.BastionHousingUnitsPools
+- XXX.data.worldgen.BastionPieces
++ XXX.data.worldgen.BastionSharedPools
+- XXX.data.worldgen.BastionTreasureRoomPools
++ XXX.data.worldgen.BiomeDefaultFeatures
+- XXX.data.worldgen.Carvers
++ XXX.data.worldgen.DesertVillagePools
++ XXX.data.worldgen.Features$Configs
++ XXX.datafix.fixes.AbstractArrowPickupFix
+- XXX.datafix.fixes.AbstractUUIDFix
++ XXX.datafix.fixes.AddFlagIfNotPresentFix
+- XXX.datafix.fixes.AddNewChoices
++ XXX.datafix.fixes.AdvancementsFix
+- XXX.datafix.fixes.AdvancementsRenameFix
++ XXX.datafix.fixes.AttributesRename
+- XXX.datafix.fixes.BedItemColorFix
++ XXX.datafix.fixes.BeehivePoiRenameFix
+- XXX.datafix.fixes.BiomeFix
++ XXX.datafix.fixes.BitStorageAlignFix
+- XXX.datafix.fixes.BlockEntityBannerColorFix
++ XXX.datafix.fixes.BlockEntityBlockStateFix
+- XXX.datafix.fixes.BlockEntityCustomNameToComponentFix
++ XXX.datafix.fixes.BlockEntityIdFix
+- XXX.datafix.fixes.BlockEntityJukeboxFix
++ XXX.datafix.fixes.BlockEntityKeepPacked
+- XXX.datafix.fixes.BlockEntityShulkerBoxColorFix
++ XXX.datafix.fixes.BlockEntitySignTextStrictJsonFix
+- XXX.datafix.fixes.BlockEntitySignTextStrictJsonFix$1
++ XXX.datafix.fixes.BlockEntityUUIDFix
+- XXX.datafix.fixes.BlockNameFlatteningFix
++ XXX.datafix.fixes.BlockRenameFix
+- XXX.datafix.fixes.BlockRenameFix$1
++ XXX.datafix.fixes.BlockRenameFixWithJigsaw
+- XXX.datafix.fixes.BlockRenameFixWithJigsaw$1
++ XXX.datafix.fixes.BlockStateData
+- XXX.datafix.fixes.BlockStateStructureTemplateFix
++ XXX.datafix.fixes.CatTypeFix
+- XXX.datafix.fixes.CauldronRenameFix
++ XXX.datafix.fixes.CavesAndCliffsRenames
+- XXX.datafix.fixes.ChunkBedBlockEntityInjecterFix
++ XXX.datafix.fixes.ChunkBiomeFix
+- XXX.datafix.fixes.ChunkHeightAndBiomeFix
++ XXX.datafix.fixes.ChunkLightRemoveFix
+- XXX.datafix.fixes.ChunkPalettedStorageFix
++ XXX.datafix.fixes.ChunkPalettedStorageFix$1
+- XXX.datafix.fixes.ChunkPalettedStorageFix$DataLayer
++ XXX.datafix.fixes.ChunkPalettedStorageFix$Direction
+- XXX.datafix.fixes.ChunkPalettedStorageFix$Direction$Axis
++ XXX.datafix.fixes.ChunkPalettedStorageFix$Direction$AxisDirection
+- XXX.datafix.fixes.ChunkPalettedStorageFix$Section
++ XXX.datafix.fixes.ChunkPalettedStorageFix$UpgradeChunk
+- XXX.datafix.fixes.ChunkProtoTickListFix
++ XXX.datafix.fixes.ChunkProtoTickListFix$PoorMansPalettedContainer
+- XXX.datafix.fixes.ChunkRenamesFix
++ XXX.datafix.fixes.ChunkStatusFix
+- XXX.datafix.fixes.ChunkStatusFix2
++ XXX.datafix.fixes.ChunkStructuresTemplateRenameFix
+- XXX.datafix.fixes.ChunkToProtochunkFix
++ XXX.datafix.fixes.ColorlessShulkerEntityFix
+- XXX.datafix.fixes.DyeItemRenameFix
++ XXX.datafix.fixes.EntityArmorStandSilentFix
+- XXX.datafix.fixes.EntityBlockStateFix
++ XXX.datafix.fixes.EntityCatSplitFix
+- XXX.datafix.fixes.EntityCodSalmonFix
++ XXX.datafix.fixes.EntityCustomNameToComponentFix
+- XXX.datafix.fixes.EntityElderGuardianSplitFix
++ XXX.datafix.fixes.EntityEquipmentToArmorAndHandFix
+- XXX.datafix.fixes.EntityHealthFix
++ XXX.datafix.fixes.EntityHorseSaddleFix
+- XXX.datafix.fixes.EntityHorseSplitFix
++ XXX.datafix.fixes.EntityIdFix
+- XXX.datafix.fixes.EntityItemFrameDirectionFix
++ XXX.datafix.fixes.EntityMinecartIdentifiersFix
+- XXX.datafix.fixes.EntityPaintingItemFrameDirectionFix
++ XXX.datafix.fixes.EntityPaintingMotiveFix
+- XXX.datafix.fixes.EntityProjectileOwnerFix
++ XXX.datafix.fixes.EntityPufferfishRenameFix
+- XXX.datafix.fixes.EntityRavagerRenameFix
++ XXX.datafix.fixes.EntityRedundantChanceTagsFix
+- XXX.datafix.fixes.EntityRenameFix
++ XXX.datafix.fixes.EntityRidingToPassengersFix
+- XXX.datafix.fixes.EntityShulkerColorFix
++ XXX.datafix.fixes.EntityShulkerRotationFix
+- XXX.datafix.fixes.EntitySkeletonSplitFix
++ XXX.datafix.fixes.EntityStringUuidFix
+- XXX.datafix.fixes.EntityTheRenameningFix
++ XXX.datafix.fixes.EntityTippedArrowFix
+- XXX.datafix.fixes.EntityUUIDFix
++ XXX.datafix.fixes.EntityWolfColorFix
+- XXX.datafix.fixes.EntityZombieSplitFix
++ XXX.datafix.fixes.EntityZombieVillagerTypeFix
+- XXX.datafix.fixes.EntityZombifiedPiglinRenameFix
++ XXX.datafix.fixes.ForcePoiRebuild
+- XXX.datafix.fixes.FurnaceRecipeFix
++ XXX.datafix.fixes.GossipUUIDFix
+- XXX.datafix.fixes.HeightmapRenamingFix
++ XXX.datafix.fixes.IglooMetadataRemovalFix
+- XXX.datafix.fixes.ItemBannerColorFix
++ XXX.datafix.fixes.ItemCustomNameToComponentFix
+- XXX.datafix.fixes.ItemIdFix
++ XXX.datafix.fixes.ItemLoreFix
+- XXX.datafix.fixes.ItemPotionFix
++ XXX.datafix.fixes.ItemRenameFix
+- XXX.datafix.fixes.ItemRenameFix$1
++ XXX.datafix.fixes.ItemShulkerBoxColorFix
+- XXX.datafix.fixes.ItemSpawnEggFix
++ XXX.datafix.fixes.ItemStackEnchantmentNamesFix
+- XXX.datafix.fixes.ItemStackMapIdFix
++ XXX.datafix.fixes.ItemStackSpawnEggFix
+- XXX.datafix.fixes.ItemStackTheFlatteningFix
++ XXX.datafix.fixes.ItemStackUUIDFix
+- XXX.datafix.fixes.ItemWaterPotionFix
++ XXX.datafix.fixes.ItemWrittenBookPagesStrictJsonFix
+- XXX.datafix.fixes.JigsawPropertiesFix
++ XXX.datafix.fixes.JigsawRotationFix
+- XXX.datafix.fixes.LeavesFix
++ XXX.datafix.fixes.LeavesFix$LeavesSection
+- XXX.datafix.fixes.LeavesFix$Section
++ XXX.datafix.fixes.LevelDataGeneratorOptionsFix
+- XXX.datafix.fixes.LevelFlatGeneratorInfoFix
++ XXX.datafix.fixes.LevelUUIDFix
+- XXX.datafix.fixes.MapIdFix
++ XXX.datafix.fixes.MemoryExpiryDataFix
+- XXX.datafix.fixes.MissingDimensionFix
++ XXX.datafix.fixes.MobSpawnerEntityIdentifiersFix
+- XXX.datafix.fixes.NamedEntityFix
++ XXX.datafix.fixes.NewVillageFix
+- XXX.datafix.fixes.ObjectiveDisplayNameFix
++ XXX.datafix.fixes.ObjectiveRenderTypeFix
+- XXX.datafix.fixes.OminousBannerBlockEntityRenameFix
++ XXX.datafix.fixes.OminousBannerRenameFix
+- XXX.datafix.fixes.OptionsAddTextBackgroundFix
++ XXX.datafix.fixes.OptionsForceVBOFix
+- XXX.datafix.fixes.OptionsKeyLwjgl3Fix
++ XXX.datafix.fixes.OptionsKeyTranslationFix
+- XXX.datafix.fixes.OptionsLowerCaseLanguageFix
++ XXX.datafix.fixes.OptionsRenameFieldFix
+- XXX.datafix.fixes.package-info
+- XXX.datafix.fixes.PlayerUUIDFix
++ XXX.datafix.fixes.PoiTypeRename
+- XXX.datafix.fixes.RecipesFix
++ XXX.datafix.fixes.RecipesRenameFix
+- XXX.datafix.fixes.RecipesRenameningFix
++ XXX.datafix.fixes.RedstoneWireConnectionsFix
+- XXX.datafix.fixes.References
++ XXX.datafix.fixes.RemoveGolemGossipFix
+- XXX.datafix.fixes.RenameBiomesFix
++ XXX.datafix.fixes.RenamedCoralFansFix
+- XXX.datafix.fixes.RenamedCoralFix
++ XXX.datafix.fixes.ReorganizePoi
+- XXX.datafix.fixes.SavedDataFeaturePoolElementFix
++ XXX.datafix.fixes.SavedDataUUIDFix
+- XXX.datafix.fixes.SavedDataVillageCropFix
++ XXX.datafix.fixes.SimpleEntityRenameFix
+- XXX.datafix.fixes.SimplestEntityRenameFix
++ XXX.datafix.fixes.SpawnerDataFix
+- XXX.datafix.fixes.StatsCounterFix
++ XXX.datafix.fixes.StatsRenameFix
+- XXX.datafix.fixes.StriderGravityFix
++ XXX.datafix.fixes.StructureReferenceCountFix
+- XXX.datafix.fixes.TeamDisplayNameFix
++ XXX.datafix.fixes.TrappedChestBlockEntityFix
+- XXX.datafix.fixes.TrappedChestBlockEntityFix$TrappedChestSection
++ XXX.datafix.fixes.VillagerDataFix
+- XXX.datafix.fixes.VillagerFollowRangeFix
++ XXX.datafix.fixes.VillagerRebuildLevelAndXpFix
+- XXX.datafix.fixes.VillagerTradeFix
++ XXX.datafix.fixes.WallPropertyFix
+- XXX.datafix.fixes.WorldGenSettingsDisallowOldCustomWorldsFix
++ XXX.datafix.fixes.WorldGenSettingsFix
+- XXX.datafix.fixes.WorldGenSettingsFix$StructureFeatureConfiguration
++ XXX.datafix.fixes.WorldGenSettingsHeightAndBiomeFix
+- XXX.datafix.fixes.WriteAndReadFix
++ XXX.datafix.fixes.ZombieVillagerRebuildXpFix
+- XXX.datafix.schemas.NamespacedSchema
++ XXX.datafix.schemas.NamespacedSchema$1
+- XXX.datafix.schemas.package-info
+- XXX.datafix.schemas.V100
++ XXX.datafix.schemas.V102
+- XXX.datafix.schemas.V1022
++ XXX.datafix.schemas.V106
+- XXX.datafix.schemas.V107
++ XXX.datafix.schemas.V1125
+- XXX.datafix.schemas.V135
++ XXX.datafix.schemas.V143
+- XXX.datafix.schemas.V1451
++ XXX.datafix.schemas.V1451_1
+- XXX.datafix.schemas.V1451_2
++ XXX.datafix.schemas.V1451_3
+- XXX.datafix.schemas.V1451_4
++ XXX.datafix.schemas.V1451_5
+- XXX.datafix.schemas.V1451_6
++ XXX.datafix.schemas.V1451_6$1
+- XXX.datafix.schemas.V1451_6$2
++ XXX.datafix.schemas.V1451_7
+- XXX.datafix.schemas.V1460
++ XXX.datafix.schemas.V1466
+- XXX.datafix.schemas.V1470
++ XXX.datafix.schemas.V1481
+- XXX.datafix.schemas.V1483
++ XXX.datafix.schemas.V1486
+- XXX.datafix.schemas.V1510
++ XXX.datafix.schemas.V1800
+- XXX.datafix.schemas.V1801
++ XXX.datafix.schemas.V1904
+- XXX.datafix.schemas.V1906
++ XXX.datafix.schemas.V1909
+- XXX.datafix.schemas.V1920
++ XXX.datafix.schemas.V1928
+- XXX.datafix.schemas.V1929
++ XXX.datafix.schemas.V1931
+- XXX.datafix.schemas.V2100
++ XXX.datafix.schemas.V2501
+- XXX.datafix.schemas.V2502
++ XXX.datafix.schemas.V2505
+- XXX.datafix.schemas.V2509
++ XXX.datafix.schemas.V2519
+- XXX.datafix.schemas.V2522
++ XXX.datafix.schemas.V2551
+- XXX.datafix.schemas.V2568
++ XXX.datafix.schemas.V2571
+- XXX.datafix.schemas.V2684
++ XXX.datafix.schemas.V2686
+- XXX.datafix.schemas.V2688
++ XXX.datafix.schemas.V2704
+- XXX.datafix.schemas.V2707
++ XXX.datafix.schemas.V2831
+- XXX.datafix.schemas.V2832
++ XXX.datafix.schemas.V2842
+- XXX.datafix.schemas.V501
++ XXX.datafix.schemas.V700
+- XXX.datafix.schemas.V701
++ XXX.datafix.schemas.V702
+- XXX.datafix.schemas.V703
++ XXX.datafix.schemas.V704
+- XXX.datafix.schemas.V704$1
++ XXX.datafix.schemas.V705
+- XXX.datafix.schemas.V705$1
++ XXX.datafix.schemas.V808
+- XXX.datafix.schemas.V99
++ XXX.datafix.schemas.V99$1
+- XXX.enderdragon.phases.AbstractDragonPhaseInstance
++ XXX.enderdragon.phases.AbstractDragonSittingPhase
+- XXX.enderdragon.phases.DragonChargePlayerPhase
++ XXX.enderdragon.phases.DragonDeathPhase
+- XXX.enderdragon.phases.DragonHoldingPatternPhase
++ XXX.enderdragon.phases.DragonHoverPhase
+- XXX.enderdragon.phases.DragonLandingApproachPhase
++ XXX.enderdragon.phases.DragonLandingPhase
+- XXX.enderdragon.phases.DragonPhaseInstance
++ XXX.enderdragon.phases.DragonSittingAttackingPhase
+- XXX.enderdragon.phases.DragonSittingFlamingPhase
++ XXX.enderdragon.phases.DragonSittingScanningPhase
+- XXX.enderdragon.phases.DragonStrafePlayerPhase
++ XXX.enderdragon.phases.DragonTakeoffPhase
+- XXX.enderdragon.phases.EnderDragonPhase
++ XXX.enderdragon.phases.EnderDragonPhaseManager
+- XXX.enderdragon.phases.package-info
+- XXX.entity.ai.Brain
++ XXX.entity.ai.Brain$1
+- XXX.entity.ai.Brain$MemoryValue
++ XXX.entity.ai.Brain$Provider
+- XXX.entity.ai.package-info
+- XXX.entity.ambient.AmbientCreature
++ XXX.entity.ambient.Bat
+- XXX.entity.ambient.package-info
++ XXX.entity.animal.AbstractFish
+- XXX.entity.animal.AbstractFish$FishMoveControl
++ XXX.entity.animal.AbstractFish$FishSwimGoal
+- XXX.entity.animal.AbstractGolem
++ XXX.entity.animal.AbstractSchoolingFish
+- XXX.entity.animal.AbstractSchoolingFish$SchoolSpawnGroupData
++ XXX.entity.animal.Animal
+- XXX.entity.animal.Bee
++ XXX.entity.animal.Bee$1
+- XXX.entity.animal.Bee$BaseBeeGoal
++ XXX.entity.animal.Bee$BeeAttackGoal
+- XXX.entity.animal.Bee$BeeBecomeAngryTargetGoal
++ XXX.entity.animal.Bee$BeeEnterHiveGoal
+- XXX.entity.animal.Bee$BeeGoToHiveGoal
++ XXX.entity.animal.Bee$BeeGoToKnownFlowerGoal
+- XXX.entity.animal.Bee$BeeGrowCropGoal
++ XXX.entity.animal.Bee$BeeHurtByOtherGoal
+- XXX.entity.animal.Bee$BeeLocateHiveGoal
++ XXX.entity.animal.Bee$BeeLookControl
+- XXX.entity.animal.Bee$BeePollinateGoal
++ XXX.entity.animal.Bee$BeeWanderGoal
+- XXX.entity.animal.Bucketable
++ XXX.entity.animal.Cat
+- XXX.entity.animal.Cat$CatAvoidEntityGoal
++ XXX.entity.animal.Cat$CatRelaxOnOwnerGoal
+- XXX.entity.animal.Cat$CatTemptGoal
++ XXX.entity.animal.Chicken
+- XXX.entity.animal.Cod
++ XXX.entity.animal.Cow
+- XXX.entity.animal.Dolphin
++ XXX.entity.animal.Dolphin$DolphinSwimToTreasureGoal
+- XXX.entity.animal.Dolphin$DolphinSwimWithPlayerGoal
++ XXX.entity.animal.Dolphin$PlayWithItemsGoal
+- XXX.entity.animal.FlyingAnimal
++ XXX.entity.animal.Fox
+- XXX.entity.animal.Fox$DefendTrustedTargetGoal
++ XXX.entity.animal.Fox$FaceplantGoal
+- XXX.entity.animal.Fox$FoxAlertableEntitiesSelector
++ XXX.entity.animal.Fox$FoxBehaviorGoal
+- XXX.entity.animal.Fox$FoxBreedGoal
++ XXX.entity.animal.Fox$FoxEatBerriesGoal
+- XXX.entity.animal.Fox$FoxFloatGoal
++ XXX.entity.animal.Fox$FoxFollowParentGoal
+- XXX.entity.animal.Fox$FoxGroupData
++ XXX.entity.animal.Fox$FoxLookAtPlayerGoal
+- XXX.entity.animal.Fox$FoxLookControl
++ XXX.entity.animal.Fox$FoxMeleeAttackGoal
+- XXX.entity.animal.Fox$FoxMoveControl
++ XXX.entity.animal.Fox$FoxPanicGoal
+- XXX.entity.animal.Fox$FoxPounceGoal
++ XXX.entity.animal.Fox$FoxSearchForItemsGoal
+- XXX.entity.animal.Fox$FoxStrollThroughVillageGoal
++ XXX.entity.animal.Fox$PerchAndSearchGoal
+- XXX.entity.animal.Fox$SeekShelterGoal
++ XXX.entity.animal.Fox$SleepGoal
+- XXX.entity.animal.Fox$StalkPreyGoal
++ XXX.entity.animal.Fox$Type
+- XXX.entity.animal.IronGolem
++ XXX.entity.animal.IronGolem$Crackiness
+- XXX.entity.animal.MushroomCow
++ XXX.entity.animal.MushroomCow$MushroomType
+- XXX.entity.animal.Ocelot
++ XXX.entity.animal.Ocelot$OcelotAvoidEntityGoal
+- XXX.entity.animal.Ocelot$OcelotTemptGoal
++ XXX.entity.animal.package-info
++ XXX.entity.animal.Panda
+- XXX.entity.animal.Panda$Gene
++ XXX.entity.animal.Panda$PandaAttackGoal
+- XXX.entity.animal.Panda$PandaAvoidGoal
++ XXX.entity.animal.Panda$PandaBreedGoal
+- XXX.entity.animal.Panda$PandaHurtByTargetGoal
++ XXX.entity.animal.Panda$PandaLieOnBackGoal
+- XXX.entity.animal.Panda$PandaLookAtPlayerGoal
++ XXX.entity.animal.Panda$PandaMoveControl
+- XXX.entity.animal.Panda$PandaPanicGoal
++ XXX.entity.animal.Panda$PandaRollGoal
+- XXX.entity.animal.Panda$PandaSitGoal
++ XXX.entity.animal.Panda$PandaSneezeGoal
+- XXX.entity.animal.Parrot
++ XXX.entity.animal.Parrot$1
+- XXX.entity.animal.Parrot$ParrotWanderGoal
++ XXX.entity.animal.Pig
+- XXX.entity.animal.PolarBear
++ XXX.entity.animal.PolarBear$PolarBearAttackPlayersGoal
+- XXX.entity.animal.PolarBear$PolarBearHurtByTargetGoal
++ XXX.entity.animal.PolarBear$PolarBearMeleeAttackGoal
+- XXX.entity.animal.PolarBear$PolarBearPanicGoal
++ XXX.entity.animal.Pufferfish
+- XXX.entity.animal.Pufferfish$PufferfishPuffGoal
++ XXX.entity.animal.Rabbit
+- XXX.entity.animal.Rabbit$EvilRabbitAttackGoal
++ XXX.entity.animal.Rabbit$RabbitAvoidEntityGoal
+- XXX.entity.animal.Rabbit$RabbitGroupData
++ XXX.entity.animal.Rabbit$RabbitJumpControl
+- XXX.entity.animal.Rabbit$RabbitMoveControl
++ XXX.entity.animal.Rabbit$RabbitPanicGoal
+- XXX.entity.animal.Rabbit$RaidGardenGoal
++ XXX.entity.animal.Salmon
+- XXX.entity.animal.Sheep
++ XXX.entity.animal.Sheep$1
+- XXX.entity.animal.Sheep$2
++ XXX.entity.animal.ShoulderRidingEntity
+- XXX.entity.animal.SnowGolem
++ XXX.entity.animal.Squid
+- XXX.entity.animal.Squid$SquidFleeGoal
++ XXX.entity.animal.Squid$SquidRandomMovementGoal
+- XXX.entity.animal.TropicalFish
++ XXX.entity.animal.TropicalFish$Pattern
+- XXX.entity.animal.TropicalFish$TropicalFishGroupData
++ XXX.entity.animal.Turtle
+- XXX.entity.animal.Turtle$TurtleBreedGoal
++ XXX.entity.animal.Turtle$TurtleGoHomeGoal
+- XXX.entity.animal.Turtle$TurtleGoToWaterGoal
++ XXX.entity.animal.Turtle$TurtleLayEggGoal
+- XXX.entity.animal.Turtle$TurtleMoveControl
++ XXX.entity.animal.Turtle$TurtlePanicGoal
+- XXX.entity.animal.Turtle$TurtlePathNavigation
++ XXX.entity.animal.Turtle$TurtleRandomStrollGoal
+- XXX.entity.animal.Turtle$TurtleTravelGoal
++ XXX.entity.animal.WaterAnimal
+- XXX.entity.animal.Wolf
++ XXX.entity.animal.Wolf$WolfAvoidEntityGoal
+- XXX.entity.boss.EnderDragonPart
++ XXX.entity.boss.package-info
++ XXX.entity.decoration.ArmorStand
+- XXX.entity.decoration.ArmorStand$1
++ XXX.entity.decoration.GlowItemFrame
+- XXX.entity.decoration.HangingEntity
++ XXX.entity.decoration.HangingEntity$1
+- XXX.entity.decoration.ItemFrame
++ XXX.entity.decoration.ItemFrame$1
+- XXX.entity.decoration.ItemFrame$2
++ XXX.entity.decoration.LeashFenceKnotEntity
+- XXX.entity.decoration.Motive
+- XXX.entity.decoration.package-info
++ XXX.entity.decoration.Painting
++ XXX.entity.item.FallingBlockEntity
+- XXX.entity.item.ItemEntity
+- XXX.entity.item.package-info
++ XXX.entity.item.PrimedTnt
++ XXX.entity.monster.AbstractIllager
+- XXX.entity.monster.AbstractIllager$IllagerArmPose
++ XXX.entity.monster.AbstractIllager$RaiderOpenDoorGoal
+- XXX.entity.monster.AbstractSkeleton
++ XXX.entity.monster.AbstractSkeleton$1
+- XXX.entity.monster.Blaze
++ XXX.entity.monster.Blaze$BlazeAttackGoal
+- XXX.entity.monster.CaveSpider
++ XXX.entity.monster.Creeper
+- XXX.entity.monster.CrossbowAttackMob
++ XXX.entity.monster.Drowned
+- XXX.entity.monster.Drowned$DrownedAttackGoal
++ XXX.entity.monster.Drowned$DrownedGoToBeachGoal
+- XXX.entity.monster.Drowned$DrownedGoToWaterGoal
++ XXX.entity.monster.Drowned$DrownedMoveControl
+- XXX.entity.monster.Drowned$DrownedSwimUpGoal
++ XXX.entity.monster.Drowned$DrownedTridentAttackGoal
+- XXX.entity.monster.ElderGuardian
++ XXX.entity.monster.EnderMan
+- XXX.entity.monster.EnderMan$EndermanFreezeWhenLookedAt
++ XXX.entity.monster.EnderMan$EndermanLeaveBlockGoal
+- XXX.entity.monster.EnderMan$EndermanLookForPlayerGoal
++ XXX.entity.monster.EnderMan$EndermanTakeBlockGoal
+- XXX.entity.monster.Endermite
++ XXX.entity.monster.Enemy
+- XXX.entity.monster.Evoker
++ XXX.entity.monster.Evoker$EvokerAttackSpellGoal
+- XXX.entity.monster.Evoker$EvokerCastingSpellGoal
++ XXX.entity.monster.Evoker$EvokerSummonSpellGoal
+- XXX.entity.monster.Evoker$EvokerWololoSpellGoal
++ XXX.entity.monster.Ghast
+- XXX.entity.monster.Ghast$GhastLookGoal
++ XXX.entity.monster.Ghast$GhastMoveControl
+- XXX.entity.monster.Ghast$GhastShootFireballGoal
++ XXX.entity.monster.Ghast$RandomFloatAroundGoal
+- XXX.entity.monster.Giant
++ XXX.entity.monster.Guardian
+- XXX.entity.monster.Guardian$GuardianAttackGoal
++ XXX.entity.monster.Guardian$GuardianAttackSelector
+- XXX.entity.monster.Guardian$GuardianMoveControl
++ XXX.entity.monster.Husk
+- XXX.entity.monster.Illusioner
++ XXX.entity.monster.Illusioner$IllusionerBlindnessSpellGoal
+- XXX.entity.monster.Illusioner$IllusionerMirrorSpellGoal
++ XXX.entity.monster.MagmaCube
+- XXX.entity.monster.Monster
++ XXX.entity.monster.package-info
++ XXX.entity.monster.PatrollingMonster
+- XXX.entity.monster.PatrollingMonster$LongDistancePatrolGoal
++ XXX.entity.monster.Phantom
+- XXX.entity.monster.Phantom$AttackPhase
++ XXX.entity.monster.Phantom$PhantomAttackPlayerTargetGoal
+- XXX.entity.monster.Phantom$PhantomAttackStrategyGoal
++ XXX.entity.monster.Phantom$PhantomBodyRotationControl
+- XXX.entity.monster.Phantom$PhantomCircleAroundAnchorGoal
++ XXX.entity.monster.Phantom$PhantomLookControl
+- XXX.entity.monster.Phantom$PhantomMoveControl
++ XXX.entity.monster.Phantom$PhantomMoveTargetGoal
+- XXX.entity.monster.Phantom$PhantomSweepAttackGoal
++ XXX.entity.monster.Pillager
+- XXX.entity.monster.RangedAttackMob
++ XXX.entity.monster.Ravager
+- XXX.entity.monster.Ravager$RavagerMeleeAttackGoal
++ XXX.entity.monster.Ravager$RavagerNavigation
+- XXX.entity.monster.Ravager$RavagerNodeEvaluator
++ XXX.entity.monster.Shulker
+- XXX.entity.monster.Shulker$ShulkerAttackGoal
++ XXX.entity.monster.Shulker$ShulkerBodyRotationControl
+- XXX.entity.monster.Shulker$ShulkerDefenseAttackGoal
++ XXX.entity.monster.Shulker$ShulkerLookControl
+- XXX.entity.monster.Shulker$ShulkerNearestAttackGoal
++ XXX.entity.monster.Shulker$ShulkerPeekGoal
+- XXX.entity.monster.Silverfish
++ XXX.entity.monster.Silverfish$SilverfishMergeWithStoneGoal
+- XXX.entity.monster.Silverfish$SilverfishWakeUpFriendsGoal
++ XXX.entity.monster.Skeleton
+- XXX.entity.monster.Slime
++ XXX.entity.monster.Slime$SlimeAttackGoal
+- XXX.entity.monster.Slime$SlimeFloatGoal
++ XXX.entity.monster.Slime$SlimeKeepOnJumpingGoal
+- XXX.entity.monster.Slime$SlimeMoveControl
++ XXX.entity.monster.Slime$SlimeRandomDirectionGoal
+- XXX.entity.monster.SpellcasterIllager
++ XXX.entity.monster.SpellcasterIllager$IllagerSpell
+- XXX.entity.monster.SpellcasterIllager$SpellcasterCastingSpellGoal
++ XXX.entity.monster.SpellcasterIllager$SpellcasterUseSpellGoal
+- XXX.entity.monster.Spider
++ XXX.entity.monster.Spider$SpiderAttackGoal
+- XXX.entity.monster.Spider$SpiderEffectsGroupData
++ XXX.entity.monster.Spider$SpiderTargetGoal
+- XXX.entity.monster.Stray
++ XXX.entity.monster.Strider
+- XXX.entity.monster.Strider$StriderGoToLavaGoal
++ XXX.entity.monster.Strider$StriderPathNavigation
+- XXX.entity.monster.Vex
++ XXX.entity.monster.Vex$VexChargeAttackGoal
+- XXX.entity.monster.Vex$VexCopyOwnerTargetGoal
++ XXX.entity.monster.Vex$VexMoveControl
+- XXX.entity.monster.Vex$VexRandomMoveGoal
++ XXX.entity.monster.Vindicator
+- XXX.entity.monster.Vindicator$VindicatorBreakDoorGoal
++ XXX.entity.monster.Vindicator$VindicatorJohnnyAttackGoal
+- XXX.entity.monster.Vindicator$VindicatorMeleeAttackGoal
++ XXX.entity.monster.Witch
+- XXX.entity.monster.WitherSkeleton
++ XXX.entity.monster.Zoglin
+- XXX.entity.monster.Zombie
++ XXX.entity.monster.Zombie$ZombieAttackTurtleEggGoal
+- XXX.entity.monster.Zombie$ZombieGroupData
++ XXX.entity.monster.ZombieVillager
+- XXX.entity.monster.ZombifiedPiglin
++ XXX.entity.npc.AbstractVillager
+- XXX.entity.npc.CatSpawner
++ XXX.entity.npc.ClientSideMerchant
+- XXX.entity.npc.InventoryCarrier
++ XXX.entity.npc.Npc
+- XXX.entity.npc.package-info
+- XXX.entity.npc.Villager
++ XXX.entity.npc.VillagerData
+- XXX.entity.npc.VillagerDataHolder
++ XXX.entity.npc.VillagerProfession
+- XXX.entity.npc.VillagerTrades
++ XXX.entity.npc.VillagerTrades$DyedArmorForEmeralds
+- XXX.entity.npc.VillagerTrades$EmeraldForItems
++ XXX.entity.npc.VillagerTrades$EmeraldsForVillagerTypeItem
+- XXX.entity.npc.VillagerTrades$EnchantBookForEmeralds
++ XXX.entity.npc.VillagerTrades$EnchantedItemForEmeralds
+- XXX.entity.npc.VillagerTrades$ItemListing
++ XXX.entity.npc.VillagerTrades$ItemsAndEmeraldsToItems
+- XXX.entity.npc.VillagerTrades$ItemsForEmeralds
++ XXX.entity.npc.VillagerTrades$SuspiciousStewForEmerald
+- XXX.entity.npc.VillagerTrades$TippedArrowForItemsAndEmeralds
++ XXX.entity.npc.VillagerTrades$TreasureMapForEmeralds
+- XXX.entity.npc.VillagerType
++ XXX.entity.npc.WanderingTrader
+- XXX.entity.npc.WanderingTrader$WanderToPositionGoal
++ XXX.entity.npc.WanderingTraderSpawner
+- XXX.entity.player.Abilities
++ XXX.entity.player.ChatVisiblity
+- XXX.entity.player.Inventory
++ XXX.entity.player.package-info
++ XXX.entity.player.Player
+- XXX.entity.player.Player$1
++ XXX.entity.player.Player$BedSleepingProblem
+- XXX.entity.player.PlayerModelPart
++ XXX.entity.player.StackedContents
+- XXX.entity.player.StackedContents$RecipePicker
+- XXX.entity.projectile.AbstractArrow
++ XXX.entity.projectile.AbstractArrow$1
+- XXX.entity.projectile.AbstractArrow$Pickup
++ XXX.entity.projectile.AbstractHurtingProjectile
+- XXX.entity.projectile.Arrow
++ XXX.entity.projectile.DragonFireball
+- XXX.entity.projectile.EvokerFangs
++ XXX.entity.projectile.EyeOfEnder
+- XXX.entity.projectile.Fireball
++ XXX.entity.projectile.FireworkRocketEntity
+- XXX.entity.projectile.FishingHook
++ XXX.entity.projectile.FishingHook$1
+- XXX.entity.projectile.FishingHook$FishHookState
++ XXX.entity.projectile.FishingHook$OpenWaterType
+- XXX.entity.projectile.ItemSupplier
++ XXX.entity.projectile.LargeFireball
+- XXX.entity.projectile.LlamaSpit
++ XXX.entity.projectile.package-info
++ XXX.entity.projectile.Projectile
+- XXX.entity.projectile.ProjectileUtil
++ XXX.entity.projectile.ShulkerBullet
+- XXX.entity.projectile.SmallFireball
++ XXX.entity.projectile.Snowball
+- XXX.entity.projectile.SpectralArrow
++ XXX.entity.projectile.ThrowableItemProjectile
+- XXX.entity.projectile.ThrowableProjectile
++ XXX.entity.projectile.ThrownEgg
+- XXX.entity.projectile.ThrownEnderpearl
++ XXX.entity.projectile.ThrownExperienceBottle
+- XXX.entity.projectile.ThrownPotion
++ XXX.entity.projectile.ThrownTrident
+- XXX.entity.projectile.WitherSkull
+- XXX.entity.raid.package-info
+- XXX.entity.raid.Raid
++ XXX.entity.raid.Raid$1
++ XXX.entity.raid.Raid$RaiderType
+- XXX.entity.raid.Raid$RaidStatus
+- XXX.entity.raid.Raider
++ XXX.entity.raid.Raider$HoldGroundAttackGoal
+- XXX.entity.raid.Raider$ObtainRaidLeaderBannerGoal
++ XXX.entity.raid.Raider$RaiderCelebration
+- XXX.entity.raid.Raider$RaiderMoveThroughVillageGoal
++ XXX.entity.raid.Raids
++ XXX.entity.schedule.Activity
+- XXX.entity.schedule.Keyframe
++ XXX.entity.schedule.package-info
++ XXX.entity.schedule.Schedule
+- XXX.entity.schedule.ScheduleBuilder
++ XXX.entity.schedule.ScheduleBuilder$ActivityTransition
+- XXX.entity.schedule.Timeline
+- XXX.entity.vehicle.AbstractMinecart
++ XXX.entity.vehicle.AbstractMinecart$1
+- XXX.entity.vehicle.AbstractMinecart$Type
++ XXX.entity.vehicle.AbstractMinecartContainer
+- XXX.entity.vehicle.AbstractMinecartContainer$1
++ XXX.entity.vehicle.Boat
+- XXX.entity.vehicle.Boat$1
++ XXX.entity.vehicle.Boat$Status
+- XXX.entity.vehicle.Boat$Type
++ XXX.entity.vehicle.DismountHelper
+- XXX.entity.vehicle.Minecart
++ XXX.entity.vehicle.MinecartChest
+- XXX.entity.vehicle.MinecartCommandBlock
++ XXX.entity.vehicle.MinecartCommandBlock$MinecartCommandBase
+- XXX.entity.vehicle.MinecartFurnace
++ XXX.entity.vehicle.MinecartHopper
+- XXX.entity.vehicle.MinecartSpawner
++ XXX.entity.vehicle.MinecartSpawner$1
+- XXX.entity.vehicle.MinecartTNT
++ XXX.entity.vehicle.package-info
++ XXX.feature.configurations.DecoratedFeatureConfiguration
++ XXX.feature.configurations.HugeMushroomFeatureConfiguration
+- XXX.feature.configurations.JigsawConfiguration
++ XXX.feature.configurations.LargeDripstoneConfiguration
+- XXX.feature.configurations.LayerConfiguration
++ XXX.feature.configurations.MineshaftConfiguration
+- XXX.feature.configurations.NetherForestVegetationConfig
++ XXX.feature.configurations.NoneDecoratorConfiguration
++ XXX.feature.configurations.OreConfiguration$Predicates
+- XXX.feature.configurations.OreConfiguration$TargetBlockState
++ XXX.feature.configurations.package-info
++ XXX.feature.configurations.PointedDripstoneConfiguration
+- XXX.feature.configurations.ProbabilityFeatureConfiguration
++ XXX.feature.configurations.RandomBooleanFeatureConfiguration
+- XXX.feature.configurations.RandomFeatureConfiguration
++ XXX.feature.configurations.RandomPatchConfiguration
+- XXX.feature.configurations.RangeConfiguration
++ XXX.feature.configurations.ReplaceBlockConfiguration
+- XXX.feature.configurations.ReplaceSphereConfiguration
++ XXX.feature.configurations.RootSystemConfiguration
+- XXX.feature.configurations.RuinedPortalConfiguration
++ XXX.feature.configurations.ScatterDecoratorConfiguration
+- XXX.feature.configurations.TwistingVinesConfig
++ XXX.feature.configurations.UnderwaterMagmaConfiguration
+- XXX.feature.configurations.VegetationPatchConfiguration
+- XXX.feature.featuresize.FeatureSize
++ XXX.feature.featuresize.FeatureSizeType
+- XXX.feature.featuresize.package-info
+- XXX.feature.featuresize.ThreeLayersFeatureSize
++ XXX.feature.featuresize.TwoLayersFeatureSize
++ XXX.feature.foliageplacers.AcaciaFoliagePlacer
+- XXX.feature.foliageplacers.BlobFoliagePlacer
++ XXX.feature.foliageplacers.BushFoliagePlacer
+- XXX.feature.foliageplacers.DarkOakFoliagePlacer
++ XXX.feature.foliageplacers.FancyFoliagePlacer
+- XXX.feature.foliageplacers.FoliagePlacer
++ XXX.feature.foliageplacers.FoliagePlacer$FoliageAttachment
+- XXX.feature.foliageplacers.FoliagePlacerType
++ XXX.feature.foliageplacers.MegaJungleFoliagePlacer
+- XXX.feature.foliageplacers.MegaPineFoliagePlacer
+- XXX.feature.foliageplacers.package-info
++ XXX.feature.foliageplacers.PineFoliagePlacer
+- XXX.feature.foliageplacers.RandomSpreadFoliagePlacer
++ XXX.feature.foliageplacers.SpruceFoliagePlacer
+- XXX.feature.stateproviders.BlockStateProvider
++ XXX.feature.stateproviders.BlockStateProviderType
+- XXX.feature.stateproviders.DualNoiseProvider
++ XXX.feature.stateproviders.NoiseBasedStateProvider
+- XXX.feature.stateproviders.NoiseProvider
++ XXX.feature.stateproviders.NoiseThresholdProvider
+- XXX.feature.stateproviders.package-info
+- XXX.feature.stateproviders.RandomizedIntStateProvider
++ XXX.feature.stateproviders.RotatedBlockProvider
+- XXX.feature.stateproviders.SimpleStateProvider
++ XXX.feature.stateproviders.WeightedStateProvider
++ XXX.feature.structures.EmptyPoolElement
+- XXX.feature.structures.FeaturePoolElement
++ XXX.feature.structures.JigsawJunction
+- XXX.feature.structures.JigsawPlacement
++ XXX.feature.structures.JigsawPlacement$PieceFactory
+- XXX.feature.structures.JigsawPlacement$PieceState
++ XXX.feature.structures.JigsawPlacement$Placer
+- XXX.feature.structures.LegacySinglePoolElement
++ XXX.feature.structures.ListPoolElement
++ XXX.feature.structures.package-info
+- XXX.feature.structures.SinglePoolElement
++ XXX.feature.structures.StructurePoolElement
+- XXX.feature.structures.StructurePoolElementType
++ XXX.feature.structures.StructureTemplatePool
+- XXX.feature.structures.StructureTemplatePool$Projection
+- XXX.feature.treedecorators.AlterGroundDecorator
++ XXX.feature.treedecorators.BeehiveDecorator
+- XXX.feature.treedecorators.CocoaDecorator
++ XXX.feature.treedecorators.LeaveVineDecorator
++ XXX.feature.treedecorators.package-info
+- XXX.feature.treedecorators.TreeDecorator
++ XXX.feature.treedecorators.TreeDecoratorType
+- XXX.feature.treedecorators.TrunkVineDecorator
+- XXX.feature.trunkplacers.BendingTrunkPlacer
++ XXX.feature.trunkplacers.DarkOakTrunkPlacer
+- XXX.feature.trunkplacers.FancyTrunkPlacer
++ XXX.feature.trunkplacers.FancyTrunkPlacer$FoliageCoords
+- XXX.feature.trunkplacers.ForkingTrunkPlacer
++ XXX.feature.trunkplacers.GiantTrunkPlacer
+- XXX.feature.trunkplacers.MegaJungleTrunkPlacer
+- XXX.feature.trunkplacers.package-info
++ XXX.feature.trunkplacers.StraightTrunkPlacer
+- XXX.feature.trunkplacers.TrunkPlacer
++ XXX.feature.trunkplacers.TrunkPlacerType
+- XXX.goal.target.DefendVillageTargetGoal
++ XXX.goal.target.HurtByTargetGoal
+- XXX.goal.target.NearestAttackableTargetGoal
++ XXX.goal.target.NearestAttackableWitchTargetGoal
+- XXX.goal.target.NearestHealableRaiderTargetGoal
++ XXX.goal.target.NonTameRandomTargetGoal
+- XXX.goal.target.OwnerHurtByTargetGoal
++ XXX.goal.target.OwnerHurtTargetGoal
+- XXX.goal.target.package-info
+- XXX.goal.target.ResetUniversalAngerTargetGoal
++ XXX.goal.target.TargetGoal
++ XXX.inventory.tooltip.BundleTooltip
++ XXX.inventory.tooltip.package-info
+- XXX.inventory.tooltip.TooltipComponent
++ XXX.item.alchemy.package-info
+- XXX.item.alchemy.Potion
++ XXX.item.alchemy.PotionBrewing
+- XXX.item.alchemy.PotionBrewing$Mix
+- XXX.item.alchemy.Potions
++ XXX.item.alchemy.PotionUtils
+- XXX.item.context.BlockPlaceContext
++ XXX.item.context.DirectionalPlaceContext
+- XXX.item.context.DirectionalPlaceContext$1
+- XXX.item.context.package-info
++ XXX.item.context.UseOnContext
++ XXX.item.crafting.AbstractCookingRecipe
+- XXX.item.crafting.ArmorDyeRecipe
++ XXX.item.crafting.BannerDuplicateRecipe
+- XXX.item.crafting.BlastingRecipe
++ XXX.item.crafting.BookCloningRecipe
+- XXX.item.crafting.CampfireCookingRecipe
++ XXX.item.crafting.CraftingRecipe
+- XXX.item.crafting.CustomRecipe
++ XXX.item.crafting.FireworkRocketRecipe
+- XXX.item.crafting.FireworkStarFadeRecipe
++ XXX.item.crafting.FireworkStarRecipe
+- XXX.item.crafting.Ingredient
++ XXX.item.crafting.Ingredient$ItemValue
+- XXX.item.crafting.Ingredient$TagValue
++ XXX.item.crafting.Ingredient$Value
+- XXX.item.crafting.MapCloningRecipe
++ XXX.item.crafting.MapExtendingRecipe
++ XXX.item.crafting.package-info
+- XXX.item.crafting.Recipe
++ XXX.item.crafting.RecipeManager
+- XXX.item.crafting.RecipeSerializer
++ XXX.item.crafting.RecipeType
+- XXX.item.crafting.RecipeType$1
++ XXX.item.crafting.RepairItemRecipe
+- XXX.item.crafting.ShapedRecipe
++ XXX.item.crafting.ShapedRecipe$Serializer
+- XXX.item.crafting.ShapelessRecipe
++ XXX.item.crafting.ShapelessRecipe$Serializer
+- XXX.item.crafting.ShieldDecorationRecipe
++ XXX.item.crafting.ShulkerBoxColoring
+- XXX.item.crafting.SimpleCookingSerializer
++ XXX.item.crafting.SimpleCookingSerializer$CookieBaker
+- XXX.item.crafting.SimpleRecipeSerializer
++ XXX.item.crafting.SingleItemRecipe
+- XXX.item.crafting.SingleItemRecipe$Serializer
++ XXX.item.crafting.SingleItemRecipe$Serializer$SingleItemMaker
+- XXX.item.crafting.SmeltingRecipe
++ XXX.item.crafting.SmokingRecipe
+- XXX.item.crafting.StonecutterRecipe
++ XXX.item.crafting.SuspiciousStewRecipe
+- XXX.item.crafting.TippedArrowRecipe
++ XXX.item.crafting.UpgradeRecipe
+- XXX.item.crafting.UpgradeRecipe$Serializer
+- XXX.item.enchantment.ArrowDamageEnchantment
++ XXX.item.enchantment.ArrowFireEnchantment
+- XXX.item.enchantment.ArrowInfiniteEnchantment
++ XXX.item.enchantment.ArrowKnockbackEnchantment
+- XXX.item.enchantment.ArrowPiercingEnchantment
++ XXX.item.enchantment.BindingCurseEnchantment
+- XXX.item.enchantment.DamageEnchantment
++ XXX.item.enchantment.DigDurabilityEnchantment
+- XXX.item.enchantment.DiggingEnchantment
++ XXX.item.enchantment.Enchantment
+- XXX.item.enchantment.Enchantment$Rarity
++ XXX.item.enchantment.EnchantmentCategory
+- XXX.item.enchantment.EnchantmentCategory$1
++ XXX.item.enchantment.EnchantmentCategory$10
+- XXX.item.enchantment.EnchantmentCategory$11
++ XXX.item.enchantment.EnchantmentCategory$12
+- XXX.item.enchantment.EnchantmentCategory$13
++ XXX.item.enchantment.EnchantmentCategory$14
+- XXX.item.enchantment.EnchantmentCategory$2
++ XXX.item.enchantment.EnchantmentCategory$3
+- XXX.item.enchantment.EnchantmentCategory$4
++ XXX.item.enchantment.EnchantmentCategory$5
+- XXX.item.enchantment.EnchantmentCategory$6
++ XXX.item.enchantment.EnchantmentCategory$7
+- XXX.item.enchantment.EnchantmentCategory$8
++ XXX.item.enchantment.EnchantmentCategory$9
+- XXX.item.enchantment.EnchantmentHelper
++ XXX.item.enchantment.EnchantmentHelper$EnchantmentVisitor
+- XXX.item.enchantment.EnchantmentInstance
++ XXX.item.enchantment.Enchantments
+- XXX.item.enchantment.FireAspectEnchantment
++ XXX.item.enchantment.FishingSpeedEnchantment
+- XXX.item.enchantment.FrostWalkerEnchantment
++ XXX.item.enchantment.KnockbackEnchantment
+- XXX.item.enchantment.LootBonusEnchantment
++ XXX.item.enchantment.MendingEnchantment
+- XXX.item.enchantment.MultiShotEnchantment
++ XXX.item.enchantment.OxygenEnchantment
+- XXX.item.enchantment.package-info
+- XXX.item.enchantment.ProtectionEnchantment
++ XXX.item.enchantment.ProtectionEnchantment$Type
+- XXX.item.enchantment.QuickChargeEnchantment
++ XXX.item.enchantment.SoulSpeedEnchantment
+- XXX.item.enchantment.SweepingEdgeEnchantment
++ XXX.item.enchantment.ThornsEnchantment
+- XXX.item.enchantment.TridentChannelingEnchantment
++ XXX.item.enchantment.TridentImpalerEnchantment
+- XXX.item.enchantment.TridentLoyaltyEnchantment
++ XXX.item.enchantment.TridentRiptideEnchantment
+- XXX.item.enchantment.UntouchingEnchantment
++ XXX.item.enchantment.VanishingCurseEnchantment
+- XXX.item.enchantment.WaterWalkerEnchantment
++ XXX.item.enchantment.WaterWorkerEnchantment
+- XXX.item.trading.Merchant
++ XXX.item.trading.MerchantOffer
+- XXX.item.trading.MerchantOffers
++ XXX.item.trading.package-info
+- XXX.jfr.callback.package-info
++ XXX.jfr.callback.ProfiledDuration
++ XXX.jfr.event.ChunkGenerationEvent
+- XXX.jfr.event.ChunkGenerationEvent$Fields
++ XXX.jfr.event.NetworkSummaryEvent
+- XXX.jfr.event.NetworkSummaryEvent$Fields
++ XXX.jfr.event.NetworkSummaryEvent$SumAggregation
++ XXX.jfr.event.package-info
+- XXX.jfr.event.PacketEvent
++ XXX.jfr.event.PacketEvent$Fields
+- XXX.jfr.event.PacketReceivedEvent
++ XXX.jfr.event.PacketSentEvent
+- XXX.jfr.event.ServerTickTimeEvent
++ XXX.jfr.event.ServerTickTimeEvent$Fields
+- XXX.jfr.event.WorldLoadFinishedEvent
++ XXX.jfr.parse.JfrStatsParser
+- XXX.jfr.parse.JfrStatsParser$1
++ XXX.jfr.parse.JfrStatsParser$MutableCountAndSize
+- XXX.jfr.parse.JfrStatsResult
++ XXX.jfr.parse.package-info
+- XXX.jfr.serialize.JfrResultJsonSerializer
++ XXX.jfr.serialize.package-info
+- XXX.jfr.stats.ChunkGenStat
++ XXX.jfr.stats.CpuLoadStat
+- XXX.jfr.stats.FileIOStat
++ XXX.jfr.stats.FileIOStat$Summary
+- XXX.jfr.stats.GcHeapStat
++ XXX.jfr.stats.GcHeapStat$Summary
+- XXX.jfr.stats.GcHeapStat$Timing
++ XXX.jfr.stats.NetworkPacketSummary
+- XXX.jfr.stats.NetworkPacketSummary$PacketCountAndSize
++ XXX.jfr.stats.NetworkPacketSummary$PacketIdentification
+- XXX.jfr.stats.package-info
+- XXX.jfr.stats.ThreadAllocationStat
++ XXX.jfr.stats.ThreadAllocationStat$Summary
+- XXX.jfr.stats.TickTimeStat
+- XXX.jfr.stats.TimedStat
++ XXX.jfr.stats.TimedStatSummary
++ XXX.jfr.stats.TimeStamped
++ XXX.level.biome.AmbientAdditionsSettings
+- XXX.level.biome.AmbientMoodSettings
++ XXX.level.biome.AmbientParticleSettings
+- XXX.level.biome.Biome
++ XXX.level.biome.Biome$1
+- XXX.level.biome.Biome$BiomeBuilder
++ XXX.level.biome.Biome$BiomeCategory
+- XXX.level.biome.Biome$ClimateSettings
++ XXX.level.biome.Biome$Precipitation
+- XXX.level.biome.Biome$TemperatureModifier
++ XXX.level.biome.Biome$TemperatureModifier$1
+- XXX.level.biome.Biome$TemperatureModifier$2
++ XXX.level.biome.BiomeGenerationSettings
+- XXX.level.biome.BiomeGenerationSettings$Builder
++ XXX.level.biome.BiomeManager
+- XXX.level.biome.BiomeManager$NoiseBiomeSource
++ XXX.level.levelgen.Density
+- XXX.level.levelgen.FlatLevelSource
++ XXX.level.levelgen.GenerationStep
+- XXX.level.levelgen.GenerationStep$Carving
++ XXX.level.levelgen.GenerationStep$Decoration
+- XXX.level.levelgen.GeodeBlockSettings
++ XXX.level.levelgen.GeodeCrackSettings
+- XXX.level.levelgen.GeodeLayerSettings
++ XXX.level.levelgen.Heightmap
+- XXX.level.levelgen.Heightmap$Types
++ XXX.level.levelgen.Heightmap$Usage
+- XXX.level.levelgen.LegacyRandomSource
++ XXX.level.levelgen.LegacyRandomSource$LegacyPositionalRandomFactory
+- XXX.level.levelgen.MarsagliaPolarGaussian
++ XXX.level.levelgen.NoiseBasedChunkGenerator
+- XXX.level.levelgen.NoiseChunk
++ XXX.level.levelgen.NoiseChunk$BlockStateFiller
+- XXX.level.levelgen.NoiseChunk$InterpolatableNoise
++ XXX.level.levelgen.NoiseChunk$NoiseFiller
+- XXX.level.levelgen.NoiseChunk$NoiseInterpolator
++ XXX.level.levelgen.NoiseChunk$Sampler
+- XXX.level.levelgen.NoiseGeneratorSettings
+- XXX.level.levelgen.Noises
++ XXX.level.levelgen.NoiseSampler
+- XXX.level.levelgen.NoiseSampler$FlatNoiseData
++ XXX.level.levelgen.NoiseSampler$QuantizedSpaghettiRarity
+- XXX.level.levelgen.NoiseSampler$VeinType
++ XXX.level.levelgen.NoiseSamplingSettings
+- XXX.level.levelgen.NoiseSettings
++ XXX.level.levelgen.NoiseSlider
++ XXX.level.levelgen.PatrolSpawner
+- XXX.level.levelgen.PhantomSpawner
++ XXX.level.levelgen.PositionalRandomFactory
+- XXX.level.levelgen.RandomSource
++ XXX.level.levelgen.RandomSupport
+- XXX.level.levelgen.RandomSupport$Seed128bit
++ XXX.level.levelgen.SingleThreadedRandomSource
+- XXX.level.levelgen.StructureSettings
++ XXX.level.levelgen.SurfaceRules
+- XXX.level.levelgen.SurfaceRules$AbovePreliminarySurface
++ XXX.level.levelgen.SurfaceRules$Bandlands
+- XXX.level.levelgen.SurfaceRules$BiomeConditionSource
++ XXX.level.levelgen.SurfaceRules$BiomeConditionSource$1BiomeCondition
+- XXX.level.levelgen.SurfaceRules$BlockRuleSource
++ XXX.level.levelgen.SurfaceRules$Condition
+- XXX.level.levelgen.SurfaceRules$ConditionSource
++ XXX.level.levelgen.SurfaceRules$Context
+- XXX.level.levelgen.SurfaceRules$Context$AbovePreliminarySurfaceCondition
++ XXX.level.levelgen.SurfaceRules$Context$HoleCondition
+- XXX.level.levelgen.SurfaceRules$Context$SteepMaterialCondition
++ XXX.level.levelgen.SurfaceRules$Context$TemperatureHelperCondition
+- XXX.level.levelgen.SurfaceRules$Hole
++ XXX.level.levelgen.SurfaceRules$LazyCondition
+- XXX.level.levelgen.SurfaceRules$LazyXZCondition
++ XXX.level.levelgen.SurfaceRules$LazyYCondition
+- XXX.level.levelgen.SurfaceRules$NoiseThresholdConditionSource
++ XXX.level.levelgen.SurfaceRules$NoiseThresholdConditionSource$1NoiseThresholdCondition
+- XXX.level.levelgen.SurfaceRules$NotCondition
++ XXX.level.levelgen.SurfaceRules$NotConditionSource
+- XXX.level.levelgen.SurfaceRules$RuleSource
++ XXX.level.levelgen.SurfaceRules$SequenceRule
+- XXX.level.levelgen.SurfaceRules$SequenceRuleSource
++ XXX.level.levelgen.SurfaceRules$StateRule
+- XXX.level.levelgen.SurfaceRules$Steep
++ XXX.level.levelgen.SurfaceRules$StoneDepthCheck
+- XXX.level.levelgen.SurfaceRules$StoneDepthCheck$1StoneDepthCondition
++ XXX.level.levelgen.SurfaceRules$SurfaceRule
+- XXX.level.levelgen.SurfaceRules$Temperature
++ XXX.level.levelgen.SurfaceRules$TestRule
+- XXX.level.levelgen.SurfaceRules$TestRuleSource
++ XXX.level.levelgen.SurfaceRules$VerticalGradientConditionSource
+- XXX.level.levelgen.SurfaceRules$VerticalGradientConditionSource$1VerticalGradientCondition
++ XXX.level.levelgen.SurfaceRules$WaterConditionSource
+- XXX.level.levelgen.SurfaceRules$WaterConditionSource$1WaterCondition
++ XXX.level.levelgen.SurfaceRules$YConditionSource
+- XXX.level.levelgen.SurfaceRules$YConditionSource$1YCondition
++ XXX.level.levelgen.SurfaceSystem
+- XXX.level.levelgen.SurfaceSystem$1
++ XXX.level.levelgen.TerrainInfo
+- XXX.level.levelgen.VerticalAnchor
++ XXX.level.levelgen.VerticalAnchor$AboveBottom
+- XXX.level.levelgen.VerticalAnchor$Absolute
++ XXX.level.levelgen.VerticalAnchor$BelowTop
++ XXX.level.levelgen.WorldGenerationContext
+- XXX.level.levelgen.WorldgenRandom
++ XXX.level.levelgen.WorldgenRandom$Algorithm
+- XXX.level.levelgen.WorldGenSettings
+- XXX.level.levelgen.Xoroshiro128PlusPlus
++ XXX.level.levelgen.XoroshiroRandomSource
+- XXX.level.levelgen.XoroshiroRandomSource$XoroshiroPositionalRandomFactory
++ XXX.levelgen.blending.Blender
+- XXX.levelgen.blending.Blender$1
+- XXX.levelgen.blending.Blender$PositionedBlendingData
++ XXX.levelgen.blending.BlendingData
+- XXX.levelgen.blending.BlendingData$1
++ XXX.levelgen.blending.BlendingData$DensityConsumer
+- XXX.levelgen.blending.BlendingData$HeightConsumer
++ XXX.levelgen.blending.GenerationUpgradeData
+- XXX.levelgen.blockpredicates.MatchingBlocksPredicate
++ XXX.levelgen.blockpredicates.MatchingFluidsPredicate
+- XXX.levelgen.blockpredicates.NotPredicate
++ XXX.levelgen.blockpredicates.ReplaceablePredicate
+- XXX.levelgen.blockpredicates.SolidPredicate
++ XXX.levelgen.feature.DeltaFeature
+- XXX.levelgen.feature.DesertPyramidFeature
++ XXX.levelgen.feature.DesertWellFeature
+- XXX.levelgen.feature.DiskReplaceFeature
++ XXX.levelgen.feature.DripstoneClusterFeature
+- XXX.levelgen.feature.DripstoneUtils
++ XXX.levelgen.feature.EndCityFeature
+- XXX.levelgen.feature.EndGatewayFeature
++ XXX.levelgen.feature.EndIslandFeature
+- XXX.levelgen.feature.EndPodiumFeature
++ XXX.levelgen.feature.Feature
+- XXX.levelgen.feature.FeatureCountTracker
+- XXX.levelgen.feature.FeatureCountTracker$FeatureData
+- XXX.levelgen.feature.FeaturePlaceContext
++ XXX.levelgen.feature.FillLayerFeature
+- XXX.levelgen.feature.FossilFeature
++ XXX.levelgen.feature.FossilFeatureConfiguration
+- XXX.levelgen.feature.GeodeFeature
++ XXX.levelgen.feature.GlowLichenFeature
+- XXX.levelgen.feature.GlowstoneFeature
++ XXX.levelgen.feature.HugeBrownMushroomFeature
+- XXX.levelgen.feature.HugeFungusConfiguration
++ XXX.levelgen.feature.HugeFungusFeature
+- XXX.levelgen.feature.HugeRedMushroomFeature
++ XXX.levelgen.feature.IcebergFeature
++ XXX.levelgen.feature.IcePatchFeature
+- XXX.levelgen.feature.IceSpikeFeature
+- XXX.levelgen.feature.IglooFeature
++ XXX.levelgen.feature.JigsawFeature
+- XXX.levelgen.feature.JunglePyramidFeature
++ XXX.levelgen.feature.KelpFeature
+- XXX.levelgen.feature.LakeFeature
++ XXX.levelgen.feature.package-info
++ XXX.levelgen.feature.WeightedConfiguredFeature
+- XXX.levelgen.feature.WeightedPlacedFeature
++ XXX.levelgen.flat.FlatLayerInfo
+- XXX.levelgen.flat.FlatLevelGeneratorSettings
++ XXX.levelgen.flat.package-info
+- XXX.levelgen.heightproviders.BiasedToBottomHeight
++ XXX.levelgen.heightproviders.ConstantHeight
+- XXX.levelgen.heightproviders.HeightProvider
++ XXX.levelgen.heightproviders.HeightProviderType
+- XXX.levelgen.heightproviders.TrapezoidHeight
++ XXX.levelgen.heightproviders.UniformHeight
+- XXX.levelgen.heightproviders.VeryBiasedToBottomHeight
++ XXX.levelgen.placement.BlockFilterDecorator
+- XXX.levelgen.placement.BlockPredicateFilter
++ XXX.levelgen.placement.CarvingMaskDecoratorConfiguration
++ XXX.levelgen.placement.ChanceDecorator
++ XXX.levelgen.placement.ConfiguredDecorator
++ XXX.levelgen.placement.CountNoiseDecorator
+- XXX.levelgen.placement.CountPlacement
++ XXX.levelgen.placement.DarkOakTreePlacementDecorator
++ XXX.levelgen.placement.DecoratedDecoratorConfiguration
++ XXX.levelgen.placement.EndGatewayPlacementDecorator
++ XXX.levelgen.placement.EnvironmentScanDecorator
++ XXX.levelgen.placement.FilterDecorator
++ XXX.levelgen.placement.HeightmapDecorator
+- XXX.levelgen.placement.HeightRangePlacement
+- XXX.levelgen.placement.InSquarePlacement
++ XXX.levelgen.placement.LakeLavaPlacementDecorator
++ XXX.levelgen.placement.NoiseCountFactorDecoratorConfiguration
+- XXX.levelgen.placement.NoiseThresholdCountPlacement
+- XXX.levelgen.placement.PlacementContext
+- XXX.levelgen.placement.PlacementModifier
+- XXX.levelgen.placement.RandomOffsetPlacement
++ XXX.levelgen.placement.RangeDecorator
+- XXX.levelgen.placement.RepeatingPlacement
++ XXX.levelgen.placement.ScatterDecorator
++ XXX.levelgen.placement.SurfaceRelativeThresholdConfiguration
+- XXX.levelgen.placement.SurfaceWaterDepthFilter
++ XXX.levelgen.placement.VerticalDecorator
++ XXX.levelgen.placement.WaterDepthThresholdDecorator
+- XXX.metrics.profiling.ActiveMetricsRecorder
++ XXX.metrics.profiling.InactiveMetricsRecorder
+- XXX.metrics.profiling.MetricsRecorder
++ XXX.metrics.profiling.package-info
++ XXX.metrics.profiling.ProfilerSamplerAdapter
+- XXX.metrics.profiling.ServerMetricsSamplersProvider
++ XXX.metrics.profiling.ServerMetricsSamplersProvider$1
+- XXX.metrics.profiling.ServerMetricsSamplersProvider$CpuStats
+- XXX.metrics.storage.MetricsPersister
+- XXX.metrics.storage.package-info
++ XXX.metrics.storage.RecordedDeviation
++ XXX.minecraft.data.package-info
++ XXX.minecraft.resources.RegistryReadOps$ResourceAccess
++ XXX.minecraft.resources.RegistryReadOps$ResourceAccess$MemoryMap
+- XXX.minecraft.resources.RegistryResourceAccess
+- XXX.minecraft.resources.RegistryResourceAccess$InMemoryStorage
+- XXX.minecraft.resources.RegistryResourceAccess$ParsedEntry
+- XXX.minecraft.util.ExtraCodecs$3
+- XXX.minecraft.util.package-info
++ XXX.minecraft.util.StringUtil
+- XXX.minecraft.util.TelemetryConstants
++ XXX.minecraft.util.ThreadingDetector
+- XXX.minecraft.util.TimeUtil
++ XXX.minecraft.util.ToFloatFunction
+- XXX.minecraft.util.Tuple
++ XXX.minecraft.util.Unit
+- XXX.minecraft.util.VisibleForDebug
++ XXX.minecraft.util.ZeroBitStorage
++ XXX.minecraft.world.BossEvent
+- XXX.minecraft.world.BossEvent$BossBarColor
++ XXX.minecraft.world.BossEvent$BossBarOverlay
+- XXX.minecraft.world.Clearable
++ XXX.minecraft.world.CompoundContainer
+- XXX.minecraft.world.Container
++ XXX.minecraft.world.ContainerHelper
+- XXX.minecraft.world.ContainerListener
++ XXX.minecraft.world.Containers
+- XXX.minecraft.world.Difficulty
++ XXX.minecraft.world.DifficultyInstance
+- XXX.minecraft.world.InteractionHand
++ XXX.minecraft.world.InteractionResult
+- XXX.minecraft.world.InteractionResultHolder
++ XXX.minecraft.world.LockCode
+- XXX.minecraft.world.MenuProvider
++ XXX.minecraft.world.Nameable
+- XXX.minecraft.world.SimpleContainer
++ XXX.minecraft.world.SimpleMenuProvider
+- XXX.minecraft.world.WorldlyContainer
++ XXX.minecraft.world.WorldlyContainerHolder
+- XXX.models.blockstates.BlockStateGenerator
++ XXX.models.blockstates.Condition
+- XXX.models.blockstates.Condition$CompositeCondition
++ XXX.models.blockstates.Condition$Operation
+- XXX.models.blockstates.Condition$TerminalCondition
++ XXX.models.blockstates.MultiPartGenerator
+- XXX.models.blockstates.MultiPartGenerator$ConditionalEntry
++ XXX.models.blockstates.MultiPartGenerator$Entry
+- XXX.models.blockstates.MultiVariantGenerator
+- XXX.models.blockstates.package-info
++ XXX.models.blockstates.PropertyDispatch
+- XXX.models.blockstates.PropertyDispatch$C1
++ XXX.models.blockstates.PropertyDispatch$C2
+- XXX.models.blockstates.PropertyDispatch$C3
++ XXX.models.blockstates.PropertyDispatch$C4
+- XXX.models.blockstates.PropertyDispatch$C5
++ XXX.models.blockstates.PropertyDispatch$PentaFunction
+- XXX.models.blockstates.PropertyDispatch$QuadFunction
++ XXX.models.blockstates.PropertyDispatch$TriFunction
+- XXX.models.blockstates.Selector
++ XXX.models.blockstates.Variant
+- XXX.models.blockstates.VariantProperties
++ XXX.models.blockstates.VariantProperties$Rotation
+- XXX.models.blockstates.VariantProperty
++ XXX.models.blockstates.VariantProperty$Value
++ XXX.models.model.DelegatedModel
+- XXX.models.model.ModelLocationUtils
++ XXX.models.model.ModelTemplate
+- XXX.models.model.ModelTemplates
++ XXX.models.model.package-info
++ XXX.models.model.TexturedModel
+- XXX.models.model.TexturedModel$Provider
++ XXX.models.model.TextureMapping
+- XXX.models.model.TextureSlot
++ XXX.monitoring.jmx.MinecraftServerStatistics
+- XXX.monitoring.jmx.MinecraftServerStatistics$AttributeDescription
++ XXX.monitoring.jmx.package-info
++ XXX.monster.hoglin.Hoglin
+- XXX.monster.hoglin.HoglinAi
++ XXX.monster.hoglin.HoglinBase
+- XXX.monster.hoglin.package-info
+- XXX.monster.piglin.AbstractPiglin
+- XXX.monster.piglin.package-info
++ XXX.monster.piglin.Piglin
+- XXX.monster.piglin.PiglinAi
++ XXX.monster.piglin.PiglinArmPose
+- XXX.monster.piglin.PiglinBrute
++ XXX.monster.piglin.PiglinBruteAi
+- XXX.monster.piglin.RememberIfHoglinWasKilled
++ XXX.monster.piglin.StartAdmiringItemIfSeen
+- XXX.monster.piglin.StartHuntingHoglin
++ XXX.monster.piglin.StopAdmiringIfItemTooFarAway
+- XXX.monster.piglin.StopAdmiringIfTiredOfTryingToReachItem
++ XXX.monster.piglin.StopHoldingItemIfNoLongerAdmiring
++ XXX.placement.nether.package-info
+- XXX.profiling.jfr.Environment
++ XXX.profiling.jfr.JfrProfiler
+- XXX.profiling.jfr.JfrProfiler$1
++ XXX.profiling.jfr.JvmProfiler
+- XXX.profiling.jfr.JvmProfiler$NoOpProfiler
+- XXX.profiling.jfr.package-info
++ XXX.profiling.jfr.Percentiles
+- XXX.profiling.jfr.SummaryReporter
++ XXX.profiling.metrics.MetricCategory
+- XXX.profiling.metrics.MetricSampler
++ XXX.profiling.metrics.MetricSampler$MetricSamplerBuilder
+- XXX.profiling.metrics.MetricSampler$SamplerResult
++ XXX.profiling.metrics.MetricSampler$ThresholdTest
+- XXX.profiling.metrics.MetricSampler$ValueIncreasedByPercentage
++ XXX.profiling.metrics.MetricsRegistry
+- XXX.profiling.metrics.MetricsRegistry$AggregatedMetricSampler
++ XXX.profiling.metrics.MetricsSamplerProvider
++ XXX.profiling.metrics.package-info
+- XXX.profiling.metrics.ProfilerMeasured
++ XXX.util.datafix.DataFixers
+- XXX.util.datafix.DataFixers$1
++ XXX.util.datafix.DataFixers$2
+- XXX.util.datafix.DataFixTypes
++ XXX.util.datafix.package-info
+- XXX.util.datafix.PackedBitStorage
++ XXX.util.profiling.ActiveProfiler
+- XXX.util.profiling.ActiveProfiler$PathEntry
++ XXX.util.profiling.ContinuousProfiler
+- XXX.util.profiling.EmptyProfileResults
++ XXX.util.profiling.FilledProfileResults
+- XXX.util.profiling.FilledProfileResults$1
++ XXX.util.profiling.FilledProfileResults$CounterCollector
+- XXX.util.profiling.InactiveProfiler
++ XXX.util.profiling.package-info
++ XXX.util.profiling.ProfileCollector
+- XXX.util.profiling.ProfileResults
++ XXX.util.profiling.ProfilerFiller
+- XXX.util.profiling.ProfilerFiller$1
++ XXX.util.profiling.ProfilerPathEntry
+- XXX.util.profiling.ResultField
++ XXX.util.profiling.SingleTickProfiler
+- XXX.util.random.package-info
+- XXX.util.random.SimpleWeightedRandomList
++ XXX.util.random.SimpleWeightedRandomList$Builder
+- XXX.util.random.Weight
++ XXX.util.random.WeightedEntry
+- XXX.util.random.WeightedEntry$IntrusiveBase
++ XXX.util.random.WeightedEntry$Wrapper
+- XXX.util.random.WeightedRandom
++ XXX.util.random.WeightedRandomList
++ XXX.util.thread.BlockableEventLoop
+- XXX.util.thread.NamedThreadFactory
++ XXX.util.thread.package-info
++ XXX.util.thread.ProcessorHandle
+- XXX.util.thread.ProcessorHandle$1
++ XXX.util.thread.ProcessorMailbox
+- XXX.util.thread.ReentrantBlockableEventLoop
++ XXX.util.thread.StrictQueue
+- XXX.util.thread.StrictQueue$FixedPriorityQueue
++ XXX.util.thread.StrictQueue$IntRunnable
+- XXX.util.thread.StrictQueue$QueueStrictQueue
+- XXX.util.valueproviders.BiasedToBottomInt
++ XXX.util.valueproviders.ClampedInt
+- XXX.util.valueproviders.ClampedNormalFloat
++ XXX.util.valueproviders.ClampedNormalInt
+- XXX.util.valueproviders.ConstantFloat
++ XXX.util.valueproviders.ConstantInt
+- XXX.util.valueproviders.FloatProvider
++ XXX.util.valueproviders.FloatProviderType
+- XXX.util.valueproviders.IntProvider
++ XXX.util.valueproviders.IntProviderType
+- XXX.util.valueproviders.package-info
+- XXX.util.valueproviders.TrapezoidFloat
++ XXX.util.valueproviders.UniformFloat
+- XXX.util.valueproviders.UniformInt
++ XXX.util.valueproviders.WeightedListInt
+- XXX.util.worldupdate.package-info
++ XXX.util.worldupdate.WorldUpgrader
++ XXX.village.poi.package-info
++ XXX.village.poi.PoiManager
+- XXX.village.poi.PoiManager$DistanceTracker
++ XXX.village.poi.PoiManager$Occupancy
+- XXX.village.poi.PoiRecord
++ XXX.village.poi.PoiSection
+- XXX.village.poi.PoiType
+- XXX.world.damagesource.BadRespawnPointDamage
++ XXX.world.damagesource.CombatEntry
+- XXX.world.damagesource.CombatRules
++ XXX.world.damagesource.CombatTracker
+- XXX.world.damagesource.DamageSource
++ XXX.world.damagesource.EntityDamageSource
+- XXX.world.damagesource.IndirectEntityDamageSource
++ XXX.world.damagesource.package-info
+- XXX.world.effect.AbsoptionMobEffect
++ XXX.world.effect.AttackDamageMobEffect
+- XXX.world.effect.HealthBoostMobEffect
++ XXX.world.effect.InstantenousMobEffect
+- XXX.world.effect.MobEffect
++ XXX.world.effect.MobEffectCategory
+- XXX.world.effect.MobEffectInstance
+- XXX.world.effect.MobEffects
++ XXX.world.effect.MobEffects$1
++ XXX.world.effect.MobEffectUtil
+- XXX.world.effect.package-info
++ XXX.world.entity.AgeableMob
+- XXX.world.entity.AgeableMob$AgeableMobGroupData
++ XXX.world.entity.AreaEffectCloud
+- XXX.world.entity.Entity
++ XXX.world.entity.Entity$1
+- XXX.world.entity.Entity$MoveFunction
++ XXX.world.entity.Entity$MovementEmission
+- XXX.world.entity.Entity$RemovalReason
++ XXX.world.entity.EntityDimensions
+- XXX.world.entity.EntityEvent
++ XXX.world.entity.EntitySelector
+- XXX.world.entity.EntitySelector$MobCanWearArmorEntitySelector
++ XXX.world.entity.EntityType
+- XXX.world.entity.EntityType$1
++ XXX.world.entity.EntityType$Builder
+- XXX.world.entity.EntityType$EntityFactory
++ XXX.world.entity.EquipmentSlot
+- XXX.world.entity.EquipmentSlot$Type
++ XXX.world.entity.ExperienceOrb
+- XXX.world.entity.FlyingMob
++ XXX.world.entity.GlowSquid
+- XXX.world.entity.HumanoidArm
++ XXX.world.entity.ItemBasedSteering
+- XXX.world.entity.ItemSteerable
++ XXX.world.entity.LerpingModel
+- XXX.world.entity.LightningBolt
++ XXX.world.entity.LivingEntity
+- XXX.world.entity.LivingEntity$1
++ XXX.world.entity.Marker
+- XXX.world.entity.Mob
++ XXX.world.entity.Mob$1
+- XXX.world.entity.MobCategory
++ XXX.world.entity.MobSpawnType
+- XXX.world.entity.MobType
++ XXX.world.entity.MoverType
+- XXX.world.entity.NeutralMob
++ XXX.world.entity.OwnableEntity
++ XXX.world.entity.package-info
+- XXX.world.entity.PathfinderMob
++ XXX.world.entity.PlayerRideable
+- XXX.world.entity.PlayerRideableJumping
++ XXX.world.entity.Pose
+- XXX.world.entity.PowerableMob
++ XXX.world.entity.ReputationEventHandler
+- XXX.world.entity.Saddleable
++ XXX.world.entity.Shearable
+- XXX.world.entity.SlotAccess
++ XXX.world.entity.SlotAccess$1
+- XXX.world.entity.SlotAccess$2
++ XXX.world.entity.SlotAccess$3
+- XXX.world.entity.SpawnGroupData
++ XXX.world.entity.SpawnPlacements
+- XXX.world.entity.SpawnPlacements$Data
++ XXX.world.entity.SpawnPlacements$SpawnPredicate
+- XXX.world.entity.SpawnPlacements$Type
++ XXX.world.entity.TamableAnimal
+- XXX.world.food.FoodConstants
++ XXX.world.food.FoodData
+- XXX.world.food.FoodProperties
++ XXX.world.food.FoodProperties$Builder
+- XXX.world.food.Foods
++ XXX.world.food.package-info
+- XXX.world.inventory.AbstractContainerMenu
++ XXX.world.inventory.AbstractContainerMenu$1
+- XXX.world.inventory.AbstractFurnaceMenu
++ XXX.world.inventory.AnvilMenu
+- XXX.world.inventory.AnvilMenu$1
++ XXX.world.inventory.BeaconMenu
+- XXX.world.inventory.BeaconMenu$1
++ XXX.world.inventory.BeaconMenu$PaymentSlot
+- XXX.world.inventory.BlastFurnaceMenu
++ XXX.world.inventory.BrewingStandMenu
+- XXX.world.inventory.BrewingStandMenu$FuelSlot
++ XXX.world.inventory.BrewingStandMenu$IngredientsSlot
+- XXX.world.inventory.BrewingStandMenu$PotionSlot
++ XXX.world.inventory.CartographyTableMenu
+- XXX.world.inventory.CartographyTableMenu$1
++ XXX.world.inventory.CartographyTableMenu$2
+- XXX.world.inventory.CartographyTableMenu$3
++ XXX.world.inventory.CartographyTableMenu$4
+- XXX.world.inventory.CartographyTableMenu$5
++ XXX.world.inventory.ChestMenu
+- XXX.world.inventory.ClickAction
++ XXX.world.inventory.ClickType
+- XXX.world.inventory.ContainerData
++ XXX.world.inventory.ContainerLevelAccess
+- XXX.world.inventory.ContainerLevelAccess$1
++ XXX.world.inventory.ContainerLevelAccess$2
+- XXX.world.inventory.ContainerListener
++ XXX.world.inventory.ContainerSynchronizer
+- XXX.world.inventory.CraftingContainer
++ XXX.world.inventory.CraftingMenu
+- XXX.world.inventory.DataSlot
++ XXX.world.inventory.DataSlot$1
+- XXX.world.inventory.DataSlot$2
++ XXX.world.inventory.DataSlot$3
+- XXX.world.inventory.DispenserMenu
++ XXX.world.inventory.EnchantmentMenu
+- XXX.world.inventory.EnchantmentMenu$1
++ XXX.world.inventory.EnchantmentMenu$2
+- XXX.world.inventory.EnchantmentMenu$3
++ XXX.world.inventory.FurnaceFuelSlot
+- XXX.world.inventory.FurnaceMenu
++ XXX.world.inventory.FurnaceResultSlot
+- XXX.world.inventory.GrindstoneMenu
++ XXX.world.inventory.GrindstoneMenu$1
+- XXX.world.inventory.GrindstoneMenu$2
++ XXX.world.inventory.GrindstoneMenu$3
+- XXX.world.inventory.GrindstoneMenu$4
++ XXX.world.inventory.HopperMenu
+- XXX.world.inventory.HorseInventoryMenu
++ XXX.world.inventory.HorseInventoryMenu$1
+- XXX.world.inventory.HorseInventoryMenu$2
++ XXX.world.inventory.InventoryMenu
+- XXX.world.inventory.InventoryMenu$1
++ XXX.world.inventory.InventoryMenu$2
+- XXX.world.inventory.ItemCombinerMenu
++ XXX.world.inventory.ItemCombinerMenu$1
+- XXX.world.inventory.ItemCombinerMenu$2
++ XXX.world.inventory.LecternMenu
+- XXX.world.inventory.LecternMenu$1
++ XXX.world.inventory.LoomMenu
+- XXX.world.inventory.LoomMenu$1
++ XXX.world.inventory.LoomMenu$2
+- XXX.world.inventory.LoomMenu$3
++ XXX.world.inventory.LoomMenu$4
+- XXX.world.inventory.LoomMenu$5
++ XXX.world.inventory.LoomMenu$6
+- XXX.world.inventory.MenuConstructor
++ XXX.world.inventory.MenuType
+- XXX.world.inventory.MenuType$MenuSupplier
++ XXX.world.inventory.MerchantContainer
+- XXX.world.inventory.MerchantMenu
++ XXX.world.inventory.MerchantResultSlot
+- XXX.world.inventory.package-info
+- XXX.world.inventory.PlayerEnderChestContainer
++ XXX.world.inventory.RecipeBookMenu
+- XXX.world.inventory.RecipeBookType
++ XXX.world.inventory.RecipeHolder
+- XXX.world.inventory.ResultContainer
++ XXX.world.inventory.ResultSlot
+- XXX.world.inventory.ShulkerBoxMenu
++ XXX.world.inventory.ShulkerBoxSlot
+- XXX.world.inventory.SimpleContainerData
++ XXX.world.inventory.Slot
+- XXX.world.inventory.SmithingMenu
++ XXX.world.inventory.SmokerMenu
+- XXX.world.inventory.StackedContentsCompatible
++ XXX.world.inventory.StonecutterMenu
+- XXX.world.inventory.StonecutterMenu$1
++ XXX.world.inventory.StonecutterMenu$2
+- XXX.world.item.AdventureModeCheck
++ XXX.world.item.AirItem
+- XXX.world.item.ArmorItem
++ XXX.world.item.ArmorItem$1
+- XXX.world.item.ArmorMaterial
++ XXX.world.item.ArmorMaterials
+- XXX.world.item.ArmorStandItem
++ XXX.world.item.ArrowItem
+- XXX.world.item.AxeItem
++ XXX.world.item.BannerItem
+- XXX.world.item.BannerPatternItem
++ XXX.world.item.BedItem
+- XXX.world.item.BlockItem
++ XXX.world.item.BoatItem
+- XXX.world.item.BoneMealItem
++ XXX.world.item.BookItem
+- XXX.world.item.BottleItem
++ XXX.world.item.BowItem
+- XXX.world.item.BowlFoodItem
++ XXX.world.item.BucketItem
+- XXX.world.item.BundleItem
++ XXX.world.item.ChorusFruitItem
+- XXX.world.item.CompassItem
++ XXX.world.item.ComplexItem
+- XXX.world.item.CreativeModeTab
++ XXX.world.item.CreativeModeTab$1
+- XXX.world.item.CreativeModeTab$10
++ XXX.world.item.CreativeModeTab$11
+- XXX.world.item.CreativeModeTab$12
++ XXX.world.item.CreativeModeTab$2
+- XXX.world.item.CreativeModeTab$3
++ XXX.world.item.CreativeModeTab$4
+- XXX.world.item.CreativeModeTab$5
++ XXX.world.item.CreativeModeTab$6
+- XXX.world.item.CreativeModeTab$7
++ XXX.world.item.CreativeModeTab$8
+- XXX.world.item.CreativeModeTab$9
++ XXX.world.item.CrossbowItem
+- XXX.world.item.DebugStickItem
++ XXX.world.item.DiggerItem
+- XXX.world.item.DispensibleContainerItem
++ XXX.world.item.DoubleHighBlockItem
+- XXX.world.item.DyeableArmorItem
++ XXX.world.item.DyeableHorseArmorItem
+- XXX.world.item.DyeableLeatherItem
+- XXX.world.item.DyeColor
++ XXX.world.item.DyeItem
++ XXX.world.item.EggItem
+- XXX.world.item.ElytraItem
++ XXX.world.item.EmptyMapItem
+- XXX.world.item.EnchantedBookItem
++ XXX.world.item.EnchantedGoldenAppleItem
+- XXX.world.item.EndCrystalItem
++ XXX.world.item.EnderEyeItem
+- XXX.world.item.EnderpearlItem
++ XXX.world.item.ExperienceBottleItem
+- XXX.world.item.FireChargeItem
++ XXX.world.item.FireworkRocketItem
+- XXX.world.item.FireworkRocketItem$Shape
++ XXX.world.item.FireworkStarItem
+- XXX.world.item.FishingRodItem
++ XXX.world.item.FlintAndSteelItem
+- XXX.world.item.FoodOnAStickItem
++ XXX.world.item.GameMasterBlockItem
+- XXX.world.item.HangingEntityItem
++ XXX.world.item.HoeItem
+- XXX.world.item.HoneyBottleItem
++ XXX.world.item.HoneycombItem
+- XXX.world.item.HorseArmorItem
++ XXX.world.item.Item
+- XXX.world.item.Item$1
++ XXX.world.item.Item$Properties
+- XXX.world.item.ItemCooldowns
++ XXX.world.item.ItemCooldowns$CooldownInstance
+- XXX.world.item.ItemFrameItem
++ XXX.world.item.ItemNameBlockItem
++ XXX.world.item.Items
+- XXX.world.item.ItemStack
++ XXX.world.item.ItemStack$TooltipPart
+- XXX.world.item.ItemUtils
+- XXX.world.item.KnowledgeBookItem
++ XXX.world.item.LeadItem
+- XXX.world.item.LingeringPotionItem
++ XXX.world.item.MapItem
+- XXX.world.item.MilkBucketItem
++ XXX.world.item.MinecartItem
+- XXX.world.item.MinecartItem$1
++ XXX.world.item.MobBucketItem
+- XXX.world.item.NameTagItem
++ XXX.world.item.package-info
++ XXX.world.item.PickaxeItem
+- XXX.world.item.PlayerHeadItem
++ XXX.world.item.PotionItem
+- XXX.world.item.ProjectileWeaponItem
++ XXX.world.item.Rarity
+- XXX.world.item.RecordItem
++ XXX.world.item.SaddleItem
+- XXX.world.item.ScaffoldingBlockItem
++ XXX.world.item.ServerItemCooldowns
+- XXX.world.item.ShearsItem
++ XXX.world.item.ShieldItem
+- XXX.world.item.ShovelItem
++ XXX.world.item.SignItem
+- XXX.world.item.SimpleFoiledItem
++ XXX.world.item.SnowballItem
+- XXX.world.item.SolidBucketItem
++ XXX.world.item.SpawnEggItem
+- XXX.world.item.SpectralArrowItem
++ XXX.world.item.SplashPotionItem
+- XXX.world.item.SpyglassItem
++ XXX.world.item.StandingAndWallBlockItem
+- XXX.world.item.SuspiciousStewItem
++ XXX.world.item.SwordItem
+- XXX.world.item.ThrowablePotionItem
++ XXX.world.item.Tier
+- XXX.world.item.TieredItem
++ XXX.world.item.Tiers
+- XXX.world.item.TippedArrowItem
++ XXX.world.item.TooltipFlag
+- XXX.world.item.TooltipFlag$Default
++ XXX.world.item.TridentItem
+- XXX.world.item.UseAnim
++ XXX.world.item.Vanishable
+- XXX.world.item.WaterLilyBlockItem
++ XXX.world.item.Wearable
+- XXX.world.item.WritableBookItem
++ XXX.world.item.WrittenBookItem
+- XXX.world.level.BaseCommandBlock
++ XXX.world.level.BaseSpawner
+- XXX.world.level.BlockAndTintGetter
++ XXX.world.level.BlockCollisions
+- XXX.world.level.BlockEventData
++ XXX.world.level.BlockGetter
+- XXX.world.level.ChunkPos
++ XXX.world.level.ChunkPos$1
+- XXX.world.level.ClipBlockStateContext
++ XXX.world.level.ClipContext
+- XXX.world.level.ClipContext$Block
++ XXX.world.level.ClipContext$Fluid
+- XXX.world.level.ClipContext$ShapeGetter
++ XXX.world.level.CollisionGetter
+- XXX.world.level.ColorResolver
++ XXX.world.level.CommonLevelAccessor
+- XXX.world.level.CustomSpawner
++ XXX.world.level.DataPackConfig
+- XXX.world.level.EmptyBlockGetter
++ XXX.world.level.EntityBasedExplosionDamageCalculator
+- XXX.world.level.EntityGetter
++ XXX.world.level.Explosion
+- XXX.world.level.Explosion$BlockInteraction
++ XXX.world.level.ExplosionDamageCalculator
+- XXX.world.level.FoliageColor
++ XXX.world.level.ForcedChunksSavedData
+- XXX.world.level.GameRules
++ XXX.world.level.GameRules$BooleanValue
+- XXX.world.level.GameRules$Category
++ XXX.world.level.GameRules$GameRuleTypeVisitor
+- XXX.world.level.GameRules$IntegerValue
++ XXX.world.level.GameRules$Key
+- XXX.world.level.GameRules$Type
++ XXX.world.level.GameRules$Value
+- XXX.world.level.GameRules$VisitorCaller
++ XXX.world.level.GameType
+- XXX.world.level.GrassColor
++ XXX.world.level.ItemLike
+- XXX.world.level.Level
++ XXX.world.level.Level$1
+- XXX.world.level.LevelAccessor
++ XXX.world.level.LevelHeightAccessor
+- XXX.world.level.LevelHeightAccessor$1
++ XXX.world.level.LevelReader
+- XXX.world.level.LevelSettings
+- XXX.world.level.LevelSimulatedReader
++ XXX.world.level.LevelSimulatedRW
++ XXX.world.level.LevelTimeAccess
+- XXX.world.level.LevelWriter
++ XXX.world.level.LightLayer
+- XXX.world.level.LocalMobCapCalculator
++ XXX.world.level.LocalMobCapCalculator$MobCounts
+- XXX.world.level.NaturalSpawner
++ XXX.world.level.NaturalSpawner$1
+- XXX.world.level.NaturalSpawner$AfterSpawnCallback
++ XXX.world.level.NaturalSpawner$ChunkGetter
+- XXX.world.level.NaturalSpawner$SpawnPredicate
++ XXX.world.level.NaturalSpawner$SpawnState
+- XXX.world.level.NoiseColumn
++ XXX.world.level.PathNavigationRegion
+- XXX.world.level.PotentialCalculator
++ XXX.world.level.PotentialCalculator$PointCharge
+- XXX.world.level.ServerLevelAccessor
++ XXX.world.level.SpawnData
+- XXX.world.level.SpawnData$CustomSpawnRules
++ XXX.world.level.StructureFeatureManager
+- XXX.world.level.WorldGenLevel
++ XXX.worldgen.biome.BiomeReport
+- XXX.worldgen.biome.Biomes
++ XXX.worldgen.biome.EndBiomes
+- XXX.worldgen.biome.NetherBiomes
++ XXX.worldgen.biome.OverworldBiomes
+- XXX.worldgen.biome.package-info
+- XXX.worldgen.features.CaveFeatures
+- XXX.worldgen.features.FeatureUtils
+- XXX.worldgen.features.NetherFeatures
+- XXX.worldgen.features.PileFeatures
+- XXX.worldgen.features.VegetationFeatures
+- XXX.worldgen.placement.CavePlacements
+- XXX.worldgen.placement.MiscOverworldPlacements
+- XXX.worldgen.placement.OrePlacements
+- XXX.worldgen.placement.package-info
+- XXX.worldgen.placement.TreePlacements
+```
+
+</details>
+<details>
+<summary>
+Changes
+</summary>
+
+```
+XXX.minecraft.core.IdMapper +1P -1P
+```
+```
+XXX.minecraft.core.MappedRegistry$RegistryEntry +6M
+```
+```
+XXX.minecraft.core.RegistryAccess +2M -1M
+```
+```
+XXX.minecraft.data.BuiltinRegistries +3M -4M | +1P
+```
+```
+XXX.data.worldgen.NoiseData +1M -1M
+```
+```
+XXX.data.worldgen.TerrainProvider +1M -1M
+```
+```
+XXX.minecraft.resources.RegistryReadOps$1 +1M -1M | +1P -2P
+```
+```
+XXX.minecraft.resources.ResourceKey +1M
+```
+```
+XXX.server.commands.JfrCommand +1M -1M
+```
+```
+XXX.server.players.PlayerList +1M -1M
+```
+```
+XXX.minecraft.util.CubicSpline +1M
+```
+```
+XXX.minecraft.util.CubicSpline$Builder +2M | +1P
+```
+```
+XXX.minecraft.util.StringRepresentable$1 +2M -11M | +1P -3P
+```
+```
+XXX.level.biome.BiomeSource +5M -4M | +1P -1P
+```
+```
+XXX.level.biome.Climate$RTree$Leaf +1M -1M | +1P -1P
+```
+```
+XXX.level.biome.MultiNoiseBiomeSource +1M -2M
+```
+```
+XXX.level.biome.MultiNoiseBiomeSource$PresetInstance +3M
+```
+```
+XXX.level.biome.TerrainShaper +12M -8M | +1P
+```
+```
+XXX.level.border.WorldBorder +1M
+```
+```
+XXX.level.chunk.LevelChunk +1M -1M
+```
+```
+XXX.level.chunk.ProtoChunk +2M -2M
+```
+```
+XXX.levelgen.blockpredicates.BlockPredicate +9M -6M | +2P
+```
+```
+XXX.levelgen.carver.CarvingContext +1M -1M | +1P
+```
+```
+XXX.levelgen.feature.NetherForestVegetationFeature -1M
+```
+```
+XXX.levelgen.feature.OceanMonumentFeature +2M -2M
+```
+```
+XXX.levelgen.feature.PillagerOutpostFeature +3M -3M
+```
+```
+XXX.levelgen.feature.StructureFeature +3M -4M
+```
+```
+XXX.levelgen.feature.TwistingVinesFeature -2M
+```
+```
+XXX.level.portal.PortalForcer +7M -6M
+```
+
+</details>
+<details>
+<summary>
+net.minecraft.core.MappedRegistry$RegistryEntry
+</summary>
+
+```diff
+- boolean equals(Object)
+- int hashCode()
+- int id()
+- Object value()
+- ResourceKey key()
+- String toString()
+```
+
+</details>
+<details>
+<summary>
+net.minecraft.core.RegistryAccess
+</summary>
+
+```diff
+- Iterable knownRegistries()
++ void addBuiltinElements(RegistryAccess$RegistryHolder,RegistryReadOps$ResourceAccess$MemoryMap,RegistryAccess$RegistryData)
+- void addBuiltinElements(RegistryAccess$RegistryHolder,RegistryResourceAccess$InMemoryStorage,RegistryAccess$RegistryData)
+```
+
+</details>
+<details>
+<summary>
+net.minecraft.data.BuiltinRegistries
+</summary>
+
+```diff
+- Biome lambda$static$2()
++ Biome lambda$static$3()
++ ConfiguredFeature lambda$static$1()
+- StructureProcessorList lambda$static$1()
++ StructureProcessorList lambda$static$2()
+- void lambda$static$3(ResourceLocation,Supplier)
++ void lambda$static$4(ResourceLocation,Supplier)
+```
+
+</details>
+<details>
+<summary>
+net.minecraft.data.worldgen.NoiseData
+</summary>
+
+```diff
++ void registerBiomeNoises(int,ResourceKey,ResourceKey,ResourceKey,ResourceKey,ResourceKey,ResourceKey)
+- void registerBiomeNoises(int,ResourceKey,ResourceKey,ResourceKey,ResourceKey)
+```
+
+</details>
+<details>
+<summary>
+net.minecraft.data.worldgen.TerrainProvider
+</summary>
+
+```diff
++ TerrainShaper overworld()
+- TerrainShaper overworld(boolean)
+```
+
+</details>
+<details>
+<summary>
+net.minecraft.resources.RegistryReadOps$1
+</summary>
+
+```diff
+- void <init>(Registry,ResourceKey)
++ void <init>(RegistryReadOps,WritableRegistry,ResourceKey)
+```
+
+</details>
+<details>
+<summary>
+net.minecraft.resources.ResourceKey
+</summary>
+
+```diff
+- Optional cast(ResourceKey)
+```
+
+</details>
+<details>
+<summary>
+net.minecraft.server.commands.JfrCommand
+</summary>
+
+```diff
++ Style lambda$stopJfr$4(File,Style)
+- Style lambda$stopJfr$4(Path,Style)
+```
+
+</details>
+<details>
+<summary>
+net.minecraft.server.players.PlayerList
+</summary>
+
+```diff
+- void addWorldborderListener(ServerLevel)
++ void setLevel(ServerLevel)
+```
+
+</details>
+<details>
+<summary>
+net.minecraft.util.CubicSpline
+</summary>
+
+```diff
+- CubicSpline$Builder builder(ToFloatFunction,ToFloatFunction)
+```
+
+</details>
+<details>
+<summary>
+net.minecraft.util.CubicSpline$Builder
+</summary>
+
+```diff
+- float lambda$new$0(Float)
+- void <init>(ToFloatFunction,ToFloatFunction)
+```
+
+</details>
+<details>
+<summary>
+net.minecraft.util.StringRepresentable$1
+</summary>
+
+```diff
++ DataResult decode(DynamicOps,Object)
++ DataResult encode(Object,DynamicOps,Object)
++ DataResult encode(StringRepresentable,DynamicOps,Object)
++ DataResult lambda$decode$0(Number)
++ DataResult lambda$decode$1(IntFunction,Number)
++ DataResult lambda$decode$3(String)
++ DataResult lambda$decode$4(Function,String)
++ Pair lambda$decode$2(DynamicOps,StringRepresentable)
++ Pair lambda$decode$5(DynamicOps,StringRepresentable)
+- Stream keys(DynamicOps)
++ String toString()
+- void <init>(StringRepresentable[])
++ void <init>(ToIntFunction,IntFunction,Function)
+```
+
+</details>
+<details>
+<summary>
+net.minecraft.world.level.biome.BiomeSource
+</summary>
+
+```diff
+- boolean lambda$buildFeaturesPerStep$2(int,BiomeSource$1FeatureData)
++ boolean lambda$new$2(int,BiomeSource$1FeatureData)
++ ImmutableList featuresPerStep()
+- int lambda$buildFeaturesPerStep$0(MutableInt,Object)
++ int lambda$new$0(MutableInt,Object)
+- List buildFeaturesPerStep(List,boolean)
+- List featuresPerStep()
+- Set lambda$buildFeaturesPerStep$1(Comparator,BiomeSource$1FeatureData)
++ Set lambda$new$1(Comparator,BiomeSource$1FeatureData)
+```
+
+</details>
+<details>
+<summary>
+net.minecraft.world.level.biome.Climate$RTree$Leaf
+</summary>
+
+```diff
+- void <init>(Climate$ParameterPoint,Object)
++ void <init>(Climate$ParameterPoint,Supplier)
+```
+
+</details>
+<details>
+<summary>
+net.minecraft.world.level.biome.MultiNoiseBiomeSource
+</summary>
+
+```diff
+- Biome lambda$getNoiseBiome$6()
++ Biome lambda$getNoiseBiome$7()
++ MultiNoiseBiomeSource$PresetInstance lambda$preset$6(Pair)
+```
+
+</details>
+<details>
+<summary>
+net.minecraft.world.level.biome.MultiNoiseBiomeSource$PresetInstance
+</summary>
+
+```diff
+- boolean equals(Object)
+- int hashCode()
+- String toString()
+```
+
+</details>
+<details>
+<summary>
+net.minecraft.world.level.biome.TerrainShaper
+</summary>
+
+```diff
+- CubicSpline buildErosionJaggednessSpline(float,float,float,float,ToFloatFunction)
++ CubicSpline buildErosionJaggednessSpline(float,float,float,float)
+- CubicSpline buildErosionOffsetSpline(float,float,float,float,float,float,boolean,boolean,ToFloatFunction)
++ CubicSpline buildErosionOffsetSpline(float,float,float,float,float,float,boolean,boolean)
+- CubicSpline buildMountainRidgeSplineWithPoints(float,boolean,ToFloatFunction)
++ CubicSpline buildMountainRidgeSplineWithPoints(float,boolean)
+- CubicSpline buildRidgeJaggednessSpline(float,float,ToFloatFunction)
++ CubicSpline buildRidgeJaggednessSpline(float,float)
+- CubicSpline buildWeirdnessJaggednessSpline(float,ToFloatFunction)
++ CubicSpline buildWeirdnessJaggednessSpline(float)
+- CubicSpline getErosionFactor(float,boolean,ToFloatFunction)
++ CubicSpline getErosionFactor(float,boolean)
+- CubicSpline ridgeSpline(float,float,float,float,float,float,ToFloatFunction)
++ CubicSpline ridgeSpline(float,float,float,float,float,float)
+- float getAmplifiedFactor(float)
+- float getAmplifiedJaggedness(float)
+- float getAmplifiedOffset(float)
+- float lambda$static$2(Float)
++ TerrainShaper overworld()
+- TerrainShaper overworld(boolean)
+```
+
+</details>
+<details>
+<summary>
+net.minecraft.world.level.border.WorldBorder
+</summary>
+
+```diff
+- BlockPos clampToBounds(double,double,double)
+```
+
+</details>
+<details>
+<summary>
+net.minecraft.world.level.chunk.LevelChunk
+</summary>
+
+```diff
+- void <init>(Level,ChunkPos,UpgradeData,LevelChunkTicks,LevelChunkTicks,long,LevelChunkSection[],Consumer,BlendingData)
++ void <init>(Level,ChunkPos,UpgradeData,LevelChunkTicks,LevelChunkTicks,long,LevelChunkSection[],Consumer,GenerationUpgradeData)
+```
+
+</details>
+<details>
+<summary>
+net.minecraft.world.level.chunk.ProtoChunk
+</summary>
+
+```diff
+- void <init>(ChunkPos,UpgradeData,LevelChunkSection[],ProtoChunkTicks,ProtoChunkTicks,LevelHeightAccessor,Registry,BlendingData)
++ void <init>(ChunkPos,UpgradeData,LevelChunkSection[],ProtoChunkTicks,ProtoChunkTicks,LevelHeightAccessor,Registry,GenerationUpgradeData)
+- void <init>(ChunkPos,UpgradeData,LevelHeightAccessor,Registry,BlendingData)
++ void <init>(ChunkPos,UpgradeData,LevelHeightAccessor,Registry,GenerationUpgradeData)
+```
+
+</details>
+<details>
+<summary>
+net.minecraft.world.level.levelgen.blockpredicates.BlockPredicate
+</summary>
+
+```diff
+- BlockPredicate insideWorld(Vec3i)
++ BlockPredicate matchesBlock(Block,BlockPos)
+- BlockPredicate matchesBlock(Block,Vec3i)
++ BlockPredicate matchesBlocks(List,BlockPos)
+- BlockPredicate matchesBlocks(List,Vec3i)
++ BlockPredicate matchesFluid(Fluid,BlockPos)
+- BlockPredicate matchesFluid(Fluid,Vec3i)
++ BlockPredicate matchesFluids(List,BlockPos)
+- BlockPredicate matchesFluids(List,Vec3i)
++ BlockPredicate replaceable(BlockPos)
+- BlockPredicate replaceable(Vec3i)
+- BlockPredicate solid()
+- BlockPredicate solid(Vec3i)
++ BlockPredicate wouldSurvive(BlockState,BlockPos)
+- BlockPredicate wouldSurvive(BlockState,Vec3i)
+```
+
+</details>
+<details>
+<summary>
+net.minecraft.world.level.levelgen.carver.CarvingContext
+</summary>
+
+```diff
+- void <init>(NoiseBasedChunkGenerator,RegistryAccess,LevelHeightAccessor,NoiseChunk)
++ void <init>(NoiseBasedChunkGenerator,RegistryAccess,LevelHeightAccessor)
+```
+
+</details>
+<details>
+<summary>
+net.minecraft.world.level.levelgen.feature.NetherForestVegetationFeature
+</summary>
+
+```diff
++ boolean place(LevelAccessor,Random,BlockPos,BlockPileConfiguration,int,int)
+```
+
+</details>
+<details>
+<summary>
+net.minecraft.world.level.levelgen.feature.OceanMonumentFeature
+</summary>
+
+```diff
+- boolean isFeatureChunk(ChunkGenerator,BiomeSource,long,ChunkPos,FeatureConfiguration,LevelHeightAccessor)
+- boolean isFeatureChunk(ChunkGenerator,BiomeSource,long,ChunkPos,NoneFeatureConfiguration,LevelHeightAccessor)
++ boolean isFeatureChunk(ChunkGenerator,BiomeSource,long,WorldgenRandom,ChunkPos,ChunkPos,FeatureConfiguration,LevelHeightAccessor)
++ boolean isFeatureChunk(ChunkGenerator,BiomeSource,long,WorldgenRandom,ChunkPos,ChunkPos,NoneFeatureConfiguration,LevelHeightAccessor)
+```
+
+</details>
+<details>
+<summary>
+net.minecraft.world.level.levelgen.feature.PillagerOutpostFeature
+</summary>
+
+```diff
+- boolean isFeatureChunk(ChunkGenerator,BiomeSource,long,ChunkPos,FeatureConfiguration,LevelHeightAccessor)
+- boolean isFeatureChunk(ChunkGenerator,BiomeSource,long,ChunkPos,JigsawConfiguration,LevelHeightAccessor)
++ boolean isFeatureChunk(ChunkGenerator,BiomeSource,long,WorldgenRandom,ChunkPos,ChunkPos,FeatureConfiguration,LevelHeightAccessor)
++ boolean isFeatureChunk(ChunkGenerator,BiomeSource,long,WorldgenRandom,ChunkPos,ChunkPos,JigsawConfiguration,LevelHeightAccessor)
+- boolean isNearVillage(ChunkGenerator,long,ChunkPos)
++ boolean isNearVillage(ChunkGenerator,long,WorldgenRandom,ChunkPos)
+```
+
+</details>
+<details>
+<summary>
+net.minecraft.world.level.levelgen.feature.StructureFeature
+</summary>
+
+```diff
+- boolean isFeatureChunk(ChunkGenerator,BiomeSource,long,ChunkPos,FeatureConfiguration,LevelHeightAccessor)
++ boolean isFeatureChunk(ChunkGenerator,BiomeSource,long,WorldgenRandom,ChunkPos,ChunkPos,FeatureConfiguration,LevelHeightAccessor)
+- ChunkPos getPotentialFeatureChunk(StructureFeatureConfiguration,long,int,int)
++ ChunkPos getPotentialFeatureChunk(StructureFeatureConfiguration,long,WorldgenRandom,int,int)
+- StructureStart generate(RegistryAccess,ChunkGenerator,BiomeSource,StructureManager,long,ChunkPos,int,StructureFeatureConfiguration,FeatureConfiguration,LevelHeightAccessor,Predicate)
++ StructureStart generate(RegistryAccess,ChunkGenerator,BiomeSource,StructureManager,long,ChunkPos,int,WorldgenRandom,StructureFeatureConfiguration,FeatureConfiguration,LevelHeightAccessor,Predicate)
++ void lambda$generate$2(long,ChunkPos,WorldgenRandom)
+```
+
+</details>
+<details>
+<summary>
+net.minecraft.world.level.levelgen.feature.TwistingVinesFeature
+</summary>
+
+```diff
++ boolean place(LevelAccessor,Random,BlockPos,int,int,int)
++ void placeTwistingVines(LevelAccessor,Random,BlockPos,int,int,int)
+```
+
+</details>
+<details>
+<summary>
+net.minecraft.world.level.portal.PortalForcer
+</summary>
+
+```diff
++ BlockUtil$FoundRectangle lambda$findPortalAround$5(PoiRecord)
+- BlockUtil$FoundRectangle lambda$findPortalAround$6(PoiRecord)
+- boolean lambda$findPortalAround$1(WorldBorder,PoiRecord)
++ boolean lambda$findPortalAround$3(PoiRecord)
++ boolean lambda$findPortalAround$4(BlockState,BlockPos)
+- boolean lambda$findPortalAround$4(PoiRecord)
+- boolean lambda$findPortalAround$5(BlockState,BlockPos)
++ double lambda$findPortalAround$1(BlockPos,PoiRecord)
+- double lambda$findPortalAround$2(BlockPos,PoiRecord)
++ int lambda$findPortalAround$2(PoiRecord)
+- int lambda$findPortalAround$3(PoiRecord)
+- Optional findPortalAround(BlockPos,boolean,WorldBorder)
++ Optional findPortalAround(BlockPos,boolean)
+```
+
+</details>
+<h2>Client<a name="client-mappings"></a></h2>
+<details>
+<summary>
+Classes
+</summary>
+
+```diff
+- XXX.ai.attributes.Attribute
++ XXX.ai.attributes.AttributeInstance
+- XXX.ai.attributes.AttributeMap
++ XXX.ai.attributes.AttributeModifier
+- XXX.ai.attributes.AttributeModifier$Operation
++ XXX.ai.attributes.Attributes
++ XXX.ai.attributes.AttributeSupplier
+- XXX.ai.attributes.AttributeSupplier$Builder
+- XXX.ai.attributes.DefaultAttributes
+- XXX.ai.attributes.package-info
++ XXX.ai.attributes.RangedAttribute
++ XXX.ai.behavior.AcquirePoi
+- XXX.ai.behavior.AcquirePoi$JitteredLinearRetry
++ XXX.ai.behavior.AnimalMakeLove
+- XXX.ai.behavior.AnimalPanic
++ XXX.ai.behavior.AssignProfessionFromJobSite
+- XXX.ai.behavior.BabyFollowAdult
++ XXX.ai.behavior.BackUpIfTooClose
+- XXX.ai.behavior.BecomePassiveIfMemoryPresent
++ XXX.ai.behavior.Behavior
+- XXX.ai.behavior.Behavior$Status
++ XXX.ai.behavior.BehaviorUtils
+- XXX.ai.behavior.BlockPosTracker
++ XXX.ai.behavior.CelebrateVillagersSurvivedRaid
+- XXX.ai.behavior.CopyMemoryWithExpiry
++ XXX.ai.behavior.CountDownCooldownTicks
+- XXX.ai.behavior.CrossbowAttack
++ XXX.ai.behavior.CrossbowAttack$CrossbowState
+- XXX.ai.behavior.DismountOrSkipMounting
++ XXX.ai.behavior.DoNothing
+- XXX.ai.behavior.EntityTracker
++ XXX.ai.behavior.EraseMemoryIf
+- XXX.ai.behavior.FollowTemptation
++ XXX.ai.behavior.GateBehavior
+- XXX.ai.behavior.GateBehavior$OrderPolicy
++ XXX.ai.behavior.GateBehavior$RunningPolicy
+- XXX.ai.behavior.GateBehavior$RunningPolicy$1
++ XXX.ai.behavior.GateBehavior$RunningPolicy$2
+- XXX.ai.behavior.GiveGiftToHero
++ XXX.ai.behavior.GoOutsideToCelebrate
+- XXX.ai.behavior.GoToCelebrateLocation
++ XXX.ai.behavior.GoToClosestVillage
+- XXX.ai.behavior.GoToPotentialJobSite
++ XXX.ai.behavior.GoToWantedItem
+- XXX.ai.behavior.HarvestFarmland
++ XXX.ai.behavior.InsideBrownianWalk
+- XXX.ai.behavior.InteractWith
++ XXX.ai.behavior.InteractWithDoor
+- XXX.ai.behavior.JumpOnBed
++ XXX.ai.behavior.LocateHidingPlace
+- XXX.ai.behavior.LocateHidingPlaceDuringRaid
++ XXX.ai.behavior.LongJumpMidJump
+- XXX.ai.behavior.LongJumpToRandomPos
++ XXX.ai.behavior.LongJumpToRandomPos$PossibleJump
+- XXX.ai.behavior.LookAndFollowTradingPlayerSink
++ XXX.ai.behavior.LookAtTargetSink
+- XXX.ai.behavior.MeleeAttack
++ XXX.ai.behavior.Mount
+- XXX.ai.behavior.MoveToSkySeeingSpot
++ XXX.ai.behavior.MoveToTargetSink
++ XXX.ai.behavior.package-info
+- XXX.ai.behavior.PlayTagWithOtherKids
++ XXX.ai.behavior.PoiCompetitorScan
+- XXX.ai.behavior.PositionTracker
++ XXX.ai.behavior.PrepareRamNearestTarget
+- XXX.ai.behavior.PrepareRamNearestTarget$RamCandidate
++ XXX.ai.behavior.RamTarget
+- XXX.ai.behavior.RandomStroll
++ XXX.ai.behavior.RandomSwim
+- XXX.ai.behavior.ReactToBell
++ XXX.ai.behavior.ResetProfession
+- XXX.ai.behavior.ResetRaidStatus
++ XXX.ai.behavior.RingBell
+- XXX.ai.behavior.RunIf
++ XXX.ai.behavior.RunOne
+- XXX.ai.behavior.RunSometimes
++ XXX.ai.behavior.SetClosestHomeAsWalkTarget
+- XXX.ai.behavior.SetEntityLookTarget
++ XXX.ai.behavior.SetHiddenState
+- XXX.ai.behavior.SetLookAndInteract
++ XXX.ai.behavior.SetRaidStatus
+- XXX.ai.behavior.SetWalkTargetAwayFrom
++ XXX.ai.behavior.SetWalkTargetFromAttackTargetIfTargetOutOfReach
+- XXX.ai.behavior.SetWalkTargetFromBlockMemory
++ XXX.ai.behavior.SetWalkTargetFromLookTarget
+- XXX.ai.behavior.ShowTradesToPlayer
++ XXX.ai.behavior.ShufflingList
+- XXX.ai.behavior.ShufflingList$WeightedEntry
++ XXX.ai.behavior.ShufflingList$WeightedEntry$1
+- XXX.ai.behavior.SleepInBed
++ XXX.ai.behavior.SocializeAtBell
+- XXX.ai.behavior.StartAttacking
++ XXX.ai.behavior.StartCelebratingIfTargetDead
+- XXX.ai.behavior.StopAttackingIfTargetInvalid
++ XXX.ai.behavior.StopBeingAngryIfTargetDead
+- XXX.ai.behavior.StrollAroundPoi
++ XXX.ai.behavior.StrollToPoi
+- XXX.ai.behavior.StrollToPoiList
++ XXX.ai.behavior.Swim
+- XXX.ai.behavior.TradeWithVillager
++ XXX.ai.behavior.TryFindWater
+- XXX.ai.behavior.UpdateActivityFromSchedule
++ XXX.ai.behavior.UseBonemeal
+- XXX.ai.behavior.ValidateNearbyPoi
++ XXX.ai.behavior.VictoryStroll
+- XXX.ai.behavior.VillageBoundRandomStroll
++ XXX.ai.behavior.VillagerCalmDown
+- XXX.ai.behavior.VillagerGoalPackages
++ XXX.ai.behavior.VillagerMakeLove
+- XXX.ai.behavior.VillagerPanicTrigger
++ XXX.ai.behavior.WakeUp
+- XXX.ai.behavior.WorkAtComposter
++ XXX.ai.behavior.WorkAtPoi
+- XXX.ai.behavior.YieldJobSite
+- XXX.ai.control.BodyRotationControl
++ XXX.ai.control.Control
+- XXX.ai.control.FlyingMoveControl
++ XXX.ai.control.JumpControl
+- XXX.ai.control.LookControl
++ XXX.ai.control.MoveControl
+- XXX.ai.control.MoveControl$Operation
++ XXX.ai.control.package-info
++ XXX.ai.control.SmoothSwimmingLookControl
+- XXX.ai.control.SmoothSwimmingMoveControl
+- XXX.ai.goal.AvoidEntityGoal
++ XXX.ai.goal.BegGoal
+- XXX.ai.goal.BoatGoals
++ XXX.ai.goal.BreakDoorGoal
+- XXX.ai.goal.BreathAirGoal
++ XXX.ai.goal.BreedGoal
+- XXX.ai.goal.CatLieOnBedGoal
++ XXX.ai.goal.CatSitOnBlockGoal
+- XXX.ai.goal.DolphinJumpGoal
++ XXX.ai.goal.DoorInteractGoal
+- XXX.ai.goal.EatBlockGoal
++ XXX.ai.goal.FleeSunGoal
+- XXX.ai.goal.FloatGoal
++ XXX.ai.goal.FollowBoatGoal
+- XXX.ai.goal.FollowFlockLeaderGoal
++ XXX.ai.goal.FollowMobGoal
+- XXX.ai.goal.FollowOwnerGoal
++ XXX.ai.goal.FollowParentGoal
+- XXX.ai.goal.Goal
++ XXX.ai.goal.Goal$Flag
+- XXX.ai.goal.GoalSelector
++ XXX.ai.goal.GoalSelector$1
+- XXX.ai.goal.GoalSelector$2
++ XXX.ai.goal.GolemRandomStrollInVillageGoal
+- XXX.ai.goal.InteractGoal
++ XXX.ai.goal.JumpGoal
+- XXX.ai.goal.LandOnOwnersShoulderGoal
++ XXX.ai.goal.LeapAtTargetGoal
+- XXX.ai.goal.LlamaFollowCaravanGoal
++ XXX.ai.goal.LookAtPlayerGoal
+- XXX.ai.goal.LookAtTradingPlayerGoal
++ XXX.ai.goal.MeleeAttackGoal
+- XXX.ai.goal.MoveBackToVillageGoal
++ XXX.ai.goal.MoveThroughVillageGoal
+- XXX.ai.goal.MoveToBlockGoal
++ XXX.ai.goal.MoveTowardsRestrictionGoal
+- XXX.ai.goal.MoveTowardsTargetGoal
++ XXX.ai.goal.OcelotAttackGoal
+- XXX.ai.goal.OfferFlowerGoal
++ XXX.ai.goal.OpenDoorGoal
++ XXX.ai.goal.package-info
+- XXX.ai.goal.PanicGoal
++ XXX.ai.goal.PathfindToRaidGoal
+- XXX.ai.goal.RandomLookAroundGoal
++ XXX.ai.goal.RandomStrollGoal
+- XXX.ai.goal.RandomSwimmingGoal
++ XXX.ai.goal.RangedAttackGoal
+- XXX.ai.goal.RangedBowAttackGoal
++ XXX.ai.goal.RangedCrossbowAttackGoal
+- XXX.ai.goal.RangedCrossbowAttackGoal$CrossbowState
++ XXX.ai.goal.RemoveBlockGoal
+- XXX.ai.goal.RestrictSunGoal
++ XXX.ai.goal.RunAroundLikeCrazyGoal
+- XXX.ai.goal.SitWhenOrderedToGoal
++ XXX.ai.goal.StrollThroughVillageGoal
+- XXX.ai.goal.SwellGoal
++ XXX.ai.goal.TemptGoal
+- XXX.ai.goal.TradeWithPlayerGoal
++ XXX.ai.goal.TryFindWaterGoal
+- XXX.ai.goal.UseItemGoal
++ XXX.ai.goal.WaterAvoidingRandomFlyingGoal
+- XXX.ai.goal.WaterAvoidingRandomStrollGoal
++ XXX.ai.goal.WrappedGoal
+- XXX.ai.goal.ZombieAttackGoal
++ XXX.ai.gossip.GossipContainer
+- XXX.ai.gossip.GossipContainer$EntityGossips
++ XXX.ai.gossip.GossipContainer$GossipEntry
+- XXX.ai.gossip.GossipType
++ XXX.ai.gossip.package-info
+- XXX.ai.memory.ExpirableValue
++ XXX.ai.memory.MemoryModuleType
+- XXX.ai.memory.MemoryStatus
++ XXX.ai.memory.NearestVisibleLivingEntities
++ XXX.ai.memory.package-info
+- XXX.ai.memory.WalkTarget
+- XXX.ai.navigation.FlyingPathNavigation
++ XXX.ai.navigation.GroundPathNavigation
++ XXX.ai.navigation.package-info
+- XXX.ai.navigation.PathNavigation
++ XXX.ai.navigation.WallClimberNavigation
+- XXX.ai.navigation.WaterBoundPathNavigation
++ XXX.ai.sensing.AdultSensor
+- XXX.ai.sensing.AxolotlAttackablesSensor
++ XXX.ai.sensing.DummySensor
+- XXX.ai.sensing.GolemSensor
++ XXX.ai.sensing.HoglinSpecificSensor
+- XXX.ai.sensing.HurtBySensor
++ XXX.ai.sensing.NearestBedSensor
+- XXX.ai.sensing.NearestItemSensor
++ XXX.ai.sensing.NearestLivingEntitySensor
+- XXX.ai.sensing.NearestVisibleLivingEntitySensor
++ XXX.ai.sensing.package-info
++ XXX.ai.sensing.PiglinBruteSpecificSensor
+- XXX.ai.sensing.PiglinSpecificSensor
++ XXX.ai.sensing.PlayerSensor
+- XXX.ai.sensing.SecondaryPoiSensor
++ XXX.ai.sensing.Sensing
+- XXX.ai.sensing.Sensor
++ XXX.ai.sensing.SensorType
+- XXX.ai.sensing.TemptingSensor
++ XXX.ai.sensing.VillagerBabiesSensor
+- XXX.ai.sensing.VillagerHostilesSensor
++ XXX.ai.targeting.package-info
+- XXX.ai.targeting.TargetingConditions
+- XXX.ai.util.AirAndWaterRandomPos
++ XXX.ai.util.AirRandomPos
+- XXX.ai.util.DefaultRandomPos
++ XXX.ai.util.GoalUtils
+- XXX.ai.util.HoverRandomPos
++ XXX.ai.util.LandRandomPos
++ XXX.ai.util.package-info
+- XXX.ai.util.RandomPos
+- XXX.ai.village.package-info
+- XXX.ai.village.ReputationEventType
++ XXX.ai.village.ReputationEventType$1
+- XXX.ai.village.VillageSiege
++ XXX.ai.village.VillageSiege$State
+- XXX.animal.axolotl.Axolotl
++ XXX.animal.axolotl.Axolotl$AxolotlGroupData
+- XXX.animal.axolotl.Axolotl$AxolotlLookControl
++ XXX.animal.axolotl.Axolotl$AxolotlMoveControl
+- XXX.animal.axolotl.Axolotl$AxolotlPathNavigation
++ XXX.animal.axolotl.Axolotl$Variant
+- XXX.animal.axolotl.AxolotlAi
++ XXX.animal.axolotl.package-info
++ XXX.animal.axolotl.PlayDead
+- XXX.animal.axolotl.ValidatePlayDead
+- XXX.animal.goat.Goat
++ XXX.animal.goat.Goat$GoatNodeEvaluator
+- XXX.animal.goat.Goat$GoatPathNavigation
++ XXX.animal.goat.GoatAi
+- XXX.animal.goat.package-info
++ XXX.animal.horse.AbstractChestedHorse
+- XXX.animal.horse.AbstractChestedHorse$1
++ XXX.animal.horse.AbstractHorse
+- XXX.animal.horse.AbstractHorse$1
++ XXX.animal.horse.Donkey
+- XXX.animal.horse.Horse
++ XXX.animal.horse.Horse$HorseGroupData
+- XXX.animal.horse.Llama
++ XXX.animal.horse.Llama$LlamaAttackWolfGoal
+- XXX.animal.horse.Llama$LlamaGroupData
++ XXX.animal.horse.Llama$LlamaHurtByTargetGoal
+- XXX.animal.horse.Markings
++ XXX.animal.horse.Mule
+- XXX.animal.horse.package-info
+- XXX.animal.horse.SkeletonHorse
++ XXX.animal.horse.SkeletonTrapGoal
+- XXX.animal.horse.TraderLlama
++ XXX.animal.horse.TraderLlama$TraderLlamaDefendWanderingTraderGoal
+- XXX.animal.horse.Variant
++ XXX.animal.horse.ZombieHorse
++ XXX.boss.enderdragon.EndCrystal
+- XXX.boss.enderdragon.EnderDragon
++ XXX.boss.enderdragon.package-info
+- XXX.boss.wither.package-info
+- XXX.boss.wither.WitherBoss
++ XXX.boss.wither.WitherBoss$WitherDoNothingGoal
++ XXX.data.info.package-info
+- XXX.data.info.WorldgenRegistryDumpReport
+- XXX.data.loot.BlockLoot
++ XXX.data.loot.ChestLoot
+- XXX.data.loot.EntityLoot
++ XXX.data.loot.FishingLoot
+- XXX.data.loot.GiftLoot
++ XXX.data.loot.LootTableProvider
++ XXX.data.loot.package-info
+- XXX.data.loot.PiglinBarterLoot
+- XXX.data.models.BlockModelGenerators
++ XXX.data.models.BlockModelGenerators$1
+- XXX.data.models.BlockModelGenerators$BlockEntityModelGenerator
++ XXX.data.models.BlockModelGenerators$BlockFamilyProvider
+- XXX.data.models.BlockModelGenerators$BlockStateGeneratorSupplier
++ XXX.data.models.BlockModelGenerators$TintState
+- XXX.data.models.BlockModelGenerators$WoodProvider
++ XXX.data.models.ItemModelGenerators
+- XXX.data.models.ModelProvider
++ XXX.data.models.package-info
++ XXX.data.recipes.FinishedRecipe
+- XXX.data.recipes.package-info
+- XXX.data.recipes.RecipeBuilder
++ XXX.data.recipes.RecipeProvider
+- XXX.data.recipes.ShapedRecipeBuilder
++ XXX.data.recipes.ShapedRecipeBuilder$Result
+- XXX.data.recipes.ShapelessRecipeBuilder
++ XXX.data.recipes.ShapelessRecipeBuilder$Result
+- XXX.data.recipes.SimpleCookingRecipeBuilder
++ XXX.data.recipes.SimpleCookingRecipeBuilder$Result
+- XXX.data.recipes.SingleItemRecipeBuilder
++ XXX.data.recipes.SingleItemRecipeBuilder$Result
+- XXX.data.recipes.SpecialRecipeBuilder
++ XXX.data.recipes.SpecialRecipeBuilder$1
+- XXX.data.recipes.UpgradeRecipeBuilder
++ XXX.data.recipes.UpgradeRecipeBuilder$Result
++ XXX.data.structures.NbtToSnbt
++ XXX.data.structures.package-info
+- XXX.data.structures.SnbtToNbt
++ XXX.data.structures.SnbtToNbt$Filter
+- XXX.data.structures.SnbtToNbt$StructureConversionException
++ XXX.data.structures.SnbtToNbt$TaskResult
+- XXX.data.structures.StructureUpdater
+- XXX.data.tags.BlockTagsProvider
++ XXX.data.tags.EntityTypeTagsProvider
+- XXX.data.tags.FluidTagsProvider
++ XXX.data.tags.GameEventTagsProvider
+- XXX.data.tags.ItemTagsProvider
++ XXX.data.tags.package-info
++ XXX.data.tags.TagsProvider
+- XXX.data.tags.TagsProvider$TagAppender
+- XXX.data.worldgen.BastionBridgePools
++ XXX.data.worldgen.BastionHoglinStablePools
+- XXX.data.worldgen.BastionHousingUnitsPools
++ XXX.data.worldgen.BastionPieces
+- XXX.data.worldgen.BastionSharedPools
++ XXX.data.worldgen.BastionTreasureRoomPools
+- XXX.data.worldgen.BiomeDefaultFeatures
++ XXX.data.worldgen.Carvers
+- XXX.data.worldgen.DesertVillagePools
++ XXX.data.worldgen.Features
++ XXX.data.worldgen.Features$Decorators
++ XXX.datafix.fixes.AbstractArrowPickupFix
+- XXX.datafix.fixes.AbstractUUIDFix
++ XXX.datafix.fixes.AddFlagIfNotPresentFix
+- XXX.datafix.fixes.AddNewChoices
++ XXX.datafix.fixes.AdvancementsFix
+- XXX.datafix.fixes.AdvancementsRenameFix
++ XXX.datafix.fixes.AttributesRename
+- XXX.datafix.fixes.BedItemColorFix
++ XXX.datafix.fixes.BeehivePoiRenameFix
+- XXX.datafix.fixes.BiomeFix
++ XXX.datafix.fixes.BitStorageAlignFix
+- XXX.datafix.fixes.BlockEntityBannerColorFix
++ XXX.datafix.fixes.BlockEntityBlockStateFix
+- XXX.datafix.fixes.BlockEntityCustomNameToComponentFix
++ XXX.datafix.fixes.BlockEntityIdFix
+- XXX.datafix.fixes.BlockEntityJukeboxFix
++ XXX.datafix.fixes.BlockEntityKeepPacked
+- XXX.datafix.fixes.BlockEntityShulkerBoxColorFix
++ XXX.datafix.fixes.BlockEntitySignTextStrictJsonFix
+- XXX.datafix.fixes.BlockEntitySignTextStrictJsonFix$1
++ XXX.datafix.fixes.BlockEntityUUIDFix
+- XXX.datafix.fixes.BlockNameFlatteningFix
++ XXX.datafix.fixes.BlockRenameFix
+- XXX.datafix.fixes.BlockRenameFix$1
++ XXX.datafix.fixes.BlockRenameFixWithJigsaw
+- XXX.datafix.fixes.BlockRenameFixWithJigsaw$1
++ XXX.datafix.fixes.BlockStateData
+- XXX.datafix.fixes.BlockStateStructureTemplateFix
++ XXX.datafix.fixes.CatTypeFix
+- XXX.datafix.fixes.CauldronRenameFix
++ XXX.datafix.fixes.CavesAndCliffsRenames
+- XXX.datafix.fixes.ChunkBedBlockEntityInjecterFix
++ XXX.datafix.fixes.ChunkBiomeFix
+- XXX.datafix.fixes.ChunkHeightAndBiomeFix
++ XXX.datafix.fixes.ChunkLightRemoveFix
+- XXX.datafix.fixes.ChunkPalettedStorageFix
++ XXX.datafix.fixes.ChunkPalettedStorageFix$1
+- XXX.datafix.fixes.ChunkPalettedStorageFix$DataLayer
++ XXX.datafix.fixes.ChunkPalettedStorageFix$Direction
+- XXX.datafix.fixes.ChunkPalettedStorageFix$Direction$Axis
++ XXX.datafix.fixes.ChunkPalettedStorageFix$Direction$AxisDirection
+- XXX.datafix.fixes.ChunkPalettedStorageFix$Section
++ XXX.datafix.fixes.ChunkPalettedStorageFix$UpgradeChunk
+- XXX.datafix.fixes.ChunkProtoTickListFix
++ XXX.datafix.fixes.ChunkProtoTickListFix$PoorMansPalettedContainer
+- XXX.datafix.fixes.ChunkRenamesFix
++ XXX.datafix.fixes.ChunkStatusFix
+- XXX.datafix.fixes.ChunkStatusFix2
++ XXX.datafix.fixes.ChunkStructuresTemplateRenameFix
+- XXX.datafix.fixes.ChunkToProtochunkFix
++ XXX.datafix.fixes.ColorlessShulkerEntityFix
+- XXX.datafix.fixes.DyeItemRenameFix
++ XXX.datafix.fixes.EntityArmorStandSilentFix
+- XXX.datafix.fixes.EntityBlockStateFix
++ XXX.datafix.fixes.EntityCatSplitFix
+- XXX.datafix.fixes.EntityCodSalmonFix
++ XXX.datafix.fixes.EntityCustomNameToComponentFix
+- XXX.datafix.fixes.EntityElderGuardianSplitFix
++ XXX.datafix.fixes.EntityEquipmentToArmorAndHandFix
+- XXX.datafix.fixes.EntityHealthFix
++ XXX.datafix.fixes.EntityHorseSaddleFix
+- XXX.datafix.fixes.EntityHorseSplitFix
++ XXX.datafix.fixes.EntityIdFix
+- XXX.datafix.fixes.EntityItemFrameDirectionFix
++ XXX.datafix.fixes.EntityMinecartIdentifiersFix
+- XXX.datafix.fixes.EntityPaintingItemFrameDirectionFix
++ XXX.datafix.fixes.EntityPaintingMotiveFix
+- XXX.datafix.fixes.EntityProjectileOwnerFix
++ XXX.datafix.fixes.EntityPufferfishRenameFix
+- XXX.datafix.fixes.EntityRavagerRenameFix
++ XXX.datafix.fixes.EntityRedundantChanceTagsFix
+- XXX.datafix.fixes.EntityRenameFix
++ XXX.datafix.fixes.EntityRidingToPassengersFix
+- XXX.datafix.fixes.EntityShulkerColorFix
++ XXX.datafix.fixes.EntityShulkerRotationFix
+- XXX.datafix.fixes.EntitySkeletonSplitFix
++ XXX.datafix.fixes.EntityStringUuidFix
+- XXX.datafix.fixes.EntityTheRenameningFix
++ XXX.datafix.fixes.EntityTippedArrowFix
+- XXX.datafix.fixes.EntityUUIDFix
++ XXX.datafix.fixes.EntityWolfColorFix
+- XXX.datafix.fixes.EntityZombieSplitFix
++ XXX.datafix.fixes.EntityZombieVillagerTypeFix
+- XXX.datafix.fixes.EntityZombifiedPiglinRenameFix
++ XXX.datafix.fixes.ForcePoiRebuild
+- XXX.datafix.fixes.FurnaceRecipeFix
++ XXX.datafix.fixes.GossipUUIDFix
+- XXX.datafix.fixes.HeightmapRenamingFix
++ XXX.datafix.fixes.IglooMetadataRemovalFix
+- XXX.datafix.fixes.ItemBannerColorFix
++ XXX.datafix.fixes.ItemCustomNameToComponentFix
+- XXX.datafix.fixes.ItemIdFix
++ XXX.datafix.fixes.ItemLoreFix
+- XXX.datafix.fixes.ItemPotionFix
++ XXX.datafix.fixes.ItemRenameFix
+- XXX.datafix.fixes.ItemRenameFix$1
++ XXX.datafix.fixes.ItemShulkerBoxColorFix
+- XXX.datafix.fixes.ItemSpawnEggFix
++ XXX.datafix.fixes.ItemStackEnchantmentNamesFix
+- XXX.datafix.fixes.ItemStackMapIdFix
++ XXX.datafix.fixes.ItemStackSpawnEggFix
+- XXX.datafix.fixes.ItemStackTheFlatteningFix
++ XXX.datafix.fixes.ItemStackUUIDFix
+- XXX.datafix.fixes.ItemWaterPotionFix
++ XXX.datafix.fixes.ItemWrittenBookPagesStrictJsonFix
+- XXX.datafix.fixes.JigsawPropertiesFix
++ XXX.datafix.fixes.JigsawRotationFix
+- XXX.datafix.fixes.LeavesFix
++ XXX.datafix.fixes.LeavesFix$LeavesSection
+- XXX.datafix.fixes.LeavesFix$Section
++ XXX.datafix.fixes.LevelDataGeneratorOptionsFix
+- XXX.datafix.fixes.LevelFlatGeneratorInfoFix
++ XXX.datafix.fixes.LevelUUIDFix
+- XXX.datafix.fixes.MapIdFix
++ XXX.datafix.fixes.MemoryExpiryDataFix
+- XXX.datafix.fixes.MissingDimensionFix
++ XXX.datafix.fixes.MobSpawnerEntityIdentifiersFix
+- XXX.datafix.fixes.NamedEntityFix
++ XXX.datafix.fixes.NewVillageFix
+- XXX.datafix.fixes.ObjectiveDisplayNameFix
++ XXX.datafix.fixes.ObjectiveRenderTypeFix
+- XXX.datafix.fixes.OminousBannerBlockEntityRenameFix
++ XXX.datafix.fixes.OminousBannerRenameFix
+- XXX.datafix.fixes.OptionsAddTextBackgroundFix
++ XXX.datafix.fixes.OptionsForceVBOFix
+- XXX.datafix.fixes.OptionsKeyLwjgl3Fix
++ XXX.datafix.fixes.OptionsKeyTranslationFix
+- XXX.datafix.fixes.OptionsLowerCaseLanguageFix
++ XXX.datafix.fixes.OptionsRenameFieldFix
+- XXX.datafix.fixes.package-info
+- XXX.datafix.fixes.PlayerUUIDFix
++ XXX.datafix.fixes.PoiTypeRename
+- XXX.datafix.fixes.RecipesFix
++ XXX.datafix.fixes.RecipesRenameFix
+- XXX.datafix.fixes.RecipesRenameningFix
++ XXX.datafix.fixes.RedstoneWireConnectionsFix
+- XXX.datafix.fixes.References
++ XXX.datafix.fixes.RemoveGolemGossipFix
+- XXX.datafix.fixes.RenameBiomesFix
++ XXX.datafix.fixes.RenamedCoralFansFix
+- XXX.datafix.fixes.RenamedCoralFix
++ XXX.datafix.fixes.ReorganizePoi
+- XXX.datafix.fixes.SavedDataFeaturePoolElementFix
++ XXX.datafix.fixes.SavedDataUUIDFix
+- XXX.datafix.fixes.SavedDataVillageCropFix
++ XXX.datafix.fixes.SimpleEntityRenameFix
+- XXX.datafix.fixes.SimplestEntityRenameFix
++ XXX.datafix.fixes.SpawnerDataFix
+- XXX.datafix.fixes.StatsCounterFix
++ XXX.datafix.fixes.StatsRenameFix
+- XXX.datafix.fixes.StriderGravityFix
++ XXX.datafix.fixes.StructureReferenceCountFix
+- XXX.datafix.fixes.TeamDisplayNameFix
++ XXX.datafix.fixes.TrappedChestBlockEntityFix
+- XXX.datafix.fixes.TrappedChestBlockEntityFix$TrappedChestSection
++ XXX.datafix.fixes.VillagerDataFix
+- XXX.datafix.fixes.VillagerFollowRangeFix
++ XXX.datafix.fixes.VillagerRebuildLevelAndXpFix
+- XXX.datafix.fixes.VillagerTradeFix
++ XXX.datafix.fixes.WallPropertyFix
+- XXX.datafix.fixes.WorldGenSettingsDisallowOldCustomWorldsFix
++ XXX.datafix.fixes.WorldGenSettingsFix
+- XXX.datafix.fixes.WorldGenSettingsFix$StructureFeatureConfiguration
++ XXX.datafix.fixes.WorldGenSettingsHeightAndBiomeFix
+- XXX.datafix.fixes.WriteAndReadFix
++ XXX.datafix.fixes.ZombieVillagerRebuildXpFix
+- XXX.datafix.schemas.NamespacedSchema
++ XXX.datafix.schemas.NamespacedSchema$1
+- XXX.datafix.schemas.package-info
+- XXX.datafix.schemas.V100
++ XXX.datafix.schemas.V102
+- XXX.datafix.schemas.V1022
++ XXX.datafix.schemas.V106
+- XXX.datafix.schemas.V107
++ XXX.datafix.schemas.V1125
+- XXX.datafix.schemas.V135
++ XXX.datafix.schemas.V143
+- XXX.datafix.schemas.V1451
++ XXX.datafix.schemas.V1451_1
+- XXX.datafix.schemas.V1451_2
++ XXX.datafix.schemas.V1451_3
+- XXX.datafix.schemas.V1451_4
++ XXX.datafix.schemas.V1451_5
+- XXX.datafix.schemas.V1451_6
++ XXX.datafix.schemas.V1451_6$1
+- XXX.datafix.schemas.V1451_6$2
++ XXX.datafix.schemas.V1451_7
+- XXX.datafix.schemas.V1460
++ XXX.datafix.schemas.V1466
+- XXX.datafix.schemas.V1470
++ XXX.datafix.schemas.V1481
+- XXX.datafix.schemas.V1483
++ XXX.datafix.schemas.V1486
+- XXX.datafix.schemas.V1510
++ XXX.datafix.schemas.V1800
+- XXX.datafix.schemas.V1801
++ XXX.datafix.schemas.V1904
+- XXX.datafix.schemas.V1906
++ XXX.datafix.schemas.V1909
+- XXX.datafix.schemas.V1920
++ XXX.datafix.schemas.V1928
+- XXX.datafix.schemas.V1929
++ XXX.datafix.schemas.V1931
+- XXX.datafix.schemas.V2100
++ XXX.datafix.schemas.V2501
+- XXX.datafix.schemas.V2502
++ XXX.datafix.schemas.V2505
+- XXX.datafix.schemas.V2509
++ XXX.datafix.schemas.V2519
+- XXX.datafix.schemas.V2522
++ XXX.datafix.schemas.V2551
+- XXX.datafix.schemas.V2568
++ XXX.datafix.schemas.V2571
+- XXX.datafix.schemas.V2684
++ XXX.datafix.schemas.V2686
+- XXX.datafix.schemas.V2688
++ XXX.datafix.schemas.V2704
+- XXX.datafix.schemas.V2707
++ XXX.datafix.schemas.V2831
+- XXX.datafix.schemas.V2832
++ XXX.datafix.schemas.V2842
+- XXX.datafix.schemas.V501
++ XXX.datafix.schemas.V700
+- XXX.datafix.schemas.V701
++ XXX.datafix.schemas.V702
+- XXX.datafix.schemas.V703
++ XXX.datafix.schemas.V704
+- XXX.datafix.schemas.V704$1
++ XXX.datafix.schemas.V705
+- XXX.datafix.schemas.V705$1
++ XXX.datafix.schemas.V808
+- XXX.datafix.schemas.V99
++ XXX.datafix.schemas.V99$1
+- XXX.enderdragon.phases.AbstractDragonPhaseInstance
++ XXX.enderdragon.phases.AbstractDragonSittingPhase
+- XXX.enderdragon.phases.DragonChargePlayerPhase
++ XXX.enderdragon.phases.DragonDeathPhase
+- XXX.enderdragon.phases.DragonHoldingPatternPhase
++ XXX.enderdragon.phases.DragonHoverPhase
+- XXX.enderdragon.phases.DragonLandingApproachPhase
++ XXX.enderdragon.phases.DragonLandingPhase
+- XXX.enderdragon.phases.DragonPhaseInstance
++ XXX.enderdragon.phases.DragonSittingAttackingPhase
+- XXX.enderdragon.phases.DragonSittingFlamingPhase
++ XXX.enderdragon.phases.DragonSittingScanningPhase
+- XXX.enderdragon.phases.DragonStrafePlayerPhase
++ XXX.enderdragon.phases.DragonTakeoffPhase
+- XXX.enderdragon.phases.EnderDragonPhase
++ XXX.enderdragon.phases.EnderDragonPhaseManager
+- XXX.enderdragon.phases.package-info
+- XXX.entity.ai.Brain
++ XXX.entity.ai.Brain$1
+- XXX.entity.ai.Brain$MemoryValue
++ XXX.entity.ai.Brain$Provider
+- XXX.entity.ai.package-info
+- XXX.entity.ambient.AmbientCreature
++ XXX.entity.ambient.Bat
+- XXX.entity.ambient.package-info
++ XXX.entity.animal.AbstractFish
+- XXX.entity.animal.AbstractFish$FishMoveControl
++ XXX.entity.animal.AbstractFish$FishSwimGoal
+- XXX.entity.animal.AbstractGolem
++ XXX.entity.animal.AbstractSchoolingFish
+- XXX.entity.animal.AbstractSchoolingFish$SchoolSpawnGroupData
++ XXX.entity.animal.Animal
+- XXX.entity.animal.Bee
++ XXX.entity.animal.Bee$1
+- XXX.entity.animal.Bee$BaseBeeGoal
++ XXX.entity.animal.Bee$BeeAttackGoal
+- XXX.entity.animal.Bee$BeeBecomeAngryTargetGoal
++ XXX.entity.animal.Bee$BeeEnterHiveGoal
+- XXX.entity.animal.Bee$BeeGoToHiveGoal
++ XXX.entity.animal.Bee$BeeGoToKnownFlowerGoal
+- XXX.entity.animal.Bee$BeeGrowCropGoal
++ XXX.entity.animal.Bee$BeeHurtByOtherGoal
+- XXX.entity.animal.Bee$BeeLocateHiveGoal
++ XXX.entity.animal.Bee$BeeLookControl
+- XXX.entity.animal.Bee$BeePollinateGoal
++ XXX.entity.animal.Bee$BeeWanderGoal
+- XXX.entity.animal.Bucketable
++ XXX.entity.animal.Cat
+- XXX.entity.animal.Cat$CatAvoidEntityGoal
++ XXX.entity.animal.Cat$CatRelaxOnOwnerGoal
+- XXX.entity.animal.Cat$CatTemptGoal
++ XXX.entity.animal.Chicken
+- XXX.entity.animal.Cod
++ XXX.entity.animal.Cow
+- XXX.entity.animal.Dolphin
++ XXX.entity.animal.Dolphin$DolphinSwimToTreasureGoal
+- XXX.entity.animal.Dolphin$DolphinSwimWithPlayerGoal
++ XXX.entity.animal.Dolphin$PlayWithItemsGoal
+- XXX.entity.animal.FlyingAnimal
++ XXX.entity.animal.Fox
+- XXX.entity.animal.Fox$DefendTrustedTargetGoal
++ XXX.entity.animal.Fox$FaceplantGoal
+- XXX.entity.animal.Fox$FoxAlertableEntitiesSelector
++ XXX.entity.animal.Fox$FoxBehaviorGoal
+- XXX.entity.animal.Fox$FoxBreedGoal
++ XXX.entity.animal.Fox$FoxEatBerriesGoal
+- XXX.entity.animal.Fox$FoxFloatGoal
++ XXX.entity.animal.Fox$FoxFollowParentGoal
+- XXX.entity.animal.Fox$FoxGroupData
++ XXX.entity.animal.Fox$FoxLookAtPlayerGoal
+- XXX.entity.animal.Fox$FoxLookControl
++ XXX.entity.animal.Fox$FoxMeleeAttackGoal
+- XXX.entity.animal.Fox$FoxMoveControl
++ XXX.entity.animal.Fox$FoxPanicGoal
+- XXX.entity.animal.Fox$FoxPounceGoal
++ XXX.entity.animal.Fox$FoxSearchForItemsGoal
+- XXX.entity.animal.Fox$FoxStrollThroughVillageGoal
++ XXX.entity.animal.Fox$PerchAndSearchGoal
+- XXX.entity.animal.Fox$SeekShelterGoal
++ XXX.entity.animal.Fox$SleepGoal
+- XXX.entity.animal.Fox$StalkPreyGoal
++ XXX.entity.animal.Fox$Type
+- XXX.entity.animal.IronGolem
++ XXX.entity.animal.IronGolem$Crackiness
+- XXX.entity.animal.MushroomCow
++ XXX.entity.animal.MushroomCow$MushroomType
+- XXX.entity.animal.Ocelot
++ XXX.entity.animal.Ocelot$OcelotAvoidEntityGoal
+- XXX.entity.animal.Ocelot$OcelotTemptGoal
++ XXX.entity.animal.package-info
++ XXX.entity.animal.Panda
+- XXX.entity.animal.Panda$Gene
++ XXX.entity.animal.Panda$PandaAttackGoal
+- XXX.entity.animal.Panda$PandaAvoidGoal
++ XXX.entity.animal.Panda$PandaBreedGoal
+- XXX.entity.animal.Panda$PandaHurtByTargetGoal
++ XXX.entity.animal.Panda$PandaLieOnBackGoal
+- XXX.entity.animal.Panda$PandaLookAtPlayerGoal
++ XXX.entity.animal.Panda$PandaMoveControl
+- XXX.entity.animal.Panda$PandaPanicGoal
++ XXX.entity.animal.Panda$PandaRollGoal
+- XXX.entity.animal.Panda$PandaSitGoal
++ XXX.entity.animal.Panda$PandaSneezeGoal
+- XXX.entity.animal.Parrot
++ XXX.entity.animal.Parrot$1
+- XXX.entity.animal.Parrot$ParrotWanderGoal
++ XXX.entity.animal.Pig
+- XXX.entity.animal.PolarBear
++ XXX.entity.animal.PolarBear$PolarBearAttackPlayersGoal
+- XXX.entity.animal.PolarBear$PolarBearHurtByTargetGoal
++ XXX.entity.animal.PolarBear$PolarBearMeleeAttackGoal
+- XXX.entity.animal.PolarBear$PolarBearPanicGoal
++ XXX.entity.animal.Pufferfish
+- XXX.entity.animal.Pufferfish$PufferfishPuffGoal
++ XXX.entity.animal.Rabbit
+- XXX.entity.animal.Rabbit$EvilRabbitAttackGoal
++ XXX.entity.animal.Rabbit$RabbitAvoidEntityGoal
+- XXX.entity.animal.Rabbit$RabbitGroupData
++ XXX.entity.animal.Rabbit$RabbitJumpControl
+- XXX.entity.animal.Rabbit$RabbitMoveControl
++ XXX.entity.animal.Rabbit$RabbitPanicGoal
+- XXX.entity.animal.Rabbit$RaidGardenGoal
++ XXX.entity.animal.Salmon
+- XXX.entity.animal.Sheep
++ XXX.entity.animal.Sheep$1
+- XXX.entity.animal.Sheep$2
++ XXX.entity.animal.ShoulderRidingEntity
+- XXX.entity.animal.SnowGolem
++ XXX.entity.animal.Squid
+- XXX.entity.animal.Squid$SquidFleeGoal
++ XXX.entity.animal.Squid$SquidRandomMovementGoal
+- XXX.entity.animal.TropicalFish
++ XXX.entity.animal.TropicalFish$Pattern
+- XXX.entity.animal.TropicalFish$TropicalFishGroupData
++ XXX.entity.animal.Turtle
+- XXX.entity.animal.Turtle$TurtleBreedGoal
++ XXX.entity.animal.Turtle$TurtleGoHomeGoal
+- XXX.entity.animal.Turtle$TurtleGoToWaterGoal
++ XXX.entity.animal.Turtle$TurtleLayEggGoal
+- XXX.entity.animal.Turtle$TurtleMoveControl
++ XXX.entity.animal.Turtle$TurtlePanicGoal
+- XXX.entity.animal.Turtle$TurtlePathNavigation
++ XXX.entity.animal.Turtle$TurtleRandomStrollGoal
+- XXX.entity.animal.Turtle$TurtleTravelGoal
++ XXX.entity.animal.WaterAnimal
+- XXX.entity.animal.Wolf
++ XXX.entity.animal.Wolf$WolfAvoidEntityGoal
+- XXX.entity.boss.EnderDragonPart
++ XXX.entity.boss.package-info
++ XXX.entity.decoration.ArmorStand
+- XXX.entity.decoration.ArmorStand$1
++ XXX.entity.decoration.GlowItemFrame
+- XXX.entity.decoration.HangingEntity
++ XXX.entity.decoration.HangingEntity$1
+- XXX.entity.decoration.ItemFrame
++ XXX.entity.decoration.ItemFrame$1
+- XXX.entity.decoration.ItemFrame$2
++ XXX.entity.decoration.LeashFenceKnotEntity
+- XXX.entity.decoration.Motive
+- XXX.entity.decoration.package-info
++ XXX.entity.decoration.Painting
++ XXX.entity.item.FallingBlockEntity
+- XXX.entity.item.ItemEntity
+- XXX.entity.item.package-info
++ XXX.entity.item.PrimedTnt
++ XXX.entity.monster.AbstractIllager
+- XXX.entity.monster.AbstractIllager$IllagerArmPose
++ XXX.entity.monster.AbstractIllager$RaiderOpenDoorGoal
+- XXX.entity.monster.AbstractSkeleton
++ XXX.entity.monster.AbstractSkeleton$1
+- XXX.entity.monster.Blaze
++ XXX.entity.monster.Blaze$BlazeAttackGoal
+- XXX.entity.monster.CaveSpider
++ XXX.entity.monster.Creeper
+- XXX.entity.monster.CrossbowAttackMob
++ XXX.entity.monster.Drowned
+- XXX.entity.monster.Drowned$DrownedAttackGoal
++ XXX.entity.monster.Drowned$DrownedGoToBeachGoal
+- XXX.entity.monster.Drowned$DrownedGoToWaterGoal
++ XXX.entity.monster.Drowned$DrownedMoveControl
+- XXX.entity.monster.Drowned$DrownedSwimUpGoal
++ XXX.entity.monster.Drowned$DrownedTridentAttackGoal
+- XXX.entity.monster.ElderGuardian
++ XXX.entity.monster.EnderMan
+- XXX.entity.monster.EnderMan$EndermanFreezeWhenLookedAt
++ XXX.entity.monster.EnderMan$EndermanLeaveBlockGoal
+- XXX.entity.monster.EnderMan$EndermanLookForPlayerGoal
++ XXX.entity.monster.EnderMan$EndermanTakeBlockGoal
+- XXX.entity.monster.Endermite
++ XXX.entity.monster.Enemy
+- XXX.entity.monster.Evoker
++ XXX.entity.monster.Evoker$EvokerAttackSpellGoal
+- XXX.entity.monster.Evoker$EvokerCastingSpellGoal
++ XXX.entity.monster.Evoker$EvokerSummonSpellGoal
+- XXX.entity.monster.Evoker$EvokerWololoSpellGoal
++ XXX.entity.monster.Ghast
+- XXX.entity.monster.Ghast$GhastLookGoal
++ XXX.entity.monster.Ghast$GhastMoveControl
+- XXX.entity.monster.Ghast$GhastShootFireballGoal
++ XXX.entity.monster.Ghast$RandomFloatAroundGoal
+- XXX.entity.monster.Giant
++ XXX.entity.monster.Guardian
+- XXX.entity.monster.Guardian$GuardianAttackGoal
++ XXX.entity.monster.Guardian$GuardianAttackSelector
+- XXX.entity.monster.Guardian$GuardianMoveControl
++ XXX.entity.monster.Husk
+- XXX.entity.monster.Illusioner
++ XXX.entity.monster.Illusioner$IllusionerBlindnessSpellGoal
+- XXX.entity.monster.Illusioner$IllusionerMirrorSpellGoal
++ XXX.entity.monster.MagmaCube
+- XXX.entity.monster.Monster
++ XXX.entity.monster.package-info
++ XXX.entity.monster.PatrollingMonster
+- XXX.entity.monster.PatrollingMonster$LongDistancePatrolGoal
++ XXX.entity.monster.Phantom
+- XXX.entity.monster.Phantom$AttackPhase
++ XXX.entity.monster.Phantom$PhantomAttackPlayerTargetGoal
+- XXX.entity.monster.Phantom$PhantomAttackStrategyGoal
++ XXX.entity.monster.Phantom$PhantomBodyRotationControl
+- XXX.entity.monster.Phantom$PhantomCircleAroundAnchorGoal
++ XXX.entity.monster.Phantom$PhantomLookControl
+- XXX.entity.monster.Phantom$PhantomMoveControl
++ XXX.entity.monster.Phantom$PhantomMoveTargetGoal
+- XXX.entity.monster.Phantom$PhantomSweepAttackGoal
++ XXX.entity.monster.Pillager
+- XXX.entity.monster.RangedAttackMob
++ XXX.entity.monster.Ravager
+- XXX.entity.monster.Ravager$RavagerMeleeAttackGoal
++ XXX.entity.monster.Ravager$RavagerNavigation
+- XXX.entity.monster.Ravager$RavagerNodeEvaluator
++ XXX.entity.monster.Shulker
+- XXX.entity.monster.Shulker$ShulkerAttackGoal
++ XXX.entity.monster.Shulker$ShulkerBodyRotationControl
+- XXX.entity.monster.Shulker$ShulkerDefenseAttackGoal
++ XXX.entity.monster.Shulker$ShulkerLookControl
+- XXX.entity.monster.Shulker$ShulkerNearestAttackGoal
++ XXX.entity.monster.Shulker$ShulkerPeekGoal
+- XXX.entity.monster.Silverfish
++ XXX.entity.monster.Silverfish$SilverfishMergeWithStoneGoal
+- XXX.entity.monster.Silverfish$SilverfishWakeUpFriendsGoal
++ XXX.entity.monster.Skeleton
+- XXX.entity.monster.Slime
++ XXX.entity.monster.Slime$SlimeAttackGoal
+- XXX.entity.monster.Slime$SlimeFloatGoal
++ XXX.entity.monster.Slime$SlimeKeepOnJumpingGoal
+- XXX.entity.monster.Slime$SlimeMoveControl
++ XXX.entity.monster.Slime$SlimeRandomDirectionGoal
+- XXX.entity.monster.SpellcasterIllager
++ XXX.entity.monster.SpellcasterIllager$IllagerSpell
+- XXX.entity.monster.SpellcasterIllager$SpellcasterCastingSpellGoal
++ XXX.entity.monster.SpellcasterIllager$SpellcasterUseSpellGoal
+- XXX.entity.monster.Spider
++ XXX.entity.monster.Spider$SpiderAttackGoal
+- XXX.entity.monster.Spider$SpiderEffectsGroupData
++ XXX.entity.monster.Spider$SpiderTargetGoal
+- XXX.entity.monster.Stray
++ XXX.entity.monster.Strider
+- XXX.entity.monster.Strider$StriderGoToLavaGoal
++ XXX.entity.monster.Strider$StriderPathNavigation
+- XXX.entity.monster.Vex
++ XXX.entity.monster.Vex$VexChargeAttackGoal
+- XXX.entity.monster.Vex$VexCopyOwnerTargetGoal
++ XXX.entity.monster.Vex$VexMoveControl
+- XXX.entity.monster.Vex$VexRandomMoveGoal
++ XXX.entity.monster.Vindicator
+- XXX.entity.monster.Vindicator$VindicatorBreakDoorGoal
++ XXX.entity.monster.Vindicator$VindicatorJohnnyAttackGoal
+- XXX.entity.monster.Vindicator$VindicatorMeleeAttackGoal
++ XXX.entity.monster.Witch
+- XXX.entity.monster.WitherSkeleton
++ XXX.entity.monster.Zoglin
+- XXX.entity.monster.Zombie
++ XXX.entity.monster.Zombie$ZombieAttackTurtleEggGoal
+- XXX.entity.monster.Zombie$ZombieGroupData
++ XXX.entity.monster.ZombieVillager
+- XXX.entity.monster.ZombifiedPiglin
++ XXX.entity.npc.AbstractVillager
+- XXX.entity.npc.CatSpawner
++ XXX.entity.npc.ClientSideMerchant
+- XXX.entity.npc.InventoryCarrier
++ XXX.entity.npc.Npc
+- XXX.entity.npc.package-info
+- XXX.entity.npc.Villager
++ XXX.entity.npc.VillagerData
+- XXX.entity.npc.VillagerDataHolder
++ XXX.entity.npc.VillagerProfession
+- XXX.entity.npc.VillagerTrades
++ XXX.entity.npc.VillagerTrades$DyedArmorForEmeralds
+- XXX.entity.npc.VillagerTrades$EmeraldForItems
++ XXX.entity.npc.VillagerTrades$EmeraldsForVillagerTypeItem
+- XXX.entity.npc.VillagerTrades$EnchantBookForEmeralds
++ XXX.entity.npc.VillagerTrades$EnchantedItemForEmeralds
+- XXX.entity.npc.VillagerTrades$ItemListing
++ XXX.entity.npc.VillagerTrades$ItemsAndEmeraldsToItems
+- XXX.entity.npc.VillagerTrades$ItemsForEmeralds
++ XXX.entity.npc.VillagerTrades$SuspiciousStewForEmerald
+- XXX.entity.npc.VillagerTrades$TippedArrowForItemsAndEmeralds
++ XXX.entity.npc.VillagerTrades$TreasureMapForEmeralds
+- XXX.entity.npc.VillagerType
++ XXX.entity.npc.WanderingTrader
+- XXX.entity.npc.WanderingTrader$WanderToPositionGoal
++ XXX.entity.npc.WanderingTraderSpawner
+- XXX.entity.player.Abilities
++ XXX.entity.player.ChatVisiblity
+- XXX.entity.player.Inventory
++ XXX.entity.player.package-info
++ XXX.entity.player.Player
+- XXX.entity.player.Player$1
++ XXX.entity.player.Player$BedSleepingProblem
+- XXX.entity.player.PlayerModelPart
++ XXX.entity.player.StackedContents
+- XXX.entity.player.StackedContents$RecipePicker
+- XXX.entity.projectile.AbstractArrow
++ XXX.entity.projectile.AbstractArrow$1
+- XXX.entity.projectile.AbstractArrow$Pickup
++ XXX.entity.projectile.AbstractHurtingProjectile
+- XXX.entity.projectile.Arrow
++ XXX.entity.projectile.DragonFireball
+- XXX.entity.projectile.EvokerFangs
++ XXX.entity.projectile.EyeOfEnder
+- XXX.entity.projectile.Fireball
++ XXX.entity.projectile.FireworkRocketEntity
+- XXX.entity.projectile.FishingHook
++ XXX.entity.projectile.FishingHook$1
+- XXX.entity.projectile.FishingHook$FishHookState
++ XXX.entity.projectile.FishingHook$OpenWaterType
+- XXX.entity.projectile.ItemSupplier
++ XXX.entity.projectile.LargeFireball
+- XXX.entity.projectile.LlamaSpit
++ XXX.entity.projectile.package-info
++ XXX.entity.projectile.Projectile
+- XXX.entity.projectile.ProjectileUtil
++ XXX.entity.projectile.ShulkerBullet
+- XXX.entity.projectile.SmallFireball
++ XXX.entity.projectile.Snowball
+- XXX.entity.projectile.SpectralArrow
++ XXX.entity.projectile.ThrowableItemProjectile
+- XXX.entity.projectile.ThrowableProjectile
++ XXX.entity.projectile.ThrownEgg
+- XXX.entity.projectile.ThrownEnderpearl
++ XXX.entity.projectile.ThrownExperienceBottle
+- XXX.entity.projectile.ThrownPotion
++ XXX.entity.projectile.ThrownTrident
+- XXX.entity.projectile.WitherSkull
+- XXX.entity.raid.package-info
+- XXX.entity.raid.Raid
++ XXX.entity.raid.Raid$1
++ XXX.entity.raid.Raid$RaiderType
+- XXX.entity.raid.Raid$RaidStatus
+- XXX.entity.raid.Raider
++ XXX.entity.raid.Raider$HoldGroundAttackGoal
+- XXX.entity.raid.Raider$ObtainRaidLeaderBannerGoal
++ XXX.entity.raid.Raider$RaiderCelebration
+- XXX.entity.raid.Raider$RaiderMoveThroughVillageGoal
++ XXX.entity.raid.Raids
++ XXX.entity.schedule.Activity
+- XXX.entity.schedule.Keyframe
++ XXX.entity.schedule.package-info
++ XXX.entity.schedule.Schedule
+- XXX.entity.schedule.ScheduleBuilder
++ XXX.entity.schedule.ScheduleBuilder$ActivityTransition
+- XXX.entity.schedule.Timeline
+- XXX.entity.vehicle.AbstractMinecart
++ XXX.entity.vehicle.AbstractMinecart$1
+- XXX.entity.vehicle.AbstractMinecart$Type
++ XXX.entity.vehicle.AbstractMinecartContainer
+- XXX.entity.vehicle.AbstractMinecartContainer$1
++ XXX.entity.vehicle.Boat
+- XXX.entity.vehicle.Boat$1
++ XXX.entity.vehicle.Boat$Status
+- XXX.entity.vehicle.Boat$Type
++ XXX.entity.vehicle.DismountHelper
+- XXX.entity.vehicle.Minecart
++ XXX.entity.vehicle.MinecartChest
+- XXX.entity.vehicle.MinecartCommandBlock
++ XXX.entity.vehicle.MinecartCommandBlock$MinecartCommandBase
+- XXX.entity.vehicle.MinecartFurnace
++ XXX.entity.vehicle.MinecartHopper
+- XXX.entity.vehicle.MinecartSpawner
++ XXX.entity.vehicle.MinecartSpawner$1
+- XXX.entity.vehicle.MinecartTNT
++ XXX.entity.vehicle.package-info
++ XXX.feature.configurations.DecoratedFeatureConfiguration
++ XXX.feature.configurations.HugeMushroomFeatureConfiguration
+- XXX.feature.configurations.JigsawConfiguration
++ XXX.feature.configurations.LargeDripstoneConfiguration
+- XXX.feature.configurations.LayerConfiguration
++ XXX.feature.configurations.MineshaftConfiguration
+- XXX.feature.configurations.NetherForestVegetationConfig
++ XXX.feature.configurations.NoneDecoratorConfiguration
++ XXX.feature.configurations.OreConfiguration$Predicates
+- XXX.feature.configurations.OreConfiguration$TargetBlockState
++ XXX.feature.configurations.package-info
++ XXX.feature.configurations.PointedDripstoneConfiguration
+- XXX.feature.configurations.ProbabilityFeatureConfiguration
++ XXX.feature.configurations.RandomBooleanFeatureConfiguration
+- XXX.feature.configurations.RandomFeatureConfiguration
++ XXX.feature.configurations.RandomPatchConfiguration
+- XXX.feature.configurations.RangeConfiguration
++ XXX.feature.configurations.ReplaceBlockConfiguration
+- XXX.feature.configurations.ReplaceSphereConfiguration
++ XXX.feature.configurations.RootSystemConfiguration
+- XXX.feature.configurations.RuinedPortalConfiguration
++ XXX.feature.configurations.ScatterDecoratorConfiguration
+- XXX.feature.configurations.TwistingVinesConfig
++ XXX.feature.configurations.UnderwaterMagmaConfiguration
+- XXX.feature.configurations.VegetationPatchConfiguration
+- XXX.feature.featuresize.FeatureSize
++ XXX.feature.featuresize.FeatureSizeType
+- XXX.feature.featuresize.package-info
+- XXX.feature.featuresize.ThreeLayersFeatureSize
++ XXX.feature.featuresize.TwoLayersFeatureSize
++ XXX.feature.foliageplacers.AcaciaFoliagePlacer
+- XXX.feature.foliageplacers.BlobFoliagePlacer
++ XXX.feature.foliageplacers.BushFoliagePlacer
+- XXX.feature.foliageplacers.DarkOakFoliagePlacer
++ XXX.feature.foliageplacers.FancyFoliagePlacer
+- XXX.feature.foliageplacers.FoliagePlacer
++ XXX.feature.foliageplacers.FoliagePlacer$FoliageAttachment
+- XXX.feature.foliageplacers.FoliagePlacerType
++ XXX.feature.foliageplacers.MegaJungleFoliagePlacer
+- XXX.feature.foliageplacers.MegaPineFoliagePlacer
+- XXX.feature.foliageplacers.package-info
++ XXX.feature.foliageplacers.PineFoliagePlacer
+- XXX.feature.foliageplacers.RandomSpreadFoliagePlacer
++ XXX.feature.foliageplacers.SpruceFoliagePlacer
+- XXX.feature.stateproviders.BlockStateProvider
++ XXX.feature.stateproviders.BlockStateProviderType
+- XXX.feature.stateproviders.DualNoiseProvider
++ XXX.feature.stateproviders.NoiseBasedStateProvider
+- XXX.feature.stateproviders.NoiseProvider
++ XXX.feature.stateproviders.NoiseThresholdProvider
+- XXX.feature.stateproviders.package-info
+- XXX.feature.stateproviders.RandomizedIntStateProvider
++ XXX.feature.stateproviders.RotatedBlockProvider
+- XXX.feature.stateproviders.SimpleStateProvider
++ XXX.feature.stateproviders.WeightedStateProvider
++ XXX.feature.structures.EmptyPoolElement
+- XXX.feature.structures.FeaturePoolElement
++ XXX.feature.structures.JigsawJunction
+- XXX.feature.structures.JigsawPlacement
++ XXX.feature.structures.JigsawPlacement$PieceFactory
+- XXX.feature.structures.JigsawPlacement$PieceState
++ XXX.feature.structures.JigsawPlacement$Placer
+- XXX.feature.structures.LegacySinglePoolElement
++ XXX.feature.structures.ListPoolElement
++ XXX.feature.structures.package-info
+- XXX.feature.structures.SinglePoolElement
++ XXX.feature.structures.StructurePoolElement
+- XXX.feature.structures.StructurePoolElementType
++ XXX.feature.structures.StructureTemplatePool
+- XXX.feature.structures.StructureTemplatePool$Projection
+- XXX.feature.treedecorators.AlterGroundDecorator
++ XXX.feature.treedecorators.BeehiveDecorator
+- XXX.feature.treedecorators.CocoaDecorator
++ XXX.feature.treedecorators.LeaveVineDecorator
++ XXX.feature.treedecorators.package-info
+- XXX.feature.treedecorators.TreeDecorator
++ XXX.feature.treedecorators.TreeDecoratorType
+- XXX.feature.treedecorators.TrunkVineDecorator
+- XXX.feature.trunkplacers.BendingTrunkPlacer
++ XXX.feature.trunkplacers.DarkOakTrunkPlacer
+- XXX.feature.trunkplacers.FancyTrunkPlacer
++ XXX.feature.trunkplacers.FancyTrunkPlacer$FoliageCoords
+- XXX.feature.trunkplacers.ForkingTrunkPlacer
++ XXX.feature.trunkplacers.GiantTrunkPlacer
+- XXX.feature.trunkplacers.MegaJungleTrunkPlacer
+- XXX.feature.trunkplacers.package-info
++ XXX.feature.trunkplacers.StraightTrunkPlacer
+- XXX.feature.trunkplacers.TrunkPlacer
++ XXX.feature.trunkplacers.TrunkPlacerType
+- XXX.goal.target.DefendVillageTargetGoal
++ XXX.goal.target.HurtByTargetGoal
+- XXX.goal.target.NearestAttackableTargetGoal
++ XXX.goal.target.NearestAttackableWitchTargetGoal
+- XXX.goal.target.NearestHealableRaiderTargetGoal
++ XXX.goal.target.NonTameRandomTargetGoal
+- XXX.goal.target.OwnerHurtByTargetGoal
++ XXX.goal.target.OwnerHurtTargetGoal
+- XXX.goal.target.package-info
+- XXX.goal.target.ResetUniversalAngerTargetGoal
++ XXX.goal.target.TargetGoal
++ XXX.inventory.tooltip.BundleTooltip
++ XXX.inventory.tooltip.package-info
+- XXX.inventory.tooltip.TooltipComponent
++ XXX.item.alchemy.package-info
+- XXX.item.alchemy.Potion
++ XXX.item.alchemy.PotionBrewing
+- XXX.item.alchemy.PotionBrewing$Mix
+- XXX.item.alchemy.Potions
++ XXX.item.alchemy.PotionUtils
+- XXX.item.context.BlockPlaceContext
++ XXX.item.context.DirectionalPlaceContext
+- XXX.item.context.DirectionalPlaceContext$1
+- XXX.item.context.package-info
++ XXX.item.context.UseOnContext
++ XXX.item.crafting.AbstractCookingRecipe
+- XXX.item.crafting.ArmorDyeRecipe
++ XXX.item.crafting.BannerDuplicateRecipe
+- XXX.item.crafting.BlastingRecipe
++ XXX.item.crafting.BookCloningRecipe
+- XXX.item.crafting.CampfireCookingRecipe
++ XXX.item.crafting.CraftingRecipe
+- XXX.item.crafting.CustomRecipe
++ XXX.item.crafting.FireworkRocketRecipe
+- XXX.item.crafting.FireworkStarFadeRecipe
++ XXX.item.crafting.FireworkStarRecipe
+- XXX.item.crafting.Ingredient
++ XXX.item.crafting.Ingredient$ItemValue
+- XXX.item.crafting.Ingredient$TagValue
++ XXX.item.crafting.Ingredient$Value
+- XXX.item.crafting.MapCloningRecipe
++ XXX.item.crafting.MapExtendingRecipe
++ XXX.item.crafting.package-info
+- XXX.item.crafting.Recipe
++ XXX.item.crafting.RecipeManager
+- XXX.item.crafting.RecipeSerializer
++ XXX.item.crafting.RecipeType
+- XXX.item.crafting.RecipeType$1
++ XXX.item.crafting.RepairItemRecipe
+- XXX.item.crafting.ShapedRecipe
++ XXX.item.crafting.ShapedRecipe$Serializer
+- XXX.item.crafting.ShapelessRecipe
++ XXX.item.crafting.ShapelessRecipe$Serializer
+- XXX.item.crafting.ShieldDecorationRecipe
++ XXX.item.crafting.ShulkerBoxColoring
+- XXX.item.crafting.SimpleCookingSerializer
++ XXX.item.crafting.SimpleCookingSerializer$CookieBaker
+- XXX.item.crafting.SimpleRecipeSerializer
++ XXX.item.crafting.SingleItemRecipe
+- XXX.item.crafting.SingleItemRecipe$Serializer
++ XXX.item.crafting.SingleItemRecipe$Serializer$SingleItemMaker
+- XXX.item.crafting.SmeltingRecipe
++ XXX.item.crafting.SmokingRecipe
+- XXX.item.crafting.StonecutterRecipe
++ XXX.item.crafting.SuspiciousStewRecipe
+- XXX.item.crafting.TippedArrowRecipe
++ XXX.item.crafting.UpgradeRecipe
+- XXX.item.crafting.UpgradeRecipe$Serializer
+- XXX.item.enchantment.ArrowDamageEnchantment
++ XXX.item.enchantment.ArrowFireEnchantment
+- XXX.item.enchantment.ArrowInfiniteEnchantment
++ XXX.item.enchantment.ArrowKnockbackEnchantment
+- XXX.item.enchantment.ArrowPiercingEnchantment
++ XXX.item.enchantment.BindingCurseEnchantment
+- XXX.item.enchantment.DamageEnchantment
++ XXX.item.enchantment.DigDurabilityEnchantment
+- XXX.item.enchantment.DiggingEnchantment
++ XXX.item.enchantment.Enchantment
+- XXX.item.enchantment.Enchantment$Rarity
++ XXX.item.enchantment.EnchantmentCategory
+- XXX.item.enchantment.EnchantmentCategory$1
++ XXX.item.enchantment.EnchantmentCategory$10
+- XXX.item.enchantment.EnchantmentCategory$11
++ XXX.item.enchantment.EnchantmentCategory$12
+- XXX.item.enchantment.EnchantmentCategory$13
++ XXX.item.enchantment.EnchantmentCategory$14
+- XXX.item.enchantment.EnchantmentCategory$2
++ XXX.item.enchantment.EnchantmentCategory$3
+- XXX.item.enchantment.EnchantmentCategory$4
++ XXX.item.enchantment.EnchantmentCategory$5
+- XXX.item.enchantment.EnchantmentCategory$6
++ XXX.item.enchantment.EnchantmentCategory$7
+- XXX.item.enchantment.EnchantmentCategory$8
++ XXX.item.enchantment.EnchantmentCategory$9
+- XXX.item.enchantment.EnchantmentHelper
++ XXX.item.enchantment.EnchantmentHelper$EnchantmentVisitor
+- XXX.item.enchantment.EnchantmentInstance
++ XXX.item.enchantment.Enchantments
+- XXX.item.enchantment.FireAspectEnchantment
++ XXX.item.enchantment.FishingSpeedEnchantment
+- XXX.item.enchantment.FrostWalkerEnchantment
++ XXX.item.enchantment.KnockbackEnchantment
+- XXX.item.enchantment.LootBonusEnchantment
++ XXX.item.enchantment.MendingEnchantment
+- XXX.item.enchantment.MultiShotEnchantment
++ XXX.item.enchantment.OxygenEnchantment
+- XXX.item.enchantment.package-info
+- XXX.item.enchantment.ProtectionEnchantment
++ XXX.item.enchantment.ProtectionEnchantment$Type
+- XXX.item.enchantment.QuickChargeEnchantment
++ XXX.item.enchantment.SoulSpeedEnchantment
+- XXX.item.enchantment.SweepingEdgeEnchantment
++ XXX.item.enchantment.ThornsEnchantment
+- XXX.item.enchantment.TridentChannelingEnchantment
++ XXX.item.enchantment.TridentImpalerEnchantment
+- XXX.item.enchantment.TridentLoyaltyEnchantment
++ XXX.item.enchantment.TridentRiptideEnchantment
+- XXX.item.enchantment.UntouchingEnchantment
++ XXX.item.enchantment.VanishingCurseEnchantment
+- XXX.item.enchantment.WaterWalkerEnchantment
++ XXX.item.enchantment.WaterWorkerEnchantment
+- XXX.item.trading.Merchant
++ XXX.item.trading.MerchantOffer
+- XXX.item.trading.MerchantOffers
++ XXX.item.trading.package-info
+- XXX.jfr.callback.package-info
++ XXX.jfr.callback.ProfiledDuration
++ XXX.jfr.event.ChunkGenerationEvent
+- XXX.jfr.event.ChunkGenerationEvent$Fields
++ XXX.jfr.event.NetworkSummaryEvent
+- XXX.jfr.event.NetworkSummaryEvent$Fields
++ XXX.jfr.event.NetworkSummaryEvent$SumAggregation
++ XXX.jfr.event.package-info
+- XXX.jfr.event.PacketEvent
++ XXX.jfr.event.PacketEvent$Fields
+- XXX.jfr.event.PacketReceivedEvent
++ XXX.jfr.event.PacketSentEvent
+- XXX.jfr.event.ServerTickTimeEvent
++ XXX.jfr.event.ServerTickTimeEvent$Fields
+- XXX.jfr.event.WorldLoadFinishedEvent
++ XXX.jfr.parse.JfrStatsParser
+- XXX.jfr.parse.JfrStatsParser$1
++ XXX.jfr.parse.JfrStatsParser$MutableCountAndSize
+- XXX.jfr.parse.JfrStatsResult
++ XXX.jfr.parse.package-info
+- XXX.jfr.serialize.JfrResultJsonSerializer
++ XXX.jfr.serialize.package-info
+- XXX.jfr.stats.ChunkGenStat
++ XXX.jfr.stats.CpuLoadStat
+- XXX.jfr.stats.FileIOStat
++ XXX.jfr.stats.FileIOStat$Summary
+- XXX.jfr.stats.GcHeapStat
++ XXX.jfr.stats.GcHeapStat$Summary
+- XXX.jfr.stats.GcHeapStat$Timing
++ XXX.jfr.stats.NetworkPacketSummary
+- XXX.jfr.stats.NetworkPacketSummary$PacketCountAndSize
++ XXX.jfr.stats.NetworkPacketSummary$PacketIdentification
+- XXX.jfr.stats.package-info
+- XXX.jfr.stats.ThreadAllocationStat
++ XXX.jfr.stats.ThreadAllocationStat$Summary
+- XXX.jfr.stats.TickTimeStat
+- XXX.jfr.stats.TimedStat
++ XXX.jfr.stats.TimedStatSummary
++ XXX.jfr.stats.TimeStamped
++ XXX.level.biome.AmbientAdditionsSettings
+- XXX.level.biome.AmbientMoodSettings
++ XXX.level.biome.AmbientParticleSettings
+- XXX.level.biome.Biome
++ XXX.level.biome.Biome$1
+- XXX.level.biome.Biome$BiomeBuilder
++ XXX.level.biome.Biome$BiomeCategory
+- XXX.level.biome.Biome$ClimateSettings
++ XXX.level.biome.Biome$Precipitation
+- XXX.level.biome.Biome$TemperatureModifier
++ XXX.level.biome.Biome$TemperatureModifier$1
+- XXX.level.biome.Biome$TemperatureModifier$2
++ XXX.level.biome.BiomeGenerationSettings
+- XXX.level.biome.BiomeGenerationSettings$Builder
++ XXX.level.biome.BiomeManager
+- XXX.level.biome.BiomeManager$NoiseBiomeSource
++ XXX.level.levelgen.Density
+- XXX.level.levelgen.FlatLevelSource
++ XXX.level.levelgen.GenerationStep
+- XXX.level.levelgen.GenerationStep$Carving
++ XXX.level.levelgen.GenerationStep$Decoration
+- XXX.level.levelgen.GeodeBlockSettings
++ XXX.level.levelgen.GeodeCrackSettings
+- XXX.level.levelgen.GeodeLayerSettings
++ XXX.level.levelgen.Heightmap
+- XXX.level.levelgen.Heightmap$Types
++ XXX.level.levelgen.Heightmap$Usage
+- XXX.level.levelgen.LegacyRandomSource
++ XXX.level.levelgen.LegacyRandomSource$LegacyPositionalRandomFactory
+- XXX.level.levelgen.MarsagliaPolarGaussian
++ XXX.level.levelgen.NoiseBasedChunkGenerator
+- XXX.level.levelgen.NoiseChunk
++ XXX.level.levelgen.NoiseChunk$BlockStateFiller
+- XXX.level.levelgen.NoiseChunk$InterpolatableNoise
++ XXX.level.levelgen.NoiseChunk$NoiseFiller
+- XXX.level.levelgen.NoiseChunk$NoiseInterpolator
++ XXX.level.levelgen.NoiseChunk$Sampler
+- XXX.level.levelgen.NoiseGeneratorSettings
+- XXX.level.levelgen.Noises
++ XXX.level.levelgen.NoiseSampler
+- XXX.level.levelgen.NoiseSampler$FlatNoiseData
++ XXX.level.levelgen.NoiseSampler$QuantizedSpaghettiRarity
+- XXX.level.levelgen.NoiseSampler$VeinType
++ XXX.level.levelgen.NoiseSamplingSettings
+- XXX.level.levelgen.NoiseSettings
++ XXX.level.levelgen.NoiseSlider
++ XXX.level.levelgen.PatrolSpawner
+- XXX.level.levelgen.PhantomSpawner
++ XXX.level.levelgen.PositionalRandomFactory
+- XXX.level.levelgen.RandomSource
++ XXX.level.levelgen.RandomSupport
+- XXX.level.levelgen.RandomSupport$Seed128bit
++ XXX.level.levelgen.SingleThreadedRandomSource
+- XXX.level.levelgen.StructureSettings
++ XXX.level.levelgen.SurfaceRules
+- XXX.level.levelgen.SurfaceRules$AbovePreliminarySurface
++ XXX.level.levelgen.SurfaceRules$Bandlands
+- XXX.level.levelgen.SurfaceRules$BiomeConditionSource
++ XXX.level.levelgen.SurfaceRules$BiomeConditionSource$1BiomeCondition
+- XXX.level.levelgen.SurfaceRules$BlockRuleSource
++ XXX.level.levelgen.SurfaceRules$Condition
+- XXX.level.levelgen.SurfaceRules$ConditionSource
++ XXX.level.levelgen.SurfaceRules$Context
+- XXX.level.levelgen.SurfaceRules$Context$AbovePreliminarySurfaceCondition
++ XXX.level.levelgen.SurfaceRules$Context$HoleCondition
+- XXX.level.levelgen.SurfaceRules$Context$SteepMaterialCondition
++ XXX.level.levelgen.SurfaceRules$Context$TemperatureHelperCondition
+- XXX.level.levelgen.SurfaceRules$Hole
++ XXX.level.levelgen.SurfaceRules$LazyCondition
+- XXX.level.levelgen.SurfaceRules$LazyXZCondition
++ XXX.level.levelgen.SurfaceRules$LazyYCondition
+- XXX.level.levelgen.SurfaceRules$NoiseThresholdConditionSource
++ XXX.level.levelgen.SurfaceRules$NoiseThresholdConditionSource$1NoiseThresholdCondition
+- XXX.level.levelgen.SurfaceRules$NotCondition
++ XXX.level.levelgen.SurfaceRules$NotConditionSource
+- XXX.level.levelgen.SurfaceRules$RuleSource
++ XXX.level.levelgen.SurfaceRules$SequenceRule
+- XXX.level.levelgen.SurfaceRules$SequenceRuleSource
++ XXX.level.levelgen.SurfaceRules$StateRule
+- XXX.level.levelgen.SurfaceRules$Steep
++ XXX.level.levelgen.SurfaceRules$StoneDepthCheck
+- XXX.level.levelgen.SurfaceRules$StoneDepthCheck$1StoneDepthCondition
++ XXX.level.levelgen.SurfaceRules$SurfaceRule
+- XXX.level.levelgen.SurfaceRules$Temperature
++ XXX.level.levelgen.SurfaceRules$TestRule
+- XXX.level.levelgen.SurfaceRules$TestRuleSource
++ XXX.level.levelgen.SurfaceRules$VerticalGradientConditionSource
+- XXX.level.levelgen.SurfaceRules$VerticalGradientConditionSource$1VerticalGradientCondition
++ XXX.level.levelgen.SurfaceRules$WaterConditionSource
+- XXX.level.levelgen.SurfaceRules$WaterConditionSource$1WaterCondition
++ XXX.level.levelgen.SurfaceRules$YConditionSource
+- XXX.level.levelgen.SurfaceRules$YConditionSource$1YCondition
++ XXX.level.levelgen.SurfaceSystem
+- XXX.level.levelgen.SurfaceSystem$1
++ XXX.level.levelgen.TerrainInfo
+- XXX.level.levelgen.VerticalAnchor
++ XXX.level.levelgen.VerticalAnchor$AboveBottom
+- XXX.level.levelgen.VerticalAnchor$Absolute
++ XXX.level.levelgen.VerticalAnchor$BelowTop
++ XXX.level.levelgen.WorldGenerationContext
+- XXX.level.levelgen.WorldgenRandom
++ XXX.level.levelgen.WorldgenRandom$Algorithm
+- XXX.level.levelgen.WorldGenSettings
+- XXX.level.levelgen.Xoroshiro128PlusPlus
++ XXX.level.levelgen.XoroshiroRandomSource
+- XXX.level.levelgen.XoroshiroRandomSource$XoroshiroPositionalRandomFactory
++ XXX.levelgen.blending.Blender
+- XXX.levelgen.blending.Blender$1
+- XXX.levelgen.blending.Blender$PositionedBlendingData
++ XXX.levelgen.blending.BlendingData
+- XXX.levelgen.blending.BlendingData$1
++ XXX.levelgen.blending.BlendingData$DensityConsumer
+- XXX.levelgen.blending.BlendingData$HeightConsumer
++ XXX.levelgen.blending.GenerationUpgradeData
+- XXX.levelgen.blockpredicates.MatchingBlocksPredicate
++ XXX.levelgen.blockpredicates.MatchingFluidsPredicate
+- XXX.levelgen.blockpredicates.NotPredicate
++ XXX.levelgen.blockpredicates.ReplaceablePredicate
+- XXX.levelgen.blockpredicates.SolidPredicate
++ XXX.levelgen.feature.DeltaFeature
+- XXX.levelgen.feature.DesertPyramidFeature
++ XXX.levelgen.feature.DesertWellFeature
+- XXX.levelgen.feature.DiskReplaceFeature
++ XXX.levelgen.feature.DripstoneClusterFeature
+- XXX.levelgen.feature.DripstoneUtils
++ XXX.levelgen.feature.EndCityFeature
+- XXX.levelgen.feature.EndGatewayFeature
++ XXX.levelgen.feature.EndIslandFeature
+- XXX.levelgen.feature.EndPodiumFeature
++ XXX.levelgen.feature.Feature
+- XXX.levelgen.feature.FeatureCountTracker
+- XXX.levelgen.feature.FeatureCountTracker$FeatureData
+- XXX.levelgen.feature.FeaturePlaceContext
++ XXX.levelgen.feature.FillLayerFeature
+- XXX.levelgen.feature.FossilFeature
++ XXX.levelgen.feature.FossilFeatureConfiguration
+- XXX.levelgen.feature.GeodeFeature
++ XXX.levelgen.feature.GlowLichenFeature
+- XXX.levelgen.feature.GlowstoneFeature
++ XXX.levelgen.feature.HugeBrownMushroomFeature
+- XXX.levelgen.feature.HugeFungusConfiguration
++ XXX.levelgen.feature.HugeFungusFeature
+- XXX.levelgen.feature.HugeRedMushroomFeature
++ XXX.levelgen.feature.IcebergFeature
++ XXX.levelgen.feature.IcePatchFeature
+- XXX.levelgen.feature.IceSpikeFeature
+- XXX.levelgen.feature.IglooFeature
++ XXX.levelgen.feature.JigsawFeature
+- XXX.levelgen.feature.JunglePyramidFeature
++ XXX.levelgen.feature.KelpFeature
+- XXX.levelgen.feature.LakeFeature
++ XXX.levelgen.feature.package-info
++ XXX.levelgen.feature.WeightedConfiguredFeature
+- XXX.levelgen.feature.WeightedPlacedFeature
++ XXX.levelgen.flat.FlatLayerInfo
+- XXX.levelgen.flat.FlatLevelGeneratorSettings
++ XXX.levelgen.flat.package-info
+- XXX.levelgen.heightproviders.BiasedToBottomHeight
++ XXX.levelgen.heightproviders.ConstantHeight
+- XXX.levelgen.heightproviders.HeightProvider
++ XXX.levelgen.heightproviders.HeightProviderType
+- XXX.levelgen.heightproviders.TrapezoidHeight
++ XXX.levelgen.heightproviders.UniformHeight
+- XXX.levelgen.heightproviders.VeryBiasedToBottomHeight
++ XXX.levelgen.placement.BlockFilterDecorator
+- XXX.levelgen.placement.BlockPredicateFilter
++ XXX.levelgen.placement.CarvingMaskDecoratorConfiguration
++ XXX.levelgen.placement.ChanceDecorator
++ XXX.levelgen.placement.ConfiguredDecorator
++ XXX.levelgen.placement.CountNoiseDecorator
+- XXX.levelgen.placement.CountPlacement
++ XXX.levelgen.placement.DarkOakTreePlacementDecorator
++ XXX.levelgen.placement.DecoratedDecoratorConfiguration
++ XXX.levelgen.placement.EndGatewayPlacementDecorator
++ XXX.levelgen.placement.EnvironmentScanDecorator
++ XXX.levelgen.placement.FilterDecorator
++ XXX.levelgen.placement.HeightmapDecorator
+- XXX.levelgen.placement.HeightRangePlacement
+- XXX.levelgen.placement.InSquarePlacement
++ XXX.levelgen.placement.LakeLavaPlacementDecorator
++ XXX.levelgen.placement.NoiseCountFactorDecoratorConfiguration
+- XXX.levelgen.placement.NoiseThresholdCountPlacement
+- XXX.levelgen.placement.PlacementContext
+- XXX.levelgen.placement.PlacementModifier
+- XXX.levelgen.placement.RandomOffsetPlacement
++ XXX.levelgen.placement.RangeDecorator
+- XXX.levelgen.placement.RepeatingPlacement
++ XXX.levelgen.placement.ScatterDecorator
++ XXX.levelgen.placement.SurfaceRelativeThresholdConfiguration
+- XXX.levelgen.placement.SurfaceWaterDepthFilter
++ XXX.levelgen.placement.VerticalDecorator
++ XXX.levelgen.placement.WaterDepthThresholdDecorator
+- XXX.metrics.profiling.ActiveMetricsRecorder
++ XXX.metrics.profiling.InactiveMetricsRecorder
+- XXX.metrics.profiling.MetricsRecorder
++ XXX.metrics.profiling.package-info
++ XXX.metrics.profiling.ProfilerSamplerAdapter
+- XXX.metrics.profiling.ServerMetricsSamplersProvider
++ XXX.metrics.profiling.ServerMetricsSamplersProvider$1
+- XXX.metrics.profiling.ServerMetricsSamplersProvider$CpuStats
+- XXX.metrics.storage.MetricsPersister
+- XXX.metrics.storage.package-info
++ XXX.metrics.storage.RecordedDeviation
+- XXX.minecraft.data.package-info
++ XXX.minecraft.resources.RegistryReadOps$ResourceAccess
++ XXX.minecraft.resources.RegistryReadOps$ResourceAccess$MemoryMap
+- XXX.minecraft.resources.RegistryResourceAccess
+- XXX.minecraft.resources.RegistryResourceAccess$InMemoryStorage
+- XXX.minecraft.resources.RegistryResourceAccess$ParsedEntry
+- XXX.minecraft.util.ExtraCodecs$3
+- XXX.minecraft.util.package-info
++ XXX.minecraft.util.StringUtil
+- XXX.minecraft.util.TelemetryConstants
++ XXX.minecraft.util.ThreadingDetector
+- XXX.minecraft.util.TimeUtil
++ XXX.minecraft.util.ToFloatFunction
+- XXX.minecraft.util.Tuple
++ XXX.minecraft.util.Unit
+- XXX.minecraft.util.VisibleForDebug
++ XXX.minecraft.util.ZeroBitStorage
++ XXX.minecraft.world.BossEvent
+- XXX.minecraft.world.BossEvent$BossBarColor
++ XXX.minecraft.world.BossEvent$BossBarOverlay
+- XXX.minecraft.world.Clearable
++ XXX.minecraft.world.CompoundContainer
+- XXX.minecraft.world.Container
++ XXX.minecraft.world.ContainerHelper
+- XXX.minecraft.world.ContainerListener
++ XXX.minecraft.world.Containers
+- XXX.minecraft.world.Difficulty
++ XXX.minecraft.world.DifficultyInstance
+- XXX.minecraft.world.InteractionHand
++ XXX.minecraft.world.InteractionResult
+- XXX.minecraft.world.InteractionResultHolder
++ XXX.minecraft.world.LockCode
+- XXX.minecraft.world.MenuProvider
++ XXX.minecraft.world.Nameable
+- XXX.minecraft.world.SimpleContainer
++ XXX.minecraft.world.SimpleMenuProvider
+- XXX.minecraft.world.WorldlyContainer
++ XXX.minecraft.world.WorldlyContainerHolder
++ XXX.models.blockstates.BlockStateGenerator
+- XXX.models.blockstates.Condition
++ XXX.models.blockstates.Condition$CompositeCondition
+- XXX.models.blockstates.Condition$Operation
++ XXX.models.blockstates.Condition$TerminalCondition
+- XXX.models.blockstates.MultiPartGenerator
++ XXX.models.blockstates.MultiPartGenerator$ConditionalEntry
+- XXX.models.blockstates.MultiPartGenerator$Entry
++ XXX.models.blockstates.MultiVariantGenerator
++ XXX.models.blockstates.package-info
+- XXX.models.blockstates.PropertyDispatch
++ XXX.models.blockstates.PropertyDispatch$C1
+- XXX.models.blockstates.PropertyDispatch$C2
++ XXX.models.blockstates.PropertyDispatch$C3
+- XXX.models.blockstates.PropertyDispatch$C4
++ XXX.models.blockstates.PropertyDispatch$C5
+- XXX.models.blockstates.PropertyDispatch$PentaFunction
++ XXX.models.blockstates.PropertyDispatch$QuadFunction
+- XXX.models.blockstates.PropertyDispatch$TriFunction
++ XXX.models.blockstates.Selector
+- XXX.models.blockstates.Variant
++ XXX.models.blockstates.VariantProperties
+- XXX.models.blockstates.VariantProperties$Rotation
++ XXX.models.blockstates.VariantProperty
+- XXX.models.blockstates.VariantProperty$Value
+- XXX.models.model.DelegatedModel
++ XXX.models.model.ModelLocationUtils
+- XXX.models.model.ModelTemplate
++ XXX.models.model.ModelTemplates
+- XXX.models.model.package-info
+- XXX.models.model.TexturedModel
++ XXX.models.model.TexturedModel$Provider
+- XXX.models.model.TextureMapping
++ XXX.models.model.TextureSlot
++ XXX.monitoring.jmx.MinecraftServerStatistics
+- XXX.monitoring.jmx.MinecraftServerStatistics$AttributeDescription
++ XXX.monitoring.jmx.package-info
++ XXX.monster.hoglin.Hoglin
+- XXX.monster.hoglin.HoglinAi
++ XXX.monster.hoglin.HoglinBase
+- XXX.monster.hoglin.package-info
+- XXX.monster.piglin.AbstractPiglin
+- XXX.monster.piglin.package-info
++ XXX.monster.piglin.Piglin
+- XXX.monster.piglin.PiglinAi
++ XXX.monster.piglin.PiglinArmPose
+- XXX.monster.piglin.PiglinBrute
++ XXX.monster.piglin.PiglinBruteAi
+- XXX.monster.piglin.RememberIfHoglinWasKilled
++ XXX.monster.piglin.StartAdmiringItemIfSeen
+- XXX.monster.piglin.StartHuntingHoglin
++ XXX.monster.piglin.StopAdmiringIfItemTooFarAway
+- XXX.monster.piglin.StopAdmiringIfTiredOfTryingToReachItem
++ XXX.monster.piglin.StopHoldingItemIfNoLongerAdmiring
++ XXX.placement.nether.package-info
+- XXX.profiling.jfr.Environment
++ XXX.profiling.jfr.JfrProfiler
+- XXX.profiling.jfr.JfrProfiler$1
++ XXX.profiling.jfr.JvmProfiler
+- XXX.profiling.jfr.JvmProfiler$NoOpProfiler
+- XXX.profiling.jfr.package-info
++ XXX.profiling.jfr.Percentiles
+- XXX.profiling.jfr.SummaryReporter
++ XXX.profiling.metrics.MetricCategory
+- XXX.profiling.metrics.MetricSampler
++ XXX.profiling.metrics.MetricSampler$MetricSamplerBuilder
+- XXX.profiling.metrics.MetricSampler$SamplerResult
++ XXX.profiling.metrics.MetricSampler$ThresholdTest
+- XXX.profiling.metrics.MetricSampler$ValueIncreasedByPercentage
++ XXX.profiling.metrics.MetricsRegistry
+- XXX.profiling.metrics.MetricsRegistry$AggregatedMetricSampler
++ XXX.profiling.metrics.MetricsSamplerProvider
++ XXX.profiling.metrics.package-info
+- XXX.profiling.metrics.ProfilerMeasured
++ XXX.util.datafix.DataFixers
+- XXX.util.datafix.DataFixers$1
++ XXX.util.datafix.DataFixers$2
+- XXX.util.datafix.DataFixTypes
++ XXX.util.datafix.package-info
+- XXX.util.datafix.PackedBitStorage
++ XXX.util.profiling.ActiveProfiler
+- XXX.util.profiling.ActiveProfiler$PathEntry
++ XXX.util.profiling.ContinuousProfiler
+- XXX.util.profiling.EmptyProfileResults
++ XXX.util.profiling.FilledProfileResults
+- XXX.util.profiling.FilledProfileResults$1
++ XXX.util.profiling.FilledProfileResults$CounterCollector
+- XXX.util.profiling.InactiveProfiler
++ XXX.util.profiling.package-info
++ XXX.util.profiling.ProfileCollector
+- XXX.util.profiling.ProfileResults
++ XXX.util.profiling.ProfilerFiller
+- XXX.util.profiling.ProfilerFiller$1
++ XXX.util.profiling.ProfilerPathEntry
+- XXX.util.profiling.ResultField
++ XXX.util.profiling.SingleTickProfiler
+- XXX.util.random.package-info
+- XXX.util.random.SimpleWeightedRandomList
++ XXX.util.random.SimpleWeightedRandomList$Builder
+- XXX.util.random.Weight
++ XXX.util.random.WeightedEntry
+- XXX.util.random.WeightedEntry$IntrusiveBase
++ XXX.util.random.WeightedEntry$Wrapper
+- XXX.util.random.WeightedRandom
++ XXX.util.random.WeightedRandomList
++ XXX.util.thread.BlockableEventLoop
+- XXX.util.thread.NamedThreadFactory
++ XXX.util.thread.package-info
++ XXX.util.thread.ProcessorHandle
+- XXX.util.thread.ProcessorHandle$1
++ XXX.util.thread.ProcessorMailbox
+- XXX.util.thread.ReentrantBlockableEventLoop
++ XXX.util.thread.StrictQueue
+- XXX.util.thread.StrictQueue$FixedPriorityQueue
++ XXX.util.thread.StrictQueue$IntRunnable
+- XXX.util.thread.StrictQueue$QueueStrictQueue
+- XXX.util.valueproviders.BiasedToBottomInt
++ XXX.util.valueproviders.ClampedInt
+- XXX.util.valueproviders.ClampedNormalFloat
++ XXX.util.valueproviders.ClampedNormalInt
+- XXX.util.valueproviders.ConstantFloat
++ XXX.util.valueproviders.ConstantInt
+- XXX.util.valueproviders.FloatProvider
++ XXX.util.valueproviders.FloatProviderType
+- XXX.util.valueproviders.IntProvider
++ XXX.util.valueproviders.IntProviderType
+- XXX.util.valueproviders.package-info
+- XXX.util.valueproviders.TrapezoidFloat
++ XXX.util.valueproviders.UniformFloat
+- XXX.util.valueproviders.UniformInt
++ XXX.util.valueproviders.WeightedListInt
+- XXX.util.worldupdate.package-info
++ XXX.util.worldupdate.WorldUpgrader
++ XXX.village.poi.package-info
++ XXX.village.poi.PoiManager
+- XXX.village.poi.PoiManager$DistanceTracker
++ XXX.village.poi.PoiManager$Occupancy
+- XXX.village.poi.PoiRecord
++ XXX.village.poi.PoiSection
+- XXX.village.poi.PoiType
+- XXX.world.damagesource.BadRespawnPointDamage
++ XXX.world.damagesource.CombatEntry
+- XXX.world.damagesource.CombatRules
++ XXX.world.damagesource.CombatTracker
+- XXX.world.damagesource.DamageSource
++ XXX.world.damagesource.EntityDamageSource
+- XXX.world.damagesource.IndirectEntityDamageSource
++ XXX.world.damagesource.package-info
+- XXX.world.effect.AbsoptionMobEffect
++ XXX.world.effect.AttackDamageMobEffect
+- XXX.world.effect.HealthBoostMobEffect
++ XXX.world.effect.InstantenousMobEffect
+- XXX.world.effect.MobEffect
++ XXX.world.effect.MobEffectCategory
+- XXX.world.effect.MobEffectInstance
+- XXX.world.effect.MobEffects
++ XXX.world.effect.MobEffects$1
++ XXX.world.effect.MobEffectUtil
+- XXX.world.effect.package-info
++ XXX.world.entity.AgeableMob
+- XXX.world.entity.AgeableMob$AgeableMobGroupData
++ XXX.world.entity.AreaEffectCloud
+- XXX.world.entity.Entity
++ XXX.world.entity.Entity$1
+- XXX.world.entity.Entity$MoveFunction
++ XXX.world.entity.Entity$MovementEmission
+- XXX.world.entity.Entity$RemovalReason
++ XXX.world.entity.EntityDimensions
+- XXX.world.entity.EntityEvent
++ XXX.world.entity.EntitySelector
+- XXX.world.entity.EntitySelector$MobCanWearArmorEntitySelector
++ XXX.world.entity.EntityType
+- XXX.world.entity.EntityType$1
++ XXX.world.entity.EntityType$Builder
+- XXX.world.entity.EntityType$EntityFactory
++ XXX.world.entity.EquipmentSlot
+- XXX.world.entity.EquipmentSlot$Type
++ XXX.world.entity.ExperienceOrb
+- XXX.world.entity.FlyingMob
++ XXX.world.entity.GlowSquid
+- XXX.world.entity.HumanoidArm
++ XXX.world.entity.ItemBasedSteering
+- XXX.world.entity.ItemSteerable
++ XXX.world.entity.LerpingModel
+- XXX.world.entity.LightningBolt
++ XXX.world.entity.LivingEntity
+- XXX.world.entity.LivingEntity$1
++ XXX.world.entity.Marker
+- XXX.world.entity.Mob
++ XXX.world.entity.Mob$1
+- XXX.world.entity.MobCategory
++ XXX.world.entity.MobSpawnType
+- XXX.world.entity.MobType
++ XXX.world.entity.MoverType
+- XXX.world.entity.NeutralMob
++ XXX.world.entity.OwnableEntity
++ XXX.world.entity.package-info
+- XXX.world.entity.PathfinderMob
++ XXX.world.entity.PlayerRideable
+- XXX.world.entity.PlayerRideableJumping
++ XXX.world.entity.Pose
+- XXX.world.entity.PowerableMob
++ XXX.world.entity.ReputationEventHandler
+- XXX.world.entity.Saddleable
++ XXX.world.entity.Shearable
+- XXX.world.entity.SlotAccess
++ XXX.world.entity.SlotAccess$1
+- XXX.world.entity.SlotAccess$2
++ XXX.world.entity.SlotAccess$3
+- XXX.world.entity.SpawnGroupData
++ XXX.world.entity.SpawnPlacements
+- XXX.world.entity.SpawnPlacements$Data
++ XXX.world.entity.SpawnPlacements$SpawnPredicate
+- XXX.world.entity.SpawnPlacements$Type
++ XXX.world.entity.TamableAnimal
+- XXX.world.food.FoodConstants
++ XXX.world.food.FoodData
+- XXX.world.food.FoodProperties
++ XXX.world.food.FoodProperties$Builder
+- XXX.world.food.Foods
++ XXX.world.food.package-info
+- XXX.world.inventory.AbstractContainerMenu
++ XXX.world.inventory.AbstractContainerMenu$1
+- XXX.world.inventory.AbstractFurnaceMenu
++ XXX.world.inventory.AnvilMenu
+- XXX.world.inventory.AnvilMenu$1
++ XXX.world.inventory.BeaconMenu
+- XXX.world.inventory.BeaconMenu$1
++ XXX.world.inventory.BeaconMenu$PaymentSlot
+- XXX.world.inventory.BlastFurnaceMenu
++ XXX.world.inventory.BrewingStandMenu
+- XXX.world.inventory.BrewingStandMenu$FuelSlot
++ XXX.world.inventory.BrewingStandMenu$IngredientsSlot
+- XXX.world.inventory.BrewingStandMenu$PotionSlot
++ XXX.world.inventory.CartographyTableMenu
+- XXX.world.inventory.CartographyTableMenu$1
++ XXX.world.inventory.CartographyTableMenu$2
+- XXX.world.inventory.CartographyTableMenu$3
++ XXX.world.inventory.CartographyTableMenu$4
+- XXX.world.inventory.CartographyTableMenu$5
++ XXX.world.inventory.ChestMenu
+- XXX.world.inventory.ClickAction
++ XXX.world.inventory.ClickType
+- XXX.world.inventory.ContainerData
++ XXX.world.inventory.ContainerLevelAccess
+- XXX.world.inventory.ContainerLevelAccess$1
++ XXX.world.inventory.ContainerLevelAccess$2
+- XXX.world.inventory.ContainerListener
++ XXX.world.inventory.ContainerSynchronizer
+- XXX.world.inventory.CraftingContainer
++ XXX.world.inventory.CraftingMenu
+- XXX.world.inventory.DataSlot
++ XXX.world.inventory.DataSlot$1
+- XXX.world.inventory.DataSlot$2
++ XXX.world.inventory.DataSlot$3
+- XXX.world.inventory.DispenserMenu
++ XXX.world.inventory.EnchantmentMenu
+- XXX.world.inventory.EnchantmentMenu$1
++ XXX.world.inventory.EnchantmentMenu$2
+- XXX.world.inventory.EnchantmentMenu$3
++ XXX.world.inventory.FurnaceFuelSlot
+- XXX.world.inventory.FurnaceMenu
++ XXX.world.inventory.FurnaceResultSlot
+- XXX.world.inventory.GrindstoneMenu
++ XXX.world.inventory.GrindstoneMenu$1
+- XXX.world.inventory.GrindstoneMenu$2
++ XXX.world.inventory.GrindstoneMenu$3
+- XXX.world.inventory.GrindstoneMenu$4
++ XXX.world.inventory.HopperMenu
+- XXX.world.inventory.HorseInventoryMenu
++ XXX.world.inventory.HorseInventoryMenu$1
+- XXX.world.inventory.HorseInventoryMenu$2
++ XXX.world.inventory.InventoryMenu
+- XXX.world.inventory.InventoryMenu$1
++ XXX.world.inventory.InventoryMenu$2
+- XXX.world.inventory.ItemCombinerMenu
++ XXX.world.inventory.ItemCombinerMenu$1
+- XXX.world.inventory.ItemCombinerMenu$2
++ XXX.world.inventory.LecternMenu
+- XXX.world.inventory.LecternMenu$1
++ XXX.world.inventory.LoomMenu
+- XXX.world.inventory.LoomMenu$1
++ XXX.world.inventory.LoomMenu$2
+- XXX.world.inventory.LoomMenu$3
++ XXX.world.inventory.LoomMenu$4
+- XXX.world.inventory.LoomMenu$5
++ XXX.world.inventory.LoomMenu$6
+- XXX.world.inventory.MenuConstructor
++ XXX.world.inventory.MenuType
+- XXX.world.inventory.MenuType$MenuSupplier
++ XXX.world.inventory.MerchantContainer
+- XXX.world.inventory.MerchantMenu
++ XXX.world.inventory.MerchantResultSlot
+- XXX.world.inventory.package-info
+- XXX.world.inventory.PlayerEnderChestContainer
++ XXX.world.inventory.RecipeBookMenu
+- XXX.world.inventory.RecipeBookType
++ XXX.world.inventory.RecipeHolder
+- XXX.world.inventory.ResultContainer
++ XXX.world.inventory.ResultSlot
+- XXX.world.inventory.ShulkerBoxMenu
++ XXX.world.inventory.ShulkerBoxSlot
+- XXX.world.inventory.SimpleContainerData
++ XXX.world.inventory.Slot
+- XXX.world.inventory.SmithingMenu
++ XXX.world.inventory.SmokerMenu
+- XXX.world.inventory.StackedContentsCompatible
++ XXX.world.inventory.StonecutterMenu
+- XXX.world.inventory.StonecutterMenu$1
++ XXX.world.inventory.StonecutterMenu$2
+- XXX.world.item.AdventureModeCheck
++ XXX.world.item.AirItem
+- XXX.world.item.ArmorItem
++ XXX.world.item.ArmorItem$1
+- XXX.world.item.ArmorMaterial
++ XXX.world.item.ArmorMaterials
+- XXX.world.item.ArmorStandItem
++ XXX.world.item.ArrowItem
+- XXX.world.item.AxeItem
++ XXX.world.item.BannerItem
+- XXX.world.item.BannerPatternItem
++ XXX.world.item.BedItem
+- XXX.world.item.BlockItem
++ XXX.world.item.BoatItem
+- XXX.world.item.BoneMealItem
++ XXX.world.item.BookItem
+- XXX.world.item.BottleItem
++ XXX.world.item.BowItem
+- XXX.world.item.BowlFoodItem
++ XXX.world.item.BucketItem
+- XXX.world.item.BundleItem
++ XXX.world.item.ChorusFruitItem
+- XXX.world.item.CompassItem
++ XXX.world.item.ComplexItem
+- XXX.world.item.CreativeModeTab
++ XXX.world.item.CreativeModeTab$1
+- XXX.world.item.CreativeModeTab$10
++ XXX.world.item.CreativeModeTab$11
+- XXX.world.item.CreativeModeTab$12
++ XXX.world.item.CreativeModeTab$2
+- XXX.world.item.CreativeModeTab$3
++ XXX.world.item.CreativeModeTab$4
+- XXX.world.item.CreativeModeTab$5
++ XXX.world.item.CreativeModeTab$6
+- XXX.world.item.CreativeModeTab$7
++ XXX.world.item.CreativeModeTab$8
+- XXX.world.item.CreativeModeTab$9
++ XXX.world.item.CrossbowItem
+- XXX.world.item.DebugStickItem
++ XXX.world.item.DiggerItem
+- XXX.world.item.DispensibleContainerItem
++ XXX.world.item.DoubleHighBlockItem
+- XXX.world.item.DyeableArmorItem
++ XXX.world.item.DyeableHorseArmorItem
+- XXX.world.item.DyeableLeatherItem
+- XXX.world.item.DyeColor
++ XXX.world.item.DyeItem
++ XXX.world.item.EggItem
+- XXX.world.item.ElytraItem
++ XXX.world.item.EmptyMapItem
+- XXX.world.item.EnchantedBookItem
++ XXX.world.item.EnchantedGoldenAppleItem
+- XXX.world.item.EndCrystalItem
++ XXX.world.item.EnderEyeItem
+- XXX.world.item.EnderpearlItem
++ XXX.world.item.ExperienceBottleItem
+- XXX.world.item.FireChargeItem
++ XXX.world.item.FireworkRocketItem
+- XXX.world.item.FireworkRocketItem$Shape
++ XXX.world.item.FireworkStarItem
+- XXX.world.item.FishingRodItem
++ XXX.world.item.FlintAndSteelItem
+- XXX.world.item.FoodOnAStickItem
++ XXX.world.item.GameMasterBlockItem
+- XXX.world.item.HangingEntityItem
++ XXX.world.item.HoeItem
+- XXX.world.item.HoneyBottleItem
++ XXX.world.item.HoneycombItem
+- XXX.world.item.HorseArmorItem
++ XXX.world.item.Item
+- XXX.world.item.Item$1
++ XXX.world.item.Item$Properties
+- XXX.world.item.ItemCooldowns
++ XXX.world.item.ItemCooldowns$CooldownInstance
+- XXX.world.item.ItemFrameItem
++ XXX.world.item.ItemNameBlockItem
++ XXX.world.item.Items
+- XXX.world.item.ItemStack
++ XXX.world.item.ItemStack$TooltipPart
+- XXX.world.item.ItemUtils
+- XXX.world.item.KnowledgeBookItem
++ XXX.world.item.LeadItem
+- XXX.world.item.LingeringPotionItem
++ XXX.world.item.MapItem
+- XXX.world.item.MilkBucketItem
++ XXX.world.item.MinecartItem
+- XXX.world.item.MinecartItem$1
++ XXX.world.item.MobBucketItem
+- XXX.world.item.NameTagItem
++ XXX.world.item.package-info
++ XXX.world.item.PickaxeItem
+- XXX.world.item.PlayerHeadItem
++ XXX.world.item.PotionItem
+- XXX.world.item.ProjectileWeaponItem
++ XXX.world.item.Rarity
+- XXX.world.item.RecordItem
++ XXX.world.item.SaddleItem
+- XXX.world.item.ScaffoldingBlockItem
++ XXX.world.item.ServerItemCooldowns
+- XXX.world.item.ShearsItem
++ XXX.world.item.ShieldItem
+- XXX.world.item.ShovelItem
++ XXX.world.item.SignItem
+- XXX.world.item.SimpleFoiledItem
++ XXX.world.item.SnowballItem
+- XXX.world.item.SolidBucketItem
++ XXX.world.item.SpawnEggItem
+- XXX.world.item.SpectralArrowItem
++ XXX.world.item.SplashPotionItem
+- XXX.world.item.SpyglassItem
++ XXX.world.item.StandingAndWallBlockItem
+- XXX.world.item.SuspiciousStewItem
++ XXX.world.item.SwordItem
+- XXX.world.item.ThrowablePotionItem
++ XXX.world.item.Tier
+- XXX.world.item.TieredItem
++ XXX.world.item.Tiers
+- XXX.world.item.TippedArrowItem
++ XXX.world.item.TooltipFlag
+- XXX.world.item.TooltipFlag$Default
++ XXX.world.item.TridentItem
+- XXX.world.item.UseAnim
++ XXX.world.item.Vanishable
+- XXX.world.item.WaterLilyBlockItem
++ XXX.world.item.Wearable
+- XXX.world.item.WritableBookItem
++ XXX.world.item.WrittenBookItem
+- XXX.world.level.BaseCommandBlock
++ XXX.world.level.BaseSpawner
+- XXX.world.level.BlockAndTintGetter
++ XXX.world.level.BlockCollisions
+- XXX.world.level.BlockEventData
++ XXX.world.level.BlockGetter
+- XXX.world.level.ChunkPos
++ XXX.world.level.ChunkPos$1
+- XXX.world.level.ClipBlockStateContext
++ XXX.world.level.ClipContext
+- XXX.world.level.ClipContext$Block
++ XXX.world.level.ClipContext$Fluid
+- XXX.world.level.ClipContext$ShapeGetter
++ XXX.world.level.CollisionGetter
+- XXX.world.level.ColorResolver
++ XXX.world.level.CommonLevelAccessor
+- XXX.world.level.CustomSpawner
++ XXX.world.level.DataPackConfig
+- XXX.world.level.EmptyBlockGetter
++ XXX.world.level.EntityBasedExplosionDamageCalculator
+- XXX.world.level.EntityGetter
++ XXX.world.level.Explosion
+- XXX.world.level.Explosion$BlockInteraction
++ XXX.world.level.ExplosionDamageCalculator
+- XXX.world.level.FoliageColor
++ XXX.world.level.ForcedChunksSavedData
+- XXX.world.level.GameRules
++ XXX.world.level.GameRules$BooleanValue
+- XXX.world.level.GameRules$Category
++ XXX.world.level.GameRules$GameRuleTypeVisitor
+- XXX.world.level.GameRules$IntegerValue
++ XXX.world.level.GameRules$Key
+- XXX.world.level.GameRules$Type
++ XXX.world.level.GameRules$Value
+- XXX.world.level.GameRules$VisitorCaller
++ XXX.world.level.GameType
+- XXX.world.level.GrassColor
++ XXX.world.level.ItemLike
+- XXX.world.level.Level
++ XXX.world.level.Level$1
+- XXX.world.level.LevelAccessor
++ XXX.world.level.LevelHeightAccessor
+- XXX.world.level.LevelHeightAccessor$1
++ XXX.world.level.LevelReader
+- XXX.world.level.LevelSettings
+- XXX.world.level.LevelSimulatedReader
++ XXX.world.level.LevelSimulatedRW
++ XXX.world.level.LevelTimeAccess
+- XXX.world.level.LevelWriter
++ XXX.world.level.LightLayer
+- XXX.world.level.LocalMobCapCalculator
++ XXX.world.level.LocalMobCapCalculator$MobCounts
+- XXX.world.level.NaturalSpawner
++ XXX.world.level.NaturalSpawner$1
+- XXX.world.level.NaturalSpawner$AfterSpawnCallback
++ XXX.world.level.NaturalSpawner$ChunkGetter
+- XXX.world.level.NaturalSpawner$SpawnPredicate
++ XXX.world.level.NaturalSpawner$SpawnState
+- XXX.world.level.NoiseColumn
++ XXX.world.level.PathNavigationRegion
+- XXX.world.level.PotentialCalculator
++ XXX.world.level.PotentialCalculator$PointCharge
+- XXX.world.level.ServerLevelAccessor
++ XXX.world.level.SpawnData
+- XXX.world.level.SpawnData$CustomSpawnRules
++ XXX.world.level.StructureFeatureManager
+- XXX.world.level.WorldGenLevel
++ XXX.worldgen.biome.Biomes
+- XXX.worldgen.biome.EndBiomes
++ XXX.worldgen.biome.NetherBiomes
+- XXX.worldgen.biome.OverworldBiomes
++ XXX.worldgen.biome.package-info
+- XXX.worldgen.features.AquaticFeatures
+- XXX.worldgen.features.EndFeatures
+- XXX.worldgen.features.MiscOverworldFeatures
+- XXX.worldgen.features.OreFeatures
+- XXX.worldgen.features.package-info
+- XXX.worldgen.features.TreeFeatures
+- XXX.worldgen.placement.AquaticPlacements
+- XXX.worldgen.placement.EndPlacements
+- XXX.worldgen.placement.NetherPlacements
+- XXX.worldgen.placement.PlacementUtils
+- XXX.worldgen.placement.VegetationPlacements
+```
+
+</details>
+<details>
+<summary>
+Changes
+</summary>
+
+```
+net.minecraft.SharedConstants +1P -1P
+```
+```
+XXX.screens.worldselection.WorldGenSettingsComponent +10M -9M | +2P
+```
+```
+XXX.minecraft.core.MappedRegistry +8M -9M
+```
+```
+XXX.minecraft.core.Registry +9M -7M | +3P -2P
+```
+```
+XXX.minecraft.core.RegistryAccess$RegistryData +3M
+```
+```
+XXX.minecraft.core.Vec3i +3M
+```
+```
+XXX.minecraft.resources.RegistryReadOps$1 +1M -1M | +1P -2P
+```
+```
+XXX.minecraft.resources.ResourceKey +1M
+```
+```
+XXX.server.commands.JfrCommand +1M -1M
+```
+```
+XXX.server.players.PlayerList +1M -1M
+```
+```
+XXX.minecraft.util.CubicSpline +1M
+```
+```
+XXX.minecraft.util.CubicSpline$Builder +2M | +1P
+```
+```
+XXX.minecraft.util.StringRepresentable$1 +2M -11M | +1P -3P
+```
+```
+XXX.level.biome.BiomeSource +5M -4M | +1P -1P
+```
+```
+XXX.level.biome.Climate$RTree$Leaf +1M -1M | +1P -1P
+```
+```
+XXX.level.biome.MultiNoiseBiomeSource +1M -2M
+```
+```
+XXX.level.biome.MultiNoiseBiomeSource$PresetInstance +3M
+```
+```
+XXX.level.biome.TerrainShaper +12M -8M | +1P
+```
+```
+XXX.level.border.WorldBorder +1M
+```
+```
+XXX.level.chunk.LevelChunk +1M -1M
+```
+```
+XXX.level.chunk.ProtoChunk +2M -2M
+```
+```
+XXX.levelgen.blockpredicates.BlockPredicate +9M -6M | +2P
+```
+```
+XXX.levelgen.carver.CarvingContext +1M -1M | +1P
+```
+```
+XXX.levelgen.feature.NetherForestVegetationFeature -1M
+```
+```
+XXX.levelgen.feature.OceanMonumentFeature +2M -2M
+```
+```
+XXX.levelgen.feature.PillagerOutpostFeature +3M -3M
+```
+```
+XXX.levelgen.feature.StructureFeature +3M -4M
+```
+```
+XXX.levelgen.feature.TwistingVinesFeature -2M
+```
+```
+XXX.level.portal.PortalForcer +7M -6M
+```
+
+</details>
+<details>
+<summary>
+net.minecraft.client.gui.screens.worldselection.WorldGenSettingsComponent
+</summary>
+
+```diff
++ DataResult lambda$updateDataPacks$10(RegistryReadOps,JsonElement)
+- DataResult lambda$updateDataPacks$11(RegistryReadOps,JsonElement)
+- MutableComponent lambda$init$3(CycleButton)
+- void lambda$init$10(CreateWorldScreen,Minecraft,Button)
++ void lambda$init$3(CreateWorldScreen,CycleButton,WorldPreset)
++ void lambda$init$4(Button)
+- void lambda$init$4(CreateWorldScreen,CycleButton,WorldPreset)
+- void lambda$init$5(Button)
++ void lambda$init$5(Minecraft,CreateWorldScreen,Button)
++ void lambda$init$6(CycleButton,Boolean)
+- void lambda$init$6(Minecraft,CreateWorldScreen,Button)
+- void lambda$init$7(CycleButton,Boolean)
++ void lambda$init$7(Minecraft,CreateWorldScreen,RegistryAccess$RegistryHolder,WorldGenSettings,boolean)
++ void lambda$init$8(Minecraft,CreateWorldScreen,RegistryAccess$RegistryHolder,Lifecycle,WorldGenSettings)
+- void lambda$init$8(Minecraft,CreateWorldScreen,RegistryAccess$RegistryHolder,WorldGenSettings,boolean)
++ void lambda$init$9(CreateWorldScreen,Minecraft,Button)
+- void lambda$init$9(Minecraft,CreateWorldScreen,RegistryAccess$RegistryHolder,Lifecycle,WorldGenSettings)
++ void lambda$updateDataPacks$11(RegistryAccess$RegistryHolder,WorldGenSettings)
+- void lambda$updateDataPacks$12(RegistryAccess$RegistryHolder,WorldGenSettings)
+```
+
+</details>
+<details>
+<summary>
+net.minecraft.core.MappedRegistry
+</summary>
+
+```diff
+- App lambda$withNameAndId$1(ResourceKey,MapCodec,RecordCodecBuilder$Instance)
++ App lambda$withNameAndId$3(ResourceKey,MapCodec,RecordCodecBuilder$Instance)
++ Integer lambda$withNameAndId$1(MappedRegistry$RegistryEntry)
+- List lambda$networkCodec$4(MappedRegistry)
++ List lambda$networkCodec$5(MappedRegistry)
+- Map lambda$directCodec$7(MappedRegistry)
++ Map lambda$directCodec$8(MappedRegistry)
+- MappedRegistry lambda$directCodec$6(ResourceKey,Lifecycle,Map)
++ MappedRegistry lambda$directCodec$7(ResourceKey,Lifecycle,Map)
+- MappedRegistry lambda$networkCodec$3(ResourceKey,Lifecycle,List)
++ MappedRegistry lambda$networkCodec$4(ResourceKey,Lifecycle,List)
++ Object lambda$withNameAndId$2(MappedRegistry$RegistryEntry)
+- Object[] lambda$getRandom$2(int)
++ ResourceKey lambda$withNameAndId$0(MappedRegistry$RegistryEntry)
+- void lambda$directCodec$5(MappedRegistry,Lifecycle,ResourceKey,Object)
++ void lambda$directCodec$6(MappedRegistry,Lifecycle,ResourceKey,Object)
+- void lambda$new$0(Object2IntOpenCustomHashMap)
+```
+
+</details>
+<details>
+<summary>
+net.minecraft.core.Registry
+</summary>
+
+```diff
+- Codec byNameCodec()
++ DataResult decode(DynamicOps,Object)
++ DataResult encode(Object,DynamicOps,Object)
+- DataResult lambda$byNameCodec$56(ResourceLocation)
+- DataResult lambda$byNameCodec$57(ResourceLocation)
+- DataResult lambda$byNameCodec$58(Object)
+- DataResult lambda$byNameCodec$59(Object)
++ DataResult lambda$decode$56(Number)
++ DataResult lambda$decode$58(Pair)
++ FeatureDecorator lambda$static$43()
+- int lambda$byNameCodec$60(Object)
+- Lifecycle lambda$byNameCodec$61(Object)
++ Object lambda$keys$59(DynamicOps,ResourceLocation)
+- Object lambda$keys$62(DynamicOps,ResourceLocation)
++ Pair lambda$decode$57(DynamicOps,Object)
+- PlacementModifierType lambda$static$43()
+```
+
+</details>
+<details>
+<summary>
+net.minecraft.core.RegistryAccess$RegistryData
+</summary>
+
+```diff
+- boolean equals(Object)
+- int hashCode()
+- String toString()
+```
+
+</details>
+<details>
+<summary>
+net.minecraft.core.Vec3i
+</summary>
+
+```diff
+- Codec offsetCodec(int)
+- DataResult lambda$checkOffsetAxes$3(int,Vec3i)
+- Function checkOffsetAxes(int)
+```
+
+</details>
+<details>
+<summary>
+net.minecraft.resources.RegistryReadOps$1
+</summary>
+
+```diff
+- void <init>(Registry,ResourceKey)
++ void <init>(RegistryReadOps,WritableRegistry,ResourceKey)
+```
+
+</details>
+<details>
+<summary>
+net.minecraft.resources.ResourceKey
+</summary>
+
+```diff
+- Optional cast(ResourceKey)
+```
+
+</details>
+<details>
+<summary>
+net.minecraft.server.commands.JfrCommand
+</summary>
+
+```diff
++ Style lambda$stopJfr$4(File,Style)
+- Style lambda$stopJfr$4(Path,Style)
+```
+
+</details>
+<details>
+<summary>
+net.minecraft.server.players.PlayerList
+</summary>
+
+```diff
+- void addWorldborderListener(ServerLevel)
++ void setLevel(ServerLevel)
+```
+
+</details>
+<details>
+<summary>
+net.minecraft.util.CubicSpline
+</summary>
+
+```diff
+- CubicSpline$Builder builder(ToFloatFunction,ToFloatFunction)
+```
+
+</details>
+<details>
+<summary>
+net.minecraft.util.CubicSpline$Builder
+</summary>
+
+```diff
+- float lambda$new$0(Float)
+- void <init>(ToFloatFunction,ToFloatFunction)
+```
+
+</details>
+<details>
+<summary>
+net.minecraft.util.StringRepresentable$1
+</summary>
+
+```diff
++ DataResult decode(DynamicOps,Object)
++ DataResult encode(Object,DynamicOps,Object)
++ DataResult encode(StringRepresentable,DynamicOps,Object)
++ DataResult lambda$decode$0(Number)
++ DataResult lambda$decode$1(IntFunction,Number)
++ DataResult lambda$decode$3(String)
++ DataResult lambda$decode$4(Function,String)
++ Pair lambda$decode$2(DynamicOps,StringRepresentable)
++ Pair lambda$decode$5(DynamicOps,StringRepresentable)
+- Stream keys(DynamicOps)
++ String toString()
+- void <init>(StringRepresentable[])
++ void <init>(ToIntFunction,IntFunction,Function)
+```
+
+</details>
+<details>
+<summary>
+net.minecraft.world.level.biome.BiomeSource
+</summary>
+
+```diff
+- boolean lambda$buildFeaturesPerStep$2(int,BiomeSource$1FeatureData)
++ boolean lambda$new$2(int,BiomeSource$1FeatureData)
++ ImmutableList featuresPerStep()
+- int lambda$buildFeaturesPerStep$0(MutableInt,Object)
++ int lambda$new$0(MutableInt,Object)
+- List buildFeaturesPerStep(List,boolean)
+- List featuresPerStep()
+- Set lambda$buildFeaturesPerStep$1(Comparator,BiomeSource$1FeatureData)
++ Set lambda$new$1(Comparator,BiomeSource$1FeatureData)
+```
+
+</details>
+<details>
+<summary>
+net.minecraft.world.level.biome.Climate$RTree$Leaf
+</summary>
+
+```diff
+- void <init>(Climate$ParameterPoint,Object)
++ void <init>(Climate$ParameterPoint,Supplier)
+```
+
+</details>
+<details>
+<summary>
+net.minecraft.world.level.biome.MultiNoiseBiomeSource
+</summary>
+
+```diff
+- Biome lambda$getNoiseBiome$6()
++ Biome lambda$getNoiseBiome$7()
++ MultiNoiseBiomeSource$PresetInstance lambda$preset$6(Pair)
+```
+
+</details>
+<details>
+<summary>
+net.minecraft.world.level.biome.MultiNoiseBiomeSource$PresetInstance
+</summary>
+
+```diff
+- boolean equals(Object)
+- int hashCode()
+- String toString()
+```
+
+</details>
+<details>
+<summary>
+net.minecraft.world.level.biome.TerrainShaper
+</summary>
+
+```diff
+- CubicSpline buildErosionJaggednessSpline(float,float,float,float,ToFloatFunction)
++ CubicSpline buildErosionJaggednessSpline(float,float,float,float)
+- CubicSpline buildErosionOffsetSpline(float,float,float,float,float,float,boolean,boolean,ToFloatFunction)
++ CubicSpline buildErosionOffsetSpline(float,float,float,float,float,float,boolean,boolean)
+- CubicSpline buildMountainRidgeSplineWithPoints(float,boolean,ToFloatFunction)
++ CubicSpline buildMountainRidgeSplineWithPoints(float,boolean)
+- CubicSpline buildRidgeJaggednessSpline(float,float,ToFloatFunction)
++ CubicSpline buildRidgeJaggednessSpline(float,float)
+- CubicSpline buildWeirdnessJaggednessSpline(float,ToFloatFunction)
++ CubicSpline buildWeirdnessJaggednessSpline(float)
+- CubicSpline getErosionFactor(float,boolean,ToFloatFunction)
++ CubicSpline getErosionFactor(float,boolean)
+- CubicSpline ridgeSpline(float,float,float,float,float,float,ToFloatFunction)
++ CubicSpline ridgeSpline(float,float,float,float,float,float)
+- float getAmplifiedFactor(float)
+- float getAmplifiedJaggedness(float)
+- float getAmplifiedOffset(float)
+- float lambda$static$2(Float)
++ TerrainShaper overworld()
+- TerrainShaper overworld(boolean)
+```
+
+</details>
+<details>
+<summary>
+net.minecraft.world.level.border.WorldBorder
+</summary>
+
+```diff
+- BlockPos clampToBounds(double,double,double)
+```
+
+</details>
+<details>
+<summary>
+net.minecraft.world.level.chunk.LevelChunk
+</summary>
+
+```diff
+- void <init>(Level,ChunkPos,UpgradeData,LevelChunkTicks,LevelChunkTicks,long,LevelChunkSection[],Consumer,BlendingData)
++ void <init>(Level,ChunkPos,UpgradeData,LevelChunkTicks,LevelChunkTicks,long,LevelChunkSection[],Consumer,GenerationUpgradeData)
+```
+
+</details>
+<details>
+<summary>
+net.minecraft.world.level.chunk.ProtoChunk
+</summary>
+
+```diff
+- void <init>(ChunkPos,UpgradeData,LevelChunkSection[],ProtoChunkTicks,ProtoChunkTicks,LevelHeightAccessor,Registry,BlendingData)
++ void <init>(ChunkPos,UpgradeData,LevelChunkSection[],ProtoChunkTicks,ProtoChunkTicks,LevelHeightAccessor,Registry,GenerationUpgradeData)
+- void <init>(ChunkPos,UpgradeData,LevelHeightAccessor,Registry,BlendingData)
++ void <init>(ChunkPos,UpgradeData,LevelHeightAccessor,Registry,GenerationUpgradeData)
+```
+
+</details>
+<details>
+<summary>
+net.minecraft.world.level.levelgen.blockpredicates.BlockPredicate
+</summary>
+
+```diff
+- BlockPredicate insideWorld(Vec3i)
++ BlockPredicate matchesBlock(Block,BlockPos)
+- BlockPredicate matchesBlock(Block,Vec3i)
++ BlockPredicate matchesBlocks(List,BlockPos)
+- BlockPredicate matchesBlocks(List,Vec3i)
++ BlockPredicate matchesFluid(Fluid,BlockPos)
+- BlockPredicate matchesFluid(Fluid,Vec3i)
++ BlockPredicate matchesFluids(List,BlockPos)
+- BlockPredicate matchesFluids(List,Vec3i)
++ BlockPredicate replaceable(BlockPos)
+- BlockPredicate replaceable(Vec3i)
+- BlockPredicate solid()
+- BlockPredicate solid(Vec3i)
++ BlockPredicate wouldSurvive(BlockState,BlockPos)
+- BlockPredicate wouldSurvive(BlockState,Vec3i)
+```
+
+</details>
+<details>
+<summary>
+net.minecraft.world.level.levelgen.carver.CarvingContext
+</summary>
+
+```diff
+- void <init>(NoiseBasedChunkGenerator,RegistryAccess,LevelHeightAccessor,NoiseChunk)
++ void <init>(NoiseBasedChunkGenerator,RegistryAccess,LevelHeightAccessor)
+```
+
+</details>
+<details>
+<summary>
+net.minecraft.world.level.levelgen.feature.NetherForestVegetationFeature
+</summary>
+
+```diff
++ boolean place(LevelAccessor,Random,BlockPos,BlockPileConfiguration,int,int)
+```
+
+</details>
+<details>
+<summary>
+net.minecraft.world.level.levelgen.feature.OceanMonumentFeature
+</summary>
+
+```diff
+- boolean isFeatureChunk(ChunkGenerator,BiomeSource,long,ChunkPos,FeatureConfiguration,LevelHeightAccessor)
+- boolean isFeatureChunk(ChunkGenerator,BiomeSource,long,ChunkPos,NoneFeatureConfiguration,LevelHeightAccessor)
++ boolean isFeatureChunk(ChunkGenerator,BiomeSource,long,WorldgenRandom,ChunkPos,ChunkPos,FeatureConfiguration,LevelHeightAccessor)
++ boolean isFeatureChunk(ChunkGenerator,BiomeSource,long,WorldgenRandom,ChunkPos,ChunkPos,NoneFeatureConfiguration,LevelHeightAccessor)
+```
+
+</details>
+<details>
+<summary>
+net.minecraft.world.level.levelgen.feature.PillagerOutpostFeature
+</summary>
+
+```diff
+- boolean isFeatureChunk(ChunkGenerator,BiomeSource,long,ChunkPos,FeatureConfiguration,LevelHeightAccessor)
+- boolean isFeatureChunk(ChunkGenerator,BiomeSource,long,ChunkPos,JigsawConfiguration,LevelHeightAccessor)
++ boolean isFeatureChunk(ChunkGenerator,BiomeSource,long,WorldgenRandom,ChunkPos,ChunkPos,FeatureConfiguration,LevelHeightAccessor)
++ boolean isFeatureChunk(ChunkGenerator,BiomeSource,long,WorldgenRandom,ChunkPos,ChunkPos,JigsawConfiguration,LevelHeightAccessor)
+- boolean isNearVillage(ChunkGenerator,long,ChunkPos)
++ boolean isNearVillage(ChunkGenerator,long,WorldgenRandom,ChunkPos)
+```
+
+</details>
+<details>
+<summary>
+net.minecraft.world.level.levelgen.feature.StructureFeature
+</summary>
+
+```diff
+- boolean isFeatureChunk(ChunkGenerator,BiomeSource,long,ChunkPos,FeatureConfiguration,LevelHeightAccessor)
++ boolean isFeatureChunk(ChunkGenerator,BiomeSource,long,WorldgenRandom,ChunkPos,ChunkPos,FeatureConfiguration,LevelHeightAccessor)
+- ChunkPos getPotentialFeatureChunk(StructureFeatureConfiguration,long,int,int)
++ ChunkPos getPotentialFeatureChunk(StructureFeatureConfiguration,long,WorldgenRandom,int,int)
+- StructureStart generate(RegistryAccess,ChunkGenerator,BiomeSource,StructureManager,long,ChunkPos,int,StructureFeatureConfiguration,FeatureConfiguration,LevelHeightAccessor,Predicate)
++ StructureStart generate(RegistryAccess,ChunkGenerator,BiomeSource,StructureManager,long,ChunkPos,int,WorldgenRandom,StructureFeatureConfiguration,FeatureConfiguration,LevelHeightAccessor,Predicate)
++ void lambda$generate$2(long,ChunkPos,WorldgenRandom)
+```
+
+</details>
+<details>
+<summary>
+net.minecraft.world.level.levelgen.feature.TwistingVinesFeature
+</summary>
+
+```diff
++ boolean place(LevelAccessor,Random,BlockPos,int,int,int)
++ void placeTwistingVines(LevelAccessor,Random,BlockPos,int,int,int)
+```
+
+</details>
+<details>
+<summary>
+net.minecraft.world.level.portal.PortalForcer
+</summary>
+
+```diff
++ BlockUtil$FoundRectangle lambda$findPortalAround$5(PoiRecord)
+- BlockUtil$FoundRectangle lambda$findPortalAround$6(PoiRecord)
+- boolean lambda$findPortalAround$1(WorldBorder,PoiRecord)
++ boolean lambda$findPortalAround$3(PoiRecord)
++ boolean lambda$findPortalAround$4(BlockState,BlockPos)
+- boolean lambda$findPortalAround$4(PoiRecord)
+- boolean lambda$findPortalAround$5(BlockState,BlockPos)
++ double lambda$findPortalAround$1(BlockPos,PoiRecord)
+- double lambda$findPortalAround$2(BlockPos,PoiRecord)
++ int lambda$findPortalAround$2(PoiRecord)
+- int lambda$findPortalAround$3(PoiRecord)
+- Optional findPortalAround(BlockPos,boolean,WorldBorder)
++ Optional findPortalAround(BlockPos,boolean)
+```
+
+</details>
+</details>
+<hr/>

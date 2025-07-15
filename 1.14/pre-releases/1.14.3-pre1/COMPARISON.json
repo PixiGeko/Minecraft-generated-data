@@ -1,0 +1,95 @@
+{
+  "version_data": [
+    {
+      "type": "table",
+      "value": {
+        "previousLabel": "1.14.2",
+        "currentLabel": "1.14.3-pre1",
+        "values": [
+          {
+            "key": "World version",
+            "previous": "1963",
+            "current": "1964"
+          },
+          {
+            "key": "Protocol version",
+            "previous": "485",
+            "current": "486"
+          }
+        ]
+      }
+    }
+  ],
+  "registries": [
+    {
+      "type": "entries",
+      "value": {
+        "name": "memory_module_type",
+        "differences": {
+          "added": [
+            "minecraft:golem_last_seen_time"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "sensor_type",
+        "differences": {
+          "added": [
+            "minecraft:golem_last_seen"
+          ],
+          "removed": []
+        }
+      }
+    }
+  ],
+  "tags": [
+    {
+      "type": "entries",
+      "value": {
+        "name": "universal_tags/memory_module_type.json",
+        "differences": {
+          "added": [
+            "minecraft:golem_last_seen_time"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "universal_tags/sensor_type.json",
+        "differences": {
+          "added": [
+            "minecraft:golem_last_seen"
+          ],
+          "removed": []
+        }
+      }
+    }
+  ],
+  "translations": [
+    {
+      "type": "entries",
+      "value": {
+        "name": "Keys",
+        "differences": {
+          "added": [
+            "title.oldgl.eol.line1: Old graphics card detected; this WILL prevent you from",
+            "title.oldgl.eol.line2: playing future updates as OpenGL 2.0 will be required!",
+            "title.oldgl.deprecation.line1: Old graphics card detected; this may prevent you from",
+            "title.oldgl.deprecation.line2: playing in the future as OpenGL 3.2 will be required!"
+          ],
+          "removed": [
+            "title.oldgl1: Old graphics card detected; this may prevent you from",
+            "title.oldgl2: playing in the future as OpenGL 2.0 will be required."
+          ]
+        }
+      }
+    }
+  ]
+}

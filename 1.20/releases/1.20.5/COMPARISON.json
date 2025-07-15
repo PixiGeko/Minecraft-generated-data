@@ -1,0 +1,63 @@
+{
+  "version_data": [
+    {
+      "type": "table",
+      "value": {
+        "previousLabel": "1.20.5-rc3",
+        "currentLabel": "1.20.5",
+        "values": [
+          {
+            "key": "World version",
+            "previous": "3836",
+            "current": "3837"
+          },
+          {
+            "key": "Protocol version",
+            "previous": "1073742015",
+            "current": "766"
+          }
+        ]
+      }
+    },
+    {
+      "type": "title",
+      "value": {
+        "title": "Libraries",
+        "id": "version-data-libraries",
+        "size": 3
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "🗒️ List",
+        "differences": {
+          "added": [
+            "org.lwjgl:lwjgl-freetype (natives-macos-patch) V3.3.3"
+          ],
+          "removed": [
+            "org.lwjgl:lwjgl-freetype (natives-macos) V3.3.3"
+          ]
+        }
+      }
+    }
+  ],
+  "mappings": [
+    {
+      "type": "title",
+      "value": {
+        "title": "Server",
+        "id": "server-mappings",
+        "size": 2
+      }
+    },
+    {
+      "type": "title",
+      "value": {
+        "title": "Client",
+        "id": "client-mappings",
+        "size": 2
+      }
+    }
+  ]
+}

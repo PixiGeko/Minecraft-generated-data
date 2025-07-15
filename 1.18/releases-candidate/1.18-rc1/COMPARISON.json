@@ -1,0 +1,245 @@
+{
+  "version_data": [
+    {
+      "type": "table",
+      "value": {
+        "previousLabel": "1.18-pre8",
+        "currentLabel": "1.18-rc1",
+        "values": [
+          {
+            "key": "World version",
+            "previous": "2855",
+            "current": "2856"
+          },
+          {
+            "key": "Protocol version",
+            "previous": "1073741880",
+            "current": "1073741881"
+          }
+        ]
+      }
+    },
+    {
+      "type": "title",
+      "value": {
+        "title": "Libraries",
+        "id": "version-data-libraries",
+        "size": 3
+      }
+    },
+    {
+      "type": "table",
+      "value": {
+        "title": "Versions",
+        "previousLabel": "1.18-pre8",
+        "currentLabel": "1.18-rc1",
+        "values": [
+          {
+            "key": "org.lwjgl:lwjgl-glfw",
+            "previous": "3.2.1",
+            "current": "3.2.2"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-glfw",
+            "previous": "3.2.1",
+            "current": "3.2.2"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-jemalloc",
+            "previous": "3.2.1",
+            "current": "3.2.2"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-jemalloc",
+            "previous": "3.2.1",
+            "current": "3.2.2"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-openal",
+            "previous": "3.2.1",
+            "current": "3.2.2"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-openal",
+            "previous": "3.2.1",
+            "current": "3.2.2"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-opengl",
+            "previous": "3.2.1",
+            "current": "3.2.2"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-opengl",
+            "previous": "3.2.1",
+            "current": "3.2.2"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-stb",
+            "previous": "3.2.1",
+            "current": "3.2.2"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-stb",
+            "previous": "3.2.1",
+            "current": "3.2.2"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-tinyfd",
+            "previous": "3.2.1",
+            "current": "3.2.2"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-tinyfd",
+            "previous": "3.2.1",
+            "current": "3.2.2"
+          },
+          {
+            "key": "org.lwjgl:lwjgl",
+            "previous": "3.2.1",
+            "current": "3.2.2"
+          },
+          {
+            "key": "org.lwjgl:lwjgl",
+            "previous": "3.2.1",
+            "current": "3.2.2"
+          }
+        ]
+      }
+    }
+  ],
+  "mappings": [
+    {
+      "type": "title",
+      "value": {
+        "title": "Server",
+        "id": "server-mappings",
+        "size": 2
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "Changes",
+        "lines": [
+          "XXX.server.level.ChunkHolder \u001b[2;32m+8M\u001b[0m \u001b[2;31m-6M\u001b[0m",
+          "XXX.level.chunk.PalettedContainer \u001b[2;32m+1M\u001b[0m \u001b[2;31m-1M\u001b[0m"
+        ]
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.server.level.ChunkHolder",
+        "differences": {
+          "added": [
+            "void lambda$scheduleFullChunkPromotion$7(CompletableFuture,Either)",
+            "void lambda$scheduleFullChunkPromotion$6(CompletableFuture,LevelChunk)",
+            "void lambda$scheduleFullChunkPromotion$5(ChunkMap,ChunkHolder$FullChunkStatus)",
+            "ChunkAccess lambda$updateChunkToSave$4(ChunkAccess,Either)",
+            "ChunkAccess lambda$updateChunkToSave$3(ChunkAccess,ChunkHolder$ChunkLoadingFailure)",
+            "ChunkAccess lambda$updateChunkToSave$2(ChunkAccess)"
+          ],
+          "removed": [
+            "void addSaveDependency(String,CompletableFuture)",
+            "void lambda$scheduleFullChunkPromotion$8(CompletableFuture,Either)",
+            "void lambda$scheduleFullChunkPromotion$7(CompletableFuture,LevelChunk)",
+            "void lambda$scheduleFullChunkPromotion$6(ChunkMap,ChunkHolder$FullChunkStatus)",
+            "ChunkAccess lambda$updateChunkToSave$5(ChunkAccess,Either)",
+            "ChunkAccess lambda$updateChunkToSave$4(ChunkAccess,ChunkHolder$ChunkLoadingFailure)",
+            "ChunkAccess lambda$updateChunkToSave$3(ChunkAccess)",
+            "ChunkAccess lambda$addSaveDependency$2(ChunkAccess,Object)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.level.chunk.PalettedContainer",
+        "differences": {
+          "added": [
+            "void lambda$count$8(Int2IntMap,int)"
+          ],
+          "removed": [
+            "void lambda$count$8(Int2IntOpenHashMap,int)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "title",
+      "value": {
+        "title": "Client",
+        "id": "client-mappings",
+        "size": 2
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "Classes",
+        "differences": {
+          "added": [
+            "XXX.renderer.chunk.RenderChunkRegion$RenderChunk"
+          ],
+          "removed": [
+            "XXX.renderer.chunk.RenderChunkRegion",
+            "XXX.renderer.chunk.RenderRegionCache$ChunkInfo"
+          ]
+        }
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "Changes",
+        "lines": [
+          "XXX.client.resources.ClientPackSource \u001b[2;32m+1P\u001b[0m \u001b[2;31m-1P\u001b[0m",
+          "XXX.server.level.ChunkHolder \u001b[2;32m+8M\u001b[0m \u001b[2;31m-6M\u001b[0m",
+          "XXX.level.chunk.PalettedContainer \u001b[2;32m+1M\u001b[0m \u001b[2;31m-1M\u001b[0m"
+        ]
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.server.level.ChunkHolder",
+        "differences": {
+          "added": [
+            "void lambda$scheduleFullChunkPromotion$7(CompletableFuture,Either)",
+            "void lambda$scheduleFullChunkPromotion$6(CompletableFuture,LevelChunk)",
+            "void lambda$scheduleFullChunkPromotion$5(ChunkMap,ChunkHolder$FullChunkStatus)",
+            "ChunkAccess lambda$updateChunkToSave$4(ChunkAccess,Either)",
+            "ChunkAccess lambda$updateChunkToSave$3(ChunkAccess,ChunkHolder$ChunkLoadingFailure)",
+            "ChunkAccess lambda$updateChunkToSave$2(ChunkAccess)"
+          ],
+          "removed": [
+            "void addSaveDependency(String,CompletableFuture)",
+            "void lambda$scheduleFullChunkPromotion$8(CompletableFuture,Either)",
+            "void lambda$scheduleFullChunkPromotion$7(CompletableFuture,LevelChunk)",
+            "void lambda$scheduleFullChunkPromotion$6(ChunkMap,ChunkHolder$FullChunkStatus)",
+            "ChunkAccess lambda$updateChunkToSave$5(ChunkAccess,Either)",
+            "ChunkAccess lambda$updateChunkToSave$4(ChunkAccess,ChunkHolder$ChunkLoadingFailure)",
+            "ChunkAccess lambda$updateChunkToSave$3(ChunkAccess)",
+            "ChunkAccess lambda$addSaveDependency$2(ChunkAccess,Object)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.level.chunk.PalettedContainer",
+        "differences": {
+          "added": [
+            "void lambda$count$8(Int2IntMap,int)"
+          ],
+          "removed": [
+            "void lambda$count$8(Int2IntOpenHashMap,int)"
+          ]
+        }
+      }
+    }
+  ]
+}

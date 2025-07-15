@@ -1,0 +1,301 @@
+{
+  "version_data": [
+    {
+      "type": "table",
+      "value": {
+        "previousLabel": "24w05a",
+        "currentLabel": "24w05b",
+        "values": [
+          {
+            "key": "World version",
+            "previous": "3809",
+            "current": "3811"
+          },
+          {
+            "key": "Protocol version",
+            "previous": "1073741997",
+            "current": "1073741999"
+          }
+        ]
+      }
+    }
+  ],
+  "registries": [
+    {
+      "type": "entries",
+      "value": {
+        "name": "armor_material",
+        "differences": {
+          "added": [
+            "minecraft:chainmail"
+          ],
+          "removed": [
+            "minecraft:chain"
+          ]
+        }
+      }
+    }
+  ],
+  "tags": [
+    {
+      "type": "entries",
+      "value": {
+        "name": "universal_tags/armor_material.json",
+        "differences": {
+          "added": [
+            "minecraft:chainmail"
+          ],
+          "removed": [
+            "minecraft:chain"
+          ]
+        }
+      }
+    }
+  ],
+  "mappings": [
+    {
+      "type": "title",
+      "value": {
+        "title": "Server",
+        "id": "server-mappings",
+        "size": 2
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "Changes",
+        "lines": [
+          "XXX.protocol.game.ClientboundUpdateMobEffectPacket \u001b[2;32m+1M\u001b[0m \u001b[2;31m-1M\u001b[0m | \u001b[2;32m+1P\u001b[0m \u001b[2;31m-1P\u001b[0m",
+          "XXX.minecraft.util.ExtraCodecs \u001b[2;32m+77M\u001b[0m \u001b[2;31m-75M\u001b[0m | \u001b[2;32m+1P\u001b[0m",
+          "XXX.minecraft.util.ExtraCodecs$RecursiveMapCodec \u001b[2;32m+1M\u001b[0m \u001b[2;31m-1M\u001b[0m | \u001b[2;32m+1P\u001b[0m"
+        ]
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.network.protocol.game.ClientboundUpdateMobEffectPacket",
+        "differences": {
+          "added": [
+            "byte getEffectAmplifier()"
+          ],
+          "removed": [
+            "int getEffectAmplifier()"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.util.ExtraCodecs",
+        "differences": {
+          "added": [
+            "MapCodec recursiveMap(Function)",
+            "Object lambda$withAlternative$92(Function,Either)",
+            "Object lambda$withAlternative$90(Either)",
+            "Object lambda$withAlternative$89(Object)",
+            "Object lambda$withAlternative$88(Object)",
+            "DataResult lambda$static$87(String)",
+            "String lambda$static$86(String)",
+            "DataResult lambda$sizeLimitedString$85(int,int,String)",
+            "String lambda$sizeLimitedString$84(String,int,int,int)",
+            "String lambda$sizeLimitedString$83(String,int,int,int)",
+            "String lambda$static$81(String)",
+            "DataResult lambda$static$80(String)",
+            "String lambda$static$79()",
+            "App lambda$static$78(RecordCodecBuilder$Instance)",
+            "GameProfile lambda$static$77(GameProfile,PropertyMap)",
+            "void lambda$static$76(GameProfile,String,Property)",
+            "App lambda$static$75(RecordCodecBuilder$Instance)",
+            "Either lambda$static$74(PropertyMap)",
+            "PropertyMap lambda$static$73(Either)",
+            "void lambda$static$72(PropertyMap,List)",
+            "void lambda$static$71(PropertyMap,Map)",
+            "void lambda$static$70(PropertyMap,String,List)",
+            "App lambda$static$69(RecordCodecBuilder$Instance)",
+            "Property lambda$static$68(String,String,Optional)",
+            "Optional lambda$static$67(Property)",
+            "LongStream lambda$static$66(BitSet)",
+            "BitSet lambda$static$65(LongStream)",
+            "Optional lambda$static$64(OptionalLong)",
+            "OptionalLong lambda$static$63(Optional)",
+            "DataResult lambda$static$62(String)",
+            "ExtraCodecs$TagOrElementLocation lambda$static$61(ResourceLocation)",
+            "ExtraCodecs$TagOrElementLocation lambda$static$60(ResourceLocation)",
+            "String lambda$static$58(byte[])",
+            "DataResult lambda$static$57(String)",
+            "String lambda$static$56()",
+            "DataResult lambda$temporalCodec$55(DateTimeFormatter,String)",
+            "DataResult lambda$static$54(String)",
+            "String lambda$static$53(String,PatternSyntaxException)",
+            "DataResult lambda$ensureHomogenous$52(Function,Collection)",
+            "String lambda$ensureHomogenous$51(Object,Object,Object)",
+            "Optional lambda$strictOptionalField$50(Object,Object)",
+            "Object lambda$strictOptionalField$49(Object,Optional)",
+            "Codec lambda$lazyInitializedCodec$48(Supplier,Codec)",
+            "DataResult lambda$nonEmptyHolderSet$47(HolderSet)",
+            "String lambda$nonEmptyHolderSet$46()",
+            "DataResult lambda$nonEmptyList$45(List)",
+            "String lambda$nonEmptyList$44()",
+            "String lambda$static$43(Float)",
+            "DataResult lambda$floatRangeMinExclusiveWithMessage$42(float,float,Function,Float)",
+            "String lambda$floatRangeMinExclusiveWithMessage$41(Function,Float)",
+            "String lambda$intRange$40(int,int,Integer)",
+            "String lambda$static$39(Integer)",
+            "String lambda$static$38(Integer)",
+            "DataResult lambda$intRangeWithMessage$37(int,int,Function,Integer)",
+            "String lambda$intRangeWithMessage$36(Function,Integer)",
+            "DataResult lambda$stringResolverCodec$35(Function,Object)",
+            "DataResult lambda$stringResolverCodec$34(Object)",
+            "String lambda$stringResolverCodec$33(Object)",
+            "DataResult lambda$stringResolverCodec$32(Function,String)",
+            "DataResult lambda$stringResolverCodec$31(String)",
+            "String lambda$stringResolverCodec$30(String)",
+            "DataResult lambda$idResolverCodec$29(ToIntFunction,int,Object)",
+            "String lambda$idResolverCodec$28(Object)",
+            "DataResult lambda$idResolverCodec$27(IntFunction,Integer)",
+            "DataResult lambda$idResolverCodec$26(Integer)",
+            "String lambda$idResolverCodec$25(Integer)",
+            "Either lambda$intervalCodec$24(Function,Function,Object)",
+            "DataResult lambda$intervalCodec$23(BiFunction,Either)",
+            "DataResult lambda$intervalCodec$22(BiFunction,Object)",
+            "Pair lambda$intervalCodec$21(Function,Function,Object)",
+            "DataResult lambda$intervalCodec$20(BiFunction,Pair)",
+            "App lambda$intervalCodec$19(Codec,String,String,RecordCodecBuilder$Instance)",
+            "List lambda$intervalCodec$18(Function,Function,Object)",
+            "DataResult lambda$intervalCodec$17(BiFunction,List)",
+            "DataResult lambda$intervalCodec$16(BiFunction,List)"
+          ],
+          "removed": [
+            "MapCodec recursiveMap(String,Function)",
+            "Object lambda$withAlternative$94(Function,Either)",
+            "Object lambda$withAlternative$93(Object)",
+            "Object lambda$withAlternative$92(Either)",
+            "Object lambda$withAlternative$90(Object)",
+            "DataResult lambda$static$89(String)",
+            "String lambda$static$88(String)",
+            "DataResult lambda$sizeLimitedString$87(int,int,String)",
+            "String lambda$sizeLimitedString$86(String,int,int,int)",
+            "String lambda$sizeLimitedString$85(String,int,int,int)",
+            "DataResult lambda$static$84(String)",
+            "String lambda$static$83(String)",
+            "String lambda$static$81()",
+            "App lambda$static$80(RecordCodecBuilder$Instance)",
+            "GameProfile lambda$static$79(GameProfile,PropertyMap)",
+            "void lambda$static$78(GameProfile,String,Property)",
+            "App lambda$static$77(RecordCodecBuilder$Instance)",
+            "Either lambda$static$76(PropertyMap)",
+            "PropertyMap lambda$static$75(Either)",
+            "void lambda$static$74(PropertyMap,List)",
+            "void lambda$static$73(PropertyMap,Map)",
+            "void lambda$static$72(PropertyMap,String,List)",
+            "App lambda$static$71(RecordCodecBuilder$Instance)",
+            "Property lambda$static$70(String,String,Optional)",
+            "Optional lambda$static$69(Property)",
+            "LongStream lambda$static$68(BitSet)",
+            "BitSet lambda$static$67(LongStream)",
+            "Optional lambda$static$66(OptionalLong)",
+            "OptionalLong lambda$static$65(Optional)",
+            "DataResult lambda$static$64(String)",
+            "ExtraCodecs$TagOrElementLocation lambda$static$63(ResourceLocation)",
+            "ExtraCodecs$TagOrElementLocation lambda$static$62(ResourceLocation)",
+            "DataResult lambda$static$61(String)",
+            "String lambda$static$60(byte[])",
+            "String lambda$static$58()",
+            "DataResult lambda$temporalCodec$57(DateTimeFormatter,String)",
+            "DataResult lambda$static$56(String)",
+            "String lambda$static$55(String,PatternSyntaxException)",
+            "DataResult lambda$ensureHomogenous$54(Function,Collection)",
+            "String lambda$ensureHomogenous$53(Object,Object,Object)",
+            "Optional lambda$strictOptionalField$52(Object,Object)",
+            "Object lambda$strictOptionalField$51(Object,Optional)",
+            "Codec lambda$lazyInitializedCodec$50(Supplier,Codec)",
+            "DataResult lambda$nonEmptyHolderSet$49(HolderSet)",
+            "String lambda$nonEmptyHolderSet$48()",
+            "DataResult lambda$nonEmptyList$47(List)",
+            "String lambda$nonEmptyList$46()",
+            "String lambda$static$45(Float)",
+            "DataResult lambda$floatRangeMinExclusiveWithMessage$44(float,float,Function,Float)",
+            "String lambda$floatRangeMinExclusiveWithMessage$43(Function,Float)",
+            "String lambda$intRange$42(int,int,Integer)",
+            "String lambda$static$41(Integer)",
+            "String lambda$static$40(Integer)",
+            "DataResult lambda$intRangeWithMessage$39(int,int,Function,Integer)",
+            "String lambda$intRangeWithMessage$38(Function,Integer)",
+            "DataResult lambda$stringResolverCodec$37(Function,Object)",
+            "DataResult lambda$stringResolverCodec$36(Object)",
+            "String lambda$stringResolverCodec$35(Object)",
+            "DataResult lambda$stringResolverCodec$34(Function,String)",
+            "DataResult lambda$stringResolverCodec$33(String)",
+            "String lambda$stringResolverCodec$32(String)",
+            "DataResult lambda$idResolverCodec$31(ToIntFunction,int,Object)",
+            "String lambda$idResolverCodec$30(Object)",
+            "DataResult lambda$idResolverCodec$29(IntFunction,Integer)",
+            "DataResult lambda$idResolverCodec$28(Integer)",
+            "String lambda$idResolverCodec$27(Integer)",
+            "Either lambda$intervalCodec$26(Function,Function,Object)",
+            "DataResult lambda$intervalCodec$25(BiFunction,Either)",
+            "DataResult lambda$intervalCodec$24(BiFunction,Object)",
+            "Pair lambda$intervalCodec$23(Function,Function,Object)",
+            "DataResult lambda$intervalCodec$22(BiFunction,Pair)",
+            "App lambda$intervalCodec$21(Codec,String,String,RecordCodecBuilder$Instance)",
+            "List lambda$intervalCodec$20(Function,Function,Object)",
+            "DataResult lambda$intervalCodec$19(BiFunction,List)",
+            "DataResult lambda$intervalCodec$18(BiFunction,List)",
+            "DataResult lambda$static$17(Integer)",
+            "String lambda$static$16(Integer)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.util.ExtraCodecs$RecursiveMapCodec",
+        "differences": {
+          "added": [
+            "void <init>(Function)"
+          ],
+          "removed": [
+            "void <init>(String,Function)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "title",
+      "value": {
+        "title": "Client",
+        "id": "client-mappings",
+        "size": 2
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "Changes",
+        "lines": [
+          "XXX.protocol.game.ClientboundUpdateMobEffectPacket \u001b[2;32m+1M\u001b[0m \u001b[2;31m-1M\u001b[0m | \u001b[2;32m+1P\u001b[0m \u001b[2;31m-1P\u001b[0m",
+          "XXX.world.effect.MobEffectInstance \u001b[2;32m+2P\u001b[0m",
+          "XXX.world.effect.MobEffectInstance$Details \u001b[2;31m-1P\u001b[0m"
+        ]
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.network.protocol.game.ClientboundUpdateMobEffectPacket",
+        "differences": {
+          "added": [
+            "byte getEffectAmplifier()"
+          ],
+          "removed": [
+            "int getEffectAmplifier()"
+          ]
+        }
+      }
+    }
+  ]
+}

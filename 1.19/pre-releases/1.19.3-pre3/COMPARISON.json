@@ -1,0 +1,1295 @@
+{
+  "version_data": [
+    {
+      "type": "table",
+      "value": {
+        "previousLabel": "1.19.3-pre2",
+        "currentLabel": "1.19.3-pre3",
+        "values": [
+          {
+            "key": "World version",
+            "previous": "3212",
+            "current": "3213"
+          },
+          {
+            "key": "Protocol version",
+            "previous": "1073741934",
+            "current": "1073741935"
+          }
+        ]
+      }
+    },
+    {
+      "type": "title",
+      "value": {
+        "title": "Libraries",
+        "id": "version-data-libraries",
+        "size": 3
+      }
+    },
+    {
+      "type": "table",
+      "value": {
+        "title": "Versions",
+        "previousLabel": "1.19.3-pre2",
+        "currentLabel": "1.19.3-pre3",
+        "values": [
+          {
+            "key": "com.mojang:authlib",
+            "previous": "3.15.28",
+            "current": "3.16.29"
+          }
+        ]
+      }
+    }
+  ],
+  "registries": [
+    {
+      "type": "entries",
+      "value": {
+        "name": "sound_event",
+        "differences": {
+          "added": [
+            "minecraft:block.note_block.imitate.creeper",
+            "minecraft:block.note_block.imitate.ender_dragon",
+            "minecraft:block.note_block.imitate.piglin",
+            "minecraft:block.note_block.imitate.skeleton",
+            "minecraft:block.note_block.imitate.wither_skeleton",
+            "minecraft:block.note_block.imitate.zombie"
+          ],
+          "removed": []
+        }
+      }
+    }
+  ],
+  "tags": [
+    {
+      "type": "entries",
+      "value": {
+        "name": "universal_tags/sound_event.json",
+        "differences": {
+          "added": [
+            "minecraft:block.note_block.imitate.creeper",
+            "minecraft:block.note_block.imitate.ender_dragon",
+            "minecraft:block.note_block.imitate.piglin",
+            "minecraft:block.note_block.imitate.skeleton",
+            "minecraft:block.note_block.imitate.wither_skeleton",
+            "minecraft:block.note_block.imitate.zombie"
+          ],
+          "removed": []
+        }
+      }
+    }
+  ],
+  "translations": [
+    {
+      "type": "entries",
+      "value": {
+        "name": "Keys",
+        "differences": {
+          "added": [
+            "arguments.nbtpath.too_deep: Resulting NBT too deeply nested",
+            "arguments.nbtpath.too_large: Resulting NBT too large"
+          ],
+          "removed": []
+        }
+      }
+    }
+  ],
+  "mappings": [
+    {
+      "type": "title",
+      "value": {
+        "title": "Server",
+        "id": "server-mappings",
+        "size": 2
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "Classes",
+        "differences": {
+          "added": [
+            "XXX.minecraft.network.FriendlyByteBuf$Writer",
+            "XXX.minecraft.network.PacketEncoder",
+            "XXX.minecraft.network.PacketSendListener",
+            "XXX.minecraft.network.PacketSendListener$2",
+            "XXX.minecraft.network.SkipPacketException",
+            "XXX.minecraft.network.Varint21FrameDecoder",
+            "XXX.network.chat.ChatDecorator",
+            "XXX.network.chat.ChatType$Bound",
+            "XXX.network.chat.ChatTypeDecoration",
+            "XXX.network.chat.ChatTypeDecoration$Parameter$Selector",
+            "XXX.network.chat.ClickEvent$Action",
+            "XXX.network.chat.Component",
+            "XXX.network.chat.ComponentContents",
+            "XXX.network.chat.ComponentUtils",
+            "XXX.network.chat.FilterMask$1",
+            "XXX.network.chat.FormattedText",
+            "XXX.network.chat.FormattedText$2",
+            "XXX.network.chat.FormattedText$4",
+            "XXX.network.chat.FormattedText$StyledContentConsumer",
+            "XXX.network.chat.HoverEvent$Action",
+            "XXX.network.chat.HoverEvent$ItemStackInfo",
+            "XXX.network.chat.LastSeenMessages$Packed",
+            "XXX.network.chat.LastSeenMessagesTracker",
+            "XXX.network.chat.LastSeenMessagesValidator",
+            "XXX.network.chat.LocalChatSession",
+            "XXX.network.chat.MessageSignature$Packed",
+            "XXX.network.chat.MutableComponent",
+            "XXX.network.chat.OutgoingChatMessage$Disguised",
+            "XXX.network.chat.PlayerChatMessage",
+            "XXX.network.chat.RemoteChatSession$Data",
+            "XXX.network.chat.SignableCommand$Argument",
+            "XXX.network.chat.SignedMessageBody$Packed",
+            "XXX.network.chat.SignedMessageChain$DecodeException",
+            "XXX.network.chat.SignedMessageChain$Encoder",
+            "XXX.network.chat.SignedMessageValidator",
+            "XXX.network.chat.Style",
+            "XXX.network.chat.Style$1Collector",
+            "XXX.network.chat.SubStringSource",
+            "XXX.network.chat.ThrowingComponent",
+            "XXX.chat.contents.DataSource",
+            "XXX.chat.contents.KeybindContents",
+            "XXX.chat.contents.LiteralContents",
+            "XXX.chat.contents.ScoreContents",
+            "XXX.chat.contents.StorageDataSource",
+            "XXX.chat.contents.TranslatableFormatException",
+            "XXX.network.chat.package-info",
+            "XXX.network.protocol.Packet",
+            "XXX.network.protocol.PacketUtils",
+            "XXX.protocol.game.ClientboundAddEntityPacket",
+            "XXX.protocol.game.ClientboundAddPlayerPacket",
+            "XXX.protocol.game.ClientboundAwardStatsPacket",
+            "XXX.protocol.game.ClientboundBlockDestructionPacket",
+            "XXX.protocol.game.ClientboundBlockEventPacket",
+            "XXX.protocol.game.ClientboundBossEventPacket",
+            "XXX.protocol.game.ClientboundBossEventPacket$AddOperation",
+            "XXX.protocol.game.ClientboundBossEventPacket$Operation",
+            "XXX.protocol.game.ClientboundBossEventPacket$UpdateNameOperation",
+            "XXX.protocol.game.ClientboundBossEventPacket$UpdatePropertiesOperation",
+            "XXX.protocol.game.ClientboundChangeDifficultyPacket",
+            "XXX.protocol.game.ClientboundCommandSuggestionsPacket",
+            "XXX.protocol.game.ClientboundCommandsPacket$ArgumentNodeStub",
+            "XXX.protocol.game.ClientboundCommandsPacket$LiteralNodeStub",
+            "XXX.protocol.game.ClientboundCommandsPacket$NodeStub",
+            "XXX.protocol.game.ClientboundContainerSetContentPacket",
+            "XXX.protocol.game.ClientboundContainerSetSlotPacket",
+            "XXX.protocol.game.ClientboundCustomChatCompletionsPacket",
+            "XXX.protocol.game.ClientboundCustomPayloadPacket"
+          ],
+          "removed": [
+            "XXX.minecraft.network.FriendlyByteBuf$Reader",
+            "XXX.minecraft.network.PacketDecoder",
+            "XXX.minecraft.network.PacketListener",
+            "XXX.minecraft.network.PacketSendListener$1",
+            "XXX.minecraft.network.RateKickingConnection",
+            "XXX.minecraft.network.TickablePacketListener",
+            "XXX.minecraft.network.Varint21LengthFieldPrepender",
+            "XXX.network.chat.ChatType",
+            "XXX.network.chat.ChatType$BoundNetwork",
+            "XXX.network.chat.ChatTypeDecoration$Parameter",
+            "XXX.network.chat.ClickEvent",
+            "XXX.network.chat.CommonComponents",
+            "XXX.network.chat.Component$Serializer",
+            "XXX.network.chat.ComponentContents$1",
+            "XXX.network.chat.FilterMask",
+            "XXX.network.chat.FilterMask$Type",
+            "XXX.network.chat.FormattedText$1",
+            "XXX.network.chat.FormattedText$3",
+            "XXX.network.chat.FormattedText$ContentConsumer",
+            "XXX.network.chat.HoverEvent",
+            "XXX.network.chat.HoverEvent$EntityTooltipInfo",
+            "XXX.network.chat.LastSeenMessages",
+            "XXX.network.chat.LastSeenMessages$Update",
+            "XXX.network.chat.LastSeenMessagesTracker$Update",
+            "XXX.network.chat.LastSeenTrackedEntry",
+            "XXX.network.chat.MessageSignature",
+            "XXX.network.chat.MessageSignatureCache",
+            "XXX.network.chat.OutgoingChatMessage",
+            "XXX.network.chat.OutgoingChatMessage$Player",
+            "XXX.network.chat.RemoteChatSession",
+            "XXX.network.chat.SignableCommand",
+            "XXX.network.chat.SignedMessageBody",
+            "XXX.network.chat.SignedMessageChain",
+            "XXX.network.chat.SignedMessageChain$Decoder",
+            "XXX.network.chat.SignedMessageLink",
+            "XXX.network.chat.SignedMessageValidator$KeyBased",
+            "XXX.network.chat.Style$1",
+            "XXX.network.chat.Style$Serializer",
+            "XXX.network.chat.TextColor",
+            "XXX.chat.contents.BlockDataSource",
+            "XXX.chat.contents.EntityDataSource",
+            "XXX.chat.contents.KeybindResolver",
+            "XXX.chat.contents.NbtContents",
+            "XXX.chat.contents.SelectorContents",
+            "XXX.chat.contents.TranslatableContents",
+            "XXX.chat.contents.package-info",
+            "XXX.minecraft.network.package-info",
+            "XXX.network.protocol.PacketFlow",
+            "XXX.protocol.game.ClientGamePacketListener",
+            "XXX.protocol.game.ClientboundAddExperienceOrbPacket",
+            "XXX.protocol.game.ClientboundAnimatePacket",
+            "XXX.protocol.game.ClientboundBlockChangedAckPacket",
+            "XXX.protocol.game.ClientboundBlockEntityDataPacket",
+            "XXX.protocol.game.ClientboundBlockUpdatePacket",
+            "XXX.protocol.game.ClientboundBossEventPacket$1",
+            "XXX.protocol.game.ClientboundBossEventPacket$Handler",
+            "XXX.protocol.game.ClientboundBossEventPacket$OperationType",
+            "XXX.protocol.game.ClientboundBossEventPacket$UpdateProgressOperation",
+            "XXX.protocol.game.ClientboundBossEventPacket$UpdateStyleOperation",
+            "XXX.protocol.game.ClientboundClearTitlesPacket",
+            "XXX.protocol.game.ClientboundCommandsPacket",
+            "XXX.protocol.game.ClientboundCommandsPacket$Entry",
+            "XXX.protocol.game.ClientboundCommandsPacket$NodeResolver",
+            "XXX.protocol.game.ClientboundContainerClosePacket",
+            "XXX.protocol.game.ClientboundContainerSetDataPacket",
+            "XXX.protocol.game.ClientboundCooldownPacket",
+            "XXX.protocol.game.ClientboundCustomChatCompletionsPacket$Action"
+          ]
+        }
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "Changes",
+        "lines": [
+          "XXX.minecraft.commands.CommandSourceStack \u001b[2;32m+1M\u001b[0m \u001b[2;31m-1M\u001b[0m",
+          "XXX.minecraft.commands.SharedSuggestionProvider \u001b[2;32m+1P\u001b[0m \u001b[2;31m-1P\u001b[0m",
+          "XXX.commands.arguments.NbtPathArgument \u001b[2;32m+3M\u001b[0m \u001b[2;31m-1M\u001b[0m | \u001b[2;32m+4P\u001b[0m",
+          "XXX.minecraft.core.Registry \u001b[2;32m+2M\u001b[0m | \u001b[2;32m+1P\u001b[0m",
+          "XXX.minecraft.nbt.DoubleTag \u001b[2;32m+1M\u001b[0m",
+          "XXX.minecraft.nbt.EndTag \u001b[2;32m+1M\u001b[0m",
+          "XXX.minecraft.nbt.FloatTag \u001b[2;32m+1M\u001b[0m",
+          "XXX.minecraft.nbt.IntArrayTag \u001b[2;32m+1M\u001b[0m",
+          "XXX.minecraft.nbt.IntTag \u001b[2;32m+1M\u001b[0m",
+          "XXX.minecraft.nbt.LongArrayTag \u001b[2;32m+1M\u001b[0m",
+          "XXX.minecraft.nbt.LongTag \u001b[2;32m+1M\u001b[0m",
+          "XXX.minecraft.nbt.StringTag \u001b[2;32m+1M\u001b[0m",
+          "XXX.minecraft.network.FriendlyByteBuf \u001b[2;32m+2M\u001b[0m",
+          "XXX.network.syncher.SynchedEntityData \u001b[2;31m-1M\u001b[0m",
+          "XXX.commands.data.DataCommands \u001b[2;32m+17M\u001b[0m \u001b[2;31m-20M\u001b[0m | \u001b[2;31m-2P\u001b[0m",
+          "XXX.server.level.ServerLevel \u001b[2;32m+1M\u001b[0m \u001b[2;31m-2M\u001b[0m",
+          "XXX.minecraft.sounds.Music \u001b[2;32m+3M\u001b[0m \u001b[2;31m-3M\u001b[0m | \u001b[2;32m+1P\u001b[0m \u001b[2;31m-1P\u001b[0m",
+          "XXX.minecraft.sounds.SoundEvent \u001b[2;32m+8M\u001b[0m \u001b[2;31m-1M\u001b[0m | \u001b[2;32m+2P\u001b[0m",
+          "XXX.entity.player.Player \u001b[2;32m+1M\u001b[0m",
+          "XXX.world.item.Instrument \u001b[2;32m+2M\u001b[0m \u001b[2;31m-2M\u001b[0m | \u001b[2;32m+1P\u001b[0m \u001b[2;31m-1P\u001b[0m",
+          "XXX.world.level.Level \u001b[2;32m+1M\u001b[0m \u001b[2;31m-1M\u001b[0m | \u001b[2;32m+1P\u001b[0m \u001b[2;31m-2P\u001b[0m",
+          "XXX.level.biome.AmbientAdditionsSettings \u001b[2;32m+3M\u001b[0m \u001b[2;31m-3M\u001b[0m | \u001b[2;32m+1P\u001b[0m \u001b[2;31m-1P\u001b[0m",
+          "XXX.level.biome.BiomeSpecialEffects$Builder \u001b[2;32m+1M\u001b[0m \u001b[2;31m-1M\u001b[0m",
+          "XXX.block.state.StateHolder \u001b[2;32m+1M\u001b[0m",
+          "XXX.state.properties.NoteBlockInstrument \u001b[2;32m+2M\u001b[0m \u001b[2;31m-2M\u001b[0m | \u001b[2;32m+1P\u001b[0m \u001b[2;31m-1P\u001b[0m"
+        ]
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.commands.CommandSourceStack",
+        "differences": {
+          "added": [
+            "Collection getAvailableSoundEvents()"
+          ],
+          "removed": [
+            "Stream getAvailableSounds()"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.commands.arguments.NbtPathArgument",
+        "differences": {
+          "added": [
+            "boolean lambda$createTagPredicate$1(CompoundTag,Tag)"
+          ],
+          "removed": [
+            "boolean lambda$createTagPredicate$3(CompoundTag,Tag)",
+            "Message lambda$static$2(Object)",
+            "Message lambda$static$1(Object)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.core.Registry",
+        "differences": {
+          "added": [],
+          "removed": [
+            "Holder$Reference registerForHolder(Registry,ResourceKey,Object)",
+            "Holder$Reference registerForHolder(Registry,ResourceLocation,Object)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.nbt.DoubleTag",
+        "differences": {
+          "added": [],
+          "removed": [
+            "int sizeInBits()"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.nbt.EndTag",
+        "differences": {
+          "added": [],
+          "removed": [
+            "int sizeInBits()"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.nbt.FloatTag",
+        "differences": {
+          "added": [],
+          "removed": [
+            "int sizeInBits()"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.nbt.IntArrayTag",
+        "differences": {
+          "added": [],
+          "removed": [
+            "int sizeInBits()"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.nbt.IntTag",
+        "differences": {
+          "added": [],
+          "removed": [
+            "int sizeInBits()"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.nbt.LongArrayTag",
+        "differences": {
+          "added": [],
+          "removed": [
+            "int sizeInBits()"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.nbt.LongTag",
+        "differences": {
+          "added": [],
+          "removed": [
+            "int sizeInBits()"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.nbt.StringTag",
+        "differences": {
+          "added": [],
+          "removed": [
+            "int sizeInBits()"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.network.FriendlyByteBuf",
+        "differences": {
+          "added": [],
+          "removed": [
+            "void writeId(IdMap,Holder,FriendlyByteBuf$Writer)",
+            "Holder readById(IdMap,FriendlyByteBuf$Reader)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.network.syncher.SynchedEntityData",
+        "differences": {
+          "added": [
+            "void clearDirty()"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.server.commands.data.DataCommands",
+        "differences": {
+          "added": [
+            "int insertAtIndex(int,CompoundTag,NbtPathArgument$NbtPath,List)",
+            "ArgumentBuilder lambda$decorateModification$28(BiConsumer,DataCommands$DataProvider,ArgumentBuilder)",
+            "ArgumentBuilder lambda$decorateModification$27(DataCommands$DataProvider,DataCommands$DataManipulator)",
+            "int lambda$decorateModification$26(DataCommands$DataProvider,DataCommands$DataManipulator,CommandContext)",
+            "ArgumentBuilder lambda$decorateModification$25(DataCommands$DataProvider,DataCommands$DataProvider,DataCommands$DataManipulator)",
+            "ArgumentBuilder lambda$decorateModification$24(DataCommands$DataProvider,DataCommands$DataProvider,DataCommands$DataManipulator,ArgumentBuilder)",
+            "int lambda$decorateModification$23(DataCommands$DataProvider,DataCommands$DataProvider,DataCommands$DataManipulator,CommandContext)",
+            "int lambda$decorateModification$22(DataCommands$DataProvider,DataCommands$DataProvider,DataCommands$DataManipulator,CommandContext)",
+            "void lambda$register$21(ArgumentBuilder,DataCommands$DataManipulatorDecorator)",
+            "int lambda$register$20(CommandContext,CompoundTag,NbtPathArgument$NbtPath,List)",
+            "int lambda$register$19(CommandContext,CompoundTag,NbtPathArgument$NbtPath,List)",
+            "ArgumentBuilder lambda$register$15(DataCommands$DataProvider,ArgumentBuilder)",
+            "int lambda$register$14(DataCommands$DataProvider,CommandContext)",
+            "int lambda$register$11(DataCommands$DataProvider,CommandContext)",
+            "ArgumentBuilder lambda$register$9(DataCommands$DataProvider,ArgumentBuilder)",
+            "boolean lambda$register$7(CommandSourceStack)",
+            "DataCommands$DataProvider lambda$static$6(Function)",
+            "DataCommands$DataProvider lambda$static$5(Function)",
+            "Message lambda$static$4(Object)",
+            "Message lambda$static$3(Object)"
+          ],
+          "removed": [
+            "ArgumentBuilder lambda$decorateModification$26(BiConsumer,DataCommands$DataProvider,ArgumentBuilder)",
+            "ArgumentBuilder lambda$decorateModification$25(DataCommands$DataProvider,DataCommands$DataManipulator)",
+            "int lambda$decorateModification$24(DataCommands$DataProvider,DataCommands$DataManipulator,CommandContext)",
+            "ArgumentBuilder lambda$decorateModification$23(DataCommands$DataProvider,DataCommands$DataProvider,DataCommands$DataManipulator)",
+            "ArgumentBuilder lambda$decorateModification$22(DataCommands$DataProvider,DataCommands$DataProvider,DataCommands$DataManipulator,ArgumentBuilder)",
+            "int lambda$decorateModification$21(DataCommands$DataProvider,DataCommands$DataProvider,DataCommands$DataManipulator,CommandContext)",
+            "int lambda$decorateModification$20(DataCommands$DataProvider,DataCommands$DataProvider,DataCommands$DataManipulator,CommandContext)",
+            "void lambda$register$19(ArgumentBuilder,DataCommands$DataManipulatorDecorator)",
+            "int lambda$register$15(CommandContext,CompoundTag,NbtPathArgument$NbtPath,List)",
+            "int lambda$register$14(CommandContext,CompoundTag,NbtPathArgument$NbtPath,List)",
+            "ArgumentBuilder lambda$register$11(DataCommands$DataProvider,ArgumentBuilder)",
+            "int lambda$register$9(DataCommands$DataProvider,CommandContext)",
+            "ArgumentBuilder lambda$register$7(DataCommands$DataProvider,ArgumentBuilder)",
+            "int lambda$register$6(DataCommands$DataProvider,CommandContext)",
+            "boolean lambda$register$5(CommandSourceStack)",
+            "DataCommands$DataProvider lambda$static$4(Function)",
+            "DataCommands$DataProvider lambda$static$3(Function)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.server.level.ServerLevel",
+        "differences": {
+          "added": [
+            "void playSeededSound(Player,double,double,double,SoundEvent,SoundSource,float,float,long)",
+            "void playCustomSound(Player,Vec3,ResourceLocation,SoundSource,float,float,double,long)"
+          ],
+          "removed": [
+            "void playSeededSound(Player,double,double,double,Holder,SoundSource,float,float,long)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.sounds.Music",
+        "differences": {
+          "added": [
+            "void <init>(SoundEvent,int,int,boolean)",
+            "SoundEvent getEvent()",
+            "SoundEvent lambda$static$0(Music)"
+          ],
+          "removed": [
+            "void <init>(Holder,int,int,boolean)",
+            "Holder getEvent()",
+            "Holder lambda$static$0(Music)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.sounds.SoundEvent",
+        "differences": {
+          "added": [
+            "float legacySoundRange(float)"
+          ],
+          "removed": [
+            "SoundEvent create(ResourceLocation,Optional)",
+            "Optional fixedRange()",
+            "void writeToNetwork(FriendlyByteBuf)",
+            "SoundEvent readFromNetwork(FriendlyByteBuf)",
+            "SoundEvent lambda$create$2(ResourceLocation)",
+            "SoundEvent lambda$create$1(ResourceLocation,Float)",
+            "App lambda$static$0(RecordCodecBuilder$Instance)",
+            "void <clinit>()"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.entity.player.Player",
+        "differences": {
+          "added": [],
+          "removed": [
+            "void doCloseContainer()"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.item.Instrument",
+        "differences": {
+          "added": [
+            "void <init>(SoundEvent,int,float)",
+            "SoundEvent soundEvent()"
+          ],
+          "removed": [
+            "void <init>(Holder,int,float)",
+            "Holder soundEvent()"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.level.Level",
+        "differences": {
+          "added": [
+            "void playCustomSound(Player,Vec3,ResourceLocation,SoundSource,float,float,double)"
+          ],
+          "removed": [
+            "void playSeededSound(Player,double,double,double,SoundEvent,SoundSource,float,float,long)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.level.biome.AmbientAdditionsSettings",
+        "differences": {
+          "added": [
+            "void <init>(SoundEvent,double)",
+            "SoundEvent getSoundEvent()",
+            "SoundEvent lambda$static$0(AmbientAdditionsSettings)"
+          ],
+          "removed": [
+            "void <init>(Holder,double)",
+            "Holder getSoundEvent()",
+            "Holder lambda$static$0(AmbientAdditionsSettings)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.level.biome.BiomeSpecialEffects$Builder",
+        "differences": {
+          "added": [
+            "BiomeSpecialEffects$Builder ambientLoopSound(SoundEvent)"
+          ],
+          "removed": [
+            "BiomeSpecialEffects$Builder ambientLoopSound(Holder)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.level.block.state.StateHolder",
+        "differences": {
+          "added": [],
+          "removed": [
+            "Object trySetValue(Property,Comparable)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.level.block.state.properties.NoteBlockInstrument",
+        "differences": {
+          "added": [
+            "void <init>(String,int,String,SoundEvent,NoteBlockInstrument$Type)",
+            "SoundEvent getSoundEvent()"
+          ],
+          "removed": [
+            "void <init>(String,int,String,Holder,NoteBlockInstrument$Type)",
+            "Holder getSoundEvent()"
+          ]
+        }
+      }
+    },
+    {
+      "type": "title",
+      "value": {
+        "title": "Client",
+        "id": "client-mappings",
+        "size": 2
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "Classes",
+        "differences": {
+          "added": [
+            "XXX.telemetry.events.WorldLoadEvent",
+            "XXX.telemetry.events.WorldLoadEvent$WorldLoadEventCallbacks",
+            "XXX.minecraft.network.FriendlyByteBuf$Writer",
+            "XXX.minecraft.network.PacketEncoder",
+            "XXX.minecraft.network.PacketSendListener",
+            "XXX.minecraft.network.PacketSendListener$2",
+            "XXX.minecraft.network.SkipPacketException",
+            "XXX.minecraft.network.Varint21FrameDecoder",
+            "XXX.network.chat.ChatDecorator",
+            "XXX.network.chat.ChatType$Bound",
+            "XXX.network.chat.ChatTypeDecoration",
+            "XXX.network.chat.ChatTypeDecoration$Parameter$Selector",
+            "XXX.network.chat.ClickEvent$Action",
+            "XXX.network.chat.Component",
+            "XXX.network.chat.ComponentContents",
+            "XXX.network.chat.ComponentUtils",
+            "XXX.network.chat.FilterMask$1",
+            "XXX.network.chat.FormattedText",
+            "XXX.network.chat.FormattedText$2",
+            "XXX.network.chat.FormattedText$4",
+            "XXX.network.chat.FormattedText$StyledContentConsumer",
+            "XXX.network.chat.HoverEvent$Action",
+            "XXX.network.chat.HoverEvent$ItemStackInfo",
+            "XXX.network.chat.LastSeenMessages$Packed",
+            "XXX.network.chat.LastSeenMessagesTracker",
+            "XXX.network.chat.LastSeenMessagesValidator",
+            "XXX.network.chat.LocalChatSession",
+            "XXX.network.chat.MessageSignature$Packed",
+            "XXX.network.chat.MutableComponent",
+            "XXX.network.chat.OutgoingChatMessage$Disguised",
+            "XXX.network.chat.PlayerChatMessage",
+            "XXX.network.chat.RemoteChatSession$Data",
+            "XXX.network.chat.SignableCommand$Argument",
+            "XXX.network.chat.SignedMessageBody$Packed",
+            "XXX.network.chat.SignedMessageChain$DecodeException",
+            "XXX.network.chat.SignedMessageChain$Encoder",
+            "XXX.network.chat.SignedMessageValidator",
+            "XXX.network.chat.Style",
+            "XXX.network.chat.Style$1Collector",
+            "XXX.network.chat.SubStringSource",
+            "XXX.network.chat.ThrowingComponent",
+            "XXX.chat.contents.DataSource",
+            "XXX.chat.contents.KeybindContents",
+            "XXX.chat.contents.LiteralContents",
+            "XXX.chat.contents.ScoreContents",
+            "XXX.chat.contents.StorageDataSource",
+            "XXX.chat.contents.TranslatableFormatException",
+            "XXX.network.chat.package-info",
+            "XXX.network.protocol.Packet",
+            "XXX.network.protocol.PacketUtils",
+            "XXX.protocol.game.ClientboundAddEntityPacket",
+            "XXX.protocol.game.ClientboundAddPlayerPacket",
+            "XXX.protocol.game.ClientboundAwardStatsPacket",
+            "XXX.protocol.game.ClientboundBlockDestructionPacket",
+            "XXX.protocol.game.ClientboundBlockEventPacket",
+            "XXX.protocol.game.ClientboundBossEventPacket",
+            "XXX.protocol.game.ClientboundBossEventPacket$AddOperation",
+            "XXX.protocol.game.ClientboundBossEventPacket$Operation",
+            "XXX.protocol.game.ClientboundBossEventPacket$UpdateNameOperation",
+            "XXX.protocol.game.ClientboundBossEventPacket$UpdatePropertiesOperation",
+            "XXX.protocol.game.ClientboundChangeDifficultyPacket",
+            "XXX.protocol.game.ClientboundCommandSuggestionsPacket",
+            "XXX.protocol.game.ClientboundCommandsPacket$ArgumentNodeStub",
+            "XXX.protocol.game.ClientboundCommandsPacket$LiteralNodeStub",
+            "XXX.protocol.game.ClientboundCommandsPacket$NodeStub",
+            "XXX.protocol.game.ClientboundContainerSetContentPacket",
+            "XXX.protocol.game.ClientboundContainerSetSlotPacket",
+            "XXX.protocol.game.ClientboundCustomChatCompletionsPacket",
+            "XXX.protocol.game.ClientboundCustomPayloadPacket"
+          ],
+          "removed": [
+            "XXX.telemetry.events.WorldLoadEvent$1",
+            "XXX.minecraft.network.FriendlyByteBuf$Reader",
+            "XXX.minecraft.network.PacketDecoder",
+            "XXX.minecraft.network.PacketListener",
+            "XXX.minecraft.network.PacketSendListener$1",
+            "XXX.minecraft.network.RateKickingConnection",
+            "XXX.minecraft.network.TickablePacketListener",
+            "XXX.minecraft.network.Varint21LengthFieldPrepender",
+            "XXX.network.chat.ChatType",
+            "XXX.network.chat.ChatType$BoundNetwork",
+            "XXX.network.chat.ChatTypeDecoration$Parameter",
+            "XXX.network.chat.ClickEvent",
+            "XXX.network.chat.CommonComponents",
+            "XXX.network.chat.Component$Serializer",
+            "XXX.network.chat.ComponentContents$1",
+            "XXX.network.chat.FilterMask",
+            "XXX.network.chat.FilterMask$Type",
+            "XXX.network.chat.FormattedText$1",
+            "XXX.network.chat.FormattedText$3",
+            "XXX.network.chat.FormattedText$ContentConsumer",
+            "XXX.network.chat.HoverEvent",
+            "XXX.network.chat.HoverEvent$EntityTooltipInfo",
+            "XXX.network.chat.LastSeenMessages",
+            "XXX.network.chat.LastSeenMessages$Update",
+            "XXX.network.chat.LastSeenMessagesTracker$Update",
+            "XXX.network.chat.LastSeenTrackedEntry",
+            "XXX.network.chat.MessageSignature",
+            "XXX.network.chat.MessageSignatureCache",
+            "XXX.network.chat.OutgoingChatMessage",
+            "XXX.network.chat.OutgoingChatMessage$Player",
+            "XXX.network.chat.RemoteChatSession",
+            "XXX.network.chat.SignableCommand",
+            "XXX.network.chat.SignedMessageBody",
+            "XXX.network.chat.SignedMessageChain",
+            "XXX.network.chat.SignedMessageChain$Decoder",
+            "XXX.network.chat.SignedMessageLink",
+            "XXX.network.chat.SignedMessageValidator$KeyBased",
+            "XXX.network.chat.Style$1",
+            "XXX.network.chat.Style$Serializer",
+            "XXX.network.chat.TextColor",
+            "XXX.chat.contents.BlockDataSource",
+            "XXX.chat.contents.EntityDataSource",
+            "XXX.chat.contents.KeybindResolver",
+            "XXX.chat.contents.NbtContents",
+            "XXX.chat.contents.SelectorContents",
+            "XXX.chat.contents.TranslatableContents",
+            "XXX.chat.contents.package-info",
+            "XXX.minecraft.network.package-info",
+            "XXX.network.protocol.PacketFlow",
+            "XXX.protocol.game.ClientGamePacketListener",
+            "XXX.protocol.game.ClientboundAddExperienceOrbPacket",
+            "XXX.protocol.game.ClientboundAnimatePacket",
+            "XXX.protocol.game.ClientboundBlockChangedAckPacket",
+            "XXX.protocol.game.ClientboundBlockEntityDataPacket",
+            "XXX.protocol.game.ClientboundBlockUpdatePacket",
+            "XXX.protocol.game.ClientboundBossEventPacket$1",
+            "XXX.protocol.game.ClientboundBossEventPacket$Handler",
+            "XXX.protocol.game.ClientboundBossEventPacket$OperationType",
+            "XXX.protocol.game.ClientboundBossEventPacket$UpdateProgressOperation",
+            "XXX.protocol.game.ClientboundBossEventPacket$UpdateStyleOperation",
+            "XXX.protocol.game.ClientboundClearTitlesPacket",
+            "XXX.protocol.game.ClientboundCommandsPacket",
+            "XXX.protocol.game.ClientboundCommandsPacket$Entry",
+            "XXX.protocol.game.ClientboundCommandsPacket$NodeResolver",
+            "XXX.protocol.game.ClientboundContainerClosePacket",
+            "XXX.protocol.game.ClientboundContainerSetDataPacket",
+            "XXX.protocol.game.ClientboundCooldownPacket",
+            "XXX.protocol.game.ClientboundCustomChatCompletionsPacket$Action"
+          ]
+        }
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "Changes",
+        "lines": [
+          "XXX.minecraft.client.GameNarrator \u001b[2;32m+2M\u001b[0m \u001b[2;31m-1M\u001b[0m",
+          "XXX.gui.components.ImageButton \u001b[2;31m-1M\u001b[0m",
+          "XXX.gui.screens.InBedChatScreen \u001b[2;32m+2M\u001b[0m | \u001b[2;32m+1P\u001b[0m",
+          "XXX.client.model.VexModel \u001b[2;32m+1M\u001b[0m \u001b[2;31m-3M\u001b[0m | \u001b[2;32m+1P\u001b[0m",
+          "XXX.client.multiplayer.ClientLevel \u001b[2;32m+1M\u001b[0m \u001b[2;31m-2M\u001b[0m",
+          "XXX.client.multiplayer.ClientPacketListener \u001b[2;31m-1M\u001b[0m",
+          "XXX.multiplayer.chat.ChatListener \u001b[2;31m-1M\u001b[0m",
+          "XXX.resources.sounds.BiomeAmbientSoundsHandler \u001b[2;32m+2M\u001b[0m \u001b[2;31m-2M\u001b[0m",
+          "XXX.resources.sounds.SimpleSoundInstance \u001b[2;32m+1M\u001b[0m",
+          "XXX.client.sounds.WeighedSoundEvents \u001b[2;31m-1M\u001b[0m | \u001b[2;31m-2P\u001b[0m",
+          "XXX.telemetry.events.PerformanceMetricsEvent \u001b[2;32m+4M\u001b[0m \u001b[2;31m-5M\u001b[0m | \u001b[2;31m-1P\u001b[0m",
+          "XXX.telemetry.events.WorldUnloadEvent \u001b[2;32m+1M\u001b[0m \u001b[2;31m-1M\u001b[0m | \u001b[2;32m+1P\u001b[0m",
+          "XXX.minecraft.commands.CommandSourceStack \u001b[2;32m+1M\u001b[0m \u001b[2;31m-1M\u001b[0m",
+          "XXX.minecraft.commands.SharedSuggestionProvider \u001b[2;32m+1P\u001b[0m \u001b[2;31m-1P\u001b[0m",
+          "XXX.commands.arguments.NbtPathArgument \u001b[2;32m+3M\u001b[0m \u001b[2;31m-1M\u001b[0m | \u001b[2;32m+4P\u001b[0m",
+          "XXX.minecraft.core.Registry \u001b[2;32m+2M\u001b[0m | \u001b[2;32m+1P\u001b[0m",
+          "XXX.minecraft.nbt.DoubleTag \u001b[2;32m+1M\u001b[0m",
+          "XXX.minecraft.nbt.EndTag \u001b[2;32m+1M\u001b[0m",
+          "XXX.minecraft.nbt.FloatTag \u001b[2;32m+1M\u001b[0m",
+          "XXX.minecraft.nbt.IntArrayTag \u001b[2;32m+1M\u001b[0m",
+          "XXX.minecraft.nbt.IntTag \u001b[2;32m+1M\u001b[0m",
+          "XXX.minecraft.nbt.LongArrayTag \u001b[2;32m+1M\u001b[0m",
+          "XXX.minecraft.nbt.LongTag \u001b[2;32m+1M\u001b[0m",
+          "XXX.minecraft.nbt.StringTag \u001b[2;32m+1M\u001b[0m",
+          "XXX.minecraft.network.FriendlyByteBuf \u001b[2;32m+2M\u001b[0m",
+          "XXX.network.syncher.SynchedEntityData \u001b[2;31m-1M\u001b[0m",
+          "XXX.server.commands.ExecuteCommand \u001b[2;32m+21M\u001b[0m \u001b[2;31m-22M\u001b[0m",
+          "XXX.server.level.ServerEntity \u001b[2;32m+1P\u001b[0m",
+          "XXX.minecraft.sounds.Musics \u001b[2;32m+1M\u001b[0m \u001b[2;31m-1M\u001b[0m",
+          "XXX.minecraft.sounds.SoundEvents \u001b[2;32m+7M\u001b[0m \u001b[2;31m-2M\u001b[0m | \u001b[2;32m+65P\u001b[0m \u001b[2;31m-59P\u001b[0m",
+          "XXX.level.biome.AmbientMoodSettings \u001b[2;32m+3M\u001b[0m \u001b[2;31m-3M\u001b[0m | \u001b[2;32m+1P\u001b[0m \u001b[2;31m-1P\u001b[0m"
+        ]
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.client.GameNarrator",
+        "differences": {
+          "added": [
+            "void sayChatNow(Supplier)"
+          ],
+          "removed": [
+            "void sayChat(Component)",
+            "void say(Component)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.client.gui.components.ImageButton",
+        "differences": {
+          "added": [
+            "void setPosition(int,int)"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.client.gui.screens.InBedChatScreen",
+        "differences": {
+          "added": [],
+          "removed": [
+            "void render(PoseStack,int,int,float)",
+            "boolean charTyped(char,int)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.client.model.VexModel",
+        "differences": {
+          "added": [
+            "void offsetSwordPivot(PoseStack)",
+            "void rotateSwordWithArm(PoseStack)",
+            "void offsetSwordPosition(PoseStack)"
+          ],
+          "removed": [
+            "void offsetStackPosition(PoseStack,boolean)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.client.multiplayer.ClientLevel",
+        "differences": {
+          "added": [
+            "void playSeededSound(Player,double,double,double,SoundEvent,SoundSource,float,float,long)",
+            "void playCustomSound(Player,Vec3,ResourceLocation,SoundSource,float,float,double,long)"
+          ],
+          "removed": [
+            "void playSeededSound(Player,double,double,double,Holder,SoundSource,float,float,long)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.client.multiplayer.ClientPacketListener",
+        "differences": {
+          "added": [
+            "void handleCustomSoundEvent(ClientboundCustomSoundPacket)"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.client.multiplayer.chat.ChatListener",
+        "differences": {
+          "added": [
+            "Component lambda$narrateChatMessage$3(ChatType$Bound,Component)"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.client.resources.sounds.BiomeAmbientSoundsHandler",
+        "differences": {
+          "added": [
+            "void lambda$tick$1(Biome,SoundEvent)",
+            "BiomeAmbientSoundsHandler$LoopSoundInstance lambda$tick$0(SoundEvent,Biome,BiomeAmbientSoundsHandler$LoopSoundInstance)"
+          ],
+          "removed": [
+            "void lambda$tick$1(Biome,Holder)",
+            "BiomeAmbientSoundsHandler$LoopSoundInstance lambda$tick$0(Holder,Biome,BiomeAmbientSoundsHandler$LoopSoundInstance)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.client.resources.sounds.SimpleSoundInstance",
+        "differences": {
+          "added": [],
+          "removed": [
+            "SimpleSoundInstance forUI(Holder,float)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.client.sounds.WeighedSoundEvents",
+        "differences": {
+          "added": [
+            "ResourceLocation getResourceLocation()"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.client.telemetry.events.PerformanceMetricsEvent",
+        "differences": {
+          "added": [
+            "void <init>(TelemetryEventSender)",
+            "void tick()",
+            "void sendEvent()",
+            "void send(TelemetryEventSender)",
+            "void lambda$send$0(TelemetryPropertyMap$Builder)"
+          ],
+          "removed": [
+            "void <init>()",
+            "void tick(TelemetryEventSender)",
+            "void sendEvent(TelemetryEventSender)",
+            "void lambda$sendEvent$0(TelemetryPropertyMap$Builder)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.client.telemetry.events.WorldUnloadEvent",
+        "differences": {
+          "added": [
+            "void loadedWorld()"
+          ],
+          "removed": [
+            "void onPlayerInfoReceived()"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.commands.CommandSourceStack",
+        "differences": {
+          "added": [
+            "Collection getAvailableSoundEvents()"
+          ],
+          "removed": [
+            "Stream getAvailableSounds()"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.commands.arguments.NbtPathArgument",
+        "differences": {
+          "added": [
+            "boolean lambda$createTagPredicate$1(CompoundTag,Tag)"
+          ],
+          "removed": [
+            "boolean lambda$createTagPredicate$3(CompoundTag,Tag)",
+            "Message lambda$static$2(Object)",
+            "Message lambda$static$1(Object)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.core.Registry",
+        "differences": {
+          "added": [],
+          "removed": [
+            "Holder$Reference registerForHolder(Registry,ResourceKey,Object)",
+            "Holder$Reference registerForHolder(Registry,ResourceLocation,Object)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.nbt.DoubleTag",
+        "differences": {
+          "added": [],
+          "removed": [
+            "int sizeInBits()"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.nbt.EndTag",
+        "differences": {
+          "added": [],
+          "removed": [
+            "int sizeInBits()"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.nbt.FloatTag",
+        "differences": {
+          "added": [],
+          "removed": [
+            "int sizeInBits()"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.nbt.IntArrayTag",
+        "differences": {
+          "added": [],
+          "removed": [
+            "int sizeInBits()"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.nbt.IntTag",
+        "differences": {
+          "added": [],
+          "removed": [
+            "int sizeInBits()"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.nbt.LongArrayTag",
+        "differences": {
+          "added": [],
+          "removed": [
+            "int sizeInBits()"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.nbt.LongTag",
+        "differences": {
+          "added": [],
+          "removed": [
+            "int sizeInBits()"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.nbt.StringTag",
+        "differences": {
+          "added": [],
+          "removed": [
+            "int sizeInBits()"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.network.FriendlyByteBuf",
+        "differences": {
+          "added": [],
+          "removed": [
+            "void writeId(IdMap,Holder,FriendlyByteBuf$Writer)",
+            "Holder readById(IdMap,FriendlyByteBuf$Reader)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.network.syncher.SynchedEntityData",
+        "differences": {
+          "added": [
+            "void clearDirty()"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.server.commands.ExecuteCommand",
+        "differences": {
+          "added": [
+            "int lambda$addIfBlocksConditional$62(boolean,CommandContext)",
+            "Collection lambda$addIfBlocksConditional$60(boolean,boolean,CommandContext)",
+            "int lambda$addConditional$59(boolean,ExecuteCommand$CommandPredicate,CommandContext)",
+            "Collection lambda$addConditional$58(boolean,ExecuteCommand$CommandPredicate,CommandContext)",
+            "int lambda$createNumericConditionalHandler$57(ExecuteCommand$CommandNumericPredicate,CommandContext)",
+            "ArgumentBuilder lambda$addConditionals$55(CommandNode,boolean,DataCommands$DataProvider,ArgumentBuilder)",
+            "int lambda$addConditionals$54(DataCommands$DataProvider,CommandContext)",
+            "Collection lambda$addConditionals$53(boolean,DataCommands$DataProvider,CommandContext)",
+            "boolean lambda$addConditionals$52(CommandContext)",
+            "int lambda$addConditionals$51(CommandContext)",
+            "Collection lambda$addConditionals$50(boolean,CommandContext)",
+            "boolean lambda$addConditionals$49(CommandContext)",
+            "boolean lambda$addConditionals$47(Integer,Integer)",
+            "boolean lambda$addConditionals$46(CommandContext)",
+            "boolean lambda$addConditionals$45(Integer,Integer)",
+            "boolean lambda$addConditionals$44(CommandContext)",
+            "boolean lambda$addConditionals$43(Integer,Integer)",
+            "boolean lambda$addConditionals$42(CommandContext)",
+            "boolean lambda$addConditionals$41(Integer,Integer)",
+            "boolean lambda$addConditionals$40(CommandContext)",
+            "void lambda$storeData$37(DataAccessor,boolean,NbtPathArgument$NbtPath,IntFunction,CommandContext,boolean,int)",
+            "Tag lambda$storeData$36(IntFunction,int)"
+          ],
+          "removed": [
+            "int lambda$addIfBlocksConditional$60(boolean,CommandContext)",
+            "Collection lambda$addIfBlocksConditional$59(boolean,boolean,CommandContext)",
+            "int lambda$addConditional$58(boolean,ExecuteCommand$CommandPredicate,CommandContext)",
+            "Collection lambda$addConditional$57(boolean,ExecuteCommand$CommandPredicate,CommandContext)",
+            "int lambda$createNumericConditionalHandler$55(ExecuteCommand$CommandNumericPredicate,CommandContext)",
+            "ArgumentBuilder lambda$addConditionals$54(CommandNode,boolean,DataCommands$DataProvider,ArgumentBuilder)",
+            "int lambda$addConditionals$53(DataCommands$DataProvider,CommandContext)",
+            "Collection lambda$addConditionals$52(boolean,DataCommands$DataProvider,CommandContext)",
+            "boolean lambda$addConditionals$51(CommandContext)",
+            "int lambda$addConditionals$50(CommandContext)",
+            "Collection lambda$addConditionals$49(boolean,CommandContext)",
+            "boolean lambda$addConditionals$47(CommandContext)",
+            "boolean lambda$addConditionals$46(Integer,Integer)",
+            "boolean lambda$addConditionals$45(CommandContext)",
+            "boolean lambda$addConditionals$44(Integer,Integer)",
+            "boolean lambda$addConditionals$43(CommandContext)",
+            "boolean lambda$addConditionals$42(Integer,Integer)",
+            "boolean lambda$addConditionals$41(CommandContext)",
+            "boolean lambda$addConditionals$40(Integer,Integer)",
+            "boolean lambda$addConditionals$37(CommandContext)",
+            "void lambda$storeData$36(DataAccessor,boolean,NbtPathArgument$NbtPath,IntFunction,CommandContext,boolean,int)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.sounds.Musics",
+        "differences": {
+          "added": [
+            "Music createGameMusic(SoundEvent)"
+          ],
+          "removed": [
+            "Music createGameMusic(Holder)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.sounds.SoundEvents",
+        "differences": {
+          "added": [
+            "SoundEvent register(String,float)",
+            "SoundEvent lambda$registerGoatHornSoundVariants$0(int)"
+          ],
+          "removed": [
+            "Holder register(ResourceLocation,ResourceLocation,float)",
+            "SoundEvent register(ResourceLocation)",
+            "Holder$Reference registerForHolder(String)",
+            "Holder$Reference registerForHolder(ResourceLocation)",
+            "SoundEvent register(ResourceLocation,ResourceLocation)",
+            "Holder$Reference registerForHolder(ResourceLocation,ResourceLocation)",
+            "Holder$Reference lambda$registerGoatHornSoundVariants$0(int)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.level.biome.AmbientMoodSettings",
+        "differences": {
+          "added": [
+            "void <init>(SoundEvent,int,int,double)",
+            "SoundEvent getSoundEvent()",
+            "SoundEvent lambda$static$0(AmbientMoodSettings)"
+          ],
+          "removed": [
+            "void <init>(Holder,int,int,double)",
+            "Holder getSoundEvent()",
+            "Holder lambda$static$0(AmbientMoodSettings)"
+          ]
+        }
+      }
+    }
+  ]
+}

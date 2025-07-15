@@ -1,0 +1,541 @@
+{
+  "version_data": [
+    {
+      "type": "table",
+      "value": {
+        "previousLabel": "18w50a",
+        "currentLabel": "19w02a",
+        "values": [
+          {
+            "key": "World version",
+            "previous": "1919",
+            "current": "1921"
+          },
+          {
+            "key": "Protocol version",
+            "previous": "451",
+            "current": "452"
+          }
+        ]
+      }
+    },
+    {
+      "type": "title",
+      "value": {
+        "title": "Libraries",
+        "id": "version-data-libraries",
+        "size": 3
+      }
+    },
+    {
+      "type": "table",
+      "value": {
+        "title": "Versions",
+        "previousLabel": "18w50a",
+        "currentLabel": "19w02a",
+        "values": [
+          {
+            "key": "com.mojang:datafixerupper",
+            "previous": "1.0.21",
+            "current": "2.0.23"
+          }
+        ]
+      }
+    }
+  ],
+  "registries": [
+    {
+      "type": "entries",
+      "value": {
+        "name": "🗒️ List",
+        "differences": {
+          "added": [
+            "menu.txt"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "block",
+        "differences": {
+          "added": [
+            "minecraft:campfire"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "block_entity_type",
+        "differences": {
+          "added": [
+            "minecraft:campfire"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "custom_stat",
+        "differences": {
+          "added": [
+            "minecraft:interact_with_lectern",
+            "minecraft:interact_with_campfire"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "feature",
+        "differences": {
+          "added": [],
+          "removed": [
+            "minecraft:new_village"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "item",
+        "differences": {
+          "added": [
+            "minecraft:campfire"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "particle_type",
+        "differences": {
+          "added": [
+            "minecraft:campfire_cosy_smoke",
+            "minecraft:campfire_signal_smoke"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "sound_event",
+        "differences": {
+          "added": [
+            "minecraft:item.book.page_turn",
+            "minecraft:item.book.put",
+            "minecraft:block.campfire.crackle",
+            "minecraft:ui.cartography_table.take_result"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "structure_feature",
+        "differences": {
+          "added": [],
+          "removed": [
+            "minecraft:new_village"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "structure_piece",
+        "differences": {
+          "added": [],
+          "removed": [
+            "minecraft:vibh",
+            "minecraft:vidf",
+            "minecraft:vif",
+            "minecraft:vil",
+            "minecraft:viph",
+            "minecraft:vish",
+            "minecraft:vismh",
+            "minecraft:vist",
+            "minecraft:vis",
+            "minecraft:vistart",
+            "minecraft:visr",
+            "minecraft:vitrh",
+            "minecraft:viw"
+          ]
+        }
+      }
+    }
+  ],
+  "tags": [
+    {
+      "type": "entries",
+      "value": {
+        "name": "🗒️ List",
+        "differences": {
+          "added": [
+            "universal_tags/menu.json"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "all_blocks_with_drop.json",
+        "differences": {
+          "added": [
+            "minecraft:campfire"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "universal_tags/block.json",
+        "differences": {
+          "added": [
+            "minecraft:campfire"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "universal_tags/block_entity_type.json",
+        "differences": {
+          "added": [
+            "minecraft:campfire"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "universal_tags/custom_stat.json",
+        "differences": {
+          "added": [
+            "minecraft:interact_with_lectern",
+            "minecraft:interact_with_campfire"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "universal_tags/feature.json",
+        "differences": {
+          "added": [],
+          "removed": [
+            "minecraft:new_village"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "universal_tags/item.json",
+        "differences": {
+          "added": [
+            "minecraft:campfire"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "universal_tags/particle_type.json",
+        "differences": {
+          "added": [
+            "minecraft:campfire_cosy_smoke",
+            "minecraft:campfire_signal_smoke"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "universal_tags/sound_event.json",
+        "differences": {
+          "added": [
+            "minecraft:item.book.page_turn",
+            "minecraft:item.book.put",
+            "minecraft:block.campfire.crackle",
+            "minecraft:ui.cartography_table.take_result"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "universal_tags/structure_feature.json",
+        "differences": {
+          "added": [],
+          "removed": [
+            "minecraft:new_village"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "universal_tags/structure_piece.json",
+        "differences": {
+          "added": [],
+          "removed": [
+            "minecraft:vibh",
+            "minecraft:vidf",
+            "minecraft:vif",
+            "minecraft:vil",
+            "minecraft:viph",
+            "minecraft:vish",
+            "minecraft:vismh",
+            "minecraft:vist",
+            "minecraft:vis",
+            "minecraft:vistart",
+            "minecraft:visr",
+            "minecraft:vitrh",
+            "minecraft:viw"
+          ]
+        }
+      }
+    }
+  ],
+  "blocks": [
+    {
+      "type": "entries",
+      "value": {
+        "name": "🗒️ List",
+        "differences": {
+          "added": [
+            "campfire.json"
+          ],
+          "removed": []
+        }
+      }
+    }
+  ],
+  "commands": [
+    {
+      "type": "entries",
+      "value": {
+        "name": "🗒️ List",
+        "differences": {
+          "added": [
+            "teammsg.txt",
+            "tm.txt"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "data",
+        "differences": {
+          "added": [
+            "data modify block <targetPos: block_pos> <targetPath: nbt_path> insert <index: integer> from block <sourcePos: block_pos> <sourcePath: nbt_path>",
+            "data modify block <targetPos: block_pos> <targetPath: nbt_path> insert <index: integer> from entity <source: entity> <sourcePath: nbt_path>",
+            "data modify block <targetPos: block_pos> <targetPath: nbt_path> insert <index: integer> value <value: nbt_tag>",
+            "data modify entity <target: entity> <targetPath: nbt_path> insert <index: integer> from block <sourcePos: block_pos> <sourcePath: nbt_path>",
+            "data modify entity <target: entity> <targetPath: nbt_path> insert <index: integer> from entity <source: entity> <sourcePath: nbt_path>",
+            "data modify entity <target: entity> <targetPath: nbt_path> insert <index: integer> value <value: nbt_tag>"
+          ],
+          "removed": [
+            "data modify block <targetPos: block_pos> <targetPath: nbt_path> insert after <index: integer> from block <sourcePos: block_pos> <sourcePath: nbt_path>",
+            "data modify block <targetPos: block_pos> <targetPath: nbt_path> insert after <index: integer> from entity <source: entity> <sourcePath: nbt_path>",
+            "data modify block <targetPos: block_pos> <targetPath: nbt_path> insert after <index: integer> value <value: nbt_tag>",
+            "data modify block <targetPos: block_pos> <targetPath: nbt_path> insert before <index: integer> from block <sourcePos: block_pos> <sourcePath: nbt_path>",
+            "data modify block <targetPos: block_pos> <targetPath: nbt_path> insert before <index: integer> from entity <source: entity> <sourcePath: nbt_path>",
+            "data modify block <targetPos: block_pos> <targetPath: nbt_path> insert before <index: integer> value <value: nbt_tag>",
+            "data modify entity <target: entity> <targetPath: nbt_path> insert after <index: integer> from block <sourcePos: block_pos> <sourcePath: nbt_path>",
+            "data modify entity <target: entity> <targetPath: nbt_path> insert after <index: integer> from entity <source: entity> <sourcePath: nbt_path>",
+            "data modify entity <target: entity> <targetPath: nbt_path> insert after <index: integer> value <value: nbt_tag>",
+            "data modify entity <target: entity> <targetPath: nbt_path> insert before <index: integer> from block <sourcePos: block_pos> <sourcePath: nbt_path>",
+            "data modify entity <target: entity> <targetPath: nbt_path> insert before <index: integer> from entity <source: entity> <sourcePath: nbt_path>",
+            "data modify entity <target: entity> <targetPath: nbt_path> insert before <index: integer> value <value: nbt_tag>"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "locate",
+        "differences": {
+          "added": [],
+          "removed": [
+            "locate New_Village"
+          ]
+        }
+      }
+    }
+  ],
+  "recipes": [
+    {
+      "type": "entries",
+      "value": {
+        "name": "🗒️ List",
+        "differences": {
+          "added": [
+            "baked_potato_from_campfire.json",
+            "campfire.json",
+            "cartography_table.json",
+            "cooked_beef_from_campfire.json",
+            "cooked_chicken_from_campfire.json",
+            "cooked_cod_from_campfire.json",
+            "cooked_mutton_from_campfire.json",
+            "cooked_porkchop_from_campfire.json",
+            "cooked_rabbit_from_campfire.json",
+            "cooked_salmon_from_campfire.json",
+            "dried_kelp_from_campfire.json",
+            "lectern.json"
+          ],
+          "removed": []
+        }
+      }
+    }
+  ],
+  "translations": [
+    {
+      "type": "entries",
+      "value": {
+        "name": "Keys",
+        "differences": {
+          "added": [
+            "chat.type.team.text: %s <%s> %s",
+            "chat.type.team.sent: -> %s <%s> %s",
+            "chat.type.team.hover: Message Team",
+            "block.minecraft.campfire: Campfire",
+            "container.lectern: Lectern",
+            "container.cartography_table: Cartography Table",
+            "filled_map.locked: Locked",
+            "stat.minecraft.interact_with_campfire: Interactions with Campfire",
+            "stat.minecraft.interact_with_lectern: Interactions with Lectern",
+            "stat.minecraft.interact_with_blast_furnace: Interactions with Blast Furnace",
+            "stat.minecraft.interact_with_smoker: Interactions with Smoker",
+            "subtitles.block.campfire.crackle: Campfire crackles",
+            "subtitles.item.book.page_turn: Page rustles",
+            "subtitles.item.book.put: Book thumps",
+            "commands.data.modify.invalid_index: Invalid list index: %s",
+            "commands.teammsg.failed.noteam: You must be on a team to message your team",
+            "lectern.take_book: Take book"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "text",
+      "value": {
+        "title": "Changes",
+        "values": [
+          {
+            "key": "menu.preparingSpawn",
+            "previous": "Preparing spawn area",
+            "current": "Preparing spawn area: %s%%"
+          },
+          {
+            "key": "stat.minecraft.clean_shulker_box",
+            "previous": "Shulker Box Cleaned",
+            "current": "Shulker Boxes Cleaned"
+          }
+        ]
+      }
+    }
+  ],
+  "file_structure": [
+    {
+      "type": "entries",
+      "value": {
+        "name": "data",
+        "differences": {
+          "added": [
+            "minecraft/advancements/recipes/decorations/campfire.json",
+            "minecraft/advancements/recipes/decorations/cartography_table.json",
+            "minecraft/advancements/recipes/food/baked_potato_from_campfire.json",
+            "minecraft/advancements/recipes/food/cooked_beef_from_campfire.json",
+            "minecraft/advancements/recipes/food/cooked_chicken_from_campfire.json",
+            "minecraft/advancements/recipes/food/cooked_cod_from_campfire.json",
+            "minecraft/advancements/recipes/food/cooked_mutton_from_campfire.json",
+            "minecraft/advancements/recipes/food/cooked_porkchop_from_campfire.json",
+            "minecraft/advancements/recipes/food/cooked_rabbit_from_campfire.json",
+            "minecraft/advancements/recipes/food/cooked_salmon_from_campfire.json",
+            "minecraft/advancements/recipes/food/dried_kelp_from_campfire.json",
+            "minecraft/advancements/recipes/redstone/lectern.json",
+            "minecraft/loot_tables/blocks/campfire.json",
+            "minecraft/recipes/baked_potato_from_campfire.json",
+            "minecraft/recipes/campfire.json",
+            "minecraft/recipes/cartography_table.json",
+            "minecraft/recipes/cooked_beef_from_campfire.json",
+            "minecraft/recipes/cooked_chicken_from_campfire.json",
+            "minecraft/recipes/cooked_cod_from_campfire.json",
+            "minecraft/recipes/cooked_mutton_from_campfire.json",
+            "minecraft/recipes/cooked_porkchop_from_campfire.json",
+            "minecraft/recipes/cooked_rabbit_from_campfire.json",
+            "minecraft/recipes/cooked_salmon_from_campfire.json",
+            "minecraft/recipes/dried_kelp_from_campfire.json",
+            "minecraft/recipes/lectern.json",
+            "minecraft/tags/items/coals.json"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "assets",
+        "differences": {
+          "added": [
+            "minecraft/blockstates/campfire.json",
+            "minecraft/models/block/campfire.json",
+            "minecraft/models/block/campfire_on.json",
+            "minecraft/models/item/campfire.json",
+            "minecraft/textures/block/campfire_fire.png",
+            "minecraft/textures/block/campfire_fire.png.mcmeta",
+            "minecraft/textures/block/campfire_side.png",
+            "minecraft/textures/block/campfire_top.png",
+            "minecraft/textures/block/campfire_top_on.png",
+            "minecraft/textures/block/campfire_top_on.png.mcmeta",
+            "minecraft/textures/gui/container/cartography_table.png"
+          ],
+          "removed": []
+        }
+      }
+    }
+  ]
+}

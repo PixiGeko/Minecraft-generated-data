@@ -1,0 +1,9 @@
+clone <begin: block_pos> <end: block_pos> <destination: block_pos> replace force
+clone <begin: block_pos> <end: block_pos> <destination: block_pos> replace move
+clone <begin: block_pos> <end: block_pos> <destination: block_pos> replace normal
+clone <begin: block_pos> <end: block_pos> <destination: block_pos> masked force
+clone <begin: block_pos> <end: block_pos> <destination: block_pos> masked move
+clone <begin: block_pos> <end: block_pos> <destination: block_pos> masked normal
+clone <begin: block_pos> <end: block_pos> <destination: block_pos> filtered <filter: block_predicate> force
+clone <begin: block_pos> <end: block_pos> <destination: block_pos> filtered <filter: block_predicate> move
+clone <begin: block_pos> <end: block_pos> <destination: block_pos> filtered <filter: block_predicate> normal

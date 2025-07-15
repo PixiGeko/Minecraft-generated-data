@@ -1,0 +1,107 @@
+{
+  "version_data": [
+    {
+      "type": "table",
+      "value": {
+        "previousLabel": "1.14 Pre-Release 1",
+        "currentLabel": "1.14 Pre-Release 2",
+        "values": [
+          {
+            "key": "World version",
+            "previous": "1947",
+            "current": "1948"
+          },
+          {
+            "key": "Protocol version",
+            "previous": "472",
+            "current": "473"
+          }
+        ]
+      }
+    }
+  ],
+  "registries": [
+    {
+      "type": "entries",
+      "value": {
+        "name": "custom_stat",
+        "differences": {
+          "added": [
+            "minecraft:interact_with_cartography_table",
+            "minecraft:interact_with_loom",
+            "minecraft:interact_with_stonecutter",
+            "minecraft:bell_ring",
+            "minecraft:raid_trigger",
+            "minecraft:raid_win"
+          ],
+          "removed": []
+        }
+      }
+    }
+  ],
+  "tags": [
+    {
+      "type": "entries",
+      "value": {
+        "name": "universal_tags/custom_stat.json",
+        "differences": {
+          "added": [
+            "minecraft:interact_with_cartography_table",
+            "minecraft:interact_with_loom",
+            "minecraft:interact_with_stonecutter",
+            "minecraft:bell_ring",
+            "minecraft:raid_trigger",
+            "minecraft:raid_win"
+          ],
+          "removed": []
+        }
+      }
+    }
+  ],
+  "translations": [
+    {
+      "type": "entries",
+      "value": {
+        "name": "Keys",
+        "differences": {
+          "added": [
+            "options.mouse_settings: Mouse Settings...",
+            "options.mouse_settings.title: Mouse Settings",
+            "options.discrete_mouse_scroll: Discrete Scrolling",
+            "options.mouseWheelSensitivity: Scroll Sensitivity",
+            "block.minecraft.ominous_banner: Ominous Banner",
+            "stat.minecraft.bell_ring: Bells Rung",
+            "stat.minecraft.interact_with_cartography_table: Interactions with Cartography Table",
+            "stat.minecraft.interact_with_loom: Interactions with Loom",
+            "stat.minecraft.interact_with_stonecutter: Interactions with Stonecutter",
+            "stat.minecraft.raid_trigger: Raids Triggered",
+            "stat.minecraft.raid_win: Raids Won",
+            "stat.minecraft.ring_bell: Bells Rung",
+            "advancements.adventure.hero_of_the_village.title: Hero of the Village",
+            "advancements.adventure.hero_of_the_village.description: Successfully defend a village from a raid",
+            "advancements.adventure.voluntary_exile.title: Voluntary Exile",
+            "advancements.adventure.voluntary_exile.description: Kill a raid captain.\nMaybe consider staying away from villages for the time being..."
+          ],
+          "removed": [
+            "block.minecraft.illager_banner: Illager Banner"
+          ]
+        }
+      }
+    }
+  ],
+  "file_structure": [
+    {
+      "type": "entries",
+      "value": {
+        "name": "data",
+        "differences": {
+          "added": [
+            "minecraft/advancements/adventure/hero_of_the_village.json",
+            "minecraft/advancements/adventure/voluntary_exile.json"
+          ],
+          "removed": []
+        }
+      }
+    }
+  ]
+}

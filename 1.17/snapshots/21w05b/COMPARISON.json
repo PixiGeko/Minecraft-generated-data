@@ -1,0 +1,522 @@
+{
+  "version_data": [
+    {
+      "type": "table",
+      "value": {
+        "previousLabel": "21w05a",
+        "currentLabel": "21w05b",
+        "values": [
+          {
+            "key": "World version",
+            "previous": "2690",
+            "current": "2692"
+          },
+          {
+            "key": "Protocol version",
+            "previous": "1073741836",
+            "current": "1073741837"
+          }
+        ]
+      }
+    },
+    {
+      "type": "title",
+      "value": {
+        "title": "Libraries",
+        "id": "version-data-libraries",
+        "size": 3
+      }
+    },
+    {
+      "type": "table",
+      "value": {
+        "title": "Versions",
+        "previousLabel": "21w05a",
+        "currentLabel": "21w05b",
+        "values": [
+          {
+            "key": "org.lwjgl:lwjgl-glfw",
+            "previous": "3.2.1",
+            "current": "3.2.2"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-glfw",
+            "previous": "3.2.1",
+            "current": "3.2.2"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-jemalloc",
+            "previous": "3.2.1",
+            "current": "3.2.2"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-jemalloc",
+            "previous": "3.2.1",
+            "current": "3.2.2"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-openal",
+            "previous": "3.2.1",
+            "current": "3.2.2"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-openal",
+            "previous": "3.2.1",
+            "current": "3.2.2"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-opengl",
+            "previous": "3.2.1",
+            "current": "3.2.2"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-opengl",
+            "previous": "3.2.1",
+            "current": "3.2.2"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-stb",
+            "previous": "3.2.1",
+            "current": "3.2.2"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-stb",
+            "previous": "3.2.1",
+            "current": "3.2.2"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-tinyfd",
+            "previous": "3.2.1",
+            "current": "3.2.2"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-tinyfd",
+            "previous": "3.2.1",
+            "current": "3.2.2"
+          },
+          {
+            "key": "org.lwjgl:lwjgl",
+            "previous": "3.2.1",
+            "current": "3.2.2"
+          },
+          {
+            "key": "org.lwjgl:lwjgl",
+            "previous": "3.2.1",
+            "current": "3.2.2"
+          }
+        ]
+      }
+    }
+  ],
+  "registries": [
+    {
+      "type": "entries",
+      "value": {
+        "name": "block",
+        "differences": {
+          "added": [
+            "minecraft:oxidized_copper",
+            "minecraft:weathered_copper",
+            "minecraft:exposed_copper",
+            "minecraft:waxed_copper_block"
+          ],
+          "removed": [
+            "minecraft:oxidized_copper_block",
+            "minecraft:weathered_copper_block",
+            "minecraft:exposed_copper_block",
+            "minecraft:waxed_copper"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "item",
+        "differences": {
+          "added": [
+            "minecraft:exposed_copper",
+            "minecraft:weathered_copper",
+            "minecraft:oxidized_copper",
+            "minecraft:waxed_copper_block"
+          ],
+          "removed": [
+            "minecraft:exposed_copper_block",
+            "minecraft:weathered_copper_block",
+            "minecraft:oxidized_copper_block",
+            "minecraft:waxed_copper"
+          ]
+        }
+      }
+    }
+  ],
+  "tags": [
+    {
+      "type": "entries",
+      "value": {
+        "name": "all_blocks_with_drop.json",
+        "differences": {
+          "added": [
+            "minecraft:exposed_copper",
+            "minecraft:oxidized_copper",
+            "minecraft:waxed_copper_block",
+            "minecraft:weathered_copper"
+          ],
+          "removed": [
+            "minecraft:exposed_copper_block",
+            "minecraft:oxidized_copper_block",
+            "minecraft:waxed_copper",
+            "minecraft:weathered_copper_block"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "universal_tags/block.json",
+        "differences": {
+          "added": [
+            "minecraft:oxidized_copper",
+            "minecraft:weathered_copper",
+            "minecraft:exposed_copper",
+            "minecraft:waxed_copper_block"
+          ],
+          "removed": [
+            "minecraft:oxidized_copper_block",
+            "minecraft:weathered_copper_block",
+            "minecraft:exposed_copper_block",
+            "minecraft:waxed_copper"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "universal_tags/item.json",
+        "differences": {
+          "added": [
+            "minecraft:exposed_copper",
+            "minecraft:weathered_copper",
+            "minecraft:oxidized_copper",
+            "minecraft:waxed_copper_block"
+          ],
+          "removed": [
+            "minecraft:exposed_copper_block",
+            "minecraft:weathered_copper_block",
+            "minecraft:oxidized_copper_block",
+            "minecraft:waxed_copper"
+          ]
+        }
+      }
+    }
+  ],
+  "blocks": [
+    {
+      "type": "entries",
+      "value": {
+        "name": "🗒️ List",
+        "differences": {
+          "added": [
+            "exposed_copper.json",
+            "oxidized_copper.json",
+            "waxed_copper_block.json",
+            "weathered_copper.json"
+          ],
+          "removed": [
+            "exposed_copper_block.json",
+            "oxidized_copper_block.json",
+            "waxed_copper.json",
+            "weathered_copper_block.json"
+          ]
+        }
+      }
+    }
+  ],
+  "recipes": [
+    {
+      "type": "entries",
+      "value": {
+        "name": "🗒️ List",
+        "differences": {
+          "added": [
+            "exposed_cut_copper_from_exposed_copper_stonecutting.json",
+            "exposed_cut_copper_slab_from_exposed_copper_stonecutting.json",
+            "exposed_cut_copper_stairs_from_exposed_copper_stonecutting.json",
+            "oxidized_cut_copper_from_oxidized_copper_stonecutting.json",
+            "oxidized_cut_copper_slab_from_oxidized_copper_stonecutting.json",
+            "oxidized_cut_copper_stairs_from_oxidized_copper_stonecutting.json",
+            "waxed_copper_block.json",
+            "waxed_cut_copper_from_waxed_copper_block_stonecutting.json",
+            "waxed_cut_copper_slab_from_waxed_copper_block_stonecutting.json",
+            "waxed_cut_copper_stairs_from_waxed_copper_block_stonecutting.json",
+            "weathered_cut_copper_from_weathered_copper_stonecutting.json",
+            "weathered_cut_copper_slab_from_weathered_copper_stonecutting.json",
+            "weathered_cut_copper_stairs_from_weathered_copper_stonecutting.json"
+          ],
+          "removed": [
+            "exposed_cut_copper_from_exposed_copper_block_stonecutting.json",
+            "exposed_cut_copper_slab_from_exposed_copper_block_stonecutting.json",
+            "exposed_cut_copper_stairs_from_exposed_copper_block_stonecutting.json",
+            "oxidized_cut_copper_from_oxidized_copper_block_stonecutting.json",
+            "oxidized_cut_copper_slab_from_oxidized_copper_block_stonecutting.json",
+            "oxidized_cut_copper_stairs_from_oxidized_copper_block_stonecutting.json",
+            "waxed_copper.json",
+            "waxed_cut_copper_from_waxed_copper_stonecutting.json",
+            "waxed_cut_copper_slab_from_waxed_copper_stonecutting.json",
+            "waxed_cut_copper_stairs_from_waxed_copper_stonecutting.json",
+            "weathered_cut_copper_from_weathered_copper_block_stonecutting.json",
+            "weathered_cut_copper_slab_from_weathered_copper_block_stonecutting.json",
+            "weathered_cut_copper_stairs_from_weathered_copper_block_stonecutting.json"
+          ]
+        }
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "exposed_cut_copper.json",
+        "lines": [
+          "\u001b[1;2mA:\u001b[0m exposed_copper\n\u001b[1;2mB:\u001b[0m exposed_copper_block\n\n\u001b[1;2mPrevious pattern:\u001b[0m\n[\u001b[2;33mB\u001b[0m | \u001b[2;33mB\u001b[0m]\n[\u001b[2;33mB\u001b[0m | \u001b[2;33mB\u001b[0m]\n\n\u001b[1;2mNew pattern:\u001b[0m\n[\u001b[2;33mA\u001b[0m | \u001b[2;33mA\u001b[0m]\n[\u001b[2;33mA\u001b[0m | \u001b[2;33mA\u001b[0m]"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "oxidized_cut_copper.json",
+        "lines": [
+          "\u001b[1;2mA:\u001b[0m oxidized_copper\n\u001b[1;2mB:\u001b[0m oxidized_copper_block\n\n\u001b[1;2mPrevious pattern:\u001b[0m\n[\u001b[2;33mB\u001b[0m | \u001b[2;33mB\u001b[0m]\n[\u001b[2;33mB\u001b[0m | \u001b[2;33mB\u001b[0m]\n\n\u001b[1;2mNew pattern:\u001b[0m\n[\u001b[2;33mA\u001b[0m | \u001b[2;33mA\u001b[0m]\n[\u001b[2;33mA\u001b[0m | \u001b[2;33mA\u001b[0m]"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "waxed_cut_copper.json",
+        "lines": [
+          "\u001b[1;2mA:\u001b[0m waxed_copper\n\u001b[1;2mB:\u001b[0m waxed_copper_block\n\n\u001b[1;2mPrevious pattern:\u001b[0m\n[\u001b[2;33mA\u001b[0m | \u001b[2;33mA\u001b[0m]\n[\u001b[2;33mA\u001b[0m | \u001b[2;33mA\u001b[0m]\n\n\u001b[1;2mNew pattern:\u001b[0m\n[\u001b[2;33mB\u001b[0m | \u001b[2;33mB\u001b[0m]\n[\u001b[2;33mB\u001b[0m | \u001b[2;33mB\u001b[0m]"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "waxed_exposed_copper.json",
+        "lines": [
+          "\u001b[1;2mIngredients\u001b[0m\n \u001b[2;36mexposed_copper x1\u001b[0m\n \u001b[2;31mexposed_copper_block x1\u001b[0m\n honeycomb x1"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "waxed_weathered_copper.json",
+        "lines": [
+          "\u001b[1;2mIngredients\u001b[0m\n honeycomb x1\n \u001b[2;36mweathered_copper x1\u001b[0m\n \u001b[2;31mweathered_copper_block x1\u001b[0m"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "weathered_cut_copper.json",
+        "lines": [
+          "\u001b[1;2mA:\u001b[0m weathered_copper\n\u001b[1;2mB:\u001b[0m weathered_copper_block\n\n\u001b[1;2mPrevious pattern:\u001b[0m\n[\u001b[2;33mB\u001b[0m | \u001b[2;33mB\u001b[0m]\n[\u001b[2;33mB\u001b[0m | \u001b[2;33mB\u001b[0m]\n\n\u001b[1;2mNew pattern:\u001b[0m\n[\u001b[2;33mA\u001b[0m | \u001b[2;33mA\u001b[0m]\n[\u001b[2;33mA\u001b[0m | \u001b[2;33mA\u001b[0m]"
+        ]
+      }
+    }
+  ],
+  "translations": [
+    {
+      "type": "entries",
+      "value": {
+        "name": "Keys",
+        "differences": {
+          "added": [
+            "block.minecraft.exposed_copper: Exposed Copper",
+            "block.minecraft.weathered_copper: Weathered Copper",
+            "block.minecraft.oxidized_copper: Oxidized Copper",
+            "block.minecraft.waxed_copper_block: Waxed Block of Copper"
+          ],
+          "removed": [
+            "block.minecraft.exposed_copper_block: Exposed Copper Block",
+            "block.minecraft.weathered_copper_block: Weathered Copper Block",
+            "block.minecraft.oxidized_copper_block: Oxidized Copper Block",
+            "block.minecraft.waxed_copper: Waxed Copper",
+            "block.minecraft.waxed_exposed_copper_block: Waxed Exposed Copper Block",
+            "block.minecraft.waxed_weathered_copper_block: Waxed Weathered Copper Block"
+          ]
+        }
+      }
+    },
+    {
+      "type": "text",
+      "value": {
+        "title": "Changes",
+        "values": [
+          {
+            "key": "block.minecraft.copper_block",
+            "previous": "Copper Block",
+            "current": "Block of Copper"
+          }
+        ]
+      }
+    }
+  ],
+  "file_structure": [
+    {
+      "type": "entries",
+      "value": {
+        "name": "data",
+        "differences": {
+          "added": [
+            "minecraft/advancements/recipes/building_blocks/exposed_cut_copper_from_exposed_copper_stonecutting.json",
+            "minecraft/advancements/recipes/building_blocks/exposed_cut_copper_slab_from_exposed_copper_stonecutting.json",
+            "minecraft/advancements/recipes/building_blocks/exposed_cut_copper_stairs_from_exposed_copper_stonecutting.json",
+            "minecraft/advancements/recipes/building_blocks/oxidized_cut_copper_from_oxidized_copper_stonecutting.json",
+            "minecraft/advancements/recipes/building_blocks/oxidized_cut_copper_slab_from_oxidized_copper_stonecutting.json",
+            "minecraft/advancements/recipes/building_blocks/oxidized_cut_copper_stairs_from_oxidized_copper_stonecutting.json",
+            "minecraft/advancements/recipes/building_blocks/waxed_copper_block.json",
+            "minecraft/advancements/recipes/building_blocks/waxed_cut_copper_from_waxed_copper_block_stonecutting.json",
+            "minecraft/advancements/recipes/building_blocks/waxed_cut_copper_slab_from_waxed_copper_block_stonecutting.json",
+            "minecraft/advancements/recipes/building_blocks/waxed_cut_copper_stairs_from_waxed_copper_block_stonecutting.json",
+            "minecraft/advancements/recipes/building_blocks/weathered_cut_copper_from_weathered_copper_stonecutting.json",
+            "minecraft/advancements/recipes/building_blocks/weathered_cut_copper_slab_from_weathered_copper_stonecutting.json",
+            "minecraft/advancements/recipes/building_blocks/weathered_cut_copper_stairs_from_weathered_copper_stonecutting.json",
+            "minecraft/loot_tables/blocks/exposed_copper.json",
+            "minecraft/loot_tables/blocks/oxidized_copper.json",
+            "minecraft/loot_tables/blocks/waxed_copper_block.json",
+            "minecraft/loot_tables/blocks/weathered_copper.json",
+            "minecraft/recipes/exposed_cut_copper_from_exposed_copper_stonecutting.json",
+            "minecraft/recipes/exposed_cut_copper_slab_from_exposed_copper_stonecutting.json",
+            "minecraft/recipes/exposed_cut_copper_stairs_from_exposed_copper_stonecutting.json",
+            "minecraft/recipes/oxidized_cut_copper_from_oxidized_copper_stonecutting.json",
+            "minecraft/recipes/oxidized_cut_copper_slab_from_oxidized_copper_stonecutting.json",
+            "minecraft/recipes/oxidized_cut_copper_stairs_from_oxidized_copper_stonecutting.json",
+            "minecraft/recipes/waxed_copper_block.json",
+            "minecraft/recipes/waxed_cut_copper_from_waxed_copper_block_stonecutting.json",
+            "minecraft/recipes/waxed_cut_copper_slab_from_waxed_copper_block_stonecutting.json",
+            "minecraft/recipes/waxed_cut_copper_stairs_from_waxed_copper_block_stonecutting.json",
+            "minecraft/recipes/weathered_cut_copper_from_weathered_copper_stonecutting.json",
+            "minecraft/recipes/weathered_cut_copper_slab_from_weathered_copper_stonecutting.json",
+            "minecraft/recipes/weathered_cut_copper_stairs_from_weathered_copper_stonecutting.json"
+          ],
+          "removed": [
+            "minecraft/advancements/recipes/building_blocks/exposed_cut_copper_from_exposed_copper_block_stonecutting.json",
+            "minecraft/advancements/recipes/building_blocks/exposed_cut_copper_slab_from_exposed_copper_block_stonecutting.json",
+            "minecraft/advancements/recipes/building_blocks/exposed_cut_copper_stairs_from_exposed_copper_block_stonecutting.json",
+            "minecraft/advancements/recipes/building_blocks/oxidized_cut_copper_from_oxidized_copper_block_stonecutting.json",
+            "minecraft/advancements/recipes/building_blocks/oxidized_cut_copper_slab_from_oxidized_copper_block_stonecutting.json",
+            "minecraft/advancements/recipes/building_blocks/oxidized_cut_copper_stairs_from_oxidized_copper_block_stonecutting.json",
+            "minecraft/advancements/recipes/building_blocks/waxed_copper.json",
+            "minecraft/advancements/recipes/building_blocks/waxed_cut_copper_from_waxed_copper_stonecutting.json",
+            "minecraft/advancements/recipes/building_blocks/waxed_cut_copper_slab_from_waxed_copper_stonecutting.json",
+            "minecraft/advancements/recipes/building_blocks/waxed_cut_copper_stairs_from_waxed_copper_stonecutting.json",
+            "minecraft/advancements/recipes/building_blocks/weathered_cut_copper_from_weathered_copper_block_stonecutting.json",
+            "minecraft/advancements/recipes/building_blocks/weathered_cut_copper_slab_from_weathered_copper_block_stonecutting.json",
+            "minecraft/advancements/recipes/building_blocks/weathered_cut_copper_stairs_from_weathered_copper_block_stonecutting.json",
+            "minecraft/loot_tables/blocks/exposed_copper_block.json",
+            "minecraft/loot_tables/blocks/oxidized_copper_block.json",
+            "minecraft/loot_tables/blocks/waxed_copper.json",
+            "minecraft/loot_tables/blocks/weathered_copper_block.json",
+            "minecraft/recipes/exposed_cut_copper_from_exposed_copper_block_stonecutting.json",
+            "minecraft/recipes/exposed_cut_copper_slab_from_exposed_copper_block_stonecutting.json",
+            "minecraft/recipes/exposed_cut_copper_stairs_from_exposed_copper_block_stonecutting.json",
+            "minecraft/recipes/oxidized_cut_copper_from_oxidized_copper_block_stonecutting.json",
+            "minecraft/recipes/oxidized_cut_copper_slab_from_oxidized_copper_block_stonecutting.json",
+            "minecraft/recipes/oxidized_cut_copper_stairs_from_oxidized_copper_block_stonecutting.json",
+            "minecraft/recipes/waxed_copper.json",
+            "minecraft/recipes/waxed_cut_copper_from_waxed_copper_stonecutting.json",
+            "minecraft/recipes/waxed_cut_copper_slab_from_waxed_copper_stonecutting.json",
+            "minecraft/recipes/waxed_cut_copper_stairs_from_waxed_copper_stonecutting.json",
+            "minecraft/recipes/weathered_cut_copper_from_weathered_copper_block_stonecutting.json",
+            "minecraft/recipes/weathered_cut_copper_slab_from_weathered_copper_block_stonecutting.json",
+            "minecraft/recipes/weathered_cut_copper_stairs_from_weathered_copper_block_stonecutting.json"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "assets",
+        "differences": {
+          "added": [
+            "minecraft/blockstates/exposed_copper.json",
+            "minecraft/blockstates/oxidized_copper.json",
+            "minecraft/blockstates/waxed_copper_block.json",
+            "minecraft/blockstates/weathered_copper.json",
+            "minecraft/models/block/exposed_copper.json",
+            "minecraft/models/block/oxidized_copper.json",
+            "minecraft/models/block/weathered_copper.json",
+            "minecraft/models/item/exposed_copper.json",
+            "minecraft/models/item/oxidized_copper.json",
+            "minecraft/models/item/waxed_copper_block.json",
+            "minecraft/models/item/weathered_copper.json",
+            "minecraft/textures/block/exposed_copper.png",
+            "minecraft/textures/block/oxidized_copper.png",
+            "minecraft/textures/block/weathered_copper.png"
+          ],
+          "removed": [
+            "minecraft/blockstates/exposed_copper_block.json",
+            "minecraft/blockstates/oxidized_copper_block.json",
+            "minecraft/blockstates/waxed_copper.json",
+            "minecraft/blockstates/weathered_copper_block.json",
+            "minecraft/models/block/exposed_copper_block.json",
+            "minecraft/models/block/oxidized_copper_block.json",
+            "minecraft/models/block/weathered_copper_block.json",
+            "minecraft/models/item/exposed_copper_block.json",
+            "minecraft/models/item/oxidized_copper_block.json",
+            "minecraft/models/item/waxed_copper.json",
+            "minecraft/models/item/weathered_copper_block.json",
+            "minecraft/textures/block/exposed_copper_block.png",
+            "minecraft/textures/block/oxidized_copper_block.png",
+            "minecraft/textures/block/weathered_copper_block.png"
+          ]
+        }
+      }
+    }
+  ],
+  "mappings": [
+    {
+      "type": "title",
+      "value": {
+        "title": "Server",
+        "id": "server-mappings",
+        "size": 2
+      }
+    },
+    {
+      "type": "title",
+      "value": {
+        "title": "Client",
+        "id": "client-mappings",
+        "size": 2
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "Changes",
+        "lines": [
+          "XXX.level.block.Blocks \u001b[2;32m+4P\u001b[0m \u001b[2;31m-4P\u001b[0m",
+          "XXX.world.phys.AABB \u001b[2;31m-1M\u001b[0m"
+        ]
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.phys.AABB",
+        "differences": {
+          "added": [
+            "AABB minmax(Iterable)"
+          ],
+          "removed": []
+        }
+      }
+    }
+  ]
+}

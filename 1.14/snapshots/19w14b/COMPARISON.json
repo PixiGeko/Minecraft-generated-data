@@ -1,0 +1,94 @@
+{
+  "version_data": [
+    {
+      "type": "table",
+      "value": {
+        "previousLabel": "19w14a",
+        "currentLabel": "19w14b",
+        "values": [
+          {
+            "key": "World version",
+            "previous": "1944",
+            "current": "1945"
+          },
+          {
+            "key": "Protocol version",
+            "previous": "470",
+            "current": "471"
+          }
+        ]
+      }
+    },
+    {
+      "type": "title",
+      "value": {
+        "title": "Libraries",
+        "id": "version-data-libraries",
+        "size": 3
+      }
+    },
+    {
+      "type": "table",
+      "value": {
+        "title": "Versions",
+        "previousLabel": "19w14a",
+        "currentLabel": "19w14b",
+        "values": [
+          {
+            "key": "com.mojang:realms",
+            "previous": "1.14.2",
+            "current": "1.14.4"
+          }
+        ]
+      }
+    }
+  ],
+  "registries": [
+    {
+      "type": "entries",
+      "value": {
+        "name": "feature",
+        "differences": {
+          "added": [
+            "minecraft:fill_layer"
+          ],
+          "removed": []
+        }
+      }
+    }
+  ],
+  "tags": [
+    {
+      "type": "entries",
+      "value": {
+        "name": "universal_tags/feature.json",
+        "differences": {
+          "added": [
+            "minecraft:fill_layer"
+          ],
+          "removed": []
+        }
+      }
+    }
+  ],
+  "recipes": [
+    {
+      "type": "ansi",
+      "value": {
+        "title": "stone_brick_slab.json",
+        "lines": [
+          "\u001b[1;2mA:\u001b[0m #stone_bricks\n\u001b[1;2mB:\u001b[0m stone_bricks\n\n\u001b[1;2mPrevious pattern:\u001b[0m\n[\u001b[2;33mA\u001b[0m | \u001b[2;33mA\u001b[0m | \u001b[2;33mA\u001b[0m]\n\n\u001b[1;2mNew pattern:\u001b[0m\n[\u001b[2;33mB\u001b[0m | \u001b[2;33mB\u001b[0m | \u001b[2;33mB\u001b[0m]"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "stone_brick_stairs.json",
+        "lines": [
+          "\u001b[1;2mA:\u001b[0m #stone_bricks\n\u001b[1;2mB:\u001b[0m stone_bricks\n\n\u001b[1;2mPrevious pattern:\u001b[0m\n[\u001b[2;33mA\u001b[0m | \u001b[2;31m \u001b[0m | \u001b[2;31m \u001b[0m]\n[\u001b[2;33mA\u001b[0m | \u001b[2;33mA\u001b[0m | \u001b[2;31m \u001b[0m]\n[\u001b[2;33mA\u001b[0m | \u001b[2;33mA\u001b[0m | \u001b[2;33mA\u001b[0m]\n\n\u001b[1;2mNew pattern:\u001b[0m\n[\u001b[2;33mB\u001b[0m | \u001b[2;36m \u001b[0m | \u001b[2;36m \u001b[0m]\n[\u001b[2;33mB\u001b[0m | \u001b[2;33mB\u001b[0m | \u001b[2;36m \u001b[0m]\n[\u001b[2;33mB\u001b[0m | \u001b[2;33mB\u001b[0m | \u001b[2;33mB\u001b[0m]"
+        ]
+      }
+    }
+  ]
+}

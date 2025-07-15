@@ -1,0 +1,389 @@
+{
+  "version_data": [
+    {
+      "type": "title",
+      "value": {
+        "title": "Libraries",
+        "id": "version-data-libraries",
+        "size": 3
+      }
+    },
+    {
+      "type": "table",
+      "value": {
+        "title": "Versions",
+        "previousLabel": "18w16a",
+        "currentLabel": "18w19a",
+        "values": [
+          {
+            "key": "com.mojang:brigadier",
+            "previous": "0.1.24",
+            "current": "0.1.25"
+          }
+        ]
+      }
+    }
+  ],
+  "blocks": [
+    {
+      "type": "entries",
+      "value": {
+        "name": "🗒️ List",
+        "differences": {
+          "added": [
+            "seagrass.json",
+            "tall_seagrass.json"
+          ],
+          "removed": [
+            "sea_grass.json",
+            "tall_sea_grass.json"
+          ]
+        }
+      }
+    }
+  ],
+  "translations": [
+    {
+      "type": "entries",
+      "value": {
+        "name": "Keys",
+        "differences": {
+          "added": [
+            "gui.recipebook.toggleRecipes.smeltable: Showing smeltable",
+            "multiplayer.disconnect.banned.reason: You are banned from this server.\nReason: %s",
+            "multiplayer.disconnect.banned.expiration: \nYour ban will be removed on %s",
+            "multiplayer.disconnect.banned_ip.reason: Your IP address is banned from this server.\nReason: %s",
+            "multiplayer.disconnect.banned_ip.expiration: \nYour ban will be removed on %s",
+            "multiplayer.disconnect.not_whitelisted: You are not white-listed on this server!",
+            "multiplayer.disconnect.server_full: The server is full!",
+            "multiplayer.disconnect.name_taken: That name is already taken.",
+            "block.minecraft.tall_seagrass: Tall Seagrass",
+            "block.minecraft.seagrass: Seagrass",
+            "item.minecraft.pufferfish_spawn_egg: Spawn Pufferfish",
+            "entity.minecraft.pufferfish: Pufferfish",
+            "effect.dolphins_grace: Dolphin's Grace",
+            "subtitles.entity.parrot.imitate.drowned: Parrot gurgles",
+            "subtitles.entity.skeleton_horse.swim: Skeleton Horse swims",
+            "subtitles.entity.skeleton_horse.water_ambient: Skeleton Horse cries",
+            "subtitles.entity.skeleton_horse.water_gallop: Skeleton Horse gallops",
+            "subtitles.entity.skeleton_horse.water_jump: Skeleton Horse jumps",
+            "biome.minecraft.deep_cold_ocean: Deep Cold Ocean",
+            "biome.minecraft.deep_frozen_ocean: Deep Frozen Ocean",
+            "biome.minecraft.deep_lukewarm_ocean: Deep Lukewarm Ocean",
+            "biome.minecraft.deep_warm_ocean: Deep Warm Ocean",
+            "generator.minecraft.surface: Surface",
+            "generator.minecraft.caves: Caves",
+            "generator.minecraft.floating_islands: Floating Islands"
+          ],
+          "removed": [
+            "block.minecraft.tall_sea_grass: Tall Sea Grass",
+            "block.minecraft.sea_grass: Sea Grass",
+            "item.minecraft.puffer_fish_spawn_egg: Spawn Puffer Fish",
+            "biome.minecraft.warm_deep_ocean: Warm Deep Ocean",
+            "biome.minecraft.lukewarm_deep_ocean: Deep Lukewarm Ocean",
+            "biome.minecraft.cold_deep_ocean: Deep Cold Ocean",
+            "biome.minecraft.frozen_deep_ocean: Deep Frozen Ocean",
+            "generator.minecraft.overworld: Overworld",
+            "generator.minecraft.nether: Nether",
+            "generator.minecraft.the_end: The End"
+          ]
+        }
+      }
+    },
+    {
+      "type": "text",
+      "value": {
+        "title": "Changes",
+        "values": [
+          {
+            "key": "item.minecraft.pufferfish_bucket",
+            "previous": "Puffer Fish Bucket",
+            "current": "Pufferfish Bucket"
+          },
+          {
+            "key": "item.minecraft.clownfish",
+            "previous": "Clownfish",
+            "current": "Tropical Fish"
+          },
+          {
+            "key": "debug.copy_location.help",
+            "previous": "F3 + C = Copy location as /tp command",
+            "current": "F3 + C = Copy location as /tp command, hold F3 + C to crash the game"
+          },
+          {
+            "key": "biome.minecraft.cold_beach",
+            "previous": "Cold Beach",
+            "current": "Snowy Beach"
+          },
+          {
+            "key": "biome.minecraft.extreme_hills",
+            "previous": "Extreme Hills",
+            "current": "Mountains"
+          },
+          {
+            "key": "biome.minecraft.extreme_hills_with_trees",
+            "previous": "Extreme Hills+",
+            "current": "Wooded Mountains"
+          },
+          {
+            "key": "biome.minecraft.forest_hills",
+            "previous": "Forest Hills",
+            "current": "Wooded Hills"
+          },
+          {
+            "key": "biome.minecraft.ice_flats",
+            "previous": "Ice Plains",
+            "current": "Snowy Tundra"
+          },
+          {
+            "key": "biome.minecraft.ice_mountains",
+            "previous": "Ice Mountains",
+            "current": "Snowy Mountains"
+          },
+          {
+            "key": "biome.minecraft.mesa_clear_rock",
+            "previous": "Mesa Plateau",
+            "current": "Badlands Plateau"
+          },
+          {
+            "key": "biome.minecraft.mesa",
+            "previous": "Mesa",
+            "current": "Badlands"
+          },
+          {
+            "key": "biome.minecraft.mesa_rock",
+            "previous": "Mesa Forest Plateau",
+            "current": "Wooded Badlands Plateau"
+          },
+          {
+            "key": "biome.minecraft.mushroom_island",
+            "previous": "Mushroom Island",
+            "current": "Mushroom Fields"
+          },
+          {
+            "key": "biome.minecraft.mushroom_island_shore",
+            "previous": "Mushroom Island Shore",
+            "current": "Mushroom Field Shore"
+          },
+          {
+            "key": "biome.minecraft.mutated_birch_forest_hills",
+            "previous": "Mutated Birch Forest Hills",
+            "current": "Tall Birch Hills"
+          },
+          {
+            "key": "biome.minecraft.mutated_birch_forest",
+            "previous": "Mutated Birch Forest",
+            "current": "Tall Birch Forest"
+          },
+          {
+            "key": "biome.minecraft.mutated_desert",
+            "previous": "Mutated Desert",
+            "current": "Desert Lakes"
+          },
+          {
+            "key": "biome.minecraft.mutated_extreme_hills",
+            "previous": "Mutated Extreme Hills",
+            "current": "Gravelly Mountains"
+          },
+          {
+            "key": "biome.minecraft.mutated_extreme_hills_with_trees",
+            "previous": "Mutated Extreme Hills+",
+            "current": "Gravelly Mountains+"
+          },
+          {
+            "key": "biome.minecraft.mutated_ice_flats",
+            "previous": "Ice Plains Spikes",
+            "current": "Ice Spikes"
+          },
+          {
+            "key": "biome.minecraft.mutated_jungle_edge",
+            "previous": "Mutated Jungle Edge",
+            "current": "Modified Jungle Edge"
+          },
+          {
+            "key": "biome.minecraft.mutated_jungle",
+            "previous": "Mutated Jungle",
+            "current": "Modified Jungle"
+          },
+          {
+            "key": "biome.minecraft.mutated_mesa_clear_rock",
+            "previous": "Mutated Mesa Plateau",
+            "current": "Modified Badlands Plateau"
+          },
+          {
+            "key": "biome.minecraft.mutated_mesa",
+            "previous": "Mesa (Bryce)",
+            "current": "Eroded Badlands"
+          },
+          {
+            "key": "biome.minecraft.mutated_mesa_rock",
+            "previous": "Mutated Mesa Forest Plateau",
+            "current": "Modified Wooded Badlands Plateau"
+          },
+          {
+            "key": "biome.minecraft.mutated_redwood_taiga_hills",
+            "previous": "Mutated Redwood Taiga Hills",
+            "current": "Giant Spruce Taiga Hills"
+          },
+          {
+            "key": "biome.minecraft.mutated_redwood_taiga",
+            "previous": "Mega Spruce Taiga",
+            "current": "Giant Spruce Taiga"
+          },
+          {
+            "key": "biome.minecraft.mutated_roofed_forest",
+            "previous": "Mutated Roofed Forest",
+            "current": "Dark Forest Hills"
+          },
+          {
+            "key": "biome.minecraft.mutated_savanna",
+            "previous": "Mutated Savanna",
+            "current": "Shattered Savanna"
+          },
+          {
+            "key": "biome.minecraft.mutated_savanna_rock",
+            "previous": "Mutated Savanna Plateau",
+            "current": "Shattered Savanna Plateau"
+          },
+          {
+            "key": "biome.minecraft.mutated_swampland",
+            "previous": "Mutated Swampland",
+            "current": "Swamp Hills"
+          },
+          {
+            "key": "biome.minecraft.mutated_taiga_cold",
+            "previous": "Mutated Cold Taiga",
+            "current": "Snowy Taiga Mountains"
+          },
+          {
+            "key": "biome.minecraft.mutated_taiga",
+            "previous": "Mutated Taiga",
+            "current": "Taiga Mountains"
+          },
+          {
+            "key": "biome.minecraft.redwood_taiga_hills",
+            "previous": "Mega Taiga Hills",
+            "current": "Giant Tree Taiga Hills"
+          },
+          {
+            "key": "biome.minecraft.redwood_taiga",
+            "previous": "Mega Taiga",
+            "current": "Giant Tree Taiga"
+          },
+          {
+            "key": "biome.minecraft.roofed_forest",
+            "previous": "Roofed Forest",
+            "current": "Dark Forest"
+          },
+          {
+            "key": "biome.minecraft.sky_island_barren",
+            "previous": "The End - Barren island",
+            "current": "End Barrens"
+          },
+          {
+            "key": "biome.minecraft.sky_island_high",
+            "previous": "The End - High island",
+            "current": "End Highlands"
+          },
+          {
+            "key": "biome.minecraft.sky_island_low",
+            "previous": "The End - Floating islands",
+            "current": "Small End Islands"
+          },
+          {
+            "key": "biome.minecraft.sky_island_medium",
+            "previous": "The End - Medium island",
+            "current": "End Midlands"
+          },
+          {
+            "key": "biome.minecraft.smaller_extreme_hills",
+            "previous": "Extreme Hills Edge",
+            "current": "Mountain Edge"
+          },
+          {
+            "key": "biome.minecraft.stone_beach",
+            "previous": "Stone Beach",
+            "current": "Stone Shore"
+          },
+          {
+            "key": "biome.minecraft.swampland",
+            "previous": "Swampland",
+            "current": "Swamp"
+          },
+          {
+            "key": "biome.minecraft.taiga_cold",
+            "previous": "Cold Taiga",
+            "current": "Snowy Taiga"
+          },
+          {
+            "key": "biome.minecraft.taiga_cold_hills",
+            "previous": "Cold Taiga Hills",
+            "current": "Snowy Taiga Hills"
+          }
+        ]
+      }
+    }
+  ],
+  "file_structure": [
+    {
+      "type": "entries",
+      "value": {
+        "name": "data",
+        "differences": {
+          "added": [
+            "minecraft/loot_tables/entities/pufferfish.json",
+            "minecraft/tags/blocks/leaves.json",
+            "minecraft/tags/fluids/lava.json",
+            "minecraft/tags/fluids/water.json",
+            "minecraft/tags/items/fishes.json",
+            "minecraft/tags/items/leaves.json"
+          ],
+          "removed": [
+            "minecraft/loot_tables/entities/puffer_fish.json"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "assets",
+        "differences": {
+          "added": [
+            "minecraft/blockstates/seagrass.json",
+            "minecraft/blockstates/tall_seagrass.json",
+            "minecraft/models/block/seagrass.json",
+            "minecraft/models/block/tall_seagrass_bottom.json",
+            "minecraft/models/block/tall_seagrass_top.json",
+            "minecraft/models/item/pufferfish_spawn_egg.json",
+            "minecraft/models/item/seagrass.json",
+            "minecraft/textures/blocks/seagrass.png",
+            "minecraft/textures/blocks/seagrass.png.mcmeta",
+            "minecraft/textures/blocks/tall_seagrass_bottom.png",
+            "minecraft/textures/blocks/tall_seagrass_bottom.png.mcmeta",
+            "minecraft/textures/blocks/tall_seagrass_top.png",
+            "minecraft/textures/blocks/tall_seagrass_top.png.mcmeta",
+            "minecraft/textures/items/seagrass.png",
+            "minecraft/textures/items/turtle_egg.png"
+          ],
+          "removed": [
+            "minecraft/blockstates/sea_grass.json",
+            "minecraft/blockstates/tall_sea_grass.json",
+            "minecraft/models/block/sea_grass.json",
+            "minecraft/models/block/tall_sea_grass_bottom.json",
+            "minecraft/models/block/tall_sea_grass_top.json",
+            "minecraft/models/item/puffer_fish_spawn_egg.json",
+            "minecraft/models/item/sea_grass.json",
+            "minecraft/textures/blocks/sea_grass.png",
+            "minecraft/textures/blocks/sea_grass.png.mcmeta",
+            "minecraft/textures/blocks/tall_sea_grass_bottom.png",
+            "minecraft/textures/blocks/tall_sea_grass_bottom.png.mcmeta",
+            "minecraft/textures/blocks/tall_sea_grass_top.png",
+            "minecraft/textures/blocks/tall_sea_grass_top.png.mcmeta",
+            "minecraft/textures/items/sea_grass.png"
+          ]
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,3287 @@
+{
+  "version_data": [
+    {
+      "type": "table",
+      "value": {
+        "previousLabel": "20w14a",
+        "currentLabel": "20w15a",
+        "values": [
+          {
+            "key": "World version",
+            "previous": "2524",
+            "current": "2525"
+          },
+          {
+            "key": "Protocol version",
+            "previous": "710",
+            "current": "711"
+          }
+        ]
+      }
+    },
+    {
+      "type": "title",
+      "value": {
+        "title": "Libraries",
+        "id": "version-data-libraries",
+        "size": 3
+      }
+    },
+    {
+      "type": "table",
+      "value": {
+        "title": "Versions",
+        "previousLabel": "20w14a",
+        "currentLabel": "20w15a",
+        "values": [
+          {
+            "key": "com.mojang:authlib",
+            "previous": "1.5.25",
+            "current": "1.6.25"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-glfw",
+            "previous": "3.2.1",
+            "current": "3.2.2"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-glfw",
+            "previous": "3.2.1",
+            "current": "3.2.2"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-jemalloc",
+            "previous": "3.2.1",
+            "current": "3.2.2"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-jemalloc",
+            "previous": "3.2.1",
+            "current": "3.2.2"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-openal",
+            "previous": "3.2.1",
+            "current": "3.2.2"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-openal",
+            "previous": "3.2.1",
+            "current": "3.2.2"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-opengl",
+            "previous": "3.2.1",
+            "current": "3.2.2"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-opengl",
+            "previous": "3.2.1",
+            "current": "3.2.2"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-stb",
+            "previous": "3.2.1",
+            "current": "3.2.2"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-stb",
+            "previous": "3.2.1",
+            "current": "3.2.2"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-tinyfd",
+            "previous": "3.2.1",
+            "current": "3.2.2"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-tinyfd",
+            "previous": "3.2.1",
+            "current": "3.2.2"
+          },
+          {
+            "key": "org.lwjgl:lwjgl",
+            "previous": "3.2.1",
+            "current": "3.2.2"
+          },
+          {
+            "key": "org.lwjgl:lwjgl",
+            "previous": "3.2.1",
+            "current": "3.2.2"
+          }
+        ]
+      }
+    }
+  ],
+  "registries": [
+    {
+      "type": "entries",
+      "value": {
+        "name": "biome",
+        "differences": {
+          "added": [
+            "minecraft:basalt_deltas"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "block",
+        "differences": {
+          "added": [
+            "minecraft:soul_campfire",
+            "minecraft:blackstone",
+            "minecraft:blackstone_stairs",
+            "minecraft:blackstone_wall",
+            "minecraft:blackstone_slab",
+            "minecraft:polished_blackstone",
+            "minecraft:polished_blackstone_bricks",
+            "minecraft:cracked_polished_blackstone_bricks",
+            "minecraft:chiseled_polished_blackstone",
+            "minecraft:polished_blackstone_brick_slab",
+            "minecraft:polished_blackstone_brick_stairs",
+            "minecraft:polished_blackstone_brick_wall",
+            "minecraft:gilded_blackstone",
+            "minecraft:polished_blackstone_stairs",
+            "minecraft:polished_blackstone_slab",
+            "minecraft:polished_blackstone_pressure_plate",
+            "minecraft:polished_blackstone_button",
+            "minecraft:polished_blackstone_wall",
+            "minecraft:chiseled_nether_bricks",
+            "minecraft:cracked_nether_bricks",
+            "minecraft:quartz_bricks"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "feature",
+        "differences": {
+          "added": [
+            "minecraft:basalt_columns",
+            "minecraft:delta_feature",
+            "minecraft:netherrack_replace_blobs"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "item",
+        "differences": {
+          "added": [
+            "minecraft:cracked_nether_bricks",
+            "minecraft:chiseled_nether_bricks",
+            "minecraft:quartz_bricks",
+            "minecraft:piglin_banner_pattern",
+            "minecraft:soul_campfire",
+            "minecraft:blackstone",
+            "minecraft:blackstone_slab",
+            "minecraft:blackstone_stairs",
+            "minecraft:blackstone_wall",
+            "minecraft:gilded_blackstone",
+            "minecraft:polished_blackstone",
+            "minecraft:polished_blackstone_slab",
+            "minecraft:polished_blackstone_stairs",
+            "minecraft:polished_blackstone_wall",
+            "minecraft:polished_blackstone_button",
+            "minecraft:polished_blackstone_pressure_plate",
+            "minecraft:chiseled_polished_blackstone",
+            "minecraft:polished_blackstone_bricks",
+            "minecraft:polished_blackstone_brick_slab",
+            "minecraft:polished_blackstone_brick_stairs",
+            "minecraft:polished_blackstone_brick_wall",
+            "minecraft:cracked_polished_blackstone_bricks"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "particle_type",
+        "differences": {
+          "added": [
+            "minecraft:white_ash"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "sound_event",
+        "differences": {
+          "added": [
+            "minecraft:ambient.basalt_deltas.additions",
+            "minecraft:ambient.basalt_deltas.loop",
+            "minecraft:ambient.basalt_deltas.mood",
+            "minecraft:music.nether.basalt_deltas",
+            "minecraft:music.nether.nether_wastes",
+            "minecraft:music.nether.soul_sand_valley",
+            "minecraft:music.nether.crimson_forest",
+            "minecraft:music.nether.warped_forest",
+            "minecraft:entity.strider.saddle"
+          ],
+          "removed": [
+            "minecraft:music.nether"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "surface_builder",
+        "differences": {
+          "added": [
+            "minecraft:basalt_deltas"
+          ],
+          "removed": []
+        }
+      }
+    }
+  ],
+  "tags": [
+    {
+      "type": "entries",
+      "value": {
+        "name": "all_blocks_with_drop.json",
+        "differences": {
+          "added": [
+            "minecraft:blackstone",
+            "minecraft:blackstone_slab",
+            "minecraft:blackstone_stairs",
+            "minecraft:blackstone_wall",
+            "minecraft:chiseled_nether_bricks",
+            "minecraft:chiseled_polished_blackstone",
+            "minecraft:cracked_nether_bricks",
+            "minecraft:cracked_polished_blackstone_bricks",
+            "minecraft:gilded_blackstone",
+            "minecraft:polished_blackstone",
+            "minecraft:polished_blackstone_bricks",
+            "minecraft:polished_blackstone_brick_slab",
+            "minecraft:polished_blackstone_brick_stairs",
+            "minecraft:polished_blackstone_brick_wall",
+            "minecraft:polished_blackstone_button",
+            "minecraft:polished_blackstone_pressure_plate",
+            "minecraft:polished_blackstone_slab",
+            "minecraft:polished_blackstone_stairs",
+            "minecraft:polished_blackstone_wall",
+            "minecraft:quartz_bricks",
+            "minecraft:soul_campfire"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "universal_tags/biome.json",
+        "differences": {
+          "added": [
+            "minecraft:basalt_deltas"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "universal_tags/block.json",
+        "differences": {
+          "added": [
+            "minecraft:soul_campfire",
+            "minecraft:blackstone",
+            "minecraft:blackstone_stairs",
+            "minecraft:blackstone_wall",
+            "minecraft:blackstone_slab",
+            "minecraft:polished_blackstone",
+            "minecraft:polished_blackstone_bricks",
+            "minecraft:cracked_polished_blackstone_bricks",
+            "minecraft:chiseled_polished_blackstone",
+            "minecraft:polished_blackstone_brick_slab",
+            "minecraft:polished_blackstone_brick_stairs",
+            "minecraft:polished_blackstone_brick_wall",
+            "minecraft:gilded_blackstone",
+            "minecraft:polished_blackstone_stairs",
+            "minecraft:polished_blackstone_slab",
+            "minecraft:polished_blackstone_pressure_plate",
+            "minecraft:polished_blackstone_button",
+            "minecraft:polished_blackstone_wall",
+            "minecraft:chiseled_nether_bricks",
+            "minecraft:cracked_nether_bricks",
+            "minecraft:quartz_bricks"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "universal_tags/feature.json",
+        "differences": {
+          "added": [
+            "minecraft:basalt_columns",
+            "minecraft:delta_feature",
+            "minecraft:netherrack_replace_blobs"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "universal_tags/item.json",
+        "differences": {
+          "added": [
+            "minecraft:cracked_nether_bricks",
+            "minecraft:chiseled_nether_bricks",
+            "minecraft:quartz_bricks",
+            "minecraft:piglin_banner_pattern",
+            "minecraft:soul_campfire",
+            "minecraft:blackstone",
+            "minecraft:blackstone_slab",
+            "minecraft:blackstone_stairs",
+            "minecraft:blackstone_wall",
+            "minecraft:gilded_blackstone",
+            "minecraft:polished_blackstone",
+            "minecraft:polished_blackstone_slab",
+            "minecraft:polished_blackstone_stairs",
+            "minecraft:polished_blackstone_wall",
+            "minecraft:polished_blackstone_button",
+            "minecraft:polished_blackstone_pressure_plate",
+            "minecraft:chiseled_polished_blackstone",
+            "minecraft:polished_blackstone_bricks",
+            "minecraft:polished_blackstone_brick_slab",
+            "minecraft:polished_blackstone_brick_stairs",
+            "minecraft:polished_blackstone_brick_wall",
+            "minecraft:cracked_polished_blackstone_bricks"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "universal_tags/particle_type.json",
+        "differences": {
+          "added": [
+            "minecraft:white_ash"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "universal_tags/sound_event.json",
+        "differences": {
+          "added": [
+            "minecraft:ambient.basalt_deltas.additions",
+            "minecraft:ambient.basalt_deltas.loop",
+            "minecraft:ambient.basalt_deltas.mood",
+            "minecraft:music.nether.basalt_deltas",
+            "minecraft:music.nether.nether_wastes",
+            "minecraft:music.nether.soul_sand_valley",
+            "minecraft:music.nether.crimson_forest",
+            "minecraft:music.nether.warped_forest",
+            "minecraft:entity.strider.saddle"
+          ],
+          "removed": [
+            "minecraft:music.nether"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "universal_tags/surface_builder.json",
+        "differences": {
+          "added": [
+            "minecraft:basalt_deltas"
+          ],
+          "removed": []
+        }
+      }
+    }
+  ],
+  "blocks": [
+    {
+      "type": "entries",
+      "value": {
+        "name": "🗒️ List",
+        "differences": {
+          "added": [
+            "blackstone.json",
+            "blackstone_slab.json",
+            "blackstone_stairs.json",
+            "blackstone_wall.json",
+            "chiseled_nether_bricks.json",
+            "chiseled_polished_blackstone.json",
+            "cracked_nether_bricks.json",
+            "cracked_polished_blackstone_bricks.json",
+            "gilded_blackstone.json",
+            "polished_blackstone.json",
+            "polished_blackstone_bricks.json",
+            "polished_blackstone_brick_slab.json",
+            "polished_blackstone_brick_stairs.json",
+            "polished_blackstone_brick_wall.json",
+            "polished_blackstone_button.json",
+            "polished_blackstone_pressure_plate.json",
+            "polished_blackstone_slab.json",
+            "polished_blackstone_stairs.json",
+            "polished_blackstone_wall.json",
+            "quartz_bricks.json",
+            "soul_campfire.json"
+          ],
+          "removed": []
+        }
+      }
+    }
+  ],
+  "recipes": [
+    {
+      "type": "entries",
+      "value": {
+        "name": "🗒️ List",
+        "differences": {
+          "added": [
+            "blackstone_slab.json",
+            "blackstone_slab_from_blackstone_stonecutting.json",
+            "blackstone_stairs.json",
+            "blackstone_stairs_from_blackstone_stonecutting.json",
+            "blackstone_wall.json",
+            "blackstone_wall_from_blackstone_stonecutting.json",
+            "chiseled_nether_bricks.json",
+            "chiseled_nether_bricks_from_nether_bricks_stonecutting.json",
+            "chiseled_polished_blackstone.json",
+            "chiseled_polished_blackstone_from_blackstone_stonecutting.json",
+            "chiseled_polished_blackstone_from_polished_blackstone_stonecutting.json",
+            "cracked_nether_bricks.json",
+            "cracked_polished_blackstone_bricks.json",
+            "polished_blackstone.json",
+            "polished_blackstone_bricks.json",
+            "polished_blackstone_bricks_from_blackstone_stonecutting.json",
+            "polished_blackstone_bricks_from_polished_blackstone_stonecutting.json",
+            "polished_blackstone_brick_slab.json",
+            "polished_blackstone_brick_slab_from_blackstone_stonecutting.json",
+            "polished_blackstone_brick_slab_from_polished_blackstone_bricks_stonecutting.json",
+            "polished_blackstone_brick_slab_from_polished_blackstone_stonecutting.json",
+            "polished_blackstone_brick_stairs.json",
+            "polished_blackstone_brick_stairs_from_blackstone_stonecutting.json",
+            "polished_blackstone_brick_stairs_from_polished_blackstone_bricks_stonecutting.json",
+            "polished_blackstone_brick_stairs_from_polished_blackstone_stonecutting.json",
+            "polished_blackstone_brick_wall.json",
+            "polished_blackstone_brick_wall_from_blackstone_stonecutting.json",
+            "polished_blackstone_brick_wall_from_polished_blackstone_bricks_stonecutting.json",
+            "polished_blackstone_brick_wall_from_polished_blackstone_stonecutting.json",
+            "polished_blackstone_button.json",
+            "polished_blackstone_from_blackstone_stonecutting.json",
+            "polished_blackstone_pressure_plate.json",
+            "polished_blackstone_slab.json",
+            "polished_blackstone_slab_from_blackstone_stonecutting.json",
+            "polished_blackstone_slab_from_polished_blackstone_stonecutting.json",
+            "polished_blackstone_stairs.json",
+            "polished_blackstone_stairs_from_blackstone_stonecutting.json",
+            "polished_blackstone_stairs_from_polished_blackstone_stonecutting.json",
+            "polished_blackstone_wall.json",
+            "polished_blackstone_wall_from_blackstone_stonecutting.json",
+            "polished_blackstone_wall_from_polished_blackstone_stonecutting.json",
+            "quartz_bricks.json",
+            "quartz_bricks_from_quartz_block_stonecutting.json",
+            "soul_campfire.json"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "furnace.json",
+        "lines": [
+          "\u001b[1;2mA:\u001b[0m #furnace_materials\n\u001b[1;2mB:\u001b[0m cobblestone\n\n\u001b[1;2mPrevious pattern:\u001b[0m\n[\u001b[2;33mB\u001b[0m | \u001b[2;33mB\u001b[0m | \u001b[2;33mB\u001b[0m]\n[\u001b[2;33mB\u001b[0m | \u001b[2;31m \u001b[0m | \u001b[2;33mB\u001b[0m]\n[\u001b[2;33mB\u001b[0m | \u001b[2;33mB\u001b[0m | \u001b[2;33mB\u001b[0m]\n\n\u001b[1;2mNew pattern:\u001b[0m\n[\u001b[2;33mA\u001b[0m | \u001b[2;33mA\u001b[0m | \u001b[2;33mA\u001b[0m]\n[\u001b[2;33mA\u001b[0m | \u001b[2;36m \u001b[0m | \u001b[2;33mA\u001b[0m]\n[\u001b[2;33mA\u001b[0m | \u001b[2;33mA\u001b[0m | \u001b[2;33mA\u001b[0m]"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "soul_fire_torch.json",
+        "lines": [
+          "\u001b[1;2mA:\u001b[0m #soul_fire_base_blocks\n\u001b[1;2mB:\u001b[0m soul_soil\n\u001b[1;2mC:\u001b[0m stick\n\u001b[1;2mD:\u001b[0m unknown\n\n\u001b[1;2mPrevious pattern:\u001b[0m\n[D]\n[C]\n[\u001b[2;33mB\u001b[0m]\n\n\u001b[1;2mNew pattern:\u001b[0m\n[D]\n[C]\n[\u001b[2;33mA\u001b[0m]"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "stone_axe.json",
+        "lines": [
+          "\u001b[1;2mA:\u001b[0m #stone_tool_materials\n\u001b[1;2mB:\u001b[0m cobblestone\n\u001b[1;2mC:\u001b[0m stick\n\n\u001b[1;2mPrevious pattern:\u001b[0m\n[\u001b[2;33mB\u001b[0m | \u001b[2;33mB\u001b[0m]\n[\u001b[2;33mB\u001b[0m | C]\n[\u001b[2;31m \u001b[0m | C]\n\n\u001b[1;2mNew pattern:\u001b[0m\n[\u001b[2;33mA\u001b[0m | \u001b[2;33mA\u001b[0m]\n[\u001b[2;33mA\u001b[0m | C]\n[\u001b[2;36m \u001b[0m | C]"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "stone_hoe.json",
+        "lines": [
+          "\u001b[1;2mA:\u001b[0m #stone_tool_materials\n\u001b[1;2mB:\u001b[0m cobblestone\n\u001b[1;2mC:\u001b[0m stick\n\n\u001b[1;2mPrevious pattern:\u001b[0m\n[\u001b[2;33mB\u001b[0m | \u001b[2;33mB\u001b[0m]\n[\u001b[2;31m \u001b[0m | C]\n[\u001b[2;31m \u001b[0m | C]\n\n\u001b[1;2mNew pattern:\u001b[0m\n[\u001b[2;33mA\u001b[0m | \u001b[2;33mA\u001b[0m]\n[\u001b[2;36m \u001b[0m | C]\n[\u001b[2;36m \u001b[0m | C]"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "stone_pickaxe.json",
+        "lines": [
+          "\u001b[1;2mA:\u001b[0m #stone_tool_materials\n\u001b[1;2mB:\u001b[0m cobblestone\n\u001b[1;2mC:\u001b[0m stick\n\n\u001b[1;2mPrevious pattern:\u001b[0m\n[\u001b[2;33mB\u001b[0m | \u001b[2;33mB\u001b[0m | \u001b[2;33mB\u001b[0m]\n[\u001b[2;31m \u001b[0m | C | \u001b[2;31m \u001b[0m]\n[\u001b[2;31m \u001b[0m | C | \u001b[2;31m \u001b[0m]\n\n\u001b[1;2mNew pattern:\u001b[0m\n[\u001b[2;33mA\u001b[0m | \u001b[2;33mA\u001b[0m | \u001b[2;33mA\u001b[0m]\n[\u001b[2;36m \u001b[0m | C | \u001b[2;36m \u001b[0m]\n[\u001b[2;36m \u001b[0m | C | \u001b[2;36m \u001b[0m]"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "stone_shovel.json",
+        "lines": [
+          "\u001b[1;2mA:\u001b[0m #stone_tool_materials\n\u001b[1;2mB:\u001b[0m cobblestone\n\u001b[1;2mC:\u001b[0m stick\n\n\u001b[1;2mPrevious pattern:\u001b[0m\n[\u001b[2;33mB\u001b[0m]\n[C]\n[C]\n\n\u001b[1;2mNew pattern:\u001b[0m\n[\u001b[2;33mA\u001b[0m]\n[C]\n[C]"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "stone_sword.json",
+        "lines": [
+          "\u001b[1;2mA:\u001b[0m #stone_tool_materials\n\u001b[1;2mB:\u001b[0m cobblestone\n\u001b[1;2mC:\u001b[0m stick\n\n\u001b[1;2mPrevious pattern:\u001b[0m\n[\u001b[2;33mB\u001b[0m]\n[\u001b[2;33mB\u001b[0m]\n[C]\n\n\u001b[1;2mNew pattern:\u001b[0m\n[\u001b[2;33mA\u001b[0m]\n[\u001b[2;33mA\u001b[0m]\n[C]"
+        ]
+      }
+    }
+  ],
+  "translations": [
+    {
+      "type": "entries",
+      "value": {
+        "name": "Keys",
+        "differences": {
+          "added": [
+            "chat.queue: [+%s pending lines]",
+            "options.chat.line_spacing: Line Spacing",
+            "options.chat.delay_none: Chat Delay: None",
+            "options.chat.delay: Chat Delay: %s seconds",
+            "block.minecraft.soul_campfire: Soul Campfire",
+            "block.minecraft.blackstone: Blackstone",
+            "block.minecraft.blackstone_slab: Blackstone Slab",
+            "block.minecraft.blackstone_stairs: Blackstone Stairs",
+            "block.minecraft.blackstone_wall: Blackstone Wall",
+            "block.minecraft.polished_blackstone_bricks: Polished Blackstone Bricks",
+            "block.minecraft.polished_blackstone_brick_slab: Polished Blackstone Brick Slab",
+            "block.minecraft.polished_blackstone_brick_stairs: Polished Blackstone Brick Stairs",
+            "block.minecraft.polished_blackstone_brick_wall: Polished Blackstone Brick Wall",
+            "block.minecraft.chiseled_polished_blackstone: Chiseled Polished Blackstone",
+            "block.minecraft.cracked_polished_blackstone_bricks: Cracked Polished Blackstone Bricks",
+            "block.minecraft.gilded_blackstone: Gilded Blackstone",
+            "block.minecraft.polished_blackstone: Polished Blackstone",
+            "block.minecraft.polished_blackstone_wall: Polished Blackstone Wall",
+            "block.minecraft.polished_blackstone_slab: Polished Blackstone Slab",
+            "block.minecraft.polished_blackstone_stairs: Polished Blackstone Stairs",
+            "block.minecraft.polished_blackstone_pressure_plate: Polished Blackstone Pressure Plate",
+            "block.minecraft.polished_blackstone_button: Polished Blackstone Button",
+            "block.minecraft.cracked_nether_bricks: Cracked Nether Bricks",
+            "block.minecraft.chiseled_nether_bricks: Chiseled Nether Bricks",
+            "block.minecraft.quartz_bricks: Quartz Bricks",
+            "item.minecraft.piglin_banner_pattern: Banner Pattern",
+            "item.minecraft.piglin_banner_pattern.desc: Piglin",
+            "biome.minecraft.basalt_deltas: Basalt Deltas"
+          ],
+          "removed": []
+        }
+      }
+    }
+  ],
+  "file_structure": [
+    {
+      "type": "entries",
+      "value": {
+        "name": "data",
+        "differences": {
+          "added": [
+            "minecraft/advancements/recipes/building_blocks/blackstone_slab.json",
+            "minecraft/advancements/recipes/building_blocks/blackstone_slab_from_blackstone_stonecutting.json",
+            "minecraft/advancements/recipes/building_blocks/blackstone_stairs.json",
+            "minecraft/advancements/recipes/building_blocks/blackstone_stairs_from_blackstone_stonecutting.json",
+            "minecraft/advancements/recipes/building_blocks/blackstone_wall.json",
+            "minecraft/advancements/recipes/building_blocks/blackstone_wall_from_blackstone_stonecutting.json",
+            "minecraft/advancements/recipes/building_blocks/chiseled_nether_bricks.json",
+            "minecraft/advancements/recipes/building_blocks/chiseled_nether_bricks_from_nether_bricks_stonecutting.json",
+            "minecraft/advancements/recipes/building_blocks/chiseled_polished_blackstone.json",
+            "minecraft/advancements/recipes/building_blocks/chiseled_polished_blackstone_from_blackstone_stonecutting.json",
+            "minecraft/advancements/recipes/building_blocks/chiseled_polished_blackstone_from_polished_blackstone_stonecutting.json",
+            "minecraft/advancements/recipes/building_blocks/cracked_nether_bricks.json",
+            "minecraft/advancements/recipes/building_blocks/cracked_polished_blackstone_bricks.json",
+            "minecraft/advancements/recipes/building_blocks/polished_blackstone.json",
+            "minecraft/advancements/recipes/building_blocks/polished_blackstone_bricks.json",
+            "minecraft/advancements/recipes/building_blocks/polished_blackstone_bricks_from_blackstone_stonecutting.json",
+            "minecraft/advancements/recipes/building_blocks/polished_blackstone_bricks_from_polished_blackstone_stonecutting.json",
+            "minecraft/advancements/recipes/building_blocks/polished_blackstone_brick_slab.json",
+            "minecraft/advancements/recipes/building_blocks/polished_blackstone_brick_slab_from_blackstone_stonecutting.json",
+            "minecraft/advancements/recipes/building_blocks/polished_blackstone_brick_slab_from_polished_blackstone_bricks_stonecutting.json",
+            "minecraft/advancements/recipes/building_blocks/polished_blackstone_brick_slab_from_polished_blackstone_stonecutting.json",
+            "minecraft/advancements/recipes/building_blocks/polished_blackstone_brick_stairs.json",
+            "minecraft/advancements/recipes/building_blocks/polished_blackstone_brick_stairs_from_blackstone_stonecutting.json",
+            "minecraft/advancements/recipes/building_blocks/polished_blackstone_brick_stairs_from_polished_blackstone_bricks_stonecutting.json",
+            "minecraft/advancements/recipes/building_blocks/polished_blackstone_brick_stairs_from_polished_blackstone_stonecutting.json",
+            "minecraft/advancements/recipes/building_blocks/polished_blackstone_brick_wall.json",
+            "minecraft/advancements/recipes/building_blocks/polished_blackstone_brick_wall_from_blackstone_stonecutting.json",
+            "minecraft/advancements/recipes/building_blocks/polished_blackstone_brick_wall_from_polished_blackstone_bricks_stonecutting.json",
+            "minecraft/advancements/recipes/building_blocks/polished_blackstone_brick_wall_from_polished_blackstone_stonecutting.json",
+            "minecraft/advancements/recipes/building_blocks/polished_blackstone_from_blackstone_stonecutting.json",
+            "minecraft/advancements/recipes/building_blocks/polished_blackstone_slab.json",
+            "minecraft/advancements/recipes/building_blocks/polished_blackstone_slab_from_blackstone_stonecutting.json",
+            "minecraft/advancements/recipes/building_blocks/polished_blackstone_slab_from_polished_blackstone_stonecutting.json",
+            "minecraft/advancements/recipes/building_blocks/polished_blackstone_stairs.json",
+            "minecraft/advancements/recipes/building_blocks/polished_blackstone_stairs_from_blackstone_stonecutting.json",
+            "minecraft/advancements/recipes/building_blocks/polished_blackstone_stairs_from_polished_blackstone_stonecutting.json",
+            "minecraft/advancements/recipes/building_blocks/polished_blackstone_wall.json",
+            "minecraft/advancements/recipes/building_blocks/polished_blackstone_wall_from_blackstone_stonecutting.json",
+            "minecraft/advancements/recipes/building_blocks/polished_blackstone_wall_from_polished_blackstone_stonecutting.json",
+            "minecraft/advancements/recipes/building_blocks/quartz_bricks.json",
+            "minecraft/advancements/recipes/building_blocks/quartz_bricks_from_quartz_block_stonecutting.json",
+            "minecraft/advancements/recipes/decorations/soul_campfire.json",
+            "minecraft/advancements/recipes/redstone/polished_blackstone_button.json",
+            "minecraft/advancements/recipes/redstone/polished_blackstone_pressure_plate.json",
+            "minecraft/loot_tables/blocks/blackstone.json",
+            "minecraft/loot_tables/blocks/blackstone_slab.json",
+            "minecraft/loot_tables/blocks/blackstone_stairs.json",
+            "minecraft/loot_tables/blocks/blackstone_wall.json",
+            "minecraft/loot_tables/blocks/chiseled_nether_bricks.json",
+            "minecraft/loot_tables/blocks/chiseled_polished_blackstone.json",
+            "minecraft/loot_tables/blocks/cracked_nether_bricks.json",
+            "minecraft/loot_tables/blocks/cracked_polished_blackstone_bricks.json",
+            "minecraft/loot_tables/blocks/gilded_blackstone.json",
+            "minecraft/loot_tables/blocks/polished_blackstone.json",
+            "minecraft/loot_tables/blocks/polished_blackstone_bricks.json",
+            "minecraft/loot_tables/blocks/polished_blackstone_brick_slab.json",
+            "minecraft/loot_tables/blocks/polished_blackstone_brick_stairs.json",
+            "minecraft/loot_tables/blocks/polished_blackstone_brick_wall.json",
+            "minecraft/loot_tables/blocks/polished_blackstone_button.json",
+            "minecraft/loot_tables/blocks/polished_blackstone_pressure_plate.json",
+            "minecraft/loot_tables/blocks/polished_blackstone_slab.json",
+            "minecraft/loot_tables/blocks/polished_blackstone_stairs.json",
+            "minecraft/loot_tables/blocks/polished_blackstone_wall.json",
+            "minecraft/loot_tables/blocks/quartz_bricks.json",
+            "minecraft/loot_tables/blocks/soul_campfire.json",
+            "minecraft/recipes/blackstone_slab.json",
+            "minecraft/recipes/blackstone_slab_from_blackstone_stonecutting.json",
+            "minecraft/recipes/blackstone_stairs.json",
+            "minecraft/recipes/blackstone_stairs_from_blackstone_stonecutting.json",
+            "minecraft/recipes/blackstone_wall.json",
+            "minecraft/recipes/blackstone_wall_from_blackstone_stonecutting.json",
+            "minecraft/recipes/chiseled_nether_bricks.json",
+            "minecraft/recipes/chiseled_nether_bricks_from_nether_bricks_stonecutting.json",
+            "minecraft/recipes/chiseled_polished_blackstone.json",
+            "minecraft/recipes/chiseled_polished_blackstone_from_blackstone_stonecutting.json",
+            "minecraft/recipes/chiseled_polished_blackstone_from_polished_blackstone_stonecutting.json",
+            "minecraft/recipes/cracked_nether_bricks.json",
+            "minecraft/recipes/cracked_polished_blackstone_bricks.json",
+            "minecraft/recipes/polished_blackstone.json",
+            "minecraft/recipes/polished_blackstone_bricks.json",
+            "minecraft/recipes/polished_blackstone_bricks_from_blackstone_stonecutting.json",
+            "minecraft/recipes/polished_blackstone_bricks_from_polished_blackstone_stonecutting.json",
+            "minecraft/recipes/polished_blackstone_brick_slab.json",
+            "minecraft/recipes/polished_blackstone_brick_slab_from_blackstone_stonecutting.json",
+            "minecraft/recipes/polished_blackstone_brick_slab_from_polished_blackstone_bricks_stonecutting.json",
+            "minecraft/recipes/polished_blackstone_brick_slab_from_polished_blackstone_stonecutting.json",
+            "minecraft/recipes/polished_blackstone_brick_stairs.json",
+            "minecraft/recipes/polished_blackstone_brick_stairs_from_blackstone_stonecutting.json",
+            "minecraft/recipes/polished_blackstone_brick_stairs_from_polished_blackstone_bricks_stonecutting.json",
+            "minecraft/recipes/polished_blackstone_brick_stairs_from_polished_blackstone_stonecutting.json",
+            "minecraft/recipes/polished_blackstone_brick_wall.json",
+            "minecraft/recipes/polished_blackstone_brick_wall_from_blackstone_stonecutting.json",
+            "minecraft/recipes/polished_blackstone_brick_wall_from_polished_blackstone_bricks_stonecutting.json",
+            "minecraft/recipes/polished_blackstone_brick_wall_from_polished_blackstone_stonecutting.json",
+            "minecraft/recipes/polished_blackstone_button.json",
+            "minecraft/recipes/polished_blackstone_from_blackstone_stonecutting.json",
+            "minecraft/recipes/polished_blackstone_pressure_plate.json",
+            "minecraft/recipes/polished_blackstone_slab.json",
+            "minecraft/recipes/polished_blackstone_slab_from_blackstone_stonecutting.json",
+            "minecraft/recipes/polished_blackstone_slab_from_polished_blackstone_stonecutting.json",
+            "minecraft/recipes/polished_blackstone_stairs.json",
+            "minecraft/recipes/polished_blackstone_stairs_from_blackstone_stonecutting.json",
+            "minecraft/recipes/polished_blackstone_stairs_from_polished_blackstone_stonecutting.json",
+            "minecraft/recipes/polished_blackstone_wall.json",
+            "minecraft/recipes/polished_blackstone_wall_from_blackstone_stonecutting.json",
+            "minecraft/recipes/polished_blackstone_wall_from_polished_blackstone_stonecutting.json",
+            "minecraft/recipes/quartz_bricks.json",
+            "minecraft/recipes/quartz_bricks_from_quartz_block_stonecutting.json",
+            "minecraft/recipes/soul_campfire.json",
+            "minecraft/tags/blocks/campfires.json",
+            "minecraft/tags/blocks/guarded_by_piglins.json",
+            "minecraft/tags/items/furnace_materials.json",
+            "minecraft/tags/items/soul_fire_base_blocks.json",
+            "minecraft/tags/items/stone_tool_materials.json"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "assets",
+        "differences": {
+          "added": [
+            "minecraft/blockstates/blackstone.json",
+            "minecraft/blockstates/blackstone_slab.json",
+            "minecraft/blockstates/blackstone_stairs.json",
+            "minecraft/blockstates/blackstone_wall.json",
+            "minecraft/blockstates/chiseled_nether_bricks.json",
+            "minecraft/blockstates/chiseled_polished_blackstone.json",
+            "minecraft/blockstates/cracked_nether_bricks.json",
+            "minecraft/blockstates/cracked_polished_blackstone_bricks.json",
+            "minecraft/blockstates/gilded_blackstone.json",
+            "minecraft/blockstates/polished_blackstone.json",
+            "minecraft/blockstates/polished_blackstone_bricks.json",
+            "minecraft/blockstates/polished_blackstone_brick_slab.json",
+            "minecraft/blockstates/polished_blackstone_brick_stairs.json",
+            "minecraft/blockstates/polished_blackstone_brick_wall.json",
+            "minecraft/blockstates/polished_blackstone_button.json",
+            "minecraft/blockstates/polished_blackstone_pressure_plate.json",
+            "minecraft/blockstates/polished_blackstone_slab.json",
+            "minecraft/blockstates/polished_blackstone_stairs.json",
+            "minecraft/blockstates/polished_blackstone_wall.json",
+            "minecraft/blockstates/quartz_bricks.json",
+            "minecraft/blockstates/soul_campfire.json",
+            "minecraft/models/block/blackstone.json",
+            "minecraft/models/block/blackstone_slab.json",
+            "minecraft/models/block/blackstone_slab_top.json",
+            "minecraft/models/block/blackstone_stairs.json",
+            "minecraft/models/block/blackstone_stairs_inner.json",
+            "minecraft/models/block/blackstone_stairs_outer.json",
+            "minecraft/models/block/blackstone_wall_inventory.json",
+            "minecraft/models/block/blackstone_wall_post.json",
+            "minecraft/models/block/blackstone_wall_side.json",
+            "minecraft/models/block/blackstone_wall_side_tall.json",
+            "minecraft/models/block/chiseled_nether_bricks.json",
+            "minecraft/models/block/chiseled_polished_blackstone.json",
+            "minecraft/models/block/cracked_nether_bricks.json",
+            "minecraft/models/block/cracked_polished_blackstone_bricks.json",
+            "minecraft/models/block/gilded_blackstone.json",
+            "minecraft/models/block/polished_blackstone.json",
+            "minecraft/models/block/polished_blackstone_bricks.json",
+            "minecraft/models/block/polished_blackstone_brick_slab.json",
+            "minecraft/models/block/polished_blackstone_brick_slab_top.json",
+            "minecraft/models/block/polished_blackstone_brick_stairs.json",
+            "minecraft/models/block/polished_blackstone_brick_stairs_inner.json",
+            "minecraft/models/block/polished_blackstone_brick_stairs_outer.json",
+            "minecraft/models/block/polished_blackstone_brick_wall_inventory.json",
+            "minecraft/models/block/polished_blackstone_brick_wall_post.json",
+            "minecraft/models/block/polished_blackstone_brick_wall_side.json",
+            "minecraft/models/block/polished_blackstone_brick_wall_side_tall.json",
+            "minecraft/models/block/polished_blackstone_button.json",
+            "minecraft/models/block/polished_blackstone_button_inventory.json",
+            "minecraft/models/block/polished_blackstone_button_pressed.json",
+            "minecraft/models/block/polished_blackstone_pressure_plate.json",
+            "minecraft/models/block/polished_blackstone_pressure_plate_down.json",
+            "minecraft/models/block/polished_blackstone_slab.json",
+            "minecraft/models/block/polished_blackstone_slab_top.json",
+            "minecraft/models/block/polished_blackstone_stairs.json",
+            "minecraft/models/block/polished_blackstone_stairs_inner.json",
+            "minecraft/models/block/polished_blackstone_stairs_outer.json",
+            "minecraft/models/block/polished_blackstone_wall_inventory.json",
+            "minecraft/models/block/polished_blackstone_wall_post.json",
+            "minecraft/models/block/polished_blackstone_wall_side.json",
+            "minecraft/models/block/polished_blackstone_wall_side_tall.json",
+            "minecraft/models/block/quartz_bricks.json",
+            "minecraft/models/block/soul_campfire.json",
+            "minecraft/models/block/template_campfire.json",
+            "minecraft/models/item/blackstone.json",
+            "minecraft/models/item/blackstone_slab.json",
+            "minecraft/models/item/blackstone_stairs.json",
+            "minecraft/models/item/blackstone_wall.json",
+            "minecraft/models/item/chiseled_nether_bricks.json",
+            "minecraft/models/item/chiseled_polished_blackstone.json",
+            "minecraft/models/item/cracked_nether_bricks.json",
+            "minecraft/models/item/cracked_polished_blackstone_bricks.json",
+            "minecraft/models/item/gilded_blackstone.json",
+            "minecraft/models/item/piglin_banner_pattern.json",
+            "minecraft/models/item/polished_blackstone.json",
+            "minecraft/models/item/polished_blackstone_bricks.json",
+            "minecraft/models/item/polished_blackstone_brick_slab.json",
+            "minecraft/models/item/polished_blackstone_brick_stairs.json",
+            "minecraft/models/item/polished_blackstone_brick_wall.json",
+            "minecraft/models/item/polished_blackstone_button.json",
+            "minecraft/models/item/polished_blackstone_pressure_plate.json",
+            "minecraft/models/item/polished_blackstone_slab.json",
+            "minecraft/models/item/polished_blackstone_stairs.json",
+            "minecraft/models/item/polished_blackstone_wall.json",
+            "minecraft/models/item/quartz_bricks.json",
+            "minecraft/models/item/soul_campfire.json",
+            "minecraft/particles/white_ash.json",
+            "minecraft/textures/block/blackstone.png",
+            "minecraft/textures/block/blackstone_top.png",
+            "minecraft/textures/block/chiseled_nether_bricks.png",
+            "minecraft/textures/block/chiseled_polished_blackstone.png",
+            "minecraft/textures/block/cracked_nether_bricks.png",
+            "minecraft/textures/block/cracked_polished_blackstone_bricks.png",
+            "minecraft/textures/block/gilded_blackstone.png",
+            "minecraft/textures/block/polished_blackstone.png",
+            "minecraft/textures/block/polished_blackstone_bricks.png",
+            "minecraft/textures/block/quartz_bricks.png",
+            "minecraft/textures/block/soul_campfire_fire.png",
+            "minecraft/textures/block/soul_campfire_fire.png.mcmeta",
+            "minecraft/textures/block/soul_campfire_log_lit.png",
+            "minecraft/textures/block/soul_campfire_log_lit.png.mcmeta",
+            "minecraft/textures/entity/banner/piglin.png",
+            "minecraft/textures/entity/shield/piglin.png",
+            "minecraft/textures/entity/strider/strider_cold.png",
+            "minecraft/textures/item/piglin_banner_pattern.png",
+            "minecraft/textures/item/soul_campfire.png"
+          ],
+          "removed": []
+        }
+      }
+    }
+  ],
+  "mappings": [
+    {
+      "type": "title",
+      "value": {
+        "title": "Server",
+        "id": "server-mappings",
+        "size": 2
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "Classes",
+        "differences": {
+          "added": [
+            "XXX.minecraft.core.BlockPos$MutableBlockPos",
+            "XXX.minecraft.core.BlockSourceImpl",
+            "XXX.minecraft.core.DefaultedRegistry",
+            "XXX.minecraft.core.Direction$1",
+            "XXX.minecraft.core.Direction$Axis$1",
+            "XXX.minecraft.core.Direction$Axis$3",
+            "XXX.minecraft.core.Direction$Plane",
+            "XXX.minecraft.core.FrontAndTop",
+            "XXX.minecraft.core.IdMap",
+            "XXX.minecraft.core.LocatableSource",
+            "XXX.minecraft.core.MapFiller",
+            "XXX.minecraft.core.NonNullList",
+            "XXX.minecraft.core.PositionImpl",
+            "XXX.minecraft.core.Rotations",
+            "XXX.minecraft.core.SectionPos$1",
+            "XXX.minecraft.core.SerializableLong",
+            "XXX.minecraft.core.Source",
+            "XXX.minecraft.core.WritableRegistry",
+            "XXX.core.dispenser.BoatDispenseItemBehavior",
+            "XXX.core.dispenser.DispenseItemBehavior",
+            "XXX.core.dispenser.DispenseItemBehavior$10",
+            "XXX.core.dispenser.DispenseItemBehavior$12",
+            "XXX.core.dispenser.DispenseItemBehavior$14",
+            "XXX.core.dispenser.DispenseItemBehavior$16",
+            "XXX.core.dispenser.DispenseItemBehavior$18",
+            "XXX.core.dispenser.DispenseItemBehavior$2",
+            "XXX.core.dispenser.DispenseItemBehavior$21",
+            "XXX.core.dispenser.DispenseItemBehavior$23",
+            "XXX.core.dispenser.DispenseItemBehavior$4",
+            "XXX.core.dispenser.DispenseItemBehavior$6",
+            "XXX.core.dispenser.DispenseItemBehavior$7$1",
+            "XXX.core.dispenser.DispenseItemBehavior$8$1",
+            "XXX.core.dispenser.OptionalDispenseItemBehavior",
+            "XXX.minecraft.tags.Tag$Entry",
+            "XXX.minecraft.tags.Tag$TagEntry",
+            "XXX.world.entity.ItemSteerableMount",
+            "XXX.animal.horse.SkeletonHorse",
+            "XXX.animal.horse.TraderLlama",
+            "XXX.world.item.WaterLilyBlockItem",
+            "XXX.level.biome.BeachBiome",
+            "XXX.level.biome.Biome$1",
+            "XXX.level.biome.Biome$BiomeCategory",
+            "XXX.level.biome.Biome$ClimateParameters",
+            "XXX.level.biome.Biome$SpawnerData",
+            "XXX.level.biome.BiomeManager",
+            "XXX.level.biome.BiomeSource",
+            "XXX.level.biome.BiomeSourceType",
+            "XXX.level.biome.BiomeSpecialEffects$1",
+            "XXX.level.biome.BiomeZoomer",
+            "XXX.level.biome.BirchForestBiome",
+            "XXX.level.biome.CheckerboardBiomeSourceSettings",
+            "XXX.level.biome.ColdOceanBiome",
+            "XXX.level.biome.DarkForestBiome",
+            "XXX.level.biome.DeepColdOceanBiome",
+            "XXX.level.biome.DeepLukeWarmOceanBiome",
+            "XXX.level.biome.DeepWarmOceanBiome",
+            "XXX.level.biome.DesertHillsBiome",
+            "XXX.level.biome.EndBarrensBiome",
+            "XXX.level.biome.EndMidlandsBiome",
+            "XXX.level.biome.FixedBiomeSource",
+            "XXX.level.biome.ForestBiome",
+            "XXX.level.biome.FrozenOceanBiome",
+            "XXX.level.biome.FuzzyOffsetBiomeZoomer",
+            "XXX.level.biome.GiantSpruceTaigaBiome",
+            "XXX.level.biome.GiantTreeTaigaBiome",
+            "XXX.level.biome.GravellyMountainsBiome",
+            "XXX.level.biome.JungleBiome",
+            "XXX.level.biome.JungleHillsBiome",
+            "XXX.level.biome.ModifiedBadlandsPlateauBiome",
+            "XXX.level.biome.ModifiedJungleBiome",
+            "XXX.level.biome.ModifiedWoodedBadlandsPlateauBiome",
+            "XXX.level.biome.MountainEdgeBiome",
+            "XXX.level.biome.MultiNoiseBiomeSourceSettings",
+            "XXX.level.biome.MushroomFieldsShoreBiome",
+            "XXX.level.biome.NetherWastesBiome",
+            "XXX.level.biome.OverworldBiomeSource",
+            "XXX.level.biome.PlainsBiome",
+            "XXX.level.biome.SavannaBiome",
+            "XXX.level.biome.ShatteredSavannaBiome",
+            "XXX.level.biome.SmallEndIslandsBiome",
+            "XXX.level.biome.SnowyMountainsBiome",
+            "XXX.level.biome.SnowyTaigaHillsBiome",
+            "XXX.level.biome.SnowyTundraBiome",
+            "XXX.level.biome.StoneShoreBiome",
+            "XXX.level.biome.SwampBiome",
+            "XXX.level.biome.TaigaBiome",
+            "XXX.level.biome.TaigaMountainsBiome",
+            "XXX.level.biome.TallBirchHillsBiome",
+            "XXX.level.biome.TheEndBiomeSource",
+            "XXX.level.biome.TheVoidBiome",
+            "XXX.level.biome.WarpedForestBiome",
+            "XXX.level.biome.WoodedHillsBiome",
+            "XXX.level.biome.package-info",
+            "XXX.level.block.AbstractChestBlock",
+            "XXX.level.block.AbstractGlassBlock",
+            "XXX.level.block.AirBlock",
+            "XXX.level.block.AttachedStemBlock",
+            "XXX.level.block.BambooSaplingBlock",
+            "XXX.level.block.BarrelBlock",
+            "XXX.level.block.BaseCoralFanBlock",
+            "XXX.level.block.BaseCoralPlantTypeBlock",
+            "XXX.level.block.BaseEntityBlock",
+            "XXX.level.block.BasePressurePlateBlock",
+            "XXX.level.block.BeaconBeamBlock",
+            "XXX.level.block.BedBlock",
+            "XXX.level.block.BeehiveBlock",
+            "XXX.level.block.BellBlock",
+            "XXX.level.block.BlastFurnaceBlock",
+            "XXX.level.block.Block$1",
+            "XXX.level.block.Block$BlockStatePairKey",
+            "XXX.level.block.BonemealableBlock",
+            "XXX.level.block.BubbleColumnBlock",
+            "XXX.level.block.BushBlock",
+            "XXX.level.block.ButtonBlock$1",
+            "XXX.level.block.CakeBlock",
+            "XXX.level.block.CarrotBlock",
+            "XXX.level.block.CarvedPumpkinBlock",
+            "XXX.level.block.ChestBlock",
+            "XXX.level.block.ChestBlock$2",
+            "XXX.level.block.ChestBlock$3",
+            "XXX.level.block.ChorusFlowerBlock",
+            "XXX.level.block.CocoaBlock",
+            "XXX.level.block.CommandBlock",
+            "XXX.level.block.ComposterBlock",
+            "XXX.level.block.ComposterBlock$InputContainer",
+            "XXX.level.block.ConcretePowderBlock",
+            "XXX.level.block.CoralBlock",
+            "XXX.level.block.CoralPlantBlock",
+            "XXX.level.block.CraftingTableBlock",
+            "XXX.level.block.CrossCollisionBlock",
+            "XXX.level.block.CryingObsidianBlock",
+            "XXX.level.block.DeadBushBlock",
+            "XXX.level.block.DetectorRailBlock$1",
+            "XXX.level.block.DirectionalBlock",
+            "XXX.level.block.DoorBlock",
+            "XXX.level.block.DoubleBlockCombiner",
+            "XXX.level.block.DoubleBlockCombiner$Combiner",
+            "XXX.level.block.DoubleBlockCombiner$NeighborCombineResult$Double",
+            "XXX.level.block.DoublePlantBlock",
+            "XXX.level.block.DropperBlock",
+            "XXX.level.block.EndGatewayBlock",
+            "XXX.level.block.EndPortalFrameBlock",
+            "XXX.level.block.EndRodBlock$1",
+            "XXX.level.block.EntityBlock",
+            "XXX.level.block.FaceAttachedHorizontalDirectionalBlock$1",
+            "XXX.level.block.FarmBlock",
+            "XXX.level.block.FenceGateBlock",
+            "XXX.level.block.FireBlock",
+            "XXX.level.block.FlowerBlock",
+            "XXX.level.block.FrostedIceBlock",
+            "XXX.level.block.FurnaceBlock",
+            "XXX.level.block.GlazedTerracottaBlock",
+            "XXX.levelgen.feature.BlockBlobFeature",
+            "XXX.levelgen.feature.BlueIceFeature",
+            "XXX.levelgen.feature.BuriedTreasureFeature",
+            "XXX.levelgen.feature.ChorusPlantFeature",
+            "XXX.levelgen.feature.CoralClawFeature",
+            "XXX.levelgen.feature.CoralMushroomFeature",
+            "XXX.levelgen.feature.DarkOakFeature",
+            "XXX.levelgen.feature.DecoratedFlowerFeature",
+            "XXX.levelgen.feature.SavannaVillagePools",
+            "XXX.levelgen.feature.SeagrassFeature",
+            "XXX.levelgen.feature.ShipwreckFeature$FeatureStart",
+            "XXX.levelgen.feature.SimpleRandomSelectorFeature",
+            "XXX.levelgen.feature.SnowAndFreezeFeature",
+            "XXX.levelgen.feature.SpikeFeature",
+            "XXX.levelgen.feature.SpikeFeature$EndSpike",
+            "XXX.levelgen.feature.SpringFeature",
+            "XXX.levelgen.feature.StrongholdFeature$StrongholdStart",
+            "XXX.levelgen.feature.StructureFeature$StructureStartFactory",
+            "XXX.levelgen.feature.SwamplandHutFeature",
+            "XXX.levelgen.feature.TaigaVillagePools",
+            "XXX.levelgen.feature.TwistingVinesFeature",
+            "XXX.levelgen.feature.VillageFeature$FeatureStart",
+            "XXX.levelgen.feature.VillagePieces$VillagePiece",
+            "XXX.levelgen.feature.VoidStartPlatformFeature",
+            "XXX.levelgen.feature.WeightedConfiguredFeature",
+            "XXX.levelgen.feature.WoodlandMansionFeature$WoodlandMansionStart",
+            "XXX.feature.blockplacers.BlockPlacerType",
+            "XXX.feature.blockplacers.DoublePlantPlacer",
+            "XXX.feature.blockplacers.package-info",
+            "XXX.feature.configurations.BlockPileConfiguration",
+            "XXX.feature.configurations.BuriedTreasureConfiguration",
+            "XXX.feature.configurations.CountFeatureConfiguration",
+            "XXX.feature.configurations.DecoratedFeatureConfiguration",
+            "XXX.feature.configurations.DiskConfiguration",
+            "XXX.feature.configurations.FeatureConfiguration",
+            "XXX.feature.configurations.HugeMushroomFeatureConfiguration",
+            "XXX.feature.configurations.MegaTreeConfiguration",
+            "XXX.feature.configurations.MineshaftConfiguration",
+            "XXX.feature.configurations.NoneDecoratorConfiguration",
+            "XXX.feature.configurations.OceanRuinConfiguration",
+            "XXX.feature.configurations.OreConfiguration$Predicates",
+            "XXX.feature.configurations.RandomBooleanFeatureConfiguration",
+            "XXX.feature.configurations.RandomPatchConfiguration",
+            "XXX.feature.configurations.RandomPatchConfiguration$GrassConfigurationBuilder",
+            "XXX.feature.configurations.ReplaceBlockConfiguration",
+            "XXX.feature.configurations.ShipwreckConfiguration",
+            "XXX.feature.configurations.SimpleRandomFeatureConfiguration",
+            "XXX.feature.configurations.SmallTreeConfiguration$SmallTreeConfigurationBuilder",
+            "XXX.feature.configurations.SpringConfiguration",
+            "XXX.feature.configurations.TreeConfiguration$TreeConfigurationBuilder",
+            "XXX.feature.configurations.package-info",
+            "XXX.feature.foliageplacers.BlobFoliagePlacer",
+            "XXX.feature.foliageplacers.FoliagePlacerType",
+            "XXX.feature.foliageplacers.SpruceFoliagePlacer",
+            "XXX.levelgen.feature.package-info",
+            "XXX.feature.stateproviders.BlockStateProviderType",
+            "XXX.feature.stateproviders.PlainFlowerProvider",
+            "XXX.feature.stateproviders.SimpleStateProvider",
+            "XXX.feature.stateproviders.package-info",
+            "XXX.feature.structures.FeaturePoolElement",
+            "XXX.feature.structures.JigsawPlacement",
+            "XXX.feature.structures.JigsawPlacement$PieceFactory",
+            "XXX.feature.structures.JigsawPlacement$Placer",
+            "XXX.feature.structures.SinglePoolElement",
+            "XXX.feature.structures.StructurePoolElementType",
+            "XXX.feature.structures.StructureTemplatePool$Projection",
+            "XXX.feature.structures.package-info",
+            "XXX.feature.treedecorators.BeehiveDecorator",
+            "XXX.feature.treedecorators.LeaveVineDecorator",
+            "XXX.feature.treedecorators.TreeDecoratorType",
+            "XXX.feature.treedecorators.package-info",
+            "XXX.feature.trunkplacers.StraightTrunkPlacer",
+            "XXX.feature.trunkplacers.TrunkPlacerType",
+            "XXX.levelgen.flat.FlatLayerInfo",
+            "XXX.levelgen.flat.package-info",
+            "XXX.levelgen.placement.CarvingMaskDecorator",
+            "XXX.levelgen.placement.ChanceDecoratorConfiguration",
+            "XXX.levelgen.placement.ChanceHeightmapDoubleDecorator",
+            "XXX.levelgen.placement.ChanceTopSolidHeightmapDecorator",
+            "XXX.levelgen.placement.ConfiguredDecorator",
+            "XXX.levelgen.placement.CountChanceHeightmapDecorator",
+            "XXX.levelgen.placement.CountDepthAverageDecorator",
+            "XXX.levelgen.placement.CountHeight64Decorator",
+            "XXX.levelgen.placement.CountHeightmapDecorator",
+            "XXX.levelgen.placement.CountVeryBiasedRangeDecorator",
+            "XXX.levelgen.placement.DarkOakTreePlacementDecorator",
+            "XXX.levelgen.placement.EmeraldPlacementDecorator",
+            "XXX.levelgen.placement.EndIslandPlacementDecorator",
+            "XXX.levelgen.placement.ForestRockPlacementDecorator",
+            "XXX.levelgen.placement.FrequencyDecoratorConfiguration",
+            "XXX.levelgen.placement.IcebergPlacementDecorator",
+            "XXX.levelgen.placement.LakeWaterPlacementDecorator",
+            "XXX.levelgen.placement.NoiseCountFactorDecoratorConfiguration",
+            "XXX.levelgen.placement.NoiseHeightmapDoubleDecorator",
+            "XXX.levelgen.placement.RangeDecoratorConfiguration",
+            "XXX.levelgen.placement.TopSolidHeightMapDecorator",
+            "XXX.levelgen.placement.TopSolidHeightMapRangeDecorator",
+            "XXX.placement.nether.CountRangeDecorator",
+            "XXX.placement.nether.LightGemChanceDecorator",
+            "XXX.placement.nether.RandomCountRangeDecorator",
+            "XXX.levelgen.placement.package-info",
+            "XXX.levelgen.structure.BoundingBox",
+            "XXX.levelgen.structure.BuriedTreasurePieces",
+            "XXX.levelgen.structure.DesertPyramidPiece",
+            "XXX.levelgen.structure.EndCityPieces$1",
+            "XXX.levelgen.structure.EndCityPieces$3",
+            "XXX.levelgen.structure.EndCityPieces$EndCityPiece",
+            "XXX.levelgen.structure.IglooPieces",
+            "XXX.levelgen.structure.JunglePyramidPiece",
+            "XXX.levelgen.structure.JunglePyramidPiece$MossStoneSelector",
+            "XXX.levelgen.structure.MineShaftPieces",
+            "XXX.levelgen.structure.MineShaftPieces$MineShaftCorridor",
+            "XXX.levelgen.structure.MineShaftPieces$MineShaftPiece",
+            "XXX.levelgen.structure.MineShaftPieces$MineShaftStairs",
+            "XXX.levelgen.structure.NetherBridgePieces$1",
+            "XXX.levelgen.structure.NetherBridgePieces$BridgeEndFiller",
+            "XXX.levelgen.structure.NetherBridgePieces$CastleCorridorStairsPiece",
+            "XXX.levelgen.structure.NetherBridgePieces$CastleEntrance",
+            "XXX.levelgen.structure.NetherBridgePieces$CastleSmallCorridorLeftTurnPiece",
+            "XXX.levelgen.structure.NetherBridgePieces$CastleSmallCorridorRightTurnPiece",
+            "XXX.levelgen.structure.NetherBridgePieces$MonsterThrone",
+            "XXX.levelgen.structure.NetherBridgePieces$PieceWeight",
+            "XXX.levelgen.structure.NetherBridgePieces$StairsRoom",
+            "XXX.levelgen.structure.NetherFossilFeature",
+            "XXX.levelgen.structure.NetherFossilPieces",
+            "XXX.levelgen.structure.OceanMonumentPieces",
+            "XXX.levelgen.structure.OceanMonumentPieces$FitDoubleXRoom",
+            "XXX.levelgen.structure.OceanMonumentPieces$FitDoubleYRoom",
+            "XXX.levelgen.structure.OceanMonumentPieces$FitDoubleZRoom",
+            "XXX.levelgen.structure.OceanMonumentPieces$FitSimpleTopRoom",
+            "XXX.levelgen.structure.OceanMonumentPieces$MonumentRoomFitter",
+            "XXX.levelgen.structure.OceanMonumentPieces$OceanMonumentDoubleXRoom",
+            "XXX.levelgen.structure.OceanMonumentPieces$OceanMonumentDoubleYRoom",
+            "XXX.levelgen.structure.OceanMonumentPieces$OceanMonumentDoubleZRoom",
+            "XXX.levelgen.structure.OceanMonumentPieces$OceanMonumentPenthouse",
+            "XXX.levelgen.structure.OceanMonumentPieces$OceanMonumentSimpleRoom",
+            "XXX.levelgen.structure.OceanMonumentPieces$OceanMonumentWingRoom",
+            "XXX.levelgen.structure.OceanRuinFeature",
+            "XXX.levelgen.structure.OceanRuinFeature$Type",
+            "XXX.levelgen.structure.OceanRuinPieces$OceanRuinPiece",
+            "XXX.levelgen.structure.PillagerOutpostPieces$PillagerOutpostPiece",
+            "XXX.levelgen.structure.ScatteredFeaturePiece",
+            "XXX.levelgen.structure.ShipwreckPieces$ShipwreckPiece",
+            "XXX.levelgen.structure.StrongholdPieces$1",
+            "XXX.levelgen.structure.StrongholdPieces$3",
+            "XXX.levelgen.structure.StrongholdPieces$FillerCorridor",
+            "XXX.levelgen.structure.StrongholdPieces$LeftTurn",
+            "XXX.levelgen.structure.StrongholdPieces$PieceWeight",
+            "XXX.levelgen.structure.StrongholdPieces$PrisonHall",
+            "XXX.levelgen.structure.StrongholdPieces$RoomCrossing",
+            "XXX.levelgen.structure.StrongholdPieces$StairsDown",
+            "XXX.levelgen.structure.StrongholdPieces$Straight",
+            "XXX.levelgen.structure.StrongholdPieces$StrongholdPiece",
+            "XXX.levelgen.structure.StrongholdPieces$Turn",
+            "XXX.levelgen.structure.StructureFeatureIndexSavedData",
+            "XXX.levelgen.structure.StructurePiece$1",
+            "XXX.levelgen.structure.StructureStart",
+            "XXX.levelgen.structure.SwamplandHutPiece",
+            "XXX.levelgen.structure.WoodlandMansionPieces",
+            "XXX.levelgen.structure.WoodlandMansionPieces$FirstFloorRoomCollection",
+            "XXX.levelgen.structure.WoodlandMansionPieces$MansionGrid",
+            "XXX.levelgen.structure.WoodlandMansionPieces$PlacementData",
+            "XXX.levelgen.structure.WoodlandMansionPieces$SimpleGrid",
+            "XXX.levelgen.structure.WoodlandMansionPieces$WoodlandMansionPiece",
+            "XXX.structure.templatesystem.AlwaysTrueTest",
+            "XXX.structure.templatesystem.BlockIgnoreProcessor",
+            "XXX.structure.templatesystem.BlockRotProcessor",
+            "XXX.structure.templatesystem.GravityProcessor",
+            "XXX.structure.templatesystem.LinearPosTest",
+            "XXX.structure.templatesystem.PosAlwaysTrueTest",
+            "XXX.structure.templatesystem.PosRuleTestType",
+            "XXX.structure.templatesystem.RandomBlockMatchTest",
+            "XXX.structure.templatesystem.RuleProcessor",
+            "XXX.structure.templatesystem.RuleTestType",
+            "XXX.structure.templatesystem.StructurePlaceSettings",
+            "XXX.structure.templatesystem.StructureProcessorType",
+            "XXX.structure.templatesystem.StructureTemplate$1",
+            "XXX.levelgen.surfacebuilders.DefaultSurfaceBuilder",
+            "XXX.levelgen.surfacebuilders.FrozenOceanSurfaceBuilder",
+            "XXX.levelgen.surfacebuilders.GravellyMountainSurfaceBuilder"
+          ],
+          "removed": [
+            "XXX.minecraft.core.BlockPos$4",
+            "XXX.minecraft.core.BlockSource",
+            "XXX.minecraft.core.Cursor3D",
+            "XXX.minecraft.core.Direction",
+            "XXX.minecraft.core.Direction$Axis",
+            "XXX.minecraft.core.Direction$Axis$2",
+            "XXX.minecraft.core.Direction$AxisDirection",
+            "XXX.minecraft.core.Direction8",
+            "XXX.minecraft.core.GlobalPos",
+            "XXX.minecraft.core.IdMapper",
+            "XXX.minecraft.core.Location",
+            "XXX.minecraft.core.MappedRegistry",
+            "XXX.minecraft.core.Position",
+            "XXX.minecraft.core.Registry",
+            "XXX.minecraft.core.SectionPos",
+            "XXX.minecraft.core.SerializableBoolean",
+            "XXX.minecraft.core.SerializableUUID",
+            "XXX.minecraft.core.Vec3i",
+            "XXX.core.dispenser.AbstractProjectileDispenseBehavior",
+            "XXX.core.dispenser.DefaultDispenseItemBehavior",
+            "XXX.core.dispenser.DispenseItemBehavior$1",
+            "XXX.core.dispenser.DispenseItemBehavior$11",
+            "XXX.core.dispenser.DispenseItemBehavior$13",
+            "XXX.core.dispenser.DispenseItemBehavior$15",
+            "XXX.core.dispenser.DispenseItemBehavior$17",
+            "XXX.core.dispenser.DispenseItemBehavior$19",
+            "XXX.core.dispenser.DispenseItemBehavior$20",
+            "XXX.core.dispenser.DispenseItemBehavior$22",
+            "XXX.core.dispenser.DispenseItemBehavior$24",
+            "XXX.core.dispenser.DispenseItemBehavior$3",
+            "XXX.core.dispenser.DispenseItemBehavior$5",
+            "XXX.core.dispenser.DispenseItemBehavior$7",
+            "XXX.core.dispenser.DispenseItemBehavior$8",
+            "XXX.core.dispenser.DispenseItemBehavior$9",
+            "XXX.core.dispenser.ShearsDispenseItemBehavior",
+            "XXX.data.tags.TagsProvider$1",
+            "XXX.minecraft.tags.Tag$ElementEntry",
+            "XXX.minecraft.tags.Tag$Named",
+            "XXX.world.entity.ItemSteerable",
+            "XXX.world.entity.Saddleable",
+            "XXX.animal.horse.Mule",
+            "XXX.animal.horse.SkeletonTrapGoal",
+            "XXX.animal.horse.TraderLlama$TraderLlamaDefendWanderingTraderGoal",
+            "XXX.world.item.Vanishable",
+            "XXX.world.item.Wearable",
+            "XXX.level.biome.BasaltDeltasBiome",
+            "XXX.level.biome.Biome",
+            "XXX.level.biome.Biome$BiomeBuilder",
+            "XXX.level.biome.Biome$BiomeTempCategory",
+            "XXX.level.biome.Biome$Precipitation",
+            "XXX.level.biome.BiomeDefaultFeatures",
+            "XXX.level.biome.BiomeManager$NoiseBiomeSource",
+            "XXX.level.biome.BiomeSourceSettings",
+            "XXX.level.biome.BiomeSpecialEffects",
+            "XXX.level.biome.BiomeSpecialEffects$Builder",
+            "XXX.level.biome.Biomes",
+            "XXX.level.biome.BirchForestHillsBiome",
+            "XXX.level.biome.CheckerboardColumnBiomeSource",
+            "XXX.level.biome.CrimsonForestBiome",
+            "XXX.level.biome.DarkForestHillsBiome",
+            "XXX.level.biome.DeepFrozenOceanBiome",
+            "XXX.level.biome.DeepOceanBiome",
+            "XXX.level.biome.DesertBiome",
+            "XXX.level.biome.DesertLakesBiome",
+            "XXX.level.biome.EndHighlandsBiome",
+            "XXX.level.biome.ErodedBadlandsBiome",
+            "XXX.level.biome.FixedBiomeSourceSettings",
+            "XXX.level.biome.ForestFlowerBiome",
+            "XXX.level.biome.FrozenRiverBiome",
+            "XXX.level.biome.FuzzyOffsetConstantColumnBiomeZoomer",
+            "XXX.level.biome.GiantSpruceTaigaHillsMutatedBiome",
+            "XXX.level.biome.GiantTreeTaigaHillsBiome",
+            "XXX.level.biome.IceSpikesBiome",
+            "XXX.level.biome.JungleEdgeBiome",
+            "XXX.level.biome.LukeWarmOceanBiome",
+            "XXX.level.biome.ModifiedGravellyMountainsBiome",
+            "XXX.level.biome.ModifiedJungleEdgeBiome",
+            "XXX.level.biome.MountainBiome",
+            "XXX.level.biome.MultiNoiseBiomeSource",
+            "XXX.level.biome.MushroomFieldsBiome",
+            "XXX.level.biome.NearestNeighborBiomeZoomer",
+            "XXX.level.biome.OceanBiome",
+            "XXX.level.biome.OverworldBiomeSourceSettings",
+            "XXX.level.biome.RiverBiome",
+            "XXX.level.biome.SavannaPlateauBiome",
+            "XXX.level.biome.ShatteredSavannaPlateauBiome",
+            "XXX.level.biome.SnowyBeachBiome",
+            "XXX.level.biome.SnowyTaigaBiome",
+            "XXX.level.biome.SnowyTaigaMountainsBiome",
+            "XXX.level.biome.SoulSandValleyBiome",
+            "XXX.level.biome.SunflowerPlainsBiome",
+            "XXX.level.biome.SwampHillsBiome",
+            "XXX.level.biome.TaigaHillsBiome",
+            "XXX.level.biome.TallBirchForestBiome",
+            "XXX.level.biome.TheEndBiome",
+            "XXX.level.biome.TheEndBiomeSourceSettings",
+            "XXX.level.biome.WarmOceanBiome",
+            "XXX.level.biome.WoodedBadlandsBiome",
+            "XXX.level.biome.WoodedMountainBiome",
+            "XXX.level.block.AbstractBannerBlock",
+            "XXX.level.block.AbstractFurnaceBlock",
+            "XXX.level.block.AbstractSkullBlock",
+            "XXX.level.block.AnvilBlock",
+            "XXX.level.block.BambooBlock",
+            "XXX.level.block.BannerBlock",
+            "XXX.level.block.BarrierBlock",
+            "XXX.level.block.BaseCoralPlantBlock",
+            "XXX.level.block.BaseCoralWallFanBlock",
+            "XXX.level.block.BaseFireBlock",
+            "XXX.level.block.BaseRailBlock",
+            "XXX.level.block.BeaconBlock",
+            "XXX.level.block.BedBlock$1",
+            "XXX.level.block.BeetrootBlock",
+            "XXX.level.block.BellBlock$1",
+            "XXX.level.block.Block",
+            "XXX.level.block.Block$2",
+            "XXX.level.block.Blocks",
+            "XXX.level.block.BrewingStandBlock",
+            "XXX.level.block.BucketPickup",
+            "XXX.level.block.ButtonBlock",
+            "XXX.level.block.CactusBlock",
+            "XXX.level.block.CampfireBlock",
+            "XXX.level.block.CartographyTableBlock",
+            "XXX.level.block.CauldronBlock",
+            "XXX.level.block.ChestBlock$1",
+            "XXX.level.block.ChestBlock$2$1",
+            "XXX.level.block.ChestBlock$4",
+            "XXX.level.block.ChorusPlantBlock",
+            "XXX.level.block.CocoaBlock$1",
+            "XXX.level.block.ComparatorBlock",
+            "XXX.level.block.ComposterBlock$EmptyContainer",
+            "XXX.level.block.ComposterBlock$OutputContainer",
+            "XXX.level.block.ConduitBlock",
+            "XXX.level.block.CoralFanBlock",
+            "XXX.level.block.CoralWallFanBlock",
+            "XXX.level.block.CropBlock",
+            "XXX.level.block.CrossCollisionBlock$1",
+            "XXX.level.block.DaylightDetectorBlock",
+            "XXX.level.block.DetectorRailBlock",
+            "XXX.level.block.DiodeBlock",
+            "XXX.level.block.DispenserBlock",
+            "XXX.level.block.DoorBlock$1",
+            "XXX.level.block.DoubleBlockCombiner$BlockType",
+            "XXX.level.block.DoubleBlockCombiner$NeighborCombineResult",
+            "XXX.level.block.DoubleBlockCombiner$NeighborCombineResult$Single",
+            "XXX.level.block.DragonEggBlock",
+            "XXX.level.block.EnchantmentTableBlock",
+            "XXX.level.block.EndPortalBlock",
+            "XXX.level.block.EndRodBlock",
+            "XXX.level.block.EnderChestBlock",
+            "XXX.level.block.FaceAttachedHorizontalDirectionalBlock",
+            "XXX.level.block.FallingBlock",
+            "XXX.level.block.FenceBlock",
+            "XXX.level.block.FenceGateBlock$1",
+            "XXX.level.block.FletchingTableBlock",
+            "XXX.level.block.FlowerPotBlock",
+            "XXX.level.block.FungusBlock",
+            "XXX.level.block.GlassBlock",
+            "XXX.levelgen.feature.BasaltPillarFeature",
+            "XXX.levelgen.feature.BlockPileFeature",
+            "XXX.levelgen.feature.BonusChestFeature",
+            "XXX.levelgen.feature.BuriedTreasureFeature$BuriedTreasureStart",
+            "XXX.levelgen.feature.ConfiguredFeature",
+            "XXX.levelgen.feature.CoralFeature",
+            "XXX.levelgen.feature.CoralTreeFeature",
+            "XXX.levelgen.feature.DecoratedFeature",
+            "XXX.levelgen.feature.DefaultFlowerFeature",
+            "XXX.levelgen.feature.ReplaceBlockFeature",
+            "XXX.levelgen.feature.SeaPickleFeature",
+            "XXX.levelgen.feature.ShipwreckFeature",
+            "XXX.levelgen.feature.SimpleBlockFeature",
+            "XXX.levelgen.feature.SimulatedFeature",
+            "XXX.levelgen.feature.SnowyVillagePools",
+            "XXX.levelgen.feature.SpikeFeature$1",
+            "XXX.levelgen.feature.SpikeFeature$SpikeCacheLoader",
+            "XXX.levelgen.feature.StrongholdFeature",
+            "XXX.levelgen.feature.StructureFeature",
+            "XXX.levelgen.feature.StructurePieceType",
+            "XXX.levelgen.feature.SwamplandHutFeature$FeatureStart",
+            "XXX.levelgen.feature.TreeFeature",
+            "XXX.levelgen.feature.VillageFeature",
+            "XXX.levelgen.feature.VillagePieces",
+            "XXX.levelgen.feature.VinesFeature",
+            "XXX.levelgen.feature.WeepingVinesFeature",
+            "XXX.levelgen.feature.WoodlandMansionFeature",
+            "XXX.feature.blockplacers.BlockPlacer",
+            "XXX.feature.blockplacers.ColumnPlacer",
+            "XXX.feature.blockplacers.SimpleBlockPlacer",
+            "XXX.feature.configurations.BlockBlobConfiguration",
+            "XXX.feature.configurations.BlockStateConfiguration",
+            "XXX.feature.configurations.ChanceRangeDecoratorConfiguration",
+            "XXX.feature.configurations.ColumnFeatureConfiguration$Builder",
+            "XXX.feature.configurations.CountRangeDecoratorConfiguration",
+            "XXX.feature.configurations.DecoratorConfiguration",
+            "XXX.feature.configurations.DeltaFeatureConfiguration$Builder",
+            "XXX.feature.configurations.EndGatewayConfiguration",
+            "XXX.feature.configurations.FeatureRadiusConfiguration",
+            "XXX.feature.configurations.LayerConfiguration",
+            "XXX.feature.configurations.MegaTreeConfiguration$MegaTreeConfigurationBuilder",
+            "XXX.feature.configurations.NoiseDependantDecoratorConfiguration",
+            "XXX.feature.configurations.NoneFeatureConfiguration",
+            "XXX.feature.configurations.OreConfiguration",
+            "XXX.feature.configurations.ProbabilityFeatureConfiguration",
+            "XXX.feature.configurations.RandomFeatureConfiguration",
+            "XXX.feature.configurations.RandomPatchConfiguration$1",
+            "XXX.feature.configurations.RandomRandomFeatureConfiguration",
+            "XXX.feature.configurations.ReplaceSpheroidConfiguration",
+            "XXX.feature.configurations.SeagrassFeatureConfiguration",
+            "XXX.feature.configurations.SimpleBlockConfiguration",
+            "XXX.feature.configurations.SmallTreeConfiguration",
+            "XXX.feature.configurations.SpikeConfiguration",
+            "XXX.feature.configurations.TreeConfiguration",
+            "XXX.feature.configurations.VillageConfiguration",
+            "XXX.feature.foliageplacers.AcaciaFoliagePlacer",
+            "XXX.feature.foliageplacers.FoliagePlacer",
+            "XXX.feature.foliageplacers.PineFoliagePlacer",
+            "XXX.feature.foliageplacers.package-info",
+            "XXX.feature.stateproviders.BlockStateProvider",
+            "XXX.feature.stateproviders.ForestFlowerProvider",
+            "XXX.feature.stateproviders.RotatedBlockProvider",
+            "XXX.feature.stateproviders.WeightedStateProvider",
+            "XXX.feature.structures.EmptyPoolElement",
+            "XXX.feature.structures.JigsawJunction",
+            "XXX.feature.structures.JigsawPlacement$1",
+            "XXX.feature.structures.JigsawPlacement$PieceState",
+            "XXX.feature.structures.ListPoolElement",
+            "XXX.feature.structures.StructurePoolElement",
+            "XXX.feature.structures.StructureTemplatePool",
+            "XXX.feature.structures.StructureTemplatePools",
+            "XXX.feature.treedecorators.AlterGroundDecorator",
+            "XXX.feature.treedecorators.CocoaDecorator",
+            "XXX.feature.treedecorators.TreeDecorator",
+            "XXX.feature.treedecorators.TrunkVineDecorator",
+            "XXX.feature.trunkplacers.ForkingTrunkPlacer",
+            "XXX.feature.trunkplacers.TrunkPlacer",
+            "XXX.feature.trunkplacers.package-info",
+            "XXX.levelgen.flat.FlatLevelGeneratorSettings",
+            "XXX.level.levelgen.package-info",
+            "XXX.levelgen.placement.CarvingMaskDecoratorConfiguration",
+            "XXX.levelgen.placement.ChanceHeightmapDecorator",
+            "XXX.levelgen.placement.ChancePassthroughDecorator",
+            "XXX.levelgen.placement.ChorusPlantPlacementDecorator",
+            "XXX.levelgen.placement.CountBiasedRangeDecorator",
+            "XXX.levelgen.placement.CountChanceHeightmapDoubleDecorator",
+            "XXX.levelgen.placement.CountHeighmapDoubleDecorator",
+            "XXX.levelgen.placement.CountHeightmap32Decorator",
+            "XXX.levelgen.placement.CountTopSolidDecorator",
+            "XXX.levelgen.placement.CountWithExtraChanceHeightmapDecorator",
+            "XXX.levelgen.placement.DepthAverageConfigation",
+            "XXX.levelgen.placement.EndGatewayPlacementDecorator",
+            "XXX.levelgen.placement.FeatureDecorator",
+            "XXX.levelgen.placement.FrequencyChanceDecoratorConfiguration",
+            "XXX.levelgen.placement.FrequencyWithExtraChanceDecoratorConfiguration",
+            "XXX.levelgen.placement.LakeLavaPlacementDecorator",
+            "XXX.levelgen.placement.MonsterRoomPlacementDecorator",
+            "XXX.levelgen.placement.NoiseHeightmap32Decorator",
+            "XXX.levelgen.placement.NopePlacementDecorator",
+            "XXX.levelgen.placement.SimpleFeatureDecorator",
+            "XXX.levelgen.placement.TopSolidHeightMapNoiseBasedDecorator",
+            "XXX.placement.nether.ChanceRangeDecorator",
+            "XXX.placement.nether.FireDecorator",
+            "XXX.placement.nether.MagmaDecorator",
+            "XXX.placement.nether.package-info",
+            "XXX.levelgen.structure.BeardedStructureStart",
+            "XXX.levelgen.structure.BoundingBox$1",
+            "XXX.levelgen.structure.BuriedTreasurePieces$BuriedTreasurePiece",
+            "XXX.levelgen.structure.EndCityPieces",
+            "XXX.levelgen.structure.EndCityPieces$2",
+            "XXX.levelgen.structure.EndCityPieces$4",
+            "XXX.levelgen.structure.EndCityPieces$SectionGenerator",
+            "XXX.levelgen.structure.IglooPieces$IglooPiece",
+            "XXX.levelgen.structure.JunglePyramidPiece$1",
+            "XXX.levelgen.structure.LegacyStructureDataHandler",
+            "XXX.levelgen.structure.MineShaftPieces$1",
+            "XXX.levelgen.structure.MineShaftPieces$MineShaftCrossing",
+            "XXX.levelgen.structure.MineShaftPieces$MineShaftRoom",
+            "XXX.levelgen.structure.NetherBridgePieces",
+            "XXX.levelgen.structure.NetherBridgePieces$BridgeCrossing",
+            "XXX.levelgen.structure.NetherBridgePieces$BridgeStraight",
+            "XXX.levelgen.structure.NetherBridgePieces$CastleCorridorTBalconyPiece",
+            "XXX.levelgen.structure.NetherBridgePieces$CastleSmallCorridorCrossingPiece",
+            "XXX.levelgen.structure.NetherBridgePieces$CastleSmallCorridorPiece",
+            "XXX.levelgen.structure.NetherBridgePieces$CastleStalkRoom",
+            "XXX.levelgen.structure.NetherBridgePieces$NetherBridgePiece",
+            "XXX.levelgen.structure.NetherBridgePieces$RoomCrossing",
+            "XXX.levelgen.structure.NetherBridgePieces$StartPiece",
+            "XXX.levelgen.structure.NetherFossilFeature$FeatureStart",
+            "XXX.levelgen.structure.NetherFossilPieces$NetherFossilPiece",
+            "XXX.levelgen.structure.OceanMonumentPieces$1",
+            "XXX.levelgen.structure.OceanMonumentPieces$FitDoubleXYRoom",
+            "XXX.levelgen.structure.OceanMonumentPieces$FitDoubleYZRoom",
+            "XXX.levelgen.structure.OceanMonumentPieces$FitSimpleRoom",
+            "XXX.levelgen.structure.OceanMonumentPieces$MonumentBuilding",
+            "XXX.levelgen.structure.OceanMonumentPieces$OceanMonumentCoreRoom",
+            "XXX.levelgen.structure.OceanMonumentPieces$OceanMonumentDoubleXYRoom",
+            "XXX.levelgen.structure.OceanMonumentPieces$OceanMonumentDoubleYZRoom",
+            "XXX.levelgen.structure.OceanMonumentPieces$OceanMonumentEntryRoom",
+            "XXX.levelgen.structure.OceanMonumentPieces$OceanMonumentPiece",
+            "XXX.levelgen.structure.OceanMonumentPieces$OceanMonumentSimpleTopRoom",
+            "XXX.levelgen.structure.OceanMonumentPieces$RoomDefinition",
+            "XXX.levelgen.structure.OceanRuinFeature$OceanRuinStart",
+            "XXX.levelgen.structure.OceanRuinPieces",
+            "XXX.levelgen.structure.PillagerOutpostPieces",
+            "XXX.levelgen.structure.PoolElementStructurePiece",
+            "XXX.levelgen.structure.ShipwreckPieces",
+            "XXX.levelgen.structure.StrongholdPieces",
+            "XXX.levelgen.structure.StrongholdPieces$2",
+            "XXX.levelgen.structure.StrongholdPieces$ChestCorridor",
+            "XXX.levelgen.structure.StrongholdPieces$FiveCrossing",
+            "XXX.levelgen.structure.StrongholdPieces$Library",
+            "XXX.levelgen.structure.StrongholdPieces$PortalRoom",
+            "XXX.levelgen.structure.StrongholdPieces$RightTurn",
+            "XXX.levelgen.structure.StrongholdPieces$SmoothStoneSelector",
+            "XXX.levelgen.structure.StrongholdPieces$StartPiece",
+            "XXX.levelgen.structure.StrongholdPieces$StraightStairsDown",
+            "XXX.levelgen.structure.StrongholdPieces$StrongholdPiece$SmallDoorType",
+            "XXX.levelgen.structure.StructureFeatureIO",
+            "XXX.levelgen.structure.StructurePiece",
+            "XXX.levelgen.structure.StructurePiece$BlockSelector",
+            "XXX.levelgen.structure.StructureStart$1",
+            "XXX.levelgen.structure.TemplateStructurePiece",
+            "XXX.levelgen.structure.WoodlandMansionPieces$1",
+            "XXX.levelgen.structure.WoodlandMansionPieces$FloorRoomCollection",
+            "XXX.levelgen.structure.WoodlandMansionPieces$MansionPiecePlacer",
+            "XXX.levelgen.structure.WoodlandMansionPieces$SecondFloorRoomCollection",
+            "XXX.levelgen.structure.WoodlandMansionPieces$ThirdFloorRoomCollection",
+            "XXX.levelgen.structure.package-info",
+            "XXX.structure.templatesystem.AxisAlignedLinearPosTest",
+            "XXX.structure.templatesystem.BlockMatchTest",
+            "XXX.structure.templatesystem.BlockStateMatchTest",
+            "XXX.structure.templatesystem.JigsawReplacementProcessor",
+            "XXX.structure.templatesystem.NopProcessor",
+            "XXX.structure.templatesystem.PosRuleTest",
+            "XXX.structure.templatesystem.ProcessorRule",
+            "XXX.structure.templatesystem.RandomBlockStateMatchTest",
+            "XXX.structure.templatesystem.RuleTest",
+            "XXX.structure.templatesystem.StructureManager",
+            "XXX.structure.templatesystem.StructureProcessor",
+            "XXX.structure.templatesystem.StructureTemplate",
+            "XXX.structure.templatesystem.StructureTemplate$Palette",
+            "XXX.levelgen.surfacebuilders.ConfiguredSurfaceBuilder",
+            "XXX.levelgen.surfacebuilders.ErodedBadlandsSurfaceBuilder",
+            "XXX.levelgen.surfacebuilders.GiantTreeTaigaSurfaceBuilder",
+            "XXX.levelgen.surfacebuilders.MountainSurfaceBuilder"
+          ]
+        }
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "Changes",
+        "lines": [
+          "XXX.minecraft.core.BlockPos \u001b[2;32m+4M\u001b[0m \u001b[2;31m-2M\u001b[0m",
+          "XXX.minecraft.core.BlockPos$2 \u001b[2;32m+1M\u001b[0m \u001b[2;31m-1M\u001b[0m | \u001b[2;32m+13P\u001b[0m \u001b[2;31m-7P\u001b[0m",
+          "XXX.data.loot.BlockLoot \u001b[2;32m+3M\u001b[0m \u001b[2;31m-1M\u001b[0m",
+          "XXX.data.models.BlockModelGenerators \u001b[2;32m+1M\u001b[0m \u001b[2;31m-1M\u001b[0m",
+          "XXX.models.model.ModelTemplates \u001b[2;32m+1P\u001b[0m",
+          "XXX.models.model.TextureSlot \u001b[2;32m+1P\u001b[0m",
+          "XXX.minecraft.sounds.SoundEvents \u001b[2;32m+9P\u001b[0m \u001b[2;31m-1P\u001b[0m",
+          "XXX.minecraft.tags.BlockTags \u001b[2;32m+1M\u001b[0m | \u001b[2;32m+2P\u001b[0m",
+          "XXX.minecraft.tags.FluidTags \u001b[2;32m+1M\u001b[0m",
+          "XXX.minecraft.tags.StaticTagHelper \u001b[2;32m+4M\u001b[0m \u001b[2;31m-1M\u001b[0m | \u001b[2;32m+1P\u001b[0m",
+          "XXX.minecraft.tags.StaticTagHelper$Wrapper \u001b[2;32m+1M\u001b[0m \u001b[2;31m-1M\u001b[0m",
+          "XXX.minecraft.tags.Tag$Builder \u001b[2;32m+7M\u001b[0m \u001b[2;31m-5M\u001b[0m | \u001b[2;32m+1P\u001b[0m \u001b[2;31m-1P\u001b[0m",
+          "XXX.minecraft.tags.TagCollection \u001b[2;32m+1M\u001b[0m",
+          "XXX.entity.ai.Brain \u001b[2;32m+6M\u001b[0m \u001b[2;31m-27M\u001b[0m",
+          "XXX.entity.animal.MushroomCow \u001b[2;32m+2M\u001b[0m",
+          "XXX.entity.animal.Pig \u001b[2;32m+3M\u001b[0m \u001b[2;31m-2M\u001b[0m",
+          "XXX.animal.horse.AbstractHorse \u001b[2;32m+5M\u001b[0m \u001b[2;31m-4M\u001b[0m",
+          "XXX.animal.horse.Horse \u001b[2;32m+7M\u001b[0m \u001b[2;31m-9M\u001b[0m | \u001b[2;31m-6P\u001b[0m",
+          "XXX.animal.horse.Llama \u001b[2;32m+4M\u001b[0m \u001b[2;31m-3M\u001b[0m",
+          "XXX.entity.monster.Monster \u001b[2;32m+1M\u001b[0m",
+          "XXX.entity.monster.Zoglin \u001b[2;32m+1M\u001b[0m",
+          "XXX.monster.hoglin.Hoglin \u001b[2;32m+1M\u001b[0m",
+          "XXX.entity.schedule.Activity \u001b[2;32m+2M\u001b[0m | \u001b[2;32m+1P\u001b[0m",
+          "XXX.world.item.SpawnEggItem \u001b[2;32m+1M\u001b[0m \u001b[2;31m-1M\u001b[0m",
+          "XXX.item.enchantment.EnchantmentCategory$14 \u001b[2;31m-2M\u001b[0m",
+          "XXX.world.level.CollisionGetter$1 \u001b[2;32m+1M\u001b[0m \u001b[2;31m-1M\u001b[0m | \u001b[2;32m+3P\u001b[0m \u001b[2;31m-2P\u001b[0m",
+          "XXX.block.entity.BannerPattern \u001b[2;32m+1P\u001b[0m",
+          "XXX.block.entity.ShulkerBoxBlockEntity \u001b[2;32m+1M\u001b[0m",
+          "XXX.levelgen.feature.Feature \u001b[2;32m+3P\u001b[0m",
+          "XXX.levelgen.surfacebuilders.SoulSandValleySurfaceBuilder \u001b[2;32m+3M\u001b[0m \u001b[2;31m-3M\u001b[0m | \u001b[2;32m+1P\u001b[0m \u001b[2;31m-6P\u001b[0m",
+          "XXX.level.pathfinder.WalkNodeEvaluator \u001b[2;32m+5M\u001b[0m \u001b[2;31m-3M\u001b[0m"
+        ]
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.core.BlockPos",
+        "differences": {
+          "added": [
+            "Iterator lambda$betweenClosed$4(int,int,int,int,int,int)",
+            "Iterator lambda$withinManhattan$3(int,int,int,int,int,int,int)"
+          ],
+          "removed": [
+            "Iterable randomBetweenClosed(Random,int,int,int,int,int,int,int)",
+            "Iterator lambda$betweenClosed$5(int,int,int,int,int,int)",
+            "Iterator lambda$withinManhattan$4(int,int,int,int,int,int,int)",
+            "Iterator lambda$randomBetweenClosed$3(int,int,Random,int,int,int,int,int)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.core.BlockPos$2",
+        "differences": {
+          "added": [
+            "void <init>(int,int,int,int,int,int)"
+          ],
+          "removed": [
+            "void <init>(int,int,int,int,int,int,int)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.data.loot.BlockLoot",
+        "differences": {
+          "added": [
+            "LootTable$Builder lambda$dropPottedContents$69(Block)"
+          ],
+          "removed": [
+            "LootTable$Builder lambda$dropPottedContents$71(Block)",
+            "LootTable$Builder lambda$accept$70(Block)",
+            "LootTable$Builder lambda$accept$69(Block)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.data.models.BlockModelGenerators",
+        "differences": {
+          "added": [
+            "void createCampfire()"
+          ],
+          "removed": [
+            "void createCampfires(Block[])"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.tags.BlockTags",
+        "differences": {
+          "added": [],
+          "removed": [
+            "void resetToEmpty()"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.tags.FluidTags",
+        "differences": {
+          "added": [],
+          "removed": [
+            "void resetToEmpty()"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.tags.StaticTagHelper",
+        "differences": {
+          "added": [
+            "void lambda$reset$1(TagCollection,StaticTagHelper$Wrapper)"
+          ],
+          "removed": [
+            "void resetToEmpty()",
+            "void lambda$reset$3(TagCollection,StaticTagHelper$Wrapper)",
+            "void lambda$resetToEmpty$2(Tag,StaticTagHelper$Wrapper)",
+            "Tag lambda$null$1(Tag,ResourceLocation)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.tags.StaticTagHelper$Wrapper",
+        "differences": {
+          "added": [
+            "void rebind(TagCollection)"
+          ],
+          "removed": [
+            "void rebind(Function)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.tags.Tag$Builder",
+        "differences": {
+          "added": [
+            "Tag$Builder add(Tag$Entry)",
+            "Tag$Builder addElement(ResourceLocation)",
+            "Tag$Builder addTag(ResourceLocation)",
+            "Tag$Builder addFromJson(JsonObject)",
+            "boolean lambda$getUnresolvedEntries$1(Function,Function,Tag$Entry)"
+          ],
+          "removed": [
+            "Tag$Builder add(Tag$BuilderEntry)",
+            "Tag$Builder add(Tag$Entry,String)",
+            "Tag$Builder addElement(ResourceLocation,String)",
+            "Tag$Builder addTag(ResourceLocation,String)",
+            "Tag$Builder addFromJson(JsonObject,String)",
+            "void lambda$addFromJson$2(String,Tag$Entry)",
+            "boolean lambda$getUnresolvedEntries$1(Function,Function,Tag$BuilderEntry)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.tags.TagCollection",
+        "differences": {
+          "added": [],
+          "removed": [
+            "Tag getEmptyTag()"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.entity.ai.Brain",
+        "differences": {
+          "added": [
+            "Stream getRunningBehaviorsStream()",
+            "void tickMemoryAndRemoveIfExpired(MemoryModuleType,Optional)",
+            "Pair lambda$createPriorityPairs$24(MutableInt,Behavior)",
+            "boolean lambda$activityRequirementsAreMet$23(Pair)",
+            "void lambda$tickMemoryAndRemoveIfExpired$22(MemoryModuleType,ExpirableValue)",
+            "void lambda$tickEachRunningBehavior$21(ServerLevel,LivingEntity,long,Behavior)",
+            "void lambda$startEachNonRunningBehavior$20(ServerLevel,LivingEntity,long,Behavior)",
+            "boolean lambda$startEachNonRunningBehavior$19(Behavior)",
+            "boolean lambda$startEachNonRunningBehavior$18(Map$Entry)",
+            "Stream lambda$startEachNonRunningBehavior$17(Map)",
+            "Pair lambda$serialize$16(DynamicOps,Map$Entry)",
+            "boolean lambda$serialize$15(Map$Entry)",
+            "void lambda$stopAll$14(ServerLevel,LivingEntity,long,Behavior)",
+            "void lambda$tick$13(ServerLevel,LivingEntity,Sensor)",
+            "void lambda$copyWithoutBehaviors$12(Brain,MemoryModuleType,Optional)",
+            "void lambda$null$11(Brain,MemoryModuleType,ExpirableValue)",
+            "void lambda$addActivityAndRemoveMemoriesWhenStopped$10(Activity,Pair)",
+            "Set lambda$null$9(Activity)",
+            "Map lambda$null$8(Integer)",
+            "boolean lambda$eraseMemoriesForOtherActivitesThan$7(Activity,Activity)",
+            "boolean lambda$getActiveNonCoreActivity$6(Activity)",
+            "boolean lambda$getRunningBehaviorsStream$5(Behavior)",
+            "Stream lambda$getRunningBehaviorsStream$4(Map)",
+            "boolean lambda$isMemoryValue$3(Object,Object)",
+            "void lambda$new$2(Sensor)",
+            "void lambda$new$1(SensorType)",
+            "void lambda$new$0(MemoryModuleType)"
+          ],
+          "removed": [
+            "List getRunningBehaviors()",
+            "void tickSensors(ServerLevel,LivingEntity)",
+            "void forgetOutdatedMemories()",
+            "Set lambda$addActivityAndRemoveMemoriesWhenStopped$2(Activity)",
+            "Map lambda$addActivityAndRemoveMemoriesWhenStopped$1(Integer)",
+            "boolean lambda$isMemoryValue$0(Object,Object)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.entity.animal.MushroomCow",
+        "differences": {
+          "added": [],
+          "removed": [
+            "void shear(SoundSource)",
+            "boolean readyForShearing()"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.entity.animal.Pig",
+        "differences": {
+          "added": [
+            "boolean hasSaddle()",
+            "void setSaddle(boolean)"
+          ],
+          "removed": [
+            "boolean isSaddleable()",
+            "boolean isSaddled()",
+            "void equipSaddle(SoundSource)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.entity.animal.horse.AbstractHorse",
+        "differences": {
+          "added": [
+            "void setSaddled(boolean)",
+            "void updateEquipment()",
+            "boolean canBeSaddled()",
+            "boolean wearsArmor()"
+          ],
+          "removed": [
+            "boolean isSaddleable()",
+            "void equipSaddle(SoundSource)",
+            "void updateContainerEquipment()",
+            "boolean canWearArmor()",
+            "boolean isWearingArmor()"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.entity.animal.horse.Horse",
+        "differences": {
+          "added": [
+            "void setVariant(int)",
+            "int getVariant()",
+            "void clearLayeredTextureInfo()",
+            "void rebuildLayeredTextureInfo()",
+            "String getLayeredTextureHashName()",
+            "String[] getLayeredTextureLayers()",
+            "void updateEquipment()",
+            "void tick()",
+            "boolean wearsArmor()"
+          ],
+          "removed": [
+            "void setTypeVariant(int)",
+            "int getTypeVariant()",
+            "void setVariantAndMarkings(Variant,Markings)",
+            "Variant getVariant()",
+            "Markings getMarkings()",
+            "void updateContainerEquipment()",
+            "boolean canWearArmor()"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.entity.animal.horse.Llama",
+        "differences": {
+          "added": [
+            "boolean wearsArmor()",
+            "boolean canBeSaddled()",
+            "void updateEquipment()"
+          ],
+          "removed": [
+            "boolean canWearArmor()",
+            "boolean isWearingArmor()",
+            "boolean isSaddleable()",
+            "void updateContainerEquipment()"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.entity.monster.Monster",
+        "differences": {
+          "added": [],
+          "removed": [
+            "boolean shouldDropLoot()"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.entity.monster.Zoglin",
+        "differences": {
+          "added": [],
+          "removed": [
+            "MobType getMobType()"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.entity.monster.hoglin.Hoglin",
+        "differences": {
+          "added": [],
+          "removed": [
+            "void ageBoundaryReached()"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.entity.schedule.Activity",
+        "differences": {
+          "added": [],
+          "removed": [
+            "boolean equals(Object)",
+            "int hashCode()"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.item.SpawnEggItem",
+        "differences": {
+          "added": [
+            "Optional spawnOffspringFromSpawnEgg(Player,EntityType,Level,Vec3,ItemStack)"
+          ],
+          "removed": [
+            "Optional spawnOffspringFromSpawnEgg(Player,Mob,EntityType,Level,Vec3,ItemStack)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.item.enchantment.EnchantmentCategory$14",
+        "differences": {
+          "added": [
+            "boolean lambda$canEnchant$1(Item,EnchantmentCategory)",
+            "boolean lambda$canEnchant$0(EnchantmentCategory)"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.level.CollisionGetter$1",
+        "differences": {
+          "added": [
+            "void <init>(CollisionGetter,long,int,Entity,Cursor3D,BlockPos$MutableBlockPos,CollisionContext,VoxelShape)"
+          ],
+          "removed": [
+            "void <init>(CollisionGetter,long,int,Entity,Cursor3D,BlockPos$MutableBlockPos,CollisionContext,AABB,VoxelShape)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.level.block.entity.ShulkerBoxBlockEntity",
+        "differences": {
+          "added": [],
+          "removed": [
+            "boolean isClosed()"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.level.levelgen.surfacebuilders.SoulSandValleySurfaceBuilder",
+        "differences": {
+          "added": [
+            "void apply(Random,ChunkAccess,Biome,int,int,int,double,BlockState,BlockState,int,long,SurfaceBuilderBaseConfiguration)",
+            "void initNoise(long)",
+            "void apply(Random,ChunkAccess,Biome,int,int,int,double,BlockState,BlockState,int,long,SurfaceBuilderConfiguration)"
+          ],
+          "removed": [
+            "ImmutableList getFloorBlockStates()",
+            "ImmutableList getCeilingBlockStates()",
+            "BlockState getPatchBlockState()"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.level.pathfinder.WalkNodeEvaluator",
+        "differences": {
+          "added": [
+            "BlockPathTypes getBlockPathTypeStatic(BlockGetter,int,int,int)",
+            "BlockPathTypes checkNeighbourBlocks(BlockGetter,int,int,int,BlockPathTypes)",
+            "BlockPathTypes getBlockPathTypeRaw(BlockGetter,int,int,int)"
+          ],
+          "removed": [
+            "boolean hasPositiveMalus(BlockPos)",
+            "BlockPathTypes getBlockPathTypeStatic(BlockGetter,BlockPos$MutableBlockPos)",
+            "BlockPathTypes checkNeighbourBlocks(BlockGetter,BlockPos$MutableBlockPos,BlockPathTypes)",
+            "BlockPathTypes getBlockPathTypeRaw(BlockGetter,BlockPos)",
+            "boolean isBurningBlock(BlockState)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "title",
+      "value": {
+        "title": "Client",
+        "id": "client-mappings",
+        "size": 2
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "Classes",
+        "differences": {
+          "added": [
+            "XXX.entity.layers.HumanoidArmorLayer$1",
+            "XXX.entity.layers.IronGolemFlowerLayer",
+            "XXX.entity.layers.LlamaDecorLayer",
+            "XXX.entity.layers.PandaHoldsItemLayer",
+            "XXX.entity.layers.PhantomEyesLayer",
+            "XXX.entity.layers.RenderLayer",
+            "XXX.entity.layers.SheepFurLayer",
+            "XXX.entity.layers.SlimeOuterLayer",
+            "XXX.entity.layers.SpiderEyesLayer",
+            "XXX.entity.layers.StrayClothingLayer",
+            "XXX.entity.layers.TropicalFishPatternLayer",
+            "XXX.entity.layers.WitchItemLayer",
+            "XXX.entity.layers.WolfCollarLayer",
+            "XXX.renderer.entity.package-info",
+            "XXX.entity.player.package-info",
+            "XXX.renderer.texture.AbstractTexture",
+            "XXX.renderer.texture.DynamicTexture",
+            "XXX.renderer.texture.LayeredTexture",
+            "XXX.minecraft.core.BlockPos$MutableBlockPos",
+            "XXX.minecraft.core.BlockSourceImpl",
+            "XXX.minecraft.core.DefaultedRegistry",
+            "XXX.minecraft.core.Direction$1",
+            "XXX.minecraft.core.Direction$Axis$1",
+            "XXX.minecraft.core.Direction$Axis$3",
+            "XXX.minecraft.core.Direction$Plane",
+            "XXX.minecraft.core.FrontAndTop",
+            "XXX.minecraft.core.IdMap",
+            "XXX.minecraft.core.LocatableSource",
+            "XXX.minecraft.core.MapFiller",
+            "XXX.minecraft.core.NonNullList",
+            "XXX.minecraft.core.PositionImpl",
+            "XXX.minecraft.core.Rotations",
+            "XXX.minecraft.core.SectionPos$1",
+            "XXX.minecraft.core.SerializableLong",
+            "XXX.minecraft.core.Source",
+            "XXX.minecraft.core.WritableRegistry",
+            "XXX.core.dispenser.BoatDispenseItemBehavior",
+            "XXX.core.dispenser.DispenseItemBehavior",
+            "XXX.core.dispenser.DispenseItemBehavior$10",
+            "XXX.core.dispenser.DispenseItemBehavior$12",
+            "XXX.core.dispenser.DispenseItemBehavior$14",
+            "XXX.core.dispenser.DispenseItemBehavior$16",
+            "XXX.core.dispenser.DispenseItemBehavior$18",
+            "XXX.core.dispenser.DispenseItemBehavior$2",
+            "XXX.core.dispenser.DispenseItemBehavior$21",
+            "XXX.core.dispenser.DispenseItemBehavior$23",
+            "XXX.core.dispenser.DispenseItemBehavior$4",
+            "XXX.core.dispenser.DispenseItemBehavior$6",
+            "XXX.core.dispenser.DispenseItemBehavior$7$1",
+            "XXX.core.dispenser.DispenseItemBehavior$8$1",
+            "XXX.core.dispenser.OptionalDispenseItemBehavior",
+            "XXX.minecraft.tags.Tag$Entry",
+            "XXX.minecraft.tags.Tag$TagEntry",
+            "XXX.world.entity.ItemSteerableMount",
+            "XXX.animal.horse.SkeletonHorse",
+            "XXX.animal.horse.TraderLlama",
+            "XXX.world.item.WaterLilyBlockItem",
+            "XXX.level.biome.BeachBiome",
+            "XXX.level.biome.Biome$1",
+            "XXX.level.biome.Biome$BiomeCategory",
+            "XXX.level.biome.Biome$ClimateParameters",
+            "XXX.level.biome.Biome$SpawnerData",
+            "XXX.level.biome.BiomeManager",
+            "XXX.level.biome.BiomeSource",
+            "XXX.level.biome.BiomeSourceType",
+            "XXX.level.biome.BiomeSpecialEffects$1",
+            "XXX.level.biome.BiomeZoomer",
+            "XXX.level.biome.BirchForestBiome",
+            "XXX.level.biome.CheckerboardBiomeSourceSettings",
+            "XXX.level.biome.ColdOceanBiome",
+            "XXX.level.biome.DarkForestBiome",
+            "XXX.level.biome.DeepColdOceanBiome",
+            "XXX.level.biome.DeepLukeWarmOceanBiome",
+            "XXX.level.biome.DeepWarmOceanBiome",
+            "XXX.level.biome.DesertHillsBiome",
+            "XXX.level.biome.EndBarrensBiome",
+            "XXX.level.biome.EndMidlandsBiome",
+            "XXX.level.biome.FixedBiomeSource",
+            "XXX.level.biome.ForestBiome",
+            "XXX.level.biome.FrozenOceanBiome",
+            "XXX.level.biome.FuzzyOffsetBiomeZoomer",
+            "XXX.level.biome.GiantSpruceTaigaBiome",
+            "XXX.level.biome.GiantTreeTaigaBiome",
+            "XXX.level.biome.GravellyMountainsBiome",
+            "XXX.level.biome.JungleBiome",
+            "XXX.level.biome.JungleHillsBiome",
+            "XXX.level.biome.ModifiedBadlandsPlateauBiome",
+            "XXX.level.biome.ModifiedJungleBiome",
+            "XXX.level.biome.ModifiedWoodedBadlandsPlateauBiome",
+            "XXX.level.biome.MountainEdgeBiome",
+            "XXX.level.biome.MultiNoiseBiomeSourceSettings",
+            "XXX.level.biome.MushroomFieldsShoreBiome",
+            "XXX.level.biome.NetherWastesBiome",
+            "XXX.level.biome.OverworldBiomeSource",
+            "XXX.level.biome.PlainsBiome",
+            "XXX.level.biome.SavannaBiome",
+            "XXX.level.biome.ShatteredSavannaBiome",
+            "XXX.level.biome.SmallEndIslandsBiome",
+            "XXX.level.biome.SnowyMountainsBiome",
+            "XXX.level.biome.SnowyTaigaHillsBiome",
+            "XXX.level.biome.SnowyTundraBiome",
+            "XXX.level.biome.StoneShoreBiome",
+            "XXX.level.biome.SwampBiome",
+            "XXX.level.biome.TaigaBiome",
+            "XXX.level.biome.TaigaMountainsBiome",
+            "XXX.level.biome.TallBirchHillsBiome",
+            "XXX.level.biome.TheEndBiomeSource",
+            "XXX.level.biome.TheVoidBiome",
+            "XXX.level.biome.WarpedForestBiome",
+            "XXX.level.biome.WoodedHillsBiome",
+            "XXX.level.biome.package-info",
+            "XXX.level.block.AbstractChestBlock",
+            "XXX.level.block.AbstractGlassBlock",
+            "XXX.level.block.AirBlock",
+            "XXX.level.block.AttachedStemBlock",
+            "XXX.level.block.BambooSaplingBlock",
+            "XXX.level.block.BarrelBlock",
+            "XXX.level.block.BaseCoralFanBlock",
+            "XXX.level.block.BaseCoralPlantTypeBlock",
+            "XXX.level.block.BaseEntityBlock",
+            "XXX.level.block.BasePressurePlateBlock",
+            "XXX.level.block.BeaconBeamBlock",
+            "XXX.level.block.BedBlock",
+            "XXX.level.block.BeehiveBlock",
+            "XXX.level.block.BellBlock",
+            "XXX.level.block.BlastFurnaceBlock",
+            "XXX.level.block.Block$1",
+            "XXX.level.block.Block$BlockStatePairKey",
+            "XXX.level.block.BonemealableBlock",
+            "XXX.level.block.BubbleColumnBlock",
+            "XXX.level.block.BushBlock",
+            "XXX.level.block.ButtonBlock$1",
+            "XXX.level.block.CakeBlock",
+            "XXX.level.block.CarrotBlock",
+            "XXX.level.block.CarvedPumpkinBlock",
+            "XXX.level.block.ChestBlock",
+            "XXX.level.block.ChestBlock$2",
+            "XXX.level.block.ChestBlock$3",
+            "XXX.level.block.ChorusFlowerBlock",
+            "XXX.level.block.CocoaBlock",
+            "XXX.level.block.CommandBlock",
+            "XXX.level.block.ComposterBlock",
+            "XXX.level.block.ComposterBlock$InputContainer",
+            "XXX.level.block.ConcretePowderBlock",
+            "XXX.level.block.CoralBlock",
+            "XXX.level.block.CoralPlantBlock",
+            "XXX.level.block.CraftingTableBlock",
+            "XXX.level.block.CrossCollisionBlock",
+            "XXX.level.block.CryingObsidianBlock",
+            "XXX.level.block.DeadBushBlock",
+            "XXX.level.block.DetectorRailBlock$1",
+            "XXX.level.block.DirectionalBlock",
+            "XXX.level.block.DoorBlock",
+            "XXX.level.block.DoubleBlockCombiner",
+            "XXX.level.block.DoubleBlockCombiner$Combiner",
+            "XXX.level.block.DoubleBlockCombiner$NeighborCombineResult$Double",
+            "XXX.level.block.DoublePlantBlock",
+            "XXX.level.block.DropperBlock",
+            "XXX.level.block.EndGatewayBlock",
+            "XXX.level.block.EndPortalFrameBlock",
+            "XXX.level.block.EndRodBlock$1",
+            "XXX.level.block.EntityBlock",
+            "XXX.level.block.FaceAttachedHorizontalDirectionalBlock$1",
+            "XXX.level.block.FarmBlock",
+            "XXX.level.block.FenceGateBlock",
+            "XXX.level.block.FireBlock",
+            "XXX.level.block.FlowerBlock",
+            "XXX.level.block.FrostedIceBlock",
+            "XXX.level.block.FurnaceBlock",
+            "XXX.level.block.GlazedTerracottaBlock",
+            "XXX.levelgen.feature.BlockBlobFeature",
+            "XXX.levelgen.feature.BlueIceFeature",
+            "XXX.levelgen.feature.BuriedTreasureFeature",
+            "XXX.levelgen.feature.ChorusPlantFeature",
+            "XXX.levelgen.feature.CoralClawFeature",
+            "XXX.levelgen.feature.CoralMushroomFeature",
+            "XXX.levelgen.feature.DarkOakFeature",
+            "XXX.levelgen.feature.DecoratedFlowerFeature",
+            "XXX.levelgen.feature.SavannaVillagePools",
+            "XXX.levelgen.feature.SeagrassFeature",
+            "XXX.levelgen.feature.ShipwreckFeature$FeatureStart",
+            "XXX.levelgen.feature.SimpleRandomSelectorFeature",
+            "XXX.levelgen.feature.SnowAndFreezeFeature",
+            "XXX.levelgen.feature.SpikeFeature",
+            "XXX.levelgen.feature.SpikeFeature$EndSpike",
+            "XXX.levelgen.feature.SpringFeature",
+            "XXX.levelgen.feature.StrongholdFeature$StrongholdStart",
+            "XXX.levelgen.feature.StructureFeature$StructureStartFactory",
+            "XXX.levelgen.feature.SwamplandHutFeature",
+            "XXX.levelgen.feature.TaigaVillagePools",
+            "XXX.levelgen.feature.TwistingVinesFeature",
+            "XXX.levelgen.feature.VillageFeature$FeatureStart",
+            "XXX.levelgen.feature.VillagePieces$VillagePiece",
+            "XXX.levelgen.feature.VoidStartPlatformFeature",
+            "XXX.levelgen.feature.WeightedConfiguredFeature",
+            "XXX.levelgen.feature.WoodlandMansionFeature$WoodlandMansionStart",
+            "XXX.feature.blockplacers.BlockPlacerType",
+            "XXX.feature.blockplacers.DoublePlantPlacer",
+            "XXX.feature.blockplacers.package-info",
+            "XXX.feature.configurations.BlockPileConfiguration",
+            "XXX.feature.configurations.BuriedTreasureConfiguration",
+            "XXX.feature.configurations.CountFeatureConfiguration",
+            "XXX.feature.configurations.DecoratedFeatureConfiguration",
+            "XXX.feature.configurations.DiskConfiguration",
+            "XXX.feature.configurations.FeatureConfiguration",
+            "XXX.feature.configurations.HugeMushroomFeatureConfiguration",
+            "XXX.feature.configurations.MegaTreeConfiguration",
+            "XXX.feature.configurations.MineshaftConfiguration",
+            "XXX.feature.configurations.NoneDecoratorConfiguration",
+            "XXX.feature.configurations.OceanRuinConfiguration",
+            "XXX.feature.configurations.OreConfiguration$Predicates",
+            "XXX.feature.configurations.RandomBooleanFeatureConfiguration",
+            "XXX.feature.configurations.RandomPatchConfiguration",
+            "XXX.feature.configurations.RandomPatchConfiguration$GrassConfigurationBuilder",
+            "XXX.feature.configurations.ReplaceBlockConfiguration",
+            "XXX.feature.configurations.ShipwreckConfiguration",
+            "XXX.feature.configurations.SimpleRandomFeatureConfiguration",
+            "XXX.feature.configurations.SmallTreeConfiguration$SmallTreeConfigurationBuilder",
+            "XXX.feature.configurations.SpringConfiguration",
+            "XXX.feature.configurations.TreeConfiguration$TreeConfigurationBuilder",
+            "XXX.feature.configurations.package-info",
+            "XXX.feature.foliageplacers.BlobFoliagePlacer",
+            "XXX.feature.foliageplacers.FoliagePlacerType",
+            "XXX.feature.foliageplacers.SpruceFoliagePlacer",
+            "XXX.levelgen.feature.package-info",
+            "XXX.feature.stateproviders.BlockStateProviderType",
+            "XXX.feature.stateproviders.PlainFlowerProvider",
+            "XXX.feature.stateproviders.SimpleStateProvider",
+            "XXX.feature.stateproviders.package-info",
+            "XXX.feature.structures.FeaturePoolElement",
+            "XXX.feature.structures.JigsawPlacement",
+            "XXX.feature.structures.JigsawPlacement$PieceFactory",
+            "XXX.feature.structures.JigsawPlacement$Placer",
+            "XXX.feature.structures.SinglePoolElement",
+            "XXX.feature.structures.StructurePoolElementType",
+            "XXX.feature.structures.StructureTemplatePool$Projection",
+            "XXX.feature.structures.package-info",
+            "XXX.feature.treedecorators.BeehiveDecorator",
+            "XXX.feature.treedecorators.LeaveVineDecorator",
+            "XXX.feature.treedecorators.TreeDecoratorType",
+            "XXX.feature.treedecorators.package-info",
+            "XXX.feature.trunkplacers.StraightTrunkPlacer",
+            "XXX.feature.trunkplacers.TrunkPlacerType",
+            "XXX.levelgen.flat.FlatLayerInfo",
+            "XXX.levelgen.flat.package-info",
+            "XXX.levelgen.placement.CarvingMaskDecorator",
+            "XXX.levelgen.placement.ChanceDecoratorConfiguration",
+            "XXX.levelgen.placement.ChanceHeightmapDoubleDecorator",
+            "XXX.levelgen.placement.ChanceTopSolidHeightmapDecorator",
+            "XXX.levelgen.placement.ConfiguredDecorator",
+            "XXX.levelgen.placement.CountChanceHeightmapDecorator",
+            "XXX.levelgen.placement.CountDepthAverageDecorator",
+            "XXX.levelgen.placement.CountHeight64Decorator",
+            "XXX.levelgen.placement.CountHeightmapDecorator",
+            "XXX.levelgen.placement.CountVeryBiasedRangeDecorator",
+            "XXX.levelgen.placement.DarkOakTreePlacementDecorator",
+            "XXX.levelgen.placement.EmeraldPlacementDecorator",
+            "XXX.levelgen.placement.EndIslandPlacementDecorator",
+            "XXX.levelgen.placement.ForestRockPlacementDecorator",
+            "XXX.levelgen.placement.FrequencyDecoratorConfiguration",
+            "XXX.levelgen.placement.IcebergPlacementDecorator",
+            "XXX.levelgen.placement.LakeWaterPlacementDecorator",
+            "XXX.levelgen.placement.NoiseCountFactorDecoratorConfiguration",
+            "XXX.levelgen.placement.NoiseHeightmapDoubleDecorator",
+            "XXX.levelgen.placement.RangeDecoratorConfiguration",
+            "XXX.levelgen.placement.TopSolidHeightMapDecorator",
+            "XXX.levelgen.placement.TopSolidHeightMapRangeDecorator",
+            "XXX.placement.nether.CountRangeDecorator",
+            "XXX.placement.nether.LightGemChanceDecorator",
+            "XXX.placement.nether.RandomCountRangeDecorator",
+            "XXX.levelgen.placement.package-info",
+            "XXX.levelgen.structure.BoundingBox",
+            "XXX.levelgen.structure.BuriedTreasurePieces",
+            "XXX.levelgen.structure.DesertPyramidPiece",
+            "XXX.levelgen.structure.EndCityPieces$1",
+            "XXX.levelgen.structure.EndCityPieces$3",
+            "XXX.levelgen.structure.EndCityPieces$EndCityPiece",
+            "XXX.levelgen.structure.IglooPieces",
+            "XXX.levelgen.structure.JunglePyramidPiece",
+            "XXX.levelgen.structure.JunglePyramidPiece$MossStoneSelector",
+            "XXX.levelgen.structure.MineShaftPieces",
+            "XXX.levelgen.structure.MineShaftPieces$MineShaftCorridor",
+            "XXX.levelgen.structure.MineShaftPieces$MineShaftPiece",
+            "XXX.levelgen.structure.MineShaftPieces$MineShaftStairs",
+            "XXX.levelgen.structure.NetherBridgePieces$1",
+            "XXX.levelgen.structure.NetherBridgePieces$BridgeEndFiller",
+            "XXX.levelgen.structure.NetherBridgePieces$CastleCorridorStairsPiece",
+            "XXX.levelgen.structure.NetherBridgePieces$CastleEntrance",
+            "XXX.levelgen.structure.NetherBridgePieces$CastleSmallCorridorLeftTurnPiece",
+            "XXX.levelgen.structure.NetherBridgePieces$CastleSmallCorridorRightTurnPiece",
+            "XXX.levelgen.structure.NetherBridgePieces$MonsterThrone",
+            "XXX.levelgen.structure.NetherBridgePieces$PieceWeight",
+            "XXX.levelgen.structure.NetherBridgePieces$StairsRoom",
+            "XXX.levelgen.structure.NetherFossilFeature",
+            "XXX.levelgen.structure.NetherFossilPieces",
+            "XXX.levelgen.structure.OceanMonumentPieces",
+            "XXX.levelgen.structure.OceanMonumentPieces$FitDoubleXRoom",
+            "XXX.levelgen.structure.OceanMonumentPieces$FitDoubleYRoom",
+            "XXX.levelgen.structure.OceanMonumentPieces$FitDoubleZRoom",
+            "XXX.levelgen.structure.OceanMonumentPieces$FitSimpleTopRoom",
+            "XXX.levelgen.structure.OceanMonumentPieces$MonumentRoomFitter",
+            "XXX.levelgen.structure.OceanMonumentPieces$OceanMonumentDoubleXRoom",
+            "XXX.levelgen.structure.OceanMonumentPieces$OceanMonumentDoubleYRoom",
+            "XXX.levelgen.structure.OceanMonumentPieces$OceanMonumentDoubleZRoom",
+            "XXX.levelgen.structure.OceanMonumentPieces$OceanMonumentPenthouse",
+            "XXX.levelgen.structure.OceanMonumentPieces$OceanMonumentSimpleRoom",
+            "XXX.levelgen.structure.OceanMonumentPieces$OceanMonumentWingRoom",
+            "XXX.levelgen.structure.OceanRuinFeature",
+            "XXX.levelgen.structure.OceanRuinFeature$Type",
+            "XXX.levelgen.structure.OceanRuinPieces$OceanRuinPiece",
+            "XXX.levelgen.structure.PillagerOutpostPieces$PillagerOutpostPiece",
+            "XXX.levelgen.structure.ScatteredFeaturePiece",
+            "XXX.levelgen.structure.ShipwreckPieces$ShipwreckPiece",
+            "XXX.levelgen.structure.StrongholdPieces$1",
+            "XXX.levelgen.structure.StrongholdPieces$3",
+            "XXX.levelgen.structure.StrongholdPieces$FillerCorridor",
+            "XXX.levelgen.structure.StrongholdPieces$LeftTurn",
+            "XXX.levelgen.structure.StrongholdPieces$PieceWeight",
+            "XXX.levelgen.structure.StrongholdPieces$PrisonHall",
+            "XXX.levelgen.structure.StrongholdPieces$RoomCrossing",
+            "XXX.levelgen.structure.StrongholdPieces$StairsDown",
+            "XXX.levelgen.structure.StrongholdPieces$Straight",
+            "XXX.levelgen.structure.StrongholdPieces$StrongholdPiece",
+            "XXX.levelgen.structure.StrongholdPieces$Turn",
+            "XXX.levelgen.structure.StructureFeatureIndexSavedData",
+            "XXX.levelgen.structure.StructurePiece$1",
+            "XXX.levelgen.structure.StructureStart",
+            "XXX.levelgen.structure.SwamplandHutPiece",
+            "XXX.levelgen.structure.WoodlandMansionPieces",
+            "XXX.levelgen.structure.WoodlandMansionPieces$FirstFloorRoomCollection",
+            "XXX.levelgen.structure.WoodlandMansionPieces$MansionGrid",
+            "XXX.levelgen.structure.WoodlandMansionPieces$PlacementData",
+            "XXX.levelgen.structure.WoodlandMansionPieces$SimpleGrid",
+            "XXX.levelgen.structure.WoodlandMansionPieces$WoodlandMansionPiece",
+            "XXX.structure.templatesystem.AlwaysTrueTest",
+            "XXX.structure.templatesystem.BlockIgnoreProcessor",
+            "XXX.structure.templatesystem.BlockRotProcessor",
+            "XXX.structure.templatesystem.GravityProcessor",
+            "XXX.structure.templatesystem.LinearPosTest",
+            "XXX.structure.templatesystem.PosAlwaysTrueTest",
+            "XXX.structure.templatesystem.PosRuleTestType",
+            "XXX.structure.templatesystem.RandomBlockMatchTest",
+            "XXX.structure.templatesystem.RuleProcessor",
+            "XXX.structure.templatesystem.RuleTestType",
+            "XXX.structure.templatesystem.StructurePlaceSettings",
+            "XXX.structure.templatesystem.StructureProcessorType",
+            "XXX.structure.templatesystem.StructureTemplate$1",
+            "XXX.levelgen.surfacebuilders.DefaultSurfaceBuilder",
+            "XXX.levelgen.surfacebuilders.FrozenOceanSurfaceBuilder",
+            "XXX.levelgen.surfacebuilders.GravellyMountainSurfaceBuilder"
+          ],
+          "removed": [
+            "XXX.client.particle.WhiteAshParticle$Provider",
+            "XXX.entity.layers.HumanoidArmorLayer",
+            "XXX.entity.layers.IronGolemCrackinessLayer",
+            "XXX.entity.layers.ItemInHandLayer",
+            "XXX.entity.layers.MushroomCowMushroomLayer",
+            "XXX.entity.layers.ParrotOnShoulderLayer",
+            "XXX.entity.layers.PiglinArmorLayer",
+            "XXX.entity.layers.SaddleLayer",
+            "XXX.entity.layers.ShulkerHeadLayer",
+            "XXX.entity.layers.SnowGolemHeadLayer",
+            "XXX.entity.layers.SpinAttackEffectLayer",
+            "XXX.entity.layers.StuckInBodyLayer",
+            "XXX.entity.layers.VillagerProfessionLayer",
+            "XXX.entity.layers.WitherArmorLayer",
+            "XXX.entity.layers.package-info",
+            "XXX.entity.player.PlayerRenderer",
+            "XXX.client.renderer.package-info",
+            "XXX.renderer.texture.AtlasSet",
+            "XXX.renderer.texture.HttpTexture",
+            "XXX.minecraft.core.BlockPos$4",
+            "XXX.minecraft.core.BlockSource",
+            "XXX.minecraft.core.Cursor3D",
+            "XXX.minecraft.core.Direction",
+            "XXX.minecraft.core.Direction$Axis",
+            "XXX.minecraft.core.Direction$Axis$2",
+            "XXX.minecraft.core.Direction$AxisDirection",
+            "XXX.minecraft.core.Direction8",
+            "XXX.minecraft.core.GlobalPos",
+            "XXX.minecraft.core.IdMapper",
+            "XXX.minecraft.core.Location",
+            "XXX.minecraft.core.MappedRegistry",
+            "XXX.minecraft.core.Position",
+            "XXX.minecraft.core.Registry",
+            "XXX.minecraft.core.SectionPos",
+            "XXX.minecraft.core.SerializableBoolean",
+            "XXX.minecraft.core.SerializableUUID",
+            "XXX.minecraft.core.Vec3i",
+            "XXX.core.dispenser.AbstractProjectileDispenseBehavior",
+            "XXX.core.dispenser.DefaultDispenseItemBehavior",
+            "XXX.core.dispenser.DispenseItemBehavior$1",
+            "XXX.core.dispenser.DispenseItemBehavior$11",
+            "XXX.core.dispenser.DispenseItemBehavior$13",
+            "XXX.core.dispenser.DispenseItemBehavior$15",
+            "XXX.core.dispenser.DispenseItemBehavior$17",
+            "XXX.core.dispenser.DispenseItemBehavior$19",
+            "XXX.core.dispenser.DispenseItemBehavior$20",
+            "XXX.core.dispenser.DispenseItemBehavior$22",
+            "XXX.core.dispenser.DispenseItemBehavior$24",
+            "XXX.core.dispenser.DispenseItemBehavior$3",
+            "XXX.core.dispenser.DispenseItemBehavior$5",
+            "XXX.core.dispenser.DispenseItemBehavior$7",
+            "XXX.core.dispenser.DispenseItemBehavior$8",
+            "XXX.core.dispenser.DispenseItemBehavior$9",
+            "XXX.core.dispenser.ShearsDispenseItemBehavior",
+            "XXX.data.tags.TagsProvider$1",
+            "XXX.minecraft.tags.Tag$ElementEntry",
+            "XXX.minecraft.tags.Tag$Named",
+            "XXX.world.entity.ItemSteerable",
+            "XXX.world.entity.Saddleable",
+            "XXX.animal.horse.Mule",
+            "XXX.animal.horse.SkeletonTrapGoal",
+            "XXX.animal.horse.TraderLlama$TraderLlamaDefendWanderingTraderGoal",
+            "XXX.world.item.Vanishable",
+            "XXX.world.item.Wearable",
+            "XXX.level.biome.BasaltDeltasBiome",
+            "XXX.level.biome.Biome",
+            "XXX.level.biome.Biome$BiomeBuilder",
+            "XXX.level.biome.Biome$BiomeTempCategory",
+            "XXX.level.biome.Biome$Precipitation",
+            "XXX.level.biome.BiomeDefaultFeatures",
+            "XXX.level.biome.BiomeManager$NoiseBiomeSource",
+            "XXX.level.biome.BiomeSourceSettings",
+            "XXX.level.biome.BiomeSpecialEffects",
+            "XXX.level.biome.BiomeSpecialEffects$Builder",
+            "XXX.level.biome.Biomes",
+            "XXX.level.biome.BirchForestHillsBiome",
+            "XXX.level.biome.CheckerboardColumnBiomeSource",
+            "XXX.level.biome.CrimsonForestBiome",
+            "XXX.level.biome.DarkForestHillsBiome",
+            "XXX.level.biome.DeepFrozenOceanBiome",
+            "XXX.level.biome.DeepOceanBiome",
+            "XXX.level.biome.DesertBiome",
+            "XXX.level.biome.DesertLakesBiome",
+            "XXX.level.biome.EndHighlandsBiome",
+            "XXX.level.biome.ErodedBadlandsBiome",
+            "XXX.level.biome.FixedBiomeSourceSettings",
+            "XXX.level.biome.ForestFlowerBiome",
+            "XXX.level.biome.FrozenRiverBiome",
+            "XXX.level.biome.FuzzyOffsetConstantColumnBiomeZoomer",
+            "XXX.level.biome.GiantSpruceTaigaHillsMutatedBiome",
+            "XXX.level.biome.GiantTreeTaigaHillsBiome",
+            "XXX.level.biome.IceSpikesBiome",
+            "XXX.level.biome.JungleEdgeBiome",
+            "XXX.level.biome.LukeWarmOceanBiome",
+            "XXX.level.biome.ModifiedGravellyMountainsBiome",
+            "XXX.level.biome.ModifiedJungleEdgeBiome",
+            "XXX.level.biome.MountainBiome",
+            "XXX.level.biome.MultiNoiseBiomeSource",
+            "XXX.level.biome.MushroomFieldsBiome",
+            "XXX.level.biome.NearestNeighborBiomeZoomer",
+            "XXX.level.biome.OceanBiome",
+            "XXX.level.biome.OverworldBiomeSourceSettings",
+            "XXX.level.biome.RiverBiome",
+            "XXX.level.biome.SavannaPlateauBiome",
+            "XXX.level.biome.ShatteredSavannaPlateauBiome",
+            "XXX.level.biome.SnowyBeachBiome",
+            "XXX.level.biome.SnowyTaigaBiome",
+            "XXX.level.biome.SnowyTaigaMountainsBiome",
+            "XXX.level.biome.SoulSandValleyBiome",
+            "XXX.level.biome.SunflowerPlainsBiome",
+            "XXX.level.biome.SwampHillsBiome",
+            "XXX.level.biome.TaigaHillsBiome",
+            "XXX.level.biome.TallBirchForestBiome",
+            "XXX.level.biome.TheEndBiome",
+            "XXX.level.biome.TheEndBiomeSourceSettings",
+            "XXX.level.biome.WarmOceanBiome",
+            "XXX.level.biome.WoodedBadlandsBiome",
+            "XXX.level.biome.WoodedMountainBiome",
+            "XXX.level.block.AbstractBannerBlock",
+            "XXX.level.block.AbstractFurnaceBlock",
+            "XXX.level.block.AbstractSkullBlock",
+            "XXX.level.block.AnvilBlock",
+            "XXX.level.block.BambooBlock",
+            "XXX.level.block.BannerBlock",
+            "XXX.level.block.BarrierBlock",
+            "XXX.level.block.BaseCoralPlantBlock",
+            "XXX.level.block.BaseCoralWallFanBlock",
+            "XXX.level.block.BaseFireBlock",
+            "XXX.level.block.BaseRailBlock",
+            "XXX.level.block.BeaconBlock",
+            "XXX.level.block.BedBlock$1",
+            "XXX.level.block.BeetrootBlock",
+            "XXX.level.block.BellBlock$1",
+            "XXX.level.block.Block",
+            "XXX.level.block.Block$2",
+            "XXX.level.block.Blocks",
+            "XXX.level.block.BrewingStandBlock",
+            "XXX.level.block.BucketPickup",
+            "XXX.level.block.ButtonBlock",
+            "XXX.level.block.CactusBlock",
+            "XXX.level.block.CampfireBlock",
+            "XXX.level.block.CartographyTableBlock",
+            "XXX.level.block.CauldronBlock",
+            "XXX.level.block.ChestBlock$1",
+            "XXX.level.block.ChestBlock$2$1",
+            "XXX.level.block.ChestBlock$4",
+            "XXX.level.block.ChorusPlantBlock",
+            "XXX.level.block.CocoaBlock$1",
+            "XXX.level.block.ComparatorBlock",
+            "XXX.level.block.ComposterBlock$EmptyContainer",
+            "XXX.level.block.ComposterBlock$OutputContainer",
+            "XXX.level.block.ConduitBlock",
+            "XXX.level.block.CoralFanBlock",
+            "XXX.level.block.CoralWallFanBlock",
+            "XXX.level.block.CropBlock",
+            "XXX.level.block.CrossCollisionBlock$1",
+            "XXX.level.block.DaylightDetectorBlock",
+            "XXX.level.block.DetectorRailBlock",
+            "XXX.level.block.DiodeBlock",
+            "XXX.level.block.DispenserBlock",
+            "XXX.level.block.DoorBlock$1",
+            "XXX.level.block.DoubleBlockCombiner$BlockType",
+            "XXX.level.block.DoubleBlockCombiner$NeighborCombineResult",
+            "XXX.level.block.DoubleBlockCombiner$NeighborCombineResult$Single",
+            "XXX.level.block.DragonEggBlock",
+            "XXX.level.block.EnchantmentTableBlock",
+            "XXX.level.block.EndPortalBlock",
+            "XXX.level.block.EndRodBlock",
+            "XXX.level.block.EnderChestBlock",
+            "XXX.level.block.FaceAttachedHorizontalDirectionalBlock",
+            "XXX.level.block.FallingBlock",
+            "XXX.level.block.FenceBlock",
+            "XXX.level.block.FenceGateBlock$1",
+            "XXX.level.block.FletchingTableBlock",
+            "XXX.level.block.FlowerPotBlock",
+            "XXX.level.block.FungusBlock",
+            "XXX.level.block.GlassBlock",
+            "XXX.levelgen.feature.BasaltPillarFeature",
+            "XXX.levelgen.feature.BlockPileFeature",
+            "XXX.levelgen.feature.BonusChestFeature",
+            "XXX.levelgen.feature.BuriedTreasureFeature$BuriedTreasureStart",
+            "XXX.levelgen.feature.ConfiguredFeature",
+            "XXX.levelgen.feature.CoralFeature",
+            "XXX.levelgen.feature.CoralTreeFeature",
+            "XXX.levelgen.feature.DecoratedFeature",
+            "XXX.levelgen.feature.DefaultFlowerFeature",
+            "XXX.levelgen.feature.ReplaceBlockFeature",
+            "XXX.levelgen.feature.SeaPickleFeature",
+            "XXX.levelgen.feature.ShipwreckFeature",
+            "XXX.levelgen.feature.SimpleBlockFeature",
+            "XXX.levelgen.feature.SimulatedFeature",
+            "XXX.levelgen.feature.SnowyVillagePools",
+            "XXX.levelgen.feature.SpikeFeature$1",
+            "XXX.levelgen.feature.SpikeFeature$SpikeCacheLoader",
+            "XXX.levelgen.feature.StrongholdFeature",
+            "XXX.levelgen.feature.StructureFeature",
+            "XXX.levelgen.feature.StructurePieceType",
+            "XXX.levelgen.feature.SwamplandHutFeature$FeatureStart",
+            "XXX.levelgen.feature.TreeFeature",
+            "XXX.levelgen.feature.VillageFeature",
+            "XXX.levelgen.feature.VillagePieces",
+            "XXX.levelgen.feature.VinesFeature",
+            "XXX.levelgen.feature.WeepingVinesFeature",
+            "XXX.levelgen.feature.WoodlandMansionFeature",
+            "XXX.feature.blockplacers.BlockPlacer",
+            "XXX.feature.blockplacers.ColumnPlacer",
+            "XXX.feature.blockplacers.SimpleBlockPlacer",
+            "XXX.feature.configurations.BlockBlobConfiguration",
+            "XXX.feature.configurations.BlockStateConfiguration",
+            "XXX.feature.configurations.ChanceRangeDecoratorConfiguration",
+            "XXX.feature.configurations.ColumnFeatureConfiguration$Builder",
+            "XXX.feature.configurations.CountRangeDecoratorConfiguration",
+            "XXX.feature.configurations.DecoratorConfiguration",
+            "XXX.feature.configurations.DeltaFeatureConfiguration$Builder",
+            "XXX.feature.configurations.EndGatewayConfiguration",
+            "XXX.feature.configurations.FeatureRadiusConfiguration",
+            "XXX.feature.configurations.LayerConfiguration",
+            "XXX.feature.configurations.MegaTreeConfiguration$MegaTreeConfigurationBuilder",
+            "XXX.feature.configurations.NoiseDependantDecoratorConfiguration",
+            "XXX.feature.configurations.NoneFeatureConfiguration",
+            "XXX.feature.configurations.OreConfiguration",
+            "XXX.feature.configurations.ProbabilityFeatureConfiguration",
+            "XXX.feature.configurations.RandomFeatureConfiguration",
+            "XXX.feature.configurations.RandomPatchConfiguration$1",
+            "XXX.feature.configurations.RandomRandomFeatureConfiguration",
+            "XXX.feature.configurations.ReplaceSpheroidConfiguration",
+            "XXX.feature.configurations.SeagrassFeatureConfiguration",
+            "XXX.feature.configurations.SimpleBlockConfiguration",
+            "XXX.feature.configurations.SmallTreeConfiguration",
+            "XXX.feature.configurations.SpikeConfiguration",
+            "XXX.feature.configurations.TreeConfiguration",
+            "XXX.feature.configurations.VillageConfiguration",
+            "XXX.feature.foliageplacers.AcaciaFoliagePlacer",
+            "XXX.feature.foliageplacers.FoliagePlacer",
+            "XXX.feature.foliageplacers.PineFoliagePlacer",
+            "XXX.feature.foliageplacers.package-info",
+            "XXX.feature.stateproviders.BlockStateProvider",
+            "XXX.feature.stateproviders.ForestFlowerProvider",
+            "XXX.feature.stateproviders.RotatedBlockProvider",
+            "XXX.feature.stateproviders.WeightedStateProvider",
+            "XXX.feature.structures.EmptyPoolElement",
+            "XXX.feature.structures.JigsawJunction",
+            "XXX.feature.structures.JigsawPlacement$1",
+            "XXX.feature.structures.JigsawPlacement$PieceState",
+            "XXX.feature.structures.ListPoolElement",
+            "XXX.feature.structures.StructurePoolElement",
+            "XXX.feature.structures.StructureTemplatePool",
+            "XXX.feature.structures.StructureTemplatePools",
+            "XXX.feature.treedecorators.AlterGroundDecorator",
+            "XXX.feature.treedecorators.CocoaDecorator",
+            "XXX.feature.treedecorators.TreeDecorator",
+            "XXX.feature.treedecorators.TrunkVineDecorator",
+            "XXX.feature.trunkplacers.ForkingTrunkPlacer",
+            "XXX.feature.trunkplacers.TrunkPlacer",
+            "XXX.feature.trunkplacers.package-info",
+            "XXX.levelgen.flat.FlatLevelGeneratorSettings",
+            "XXX.level.levelgen.package-info",
+            "XXX.levelgen.placement.CarvingMaskDecoratorConfiguration",
+            "XXX.levelgen.placement.ChanceHeightmapDecorator",
+            "XXX.levelgen.placement.ChancePassthroughDecorator",
+            "XXX.levelgen.placement.ChorusPlantPlacementDecorator",
+            "XXX.levelgen.placement.CountBiasedRangeDecorator",
+            "XXX.levelgen.placement.CountChanceHeightmapDoubleDecorator",
+            "XXX.levelgen.placement.CountHeighmapDoubleDecorator",
+            "XXX.levelgen.placement.CountHeightmap32Decorator",
+            "XXX.levelgen.placement.CountTopSolidDecorator",
+            "XXX.levelgen.placement.CountWithExtraChanceHeightmapDecorator",
+            "XXX.levelgen.placement.DepthAverageConfigation",
+            "XXX.levelgen.placement.EndGatewayPlacementDecorator",
+            "XXX.levelgen.placement.FeatureDecorator",
+            "XXX.levelgen.placement.FrequencyChanceDecoratorConfiguration",
+            "XXX.levelgen.placement.FrequencyWithExtraChanceDecoratorConfiguration",
+            "XXX.levelgen.placement.LakeLavaPlacementDecorator",
+            "XXX.levelgen.placement.MonsterRoomPlacementDecorator",
+            "XXX.levelgen.placement.NoiseHeightmap32Decorator",
+            "XXX.levelgen.placement.NopePlacementDecorator",
+            "XXX.levelgen.placement.SimpleFeatureDecorator",
+            "XXX.levelgen.placement.TopSolidHeightMapNoiseBasedDecorator",
+            "XXX.placement.nether.ChanceRangeDecorator",
+            "XXX.placement.nether.FireDecorator",
+            "XXX.placement.nether.MagmaDecorator",
+            "XXX.placement.nether.package-info",
+            "XXX.levelgen.structure.BeardedStructureStart",
+            "XXX.levelgen.structure.BoundingBox$1",
+            "XXX.levelgen.structure.BuriedTreasurePieces$BuriedTreasurePiece",
+            "XXX.levelgen.structure.EndCityPieces",
+            "XXX.levelgen.structure.EndCityPieces$2",
+            "XXX.levelgen.structure.EndCityPieces$4",
+            "XXX.levelgen.structure.EndCityPieces$SectionGenerator",
+            "XXX.levelgen.structure.IglooPieces$IglooPiece",
+            "XXX.levelgen.structure.JunglePyramidPiece$1",
+            "XXX.levelgen.structure.LegacyStructureDataHandler",
+            "XXX.levelgen.structure.MineShaftPieces$1",
+            "XXX.levelgen.structure.MineShaftPieces$MineShaftCrossing",
+            "XXX.levelgen.structure.MineShaftPieces$MineShaftRoom",
+            "XXX.levelgen.structure.NetherBridgePieces",
+            "XXX.levelgen.structure.NetherBridgePieces$BridgeCrossing",
+            "XXX.levelgen.structure.NetherBridgePieces$BridgeStraight",
+            "XXX.levelgen.structure.NetherBridgePieces$CastleCorridorTBalconyPiece",
+            "XXX.levelgen.structure.NetherBridgePieces$CastleSmallCorridorCrossingPiece",
+            "XXX.levelgen.structure.NetherBridgePieces$CastleSmallCorridorPiece",
+            "XXX.levelgen.structure.NetherBridgePieces$CastleStalkRoom",
+            "XXX.levelgen.structure.NetherBridgePieces$NetherBridgePiece",
+            "XXX.levelgen.structure.NetherBridgePieces$RoomCrossing",
+            "XXX.levelgen.structure.NetherBridgePieces$StartPiece",
+            "XXX.levelgen.structure.NetherFossilFeature$FeatureStart",
+            "XXX.levelgen.structure.NetherFossilPieces$NetherFossilPiece",
+            "XXX.levelgen.structure.OceanMonumentPieces$1",
+            "XXX.levelgen.structure.OceanMonumentPieces$FitDoubleXYRoom",
+            "XXX.levelgen.structure.OceanMonumentPieces$FitDoubleYZRoom",
+            "XXX.levelgen.structure.OceanMonumentPieces$FitSimpleRoom",
+            "XXX.levelgen.structure.OceanMonumentPieces$MonumentBuilding",
+            "XXX.levelgen.structure.OceanMonumentPieces$OceanMonumentCoreRoom",
+            "XXX.levelgen.structure.OceanMonumentPieces$OceanMonumentDoubleXYRoom",
+            "XXX.levelgen.structure.OceanMonumentPieces$OceanMonumentDoubleYZRoom",
+            "XXX.levelgen.structure.OceanMonumentPieces$OceanMonumentEntryRoom",
+            "XXX.levelgen.structure.OceanMonumentPieces$OceanMonumentPiece",
+            "XXX.levelgen.structure.OceanMonumentPieces$OceanMonumentSimpleTopRoom",
+            "XXX.levelgen.structure.OceanMonumentPieces$RoomDefinition",
+            "XXX.levelgen.structure.OceanRuinFeature$OceanRuinStart",
+            "XXX.levelgen.structure.OceanRuinPieces",
+            "XXX.levelgen.structure.PillagerOutpostPieces",
+            "XXX.levelgen.structure.PoolElementStructurePiece",
+            "XXX.levelgen.structure.ShipwreckPieces",
+            "XXX.levelgen.structure.StrongholdPieces",
+            "XXX.levelgen.structure.StrongholdPieces$2",
+            "XXX.levelgen.structure.StrongholdPieces$ChestCorridor",
+            "XXX.levelgen.structure.StrongholdPieces$FiveCrossing",
+            "XXX.levelgen.structure.StrongholdPieces$Library",
+            "XXX.levelgen.structure.StrongholdPieces$PortalRoom",
+            "XXX.levelgen.structure.StrongholdPieces$RightTurn",
+            "XXX.levelgen.structure.StrongholdPieces$SmoothStoneSelector",
+            "XXX.levelgen.structure.StrongholdPieces$StartPiece",
+            "XXX.levelgen.structure.StrongholdPieces$StraightStairsDown",
+            "XXX.levelgen.structure.StrongholdPieces$StrongholdPiece$SmallDoorType",
+            "XXX.levelgen.structure.StructureFeatureIO",
+            "XXX.levelgen.structure.StructurePiece",
+            "XXX.levelgen.structure.StructurePiece$BlockSelector",
+            "XXX.levelgen.structure.StructureStart$1",
+            "XXX.levelgen.structure.TemplateStructurePiece",
+            "XXX.levelgen.structure.WoodlandMansionPieces$1",
+            "XXX.levelgen.structure.WoodlandMansionPieces$FloorRoomCollection",
+            "XXX.levelgen.structure.WoodlandMansionPieces$MansionPiecePlacer",
+            "XXX.levelgen.structure.WoodlandMansionPieces$SecondFloorRoomCollection",
+            "XXX.levelgen.structure.WoodlandMansionPieces$ThirdFloorRoomCollection",
+            "XXX.levelgen.structure.package-info",
+            "XXX.structure.templatesystem.AxisAlignedLinearPosTest",
+            "XXX.structure.templatesystem.BlockMatchTest",
+            "XXX.structure.templatesystem.BlockStateMatchTest",
+            "XXX.structure.templatesystem.JigsawReplacementProcessor",
+            "XXX.structure.templatesystem.NopProcessor",
+            "XXX.structure.templatesystem.PosRuleTest",
+            "XXX.structure.templatesystem.ProcessorRule",
+            "XXX.structure.templatesystem.RandomBlockStateMatchTest",
+            "XXX.structure.templatesystem.RuleTest",
+            "XXX.structure.templatesystem.StructureManager",
+            "XXX.structure.templatesystem.StructureProcessor",
+            "XXX.structure.templatesystem.StructureTemplate",
+            "XXX.structure.templatesystem.StructureTemplate$Palette",
+            "XXX.levelgen.surfacebuilders.ConfiguredSurfaceBuilder",
+            "XXX.levelgen.surfacebuilders.ErodedBadlandsSurfaceBuilder",
+            "XXX.levelgen.surfacebuilders.GiantTreeTaigaSurfaceBuilder",
+            "XXX.levelgen.surfacebuilders.MountainSurfaceBuilder"
+          ]
+        }
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "Changes",
+        "lines": [
+          "XXX.blaze3d.platform.NativeImage \u001b[2;31m-1M\u001b[0m",
+          "XXX.minecraft.client.Options \u001b[2;32m+2P\u001b[0m",
+          "XXX.renderer.entity.HorseRenderer \u001b[2;32m+1M\u001b[0m | \u001b[2;32m+1P\u001b[0m \u001b[2;31m-1P\u001b[0m",
+          "XXX.client.sounds.MusicManager$Music \u001b[2;32m+2M\u001b[0m | \u001b[2;32m+6P\u001b[0m \u001b[2;31m-1P\u001b[0m",
+          "XXX.minecraft.core.BlockPos \u001b[2;32m+4M\u001b[0m \u001b[2;31m-2M\u001b[0m",
+          "XXX.minecraft.core.BlockPos$2 \u001b[2;32m+1M\u001b[0m \u001b[2;31m-1M\u001b[0m | \u001b[2;32m+13P\u001b[0m \u001b[2;31m-7P\u001b[0m",
+          "XXX.data.loot.BlockLoot \u001b[2;32m+3M\u001b[0m \u001b[2;31m-1M\u001b[0m",
+          "XXX.data.models.BlockModelGenerators \u001b[2;32m+1M\u001b[0m \u001b[2;31m-1M\u001b[0m",
+          "XXX.models.model.ModelTemplates \u001b[2;32m+1P\u001b[0m",
+          "XXX.models.model.TextureSlot \u001b[2;32m+1P\u001b[0m",
+          "XXX.minecraft.sounds.SoundEvents \u001b[2;32m+9P\u001b[0m \u001b[2;31m-1P\u001b[0m",
+          "XXX.minecraft.tags.BlockTags \u001b[2;32m+1M\u001b[0m | \u001b[2;32m+2P\u001b[0m",
+          "XXX.minecraft.tags.FluidTags \u001b[2;32m+1M\u001b[0m",
+          "XXX.minecraft.tags.StaticTagHelper \u001b[2;32m+4M\u001b[0m \u001b[2;31m-1M\u001b[0m | \u001b[2;32m+1P\u001b[0m",
+          "XXX.minecraft.tags.StaticTagHelper$Wrapper \u001b[2;32m+1M\u001b[0m \u001b[2;31m-1M\u001b[0m",
+          "XXX.minecraft.tags.Tag$Builder \u001b[2;32m+7M\u001b[0m \u001b[2;31m-5M\u001b[0m | \u001b[2;32m+1P\u001b[0m \u001b[2;31m-1P\u001b[0m",
+          "XXX.minecraft.tags.TagCollection \u001b[2;32m+1M\u001b[0m",
+          "XXX.entity.ai.Brain \u001b[2;32m+6M\u001b[0m \u001b[2;31m-27M\u001b[0m",
+          "XXX.entity.animal.MushroomCow \u001b[2;32m+2M\u001b[0m",
+          "XXX.entity.animal.Pig \u001b[2;32m+3M\u001b[0m \u001b[2;31m-2M\u001b[0m",
+          "XXX.animal.horse.AbstractHorse \u001b[2;32m+5M\u001b[0m \u001b[2;31m-4M\u001b[0m",
+          "XXX.animal.horse.Horse \u001b[2;32m+7M\u001b[0m \u001b[2;31m-9M\u001b[0m | \u001b[2;31m-6P\u001b[0m",
+          "XXX.animal.horse.Llama \u001b[2;32m+4M\u001b[0m \u001b[2;31m-3M\u001b[0m",
+          "XXX.entity.monster.Monster \u001b[2;32m+1M\u001b[0m",
+          "XXX.entity.monster.Zoglin \u001b[2;32m+1M\u001b[0m",
+          "XXX.monster.hoglin.Hoglin \u001b[2;32m+1M\u001b[0m",
+          "XXX.entity.schedule.Activity \u001b[2;32m+2M\u001b[0m | \u001b[2;32m+1P\u001b[0m",
+          "XXX.world.item.SpawnEggItem \u001b[2;32m+1M\u001b[0m \u001b[2;31m-1M\u001b[0m",
+          "XXX.item.enchantment.EnchantmentCategory$14 \u001b[2;31m-2M\u001b[0m",
+          "XXX.world.level.CollisionGetter$1 \u001b[2;32m+1M\u001b[0m \u001b[2;31m-1M\u001b[0m | \u001b[2;32m+3P\u001b[0m \u001b[2;31m-2P\u001b[0m",
+          "XXX.block.entity.BannerPattern \u001b[2;32m+1P\u001b[0m",
+          "XXX.block.entity.ShulkerBoxBlockEntity \u001b[2;32m+1M\u001b[0m",
+          "XXX.levelgen.feature.Feature \u001b[2;32m+3P\u001b[0m",
+          "XXX.levelgen.surfacebuilders.SoulSandValleySurfaceBuilder \u001b[2;32m+3M\u001b[0m \u001b[2;31m-3M\u001b[0m | \u001b[2;32m+1P\u001b[0m \u001b[2;31m-6P\u001b[0m",
+          "XXX.level.pathfinder.WalkNodeEvaluator \u001b[2;32m+5M\u001b[0m \u001b[2;31m-3M\u001b[0m"
+        ]
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "com.mojang.blaze3d.platform.NativeImage",
+        "differences": {
+          "added": [
+            "void blendPixel(int,int,int)"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.client.renderer.entity.HorseRenderer",
+        "differences": {
+          "added": [],
+          "removed": [
+            "void lambda$static$0(EnumMap)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.client.sounds.MusicManager$Music",
+        "differences": {
+          "added": [],
+          "removed": [
+            "void <init>(String,int,SoundEvent,int,int,boolean)",
+            "boolean access$000(MusicManager$Music)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.core.BlockPos",
+        "differences": {
+          "added": [
+            "Iterator lambda$betweenClosed$4(int,int,int,int,int,int)",
+            "Iterator lambda$withinManhattan$3(int,int,int,int,int,int,int)"
+          ],
+          "removed": [
+            "Iterable randomBetweenClosed(Random,int,int,int,int,int,int,int)",
+            "Iterator lambda$betweenClosed$5(int,int,int,int,int,int)",
+            "Iterator lambda$withinManhattan$4(int,int,int,int,int,int,int)",
+            "Iterator lambda$randomBetweenClosed$3(int,int,Random,int,int,int,int,int)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.core.BlockPos$2",
+        "differences": {
+          "added": [
+            "void <init>(int,int,int,int,int,int)"
+          ],
+          "removed": [
+            "void <init>(int,int,int,int,int,int,int)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.data.loot.BlockLoot",
+        "differences": {
+          "added": [
+            "LootTable$Builder lambda$dropPottedContents$69(Block)"
+          ],
+          "removed": [
+            "LootTable$Builder lambda$dropPottedContents$71(Block)",
+            "LootTable$Builder lambda$accept$70(Block)",
+            "LootTable$Builder lambda$accept$69(Block)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.data.models.BlockModelGenerators",
+        "differences": {
+          "added": [
+            "void createCampfire()"
+          ],
+          "removed": [
+            "void createCampfires(Block[])"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.tags.BlockTags",
+        "differences": {
+          "added": [],
+          "removed": [
+            "void resetToEmpty()"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.tags.FluidTags",
+        "differences": {
+          "added": [],
+          "removed": [
+            "void resetToEmpty()"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.tags.StaticTagHelper",
+        "differences": {
+          "added": [
+            "void lambda$reset$1(TagCollection,StaticTagHelper$Wrapper)"
+          ],
+          "removed": [
+            "void resetToEmpty()",
+            "void lambda$reset$3(TagCollection,StaticTagHelper$Wrapper)",
+            "void lambda$resetToEmpty$2(Tag,StaticTagHelper$Wrapper)",
+            "Tag lambda$null$1(Tag,ResourceLocation)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.tags.StaticTagHelper$Wrapper",
+        "differences": {
+          "added": [
+            "void rebind(TagCollection)"
+          ],
+          "removed": [
+            "void rebind(Function)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.tags.Tag$Builder",
+        "differences": {
+          "added": [
+            "Tag$Builder add(Tag$Entry)",
+            "Tag$Builder addElement(ResourceLocation)",
+            "Tag$Builder addTag(ResourceLocation)",
+            "Tag$Builder addFromJson(JsonObject)",
+            "boolean lambda$getUnresolvedEntries$1(Function,Function,Tag$Entry)"
+          ],
+          "removed": [
+            "Tag$Builder add(Tag$BuilderEntry)",
+            "Tag$Builder add(Tag$Entry,String)",
+            "Tag$Builder addElement(ResourceLocation,String)",
+            "Tag$Builder addTag(ResourceLocation,String)",
+            "Tag$Builder addFromJson(JsonObject,String)",
+            "void lambda$addFromJson$2(String,Tag$Entry)",
+            "boolean lambda$getUnresolvedEntries$1(Function,Function,Tag$BuilderEntry)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.tags.TagCollection",
+        "differences": {
+          "added": [],
+          "removed": [
+            "Tag getEmptyTag()"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.entity.ai.Brain",
+        "differences": {
+          "added": [
+            "Stream getRunningBehaviorsStream()",
+            "void tickMemoryAndRemoveIfExpired(MemoryModuleType,Optional)",
+            "Pair lambda$createPriorityPairs$24(MutableInt,Behavior)",
+            "boolean lambda$activityRequirementsAreMet$23(Pair)",
+            "void lambda$tickMemoryAndRemoveIfExpired$22(MemoryModuleType,ExpirableValue)",
+            "void lambda$tickEachRunningBehavior$21(ServerLevel,LivingEntity,long,Behavior)",
+            "void lambda$startEachNonRunningBehavior$20(ServerLevel,LivingEntity,long,Behavior)",
+            "boolean lambda$startEachNonRunningBehavior$19(Behavior)",
+            "boolean lambda$startEachNonRunningBehavior$18(Map$Entry)",
+            "Stream lambda$startEachNonRunningBehavior$17(Map)",
+            "Pair lambda$serialize$16(DynamicOps,Map$Entry)",
+            "boolean lambda$serialize$15(Map$Entry)",
+            "void lambda$stopAll$14(ServerLevel,LivingEntity,long,Behavior)",
+            "void lambda$tick$13(ServerLevel,LivingEntity,Sensor)",
+            "void lambda$copyWithoutBehaviors$12(Brain,MemoryModuleType,Optional)",
+            "void lambda$null$11(Brain,MemoryModuleType,ExpirableValue)",
+            "void lambda$addActivityAndRemoveMemoriesWhenStopped$10(Activity,Pair)",
+            "Set lambda$null$9(Activity)",
+            "Map lambda$null$8(Integer)",
+            "boolean lambda$eraseMemoriesForOtherActivitesThan$7(Activity,Activity)",
+            "boolean lambda$getActiveNonCoreActivity$6(Activity)",
+            "boolean lambda$getRunningBehaviorsStream$5(Behavior)",
+            "Stream lambda$getRunningBehaviorsStream$4(Map)",
+            "boolean lambda$isMemoryValue$3(Object,Object)",
+            "void lambda$new$2(Sensor)",
+            "void lambda$new$1(SensorType)",
+            "void lambda$new$0(MemoryModuleType)"
+          ],
+          "removed": [
+            "List getRunningBehaviors()",
+            "void tickSensors(ServerLevel,LivingEntity)",
+            "void forgetOutdatedMemories()",
+            "Set lambda$addActivityAndRemoveMemoriesWhenStopped$2(Activity)",
+            "Map lambda$addActivityAndRemoveMemoriesWhenStopped$1(Integer)",
+            "boolean lambda$isMemoryValue$0(Object,Object)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.entity.animal.MushroomCow",
+        "differences": {
+          "added": [],
+          "removed": [
+            "void shear(SoundSource)",
+            "boolean readyForShearing()"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.entity.animal.Pig",
+        "differences": {
+          "added": [
+            "boolean hasSaddle()",
+            "void setSaddle(boolean)"
+          ],
+          "removed": [
+            "boolean isSaddleable()",
+            "boolean isSaddled()",
+            "void equipSaddle(SoundSource)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.entity.animal.horse.AbstractHorse",
+        "differences": {
+          "added": [
+            "void setSaddled(boolean)",
+            "void updateEquipment()",
+            "boolean canBeSaddled()",
+            "boolean wearsArmor()"
+          ],
+          "removed": [
+            "boolean isSaddleable()",
+            "void equipSaddle(SoundSource)",
+            "void updateContainerEquipment()",
+            "boolean canWearArmor()",
+            "boolean isWearingArmor()"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.entity.animal.horse.Horse",
+        "differences": {
+          "added": [
+            "void setVariant(int)",
+            "int getVariant()",
+            "void clearLayeredTextureInfo()",
+            "void rebuildLayeredTextureInfo()",
+            "String getLayeredTextureHashName()",
+            "String[] getLayeredTextureLayers()",
+            "void updateEquipment()",
+            "void tick()",
+            "boolean wearsArmor()"
+          ],
+          "removed": [
+            "void setTypeVariant(int)",
+            "int getTypeVariant()",
+            "void setVariantAndMarkings(Variant,Markings)",
+            "Variant getVariant()",
+            "Markings getMarkings()",
+            "void updateContainerEquipment()",
+            "boolean canWearArmor()"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.entity.animal.horse.Llama",
+        "differences": {
+          "added": [
+            "boolean wearsArmor()",
+            "boolean canBeSaddled()",
+            "void updateEquipment()"
+          ],
+          "removed": [
+            "boolean canWearArmor()",
+            "boolean isWearingArmor()",
+            "boolean isSaddleable()",
+            "void updateContainerEquipment()"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.entity.monster.Monster",
+        "differences": {
+          "added": [],
+          "removed": [
+            "boolean shouldDropLoot()"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.entity.monster.Zoglin",
+        "differences": {
+          "added": [],
+          "removed": [
+            "MobType getMobType()"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.entity.monster.hoglin.Hoglin",
+        "differences": {
+          "added": [],
+          "removed": [
+            "void ageBoundaryReached()"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.entity.schedule.Activity",
+        "differences": {
+          "added": [],
+          "removed": [
+            "boolean equals(Object)",
+            "int hashCode()"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.item.SpawnEggItem",
+        "differences": {
+          "added": [
+            "Optional spawnOffspringFromSpawnEgg(Player,EntityType,Level,Vec3,ItemStack)"
+          ],
+          "removed": [
+            "Optional spawnOffspringFromSpawnEgg(Player,Mob,EntityType,Level,Vec3,ItemStack)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.item.enchantment.EnchantmentCategory$14",
+        "differences": {
+          "added": [
+            "boolean lambda$canEnchant$1(Item,EnchantmentCategory)",
+            "boolean lambda$canEnchant$0(EnchantmentCategory)"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.level.CollisionGetter$1",
+        "differences": {
+          "added": [
+            "void <init>(CollisionGetter,long,int,Entity,Cursor3D,BlockPos$MutableBlockPos,CollisionContext,VoxelShape)"
+          ],
+          "removed": [
+            "void <init>(CollisionGetter,long,int,Entity,Cursor3D,BlockPos$MutableBlockPos,CollisionContext,AABB,VoxelShape)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.level.block.entity.ShulkerBoxBlockEntity",
+        "differences": {
+          "added": [],
+          "removed": [
+            "boolean isClosed()"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.level.levelgen.surfacebuilders.SoulSandValleySurfaceBuilder",
+        "differences": {
+          "added": [
+            "void apply(Random,ChunkAccess,Biome,int,int,int,double,BlockState,BlockState,int,long,SurfaceBuilderBaseConfiguration)",
+            "void initNoise(long)",
+            "void apply(Random,ChunkAccess,Biome,int,int,int,double,BlockState,BlockState,int,long,SurfaceBuilderConfiguration)"
+          ],
+          "removed": [
+            "ImmutableList getFloorBlockStates()",
+            "ImmutableList getCeilingBlockStates()",
+            "BlockState getPatchBlockState()"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.level.pathfinder.WalkNodeEvaluator",
+        "differences": {
+          "added": [
+            "BlockPathTypes getBlockPathTypeStatic(BlockGetter,int,int,int)",
+            "BlockPathTypes checkNeighbourBlocks(BlockGetter,int,int,int,BlockPathTypes)",
+            "BlockPathTypes getBlockPathTypeRaw(BlockGetter,int,int,int)"
+          ],
+          "removed": [
+            "boolean hasPositiveMalus(BlockPos)",
+            "BlockPathTypes getBlockPathTypeStatic(BlockGetter,BlockPos$MutableBlockPos)",
+            "BlockPathTypes checkNeighbourBlocks(BlockGetter,BlockPos$MutableBlockPos,BlockPathTypes)",
+            "BlockPathTypes getBlockPathTypeRaw(BlockGetter,BlockPos)",
+            "boolean isBurningBlock(BlockState)"
+          ]
+        }
+      }
+    }
+  ]
+}

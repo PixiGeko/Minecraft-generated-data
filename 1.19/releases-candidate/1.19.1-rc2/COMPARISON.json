@@ -1,0 +1,192 @@
+{
+  "version_data": [
+    {
+      "type": "table",
+      "value": {
+        "previousLabel": "1.19.1-pre6",
+        "currentLabel": "1.19.1-rc2",
+        "values": [
+          {
+            "key": "World version",
+            "previous": "3114",
+            "current": "3115"
+          },
+          {
+            "key": "Protocol version",
+            "previous": "1073741923",
+            "current": "1073741924"
+          }
+        ]
+      }
+    },
+    {
+      "type": "title",
+      "value": {
+        "title": "Libraries",
+        "id": "version-data-libraries",
+        "size": 3
+      }
+    },
+    {
+      "type": "table",
+      "value": {
+        "title": "Versions",
+        "previousLabel": "1.19.1-pre6",
+        "currentLabel": "1.19.1-rc2",
+        "values": [
+          {
+            "key": "com.mojang:authlib",
+            "previous": "3.10.48",
+            "current": "3.11.49"
+          }
+        ]
+      }
+    }
+  ],
+  "translations": [
+    {
+      "type": "entries",
+      "value": {
+        "name": "Keys",
+        "differences": {
+          "added": [
+            "gui.chatReport.send.comments_too_long: Please shorten the comment",
+            "gui.chatReport.send.too_many_messages: Trying to include too many messages in the report",
+            "multiplayer.unsecureserver.toast.title: Chat messages can't be verified",
+            "multiplayer.unsecureserver.toast: Messages sent on this server may be modified and might not reflect the original message"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "text",
+      "value": {
+        "title": "Changes",
+        "values": [
+          {
+            "key": "options.chatPreview.live",
+            "previous": "On Modified",
+            "current": "While Typing"
+          },
+          {
+            "key": "options.chatPreview.confirm",
+            "previous": "On Send",
+            "current": "When Sending"
+          }
+        ]
+      }
+    }
+  ],
+  "mappings": [
+    {
+      "type": "title",
+      "value": {
+        "title": "Server",
+        "id": "server-mappings",
+        "size": 2
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "Changes",
+        "lines": [
+          "XXX.network.chat.SignedMessageValidator \u001b[2;32m+2M\u001b[0m \u001b[2;31m-2M\u001b[0m | \u001b[2;31m-1P\u001b[0m",
+          "XXX.protocol.game.ClientboundServerDataPacket \u001b[2;32m+2M\u001b[0m \u001b[2;31m-1M\u001b[0m | \u001b[2;32m+1P\u001b[0m",
+          "XXX.protocol.status.ServerStatus \u001b[2;32m+2M\u001b[0m | \u001b[2;32m+1P\u001b[0m"
+        ]
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.network.chat.SignedMessageValidator",
+        "differences": {
+          "added": [
+            "SignedMessageValidator create(ProfilePublicKey)",
+            "void <clinit>()"
+          ],
+          "removed": [
+            "SignedMessageValidator alwaysReturn(SignedMessageValidator$State)",
+            "SignedMessageValidator create(ProfilePublicKey,boolean)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.network.protocol.game.ClientboundServerDataPacket",
+        "differences": {
+          "added": [
+            "void <init>(Component,String,boolean)"
+          ],
+          "removed": [
+            "void <init>(Component,String,boolean,boolean)",
+            "boolean enforcesSecureChat()"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.network.protocol.status.ServerStatus",
+        "differences": {
+          "added": [],
+          "removed": [
+            "void setEnforcesSecureChat(boolean)",
+            "boolean enforcesSecureChat()"
+          ]
+        }
+      }
+    },
+    {
+      "type": "title",
+      "value": {
+        "title": "Client",
+        "id": "client-mappings",
+        "size": 2
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "Changes",
+        "lines": [
+          "XXX.gui.components.ChatComponent \u001b[2;31m-1M\u001b[0m",
+          "XXX.components.toasts.SystemToast$SystemToastIds \u001b[2;32m+1P\u001b[0m",
+          "XXX.client.multiplayer.ClientPacketListener \u001b[2;32m+2P\u001b[0m",
+          "XXX.network.chat.SignedMessageValidator$1 \u001b[2;32m+1M\u001b[0m \u001b[2;31m-1M\u001b[0m | \u001b[2;32m+1P\u001b[0m"
+        ]
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.client.gui.components.ChatComponent",
+        "differences": {
+          "added": [
+            "void addMessage(Component,GuiMessageTag)"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.network.chat.SignedMessageValidator$1",
+        "differences": {
+          "added": [
+            "void <init>()"
+          ],
+          "removed": [
+            "void <init>(SignedMessageValidator$State)"
+          ]
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "config": {
+    "state_provider": {
+      "fallback": {
+        "state": {
+          "Name": "minecraft:clay"
+        },
+        "type": "minecraft:simple_state_provider"
+      },
+      "rules": []
+    },
+    "target": {
+      "blocks": [
+        "minecraft:dirt",
+        "minecraft:clay"
+      ],
+      "type": "minecraft:matching_blocks"
+    },
+    "radius": {
+      "type": "minecraft:uniform",
+      "value": {
+        "min_inclusive": 2,
+        "max_inclusive": 3
+      }
+    },
+    "half_height": 1
+  },
+  "type": "minecraft:disk"
+}

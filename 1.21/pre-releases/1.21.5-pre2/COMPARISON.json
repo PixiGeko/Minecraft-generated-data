@@ -1,0 +1,80 @@
+{
+  "version_data": [
+    {
+      "type": "table",
+      "value": {
+        "previousLabel": "1.21.5-pre1",
+        "currentLabel": "1.21.5-pre2",
+        "values": [
+          {
+            "key": "DataPack version",
+            "previous": "70",
+            "current": "71"
+          },
+          {
+            "key": "World version",
+            "previous": "4320",
+            "current": "4321"
+          },
+          {
+            "key": "Protocol version",
+            "previous": "1073742063",
+            "current": "1073742064"
+          }
+        ]
+      }
+    }
+  ],
+  "mappings": [
+    {
+      "type": "title",
+      "value": {
+        "title": "Server",
+        "id": "server-mappings",
+        "size": 2
+      }
+    },
+    {
+      "type": "title",
+      "value": {
+        "title": "Client",
+        "id": "client-mappings",
+        "size": 2
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "Changes",
+        "lines": [
+          "XXX.blaze3d.systems.RenderSystem \u001b[2;32m+1M\u001b[0m \u001b[2;31m-1M\u001b[0m",
+          "XXX.client.renderer.SkyRenderer \u001b[2;32m+1P\u001b[0m"
+        ]
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "com.mojang.blaze3d.systems.RenderSystem",
+        "differences": {
+          "added": [
+            "String lambda$getQuadVertexBuffer$2()"
+          ],
+          "removed": [
+            "String lambda$initRenderer$2()"
+          ]
+        }
+      }
+    }
+  ],
+  "custom": [
+    {
+      "type": "title",
+      "value": {
+        "title": "datapacks.json",
+        "id": "custom-datapacks-json",
+        "size": 2
+      }
+    }
+  ]
+}

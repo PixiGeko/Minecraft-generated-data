@@ -1,0 +1,33 @@
+{
+  "commands": [
+    {
+      "type": "entries",
+      "value": {
+        "name": "list",
+        "differences": {
+          "added": [
+            "list uuids"
+          ],
+          "removed": [
+            "list"
+          ]
+        }
+      }
+    }
+  ],
+  "translations": [
+    {
+      "type": "text",
+      "value": {
+        "title": "Changes",
+        "values": [
+          {
+            "key": "demo.day.6",
+            "previous": "You have passed your fifth day, use {} to save a screenshot of your creation",
+            "current": "You have passed your fifth day, use %s to save a screenshot of your creation"
+          }
+        ]
+      }
+    }
+  ]
+}

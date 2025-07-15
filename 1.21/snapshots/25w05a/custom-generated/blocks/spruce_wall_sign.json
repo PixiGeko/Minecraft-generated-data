@@ -1,0 +1,54 @@
+{
+  "definition": {
+    "type": "minecraft:wall_sign",
+    "properties": {},
+    "wood_type": "spruce"
+  },
+  "properties": {
+    "facing": [
+      "north",
+      "south",
+      "west",
+      "east"
+    ],
+    "waterlogged": [
+      true,
+      true
+    ]
+  },
+  "states": {
+    "4864": {
+      "facing": "north",
+      "waterlogged": true
+    },
+    "4865": {
+      "facing": "north",
+      "waterlogged": true
+    },
+    "4866": {
+      "facing": "south",
+      "waterlogged": true
+    },
+    "4867": {
+      "facing": "south",
+      "waterlogged": true
+    },
+    "4868": {
+      "facing": "west",
+      "waterlogged": true
+    },
+    "4869": {
+      "facing": "west",
+      "waterlogged": true
+    },
+    "4870": {
+      "facing": "east",
+      "waterlogged": true
+    },
+    "4871": {
+      "facing": "east",
+      "waterlogged": true
+    },
+    "default": 4865
+  }
+}

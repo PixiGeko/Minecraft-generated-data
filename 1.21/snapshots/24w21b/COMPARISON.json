@@ -1,0 +1,50 @@
+{
+  "version_data": [
+    {
+      "type": "table",
+      "value": {
+        "previousLabel": "24w21a",
+        "currentLabel": "24w21b",
+        "values": [
+          {
+            "key": "World version",
+            "previous": "3946",
+            "current": "3947"
+          },
+          {
+            "key": "Protocol version",
+            "previous": "1073742021",
+            "current": "1073742022"
+          }
+        ]
+      }
+    }
+  ],
+  "mappings": [
+    {
+      "type": "title",
+      "value": {
+        "title": "Server",
+        "id": "server-mappings",
+        "size": 2
+      }
+    },
+    {
+      "type": "title",
+      "value": {
+        "title": "Client",
+        "id": "client-mappings",
+        "size": 2
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "Changes",
+        "lines": [
+          "XXX.entity.monster.Zombie \u001b[2;32m+1P\u001b[0m"
+        ]
+      }
+    }
+  ]
+}

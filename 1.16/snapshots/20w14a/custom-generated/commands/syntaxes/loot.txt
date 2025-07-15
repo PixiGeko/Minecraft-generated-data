@@ -1,0 +1,56 @@
+loot give <players: entity> fish <loot_table: resource_location> <pos: block_pos> mainhand
+loot give <players: entity> fish <loot_table: resource_location> <pos: block_pos> offhand
+loot give <players: entity> fish <loot_table: resource_location> <pos: block_pos> <tool: item_stack>
+loot give <players: entity> kill <target: entity>
+loot give <players: entity> loot <loot_table: resource_location>
+loot give <players: entity> mine <pos: block_pos> mainhand
+loot give <players: entity> mine <pos: block_pos> offhand
+loot give <players: entity> mine <pos: block_pos> <tool: item_stack>
+loot insert <targetPos: block_pos> fish <loot_table: resource_location> <pos: block_pos> mainhand
+loot insert <targetPos: block_pos> fish <loot_table: resource_location> <pos: block_pos> offhand
+loot insert <targetPos: block_pos> fish <loot_table: resource_location> <pos: block_pos> <tool: item_stack>
+loot insert <targetPos: block_pos> kill <target: entity>
+loot insert <targetPos: block_pos> loot <loot_table: resource_location>
+loot insert <targetPos: block_pos> mine <pos: block_pos> mainhand
+loot insert <targetPos: block_pos> mine <pos: block_pos> offhand
+loot insert <targetPos: block_pos> mine <pos: block_pos> <tool: item_stack>
+loot replace block <targetPos: block_pos> <slot: item_slot> fish <loot_table: resource_location> <pos: block_pos> mainhand
+loot replace block <targetPos: block_pos> <slot: item_slot> fish <loot_table: resource_location> <pos: block_pos> offhand
+loot replace block <targetPos: block_pos> <slot: item_slot> fish <loot_table: resource_location> <pos: block_pos> <tool: item_stack>
+loot replace block <targetPos: block_pos> <slot: item_slot> kill <target: entity>
+loot replace block <targetPos: block_pos> <slot: item_slot> loot <loot_table: resource_location>
+loot replace block <targetPos: block_pos> <slot: item_slot> mine <pos: block_pos> mainhand
+loot replace block <targetPos: block_pos> <slot: item_slot> mine <pos: block_pos> offhand
+loot replace block <targetPos: block_pos> <slot: item_slot> mine <pos: block_pos> <tool: item_stack>
+loot replace block <targetPos: block_pos> <slot: item_slot> <count: integer> fish <loot_table: resource_location> <pos: block_pos> mainhand
+loot replace block <targetPos: block_pos> <slot: item_slot> <count: integer> fish <loot_table: resource_location> <pos: block_pos> offhand
+loot replace block <targetPos: block_pos> <slot: item_slot> <count: integer> fish <loot_table: resource_location> <pos: block_pos> <tool: item_stack>
+loot replace block <targetPos: block_pos> <slot: item_slot> <count: integer> kill <target: entity>
+loot replace block <targetPos: block_pos> <slot: item_slot> <count: integer> loot <loot_table: resource_location>
+loot replace block <targetPos: block_pos> <slot: item_slot> <count: integer> mine <pos: block_pos> mainhand
+loot replace block <targetPos: block_pos> <slot: item_slot> <count: integer> mine <pos: block_pos> offhand
+loot replace block <targetPos: block_pos> <slot: item_slot> <count: integer> mine <pos: block_pos> <tool: item_stack>
+loot replace entity <entities: entity> <slot: item_slot> fish <loot_table: resource_location> <pos: block_pos> mainhand
+loot replace entity <entities: entity> <slot: item_slot> fish <loot_table: resource_location> <pos: block_pos> offhand
+loot replace entity <entities: entity> <slot: item_slot> fish <loot_table: resource_location> <pos: block_pos> <tool: item_stack>
+loot replace entity <entities: entity> <slot: item_slot> kill <target: entity>
+loot replace entity <entities: entity> <slot: item_slot> loot <loot_table: resource_location>
+loot replace entity <entities: entity> <slot: item_slot> mine <pos: block_pos> mainhand
+loot replace entity <entities: entity> <slot: item_slot> mine <pos: block_pos> offhand
+loot replace entity <entities: entity> <slot: item_slot> mine <pos: block_pos> <tool: item_stack>
+loot replace entity <entities: entity> <slot: item_slot> <count: integer> fish <loot_table: resource_location> <pos: block_pos> mainhand
+loot replace entity <entities: entity> <slot: item_slot> <count: integer> fish <loot_table: resource_location> <pos: block_pos> offhand
+loot replace entity <entities: entity> <slot: item_slot> <count: integer> fish <loot_table: resource_location> <pos: block_pos> <tool: item_stack>
+loot replace entity <entities: entity> <slot: item_slot> <count: integer> kill <target: entity>
+loot replace entity <entities: entity> <slot: item_slot> <count: integer> loot <loot_table: resource_location>
+loot replace entity <entities: entity> <slot: item_slot> <count: integer> mine <pos: block_pos> mainhand
+loot replace entity <entities: entity> <slot: item_slot> <count: integer> mine <pos: block_pos> offhand
+loot replace entity <entities: entity> <slot: item_slot> <count: integer> mine <pos: block_pos> <tool: item_stack>
+loot spawn <targetPos: vec3> fish <loot_table: resource_location> <pos: block_pos> mainhand
+loot spawn <targetPos: vec3> fish <loot_table: resource_location> <pos: block_pos> offhand
+loot spawn <targetPos: vec3> fish <loot_table: resource_location> <pos: block_pos> <tool: item_stack>
+loot spawn <targetPos: vec3> kill <target: entity>
+loot spawn <targetPos: vec3> loot <loot_table: resource_location>
+loot spawn <targetPos: vec3> mine <pos: block_pos> mainhand
+loot spawn <targetPos: vec3> mine <pos: block_pos> offhand
+loot spawn <targetPos: vec3> mine <pos: block_pos> <tool: item_stack>

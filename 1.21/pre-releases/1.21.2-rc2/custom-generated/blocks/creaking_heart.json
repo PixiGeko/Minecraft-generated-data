@@ -1,0 +1,57 @@
+{
+  "definition": {
+    "type": "minecraft:creaking_heart",
+    "properties": {}
+  },
+  "properties": {
+    "axis": [
+      "x",
+      "y",
+      "z"
+    ],
+    "creaking": [
+      "disabled",
+      "dormant",
+      "active"
+    ]
+  },
+  "states": {
+    "2917": {
+      "axis": "x",
+      "creaking": "disabled"
+    },
+    "2918": {
+      "axis": "x",
+      "creaking": "dormant"
+    },
+    "2919": {
+      "axis": "x",
+      "creaking": "active"
+    },
+    "2920": {
+      "axis": "y",
+      "creaking": "disabled"
+    },
+    "2921": {
+      "axis": "y",
+      "creaking": "dormant"
+    },
+    "2922": {
+      "axis": "y",
+      "creaking": "active"
+    },
+    "2923": {
+      "axis": "z",
+      "creaking": "disabled"
+    },
+    "2924": {
+      "axis": "z",
+      "creaking": "dormant"
+    },
+    "2925": {
+      "axis": "z",
+      "creaking": "active"
+    },
+    "default": 2920
+  }
+}

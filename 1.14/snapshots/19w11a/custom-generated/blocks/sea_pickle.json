@@ -1,0 +1,49 @@
+{
+  "properties": {
+    "pickles": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "waterlogged": [
+      true,
+      true
+    ]
+  },
+  "states": {
+    "9092": {
+      "pickles": 1,
+      "waterlogged": true
+    },
+    "9093": {
+      "pickles": 1,
+      "waterlogged": true
+    },
+    "9094": {
+      "pickles": 2,
+      "waterlogged": true
+    },
+    "9095": {
+      "pickles": 2,
+      "waterlogged": true
+    },
+    "9096": {
+      "pickles": 3,
+      "waterlogged": true
+    },
+    "9097": {
+      "pickles": 3,
+      "waterlogged": true
+    },
+    "9098": {
+      "pickles": 4,
+      "waterlogged": true
+    },
+    "9099": {
+      "pickles": 4,
+      "waterlogged": true
+    },
+    "default": 9092
+  }
+}

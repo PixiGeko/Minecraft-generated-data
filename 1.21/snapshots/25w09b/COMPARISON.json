@@ -1,0 +1,130 @@
+{
+  "version_data": [
+    {
+      "type": "table",
+      "value": {
+        "previousLabel": "25w09a",
+        "currentLabel": "25w09b",
+        "values": [
+          {
+            "key": "World version",
+            "previous": "4317",
+            "current": "4318"
+          },
+          {
+            "key": "Protocol version",
+            "previous": "1073742060",
+            "current": "1073742061"
+          }
+        ]
+      }
+    }
+  ],
+  "mappings": [
+    {
+      "type": "title",
+      "value": {
+        "title": "Server",
+        "id": "server-mappings",
+        "size": 2
+      }
+    },
+    {
+      "type": "title",
+      "value": {
+        "title": "Client",
+        "id": "client-mappings",
+        "size": 2
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "Changes",
+        "lines": [
+          "XXX.blaze3d.buffers.GpuBuffer \u001b[2;32m+1P\u001b[0m",
+          "XXX.opengl.dsa.CoreDsa \u001b[2;32m+1M\u001b[0m \u001b[2;31m-1M\u001b[0m",
+          "XXX.opengl.dsa.EmulatedDsa \u001b[2;32m+1M\u001b[0m \u001b[2;31m-1M\u001b[0m",
+          "XXX.blaze3d.systems.GpuDevice \u001b[2;32m+1P\u001b[0m",
+          "XXX.blaze3d.systems.RenderSystem \u001b[2;31m-1M\u001b[0m",
+          "XXX.minecraft.client.Minecraft \u001b[2;32m+7M\u001b[0m \u001b[2;31m-6M\u001b[0m"
+        ]
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "com.mojang.blaze3d.opengl.dsa.CoreDsa",
+        "differences": {
+          "added": [
+            "void bindFrameBufferTextures(int,int,int,int)"
+          ],
+          "removed": [
+            "void bindFrameBufferTextures(int,int,int,int,boolean)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "com.mojang.blaze3d.opengl.dsa.EmulatedDsa",
+        "differences": {
+          "added": [
+            "void bindFrameBufferTextures(int,int,int,int)"
+          ],
+          "removed": [
+            "void bindFrameBufferTextures(int,int,int,int,boolean)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "com.mojang.blaze3d.systems.RenderSystem",
+        "differences": {
+          "added": [
+            "String getCapsString()"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.client.Minecraft",
+        "differences": {
+          "added": [
+            "Style lambda$grabPanoramixScreenshot$55(File,Style)",
+            "void lambda$grabPanoramixScreenshot$54(Component)",
+            "CompletionStage lambda$delayTextureReload$53(CompletableFuture)",
+            "String lambda$fillSystemReport$51()",
+            "String lambda$fillSystemReport$50(LanguageManager)",
+            "String lambda$fillSystemReport$48(Minecraft)"
+          ],
+          "removed": [
+            "Style lambda$grabPanoramixScreenshot$56(File,Style)",
+            "void lambda$grabPanoramixScreenshot$55(Component)",
+            "CompletionStage lambda$delayTextureReload$54(CompletableFuture)",
+            "String lambda$fillSystemReport$53()",
+            "String lambda$fillSystemReport$51(LanguageManager)",
+            "String lambda$fillSystemReport$50(Minecraft)",
+            "String lambda$fillSystemReport$48()"
+          ]
+        }
+      }
+    }
+  ],
+  "custom": [
+    {
+      "type": "title",
+      "value": {
+        "title": "datapacks.json",
+        "id": "custom-datapacks-json",
+        "size": 2
+      }
+    }
+  ]
+}

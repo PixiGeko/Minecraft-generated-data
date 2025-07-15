@@ -1,0 +1,186 @@
+{
+  "version_data": [
+    {
+      "type": "table",
+      "value": {
+        "previousLabel": "1.16.2-pre3",
+        "currentLabel": "1.16.2-rc1",
+        "values": [
+          {
+            "key": "World version",
+            "previous": "2575",
+            "current": "2576"
+          },
+          {
+            "key": "Protocol version",
+            "previous": "748",
+            "current": "749"
+          }
+        ]
+      }
+    },
+    {
+      "type": "title",
+      "value": {
+        "title": "Libraries",
+        "id": "version-data-libraries",
+        "size": 3
+      }
+    },
+    {
+      "type": "table",
+      "value": {
+        "title": "Versions",
+        "previousLabel": "1.16.2-pre3",
+        "currentLabel": "1.16.2-rc1",
+        "values": [
+          {
+            "key": "org.lwjgl:lwjgl-glfw",
+            "previous": "3.2.1",
+            "current": "3.2.2"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-glfw",
+            "previous": "3.2.1",
+            "current": "3.2.2"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-jemalloc",
+            "previous": "3.2.1",
+            "current": "3.2.2"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-jemalloc",
+            "previous": "3.2.1",
+            "current": "3.2.2"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-openal",
+            "previous": "3.2.1",
+            "current": "3.2.2"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-openal",
+            "previous": "3.2.1",
+            "current": "3.2.2"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-opengl",
+            "previous": "3.2.1",
+            "current": "3.2.2"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-opengl",
+            "previous": "3.2.1",
+            "current": "3.2.2"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-stb",
+            "previous": "3.2.1",
+            "current": "3.2.2"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-stb",
+            "previous": "3.2.1",
+            "current": "3.2.2"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-tinyfd",
+            "previous": "3.2.1",
+            "current": "3.2.2"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-tinyfd",
+            "previous": "3.2.1",
+            "current": "3.2.2"
+          },
+          {
+            "key": "org.lwjgl:lwjgl",
+            "previous": "3.2.1",
+            "current": "3.2.2"
+          },
+          {
+            "key": "org.lwjgl:lwjgl",
+            "previous": "3.2.1",
+            "current": "3.2.2"
+          }
+        ]
+      }
+    }
+  ],
+  "mappings": [
+    {
+      "type": "title",
+      "value": {
+        "title": "Server",
+        "id": "server-mappings",
+        "size": 2
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "Changes",
+        "lines": [
+          "XXX.levelgen.carver.ConfiguredWorldCarver \u001b[2;32m+1P\u001b[0m",
+          "XXX.levelgen.feature.ConfiguredStructureFeature \u001b[2;32m+1P\u001b[0m"
+        ]
+      }
+    },
+    {
+      "type": "title",
+      "value": {
+        "title": "Client",
+        "id": "client-mappings",
+        "size": 2
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "Changes",
+        "lines": [
+          "XXX.minecraft.client.Minecraft \u001b[2;32m+2M\u001b[0m \u001b[2;31m-1M\u001b[0m",
+          "XXX.gui.screens.PresetFlatWorldScreen \u001b[2;32m+5M\u001b[0m \u001b[2;31m-3M\u001b[0m",
+          "XXX.levelgen.carver.ConfiguredWorldCarver \u001b[2;32m+1P\u001b[0m",
+          "XXX.levelgen.feature.ConfiguredStructureFeature \u001b[2;32m+1P\u001b[0m"
+        ]
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.client.Minecraft",
+        "differences": {
+          "added": [
+            "void lambda$rollbackResourcePacks$3(Component)"
+          ],
+          "removed": [
+            "void clearResourcePacksOnError(Throwable,Component)",
+            "void lambda$clearResourcePacksOnError$3(Component)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.client.gui.screens.PresetFlatWorldScreen",
+        "differences": {
+          "added": [
+            "FlatLevelGeneratorSettings lambda$preset$3(List,boolean,boolean,boolean,FlatLayerInfo[],ResourceKey,Registry)",
+            "void lambda$init$2(Button)",
+            "void lambda$init$1(Registry,Button)"
+          ],
+          "removed": [
+            "FlatLevelGeneratorSettings lambda$preset$5(List,boolean,boolean,boolean,FlatLayerInfo[],ResourceKey,Registry)",
+            "Biome lambda$null$4(Registry,ResourceKey)",
+            "void lambda$init$3(Button)",
+            "void lambda$init$2(Registry,Button)",
+            "Biome lambda$fromString$1(Registry,ResourceKey)"
+          ]
+        }
+      }
+    }
+  ]
+}

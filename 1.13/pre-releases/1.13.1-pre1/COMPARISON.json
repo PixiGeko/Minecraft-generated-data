@@ -1,0 +1,82 @@
+{
+  "commands": [
+    {
+      "type": "entries",
+      "value": {
+        "name": "🗒️ List",
+        "differences": {
+          "added": [
+            "forceload.txt"
+          ],
+          "removed": [
+            "chunk.txt"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "execute",
+        "differences": {
+          "added": [
+            "execute in <dimension: dimension>"
+          ],
+          "removed": [
+            "execute in <dimension>"
+          ]
+        }
+      }
+    }
+  ],
+  "translations": [
+    {
+      "type": "entries",
+      "value": {
+        "name": "Keys",
+        "differences": {
+          "added": [
+            "commands.forceload.added.failure: No chunks were marked for force loading",
+            "commands.forceload.added.single: Marked chunk %s in %s to be force loaded",
+            "commands.forceload.added.multiple: Marked %s chunks in %s from %s to %s to be force loaded",
+            "commands.forceload.query.success: Chunk at %s in %s is marked for force loading",
+            "commands.forceload.query.failure: Chunk at %s in %s is not marked for force loading",
+            "commands.forceload.list.single: A force loaded chunk was found in %s at: %s",
+            "commands.forceload.list.multiple: %s force loaded chunks were found in %s at: %s",
+            "commands.forceload.added.none: No force loaded chunks were found in %s",
+            "commands.forceload.removed.all: Unmarked all force loaded chunks in %s",
+            "commands.forceload.removed.failure: No chunks were removed from force loading",
+            "commands.forceload.removed.single: Unmarked chunk %s in %s for force loading",
+            "commands.forceload.removed.multiple: Unmarked %s chunks in %s from %s to %s for force loading",
+            "commands.forceload.toobig: Too many chunks in the specified area (maximum %s, specified %s)",
+            "argument.pos2d.incomplete: Incomplete (expected 2 coordinates)",
+            "argument.pos3d.incomplete: Incomplete (expected 3 coordinates)"
+          ],
+          "removed": [
+            "commands.chunk.forced: Marked chunk (%s, %s) as force loaded",
+            "commands.chunk.unforced: Marked chunk (%s, %s) as not force loaded",
+            "commands.chunk.not.forced: Could not mark chunk (%s, %s) as force loaded, already so",
+            "commands.chunk.not.unforced: Could not mark chunk (%s, %s) as not force loaded, already so",
+            "argument.vec2.incomplete: Incomplete (expected 2 coordinates)",
+            "argument.pos.incomplete: Incomplete (expected 3 coordinates)"
+          ]
+        }
+      }
+    }
+  ],
+  "misc": [
+    {
+      "type": "entries",
+      "value": {
+        "name": "parsers",
+        "differences": {
+          "added": [
+            "minecraft:dimension",
+            "minecraft:column_pos"
+          ],
+          "removed": []
+        }
+      }
+    }
+  ]
+}

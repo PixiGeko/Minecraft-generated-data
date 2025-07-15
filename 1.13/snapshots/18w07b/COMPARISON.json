@@ -1,0 +1,68 @@
+{
+  "translations": [
+    {
+      "type": "entries",
+      "value": {
+        "name": "Keys",
+        "differences": {
+          "added": [
+            "item.minecraft.scute: Scute"
+          ],
+          "removed": [
+            "item.minecraft.turtle_shell_piece: Turtle Shell Piece"
+          ]
+        }
+      }
+    },
+    {
+      "type": "text",
+      "value": {
+        "title": "Changes",
+        "values": [
+          {
+            "key": "item.minecraft.lingering_potion.effect.turtle_master",
+            "previous": "Potion of the Turtle Master",
+            "current": "Lingering Potion of the Turtle Master"
+          }
+        ]
+      }
+    }
+  ],
+  "file_structure": [
+    {
+      "type": "entries",
+      "value": {
+        "name": "data",
+        "differences": {
+          "added": [
+            "minecraft/tags/blocks/rails.json",
+            "minecraft/tags/blocks/sand.json",
+            "minecraft/tags/blocks/waterlogged.json",
+            "minecraft/tags/items/anvil.json",
+            "minecraft/tags/items/rails.json",
+            "minecraft/tags/items/sand.json",
+            "minecraft/tags/items/slabs.json",
+            "minecraft/tags/items/stairs.json"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "assets",
+        "differences": {
+          "added": [
+            "minecraft/models/item/scute.json",
+            "minecraft/textures/items/scute.png"
+          ],
+          "removed": [
+            "minecraft/models/item/turtle_shell_piece.json",
+            "minecraft/textures/items/turtle_shell_piece.png"
+          ]
+        }
+      }
+    }
+  ]
+}

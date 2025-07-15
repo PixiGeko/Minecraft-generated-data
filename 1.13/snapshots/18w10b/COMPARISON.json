@@ -1,0 +1,155 @@
+{
+  "blocks": [
+    {
+      "type": "entries",
+      "value": {
+        "name": "🗒️ List",
+        "differences": {
+          "added": [
+            "blue_dead_coral.json",
+            "pink_dead_coral.json",
+            "purple_dead_coral.json",
+            "red_dead_coral.json",
+            "shulker_box.json",
+            "yellow_dead_coral.json"
+          ],
+          "removed": [
+            "dead_coral.json"
+          ]
+        }
+      }
+    }
+  ],
+  "recipes": [
+    {
+      "type": "entries",
+      "value": {
+        "name": "🗒️ List",
+        "differences": {
+          "added": [
+            "shulker_box.json"
+          ],
+          "removed": [
+            "purple_shulker_box.json"
+          ]
+        }
+      }
+    }
+  ],
+  "translations": [
+    {
+      "type": "entries",
+      "value": {
+        "name": "Keys",
+        "differences": {
+          "added": [
+            "block.minecraft.shulker_box: Shulker Box",
+            "block.minecraft.blue_dead_coral: Blue Dead Coral",
+            "block.minecraft.pink_dead_coral: Pink Dead Coral",
+            "block.minecraft.purple_dead_coral: Purple Dead Coral",
+            "block.minecraft.red_dead_coral: Red Dead Coral",
+            "block.minecraft.yellow_dead_coral: Yellow Dead Coral",
+            "block.minecraft.blue_coral_plant: Blue Coral Plant",
+            "block.minecraft.pink_coral_plant: Pink Coral Plant",
+            "block.minecraft.purple_coral_plant: Purple Coral Plant",
+            "block.minecraft.red_coral_plant: Red Coral Plant",
+            "block.minecraft.yellow_coral_plant: Yellow Coral Plant"
+          ],
+          "removed": [
+            "block.minecraft.dead_coral: Dead coral"
+          ]
+        }
+      }
+    },
+    {
+      "type": "text",
+      "value": {
+        "title": "Changes",
+        "values": [
+          {
+            "key": "block.minecraft.blue_coral",
+            "previous": "Blue coral",
+            "current": "Blue Coral"
+          },
+          {
+            "key": "block.minecraft.pink_coral",
+            "previous": "Pink coral",
+            "current": "Pink Coral"
+          },
+          {
+            "key": "block.minecraft.purple_coral",
+            "previous": "Purple coral",
+            "current": "Purple Coral"
+          },
+          {
+            "key": "block.minecraft.red_coral",
+            "previous": "Red coral",
+            "current": "Red Coral"
+          },
+          {
+            "key": "block.minecraft.yellow_coral",
+            "previous": "Yellow coral",
+            "current": "Yellow Coral"
+          }
+        ]
+      }
+    }
+  ],
+  "file_structure": [
+    {
+      "type": "entries",
+      "value": {
+        "name": "data",
+        "differences": {
+          "added": [
+            "minecraft/advancements/recipes/decorations/shulker_box.json",
+            "minecraft/recipes/shulker_box.json"
+          ],
+          "removed": [
+            "minecraft/advancements/recipes/decorations/purple_shulker_box.json",
+            "minecraft/recipes/purple_shulker_box.json"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "assets",
+        "differences": {
+          "added": [
+            "minecraft/blockstates/blue_dead_coral.json",
+            "minecraft/blockstates/pink_dead_coral.json",
+            "minecraft/blockstates/purple_dead_coral.json",
+            "minecraft/blockstates/red_dead_coral.json",
+            "minecraft/blockstates/yellow_dead_coral.json",
+            "minecraft/models/block/blue_dead_coral.json",
+            "minecraft/models/block/pink_dead_coral.json",
+            "minecraft/models/block/purple_dead_coral.json",
+            "minecraft/models/block/red_dead_coral.json",
+            "minecraft/models/block/yellow_dead_coral.json",
+            "minecraft/models/item/blue_dead_coral.json",
+            "minecraft/models/item/pink_dead_coral.json",
+            "minecraft/models/item/purple_dead_coral.json",
+            "minecraft/models/item/red_dead_coral.json",
+            "minecraft/models/item/shulker_box.json",
+            "minecraft/models/item/yellow_dead_coral.json",
+            "minecraft/textures/blocks/blue_dead_coral.png",
+            "minecraft/textures/blocks/pink_dead_coral.png",
+            "minecraft/textures/blocks/purple_dead_coral.png",
+            "minecraft/textures/blocks/red_dead_coral.png",
+            "minecraft/textures/blocks/shulker_top.png",
+            "minecraft/textures/blocks/yellow_dead_coral.png",
+            "minecraft/textures/entity/shulker/shulker.png"
+          ],
+          "removed": [
+            "minecraft/blockstates/dead_coral.json",
+            "minecraft/models/block/dead_coral.json",
+            "minecraft/models/item/dead_coral.json",
+            "minecraft/textures/blocks/dead_coral.png"
+          ]
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "version_data": [
+    {
+      "type": "table",
+      "value": {
+        "previousLabel": "23w43a",
+        "currentLabel": "23w43b",
+        "values": [
+          {
+            "key": "World version",
+            "previous": "3686",
+            "current": "3687"
+          },
+          {
+            "key": "Protocol version",
+            "previous": "1073741983",
+            "current": "1073741984"
+          }
+        ]
+      }
+    }
+  ],
+  "translations": [
+    {
+      "type": "entries",
+      "value": {
+        "name": "Keys",
+        "differences": {
+          "added": [
+            "mco.notification.transferSubscription.buttonText: Transfer Now",
+            "mco.notification.transferSubscription.message: Java Realms subscriptions are moving to the Microsoft Store. Do not let your subscription expire!\nTransfer now and get 30 days of Realms for free.\nGo to Profile on minecraft.net to transfer your subscription."
+          ],
+          "removed": []
+        }
+      }
+    }
+  ],
+  "mappings": [
+    {
+      "type": "title",
+      "value": {
+        "title": "Server",
+        "id": "server-mappings",
+        "size": 2
+      }
+    },
+    {
+      "type": "title",
+      "value": {
+        "title": "Client",
+        "id": "client-mappings",
+        "size": 2
+      }
+    }
+  ]
+}

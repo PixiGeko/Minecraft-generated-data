@@ -1,0 +1,187 @@
+{
+  "definition": {
+    "type": "minecraft:vault",
+    "properties": {}
+  },
+  "properties": {
+    "facing": [
+      "north",
+      "south",
+      "west",
+      "east"
+    ],
+    "ominous": [
+      true,
+      true
+    ],
+    "vault_state": [
+      "inactive",
+      "active",
+      "unlocking",
+      "ejecting"
+    ]
+  },
+  "states": {
+    "27706": {
+      "facing": "north",
+      "ominous": true,
+      "vault_state": "inactive"
+    },
+    "27707": {
+      "facing": "north",
+      "ominous": true,
+      "vault_state": "active"
+    },
+    "27708": {
+      "facing": "north",
+      "ominous": true,
+      "vault_state": "unlocking"
+    },
+    "27709": {
+      "facing": "north",
+      "ominous": true,
+      "vault_state": "ejecting"
+    },
+    "27710": {
+      "facing": "north",
+      "ominous": true,
+      "vault_state": "inactive"
+    },
+    "27711": {
+      "facing": "north",
+      "ominous": true,
+      "vault_state": "active"
+    },
+    "27712": {
+      "facing": "north",
+      "ominous": true,
+      "vault_state": "unlocking"
+    },
+    "27713": {
+      "facing": "north",
+      "ominous": true,
+      "vault_state": "ejecting"
+    },
+    "27714": {
+      "facing": "south",
+      "ominous": true,
+      "vault_state": "inactive"
+    },
+    "27715": {
+      "facing": "south",
+      "ominous": true,
+      "vault_state": "active"
+    },
+    "27716": {
+      "facing": "south",
+      "ominous": true,
+      "vault_state": "unlocking"
+    },
+    "27717": {
+      "facing": "south",
+      "ominous": true,
+      "vault_state": "ejecting"
+    },
+    "27718": {
+      "facing": "south",
+      "ominous": true,
+      "vault_state": "inactive"
+    },
+    "27719": {
+      "facing": "south",
+      "ominous": true,
+      "vault_state": "active"
+    },
+    "27720": {
+      "facing": "south",
+      "ominous": true,
+      "vault_state": "unlocking"
+    },
+    "27721": {
+      "facing": "south",
+      "ominous": true,
+      "vault_state": "ejecting"
+    },
+    "27722": {
+      "facing": "west",
+      "ominous": true,
+      "vault_state": "inactive"
+    },
+    "27723": {
+      "facing": "west",
+      "ominous": true,
+      "vault_state": "active"
+    },
+    "27724": {
+      "facing": "west",
+      "ominous": true,
+      "vault_state": "unlocking"
+    },
+    "27725": {
+      "facing": "west",
+      "ominous": true,
+      "vault_state": "ejecting"
+    },
+    "27726": {
+      "facing": "west",
+      "ominous": true,
+      "vault_state": "inactive"
+    },
+    "27727": {
+      "facing": "west",
+      "ominous": true,
+      "vault_state": "active"
+    },
+    "27728": {
+      "facing": "west",
+      "ominous": true,
+      "vault_state": "unlocking"
+    },
+    "27729": {
+      "facing": "west",
+      "ominous": true,
+      "vault_state": "ejecting"
+    },
+    "27730": {
+      "facing": "east",
+      "ominous": true,
+      "vault_state": "inactive"
+    },
+    "27731": {
+      "facing": "east",
+      "ominous": true,
+      "vault_state": "active"
+    },
+    "27732": {
+      "facing": "east",
+      "ominous": true,
+      "vault_state": "unlocking"
+    },
+    "27733": {
+      "facing": "east",
+      "ominous": true,
+      "vault_state": "ejecting"
+    },
+    "27734": {
+      "facing": "east",
+      "ominous": true,
+      "vault_state": "inactive"
+    },
+    "27735": {
+      "facing": "east",
+      "ominous": true,
+      "vault_state": "active"
+    },
+    "27736": {
+      "facing": "east",
+      "ominous": true,
+      "vault_state": "unlocking"
+    },
+    "27737": {
+      "facing": "east",
+      "ominous": true,
+      "vault_state": "ejecting"
+    },
+    "default": 27710
+  }
+}

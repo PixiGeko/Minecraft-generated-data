@@ -1,0 +1,104 @@
+{
+  "blocks": [
+    {
+      "type": "entries",
+      "value": {
+        "name": "🗒️ List",
+        "differences": {
+          "added": [
+            "jigsaw.json",
+            "lantern.json"
+          ],
+          "removed": []
+        }
+      }
+    }
+  ],
+  "recipes": [
+    {
+      "type": "entries",
+      "value": {
+        "name": "🗒️ List",
+        "differences": {
+          "added": [
+            "lantern.json"
+          ],
+          "removed": []
+        }
+      }
+    }
+  ],
+  "translations": [
+    {
+      "type": "entries",
+      "value": {
+        "name": "Keys",
+        "differences": {
+          "added": [
+            "block.minecraft.jigsaw: Jigsaw block",
+            "block.minecraft.lantern: Lantern",
+            "jigsaw_block.target_pool: Target pool:",
+            "jigsaw_block.attachement_type: Attachment type:",
+            "jigsaw_block.final_state: Turns into:"
+          ],
+          "removed": []
+        }
+      }
+    }
+  ],
+  "file_structure": [
+    {
+      "type": "entries",
+      "value": {
+        "name": "data",
+        "differences": {
+          "added": [
+            "minecraft/advancements/recipes/decorations/lantern.json",
+            "minecraft/loot_tables/blocks/lantern.json",
+            "minecraft/loot_tables/entities/illusioner.json",
+            "minecraft/loot_tables/entities/mooshroom.json",
+            "minecraft/loot_tables/entities/pillager.json",
+            "minecraft/recipes/lantern.json",
+            "minecraft/tags/blocks/fences.json",
+            "minecraft/tags/items/fences.json"
+          ],
+          "removed": [
+            "minecraft/loot_tables/entities/mushroom_cow.json"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "assets",
+        "differences": {
+          "added": [
+            "minecraft/blockstates/jigsaw.json",
+            "minecraft/blockstates/lantern.json",
+            "minecraft/models/block/hanging_lantern.json",
+            "minecraft/models/block/jigsaw.json",
+            "minecraft/models/block/lantern.json",
+            "minecraft/models/item/jigsaw.json",
+            "minecraft/models/item/lantern.json",
+            "minecraft/textures/block/cartography_table_side1.png",
+            "minecraft/textures/block/cartography_table_side2.png",
+            "minecraft/textures/block/cartography_table_side3.png",
+            "minecraft/textures/block/jigsaw_bottom.png",
+            "minecraft/textures/block/jigsaw_side.png",
+            "minecraft/textures/block/jigsaw_top.png",
+            "minecraft/textures/block/lantern.png",
+            "minecraft/textures/block/lantern.png.mcmeta",
+            "minecraft/textures/block/smithing_table_bottom.png",
+            "minecraft/textures/block/stonecutter_saw.png.mcmeta",
+            "minecraft/textures/item/lantern.png"
+          ],
+          "removed": [
+            "minecraft/textures/block/cartography_table_front.png",
+            "minecraft/textures/block/cartography_table_side.png"
+          ]
+        }
+      }
+    }
+  ]
+}

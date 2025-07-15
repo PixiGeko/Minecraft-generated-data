@@ -1,0 +1,408 @@
+{
+  "version_data": [
+    {
+      "type": "table",
+      "value": {
+        "previousLabel": "1.16.2-pre2",
+        "currentLabel": "1.16.2-pre3",
+        "values": [
+          {
+            "key": "World version",
+            "previous": "2574",
+            "current": "2575"
+          },
+          {
+            "key": "Protocol version",
+            "previous": "746",
+            "current": "748"
+          }
+        ]
+      }
+    },
+    {
+      "type": "title",
+      "value": {
+        "title": "Libraries",
+        "id": "version-data-libraries",
+        "size": 3
+      }
+    },
+    {
+      "type": "table",
+      "value": {
+        "title": "Versions",
+        "previousLabel": "1.16.2-pre2",
+        "currentLabel": "1.16.2-pre3",
+        "values": [
+          {
+            "key": "org.lwjgl:lwjgl-glfw",
+            "previous": "3.2.1",
+            "current": "3.2.2"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-glfw",
+            "previous": "3.2.1",
+            "current": "3.2.2"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-jemalloc",
+            "previous": "3.2.1",
+            "current": "3.2.2"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-jemalloc",
+            "previous": "3.2.1",
+            "current": "3.2.2"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-openal",
+            "previous": "3.2.1",
+            "current": "3.2.2"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-openal",
+            "previous": "3.2.1",
+            "current": "3.2.2"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-opengl",
+            "previous": "3.2.1",
+            "current": "3.2.2"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-opengl",
+            "previous": "3.2.1",
+            "current": "3.2.2"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-stb",
+            "previous": "3.2.1",
+            "current": "3.2.2"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-stb",
+            "previous": "3.2.1",
+            "current": "3.2.2"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-tinyfd",
+            "previous": "3.2.1",
+            "current": "3.2.2"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-tinyfd",
+            "previous": "3.2.1",
+            "current": "3.2.2"
+          },
+          {
+            "key": "org.lwjgl:lwjgl",
+            "previous": "3.2.1",
+            "current": "3.2.2"
+          },
+          {
+            "key": "org.lwjgl:lwjgl",
+            "previous": "3.2.1",
+            "current": "3.2.2"
+          }
+        ]
+      }
+    }
+  ],
+  "mappings": [
+    {
+      "type": "title",
+      "value": {
+        "title": "Server",
+        "id": "server-mappings",
+        "size": 2
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "Changes",
+        "lines": [
+          "XXX.minecraft.server.MinecraftServer \u001b[2;32m+9M\u001b[0m \u001b[2;31m-11M\u001b[0m",
+          "XXX.world.entity.Entity \u001b[2;32m+1M\u001b[0m",
+          "XXX.entity.animal.Wolf \u001b[2;32m+1M\u001b[0m",
+          "XXX.entity.decoration.ArmorStand \u001b[2;32m+2M\u001b[0m | \u001b[2;32m+2P\u001b[0m",
+          "XXX.world.level.Level \u001b[2;32m+1M\u001b[0m \u001b[2;31m-2M\u001b[0m | \u001b[2;31m-1P\u001b[0m",
+          "XXX.level.levelgen.DebugLevelSource \u001b[2;32m+3M\u001b[0m \u001b[2;31m-3M\u001b[0m | \u001b[2;32m+1P\u001b[0m \u001b[2;31m-1P\u001b[0m"
+        ]
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.server.MinecraftServer",
+        "differences": {
+          "added": [
+            "boolean lambda$getSelectedPacks$13(Collection,String)",
+            "void lambda$reloadResources$12(Collection,ServerResources)",
+            "CompletionStage lambda$reloadResources$11(ImmutableList)",
+            "ImmutableList lambda$reloadResources$10(Collection)",
+            "String lambda$fillReport$9()",
+            "String lambda$fillReport$8()",
+            "String lambda$tickChildren$6(ServerLevel)",
+            "boolean lambda$waitUntilNextTick$5()",
+            "boolean lambda$setInitialSpawn$4(Biome)",
+            "IllegalStateException lambda$createLevels$3(DimensionType)",
+            "IllegalStateException lambda$createLevels$2(DimensionType)"
+          ],
+          "removed": [
+            "boolean lambda$getSelectedPacks$11(Collection,String)",
+            "void lambda$reloadResources$10(Collection,ServerResources)",
+            "CompletionStage lambda$reloadResources$9(ImmutableList)",
+            "ImmutableList lambda$reloadResources$8(Collection)",
+            "String lambda$fillReport$6()",
+            "String lambda$fillReport$5()",
+            "String lambda$tickChildren$4(ServerLevel)",
+            "boolean lambda$waitUntilNextTick$3()",
+            "boolean lambda$setInitialSpawn$2(Biome)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.entity.Entity",
+        "differences": {
+          "added": [],
+          "removed": [
+            "Vec3 getLightProbePosition(float)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.entity.animal.Wolf",
+        "differences": {
+          "added": [],
+          "removed": [
+            "void cancelShake()"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.entity.decoration.ArmorStand",
+        "differences": {
+          "added": [],
+          "removed": [
+            "EntityDimensions getDimensionsMarker(boolean)",
+            "Vec3 getLightProbePosition(float)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.level.Level",
+        "differences": {
+          "added": [
+            "void <init>(WritableLevelData,ResourceKey,ResourceKey,DimensionType,Supplier,boolean,boolean,long)",
+            "ResourceKey dimensionTypeKey()"
+          ],
+          "removed": [
+            "void <init>(WritableLevelData,ResourceKey,DimensionType,Supplier,boolean,boolean,long)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.level.levelgen.DebugLevelSource",
+        "differences": {
+          "added": [
+            "void <init>()",
+            "Stream lambda$static$1(Block)",
+            "DebugLevelSource lambda$static$0()"
+          ],
+          "removed": [
+            "void <init>(Registry)",
+            "Registry biomes()",
+            "Stream lambda$static$0(Block)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "title",
+      "value": {
+        "title": "Client",
+        "id": "client-mappings",
+        "size": 2
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "Changes",
+        "lines": [
+          "XXX.mojang.realmsclient.RealmsMainScreen$5 \u001b[2;32m+1M\u001b[0m \u001b[2;31m-1M\u001b[0m",
+          "XXX.client.multiplayer.ClientPacketListener \u001b[2;32m+10M\u001b[0m \u001b[2;31m-9M\u001b[0m",
+          "XXX.minecraft.server.MinecraftServer \u001b[2;32m+9M\u001b[0m \u001b[2;31m-11M\u001b[0m",
+          "XXX.world.entity.Entity \u001b[2;32m+1M\u001b[0m",
+          "XXX.entity.animal.Wolf \u001b[2;32m+1M\u001b[0m",
+          "XXX.entity.decoration.ArmorStand \u001b[2;32m+2M\u001b[0m | \u001b[2;32m+2P\u001b[0m",
+          "XXX.world.level.Level \u001b[2;32m+1M\u001b[0m \u001b[2;31m-2M\u001b[0m | \u001b[2;31m-1P\u001b[0m",
+          "XXX.level.levelgen.DebugLevelSource \u001b[2;32m+3M\u001b[0m \u001b[2;31m-3M\u001b[0m | \u001b[2;32m+1P\u001b[0m \u001b[2;31m-1P\u001b[0m"
+        ]
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "com.mojang.realmsclient.RealmsMainScreen$5",
+        "differences": {
+          "added": [
+            "boolean lambda$run$0(RealmsMainScreen$Entry)"
+          ],
+          "removed": [
+            "void lambda$run$0(RealmsServer)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.client.multiplayer.ClientPacketListener",
+        "differences": {
+          "added": [
+            "void lambda$handlePlaceRecipe$8(AbstractContainerMenu,Recipe)",
+            "Void lambda$downloadCallback$7(Throwable)",
+            "void lambda$downloadCallback$6()",
+            "void lambda$handleResourcePack$5(String,String)",
+            "void lambda$null$4(String,String,boolean)",
+            "void lambda$handleAddOrRemoveRecipes$3(ClientRecipeBook,RecipeCollection)",
+            "void lambda$handleAddOrRemoveRecipes$2(ClientRecipeBook,Recipe)",
+            "void lambda$handleGameEvent$1()",
+            "void lambda$handleSetEquipment$0(Entity,Pair)"
+          ],
+          "removed": [
+            "void lambda$handlePlaceRecipe$9(AbstractContainerMenu,Recipe)",
+            "Void lambda$downloadCallback$8(Throwable)",
+            "void lambda$downloadCallback$7()",
+            "void lambda$handleResourcePack$6(String,String)",
+            "void lambda$null$5(String,String,boolean)",
+            "void lambda$handleAddOrRemoveRecipes$4(ClientRecipeBook,RecipeCollection)",
+            "void lambda$handleAddOrRemoveRecipes$3(ClientRecipeBook,Recipe)",
+            "void lambda$handleGameEvent$2()",
+            "void lambda$handleSetEquipment$1(Entity,Pair)",
+            "void lambda$handleChunkBlocksUpdate$0(int,BlockPos,BlockState)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.server.MinecraftServer",
+        "differences": {
+          "added": [
+            "boolean lambda$getSelectedPacks$13(Collection,String)",
+            "void lambda$reloadResources$12(Collection,ServerResources)",
+            "CompletionStage lambda$reloadResources$11(ImmutableList)",
+            "ImmutableList lambda$reloadResources$10(Collection)",
+            "String lambda$fillReport$9()",
+            "String lambda$fillReport$8()",
+            "String lambda$tickChildren$6(ServerLevel)",
+            "boolean lambda$waitUntilNextTick$5()",
+            "boolean lambda$setInitialSpawn$4(Biome)",
+            "IllegalStateException lambda$createLevels$3(DimensionType)",
+            "IllegalStateException lambda$createLevels$2(DimensionType)"
+          ],
+          "removed": [
+            "boolean lambda$getSelectedPacks$11(Collection,String)",
+            "void lambda$reloadResources$10(Collection,ServerResources)",
+            "CompletionStage lambda$reloadResources$9(ImmutableList)",
+            "ImmutableList lambda$reloadResources$8(Collection)",
+            "String lambda$fillReport$6()",
+            "String lambda$fillReport$5()",
+            "String lambda$tickChildren$4(ServerLevel)",
+            "boolean lambda$waitUntilNextTick$3()",
+            "boolean lambda$setInitialSpawn$2(Biome)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.entity.Entity",
+        "differences": {
+          "added": [],
+          "removed": [
+            "Vec3 getLightProbePosition(float)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.entity.animal.Wolf",
+        "differences": {
+          "added": [],
+          "removed": [
+            "void cancelShake()"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.entity.decoration.ArmorStand",
+        "differences": {
+          "added": [],
+          "removed": [
+            "EntityDimensions getDimensionsMarker(boolean)",
+            "Vec3 getLightProbePosition(float)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.level.Level",
+        "differences": {
+          "added": [
+            "void <init>(WritableLevelData,ResourceKey,ResourceKey,DimensionType,Supplier,boolean,boolean,long)",
+            "ResourceKey dimensionTypeKey()"
+          ],
+          "removed": [
+            "void <init>(WritableLevelData,ResourceKey,DimensionType,Supplier,boolean,boolean,long)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.level.levelgen.DebugLevelSource",
+        "differences": {
+          "added": [
+            "void <init>()",
+            "Stream lambda$static$1(Block)",
+            "DebugLevelSource lambda$static$0()"
+          ],
+          "removed": [
+            "void <init>(Registry)",
+            "Registry biomes()",
+            "Stream lambda$static$0(Block)"
+          ]
+        }
+      }
+    }
+  ]
+}

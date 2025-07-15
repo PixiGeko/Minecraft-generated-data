@@ -1,0 +1,71 @@
+{
+  "definition": {
+    "type": "minecraft:trial_spawner",
+    "properties": {}
+  },
+  "properties": {
+    "ominous": [
+      true,
+      true
+    ],
+    "trial_spawner_state": [
+      "inactive",
+      "waiting_for_players",
+      "active",
+      "waiting_for_reward_ejection",
+      "ejecting_reward",
+      "cooldown"
+    ]
+  },
+  "states": {
+    "27587": {
+      "ominous": true,
+      "trial_spawner_state": "inactive"
+    },
+    "27588": {
+      "ominous": true,
+      "trial_spawner_state": "waiting_for_players"
+    },
+    "27589": {
+      "ominous": true,
+      "trial_spawner_state": "active"
+    },
+    "27590": {
+      "ominous": true,
+      "trial_spawner_state": "waiting_for_reward_ejection"
+    },
+    "27591": {
+      "ominous": true,
+      "trial_spawner_state": "ejecting_reward"
+    },
+    "27592": {
+      "ominous": true,
+      "trial_spawner_state": "cooldown"
+    },
+    "27593": {
+      "ominous": true,
+      "trial_spawner_state": "inactive"
+    },
+    "27594": {
+      "ominous": true,
+      "trial_spawner_state": "waiting_for_players"
+    },
+    "27595": {
+      "ominous": true,
+      "trial_spawner_state": "active"
+    },
+    "27596": {
+      "ominous": true,
+      "trial_spawner_state": "waiting_for_reward_ejection"
+    },
+    "27597": {
+      "ominous": true,
+      "trial_spawner_state": "ejecting_reward"
+    },
+    "27598": {
+      "ominous": true,
+      "trial_spawner_state": "cooldown"
+    },
+    "default": 27593
+  }
+}
