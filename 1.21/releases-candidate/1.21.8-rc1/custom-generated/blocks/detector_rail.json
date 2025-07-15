@@ -1,0 +1,147 @@
+{
+  "definition": {
+    "type": "minecraft:detector_rail",
+    "properties": {}
+  },
+  "properties": {
+    "powered": [
+      true,
+      true
+    ],
+    "shape": [
+      "north_south",
+      "east_west",
+      "ascending_east",
+      "ascending_west",
+      "ascending_north",
+      "ascending_south"
+    ],
+    "waterlogged": [
+      true,
+      true
+    ]
+  },
+  "states": {
+    "2011": {
+      "powered": true,
+      "shape": "north_south",
+      "waterlogged": true
+    },
+    "2012": {
+      "powered": true,
+      "shape": "north_south",
+      "waterlogged": true
+    },
+    "2013": {
+      "powered": true,
+      "shape": "east_west",
+      "waterlogged": true
+    },
+    "2014": {
+      "powered": true,
+      "shape": "east_west",
+      "waterlogged": true
+    },
+    "2015": {
+      "powered": true,
+      "shape": "ascending_east",
+      "waterlogged": true
+    },
+    "2016": {
+      "powered": true,
+      "shape": "ascending_east",
+      "waterlogged": true
+    },
+    "2017": {
+      "powered": true,
+      "shape": "ascending_west",
+      "waterlogged": true
+    },
+    "2018": {
+      "powered": true,
+      "shape": "ascending_west",
+      "waterlogged": true
+    },
+    "2019": {
+      "powered": true,
+      "shape": "ascending_north",
+      "waterlogged": true
+    },
+    "2020": {
+      "powered": true,
+      "shape": "ascending_north",
+      "waterlogged": true
+    },
+    "2021": {
+      "powered": true,
+      "shape": "ascending_south",
+      "waterlogged": true
+    },
+    "2022": {
+      "powered": true,
+      "shape": "ascending_south",
+      "waterlogged": true
+    },
+    "2023": {
+      "powered": true,
+      "shape": "north_south",
+      "waterlogged": true
+    },
+    "2024": {
+      "powered": true,
+      "shape": "north_south",
+      "waterlogged": true
+    },
+    "2025": {
+      "powered": true,
+      "shape": "east_west",
+      "waterlogged": true
+    },
+    "2026": {
+      "powered": true,
+      "shape": "east_west",
+      "waterlogged": true
+    },
+    "2027": {
+      "powered": true,
+      "shape": "ascending_east",
+      "waterlogged": true
+    },
+    "2028": {
+      "powered": true,
+      "shape": "ascending_east",
+      "waterlogged": true
+    },
+    "2029": {
+      "powered": true,
+      "shape": "ascending_west",
+      "waterlogged": true
+    },
+    "2030": {
+      "powered": true,
+      "shape": "ascending_west",
+      "waterlogged": true
+    },
+    "2031": {
+      "powered": true,
+      "shape": "ascending_north",
+      "waterlogged": true
+    },
+    "2032": {
+      "powered": true,
+      "shape": "ascending_north",
+      "waterlogged": true
+    },
+    "2033": {
+      "powered": true,
+      "shape": "ascending_south",
+      "waterlogged": true
+    },
+    "2034": {
+      "powered": true,
+      "shape": "ascending_south",
+      "waterlogged": true
+    },
+    "default": 2024
+  }
+}
