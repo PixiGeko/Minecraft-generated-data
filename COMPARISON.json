@@ -1,0 +1,72 @@
+{
+  "version_data": [
+    {
+      "type": "table",
+      "value": {
+        "previousLabel": "1.21.8-rc1",
+        "currentLabel": "1.21.8",
+        "values": [
+          {
+            "key": "World version",
+            "previous": "4439",
+            "current": "4440"
+          },
+          {
+            "key": "Protocol version",
+            "previous": "1073742083",
+            "current": "772"
+          }
+        ]
+      }
+    }
+  ],
+  "mappings": [
+    {
+      "type": "title",
+      "value": {
+        "title": "Server",
+        "id": "server-mappings",
+        "size": 2
+      }
+    },
+    {
+      "type": "title",
+      "value": {
+        "title": "Client",
+        "id": "client-mappings",
+        "size": 2
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "Changes",
+        "lines": [
+          "XXX.mojang.blaze3d.GraphicsWorkarounds \u001b[2;32m+1M\u001b[0m | \u001b[2;32m+4P\u001b[0m"
+        ]
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "com.mojang.blaze3d.GraphicsWorkarounds",
+        "differences": {
+          "added": [],
+          "removed": [
+            "void <clinit>()"
+          ]
+        }
+      }
+    }
+  ],
+  "custom": [
+    {
+      "type": "title",
+      "value": {
+        "title": "datapacks.json",
+        "id": "custom-datapacks-json",
+        "size": 2
+      }
+    }
+  ]
+}
