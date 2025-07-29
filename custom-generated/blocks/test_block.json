@@ -1,0 +1,29 @@
+{
+  "definition": {
+    "type": "minecraft:test",
+    "properties": {}
+  },
+  "properties": {
+    "mode": [
+      "start",
+      "log",
+      "fail",
+      "accept"
+    ]
+  },
+  "states": {
+    "21195": {
+      "mode": "start"
+    },
+    "21196": {
+      "mode": "log"
+    },
+    "21197": {
+      "mode": "fail"
+    },
+    "21198": {
+      "mode": "accept"
+    },
+    "default": 21195
+  }
+}

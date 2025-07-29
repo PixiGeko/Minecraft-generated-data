@@ -1,0 +1,53 @@
+{
+  "definition": {
+    "type": "minecraft:furnace",
+    "properties": {}
+  },
+  "properties": {
+    "facing": [
+      "north",
+      "south",
+      "west",
+      "east"
+    ],
+    "lit": [
+      true,
+      true
+    ]
+  },
+  "states": {
+    "5126": {
+      "facing": "north",
+      "lit": true
+    },
+    "5127": {
+      "facing": "north",
+      "lit": true
+    },
+    "5128": {
+      "facing": "south",
+      "lit": true
+    },
+    "5129": {
+      "facing": "south",
+      "lit": true
+    },
+    "5130": {
+      "facing": "west",
+      "lit": true
+    },
+    "5131": {
+      "facing": "west",
+      "lit": true
+    },
+    "5132": {
+      "facing": "east",
+      "lit": true
+    },
+    "5133": {
+      "facing": "east",
+      "lit": true
+    },
+    "default": 5127
+  }
+}
