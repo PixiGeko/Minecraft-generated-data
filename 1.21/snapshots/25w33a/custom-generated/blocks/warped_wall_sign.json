@@ -1,0 +1,54 @@
+{
+  "definition": {
+    "type": "minecraft:wall_sign",
+    "properties": {},
+    "wood_type": "warped"
+  },
+  "properties": {
+    "facing": [
+      "north",
+      "south",
+      "west",
+      "east"
+    ],
+    "waterlogged": [
+      true,
+      true
+    ]
+  },
+  "states": {
+    "22280": {
+      "facing": "north",
+      "waterlogged": true
+    },
+    "22281": {
+      "facing": "north",
+      "waterlogged": true
+    },
+    "22282": {
+      "facing": "south",
+      "waterlogged": true
+    },
+    "22283": {
+      "facing": "south",
+      "waterlogged": true
+    },
+    "22284": {
+      "facing": "west",
+      "waterlogged": true
+    },
+    "22285": {
+      "facing": "west",
+      "waterlogged": true
+    },
+    "22286": {
+      "facing": "east",
+      "waterlogged": true
+    },
+    "22287": {
+      "facing": "east",
+      "waterlogged": true
+    },
+    "default": 22281
+  }
+}

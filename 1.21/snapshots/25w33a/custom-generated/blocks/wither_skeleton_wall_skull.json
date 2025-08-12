@@ -1,0 +1,53 @@
+{
+  "definition": {
+    "type": "minecraft:wither_wall_skull",
+    "properties": {}
+  },
+  "properties": {
+    "facing": [
+      "north",
+      "south",
+      "west",
+      "east"
+    ],
+    "powered": [
+      true,
+      true
+    ]
+  },
+  "states": {
+    "11553": {
+      "facing": "north",
+      "powered": true
+    },
+    "11554": {
+      "facing": "north",
+      "powered": true
+    },
+    "11555": {
+      "facing": "south",
+      "powered": true
+    },
+    "11556": {
+      "facing": "south",
+      "powered": true
+    },
+    "11557": {
+      "facing": "west",
+      "powered": true
+    },
+    "11558": {
+      "facing": "west",
+      "powered": true
+    },
+    "11559": {
+      "facing": "east",
+      "powered": true
+    },
+    "11560": {
+      "facing": "east",
+      "powered": true
+    },
+    "default": 11554
+  }
+}

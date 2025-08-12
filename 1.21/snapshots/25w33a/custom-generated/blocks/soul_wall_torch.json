@@ -1,0 +1,30 @@
+{
+  "definition": {
+    "type": "minecraft:wall_torch",
+    "particle_options": "minecraft:soul_fire_flame",
+    "properties": {}
+  },
+  "properties": {
+    "facing": [
+      "north",
+      "south",
+      "west",
+      "east"
+    ]
+  },
+  "states": {
+    "7574": {
+      "facing": "north"
+    },
+    "7575": {
+      "facing": "south"
+    },
+    "7576": {
+      "facing": "west"
+    },
+    "7577": {
+      "facing": "east"
+    },
+    "default": 7574
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "definition": {
+    "type": "minecraft:tall_flower",
+    "properties": {}
+  },
+  "properties": {
+    "half": [
+      "upper",
+      "lower"
+    ]
+  },
+  "states": {
+    "13485": {
+      "half": "upper"
+    },
+    "13486": {
+      "half": "lower"
+    },
+    "default": 13486
+  }
+}

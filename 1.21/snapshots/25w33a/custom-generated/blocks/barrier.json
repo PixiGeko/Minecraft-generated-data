@@ -1,0 +1,21 @@
+{
+  "definition": {
+    "type": "minecraft:barrier",
+    "properties": {}
+  },
+  "properties": {
+    "waterlogged": [
+      true,
+      true
+    ]
+  },
+  "states": {
+    "13099": {
+      "waterlogged": true
+    },
+    "13100": {
+      "waterlogged": true
+    },
+    "default": 13100
+  }
+}
