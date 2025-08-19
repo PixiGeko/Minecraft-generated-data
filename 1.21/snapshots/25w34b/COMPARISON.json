@@ -1,0 +1,196 @@
+{
+  "version_data": [
+    {
+      "type": "table",
+      "value": {
+        "previousLabel": "25w34a",
+        "currentLabel": "25w34b",
+        "values": [
+          {
+            "key": "DataPack version",
+            "previous": "{\"major\":84,\"minor\":0}",
+            "current": "{\"major\":84,\"minor\":0}"
+          },
+          {
+            "key": "ResourcePack version",
+            "previous": "{\"major\":66,\"minor\":0}",
+            "current": "{\"major\":66,\"minor\":0}"
+          },
+          {
+            "key": "World version",
+            "previous": "4539",
+            "current": "4540"
+          },
+          {
+            "key": "Protocol version",
+            "previous": "1073742087",
+            "current": "1073742088"
+          }
+        ]
+      }
+    }
+  ],
+  "mappings": [
+    {
+      "type": "title",
+      "value": {
+        "title": "Server",
+        "id": "server-mappings",
+        "size": 2
+      }
+    },
+    {
+      "type": "title",
+      "value": {
+        "title": "Client",
+        "id": "client-mappings",
+        "size": 2
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "Changes",
+        "lines": [
+          "XXX.client.renderer.OrderedSubmitNodeCollector \u001b[2;32m+3P\u001b[0m \u001b[2;31m-3P\u001b[0m",
+          "XXX.client.renderer.SubmitNodeStorage \u001b[2;32m+3M\u001b[0m \u001b[2;31m-3M\u001b[0m",
+          "XXX.client.renderer.SubmitNodeStorage$BlockSubmit \u001b[2;32m+2M\u001b[0m \u001b[2;31m-1M\u001b[0m | \u001b[2;32m+1P\u001b[0m",
+          "XXX.client.renderer.SubmitNodeStorage$ItemSubmit \u001b[2;32m+2M\u001b[0m \u001b[2;31m-1M\u001b[0m | \u001b[2;32m+1P\u001b[0m",
+          "XXX.entity.layers.MushroomCowMushroomLayer \u001b[2;32m+1M\u001b[0m \u001b[2;31m-1M\u001b[0m",
+          "XXX.entity.layers.PlayerItemInHandLayer \u001b[2;32m+1M\u001b[0m \u001b[2;31m-1M\u001b[0m",
+          "XXX.renderer.feature.BlockFeatureRenderer \u001b[2;32m+1M\u001b[0m \u001b[2;31m-1M\u001b[0m",
+          "XXX.renderer.item.ItemStackRenderState \u001b[2;32m+1M\u001b[0m \u001b[2;31m-1M\u001b[0m",
+          "XXX.renderer.item.ItemStackRenderState$LayerRenderState \u001b[2;32m+1M\u001b[0m \u001b[2;31m-1M\u001b[0m"
+        ]
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.client.renderer.SubmitNodeStorage",
+        "differences": {
+          "added": [
+            "void submitBlock(PoseStack,BlockState,int,int)",
+            "void submitBlockModel(PoseStack,RenderType,BlockStateModel,float,float,float,int,int)",
+            "void submitItem(PoseStack,ItemDisplayContext,int,int,int[],List,RenderType,ItemStackRenderState$FoilType)"
+          ],
+          "removed": [
+            "void submitBlock(PoseStack,BlockState,int,int,int)",
+            "void submitBlockModel(PoseStack,RenderType,BlockStateModel,float,float,float,int,int,int)",
+            "void submitItem(PoseStack,ItemDisplayContext,int,int,int,int[],List,RenderType,ItemStackRenderState$FoilType)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.client.renderer.SubmitNodeStorage$BlockSubmit",
+        "differences": {
+          "added": [
+            "void <init>(PoseStack$Pose,BlockState,int,int)"
+          ],
+          "removed": [
+            "void <init>(PoseStack$Pose,BlockState,int,int,int)",
+            "int outlineColor()"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.client.renderer.SubmitNodeStorage$ItemSubmit",
+        "differences": {
+          "added": [
+            "void <init>(PoseStack$Pose,ItemDisplayContext,int,int,int[],List,RenderType,ItemStackRenderState$FoilType)"
+          ],
+          "removed": [
+            "void <init>(PoseStack$Pose,ItemDisplayContext,int,int,int,int[],List,RenderType,ItemStackRenderState$FoilType)",
+            "int outlineColor()"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.client.renderer.entity.layers.MushroomCowMushroomLayer",
+        "differences": {
+          "added": [
+            "void submitMushroomBlock(PoseStack,SubmitNodeCollector,int,boolean,BlockState,int,BlockStateModel)"
+          ],
+          "removed": [
+            "void submitMushroomBlock(PoseStack,SubmitNodeCollector,int,boolean,int,BlockState,int,BlockStateModel)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.client.renderer.entity.layers.PlayerItemInHandLayer",
+        "differences": {
+          "added": [
+            "void renderItemHeldToEye(ItemStackRenderState,HumanoidArm,PoseStack,SubmitNodeCollector,int)"
+          ],
+          "removed": [
+            "void renderItemHeldToEye(PlayerRenderState,HumanoidArm,PoseStack,SubmitNodeCollector,int)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.client.renderer.feature.BlockFeatureRenderer",
+        "differences": {
+          "added": [
+            "void render(SubmitNodeCollection,MultiBufferSource$BufferSource,BlockRenderDispatcher)"
+          ],
+          "removed": [
+            "void render(SubmitNodeCollection,MultiBufferSource$BufferSource,BlockRenderDispatcher,OutlineBufferSource)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.client.renderer.item.ItemStackRenderState",
+        "differences": {
+          "added": [
+            "void submit(PoseStack,SubmitNodeCollector,int,int)"
+          ],
+          "removed": [
+            "void submit(PoseStack,SubmitNodeCollector,int,int,int)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.client.renderer.item.ItemStackRenderState$LayerRenderState",
+        "differences": {
+          "added": [
+            "void submit(PoseStack,SubmitNodeCollector,int,int)"
+          ],
+          "removed": [
+            "void submit(PoseStack,SubmitNodeCollector,int,int,int)"
+          ]
+        }
+      }
+    }
+  ],
+  "custom": [
+    {
+      "type": "title",
+      "value": {
+        "title": "datapacks.json",
+        "id": "custom-datapacks-json",
+        "size": 2
+      }
+    }
+  ]
+}
