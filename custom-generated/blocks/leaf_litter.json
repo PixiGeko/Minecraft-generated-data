@@ -1,0 +1,87 @@
+{
+  "definition": {
+    "type": "minecraft:leaf_litter",
+    "properties": {}
+  },
+  "properties": {
+    "facing": [
+      "north",
+      "south",
+      "west",
+      "east"
+    ],
+    "segment_amount": [
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  "states": {
+    "27303": {
+      "facing": "north",
+      "segment_amount": 1
+    },
+    "27304": {
+      "facing": "north",
+      "segment_amount": 2
+    },
+    "27305": {
+      "facing": "north",
+      "segment_amount": 3
+    },
+    "27306": {
+      "facing": "north",
+      "segment_amount": 4
+    },
+    "27307": {
+      "facing": "south",
+      "segment_amount": 1
+    },
+    "27308": {
+      "facing": "south",
+      "segment_amount": 2
+    },
+    "27309": {
+      "facing": "south",
+      "segment_amount": 3
+    },
+    "27310": {
+      "facing": "south",
+      "segment_amount": 4
+    },
+    "27311": {
+      "facing": "west",
+      "segment_amount": 1
+    },
+    "27312": {
+      "facing": "west",
+      "segment_amount": 2
+    },
+    "27313": {
+      "facing": "west",
+      "segment_amount": 3
+    },
+    "27314": {
+      "facing": "west",
+      "segment_amount": 4
+    },
+    "27315": {
+      "facing": "east",
+      "segment_amount": 1
+    },
+    "27316": {
+      "facing": "east",
+      "segment_amount": 2
+    },
+    "27317": {
+      "facing": "east",
+      "segment_amount": 3
+    },
+    "27318": {
+      "facing": "east",
+      "segment_amount": 4
+    },
+    "default": 27303
+  }
+}

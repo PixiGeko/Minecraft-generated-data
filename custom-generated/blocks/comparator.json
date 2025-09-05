@@ -1,0 +1,105 @@
+{
+  "definition": {
+    "type": "minecraft:comparator",
+    "properties": {}
+  },
+  "properties": {
+    "facing": [
+      "north",
+      "south",
+      "west",
+      "east"
+    ],
+    "mode": [
+      "compare",
+      "subtract"
+    ],
+    "powered": [
+      true,
+      true
+    ]
+  },
+  "states": {
+    "10752": {
+      "facing": "north",
+      "mode": "compare",
+      "powered": true
+    },
+    "10753": {
+      "facing": "north",
+      "mode": "compare",
+      "powered": true
+    },
+    "10754": {
+      "facing": "north",
+      "mode": "subtract",
+      "powered": true
+    },
+    "10755": {
+      "facing": "north",
+      "mode": "subtract",
+      "powered": true
+    },
+    "10756": {
+      "facing": "south",
+      "mode": "compare",
+      "powered": true
+    },
+    "10757": {
+      "facing": "south",
+      "mode": "compare",
+      "powered": true
+    },
+    "10758": {
+      "facing": "south",
+      "mode": "subtract",
+      "powered": true
+    },
+    "10759": {
+      "facing": "south",
+      "mode": "subtract",
+      "powered": true
+    },
+    "10760": {
+      "facing": "west",
+      "mode": "compare",
+      "powered": true
+    },
+    "10761": {
+      "facing": "west",
+      "mode": "compare",
+      "powered": true
+    },
+    "10762": {
+      "facing": "west",
+      "mode": "subtract",
+      "powered": true
+    },
+    "10763": {
+      "facing": "west",
+      "mode": "subtract",
+      "powered": true
+    },
+    "10764": {
+      "facing": "east",
+      "mode": "compare",
+      "powered": true
+    },
+    "10765": {
+      "facing": "east",
+      "mode": "compare",
+      "powered": true
+    },
+    "10766": {
+      "facing": "east",
+      "mode": "subtract",
+      "powered": true
+    },
+    "10767": {
+      "facing": "east",
+      "mode": "subtract",
+      "powered": true
+    },
+    "default": 10753
+  }
+}
