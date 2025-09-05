@@ -1,0 +1,105 @@
+{
+  "definition": {
+    "type": "minecraft:small_dripleaf",
+    "properties": {}
+  },
+  "properties": {
+    "facing": [
+      "north",
+      "south",
+      "west",
+      "east"
+    ],
+    "half": [
+      "upper",
+      "lower"
+    ],
+    "waterlogged": [
+      true,
+      true
+    ]
+  },
+  "states": {
+    "25976": {
+      "facing": "north",
+      "half": "upper",
+      "waterlogged": true
+    },
+    "25977": {
+      "facing": "north",
+      "half": "upper",
+      "waterlogged": true
+    },
+    "25978": {
+      "facing": "north",
+      "half": "lower",
+      "waterlogged": true
+    },
+    "25979": {
+      "facing": "north",
+      "half": "lower",
+      "waterlogged": true
+    },
+    "25980": {
+      "facing": "south",
+      "half": "upper",
+      "waterlogged": true
+    },
+    "25981": {
+      "facing": "south",
+      "half": "upper",
+      "waterlogged": true
+    },
+    "25982": {
+      "facing": "south",
+      "half": "lower",
+      "waterlogged": true
+    },
+    "25983": {
+      "facing": "south",
+      "half": "lower",
+      "waterlogged": true
+    },
+    "25984": {
+      "facing": "west",
+      "half": "upper",
+      "waterlogged": true
+    },
+    "25985": {
+      "facing": "west",
+      "half": "upper",
+      "waterlogged": true
+    },
+    "25986": {
+      "facing": "west",
+      "half": "lower",
+      "waterlogged": true
+    },
+    "25987": {
+      "facing": "west",
+      "half": "lower",
+      "waterlogged": true
+    },
+    "25988": {
+      "facing": "east",
+      "half": "upper",
+      "waterlogged": true
+    },
+    "25989": {
+      "facing": "east",
+      "half": "upper",
+      "waterlogged": true
+    },
+    "25990": {
+      "facing": "east",
+      "half": "lower",
+      "waterlogged": true
+    },
+    "25991": {
+      "facing": "east",
+      "half": "lower",
+      "waterlogged": true
+    },
+    "default": 25979
+  }
+}
