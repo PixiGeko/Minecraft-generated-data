@@ -1,0 +1,54 @@
+{
+  "definition": {
+    "type": "minecraft:wall_hanging_sign",
+    "properties": {},
+    "wood_type": "birch"
+  },
+  "properties": {
+    "facing": [
+      "north",
+      "south",
+      "west",
+      "east"
+    ],
+    "waterlogged": [
+      true,
+      true
+    ]
+  },
+  "states": {
+    "7258": {
+      "facing": "north",
+      "waterlogged": true
+    },
+    "7259": {
+      "facing": "north",
+      "waterlogged": true
+    },
+    "7260": {
+      "facing": "south",
+      "waterlogged": true
+    },
+    "7261": {
+      "facing": "south",
+      "waterlogged": true
+    },
+    "7262": {
+      "facing": "west",
+      "waterlogged": true
+    },
+    "7263": {
+      "facing": "west",
+      "waterlogged": true
+    },
+    "7264": {
+      "facing": "east",
+      "waterlogged": true
+    },
+    "7265": {
+      "facing": "east",
+      "waterlogged": true
+    },
+    "default": 7259
+  }
+}

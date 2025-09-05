@@ -1,0 +1,36 @@
+{
+  "definition": {
+    "type": "minecraft:weathering_lantern",
+    "properties": {},
+    "weathering_state": "unaffected"
+  },
+  "properties": {
+    "hanging": [
+      true,
+      true
+    ],
+    "waterlogged": [
+      true,
+      true
+    ]
+  },
+  "states": {
+    "21411": {
+      "hanging": true,
+      "waterlogged": true
+    },
+    "21412": {
+      "hanging": true,
+      "waterlogged": true
+    },
+    "21413": {
+      "hanging": true,
+      "waterlogged": true
+    },
+    "21414": {
+      "hanging": true,
+      "waterlogged": true
+    },
+    "default": 21414
+  }
+}

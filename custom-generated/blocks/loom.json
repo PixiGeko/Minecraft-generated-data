@@ -1,0 +1,29 @@
+{
+  "definition": {
+    "type": "minecraft:loom",
+    "properties": {}
+  },
+  "properties": {
+    "facing": [
+      "north",
+      "south",
+      "west",
+      "east"
+    ]
+  },
+  "states": {
+    "21304": {
+      "facing": "north"
+    },
+    "21305": {
+      "facing": "south"
+    },
+    "21306": {
+      "facing": "west"
+    },
+    "21307": {
+      "facing": "east"
+    },
+    "default": 21304
+  }
+}
