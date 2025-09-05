@@ -1,0 +1,71 @@
+{
+  "definition": {
+    "type": "minecraft:dropper",
+    "properties": {}
+  },
+  "properties": {
+    "facing": [
+      "north",
+      "east",
+      "south",
+      "west",
+      "up",
+      "down"
+    ],
+    "triggered": [
+      true,
+      true
+    ]
+  },
+  "states": {
+    "10153": {
+      "facing": "north",
+      "triggered": true
+    },
+    "10154": {
+      "facing": "north",
+      "triggered": true
+    },
+    "10155": {
+      "facing": "east",
+      "triggered": true
+    },
+    "10156": {
+      "facing": "east",
+      "triggered": true
+    },
+    "10157": {
+      "facing": "south",
+      "triggered": true
+    },
+    "10158": {
+      "facing": "south",
+      "triggered": true
+    },
+    "10159": {
+      "facing": "west",
+      "triggered": true
+    },
+    "10160": {
+      "facing": "west",
+      "triggered": true
+    },
+    "10161": {
+      "facing": "up",
+      "triggered": true
+    },
+    "10162": {
+      "facing": "up",
+      "triggered": true
+    },
+    "10163": {
+      "facing": "down",
+      "triggered": true
+    },
+    "10164": {
+      "facing": "down",
+      "triggered": true
+    },
+    "default": 10154
+  }
+}
