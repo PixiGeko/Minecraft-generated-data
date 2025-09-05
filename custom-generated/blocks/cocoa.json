@@ -1,0 +1,70 @@
+{
+  "definition": {
+    "type": "minecraft:cocoa",
+    "properties": {}
+  },
+  "properties": {
+    "age": [
+      0,
+      1,
+      2
+    ],
+    "facing": [
+      "north",
+      "south",
+      "west",
+      "east"
+    ]
+  },
+  "states": {
+    "8203": {
+      "age": 0,
+      "facing": "north"
+    },
+    "8204": {
+      "age": 0,
+      "facing": "south"
+    },
+    "8205": {
+      "age": 0,
+      "facing": "west"
+    },
+    "8206": {
+      "age": 0,
+      "facing": "east"
+    },
+    "8207": {
+      "age": 1,
+      "facing": "north"
+    },
+    "8208": {
+      "age": 1,
+      "facing": "south"
+    },
+    "8209": {
+      "age": 1,
+      "facing": "west"
+    },
+    "8210": {
+      "age": 1,
+      "facing": "east"
+    },
+    "8211": {
+      "age": 2,
+      "facing": "north"
+    },
+    "8212": {
+      "age": 2,
+      "facing": "south"
+    },
+    "8213": {
+      "age": 2,
+      "facing": "west"
+    },
+    "8214": {
+      "age": 2,
+      "facing": "east"
+    },
+    "default": 8203
+  }
+}
