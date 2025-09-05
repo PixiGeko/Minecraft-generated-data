@@ -1,0 +1,54 @@
+{
+  "definition": {
+    "type": "minecraft:wall_skull",
+    "kind": "zombie",
+    "properties": {}
+  },
+  "properties": {
+    "facing": [
+      "north",
+      "south",
+      "west",
+      "east"
+    ],
+    "powered": [
+      true,
+      true
+    ]
+  },
+  "states": {
+    "10825": {
+      "facing": "north",
+      "powered": true
+    },
+    "10826": {
+      "facing": "north",
+      "powered": true
+    },
+    "10827": {
+      "facing": "south",
+      "powered": true
+    },
+    "10828": {
+      "facing": "south",
+      "powered": true
+    },
+    "10829": {
+      "facing": "west",
+      "powered": true
+    },
+    "10830": {
+      "facing": "west",
+      "powered": true
+    },
+    "10831": {
+      "facing": "east",
+      "powered": true
+    },
+    "10832": {
+      "facing": "east",
+      "powered": true
+    },
+    "default": 10826
+  }
+}
