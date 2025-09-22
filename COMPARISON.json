@@ -1,0 +1,98 @@
+{
+  "version_data": [
+    {
+      "type": "table",
+      "value": {
+        "previousLabel": "1.21.9-pre2",
+        "currentLabel": "1.21.9-pre3",
+        "values": [
+          {
+            "key": "DataPack version",
+            "previous": "{\"major\":88,\"minor\":0}",
+            "current": "{\"major\":88,\"minor\":0}"
+          },
+          {
+            "key": "ResourcePack version",
+            "previous": "{\"major\":69,\"minor\":0}",
+            "current": "{\"major\":69,\"minor\":0}"
+          },
+          {
+            "key": "World version",
+            "previous": "4550",
+            "current": "4551"
+          },
+          {
+            "key": "Protocol version",
+            "previous": "1073742094",
+            "current": "1073742095"
+          }
+        ]
+      }
+    }
+  ],
+  "mappings": [
+    {
+      "type": "title",
+      "value": {
+        "title": "Server",
+        "id": "server-mappings",
+        "size": 2
+      }
+    },
+    {
+      "type": "title",
+      "value": {
+        "title": "Client",
+        "id": "client-mappings",
+        "size": 2
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "Changes",
+        "lines": [
+          "XXX.ai.behavior.TransportItemsBetweenContainers \u001b[2;32m+2M\u001b[0m \u001b[2;31m-1M\u001b[0m",
+          "XXX.level.block.CopperGolemStatueBlock \u001b[2;32m+1M\u001b[0m"
+        ]
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.entity.ai.behavior.TransportItemsBetweenContainers",
+        "differences": {
+          "added": [
+            "List getConnectedTargets(TransportItemsBetweenContainers$TransportItemTarget,Level)"
+          ],
+          "removed": [
+            "boolean hasValidTravellingPath(Level,TransportItemsBetweenContainers$TransportItemTarget,PathfinderMob)",
+            "Stream getConnectedTargets(TransportItemsBetweenContainers$TransportItemTarget,Level)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.level.block.CopperGolemStatueBlock",
+        "differences": {
+          "added": [],
+          "removed": [
+            "VoxelShape getOcclusionShape(BlockState)"
+          ]
+        }
+      }
+    }
+  ],
+  "custom": [
+    {
+      "type": "title",
+      "value": {
+        "title": "datapacks.json",
+        "id": "custom-datapacks-json",
+        "size": 2
+      }
+    }
+  ]
+}
