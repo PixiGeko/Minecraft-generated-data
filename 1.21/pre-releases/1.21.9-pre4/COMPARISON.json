@@ -1,0 +1,289 @@
+{
+  "version_data": [
+    {
+      "type": "table",
+      "value": {
+        "previousLabel": "1.21.9-pre3",
+        "currentLabel": "1.21.9-pre4",
+        "values": [
+          {
+            "key": "DataPack version",
+            "previous": "{\"major\":88,\"minor\":0}",
+            "current": "{\"major\":88,\"minor\":0}"
+          },
+          {
+            "key": "ResourcePack version",
+            "previous": "{\"major\":69,\"minor\":0}",
+            "current": "{\"major\":69,\"minor\":0}"
+          },
+          {
+            "key": "World version",
+            "previous": "4551",
+            "current": "4552"
+          },
+          {
+            "key": "Protocol version",
+            "previous": "1073742095",
+            "current": "1073742096"
+          }
+        ]
+      }
+    }
+  ],
+  "translations": [
+    {
+      "type": "text",
+      "value": {
+        "title": "Changes",
+        "values": [
+          {
+            "key": "debug.options.help",
+            "previous": "F3 + F5 = Edit debug options",
+            "current": "F3 + F6 = Edit debug options"
+          }
+        ]
+      }
+    }
+  ],
+  "mappings": [
+    {
+      "type": "title",
+      "value": {
+        "title": "Server",
+        "id": "server-mappings",
+        "size": 2
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "Changes",
+        "lines": [
+          "XXX.jsonrpc.methods.PlayerService$KickDto \u001b[2;32m+2M\u001b[0m \u001b[2;31m-2M\u001b[0m | \u001b[2;32m+2P\u001b[0m \u001b[2;31m-2P\u001b[0m"
+        ]
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.server.jsonrpc.methods.PlayerService$KickDto",
+        "differences": {
+          "added": [
+            "void <init>(List,Optional)",
+            "List players()"
+          ],
+          "removed": [
+            "void <init>(PlayerDto,Optional)",
+            "PlayerDto player()"
+          ]
+        }
+      }
+    },
+    {
+      "type": "title",
+      "value": {
+        "title": "Client",
+        "id": "client-mappings",
+        "size": 2
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "Changes",
+        "lines": [
+          "XXX.client.renderer.OrderedSubmitNodeCollector \u001b[2;32m+1P\u001b[0m \u001b[2;31m-1P\u001b[0m",
+          "XXX.renderer.blockentity.BannerRenderer \u001b[2;32m+3M\u001b[0m \u001b[2;31m-3M\u001b[0m",
+          "XXX.renderer.blockentity.BedRenderer \u001b[2;32m+2M\u001b[0m \u001b[2;31m-2M\u001b[0m",
+          "XXX.renderer.blockentity.DecoratedPotRenderer \u001b[2;32m+1M\u001b[0m \u001b[2;31m-1M\u001b[0m",
+          "XXX.renderer.blockentity.ShulkerBoxRenderer \u001b[2;32m+1M\u001b[0m \u001b[2;31m-1M\u001b[0m",
+          "XXX.renderer.feature.ModelPartFeatureRenderer \u001b[2;32m+1M\u001b[0m \u001b[2;31m-1M\u001b[0m",
+          "XXX.renderer.special.PlayerHeadSpecialRenderer \u001b[2;32m+2M\u001b[0m \u001b[2;31m-2M\u001b[0m",
+          "XXX.renderer.special.ShieldSpecialRenderer \u001b[2;32m+2M\u001b[0m \u001b[2;31m-2M\u001b[0m",
+          "XXX.renderer.special.ShulkerBoxSpecialRenderer \u001b[2;32m+1M\u001b[0m \u001b[2;31m-1M\u001b[0m",
+          "XXX.renderer.special.SkullSpecialRenderer \u001b[2;32m+1M\u001b[0m \u001b[2;31m-1M\u001b[0m",
+          "XXX.renderer.special.SpecialModelRenderer \u001b[2;32m+1P\u001b[0m \u001b[2;31m-1P\u001b[0m",
+          "XXX.jsonrpc.methods.PlayerService \u001b[2;32m+1M\u001b[0m \u001b[2;31m-1M\u001b[0m",
+          "XXX.entity.projectile.Projectile \u001b[2;32m+3M\u001b[0m \u001b[2;31m-2M\u001b[0m | \u001b[2;32m+1P\u001b[0m"
+        ]
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.client.renderer.blockentity.BannerRenderer",
+        "differences": {
+          "added": [
+            "void submitSpecial(PoseStack,SubmitNodeCollector,int,int,DyeColor,BannerPatternLayers)",
+            "void submitBanner(MaterialSet,PoseStack,SubmitNodeCollector,int,int,float,BannerModel,BannerFlagModel,float,DyeColor,BannerPatternLayers,ModelFeatureRenderer$CrumblingOverlay)",
+            "void submitPatterns(MaterialSet,PoseStack,SubmitNodeCollector,int,int,Model,Object,Material,boolean,DyeColor,BannerPatternLayers,ModelFeatureRenderer$CrumblingOverlay)"
+          ],
+          "removed": [
+            "void submitSpecial(PoseStack,SubmitNodeCollector,int,int,DyeColor,BannerPatternLayers,int)",
+            "void submitBanner(MaterialSet,PoseStack,SubmitNodeCollector,int,int,float,BannerModel,BannerFlagModel,float,DyeColor,BannerPatternLayers,ModelFeatureRenderer$CrumblingOverlay,int)",
+            "void submitPatterns(MaterialSet,PoseStack,SubmitNodeCollector,int,int,Model,Object,Material,boolean,DyeColor,BannerPatternLayers,boolean,ModelFeatureRenderer$CrumblingOverlay,int)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.client.renderer.blockentity.BedRenderer",
+        "differences": {
+          "added": [
+            "void submitSpecial(PoseStack,SubmitNodeCollector,int,int,Material)",
+            "void submitPiece(PoseStack,SubmitNodeCollector,Model$Simple,Direction,Material,int,int,boolean,ModelFeatureRenderer$CrumblingOverlay)"
+          ],
+          "removed": [
+            "void submitSpecial(PoseStack,SubmitNodeCollector,int,int,Material,int)",
+            "void submitPiece(PoseStack,SubmitNodeCollector,Model$Simple,Direction,Material,int,int,boolean,ModelFeatureRenderer$CrumblingOverlay,int)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.client.renderer.blockentity.DecoratedPotRenderer",
+        "differences": {
+          "added": [
+            "void submit(PoseStack,SubmitNodeCollector,int,int,PotDecorations)"
+          ],
+          "removed": [
+            "void submit(PoseStack,SubmitNodeCollector,int,int,PotDecorations,int)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.client.renderer.blockentity.ShulkerBoxRenderer",
+        "differences": {
+          "added": [
+            "void submit(PoseStack,SubmitNodeCollector,int,int,Direction,float,ModelFeatureRenderer$CrumblingOverlay,Material)"
+          ],
+          "removed": [
+            "void submit(PoseStack,SubmitNodeCollector,int,int,Direction,float,ModelFeatureRenderer$CrumblingOverlay,Material,int)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.client.renderer.feature.ModelPartFeatureRenderer",
+        "differences": {
+          "added": [
+            "void render(SubmitNodeCollection,MultiBufferSource$BufferSource,MultiBufferSource$BufferSource)"
+          ],
+          "removed": [
+            "void render(SubmitNodeCollection,MultiBufferSource$BufferSource,OutlineBufferSource,MultiBufferSource$BufferSource)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.client.renderer.special.PlayerHeadSpecialRenderer",
+        "differences": {
+          "added": [
+            "void submit(PlayerSkinRenderCache$RenderInfo,ItemDisplayContext,PoseStack,SubmitNodeCollector,int,int,boolean)",
+            "void submit(Object,ItemDisplayContext,PoseStack,SubmitNodeCollector,int,int,boolean)"
+          ],
+          "removed": [
+            "void submit(PlayerSkinRenderCache$RenderInfo,ItemDisplayContext,PoseStack,SubmitNodeCollector,int,int,boolean,int)",
+            "void submit(Object,ItemDisplayContext,PoseStack,SubmitNodeCollector,int,int,boolean,int)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.client.renderer.special.ShieldSpecialRenderer",
+        "differences": {
+          "added": [
+            "void submit(DataComponentMap,ItemDisplayContext,PoseStack,SubmitNodeCollector,int,int,boolean)",
+            "void submit(Object,ItemDisplayContext,PoseStack,SubmitNodeCollector,int,int,boolean)"
+          ],
+          "removed": [
+            "void submit(DataComponentMap,ItemDisplayContext,PoseStack,SubmitNodeCollector,int,int,boolean,int)",
+            "void submit(Object,ItemDisplayContext,PoseStack,SubmitNodeCollector,int,int,boolean,int)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.client.renderer.special.ShulkerBoxSpecialRenderer",
+        "differences": {
+          "added": [
+            "void submit(ItemDisplayContext,PoseStack,SubmitNodeCollector,int,int,boolean)"
+          ],
+          "removed": [
+            "void submit(ItemDisplayContext,PoseStack,SubmitNodeCollector,int,int,boolean,int)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.client.renderer.special.SkullSpecialRenderer",
+        "differences": {
+          "added": [
+            "void submit(ItemDisplayContext,PoseStack,SubmitNodeCollector,int,int,boolean)"
+          ],
+          "removed": [
+            "void submit(ItemDisplayContext,PoseStack,SubmitNodeCollector,int,int,boolean,int)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.server.jsonrpc.methods.PlayerService",
+        "differences": {
+          "added": [
+            "List kick(MinecraftApi,PlayerService$KickDto,ClientInfo)"
+          ],
+          "removed": [
+            "List kick(MinecraftApi,List,ClientInfo)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.entity.projectile.Projectile",
+        "differences": {
+          "added": [
+            "boolean checkLeftOwner()",
+            "boolean lambda$checkLeftOwner$0(AABB,Entity)"
+          ],
+          "removed": [
+            "void checkLeftOwner()",
+            "boolean isOutsideOwnerCollisionRange()",
+            "boolean lambda$isOutsideOwnerCollisionRange$0(AABB,Entity)"
+          ]
+        }
+      }
+    }
+  ],
+  "custom": [
+    {
+      "type": "title",
+      "value": {
+        "title": "datapacks.json",
+        "id": "custom-datapacks-json",
+        "size": 2
+      }
+    }
+  ]
+}
