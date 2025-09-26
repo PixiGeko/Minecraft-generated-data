@@ -1,0 +1,105 @@
+{
+  "version_data": [
+    {
+      "type": "table",
+      "value": {
+        "previousLabel": "1.21.9-pre4",
+        "currentLabel": "1.21.9-rc1",
+        "values": [
+          {
+            "key": "DataPack version",
+            "previous": "{\"major\":88,\"minor\":0}",
+            "current": "{\"major\":88,\"minor\":0}"
+          },
+          {
+            "key": "ResourcePack version",
+            "previous": "{\"major\":69,\"minor\":0}",
+            "current": "{\"major\":69,\"minor\":0}"
+          },
+          {
+            "key": "World version",
+            "previous": "4552",
+            "current": "4553"
+          },
+          {
+            "key": "Protocol version",
+            "previous": "1073742096",
+            "current": "1073742097"
+          }
+        ]
+      }
+    },
+    {
+      "type": "title",
+      "value": {
+        "title": "Libraries",
+        "id": "version-data-libraries",
+        "size": 3
+      }
+    },
+    {
+      "type": "table",
+      "value": {
+        "title": "Versions",
+        "previousLabel": "1.21.9-pre4",
+        "currentLabel": "1.21.9-rc1",
+        "values": [
+          {
+            "key": "com.mojang:authlib",
+            "previous": "7.0.60",
+            "current": "7.0.61"
+          }
+        ]
+      }
+    }
+  ],
+  "mappings": [
+    {
+      "type": "title",
+      "value": {
+        "title": "Server",
+        "id": "server-mappings",
+        "size": 2
+      }
+    },
+    {
+      "type": "title",
+      "value": {
+        "title": "Client",
+        "id": "client-mappings",
+        "size": 2
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "Changes",
+        "lines": [
+          "XXX.server.level.ServerLevel \u001b[2;32m+1M\u001b[0m"
+        ]
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.server.level.ServerLevel",
+        "differences": {
+          "added": [],
+          "removed": [
+            "boolean isSpawningMonsters()"
+          ]
+        }
+      }
+    }
+  ],
+  "custom": [
+    {
+      "type": "title",
+      "value": {
+        "title": "datapacks.json",
+        "id": "custom-datapacks-json",
+        "size": 2
+      }
+    }
+  ]
+}
