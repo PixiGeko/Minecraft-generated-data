@@ -1,0 +1,524 @@
+{
+  "version_data": [
+    {
+      "type": "table",
+      "value": {
+        "previousLabel": "1.21.9",
+        "currentLabel": "1.21.10-rc1",
+        "values": [
+          {
+            "key": "DataPack version",
+            "previous": "{\"major\":88,\"minor\":0}",
+            "current": "{\"major\":88,\"minor\":0}"
+          },
+          {
+            "key": "ResourcePack version",
+            "previous": "{\"major\":69,\"minor\":0}",
+            "current": "{\"major\":69,\"minor\":0}"
+          },
+          {
+            "key": "World version",
+            "previous": "4554",
+            "current": "4555"
+          },
+          {
+            "key": "Protocol version",
+            "previous": "773",
+            "current": "1073742098"
+          }
+        ]
+      }
+    }
+  ],
+  "mappings": [
+    {
+      "type": "title",
+      "value": {
+        "title": "Server",
+        "id": "server-mappings",
+        "size": 2
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "Changes",
+        "lines": [
+          "XXX.entity.decoration.HangingEntity \u001b[2;32m+1M\u001b[0m",
+          "XXX.entity.decoration.ItemFrame \u001b[2;32m+2M\u001b[0m",
+          "XXX.level.block.BasePressurePlateBlock \u001b[2;32m+1M\u001b[0m \u001b[2;31m-1M\u001b[0m",
+          "XXX.level.block.CactusBlock \u001b[2;32m+1M\u001b[0m \u001b[2;31m-1M\u001b[0m",
+          "XXX.level.block.CampfireBlock \u001b[2;32m+1M\u001b[0m \u001b[2;31m-1M\u001b[0m",
+          "XXX.level.block.EndPortalBlock \u001b[2;32m+1M\u001b[0m \u001b[2;31m-1M\u001b[0m",
+          "XXX.level.block.FrogspawnBlock \u001b[2;32m+1M\u001b[0m \u001b[2;31m-1M\u001b[0m",
+          "XXX.level.block.HopperBlock \u001b[2;32m+1M\u001b[0m \u001b[2;31m-1M\u001b[0m",
+          "XXX.level.block.LayeredCauldronBlock \u001b[2;32m+1M\u001b[0m \u001b[2;31m-1M\u001b[0m",
+          "XXX.level.block.NetherPortalBlock \u001b[2;32m+1M\u001b[0m \u001b[2;31m-1M\u001b[0m",
+          "XXX.level.block.PowderSnowBlock \u001b[2;32m+1M\u001b[0m \u001b[2;31m-1M\u001b[0m",
+          "XXX.level.block.WitherRoseBlock \u001b[2;32m+1M\u001b[0m \u001b[2;31m-1M\u001b[0m",
+          "XXX.block.state.BlockBehaviour \u001b[2;32m+1M\u001b[0m \u001b[2;31m-1M\u001b[0m",
+          "XXX.block.state.BlockBehaviour$BlockStateBase \u001b[2;32m+1M\u001b[0m \u001b[2;31m-1M\u001b[0m"
+        ]
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.entity.decoration.HangingEntity",
+        "differences": {
+          "added": [],
+          "removed": [
+            "AABB getPopBox()"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.entity.decoration.ItemFrame",
+        "differences": {
+          "added": [],
+          "removed": [
+            "AABB getPopBox()",
+            "AABB createBoundingBox(BlockPos,Direction,boolean)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.level.block.BasePressurePlateBlock",
+        "differences": {
+          "added": [
+            "void entityInside(BlockState,Level,BlockPos,Entity,InsideBlockEffectApplier)"
+          ],
+          "removed": [
+            "void entityInside(BlockState,Level,BlockPos,Entity,InsideBlockEffectApplier,boolean)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.level.block.CactusBlock",
+        "differences": {
+          "added": [
+            "void entityInside(BlockState,Level,BlockPos,Entity,InsideBlockEffectApplier)"
+          ],
+          "removed": [
+            "void entityInside(BlockState,Level,BlockPos,Entity,InsideBlockEffectApplier,boolean)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.level.block.CampfireBlock",
+        "differences": {
+          "added": [
+            "void entityInside(BlockState,Level,BlockPos,Entity,InsideBlockEffectApplier)"
+          ],
+          "removed": [
+            "void entityInside(BlockState,Level,BlockPos,Entity,InsideBlockEffectApplier,boolean)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.level.block.EndPortalBlock",
+        "differences": {
+          "added": [
+            "void entityInside(BlockState,Level,BlockPos,Entity,InsideBlockEffectApplier)"
+          ],
+          "removed": [
+            "void entityInside(BlockState,Level,BlockPos,Entity,InsideBlockEffectApplier,boolean)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.level.block.FrogspawnBlock",
+        "differences": {
+          "added": [
+            "void entityInside(BlockState,Level,BlockPos,Entity,InsideBlockEffectApplier)"
+          ],
+          "removed": [
+            "void entityInside(BlockState,Level,BlockPos,Entity,InsideBlockEffectApplier,boolean)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.level.block.HopperBlock",
+        "differences": {
+          "added": [
+            "void entityInside(BlockState,Level,BlockPos,Entity,InsideBlockEffectApplier)"
+          ],
+          "removed": [
+            "void entityInside(BlockState,Level,BlockPos,Entity,InsideBlockEffectApplier,boolean)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.level.block.LayeredCauldronBlock",
+        "differences": {
+          "added": [
+            "void entityInside(BlockState,Level,BlockPos,Entity,InsideBlockEffectApplier)"
+          ],
+          "removed": [
+            "void entityInside(BlockState,Level,BlockPos,Entity,InsideBlockEffectApplier,boolean)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.level.block.NetherPortalBlock",
+        "differences": {
+          "added": [
+            "void entityInside(BlockState,Level,BlockPos,Entity,InsideBlockEffectApplier)"
+          ],
+          "removed": [
+            "void entityInside(BlockState,Level,BlockPos,Entity,InsideBlockEffectApplier,boolean)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.level.block.PowderSnowBlock",
+        "differences": {
+          "added": [
+            "void entityInside(BlockState,Level,BlockPos,Entity,InsideBlockEffectApplier)"
+          ],
+          "removed": [
+            "void entityInside(BlockState,Level,BlockPos,Entity,InsideBlockEffectApplier,boolean)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.level.block.WitherRoseBlock",
+        "differences": {
+          "added": [
+            "void entityInside(BlockState,Level,BlockPos,Entity,InsideBlockEffectApplier)"
+          ],
+          "removed": [
+            "void entityInside(BlockState,Level,BlockPos,Entity,InsideBlockEffectApplier,boolean)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.level.block.state.BlockBehaviour",
+        "differences": {
+          "added": [
+            "void entityInside(BlockState,Level,BlockPos,Entity,InsideBlockEffectApplier)"
+          ],
+          "removed": [
+            "void entityInside(BlockState,Level,BlockPos,Entity,InsideBlockEffectApplier,boolean)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.level.block.state.BlockBehaviour$BlockStateBase",
+        "differences": {
+          "added": [
+            "void entityInside(Level,BlockPos,Entity,InsideBlockEffectApplier)"
+          ],
+          "removed": [
+            "void entityInside(Level,BlockPos,Entity,InsideBlockEffectApplier,boolean)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "title",
+      "value": {
+        "title": "Client",
+        "id": "client-mappings",
+        "size": 2
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "Changes",
+        "lines": [
+          "XXX.world.entity.Entity \u001b[2;32m+1M\u001b[0m \u001b[2;31m-1M\u001b[0m",
+          "XXX.level.block.BaseFireBlock \u001b[2;32m+1M\u001b[0m \u001b[2;31m-1M\u001b[0m",
+          "XXX.level.block.BigDripleafBlock \u001b[2;32m+1M\u001b[0m \u001b[2;31m-1M\u001b[0m",
+          "XXX.level.block.BubbleColumnBlock \u001b[2;32m+1M\u001b[0m \u001b[2;31m-1M\u001b[0m",
+          "XXX.level.block.ButtonBlock \u001b[2;32m+1M\u001b[0m \u001b[2;31m-1M\u001b[0m",
+          "XXX.level.block.CropBlock \u001b[2;32m+1M\u001b[0m \u001b[2;31m-1M\u001b[0m",
+          "XXX.level.block.DetectorRailBlock \u001b[2;32m+1M\u001b[0m \u001b[2;31m-1M\u001b[0m",
+          "XXX.level.block.EndGatewayBlock \u001b[2;32m+1M\u001b[0m \u001b[2;31m-1M\u001b[0m",
+          "XXX.level.block.EyeblossomBlock \u001b[2;32m+1M\u001b[0m \u001b[2;31m-1M\u001b[0m",
+          "XXX.level.block.HoneyBlock \u001b[2;32m+1M\u001b[0m \u001b[2;31m-1M\u001b[0m",
+          "XXX.level.block.LavaCauldronBlock \u001b[2;32m+1M\u001b[0m \u001b[2;31m-1M\u001b[0m",
+          "XXX.level.block.PitcherCropBlock \u001b[2;32m+1M\u001b[0m \u001b[2;31m-1M\u001b[0m",
+          "XXX.level.block.SweetBerryBushBlock \u001b[2;32m+1M\u001b[0m \u001b[2;31m-1M\u001b[0m",
+          "XXX.level.block.TripWireBlock \u001b[2;32m+1M\u001b[0m \u001b[2;31m-1M\u001b[0m",
+          "XXX.level.block.WaterlilyBlock \u001b[2;32m+1M\u001b[0m \u001b[2;31m-1M\u001b[0m",
+          "XXX.level.block.WebBlock \u001b[2;32m+1M\u001b[0m \u001b[2;31m-1M\u001b[0m"
+        ]
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.entity.Entity",
+        "differences": {
+          "added": [
+            "boolean lambda$checkInsideBlocks$0(int,AtomicInteger,boolean,Vec3,Vec3,LongSet,InsideBlockEffectApplier$StepBasedCollector,BlockPos,int)"
+          ],
+          "removed": [
+            "boolean lambda$checkInsideBlocks$0(int,AtomicInteger,boolean,Vec3,Vec3,LongSet,boolean,AABB,InsideBlockEffectApplier$StepBasedCollector,BlockPos,int)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.level.block.BaseFireBlock",
+        "differences": {
+          "added": [
+            "void entityInside(BlockState,Level,BlockPos,Entity,InsideBlockEffectApplier)"
+          ],
+          "removed": [
+            "void entityInside(BlockState,Level,BlockPos,Entity,InsideBlockEffectApplier,boolean)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.level.block.BigDripleafBlock",
+        "differences": {
+          "added": [
+            "void entityInside(BlockState,Level,BlockPos,Entity,InsideBlockEffectApplier)"
+          ],
+          "removed": [
+            "void entityInside(BlockState,Level,BlockPos,Entity,InsideBlockEffectApplier,boolean)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.level.block.BubbleColumnBlock",
+        "differences": {
+          "added": [
+            "void entityInside(BlockState,Level,BlockPos,Entity,InsideBlockEffectApplier)"
+          ],
+          "removed": [
+            "void entityInside(BlockState,Level,BlockPos,Entity,InsideBlockEffectApplier,boolean)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.level.block.ButtonBlock",
+        "differences": {
+          "added": [
+            "void entityInside(BlockState,Level,BlockPos,Entity,InsideBlockEffectApplier)"
+          ],
+          "removed": [
+            "void entityInside(BlockState,Level,BlockPos,Entity,InsideBlockEffectApplier,boolean)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.level.block.CropBlock",
+        "differences": {
+          "added": [
+            "void entityInside(BlockState,Level,BlockPos,Entity,InsideBlockEffectApplier)"
+          ],
+          "removed": [
+            "void entityInside(BlockState,Level,BlockPos,Entity,InsideBlockEffectApplier,boolean)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.level.block.DetectorRailBlock",
+        "differences": {
+          "added": [
+            "void entityInside(BlockState,Level,BlockPos,Entity,InsideBlockEffectApplier)"
+          ],
+          "removed": [
+            "void entityInside(BlockState,Level,BlockPos,Entity,InsideBlockEffectApplier,boolean)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.level.block.EndGatewayBlock",
+        "differences": {
+          "added": [
+            "void entityInside(BlockState,Level,BlockPos,Entity,InsideBlockEffectApplier)"
+          ],
+          "removed": [
+            "void entityInside(BlockState,Level,BlockPos,Entity,InsideBlockEffectApplier,boolean)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.level.block.EyeblossomBlock",
+        "differences": {
+          "added": [
+            "void entityInside(BlockState,Level,BlockPos,Entity,InsideBlockEffectApplier)"
+          ],
+          "removed": [
+            "void entityInside(BlockState,Level,BlockPos,Entity,InsideBlockEffectApplier,boolean)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.level.block.HoneyBlock",
+        "differences": {
+          "added": [
+            "void entityInside(BlockState,Level,BlockPos,Entity,InsideBlockEffectApplier)"
+          ],
+          "removed": [
+            "void entityInside(BlockState,Level,BlockPos,Entity,InsideBlockEffectApplier,boolean)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.level.block.LavaCauldronBlock",
+        "differences": {
+          "added": [
+            "void entityInside(BlockState,Level,BlockPos,Entity,InsideBlockEffectApplier)"
+          ],
+          "removed": [
+            "void entityInside(BlockState,Level,BlockPos,Entity,InsideBlockEffectApplier,boolean)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.level.block.PitcherCropBlock",
+        "differences": {
+          "added": [
+            "void entityInside(BlockState,Level,BlockPos,Entity,InsideBlockEffectApplier)"
+          ],
+          "removed": [
+            "void entityInside(BlockState,Level,BlockPos,Entity,InsideBlockEffectApplier,boolean)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.level.block.SweetBerryBushBlock",
+        "differences": {
+          "added": [
+            "void entityInside(BlockState,Level,BlockPos,Entity,InsideBlockEffectApplier)"
+          ],
+          "removed": [
+            "void entityInside(BlockState,Level,BlockPos,Entity,InsideBlockEffectApplier,boolean)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.level.block.TripWireBlock",
+        "differences": {
+          "added": [
+            "void entityInside(BlockState,Level,BlockPos,Entity,InsideBlockEffectApplier)"
+          ],
+          "removed": [
+            "void entityInside(BlockState,Level,BlockPos,Entity,InsideBlockEffectApplier,boolean)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.level.block.WaterlilyBlock",
+        "differences": {
+          "added": [
+            "void entityInside(BlockState,Level,BlockPos,Entity,InsideBlockEffectApplier)"
+          ],
+          "removed": [
+            "void entityInside(BlockState,Level,BlockPos,Entity,InsideBlockEffectApplier,boolean)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.level.block.WebBlock",
+        "differences": {
+          "added": [
+            "void entityInside(BlockState,Level,BlockPos,Entity,InsideBlockEffectApplier)"
+          ],
+          "removed": [
+            "void entityInside(BlockState,Level,BlockPos,Entity,InsideBlockEffectApplier,boolean)"
+          ]
+        }
+      }
+    }
+  ],
+  "custom": [
+    {
+      "type": "title",
+      "value": {
+        "title": "datapacks.json",
+        "id": "custom-datapacks-json",
+        "size": 2
+      }
+    }
+  ]
+}
