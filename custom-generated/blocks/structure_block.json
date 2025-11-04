@@ -1,0 +1,29 @@
+{
+  "definition": {
+    "type": "minecraft:structure",
+    "properties": {}
+  },
+  "properties": {
+    "mode": [
+      "save",
+      "load",
+      "corner",
+      "data"
+    ]
+  },
+  "states": {
+    "21520": {
+      "mode": "save"
+    },
+    "21521": {
+      "mode": "load"
+    },
+    "21522": {
+      "mode": "corner"
+    },
+    "21523": {
+      "mode": "data"
+    },
+    "default": 21521
+  }
+}
