@@ -1,0 +1,30 @@
+{
+  "definition": {
+    "type": "minecraft:wall_torch",
+    "particle_options": "minecraft:copper_fire_flame",
+    "properties": {}
+  },
+  "properties": {
+    "facing": [
+      "north",
+      "south",
+      "west",
+      "east"
+    ]
+  },
+  "states": {
+    "6811": {
+      "facing": "north"
+    },
+    "6812": {
+      "facing": "south"
+    },
+    "6813": {
+      "facing": "west"
+    },
+    "6814": {
+      "facing": "east"
+    },
+    "default": 6811
+  }
+}
