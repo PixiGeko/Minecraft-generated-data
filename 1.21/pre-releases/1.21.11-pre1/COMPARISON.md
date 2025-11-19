@@ -1,0 +1,11072 @@
+## Comparison with [25w46a](https://github.com/PixiGeko/Minecraft-generated-data/tree/25w46a)
+
+> [!TIP]
+> - [Version data](#version-data)
+>     - [Libraries](#version-data-libraries)
+> - [Registries](#registries)
+> - [Tags](#tags)
+> - [Items (registry)](#items-(registry))
+> - [Commands](#commands)
+> - [Recipes](#recipes)
+> - [Translations](#translations)
+> - [File structure](#file-structure)
+> - [Misc](#misc)
+> - [Mappings](#mappings)
+>   - [Server](#server-mappings)
+>   - [Client](#client-mappings)
+
+<br/><br/>
+<details><summary><b><ins>VERSION DATA</ins></b><a name="version-data"></a></summary>
+<br/>
+<table><tr><th></th><th align="left">25w46a</th><th>1.21.11-pre1</th></tr><tr><td>DataPack version</td><td><pre>{
+  "major": 93,
+  "minor": 1
+}</pre></td><td><pre>{
+  "major": 94,
+  "minor": 0
+}</pre></td></tr><tr><td>ResourcePack version</td><td><pre>{
+  "major": 74,
+  "minor": 0
+}</pre></td><td><pre>{
+  "major": 75,
+  "minor": 0
+}</pre></td></tr><tr><td>World version</td><td><pre>4662</pre></td><td><pre>4663</pre></td></tr><tr><td>Protocol version</td><td><pre>1073742102</pre></td><td><pre>1073742103</pre></td></tr></table>
+<h3>Libraries<a name="version-data-libraries"></a></h3>
+<details>
+<summary>
+Versions
+</summary>
+<table><tr><th></th><th align="left">25w46a</th><th>1.21.11-pre1</th></tr><tr><td>com.mojang:jtracy</td><td><pre>1.0.36</pre></td><td><pre>1.0.37</pre></td></tr><tr><td>com.mojang:jtracy (natives-linux)</td><td><pre>1.0.36</pre></td><td><pre>1.0.37</pre></td></tr><tr><td>com.mojang:jtracy (natives-macos)</td><td><pre>1.0.36</pre></td><td><pre>1.0.37</pre></td></tr><tr><td>com.mojang:jtracy (natives-macos-arm64)</td><td><pre>1.0.36</pre></td><td><pre>1.0.37</pre></td></tr><tr><td>com.mojang:jtracy (natives-windows)</td><td><pre>1.0.36</pre></td><td><pre>1.0.37</pre></td></tr></table>
+</details>
+</details>
+<hr/>
+<details><summary><b><ins>REGISTRIES</ins></b><a name="registries"></a></summary>
+<br/>
+<details>
+<summary>
+data_component_type
+</summary>
+
+```diff
++ minecraft:attack_range
+```
+
+</details>
+<details>
+<summary>
+memory_module_type
+</summary>
+
+```diff
++ minecraft:spear_charge_position
++ minecraft:spear_engage_time
++ minecraft:spear_fleeing_position
++ minecraft:spear_fleeing_time
++ minecraft:spear_status
+```
+
+</details>
+<details>
+<summary>
+sound_event
+</summary>
+
+```diff
++ minecraft:entity.baby_nautilus.ambient_land
++ minecraft:entity.baby_nautilus.death_land
++ minecraft:entity.baby_nautilus.hurt_land
++ minecraft:entity.nautilus.ambient_land
++ minecraft:entity.nautilus.dash_land
++ minecraft:entity.nautilus.dash_ready_land
++ minecraft:entity.nautilus.death_land
++ minecraft:entity.nautilus.hurt_land
++ minecraft:entity.zombie_nautilus.ambient_land
++ minecraft:entity.zombie_nautilus.dash_land
++ minecraft:entity.zombie_nautilus.dash_ready_land
++ minecraft:entity.zombie_nautilus.death_land
++ minecraft:entity.zombie_nautilus.hurt_land
+```
+
+</details>
+</details>
+<hr/>
+<details><summary><b><ins>TAGS</ins></b><a name="tags"></a></summary>
+<br/>
+<details>
+<summary>
+universal_tags/data_component_type.json
+</summary>
+
+```diff
++ minecraft:attack_range
+```
+
+</details>
+<details>
+<summary>
+universal_tags/memory_module_type.json
+</summary>
+
+```diff
++ minecraft:spear_charge_position
++ minecraft:spear_engage_time
++ minecraft:spear_fleeing_position
++ minecraft:spear_fleeing_time
++ minecraft:spear_status
+```
+
+</details>
+<details>
+<summary>
+universal_tags/sound_event.json
+</summary>
+
+```diff
++ minecraft:entity.baby_nautilus.ambient_land
++ minecraft:entity.baby_nautilus.death_land
++ minecraft:entity.baby_nautilus.hurt_land
++ minecraft:entity.nautilus.ambient_land
++ minecraft:entity.nautilus.dash_land
++ minecraft:entity.nautilus.dash_ready_land
++ minecraft:entity.nautilus.death_land
++ minecraft:entity.nautilus.hurt_land
++ minecraft:entity.zombie_nautilus.ambient_land
++ minecraft:entity.zombie_nautilus.dash_land
++ minecraft:entity.zombie_nautilus.dash_ready_land
++ minecraft:entity.zombie_nautilus.death_land
++ minecraft:entity.zombie_nautilus.hurt_land
+```
+
+</details>
+</details>
+<hr/>
+<details><summary><b><ins>ITEMS (REGISTRY)</ins></b><a name="items-(registry)"></a></summary>
+<br/>
+<details>
+<summary>
+cod_bucket
+</summary>
+<br/>
+<b>COMPONENTS</b>
+
+<table><tr><th></th><th align="left">25w46a</th><th>1.21.11-pre1</th></tr><tr><td>minecraft:consumable</td><td><pre>{}</pre></td><td><pre>/</pre></td></tr></table>
+<br/>
+</details>
+<details>
+<summary>
+copper_spear
+</summary>
+<br/>
+<b>COMPONENTS</b>
+
+<table><tr><th></th><th align="left">25w46a</th><th>1.21.11-pre1</th></tr><tr><td>minecraft:attack_range</td><td><pre>/</pre></td><td><pre>{
+  "hitbox_margin": 0.125,
+  "max_reach": 4.5,
+  "min_reach": 2,
+  "mob_factor": 0.5
+}</pre></td></tr><tr><td>minecraft:kinetic_weapon</td><td><pre>{
+  "damage_conditions": {
+    "max_duration_ticks": 250,
+    "min_relative_speed": 4.6
+  },
+  "damage_multiplier": 0.82,
+  "delay_ticks": 13,
+  "dismount_conditions": {
+    "max_duration_ticks": 80,
+    "min_speed": 9
+  },
+  "forward_movement": 0.38,
+  "hit_sound": "minecraft:item.spear.hit",
+  "hitbox_margin": 0.125,
+  "knockback_conditions": {
+    "max_duration_ticks": 100,
+    "min_speed": 5.1
+  },
+  "max_reach": 4.5,
+  "min_reach": 2,
+  "sound": "minecraft:item.spear.use"
+}</pre></td><td><pre>{
+  "damage_conditions": {
+    "max_duration_ticks": 250,
+    "min_relative_speed": 4.6
+  },
+  "damage_multiplier": 0.82,
+  "delay_ticks": 13,
+  "dismount_conditions": {
+    "max_duration_ticks": 80,
+    "min_speed": 9
+  },
+  "forward_movement": 0.38,
+  "hit_sound": "minecraft:item.spear.hit",
+  "knockback_conditions": {
+    "max_duration_ticks": 100,
+    "min_speed": 5.1
+  },
+  "sound": "minecraft:item.spear.use"
+}</pre></td></tr><tr><td>minecraft:piercing_weapon</td><td><pre>{
+  "hit_sound": "minecraft:item.spear.hit",
+  "hitbox_margin": 0.25,
+  "max_reach": 4.5,
+  "min_reach": 2,
+  "sound": "minecraft:item.spear.attack"
+}</pre></td><td><pre>{
+  "hit_sound": "minecraft:item.spear.hit",
+  "sound": "minecraft:item.spear.attack"
+}</pre></td></tr></table>
+<br/>
+</details>
+<details>
+<summary>
+diamond_spear
+</summary>
+<br/>
+<b>COMPONENTS</b>
+
+<table><tr><th></th><th align="left">25w46a</th><th>1.21.11-pre1</th></tr><tr><td>minecraft:attack_range</td><td><pre>/</pre></td><td><pre>{
+  "hitbox_margin": 0.125,
+  "max_reach": 4.5,
+  "min_reach": 2,
+  "mob_factor": 0.5
+}</pre></td></tr><tr><td>minecraft:kinetic_weapon</td><td><pre>{
+  "damage_conditions": {
+    "max_duration_ticks": 200,
+    "min_relative_speed": 4.6
+  },
+  "damage_multiplier": 1.075,
+  "delay_ticks": 10,
+  "dismount_conditions": {
+    "max_duration_ticks": 60,
+    "min_speed": 7.5
+  },
+  "forward_movement": 0.38,
+  "hit_sound": "minecraft:item.spear.hit",
+  "hitbox_margin": 0.125,
+  "knockback_conditions": {
+    "max_duration_ticks": 80,
+    "min_speed": 5.1
+  },
+  "max_reach": 4.5,
+  "min_reach": 2,
+  "sound": "minecraft:item.spear.use"
+}</pre></td><td><pre>{
+  "damage_conditions": {
+    "max_duration_ticks": 200,
+    "min_relative_speed": 4.6
+  },
+  "damage_multiplier": 1.075,
+  "delay_ticks": 10,
+  "dismount_conditions": {
+    "max_duration_ticks": 60,
+    "min_speed": 7.5
+  },
+  "forward_movement": 0.38,
+  "hit_sound": "minecraft:item.spear.hit",
+  "knockback_conditions": {
+    "max_duration_ticks": 80,
+    "min_speed": 5.1
+  },
+  "sound": "minecraft:item.spear.use"
+}</pre></td></tr><tr><td>minecraft:piercing_weapon</td><td><pre>{
+  "hit_sound": "minecraft:item.spear.hit",
+  "hitbox_margin": 0.25,
+  "max_reach": 4.5,
+  "min_reach": 2,
+  "sound": "minecraft:item.spear.attack"
+}</pre></td><td><pre>{
+  "hit_sound": "minecraft:item.spear.hit",
+  "sound": "minecraft:item.spear.attack"
+}</pre></td></tr></table>
+<br/>
+</details>
+<details>
+<summary>
+golden_spear
+</summary>
+<br/>
+<b>COMPONENTS</b>
+
+<table><tr><th></th><th align="left">25w46a</th><th>1.21.11-pre1</th></tr><tr><td>minecraft:attack_range</td><td><pre>/</pre></td><td><pre>{
+  "hitbox_margin": 0.125,
+  "max_reach": 4.5,
+  "min_reach": 2,
+  "mob_factor": 0.5
+}</pre></td></tr><tr><td>minecraft:kinetic_weapon</td><td><pre>{
+  "damage_conditions": {
+    "max_duration_ticks": 275,
+    "min_relative_speed": 4.6
+  },
+  "damage_multiplier": 0.7,
+  "delay_ticks": 14,
+  "dismount_conditions": {
+    "max_duration_ticks": 70,
+    "min_speed": 10
+  },
+  "forward_movement": 0.38,
+  "hit_sound": "minecraft:item.spear.hit",
+  "hitbox_margin": 0.125,
+  "knockback_conditions": {
+    "max_duration_ticks": 110,
+    "min_speed": 5.1
+  },
+  "max_reach": 4.5,
+  "min_reach": 2,
+  "sound": "minecraft:item.spear.use"
+}</pre></td><td><pre>{
+  "damage_conditions": {
+    "max_duration_ticks": 275,
+    "min_relative_speed": 4.6
+  },
+  "damage_multiplier": 0.7,
+  "delay_ticks": 14,
+  "dismount_conditions": {
+    "max_duration_ticks": 70,
+    "min_speed": 10
+  },
+  "forward_movement": 0.38,
+  "hit_sound": "minecraft:item.spear.hit",
+  "knockback_conditions": {
+    "max_duration_ticks": 110,
+    "min_speed": 5.1
+  },
+  "sound": "minecraft:item.spear.use"
+}</pre></td></tr><tr><td>minecraft:piercing_weapon</td><td><pre>{
+  "hit_sound": "minecraft:item.spear.hit",
+  "hitbox_margin": 0.25,
+  "max_reach": 4.5,
+  "min_reach": 2,
+  "sound": "minecraft:item.spear.attack"
+}</pre></td><td><pre>{
+  "hit_sound": "minecraft:item.spear.hit",
+  "sound": "minecraft:item.spear.attack"
+}</pre></td></tr></table>
+<br/>
+</details>
+<details>
+<summary>
+iron_spear
+</summary>
+<br/>
+<b>COMPONENTS</b>
+
+<table><tr><th></th><th align="left">25w46a</th><th>1.21.11-pre1</th></tr><tr><td>minecraft:attack_range</td><td><pre>/</pre></td><td><pre>{
+  "hitbox_margin": 0.125,
+  "max_reach": 4.5,
+  "min_reach": 2,
+  "mob_factor": 0.5
+}</pre></td></tr><tr><td>minecraft:kinetic_weapon</td><td><pre>{
+  "damage_conditions": {
+    "max_duration_ticks": 225,
+    "min_relative_speed": 4.6
+  },
+  "damage_multiplier": 0.95,
+  "delay_ticks": 12,
+  "dismount_conditions": {
+    "max_duration_ticks": 50,
+    "min_speed": 8
+  },
+  "forward_movement": 0.38,
+  "hit_sound": "minecraft:item.spear.hit",
+  "hitbox_margin": 0.125,
+  "knockback_conditions": {
+    "max_duration_ticks": 90,
+    "min_speed": 5.1
+  },
+  "max_reach": 4.5,
+  "min_reach": 2,
+  "sound": "minecraft:item.spear.use"
+}</pre></td><td><pre>{
+  "damage_conditions": {
+    "max_duration_ticks": 225,
+    "min_relative_speed": 4.6
+  },
+  "damage_multiplier": 0.95,
+  "delay_ticks": 12,
+  "dismount_conditions": {
+    "max_duration_ticks": 50,
+    "min_speed": 8
+  },
+  "forward_movement": 0.38,
+  "hit_sound": "minecraft:item.spear.hit",
+  "knockback_conditions": {
+    "max_duration_ticks": 90,
+    "min_speed": 5.1
+  },
+  "sound": "minecraft:item.spear.use"
+}</pre></td></tr><tr><td>minecraft:piercing_weapon</td><td><pre>{
+  "hit_sound": "minecraft:item.spear.hit",
+  "hitbox_margin": 0.25,
+  "max_reach": 4.5,
+  "min_reach": 2,
+  "sound": "minecraft:item.spear.attack"
+}</pre></td><td><pre>{
+  "hit_sound": "minecraft:item.spear.hit",
+  "sound": "minecraft:item.spear.attack"
+}</pre></td></tr></table>
+<br/>
+</details>
+<details>
+<summary>
+netherite_spear
+</summary>
+<br/>
+<b>COMPONENTS</b>
+
+<table><tr><th></th><th align="left">25w46a</th><th>1.21.11-pre1</th></tr><tr><td>minecraft:attack_range</td><td><pre>/</pre></td><td><pre>{
+  "hitbox_margin": 0.125,
+  "max_reach": 4.5,
+  "min_reach": 2,
+  "mob_factor": 0.5
+}</pre></td></tr><tr><td>minecraft:kinetic_weapon</td><td><pre>{
+  "damage_conditions": {
+    "max_duration_ticks": 175,
+    "min_relative_speed": 4.6
+  },
+  "damage_multiplier": 1.2,
+  "delay_ticks": 8,
+  "dismount_conditions": {
+    "max_duration_ticks": 50,
+    "min_speed": 7
+  },
+  "forward_movement": 0.38,
+  "hit_sound": "minecraft:item.spear.hit",
+  "hitbox_margin": 0.125,
+  "knockback_conditions": {
+    "max_duration_ticks": 70,
+    "min_speed": 5.1
+  },
+  "max_reach": 4.5,
+  "min_reach": 2,
+  "sound": "minecraft:item.spear.use"
+}</pre></td><td><pre>{
+  "damage_conditions": {
+    "max_duration_ticks": 175,
+    "min_relative_speed": 4.6
+  },
+  "damage_multiplier": 1.2,
+  "delay_ticks": 8,
+  "dismount_conditions": {
+    "max_duration_ticks": 50,
+    "min_speed": 7
+  },
+  "forward_movement": 0.38,
+  "hit_sound": "minecraft:item.spear.hit",
+  "knockback_conditions": {
+    "max_duration_ticks": 70,
+    "min_speed": 5.1
+  },
+  "sound": "minecraft:item.spear.use"
+}</pre></td></tr><tr><td>minecraft:piercing_weapon</td><td><pre>{
+  "hit_sound": "minecraft:item.spear.hit",
+  "hitbox_margin": 0.25,
+  "max_reach": 4.5,
+  "min_reach": 2,
+  "sound": "minecraft:item.spear.attack"
+}</pre></td><td><pre>{
+  "hit_sound": "minecraft:item.spear.hit",
+  "sound": "minecraft:item.spear.attack"
+}</pre></td></tr></table>
+<br/>
+</details>
+<details>
+<summary>
+pufferfish_bucket
+</summary>
+<br/>
+<b>COMPONENTS</b>
+
+<table><tr><th></th><th align="left">25w46a</th><th>1.21.11-pre1</th></tr><tr><td>minecraft:consumable</td><td><pre>{}</pre></td><td><pre>/</pre></td></tr></table>
+<br/>
+</details>
+<details>
+<summary>
+salmon_bucket
+</summary>
+<br/>
+<b>COMPONENTS</b>
+
+<table><tr><th></th><th align="left">25w46a</th><th>1.21.11-pre1</th></tr><tr><td>minecraft:consumable</td><td><pre>{}</pre></td><td><pre>/</pre></td></tr></table>
+<br/>
+</details>
+<details>
+<summary>
+stone_spear
+</summary>
+<br/>
+<b>COMPONENTS</b>
+
+<table><tr><th></th><th align="left">25w46a</th><th>1.21.11-pre1</th></tr><tr><td>minecraft:attack_range</td><td><pre>/</pre></td><td><pre>{
+  "hitbox_margin": 0.125,
+  "max_reach": 4.5,
+  "min_reach": 2,
+  "mob_factor": 0.5
+}</pre></td></tr><tr><td>minecraft:kinetic_weapon</td><td><pre>{
+  "damage_conditions": {
+    "max_duration_ticks": 275,
+    "min_relative_speed": 4.6
+  },
+  "damage_multiplier": 0.82,
+  "delay_ticks": 14,
+  "dismount_conditions": {
+    "max_duration_ticks": 90,
+    "min_speed": 10
+  },
+  "forward_movement": 0.38,
+  "hit_sound": "minecraft:item.spear.hit",
+  "hitbox_margin": 0.125,
+  "knockback_conditions": {
+    "max_duration_ticks": 110,
+    "min_speed": 5.1
+  },
+  "max_reach": 4.5,
+  "min_reach": 2,
+  "sound": "minecraft:item.spear.use"
+}</pre></td><td><pre>{
+  "damage_conditions": {
+    "max_duration_ticks": 275,
+    "min_relative_speed": 4.6
+  },
+  "damage_multiplier": 0.82,
+  "delay_ticks": 14,
+  "dismount_conditions": {
+    "max_duration_ticks": 90,
+    "min_speed": 10
+  },
+  "forward_movement": 0.38,
+  "hit_sound": "minecraft:item.spear.hit",
+  "knockback_conditions": {
+    "max_duration_ticks": 110,
+    "min_speed": 5.1
+  },
+  "sound": "minecraft:item.spear.use"
+}</pre></td></tr><tr><td>minecraft:piercing_weapon</td><td><pre>{
+  "hit_sound": "minecraft:item.spear.hit",
+  "hitbox_margin": 0.25,
+  "max_reach": 4.5,
+  "min_reach": 2,
+  "sound": "minecraft:item.spear.attack"
+}</pre></td><td><pre>{
+  "hit_sound": "minecraft:item.spear.hit",
+  "sound": "minecraft:item.spear.attack"
+}</pre></td></tr></table>
+<br/>
+</details>
+<details>
+<summary>
+tropical_fish_bucket
+</summary>
+<br/>
+<b>COMPONENTS</b>
+
+<table><tr><th></th><th align="left">25w46a</th><th>1.21.11-pre1</th></tr><tr><td>minecraft:consumable</td><td><pre>{}</pre></td><td><pre>/</pre></td></tr></table>
+<br/>
+</details>
+<details>
+<summary>
+wooden_spear
+</summary>
+<br/>
+<b>COMPONENTS</b>
+
+<table><tr><th></th><th align="left">25w46a</th><th>1.21.11-pre1</th></tr><tr><td>minecraft:attack_range</td><td><pre>/</pre></td><td><pre>{
+  "hitbox_margin": 0.125,
+  "max_reach": 4.5,
+  "min_reach": 2,
+  "mob_factor": 0.5
+}</pre></td></tr><tr><td>minecraft:kinetic_weapon</td><td><pre>{
+  "damage_conditions": {
+    "max_duration_ticks": 300,
+    "min_relative_speed": 4.6
+  },
+  "damage_multiplier": 0.7,
+  "delay_ticks": 15,
+  "dismount_conditions": {
+    "max_duration_ticks": 100,
+    "min_speed": 14
+  },
+  "forward_movement": 0.38,
+  "hit_sound": "minecraft:item.spear_wood.hit",
+  "hitbox_margin": 0.125,
+  "knockback_conditions": {
+    "max_duration_ticks": 120,
+    "min_speed": 5.1
+  },
+  "max_reach": 4.5,
+  "min_reach": 2,
+  "sound": "minecraft:item.spear_wood.use"
+}</pre></td><td><pre>{
+  "damage_conditions": {
+    "max_duration_ticks": 300,
+    "min_relative_speed": 4.6
+  },
+  "damage_multiplier": 0.7,
+  "delay_ticks": 15,
+  "dismount_conditions": {
+    "max_duration_ticks": 100,
+    "min_speed": 14
+  },
+  "forward_movement": 0.38,
+  "hit_sound": "minecraft:item.spear_wood.hit",
+  "knockback_conditions": {
+    "max_duration_ticks": 120,
+    "min_speed": 5.1
+  },
+  "sound": "minecraft:item.spear_wood.use"
+}</pre></td></tr><tr><td>minecraft:piercing_weapon</td><td><pre>{
+  "hit_sound": "minecraft:item.spear_wood.hit",
+  "hitbox_margin": 0.25,
+  "max_reach": 4.5,
+  "min_reach": 2,
+  "sound": "minecraft:item.spear_wood.attack"
+}</pre></td><td><pre>{
+  "hit_sound": "minecraft:item.spear_wood.hit",
+  "sound": "minecraft:item.spear_wood.attack"
+}</pre></td></tr></table>
+<br/>
+</details>
+</details>
+<hr/>
+<details><summary><b><ins>COMMANDS</ins></b><a name="commands"></a></summary>
+<br/>
+<details>
+<summary>
+gamerule
+</summary>
+
+```diff
++ gamerule minecraft:advance_time <value: bool>
++ gamerule minecraft:advance_weather <value: bool>
++ gamerule minecraft:allow_entering_nether_using_portals <value: bool>
++ gamerule minecraft:block_drops <value: bool>
++ gamerule minecraft:block_explosion_drop_decay <value: bool>
++ gamerule minecraft:command_block_output <value: bool>
++ gamerule minecraft:command_blocks_work <value: bool>
++ gamerule minecraft:drowning_damage <value: bool>
++ gamerule minecraft:elytra_movement_check <value: bool>
++ gamerule minecraft:ender_pearls_vanish_on_death <value: bool>
++ gamerule minecraft:entity_drops <value: bool>
++ gamerule minecraft:fall_damage <value: bool>
++ gamerule minecraft:fire_damage <value: bool>
++ gamerule minecraft:fire_spread_radius_around_player <value: integer>
++ gamerule minecraft:forgive_dead_players <value: bool>
++ gamerule minecraft:freeze_damage <value: bool>
++ gamerule minecraft:global_sound_events <value: bool>
++ gamerule minecraft:immediate_respawn <value: bool>
++ gamerule minecraft:keep_inventory <value: bool>
++ gamerule minecraft:lava_source_conversion <value: bool>
++ gamerule minecraft:limited_crafting <value: bool>
++ gamerule minecraft:locator_bar <value: bool>
++ gamerule minecraft:log_admin_commands <value: bool>
++ gamerule minecraft:max_block_modifications <value: integer>
++ gamerule minecraft:max_command_forks <value: integer>
++ gamerule minecraft:max_command_sequence_length <value: integer>
++ gamerule minecraft:max_entity_cramming <value: integer>
++ gamerule minecraft:max_minecart_speed <value: integer>
++ gamerule minecraft:max_snow_accumulation_height <value: integer>
++ gamerule minecraft:mob_drops <value: bool>
++ gamerule minecraft:mob_explosion_drop_decay <value: bool>
++ gamerule minecraft:mob_griefing <value: bool>
++ gamerule minecraft:natural_health_regeneration <value: bool>
++ gamerule minecraft:player_movement_check <value: bool>
++ gamerule minecraft:players_nether_portal_creative_delay <value: integer>
++ gamerule minecraft:players_nether_portal_default_delay <value: integer>
++ gamerule minecraft:players_sleeping_percentage <value: integer>
++ gamerule minecraft:projectiles_can_break_blocks <value: bool>
++ gamerule minecraft:pvp <value: bool>
++ gamerule minecraft:raids <value: bool>
++ gamerule minecraft:random_tick_speed <value: integer>
++ gamerule minecraft:reduced_debug_info <value: bool>
++ gamerule minecraft:respawn_radius <value: integer>
++ gamerule minecraft:send_command_feedback <value: bool>
++ gamerule minecraft:show_advancement_messages <value: bool>
++ gamerule minecraft:show_death_messages <value: bool>
++ gamerule minecraft:spawn_mobs <value: bool>
++ gamerule minecraft:spawn_monsters <value: bool>
++ gamerule minecraft:spawn_patrols <value: bool>
++ gamerule minecraft:spawn_phantoms <value: bool>
++ gamerule minecraft:spawn_wandering_traders <value: bool>
++ gamerule minecraft:spawn_wardens <value: bool>
++ gamerule minecraft:spawner_blocks_work <value: bool>
++ gamerule minecraft:spectators_generate_chunks <value: bool>
++ gamerule minecraft:spread_vines <value: bool>
++ gamerule minecraft:tnt_explodes <value: bool>
++ gamerule minecraft:tnt_explosion_drop_decay <value: bool>
++ gamerule minecraft:universal_anger <value: bool>
++ gamerule minecraft:water_source_conversion <value: bool>
+```
+
+</details>
+</details>
+<hr/>
+<details><summary><b><ins>RECIPES</ins></b><a name="recipes"></a></summary>
+<br/>
+<details>
+<summary>
+waxed_chiseled_copper.json
+</summary>
+
+```
+Result: waxed_chiseled_copper x2 -> waxed_chiseled_copper x1
+```
+
+</details>
+<details>
+<summary>
+waxed_exposed_chiseled_copper.json
+</summary>
+
+```
+Result: waxed_exposed_chiseled_copper x2 -> waxed_exposed_chiseled_copper x1
+```
+
+</details>
+<details>
+<summary>
+waxed_oxidized_chiseled_copper.json
+</summary>
+
+```
+Result: waxed_oxidized_chiseled_copper x2 -> waxed_oxidized_chiseled_copper x1
+```
+
+</details>
+<details>
+<summary>
+waxed_weathered_chiseled_copper.json
+</summary>
+
+```
+Result: waxed_weathered_chiseled_copper x2 -> waxed_weathered_chiseled_copper x1
+```
+
+</details>
+</details>
+<hr/>
+<details><summary><b><ins>TRANSLATIONS</ins></b><a name="translations"></a></summary>
+<br/>
+<details>
+<summary>
+Keys
+</summary>
+
+```diff
++ options.textureFiltering: Texture Filtering
++ options.textureFiltering.anisotropic: Anisotropic
++ options.textureFiltering.anisotropic.tooltip: A hardware based filtering method, but impacts performance and significantly impacts video memory usage. May not be supported on all hardware.
++ options.textureFiltering.none: None
++ options.textureFiltering.none.tooltip: Textures are displayed without any filtering. Blocks may look blurry when viewed at an angle.
++ options.textureFiltering.rgss: RGSS
++ options.textureFiltering.rgss.tooltip: (Rotated Grid Super Sampling)
+A shader based filtering method that improves texture quality with a moderate performance impact.
++ subtitles.entity.baby_nautilus.ambient_land: Baby Nautilus chitters
++ subtitles.entity.baby_nautilus.death_land: Baby Nautilus dies
++ subtitles.entity.baby_nautilus.hurt_land: Baby Nautilus hurts
++ subtitles.entity.nautilus.ambient_land: Nautilus clacks
++ subtitles.entity.nautilus.dash_land: Nautilus jets
++ subtitles.entity.nautilus.dash_ready_land: Nautilus recovers
++ subtitles.entity.nautilus.death_land: Nautilus dies
++ subtitles.entity.nautilus.hurt_land: Nautilus hurts
++ subtitles.entity.zombie_nautilus.ambient_land: Zombie Nautilus burbles
++ subtitles.entity.zombie_nautilus.dash_land: Zombie Nautilus jets
++ subtitles.entity.zombie_nautilus.dash_ready_land: Zombie Nautilus recovers
++ subtitles.entity.zombie_nautilus.death_land: Zombie Nautilus dies
++ subtitles.entity.zombie_nautilus.hurt_land: Zombie Nautilus hurts
+```
+
+</details>
+<details>
+<summary>
+Changes
+</summary>
+<br/>
+<table>
+<tr><th>Name</th><th>25w46a</th><th>1.21.11-pre1</th></tr>
+<tr><th align="left"><div style="width:290px">options.maxAnisotropy.tooltip</div></th><td>Significantly improves how smooth textures look, but impacts performance and significantly impacts video memory usage. May not be supported on all hardware.</td><td>Each level significantly improves how smooth textures look, but impacts performance and significantly impacts video memory usage. Requires Texture Filtering to be set to Anisotropic.</td></tr>
+</table>
+<br/>
+</details>
+</details>
+<hr/>
+<details><summary><b><ins>FILE STRUCTURE</ins></b><a name="file-structure"></a></summary>
+<br/>
+<details>
+<summary>
+assets
+</summary>
+
+```diff
++ minecraft/textures/entity/equipment/horse_body/leather_overlay.png
++ minecraft/textures/item/leather_horse_armor_overlay.png
+```
+
+</details>
+</details>
+<hr/>
+<details><summary><b><ins>MISC</ins></b><a name="misc"></a></summary>
+<br/>
+<details>
+<summary>
+splashes
+</summary>
+
+```diff
++ Music by Hyper Potions!
+```
+
+</details>
+</details>
+<hr/>
+<details><summary><b><ins>MAPPINGS</ins></b><a name="mappings"></a></summary>
+<br/>
+<h2>Server<a name="server-mappings"></a></h2>
+<details>
+<summary>
+Classes
+</summary>
+
+```diff
+- XXX.ai.attributes.Attribute
++ XXX.ai.attributes.Attribute$Sentiment
+- XXX.ai.attributes.AttributeInstance
++ XXX.ai.attributes.AttributeInstance$Packed
+- XXX.ai.attributes.AttributeMap
++ XXX.ai.attributes.AttributeModifier
+- XXX.ai.attributes.AttributeModifier$Operation
++ XXX.ai.attributes.Attributes
++ XXX.ai.attributes.AttributeSupplier
+- XXX.ai.attributes.AttributeSupplier$Builder
+- XXX.ai.attributes.DefaultAttributes
+- XXX.ai.attributes.package-info
++ XXX.ai.attributes.RangedAttribute
++ XXX.ai.behavior.AcquirePoi
+- XXX.ai.behavior.AcquirePoi$JitteredLinearRetry
++ XXX.ai.behavior.AnimalMakeLove
+- XXX.ai.behavior.AnimalPanic
++ XXX.ai.behavior.AssignProfessionFromJobSite
+- XXX.ai.behavior.BabyFollowAdult
++ XXX.ai.behavior.BackUpIfTooClose
+- XXX.ai.behavior.BecomePassiveIfMemoryPresent
++ XXX.ai.behavior.Behavior
+- XXX.ai.behavior.Behavior$Status
++ XXX.ai.behavior.BehaviorControl
+- XXX.ai.behavior.BehaviorUtils
++ XXX.ai.behavior.BlockPosTracker
+- XXX.ai.behavior.CelebrateVillagersSurvivedRaid
++ XXX.ai.behavior.ChargeAttack
+- XXX.ai.behavior.CopyMemoryWithExpiry
++ XXX.ai.behavior.CountDownCooldownTicks
+- XXX.ai.behavior.Croak
++ XXX.ai.behavior.CrossbowAttack
+- XXX.ai.behavior.CrossbowAttack$CrossbowState
++ XXX.ai.behavior.DismountOrSkipMounting
+- XXX.ai.behavior.DoNothing
++ XXX.ai.behavior.EntityTracker
+- XXX.ai.behavior.EraseMemoryIf
++ XXX.ai.behavior.FollowTemptation
+- XXX.ai.behavior.GateBehavior
++ XXX.ai.behavior.GateBehavior$OrderPolicy
+- XXX.ai.behavior.GateBehavior$RunningPolicy
++ XXX.ai.behavior.GateBehavior$RunningPolicy$1
+- XXX.ai.behavior.GateBehavior$RunningPolicy$2
++ XXX.ai.behavior.GiveGiftToHero
+- XXX.ai.behavior.GoAndGiveItemsToTarget
++ XXX.ai.behavior.GoToClosestVillage
+- XXX.ai.behavior.GoToPotentialJobSite
++ XXX.ai.behavior.GoToTargetLocation
+- XXX.ai.behavior.GoToWantedItem
++ XXX.ai.behavior.HarvestFarmland
+- XXX.ai.behavior.InsideBrownianWalk
++ XXX.ai.behavior.InteractWith
+- XXX.ai.behavior.InteractWithDoor
++ XXX.ai.behavior.JumpOnBed
+- XXX.ai.behavior.LocateHidingPlace
++ XXX.ai.behavior.LongJumpMidJump
+- XXX.ai.behavior.LongJumpToPreferredBlock
++ XXX.ai.behavior.LongJumpToRandomPos
+- XXX.ai.behavior.LongJumpToRandomPos$PossibleJump
++ XXX.ai.behavior.LongJumpUtil
+- XXX.ai.behavior.LookAndFollowTradingPlayerSink
++ XXX.ai.behavior.LookAtTargetSink
+- XXX.ai.behavior.MeleeAttack
++ XXX.ai.behavior.Mount
+- XXX.ai.behavior.MoveToSkySeeingSpot
++ XXX.ai.behavior.MoveToTargetSink
+- XXX.ai.behavior.OneShot
++ XXX.ai.behavior.package-info
++ XXX.ai.behavior.PlayTagWithOtherKids
+- XXX.ai.behavior.PoiCompetitorScan
++ XXX.ai.behavior.PositionTracker
+- XXX.ai.behavior.PrepareRamNearestTarget
++ XXX.ai.behavior.PrepareRamNearestTarget$RamCandidate
+- XXX.ai.behavior.RamTarget
++ XXX.ai.behavior.RandomLookAround
+- XXX.ai.behavior.RandomStroll
++ XXX.ai.behavior.ReactToBell
+- XXX.ai.behavior.ResetProfession
++ XXX.ai.behavior.ResetRaidStatus
+- XXX.ai.behavior.RingBell
++ XXX.ai.behavior.RunOne
+- XXX.ai.behavior.SetClosestHomeAsWalkTarget
++ XXX.ai.behavior.SetEntityLookTarget
+- XXX.ai.behavior.SetEntityLookTargetSometimes
++ XXX.ai.behavior.SetEntityLookTargetSometimes$Ticker
+- XXX.ai.behavior.SetHiddenState
++ XXX.ai.behavior.SetLookAndInteract
+- XXX.ai.behavior.SetRaidStatus
++ XXX.ai.behavior.SetWalkTargetAwayFrom
+- XXX.ai.behavior.SetWalkTargetFromAttackTargetIfTargetOutOfReach
++ XXX.ai.behavior.SetWalkTargetFromBlockMemory
+- XXX.ai.behavior.SetWalkTargetFromLookTarget
++ XXX.ai.behavior.ShowTradesToPlayer
+- XXX.ai.behavior.ShufflingList
++ XXX.ai.behavior.ShufflingList$WeightedEntry
+- XXX.ai.behavior.ShufflingList$WeightedEntry$1
++ XXX.ai.behavior.SleepInBed
+- XXX.ai.behavior.SocializeAtBell
+- XXX.ai.behavior.SpearAttack
+- XXX.ai.behavior.SpearRetreat
++ XXX.ai.behavior.StartAttacking
+- XXX.ai.behavior.StartAttacking$StartAttackingCondition
++ XXX.ai.behavior.StartAttacking$TargetFinder
+- XXX.ai.behavior.StartCelebratingIfTargetDead
++ XXX.ai.behavior.StayCloseToTarget
+- XXX.ai.behavior.StopAttackingIfTargetInvalid
++ XXX.ai.behavior.StopAttackingIfTargetInvalid$StopAttackCondition
+- XXX.ai.behavior.StopAttackingIfTargetInvalid$TargetErasedCallback
++ XXX.ai.behavior.StopBeingAngryIfTargetDead
+- XXX.ai.behavior.StrollAroundPoi
++ XXX.ai.behavior.StrollToPoi
+- XXX.ai.behavior.StrollToPoiList
++ XXX.ai.behavior.Swim
+- XXX.ai.behavior.TradeWithVillager
++ XXX.ai.behavior.TransportItemsBetweenContainers
+- XXX.ai.behavior.TransportItemsBetweenContainers$ContainerInteractionState
++ XXX.ai.behavior.TransportItemsBetweenContainers$OnTargetReachedInteraction
+- XXX.ai.behavior.TransportItemsBetweenContainers$TransportItemState
++ XXX.ai.behavior.TransportItemsBetweenContainers$TransportItemTarget
+- XXX.ai.behavior.TriggerGate
++ XXX.ai.behavior.TryFindLand
+- XXX.ai.behavior.TryFindLandNearWater
++ XXX.ai.behavior.TryFindWater
+- XXX.ai.behavior.TryLaySpawnOnWaterNearLand
++ XXX.ai.behavior.UpdateActivityFromSchedule
+- XXX.ai.behavior.UseBonemeal
++ XXX.ai.behavior.ValidateNearbyPoi
+- XXX.ai.behavior.VillageBoundRandomStroll
++ XXX.ai.behavior.VillagerCalmDown
+- XXX.ai.behavior.VillagerGoalPackages
++ XXX.ai.behavior.VillagerMakeLove
+- XXX.ai.behavior.VillagerPanicTrigger
++ XXX.ai.behavior.WakeUp
+- XXX.ai.behavior.WorkAtComposter
++ XXX.ai.behavior.WorkAtPoi
+- XXX.ai.behavior.YieldJobSite
+- XXX.ai.control.BodyRotationControl
++ XXX.ai.control.Control
+- XXX.ai.control.FlyingMoveControl
++ XXX.ai.control.JumpControl
+- XXX.ai.control.LookControl
++ XXX.ai.control.MoveControl
+- XXX.ai.control.MoveControl$Operation
++ XXX.ai.control.package-info
++ XXX.ai.control.SmoothSwimmingLookControl
+- XXX.ai.control.SmoothSwimmingMoveControl
+- XXX.ai.goal.AvoidEntityGoal
++ XXX.ai.goal.BegGoal
+- XXX.ai.goal.BoatGoals
++ XXX.ai.goal.BreakDoorGoal
+- XXX.ai.goal.BreathAirGoal
++ XXX.ai.goal.BreedGoal
+- XXX.ai.goal.CatLieOnBedGoal
++ XXX.ai.goal.CatSitOnBlockGoal
+- XXX.ai.goal.ClimbOnTopOfPowderSnowGoal
++ XXX.ai.goal.DolphinJumpGoal
+- XXX.ai.goal.DoorInteractGoal
++ XXX.ai.goal.EatBlockGoal
+- XXX.ai.goal.FleeSunGoal
++ XXX.ai.goal.FloatGoal
+- XXX.ai.goal.FollowBoatGoal
++ XXX.ai.goal.FollowFlockLeaderGoal
+- XXX.ai.goal.FollowMobGoal
++ XXX.ai.goal.FollowOwnerGoal
+- XXX.ai.goal.FollowParentGoal
++ XXX.ai.goal.Goal
+- XXX.ai.goal.Goal$Flag
++ XXX.ai.goal.GoalSelector
+- XXX.ai.goal.GoalSelector$1
++ XXX.ai.goal.GoalSelector$2
+- XXX.ai.goal.GolemRandomStrollInVillageGoal
++ XXX.ai.goal.InteractGoal
+- XXX.ai.goal.JumpGoal
++ XXX.ai.goal.LandOnOwnersShoulderGoal
+- XXX.ai.goal.LeapAtTargetGoal
++ XXX.ai.goal.LlamaFollowCaravanGoal
+- XXX.ai.goal.LookAtPlayerGoal
++ XXX.ai.goal.LookAtTradingPlayerGoal
+- XXX.ai.goal.MeleeAttackGoal
++ XXX.ai.goal.MoveBackToVillageGoal
+- XXX.ai.goal.MoveThroughVillageGoal
++ XXX.ai.goal.MoveToBlockGoal
+- XXX.ai.goal.MoveTowardsRestrictionGoal
++ XXX.ai.goal.MoveTowardsTargetGoal
+- XXX.ai.goal.OcelotAttackGoal
++ XXX.ai.goal.OfferFlowerGoal
+- XXX.ai.goal.OpenDoorGoal
++ XXX.ai.goal.PanicGoal
+- XXX.ai.goal.PathfindToRaidGoal
++ XXX.ai.goal.RandomLookAroundGoal
+- XXX.ai.goal.RandomStandGoal
++ XXX.ai.goal.RandomStrollGoal
+- XXX.ai.goal.RandomSwimmingGoal
++ XXX.ai.goal.RangedAttackGoal
+- XXX.ai.goal.RangedBowAttackGoal
++ XXX.ai.goal.RangedCrossbowAttackGoal
+- XXX.ai.goal.RangedCrossbowAttackGoal$CrossbowState
++ XXX.ai.goal.RemoveBlockGoal
+- XXX.ai.goal.RestrictSunGoal
++ XXX.ai.goal.RunAroundLikeCrazyGoal
+- XXX.ai.goal.SitWhenOrderedToGoal
++ XXX.ai.goal.SpearUseGoal
+- XXX.ai.goal.SpearUseGoal$SpearUseState
+- XXX.animal.bee.Bee$1
+- XXX.animal.bee.Bee$BeeAttackGoal
+- XXX.animal.bee.Bee$BeeEnterHiveGoal
+- XXX.animal.bee.Bee$BeeGoToKnownFlowerGoal
+- XXX.animal.bee.Bee$BeeHurtByOtherGoal
+- XXX.animal.bee.Bee$BeeLookControl
+- XXX.animal.bee.Bee$BeeWanderGoal
+- XXX.animal.bee.Bee$ValidateHiveGoal
+- XXX.animal.camel.Camel
++ XXX.animal.camel.Camel$CamelBodyRotationControl
+- XXX.animal.camel.Camel$CamelLookControl
++ XXX.animal.camel.Camel$CamelMoveControl
+- XXX.animal.camel.CamelAi
++ XXX.animal.camel.CamelAi$CamelPanic
+- XXX.animal.camel.CamelAi$RandomSitting
++ XXX.animal.camel.CamelHusk
+- XXX.animal.camel.package-info
+- XXX.animal.chicken.ChickenVariant
+- XXX.animal.chicken.ChickenVariants
++ XXX.animal.coppergolem.CopperGolem
++ XXX.animal.coppergolem.CopperGolemAi
++ XXX.animal.coppergolem.CopperGolemOxidationLevels
++ XXX.animal.coppergolem.package-info
+- XXX.animal.cow.AbstractCow
+- XXX.animal.cow.CowVariant
+- XXX.animal.cow.CowVariants
+- XXX.animal.cow.MushroomCow$Variant
+- XXX.animal.dolphin.Dolphin
+- XXX.animal.dolphin.Dolphin$DolphinSwimWithPlayerGoal
+- XXX.animal.dolphin.package-info
+- XXX.animal.equine.AbstractChestedHorse$1
+- XXX.animal.equine.AbstractHorse$MountPanicGoal
+- XXX.animal.equine.Horse
+- XXX.animal.equine.Llama
+- XXX.animal.equine.Llama$LlamaGroupData
+- XXX.animal.equine.Llama$Variant
+- XXX.animal.equine.Mule
+- XXX.animal.equine.SkeletonTrapGoal
+- XXX.animal.equine.TraderLlama$TraderLlamaDefendWanderingTraderGoal
+- XXX.animal.equine.ZombieHorse
+- XXX.animal.feline.Cat
+- XXX.animal.feline.Cat$CatRelaxOnOwnerGoal
+- XXX.animal.feline.CatVariant
+- XXX.animal.feline.Ocelot
+- XXX.animal.feline.Ocelot$OcelotTemptGoal
+- XXX.animal.fish.AbstractFish
+- XXX.animal.fish.AbstractFish$FishSwimGoal
+- XXX.animal.fish.AbstractSchoolingFish$SchoolSpawnGroupData
+- XXX.animal.fish.package-info
+- XXX.animal.fish.Pufferfish
+- XXX.animal.fish.Salmon
+- XXX.animal.fish.TropicalFish
+- XXX.animal.fish.TropicalFish$Pattern
+- XXX.animal.fish.TropicalFish$Variant
+- XXX.animal.fox.Fox$DefendTrustedTargetGoal
+- XXX.animal.fox.Fox$FoxAlertableEntitiesSelector
+- XXX.animal.fox.Fox$FoxBreedGoal
+- XXX.animal.fox.Fox$FoxFloatGoal
+- XXX.animal.fox.Fox$FoxGroupData
+- XXX.animal.fox.Fox$FoxLookControl
+- XXX.animal.fox.Fox$FoxMoveControl
+- XXX.animal.fox.Fox$FoxPounceGoal
+- XXX.animal.fox.Fox$FoxStrollThroughVillageGoal
+- XXX.animal.fox.Fox$SeekShelterGoal
+- XXX.animal.fox.Fox$StalkPreyGoal
+- XXX.animal.fox.package-info
+- XXX.animal.golem.AbstractGolem
+- XXX.animal.golem.CopperGolem$1
+- XXX.animal.golem.CopperGolemOxidationLevel
+- XXX.animal.golem.CopperGolemState
+- XXX.animal.golem.SnowGolem
+- XXX.animal.happyghast.HappyGhast
+- XXX.animal.happyghast.HappyGhast$HappyGhastBodyRotationControl
+- XXX.animal.happyghast.HappyGhast$HappyGhastLookControl
+- XXX.animal.happyghast.package-info
++ XXX.animal.horse.AbstractChestedHorse
++ XXX.animal.horse.AbstractHorse
++ XXX.animal.horse.Donkey
++ XXX.animal.horse.Horse$HorseGroupData
++ XXX.animal.horse.Llama$LlamaAttackWolfGoal
++ XXX.animal.horse.Llama$LlamaHurtByTargetGoal
++ XXX.animal.horse.Markings
++ XXX.animal.horse.package-info
++ XXX.animal.horse.SkeletonHorse
++ XXX.animal.horse.TraderLlama
++ XXX.animal.horse.Variant
++ XXX.animal.nautilus.package-info
+- XXX.animal.nautilus.ZombieNautilusVariant
+- XXX.animal.nautilus.ZombieNautilusVariants
+- XXX.animal.panda.package-info
+- XXX.animal.panda.Panda$Gene
+- XXX.animal.panda.Panda$PandaAvoidGoal
+- XXX.animal.panda.Panda$PandaHurtByTargetGoal
+- XXX.animal.panda.Panda$PandaLookAtPlayerGoal
+- XXX.animal.panda.Panda$PandaPanicGoal
+- XXX.animal.panda.Panda$PandaSitGoal
+- XXX.animal.parrot.package-info
+- XXX.animal.parrot.Parrot$1
+- XXX.animal.parrot.Parrot$Variant
+- XXX.animal.pig.PigVariant
+- XXX.animal.pig.PigVariants
+- XXX.animal.polarbear.package-info
+- XXX.animal.polarbear.PolarBear
+- XXX.animal.polarbear.PolarBear$PolarBearHurtByTargetGoal
+- XXX.animal.rabbit.Rabbit$RabbitAvoidEntityGoal
+- XXX.animal.rabbit.Rabbit$RabbitJumpControl
+- XXX.animal.rabbit.Rabbit$RabbitPanicGoal
+- XXX.animal.rabbit.Rabbit$Variant
+- XXX.animal.squid.GlowSquid
+- XXX.animal.squid.package-info
+- XXX.animal.squid.Squid$SquidFleeGoal
+- XXX.animal.turtle.Turtle$TurtleBreedGoal
+- XXX.animal.turtle.Turtle$TurtleGoToWaterGoal
+- XXX.animal.turtle.Turtle$TurtleMoveControl
+- XXX.animal.turtle.Turtle$TurtlePathNavigation
+- XXX.animal.turtle.Turtle$TurtleTravelGoal
++ XXX.behavior.declarative.BehaviorBuilder
+- XXX.behavior.declarative.BehaviorBuilder$1
++ XXX.behavior.declarative.BehaviorBuilder$Constant
+- XXX.behavior.declarative.BehaviorBuilder$Constant$1
++ XXX.behavior.declarative.BehaviorBuilder$Instance
+- XXX.behavior.declarative.BehaviorBuilder$Instance$1
++ XXX.behavior.declarative.BehaviorBuilder$Instance$2
+- XXX.behavior.declarative.BehaviorBuilder$Instance$3
++ XXX.behavior.declarative.BehaviorBuilder$Instance$4
+- XXX.behavior.declarative.BehaviorBuilder$Instance$5
++ XXX.behavior.declarative.BehaviorBuilder$Instance$Mu
+- XXX.behavior.declarative.BehaviorBuilder$Mu
++ XXX.behavior.declarative.BehaviorBuilder$PureMemory
+- XXX.behavior.declarative.BehaviorBuilder$PureMemory$1
++ XXX.behavior.declarative.BehaviorBuilder$TriggerWithResult
+- XXX.behavior.declarative.BehaviorBuilder$TriggerWrapper
++ XXX.behavior.declarative.BehaviorBuilder$TriggerWrapper$1
+- XXX.behavior.declarative.MemoryAccessor
++ XXX.behavior.declarative.MemoryCondition
+- XXX.behavior.declarative.MemoryCondition$Absent
++ XXX.behavior.declarative.MemoryCondition$Present
+- XXX.behavior.declarative.MemoryCondition$Registered
+- XXX.behavior.declarative.package-info
++ XXX.behavior.declarative.Trigger
+- XXX.behavior.warden.Digging
++ XXX.behavior.warden.Emerging
+- XXX.behavior.warden.ForceUnmount
++ XXX.behavior.warden.package-info
++ XXX.behavior.warden.Roar
+- XXX.behavior.warden.SetRoarTarget
++ XXX.behavior.warden.SetWardenLookTarget
+- XXX.behavior.warden.Sniffing
++ XXX.behavior.warden.SonicBoom
+- XXX.behavior.warden.TryToSniff
+- XXX.boss.enderdragon.DragonFlightHistory
++ XXX.boss.enderdragon.DragonFlightHistory$Sample
+- XXX.boss.enderdragon.EndCrystal
++ XXX.boss.enderdragon.EnderDragon
+- XXX.boss.enderdragon.EnderDragonPart
++ XXX.boss.wither.package-info
++ XXX.boss.wither.WitherBoss
+- XXX.boss.wither.WitherBoss$WitherDoNothingGoal
+- XXX.decoration.painting.Painting
+- XXX.decoration.painting.PaintingVariants
+- XXX.entity.ai.Brain
++ XXX.entity.ai.Brain$1
+- XXX.entity.ai.Brain$MemoryValue
++ XXX.entity.ai.Brain$Provider
++ XXX.entity.animal.AbstractFish
++ XXX.entity.animal.AbstractFish$FishSwimGoal
++ XXX.entity.animal.AbstractSchoolingFish
++ XXX.entity.animal.AgeableWaterCreature
+- XXX.entity.animal.Animal
++ XXX.entity.animal.Bee
++ XXX.entity.animal.Bee$BaseBeeGoal
++ XXX.entity.animal.Bee$BeeBecomeAngryTargetGoal
++ XXX.entity.animal.Bee$BeeGoToHiveGoal
++ XXX.entity.animal.Bee$BeeGrowCropGoal
++ XXX.entity.animal.Bee$BeeLocateHiveGoal
++ XXX.entity.animal.Bee$BeePollinateGoal
++ XXX.entity.animal.Bee$ValidateFlowerGoal
++ XXX.entity.animal.Bucketable
++ XXX.entity.animal.Cat$CatAvoidEntityGoal
++ XXX.entity.animal.Cat$CatTemptGoal
++ XXX.entity.animal.CatVariants
++ XXX.entity.animal.ChickenVariant
++ XXX.entity.animal.ChickenVariants
++ XXX.entity.animal.Cow
++ XXX.entity.animal.CowVariant$ModelType
++ XXX.entity.animal.Dolphin
++ XXX.entity.animal.Dolphin$DolphinSwimWithPlayerGoal
++ XXX.entity.animal.Fox$DefendTrustedTargetGoal
++ XXX.entity.animal.Fox$FoxAlertableEntitiesSelector
++ XXX.entity.animal.Fox$FoxBreedGoal
++ XXX.entity.animal.Fox$FoxFloatGoal
++ XXX.entity.animal.Fox$FoxGroupData
++ XXX.entity.animal.Fox$FoxLookControl
++ XXX.entity.animal.Fox$FoxMoveControl
++ XXX.entity.animal.Fox$FoxPounceGoal
++ XXX.entity.animal.Fox$FoxStrollThroughVillageGoal
++ XXX.entity.animal.Fox$SeekShelterGoal
++ XXX.entity.animal.Fox$StalkPreyGoal
++ XXX.entity.animal.HappyGhast
++ XXX.entity.animal.HappyGhast$HappyGhastBodyRotationControl
++ XXX.entity.animal.HappyGhast$HappyGhastLookControl
++ XXX.entity.animal.IronGolem
++ XXX.entity.animal.MushroomCow$Variant
++ XXX.entity.animal.Ocelot$OcelotAvoidEntityGoal
+- XXX.entity.animal.package-info
++ XXX.entity.animal.Panda
++ XXX.entity.animal.Panda$PandaAttackGoal
++ XXX.entity.animal.Panda$PandaBreedGoal
++ XXX.entity.animal.Panda$PandaLieOnBackGoal
++ XXX.entity.animal.Panda$PandaMoveControl
++ XXX.entity.animal.Panda$PandaRollGoal
++ XXX.entity.animal.Panda$PandaSneezeGoal
++ XXX.entity.animal.Parrot$1
++ XXX.entity.animal.Parrot$Variant
++ XXX.entity.animal.PigVariant
++ XXX.entity.animal.PigVariants
++ XXX.entity.animal.PolarBear$PolarBearAttackPlayersGoal
++ XXX.entity.animal.PolarBear$PolarBearMeleeAttackGoal
++ XXX.entity.animal.Pufferfish$PufferfishPuffGoal
++ XXX.entity.animal.Rabbit$RabbitAvoidEntityGoal
++ XXX.entity.animal.Rabbit$RabbitJumpControl
++ XXX.entity.animal.Rabbit$RabbitPanicGoal
++ XXX.entity.animal.Rabbit$Variant
++ XXX.entity.animal.Salmon$Variant
++ XXX.entity.animal.SnowGolem
++ XXX.entity.animal.Squid$SquidFleeGoal
++ XXX.entity.animal.TemperatureVariants
++ XXX.entity.animal.TropicalFish$Base
++ XXX.entity.animal.TropicalFish$TropicalFishGroupData
++ XXX.entity.animal.Turtle
++ XXX.entity.animal.Turtle$TurtleGoHomeGoal
++ XXX.entity.animal.Turtle$TurtleLayEggGoal
++ XXX.entity.animal.Turtle$TurtlePanicGoal
++ XXX.entity.animal.Turtle$TurtleRandomStrollGoal
++ XXX.entity.animal.WaterAnimal
++ XXX.entity.animal.ZombieNautilusVariant$ModelType
++ XXX.entity.boss.EnderDragonPart
+- XXX.entity.decoration.ArmorStand
++ XXX.entity.decoration.ArmorStand$ArmorStandPose
+- XXX.entity.decoration.BlockAttachedEntity
++ XXX.entity.decoration.GlowItemFrame
+- XXX.entity.decoration.HangingEntity
++ XXX.entity.decoration.HangingEntity$1
+- XXX.entity.decoration.ItemFrame
++ XXX.entity.decoration.LeashFenceKnotEntity
+- XXX.entity.decoration.Mannequin
++ XXX.entity.decoration.Painting
++ XXX.entity.decoration.PaintingVariants
++ XXX.entity.monster.AbstractIllager$IllagerArmPose
++ XXX.entity.monster.AbstractSkeleton
++ XXX.entity.monster.Blaze
+- XXX.entity.monster.Blaze$BlazeAttackGoal
++ XXX.entity.monster.Bogged
++ XXX.entity.monster.Creeper
+- XXX.entity.monster.CrossbowAttackMob
++ XXX.entity.monster.Drowned
++ XXX.entity.monster.Drowned$DrownedGoToBeachGoal
++ XXX.entity.monster.Drowned$DrownedMoveControl
++ XXX.entity.monster.Drowned$DrownedTridentAttackGoal
++ XXX.entity.monster.Evoker$EvokerAttackSpellGoal
++ XXX.entity.monster.Evoker$EvokerSummonSpellGoal
++ XXX.entity.monster.Ghast
+- XXX.entity.monster.Ghast$GhastLookGoal
++ XXX.entity.monster.Ghast$GhastMoveControl
+- XXX.entity.monster.Ghast$GhastShootFireballGoal
++ XXX.entity.monster.Ghast$RandomFloatAroundGoal
+- XXX.entity.monster.Giant
++ XXX.entity.monster.Guardian
+- XXX.entity.monster.Guardian$GuardianAttackGoal
++ XXX.entity.monster.Guardian$GuardianAttackSelector
+- XXX.entity.monster.Guardian$GuardianMoveControl
++ XXX.entity.monster.Husk
++ XXX.entity.monster.Illusioner
++ XXX.entity.monster.Illusioner$IllusionerMirrorSpellGoal
++ XXX.entity.monster.package-info
++ XXX.entity.monster.PatrollingMonster
+- XXX.entity.monster.PatrollingMonster$LongDistancePatrolGoal
++ XXX.entity.monster.Phantom
+- XXX.entity.monster.Phantom$AttackPhase
++ XXX.entity.monster.Phantom$PhantomAttackPlayerTargetGoal
+- XXX.entity.monster.Phantom$PhantomAttackStrategyGoal
++ XXX.entity.monster.Phantom$PhantomBodyRotationControl
+- XXX.entity.monster.Phantom$PhantomCircleAroundAnchorGoal
++ XXX.entity.monster.Phantom$PhantomLookControl
+- XXX.entity.monster.Phantom$PhantomMoveControl
++ XXX.entity.monster.Phantom$PhantomMoveTargetGoal
+- XXX.entity.monster.Phantom$PhantomSweepAttackGoal
++ XXX.entity.monster.Pillager
++ XXX.entity.monster.Slime
+- XXX.entity.monster.Slime$SlimeAttackGoal
++ XXX.entity.monster.Slime$SlimeFloatGoal
+- XXX.entity.monster.Slime$SlimeKeepOnJumpingGoal
++ XXX.entity.monster.Slime$SlimeMoveControl
+- XXX.entity.monster.Slime$SlimeRandomDirectionGoal
++ XXX.entity.monster.SpellcasterIllager
++ XXX.entity.monster.SpellcasterIllager$SpellcasterCastingSpellGoal
++ XXX.entity.monster.Spider
++ XXX.entity.monster.Spider$SpiderEffectsGroupData
++ XXX.entity.monster.Stray
++ XXX.entity.monster.Vindicator$VindicatorBreakDoorGoal
++ XXX.entity.monster.Witch
++ XXX.entity.monster.Zombie$ZombieAttackTurtleEggGoal
++ XXX.entity.monster.ZombieVillager
++ XXX.entity.npc.AbstractVillager
+- XXX.entity.npc.CatSpawner
++ XXX.entity.npc.ClientSideMerchant
+- XXX.entity.npc.InventoryCarrier
++ XXX.entity.npc.Npc
+- XXX.entity.npc.package-info
++ XXX.entity.npc.VillagerData
++ XXX.entity.npc.VillagerProfession
++ XXX.entity.npc.VillagerTrades$DyedArmorForEmeralds
++ XXX.entity.npc.VillagerTrades$EmeraldsForVillagerTypeItem
++ XXX.entity.npc.VillagerTrades$EnchantedItemForEmeralds
++ XXX.entity.npc.VillagerTrades$ItemListing
++ XXX.entity.npc.VillagerTrades$ItemsForEmeralds
++ XXX.entity.npc.VillagerTrades$TippedArrowForItemsAndEmeralds
++ XXX.entity.npc.VillagerTrades$TypeSpecificTrade
++ XXX.entity.npc.WanderingTrader
++ XXX.entity.npc.WanderingTraderSpawner
++ XXX.entity.projectile.AbstractArrow
++ XXX.entity.projectile.AbstractHurtingProjectile
++ XXX.entity.projectile.Arrow
++ XXX.entity.projectile.Fireball
+- XXX.entity.projectile.FireworkRocketEntity
++ XXX.entity.projectile.FishingHook
+- XXX.entity.projectile.FishingHook$FishHookState
++ XXX.entity.projectile.FishingHook$OpenWaterType
+- XXX.entity.projectile.ItemSupplier
++ XXX.entity.projectile.LargeFireball
++ XXX.entity.projectile.Snowball
++ XXX.entity.projectile.ThrowableItemProjectile
++ XXX.entity.projectile.ThrownEgg
++ XXX.entity.projectile.ThrownExperienceBottle
++ XXX.entity.projectile.ThrownSplashPotion
++ XXX.entity.projectile.WitherSkull
+- XXX.entity.raid.package-info
++ XXX.entity.raid.Raid
+- XXX.entity.raid.Raid$1
+- XXX.entity.raid.Raid$RaiderType
++ XXX.entity.raid.Raid$RaidStatus
++ XXX.entity.raid.Raider
+- XXX.entity.raid.Raider$HoldGroundAttackGoal
++ XXX.entity.raid.Raider$ObtainRaidLeaderBannerGoal
+- XXX.entity.raid.Raider$RaiderCelebration
++ XXX.entity.raid.Raider$RaiderMoveThroughVillageGoal
+- XXX.entity.raid.Raids
++ XXX.entity.raid.Raids$RaidWithId
++ XXX.entity.schedule.Activity
+- XXX.entity.schedule.package-info
++ XXX.entity.variant.BiomeCheck
+- XXX.entity.variant.ModelAndTexture
++ XXX.entity.variant.MoonBrightnessCheck
+- XXX.entity.variant.package-info
+- XXX.entity.variant.PriorityProvider
++ XXX.entity.variant.PriorityProvider$Selector
+- XXX.entity.variant.PriorityProvider$SelectorCondition
++ XXX.entity.variant.PriorityProvider$UnpackedEntry
+- XXX.entity.variant.SpawnCondition
++ XXX.entity.variant.SpawnConditions
+- XXX.entity.variant.SpawnContext
++ XXX.entity.variant.SpawnPrioritySelectors
+- XXX.entity.variant.StructureCheck
++ XXX.entity.variant.VariantUtils
++ XXX.entity.vehicle.AbstractBoat
++ XXX.entity.vehicle.AbstractChestBoat
++ XXX.entity.vehicle.AbstractMinecartContainer
++ XXX.entity.vehicle.ChestBoat
++ XXX.entity.vehicle.ContainerEntity
+- XXX.entity.vehicle.ContainerEntity$1
++ XXX.entity.vehicle.DismountHelper
++ XXX.entity.vehicle.MinecartBehavior
++ XXX.entity.vehicle.MinecartCommandBlock
++ XXX.entity.vehicle.MinecartFurnace
++ XXX.entity.vehicle.MinecartSpawner
++ XXX.entity.vehicle.MinecartTNT
++ XXX.entity.vehicle.NewMinecartBehavior$1
++ XXX.entity.vehicle.NewMinecartBehavior$StepPartialTicks
++ XXX.entity.vehicle.OldMinecartBehavior
++ XXX.entity.vehicle.package-info
++ XXX.entity.vehicle.Raft
+- XXX.entity.vehicle.VehicleEntity
+- XXX.hurtingprojectile.windcharge.BreezeWindCharge
+- XXX.hurtingprojectile.windcharge.package-info
++ XXX.inventory.tooltip.BundleTooltip
++ XXX.inventory.tooltip.package-info
+- XXX.inventory.tooltip.TooltipComponent
+- XXX.item.alchemy.package-info
+- XXX.item.alchemy.Potion
++ XXX.item.alchemy.PotionBrewing
+- XXX.item.alchemy.PotionBrewing$Builder
++ XXX.item.alchemy.PotionBrewing$Mix
+- XXX.item.alchemy.PotionContents
++ XXX.item.alchemy.Potions
++ XXX.monster.breeze.Breeze
+- XXX.monster.breeze.Breeze$1
++ XXX.monster.breeze.BreezeAi
+- XXX.monster.breeze.BreezeAi$SlideToTargetSink
++ XXX.monster.breeze.BreezeUtil
+- XXX.monster.breeze.LongJump
+- XXX.monster.breeze.package-info
++ XXX.monster.breeze.Shoot
+- XXX.monster.breeze.ShootWhenStuck
++ XXX.monster.breeze.Slide
++ XXX.monster.creaking.Creaking
+- XXX.monster.creaking.Creaking$CreakingBodyRotationControl
++ XXX.monster.creaking.Creaking$CreakingJumpControl
+- XXX.monster.creaking.Creaking$CreakingLookControl
++ XXX.monster.creaking.Creaking$CreakingMoveControl
+- XXX.monster.creaking.Creaking$CreakingPathNavigation
++ XXX.monster.creaking.Creaking$HomeNodeEvaluator
+- XXX.monster.creaking.CreakingAi
++ XXX.monster.creaking.CreakingAi$1
+- XXX.monster.creaking.package-info
++ XXX.monster.hoglin.Hoglin
+- XXX.monster.hoglin.HoglinAi
++ XXX.monster.hoglin.HoglinBase
+- XXX.monster.hoglin.package-info
+- XXX.monster.illager.AbstractIllager$IllagerArmPose
+- XXX.monster.illager.Evoker
+- XXX.monster.illager.Evoker$EvokerCastingSpellGoal
+- XXX.monster.illager.Evoker$EvokerWololoSpellGoal
+- XXX.monster.illager.Illusioner$IllusionerBlindnessSpellGoal
+- XXX.monster.illager.package-info
+- XXX.monster.illager.Pillager
+- XXX.monster.illager.SpellcasterIllager$IllagerSpell
+- XXX.monster.illager.SpellcasterIllager$SpellcasterUseSpellGoal
+- XXX.monster.illager.Vindicator$VindicatorBreakDoorGoal
+- XXX.monster.piglin.AbstractPiglin
+- XXX.monster.piglin.package-info
++ XXX.monster.piglin.Piglin
+- XXX.monster.piglin.PiglinAi
++ XXX.monster.piglin.PiglinArmPose
+- XXX.monster.piglin.PiglinBrute
++ XXX.monster.piglin.PiglinBruteAi
+- XXX.monster.piglin.RememberIfHoglinWasKilled
++ XXX.monster.piglin.StartAdmiringItemIfSeen
+- XXX.monster.piglin.StartHuntingHoglin
++ XXX.monster.piglin.StopAdmiringIfItemTooFarAway
+- XXX.monster.piglin.StopAdmiringIfTiredOfTryingToReachItem
++ XXX.monster.piglin.StopHoldingItemIfNoLongerAdmiring
+- XXX.monster.skeleton.AbstractSkeleton$1
+- XXX.monster.skeleton.package-info
+- XXX.monster.skeleton.Parched
+- XXX.monster.skeleton.Stray
+- XXX.monster.spider.package-info
+- XXX.monster.spider.Spider
+- XXX.monster.spider.Spider$SpiderEffectsGroupData
++ XXX.monster.warden.AngerLevel
+- XXX.monster.warden.AngerManagement
++ XXX.monster.warden.AngerManagement$1
+- XXX.monster.warden.AngerManagement$Sorter
+- XXX.monster.warden.package-info
++ XXX.monster.warden.Warden
+- XXX.monster.warden.Warden$1
++ XXX.monster.warden.Warden$1$1
+- XXX.monster.warden.Warden$2
++ XXX.monster.warden.Warden$VibrationUser
+- XXX.monster.warden.WardenAi
++ XXX.monster.warden.WardenSpawnTracker
+- XXX.monster.zombie.Drowned$DrownedAttackGoal
+- XXX.monster.zombie.Drowned$DrownedGoToWaterGoal
+- XXX.monster.zombie.Drowned$DrownedSwimUpGoal
+- XXX.monster.zombie.Husk
+- XXX.monster.zombie.Zombie
+- XXX.monster.zombie.Zombie$ZombieGroupData
+- XXX.monster.zombie.ZombifiedPiglin
+- XXX.npc.villager.Villager
+- XXX.npc.villager.VillagerDataHolder
+- XXX.npc.villager.VillagerTrades
+- XXX.npc.villager.VillagerTrades$EmeraldForItems
+- XXX.npc.villager.VillagerTrades$EnchantBookForEmeralds
+- XXX.npc.villager.VillagerTrades$FailureItemListing
+- XXX.npc.villager.VillagerTrades$ItemsAndEmeraldsToItems
+- XXX.npc.villager.VillagerTrades$SuspiciousStewForEmerald
+- XXX.npc.villager.VillagerTrades$TreasureMapForEmeralds
+- XXX.npc.villager.VillagerType
+- XXX.npc.wanderingtrader.WanderingTrader
+- XXX.npc.wanderingtrader.WanderingTraderSpawner
+- XXX.projectile.arrow.AbstractArrow
+- XXX.projectile.arrow.Arrow
+- XXX.projectile.arrow.ThrownTrident
+- XXX.projectile.hurtingprojectile.AbstractHurtingProjectile
+- XXX.projectile.hurtingprojectile.Fireball
+- XXX.projectile.hurtingprojectile.package-info
+- XXX.projectile.hurtingprojectile.SmallFireball
+- XXX.projectile.throwableitemprojectile.AbstractThrownPotion
+- XXX.projectile.throwableitemprojectile.package-info
+- XXX.projectile.throwableitemprojectile.ThrowableItemProjectile
+- XXX.projectile.throwableitemprojectile.ThrownEnderpearl
+- XXX.projectile.throwableitemprojectile.ThrownLingeringPotion
++ XXX.projectile.windcharge.AbstractWindCharge
++ XXX.projectile.windcharge.WindCharge
+- XXX.vehicle.boat.AbstractBoat$Status
+- XXX.vehicle.boat.Boat
+- XXX.vehicle.boat.ChestRaft
+- XXX.vehicle.boat.package-info
+- XXX.vehicle.minecart.AbstractMinecartContainer
+- XXX.vehicle.minecart.MinecartBehavior
+- XXX.vehicle.minecart.MinecartCommandBlock
+- XXX.vehicle.minecart.MinecartFurnace
+- XXX.vehicle.minecart.MinecartSpawner
+- XXX.vehicle.minecart.MinecartTNT
+- XXX.vehicle.minecart.NewMinecartBehavior$1
+- XXX.vehicle.minecart.NewMinecartBehavior$StepPartialTicks
+- XXX.vehicle.minecart.OldMinecartBehavior
+- XXX.vehicle.minecart.package-info
++ XXX.world.entity.GlowSquid
+- XXX.world.entity.HasCustomInventoryScreen
++ XXX.world.entity.HumanoidArm
+- XXX.world.entity.InsideBlockEffectApplier
++ XXX.world.entity.InsideBlockEffectApplier$1
+- XXX.world.entity.InsideBlockEffectApplier$StepBasedCollector
++ XXX.world.entity.InsideBlockEffectType
+- XXX.world.entity.Interaction
++ XXX.world.entity.Interaction$PlayerAction
+- XXX.world.entity.InterpolationHandler
++ XXX.world.entity.InterpolationHandler$InterpolationData
+- XXX.world.entity.ItemBasedSteering
++ XXX.world.entity.ItemOwner
+- XXX.world.entity.ItemOwner$OffsetFromOwner
++ XXX.world.entity.ItemSteerable
+- XXX.world.entity.Leashable
++ XXX.world.entity.Leashable$LeashData
+- XXX.world.entity.Leashable$Wrench
++ XXX.world.entity.LightningBolt
+- XXX.world.entity.LivingEntity
++ XXX.world.entity.LivingEntity$1
+- XXX.world.entity.LivingEntity$Fallsounds
++ XXX.world.entity.Marker
+- XXX.world.entity.Mob
++ XXX.world.entity.Mob$1
+- XXX.world.entity.Mob$2
++ XXX.world.entity.MobCategory
+- XXX.world.entity.MoverType
++ XXX.world.entity.NeutralMob
+- XXX.world.entity.OminousItemSpawner
++ XXX.world.entity.OwnableEntity
+- XXX.world.entity.PathfinderMob
++ XXX.world.entity.PlayerRideable
+- XXX.world.entity.PlayerRideableJumping
++ XXX.world.entity.PortalProcessor
+- XXX.world.entity.Pose
++ XXX.world.entity.PositionMoveRotation
+- XXX.world.entity.Relative
++ XXX.world.entity.ReputationEventHandler
+- XXX.world.entity.Shearable
++ XXX.world.entity.SlotAccess
+- XXX.world.entity.SlotAccess$1
++ XXX.world.entity.SlotAccess$2
+- XXX.world.entity.SlotAccess$3
++ XXX.world.entity.SlotProvider
+- XXX.world.entity.SpawnGroupData
+- XXX.world.entity.SpawnPlacements
++ XXX.world.entity.SpawnPlacements$Data
+- XXX.world.entity.SpawnPlacements$SpawnPredicate
++ XXX.world.entity.SpawnPlacementType
+- XXX.world.entity.SpawnPlacementTypes
++ XXX.world.entity.SpawnPlacementTypes$1
++ XXX.world.entity.TamableAnimal
+- XXX.world.entity.TamableAnimal$TamableAnimalPanicGoal
++ XXX.world.entity.Targeting
+- XXX.world.entity.TraceableEntity
++ XXX.world.entity.WalkAnimationState
+- XXX.world.flag.FeatureElement
++ XXX.world.flag.FeatureFlag
+- XXX.world.flag.FeatureFlagRegistry
++ XXX.world.flag.FeatureFlagRegistry$Builder
+- XXX.world.flag.FeatureFlags
+- XXX.world.flag.FeatureFlagSet
++ XXX.world.flag.FeatureFlagUniverse
++ XXX.world.flag.package-info
+- XXX.world.food.FoodConstants
++ XXX.world.food.FoodData
+- XXX.world.food.FoodProperties
++ XXX.world.food.FoodProperties$Builder
+- XXX.world.food.Foods
++ XXX.world.food.package-info
+- XXX.world.inventory.AbstractContainerMenu
++ XXX.world.inventory.AbstractContainerMenu$1
+- XXX.world.inventory.AbstractCraftingMenu
++ XXX.world.inventory.AbstractCraftingMenu$1
+- XXX.world.inventory.AbstractFurnaceMenu
++ XXX.world.inventory.AbstractFurnaceMenu$1
+- XXX.world.inventory.AbstractMountInventoryMenu
++ XXX.world.inventory.AnvilMenu
+- XXX.world.inventory.ArmorSlot
++ XXX.world.inventory.BeaconMenu
+- XXX.world.inventory.BeaconMenu$1
++ XXX.world.inventory.BeaconMenu$PaymentSlot
+- XXX.world.inventory.BlastFurnaceMenu
++ XXX.world.inventory.BrewingStandMenu
+- XXX.world.inventory.BrewingStandMenu$FuelSlot
++ XXX.world.inventory.BrewingStandMenu$IngredientsSlot
+- XXX.world.inventory.BrewingStandMenu$PotionSlot
++ XXX.world.inventory.CartographyTableMenu
+- XXX.world.inventory.CartographyTableMenu$1
++ XXX.world.inventory.CartographyTableMenu$2
+- XXX.world.inventory.CartographyTableMenu$3
++ XXX.world.inventory.CartographyTableMenu$4
+- XXX.world.inventory.CartographyTableMenu$5
++ XXX.world.inventory.ChestMenu
+- XXX.world.inventory.ClickAction
++ XXX.world.inventory.ClickType
+- XXX.world.inventory.ContainerData
++ XXX.world.inventory.ContainerLevelAccess
+- XXX.world.inventory.ContainerLevelAccess$1
++ XXX.world.inventory.ContainerLevelAccess$2
+- XXX.world.inventory.ContainerListener
++ XXX.world.inventory.ContainerSynchronizer
+- XXX.world.inventory.CrafterMenu
++ XXX.world.inventory.CrafterSlot
+- XXX.world.inventory.CraftingContainer
++ XXX.world.inventory.CraftingMenu
+- XXX.world.inventory.DataSlot
++ XXX.world.inventory.DataSlot$1
+- XXX.world.inventory.DataSlot$2
++ XXX.world.inventory.DataSlot$3
+- XXX.world.inventory.DispenserMenu
++ XXX.world.inventory.EnchantmentMenu
+- XXX.world.inventory.EnchantmentMenu$1
++ XXX.world.inventory.EnchantmentMenu$2
+- XXX.world.inventory.EnchantmentMenu$3
++ XXX.world.inventory.FurnaceFuelSlot
+- XXX.world.inventory.FurnaceMenu
++ XXX.world.inventory.FurnaceResultSlot
+- XXX.world.inventory.GrindstoneMenu
++ XXX.world.inventory.GrindstoneMenu$1
+- XXX.world.inventory.GrindstoneMenu$2
++ XXX.world.inventory.GrindstoneMenu$3
+- XXX.world.inventory.GrindstoneMenu$4
++ XXX.world.inventory.HopperMenu
+- XXX.world.inventory.HorseInventoryMenu
++ XXX.world.inventory.HorseInventoryMenu$1
+- XXX.world.inventory.HorseInventoryMenu$2
++ XXX.world.inventory.InventoryMenu
+- XXX.world.inventory.InventoryMenu$1
++ XXX.world.inventory.ItemCombinerMenu
+- XXX.world.inventory.ItemCombinerMenu$1
++ XXX.world.inventory.ItemCombinerMenu$2
+- XXX.world.inventory.ItemCombinerMenu$3
++ XXX.world.inventory.ItemCombinerMenu$4
+- XXX.world.inventory.ItemCombinerMenuSlotDefinition
++ XXX.world.inventory.ItemCombinerMenuSlotDefinition$Builder
+- XXX.world.inventory.ItemCombinerMenuSlotDefinition$SlotDefinition
++ XXX.world.inventory.LecternMenu
+- XXX.world.inventory.LecternMenu$1
++ XXX.world.inventory.LoomMenu
+- XXX.world.inventory.LoomMenu$1
++ XXX.world.inventory.LoomMenu$2
+- XXX.world.inventory.LoomMenu$3
++ XXX.world.inventory.LoomMenu$4
+- XXX.world.inventory.LoomMenu$5
++ XXX.world.inventory.LoomMenu$6
+- XXX.world.inventory.MenuConstructor
++ XXX.world.inventory.MenuType
+- XXX.world.inventory.MenuType$MenuSupplier
++ XXX.world.inventory.MerchantContainer
+- XXX.world.inventory.MerchantMenu
++ XXX.world.inventory.MerchantResultSlot
+- XXX.world.inventory.NautilusInventoryMenu
++ XXX.world.inventory.NautilusInventoryMenu$1
+- XXX.world.inventory.NautilusInventoryMenu$2
++ XXX.world.inventory.NonInteractiveResultSlot
+- XXX.world.inventory.package-info
+- XXX.world.inventory.PlayerEnderChestContainer
++ XXX.world.inventory.RecipeBookMenu
+- XXX.world.inventory.RecipeBookMenu$PostPlaceAction
++ XXX.world.inventory.RecipeBookType
+- XXX.world.inventory.RecipeCraftingHolder
++ XXX.world.inventory.RemoteSlot
+- XXX.world.inventory.RemoteSlot$1
++ XXX.world.inventory.RemoteSlot$Synchronized
+- XXX.world.inventory.ResultContainer
++ XXX.world.inventory.ResultSlot
+- XXX.world.inventory.ShulkerBoxMenu
++ XXX.world.inventory.ShulkerBoxSlot
+- XXX.world.inventory.SimpleContainerData
++ XXX.world.inventory.Slot
+- XXX.world.inventory.SlotRange
++ XXX.world.inventory.SlotRange$1
+- XXX.world.inventory.SlotRanges
++ XXX.world.inventory.SmithingMenu
+- XXX.world.inventory.SmokerMenu
++ XXX.world.inventory.StackedContentsCompatible
+- XXX.world.inventory.StonecutterMenu
++ XXX.world.inventory.StonecutterMenu$1
+- XXX.world.inventory.StonecutterMenu$2
++ XXX.world.inventory.TransientCraftingContainer
+- XXX.world.item.AdventureModePredicate
++ XXX.world.item.AirItem
+- XXX.world.item.ArmorStandItem
++ XXX.world.item.ArrowItem
+- XXX.world.item.AxeItem
++ XXX.world.item.BannerItem
+- XXX.world.item.BedItem
++ XXX.world.item.BlockItem
+- XXX.world.item.BoatItem
++ XXX.world.item.BoneMealItem
+- XXX.world.item.BoneMealItem$1
++ XXX.world.item.BottleItem
+- XXX.world.item.BowItem
++ XXX.world.item.BrushItem
+- XXX.world.item.BrushItem$1
++ XXX.world.item.BrushItem$DustParticlesDelta
+- XXX.world.item.BucketItem
++ XXX.world.item.BundleItem
+- XXX.world.item.BundleItem$1
++ XXX.world.item.CompassItem
+- XXX.world.item.CreativeModeTab
++ XXX.world.item.CreativeModeTab$Builder
+- XXX.world.item.CreativeModeTab$DisplayItemsGenerator
++ XXX.world.item.CreativeModeTab$ItemDisplayBuilder
+- XXX.world.item.CreativeModeTab$ItemDisplayParameters
++ XXX.world.item.CreativeModeTab$Output
+- XXX.world.item.CreativeModeTab$Row
++ XXX.world.item.CreativeModeTab$TabVisibility
+- XXX.world.item.CreativeModeTab$Type
++ XXX.world.item.CreativeModeTabs
+- XXX.world.item.CrossbowItem
++ XXX.world.item.CrossbowItem$ChargeType
+- XXX.world.item.CrossbowItem$ChargingSounds
++ XXX.world.item.DebugStickItem
+- XXX.world.item.DiscFragmentItem
++ XXX.world.item.DispensibleContainerItem
+- XXX.world.item.DoubleHighBlockItem
++ XXX.world.item.DyeColor
+- XXX.world.item.DyeItem
++ XXX.world.item.EggItem
+- XXX.world.item.EitherHolder
++ XXX.world.item.EmptyMapItem
+- XXX.world.item.EndCrystalItem
++ XXX.world.item.EnderEyeItem
+- XXX.world.item.EnderpearlItem
++ XXX.world.item.ExperienceBottleItem
+- XXX.world.item.FireChargeItem
++ XXX.world.item.FireworkRocketItem
+- XXX.world.item.FishingRodItem
++ XXX.world.item.FlintAndSteelItem
+- XXX.world.item.FoodOnAStickItem
++ XXX.world.item.GameMasterBlockItem
+- XXX.world.item.GlowInkSacItem
++ XXX.world.item.HangingEntityItem
+- XXX.world.item.HangingSignItem
++ XXX.world.item.HoeItem
+- XXX.world.item.HoneycombItem
++ XXX.world.item.InkSacItem
+- XXX.world.item.Instrument
++ XXX.world.item.InstrumentItem
+- XXX.world.item.Instruments
++ XXX.world.item.Item
+- XXX.world.item.Item$Properties
++ XXX.world.item.Item$TooltipContext
+- XXX.world.item.Item$TooltipContext$1
++ XXX.world.item.Item$TooltipContext$2
+- XXX.world.item.Item$TooltipContext$3
++ XXX.world.item.ItemCooldowns
+- XXX.world.item.ItemCooldowns$CooldownInstance
++ XXX.world.item.ItemDisplayContext
+- XXX.world.item.ItemFrameItem
+- XXX.world.item.Items
++ XXX.world.item.ItemStack
+- XXX.world.item.ItemStack$1
++ XXX.world.item.ItemStack$2
+- XXX.world.item.ItemStack$3
++ XXX.world.item.ItemStack$4
+- XXX.world.item.ItemStackLinkedSet
++ XXX.world.item.ItemStackLinkedSet$1
+- XXX.world.item.ItemUseAnimation
++ XXX.world.item.ItemUtils
++ XXX.world.item.JukeboxPlayable
+- XXX.world.item.JukeboxSong
++ XXX.world.item.JukeboxSongPlayer
+- XXX.world.item.JukeboxSongPlayer$OnSongChanged
++ XXX.world.item.JukeboxSongs
+- XXX.world.item.KnowledgeBookItem
++ XXX.world.item.LeadItem
+- XXX.world.item.LingeringPotionItem
++ XXX.world.item.MaceItem
+- XXX.world.item.MapItem
++ XXX.world.item.MapItem$1
+- XXX.world.item.MinecartItem
++ XXX.world.item.MobBucketItem
+- XXX.world.item.NameTagItem
++ XXX.world.item.PlaceOnWaterBlockItem
+- XXX.world.item.PlayerHeadItem
++ XXX.world.item.PotionItem
+- XXX.world.item.ProjectileItem
++ XXX.world.item.ProjectileItem$DispenseConfig
+- XXX.world.item.ProjectileItem$DispenseConfig$Builder
++ XXX.world.item.ProjectileItem$PositionFunction
+- XXX.world.item.ProjectileWeaponItem
++ XXX.world.item.Rarity
+- XXX.world.item.ScaffoldingBlockItem
++ XXX.world.item.ServerItemCooldowns
+- XXX.world.item.ShearsItem
++ XXX.world.item.ShieldItem
+- XXX.world.item.ShovelItem
++ XXX.world.item.SignApplicator
+- XXX.world.item.SignItem
++ XXX.world.item.SmithingTemplateItem
+- XXX.world.item.SnowballItem
++ XXX.world.item.SolidBucketItem
+- XXX.world.item.SpawnEggItem
++ XXX.world.item.SpectralArrowItem
+- XXX.world.item.SplashPotionItem
++ XXX.world.item.SpyglassItem
+- XXX.world.item.StandingAndWallBlockItem
++ XXX.world.item.SwingAnimationType
+- XXX.world.item.ThrowablePotionItem
++ XXX.world.item.TippedArrowItem
+- XXX.world.item.ToolMaterial
++ XXX.world.item.TooltipFlag
+- XXX.world.item.TooltipFlag$Default
++ XXX.world.item.TridentItem
+- XXX.world.item.WeatheringCopperItems
++ XXX.world.item.WindChargeItem
+- XXX.world.item.WritableBookItem
++ XXX.world.item.WrittenBookItem
+```
+
+</details>
+<details>
+<summary>
+Changes
+</summary>
+
+```
+XXX.advancements.criterion.TradeTrigger +1M -1M
+```
+```
+XXX.core.component.DataComponents +1M | +1P
+```
+```
+XXX.minecraft.network.FriendlyByteBuf -1P
+```
+```
+XXX.protocol.game.ServerboundInteractPacket +1M
+```
+```
+XXX.server.commands.GameRuleCommand$1 -2M
+```
+```
+XXX.server.level.ServerEntity +1M -1M
+```
+```
+XXX.server.level.ServerPlayer +4M -4M
+```
+```
+XXX.server.network.ServerGamePacketListenerImpl +5M | +3P
+```
+```
+XXX.minecraft.sounds.SoundEvents +13P
+```
+```
+XXX.minecraft.util.ExtraCodecs +21M -19M | +4P
+```
+```
+XXX.util.debug.DebugBrainDump +1M -1M
+```
+```
+XXX.world.damagesource.DamageSources +3M -3M
+```
+```
+XXX.world.entity.EntityType +4M -4M
+```
+```
+XXX.ai.memory.MemoryModuleType +5P
+```
+```
+XXX.animal.nautilus.Nautilus +1M
+```
+```
+XXX.animal.nautilus.ZombieNautilus +1M
+```
+```
+XXX.entity.monster.EnderMan +1M -1M
+```
+```
+XXX.entity.monster.Ravager +1M -1M
+```
+```
+XXX.item.component.ItemAttributeModifiers +1M -1M
+```
+```
+XXX.item.component.KineticWeapon +4M -4M | -3P
+```
+```
+XXX.item.component.PiercingWeapon +3M -4M | -3P
+```
+```
+XXX.enchantment.effects.ApplyEntityImpulse +1P
+```
+```
+XXX.block.entity.BeehiveBlockEntity +1M -1M
+```
+```
+XXX.block.entity.CopperGolemStatueBlockEntity +3M -3M
+```
+```
+XXX.level.storage.LevelStorageSource -1P
+```
+
+</details>
+<details>
+<summary>
+net.minecraft.advancements.criterion.TradeTrigger
+</summary>
+
+```diff
++ void trigger(ServerPlayer,AbstractVillager,ItemStack)
+- void trigger(ServerPlayer,AbstractVillager,ItemStack)
+```
+
+</details>
+<details>
+<summary>
+net.minecraft.core.component.DataComponents
+</summary>
+
+```diff
+- DataComponentType$Builder lambda$static$103(DataComponentType$Builder)
+```
+
+</details>
+<details>
+<summary>
+net.minecraft.network.protocol.game.ServerboundInteractPacket
+</summary>
+
+```diff
+- boolean isWithinRange(ServerPlayer,AABB,double)
+```
+
+</details>
+<details>
+<summary>
+net.minecraft.server.commands.GameRuleCommand$1
+</summary>
+
+```diff
++ int lambda$visit$0(GameRule,CommandContext)
++ int lambda$visit$1(GameRule,CommandContext)
+```
+
+</details>
+<details>
+<summary>
+net.minecraft.server.level.ServerEntity
+</summary>
+
+```diff
++ void handleMinecartPosRot(NewMinecartBehavior,byte,byte,boolean)
+- void handleMinecartPosRot(NewMinecartBehavior,byte,byte,boolean)
+```
+
+</details>
+<details>
+<summary>
+net.minecraft.server.level.ServerPlayer
+</summary>
+
+```diff
++ long registerAndUpdateEnderPearlTicket(ThrownEnderpearl)
+- long registerAndUpdateEnderPearlTicket(ThrownEnderpearl)
++ void deregisterEnderPearl(ThrownEnderpearl)
+- void deregisterEnderPearl(ThrownEnderpearl)
++ void openHorseInventory(AbstractHorse,Container)
+- void openHorseInventory(AbstractHorse,Container)
++ void registerEnderPearl(ThrownEnderpearl)
+- void registerEnderPearl(ThrownEnderpearl)
+```
+
+</details>
+<details>
+<summary>
+net.minecraft.server.network.ServerGamePacketListenerImpl
+</summary>
+
+```diff
+- boolean hasClientLoaded()
+- void markClientLoaded()
+- void markClientUnloadedAfterDeath()
+- void restartClientLoadTimerAfterRespawn()
+- void tickClientLoadTimeout()
+```
+
+</details>
+<details>
+<summary>
+net.minecraft.util.ExtraCodecs
+</summary>
+
+```diff
++ App lambda$gameProfileCodec$103(Codec,RecordCodecBuilder$Instance)
+- App lambda$gameProfileCodec$105(Codec,RecordCodecBuilder$Instance)
++ DataResult lambda$legacyEnum$116(Function,String)
+- DataResult lambda$legacyEnum$118(Function,String)
++ DataResult lambda$sizeLimitedMap$109(int,Map)
+- DataResult lambda$sizeLimitedMap$111(int,Map)
++ DataResult lambda$static$102(String)
+- DataResult lambda$static$104(String)
++ DataResult lambda$static$105(String)
+- DataResult lambda$static$109(String)
++ DataResult lambda$static$111(String)
++ DataResult lambda$static$112(String)
+- DataResult lambda$static$113(String)
+- DataResult lambda$static$116(String)
+- DataResult lambda$static$97(Map)
++ Either lambda$static$100(PropertyMap)
+- Either lambda$static$102(PropertyMap)
+- PropertyMap lambda$static$101(Either)
++ PropertyMap lambda$static$99(Either)
++ String lambda$legacyEnum$115(String)
+- String lambda$legacyEnum$117(String)
++ String lambda$sizeLimitedMap$108(Map,int)
+- String lambda$sizeLimitedMap$110(Map,int)
++ String lambda$static$101(String)
+- String lambda$static$103(String)
++ String lambda$static$104()
+- String lambda$static$106()
++ String lambda$static$106(String)
+- String lambda$static$108(String)
++ String lambda$static$110(String)
+- String lambda$static$112(String)
++ String lambda$static$113(char)
+- String lambda$static$115(char)
+- String lambda$static$96(Map)
+- void lambda$static$100(ImmutableMultimap$Builder,List)
++ void lambda$static$96(ImmutableMultimap$Builder,String,List)
++ void lambda$static$97(ImmutableMultimap$Builder,Map)
++ void lambda$static$98(ImmutableMultimap$Builder,List)
+- void lambda$static$98(ImmutableMultimap$Builder,String,List)
+- void lambda$static$99(ImmutableMultimap$Builder,Map)
+```
+
+</details>
+<details>
+<summary>
+net.minecraft.util.debug.DebugBrainDump
+</summary>
+
+```diff
++ List getVillagerGossips(Villager)
+- List getVillagerGossips(Villager)
+```
+
+</details>
+<details>
+<summary>
+net.minecraft.world.damagesource.DamageSources
+</summary>
+
+```diff
++ DamageSource arrow(AbstractArrow,Entity)
+- DamageSource arrow(AbstractArrow,Entity)
++ DamageSource fireball(Fireball,Entity)
+- DamageSource fireball(Fireball,Entity)
++ DamageSource witherSkull(WitherSkull,Entity)
+- DamageSource witherSkull(WitherSkull,Entity)
+```
+
+</details>
+<details>
+<summary>
+net.minecraft.world.entity.EntityType
+</summary>
+
+```diff
++ Boat lambda$boatFactory$32(Supplier,EntityType,Level)
+- Boat lambda$boatFactory$32(Supplier,EntityType,Level)
++ ChestBoat lambda$chestBoatFactory$33(Supplier,EntityType,Level)
+- ChestBoat lambda$chestBoatFactory$33(Supplier,EntityType,Level)
++ ChestRaft lambda$chestRaftFactory$35(Supplier,EntityType,Level)
+- ChestRaft lambda$chestRaftFactory$35(Supplier,EntityType,Level)
++ Raft lambda$raftFactory$34(Supplier,EntityType,Level)
+- Raft lambda$raftFactory$34(Supplier,EntityType,Level)
+```
+
+</details>
+<details>
+<summary>
+net.minecraft.world.entity.animal.nautilus.Nautilus
+</summary>
+
+```diff
+- boolean canBeLeashed()
+```
+
+</details>
+<details>
+<summary>
+net.minecraft.world.entity.animal.nautilus.ZombieNautilus
+</summary>
+
+```diff
+- boolean canBeLeashed()
+```
+
+</details>
+<details>
+<summary>
+net.minecraft.world.entity.monster.EnderMan
+</summary>
+
+```diff
++ boolean hurtWithCleanWater(ServerLevel,DamageSource,AbstractThrownPotion,float)
+- boolean hurtWithCleanWater(ServerLevel,DamageSource,AbstractThrownPotion,float)
+```
+
+</details>
+<details>
+<summary>
+net.minecraft.world.entity.monster.Ravager
+</summary>
+
+```diff
++ AABB getAttackBoundingBox()
+- AABB getAttackBoundingBox(double)
+```
+
+</details>
+<details>
+<summary>
+net.minecraft.world.item.component.ItemAttributeModifiers
+</summary>
+
+```diff
++ double compute(double,EquipmentSlot)
+- double compute(Holder,double,EquipmentSlot)
+```
+
+</details>
+<details>
+<summary>
+net.minecraft.world.item.component.KineticWeapon
+</summary>
+
+```diff
+- boolean lambda$damageEntities$6(Entity)
+- Collection lambda$damageEntities$4(BlockHitResult)
+- Collection lambda$damageEntities$5(Collection)
++ float hitboxMargin()
++ float maxReach()
++ float minReach()
++ void <init>(float,float,float,int,int,Optional,Optional,Optional,float,float,Optional,Optional)
+- void <init>(int,int,Optional,Optional,Optional,float,float,Optional,Optional)
+```
+
+</details>
+<details>
+<summary>
+net.minecraft.world.item.component.PiercingWeapon
+</summary>
+
+```diff
+- Collection lambda$attack$4(BlockHitResult)
+- Collection lambda$attack$5(Collection)
++ float hitboxMargin()
++ float maxReach()
++ float minReach()
+- void <init>(boolean,boolean,Optional,Optional)
++ void <init>(float,float,float,boolean,boolean,Optional,Optional)
+```
+
+</details>
+<details>
+<summary>
+net.minecraft.world.level.block.entity.BeehiveBlockEntity
+</summary>
+
+```diff
++ void addOccupant(Bee)
+- void addOccupant(Bee)
+```
+
+</details>
+<details>
+<summary>
+net.minecraft.world.level.block.entity.CopperGolemStatueBlockEntity
+</summary>
+
+```diff
++ CopperGolem initCopperGolem(BlockState,CopperGolem)
+- CopperGolem initCopperGolem(BlockState,CopperGolem)
++ CopperGolem removeStatue(BlockState)
+- CopperGolem removeStatue(BlockState)
++ void createStatue(CopperGolem)
+- void createStatue(CopperGolem)
+```
+
+</details>
+<h2>Client<a name="client-mappings"></a></h2>
+<details>
+<summary>
+Classes
+</summary>
+
+```diff
+- net.minecraft.package-info
+- XXX.advancements.packs.package-info
+- XXX.advancements.packs.VanillaAdvancementProvider
++ XXX.advancements.packs.VanillaAdventureAdvancements
+- XXX.advancements.packs.VanillaHusbandryAdvancements
++ XXX.advancements.packs.VanillaNetherAdvancements
+- XXX.advancements.packs.VanillaStoryAdvancements
++ XXX.advancements.packs.VanillaTheEndAdvancements
+- XXX.ai.behavior.SpearApproach
+- XXX.ai.behavior.SpearAttack$SpearStatus
++ XXX.ai.goal.package-info
+- XXX.ai.goal.StrollThroughVillageGoal
++ XXX.ai.goal.SwellGoal
+- XXX.ai.goal.TemptGoal
++ XXX.ai.goal.TemptGoal$ForNonPathfinders
+- XXX.ai.goal.TradeWithPlayerGoal
++ XXX.ai.goal.TryFindWaterGoal
+- XXX.ai.goal.UseItemGoal
++ XXX.ai.goal.WaterAvoidingRandomFlyingGoal
+- XXX.ai.goal.WaterAvoidingRandomStrollGoal
++ XXX.ai.goal.WrappedGoal
+- XXX.ai.goal.ZombieAttackGoal
++ XXX.ai.gossip.GossipContainer
+- XXX.ai.gossip.GossipContainer$EntityGossips
++ XXX.ai.gossip.GossipContainer$GossipEntry
+- XXX.ai.gossip.GossipType
++ XXX.ai.gossip.package-info
+- XXX.ai.memory.ExpirableValue
++ XXX.ai.memory.MemoryModuleType
+- XXX.ai.memory.MemoryStatus
++ XXX.ai.memory.NearestVisibleLivingEntities
++ XXX.ai.memory.package-info
+- XXX.ai.memory.WalkTarget
+- XXX.ai.navigation.AmphibiousPathNavigation
++ XXX.ai.navigation.FlyingPathNavigation
+- XXX.ai.navigation.GroundPathNavigation
+- XXX.ai.navigation.package-info
++ XXX.ai.navigation.PathNavigation
+- XXX.ai.navigation.WallClimberNavigation
++ XXX.ai.navigation.WaterBoundPathNavigation
+- XXX.ai.sensing.AdultSensor
++ XXX.ai.sensing.AdultSensorAnyType
+- XXX.ai.sensing.AxolotlAttackablesSensor
++ XXX.ai.sensing.BreezeAttackEntitySensor
+- XXX.ai.sensing.DummySensor
++ XXX.ai.sensing.FrogAttackablesSensor
+- XXX.ai.sensing.GolemSensor
++ XXX.ai.sensing.HoglinSpecificSensor
+- XXX.ai.sensing.HurtBySensor
++ XXX.ai.sensing.IsInWaterSensor
+- XXX.ai.sensing.MobSensor
++ XXX.ai.sensing.NearestBedSensor
+- XXX.ai.sensing.NearestItemSensor
++ XXX.ai.sensing.NearestLivingEntitySensor
+- XXX.ai.sensing.NearestVisibleLivingEntitySensor
+- XXX.ai.sensing.package-info
++ XXX.ai.sensing.PiglinBruteSpecificSensor
+- XXX.ai.sensing.PiglinSpecificSensor
++ XXX.ai.sensing.PlayerSensor
+- XXX.ai.sensing.SecondaryPoiSensor
++ XXX.ai.sensing.Sensing
+- XXX.ai.sensing.Sensor
++ XXX.ai.sensing.SensorType
+- XXX.ai.sensing.TemptingSensor
++ XXX.ai.sensing.VillagerBabiesSensor
+- XXX.ai.sensing.VillagerHostilesSensor
++ XXX.ai.sensing.WardenEntitySensor
++ XXX.ai.targeting.package-info
++ XXX.ai.targeting.TargetingConditions
+- XXX.ai.targeting.TargetingConditions$Selector
+- XXX.ai.util.AirAndWaterRandomPos
++ XXX.ai.util.AirRandomPos
+- XXX.ai.util.DefaultRandomPos
++ XXX.ai.util.GoalUtils
+- XXX.ai.util.HoverRandomPos
++ XXX.ai.util.LandRandomPos
++ XXX.ai.util.package-info
+- XXX.ai.util.RandomPos
+- XXX.ai.village.package-info
+- XXX.ai.village.ReputationEventType
++ XXX.ai.village.ReputationEventType$1
+- XXX.ai.village.VillageSiege
++ XXX.ai.village.VillageSiege$State
++ XXX.animal.allay.Allay
+- XXX.animal.allay.Allay$JukeboxListener
++ XXX.animal.allay.Allay$VibrationUser
+- XXX.animal.allay.AllayAi
++ XXX.animal.allay.package-info
+- XXX.animal.allay.package-info
+- XXX.animal.armadillo.Armadillo
++ XXX.animal.armadillo.Armadillo$1
+- XXX.animal.armadillo.Armadillo$ArmadilloState
++ XXX.animal.armadillo.Armadillo$ArmadilloState$1
+- XXX.animal.armadillo.Armadillo$ArmadilloState$2
++ XXX.animal.armadillo.Armadillo$ArmadilloState$3
+- XXX.animal.armadillo.Armadillo$ArmadilloState$4
++ XXX.animal.armadillo.ArmadilloAi
+- XXX.animal.armadillo.ArmadilloAi$1
++ XXX.animal.armadillo.ArmadilloAi$ArmadilloBallUp
+- XXX.animal.armadillo.ArmadilloAi$ArmadilloPanic
++ XXX.animal.armadillo.package-info
+- XXX.animal.armadillo.package-info
+- XXX.animal.axolotl.Axolotl
++ XXX.animal.axolotl.Axolotl$AnimationState
+- XXX.animal.axolotl.Axolotl$AxolotlGroupData
++ XXX.animal.axolotl.Axolotl$AxolotlLookControl
+- XXX.animal.axolotl.Axolotl$AxolotlMoveControl
++ XXX.animal.axolotl.Axolotl$Variant
+- XXX.animal.axolotl.AxolotlAi
++ XXX.animal.axolotl.package-info
+- XXX.animal.axolotl.package-info
++ XXX.animal.axolotl.PlayDead
+- XXX.animal.axolotl.ValidatePlayDead
+- XXX.animal.bee.Bee
+- XXX.animal.bee.Bee$BaseBeeGoal
+- XXX.animal.bee.Bee$BeeBecomeAngryTargetGoal
+- XXX.animal.bee.Bee$BeeGoToHiveGoal
+- XXX.animal.bee.Bee$BeeGrowCropGoal
+- XXX.animal.bee.Bee$BeeLocateHiveGoal
+- XXX.animal.bee.Bee$BeePollinateGoal
+- XXX.animal.bee.Bee$ValidateFlowerGoal
+- XXX.animal.bee.BeeStingerModel
+- XXX.animal.bee.package-info
+- XXX.animal.camel.CamelModel
+- XXX.animal.camel.package-info
+- XXX.animal.chicken.Chicken
+- XXX.animal.chicken.ChickenVariant$ModelType
+- XXX.animal.chicken.ColdChickenModel
+- XXX.animal.chicken.package-info
++ XXX.animal.coppergolem.CopperGolem
++ XXX.animal.coppergolem.CopperGolemAi
++ XXX.animal.coppergolem.CopperGolemOxidationLevels
++ XXX.animal.coppergolem.package-info
+- XXX.animal.cow.ColdCowModel
+- XXX.animal.cow.Cow
+- XXX.animal.cow.CowVariant$ModelType
+- XXX.animal.cow.MushroomCow
+- XXX.animal.cow.package-info
+- XXX.animal.cow.WarmCowModel
+- XXX.animal.dolphin.Dolphin$DolphinSwimToTreasureGoal
+- XXX.animal.dolphin.Dolphin$PlayWithItemsGoal
+- XXX.animal.dolphin.DolphinModel
+- XXX.animal.equine.AbstractChestedHorse
+- XXX.animal.equine.AbstractEquineModel
+- XXX.animal.equine.AbstractHorse
+- XXX.animal.equine.Donkey
+- XXX.animal.equine.EquineSaddleModel
+- XXX.animal.equine.Horse$HorseGroupData
+- XXX.animal.equine.Llama$LlamaAttackWolfGoal
+- XXX.animal.equine.Llama$LlamaHurtByTargetGoal
+- XXX.animal.equine.Markings
+- XXX.animal.equine.package-info
+- XXX.animal.equine.package-info
+- XXX.animal.equine.SkeletonHorse
+- XXX.animal.equine.TraderLlama
+- XXX.animal.equine.Variant
+- XXX.animal.feline.Cat$CatAvoidEntityGoal
+- XXX.animal.feline.Cat$CatTemptGoal
+- XXX.animal.feline.CatVariants
+- XXX.animal.feline.FelineModel
+- XXX.animal.feline.Ocelot$OcelotAvoidEntityGoal
+- XXX.animal.feline.package-info
+- XXX.animal.feline.package-info
+- XXX.animal.fish.AbstractFish$FishMoveControl
+- XXX.animal.fish.AbstractSchoolingFish
+- XXX.animal.fish.Cod
+- XXX.animal.fish.package-info
+- XXX.animal.fish.Pufferfish$PufferfishPuffGoal
+- XXX.animal.fish.PufferfishBigModel
+- XXX.animal.fish.PufferfishSmallModel
+- XXX.animal.fish.Salmon$Variant
+- XXX.animal.fish.TropicalFish$Base
+- XXX.animal.fish.TropicalFish$TropicalFishGroupData
+- XXX.animal.fish.TropicalFishLargeModel
+- XXX.animal.fish.WaterAnimal
+- XXX.animal.fox.Fox
+- XXX.animal.fox.Fox$FaceplantGoal
+- XXX.animal.fox.Fox$FoxBehaviorGoal
+- XXX.animal.fox.Fox$FoxEatBerriesGoal
+- XXX.animal.fox.Fox$FoxFollowParentGoal
+- XXX.animal.fox.Fox$FoxLookAtPlayerGoal
+- XXX.animal.fox.Fox$FoxMeleeAttackGoal
+- XXX.animal.fox.Fox$FoxPanicGoal
+- XXX.animal.fox.Fox$FoxSearchForItemsGoal
+- XXX.animal.fox.Fox$PerchAndSearchGoal
+- XXX.animal.fox.Fox$SleepGoal
+- XXX.animal.fox.Fox$Variant
+- XXX.animal.fox.package-info
+- XXX.animal.frog.Frog
++ XXX.animal.frog.Frog$FrogLookControl
+- XXX.animal.frog.Frog$FrogNodeEvaluator
++ XXX.animal.frog.Frog$FrogPathNavigation
+- XXX.animal.frog.FrogAi
++ XXX.animal.frog.FrogVariant
+- XXX.animal.frog.FrogVariants
++ XXX.animal.frog.package-info
++ XXX.animal.frog.ShootTongue
+- XXX.animal.frog.ShootTongue$State
++ XXX.animal.frog.Tadpole
+- XXX.animal.frog.TadpoleAi
+- XXX.animal.frog.TadpoleModel
+- XXX.animal.ghast.HappyGhastHarnessModel
+- XXX.animal.ghast.package-info
+- XXX.animal.goat.Goat
++ XXX.animal.goat.GoatAi
+- XXX.animal.goat.package-info
+- XXX.animal.goat.package-info
+- XXX.animal.golem.CopperGolem
+- XXX.animal.golem.CopperGolemAi
+- XXX.animal.golem.CopperGolemOxidationLevels
+- XXX.animal.golem.IronGolem
+- XXX.animal.golem.IronGolemModel
+- XXX.animal.golem.package-info
+- XXX.animal.golem.package-info
+- XXX.animal.happyghast.HappyGhast$BabyFlyingPathNavigation
+- XXX.animal.happyghast.HappyGhast$HappyGhastFloatGoal
+- XXX.animal.happyghast.HappyGhastAi
++ XXX.animal.horse.AbstractChestedHorse
++ XXX.animal.horse.AbstractHorse
++ XXX.animal.horse.Donkey
++ XXX.animal.horse.Horse$HorseGroupData
++ XXX.animal.horse.Llama$LlamaAttackWolfGoal
++ XXX.animal.horse.Llama$LlamaHurtByTargetGoal
++ XXX.animal.horse.Markings
++ XXX.animal.horse.package-info
++ XXX.animal.horse.SkeletonHorse
++ XXX.animal.horse.TraderLlama
++ XXX.animal.horse.Variant
+- XXX.animal.llama.LlamaSpitModel
+- XXX.animal.nautilus.AbstractNautilus
++ XXX.animal.nautilus.Nautilus
+- XXX.animal.nautilus.NautilusAi
+- XXX.animal.nautilus.NautilusArmorModel
+- XXX.animal.nautilus.NautilusSaddleModel
++ XXX.animal.nautilus.ZombieNautilus
+- XXX.animal.nautilus.ZombieNautilusAi
+- XXX.animal.nautilus.ZombieNautilusVariant$ModelType
+- XXX.animal.panda.package-info
+- XXX.animal.panda.Panda
+- XXX.animal.panda.Panda$PandaAttackGoal
+- XXX.animal.panda.Panda$PandaBreedGoal
+- XXX.animal.panda.Panda$PandaLieOnBackGoal
+- XXX.animal.panda.Panda$PandaMoveControl
+- XXX.animal.panda.Panda$PandaRollGoal
+- XXX.animal.panda.Panda$PandaSneezeGoal
+- XXX.animal.parrot.Parrot
+- XXX.animal.parrot.Parrot$ParrotWanderGoal
+- XXX.animal.parrot.ParrotModel$Pose
+- XXX.animal.parrot.ShoulderRidingEntity
+- XXX.animal.pig.ColdPigModel
+- XXX.animal.pig.package-info
+- XXX.animal.pig.package-info
+- XXX.animal.pig.Pig
+- XXX.animal.pig.PigVariant$ModelType
+- XXX.animal.polarbear.package-info
+- XXX.animal.polarbear.PolarBear$PolarBearAttackPlayersGoal
+- XXX.animal.polarbear.PolarBear$PolarBearMeleeAttackGoal
+- XXX.animal.rabbit.package-info
+- XXX.animal.rabbit.package-info
+- XXX.animal.rabbit.Rabbit
+- XXX.animal.rabbit.Rabbit$RabbitGroupData
+- XXX.animal.rabbit.Rabbit$RabbitMoveControl
+- XXX.animal.rabbit.Rabbit$RaidGardenGoal
++ XXX.animal.sheep.package-info
++ XXX.animal.sheep.Sheep
+- XXX.animal.sheep.SheepColorSpawnRules
++ XXX.animal.sheep.SheepColorSpawnRules$SheepColorProvider
+- XXX.animal.sheep.SheepColorSpawnRules$SheepColorSpawnConfiguration
+- XXX.animal.sheep.SheepModel
+- XXX.animal.sniffer.package-info
+- XXX.animal.sniffer.Sniffer
++ XXX.animal.sniffer.Sniffer$State
+- XXX.animal.sniffer.SnifferAi
++ XXX.animal.sniffer.SnifferAi$1
+- XXX.animal.sniffer.SnifferAi$2
++ XXX.animal.sniffer.SnifferAi$3
+- XXX.animal.sniffer.SnifferAi$Digging
++ XXX.animal.sniffer.SnifferAi$FeelingHappy
+- XXX.animal.sniffer.SnifferAi$FinishedDigging
++ XXX.animal.sniffer.SnifferAi$Scenting
+- XXX.animal.sniffer.SnifferAi$Searching
++ XXX.animal.sniffer.SnifferAi$Sniffing
+- XXX.animal.sniffer.SnifferModel
+- XXX.animal.squid.Squid
+- XXX.animal.squid.Squid$SquidRandomMovementGoal
+- XXX.animal.squid.SquidModel
+- XXX.animal.turtle.package-info
+- XXX.animal.turtle.Turtle
+- XXX.animal.turtle.Turtle$TurtleGoHomeGoal
+- XXX.animal.turtle.Turtle$TurtleLayEggGoal
+- XXX.animal.turtle.Turtle$TurtlePanicGoal
+- XXX.animal.turtle.Turtle$TurtleRandomStrollGoal
+- XXX.animal.turtle.TurtleModel
+- XXX.animal.wolf.package-info
++ XXX.animal.wolf.Wolf
+- XXX.animal.wolf.Wolf$WolfAvoidEntityGoal
++ XXX.animal.wolf.Wolf$WolfPackData
+- XXX.animal.wolf.WolfModel
+- XXX.animal.wolf.WolfSoundVariant
++ XXX.animal.wolf.WolfSoundVariants
+- XXX.animal.wolf.WolfSoundVariants$SoundSet
++ XXX.animal.wolf.WolfVariant
+- XXX.animal.wolf.WolfVariant$AssetInfo
++ XXX.animal.wolf.WolfVariants
+- XXX.animation.definitions.ArmadilloAnimation
++ XXX.animation.definitions.BatAnimation
+- XXX.animation.definitions.BreezeAnimation
++ XXX.animation.definitions.CamelAnimation
+- XXX.animation.definitions.CopperGolemAnimation
++ XXX.animation.definitions.CreakingAnimation
+- XXX.animation.definitions.FrogAnimation
++ XXX.animation.definitions.NautilusAnimation
+- XXX.animation.definitions.package-info
+- XXX.animation.definitions.SnifferAnimation
++ XXX.animation.definitions.WardenAnimation
++ XXX.arguments.blocks.BlockInput
+- XXX.arguments.blocks.BlockPredicateArgument
++ XXX.arguments.blocks.BlockPredicateArgument$BlockPredicate
+- XXX.arguments.blocks.BlockPredicateArgument$Result
++ XXX.arguments.blocks.BlockPredicateArgument$TagPredicate
+- XXX.arguments.blocks.BlockStateArgument
++ XXX.arguments.blocks.BlockStateParser
+- XXX.arguments.blocks.BlockStateParser$BlockResult
++ XXX.arguments.blocks.BlockStateParser$TagResult
+- XXX.arguments.blocks.package-info
++ XXX.arguments.coordinates.BlockPosArgument
+- XXX.arguments.coordinates.ColumnPosArgument
++ XXX.arguments.coordinates.Coordinates
+- XXX.arguments.coordinates.LocalCoordinates
++ XXX.arguments.coordinates.package-info
++ XXX.arguments.coordinates.RotationArgument
+- XXX.arguments.coordinates.SwizzleArgument
++ XXX.arguments.coordinates.Vec2Argument
+- XXX.arguments.coordinates.Vec3Argument
++ XXX.arguments.coordinates.WorldCoordinate
+- XXX.arguments.coordinates.WorldCoordinates
+- XXX.arguments.item.ComponentPredicateParser
++ XXX.arguments.item.ComponentPredicateParser$ComponentLookupRule
+- XXX.arguments.item.ComponentPredicateParser$Context
++ XXX.arguments.item.ComponentPredicateParser$ElementLookupRule
+- XXX.arguments.item.ComponentPredicateParser$PredicateLookupRule
++ XXX.arguments.item.ComponentPredicateParser$TagLookupRule
+- XXX.arguments.item.FunctionArgument
++ XXX.arguments.item.FunctionArgument$1
+- XXX.arguments.item.FunctionArgument$2
++ XXX.arguments.item.FunctionArgument$Result
+- XXX.arguments.item.ItemArgument
++ XXX.arguments.item.ItemInput
+- XXX.arguments.item.ItemParser
++ XXX.arguments.item.ItemParser$1
+- XXX.arguments.item.ItemParser$ItemResult
++ XXX.arguments.item.ItemParser$State
+- XXX.arguments.item.ItemParser$SuggestionsVisitor
++ XXX.arguments.item.ItemParser$Visitor
+- XXX.arguments.item.ItemPredicateArgument
++ XXX.arguments.item.ItemPredicateArgument$ComponentWrapper
+- XXX.arguments.item.ItemPredicateArgument$Context
++ XXX.arguments.item.ItemPredicateArgument$PredicateWrapper
+- XXX.arguments.item.ItemPredicateArgument$Result
++ XXX.arguments.item.package-info
++ XXX.arguments.selector.EntitySelector
+- XXX.arguments.selector.EntitySelector$1
++ XXX.arguments.selector.EntitySelectorParser
++ XXX.arguments.selector.package-info
+- XXX.arguments.selector.SelectorPattern
+- XXX.atlas.sources.DirectoryLister
++ XXX.atlas.sources.LazyLoadedImage
++ XXX.atlas.sources.package-info
+- XXX.atlas.sources.PalettedPermutations
++ XXX.atlas.sources.PalettedPermutations$PalettedSpriteSupplier
+- XXX.atlas.sources.SingleFile
++ XXX.atlas.sources.SourceFilter
+- XXX.atlas.sources.Unstitcher
++ XXX.atlas.sources.Unstitcher$Region
+- XXX.atlas.sources.Unstitcher$RegionInstance
+- XXX.attribute.modifier.AttributeModifier
++ XXX.attribute.modifier.AttributeModifier$OperationId
+- XXX.attribute.modifier.AttributeModifier$OverrideModifier
++ XXX.attribute.modifier.BooleanModifier
+- XXX.attribute.modifier.ColorModifier
++ XXX.attribute.modifier.ColorModifier$1
+- XXX.attribute.modifier.ColorModifier$2
++ XXX.attribute.modifier.ColorModifier$ArgbModifier
+- XXX.attribute.modifier.ColorModifier$BlendToGray
++ XXX.attribute.modifier.ColorModifier$RgbModifier
+- XXX.attribute.modifier.FloatModifier
++ XXX.attribute.modifier.FloatModifier$1
+- XXX.attribute.modifier.FloatModifier$Simple
++ XXX.attribute.modifier.FloatWithAlpha
+- XXX.attribute.modifier.package-info
++ XXX.block.entity.AbstractFurnaceBlockEntity
+- XXX.block.entity.AbstractFurnaceBlockEntity$1
++ XXX.block.entity.BannerBlockEntity
+- XXX.block.entity.BannerPattern
++ XXX.block.entity.BannerPatternLayers
+- XXX.block.entity.BannerPatternLayers$Builder
++ XXX.block.entity.BannerPatternLayers$Layer
+- XXX.block.entity.BannerPatterns
++ XXX.block.entity.BarrelBlockEntity
+- XXX.block.entity.BarrelBlockEntity$1
++ XXX.block.entity.BaseContainerBlockEntity
+- XXX.block.entity.BeaconBeamOwner
++ XXX.block.entity.BeaconBeamOwner$Section
+- XXX.block.entity.BeaconBlockEntity
++ XXX.block.entity.BeaconBlockEntity$1
+- XXX.block.entity.BedBlockEntity
++ XXX.block.entity.BeehiveBlockEntity
+- XXX.block.entity.BeehiveBlockEntity$BeeData
++ XXX.block.entity.BeehiveBlockEntity$BeeReleaseStatus
+- XXX.block.entity.BeehiveBlockEntity$Occupant
++ XXX.block.entity.BellBlockEntity
+- XXX.block.entity.BellBlockEntity$ResonationEndAction
++ XXX.block.entity.BlastFurnaceBlockEntity
+- XXX.block.entity.BlockEntity
++ XXX.block.entity.BlockEntity$1
+- XXX.block.entity.BlockEntity$BlockEntityPathElement
++ XXX.block.entity.BlockEntityTicker
+- XXX.block.entity.BlockEntityType
++ XXX.block.entity.BlockEntityType$BlockEntitySupplier
+- XXX.block.entity.BoundingBoxRenderable
++ XXX.block.entity.BoundingBoxRenderable$Mode
+- XXX.block.entity.BoundingBoxRenderable$RenderableBox
++ XXX.block.entity.BrewingStandBlockEntity
+- XXX.block.entity.BrewingStandBlockEntity$1
++ XXX.block.entity.BrushableBlockEntity
+- XXX.block.entity.CalibratedSculkSensorBlockEntity
++ XXX.block.entity.CalibratedSculkSensorBlockEntity$VibrationUser
+- XXX.block.entity.CampfireBlockEntity
++ XXX.block.entity.ChestBlockEntity
+- XXX.block.entity.ChestBlockEntity$1
++ XXX.block.entity.ChestLidController
+- XXX.block.entity.ChiseledBookShelfBlockEntity
++ XXX.block.entity.CommandBlockEntity
+- XXX.block.entity.CommandBlockEntity$1
++ XXX.block.entity.CommandBlockEntity$Mode
+- XXX.block.entity.ComparatorBlockEntity
++ XXX.block.entity.ConduitBlockEntity
+- XXX.block.entity.ContainerOpenersCounter
++ XXX.block.entity.CopperGolemStatueBlockEntity
+- XXX.block.entity.CrafterBlockEntity
++ XXX.block.entity.CrafterBlockEntity$1
+- XXX.block.entity.CreakingHeartBlockEntity
++ XXX.block.entity.DaylightDetectorBlockEntity
+- XXX.block.entity.DecoratedPotBlockEntity
++ XXX.block.entity.DecoratedPotBlockEntity$WobbleStyle
+- XXX.block.entity.DecoratedPotPattern
++ XXX.block.entity.DecoratedPotPatterns
+- XXX.block.entity.DispenserBlockEntity
++ XXX.block.entity.DropperBlockEntity
+- XXX.block.entity.EnchantingTableBlockEntity
++ XXX.block.entity.EnderChestBlockEntity
+- XXX.block.entity.EnderChestBlockEntity$1
++ XXX.block.entity.FuelValues
+- XXX.block.entity.FuelValues$Builder
++ XXX.block.entity.FurnaceBlockEntity
+- XXX.block.entity.HangingSignBlockEntity
++ XXX.block.entity.Hopper
+- XXX.block.entity.HopperBlockEntity
++ XXX.block.entity.JigsawBlockEntity
+- XXX.block.entity.JigsawBlockEntity$JointType
++ XXX.block.entity.JukeboxBlockEntity
+- XXX.block.entity.LecternBlockEntity
++ XXX.block.entity.LecternBlockEntity$1
+- XXX.block.entity.LecternBlockEntity$2
++ XXX.block.entity.LidBlockEntity
+- XXX.block.entity.ListBackedContainer
+- XXX.block.entity.package-info
++ XXX.block.entity.PotDecorations
+- XXX.block.entity.RandomizableContainerBlockEntity
++ XXX.block.entity.SculkCatalystBlockEntity
+- XXX.block.entity.SculkCatalystBlockEntity$CatalystListener
++ XXX.block.entity.SculkSensorBlockEntity
+- XXX.block.entity.SculkSensorBlockEntity$VibrationUser
++ XXX.block.entity.SculkShriekerBlockEntity
+- XXX.block.entity.SculkShriekerBlockEntity$VibrationUser
++ XXX.block.entity.ShelfBlockEntity
+- XXX.block.entity.ShulkerBoxBlockEntity
++ XXX.block.entity.ShulkerBoxBlockEntity$AnimationStatus
+- XXX.block.entity.SignBlockEntity
++ XXX.block.entity.SignText
+- XXX.block.entity.SkullBlockEntity
++ XXX.block.entity.SmokerBlockEntity
+- XXX.block.entity.SpawnerBlockEntity
++ XXX.block.entity.SpawnerBlockEntity$1
+- XXX.block.entity.StructureBlockEntity
++ XXX.block.entity.StructureBlockEntity$1
+- XXX.block.entity.StructureBlockEntity$UpdateType
++ XXX.block.entity.TestBlockEntity
+- XXX.block.entity.TestInstanceBlockEntity
++ XXX.block.entity.TestInstanceBlockEntity$1
+- XXX.block.entity.TestInstanceBlockEntity$Data
++ XXX.block.entity.TestInstanceBlockEntity$ErrorMarker
+- XXX.block.entity.TestInstanceBlockEntity$Status
++ XXX.block.entity.TheEndGatewayBlockEntity
+- XXX.block.entity.TheEndPortalBlockEntity
++ XXX.block.entity.TickingBlockEntity
+- XXX.block.entity.TrappedChestBlockEntity
++ XXX.block.entity.TrialSpawnerBlockEntity
++ XXX.block.grower.package-info
+- XXX.block.grower.TreeGrower
+- XXX.block.model.package-info
+- XXX.block.model.SingleVariant
++ XXX.block.model.SingleVariant$Unbaked
+- XXX.block.model.TextureSlots
++ XXX.block.model.TextureSlots$Data
+- XXX.block.model.TextureSlots$Data$Builder
++ XXX.block.model.TextureSlots$Reference
+- XXX.block.model.TextureSlots$Resolver
++ XXX.block.model.TextureSlots$SlotContents
+- XXX.block.model.TextureSlots$Value
++ XXX.block.model.Variant
+- XXX.block.model.Variant$SimpleModelState
++ XXX.block.model.VariantMutator
+- XXX.block.model.VariantMutator$VariantProperty
++ XXX.block.model.VariantSelector
++ XXX.block.piston.MovingPistonBlock
+- XXX.block.piston.package-info
+- XXX.block.piston.PistonBaseBlock
++ XXX.block.piston.PistonBaseBlock$1
+- XXX.block.piston.PistonHeadBlock
++ XXX.block.piston.PistonMath
+- XXX.block.piston.PistonMath$1
++ XXX.block.piston.PistonMovingBlockEntity
+- XXX.block.piston.PistonMovingBlockEntity$1
++ XXX.block.piston.PistonStructureResolver
++ XXX.block.sounds.AmbientDesertBlockSoundsPlayer
+- XXX.block.sounds.package-info
++ XXX.block.state.BlockBehaviour
+- XXX.block.state.BlockBehaviour$1
++ XXX.block.state.BlockBehaviour$BlockStateBase
+- XXX.block.state.BlockBehaviour$BlockStateBase$Cache
++ XXX.block.state.BlockBehaviour$OffsetFunction
+- XXX.block.state.BlockBehaviour$OffsetType
++ XXX.block.state.BlockBehaviour$Properties
+- XXX.block.state.BlockBehaviour$StateArgumentPredicate
++ XXX.block.state.BlockBehaviour$StatePredicate
+- XXX.block.state.BlockState
+- XXX.block.state.package-info
++ XXX.block.state.StateDefinition
+- XXX.block.state.StateDefinition$Builder
++ XXX.block.state.StateDefinition$Factory
+- XXX.block.state.StateHolder
++ XXX.block.state.StateHolder$1
++ XXX.blockentity.state.BannerRenderState
+- XXX.blockentity.state.BeaconRenderState
++ XXX.blockentity.state.BeaconRenderState$Section
+- XXX.blockentity.state.BedRenderState
++ XXX.blockentity.state.BellRenderState
+- XXX.blockentity.state.BlockEntityRenderState
++ XXX.blockentity.state.BlockEntityWithBoundingBoxRenderState
+- XXX.blockentity.state.BlockEntityWithBoundingBoxRenderState$InvisibleBlockType
++ XXX.blockentity.state.BrushableBlockRenderState
+- XXX.blockentity.state.CampfireRenderState
++ XXX.blockentity.state.ChestRenderState
+- XXX.blockentity.state.ChestRenderState$ChestMaterialType
++ XXX.blockentity.state.CondiutRenderState
+- XXX.blockentity.state.CopperGolemStatueRenderState
++ XXX.blockentity.state.DecoratedPotRenderState
+- XXX.blockentity.state.EnchantTableRenderState
++ XXX.blockentity.state.EndGatewayRenderState
+- XXX.blockentity.state.EndPortalRenderState
++ XXX.blockentity.state.LecternRenderState
+- XXX.blockentity.state.package-info
+- XXX.blockentity.state.PistonHeadRenderState
++ XXX.blockentity.state.ShelfRenderState
+- XXX.blockentity.state.ShulkerBoxRenderState
++ XXX.blockentity.state.SignRenderState
+- XXX.blockentity.state.SkullBlockRenderState
++ XXX.blockentity.state.SpawnerRenderState
+- XXX.blockentity.state.TestInstanceRenderState
++ XXX.blockentity.state.VaultRenderState
+- XXX.boss.enderdragon.package-info
++ XXX.chat.contents.KeybindContents
+- XXX.chat.contents.KeybindResolver
++ XXX.chat.contents.NbtContents
+- XXX.chat.contents.ObjectContents
++ XXX.chat.contents.package-info
++ XXX.chat.contents.PlainTextContents
+- XXX.chat.contents.PlainTextContents$1
++ XXX.chat.contents.PlainTextContents$LiteralContents
+- XXX.chat.contents.ScoreContents
++ XXX.chat.contents.SelectorContents
+- XXX.chat.contents.TranslatableContents
++ XXX.chat.contents.TranslatableFormatException
+- XXX.chat.numbers.BlankFormat
++ XXX.chat.numbers.BlankFormat$1
+- XXX.chat.numbers.FixedFormat
++ XXX.chat.numbers.FixedFormat$1
+- XXX.chat.numbers.NumberFormat
++ XXX.chat.numbers.NumberFormatType
+- XXX.chat.numbers.NumberFormatTypes
++ XXX.chat.numbers.package-info
++ XXX.chat.numbers.StyledFormat
+- XXX.chat.numbers.StyledFormat$1
+- XXX.chunk.status.ChunkDependencies
++ XXX.chunk.status.ChunkPyramid
+- XXX.chunk.status.ChunkPyramid$Builder
++ XXX.chunk.status.ChunkStatus
+- XXX.chunk.status.ChunkStatusTask
++ XXX.chunk.status.ChunkStatusTasks
+- XXX.chunk.status.ChunkStep
++ XXX.chunk.status.ChunkStep$Builder
+- XXX.chunk.status.ChunkType
+- XXX.chunk.status.package-info
++ XXX.chunk.status.WorldGenContext
++ XXX.chunk.storage.ChunkIOErrorReporter
+- XXX.chunk.storage.ChunkScanAccess
++ XXX.chunk.storage.EntityStorage
+- XXX.chunk.storage.IOWorker
++ XXX.chunk.storage.IOWorker$PendingStore
+- XXX.chunk.storage.IOWorker$Priority
++ XXX.chunk.storage.IOWorker$ThrowingSupplier
+- XXX.chunk.storage.LegacyTagFixer
+- XXX.chunk.storage.package-info
++ XXX.chunk.storage.RecreatingSimpleRegionStorage
+- XXX.chunk.storage.RegionBitmap
++ XXX.chunk.storage.RegionFile
+- XXX.chunk.storage.RegionFile$ChunkBuffer
++ XXX.chunk.storage.RegionFile$CommitOp
+- XXX.chunk.storage.RegionFileStorage
++ XXX.chunk.storage.RegionFileVersion
+- XXX.chunk.storage.RegionFileVersion$StreamWrapper
++ XXX.chunk.storage.RegionStorageInfo
+- XXX.chunk.storage.SectionStorage
++ XXX.chunk.storage.SectionStorage$PackedChunk
+- XXX.chunk.storage.SerializableChunkData
++ XXX.chunk.storage.SerializableChunkData$ChunkReadException
+- XXX.chunk.storage.SerializableChunkData$SectionData
++ XXX.chunk.storage.SimpleRegionStorage
++ XXX.client.animation.AnimationChannel
+- XXX.client.animation.AnimationChannel$Interpolation
++ XXX.client.animation.AnimationChannel$Interpolations
+- XXX.client.animation.AnimationChannel$Target
++ XXX.client.animation.AnimationChannel$Targets
+- XXX.client.animation.AnimationDefinition
++ XXX.client.animation.AnimationDefinition$Builder
+- XXX.client.animation.Keyframe
++ XXX.client.animation.KeyframeAnimation
+- XXX.client.animation.KeyframeAnimation$Entry
++ XXX.client.animation.KeyframeAnimations
++ XXX.client.animation.package-info
+- XXX.client.color.ColorLerper
++ XXX.client.color.ColorLerper$Type
++ XXX.client.color.package-info
+- XXX.client.data.AtlasProvider
++ XXX.client.data.Main
+- XXX.client.data.package-info
++ XXX.client.entity.ClientAvatarEntity
+- XXX.client.entity.ClientAvatarState
++ XXX.client.entity.ClientMannequin
+- XXX.client.entity.package-info
++ XXX.client.gui.ActiveTextCollector
+- XXX.client.gui.ActiveTextCollector$1
++ XXX.client.gui.ActiveTextCollector$ClickableStyleFinder
+- XXX.client.gui.ActiveTextCollector$Parameters
++ XXX.client.gui.BundleMouseActions
+- XXX.client.gui.ComponentPath
++ XXX.client.gui.ComponentPath$Leaf
+- XXX.client.gui.ComponentPath$Path
++ XXX.client.gui.Font
+- XXX.client.gui.Font$DisplayMode
++ XXX.client.gui.Font$GlyphVisitor
+- XXX.client.gui.Font$GlyphVisitor$1
++ XXX.client.gui.Font$PreparedText
+- XXX.client.gui.Font$PreparedTextBuilder
++ XXX.client.gui.Font$Provider
+- XXX.client.gui.GlyphSource
++ XXX.client.gui.Gui
+- XXX.client.gui.Gui$1DisplayEntry
++ XXX.client.gui.Gui$ContextualInfo
+- XXX.client.gui.Gui$HeartType
++ XXX.client.gui.Gui$RenderFunction
+- XXX.client.gui.GuiGraphics
++ XXX.client.gui.GuiGraphics$HoveredTextEffects
+- XXX.client.gui.GuiGraphics$RenderingTextCollector
++ XXX.client.gui.GuiGraphics$ScissorStack
+- XXX.client.gui.ItemSlotMouseAction
++ XXX.client.gui.package-info
++ XXX.client.gui.TextAlignment
+- XXX.client.gui.TextAlignment$1
++ XXX.client.gui.TextAlignment$2
+- XXX.client.gui.TextAlignment$3
++ XXX.client.input.CharacterEvent
+- XXX.client.input.InputQuirks
++ XXX.client.input.InputWithModifiers
+- XXX.client.input.InputWithModifiers$Modifiers
++ XXX.client.input.KeyEvent
+- XXX.client.input.KeyEvent$Action
++ XXX.client.input.MouseButtonEvent
+- XXX.client.input.MouseButtonInfo
++ XXX.client.input.MouseButtonInfo$Action
+- XXX.client.input.MouseButtonInfo$MouseButton
++ XXX.client.input.package-info
+- XXX.client.main.GameConfig
++ XXX.client.main.GameConfig$FolderData
+- XXX.client.main.GameConfig$GameData
++ XXX.client.main.GameConfig$QuickPlayData
+- XXX.client.main.GameConfig$QuickPlayDisabled
++ XXX.client.main.GameConfig$QuickPlayMultiplayerData
+- XXX.client.main.GameConfig$QuickPlayRealmsData
++ XXX.client.main.GameConfig$QuickPlaySinglePlayerData
+- XXX.client.main.GameConfig$QuickPlayVariant
++ XXX.client.main.GameConfig$UserData
+- XXX.client.main.Main
++ XXX.client.main.Main$1
+- XXX.client.main.Main$2
+- XXX.client.main.package-info
++ XXX.client.main.SilentInitException
++ XXX.client.model.AbstractBoatModel
++ XXX.client.model.AbstractPiglinModel
++ XXX.client.model.AdultAndBabyModelPair
++ XXX.client.model.ArmedModel
++ XXX.client.model.ArmorStandModel
++ XXX.client.model.AxolotlModel
+- XXX.client.model.BabyModelTransform
++ XXX.client.model.BannerFlagModel
++ XXX.client.model.BatModel
++ XXX.client.model.BeeStingerModel
++ XXX.client.model.BellModel$1
++ XXX.client.model.BlazeModel
++ XXX.client.model.BoggedModel
++ XXX.client.model.BookModel$State
++ XXX.client.model.CamelModel
++ XXX.client.model.CatModel
++ XXX.client.model.ChickenModel
++ XXX.client.model.ColdChickenModel
++ XXX.client.model.ColdPigModel
++ XXX.client.model.CopperGolemStatueModel
++ XXX.client.model.CreakingModel
++ XXX.client.model.DolphinModel
++ XXX.client.model.DrownedModel
++ XXX.client.model.EndCrystalModel
++ XXX.client.model.EndermiteModel
++ XXX.client.model.EquineSaddleModel
++ XXX.client.model.FelineModel
++ XXX.client.model.FrogModel
++ XXX.client.model.GiantZombieModel
++ XXX.client.model.GuardianModel
++ XXX.client.model.HappyGhastHarnessModel
++ XXX.client.model.HorseModel
++ XXX.client.model.IronGolemModel
++ XXX.client.model.LeashKnotModel
++ XXX.client.model.LlamaSpitModel
++ XXX.client.model.Model
+- XXX.client.model.Model$Simple
++ XXX.client.model.NautilusArmorModel
++ XXX.client.model.NautilusSaddleModel
++ XXX.client.model.PandaModel
++ XXX.client.model.ParrotModel$Pose
++ XXX.client.model.PiglinModel
++ XXX.client.model.PigModel
++ XXX.client.model.PlayerEarsModel
++ XXX.client.model.PolarBearModel
++ XXX.client.model.PufferfishMidModel
++ XXX.client.model.QuadrupedModel
++ XXX.client.model.RaftModel
++ XXX.client.model.SalmonModel
++ XXX.client.model.SheepModel
++ XXX.client.model.ShulkerBulletModel
++ XXX.client.model.SilverfishModel
++ XXX.client.model.SkullModel
++ XXX.client.model.SkullModelBase$State
++ XXX.client.model.SnifferModel
++ XXX.client.model.SpearAnimations
++ XXX.client.model.SpiderModel
++ XXX.client.model.SquidModel
++ XXX.client.model.TadpoleModel
++ XXX.client.model.TropicalFishModelA
++ XXX.client.model.TurtleModel
++ XXX.client.model.WardenModel
++ XXX.client.model.WindChargeModel
++ XXX.client.model.WitherBossModel
++ XXX.client.model.ZombieModel
++ XXX.client.model.ZombieVillagerModel
+- XXX.client.renderer.package-info
++ XXX.client.resources.ClientPackSource
+- XXX.client.resources.DefaultPlayerSkin
++ XXX.client.resources.DryFoliageColorReloadListener
+- XXX.client.resources.FoliageColorReloadListener
++ XXX.client.resources.GrassColorReloadListener
+- XXX.client.resources.IndexedAssetSource
++ XXX.client.resources.LegacyStuffWrapper
+- XXX.client.resources.MapTextureManager
++ XXX.client.resources.MapTextureManager$MapInstance
+- XXX.client.resources.package-info
+- XXX.client.resources.SkinManager
++ XXX.client.resources.SkinManager$1
+- XXX.client.resources.SkinManager$2
++ XXX.client.resources.SkinManager$CacheKey
+- XXX.client.resources.SkinManager$TextureCache
++ XXX.client.resources.SplashManager
+- XXX.client.resources.WaypointStyle
++ XXX.client.resources.WaypointStyleManager
++ XXX.client.searchtree.FullTextSearchTree
++ XXX.client.searchtree.IdentifierSearchTree
+- XXX.client.searchtree.IdentifierSearchTree$1
++ XXX.client.searchtree.IdentifierSearchTree$2
+- XXX.client.searchtree.IdSearchTree
+- XXX.client.searchtree.IntersectionIterator
++ XXX.client.searchtree.MergingUniqueIterator
+- XXX.client.searchtree.package-info
+- XXX.client.searchtree.SearchTree
++ XXX.client.searchtree.SuffixArray
++ XXX.client.server.IntegratedPlayerList
+- XXX.client.server.IntegratedServer
++ XXX.client.server.LanServer
+- XXX.client.server.LanServerDetection
++ XXX.client.server.LanServerDetection$LanServerDetector
+- XXX.client.server.LanServerDetection$LanServerList
++ XXX.client.server.LanServerPinger
+- XXX.client.server.package-info
++ XXX.client.sounds.AudioStream
+- XXX.client.sounds.ChannelAccess
++ XXX.client.sounds.ChannelAccess$ChannelHandle
+- XXX.client.sounds.ChunkedSampleByteBuf
++ XXX.client.sounds.FiniteAudioStream
+- XXX.client.sounds.FloatSampleSource
++ XXX.client.sounds.JOrbisAudioStream
+- XXX.client.sounds.LoopingAudioStream
++ XXX.client.sounds.LoopingAudioStream$AudioStreamProvider
+- XXX.client.sounds.LoopingAudioStream$NoCloseBuffer
++ XXX.client.sounds.MusicManager
+- XXX.client.sounds.MusicManager$1
++ XXX.client.sounds.MusicManager$MusicFrequency
++ XXX.client.sounds.package-info
+- XXX.client.sounds.SoundBufferLibrary
++ XXX.client.sounds.SoundEngine
+- XXX.client.sounds.SoundEngine$DeviceCheckState
++ XXX.client.sounds.SoundEngine$PlayResult
+- XXX.client.sounds.SoundEngineExecutor
++ XXX.client.sounds.SoundEventListener
+- XXX.client.sounds.SoundManager
++ XXX.client.sounds.SoundManager$1
+- XXX.client.sounds.SoundManager$2
++ XXX.client.sounds.SoundManager$Preparations
+- XXX.client.sounds.SoundManager$Preparations$1
++ XXX.client.sounds.SoundPreviewHandler
+- XXX.client.sounds.SoundPreviewHandler$1
++ XXX.client.sounds.WeighedSoundEvents
+- XXX.client.sounds.Weighted
+- XXX.client.telemetry.ClientTelemetryManager
++ XXX.client.telemetry.package-info
++ XXX.client.telemetry.TelemetryEventInstance
+- XXX.client.telemetry.TelemetryEventLog
++ XXX.client.telemetry.TelemetryEventLogger
+- XXX.client.telemetry.TelemetryEventSender
++ XXX.client.telemetry.TelemetryEventType
+- XXX.client.telemetry.TelemetryEventType$Builder
++ XXX.client.telemetry.TelemetryLogManager
+- XXX.client.telemetry.TelemetryProperty
++ XXX.client.telemetry.TelemetryProperty$Exporter
+- XXX.client.telemetry.TelemetryProperty$GameMode
++ XXX.client.telemetry.TelemetryProperty$ServerType
+- XXX.client.telemetry.TelemetryPropertyMap
++ XXX.client.telemetry.TelemetryPropertyMap$1
+- XXX.client.telemetry.TelemetryPropertyMap$Builder
++ XXX.client.telemetry.WorldSessionTelemetryManager
+- XXX.client.tutorial.CompletedTutorialStepInstance
++ XXX.client.tutorial.CraftPlanksTutorialStep
+- XXX.client.tutorial.FindTreeTutorialStepInstance
++ XXX.client.tutorial.MovementTutorialStepInstance
+- XXX.client.tutorial.OpenInventoryTutorialStep
++ XXX.client.tutorial.package-info
++ XXX.client.tutorial.PunchTreeTutorialStepInstance
+- XXX.client.tutorial.Tutorial
++ XXX.client.tutorial.TutorialStepInstance
+- XXX.client.tutorial.TutorialSteps
+- XXX.client.waypoints.ClientWaypointManager
++ XXX.client.waypoints.package-info
+- XXX.color.block.BlockColor
++ XXX.color.block.BlockColors
+- XXX.color.block.BlockTintCache
++ XXX.color.block.BlockTintCache$CacheData
+- XXX.color.block.BlockTintCache$LatestCacheInfo
++ XXX.color.block.package-info
+- XXX.color.item.Constant
++ XXX.color.item.CustomModelDataSource
+- XXX.color.item.Dye
++ XXX.color.item.Firework
+- XXX.color.item.GrassColorSource
++ XXX.color.item.ItemTintSource
+- XXX.color.item.ItemTintSources
++ XXX.color.item.MapColor
+- XXX.color.item.package-info
+- XXX.color.item.Potion
++ XXX.color.item.TeamColor
+- XXX.commands.arguments.AngleArgument
++ XXX.commands.arguments.AngleArgument$SingleAngle
+- XXX.commands.arguments.ArgumentSignatures
++ XXX.commands.arguments.ArgumentSignatures$Entry
+- XXX.commands.arguments.ArgumentSignatures$Signer
++ XXX.commands.arguments.ColorArgument
+- XXX.commands.arguments.ComponentArgument
++ XXX.commands.arguments.CompoundTagArgument
+- XXX.commands.arguments.DimensionArgument
++ XXX.commands.arguments.EntityAnchorArgument
+- XXX.commands.arguments.EntityAnchorArgument$Anchor
++ XXX.commands.arguments.EntityArgument
+- XXX.commands.arguments.EntityArgument$Info
++ XXX.commands.arguments.EntityArgument$Info$Template
+- XXX.commands.arguments.GameModeArgument
++ XXX.commands.arguments.GameProfileArgument
+- XXX.commands.arguments.GameProfileArgument$Result
++ XXX.commands.arguments.GameProfileArgument$SelectorResult
+- XXX.commands.arguments.HeightmapTypeArgument
++ XXX.commands.arguments.HexColorArgument
+- XXX.commands.arguments.IdentifierArgument
++ XXX.commands.arguments.MessageArgument
+- XXX.commands.arguments.MessageArgument$Message
++ XXX.commands.arguments.MessageArgument$Part
+- XXX.commands.arguments.NbtPathArgument
++ XXX.commands.arguments.NbtPathArgument$AllElementsNode
+- XXX.commands.arguments.NbtPathArgument$CompoundChildNode
++ XXX.commands.arguments.NbtPathArgument$IndexedElementNode
+- XXX.commands.arguments.NbtPathArgument$MatchElementNode
++ XXX.commands.arguments.NbtPathArgument$MatchObjectNode
+- XXX.commands.arguments.NbtPathArgument$MatchRootObjectNode
++ XXX.commands.arguments.NbtPathArgument$NbtPath
+- XXX.commands.arguments.NbtPathArgument$Node
++ XXX.commands.arguments.NbtTagArgument
+- XXX.commands.arguments.ObjectiveArgument
++ XXX.commands.arguments.ObjectiveCriteriaArgument
+- XXX.commands.arguments.OperationArgument
++ XXX.commands.arguments.OperationArgument$Operation
+- XXX.commands.arguments.OperationArgument$SimpleOperation
+- XXX.commands.arguments.package-info
++ XXX.commands.arguments.ParticleArgument
+- XXX.commands.arguments.RangeArgument
++ XXX.commands.arguments.RangeArgument$Floats
+- XXX.commands.arguments.RangeArgument$Ints
++ XXX.commands.arguments.ResourceArgument
+- XXX.commands.arguments.ResourceArgument$Info
++ XXX.commands.arguments.ResourceArgument$Info$Template
+- XXX.commands.arguments.ResourceKeyArgument
++ XXX.commands.arguments.ResourceKeyArgument$Info
+- XXX.commands.arguments.ResourceKeyArgument$Info$Template
++ XXX.commands.arguments.ResourceOrIdArgument
+- XXX.commands.arguments.ResourceOrIdArgument$DialogArgument
++ XXX.commands.arguments.ResourceOrIdArgument$InlineResult
+- XXX.commands.arguments.ResourceOrIdArgument$LootModifierArgument
++ XXX.commands.arguments.ResourceOrIdArgument$LootPredicateArgument
+- XXX.commands.arguments.ResourceOrIdArgument$LootTableArgument
++ XXX.commands.arguments.ResourceOrIdArgument$ReferenceResult
+- XXX.commands.arguments.ResourceOrIdArgument$Result
++ XXX.commands.arguments.ResourceOrTagArgument
+- XXX.commands.arguments.ResourceOrTagArgument$Info
++ XXX.commands.arguments.ResourceOrTagArgument$Info$Template
+- XXX.commands.arguments.ResourceOrTagArgument$ResourceResult
++ XXX.commands.arguments.ResourceOrTagArgument$Result
+- XXX.commands.arguments.ResourceOrTagArgument$TagResult
++ XXX.commands.arguments.ResourceOrTagKeyArgument
+- XXX.commands.arguments.ResourceOrTagKeyArgument$Info
++ XXX.commands.arguments.ResourceOrTagKeyArgument$Info$Template
+- XXX.commands.arguments.ResourceOrTagKeyArgument$ResourceResult
++ XXX.commands.arguments.ResourceOrTagKeyArgument$Result
+- XXX.commands.arguments.ResourceOrTagKeyArgument$TagResult
++ XXX.commands.arguments.ResourceSelectorArgument
+- XXX.commands.arguments.ResourceSelectorArgument$Info
++ XXX.commands.arguments.ResourceSelectorArgument$Info$Template
++ XXX.commands.arguments.ScoreboardSlotArgument
+- XXX.commands.arguments.ScoreHolderArgument
++ XXX.commands.arguments.ScoreHolderArgument$Info
+- XXX.commands.arguments.ScoreHolderArgument$Info$Template
++ XXX.commands.arguments.ScoreHolderArgument$Result
+- XXX.commands.arguments.ScoreHolderArgument$SelectorResult
+- XXX.commands.arguments.SignedArgument
++ XXX.commands.arguments.SlotArgument
+- XXX.commands.arguments.SlotsArgument
++ XXX.commands.arguments.StringRepresentableArgument
+- XXX.commands.arguments.StyleArgument
++ XXX.commands.arguments.TeamArgument
+- XXX.commands.arguments.TemplateMirrorArgument
++ XXX.commands.arguments.TemplateRotationArgument
+- XXX.commands.arguments.TimeArgument
++ XXX.commands.arguments.TimeArgument$Info
+- XXX.commands.arguments.TimeArgument$Info$Template
++ XXX.commands.arguments.UuidArgument
+- XXX.commands.arguments.WaypointArgument
++ XXX.commands.data.BlockDataAccessor
+- XXX.commands.data.BlockDataAccessor$1
++ XXX.commands.data.DataAccessor
+- XXX.commands.data.DataCommands
++ XXX.commands.data.DataCommands$DataManipulator
+- XXX.commands.data.DataCommands$DataManipulatorDecorator
++ XXX.commands.data.DataCommands$DataProvider
+- XXX.commands.data.DataCommands$StringProcessor
++ XXX.commands.data.EntityDataAccessor
+- XXX.commands.data.EntityDataAccessor$1
++ XXX.commands.data.package-info
++ XXX.commands.data.StorageDataAccessor
+- XXX.commands.data.StorageDataAccessor$1
+- XXX.commands.execution.ChainModifiers
++ XXX.commands.execution.CommandQueueEntry
+- XXX.commands.execution.CustomCommandExecutor
++ XXX.commands.execution.CustomCommandExecutor$CommandAdapter
+- XXX.commands.execution.CustomCommandExecutor$WithErrorHandling
++ XXX.commands.execution.CustomModifierExecutor
+- XXX.commands.execution.CustomModifierExecutor$ModifierAdapter
++ XXX.commands.execution.EntryAction
+- XXX.commands.execution.ExecutionContext
++ XXX.commands.execution.ExecutionControl
+- XXX.commands.execution.ExecutionControl$1
++ XXX.commands.execution.Frame
+- XXX.commands.execution.Frame$FrameControl
++ XXX.commands.execution.package-info
++ XXX.commands.execution.TraceCallbacks
+- XXX.commands.execution.UnboundEntryAction
++ XXX.commands.functions.CommandFunction
+- XXX.commands.functions.FunctionBuilder
++ XXX.commands.functions.InstantiatedFunction
+- XXX.commands.functions.MacroFunction
++ XXX.commands.functions.MacroFunction$Entry
+- XXX.commands.functions.MacroFunction$MacroEntry
++ XXX.commands.functions.MacroFunction$PlainTextEntry
+- XXX.commands.functions.package-info
+- XXX.commands.functions.PlainTextFunction
++ XXX.commands.functions.StringTemplate
+- XXX.commands.synchronization.ArgumentTypeInfo
++ XXX.commands.synchronization.ArgumentTypeInfo$Template
+- XXX.commands.synchronization.ArgumentTypeInfos
++ XXX.commands.synchronization.ArgumentUtils
+- XXX.commands.synchronization.package-info
+- XXX.commands.synchronization.SingletonArgumentInfo
++ XXX.commands.synchronization.SingletonArgumentInfo$Template
+- XXX.commands.synchronization.SuggestionProviders
++ XXX.commands.synchronization.SuggestionProviders$RegisteredSuggestion
+- XXX.common.custom.BrandPayload
++ XXX.common.custom.CustomPacketPayload
+- XXX.common.custom.CustomPacketPayload$1
++ XXX.common.custom.CustomPacketPayload$FallbackProvider
+- XXX.common.custom.CustomPacketPayload$Type
++ XXX.common.custom.CustomPacketPayload$TypeAndCodec
+- XXX.common.custom.DiscardedPayload
++ XXX.common.custom.package-info
++ XXX.component.predicates.AnyValue
+- XXX.component.predicates.AttributeModifiersPredicate
++ XXX.component.predicates.AttributeModifiersPredicate$EntryPredicate
+- XXX.component.predicates.BundlePredicate
++ XXX.component.predicates.ContainerPredicate
+- XXX.component.predicates.CustomDataPredicate
++ XXX.component.predicates.DamagePredicate
+- XXX.component.predicates.DataComponentPredicate
++ XXX.component.predicates.DataComponentPredicate$AnyValueType
+- XXX.component.predicates.DataComponentPredicate$ConcreteType
++ XXX.component.predicates.DataComponentPredicate$Single
+- XXX.component.predicates.DataComponentPredicate$Type
++ XXX.component.predicates.DataComponentPredicate$TypeBase
+- XXX.component.predicates.DataComponentPredicates
++ XXX.component.predicates.EnchantmentsPredicate
+- XXX.component.predicates.EnchantmentsPredicate$Enchantments
++ XXX.component.predicates.EnchantmentsPredicate$StoredEnchantments
+- XXX.component.predicates.FireworkExplosionPredicate
++ XXX.component.predicates.FireworkExplosionPredicate$FireworkPredicate
+- XXX.component.predicates.FireworksPredicate
++ XXX.component.predicates.JukeboxPlayablePredicate
+- XXX.component.predicates.package-info
+- XXX.component.predicates.PotionsPredicate
++ XXX.component.predicates.TrimPredicate
+- XXX.component.predicates.WritableBookPredicate
++ XXX.component.predicates.WritableBookPredicate$PagePredicate
+- XXX.component.predicates.WrittenBookPredicate
++ XXX.component.predicates.WrittenBookPredicate$PagePredicate
++ XXX.components.debug.DebugEntryBiome
+- XXX.components.debug.DebugEntryCategory
++ XXX.components.debug.DebugEntryChunkGeneration
+- XXX.components.debug.DebugEntryChunkRenderStats
++ XXX.components.debug.DebugEntryChunkSourceStats
+- XXX.components.debug.DebugEntryEntityRenderStats
++ XXX.components.debug.DebugEntryFps
+- XXX.components.debug.DebugEntryGpuUtilization
++ XXX.components.debug.DebugEntryHeightmap
+- XXX.components.debug.DebugEntryLight
++ XXX.components.debug.DebugEntryLocalDifficulty
+- XXX.components.debug.DebugEntryLookingAtBlock
++ XXX.components.debug.DebugEntryLookingAtEntity
+- XXX.components.debug.DebugEntryLookingAtFluid
++ XXX.components.debug.DebugEntryMemory
+- XXX.components.debug.DebugEntryMemory$AllocationRateCalculator
++ XXX.components.debug.DebugEntryNoop
+- XXX.components.debug.DebugEntryParticleRenderStats
++ XXX.components.debug.DebugEntryPosition
+- XXX.components.debug.DebugEntryPosition$1
++ XXX.components.debug.DebugEntryPostEffect
+- XXX.components.debug.DebugEntrySectionPosition
++ XXX.components.debug.DebugEntrySimplePerformanceImpactors
+- XXX.components.debug.DebugEntrySoundMood
++ XXX.components.debug.DebugEntrySpawnCounts
+- XXX.components.debug.DebugEntrySystemSpecs
++ XXX.components.debug.DebugEntryTps
+- XXX.components.debug.DebugEntryVersion
++ XXX.components.debug.DebugScreenDisplayer
+- XXX.components.debug.DebugScreenEntries
++ XXX.components.debug.DebugScreenEntry
+- XXX.components.debug.DebugScreenEntryList
++ XXX.components.debug.DebugScreenEntryList$SerializedOptions
+- XXX.components.debug.DebugScreenEntryStatus
++ XXX.components.debug.DebugScreenProfile
+- XXX.components.debug.package-info
++ XXX.components.debugchart.AbstractDebugChart
+- XXX.components.debugchart.BandwidthDebugChart
++ XXX.components.debugchart.FpsDebugChart
++ XXX.components.debugchart.package-info
+- XXX.components.debugchart.PingDebugChart
++ XXX.components.debugchart.ProfilerPieChart
+- XXX.components.debugchart.TpsDebugChart
+- XXX.components.events.AbstractContainerEventHandler
++ XXX.components.events.ContainerEventHandler
+- XXX.components.events.GuiEventListener
++ XXX.components.events.package-info
+- XXX.components.spectator.package-info
++ XXX.components.spectator.SpectatorGui
++ XXX.components.tabs.GridLayoutTab
+- XXX.components.tabs.LoadingTab
++ XXX.components.tabs.package-info
++ XXX.components.tabs.Tab
+- XXX.components.tabs.TabManager
++ XXX.components.tabs.TabNavigationBar
+- XXX.components.tabs.TabNavigationBar$Builder
+- XXX.components.toasts.AdvancementToast
++ XXX.components.toasts.NowPlayingToast
++ XXX.components.toasts.package-info
+- XXX.components.toasts.RecipeToast
++ XXX.components.toasts.RecipeToast$Entry
+- XXX.components.toasts.SystemToast
++ XXX.components.toasts.SystemToast$SystemToastId
+- XXX.components.toasts.Toast
++ XXX.components.toasts.Toast$Visibility
+- XXX.components.toasts.ToastManager
++ XXX.components.toasts.ToastManager$1
+- XXX.components.toasts.ToastManager$ToastInstance
++ XXX.components.toasts.TutorialToast
+- XXX.components.toasts.TutorialToast$Icons
+- XXX.contents.data.BlockDataSource
++ XXX.contents.data.DataSource
+- XXX.contents.data.DataSources
++ XXX.contents.data.EntityDataSource
++ XXX.contents.data.package-info
+- XXX.contents.data.StorageDataSource
+- XXX.contents.objects.AtlasSprite
++ XXX.contents.objects.ObjectInfo
+- XXX.contents.objects.ObjectInfos
+- XXX.contents.objects.package-info
++ XXX.contents.objects.PlayerSprite
+- XXX.core.cauldron.CauldronInteraction
++ XXX.core.cauldron.CauldronInteraction$InteractionMap
+- XXX.core.cauldron.package-info
++ XXX.core.component.DataComponentExactPredicate
+- XXX.core.component.DataComponentExactPredicate$Builder
++ XXX.core.component.DataComponentGetter
+- XXX.core.component.DataComponentHolder
++ XXX.core.component.DataComponentMap
+- XXX.core.component.DataComponentMap$1
++ XXX.core.component.DataComponentMap$2
+- XXX.core.component.DataComponentMap$3
++ XXX.core.component.DataComponentMap$Builder
+- XXX.core.component.DataComponentMap$Builder$SimpleMap
++ XXX.core.component.DataComponentPatch
+- XXX.core.component.DataComponentPatch$1
++ XXX.core.component.DataComponentPatch$2
+- XXX.core.component.DataComponentPatch$3
++ XXX.core.component.DataComponentPatch$Builder
+- XXX.core.component.DataComponentPatch$CodecGetter
++ XXX.core.component.DataComponentPatch$PatchKey
+- XXX.core.component.DataComponentPatch$SplitResult
+- XXX.core.component.DataComponents
++ XXX.core.component.DataComponentType
+- XXX.core.component.DataComponentType$Builder
++ XXX.core.component.DataComponentType$Builder$SimpleType
+- XXX.core.component.package-info
++ XXX.core.component.PatchedDataComponentMap
+- XXX.core.component.TypedDataComponent
++ XXX.core.component.TypedDataComponent$1
++ XXX.core.dispenser.BlockSource
+- XXX.core.dispenser.BoatDispenseItemBehavior
++ XXX.core.dispenser.DefaultDispenseItemBehavior
+- XXX.core.dispenser.DispenseItemBehavior
++ XXX.core.dispenser.DispenseItemBehavior$1
+- XXX.core.dispenser.DispenseItemBehavior$10
++ XXX.core.dispenser.DispenseItemBehavior$11
+- XXX.core.dispenser.DispenseItemBehavior$12
++ XXX.core.dispenser.DispenseItemBehavior$13
+- XXX.core.dispenser.DispenseItemBehavior$14
++ XXX.core.dispenser.DispenseItemBehavior$15
+- XXX.core.dispenser.DispenseItemBehavior$2
++ XXX.core.dispenser.DispenseItemBehavior$3
+- XXX.core.dispenser.DispenseItemBehavior$4
++ XXX.core.dispenser.DispenseItemBehavior$5
+- XXX.core.dispenser.DispenseItemBehavior$6
++ XXX.core.dispenser.DispenseItemBehavior$7
+- XXX.core.dispenser.DispenseItemBehavior$8
++ XXX.core.dispenser.DispenseItemBehavior$9
+- XXX.core.dispenser.EquipmentDispenseItemBehavior
++ XXX.core.dispenser.MinecartDispenseItemBehavior
+- XXX.core.dispenser.OptionalDispenseItemBehavior
+- XXX.core.dispenser.package-info
++ XXX.core.dispenser.ProjectileDispenseBehavior
+- XXX.core.dispenser.ShearsDispenseItemBehavior
++ XXX.core.dispenser.ShulkerBoxDispenseBehavior
+- XXX.core.particles.BlockParticleOption
++ XXX.core.particles.ColorParticleOption
+- XXX.core.particles.DustColorTransitionOptions
++ XXX.core.particles.DustParticleOptions
+- XXX.core.particles.ExplosionParticleInfo
++ XXX.core.particles.ItemParticleOption
++ XXX.core.particles.package-info
+- XXX.core.particles.ParticleLimit
++ XXX.core.particles.ParticleOptions
+- XXX.core.particles.ParticleType
++ XXX.core.particles.ParticleTypes
+- XXX.core.particles.ParticleTypes$1
++ XXX.core.particles.PowerParticleOption
+- XXX.core.particles.ScalableParticleOptionsBase
++ XXX.core.particles.SculkChargeParticleOptions
+- XXX.core.particles.ShriekParticleOption
++ XXX.core.particles.SimpleParticleType
+- XXX.core.particles.SpellParticleOption
++ XXX.core.particles.TrailParticleOption
+- XXX.core.particles.VibrationParticleOption
+- XXX.core.registries.BuiltInRegistries
++ XXX.core.registries.BuiltInRegistries$RegistryBootstrap
++ XXX.core.registries.package-info
+- XXX.core.registries.Registries
++ XXX.crafting.display.DisplayContentsFactory
+- XXX.crafting.display.DisplayContentsFactory$ForRemainders
++ XXX.crafting.display.DisplayContentsFactory$ForStacks
+- XXX.crafting.display.FurnaceRecipeDisplay
++ XXX.crafting.display.package-info
++ XXX.crafting.display.RecipeDisplay
+- XXX.crafting.display.RecipeDisplay$Type
++ XXX.crafting.display.RecipeDisplayEntry
+- XXX.crafting.display.RecipeDisplayId
++ XXX.crafting.display.RecipeDisplays
+- XXX.crafting.display.ShapedCraftingRecipeDisplay
++ XXX.crafting.display.ShapelessCraftingRecipeDisplay
+- XXX.crafting.display.SlotDisplay
++ XXX.crafting.display.SlotDisplay$AnyFuel
+- XXX.crafting.display.SlotDisplay$Composite
++ XXX.crafting.display.SlotDisplay$Empty
+- XXX.crafting.display.SlotDisplay$ItemSlotDisplay
++ XXX.crafting.display.SlotDisplay$ItemStackContentsFactory
+- XXX.crafting.display.SlotDisplay$ItemStackSlotDisplay
++ XXX.crafting.display.SlotDisplay$SmithingTrimDemoSlotDisplay
+- XXX.crafting.display.SlotDisplay$TagSlotDisplay
++ XXX.crafting.display.SlotDisplay$Type
+- XXX.crafting.display.SlotDisplay$WithRemainder
++ XXX.crafting.display.SlotDisplayContext
+- XXX.crafting.display.SlotDisplays
++ XXX.crafting.display.SmithingRecipeDisplay
+- XXX.crafting.display.StonecutterRecipeDisplay
++ XXX.data.advancements.AdvancementProvider
+- XXX.data.advancements.AdvancementSubProvider
++ XXX.data.advancements.package-info
++ XXX.data.info.BiomeParametersDumpReport
+- XXX.data.info.BlockListReport
++ XXX.data.info.CommandsReport
+- XXX.data.info.DatapackStructureReport
++ XXX.data.info.DatapackStructureReport$CustomPackEntry
+- XXX.data.info.DatapackStructureReport$Entry
++ XXX.data.info.DatapackStructureReport$Format
+- XXX.data.info.DatapackStructureReport$Report
++ XXX.data.info.ItemListReport
+- XXX.data.info.package-info
+- XXX.data.info.PacketReport
++ XXX.data.info.RegistryDumpReport
++ XXX.data.loot.BlockLootSubProvider
+- XXX.data.loot.EntityLootSubProvider
++ XXX.data.loot.LootTableProvider
+- XXX.data.loot.LootTableProvider$MissingTableProblem
++ XXX.data.loot.LootTableProvider$SubProviderEntry
+- XXX.data.loot.LootTableSubProvider
++ XXX.data.loot.package-info
++ XXX.data.metadata.package-info
+- XXX.data.metadata.PackMetadataGenerator
+- XXX.data.models.BlockModelGenerators
++ XXX.data.models.BlockModelGenerators$1
+- XXX.data.models.BlockModelGenerators$BlockFamilyProvider
++ XXX.data.models.BlockModelGenerators$BlockStateGeneratorSupplier
+- XXX.data.models.BlockModelGenerators$BookSlotModelCacheKey
++ XXX.data.models.BlockModelGenerators$PlantType
+- XXX.data.models.BlockModelGenerators$WoodProvider
++ XXX.data.models.EquipmentAssetProvider
+- XXX.data.models.ItemModelGenerators
++ XXX.data.models.ItemModelGenerators$TrimMaterialData
+- XXX.data.models.ItemModelOutput
++ XXX.data.models.ModelProvider
+- XXX.data.models.ModelProvider$BlockStateGeneratorCollector
++ XXX.data.models.ModelProvider$ItemInfoCollector
+- XXX.data.models.ModelProvider$SimpleModelCollector
++ XXX.data.models.MultiVariant
++ XXX.data.models.package-info
+- XXX.data.models.WaypointStyleProvider
++ XXX.data.recipes.package-info
++ XXX.data.recipes.RecipeBuilder
+- XXX.data.recipes.RecipeBuilder$1
++ XXX.data.recipes.RecipeCategory
+- XXX.data.recipes.RecipeOutput
++ XXX.data.recipes.RecipeProvider
+- XXX.data.recipes.RecipeProvider$FamilyRecipeProvider
++ XXX.data.recipes.RecipeProvider$Runner
+- XXX.data.recipes.RecipeProvider$Runner$1
++ XXX.data.recipes.ShapedRecipeBuilder
+- XXX.data.recipes.ShapelessRecipeBuilder
++ XXX.data.recipes.SimpleCookingRecipeBuilder
+- XXX.data.recipes.SingleItemRecipeBuilder
++ XXX.data.recipes.SmithingTransformRecipeBuilder
+- XXX.data.recipes.SmithingTrimRecipeBuilder
++ XXX.data.recipes.SpecialRecipeBuilder
+- XXX.data.recipes.TransmuteRecipeBuilder
+- XXX.data.registries.package-info
+- XXX.data.registries.RegistriesDatapackGenerator
++ XXX.data.registries.RegistryPatchGenerator
+- XXX.data.registries.TradeRebalanceRegistries
++ XXX.data.registries.VanillaRegistries
++ XXX.data.structures.NbtToSnbt
+- XXX.data.structures.package-info
+- XXX.data.structures.SnbtDatafixer
++ XXX.data.structures.SnbtToNbt
+- XXX.data.structures.SnbtToNbt$Filter
++ XXX.data.structures.SnbtToNbt$StructureConversionException
+- XXX.data.structures.SnbtToNbt$TaskResult
++ XXX.data.structures.StructureUpdater
++ XXX.data.tags.BannerPatternTagsProvider
+- XXX.data.tags.BiomeTagsProvider
++ XXX.data.tags.BlockItemTagsProvider
+- XXX.data.tags.DamageTypeTagsProvider
++ XXX.data.tags.DialogTagsProvider
+- XXX.data.tags.EnchantmentTagsProvider
++ XXX.data.tags.EntityTypeTagsProvider
+- XXX.data.tags.FlatLevelGeneratorPresetTagsProvider
++ XXX.data.tags.FluidTagsProvider
+- XXX.data.tags.GameEventTagsProvider
++ XXX.data.tags.InstrumentTagsProvider
+- XXX.data.tags.IntrinsicHolderTagsProvider
++ XXX.data.tags.KeyTagProvider
+- XXX.data.tags.package-info
+- XXX.data.tags.PaintingVariantTagsProvider
++ XXX.data.tags.PoiTypeTagsProvider
+- XXX.data.tags.StructureTagsProvider
++ XXX.data.tags.TagAppender
+- XXX.data.tags.TagAppender$1
++ XXX.data.tags.TagAppender$2
+- XXX.data.tags.TagsProvider
++ XXX.data.tags.TagsProvider$1CombinedData
+- XXX.data.tags.TagsProvider$TagLookup
++ XXX.data.tags.TimelineTagsProvider
+- XXX.data.tags.TradeRebalanceEnchantmentTagsProvider
++ XXX.data.tags.VanillaBlockTagsProvider
+- XXX.data.tags.VanillaBlockTagsProvider$1
++ XXX.data.tags.VanillaEnchantmentTagsProvider
+- XXX.data.tags.VanillaItemTagsProvider
++ XXX.data.tags.VanillaItemTagsProvider$1
+- XXX.data.tags.VanillaItemTagsProvider$BlockToItemConverter
++ XXX.data.tags.WorldPresetTagsProvider
++ XXX.data.worldgen.AncientCityStructurePieces
+- XXX.data.worldgen.AncientCityStructurePools
++ XXX.data.worldgen.BastionBridgePools
+- XXX.data.worldgen.BastionHoglinStablePools
++ XXX.data.worldgen.BastionHousingUnitsPools
+- XXX.data.worldgen.BastionPieces
++ XXX.data.worldgen.BastionSharedPools
+- XXX.data.worldgen.BastionTreasureRoomPools
++ XXX.data.worldgen.BiomeDefaultFeatures
+- XXX.data.worldgen.BootstrapContext
++ XXX.data.worldgen.Carvers
+- XXX.data.worldgen.DesertVillagePools
++ XXX.data.worldgen.DimensionTypes
+- XXX.data.worldgen.NoiseData
++ XXX.data.worldgen.package-info
++ XXX.data.worldgen.PillagerOutpostPools
+- XXX.data.worldgen.PlainVillagePools
++ XXX.data.worldgen.Pools
+- XXX.data.worldgen.ProcessorLists
++ XXX.data.worldgen.SavannaVillagePools
+- XXX.data.worldgen.SnowyVillagePools
+- XXX.data.worldgen.Structures
++ XXX.data.worldgen.StructureSets
++ XXX.data.worldgen.SurfaceRuleData
+- XXX.data.worldgen.TaigaVillagePools
++ XXX.data.worldgen.TerrainProvider
+- XXX.data.worldgen.TrailRuinsStructurePools
++ XXX.data.worldgen.TrialChambersStructurePools
+- XXX.data.worldgen.VillagePools
++ XXX.datafix.fixes.AbstractArrowPickupFix
+- XXX.datafix.fixes.AbstractBlockPropertyFix
++ XXX.datafix.fixes.AbstractPoiSectionFix
+- XXX.datafix.fixes.AbstractUUIDFix
++ XXX.datafix.fixes.AddFieldFix
+- XXX.datafix.fixes.AddFlagIfNotPresentFix
++ XXX.datafix.fixes.AddNewChoices
+- XXX.datafix.fixes.AdvancementsFix
++ XXX.datafix.fixes.AdvancementsRenameFix
+- XXX.datafix.fixes.AreaEffectCloudDurationScaleFix
++ XXX.datafix.fixes.AreaEffectCloudPotionFix
+- XXX.datafix.fixes.AttributeIdPrefixFix
++ XXX.datafix.fixes.AttributeModifierIdFix
+- XXX.datafix.fixes.AttributesRenameFix
++ XXX.datafix.fixes.AttributesRenameLegacy
+- XXX.datafix.fixes.BannerEntityCustomNameToOverrideComponentFix
++ XXX.datafix.fixes.BannerPatternFormatFix
+- XXX.datafix.fixes.BedItemColorFix
++ XXX.datafix.fixes.BeehiveFieldRenameFix
+- XXX.datafix.fixes.BiomeFix
++ XXX.datafix.fixes.BitStorageAlignFix
+- XXX.datafix.fixes.BlendingDataFix
++ XXX.datafix.fixes.BlendingDataRemoveFromNetherEndFix
+- XXX.datafix.fixes.BlockEntityBannerColorFix
++ XXX.datafix.fixes.BlockEntityBlockStateFix
+- XXX.datafix.fixes.BlockEntityCustomNameToComponentFix
++ XXX.datafix.fixes.BlockEntityFurnaceBurnTimeFix
+- XXX.datafix.fixes.BlockEntityIdFix
++ XXX.datafix.fixes.BlockEntityJukeboxFix
+- XXX.datafix.fixes.BlockEntityKeepPacked
++ XXX.datafix.fixes.BlockEntityRenameFix
+- XXX.datafix.fixes.BlockEntityShulkerBoxColorFix
++ XXX.datafix.fixes.BlockEntitySignDoubleSidedEditableTextFix
+- XXX.datafix.fixes.BlockEntityUUIDFix
++ XXX.datafix.fixes.BlockNameFlatteningFix
+- XXX.datafix.fixes.BlockPosFormatAndRenamesFix
++ XXX.datafix.fixes.BlockPropertyRenameAndFix
+- XXX.datafix.fixes.BlockRenameFix
++ XXX.datafix.fixes.BlockRenameFix$1
+- XXX.datafix.fixes.BlockStateData
++ XXX.datafix.fixes.BlockStateStructureTemplateFix
+- XXX.datafix.fixes.BoatSplitFix
++ XXX.datafix.fixes.CarvingStepRemoveFix
+- XXX.datafix.fixes.CatTypeFix
++ XXX.datafix.fixes.CauldronRenameFix
+- XXX.datafix.fixes.CavesAndCliffsRenames
++ XXX.datafix.fixes.ChestedHorsesInventoryZeroIndexingFix
+- XXX.datafix.fixes.ChunkBedBlockEntityInjecterFix
++ XXX.datafix.fixes.ChunkBiomeFix
+- XXX.datafix.fixes.ChunkDeleteIgnoredLightDataFix
++ XXX.datafix.fixes.ChunkDeleteLightFix
+- XXX.datafix.fixes.ChunkHeightAndBiomeFix
++ XXX.datafix.fixes.ChunkLightRemoveFix
+- XXX.datafix.fixes.ChunkPalettedStorageFix
++ XXX.datafix.fixes.ChunkPalettedStorageFix$DataLayer
+- XXX.datafix.fixes.ChunkPalettedStorageFix$Direction
++ XXX.datafix.fixes.ChunkPalettedStorageFix$Direction$Axis
+- XXX.datafix.fixes.ChunkPalettedStorageFix$Direction$AxisDirection
++ XXX.datafix.fixes.ChunkPalettedStorageFix$MappingConstants
+- XXX.datafix.fixes.ChunkPalettedStorageFix$Section
++ XXX.datafix.fixes.ChunkPalettedStorageFix$UpgradeChunk
+- XXX.datafix.fixes.ChunkProtoTickListFix
++ XXX.datafix.fixes.ChunkProtoTickListFix$PoorMansPalettedContainer
+- XXX.datafix.fixes.ChunkRenamesFix
++ XXX.datafix.fixes.ChunkStatusFix
+- XXX.datafix.fixes.ChunkStatusFix2
++ XXX.datafix.fixes.ChunkStructuresTemplateRenameFix
+- XXX.datafix.fixes.ChunkTicketUnpackPosFix
++ XXX.datafix.fixes.ChunkToProtochunkFix
+- XXX.datafix.fixes.ColorlessShulkerEntityFix
++ XXX.datafix.fixes.ContainerBlockEntityLockPredicateFix
+- XXX.datafix.fixes.CopperGolemWeatherStateFix
++ XXX.datafix.fixes.CriteriaRenameFix
+- XXX.datafix.fixes.CustomModelDataExpandFix
++ XXX.datafix.fixes.DataComponentRemainderFix
+- XXX.datafix.fixes.DebugProfileOverlayReferenceFix
++ XXX.datafix.fixes.DecoratedPotFieldRenameFix
+- XXX.datafix.fixes.DropChancesFormatFix
++ XXX.datafix.fixes.DropInvalidSignDataFix
+- XXX.datafix.fixes.DyeItemRenameFix
++ XXX.datafix.fixes.EffectDurationFix
+- XXX.datafix.fixes.EmptyItemInHotbarFix
++ XXX.datafix.fixes.EmptyItemInVillagerTradeFix
+- XXX.datafix.fixes.EntityArmorStandSilentFix
++ XXX.datafix.fixes.EntityAttributeBaseValueFix
+- XXX.datafix.fixes.EntityBlockStateFix
++ XXX.datafix.fixes.EntityBrushableBlockFieldsRenameFix
+- XXX.datafix.fixes.EntityCatSplitFix
++ XXX.datafix.fixes.EntityCodSalmonFix
+- XXX.datafix.fixes.EntityCustomNameToComponentFix
++ XXX.datafix.fixes.EntityElderGuardianSplitFix
+- XXX.datafix.fixes.EntityEquipmentToArmorAndHandFix
++ XXX.datafix.fixes.EntityFallDistanceFloatToDoubleFix
+- XXX.datafix.fixes.EntityFieldsRenameFix
++ XXX.datafix.fixes.EntityGoatMissingStateFix
+- XXX.datafix.fixes.EntityHealthFix
++ XXX.datafix.fixes.EntityHorseSaddleFix
+- XXX.datafix.fixes.EntityHorseSplitFix
++ XXX.datafix.fixes.EntityIdFix
+- XXX.datafix.fixes.EntityItemFrameDirectionFix
++ XXX.datafix.fixes.EntityMinecartIdentifiersFix
+- XXX.datafix.fixes.EntityPaintingItemFrameDirectionFix
++ XXX.datafix.fixes.EntityPaintingMotiveFix
+- XXX.datafix.fixes.EntityProjectileOwnerFix
++ XXX.datafix.fixes.EntityPufferfishRenameFix
+- XXX.datafix.fixes.EntityRavagerRenameFix
++ XXX.datafix.fixes.EntityRedundantChanceTagsFix
+- XXX.datafix.fixes.EntityRenameFix
++ XXX.datafix.fixes.EntityRidingToPassengersFix
+- XXX.datafix.fixes.EntitySalmonSizeFix
++ XXX.datafix.fixes.EntityShulkerColorFix
+- XXX.datafix.fixes.EntityShulkerRotationFix
++ XXX.datafix.fixes.EntitySkeletonSplitFix
+- XXX.datafix.fixes.EntitySpawnerItemVariantComponentFix
++ XXX.datafix.fixes.EntitySpawnerItemVariantComponentFix$Fixer
+- XXX.datafix.fixes.EntityStringUuidFix
++ XXX.datafix.fixes.EntityTheRenameningFix
+- XXX.datafix.fixes.EntityTippedArrowFix
++ XXX.datafix.fixes.EntityUUIDFix
+- XXX.datafix.fixes.EntityVariantFix
++ XXX.datafix.fixes.EntityWolfColorFix
+- XXX.datafix.fixes.EntityZombieSplitFix
++ XXX.datafix.fixes.EntityZombieVillagerTypeFix
+- XXX.datafix.fixes.EntityZombifiedPiglinRenameFix
++ XXX.datafix.fixes.EquipmentFormatFix
+- XXX.datafix.fixes.EquippableAssetRenameFix
++ XXX.datafix.fixes.FeatureFlagRemoveFix
+- XXX.datafix.fixes.FilteredBooksFix
++ XXX.datafix.fixes.FilteredSignsFix
+- XXX.datafix.fixes.FireResistantToDamageResistantComponentFix
++ XXX.datafix.fixes.FixProjectileStoredItem
+- XXX.datafix.fixes.FixProjectileStoredItem$SubFixer
++ XXX.datafix.fixes.FixWolfHealth
+- XXX.datafix.fixes.FoodToConsumableFix
+- XXX.datafix.fixes.ForcedChunkToTicketFix
++ XXX.datafix.fixes.ForcePoiRebuild
++ XXX.datafix.fixes.FurnaceRecipeFix
+- XXX.datafix.fixes.GameRuleRegistryFix
++ XXX.datafix.fixes.GoatHornIdFix
+- XXX.datafix.fixes.GossipUUIDFix
++ XXX.datafix.fixes.HeightmapRenamingFix
+- XXX.datafix.fixes.HorseBodyArmorItemFix
++ XXX.datafix.fixes.IglooMetadataRemovalFix
+- XXX.datafix.fixes.InlineBlockPosFormatFix
++ XXX.datafix.fixes.InvalidBlockEntityLockFix
+- XXX.datafix.fixes.InvalidLockComponentFix
++ XXX.datafix.fixes.ItemBannerColorFix
+- XXX.datafix.fixes.ItemCustomNameToComponentFix
++ XXX.datafix.fixes.ItemIdFix
+- XXX.datafix.fixes.ItemLoreFix
++ XXX.datafix.fixes.ItemPotionFix
+- XXX.datafix.fixes.ItemRenameFix
++ XXX.datafix.fixes.ItemRenameFix$1
+- XXX.datafix.fixes.ItemShulkerBoxColorFix
++ XXX.datafix.fixes.ItemSpawnEggFix
+- XXX.datafix.fixes.ItemStackComponentizationFix
++ XXX.datafix.fixes.ItemStackComponentizationFix$ItemStackData
+- XXX.datafix.fixes.ItemStackCustomNameToOverrideComponentFix
++ XXX.datafix.fixes.ItemStackEnchantmentNamesFix
+- XXX.datafix.fixes.ItemStackMapIdFix
++ XXX.datafix.fixes.ItemStackSpawnEggFix
+- XXX.datafix.fixes.ItemStackTagFix
++ XXX.datafix.fixes.ItemStackTagRemainderFix
+- XXX.datafix.fixes.ItemStackTheFlatteningFix
++ XXX.datafix.fixes.ItemStackUUIDFix
+- XXX.datafix.fixes.ItemWaterPotionFix
++ XXX.datafix.fixes.JigsawPropertiesFix
+- XXX.datafix.fixes.JigsawRotationFix
++ XXX.datafix.fixes.JukeboxTicksSinceSongStartedFix
+- XXX.datafix.fixes.LeavesFix
++ XXX.datafix.fixes.LeavesFix$LeavesSection
+- XXX.datafix.fixes.LeavesFix$Section
++ XXX.datafix.fixes.LegacyDimensionIdFix
+- XXX.datafix.fixes.LegacyDragonFightFix
++ XXX.datafix.fixes.LegacyHoverEventFix
+- XXX.datafix.fixes.LegacyWorldBorderFix
++ XXX.datafix.fixes.LevelDataGeneratorOptionsFix
+- XXX.datafix.fixes.LevelFlatGeneratorInfoFix
++ XXX.datafix.fixes.LevelLegacyWorldGenSettingsFix
+- XXX.datafix.fixes.LevelUUIDFix
++ XXX.datafix.fixes.LockComponentPredicateFix
+- XXX.datafix.fixes.LodestoneCompassComponentFix
++ XXX.datafix.fixes.MapBannerBlockPosFormatFix
+- XXX.datafix.fixes.MapIdFix
++ XXX.datafix.fixes.MemoryExpiryDataFix
+- XXX.datafix.fixes.MissingDimensionFix
++ XXX.datafix.fixes.MobEffectIdFix
+- XXX.datafix.fixes.MobSpawnerEntityIdentifiersFix
++ XXX.datafix.fixes.NamedEntityConvertUncheckedFix
+- XXX.datafix.fixes.NamedEntityFix
++ XXX.datafix.fixes.NamedEntityWriteReadFix
+- XXX.datafix.fixes.NamespacedTypeRenameFix
++ XXX.datafix.fixes.NewVillageFix
+- XXX.datafix.fixes.ObjectiveRenderTypeFix
++ XXX.datafix.fixes.OminousBannerBlockEntityRenameFix
+- XXX.datafix.fixes.OminousBannerRarityFix
++ XXX.datafix.fixes.OminousBannerRenameFix
+- XXX.datafix.fixes.OptionsAccessibilityOnboardFix
++ XXX.datafix.fixes.OptionsAddTextBackgroundFix
+- XXX.datafix.fixes.OptionsAmbientOcclusionFix
++ XXX.datafix.fixes.OptionsFancyGraphicsToGraphicsModeFix
+- XXX.datafix.fixes.OptionsForceVBOFix
++ XXX.datafix.fixes.OptionsGraphicsModeSplitFix
+- XXX.datafix.fixes.OptionsKeyLwjgl3Fix
++ XXX.datafix.fixes.OptionsKeyTranslationFix
+- XXX.datafix.fixes.OptionsLowerCaseLanguageFix
++ XXX.datafix.fixes.OptionsMenuBlurrinessFix
+- XXX.datafix.fixes.OptionsMusicToastFix
++ XXX.datafix.fixes.OptionsProgrammerArtFix
+- XXX.datafix.fixes.OptionsRenameFieldFix
++ XXX.datafix.fixes.OptionsSetGraphicsPresetToCustomFix
+- XXX.datafix.fixes.OverreachingTickFix
+- XXX.datafix.fixes.package-info
++ XXX.datafix.fixes.ParticleUnflatteningFix
+- XXX.datafix.fixes.PlayerEquipmentFix
++ XXX.datafix.fixes.PlayerHeadBlockProfileFix
+- XXX.datafix.fixes.PlayerRespawnDataFix
++ XXX.datafix.fixes.PlayerUUIDFix
+- XXX.datafix.fixes.PoiTypeRemoveFix
++ XXX.datafix.fixes.PoiTypeRenameFix
+- XXX.datafix.fixes.PrimedTntBlockStateFixer
++ XXX.datafix.fixes.ProjectileStoredWeaponFix
+- XXX.datafix.fixes.RaidRenamesDataFix
++ XXX.datafix.fixes.RandomSequenceSettingsFix
+- XXX.datafix.fixes.RecipesFix
++ XXX.datafix.fixes.RecipesRenameningFix
+- XXX.datafix.fixes.RedstoneWireConnectionsFix
++ XXX.datafix.fixes.References
+- XXX.datafix.fixes.References$1
++ XXX.datafix.fixes.RemapChunkStatusFix
+- XXX.datafix.fixes.RemoveBlockEntityTagFix
++ XXX.datafix.fixes.RemoveEmptyItemInBrushableBlockFix
+- XXX.datafix.fixes.RemoveGolemGossipFix
+- XXX.datafix.fixes.RenamedCoralFansFix
++ XXX.datafix.fixes.RenamedCoralFix
++ XXX.datafix.fixes.RenameEnchantmentsFix
+- XXX.datafix.fixes.ReorganizePoi
++ XXX.datafix.fixes.SaddleEquipmentSlotFix
+- XXX.datafix.fixes.SavedDataFeaturePoolElementFix
++ XXX.datafix.fixes.SavedDataUUIDFix
+- XXX.datafix.fixes.ScoreboardDisplayNameFix
++ XXX.datafix.fixes.ScoreboardDisplaySlotFix
+- XXX.datafix.fixes.SignTextStrictJsonFix
++ XXX.datafix.fixes.SimpleEntityRenameFix
+- XXX.datafix.fixes.SimplestEntityRenameFix
++ XXX.datafix.fixes.SpawnerDataFix
+- XXX.datafix.fixes.StatsCounterFix
++ XXX.datafix.fixes.StatsCounterFix$StatType
+- XXX.datafix.fixes.StatsRenameFix
++ XXX.datafix.fixes.StriderGravityFix
+- XXX.datafix.fixes.StructureReferenceCountFix
+- XXX.datafix.fixes.StructuresBecomeConfiguredFix
++ XXX.datafix.fixes.StructuresBecomeConfiguredFix$Conversion
++ XXX.datafix.fixes.StructureSettingsFlattenFix
+- XXX.datafix.fixes.TextComponentHoverAndClickEventFix
++ XXX.datafix.fixes.TextComponentStringifiedFlagsFix
+- XXX.datafix.fixes.ThrownPotionSplitFix
++ XXX.datafix.fixes.ThrownPotionSplitFix$ItemIdFinder
+- XXX.datafix.fixes.TippedArrowPotionToItemFix
++ XXX.datafix.fixes.TooltipDisplayComponentFix
+- XXX.datafix.fixes.TrappedChestBlockEntityFix
++ XXX.datafix.fixes.TrappedChestBlockEntityFix$TrappedChestSection
+- XXX.datafix.fixes.TrialSpawnerConfigFix
++ XXX.datafix.fixes.TrialSpawnerConfigInRegistryFix
+- XXX.datafix.fixes.TrialSpawnerConfigInRegistryFix$VanillaTrialChambers
++ XXX.datafix.fixes.TridentAnimationFix
+- XXX.datafix.fixes.UnflattenTextComponentFix
++ XXX.datafix.fixes.VariantRenameFix
+- XXX.datafix.fixes.VillagerDataFix
++ XXX.datafix.fixes.VillagerFollowRangeFix
+- XXX.datafix.fixes.VillagerRebuildLevelAndXpFix
++ XXX.datafix.fixes.VillagerSetCanPickUpLootFix
+- XXX.datafix.fixes.VillagerTradeFix
++ XXX.datafix.fixes.WallPropertyFix
+- XXX.datafix.fixes.WeaponSmithChestLootTableFix
++ XXX.datafix.fixes.WorldBorderWarningTimeFix
+- XXX.datafix.fixes.WorldGenSettingsDisallowOldCustomWorldsFix
++ XXX.datafix.fixes.WorldGenSettingsFix
+- XXX.datafix.fixes.WorldGenSettingsFix$StructureFeatureConfiguration
++ XXX.datafix.fixes.WorldGenSettingsHeightAndBiomeFix
+- XXX.datafix.fixes.WorldSpawnDataFix
++ XXX.datafix.fixes.WriteAndReadFix
+- XXX.datafix.fixes.WrittenBookPagesStrictJsonFix
++ XXX.datafix.fixes.ZombieVillagerRebuildXpFix
+- XXX.datafix.schemas.NamespacedSchema
++ XXX.datafix.schemas.NamespacedSchema$1
++ XXX.datafix.schemas.package-info
+- XXX.datafix.schemas.V100
++ XXX.datafix.schemas.V102
+- XXX.datafix.schemas.V1022
++ XXX.datafix.schemas.V106
+- XXX.datafix.schemas.V107
++ XXX.datafix.schemas.V1125
+- XXX.datafix.schemas.V135
++ XXX.datafix.schemas.V143
+- XXX.datafix.schemas.V1451
++ XXX.datafix.schemas.V1451_1
+- XXX.datafix.schemas.V1451_2
++ XXX.datafix.schemas.V1451_3
+- XXX.datafix.schemas.V1451_4
++ XXX.datafix.schemas.V1451_5
+- XXX.datafix.schemas.V1451_6
++ XXX.datafix.schemas.V1451_6$1
+- XXX.datafix.schemas.V1451_6$2
++ XXX.datafix.schemas.V1458
+- XXX.datafix.schemas.V1460
++ XXX.datafix.schemas.V1466
+- XXX.datafix.schemas.V1470
++ XXX.datafix.schemas.V1481
+- XXX.datafix.schemas.V1483
++ XXX.datafix.schemas.V1486
+- XXX.datafix.schemas.V1488
++ XXX.datafix.schemas.V1510
+- XXX.datafix.schemas.V1800
++ XXX.datafix.schemas.V1801
+- XXX.datafix.schemas.V1904
++ XXX.datafix.schemas.V1906
+- XXX.datafix.schemas.V1909
++ XXX.datafix.schemas.V1920
+- XXX.datafix.schemas.V1928
++ XXX.datafix.schemas.V1929
+- XXX.datafix.schemas.V1931
++ XXX.datafix.schemas.V2100
+- XXX.datafix.schemas.V2501
++ XXX.datafix.schemas.V2502
+- XXX.datafix.schemas.V2505
++ XXX.datafix.schemas.V2509
+- XXX.datafix.schemas.V2511_1
++ XXX.datafix.schemas.V2519
+- XXX.datafix.schemas.V2522
++ XXX.datafix.schemas.V2551
+- XXX.datafix.schemas.V2568
++ XXX.datafix.schemas.V2571
+- XXX.datafix.schemas.V2684
++ XXX.datafix.schemas.V2686
+- XXX.datafix.schemas.V2688
++ XXX.datafix.schemas.V2704
+- XXX.datafix.schemas.V2707
++ XXX.datafix.schemas.V2831
+- XXX.datafix.schemas.V2832
++ XXX.datafix.schemas.V2842
+- XXX.datafix.schemas.V3076
++ XXX.datafix.schemas.V3078
+- XXX.datafix.schemas.V3081
++ XXX.datafix.schemas.V3082
+- XXX.datafix.schemas.V3083
++ XXX.datafix.schemas.V3202
+- XXX.datafix.schemas.V3203
++ XXX.datafix.schemas.V3204
+- XXX.datafix.schemas.V3325
++ XXX.datafix.schemas.V3326
+- XXX.datafix.schemas.V3327
++ XXX.datafix.schemas.V3328
+- XXX.datafix.schemas.V3438
++ XXX.datafix.schemas.V3439
+- XXX.datafix.schemas.V3439_1
++ XXX.datafix.schemas.V3448
+- XXX.datafix.schemas.V3682
++ XXX.datafix.schemas.V3683
+- XXX.datafix.schemas.V3685
++ XXX.datafix.schemas.V3689
+- XXX.datafix.schemas.V3799
++ XXX.datafix.schemas.V3807
+- XXX.datafix.schemas.V3808
++ XXX.datafix.schemas.V3808_1
+- XXX.datafix.schemas.V3808_2
++ XXX.datafix.schemas.V3813
+- XXX.datafix.schemas.V3816
++ XXX.datafix.schemas.V3818
+- XXX.datafix.schemas.V3818_3
++ XXX.datafix.schemas.V3818_4
+- XXX.datafix.schemas.V3818_5
++ XXX.datafix.schemas.V3825
+- XXX.datafix.schemas.V3938
++ XXX.datafix.schemas.V4059
+- XXX.datafix.schemas.V4067
++ XXX.datafix.schemas.V4070
+- XXX.datafix.schemas.V4071
++ XXX.datafix.schemas.V4290
+- XXX.datafix.schemas.V4292
++ XXX.datafix.schemas.V4300
+- XXX.datafix.schemas.V4301
++ XXX.datafix.schemas.V4302
+- XXX.datafix.schemas.V4306
++ XXX.datafix.schemas.V4307
+- XXX.datafix.schemas.V4312
++ XXX.datafix.schemas.V4420
+- XXX.datafix.schemas.V4421
++ XXX.datafix.schemas.V4531
+- XXX.datafix.schemas.V4532
++ XXX.datafix.schemas.V4533
+- XXX.datafix.schemas.V4543
++ XXX.datafix.schemas.V4648
+- XXX.datafix.schemas.V4656
++ XXX.datafix.schemas.V501
+- XXX.datafix.schemas.V700
++ XXX.datafix.schemas.V701
+- XXX.datafix.schemas.V702
++ XXX.datafix.schemas.V703
+- XXX.datafix.schemas.V704
++ XXX.datafix.schemas.V704$1
+- XXX.datafix.schemas.V705
++ XXX.datafix.schemas.V705$1
+- XXX.datafix.schemas.V808
++ XXX.datafix.schemas.V99
+- XXX.datafix.schemas.V99$1
+- XXX.decoration.painting.package-info
+- XXX.decoration.painting.PaintingVariant
++ XXX.dialog.action.Action
+- XXX.dialog.action.Action$ValueGetter
++ XXX.dialog.action.Action$ValueGetter$1
+- XXX.dialog.action.Action$ValueGetter$2
++ XXX.dialog.action.ActionTypes
+- XXX.dialog.action.CommandTemplate
++ XXX.dialog.action.CustomAll
+- XXX.dialog.action.package-info
+- XXX.dialog.action.ParsedTemplate
++ XXX.dialog.action.StaticAction
++ XXX.dialog.body.DialogBody
++ XXX.dialog.body.DialogBodyHandler
+- XXX.dialog.body.DialogBodyHandlers
++ XXX.dialog.body.DialogBodyHandlers$ItemHandler
+- XXX.dialog.body.DialogBodyHandlers$PlainMessageHandler
+- XXX.dialog.body.DialogBodyTypes
++ XXX.dialog.body.ItemBody
++ XXX.dialog.body.package-info
++ XXX.dialog.body.package-info
+- XXX.dialog.body.PlainMessage
+- XXX.dialog.input.BooleanInput
++ XXX.dialog.input.InputControl
+- XXX.dialog.input.InputControlHandler
++ XXX.dialog.input.InputControlHandler$Output
+- XXX.dialog.input.InputControlHandlers
++ XXX.dialog.input.InputControlHandlers$BooleanHandler
+- XXX.dialog.input.InputControlHandlers$BooleanHandler$1
++ XXX.dialog.input.InputControlHandlers$NumberRangeHandler
+- XXX.dialog.input.InputControlHandlers$NumberRangeHandler$1
++ XXX.dialog.input.InputControlHandlers$NumberRangeHandler$SliderImpl
+- XXX.dialog.input.InputControlHandlers$SingleOptionHandler
++ XXX.dialog.input.InputControlHandlers$TextInputHandler
+- XXX.dialog.input.InputControlHandlers$TextInputHandler$1
+- XXX.dialog.input.InputControlTypes
++ XXX.dialog.input.NumberRangeInput
+- XXX.dialog.input.NumberRangeInput$RangeInfo
++ XXX.dialog.input.package-info
++ XXX.dialog.input.package-info
++ XXX.dialog.input.SingleOptionInput
+- XXX.dialog.input.SingleOptionInput$Entry
++ XXX.dialog.input.TextInput
+- XXX.dialog.input.TextInput$MultilineOptions
+- XXX.dimension.end.DragonRespawnAnimation
++ XXX.dimension.end.DragonRespawnAnimation$1
+- XXX.dimension.end.DragonRespawnAnimation$2
++ XXX.dimension.end.DragonRespawnAnimation$3
+- XXX.dimension.end.DragonRespawnAnimation$4
++ XXX.dimension.end.DragonRespawnAnimation$5
+- XXX.dimension.end.EndDragonFight
++ XXX.dimension.end.EndDragonFight$Data
+- XXX.dimension.end.package-info
+- XXX.enchantment.effects.AddValue
++ XXX.enchantment.effects.AllOf
+- XXX.enchantment.effects.AllOf$EntityEffects
++ XXX.enchantment.effects.AllOf$LocationBasedEffects
+- XXX.enchantment.effects.AllOf$ValueEffects
++ XXX.enchantment.effects.ApplyEntityImpulse
+- XXX.enchantment.effects.ApplyExhaustion
++ XXX.enchantment.effects.ApplyMobEffect
+- XXX.enchantment.effects.ChangeItemDamage
++ XXX.enchantment.effects.DamageEntity
+- XXX.enchantment.effects.DamageImmunity
++ XXX.enchantment.effects.EnchantmentAttributeEffect
+- XXX.enchantment.effects.EnchantmentEntityEffect
++ XXX.enchantment.effects.EnchantmentLocationBasedEffect
+- XXX.enchantment.effects.EnchantmentValueEffect
++ XXX.enchantment.effects.ExplodeEffect
+- XXX.enchantment.effects.Ignite
++ XXX.enchantment.effects.MultiplyValue
+- XXX.enchantment.effects.package-info
+- XXX.enchantment.effects.PlaySoundEffect
++ XXX.enchantment.effects.RemoveBinomial
+- XXX.enchantment.effects.ReplaceBlock
++ XXX.enchantment.effects.ReplaceDisk
+- XXX.enchantment.effects.RunFunction
++ XXX.enchantment.effects.ScaleExponentially
+- XXX.enchantment.effects.SetBlockProperties
++ XXX.enchantment.effects.SetValue
+- XXX.enchantment.effects.SpawnParticlesEffect
++ XXX.enchantment.effects.SpawnParticlesEffect$PositionSource
+- XXX.enchantment.effects.SpawnParticlesEffect$PositionSourceType
++ XXX.enchantment.effects.SpawnParticlesEffect$PositionSourceType$CoordinateSource
+- XXX.enchantment.effects.SpawnParticlesEffect$VelocitySource
++ XXX.enchantment.effects.SummonEntityEffect
+- XXX.enchantment.providers.EnchantmentProvider
++ XXX.enchantment.providers.EnchantmentProviderTypes
+- XXX.enchantment.providers.EnchantmentsByCost
++ XXX.enchantment.providers.EnchantmentsByCostWithDifficulty
++ XXX.enchantment.providers.package-info
+- XXX.enchantment.providers.SingleEnchantment
++ XXX.enchantment.providers.TradeRebalanceEnchantmentProviders
+- XXX.enchantment.providers.VanillaEnchantmentProviders
++ XXX.enderdragon.phases.AbstractDragonPhaseInstance
+- XXX.enderdragon.phases.AbstractDragonSittingPhase
++ XXX.enderdragon.phases.DragonChargePlayerPhase
+- XXX.enderdragon.phases.DragonDeathPhase
++ XXX.enderdragon.phases.DragonHoldingPatternPhase
+- XXX.enderdragon.phases.DragonHoverPhase
++ XXX.enderdragon.phases.DragonLandingApproachPhase
+- XXX.enderdragon.phases.DragonLandingPhase
++ XXX.enderdragon.phases.DragonPhaseInstance
+- XXX.enderdragon.phases.DragonSittingAttackingPhase
++ XXX.enderdragon.phases.DragonSittingFlamingPhase
+- XXX.enderdragon.phases.DragonSittingScanningPhase
++ XXX.enderdragon.phases.DragonStrafePlayerPhase
+- XXX.enderdragon.phases.DragonTakeoffPhase
++ XXX.enderdragon.phases.EnderDragonPhase
+- XXX.enderdragon.phases.EnderDragonPhaseManager
++ XXX.enderdragon.phases.package-info
++ XXX.entity.ai.package-info
++ XXX.entity.ambient.AmbientCreature
+- XXX.entity.ambient.Bat
++ XXX.entity.ambient.package-info
++ XXX.entity.animal.AbstractFish
++ XXX.entity.animal.AbstractFish$FishSwimGoal
++ XXX.entity.animal.AbstractSchoolingFish
++ XXX.entity.animal.Bee
++ XXX.entity.animal.Bee$BaseBeeGoal
++ XXX.entity.animal.Bee$BeeBecomeAngryTargetGoal
++ XXX.entity.animal.Bee$BeeGoToHiveGoal
++ XXX.entity.animal.Bee$BeeGrowCropGoal
++ XXX.entity.animal.Bee$BeeLocateHiveGoal
++ XXX.entity.animal.Bee$BeePollinateGoal
++ XXX.entity.animal.Bee$ValidateFlowerGoal
++ XXX.entity.animal.Cat$CatAvoidEntityGoal
++ XXX.entity.animal.Cat$CatTemptGoal
++ XXX.entity.animal.CatVariants
++ XXX.entity.animal.ChickenVariant
++ XXX.entity.animal.ChickenVariants
++ XXX.entity.animal.Cow
++ XXX.entity.animal.CowVariant$ModelType
++ XXX.entity.animal.Dolphin
++ XXX.entity.animal.Dolphin$DolphinSwimWithPlayerGoal
++ XXX.entity.animal.FlyingAnimal
++ XXX.entity.animal.Fox$DefendTrustedTargetGoal
++ XXX.entity.animal.Fox$FoxAlertableEntitiesSelector
++ XXX.entity.animal.Fox$FoxBreedGoal
++ XXX.entity.animal.Fox$FoxFloatGoal
++ XXX.entity.animal.Fox$FoxGroupData
++ XXX.entity.animal.Fox$FoxLookControl
++ XXX.entity.animal.Fox$FoxMoveControl
++ XXX.entity.animal.Fox$FoxPounceGoal
++ XXX.entity.animal.Fox$FoxStrollThroughVillageGoal
++ XXX.entity.animal.Fox$SeekShelterGoal
++ XXX.entity.animal.Fox$StalkPreyGoal
++ XXX.entity.animal.HappyGhast
++ XXX.entity.animal.HappyGhast$HappyGhastBodyRotationControl
++ XXX.entity.animal.HappyGhast$HappyGhastLookControl
++ XXX.entity.animal.IronGolem
++ XXX.entity.animal.MushroomCow$Variant
++ XXX.entity.animal.Ocelot$OcelotAvoidEntityGoal
++ XXX.entity.animal.Panda
++ XXX.entity.animal.Panda$PandaAttackGoal
++ XXX.entity.animal.Panda$PandaBreedGoal
++ XXX.entity.animal.Panda$PandaLieOnBackGoal
++ XXX.entity.animal.Panda$PandaMoveControl
++ XXX.entity.animal.Panda$PandaRollGoal
++ XXX.entity.animal.Panda$PandaSneezeGoal
++ XXX.entity.animal.Parrot$1
++ XXX.entity.animal.Parrot$Variant
++ XXX.entity.animal.PigVariant
++ XXX.entity.animal.PigVariants
++ XXX.entity.animal.PolarBear$PolarBearAttackPlayersGoal
++ XXX.entity.animal.PolarBear$PolarBearMeleeAttackGoal
++ XXX.entity.animal.Pufferfish$PufferfishPuffGoal
++ XXX.entity.animal.Rabbit$RabbitAvoidEntityGoal
++ XXX.entity.animal.Rabbit$RabbitJumpControl
++ XXX.entity.animal.Rabbit$RabbitPanicGoal
++ XXX.entity.animal.Rabbit$Variant
++ XXX.entity.animal.Salmon$Variant
++ XXX.entity.animal.SnowGolem
++ XXX.entity.animal.Squid$SquidFleeGoal
++ XXX.entity.animal.TropicalFish$Base
++ XXX.entity.animal.TropicalFish$TropicalFishGroupData
++ XXX.entity.animal.Turtle
++ XXX.entity.animal.Turtle$TurtleGoHomeGoal
++ XXX.entity.animal.Turtle$TurtleLayEggGoal
++ XXX.entity.animal.Turtle$TurtlePanicGoal
++ XXX.entity.animal.Turtle$TurtleRandomStrollGoal
++ XXX.entity.animal.WaterAnimal
++ XXX.entity.animal.ZombieNautilusVariant$ModelType
++ XXX.entity.boss.EnderDragonPart
+- XXX.entity.decoration.package-info
++ XXX.entity.decoration.Painting
++ XXX.entity.decoration.PaintingVariants
++ XXX.entity.item.FallingBlockEntity
+- XXX.entity.item.ItemEntity
++ XXX.entity.item.package-info
++ XXX.entity.item.PrimedTnt
+- XXX.entity.item.PrimedTnt$1
+- XXX.entity.layers.ArrowLayer
++ XXX.entity.layers.BeeStingerLayer
+- XXX.entity.layers.BlockDecorationLayer
++ XXX.entity.layers.BreezeEyesLayer
+- XXX.entity.layers.BreezeWindLayer
++ XXX.entity.layers.CapeLayer
+- XXX.entity.layers.CarriedBlockLayer
++ XXX.entity.layers.CatCollarLayer
+- XXX.entity.layers.CreeperPowerLayer
++ XXX.entity.layers.CrossedArmsItemLayer
+- XXX.entity.layers.CustomHeadLayer
++ XXX.entity.layers.CustomHeadLayer$Transforms
+- XXX.entity.layers.Deadmau5EarsLayer
++ XXX.entity.layers.DolphinCarryingItemLayer
+- XXX.entity.layers.DrownedOuterLayer
++ XXX.entity.layers.EnderEyesLayer
+- XXX.entity.layers.EnergySwirlLayer
++ XXX.entity.layers.EquipmentLayerRenderer
+- XXX.entity.layers.EquipmentLayerRenderer$LayerTextureKey
++ XXX.entity.layers.EquipmentLayerRenderer$TrimSpriteKey
+- XXX.entity.layers.EyesLayer
++ XXX.entity.layers.FoxHeldItemLayer
+- XXX.entity.layers.HorseMarkingLayer
++ XXX.entity.layers.HumanoidArmorLayer
+- XXX.entity.layers.IronGolemCrackinessLayer
++ XXX.entity.layers.IronGolemFlowerLayer
+- XXX.entity.layers.ItemInHandLayer
++ XXX.entity.layers.LivingEntityEmissiveLayer
+- XXX.entity.layers.LivingEntityEmissiveLayer$AlphaFunction
++ XXX.entity.layers.LlamaDecorLayer
+- XXX.entity.layers.MushroomCowMushroomLayer
++ XXX.entity.layers.package-info
++ XXX.entity.layers.PandaHoldsItemLayer
+- XXX.entity.layers.ParrotOnShoulderLayer
++ XXX.entity.layers.PhantomEyesLayer
+- XXX.entity.layers.PlayerItemInHandLayer
++ XXX.entity.layers.RenderLayer
+- XXX.entity.layers.RopesLayer
++ XXX.entity.layers.SheepWoolLayer
+- XXX.entity.layers.SheepWoolUndercoatLayer
++ XXX.entity.layers.SimpleEquipmentLayer
+- XXX.entity.layers.SkeletonClothingLayer
++ XXX.entity.layers.SlimeOuterLayer
+- XXX.entity.layers.SnowGolemHeadLayer
++ XXX.entity.layers.SpiderEyesLayer
+- XXX.entity.layers.SpinAttackEffectLayer
++ XXX.entity.layers.StuckInBodyLayer
+- XXX.entity.layers.StuckInBodyLayer$PlacementStyle
++ XXX.entity.layers.TropicalFishPatternLayer
+- XXX.entity.layers.TropicalFishPatternLayer$1
++ XXX.entity.layers.VillagerProfessionLayer
+- XXX.entity.layers.WingsLayer
++ XXX.entity.layers.WitchItemLayer
+- XXX.entity.layers.WitherArmorLayer
++ XXX.entity.layers.WolfArmorLayer
+- XXX.entity.layers.WolfCollarLayer
++ XXX.entity.monster.AbstractIllager$IllagerArmPose
++ XXX.entity.monster.AbstractSkeleton
++ XXX.entity.monster.Bogged
++ XXX.entity.monster.Drowned
++ XXX.entity.monster.Drowned$DrownedGoToBeachGoal
++ XXX.entity.monster.Drowned$DrownedMoveControl
++ XXX.entity.monster.Drowned$DrownedTridentAttackGoal
+- XXX.entity.monster.ElderGuardian
++ XXX.entity.monster.EnderMan
+- XXX.entity.monster.EnderMan$EndermanFreezeWhenLookedAt
++ XXX.entity.monster.EnderMan$EndermanLeaveBlockGoal
+- XXX.entity.monster.EnderMan$EndermanLookForPlayerGoal
++ XXX.entity.monster.EnderMan$EndermanTakeBlockGoal
+- XXX.entity.monster.Endermite
++ XXX.entity.monster.Enemy
++ XXX.entity.monster.Evoker$EvokerAttackSpellGoal
++ XXX.entity.monster.Evoker$EvokerSummonSpellGoal
++ XXX.entity.monster.Husk
++ XXX.entity.monster.Illusioner
++ XXX.entity.monster.Illusioner$IllusionerMirrorSpellGoal
+- XXX.entity.monster.MagmaCube
++ XXX.entity.monster.Monster
++ XXX.entity.monster.Pillager
+- XXX.entity.monster.RangedAttackMob
++ XXX.entity.monster.Ravager
+- XXX.entity.monster.Shulker
++ XXX.entity.monster.Shulker$ShulkerAttackGoal
+- XXX.entity.monster.Shulker$ShulkerBodyRotationControl
++ XXX.entity.monster.Shulker$ShulkerDefenseAttackGoal
+- XXX.entity.monster.Shulker$ShulkerLookControl
++ XXX.entity.monster.Shulker$ShulkerNearestAttackGoal
+- XXX.entity.monster.Shulker$ShulkerPeekGoal
++ XXX.entity.monster.Silverfish
+- XXX.entity.monster.Silverfish$SilverfishMergeWithStoneGoal
++ XXX.entity.monster.Silverfish$SilverfishWakeUpFriendsGoal
++ XXX.entity.monster.SpellcasterIllager
++ XXX.entity.monster.SpellcasterIllager$SpellcasterCastingSpellGoal
++ XXX.entity.monster.Spider
++ XXX.entity.monster.Spider$SpiderEffectsGroupData
++ XXX.entity.monster.Stray
+- XXX.entity.monster.Strider
++ XXX.entity.monster.Strider$StriderGoToLavaGoal
+- XXX.entity.monster.Strider$StriderPathNavigation
++ XXX.entity.monster.Vex
+- XXX.entity.monster.Vex$VexChargeAttackGoal
++ XXX.entity.monster.Vex$VexCopyOwnerTargetGoal
+- XXX.entity.monster.Vex$VexMoveControl
++ XXX.entity.monster.Vex$VexRandomMoveGoal
++ XXX.entity.monster.Vindicator$VindicatorBreakDoorGoal
++ XXX.entity.monster.Zoglin
++ XXX.entity.monster.Zombie$ZombieAttackTurtleEggGoal
++ XXX.entity.monster.ZombieVillager
++ XXX.entity.npc.AbstractVillager
++ XXX.entity.npc.VillagerData
++ XXX.entity.npc.VillagerProfession
++ XXX.entity.npc.VillagerTrades$DyedArmorForEmeralds
++ XXX.entity.npc.VillagerTrades$EmeraldsForVillagerTypeItem
++ XXX.entity.npc.VillagerTrades$EnchantedItemForEmeralds
++ XXX.entity.npc.VillagerTrades$ItemListing
++ XXX.entity.npc.VillagerTrades$ItemsForEmeralds
++ XXX.entity.npc.VillagerTrades$TippedArrowForItemsAndEmeralds
++ XXX.entity.npc.VillagerTrades$TypeSpecificTrade
++ XXX.entity.npc.WanderingTrader
++ XXX.entity.npc.WanderingTraderSpawner
+- XXX.entity.player.Abilities
++ XXX.entity.player.Abilities$Packed
++ XXX.entity.player.AvatarRenderer
+- XXX.entity.player.ChatVisiblity
++ XXX.entity.player.Input
+- XXX.entity.player.Input$1
++ XXX.entity.player.Inventory
+- XXX.entity.player.package-info
+- XXX.entity.player.package-info
+- XXX.entity.player.Player
++ XXX.entity.player.Player$1
+- XXX.entity.player.Player$2
++ XXX.entity.player.Player$BedSleepingProblem
+- XXX.entity.player.PlayerEquipment
++ XXX.entity.player.PlayerModelPart
+- XXX.entity.player.PlayerModelType
++ XXX.entity.player.PlayerSkin
+- XXX.entity.player.PlayerSkin$Patch
++ XXX.entity.player.ProfileKeyPair
+- XXX.entity.player.ProfilePublicKey
++ XXX.entity.player.ProfilePublicKey$Data
+- XXX.entity.player.ProfilePublicKey$ValidationException
++ XXX.entity.player.StackedContents
+- XXX.entity.player.StackedContents$IngredientInfo
++ XXX.entity.player.StackedContents$Output
+- XXX.entity.player.StackedContents$RecipePicker
++ XXX.entity.player.StackedItemContents
++ XXX.entity.projectile.AbstractArrow
++ XXX.entity.projectile.AbstractHurtingProjectile
++ XXX.entity.projectile.Arrow
++ XXX.entity.projectile.EvokerFangs
+- XXX.entity.projectile.EyeOfEnder
++ XXX.entity.projectile.Fireball
++ XXX.entity.projectile.LargeFireball
+- XXX.entity.projectile.LlamaSpit
+- XXX.entity.projectile.package-info
++ XXX.entity.projectile.Projectile
+- XXX.entity.projectile.Projectile$ProjectileFactory
++ XXX.entity.projectile.ProjectileDeflection
+- XXX.entity.projectile.ProjectileUtil
++ XXX.entity.projectile.ShulkerBullet
++ XXX.entity.projectile.Snowball
++ XXX.entity.projectile.ThrowableItemProjectile
+- XXX.entity.projectile.ThrowableProjectile
++ XXX.entity.projectile.ThrownEgg
++ XXX.entity.projectile.ThrownExperienceBottle
++ XXX.entity.projectile.ThrownSplashPotion
++ XXX.entity.projectile.WitherSkull
++ XXX.entity.state.AllayRenderState
+- XXX.entity.state.ArmadilloRenderState
++ XXX.entity.state.ArmedEntityRenderState
+- XXX.entity.state.ArmorStandRenderState
++ XXX.entity.state.ArrowRenderState
+- XXX.entity.state.AvatarRenderState
++ XXX.entity.state.AxolotlRenderState
+- XXX.entity.state.BatRenderState
++ XXX.entity.state.BeeRenderState
+- XXX.entity.state.BlockDisplayEntityRenderState
++ XXX.entity.state.BoatRenderState
+- XXX.entity.state.BoggedRenderState
++ XXX.entity.state.BreezeRenderState
+- XXX.entity.state.CamelRenderState
++ XXX.entity.state.CatRenderState
+- XXX.entity.state.ChickenRenderState
++ XXX.entity.state.CopperGolemRenderState
+- XXX.entity.state.CowRenderState
++ XXX.entity.state.CreakingRenderState
+- XXX.entity.state.CreeperRenderState
++ XXX.entity.state.DisplayEntityRenderState
+- XXX.entity.state.DolphinRenderState
++ XXX.entity.state.DonkeyRenderState
+- XXX.entity.state.EndCrystalRenderState
++ XXX.entity.state.EnderDragonRenderState
+- XXX.entity.state.EndermanRenderState
++ XXX.entity.state.EntityRenderState
+- XXX.entity.state.EntityRenderState$LeashState
++ XXX.entity.state.EntityRenderState$ShadowPiece
+- XXX.entity.state.EquineRenderState
++ XXX.entity.state.EvokerFangsRenderState
+- XXX.entity.state.EvokerRenderState
++ XXX.entity.state.ExperienceOrbRenderState
+- XXX.entity.state.FallingBlockRenderState
++ XXX.entity.state.FelineRenderState
+- XXX.entity.state.FireworkRocketRenderState
++ XXX.entity.state.FishingHookRenderState
+- XXX.entity.state.FoxRenderState
++ XXX.entity.state.FrogRenderState
+- XXX.entity.state.GhastRenderState
++ XXX.entity.state.GoatRenderState
+- XXX.entity.state.GuardianRenderState
++ XXX.entity.state.HappyGhastRenderState
+- XXX.entity.state.HitboxRenderState
++ XXX.entity.state.HoglinRenderState
+- XXX.entity.state.HoldingEntityRenderState
++ XXX.entity.state.HorseRenderState
+- XXX.entity.state.HumanoidRenderState
++ XXX.entity.state.IllagerRenderState
+- XXX.entity.state.IllusionerRenderState
++ XXX.entity.state.IronGolemRenderState
+- XXX.entity.state.ItemClusterRenderState
++ XXX.entity.state.ItemDisplayEntityRenderState
+- XXX.entity.state.ItemEntityRenderState
++ XXX.entity.state.ItemFrameRenderState
+- XXX.entity.state.LightningBoltRenderState
++ XXX.entity.state.LivingEntityRenderState
+- XXX.entity.state.LlamaRenderState
++ XXX.entity.state.LlamaSpitRenderState
+- XXX.entity.state.MinecartRenderState
++ XXX.entity.state.MinecartTntRenderState
+- XXX.entity.state.MushroomCowRenderState
++ XXX.entity.state.NautilusRenderState
++ XXX.entity.state.package-info
+- XXX.entity.state.PaintingRenderState
++ XXX.entity.state.PandaRenderState
+- XXX.entity.state.ParrotRenderState
++ XXX.entity.state.PhantomRenderState
++ XXX.entity.state.PiglinRenderState
+- XXX.entity.state.PigRenderState
+- XXX.entity.state.PolarBearRenderState
++ XXX.entity.state.PufferfishRenderState
+- XXX.entity.state.RabbitRenderState
++ XXX.entity.state.RavagerRenderState
+- XXX.entity.state.SalmonRenderState
++ XXX.entity.state.SheepRenderState
+- XXX.entity.state.ShulkerBulletRenderState
++ XXX.entity.state.ShulkerRenderState
+- XXX.entity.state.SkeletonRenderState
++ XXX.entity.state.SlimeRenderState
+- XXX.entity.state.SnifferRenderState
++ XXX.entity.state.SnowGolemRenderState
+- XXX.entity.state.SquidRenderState
++ XXX.entity.state.StriderRenderState
+- XXX.entity.state.TextDisplayEntityRenderState
++ XXX.entity.state.ThrownItemRenderState
+- XXX.entity.state.ThrownTridentRenderState
++ XXX.entity.state.TippableArrowRenderState
+- XXX.entity.state.TntRenderState
++ XXX.entity.state.TropicalFishRenderState
+- XXX.entity.state.TurtleRenderState
++ XXX.entity.state.UndeadRenderState
+- XXX.entity.state.VexRenderState
++ XXX.entity.state.VillagerDataHolderRenderState
+- XXX.entity.state.VillagerRenderState
++ XXX.entity.state.WardenRenderState
+- XXX.entity.state.WitchRenderState
++ XXX.entity.state.WitherRenderState
+- XXX.entity.state.WitherSkullRenderState
++ XXX.entity.state.WolfRenderState
+- XXX.entity.state.ZombieRenderState
++ XXX.entity.state.ZombieVillagerRenderState
+- XXX.entity.state.ZombifiedPiglinRenderState
++ XXX.entity.trialspawner.package-info
++ XXX.entity.trialspawner.PlayerDetector
+- XXX.entity.trialspawner.PlayerDetector$EntitySelector
++ XXX.entity.trialspawner.PlayerDetector$EntitySelector$1
+- XXX.entity.trialspawner.PlayerDetector$EntitySelector$2
++ XXX.entity.trialspawner.TrialSpawner
+- XXX.entity.trialspawner.TrialSpawner$FlameParticle
++ XXX.entity.trialspawner.TrialSpawner$FullConfig
+- XXX.entity.trialspawner.TrialSpawner$StateAccessor
++ XXX.entity.trialspawner.TrialSpawnerConfig
+- XXX.entity.trialspawner.TrialSpawnerConfig$Builder
++ XXX.entity.trialspawner.TrialSpawnerConfigs
+- XXX.entity.trialspawner.TrialSpawnerConfigs$Keys
++ XXX.entity.trialspawner.TrialSpawnerState
+- XXX.entity.trialspawner.TrialSpawnerState$LightLevel
++ XXX.entity.trialspawner.TrialSpawnerState$ParticleEmission
+- XXX.entity.trialspawner.TrialSpawnerState$SpinningMob
++ XXX.entity.trialspawner.TrialSpawnerStateData
+- XXX.entity.trialspawner.TrialSpawnerStateData$Packed
++ XXX.entity.vault.package-info
+- XXX.entity.vault.VaultBlockEntity
++ XXX.entity.vault.VaultBlockEntity$Client
+- XXX.entity.vault.VaultBlockEntity$Server
++ XXX.entity.vault.VaultClientData
+- XXX.entity.vault.VaultConfig
++ XXX.entity.vault.VaultServerData
+- XXX.entity.vault.VaultSharedData
++ XXX.entity.vault.VaultState
+- XXX.entity.vault.VaultState$1
++ XXX.entity.vault.VaultState$2
+- XXX.entity.vault.VaultState$3
++ XXX.entity.vault.VaultState$4
+- XXX.entity.vault.VaultState$LightLevel
++ XXX.entity.vehicle.AbstractBoat
++ XXX.entity.vehicle.AbstractChestBoat
++ XXX.entity.vehicle.AbstractMinecartContainer
++ XXX.entity.vehicle.ChestBoat
++ XXX.entity.vehicle.MinecartBehavior
++ XXX.entity.vehicle.MinecartCommandBlock
++ XXX.entity.vehicle.MinecartFurnace
++ XXX.entity.vehicle.MinecartSpawner
++ XXX.entity.vehicle.MinecartTNT
++ XXX.entity.vehicle.NewMinecartBehavior$1
++ XXX.entity.vehicle.NewMinecartBehavior$StepPartialTicks
++ XXX.entity.vehicle.OldMinecartBehavior
++ XXX.entity.vehicle.Raft
++ XXX.equipment.trim.ArmorTrim
+- XXX.equipment.trim.MaterialAssetGroup
++ XXX.equipment.trim.MaterialAssetGroup$AssetInfo
+- XXX.equipment.trim.package-info
+- XXX.equipment.trim.TrimMaterial
++ XXX.equipment.trim.TrimMaterials
+- XXX.equipment.trim.TrimPattern
++ XXX.equipment.trim.TrimPatterns
+- XXX.execution.tasks.BuildContexts
++ XXX.execution.tasks.BuildContexts$Continuation
+- XXX.execution.tasks.BuildContexts$TopLevel
++ XXX.execution.tasks.BuildContexts$Unbound
+- XXX.execution.tasks.CallFunction
++ XXX.execution.tasks.ContinuationTask
+- XXX.execution.tasks.ContinuationTask$TaskProvider
++ XXX.execution.tasks.ExecuteCommand
+- XXX.execution.tasks.FallthroughTask
++ XXX.execution.tasks.IsolatedCall
+- XXX.execution.tasks.package-info
++ XXX.feature.configurations.BlockColumnConfiguration
+- XXX.feature.configurations.BlockColumnConfiguration$Layer
++ XXX.feature.configurations.BlockPileConfiguration
+- XXX.feature.configurations.BlockStateConfiguration
++ XXX.feature.configurations.ColumnFeatureConfiguration
+- XXX.feature.configurations.CountConfiguration
++ XXX.feature.configurations.DeltaFeatureConfiguration
+- XXX.feature.configurations.DiskConfiguration
++ XXX.feature.configurations.DripstoneClusterConfiguration
+- XXX.feature.configurations.EndGatewayConfiguration
++ XXX.feature.configurations.FallenTreeConfiguration
+- XXX.feature.configurations.FallenTreeConfiguration$FallenTreeConfigurationBuilder
++ XXX.feature.configurations.FeatureConfiguration
+- XXX.feature.configurations.GeodeConfiguration
++ XXX.feature.configurations.HugeMushroomFeatureConfiguration
+- XXX.feature.configurations.LargeDripstoneConfiguration
++ XXX.feature.configurations.LayerConfiguration
+- XXX.feature.configurations.MultifaceGrowthConfiguration
++ XXX.feature.configurations.NetherForestVegetationConfig
+- XXX.feature.configurations.NoneFeatureConfiguration
++ XXX.feature.configurations.OreConfiguration
+- XXX.feature.configurations.OreConfiguration$TargetBlockState
++ XXX.feature.configurations.package-info
++ XXX.feature.configurations.PointedDripstoneConfiguration
+- XXX.feature.configurations.ProbabilityFeatureConfiguration
++ XXX.feature.configurations.RandomBooleanFeatureConfiguration
+- XXX.feature.configurations.RandomFeatureConfiguration
++ XXX.feature.configurations.RandomPatchConfiguration
+- XXX.feature.configurations.ReplaceBlockConfiguration
++ XXX.feature.configurations.ReplaceSphereConfiguration
+- XXX.feature.configurations.RootSystemConfiguration
++ XXX.feature.configurations.SculkPatchConfiguration
+- XXX.feature.configurations.SimpleBlockConfiguration
++ XXX.feature.configurations.SimpleRandomFeatureConfiguration
+- XXX.feature.configurations.SpikeConfiguration
++ XXX.feature.configurations.SpringConfiguration
+- XXX.feature.configurations.TreeConfiguration
++ XXX.feature.configurations.TreeConfiguration$TreeConfigurationBuilder
+- XXX.feature.configurations.TwistingVinesConfig
++ XXX.feature.configurations.UnderwaterMagmaConfiguration
+- XXX.feature.configurations.VegetationPatchConfiguration
+- XXX.feature.featuresize.FeatureSize
++ XXX.feature.featuresize.FeatureSizeType
+- XXX.feature.featuresize.package-info
+- XXX.feature.featuresize.ThreeLayersFeatureSize
++ XXX.feature.featuresize.TwoLayersFeatureSize
++ XXX.feature.foliageplacers.AcaciaFoliagePlacer
+- XXX.feature.foliageplacers.BlobFoliagePlacer
++ XXX.feature.foliageplacers.BushFoliagePlacer
+- XXX.feature.foliageplacers.CherryFoliagePlacer
++ XXX.feature.foliageplacers.DarkOakFoliagePlacer
+- XXX.feature.foliageplacers.FancyFoliagePlacer
++ XXX.feature.foliageplacers.FoliagePlacer
+- XXX.feature.foliageplacers.FoliagePlacer$FoliageAttachment
++ XXX.feature.foliageplacers.FoliagePlacer$FoliageSetter
+- XXX.feature.foliageplacers.FoliagePlacerType
++ XXX.feature.foliageplacers.MegaJungleFoliagePlacer
+- XXX.feature.foliageplacers.MegaPineFoliagePlacer
+- XXX.feature.foliageplacers.package-info
++ XXX.feature.foliageplacers.PineFoliagePlacer
+- XXX.feature.foliageplacers.RandomSpreadFoliagePlacer
++ XXX.feature.foliageplacers.SpruceFoliagePlacer
+- XXX.feature.rootplacers.AboveRootPlacement
++ XXX.feature.rootplacers.MangroveRootPlacement
+- XXX.feature.rootplacers.MangroveRootPlacer
++ XXX.feature.rootplacers.package-info
++ XXX.feature.rootplacers.RootPlacer
+- XXX.feature.rootplacers.RootPlacerType
+- XXX.feature.stateproviders.BlockStateProvider
++ XXX.feature.stateproviders.BlockStateProviderType
+- XXX.feature.stateproviders.DualNoiseProvider
++ XXX.feature.stateproviders.NoiseBasedStateProvider
+- XXX.feature.stateproviders.NoiseProvider
++ XXX.feature.stateproviders.NoiseThresholdProvider
+- XXX.feature.stateproviders.package-info
+- XXX.feature.stateproviders.RandomizedIntStateProvider
++ XXX.feature.stateproviders.RotatedBlockProvider
+- XXX.feature.stateproviders.RuleBasedBlockStateProvider
++ XXX.feature.stateproviders.RuleBasedBlockStateProvider$Rule
+- XXX.feature.stateproviders.SimpleStateProvider
++ XXX.feature.stateproviders.WeightedStateProvider
++ XXX.feature.treedecorators.AlterGroundDecorator
+- XXX.feature.treedecorators.AttachedToLeavesDecorator
++ XXX.feature.treedecorators.AttachedToLogsDecorator
+- XXX.feature.treedecorators.BeehiveDecorator
++ XXX.feature.treedecorators.CocoaDecorator
+- XXX.feature.treedecorators.CreakingHeartDecorator
++ XXX.feature.treedecorators.LeaveVineDecorator
+- XXX.feature.treedecorators.package-info
+- XXX.feature.treedecorators.PaleMossDecorator
++ XXX.feature.treedecorators.PlaceOnGroundDecorator
+- XXX.feature.treedecorators.TreeDecorator
++ XXX.feature.treedecorators.TreeDecorator$Context
+- XXX.feature.treedecorators.TreeDecoratorType
++ XXX.feature.treedecorators.TrunkVineDecorator
++ XXX.feature.trunkplacers.BendingTrunkPlacer
+- XXX.feature.trunkplacers.CherryTrunkPlacer
++ XXX.feature.trunkplacers.DarkOakTrunkPlacer
+- XXX.feature.trunkplacers.FancyTrunkPlacer
++ XXX.feature.trunkplacers.FancyTrunkPlacer$FoliageCoords
+- XXX.feature.trunkplacers.ForkingTrunkPlacer
++ XXX.feature.trunkplacers.GiantTrunkPlacer
+- XXX.feature.trunkplacers.MegaJungleTrunkPlacer
++ XXX.feature.trunkplacers.package-info
++ XXX.feature.trunkplacers.StraightTrunkPlacer
+- XXX.feature.trunkplacers.TrunkPlacer
++ XXX.feature.trunkplacers.TrunkPlacerType
+- XXX.feature.trunkplacers.UpwardsBranchingTrunkPlacer
+- XXX.fog.environment.AtmosphericFogEnvironment
++ XXX.fog.environment.BlindnessFogEnvironment
+- XXX.fog.environment.DarknessFogEnvironment
++ XXX.fog.environment.FogEnvironment
+- XXX.fog.environment.LavaFogEnvironment
++ XXX.fog.environment.MobEffectFogEnvironment
+- XXX.fog.environment.package-info
+- XXX.fog.environment.PowderedSnowFogEnvironment
++ XXX.fog.environment.WaterFogEnvironment
+- XXX.font.glyphs.BakedGlyph
++ XXX.font.glyphs.BakedSheetGlyph
+- XXX.font.glyphs.BakedSheetGlyph$EffectInstance
++ XXX.font.glyphs.BakedSheetGlyph$GlyphInstance
+- XXX.font.glyphs.EffectGlyph
++ XXX.font.glyphs.EmptyGlyph
+- XXX.font.glyphs.EmptyGlyph$1
+- XXX.font.glyphs.package-info
++ XXX.font.glyphs.SpecialGlyphs
+- XXX.font.glyphs.SpecialGlyphs$1
++ XXX.font.glyphs.SpecialGlyphs$PixelProvider
+- XXX.font.providers.BitmapProvider
++ XXX.font.providers.BitmapProvider$Definition
+- XXX.font.providers.BitmapProvider$Glyph
++ XXX.font.providers.BitmapProvider$Glyph$1
+- XXX.font.providers.FreeTypeUtil
++ XXX.font.providers.GlyphProviderDefinition
+- XXX.font.providers.GlyphProviderDefinition$Conditional
++ XXX.font.providers.GlyphProviderDefinition$Loader
+- XXX.font.providers.GlyphProviderDefinition$Reference
++ XXX.font.providers.GlyphProviderType
++ XXX.font.providers.package-info
+- XXX.font.providers.ProviderReferenceDefinition
++ XXX.font.providers.TrueTypeGlyphProviderDefinition
+- XXX.font.providers.TrueTypeGlyphProviderDefinition$Shift
++ XXX.font.providers.UnihexProvider
+- XXX.font.providers.UnihexProvider$ByteContents
++ XXX.font.providers.UnihexProvider$Definition
+- XXX.font.providers.UnihexProvider$Dimensions
++ XXX.font.providers.UnihexProvider$Glyph
+- XXX.font.providers.UnihexProvider$Glyph$1
++ XXX.font.providers.UnihexProvider$Glyph$2
+- XXX.font.providers.UnihexProvider$IntContents
++ XXX.font.providers.UnihexProvider$LineData
+- XXX.font.providers.UnihexProvider$OverrideRange
++ XXX.font.providers.UnihexProvider$ReaderOutput
+- XXX.font.providers.UnihexProvider$ShortContents
+- XXX.gameevent.vibrations.package-info
++ XXX.gameevent.vibrations.VibrationInfo
+- XXX.gameevent.vibrations.VibrationSelector
++ XXX.gameevent.vibrations.VibrationSystem
+- XXX.gameevent.vibrations.VibrationSystem$Data
++ XXX.gameevent.vibrations.VibrationSystem$Listener
+- XXX.gameevent.vibrations.VibrationSystem$Ticker
++ XXX.gameevent.vibrations.VibrationSystem$User
+- XXX.gametest.framework.BlockBasedTestInstance
++ XXX.gametest.framework.BuiltinTestFunctions
+- XXX.gametest.framework.ExhaustedAttemptsException
++ XXX.gametest.framework.FailedTestTracker
+- XXX.gametest.framework.FunctionGameTestInstance
++ XXX.gametest.framework.GameTestAssertException
+- XXX.gametest.framework.GameTestAssertPosException
++ XXX.gametest.framework.GameTestBatch
+- XXX.gametest.framework.GameTestBatchFactory
++ XXX.gametest.framework.GameTestBatchFactory$TestDecorator
+- XXX.gametest.framework.GameTestBatchListener
++ XXX.gametest.framework.GameTestEnvironments
+- XXX.gametest.framework.GameTestEvent
++ XXX.gametest.framework.GameTestException
+- XXX.gametest.framework.GameTestHelper
++ XXX.gametest.framework.GameTestHelper$1
+- XXX.gametest.framework.GameTestHelper$2
++ XXX.gametest.framework.GameTestHelper$3
+- XXX.gametest.framework.GameTestInfo
++ XXX.gametest.framework.GameTestInstance
+- XXX.gametest.framework.GameTestInstances
++ XXX.gametest.framework.GameTestListener
+- XXX.gametest.framework.GameTestMainUtil
++ XXX.gametest.framework.GameTestRunner
+- XXX.gametest.framework.GameTestRunner$1
++ XXX.gametest.framework.GameTestRunner$Builder
+- XXX.gametest.framework.GameTestRunner$GameTestBatcher
++ XXX.gametest.framework.GameTestRunner$StructureSpawner
+- XXX.gametest.framework.GameTestSequence
++ XXX.gametest.framework.GameTestSequence$Condition
+- XXX.gametest.framework.GameTestServer
++ XXX.gametest.framework.GameTestServer$1
+- XXX.gametest.framework.GameTestServer$MockProfileResolver
++ XXX.gametest.framework.GameTestServer$MockUserNameToIdResolver
+- XXX.gametest.framework.GameTestTicker
++ XXX.gametest.framework.GameTestTicker$State
+- XXX.gametest.framework.GameTestTimeoutException
++ XXX.gametest.framework.GeneratedTest
+- XXX.gametest.framework.GlobalTestReporter
++ XXX.gametest.framework.JUnitLikeTestReporter
+- XXX.gametest.framework.LogTestReporter
++ XXX.gametest.framework.MultipleTestTracker
+- XXX.gametest.framework.MultipleTestTracker$1
+- XXX.gametest.framework.package-info
++ XXX.gametest.framework.ReportGameListener
+- XXX.gametest.framework.RetryOptions
++ XXX.gametest.framework.StructureGridSpawner
+- XXX.gametest.framework.StructureUtils
++ XXX.gametest.framework.StructureUtils$1
+- XXX.gametest.framework.TestCommand
++ XXX.gametest.framework.TestCommand$TestBatchSummaryDisplayer
+- XXX.gametest.framework.TestCommand$TestSummaryDisplayer
++ XXX.gametest.framework.TestData
+- XXX.gametest.framework.TestEnvironmentDefinition
++ XXX.gametest.framework.TestEnvironmentDefinition$AllOf
+- XXX.gametest.framework.TestEnvironmentDefinition$Functions
++ XXX.gametest.framework.TestEnvironmentDefinition$SetGameRules
+- XXX.gametest.framework.TestEnvironmentDefinition$TimeOfDay
++ XXX.gametest.framework.TestEnvironmentDefinition$Weather
+- XXX.gametest.framework.TestEnvironmentDefinition$Weather$Type
++ XXX.gametest.framework.TestFinder
+- XXX.gametest.framework.TestFinder$Builder
++ XXX.gametest.framework.TestFunctionLoader
+- XXX.gametest.framework.TestInstanceFinder
++ XXX.gametest.framework.TestPosFinder
+- XXX.gametest.framework.TestReporter
++ XXX.gametest.framework.UnknownGameTestException
+- XXX.goal.target.DefendVillageTargetGoal
++ XXX.goal.target.HurtByTargetGoal
+- XXX.goal.target.NearestAttackableTargetGoal
++ XXX.goal.target.NearestAttackableWitchTargetGoal
+- XXX.goal.target.NearestHealableRaiderTargetGoal
++ XXX.goal.target.NonTameRandomTargetGoal
+- XXX.goal.target.OwnerHurtByTargetGoal
++ XXX.goal.target.OwnerHurtTargetGoal
+- XXX.goal.target.package-info
+- XXX.goal.target.ResetUniversalAngerTargetGoal
++ XXX.goal.target.TargetGoal
++ XXX.gui.components.AbstractButton
+- XXX.gui.components.AbstractContainerWidget
++ XXX.gui.components.AbstractOptionSliderButton
+- XXX.gui.components.AbstractScrollArea
++ XXX.gui.components.AbstractSelectionList
+- XXX.gui.components.AbstractSelectionList$1
++ XXX.gui.components.AbstractSelectionList$Entry
+- XXX.gui.components.AbstractSelectionList$TrackedList
++ XXX.gui.components.AbstractSliderButton
+- XXX.gui.components.AbstractStringWidget
++ XXX.gui.components.AbstractTextAreaWidget
+- XXX.gui.components.AbstractWidget
++ XXX.gui.components.AbstractWidget$WithInactiveMessage
+- XXX.gui.components.BossHealthOverlay
++ XXX.gui.components.BossHealthOverlay$1
+- XXX.gui.components.Button
++ XXX.gui.components.Button$Builder
+- XXX.gui.components.Button$CreateNarration
++ XXX.gui.components.Button$OnPress
+- XXX.gui.components.Button$Plain
++ XXX.gui.components.ChatComponent
+- XXX.gui.components.ChatComponent$1
++ XXX.gui.components.ChatComponent$AlphaCalculator
+- XXX.gui.components.ChatComponent$ChatGraphicsAccess
++ XXX.gui.components.ChatComponent$ChatMethod
+- XXX.gui.components.ChatComponent$ChatMethod$1
++ XXX.gui.components.ChatComponent$ChatMethod$2
+- XXX.gui.components.ChatComponent$ClickableTextOnlyGraphicsAccess
++ XXX.gui.components.ChatComponent$DelayedMessageDeletion
+- XXX.gui.components.ChatComponent$Draft
++ XXX.gui.components.ChatComponent$DrawingBackgroundGraphicsAccess
+- XXX.gui.components.ChatComponent$DrawingFocusedGraphicsAccess
++ XXX.gui.components.ChatComponent$LineConsumer
+- XXX.gui.components.ChatComponent$State
++ XXX.gui.components.Checkbox
+- XXX.gui.components.Checkbox$Builder
++ XXX.gui.components.Checkbox$OnValueChange
+- XXX.gui.components.CommandSuggestions
++ XXX.gui.components.CommandSuggestions$SuggestionsList
+- XXX.gui.components.CommonButtons
++ XXX.gui.components.ComponentRenderUtils
+- XXX.gui.components.ContainerObjectSelectionList
++ XXX.gui.components.ContainerObjectSelectionList$1
+- XXX.gui.components.ContainerObjectSelectionList$Entry
++ XXX.gui.components.CycleButton
+- XXX.gui.components.CycleButton$Builder
++ XXX.gui.components.CycleButton$DisplayState
+- XXX.gui.components.CycleButton$OnValueChange
++ XXX.gui.components.CycleButton$SpriteSupplier
+- XXX.gui.components.CycleButton$ValueListSupplier
++ XXX.gui.components.CycleButton$ValueListSupplier$1
+- XXX.gui.components.CycleButton$ValueListSupplier$2
++ XXX.gui.components.DebugScreenOverlay
+- XXX.gui.components.DebugScreenOverlay$1
++ XXX.gui.components.EditBox
+- XXX.gui.components.EditBox$TextFormatter
++ XXX.gui.components.FittingMultiLineTextWidget
+- XXX.gui.components.FocusableTextWidget
++ XXX.gui.components.FocusableTextWidget$BackgroundFill
+- XXX.gui.components.FocusableTextWidget$Builder
++ XXX.gui.components.ImageButton
+- XXX.gui.components.ImageWidget
++ XXX.gui.components.ImageWidget$Sprite
+- XXX.gui.components.ImageWidget$Texture
++ XXX.gui.components.ItemDisplayWidget
+- XXX.gui.components.LerpingBossEvent
++ XXX.gui.components.LoadingDotsWidget
+- XXX.gui.components.LockIconButton
++ XXX.gui.components.LockIconButton$Icon
+- XXX.gui.components.LogoRenderer
++ XXX.gui.components.MultiLineEditBox
+- XXX.gui.components.MultiLineEditBox$Builder
++ XXX.gui.components.MultiLineLabel
+- XXX.gui.components.MultiLineLabel$1
++ XXX.gui.components.MultiLineLabel$2
+- XXX.gui.components.MultiLineLabel$TextAndWidth
++ XXX.gui.components.MultilineTextField
+- XXX.gui.components.MultilineTextField$1
++ XXX.gui.components.MultilineTextField$StringView
++ XXX.gui.components.MultiLineTextWidget
+- XXX.gui.components.MultiLineTextWidget$CacheKey
+- XXX.gui.components.ObjectSelectionList
++ XXX.gui.components.ObjectSelectionList$Entry
+- XXX.gui.components.OptionsList
++ XXX.gui.components.OptionsList$AbstractEntry
+- XXX.gui.components.OptionsList$Entry
++ XXX.gui.components.OptionsList$HeaderEntry
+- XXX.gui.components.OptionsList$OptionInstanceWidget
+- XXX.gui.components.package-info
++ XXX.gui.components.PlainTextButton
+- XXX.gui.components.PlayerFaceRenderer
++ XXX.gui.components.PlayerSkinWidget
+- XXX.gui.components.PlayerTabOverlay
++ XXX.gui.components.PlayerTabOverlay$HealthState
+- XXX.gui.components.PlayerTabOverlay$ScoreDisplayEntry
++ XXX.gui.components.PopupScreen
+- XXX.gui.components.PopupScreen$Builder
++ XXX.gui.components.PopupScreen$ButtonOption
+- XXX.gui.components.Renderable
++ XXX.gui.components.ResettableOptionWidget
+- XXX.gui.components.ScrollableLayout
++ XXX.gui.components.ScrollableLayout$Container
+- XXX.gui.components.SelectableEntry
++ XXX.gui.components.SplashRenderer
+- XXX.gui.components.SpriteIconButton
++ XXX.gui.components.SpriteIconButton$Builder
+- XXX.gui.components.SpriteIconButton$CenteredIcon
++ XXX.gui.components.SpriteIconButton$TextAndIcon
+- XXX.gui.components.StringWidget
++ XXX.gui.components.StringWidget$TextOverflow
+- XXX.gui.components.SubtitleOverlay
++ XXX.gui.components.SubtitleOverlay$SoundPlayedAt
+- XXX.gui.components.SubtitleOverlay$Subtitle
++ XXX.gui.components.TabButton
+- XXX.gui.components.TabOrderedElement
++ XXX.gui.components.Tooltip
+- XXX.gui.components.Whence
++ XXX.gui.components.WidgetSprites
+- XXX.gui.components.WidgetTooltipHolder
+- XXX.gui.contextualbar.ContextualBarRenderer
++ XXX.gui.contextualbar.ContextualBarRenderer$1
+- XXX.gui.contextualbar.ExperienceBarRenderer
++ XXX.gui.contextualbar.JumpableVehicleBarRenderer
+- XXX.gui.contextualbar.LocatorBarRenderer
++ XXX.gui.contextualbar.package-info
+- XXX.gui.font.ActiveArea
++ XXX.gui.font.AllMissingGlyphProvider
+- XXX.gui.font.AllMissingGlyphProvider$1
++ XXX.gui.font.AtlasGlyphProvider
+- XXX.gui.font.AtlasGlyphProvider$1
++ XXX.gui.font.AtlasGlyphProvider$Instance
+- XXX.gui.font.CodepointMap
++ XXX.gui.font.CodepointMap$Output
+- XXX.gui.font.EmptyArea
++ XXX.gui.font.FontManager
+- XXX.gui.font.FontManager$BuilderId
++ XXX.gui.font.FontManager$BuilderResult
+- XXX.gui.font.FontManager$CachedFontProvider
++ XXX.gui.font.FontManager$CachedFontProvider$CachedEntry
+- XXX.gui.font.FontManager$FontDefinitionFile
++ XXX.gui.font.FontManager$Preparation
+- XXX.gui.font.FontManager$UnresolvedBuilderBundle
++ XXX.gui.font.FontOption
+- XXX.gui.font.FontOption$Filter
++ XXX.gui.font.FontSet
+- XXX.gui.font.FontSet$1
++ XXX.gui.font.FontSet$2
+- XXX.gui.font.FontSet$DelayedBake
++ XXX.gui.font.FontSet$SelectedGlyphs
+- XXX.gui.font.FontSet$Source
++ XXX.gui.font.FontTexture
+- XXX.gui.font.FontTexture$Node
++ XXX.gui.font.GlyphRenderTypes
+- XXX.gui.font.GlyphRenderTypes$1
++ XXX.gui.font.GlyphStitcher
++ XXX.gui.font.package-info
+- XXX.gui.font.PlainTextRenderable
++ XXX.gui.font.PlayerGlyphProvider
+- XXX.gui.font.PlayerGlyphProvider$1
++ XXX.gui.font.PlayerGlyphProvider$1$1
+- XXX.gui.font.PlayerGlyphProvider$Instance
++ XXX.gui.font.SingleSpriteSource
+- XXX.gui.font.TextFieldHelper
++ XXX.gui.font.TextFieldHelper$CursorStep
+- XXX.gui.font.TextRenderable
++ XXX.gui.font.TextRenderable$Styled
+- XXX.gui.layouts.AbstractLayout
++ XXX.gui.layouts.AbstractLayout$AbstractChildWrapper
+- XXX.gui.layouts.CommonLayouts
++ XXX.gui.layouts.EqualSpacingLayout
+- XXX.gui.layouts.EqualSpacingLayout$ChildContainer
++ XXX.gui.layouts.EqualSpacingLayout$Orientation
+- XXX.gui.layouts.FrameLayout
++ XXX.gui.layouts.FrameLayout$ChildContainer
+- XXX.gui.layouts.GridLayout
++ XXX.gui.layouts.GridLayout$CellInhabitant
+- XXX.gui.layouts.GridLayout$RowHelper
++ XXX.gui.layouts.HeaderAndFooterLayout
+- XXX.gui.layouts.Layout
++ XXX.gui.layouts.LayoutElement
+- XXX.gui.layouts.LayoutSettings
++ XXX.gui.layouts.LayoutSettings$LayoutSettingsImpl
+- XXX.gui.layouts.LinearLayout
++ XXX.gui.layouts.LinearLayout$Orientation
++ XXX.gui.layouts.package-info
+- XXX.gui.layouts.SpacerElement
+- XXX.gui.narration.NarratableEntry
++ XXX.gui.narration.NarratableEntry$NarrationPriority
+- XXX.gui.narration.NarratedElementType
++ XXX.gui.narration.NarrationElementOutput
+- XXX.gui.narration.NarrationSupplier
++ XXX.gui.narration.NarrationThunk
++ XXX.gui.narration.package-info
+- XXX.gui.narration.ScreenNarrationCollector
++ XXX.gui.narration.ScreenNarrationCollector$1
+- XXX.gui.narration.ScreenNarrationCollector$EntryKey
++ XXX.gui.narration.ScreenNarrationCollector$NarrationEntry
+- XXX.gui.narration.ScreenNarrationCollector$Output
+- XXX.gui.navigation.FocusNavigationEvent
++ XXX.gui.navigation.FocusNavigationEvent$ArrowNavigation
+- XXX.gui.navigation.FocusNavigationEvent$InitialFocus
++ XXX.gui.navigation.FocusNavigationEvent$TabNavigation
+- XXX.gui.navigation.package-info
+- XXX.gui.navigation.ScreenAxis
++ XXX.gui.navigation.ScreenDirection
+- XXX.gui.navigation.ScreenPosition
++ XXX.gui.navigation.ScreenPosition$1
+- XXX.gui.navigation.ScreenRectangle
++ XXX.gui.navigation.ScreenRectangle$1
+- XXX.gui.render.GuiRenderer
++ XXX.gui.render.GuiRenderer$1
+- XXX.gui.render.GuiRenderer$AtlasPosition
++ XXX.gui.render.GuiRenderer$Draw
+- XXX.gui.render.GuiRenderer$MeshToDraw
+- XXX.gui.render.package-info
++ XXX.gui.render.TextureSetup
++ XXX.gui.screens.AccessibilityOnboardingScreen
+- XXX.gui.screens.AlertScreen
++ XXX.gui.screens.BackupConfirmScreen
+- XXX.gui.screens.BackupConfirmScreen$Listener
++ XXX.gui.screens.BanNoticeScreens
+- XXX.gui.screens.ChatScreen
++ XXX.gui.screens.ChatScreen$1
+- XXX.gui.screens.ChatScreen$ChatConstructor
++ XXX.gui.screens.ChatScreen$ExitReason
+- XXX.gui.screens.ConfirmLinkScreen
++ XXX.gui.screens.ConfirmScreen
+- XXX.gui.screens.ConnectScreen
++ XXX.gui.screens.ConnectScreen$1
+- XXX.gui.screens.ConnectScreen$2
++ XXX.gui.screens.CreateBuffetWorldScreen
+- XXX.gui.screens.CreateBuffetWorldScreen$BiomeList
++ XXX.gui.screens.CreateBuffetWorldScreen$BiomeList$Entry
+- XXX.gui.screens.CreateFlatWorldScreen
++ XXX.gui.screens.CreateFlatWorldScreen$DetailsList
+- XXX.gui.screens.CreateFlatWorldScreen$DetailsList$Entry
++ XXX.gui.screens.CreateFlatWorldScreen$DetailsList$HeaderEntry
+- XXX.gui.screens.CreateFlatWorldScreen$DetailsList$LayerEntry
++ XXX.gui.screens.CreditsAndAttributionScreen
+- XXX.gui.screens.DatapackLoadFailureScreen
++ XXX.gui.screens.DeathScreen
+- XXX.gui.screens.DeathScreen$TitleConfirmScreen
++ XXX.gui.screens.DemoIntroScreen
+- XXX.gui.screens.DirectJoinServerScreen
++ XXX.gui.screens.DisconnectedScreen
+- XXX.gui.screens.ErrorScreen
++ XXX.gui.screens.FaviconTexture
+- XXX.gui.screens.GenericMessageScreen
++ XXX.gui.screens.GenericWaitingScreen
+- XXX.gui.screens.InBedChatScreen
++ XXX.gui.screens.LevelLoadingScreen
+- XXX.gui.screens.LevelLoadingScreen$Reason
++ XXX.gui.screens.LoadingDotsText
+- XXX.gui.screens.LoadingOverlay
++ XXX.gui.screens.LoadingOverlay$LogoTexture
+- XXX.gui.screens.ManageServerScreen
++ XXX.gui.screens.MenuScreens
+- XXX.gui.screens.MenuScreens$ScreenConstructor
++ XXX.gui.screens.NoticeWithLinkScreen
+- XXX.gui.screens.OutOfMemoryScreen
++ XXX.gui.screens.Overlay
+- XXX.gui.screens.package-info
+- XXX.gui.screens.PauseScreen
++ XXX.gui.screens.PauseScreen$FeedbackSubScreen
+- XXX.gui.screens.PresetFlatWorldScreen
++ XXX.gui.screens.PresetFlatWorldScreen$PresetsList
+- XXX.gui.screens.PresetFlatWorldScreen$PresetsList$Entry
++ XXX.gui.screens.ProgressScreen
+- XXX.gui.screens.RecoverWorldDataScreen
++ XXX.gui.screens.Screen
+- XXX.gui.screens.Screen$NarratableSearchResult
++ XXX.gui.screens.ShareToLanScreen
+- XXX.gui.screens.TitleScreen
++ XXX.gui.screens.WinScreen
+- XXX.gui.screens.WinScreen$CreditsReader
+- XXX.gui.spectator.package-info
+- XXX.gui.spectator.PlayerMenuItem
++ XXX.gui.spectator.RootSpectatorMenuCategory
+- XXX.gui.spectator.SpectatorMenu
++ XXX.gui.spectator.SpectatorMenu$1
+- XXX.gui.spectator.SpectatorMenu$CloseSpectatorItem
++ XXX.gui.spectator.SpectatorMenu$ScrollMenuItem
+- XXX.gui.spectator.SpectatorMenuCategory
++ XXX.gui.spectator.SpectatorMenuItem
+- XXX.gui.spectator.SpectatorMenuListener
+- XXX.hurtingprojectile.windcharge.AbstractWindCharge
+- XXX.hurtingprojectile.windcharge.WindCharge
+- XXX.inventory.tooltip.BelowOrAboveWidgetTooltipPositioner
++ XXX.inventory.tooltip.ClientActivePlayersTooltip
+- XXX.inventory.tooltip.ClientActivePlayersTooltip$ActivePlayersTooltip
++ XXX.inventory.tooltip.ClientBundleTooltip
+- XXX.inventory.tooltip.ClientTextTooltip
++ XXX.inventory.tooltip.ClientTooltipComponent
+- XXX.inventory.tooltip.ClientTooltipPositioner
++ XXX.inventory.tooltip.DefaultTooltipPositioner
+- XXX.inventory.tooltip.MenuTooltipPositioner
+- XXX.inventory.tooltip.package-info
++ XXX.inventory.tooltip.TooltipRenderUtil
+- XXX.item.component.AttackRange
++ XXX.item.component.Bees
+- XXX.item.component.BlockItemStateProperties
++ XXX.item.component.BlocksAttacks
+- XXX.item.component.BlocksAttacks$DamageReduction
++ XXX.item.component.BlocksAttacks$ItemDamageFunction
+- XXX.item.component.BookContent
++ XXX.item.component.BundleContents
+- XXX.item.component.BundleContents$Mutable
++ XXX.item.component.ChargedProjectiles
+- XXX.item.component.Consumable
++ XXX.item.component.Consumable$Builder
+- XXX.item.component.Consumable$OverrideConsumeSound
++ XXX.item.component.ConsumableListener
+- XXX.item.component.Consumables
++ XXX.item.component.CustomData
+- XXX.item.component.CustomModelData
++ XXX.item.component.DamageResistant
+- XXX.item.component.DeathProtection
++ XXX.item.component.DebugStickState
+- XXX.item.component.DyedItemColor
++ XXX.item.component.FireworkExplosion
+- XXX.item.component.FireworkExplosion$Shape
++ XXX.item.component.Fireworks
+- XXX.item.component.InstrumentComponent
++ XXX.item.component.ItemAttributeModifiers
+- XXX.item.component.ItemAttributeModifiers$1
++ XXX.item.component.ItemAttributeModifiers$Builder
+- XXX.item.component.ItemAttributeModifiers$Display
++ XXX.item.component.ItemAttributeModifiers$Display$Default
+- XXX.item.component.ItemAttributeModifiers$Display$Hidden
++ XXX.item.component.ItemAttributeModifiers$Display$OverrideText
+- XXX.item.component.ItemAttributeModifiers$Display$Type
++ XXX.item.component.ItemAttributeModifiers$Entry
+- XXX.item.component.ItemContainerContents
++ XXX.item.component.ItemContainerContents$Slot
+- XXX.item.component.ItemLore
++ XXX.item.component.KineticWeapon
+- XXX.item.component.KineticWeapon$Condition
++ XXX.item.component.LodestoneTracker
+- XXX.item.component.MapDecorations
++ XXX.item.component.MapDecorations$Entry
+- XXX.item.component.MapItemColor
++ XXX.item.component.MapPostProcessing
+- XXX.item.component.OminousBottleAmplifier
+- XXX.item.component.package-info
++ XXX.item.component.PiercingWeapon
+- XXX.item.component.ProvidesTrimMaterial
++ XXX.item.component.ResolvableProfile
+- XXX.item.component.ResolvableProfile$Dynamic
++ XXX.item.component.ResolvableProfile$Partial
+- XXX.item.component.ResolvableProfile$Static
++ XXX.item.component.SeededContainerLoot
+- XXX.item.component.SuspiciousStewEffects
++ XXX.item.component.SuspiciousStewEffects$Entry
+- XXX.item.component.SwingAnimation
++ XXX.item.component.Tool
+- XXX.item.component.Tool$Rule
++ XXX.item.component.TooltipDisplay
+- XXX.item.component.TooltipProvider
++ XXX.item.component.TypedEntityData
+- XXX.item.component.TypedEntityData$1
++ XXX.item.component.UseCooldown
+- XXX.item.component.UseEffects
++ XXX.item.component.UseRemainder
+- XXX.item.component.UseRemainder$OnExtraCreatedRemainder
++ XXX.item.component.Weapon
+- XXX.item.component.WritableBookContent
++ XXX.item.component.WrittenBookContent
++ XXX.item.consume_effects.ApplyStatusEffectsConsumeEffect
+- XXX.item.consume_effects.ClearAllStatusEffectsConsumeEffect
++ XXX.item.consume_effects.ConsumeEffect
+- XXX.item.consume_effects.ConsumeEffect$Type
+- XXX.item.consume_effects.package-info
++ XXX.item.consume_effects.PlaySoundConsumeEffect
+- XXX.item.consume_effects.RemoveStatusEffectsConsumeEffect
++ XXX.item.consume_effects.TeleportRandomlyConsumeEffect
++ XXX.item.context.BlockPlaceContext
+- XXX.item.context.DirectionalPlaceContext
++ XXX.item.context.DirectionalPlaceContext$1
++ XXX.item.context.package-info
+- XXX.item.context.UseOnContext
+- XXX.item.crafting.AbstractCookingRecipe
++ XXX.item.crafting.AbstractCookingRecipe$Factory
+- XXX.item.crafting.AbstractCookingRecipe$Serializer
++ XXX.item.crafting.ArmorDyeRecipe
+- XXX.item.crafting.BannerDuplicateRecipe
++ XXX.item.crafting.BlastingRecipe
+- XXX.item.crafting.BlastingRecipe$1
++ XXX.item.crafting.BookCloningRecipe
+- XXX.item.crafting.CampfireCookingRecipe
++ XXX.item.crafting.CookingBookCategory
+- XXX.item.crafting.CraftingBookCategory
++ XXX.item.crafting.CraftingInput
+- XXX.item.crafting.CraftingInput$Positioned
++ XXX.item.crafting.CraftingRecipe
+- XXX.item.crafting.CraftingRecipe$1
++ XXX.item.crafting.CustomRecipe
+- XXX.item.crafting.CustomRecipe$Serializer
++ XXX.item.crafting.CustomRecipe$Serializer$Factory
+- XXX.item.crafting.DecoratedPotRecipe
++ XXX.item.crafting.ExtendedRecipeBookCategory
+- XXX.item.crafting.FireworkRocketRecipe
++ XXX.item.crafting.FireworkStarFadeRecipe
+- XXX.item.crafting.FireworkStarRecipe
++ XXX.item.crafting.Ingredient
+- XXX.item.crafting.MapCloningRecipe
++ XXX.item.crafting.MapExtendingRecipe
+- XXX.item.crafting.package-info
+- XXX.item.crafting.PlacementInfo
++ XXX.item.crafting.Recipe
+- XXX.item.crafting.RecipeAccess
++ XXX.item.crafting.RecipeBookCategories
+- XXX.item.crafting.RecipeBookCategory
++ XXX.item.crafting.RecipeCache
+- XXX.item.crafting.RecipeCache$Entry
++ XXX.item.crafting.RecipeHolder
+- XXX.item.crafting.RecipeInput
++ XXX.item.crafting.RecipeManager
+- XXX.item.crafting.RecipeManager$1
++ XXX.item.crafting.RecipeManager$CachedCheck
+- XXX.item.crafting.RecipeManager$IngredientCollector
++ XXX.item.crafting.RecipeManager$IngredientExtractor
+- XXX.item.crafting.RecipeManager$ServerDisplayInfo
++ XXX.item.crafting.RecipeMap
+- XXX.item.crafting.RecipePropertySet
++ XXX.item.crafting.RecipeSerializer
+- XXX.item.crafting.RecipeType
++ XXX.item.crafting.RecipeType$1
+- XXX.item.crafting.RepairItemRecipe
++ XXX.item.crafting.SelectableRecipe
+- XXX.item.crafting.SelectableRecipe$SingleInputEntry
++ XXX.item.crafting.SelectableRecipe$SingleInputSet
+- XXX.item.crafting.ShapedRecipe
++ XXX.item.crafting.ShapedRecipe$Serializer
+- XXX.item.crafting.ShapedRecipePattern
++ XXX.item.crafting.ShapedRecipePattern$Data
+- XXX.item.crafting.ShapelessRecipe
++ XXX.item.crafting.ShapelessRecipe$Serializer
+- XXX.item.crafting.ShieldDecorationRecipe
++ XXX.item.crafting.SingleItemRecipe
+- XXX.item.crafting.SingleItemRecipe$Factory
++ XXX.item.crafting.SingleItemRecipe$Serializer
+- XXX.item.crafting.SingleRecipeInput
++ XXX.item.crafting.SmeltingRecipe
+- XXX.item.crafting.SmeltingRecipe$1
++ XXX.item.crafting.SmithingRecipe
+- XXX.item.crafting.SmithingRecipeInput
++ XXX.item.crafting.SmithingTransformRecipe
+- XXX.item.crafting.SmithingTransformRecipe$Serializer
++ XXX.item.crafting.SmithingTrimRecipe
+- XXX.item.crafting.SmithingTrimRecipe$Serializer
++ XXX.item.crafting.SmokingRecipe
+- XXX.item.crafting.StonecutterRecipe
++ XXX.item.crafting.TippedArrowRecipe
+- XXX.item.crafting.TransmuteRecipe
++ XXX.item.crafting.TransmuteRecipe$Serializer
+- XXX.item.crafting.TransmuteResult
++ XXX.item.enchantment.ConditionalEffect
+- XXX.item.enchantment.Enchantable
++ XXX.item.enchantment.EnchantedItemInUse
+- XXX.item.enchantment.Enchantment
++ XXX.item.enchantment.Enchantment$1
+- XXX.item.enchantment.Enchantment$Builder
++ XXX.item.enchantment.Enchantment$Cost
+- XXX.item.enchantment.Enchantment$EnchantmentDefinition
++ XXX.item.enchantment.EnchantmentEffectComponents
+- XXX.item.enchantment.EnchantmentHelper
++ XXX.item.enchantment.EnchantmentHelper$EnchantmentInSlotVisitor
+- XXX.item.enchantment.EnchantmentHelper$EnchantmentVisitor
++ XXX.item.enchantment.EnchantmentInstance
++ XXX.item.enchantment.Enchantments
+- XXX.item.enchantment.EnchantmentTarget
+- XXX.item.enchantment.ItemEnchantments
++ XXX.item.enchantment.ItemEnchantments$Mutable
+- XXX.item.enchantment.LevelBasedValue
++ XXX.item.enchantment.LevelBasedValue$Clamped
+- XXX.item.enchantment.LevelBasedValue$Constant
++ XXX.item.enchantment.LevelBasedValue$Exponent
+- XXX.item.enchantment.LevelBasedValue$Fraction
++ XXX.item.enchantment.LevelBasedValue$LevelsSquared
+- XXX.item.enchantment.LevelBasedValue$Linear
++ XXX.item.enchantment.LevelBasedValue$Lookup
++ XXX.item.enchantment.package-info
+- XXX.item.enchantment.Repairable
++ XXX.item.enchantment.TargetedConditionalEffect
+- XXX.item.equipment.AllowedEntitiesProvider
++ XXX.item.equipment.ArmorMaterial
+- XXX.item.equipment.ArmorMaterials
++ XXX.item.equipment.ArmorType
+- XXX.item.equipment.EquipmentAsset
++ XXX.item.equipment.EquipmentAssets
+- XXX.item.equipment.Equippable
++ XXX.item.equipment.Equippable$Builder
+- XXX.item.equipment.package-info
+- XXX.item.properties.package-info
+- XXX.item.slot.CompositeSlotSource
++ XXX.item.slot.ContentsSlotSource
+- XXX.item.slot.EmptySlotSource
++ XXX.item.slot.FilteredSlotSource
+- XXX.item.slot.GroupSlotSource
++ XXX.item.slot.LimitSlotSource
+- XXX.item.slot.package-info
+- XXX.item.slot.RangeSlotSource
++ XXX.item.slot.SlotCollection
+- XXX.item.slot.SlotCollection$Filtered
++ XXX.item.slot.SlotCollection$FlatMapped
+- XXX.item.slot.SlotCollection$Limited
++ XXX.item.slot.SlotSource
+- XXX.item.slot.SlotSources
++ XXX.item.slot.TransformedSlotSource
++ XXX.item.trading.ItemCost
+- XXX.item.trading.Merchant
++ XXX.item.trading.MerchantOffer
+- XXX.item.trading.MerchantOffers
++ XXX.item.trading.package-info
++ XXX.jfr.callback.package-info
+- XXX.jfr.callback.ProfiledDuration
+- XXX.jfr.event.ChunkGenerationEvent
++ XXX.jfr.event.ChunkGenerationEvent$Fields
+- XXX.jfr.event.ChunkRegionIoEvent
++ XXX.jfr.event.ChunkRegionIoEvent$Fields
+- XXX.jfr.event.ChunkRegionReadEvent
++ XXX.jfr.event.ChunkRegionWriteEvent
+- XXX.jfr.event.ClientFpsEvent
++ XXX.jfr.event.ClientFpsEvent$Fields
+- XXX.jfr.event.NetworkSummaryEvent
++ XXX.jfr.event.NetworkSummaryEvent$Fields
+- XXX.jfr.event.NetworkSummaryEvent$SumAggregation
+- XXX.jfr.event.package-info
++ XXX.jfr.event.PacketEvent
+- XXX.jfr.event.PacketEvent$Fields
++ XXX.jfr.event.PacketReceivedEvent
+- XXX.jfr.event.PacketSentEvent
++ XXX.jfr.event.ServerTickTimeEvent
+- XXX.jfr.event.ServerTickTimeEvent$Fields
++ XXX.jfr.event.StructureGenerationEvent
+- XXX.jfr.event.StructureGenerationEvent$Fields
++ XXX.jfr.event.WorldLoadFinishedEvent
+- XXX.jfr.parse.JfrStatsParser
++ XXX.jfr.parse.JfrStatsParser$1
+- XXX.jfr.parse.JfrStatsParser$MutableCountAndSize
++ XXX.jfr.parse.JfrStatsResult
+- XXX.jfr.parse.package-info
++ XXX.jfr.serialize.JfrResultJsonSerializer
+- XXX.jfr.serialize.package-info
++ XXX.jfr.stats.ChunkGenStat
+- XXX.jfr.stats.ChunkIdentification
++ XXX.jfr.stats.CpuLoadStat
+- XXX.jfr.stats.FileIOStat
++ XXX.jfr.stats.FileIOStat$Summary
+- XXX.jfr.stats.FpsStat
++ XXX.jfr.stats.GcHeapStat
+- XXX.jfr.stats.GcHeapStat$Summary
++ XXX.jfr.stats.GcHeapStat$Timing
+- XXX.jfr.stats.IoSummary
++ XXX.jfr.stats.IoSummary$CountAndSize
++ XXX.jfr.stats.package-info
+- XXX.jfr.stats.PacketIdentification
++ XXX.jfr.stats.StructureGenStat
+- XXX.jfr.stats.ThreadAllocationStat
++ XXX.jfr.stats.ThreadAllocationStat$Summary
+- XXX.jfr.stats.TickTimeStat
++ XXX.jfr.stats.TimedStat
+- XXX.jfr.stats.TimedStatSummary
+- XXX.jsonrpc.api.MethodInfo
++ XXX.jsonrpc.api.MethodInfo$Named
+- XXX.jsonrpc.api.package-info
+- XXX.jsonrpc.api.ParamInfo
++ XXX.jsonrpc.api.PlayerDto
+- XXX.jsonrpc.api.ReferenceUtil
++ XXX.jsonrpc.api.ResultInfo
+- XXX.jsonrpc.api.Schema
++ XXX.jsonrpc.api.SchemaComponent
++ XXX.jsonrpc.dataprovider.JsonRpcApiSchema
+- XXX.jsonrpc.dataprovider.package-info
++ XXX.jsonrpc.internalapi.MinecraftAllowListService
+- XXX.jsonrpc.internalapi.MinecraftAllowListServiceImpl
++ XXX.jsonrpc.internalapi.MinecraftApi
+- XXX.jsonrpc.internalapi.MinecraftBanListService
++ XXX.jsonrpc.internalapi.MinecraftBanListServiceImpl
+- XXX.jsonrpc.internalapi.MinecraftExecutorService
++ XXX.jsonrpc.internalapi.MinecraftExecutorServiceImpl
+- XXX.jsonrpc.internalapi.MinecraftGameRuleService
++ XXX.jsonrpc.internalapi.MinecraftGameRuleServiceImpl
+- XXX.jsonrpc.internalapi.MinecraftOperatorListService
++ XXX.jsonrpc.internalapi.MinecraftOperatorListServiceImpl
+- XXX.jsonrpc.internalapi.MinecraftPlayerListService
++ XXX.jsonrpc.internalapi.MinecraftPlayerListServiceImpl
+- XXX.jsonrpc.internalapi.MinecraftServerSettingsService
++ XXX.jsonrpc.internalapi.MinecraftServerSettingsServiceImpl
+- XXX.jsonrpc.internalapi.MinecraftServerStateService
++ XXX.jsonrpc.internalapi.MinecraftServerStateServiceImpl
+- XXX.jsonrpc.internalapi.package-info
++ XXX.jsonrpc.methods.AllowlistService
+- XXX.jsonrpc.methods.BanlistService
++ XXX.jsonrpc.methods.BanlistService$UserBan
+- XXX.jsonrpc.methods.BanlistService$UserBanDto
++ XXX.jsonrpc.methods.ClientInfo
+- XXX.jsonrpc.methods.DiscoveryService
++ XXX.jsonrpc.methods.DiscoveryService$DiscoverComponents
+- XXX.jsonrpc.methods.DiscoveryService$DiscoverInfo
++ XXX.jsonrpc.methods.DiscoveryService$DiscoverResponse
+- XXX.jsonrpc.methods.EncodeJsonRpcException
++ XXX.jsonrpc.methods.GameRulesService
+- XXX.jsonrpc.methods.GameRulesService$GameRuleUpdate
++ XXX.jsonrpc.methods.InvalidParameterJsonRpcException
+- XXX.jsonrpc.methods.InvalidRequestJsonRpcException
++ XXX.jsonrpc.methods.IpBanlistService
+- XXX.jsonrpc.methods.IpBanlistService$IncomingIpBanDto
++ XXX.jsonrpc.methods.IpBanlistService$IpBan
+- XXX.jsonrpc.methods.IpBanlistService$IpBanDto
++ XXX.jsonrpc.methods.Message
+- XXX.jsonrpc.methods.MethodNotFoundJsonRpcException
++ XXX.jsonrpc.methods.OperatorService
+- XXX.jsonrpc.methods.OperatorService$Op
++ XXX.jsonrpc.methods.OperatorService$OperatorDto
++ XXX.jsonrpc.methods.package-info
+- XXX.jsonrpc.methods.PlayerService
++ XXX.jsonrpc.methods.PlayerService$KickDto
+- XXX.jsonrpc.methods.RemoteRpcErrorException
++ XXX.jsonrpc.methods.ServerSettingsService
+- XXX.jsonrpc.methods.ServerStateService
++ XXX.jsonrpc.methods.ServerStateService$ServerState
+- XXX.jsonrpc.methods.ServerStateService$SystemMessage
++ XXX.jsonrpc.security.AuthenticationHandler
+- XXX.jsonrpc.security.AuthenticationHandler$SecurityCheckResult
++ XXX.jsonrpc.security.JsonRpcSslContextProvider
++ XXX.jsonrpc.security.package-info
+- XXX.jsonrpc.security.SecurityConfig
+- XXX.jsonrpc.websocket.JsonToWebSocketEncoder
+- XXX.jsonrpc.websocket.package-info
++ XXX.jsonrpc.websocket.WebSocketToJsonCodec
+- XXX.level.biome.Biome
++ XXX.level.biome.Biome$1
+- XXX.level.biome.Biome$BiomeBuilder
++ XXX.level.biome.Biome$ClimateSettings
+- XXX.level.biome.Biome$Precipitation
++ XXX.level.biome.Biome$TemperatureModifier
+- XXX.level.biome.Biome$TemperatureModifier$1
++ XXX.level.biome.Biome$TemperatureModifier$2
+- XXX.level.biome.BiomeGenerationSettings
++ XXX.level.biome.BiomeGenerationSettings$Builder
+- XXX.level.biome.BiomeGenerationSettings$PlainBuilder
++ XXX.level.biome.BiomeManager
+- XXX.level.biome.BiomeManager$NoiseBiomeSource
++ XXX.level.biome.BiomeResolver
+- XXX.level.biome.Biomes
+- XXX.level.biome.BiomeSource
++ XXX.level.biome.BiomeSources
+- XXX.level.biome.BiomeSpecialEffects
++ XXX.level.biome.BiomeSpecialEffects$Builder
+- XXX.level.biome.BiomeSpecialEffects$GrassColorModifier
++ XXX.level.biome.BiomeSpecialEffects$GrassColorModifier$1
+- XXX.level.biome.BiomeSpecialEffects$GrassColorModifier$2
++ XXX.level.biome.BiomeSpecialEffects$GrassColorModifier$3
++ XXX.level.biome.CheckerboardColumnBiomeSource
+- XXX.level.biome.Climate
++ XXX.level.biome.Climate$DistanceMetric
+- XXX.level.biome.Climate$Parameter
++ XXX.level.biome.Climate$ParameterList
+- XXX.level.biome.Climate$ParameterPoint
++ XXX.level.biome.Climate$RTree
+- XXX.level.biome.Climate$RTree$Leaf
++ XXX.level.biome.Climate$RTree$Node
+- XXX.level.biome.Climate$RTree$SubTree
++ XXX.level.biome.Climate$Sampler
+- XXX.level.biome.Climate$SpawnFinder
++ XXX.level.biome.Climate$SpawnFinder$Result
+- XXX.level.biome.Climate$TargetPoint
++ XXX.level.biome.FeatureSorter
+- XXX.level.biome.FeatureSorter$1FeatureData
++ XXX.level.biome.FeatureSorter$StepFeatureData
+- XXX.level.biome.FixedBiomeSource
++ XXX.level.biome.MobSpawnSettings
+- XXX.level.biome.MobSpawnSettings$Builder
++ XXX.level.biome.MobSpawnSettings$MobSpawnCost
+- XXX.level.biome.MobSpawnSettings$SpawnerData
++ XXX.level.biome.MultiNoiseBiomeSource
+- XXX.level.biome.MultiNoiseBiomeSourceParameterList
++ XXX.level.biome.MultiNoiseBiomeSourceParameterList$Preset
+- XXX.level.biome.MultiNoiseBiomeSourceParameterList$Preset$1
++ XXX.level.biome.MultiNoiseBiomeSourceParameterList$Preset$2
+- XXX.level.biome.MultiNoiseBiomeSourceParameterList$Preset$SourceProvider
++ XXX.level.biome.MultiNoiseBiomeSourceParameterLists
+- XXX.level.biome.OverworldBiomeBuilder
+- XXX.level.biome.package-info
++ XXX.level.biome.TheEndBiomeSource
++ XXX.level.block.AbstractBannerBlock
+- XXX.level.block.AbstractCandleBlock
++ XXX.level.block.AbstractCauldronBlock
+- XXX.level.block.AbstractChestBlock
++ XXX.level.block.AbstractFurnaceBlock
+- XXX.level.block.AbstractSkullBlock
++ XXX.level.block.AirBlock
+- XXX.level.block.AmethystBlock
++ XXX.level.block.AmethystClusterBlock
+- XXX.level.block.AnvilBlock
++ XXX.level.block.AttachedStemBlock
+- XXX.level.block.AzaleaBlock
++ XXX.level.block.BambooSaplingBlock
+- XXX.level.block.BambooStalkBlock
++ XXX.level.block.BannerBlock
+- XXX.level.block.BarrelBlock
++ XXX.level.block.BarrierBlock
+- XXX.level.block.BaseCoralFanBlock
++ XXX.level.block.BaseCoralPlantBlock
+- XXX.level.block.BaseCoralPlantTypeBlock
++ XXX.level.block.BaseCoralWallFanBlock
+- XXX.level.block.BaseEntityBlock
++ XXX.level.block.BaseFireBlock
+- XXX.level.block.BasePressurePlateBlock
++ XXX.level.block.BaseRailBlock
+- XXX.level.block.BaseRailBlock$1
++ XXX.level.block.BaseTorchBlock
+- XXX.level.block.BeaconBeamBlock
++ XXX.level.block.BeaconBlock
+- XXX.level.block.BedBlock
++ XXX.level.block.BeehiveBlock
+- XXX.level.block.BeetrootBlock
++ XXX.level.block.BellBlock
+- XXX.level.block.BellBlock$1
++ XXX.level.block.BigDripleafBlock
+- XXX.level.block.BigDripleafStemBlock
++ XXX.level.block.BlastFurnaceBlock
+- XXX.level.block.Block
++ XXX.level.block.Block$1
+- XXX.level.block.Block$2
++ XXX.level.block.Block$ShapePairKey
+- XXX.level.block.Block$UpdateFlags
+- XXX.level.block.Blocks
++ XXX.level.block.BlockTypes
++ XXX.level.block.BonemealableBlock
+- XXX.level.block.BonemealableBlock$Type
++ XXX.level.block.BonemealableFeaturePlacerBlock
+- XXX.level.block.BrewingStandBlock
++ XXX.level.block.BrushableBlock
+- XXX.level.block.BubbleColumnBlock
++ XXX.level.block.BucketPickup
+- XXX.level.block.BuddingAmethystBlock
++ XXX.level.block.BushBlock
+- XXX.level.block.ButtonBlock
++ XXX.level.block.CactusBlock
+- XXX.level.block.CactusFlowerBlock
++ XXX.level.block.CakeBlock
+- XXX.level.block.CalibratedSculkSensorBlock
++ XXX.level.block.CampfireBlock
+- XXX.level.block.CandleBlock
++ XXX.level.block.CandleCakeBlock
+- XXX.level.block.CarpetBlock
++ XXX.level.block.CarrotBlock
+- XXX.level.block.CartographyTableBlock
++ XXX.level.block.CarvedPumpkinBlock
+- XXX.level.block.CauldronBlock
++ XXX.level.block.CaveVines
+- XXX.level.block.CaveVinesBlock
++ XXX.level.block.CaveVinesPlantBlock
+- XXX.level.block.CeilingHangingSignBlock
++ XXX.level.block.ChainBlock
+- XXX.level.block.ChangeOverTimeBlock
++ XXX.level.block.ChestBlock
+- XXX.level.block.ChestBlock$1
++ XXX.level.block.ChestBlock$2
+- XXX.level.block.ChestBlock$2$1
++ XXX.level.block.ChestBlock$3
+- XXX.level.block.ChestBlock$4
++ XXX.level.block.ChiseledBookShelfBlock
+- XXX.level.block.ChorusFlowerBlock
++ XXX.level.block.ChorusPlantBlock
+- XXX.level.block.CocoaBlock
++ XXX.level.block.ColoredFallingBlock
+- XXX.level.block.CommandBlock
++ XXX.level.block.ComparatorBlock
+- XXX.level.block.ComposterBlock
++ XXX.level.block.ComposterBlock$EmptyContainer
+- XXX.level.block.ComposterBlock$InputContainer
++ XXX.level.block.ComposterBlock$OutputContainer
+- XXX.level.block.ConcretePowderBlock
++ XXX.level.block.ConduitBlock
+- XXX.level.block.CopperBulbBlock
++ XXX.level.block.CopperChestBlock
+- XXX.level.block.CopperGolemStatueBlock
++ XXX.level.block.CopperGolemStatueBlock$Pose
+- XXX.level.block.CoralBlock
++ XXX.level.block.CoralFanBlock
+- XXX.level.block.CoralPlantBlock
++ XXX.level.block.CoralWallFanBlock
+- XXX.level.block.CrafterBlock
++ XXX.level.block.CrafterBlock$1
+- XXX.level.block.CraftingTableBlock
++ XXX.level.block.CreakingHeartBlock
+- XXX.level.block.CropBlock
++ XXX.level.block.CrossCollisionBlock
+- XXX.level.block.CrossCollisionBlock$1
++ XXX.level.block.CryingObsidianBlock
+- XXX.level.block.DaylightDetectorBlock
++ XXX.level.block.DecoratedPotBlock
+- XXX.level.block.DetectorRailBlock
++ XXX.level.block.DiodeBlock
+- XXX.level.block.DirectionalBlock
++ XXX.level.block.DirtPathBlock
+- XXX.level.block.DispenserBlock
++ XXX.level.block.DoorBlock
+- XXX.level.block.DoorBlock$1
++ XXX.level.block.DoubleBlockCombiner
+- XXX.level.block.DoubleBlockCombiner$BlockType
++ XXX.level.block.DoubleBlockCombiner$Combiner
+- XXX.level.block.DoubleBlockCombiner$NeighborCombineResult
++ XXX.level.block.DoubleBlockCombiner$NeighborCombineResult$Double
+- XXX.level.block.DoubleBlockCombiner$NeighborCombineResult$Single
++ XXX.level.block.DoublePlantBlock
+- XXX.level.block.DragonEggBlock
++ XXX.level.block.DriedGhastBlock
+- XXX.level.block.DropExperienceBlock
++ XXX.level.block.DropperBlock
+- XXX.level.block.DryVegetationBlock
++ XXX.level.block.EnchantingTableBlock
+- XXX.level.block.EnderChestBlock
+- XXX.level.block.EndGatewayBlock
++ XXX.level.block.EndPortalBlock
+- XXX.level.block.EndPortalFrameBlock
++ XXX.level.block.EndRodBlock
++ XXX.level.block.EntityBlock
+- XXX.level.block.EyeblossomBlock
++ XXX.level.block.EyeblossomBlock$Type
+- XXX.level.block.FaceAttachedHorizontalDirectionalBlock
++ XXX.level.block.FaceAttachedHorizontalDirectionalBlock$1
+- XXX.level.block.Fallable
++ XXX.level.block.FallingBlock
+- XXX.level.block.FarmBlock
++ XXX.level.block.FenceBlock
+- XXX.level.block.FenceGateBlock
++ XXX.level.block.FenceGateBlock$1
+- XXX.level.block.FireBlock
++ XXX.level.block.FireflyBushBlock
+- XXX.level.block.FlowerBedBlock
++ XXX.level.block.FlowerBlock
+- XXX.level.block.FlowerPotBlock
++ XXX.level.block.FrogspawnBlock
+- XXX.level.block.FrostedIceBlock
++ XXX.level.block.FungusBlock
+- XXX.level.block.FurnaceBlock
++ XXX.level.block.GameMasterBlock
+- XXX.level.block.GlazedTerracottaBlock
++ XXX.level.block.GlowLichenBlock
+- XXX.level.block.GrassBlock
++ XXX.level.block.GrindstoneBlock
+- XXX.level.block.GrowingPlantBlock
++ XXX.level.block.GrowingPlantBodyBlock
+- XXX.level.block.GrowingPlantHeadBlock
++ XXX.level.block.HalfTransparentBlock
+- XXX.level.block.HangingMossBlock
++ XXX.level.block.HangingRootsBlock
+- XXX.level.block.HayBlock
++ XXX.level.block.HeavyCoreBlock
+- XXX.level.block.HoneyBlock
++ XXX.level.block.HopperBlock
+- XXX.level.block.HorizontalDirectionalBlock
++ XXX.level.block.HugeMushroomBlock
+- XXX.level.block.IceBlock
++ XXX.level.block.InfestedBlock
+- XXX.level.block.InfestedRotatedPillarBlock
++ XXX.level.block.IronBarsBlock
+- XXX.level.block.JigsawBlock
++ XXX.level.block.JukeboxBlock
+- XXX.level.block.KelpBlock
++ XXX.level.block.KelpPlantBlock
+- XXX.level.block.LadderBlock
++ XXX.level.block.LanternBlock
+- XXX.level.block.LavaCauldronBlock
++ XXX.level.block.LayeredCauldronBlock
+- XXX.level.block.LeafLitterBlock
++ XXX.level.block.LeavesBlock
+- XXX.level.block.LecternBlock
++ XXX.level.block.LevelEvent
+- XXX.level.block.LeverBlock
++ XXX.level.block.LightBlock
+- XXX.level.block.LightningRodBlock
++ XXX.level.block.LiquidBlock
+- XXX.level.block.LiquidBlockContainer
++ XXX.level.block.LoomBlock
+- XXX.level.block.MagmaBlock
++ XXX.level.block.MangroveLeavesBlock
+- XXX.level.block.MangrovePropaguleBlock
++ XXX.level.block.MangroveRootsBlock
+- XXX.level.block.Mirror
++ XXX.level.block.MossyCarpetBlock
+- XXX.level.block.MossyCarpetBlock$1
++ XXX.level.block.MudBlock
+- XXX.level.block.MultifaceBlock
++ XXX.level.block.MultifaceSpreadeableBlock
+- XXX.level.block.MultifaceSpreader
++ XXX.level.block.MultifaceSpreader$DefaultSpreaderConfig
+- XXX.level.block.MultifaceSpreader$SpreadConfig
++ XXX.level.block.MultifaceSpreader$SpreadPos
+- XXX.level.block.MultifaceSpreader$SpreadPredicate
++ XXX.level.block.MultifaceSpreader$SpreadType
+- XXX.level.block.MultifaceSpreader$SpreadType$1
++ XXX.level.block.MultifaceSpreader$SpreadType$2
+- XXX.level.block.MultifaceSpreader$SpreadType$3
++ XXX.level.block.MushroomBlock
+- XXX.level.block.MyceliumBlock
++ XXX.level.block.NetherPortalBlock
+- XXX.level.block.NetherPortalBlock$1
+- XXX.level.block.NetherrackBlock
++ XXX.level.block.NetherSproutsBlock
+- XXX.level.block.NetherVines
++ XXX.level.block.NetherWartBlock
++ XXX.level.block.NoteBlock
+- XXX.level.block.NyliumBlock
++ XXX.level.block.ObserverBlock
+- XXX.level.block.package-info
+- XXX.level.block.PiglinWallSkullBlock
++ XXX.level.block.PipeBlock
+- XXX.level.block.PitcherCropBlock
++ XXX.level.block.PitcherCropBlock$1
+- XXX.level.block.PitcherCropBlock$PosAndState
++ XXX.level.block.PlayerHeadBlock
+- XXX.level.block.PlayerWallHeadBlock
++ XXX.level.block.PointedDripstoneBlock
+- XXX.level.block.PointedDripstoneBlock$1
++ XXX.level.block.PointedDripstoneBlock$FluidInfo
+- XXX.level.block.Portal
++ XXX.level.block.Portal$Transition
+- XXX.level.block.PotatoBlock
++ XXX.level.block.PowderSnowBlock
+- XXX.level.block.PoweredBlock
++ XXX.level.block.PoweredRailBlock
+- XXX.level.block.PoweredRailBlock$1
++ XXX.level.block.PressurePlateBlock
+- XXX.level.block.PressurePlateBlock$1
++ XXX.level.block.PumpkinBlock
+- XXX.level.block.RailBlock
++ XXX.level.block.RailState
+- XXX.level.block.RailState$1
+- XXX.level.block.RedstoneLampBlock
++ XXX.level.block.RedStoneOreBlock
++ XXX.level.block.RedstoneTorchBlock
+- XXX.level.block.RedstoneTorchBlock$Toggle
++ XXX.level.block.RedstoneWallTorchBlock
+- XXX.level.block.RedStoneWireBlock
++ XXX.level.block.RedStoneWireBlock$1
+- XXX.level.block.RenderShape
++ XXX.level.block.RepeaterBlock
+- XXX.level.block.RespawnAnchorBlock
++ XXX.level.block.RespawnAnchorBlock$1
+- XXX.level.block.RodBlock
++ XXX.level.block.RootedDirtBlock
+- XXX.level.block.RootsBlock
++ XXX.level.block.RotatedPillarBlock
+- XXX.level.block.RotatedPillarBlock$1
++ XXX.level.block.Rotation
+- XXX.level.block.SandBlock
++ XXX.level.block.SaplingBlock
+- XXX.level.block.ScaffoldingBlock
++ XXX.level.block.SculkBehaviour
+- XXX.level.block.SculkBehaviour$1
++ XXX.level.block.SculkBlock
+- XXX.level.block.SculkCatalystBlock
++ XXX.level.block.SculkSensorBlock
+- XXX.level.block.SculkShriekerBlock
++ XXX.level.block.SculkSpreader
+- XXX.level.block.SculkSpreader$ChargeCursor
++ XXX.level.block.SculkVeinBlock
+- XXX.level.block.SculkVeinBlock$SculkVeinSpreaderConfig
+- XXX.level.block.SeagrassBlock
++ XXX.level.block.SeaPickleBlock
++ XXX.level.block.SegmentableBlock
+- XXX.level.block.SelectableSlotContainer
++ XXX.level.block.SelectableSlotContainer$1
+- XXX.level.block.ShelfBlock
++ XXX.level.block.ShortDryGrassBlock
+- XXX.level.block.ShulkerBoxBlock
++ XXX.level.block.ShulkerBoxBlock$1
+- XXX.level.block.SideChainPartBlock
++ XXX.level.block.SideChainPartBlock$EmptyNeighbor
+- XXX.level.block.SideChainPartBlock$Neighbor
++ XXX.level.block.SideChainPartBlock$Neighbors
+- XXX.level.block.SideChainPartBlock$SideChainNeighbor
++ XXX.level.block.SignBlock
+- XXX.level.block.SimpleWaterloggedBlock
++ XXX.level.block.SkullBlock
+- XXX.level.block.SkullBlock$Type
++ XXX.level.block.SkullBlock$Types
+- XXX.level.block.SlabBlock
++ XXX.level.block.SlabBlock$1
+- XXX.level.block.SlimeBlock
++ XXX.level.block.SmallDripleafBlock
+- XXX.level.block.SmithingTableBlock
++ XXX.level.block.SmokerBlock
+- XXX.level.block.SnifferEggBlock
++ XXX.level.block.SnowLayerBlock
+- XXX.level.block.SnowyDirtBlock
++ XXX.level.block.SoulFireBlock
+- XXX.level.block.SoulSandBlock
++ XXX.level.block.SoundType
+- XXX.level.block.SpawnerBlock
++ XXX.level.block.SpongeBlock
+- XXX.level.block.SporeBlossomBlock
++ XXX.level.block.SpreadingSnowyDirtBlock
+- XXX.level.block.StainedGlassBlock
++ XXX.level.block.StainedGlassPaneBlock
+- XXX.level.block.StairBlock
++ XXX.level.block.StairBlock$1
+- XXX.level.block.StandingSignBlock
++ XXX.level.block.StemBlock
+- XXX.level.block.StonecutterBlock
++ XXX.level.block.StructureBlock
+- XXX.level.block.StructureBlock$1
++ XXX.level.block.StructureVoidBlock
+- XXX.level.block.SugarCaneBlock
++ XXX.level.block.SupportType
+- XXX.level.block.SupportType$1
++ XXX.level.block.SupportType$2
+- XXX.level.block.SupportType$3
++ XXX.level.block.SuspiciousEffectHolder
+- XXX.level.block.SweetBerryBushBlock
++ XXX.level.block.TallDryGrassBlock
+- XXX.level.block.TallFlowerBlock
++ XXX.level.block.TallGrassBlock
+- XXX.level.block.TallSeagrassBlock
++ XXX.level.block.TargetBlock
+- XXX.level.block.TestBlock
++ XXX.level.block.TestInstanceBlock
+- XXX.level.block.TintedGlassBlock
++ XXX.level.block.TintedParticleLeavesBlock
+- XXX.level.block.TntBlock
++ XXX.level.block.TorchBlock
+- XXX.level.block.TorchflowerCropBlock
++ XXX.level.block.TransparentBlock
+- XXX.level.block.TrapDoorBlock
++ XXX.level.block.TrapDoorBlock$1
+- XXX.level.block.TrappedChestBlock
++ XXX.level.block.TrialSpawnerBlock
+- XXX.level.block.TripWireBlock
++ XXX.level.block.TripWireBlock$1
+- XXX.level.block.TripWireHookBlock
++ XXX.level.block.TurtleEggBlock
+- XXX.level.block.TwistingVinesBlock
++ XXX.level.block.TwistingVinesPlantBlock
+- XXX.level.block.UntintedParticleLeavesBlock
++ XXX.level.block.VaultBlock
+- XXX.level.block.VegetationBlock
++ XXX.level.block.VineBlock
+- XXX.level.block.VineBlock$1
++ XXX.level.block.WallBannerBlock
+- XXX.level.block.WallBlock
++ XXX.level.block.WallBlock$1
+- XXX.level.block.WallHangingSignBlock
++ XXX.level.block.WallSignBlock
+- XXX.level.block.WallSkullBlock
++ XXX.level.block.WallTorchBlock
+- XXX.level.block.WaterlilyBlock
++ XXX.level.block.WaterloggedTransparentBlock
+- XXX.level.block.WeatheringCopper
++ XXX.level.block.WeatheringCopper$WeatherState
+- XXX.level.block.WeatheringCopperBarsBlock
++ XXX.level.block.WeatheringCopperBlocks
+- XXX.level.block.WeatheringCopperBulbBlock
++ XXX.level.block.WeatheringCopperChainBlock
+- XXX.level.block.WeatheringCopperChestBlock
++ XXX.level.block.WeatheringCopperDoorBlock
+- XXX.level.block.WeatheringCopperFullBlock
++ XXX.level.block.WeatheringCopperGolemStatueBlock
+- XXX.level.block.WeatheringCopperGrateBlock
++ XXX.level.block.WeatheringCopperSlabBlock
+- XXX.level.block.WeatheringCopperStairBlock
++ XXX.level.block.WeatheringCopperTrapDoorBlock
+- XXX.level.block.WeatheringLanternBlock
++ XXX.level.block.WeatheringLightningRodBlock
+- XXX.level.block.WebBlock
++ XXX.level.block.WeepingVinesBlock
+- XXX.level.block.WeepingVinesPlantBlock
++ XXX.level.block.WeightedPressurePlateBlock
+- XXX.level.block.WetSpongeBlock
++ XXX.level.block.WitherRoseBlock
+- XXX.level.block.WitherSkullBlock
++ XXX.level.block.WitherWallSkullBlock
+- XXX.level.block.WoolCarpetBlock
++ XXX.level.border.BorderChangeListener
+- XXX.level.border.BorderStatus
+- XXX.level.border.package-info
++ XXX.level.border.WorldBorder
+- XXX.level.border.WorldBorder$BorderExtent
++ XXX.level.border.WorldBorder$MovingBorderExtent
+- XXX.level.border.WorldBorder$Settings
++ XXX.level.border.WorldBorder$StaticBorderExtent
++ XXX.level.chunk.BlockColumn
+- XXX.level.chunk.BulkSectionAccess
++ XXX.level.chunk.CarvingMask
+- XXX.level.chunk.CarvingMask$Mask
++ XXX.level.chunk.ChunkAccess
+- XXX.level.chunk.ChunkAccess$ChunkPathElement
++ XXX.level.chunk.ChunkAccess$PackedTicks
+- XXX.level.chunk.ChunkGenerator
+- XXX.level.chunk.ChunkGenerators
++ XXX.level.chunk.ChunkGeneratorStructureState
++ XXX.level.chunk.ChunkSource
+- XXX.level.chunk.Configuration
++ XXX.level.chunk.Configuration$Global
+- XXX.level.chunk.Configuration$Simple
++ XXX.level.chunk.DataLayer
+- XXX.level.chunk.EmptyLevelChunk
++ XXX.level.chunk.GlobalPalette
+- XXX.level.chunk.HashMapPalette
++ XXX.level.chunk.ImposterProtoChunk
+- XXX.level.chunk.LevelChunk
++ XXX.level.chunk.LevelChunk$1
+- XXX.level.chunk.LevelChunk$BoundTickingBlockEntity
++ XXX.level.chunk.LevelChunk$EntityCreationType
+- XXX.level.chunk.LevelChunk$PostLoadProcessor
++ XXX.level.chunk.LevelChunk$RebindableTickingBlockEntityWrapper
+- XXX.level.chunk.LevelChunk$UnsavedListener
++ XXX.level.chunk.LevelChunkSection
+- XXX.level.chunk.LevelChunkSection$1BlockCounter
++ XXX.level.chunk.LightChunk
+- XXX.level.chunk.LightChunkGetter
++ XXX.level.chunk.LinearPalette
+- XXX.level.chunk.MissingPaletteEntryException
++ XXX.level.chunk.package-info
++ XXX.level.chunk.Palette
+- XXX.level.chunk.Palette$Factory
+- XXX.level.chunk.PalettedContainer
++ XXX.level.chunk.PalettedContainer$CountConsumer
+- XXX.level.chunk.PalettedContainer$Data
++ XXX.level.chunk.PalettedContainerFactory
+- XXX.level.chunk.PalettedContainerRO
++ XXX.level.chunk.PalettedContainerRO$PackedData
+- XXX.level.chunk.PalettedContainerRO$Unpacker
++ XXX.level.chunk.PaletteResize
++ XXX.level.chunk.ProtoChunk
+- XXX.level.chunk.SingleValuePalette
++ XXX.level.chunk.Strategy
+- XXX.level.chunk.Strategy$1
++ XXX.level.chunk.Strategy$2
+- XXX.level.chunk.StructureAccess
++ XXX.level.chunk.UpgradeData
+- XXX.level.chunk.UpgradeData$BlockFixer
++ XXX.level.chunk.UpgradeData$BlockFixers
+- XXX.level.chunk.UpgradeData$BlockFixers$1
++ XXX.level.chunk.UpgradeData$BlockFixers$2
+- XXX.level.chunk.UpgradeData$BlockFixers$3
++ XXX.level.chunk.UpgradeData$BlockFixers$4
+- XXX.level.chunk.UpgradeData$BlockFixers$5
++ XXX.level.dimension.BuiltinDimensionTypes
+- XXX.level.dimension.DimensionDefaults
++ XXX.level.dimension.DimensionType
+- XXX.level.dimension.DimensionType$CardinalLightType
++ XXX.level.dimension.DimensionType$MonsterSettings
+- XXX.level.dimension.DimensionType$Skybox
++ XXX.level.dimension.LevelStem
++ XXX.level.dimension.package-info
+- XXX.level.entity.ChunkEntities
++ XXX.level.entity.ChunkStatusUpdateListener
+- XXX.level.entity.EntityAccess
++ XXX.level.entity.EntityInLevelCallback
+- XXX.level.entity.EntityInLevelCallback$1
++ XXX.level.entity.EntityLookup
+- XXX.level.entity.EntityPersistentStorage
++ XXX.level.entity.EntitySection
+- XXX.level.entity.EntitySectionStorage
++ XXX.level.entity.EntityTickList
+- XXX.level.entity.EntityTypeTest
++ XXX.level.entity.EntityTypeTest$1
+- XXX.level.entity.EntityTypeTest$2
++ XXX.level.entity.LevelCallback
+- XXX.level.entity.LevelEntityGetter
++ XXX.level.entity.LevelEntityGetterAdapter
+- XXX.level.entity.package-info
+- XXX.level.entity.PersistentEntitySectionManager
++ XXX.level.entity.PersistentEntitySectionManager$Callback
+- XXX.level.entity.PersistentEntitySectionManager$ChunkLoadStatus
++ XXX.level.entity.TransientEntitySectionManager
+- XXX.level.entity.TransientEntitySectionManager$Callback
+- XXX.level.entity.UniquelyIdentifyable
++ XXX.level.entity.UUIDLookup
++ XXX.level.entity.Visibility
++ XXX.level.gameevent.BlockPositionSource
+- XXX.level.gameevent.BlockPositionSource$Type
++ XXX.level.gameevent.DynamicGameEventListener
+- XXX.level.gameevent.EntityPositionSource
++ XXX.level.gameevent.EntityPositionSource$Type
+- XXX.level.gameevent.EuclideanGameEventListenerRegistry
++ XXX.level.gameevent.EuclideanGameEventListenerRegistry$OnEmptyAction
+- XXX.level.gameevent.GameEvent
++ XXX.level.gameevent.GameEvent$Context
+- XXX.level.gameevent.GameEvent$ListenerInfo
++ XXX.level.gameevent.GameEventDispatcher
+- XXX.level.gameevent.GameEventListener
++ XXX.level.gameevent.GameEventListener$DeliveryMode
+- XXX.level.gameevent.GameEventListener$Provider
++ XXX.level.gameevent.GameEventListenerRegistry
+- XXX.level.gameevent.GameEventListenerRegistry$1
++ XXX.level.gameevent.GameEventListenerRegistry$ListenerVisitor
+- XXX.level.gameevent.package-info
+- XXX.level.gameevent.PositionSource
++ XXX.level.gameevent.PositionSourceType
++ XXX.level.gamerules.GameRule
+- XXX.level.gamerules.GameRuleCategory
++ XXX.level.gamerules.GameRuleMap
+- XXX.level.gamerules.GameRuleMap$Builder
++ XXX.level.gamerules.GameRules
+- XXX.level.gamerules.GameRules$VisitorCaller
++ XXX.level.gamerules.GameRuleType
+- XXX.level.gamerules.GameRuleTypeVisitor
++ XXX.level.gamerules.package-info
+- XXX.level.levelgen.Aquifer
++ XXX.level.levelgen.Aquifer$1
+- XXX.level.levelgen.Aquifer$FluidPicker
++ XXX.level.levelgen.Aquifer$FluidStatus
+- XXX.level.levelgen.Aquifer$NoiseBasedAquifer
++ XXX.level.levelgen.Beardifier
+- XXX.level.levelgen.Beardifier$1
++ XXX.level.levelgen.Beardifier$Rigid
+- XXX.level.levelgen.BelowZeroRetrogen
++ XXX.level.levelgen.BelowZeroRetrogen$1
+- XXX.level.levelgen.BitRandomSource
++ XXX.level.levelgen.Column
+- XXX.level.levelgen.Column$Line
++ XXX.level.levelgen.Column$Range
+- XXX.level.levelgen.Column$Ray
++ XXX.level.levelgen.DebugLevelSource
+- XXX.level.levelgen.Density
++ XXX.level.levelgen.DensityFunction
+- XXX.level.levelgen.DensityFunction$ContextProvider
++ XXX.level.levelgen.DensityFunction$FunctionContext
+- XXX.level.levelgen.DensityFunction$NoiseHolder
++ XXX.level.levelgen.DensityFunction$SimpleFunction
+- XXX.level.levelgen.DensityFunction$SinglePointContext
++ XXX.level.levelgen.DensityFunction$Visitor
+- XXX.level.levelgen.DensityFunctions
++ XXX.level.levelgen.DensityFunctions$Ap2
+- XXX.level.levelgen.DensityFunctions$BeardifierMarker
++ XXX.level.levelgen.DensityFunctions$BeardifierOrMarker
+- XXX.level.levelgen.DensityFunctions$BlendAlpha
++ XXX.level.levelgen.DensityFunctions$BlendDensity
+- XXX.level.levelgen.DensityFunctions$BlendOffset
++ XXX.level.levelgen.DensityFunctions$Clamp
+- XXX.level.levelgen.DensityFunctions$Constant
++ XXX.level.levelgen.DensityFunctions$EndIslandDensityFunction
+- XXX.level.levelgen.DensityFunctions$FindTopSurface
++ XXX.level.levelgen.DensityFunctions$HolderHolder
+- XXX.level.levelgen.DensityFunctions$Mapped
++ XXX.level.levelgen.DensityFunctions$Mapped$Type
+- XXX.level.levelgen.DensityFunctions$Marker
++ XXX.level.levelgen.DensityFunctions$Marker$Type
+- XXX.level.levelgen.DensityFunctions$MarkerOrMarked
++ XXX.level.levelgen.DensityFunctions$MulOrAdd
+- XXX.level.levelgen.DensityFunctions$MulOrAdd$Type
++ XXX.level.levelgen.DensityFunctions$Noise
+- XXX.level.levelgen.DensityFunctions$PureTransformer
++ XXX.level.levelgen.DensityFunctions$RangeChoice
+- XXX.level.levelgen.DensityFunctions$Shift
++ XXX.level.levelgen.DensityFunctions$ShiftA
+- XXX.level.levelgen.DensityFunctions$ShiftB
+- XXX.level.levelgen.DensityFunctions$ShiftedNoise
++ XXX.level.levelgen.DensityFunctions$ShiftNoise
++ XXX.level.levelgen.DensityFunctions$Spline
+- XXX.level.levelgen.DensityFunctions$Spline$Coordinate
++ XXX.level.levelgen.DensityFunctions$Spline$Point
+- XXX.level.levelgen.DensityFunctions$TransformerWithContext
++ XXX.level.levelgen.DensityFunctions$TwoArgumentSimpleFunction
+- XXX.level.levelgen.DensityFunctions$TwoArgumentSimpleFunction$Type
++ XXX.level.levelgen.DensityFunctions$WeirdScaledSampler
+- XXX.level.levelgen.DensityFunctions$WeirdScaledSampler$RarityValueMapper
++ XXX.level.levelgen.DensityFunctions$YClampedGradient
+- XXX.level.levelgen.FlatLevelSource
++ XXX.level.levelgen.GenerationStep
+- XXX.level.levelgen.GenerationStep$Decoration
++ XXX.level.levelgen.GeodeBlockSettings
+- XXX.level.levelgen.GeodeCrackSettings
++ XXX.level.levelgen.GeodeLayerSettings
+- XXX.level.levelgen.Heightmap
++ XXX.level.levelgen.Heightmap$Types
+- XXX.level.levelgen.Heightmap$Usage
++ XXX.level.levelgen.LegacyRandomSource
+- XXX.level.levelgen.LegacyRandomSource$LegacyPositionalRandomFactory
++ XXX.level.levelgen.MarsagliaPolarGaussian
+- XXX.level.levelgen.NoiseBasedChunkGenerator
++ XXX.level.levelgen.NoiseChunk
+- XXX.level.levelgen.NoiseChunk$1
++ XXX.level.levelgen.NoiseChunk$2
+- XXX.level.levelgen.NoiseChunk$BlendAlpha
++ XXX.level.levelgen.NoiseChunk$BlendOffset
+- XXX.level.levelgen.NoiseChunk$BlockStateFiller
++ XXX.level.levelgen.NoiseChunk$Cache2D
+- XXX.level.levelgen.NoiseChunk$CacheAllInCell
++ XXX.level.levelgen.NoiseChunk$CacheOnce
+- XXX.level.levelgen.NoiseChunk$FlatCache
++ XXX.level.levelgen.NoiseChunk$NoiseChunkDensityFunction
+- XXX.level.levelgen.NoiseChunk$NoiseInterpolator
++ XXX.level.levelgen.NoiseGeneratorSettings
+- XXX.level.levelgen.NoiseRouter
++ XXX.level.levelgen.NoiseRouterData
+- XXX.level.levelgen.NoiseRouterData$QuantizedSpaghettiRarity
+- XXX.level.levelgen.Noises
++ XXX.level.levelgen.NoiseSettings
++ XXX.level.levelgen.OreVeinifier
+- XXX.level.levelgen.OreVeinifier$VeinType
+- XXX.level.levelgen.package-info
++ XXX.level.levelgen.PatrolSpawner
+- XXX.level.levelgen.PhantomSpawner
++ XXX.level.levelgen.PositionalRandomFactory
+- XXX.level.levelgen.RandomState
++ XXX.level.levelgen.RandomState$1
+- XXX.level.levelgen.RandomState$1NoiseWiringHelper
++ XXX.level.levelgen.RandomSupport
+- XXX.level.levelgen.RandomSupport$Seed128bit
++ XXX.level.levelgen.SingleThreadedRandomSource
+- XXX.level.levelgen.SurfaceRules
++ XXX.level.levelgen.SurfaceRules$AbovePreliminarySurface
+- XXX.level.levelgen.SurfaceRules$Bandlands
++ XXX.level.levelgen.SurfaceRules$BiomeConditionSource
+- XXX.level.levelgen.SurfaceRules$BiomeConditionSource$1BiomeCondition
++ XXX.level.levelgen.SurfaceRules$BlockRuleSource
+- XXX.level.levelgen.SurfaceRules$Condition
++ XXX.level.levelgen.SurfaceRules$ConditionSource
+- XXX.level.levelgen.SurfaceRules$Context
++ XXX.level.levelgen.SurfaceRules$Context$AbovePreliminarySurfaceCondition
+- XXX.level.levelgen.SurfaceRules$Context$HoleCondition
++ XXX.level.levelgen.SurfaceRules$Context$SteepMaterialCondition
+- XXX.level.levelgen.SurfaceRules$Context$TemperatureHelperCondition
++ XXX.level.levelgen.SurfaceRules$Hole
+- XXX.level.levelgen.SurfaceRules$LazyCondition
++ XXX.level.levelgen.SurfaceRules$LazyXZCondition
+- XXX.level.levelgen.SurfaceRules$LazyYCondition
++ XXX.level.levelgen.SurfaceRules$NoiseThresholdConditionSource
+- XXX.level.levelgen.SurfaceRules$NoiseThresholdConditionSource$1NoiseThresholdCondition
++ XXX.level.levelgen.SurfaceRules$NotCondition
+- XXX.level.levelgen.SurfaceRules$NotConditionSource
++ XXX.level.levelgen.SurfaceRules$RuleSource
+- XXX.level.levelgen.SurfaceRules$SequenceRule
++ XXX.level.levelgen.SurfaceRules$SequenceRuleSource
+- XXX.level.levelgen.SurfaceRules$StateRule
++ XXX.level.levelgen.SurfaceRules$Steep
+- XXX.level.levelgen.SurfaceRules$StoneDepthCheck
++ XXX.level.levelgen.SurfaceRules$StoneDepthCheck$1StoneDepthCondition
+- XXX.level.levelgen.SurfaceRules$SurfaceRule
++ XXX.level.levelgen.SurfaceRules$Temperature
+- XXX.level.levelgen.SurfaceRules$TestRule
++ XXX.level.levelgen.SurfaceRules$TestRuleSource
+- XXX.level.levelgen.SurfaceRules$VerticalGradientConditionSource
++ XXX.level.levelgen.SurfaceRules$VerticalGradientConditionSource$1VerticalGradientCondition
+- XXX.level.levelgen.SurfaceRules$WaterConditionSource
++ XXX.level.levelgen.SurfaceRules$WaterConditionSource$1WaterCondition
+- XXX.level.levelgen.SurfaceRules$YConditionSource
++ XXX.level.levelgen.SurfaceRules$YConditionSource$1YCondition
+- XXX.level.levelgen.SurfaceSystem
++ XXX.level.levelgen.SurfaceSystem$1
+- XXX.level.levelgen.ThreadSafeLegacyRandomSource
++ XXX.level.levelgen.VerticalAnchor
+- XXX.level.levelgen.VerticalAnchor$AboveBottom
++ XXX.level.levelgen.VerticalAnchor$Absolute
+- XXX.level.levelgen.VerticalAnchor$BelowTop
++ XXX.level.levelgen.WorldDimensions
+- XXX.level.levelgen.WorldDimensions$1Entry
++ XXX.level.levelgen.WorldDimensions$Complete
++ XXX.level.levelgen.WorldGenerationContext
++ XXX.level.levelgen.WorldgenRandom
+- XXX.level.levelgen.WorldgenRandom$Algorithm
+- XXX.level.levelgen.WorldGenSettings
+- XXX.level.levelgen.WorldOptions
++ XXX.level.levelgen.Xoroshiro128PlusPlus
+- XXX.level.levelgen.XoroshiroRandomSource
++ XXX.level.levelgen.XoroshiroRandomSource$XoroshiroPositionalRandomFactory
++ XXX.level.lighting.BlockLightEngine
+- XXX.level.lighting.BlockLightSectionStorage
++ XXX.level.lighting.BlockLightSectionStorage$BlockDataLayerStorageMap
+- XXX.level.lighting.ChunkSkyLightSources
++ XXX.level.lighting.DataLayerStorageMap
+- XXX.level.lighting.DynamicGraphMinFixedPoint
++ XXX.level.lighting.DynamicGraphMinFixedPoint$1
+- XXX.level.lighting.LayerLightEventListener
++ XXX.level.lighting.LayerLightEventListener$DummyLightLayerEventListener
+- XXX.level.lighting.LayerLightSectionStorage
++ XXX.level.lighting.LayerLightSectionStorage$SectionState
+- XXX.level.lighting.LayerLightSectionStorage$SectionType
+- XXX.level.lighting.LeveledPriorityQueue
++ XXX.level.lighting.LeveledPriorityQueue$1
++ XXX.level.lighting.LevelLightEngine
+- XXX.level.lighting.LightEngine
++ XXX.level.lighting.LightEngine$QueueEntry
+- XXX.level.lighting.LightEventListener
++ XXX.level.lighting.package-info
++ XXX.level.lighting.SkyLightEngine
+- XXX.level.lighting.SkyLightEngine$1
++ XXX.level.lighting.SkyLightSectionStorage
+- XXX.level.lighting.SkyLightSectionStorage$SkyDataLayerStorageMap
++ XXX.level.lighting.SpatialLongSet
+- XXX.level.lighting.SpatialLongSet$InternalMap
+- XXX.level.material.EmptyFluid
++ XXX.level.material.FlowingFluid
+- XXX.level.material.FlowingFluid$1
++ XXX.level.material.FlowingFluid$BlockStatePairKey
+- XXX.level.material.FlowingFluid$SpreadContext
++ XXX.level.material.Fluid
++ XXX.level.material.Fluids
+- XXX.level.material.FluidState
+- XXX.level.material.FogType
++ XXX.level.material.LavaFluid
+- XXX.level.material.LavaFluid$Flowing
++ XXX.level.material.LavaFluid$Source
+- XXX.level.material.MapColor
++ XXX.level.material.MapColor$Brightness
+- XXX.level.material.package-info
+- XXX.level.material.PushReaction
++ XXX.level.material.WaterFluid
+- XXX.level.material.WaterFluid$Flowing
++ XXX.level.material.WaterFluid$Source
+- XXX.level.pathfinder.AmphibiousNodeEvaluator
++ XXX.level.pathfinder.BinaryHeap
+- XXX.level.pathfinder.FlyNodeEvaluator
++ XXX.level.pathfinder.Node
+- XXX.level.pathfinder.NodeEvaluator
+- XXX.level.pathfinder.package-info
++ XXX.level.pathfinder.Path
+- XXX.level.pathfinder.Path$DebugData
++ XXX.level.pathfinder.PathComputationType
+- XXX.level.pathfinder.PathFinder
++ XXX.level.pathfinder.PathfindingContext
++ XXX.level.pathfinder.PathType
+- XXX.level.pathfinder.PathTypeCache
+- XXX.level.pathfinder.SwimNodeEvaluator
++ XXX.level.pathfinder.Target
+- XXX.level.pathfinder.WalkNodeEvaluator
++ XXX.level.pathfinder.WalkNodeEvaluator$1
++ XXX.level.portal.package-info
++ XXX.level.portal.PortalForcer
+- XXX.level.portal.PortalShape
++ XXX.level.portal.TeleportTransition
+- XXX.level.portal.TeleportTransition$PostTeleportTransition
++ XXX.level.progress.ChunkLoadStatusView
+- XXX.level.progress.LevelLoadListener
++ XXX.level.progress.LevelLoadListener$1
+- XXX.level.progress.LevelLoadListener$Stage
++ XXX.level.progress.LevelLoadProgressTracker
+- XXX.level.progress.LevelLoadProgressTracker$1
++ XXX.level.progress.LoggingLevelLoadListener
+- XXX.level.progress.LoggingLevelLoadListener$1
++ XXX.level.progress.package-info
+- XXX.level.redstone.CollectingNeighborUpdater
++ XXX.level.redstone.CollectingNeighborUpdater$FullNeighborUpdate
+- XXX.level.redstone.CollectingNeighborUpdater$MultiNeighborUpdate
++ XXX.level.redstone.CollectingNeighborUpdater$NeighborUpdates
+- XXX.level.redstone.CollectingNeighborUpdater$ShapeUpdate
++ XXX.level.redstone.CollectingNeighborUpdater$SimpleNeighborUpdate
+- XXX.level.redstone.DefaultRedstoneWireEvaluator
++ XXX.level.redstone.ExperimentalRedstoneUtils
+- XXX.level.redstone.ExperimentalRedstoneWireEvaluator
++ XXX.level.redstone.InstantNeighborUpdater
+- XXX.level.redstone.NeighborUpdater
++ XXX.level.redstone.Orientation
+- XXX.level.redstone.Orientation$SideBias
++ XXX.level.redstone.package-info
++ XXX.level.redstone.Redstone
+- XXX.level.redstone.RedstoneWireEvaluator
++ XXX.level.saveddata.package-info
+- XXX.level.saveddata.SavedData
++ XXX.level.saveddata.SavedDataType
+- XXX.level.storage.CommandStorage
++ XXX.level.storage.CommandStorage$Container
+- XXX.level.storage.DataVersion
++ XXX.level.storage.DerivedLevelData
+- XXX.level.storage.DimensionDataStorage
++ XXX.level.storage.FileNameDateFormatter
+- XXX.level.storage.LevelData
++ XXX.level.storage.LevelData$RespawnData
+- XXX.level.storage.LevelDataAndDimensions
++ XXX.level.storage.LevelResource
+- XXX.level.storage.LevelStorageException
++ XXX.level.storage.LevelStorageSource
+- XXX.level.storage.LevelStorageSource$LevelCandidates
++ XXX.level.storage.LevelStorageSource$LevelDirectory
+- XXX.level.storage.LevelStorageSource$LevelStorageAccess
++ XXX.level.storage.LevelStorageSource$LevelStorageAccess$1
+- XXX.level.storage.LevelStorageSource$LevelStorageAccess$2
++ XXX.level.storage.LevelSummary
+- XXX.level.storage.LevelSummary$BackupStatus
++ XXX.level.storage.LevelSummary$CorruptedLevelSummary
+- XXX.level.storage.LevelSummary$SymlinkLevelSummary
++ XXX.level.storage.LevelVersion
+- XXX.level.storage.package-info
+- XXX.level.storage.PlayerDataStorage
++ XXX.level.storage.PrimaryLevelData
+- XXX.level.storage.PrimaryLevelData$SpecialWorldProperty
++ XXX.level.storage.ServerLevelData
+- XXX.level.storage.TagValueInput
++ XXX.level.storage.TagValueInput$CompoundListWrapper
+- XXX.level.storage.TagValueInput$CompoundListWrapper$1
++ XXX.level.storage.TagValueInput$DecodeFromFieldFailedProblem
+- XXX.level.storage.TagValueInput$DecodeFromListFailedProblem
++ XXX.level.storage.TagValueInput$DecodeFromMapFailedProblem
+- XXX.level.storage.TagValueInput$ListWrapper
++ XXX.level.storage.TagValueInput$ListWrapper$1
+- XXX.level.storage.TagValueInput$TypedListWrapper
++ XXX.level.storage.TagValueInput$TypedListWrapper$1
+- XXX.level.storage.TagValueInput$UnexpectedListElementTypeProblem
++ XXX.level.storage.TagValueInput$UnexpectedNonNumberProblem
+- XXX.level.storage.TagValueInput$UnexpectedTypeProblem
++ XXX.level.storage.TagValueOutput
+- XXX.level.storage.TagValueOutput$EncodeToFieldFailedProblem
++ XXX.level.storage.TagValueOutput$EncodeToListFailedProblem
+- XXX.level.storage.TagValueOutput$EncodeToMapFailedProblem
++ XXX.level.storage.TagValueOutput$ListWrapper
+- XXX.level.storage.TagValueOutput$TypedListWrapper
++ XXX.level.storage.ValueInput
+- XXX.level.storage.ValueInput$TypedInputList
++ XXX.level.storage.ValueInput$ValueInputList
+- XXX.level.storage.ValueInputContextHelper
++ XXX.level.storage.ValueInputContextHelper$1
+- XXX.level.storage.ValueInputContextHelper$2
++ XXX.level.storage.ValueInputContextHelper$3
+- XXX.level.storage.ValueOutput
++ XXX.level.storage.ValueOutput$TypedOutputList
+- XXX.level.storage.ValueOutput$ValueOutputList
++ XXX.level.storage.WorldData
+- XXX.level.storage.WritableLevelData
++ XXX.level.timers.FunctionCallback
+- XXX.level.timers.FunctionTagCallback
++ XXX.level.timers.package-info
++ XXX.level.timers.TimerCallback
+- XXX.level.timers.TimerCallbacks
++ XXX.level.timers.TimerQueue
+- XXX.level.timers.TimerQueue$Event
+- XXX.level.validation.ContentValidationException
++ XXX.level.validation.DirectoryValidator
+- XXX.level.validation.DirectoryValidator$1
++ XXX.level.validation.ForbiddenSymlinkInfo
++ XXX.level.validation.package-info
+- XXX.level.validation.PathAllowList
++ XXX.level.validation.PathAllowList$ConfigEntry
+- XXX.level.validation.PathAllowList$EntryType
+- XXX.levelgen.blending.Blender
++ XXX.levelgen.blending.Blender$1
+- XXX.levelgen.blending.Blender$BlendingOutput
++ XXX.levelgen.blending.Blender$CellValueGetter
+- XXX.levelgen.blending.Blender$DistanceGetter
++ XXX.levelgen.blending.BlendingData
+- XXX.levelgen.blending.BlendingData$BiomeConsumer
++ XXX.levelgen.blending.BlendingData$DensityConsumer
+- XXX.levelgen.blending.BlendingData$HeightConsumer
++ XXX.levelgen.blending.BlendingData$Packed
+- XXX.levelgen.blending.package-info
++ XXX.levelgen.blockpredicates.AllOfPredicate
+- XXX.levelgen.blockpredicates.AnyOfPredicate
++ XXX.levelgen.blockpredicates.BlockPredicate
+- XXX.levelgen.blockpredicates.BlockPredicateType
++ XXX.levelgen.blockpredicates.CombiningPredicate
+- XXX.levelgen.blockpredicates.HasSturdyFacePredicate
++ XXX.levelgen.blockpredicates.InsideWorldBoundsPredicate
++ XXX.levelgen.blockpredicates.MatchingBlocksPredicate
+- XXX.levelgen.blockpredicates.MatchingBlockTagPredicate
+- XXX.levelgen.blockpredicates.MatchingFluidsPredicate
++ XXX.levelgen.blockpredicates.NotPredicate
+- XXX.levelgen.blockpredicates.package-info
+- XXX.levelgen.blockpredicates.ReplaceablePredicate
++ XXX.levelgen.blockpredicates.SolidPredicate
+- XXX.levelgen.blockpredicates.StateTestingPredicate
++ XXX.levelgen.blockpredicates.TrueBlockPredicate
+- XXX.levelgen.blockpredicates.UnobstructedPredicate
++ XXX.levelgen.blockpredicates.WouldSurvivePredicate
++ XXX.levelgen.carver.CanyonCarverConfiguration
+- XXX.levelgen.carver.CanyonCarverConfiguration$CanyonShapeConfiguration
++ XXX.levelgen.carver.CanyonWorldCarver
+- XXX.levelgen.carver.CarverConfiguration
++ XXX.levelgen.carver.CarverDebugSettings
+- XXX.levelgen.carver.CarvingContext
++ XXX.levelgen.carver.CaveCarverConfiguration
+- XXX.levelgen.carver.CaveWorldCarver
++ XXX.levelgen.carver.ConfiguredWorldCarver
+- XXX.levelgen.carver.NetherWorldCarver
++ XXX.levelgen.carver.package-info
++ XXX.levelgen.carver.WorldCarver
+- XXX.levelgen.carver.WorldCarver$CarveSkipChecker
+- XXX.levelgen.feature.AbstractHugeMushroomFeature
++ XXX.levelgen.feature.BambooFeature
+- XXX.levelgen.feature.BasaltColumnsFeature
++ XXX.levelgen.feature.BasaltPillarFeature
+- XXX.levelgen.feature.BlockBlobFeature
++ XXX.levelgen.feature.BlockColumnFeature
+- XXX.levelgen.feature.BlockPileFeature
++ XXX.levelgen.feature.BlueIceFeature
+- XXX.levelgen.feature.BonusChestFeature
++ XXX.levelgen.feature.ChorusPlantFeature
+- XXX.levelgen.feature.ConfiguredFeature
++ XXX.levelgen.feature.CoralClawFeature
+- XXX.levelgen.feature.CoralFeature
++ XXX.levelgen.feature.CoralMushroomFeature
+- XXX.levelgen.feature.CoralTreeFeature
++ XXX.levelgen.feature.DeltaFeature
+- XXX.levelgen.feature.DesertWellFeature
++ XXX.levelgen.feature.DiskFeature
+- XXX.levelgen.feature.DripstoneClusterFeature
++ XXX.levelgen.feature.DripstoneUtils
+- XXX.levelgen.feature.EndGatewayFeature
++ XXX.levelgen.feature.EndIslandFeature
+- XXX.levelgen.feature.EndPlatformFeature
++ XXX.levelgen.feature.EndPodiumFeature
+- XXX.levelgen.feature.FallenTreeFeature
++ XXX.levelgen.feature.Feature
+- XXX.levelgen.feature.FeatureCountTracker
++ XXX.levelgen.feature.FeatureCountTracker$1
+- XXX.levelgen.feature.FeatureCountTracker$FeatureData
++ XXX.levelgen.feature.FeatureCountTracker$LevelData
+- XXX.levelgen.feature.FeaturePlaceContext
++ XXX.levelgen.feature.FillLayerFeature
+- XXX.levelgen.feature.FossilFeature
++ XXX.levelgen.feature.FossilFeatureConfiguration
+- XXX.levelgen.feature.GeodeFeature
++ XXX.levelgen.feature.GlowstoneFeature
+- XXX.levelgen.feature.HugeBrownMushroomFeature
++ XXX.levelgen.feature.HugeFungusConfiguration
+- XXX.levelgen.feature.HugeFungusFeature
++ XXX.levelgen.feature.HugeRedMushroomFeature
++ XXX.levelgen.feature.IcebergFeature
+- XXX.levelgen.feature.IceSpikeFeature
+- XXX.levelgen.feature.KelpFeature
++ XXX.levelgen.feature.LakeFeature
+- XXX.levelgen.feature.LakeFeature$Configuration
++ XXX.levelgen.feature.LargeDripstoneFeature
+- XXX.levelgen.feature.LargeDripstoneFeature$LargeDripstone
++ XXX.levelgen.feature.LargeDripstoneFeature$WindOffsetter
+- XXX.levelgen.feature.MonsterRoomFeature
++ XXX.levelgen.feature.MultifaceGrowthFeature
+- XXX.levelgen.feature.NetherForestVegetationFeature
++ XXX.levelgen.feature.NoOpFeature
+- XXX.levelgen.feature.OreFeature
++ XXX.levelgen.feature.package-info
++ XXX.levelgen.feature.PointedDripstoneFeature
+- XXX.levelgen.feature.RandomBooleanSelectorFeature
++ XXX.levelgen.feature.RandomPatchFeature
+- XXX.levelgen.feature.RandomSelectorFeature
++ XXX.levelgen.feature.ReplaceBlobsFeature
+- XXX.levelgen.feature.ReplaceBlockFeature
++ XXX.levelgen.feature.RootSystemFeature
+- XXX.levelgen.feature.ScatteredOreFeature
++ XXX.levelgen.feature.SculkPatchFeature
++ XXX.levelgen.feature.SeagrassFeature
+- XXX.levelgen.feature.SeaPickleFeature
+- XXX.levelgen.feature.SimpleBlockFeature
++ XXX.levelgen.feature.SimpleRandomSelectorFeature
+- XXX.levelgen.feature.SnowAndFreezeFeature
++ XXX.levelgen.feature.SpikeFeature
+- XXX.levelgen.feature.SpikeFeature$EndSpike
++ XXX.levelgen.feature.SpikeFeature$SpikeCacheLoader
+- XXX.levelgen.feature.SpringFeature
++ XXX.levelgen.feature.TreeFeature
+- XXX.levelgen.feature.TreeFeature$1
++ XXX.levelgen.feature.TwistingVinesFeature
+- XXX.levelgen.feature.UnderwaterMagmaFeature
++ XXX.levelgen.feature.VegetationPatchFeature
+- XXX.levelgen.feature.VinesFeature
++ XXX.levelgen.feature.VoidStartPlatformFeature
+- XXX.levelgen.feature.WaterloggedVegetationPatchFeature
++ XXX.levelgen.feature.WeepingVinesFeature
+- XXX.levelgen.feature.WeightedPlacedFeature
+- XXX.levelgen.flat.FlatLayerInfo
++ XXX.levelgen.flat.FlatLevelGeneratorPreset
+- XXX.levelgen.flat.FlatLevelGeneratorPresets
++ XXX.levelgen.flat.FlatLevelGeneratorPresets$Bootstrap
+- XXX.levelgen.flat.FlatLevelGeneratorSettings
++ XXX.levelgen.flat.package-info
+- XXX.levelgen.heightproviders.BiasedToBottomHeight
++ XXX.levelgen.heightproviders.ConstantHeight
+- XXX.levelgen.heightproviders.HeightProvider
++ XXX.levelgen.heightproviders.HeightProviderType
+- XXX.levelgen.heightproviders.package-info
+- XXX.levelgen.heightproviders.TrapezoidHeight
++ XXX.levelgen.heightproviders.UniformHeight
+- XXX.levelgen.heightproviders.VeryBiasedToBottomHeight
++ XXX.levelgen.heightproviders.WeightedListHeight
++ XXX.levelgen.material.MaterialRuleList
++ XXX.levelgen.material.package-info
+- XXX.levelgen.material.WorldGenMaterialRule
++ XXX.levelgen.placement.BiomeFilter
+- XXX.levelgen.placement.BlockPredicateFilter
++ XXX.levelgen.placement.CaveSurface
+- XXX.levelgen.placement.CountOnEveryLayerPlacement
++ XXX.levelgen.placement.CountPlacement
+- XXX.levelgen.placement.EnvironmentScanPlacement
++ XXX.levelgen.placement.FixedPlacement
++ XXX.levelgen.placement.HeightmapPlacement
+- XXX.levelgen.placement.HeightRangePlacement
+- XXX.levelgen.placement.InSquarePlacement
++ XXX.levelgen.placement.NoiseBasedCountPlacement
+- XXX.levelgen.placement.NoiseThresholdCountPlacement
++ XXX.levelgen.placement.package-info
++ XXX.levelgen.placement.PlacedFeature
+- XXX.levelgen.placement.PlacementContext
++ XXX.levelgen.placement.PlacementFilter
+- XXX.levelgen.placement.PlacementModifier
++ XXX.levelgen.placement.PlacementModifierType
+- XXX.levelgen.placement.RandomOffsetPlacement
++ XXX.levelgen.placement.RarityFilter
+- XXX.levelgen.placement.RepeatingPlacement
++ XXX.levelgen.placement.SurfaceRelativeThresholdFilter
+- XXX.levelgen.placement.SurfaceWaterDepthFilter
++ XXX.levelgen.presets.package-info
+- XXX.levelgen.presets.WorldPreset
++ XXX.levelgen.presets.WorldPresets
+- XXX.levelgen.presets.WorldPresets$Bootstrap
+- XXX.levelgen.structure.BoundingBox
++ XXX.levelgen.structure.BoundingBox$1
++ XXX.levelgen.structure.BuiltinStructures
+- XXX.levelgen.structure.BuiltinStructureSets
+- XXX.levelgen.structure.LegacyStructureDataHandler
+- XXX.levelgen.structure.package-info
++ XXX.levelgen.structure.PoolElementStructurePiece
+- XXX.levelgen.structure.PostPlacementProcessor
++ XXX.levelgen.structure.ScatteredFeaturePiece
+- XXX.levelgen.structure.SinglePieceStructure
++ XXX.levelgen.structure.SinglePieceStructure$PieceConstructor
+- XXX.levelgen.structure.Structure
++ XXX.levelgen.structure.Structure$GenerationContext
+- XXX.levelgen.structure.Structure$GenerationStub
++ XXX.levelgen.structure.Structure$StructureSettings
+- XXX.levelgen.structure.Structure$StructureSettings$Builder
++ XXX.levelgen.structure.StructureCheck
+- XXX.levelgen.structure.StructureCheckResult
++ XXX.levelgen.structure.StructureFeatureIndexSavedData
+- XXX.levelgen.structure.StructurePiece
++ XXX.levelgen.structure.StructurePiece$1
+- XXX.levelgen.structure.StructurePiece$BlockSelector
++ XXX.levelgen.structure.StructurePieceAccessor
+- XXX.levelgen.structure.StructureSet
++ XXX.levelgen.structure.StructureSet$StructureSelectionEntry
+- XXX.levelgen.structure.StructureSpawnOverride
++ XXX.levelgen.structure.StructureSpawnOverride$BoundingBoxType
+- XXX.levelgen.structure.StructureStart
++ XXX.levelgen.structure.StructureType
+- XXX.levelgen.structure.TemplateStructurePiece
++ XXX.levelgen.structure.TerrainAdjustment
+- XXX.levelgen.synth.BlendedNoise
++ XXX.levelgen.synth.ImprovedNoise
+- XXX.levelgen.synth.NoiseUtils
++ XXX.levelgen.synth.NormalNoise
+- XXX.levelgen.synth.NormalNoise$NoiseParameters
+- XXX.levelgen.synth.package-info
++ XXX.levelgen.synth.PerlinNoise
+- XXX.levelgen.synth.PerlinSimplexNoise
++ XXX.levelgen.synth.SimplexNoise
++ XXX.login.custom.CustomQueryAnswerPayload
+- XXX.login.custom.CustomQueryPayload
++ XXX.login.custom.DiscardedQueryAnswerPayload
+- XXX.login.custom.DiscardedQueryPayload
++ XXX.login.custom.package-info
++ XXX.loot.entries.AlternativesEntry
+- XXX.loot.entries.AlternativesEntry$1
++ XXX.loot.entries.AlternativesEntry$Builder
+- XXX.loot.entries.ComposableEntryContainer
++ XXX.loot.entries.CompositeEntryBase
+- XXX.loot.entries.CompositeEntryBase$1
++ XXX.loot.entries.CompositeEntryBase$CompositeEntryConstructor
+- XXX.loot.entries.DynamicLoot
++ XXX.loot.entries.EmptyLootItem
+- XXX.loot.entries.EntryGroup
++ XXX.loot.entries.EntryGroup$Builder
+- XXX.loot.entries.LootItem
++ XXX.loot.entries.LootPoolEntries
+- XXX.loot.entries.LootPoolEntry
++ XXX.loot.entries.LootPoolEntryContainer
+- XXX.loot.entries.LootPoolEntryContainer$Builder
++ XXX.loot.entries.LootPoolEntryType
+- XXX.loot.entries.LootPoolSingletonContainer
++ XXX.loot.entries.LootPoolSingletonContainer$1
+- XXX.loot.entries.LootPoolSingletonContainer$Builder
++ XXX.loot.entries.LootPoolSingletonContainer$DummyBuilder
+- XXX.loot.entries.LootPoolSingletonContainer$EntryBase
++ XXX.loot.entries.LootPoolSingletonContainer$EntryConstructor
+- XXX.loot.entries.NestedLootTable
++ XXX.loot.entries.NestedLootTable$1
++ XXX.loot.entries.package-info
+- XXX.loot.entries.SequentialEntry
++ XXX.loot.entries.SequentialEntry$Builder
+- XXX.loot.entries.SlotLoot
++ XXX.loot.entries.TagEntry
+- XXX.loot.entries.TagEntry$1
+- XXX.loot.functions.ApplyBonusCount
++ XXX.loot.functions.ApplyBonusCount$BinomialWithBonusCount
+- XXX.loot.functions.ApplyBonusCount$Formula
++ XXX.loot.functions.ApplyBonusCount$FormulaType
+- XXX.loot.functions.ApplyBonusCount$OreDrops
++ XXX.loot.functions.ApplyBonusCount$UniformBonusCount
+- XXX.loot.functions.ApplyExplosionDecay
++ XXX.loot.functions.CopyBlockState
+- XXX.loot.functions.CopyBlockState$Builder
++ XXX.loot.functions.CopyComponentsFunction
+- XXX.loot.functions.CopyComponentsFunction$BlockEntitySource
++ XXX.loot.functions.CopyComponentsFunction$Builder
+- XXX.loot.functions.CopyComponentsFunction$DirectSource
++ XXX.loot.functions.CopyCustomDataFunction
+- XXX.loot.functions.CopyCustomDataFunction$Builder
++ XXX.loot.functions.CopyCustomDataFunction$CopyOperation
+- XXX.loot.functions.CopyCustomDataFunction$MergeStrategy
++ XXX.loot.functions.CopyCustomDataFunction$MergeStrategy$1
+- XXX.loot.functions.CopyCustomDataFunction$MergeStrategy$2
++ XXX.loot.functions.CopyCustomDataFunction$MergeStrategy$3
+- XXX.loot.functions.CopyNameFunction
++ XXX.loot.functions.DiscardItem
+- XXX.loot.functions.EnchantedCountIncreaseFunction
++ XXX.loot.functions.EnchantedCountIncreaseFunction$Builder
+- XXX.loot.functions.EnchantRandomlyFunction
++ XXX.loot.functions.EnchantRandomlyFunction$Builder
+- XXX.loot.functions.EnchantWithLevelsFunction
++ XXX.loot.functions.EnchantWithLevelsFunction$Builder
+- XXX.loot.functions.ExplorationMapFunction
++ XXX.loot.functions.ExplorationMapFunction$Builder
+- XXX.loot.functions.FillPlayerHead
++ XXX.loot.functions.FilteredFunction
+- XXX.loot.functions.FilteredFunction$Builder
++ XXX.loot.functions.FunctionReference
+- XXX.loot.functions.FunctionUserBuilder
++ XXX.loot.functions.LimitCount
+- XXX.loot.functions.ListOperation
++ XXX.loot.functions.ListOperation$Append
+- XXX.loot.functions.ListOperation$Insert
++ XXX.loot.functions.ListOperation$ReplaceAll
+- XXX.loot.functions.ListOperation$ReplaceSection
++ XXX.loot.functions.ListOperation$StandAlone
+- XXX.loot.functions.ListOperation$Type
++ XXX.loot.functions.LootItemConditionalFunction
+- XXX.loot.functions.LootItemConditionalFunction$Builder
++ XXX.loot.functions.LootItemConditionalFunction$DummyBuilder
+- XXX.loot.functions.LootItemFunction
++ XXX.loot.functions.LootItemFunction$Builder
++ XXX.loot.functions.LootItemFunctions
+- XXX.loot.functions.LootItemFunctionType
+- XXX.loot.functions.ModifyContainerContents
+- XXX.loot.functions.package-info
++ XXX.loot.functions.SequenceFunction
+- XXX.loot.functions.SetAttributesFunction
++ XXX.loot.functions.SetAttributesFunction$Builder
+- XXX.loot.functions.SetAttributesFunction$Modifier
++ XXX.loot.functions.SetAttributesFunction$ModifierBuilder
+- XXX.loot.functions.SetBannerPatternFunction
++ XXX.loot.functions.SetBannerPatternFunction$Builder
+- XXX.loot.functions.SetBookCoverFunction
++ XXX.loot.functions.SetComponentsFunction
+- XXX.loot.functions.SetContainerContents
++ XXX.loot.functions.SetContainerContents$Builder
+- XXX.loot.functions.SetContainerLootTable
++ XXX.loot.functions.SetCustomDataFunction
+- XXX.loot.functions.SetCustomModelDataFunction
++ XXX.loot.functions.SetEnchantmentsFunction
+- XXX.loot.functions.SetEnchantmentsFunction$Builder
++ XXX.loot.functions.SetFireworkExplosionFunction
+- XXX.loot.functions.SetFireworksFunction
++ XXX.loot.functions.SetInstrumentFunction
+- XXX.loot.functions.SetItemCountFunction
++ XXX.loot.functions.SetItemDamageFunction
+- XXX.loot.functions.SetItemFunction
++ XXX.loot.functions.SetLoreFunction
+- XXX.loot.functions.SetLoreFunction$Builder
++ XXX.loot.functions.SetNameFunction
+- XXX.loot.functions.SetNameFunction$Target
++ XXX.loot.functions.SetOminousBottleAmplifierFunction
+- XXX.loot.functions.SetPotionFunction
++ XXX.loot.functions.SetStewEffectFunction
+- XXX.loot.functions.SetStewEffectFunction$Builder
++ XXX.loot.functions.SetStewEffectFunction$EffectEntry
+- XXX.loot.functions.SetWritableBookPagesFunction
++ XXX.loot.functions.SetWrittenBookPagesFunction
+- XXX.loot.functions.SmeltItemFunction
++ XXX.loot.functions.ToggleTooltips
+- XXX.loot.packs.LootData
++ XXX.loot.packs.package-info
++ XXX.loot.packs.TradeRebalanceChestLoot
+- XXX.loot.packs.TradeRebalanceLootTableProvider
++ XXX.loot.packs.VanillaArchaeologyLoot
+- XXX.loot.packs.VanillaBlockInteractLoot
++ XXX.loot.packs.VanillaBlockLoot
+- XXX.loot.packs.VanillaChargedCreeperExplosionLoot
++ XXX.loot.packs.VanillaChargedCreeperExplosionLoot$Entry
+- XXX.loot.packs.VanillaChestLoot
++ XXX.loot.packs.VanillaEntityInteractLoot
+- XXX.loot.packs.VanillaEntityLoot
++ XXX.loot.packs.VanillaEquipmentLoot
+- XXX.loot.packs.VanillaFishingLoot
++ XXX.loot.packs.VanillaGiftLoot
+- XXX.loot.packs.VanillaLootTableProvider
++ XXX.loot.packs.VanillaPiglinBarterLoot
+- XXX.loot.packs.VanillaShearingLoot
++ XXX.loot.parameters.LootContextParams
+- XXX.loot.parameters.LootContextParamSets
+- XXX.loot.parameters.package-info
++ XXX.loot.predicates.AllOfCondition
+- XXX.loot.predicates.AllOfCondition$Builder
++ XXX.loot.predicates.AnyOfCondition
+- XXX.loot.predicates.AnyOfCondition$Builder
++ XXX.loot.predicates.BonusLevelTableCondition
+- XXX.loot.predicates.CompositeLootItemCondition
++ XXX.loot.predicates.CompositeLootItemCondition$Builder
+- XXX.loot.predicates.ConditionReference
++ XXX.loot.predicates.ConditionUserBuilder
+- XXX.loot.predicates.DamageSourceCondition
++ XXX.loot.predicates.EnchantmentActiveCheck
+- XXX.loot.predicates.EntityHasScoreCondition
++ XXX.loot.predicates.EntityHasScoreCondition$Builder
+- XXX.loot.predicates.ExplosionCondition
++ XXX.loot.predicates.InvertedLootItemCondition
+- XXX.loot.predicates.LocationCheck
++ XXX.loot.predicates.LootItemBlockStatePropertyCondition
+- XXX.loot.predicates.LootItemBlockStatePropertyCondition$Builder
++ XXX.loot.predicates.LootItemCondition
+- XXX.loot.predicates.LootItemCondition$Builder
+- XXX.loot.predicates.LootItemConditions
++ XXX.loot.predicates.LootItemConditionType
++ XXX.loot.predicates.LootItemEntityPropertyCondition
+- XXX.loot.predicates.LootItemKilledByPlayerCondition
++ XXX.loot.predicates.LootItemRandomChanceCondition
+- XXX.loot.predicates.LootItemRandomChanceWithEnchantedBonusCondition
++ XXX.loot.predicates.MatchTool
++ XXX.loot.predicates.package-info
+- XXX.loot.predicates.TimeCheck
++ XXX.loot.predicates.TimeCheck$Builder
+- XXX.loot.predicates.ValueCheckCondition
++ XXX.loot.predicates.WeatherCheck
+- XXX.loot.predicates.WeatherCheck$Builder
+- XXX.metadata.animation.AnimationFrame
++ XXX.metadata.animation.AnimationMetadataSection
+- XXX.metadata.animation.FrameSize
++ XXX.metadata.animation.package-info
++ XXX.metadata.animation.VillagerMetadataSection
+- XXX.metadata.animation.VillagerMetadataSection$Hat
+- XXX.metadata.gui.GuiMetadataSection
++ XXX.metadata.gui.GuiSpriteScaling
+- XXX.metadata.gui.GuiSpriteScaling$NineSlice
++ XXX.metadata.gui.GuiSpriteScaling$NineSlice$Border
+- XXX.metadata.gui.GuiSpriteScaling$Stretch
++ XXX.metadata.gui.GuiSpriteScaling$Tile
+- XXX.metadata.gui.GuiSpriteScaling$Type
++ XXX.metadata.gui.package-info
+- XXX.metadata.language.LanguageMetadataSection
++ XXX.metadata.language.package-info
++ XXX.metadata.pack.package-info
++ XXX.metadata.pack.PackFormat
+- XXX.metadata.pack.PackFormat$1
++ XXX.metadata.pack.PackFormat$IntermediaryFormat
+- XXX.metadata.pack.PackFormat$IntermediaryFormatHolder
++ XXX.metadata.pack.PackMetadataSection
+- XXX.metadata.pack.PackMetadataSection$1
+- XXX.metadata.texture.package-info
++ XXX.metadata.texture.TextureMetadataSection
++ XXX.metrics.profiling.ActiveMetricsRecorder
+- XXX.metrics.profiling.InactiveMetricsRecorder
++ XXX.metrics.profiling.MetricsRecorder
+- XXX.metrics.profiling.package-info
+- XXX.metrics.profiling.ProfilerSamplerAdapter
++ XXX.metrics.profiling.ServerMetricsSamplersProvider
+- XXX.metrics.profiling.ServerMetricsSamplersProvider$1
++ XXX.metrics.profiling.ServerMetricsSamplersProvider$CpuStats
++ XXX.metrics.storage.MetricsPersister
++ XXX.metrics.storage.package-info
+- XXX.metrics.storage.RecordedDeviation
+- XXX.minecraft.client.TextureFilteringMethod
++ XXX.minecraft.client.ToggleKeyMapping
+- XXX.minecraft.client.User
+- XXX.minecraft.commands.BrigadierExceptions
++ XXX.minecraft.commands.CacheableFunction
+- XXX.minecraft.commands.CommandBuildContext
++ XXX.minecraft.commands.CommandBuildContext$1
+- XXX.minecraft.commands.CommandResultCallback
++ XXX.minecraft.commands.CommandResultCallback$1
+- XXX.minecraft.commands.Commands
++ XXX.minecraft.commands.Commands$1
+- XXX.minecraft.commands.Commands$2
++ XXX.minecraft.commands.Commands$2$1
+- XXX.minecraft.commands.Commands$CommandSelection
++ XXX.minecraft.commands.Commands$ParseFunction
+- XXX.minecraft.commands.CommandSigningContext
++ XXX.minecraft.commands.CommandSigningContext$1
+- XXX.minecraft.commands.CommandSigningContext$SignedArguments
++ XXX.minecraft.commands.CommandSource
+- XXX.minecraft.commands.CommandSource$1
++ XXX.minecraft.commands.CommandSourceStack
+- XXX.minecraft.commands.ExecutionCommandSource
++ XXX.minecraft.commands.FunctionInstantiationException
++ XXX.minecraft.commands.package-info
+- XXX.minecraft.commands.ParserUtils
++ XXX.minecraft.commands.SharedSuggestionProvider
+- XXX.minecraft.commands.SharedSuggestionProvider$ElementSuggestionType
++ XXX.minecraft.commands.SharedSuggestionProvider$TextCoordinates
++ XXX.minecraft.core.AxisCycle
+- XXX.minecraft.core.AxisCycle$1
++ XXX.minecraft.core.AxisCycle$2
+- XXX.minecraft.core.AxisCycle$3
++ XXX.minecraft.core.BlockBox
+- XXX.minecraft.core.BlockBox$1
++ XXX.minecraft.core.BlockMath
+- XXX.minecraft.core.BlockPos
++ XXX.minecraft.core.BlockPos$1
+- XXX.minecraft.core.BlockPos$2
++ XXX.minecraft.core.BlockPos$3
+- XXX.minecraft.core.BlockPos$4
++ XXX.minecraft.core.BlockPos$5
+- XXX.minecraft.core.BlockPos$6
++ XXX.minecraft.core.BlockPos$7
+- XXX.minecraft.core.BlockPos$MutableBlockPos
++ XXX.minecraft.core.BlockPos$TraversalNodeStatus
+- XXX.minecraft.core.ClientAsset
++ XXX.minecraft.core.ClientAsset$DownloadedTexture
+- XXX.minecraft.core.ClientAsset$ResourceTexture
++ XXX.minecraft.core.ClientAsset$Texture
+- XXX.minecraft.core.Cloner
++ XXX.minecraft.core.Cloner$Factory
+- XXX.minecraft.core.Cursor3D
++ XXX.minecraft.core.DefaultedMappedRegistry
+- XXX.minecraft.core.DefaultedRegistry
++ XXX.minecraft.core.Direction
+- XXX.minecraft.core.Direction$Axis
++ XXX.minecraft.core.Direction$Axis$1
+- XXX.minecraft.core.Direction$Axis$2
++ XXX.minecraft.core.Direction$Axis$3
+- XXX.minecraft.core.Direction$AxisDirection
++ XXX.minecraft.core.Direction$Plane
+- XXX.minecraft.core.Direction8
++ XXX.minecraft.core.FrontAndTop
+- XXX.minecraft.core.GlobalPos
++ XXX.minecraft.core.Holder
+- XXX.minecraft.core.Holder$Direct
++ XXX.minecraft.core.Holder$Kind
+- XXX.minecraft.core.Holder$Reference
++ XXX.minecraft.core.Holder$Reference$Type
+- XXX.minecraft.core.HolderGetter
++ XXX.minecraft.core.HolderGetter$Provider
+- XXX.minecraft.core.HolderLookup
++ XXX.minecraft.core.HolderLookup$Provider
+- XXX.minecraft.core.HolderLookup$Provider$1
++ XXX.minecraft.core.HolderLookup$RegistryLookup
+- XXX.minecraft.core.HolderLookup$RegistryLookup$1
++ XXX.minecraft.core.HolderLookup$RegistryLookup$Delegate
+- XXX.minecraft.core.HolderOwner
++ XXX.minecraft.core.HolderSet
+- XXX.minecraft.core.HolderSet$1
++ XXX.minecraft.core.HolderSet$Direct
+- XXX.minecraft.core.HolderSet$ListBacked
++ XXX.minecraft.core.HolderSet$Named
+- XXX.minecraft.core.IdMap
++ XXX.minecraft.core.IdMapper
+- XXX.minecraft.core.LayeredRegistryAccess
++ XXX.minecraft.core.MappedRegistry
+- XXX.minecraft.core.MappedRegistry$1
++ XXX.minecraft.core.MappedRegistry$2
+- XXX.minecraft.core.MappedRegistry$3
++ XXX.minecraft.core.MappedRegistry$TagSet
+- XXX.minecraft.core.MappedRegistry$TagSet$1
++ XXX.minecraft.core.MappedRegistry$TagSet$2
+- XXX.minecraft.core.NonNullList
++ XXX.minecraft.core.package-info
++ XXX.minecraft.core.Position
+- XXX.minecraft.core.QuartPos
++ XXX.minecraft.core.RegistrationInfo
+- XXX.minecraft.core.Registry
++ XXX.minecraft.core.Registry$1
+- XXX.minecraft.core.Registry$PendingTags
++ XXX.minecraft.core.RegistryAccess
+- XXX.minecraft.core.RegistryAccess$1
++ XXX.minecraft.core.RegistryAccess$1FrozenAccess
+- XXX.minecraft.core.RegistryAccess$Frozen
++ XXX.minecraft.core.RegistryAccess$ImmutableRegistryAccess
+- XXX.minecraft.core.RegistryAccess$RegistryEntry
++ XXX.minecraft.core.RegistryCodecs
+- XXX.minecraft.core.RegistrySetBuilder
++ XXX.minecraft.core.RegistrySetBuilder$1
+- XXX.minecraft.core.RegistrySetBuilder$1Entry
++ XXX.minecraft.core.RegistrySetBuilder$2
+- XXX.minecraft.core.RegistrySetBuilder$3
++ XXX.minecraft.core.RegistrySetBuilder$3$1
+- XXX.minecraft.core.RegistrySetBuilder$BuildState
++ XXX.minecraft.core.RegistrySetBuilder$BuildState$1
+- XXX.minecraft.core.RegistrySetBuilder$EmptyTagLookup
++ XXX.minecraft.core.RegistrySetBuilder$EmptyTagLookupWrapper
+- XXX.minecraft.core.RegistrySetBuilder$EmptyTagRegistryLookup
++ XXX.minecraft.core.RegistrySetBuilder$LazyHolder
+- XXX.minecraft.core.RegistrySetBuilder$PatchedRegistries
++ XXX.minecraft.core.RegistrySetBuilder$RegisteredValue
+- XXX.minecraft.core.RegistrySetBuilder$RegistryBootstrap
++ XXX.minecraft.core.RegistrySetBuilder$RegistryContents
+- XXX.minecraft.core.RegistrySetBuilder$RegistryStub
++ XXX.minecraft.core.RegistrySetBuilder$UniversalLookup
+- XXX.minecraft.core.RegistrySetBuilder$UniversalOwner
++ XXX.minecraft.core.RegistrySetBuilder$ValueAndHolder
+- XXX.minecraft.core.RegistrySynchronization
++ XXX.minecraft.core.RegistrySynchronization$PackedRegistryEntry
+- XXX.minecraft.core.Rotations
++ XXX.minecraft.core.Rotations$1
+- XXX.minecraft.core.SectionPos
++ XXX.minecraft.core.SectionPos$1
+- XXX.minecraft.core.UUIDUtil
++ XXX.minecraft.core.UUIDUtil$1
+- XXX.minecraft.core.Vec3i
++ XXX.minecraft.core.WritableRegistry
+- XXX.minecraft.data.AtlasIds
++ XXX.minecraft.data.BlockFamilies
+- XXX.minecraft.data.BlockFamily
++ XXX.minecraft.data.BlockFamily$Builder
+- XXX.minecraft.data.BlockFamily$Variant
++ XXX.minecraft.data.CachedOutput
+- XXX.minecraft.data.DataGenerator
++ XXX.minecraft.data.DataGenerator$PackGenerator
+- XXX.minecraft.data.DataProvider
++ XXX.minecraft.data.DataProvider$Factory
+- XXX.minecraft.data.HashCache
++ XXX.minecraft.data.HashCache$1
+- XXX.minecraft.data.HashCache$CacheUpdater
++ XXX.minecraft.data.HashCache$ProviderCache
+- XXX.minecraft.data.HashCache$ProviderCacheBuilder
++ XXX.minecraft.data.HashCache$UpdateFunction
+- XXX.minecraft.data.HashCache$UpdateResult
++ XXX.minecraft.data.Main
+- XXX.minecraft.data.package-info
+- XXX.minecraft.data.PackOutput
++ XXX.minecraft.data.PackOutput$PathProvider
+- XXX.minecraft.data.PackOutput$Target
++ XXX.minecraft.gametest.Main
++ XXX.minecraft.gametest.package-info
+- XXX.minecraft.gizmos.ArrowGizmo
++ XXX.minecraft.gizmos.CircleGizmo
+- XXX.minecraft.gizmos.CuboidGizmo
++ XXX.minecraft.gizmos.Gizmo
+- XXX.minecraft.gizmos.GizmoCollector
++ XXX.minecraft.gizmos.GizmoCollector$1
+- XXX.minecraft.gizmos.GizmoPrimitives
++ XXX.minecraft.gizmos.GizmoProperties
++ XXX.minecraft.gizmos.Gizmos
+- XXX.minecraft.gizmos.Gizmos$TemporaryCollection
+- XXX.minecraft.gizmos.GizmoStyle
++ XXX.minecraft.gizmos.LineGizmo
++ XXX.minecraft.gizmos.package-info
+- XXX.minecraft.gizmos.PointGizmo
++ XXX.minecraft.gizmos.RectGizmo
+- XXX.minecraft.gizmos.RectGizmo$1
++ XXX.minecraft.gizmos.SimpleGizmoCollector
+- XXX.minecraft.gizmos.SimpleGizmoCollector$GizmoInstance
++ XXX.minecraft.gizmos.TextGizmo
+- XXX.minecraft.gizmos.TextGizmo$Style
+- XXX.minecraft.locale.DeprecatedTranslationsInfo
++ XXX.minecraft.locale.Language
+- XXX.minecraft.locale.Language$1
++ XXX.minecraft.locale.package-info
+- XXX.minecraft.nbt.ByteArrayTag
++ XXX.minecraft.nbt.ByteArrayTag$1
+- XXX.minecraft.nbt.ByteTag
++ XXX.minecraft.nbt.ByteTag$1
+- XXX.minecraft.nbt.ByteTag$Cache
++ XXX.minecraft.nbt.CollectionTag
+- XXX.minecraft.nbt.CollectionTag$1
++ XXX.minecraft.nbt.CompoundTag
+- XXX.minecraft.nbt.CompoundTag$1
++ XXX.minecraft.nbt.CompoundTag$2
+- XXX.minecraft.nbt.DoubleTag
++ XXX.minecraft.nbt.DoubleTag$1
+- XXX.minecraft.nbt.EndTag
++ XXX.minecraft.nbt.EndTag$1
+- XXX.minecraft.nbt.FloatTag
++ XXX.minecraft.nbt.FloatTag$1
+- XXX.minecraft.nbt.IntArrayTag
++ XXX.minecraft.nbt.IntArrayTag$1
+- XXX.minecraft.nbt.IntTag
++ XXX.minecraft.nbt.IntTag$1
+- XXX.minecraft.nbt.IntTag$Cache
++ XXX.minecraft.nbt.ListTag
+- XXX.minecraft.nbt.ListTag$1
++ XXX.minecraft.nbt.ListTag$2
+- XXX.minecraft.nbt.LongArrayTag
++ XXX.minecraft.nbt.LongArrayTag$1
+- XXX.minecraft.nbt.LongTag
++ XXX.minecraft.nbt.LongTag$1
+- XXX.minecraft.nbt.LongTag$Cache
++ XXX.minecraft.nbt.NbtAccounter
+- XXX.minecraft.nbt.NbtAccounterException
++ XXX.minecraft.nbt.NbtException
+- XXX.minecraft.nbt.NbtFormatException
++ XXX.minecraft.nbt.NbtIo
+- XXX.minecraft.nbt.NbtIo$1
++ XXX.minecraft.nbt.NbtIo$StringFallbackDataOutput
+- XXX.minecraft.nbt.NbtOps
++ XXX.minecraft.nbt.NbtOps$1
+- XXX.minecraft.nbt.NbtOps$ByteListCollector
++ XXX.minecraft.nbt.NbtOps$GenericListCollector
+- XXX.minecraft.nbt.NbtOps$IntListCollector
++ XXX.minecraft.nbt.NbtOps$ListCollector
+- XXX.minecraft.nbt.NbtOps$LongListCollector
++ XXX.minecraft.nbt.NbtOps$NbtRecordBuilder
+- XXX.minecraft.nbt.NbtUtils
++ XXX.minecraft.nbt.NumericTag
+- XXX.minecraft.nbt.package-info
+- XXX.minecraft.nbt.PrimitiveTag
++ XXX.minecraft.nbt.ReportedNbtException
+- XXX.minecraft.nbt.ShortTag
++ XXX.minecraft.nbt.ShortTag$1
+- XXX.minecraft.nbt.ShortTag$Cache
++ XXX.minecraft.nbt.SnbtGrammar
+- XXX.minecraft.nbt.SnbtGrammar$1
++ XXX.minecraft.nbt.SnbtGrammar$2
+- XXX.minecraft.nbt.SnbtGrammar$3
++ XXX.minecraft.nbt.SnbtGrammar$4
+- XXX.minecraft.nbt.SnbtGrammar$5
++ XXX.minecraft.nbt.SnbtGrammar$ArrayPrefix
+- XXX.minecraft.nbt.SnbtGrammar$ArrayPrefix$1
++ XXX.minecraft.nbt.SnbtGrammar$ArrayPrefix$2
+- XXX.minecraft.nbt.SnbtGrammar$ArrayPrefix$3
++ XXX.minecraft.nbt.SnbtGrammar$Base
+- XXX.minecraft.nbt.SnbtGrammar$IntegerLiteral
++ XXX.minecraft.nbt.SnbtGrammar$IntegerSuffix
+- XXX.minecraft.nbt.SnbtGrammar$Sign
++ XXX.minecraft.nbt.SnbtGrammar$Signed
+- XXX.minecraft.nbt.SnbtGrammar$SignedPrefix
++ XXX.minecraft.nbt.SnbtGrammar$SimpleHexLiteralParseRule
+- XXX.minecraft.nbt.SnbtGrammar$TypeSuffix
++ XXX.minecraft.nbt.SnbtOperations
+- XXX.minecraft.nbt.SnbtOperations$1
++ XXX.minecraft.nbt.SnbtOperations$2
+- XXX.minecraft.nbt.SnbtOperations$3
++ XXX.minecraft.nbt.SnbtOperations$BuiltinKey
+- XXX.minecraft.nbt.SnbtOperations$BuiltinOperation
++ XXX.minecraft.nbt.SnbtPrinterTagVisitor
+- XXX.minecraft.nbt.StreamTagVisitor
++ XXX.minecraft.nbt.StreamTagVisitor$EntryResult
+- XXX.minecraft.nbt.StreamTagVisitor$ValueResult
++ XXX.minecraft.nbt.StringTag
+- XXX.minecraft.nbt.StringTag$1
++ XXX.minecraft.nbt.StringTagVisitor
+- XXX.minecraft.nbt.Tag
++ XXX.minecraft.nbt.TagParser
+- XXX.minecraft.nbt.TagType
++ XXX.minecraft.nbt.TagType$1
+- XXX.minecraft.nbt.TagType$2
++ XXX.minecraft.nbt.TagType$StaticSize
+- XXX.minecraft.nbt.TagType$VariableSize
++ XXX.minecraft.nbt.TagTypes
+- XXX.minecraft.nbt.TagVisitor
++ XXX.minecraft.nbt.TextComponentTagVisitor
++ XXX.minecraft.network.BandwidthDebugMonitor
+- XXX.minecraft.network.CipherBase
++ XXX.minecraft.network.CipherDecoder
+- XXX.minecraft.network.CipherEncoder
++ XXX.minecraft.network.ClientboundPacketListener
+- XXX.minecraft.network.CompressionDecoder
++ XXX.minecraft.network.CompressionEncoder
+- XXX.minecraft.network.Connection
++ XXX.minecraft.network.Connection$1
+- XXX.minecraft.network.Connection$2
++ XXX.minecraft.network.Connection$3
+- XXX.minecraft.network.ConnectionProtocol
++ XXX.minecraft.network.DisconnectionDetails
+- XXX.minecraft.network.FriendlyByteBuf
++ XXX.minecraft.network.HandlerNames
+- XXX.minecraft.network.HashedPatchMap
++ XXX.minecraft.network.HashedPatchMap$HashGenerator
+- XXX.minecraft.network.HashedStack
++ XXX.minecraft.network.HashedStack$1
+- XXX.minecraft.network.HashedStack$ActualItem
++ XXX.minecraft.network.HiddenByteBuf
+- XXX.minecraft.network.LocalFrameDecoder
++ XXX.minecraft.network.LocalFrameEncoder
+- XXX.minecraft.network.LpVec3
++ XXX.minecraft.network.MonitoredLocalFrameDecoder
+- XXX.minecraft.network.package-info
+- XXX.minecraft.network.PacketBundlePacker
++ XXX.minecraft.network.PacketBundleUnpacker
+- XXX.minecraft.network.PacketDecoder
++ XXX.minecraft.network.PacketEncoder
+- XXX.minecraft.network.PacketListener
++ XXX.minecraft.network.PacketProcessor
+- XXX.minecraft.network.PacketProcessor$ListenerAndPacket
++ XXX.minecraft.network.PacketSendListener
+- XXX.minecraft.network.ProtocolInfo
++ XXX.minecraft.network.ProtocolInfo$Details
+- XXX.minecraft.network.ProtocolInfo$Details$PacketVisitor
++ XXX.minecraft.network.ProtocolInfo$DetailsProvider
+- XXX.minecraft.network.ProtocolSwapHandler
++ XXX.minecraft.network.RateKickingConnection
+- XXX.minecraft.network.RegistryFriendlyByteBuf
++ XXX.minecraft.network.ServerboundPacketListener
+- XXX.minecraft.network.SkipPacketDecoderException
++ XXX.minecraft.network.SkipPacketEncoderException
+- XXX.minecraft.network.SkipPacketException
++ XXX.minecraft.network.TickablePacketListener
+- XXX.minecraft.network.UnconfiguredPipelineHandler
++ XXX.minecraft.network.UnconfiguredPipelineHandler$Inbound
+- XXX.minecraft.network.UnconfiguredPipelineHandler$InboundConfigurationTask
++ XXX.minecraft.network.UnconfiguredPipelineHandler$Outbound
+- XXX.minecraft.network.UnconfiguredPipelineHandler$OutboundConfigurationTask
++ XXX.minecraft.network.Utf8String
+- XXX.minecraft.network.VarInt
+- XXX.minecraft.network.Varint21FrameDecoder
++ XXX.minecraft.network.Varint21LengthFieldPrepender
++ XXX.minecraft.network.VarLong
+- XXX.minecraft.obfuscate.DontObfuscate
++ XXX.minecraft.obfuscate.package-info
++ XXX.minecraft.realms.package-info
++ XXX.minecraft.realms.RealmsConnect
+- XXX.minecraft.realms.RealmsConnect$1
++ XXX.minecraft.realms.RealmsLabel
+- XXX.minecraft.realms.RealmsScreen
++ XXX.minecraft.realms.RepeatedNarrator
+- XXX.minecraft.realms.RepeatedNarrator$Params
+- XXX.minecraft.recipebook.package-info
+- XXX.minecraft.recipebook.PlaceRecipeHelper
++ XXX.minecraft.recipebook.PlaceRecipeHelper$Output
+- XXX.minecraft.recipebook.ServerPlaceRecipe
++ XXX.minecraft.recipebook.ServerPlaceRecipe$CraftingMenuAccess
++ XXX.minecraft.references.Blocks
+- XXX.minecraft.references.Items
++ XXX.minecraft.references.package-info
+- XXX.minecraft.resources.DelegatingOps
++ XXX.minecraft.resources.DelegatingOps$DelegateListBuilder
+- XXX.minecraft.resources.DelegatingOps$DelegateRecordBuilder
++ XXX.minecraft.resources.DependantName
+- XXX.minecraft.resources.FileToIdConverter
++ XXX.minecraft.resources.HolderSetCodec
+- XXX.minecraft.resources.Identifier
++ XXX.minecraft.resources.package-info
++ XXX.minecraft.resources.RegistryDataLoader
+- XXX.minecraft.resources.RegistryDataLoader$1
++ XXX.minecraft.resources.RegistryDataLoader$Loader
+- XXX.minecraft.resources.RegistryDataLoader$LoadingFunction
++ XXX.minecraft.resources.RegistryDataLoader$NetworkedRegistryData
+- XXX.minecraft.resources.RegistryDataLoader$RegistryData
++ XXX.minecraft.resources.RegistryFileCodec
+- XXX.minecraft.resources.RegistryFixedCodec
++ XXX.minecraft.resources.RegistryOps
+- XXX.minecraft.resources.RegistryOps$HolderLookupAdapter
++ XXX.minecraft.resources.RegistryOps$RegistryInfo
+- XXX.minecraft.resources.RegistryOps$RegistryInfoLookup
++ XXX.minecraft.resources.ResourceKey
+- XXX.minecraft.resources.ResourceKey$InternKey
+- XXX.minecraft.server.Bootstrap
++ XXX.minecraft.server.Bootstrap$1
+- XXX.minecraft.server.ChainedJsonException
++ XXX.minecraft.server.ChainedJsonException$Entry
+- XXX.minecraft.server.ConsoleInput
++ XXX.minecraft.server.DebugLoggedPrintStream
+- XXX.minecraft.server.Eula
++ XXX.minecraft.server.LoggedPrintStream
+- XXX.minecraft.server.Main
++ XXX.minecraft.server.Main$1
+- XXX.minecraft.server.MinecraftServer
++ XXX.minecraft.server.MinecraftServer$1
+- XXX.minecraft.server.MinecraftServer$2
++ XXX.minecraft.server.MinecraftServer$ReloadableResources
+- XXX.minecraft.server.MinecraftServer$ServerResourcePackInfo
++ XXX.minecraft.server.MinecraftServer$TimeProfiler
+- XXX.minecraft.server.MinecraftServer$TimeProfiler$1
+- XXX.minecraft.server.package-info
++ XXX.minecraft.server.PlayerAdvancements
+- XXX.minecraft.server.PlayerAdvancements$Data
++ XXX.minecraft.server.RegistryLayer
+- XXX.minecraft.server.ReloadableServerRegistries
++ XXX.minecraft.server.ReloadableServerRegistries$Holder
+- XXX.minecraft.server.ReloadableServerRegistries$LoadResult
++ XXX.minecraft.server.ReloadableServerResources
+- XXX.minecraft.server.RunningOnDifferentThreadException
++ XXX.minecraft.server.ServerAdvancementManager
+- XXX.minecraft.server.ServerFunctionLibrary
++ XXX.minecraft.server.ServerFunctionManager
+- XXX.minecraft.server.ServerInfo
++ XXX.minecraft.server.ServerInterface
+- XXX.minecraft.server.ServerLinks
++ XXX.minecraft.server.ServerLinks$Entry
+- XXX.minecraft.server.ServerLinks$KnownLinkType
++ XXX.minecraft.server.ServerLinks$UntrustedEntry
+- XXX.minecraft.server.ServerScoreboard
++ XXX.minecraft.server.ServerTickRateManager
+- XXX.minecraft.server.Services
++ XXX.minecraft.server.SuppressedExceptionCollector
+- XXX.minecraft.server.SuppressedExceptionCollector$LongEntry
++ XXX.minecraft.server.SuppressedExceptionCollector$ShortEntry
+- XXX.minecraft.server.TickTask
++ XXX.minecraft.server.WorldLoader
+- XXX.minecraft.server.WorldLoader$DataLoadContext
++ XXX.minecraft.server.WorldLoader$DataLoadOutput
+- XXX.minecraft.server.WorldLoader$InitConfig
++ XXX.minecraft.server.WorldLoader$PackConfig
+- XXX.minecraft.server.WorldLoader$ResultFactory
++ XXX.minecraft.server.WorldLoader$WorldDataSupplier
+- XXX.minecraft.server.WorldStem
+- XXX.minecraft.sounds.Music
++ XXX.minecraft.sounds.Musics
++ XXX.minecraft.sounds.package-info
+- XXX.minecraft.sounds.SoundEvent
++ XXX.minecraft.sounds.SoundEvents
+- XXX.minecraft.sounds.SoundSource
++ XXX.minecraft.stats.package-info
+- XXX.minecraft.stats.RecipeBook
++ XXX.minecraft.stats.RecipeBookSettings
+- XXX.minecraft.stats.RecipeBookSettings$1
++ XXX.minecraft.stats.RecipeBookSettings$TypeSettings
+- XXX.minecraft.stats.ServerRecipeBook
++ XXX.minecraft.stats.ServerRecipeBook$DisplayResolver
+- XXX.minecraft.stats.ServerRecipeBook$Packed
++ XXX.minecraft.stats.ServerStatsCounter
+- XXX.minecraft.stats.Stat
++ XXX.minecraft.stats.StatFormatter
++ XXX.minecraft.stats.Stats
+- XXX.minecraft.stats.StatsCounter
+- XXX.minecraft.stats.StatType
+- XXX.minecraft.tags.BannerPatternTags
++ XXX.minecraft.tags.BiomeTags
+- XXX.minecraft.tags.BlockTags
++ XXX.minecraft.tags.DamageTypeTags
+- XXX.minecraft.tags.DialogTags
++ XXX.minecraft.tags.EnchantmentTags
+- XXX.minecraft.tags.EntityTypeTags
++ XXX.minecraft.tags.FlatLevelGeneratorPresetTags
+- XXX.minecraft.tags.FluidTags
++ XXX.minecraft.tags.GameEventTags
+- XXX.minecraft.tags.InstrumentTags
++ XXX.minecraft.tags.ItemTags
+- XXX.minecraft.tags.package-info
+- XXX.minecraft.tags.PaintingVariantTags
++ XXX.minecraft.tags.PoiTypeTags
+- XXX.minecraft.tags.StructureTags
++ XXX.minecraft.tags.TagBuilder
+- XXX.minecraft.tags.TagEntry
++ XXX.minecraft.tags.TagEntry$Lookup
+- XXX.minecraft.tags.TagFile
++ XXX.minecraft.tags.TagKey
+- XXX.minecraft.tags.TagLoader
++ XXX.minecraft.tags.TagLoader$1
+- XXX.minecraft.tags.TagLoader$ElementLookup
++ XXX.minecraft.tags.TagLoader$EntryWithSource
+- XXX.minecraft.tags.TagLoader$LoadResult
++ XXX.minecraft.tags.TagLoader$SortingEntry
+- XXX.minecraft.tags.TagNetworkSerialization
++ XXX.minecraft.tags.TagNetworkSerialization$NetworkPayload
+- XXX.minecraft.tags.TimelineTags
++ XXX.minecraft.tags.WorldPresetTags
+- XXX.minecraft.util.AbortableIterationConsumer
++ XXX.minecraft.util.AbortableIterationConsumer$Continuation
+- XXX.minecraft.util.AbstractListBuilder
++ XXX.minecraft.util.ARGB
++ XXX.minecraft.util.ArrayListDeque
+- XXX.minecraft.util.ArrayListDeque$DescendingIterator
++ XXX.minecraft.util.ArrayListDeque$ReversedView
+- XXX.minecraft.util.BinaryAnimator
++ XXX.minecraft.util.BitStorage
+- XXX.minecraft.util.BlockUtil
++ XXX.minecraft.util.BlockUtil$FoundRectangle
+- XXX.minecraft.util.BlockUtil$IntBounds
++ XXX.minecraft.util.BoundedFloatFunction
+- XXX.minecraft.util.BoundedFloatFunction$1
++ XXX.minecraft.util.BoundedFloatFunction$2
+- XXX.minecraft.util.Brightness
++ XXX.minecraft.util.ByIdMap
+- XXX.minecraft.util.ByIdMap$OutOfBoundsStrategy
++ XXX.minecraft.util.ClassInstanceMultiMap
+- XXX.minecraft.util.ClassTreeIdRegistry
++ XXX.minecraft.util.ColorRGBA
+- XXX.minecraft.util.CommonColors
++ XXX.minecraft.util.CommonLinks
+- XXX.minecraft.util.CrudeIncrementalIntIdentityHashBiMap
++ XXX.minecraft.util.Crypt
+- XXX.minecraft.util.Crypt$ByteArrayToKeyFunction
++ XXX.minecraft.util.Crypt$SaltSignaturePair
+- XXX.minecraft.util.Crypt$SaltSupplier
++ XXX.minecraft.util.CryptException
+- XXX.minecraft.util.CsvOutput
++ XXX.minecraft.util.CsvOutput$Builder
+- XXX.minecraft.util.CubicSpline
++ XXX.minecraft.util.CubicSpline$1Point
+- XXX.minecraft.util.CubicSpline$Builder
++ XXX.minecraft.util.CubicSpline$Constant
+- XXX.minecraft.util.CubicSpline$CoordinateVisitor
++ XXX.minecraft.util.CubicSpline$Multipoint
+- XXX.minecraft.util.DelegateDataOutput
++ XXX.minecraft.util.DependencySorter
+- XXX.minecraft.util.DependencySorter$Entry
++ XXX.minecraft.util.DirectoryLock
+- XXX.minecraft.util.DirectoryLock$LockException
++ XXX.minecraft.util.Ease
+- XXX.minecraft.util.EasingType
++ XXX.minecraft.util.EasingType$CubicBezier
+- XXX.minecraft.util.EasingType$CubicBezier$CubicCurve
++ XXX.minecraft.util.EasingType$CubicBezierControls
+- XXX.minecraft.util.EncoderCache
++ XXX.minecraft.util.EncoderCache$1
+- XXX.minecraft.util.EncoderCache$2
++ XXX.minecraft.util.EncoderCache$Key
+- XXX.minecraft.util.ExceptionCollector
++ XXX.minecraft.util.ExtraCodecs
+- XXX.minecraft.util.ExtraCodecs$1
++ XXX.minecraft.util.ExtraCodecs$1ContextRetrievalCodec
+- XXX.minecraft.util.ExtraCodecs$2
++ XXX.minecraft.util.ExtraCodecs$3
+- XXX.minecraft.util.ExtraCodecs$4
++ XXX.minecraft.util.ExtraCodecs$5
+- XXX.minecraft.util.ExtraCodecs$6
++ XXX.minecraft.util.ExtraCodecs$7
+- XXX.minecraft.util.ExtraCodecs$LateBoundIdMapper
++ XXX.minecraft.util.ExtraCodecs$StrictUnboundedMapCodec
+- XXX.minecraft.util.ExtraCodecs$TagOrElementLocation
++ XXX.minecraft.util.FastBufferedInputStream
+- XXX.minecraft.util.FileSystemUtil
++ XXX.minecraft.util.FileUtil
+- XXX.minecraft.util.FileZipper
++ XXX.minecraft.util.FormattedCharSequence
+- XXX.minecraft.util.FormattedCharSink
++ XXX.minecraft.util.FutureChain
+- XXX.minecraft.util.Graph
++ XXX.minecraft.util.GsonHelper
+- XXX.minecraft.util.GsonHelper$CountedAppendable
++ XXX.minecraft.util.HashOps
+- XXX.minecraft.util.HashOps$ListHashBuilder
++ XXX.minecraft.util.HashOps$MapHashBuilder
+- XXX.minecraft.util.HttpUtil
++ XXX.minecraft.util.HttpUtil$DownloadProgressListener
+- XXX.minecraft.util.IdentifierPattern
++ XXX.minecraft.util.InclusiveRange
+- XXX.minecraft.util.KeyDispatchDataCodec
++ XXX.minecraft.util.Keyframe
+- XXX.minecraft.util.KeyframeTrack
++ XXX.minecraft.util.KeyframeTrack$Builder
+- XXX.minecraft.util.KeyframeTrackSampler
++ XXX.minecraft.util.KeyframeTrackSampler$Segment
+- XXX.minecraft.util.LenientJsonParser
++ XXX.minecraft.util.LinearCongruentialGenerator
+- XXX.minecraft.util.ListAndDeque
++ XXX.minecraft.util.MemoryReserve
+- XXX.minecraft.util.ModCheck
++ XXX.minecraft.util.ModCheck$Confidence
+- XXX.minecraft.util.Mth
++ XXX.minecraft.util.NativeModuleLister
+- XXX.minecraft.util.NativeModuleLister$NativeModuleInfo
++ XXX.minecraft.util.NativeModuleLister$NativeModuleVersion
+- XXX.minecraft.util.NullOps
++ XXX.minecraft.util.NullOps$1
+- XXX.minecraft.util.NullOps$NullListBuilder
++ XXX.minecraft.util.NullOps$NullMapBuilder
++ XXX.minecraft.util.package-info
+- XXX.minecraft.util.ParticleUtils
++ XXX.minecraft.util.PlaceholderLookupProvider
+- XXX.minecraft.util.PlaceholderLookupProvider$1
++ XXX.minecraft.util.PlaceholderLookupProvider$2
+- XXX.minecraft.util.PlaceholderLookupProvider$UniversalLookup
++ XXX.minecraft.util.PngInfo
+- XXX.minecraft.util.ProblemReporter
++ XXX.minecraft.util.ProblemReporter$1
+- XXX.minecraft.util.ProblemReporter$Collector
++ XXX.minecraft.util.ProblemReporter$Collector$Entry
+- XXX.minecraft.util.ProblemReporter$Collector$ProblemTreeNode
++ XXX.minecraft.util.ProblemReporter$ElementReferencePathElement
+- XXX.minecraft.util.ProblemReporter$FieldPathElement
++ XXX.minecraft.util.ProblemReporter$IndexedFieldPathElement
+- XXX.minecraft.util.ProblemReporter$IndexedPathElement
++ XXX.minecraft.util.ProblemReporter$PathElement
+- XXX.minecraft.util.ProblemReporter$Problem
++ XXX.minecraft.util.ProblemReporter$RootElementPathElement
+- XXX.minecraft.util.ProblemReporter$RootFieldPathElement
++ XXX.minecraft.util.ProblemReporter$ScopedCollector
+- XXX.minecraft.util.ProgressListener
++ XXX.minecraft.util.RandomSource
+- XXX.minecraft.util.RegistryContextSwapper
++ XXX.minecraft.util.SegmentedAnglePrecision
+- XXX.minecraft.util.SequencedPriorityIterator
++ XXX.minecraft.util.SignatureUpdater
+- XXX.minecraft.util.SignatureUpdater$Output
++ XXX.minecraft.util.SignatureValidator
+- XXX.minecraft.util.Signer
++ XXX.minecraft.util.SimpleBitStorage
+- XXX.minecraft.util.SimpleBitStorage$InitializationException
++ XXX.minecraft.util.SingleKeyCache
+- XXX.minecraft.util.SmoothDouble
++ XXX.minecraft.util.SortedArraySet
+- XXX.minecraft.util.SortedArraySet$ArrayIterator
++ XXX.minecraft.util.SpawnUtil
+- XXX.minecraft.util.SpawnUtil$Strategy
++ XXX.minecraft.util.SpecialDates
+- XXX.minecraft.util.StaticCache2D
++ XXX.minecraft.util.StaticCache2D$Initializer
+- XXX.minecraft.util.StrictJsonParser
++ XXX.minecraft.util.StringDecomposer
+- XXX.minecraft.util.StringRepresentable
++ XXX.minecraft.util.StringRepresentable$1
+- XXX.minecraft.util.StringRepresentable$EnumCodec
++ XXX.minecraft.util.StringRepresentable$StringRepresentableCodec
+- XXX.minecraft.util.StringUtil
++ XXX.minecraft.util.TaskChainer
+- XXX.minecraft.util.TaskChainer$1
++ XXX.minecraft.util.ThreadingDetector
+- XXX.minecraft.util.TickThrottler
++ XXX.minecraft.util.TimeSource
+- XXX.minecraft.util.TimeSource$NanoTimeSource
++ XXX.minecraft.util.TimeUtil
+- XXX.minecraft.util.ToFloatFunction
++ XXX.minecraft.util.TriState
+- XXX.minecraft.util.Tuple
++ XXX.minecraft.util.Unit
+- XXX.minecraft.util.Util
++ XXX.minecraft.util.Util$1
+- XXX.minecraft.util.Util$10
++ XXX.minecraft.util.Util$11
+- XXX.minecraft.util.Util$2
++ XXX.minecraft.util.Util$3
+- XXX.minecraft.util.Util$4
++ XXX.minecraft.util.Util$5
+- XXX.minecraft.util.Util$6
++ XXX.minecraft.util.Util$7
+- XXX.minecraft.util.Util$8
++ XXX.minecraft.util.Util$9
+- XXX.minecraft.util.Util$OS
++ XXX.minecraft.util.Util$OS$1
+- XXX.minecraft.util.Util$OS$2
++ XXX.minecraft.util.VisibleForDebug
+- XXX.minecraft.util.ZeroBitStorage
++ XXX.minecraft.world.BossEvent
+- XXX.minecraft.world.BossEvent$BossBarColor
++ XXX.minecraft.world.BossEvent$BossBarOverlay
+- XXX.minecraft.world.Clearable
++ XXX.minecraft.world.CompoundContainer
+- XXX.minecraft.world.Container
++ XXX.minecraft.world.Container$1
+- XXX.minecraft.world.Container$ContainerIterator
++ XXX.minecraft.world.ContainerHelper
+- XXX.minecraft.world.ContainerListener
++ XXX.minecraft.world.Containers
+- XXX.minecraft.world.Difficulty
++ XXX.minecraft.world.DifficultyInstance
+- XXX.minecraft.world.InteractionHand
++ XXX.minecraft.world.InteractionResult
+- XXX.minecraft.world.InteractionResult$Fail
++ XXX.minecraft.world.InteractionResult$ItemContext
+- XXX.minecraft.world.InteractionResult$Pass
++ XXX.minecraft.world.InteractionResult$Success
+- XXX.minecraft.world.InteractionResult$SwingSource
++ XXX.minecraft.world.InteractionResult$TryEmptyHandInteraction
+- XXX.minecraft.world.ItemStackWithSlot
++ XXX.minecraft.world.LockCode
+- XXX.minecraft.world.MenuProvider
++ XXX.minecraft.world.Nameable
+- XXX.minecraft.world.package-info
++ XXX.minecraft.world.RandomizableContainer
+- XXX.minecraft.world.RandomSequence
++ XXX.minecraft.world.RandomSequences
+- XXX.minecraft.world.RandomSequences$DirtyMarkingRandomSource
+- XXX.minecraft.world.SimpleContainer
++ XXX.minecraft.world.SimpleMenuProvider
+- XXX.minecraft.world.Stopwatch
++ XXX.minecraft.world.Stopwatches
+- XXX.minecraft.world.TickRateManager
++ XXX.minecraft.world.WorldlyContainer
+- XXX.minecraft.world.WorldlyContainerHolder
+- XXX.model.ambient.package-info
+- XXX.model.animal.package-info
++ XXX.model.dragon.DragonHeadModel
++ XXX.model.dragon.package-info
+- XXX.model.effects.EvokerFangsModel
+- XXX.model.effects.package-info
+- XXX.model.effects.SpearAnimations$UseParams
+- XXX.model.multipart.CombinedCondition
++ XXX.model.multipart.CombinedCondition$Operation
+- XXX.model.multipart.CombinedCondition$Operation$1
++ XXX.model.multipart.CombinedCondition$Operation$2
+- XXX.model.multipart.Condition
++ XXX.model.multipart.KeyValueCondition
+- XXX.model.multipart.KeyValueCondition$Term
++ XXX.model.multipart.KeyValueCondition$Terms
+- XXX.model.multipart.MultiPartModel
++ XXX.model.multipart.MultiPartModel$Selector
+- XXX.model.multipart.MultiPartModel$SharedBakedState
++ XXX.model.multipart.MultiPartModel$Unbaked
+- XXX.model.multipart.MultiPartModel$Unbaked$1
++ XXX.model.multipart.MultiPartModel$Unbaked$1Key
++ XXX.model.multipart.package-info
+- XXX.model.multipart.Selector
+- XXX.model.npc.VillagerModel
+- XXX.model.player.PlayerCapeModel
+- XXX.model.player.PlayerModel
++ XXX.models.blockstates.BlockModelDefinitionGenerator
+- XXX.models.blockstates.ConditionBuilder
++ XXX.models.blockstates.MultiPartGenerator
+- XXX.models.blockstates.MultiPartGenerator$Entry
++ XXX.models.blockstates.MultiVariantGenerator
+- XXX.models.blockstates.MultiVariantGenerator$Empty
++ XXX.models.blockstates.MultiVariantGenerator$Entry
++ XXX.models.blockstates.package-info
+- XXX.models.blockstates.PropertyDispatch
++ XXX.models.blockstates.PropertyDispatch$C1
+- XXX.models.blockstates.PropertyDispatch$C2
++ XXX.models.blockstates.PropertyDispatch$C3
+- XXX.models.blockstates.PropertyDispatch$C4
++ XXX.models.blockstates.PropertyDispatch$C5
+- XXX.models.blockstates.PropertyValueList
+- XXX.models.model.DelegatedModel
++ XXX.models.model.ItemModelUtils
+- XXX.models.model.ModelInstance
++ XXX.models.model.ModelLocationUtils
+- XXX.models.model.ModelTemplate
++ XXX.models.model.ModelTemplates
+- XXX.models.model.package-info
+- XXX.models.model.TexturedModel
++ XXX.models.model.TexturedModel$Provider
+- XXX.models.model.TextureMapping
++ XXX.models.model.TextureSlot
+- XXX.monitoring.jmx.MinecraftServerStatistics
++ XXX.monitoring.jmx.MinecraftServerStatistics$AttributeDescription
+- XXX.monitoring.jmx.package-info
+- XXX.monster.blaze.package-info
+- XXX.monster.breeze.package-info
+- XXX.monster.creaking.package-info
+- XXX.monster.creeper.package-info
+- XXX.monster.dragon.package-info
+- XXX.monster.enderman.package-info
+- XXX.monster.endermite.package-info
+- XXX.monster.ghast.package-info
+- XXX.monster.guardian.GuardianParticleModel
+- XXX.monster.hoglin.HoglinModel
+- XXX.monster.illager.AbstractIllager
+- XXX.monster.illager.AbstractIllager$RaiderOpenDoorGoal
+- XXX.monster.illager.Evoker$EvokerAttackSpellGoal
+- XXX.monster.illager.Evoker$EvokerSummonSpellGoal
+- XXX.monster.illager.IllagerModel
+- XXX.monster.illager.Illusioner
+- XXX.monster.illager.Illusioner$IllusionerMirrorSpellGoal
+- XXX.monster.illager.SpellcasterIllager
+- XXX.monster.illager.SpellcasterIllager$SpellcasterCastingSpellGoal
+- XXX.monster.illager.Vindicator
+- XXX.monster.illager.Vindicator$VindicatorJohnnyAttackGoal
+- XXX.monster.nautilus.ZombieNautilusCoralModel
+- XXX.monster.phantom.PhantomModel
+- XXX.monster.piglin.AbstractPiglinModel
+- XXX.monster.piglin.ZombifiedPiglinModel
+- XXX.monster.ravager.RavagerModel
+- XXX.monster.shulker.ShulkerModel
+- XXX.monster.silverfish.SilverfishModel
+- XXX.monster.skeleton.AbstractSkeleton
+- XXX.monster.skeleton.Bogged
+- XXX.monster.skeleton.BoggedModel
+- XXX.monster.skeleton.package-info
+- XXX.monster.skeleton.Skeleton
+- XXX.monster.skeleton.WitherSkeleton
+- XXX.monster.slime.SlimeModel
+- XXX.monster.spider.CaveSpider
+- XXX.monster.spider.Spider$SpiderAttackGoal
+- XXX.monster.spider.Spider$SpiderTargetGoal
+- XXX.monster.spider.SpiderModel
+- XXX.monster.strider.StriderModel
+- XXX.monster.vex.VexModel
+- XXX.monster.warden.WardenModel
+- XXX.monster.witch.WitchModel
+- XXX.monster.wither.WitherBossModel
+- XXX.monster.zombie.AbstractZombieModel
+- XXX.monster.zombie.Drowned
+- XXX.monster.zombie.Drowned$DrownedGoToBeachGoal
+- XXX.monster.zombie.Drowned$DrownedMoveControl
+- XXX.monster.zombie.Drowned$DrownedTridentAttackGoal
+- XXX.monster.zombie.GiantZombieModel
+- XXX.monster.zombie.Husk$HuskGroupData
+- XXX.monster.zombie.package-info
+- XXX.monster.zombie.Zombie$ZombieAttackTurtleEggGoal
+- XXX.monster.zombie.ZombieVillager
+- XXX.monster.zombie.ZombieVillagerModel
++ XXX.nbt.visitors.CollectFields
+- XXX.nbt.visitors.CollectToTag
++ XXX.nbt.visitors.CollectToTag$CompoundBuilder
+- XXX.nbt.visitors.CollectToTag$ContainerBuilder
++ XXX.nbt.visitors.CollectToTag$ListBuilder
+- XXX.nbt.visitors.CollectToTag$RootBuilder
++ XXX.nbt.visitors.FieldSelector
+- XXX.nbt.visitors.FieldTree
+- XXX.nbt.visitors.package-info
++ XXX.nbt.visitors.SkipAll
+- XXX.nbt.visitors.SkipAll$1
++ XXX.nbt.visitors.SkipFields
+- XXX.network.chat.ChatDecorator
++ XXX.network.chat.ChatType
+- XXX.network.chat.ChatType$Bound
++ XXX.network.chat.ChatTypeDecoration
+- XXX.network.chat.ChatTypeDecoration$Parameter
++ XXX.network.chat.ChatTypeDecoration$Parameter$Selector
+- XXX.network.chat.ClickEvent
++ XXX.network.chat.ClickEvent$Action
+- XXX.network.chat.ClickEvent$ChangePage
++ XXX.network.chat.ClickEvent$CopyToClipboard
+- XXX.network.chat.ClickEvent$Custom
++ XXX.network.chat.ClickEvent$OpenFile
+- XXX.network.chat.ClickEvent$OpenUrl
++ XXX.network.chat.ClickEvent$RunCommand
+- XXX.network.chat.ClickEvent$ShowDialog
++ XXX.network.chat.ClickEvent$SuggestCommand
+- XXX.network.chat.CommonComponents
++ XXX.network.chat.Component
+- XXX.network.chat.ComponentContents
++ XXX.network.chat.ComponentSerialization
+- XXX.network.chat.ComponentSerialization$1
++ XXX.network.chat.ComponentSerialization$FuzzyCodec
+- XXX.network.chat.ComponentSerialization$StrictEither
++ XXX.network.chat.ComponentUtils
+- XXX.network.chat.FilterMask
++ XXX.network.chat.FilterMask$Type
+- XXX.network.chat.FontDescription
++ XXX.network.chat.FontDescription$AtlasSprite
+- XXX.network.chat.FontDescription$PlayerSprite
++ XXX.network.chat.FontDescription$Resource
+- XXX.network.chat.FormattedText
++ XXX.network.chat.FormattedText$1
+- XXX.network.chat.FormattedText$2
++ XXX.network.chat.FormattedText$3
+- XXX.network.chat.FormattedText$4
++ XXX.network.chat.FormattedText$ContentConsumer
+- XXX.network.chat.FormattedText$StyledContentConsumer
++ XXX.network.chat.HoverEvent
+- XXX.network.chat.HoverEvent$Action
++ XXX.network.chat.HoverEvent$EntityTooltipInfo
+- XXX.network.chat.HoverEvent$ShowEntity
++ XXX.network.chat.HoverEvent$ShowItem
+- XXX.network.chat.HoverEvent$ShowText
++ XXX.network.chat.LastSeenMessages
+- XXX.network.chat.LastSeenMessages$Packed
++ XXX.network.chat.LastSeenMessages$Update
+- XXX.network.chat.LastSeenMessagesTracker
++ XXX.network.chat.LastSeenMessagesTracker$Update
+- XXX.network.chat.LastSeenMessagesValidator
++ XXX.network.chat.LastSeenMessagesValidator$ValidationException
+- XXX.network.chat.LastSeenTrackedEntry
++ XXX.network.chat.LocalChatSession
+- XXX.network.chat.MessageSignature
++ XXX.network.chat.MessageSignature$Packed
+- XXX.network.chat.MessageSignatureCache
++ XXX.network.chat.MutableComponent
+- XXX.network.chat.OutgoingChatMessage
++ XXX.network.chat.OutgoingChatMessage$Disguised
+- XXX.network.chat.OutgoingChatMessage$Player
+- XXX.network.chat.package-info
++ XXX.network.chat.PlayerChatMessage
+- XXX.network.chat.RemoteChatSession
++ XXX.network.chat.RemoteChatSession$Data
+- XXX.network.chat.SignableCommand
++ XXX.network.chat.SignableCommand$Argument
+- XXX.network.chat.SignedMessageBody
++ XXX.network.chat.SignedMessageBody$Packed
+- XXX.network.chat.SignedMessageChain
++ XXX.network.chat.SignedMessageChain$1
+- XXX.network.chat.SignedMessageChain$DecodeException
++ XXX.network.chat.SignedMessageChain$Decoder
+- XXX.network.chat.SignedMessageChain$Encoder
++ XXX.network.chat.SignedMessageLink
+- XXX.network.chat.SignedMessageValidator
++ XXX.network.chat.SignedMessageValidator$KeyBased
+- XXX.network.chat.Style
++ XXX.network.chat.Style$1
+- XXX.network.chat.Style$1Collector
++ XXX.network.chat.Style$Serializer
+- XXX.network.chat.SubStringSource
++ XXX.network.chat.TextColor
+- XXX.network.chat.ThrowingComponent
++ XXX.network.codec.ByteBufCodecs
+- XXX.network.codec.ByteBufCodecs$1
++ XXX.network.codec.ByteBufCodecs$10
+- XXX.network.codec.ByteBufCodecs$11
++ XXX.network.codec.ByteBufCodecs$12
+- XXX.network.codec.ByteBufCodecs$13
++ XXX.network.codec.ByteBufCodecs$14
+- XXX.network.codec.ByteBufCodecs$15
++ XXX.network.codec.ByteBufCodecs$16
+- XXX.network.codec.ByteBufCodecs$17
++ XXX.network.codec.ByteBufCodecs$18
+- XXX.network.codec.ByteBufCodecs$19
++ XXX.network.codec.ByteBufCodecs$2
+- XXX.network.codec.ByteBufCodecs$20
++ XXX.network.codec.ByteBufCodecs$21
+- XXX.network.codec.ByteBufCodecs$22
++ XXX.network.codec.ByteBufCodecs$23
+- XXX.network.codec.ByteBufCodecs$24
++ XXX.network.codec.ByteBufCodecs$25
+- XXX.network.codec.ByteBufCodecs$26
++ XXX.network.codec.ByteBufCodecs$27
+- XXX.network.codec.ByteBufCodecs$28
++ XXX.network.codec.ByteBufCodecs$29
+- XXX.network.codec.ByteBufCodecs$3
++ XXX.network.codec.ByteBufCodecs$30
+- XXX.network.codec.ByteBufCodecs$31
++ XXX.network.codec.ByteBufCodecs$32
+- XXX.network.codec.ByteBufCodecs$33
++ XXX.network.codec.ByteBufCodecs$34
+- XXX.network.codec.ByteBufCodecs$35
++ XXX.network.codec.ByteBufCodecs$4
+- XXX.network.codec.ByteBufCodecs$5
++ XXX.network.codec.ByteBufCodecs$6
+- XXX.network.codec.ByteBufCodecs$7
++ XXX.network.codec.ByteBufCodecs$8
+- XXX.network.codec.ByteBufCodecs$9
++ XXX.network.codec.IdDispatchCodec
+- XXX.network.codec.IdDispatchCodec$Builder
++ XXX.network.codec.IdDispatchCodec$DontDecorateException
+- XXX.network.codec.IdDispatchCodec$Entry
++ XXX.network.codec.package-info
++ XXX.network.codec.StreamCodec
+- XXX.network.codec.StreamCodec$1
++ XXX.network.codec.StreamCodec$10
+- XXX.network.codec.StreamCodec$11
++ XXX.network.codec.StreamCodec$12
+- XXX.network.codec.StreamCodec$13
++ XXX.network.codec.StreamCodec$14
+- XXX.network.codec.StreamCodec$15
++ XXX.network.codec.StreamCodec$16
+- XXX.network.codec.StreamCodec$17
++ XXX.network.codec.StreamCodec$18
+- XXX.network.codec.StreamCodec$19
++ XXX.network.codec.StreamCodec$2
+- XXX.network.codec.StreamCodec$3
++ XXX.network.codec.StreamCodec$4
+- XXX.network.codec.StreamCodec$5
++ XXX.network.codec.StreamCodec$6
+- XXX.network.codec.StreamCodec$7
++ XXX.network.codec.StreamCodec$8
+- XXX.network.codec.StreamCodec$9
++ XXX.network.codec.StreamCodec$CodecOperation
+- XXX.network.codec.StreamDecoder
++ XXX.network.codec.StreamEncoder
+- XXX.network.codec.StreamMemberEncoder
++ XXX.network.config.JoinWorldTask
++ XXX.network.config.package-info
+- XXX.network.config.PrepareSpawnTask
++ XXX.network.config.PrepareSpawnTask$Preparing
+- XXX.network.config.PrepareSpawnTask$Ready
++ XXX.network.config.PrepareSpawnTask$State
+- XXX.network.config.ServerCodeOfConductConfigurationTask
++ XXX.network.config.ServerResourcePackConfigurationTask
+- XXX.network.config.SynchronizeRegistriesTask
++ XXX.network.protocol.BundleDelimiterPacket
+- XXX.network.protocol.BundlePacket
++ XXX.network.protocol.BundlerInfo
+- XXX.network.protocol.BundlerInfo$1
++ XXX.network.protocol.BundlerInfo$1$1
+- XXX.network.protocol.BundlerInfo$Bundler
++ XXX.network.protocol.CodecModifier
++ XXX.network.protocol.package-info
+- XXX.network.protocol.Packet
++ XXX.network.protocol.PacketFlow
+- XXX.network.protocol.PacketType
++ XXX.network.protocol.PacketUtils
+- XXX.network.protocol.ProtocolCodecBuilder
++ XXX.network.protocol.ProtocolInfoBuilder
+- XXX.network.protocol.ProtocolInfoBuilder$1
++ XXX.network.protocol.ProtocolInfoBuilder$2
+- XXX.network.protocol.ProtocolInfoBuilder$3
++ XXX.network.protocol.ProtocolInfoBuilder$CodecEntry
+- XXX.network.protocol.ProtocolInfoBuilder$Implementation
++ XXX.network.protocol.SimpleUnboundProtocol
+- XXX.network.protocol.UnboundProtocol
++ XXX.network.syncher.EntityDataAccessor
+- XXX.network.syncher.EntityDataSerializer
++ XXX.network.syncher.EntityDataSerializer$ForValueType
+- XXX.network.syncher.EntityDataSerializers
++ XXX.network.syncher.EntityDataSerializers$1
+- XXX.network.syncher.EntityDataSerializers$2
++ XXX.network.syncher.EntityDataSerializers$3
++ XXX.network.syncher.package-info
+- XXX.network.syncher.SyncedDataHolder
++ XXX.network.syncher.SynchedEntityData
+- XXX.network.syncher.SynchedEntityData$Builder
++ XXX.network.syncher.SynchedEntityData$DataItem
+- XXX.network.syncher.SynchedEntityData$DataValue
+- XXX.npc.villager.AbstractVillager
+- XXX.npc.villager.package-info
+- XXX.npc.villager.VillagerData
+- XXX.npc.villager.VillagerProfession
+- XXX.npc.villager.VillagerTrades$DyedArmorForEmeralds
+- XXX.npc.villager.VillagerTrades$EmeraldsForVillagerTypeItem
+- XXX.npc.villager.VillagerTrades$EnchantedItemForEmeralds
+- XXX.npc.villager.VillagerTrades$ItemListing
+- XXX.npc.villager.VillagerTrades$ItemsForEmeralds
+- XXX.npc.villager.VillagerTrades$TippedArrowForItemsAndEmeralds
+- XXX.npc.villager.VillagerTrades$TypeSpecificTrade
+- XXX.npc.wanderingtrader.package-info
+- XXX.npc.wanderingtrader.WanderingTrader$WanderToPositionGoal
+- XXX.object.armorstand.ArmorStandArmorModel
+- XXX.object.armorstand.package-info
+- XXX.object.banner.BannerModel
+- XXX.object.bell.BellModel
+- XXX.object.bell.BellModel$State
+- XXX.object.boat.AbstractBoatModel
+- XXX.object.boat.RaftModel
+- XXX.object.book.BookModel
+- XXX.object.book.package-info
+- XXX.object.cart.package-info
+- XXX.object.chest.package-info
+- XXX.object.crystal.package-info
+- XXX.object.equipment.ShieldModel
+- XXX.object.leash.LeashKnotModel
+- XXX.object.projectile.ArrowModel
+- XXX.object.projectile.package-info
+- XXX.object.projectile.TridentModel
+- XXX.object.skull.package-info
+- XXX.object.skull.PiglinHeadModel
+- XXX.object.skull.SkullModelBase
+- XXX.object.statue.package-info
+- XXX.options.controls.ControlsScreen
++ XXX.options.controls.KeyBindsList
+- XXX.options.controls.KeyBindsList$CategoryEntry
++ XXX.options.controls.KeyBindsList$Entry
+- XXX.options.controls.KeyBindsList$KeyEntry
++ XXX.options.controls.KeyBindsScreen
+- XXX.options.controls.package-info
+- XXX.packrat.commands.CommandArgumentParser
++ XXX.packrat.commands.CommandArgumentParser$1
+- XXX.packrat.commands.CommandArgumentParser$2
++ XXX.packrat.commands.Grammar
+- XXX.packrat.commands.GreedyPatternParseRule
++ XXX.packrat.commands.GreedyPredicateParseRule
+- XXX.packrat.commands.IdentifierParseRule
++ XXX.packrat.commands.NumberRunParseRule
++ XXX.packrat.commands.package-info
+- XXX.packrat.commands.ParserBasedArgument
++ XXX.packrat.commands.ResourceLookupRule
+- XXX.packrat.commands.ResourceSuggestion
++ XXX.packrat.commands.StringReaderParserState
+- XXX.packrat.commands.StringReaderTerms
++ XXX.packrat.commands.StringReaderTerms$1
+- XXX.packrat.commands.StringReaderTerms$2
++ XXX.packrat.commands.StringReaderTerms$TerminalCharacters
+- XXX.packrat.commands.StringReaderTerms$TerminalWord
++ XXX.packrat.commands.TagParseRule
+- XXX.packrat.commands.UnquotedStringParseRule
++ XXX.packs.linkfs.DummyFileAttributes
+- XXX.packs.linkfs.LinkFileSystem
++ XXX.packs.linkfs.LinkFileSystem$Builder
+- XXX.packs.linkfs.LinkFileSystem$DirectoryEntry
+- XXX.packs.linkfs.LinkFSFileStore
++ XXX.packs.linkfs.LinkFSPath
+- XXX.packs.linkfs.LinkFSPath$1
++ XXX.packs.linkfs.LinkFSPath$2
+- XXX.packs.linkfs.LinkFSPath$3
++ XXX.packs.linkfs.LinkFSProvider
+- XXX.packs.linkfs.LinkFSProvider$1
++ XXX.packs.linkfs.LinkFSProvider$2
+- XXX.packs.linkfs.package-info
++ XXX.packs.linkfs.PathContents
+- XXX.packs.linkfs.PathContents$1
++ XXX.packs.linkfs.PathContents$2
+- XXX.packs.linkfs.PathContents$DirectoryContents
++ XXX.packs.linkfs.PathContents$FileContents
++ XXX.packs.metadata.MetadataSectionType
+- XXX.packs.metadata.MetadataSectionType$WithValue
+- XXX.packs.metadata.package-info
+- XXX.packs.repository.BuiltInPackSource
++ XXX.packs.repository.BuiltInPackSource$1
+- XXX.packs.repository.FolderRepositorySource
++ XXX.packs.repository.FolderRepositorySource$FolderPackDetector
+- XXX.packs.repository.KnownPack
++ XXX.packs.repository.Pack
+- XXX.packs.repository.Pack$Metadata
++ XXX.packs.repository.Pack$Position
+- XXX.packs.repository.Pack$ResourcesSupplier
+- XXX.packs.repository.package-info
++ XXX.packs.repository.PackCompatibility
+- XXX.packs.repository.PackDetector
++ XXX.packs.repository.PackRepository
+- XXX.packs.repository.PackSource
++ XXX.packs.repository.PackSource$1
+- XXX.packs.repository.RepositorySource
++ XXX.packs.repository.ServerPacksSource
++ XXX.packs.resources.CloseableResourceManager
+- XXX.packs.resources.FallbackResourceManager
++ XXX.packs.resources.FallbackResourceManager$1ResourceWithSourceAndIndex
+- XXX.packs.resources.FallbackResourceManager$EntryStack
++ XXX.packs.resources.FallbackResourceManager$LeakedResourceWarningInputStream
+- XXX.packs.resources.FallbackResourceManager$PackEntry
++ XXX.packs.resources.FallbackResourceManager$ResourceWithSource
+- XXX.packs.resources.IoSupplier
++ XXX.packs.resources.MultiPackResourceManager
+- XXX.packs.resources.package-info
+- XXX.packs.resources.PreparableReloadListener
++ XXX.packs.resources.PreparableReloadListener$PreparationBarrier
+- XXX.packs.resources.PreparableReloadListener$SharedState
++ XXX.packs.resources.PreparableReloadListener$StateKey
+- XXX.packs.resources.ProfiledReloadInstance
++ XXX.packs.resources.ProfiledReloadInstance$State
++ XXX.packs.resources.ReloadableResourceManager
+- XXX.packs.resources.ReloadInstance
+- XXX.packs.resources.Resource
++ XXX.packs.resources.ResourceFilterSection
+- XXX.packs.resources.ResourceManager
++ XXX.packs.resources.ResourceManager$Empty
+- XXX.packs.resources.ResourceManagerReloadListener
++ XXX.packs.resources.ResourceMetadata
+- XXX.packs.resources.ResourceMetadata$1
++ XXX.packs.resources.ResourceMetadata$2
+- XXX.packs.resources.ResourceProvider
++ XXX.packs.resources.SimpleJsonResourceReloadListener
+- XXX.packs.resources.SimplePreparableReloadListener
++ XXX.packs.resources.SimpleReloadInstance
+- XXX.packs.resources.SimpleReloadInstance$1
++ XXX.packs.resources.SimpleReloadInstance$StateFactory
++ XXX.parsing.packrat.Atom
+- XXX.parsing.packrat.CachedParseState
++ XXX.parsing.packrat.CachedParseState$CacheEntry
+- XXX.parsing.packrat.CachedParseState$PositionCache
++ XXX.parsing.packrat.CachedParseState$Silent
+- XXX.parsing.packrat.CachedParseState$SimpleControl
++ XXX.parsing.packrat.Control
+- XXX.parsing.packrat.Control$1
++ XXX.parsing.packrat.DelayedException
+- XXX.parsing.packrat.Dictionary
++ XXX.parsing.packrat.Dictionary$Entry
+- XXX.parsing.packrat.Dictionary$Reference
++ XXX.parsing.packrat.ErrorCollector
+- XXX.parsing.packrat.ErrorCollector$LongestOnly
++ XXX.parsing.packrat.ErrorCollector$LongestOnly$MutableErrorEntry
+- XXX.parsing.packrat.ErrorCollector$Nop
++ XXX.parsing.packrat.ErrorEntry
+- XXX.parsing.packrat.NamedRule
+- XXX.parsing.packrat.package-info
++ XXX.parsing.packrat.ParseState
+- XXX.parsing.packrat.Rule
++ XXX.parsing.packrat.Rule$RuleAction
+- XXX.parsing.packrat.Rule$SimpleRuleAction
++ XXX.parsing.packrat.Rule$WrappedTerm
+- XXX.parsing.packrat.Scope
++ XXX.parsing.packrat.Scope$1
+- XXX.parsing.packrat.SuggestionSupplier
++ XXX.parsing.packrat.Term
+- XXX.parsing.packrat.Term$1
++ XXX.parsing.packrat.Term$2
+- XXX.parsing.packrat.Term$3
++ XXX.parsing.packrat.Term$Alternative
+- XXX.parsing.packrat.Term$LookAhead
++ XXX.parsing.packrat.Term$Marker
+- XXX.parsing.packrat.Term$Maybe
++ XXX.parsing.packrat.Term$Repeated
+- XXX.parsing.packrat.Term$RepeatedWithSeparator
++ XXX.parsing.packrat.Term$Sequence
++ XXX.phys.shapes.ArrayVoxelShape
+- XXX.phys.shapes.ArrayVoxelShape$1
++ XXX.phys.shapes.BitSetDiscreteVoxelShape
+- XXX.phys.shapes.BooleanOp
++ XXX.phys.shapes.CollisionContext
+- XXX.phys.shapes.CubePointRange
++ XXX.phys.shapes.CubeVoxelShape
+- XXX.phys.shapes.DiscreteCubeMerger
++ XXX.phys.shapes.DiscreteVoxelShape
+- XXX.phys.shapes.DiscreteVoxelShape$IntFaceConsumer
++ XXX.phys.shapes.DiscreteVoxelShape$IntLineConsumer
+- XXX.phys.shapes.EntityCollisionContext
++ XXX.phys.shapes.EntityCollisionContext$Empty
+- XXX.phys.shapes.IdenticalMerger
++ XXX.phys.shapes.IndexMerger
+- XXX.phys.shapes.IndexMerger$IndexConsumer
++ XXX.phys.shapes.IndirectMerger
+- XXX.phys.shapes.MinecartCollisionContext
++ XXX.phys.shapes.MinecartCollisionContext$1
+- XXX.phys.shapes.NonOverlappingMerger
++ XXX.phys.shapes.OffsetDoubleList
++ XXX.phys.shapes.package-info
+- XXX.phys.shapes.Shapes
++ XXX.phys.shapes.Shapes$DoubleLineConsumer
+- XXX.phys.shapes.SliceShape
++ XXX.phys.shapes.SubShape
+- XXX.phys.shapes.VoxelShape
++ XXX.pools.alias.DirectPoolAlias
++ XXX.pools.alias.package-info
+- XXX.pools.alias.PoolAliasBinding
++ XXX.pools.alias.PoolAliasBindings
+- XXX.pools.alias.PoolAliasLookup
++ XXX.pools.alias.RandomGroupPoolAlias
+- XXX.pools.alias.RandomPoolAlias
++ XXX.profiling.jfr.Environment
+- XXX.profiling.jfr.JfrProfiler
++ XXX.profiling.jfr.JfrProfiler$1
+- XXX.profiling.jfr.JfrProfiler$2
++ XXX.profiling.jfr.JfrProfiler$3
+- XXX.profiling.jfr.JvmProfiler
++ XXX.profiling.jfr.JvmProfiler$NoOpProfiler
++ XXX.profiling.jfr.package-info
+- XXX.profiling.jfr.Percentiles
++ XXX.profiling.jfr.SummaryReporter
+- XXX.profiling.metrics.MetricCategory
++ XXX.profiling.metrics.MetricSampler
+- XXX.profiling.metrics.MetricSampler$MetricSamplerBuilder
++ XXX.profiling.metrics.MetricSampler$SamplerResult
+- XXX.profiling.metrics.MetricSampler$ThresholdTest
++ XXX.profiling.metrics.MetricSampler$ValueIncreasedByPercentage
+- XXX.profiling.metrics.MetricsRegistry
++ XXX.profiling.metrics.MetricsRegistry$AggregatedMetricSampler
+- XXX.profiling.metrics.MetricsSamplerProvider
+- XXX.profiling.metrics.package-info
++ XXX.profiling.metrics.ProfilerMeasured
+- XXX.projectile.arrow.AbstractArrow$Pickup
+- XXX.projectile.arrow.package-info
+- XXX.projectile.arrow.SpectralArrow
+- XXX.projectile.hurtingprojectile.DragonFireball
+- XXX.projectile.hurtingprojectile.LargeFireball
+- XXX.projectile.hurtingprojectile.WitherSkull
+- XXX.projectile.throwableitemprojectile.Snowball
+- XXX.projectile.throwableitemprojectile.ThrownEgg
+- XXX.projectile.throwableitemprojectile.ThrownExperienceBottle
+- XXX.projectile.throwableitemprojectile.ThrownSplashPotion
++ XXX.projectile.windcharge.AbstractWindCharge
++ XXX.projectile.windcharge.WindCharge
+- XXX.properties.conditional.Broken
++ XXX.properties.conditional.BundleHasSelectedItem
+- XXX.properties.conditional.ComponentMatches
++ XXX.properties.conditional.ConditionalItemModelProperties
+- XXX.properties.conditional.ConditionalItemModelProperty
++ XXX.properties.conditional.CustomModelDataProperty
+- XXX.properties.conditional.Damaged
++ XXX.properties.conditional.ExtendedView
+- XXX.properties.conditional.FishingRodCast
++ XXX.properties.conditional.HasComponent
+- XXX.properties.conditional.IsCarried
++ XXX.properties.conditional.IsKeybindDown
+- XXX.properties.conditional.IsSelected
++ XXX.properties.conditional.IsUsingItem
+- XXX.properties.conditional.IsViewEntity
++ XXX.properties.conditional.ItemModelPropertyTest
+- XXX.properties.conditional.package-info
++ XXX.properties.numeric.BundleFullness
+- XXX.properties.numeric.CompassAngle
++ XXX.properties.numeric.CompassAngleState
+- XXX.properties.numeric.CompassAngleState$CompassTarget
++ XXX.properties.numeric.CompassAngleState$CompassTarget$1
+- XXX.properties.numeric.CompassAngleState$CompassTarget$2
++ XXX.properties.numeric.CompassAngleState$CompassTarget$3
+- XXX.properties.numeric.CompassAngleState$CompassTarget$4
++ XXX.properties.numeric.Cooldown
+- XXX.properties.numeric.Count
++ XXX.properties.numeric.CrossbowPull
+- XXX.properties.numeric.CustomModelDataProperty
++ XXX.properties.numeric.Damage
+- XXX.properties.numeric.NeedleDirectionHelper
++ XXX.properties.numeric.NeedleDirectionHelper$1
+- XXX.properties.numeric.NeedleDirectionHelper$2
++ XXX.properties.numeric.NeedleDirectionHelper$Wobbler
++ XXX.properties.numeric.package-info
+- XXX.properties.numeric.RangeSelectItemModelProperties
++ XXX.properties.numeric.RangeSelectItemModelProperty
+- XXX.properties.numeric.Time
++ XXX.properties.numeric.Time$TimeSource
+- XXX.properties.numeric.Time$TimeSource$1
++ XXX.properties.numeric.Time$TimeSource$2
+- XXX.properties.numeric.Time$TimeSource$3
++ XXX.properties.numeric.UseCycle
+- XXX.properties.numeric.UseDuration
++ XXX.properties.select.Charge
+- XXX.properties.select.ComponentContents
++ XXX.properties.select.ContextDimension
+- XXX.properties.select.ContextEntityType
++ XXX.properties.select.CustomModelDataProperty
+- XXX.properties.select.DisplayContext
++ XXX.properties.select.ItemBlockState
+- XXX.properties.select.LocalTime
++ XXX.properties.select.LocalTime$Data
+- XXX.properties.select.MainHand
++ XXX.properties.select.package-info
++ XXX.properties.select.SelectItemModelProperties
+- XXX.properties.select.SelectItemModelProperty
++ XXX.properties.select.SelectItemModelProperty$Type
+- XXX.properties.select.TrimMaterialProperty
+- XXX.protocol.common.ClientboundClearDialogPacket
++ XXX.protocol.common.ClientboundCustomPayloadPacket
+- XXX.protocol.common.ClientboundCustomReportDetailsPacket
++ XXX.protocol.common.ClientboundDisconnectPacket
+- XXX.protocol.common.ClientboundKeepAlivePacket
++ XXX.protocol.common.ClientboundPingPacket
+- XXX.protocol.common.ClientboundResourcePackPopPacket
++ XXX.protocol.common.ClientboundResourcePackPushPacket
+- XXX.protocol.common.ClientboundServerLinksPacket
++ XXX.protocol.common.ClientboundShowDialogPacket
+- XXX.protocol.common.ClientboundStoreCookiePacket
++ XXX.protocol.common.ClientboundTransferPacket
+- XXX.protocol.common.ClientboundUpdateTagsPacket
++ XXX.protocol.common.ClientCommonPacketListener
++ XXX.protocol.common.CommonPacketTypes
+- XXX.protocol.common.package-info
++ XXX.protocol.common.ServerboundClientInformationPacket
+- XXX.protocol.common.ServerboundCustomClickActionPacket
++ XXX.protocol.common.ServerboundCustomPayloadPacket
+- XXX.protocol.common.ServerboundKeepAlivePacket
++ XXX.protocol.common.ServerboundPongPacket
+- XXX.protocol.common.ServerboundResourcePackPacket
++ XXX.protocol.common.ServerboundResourcePackPacket$Action
+- XXX.protocol.common.ServerCommonPacketListener
+- XXX.protocol.configuration.ClientboundCodeOfConductPacket
++ XXX.protocol.configuration.ClientboundFinishConfigurationPacket
+- XXX.protocol.configuration.ClientboundRegistryDataPacket
++ XXX.protocol.configuration.ClientboundResetChatPacket
+- XXX.protocol.configuration.ClientboundSelectKnownPacks
++ XXX.protocol.configuration.ClientboundUpdateEnabledFeaturesPacket
++ XXX.protocol.configuration.ClientConfigurationPacketListener
+- XXX.protocol.configuration.ConfigurationPacketTypes
++ XXX.protocol.configuration.ConfigurationProtocols
+- XXX.protocol.configuration.package-info
++ XXX.protocol.configuration.ServerboundAcceptCodeOfConductPacket
+- XXX.protocol.configuration.ServerboundFinishConfigurationPacket
++ XXX.protocol.configuration.ServerboundSelectKnownPacks
+- XXX.protocol.configuration.ServerConfigurationPacketListener
+- XXX.protocol.cookie.ClientboundCookieRequestPacket
++ XXX.protocol.cookie.ClientCookiePacketListener
++ XXX.protocol.cookie.CookiePacketTypes
+- XXX.protocol.cookie.package-info
++ XXX.protocol.cookie.ServerboundCookieResponsePacket
+- XXX.protocol.cookie.ServerCookiePacketListener
+- XXX.protocol.game.ClientboundAddEntityPacket
++ XXX.protocol.game.ClientboundAnimatePacket
+- XXX.protocol.game.ClientboundAwardStatsPacket
++ XXX.protocol.game.ClientboundBlockChangedAckPacket
+- XXX.protocol.game.ClientboundBlockDestructionPacket
++ XXX.protocol.game.ClientboundBlockEntityDataPacket
+- XXX.protocol.game.ClientboundBlockEventPacket
++ XXX.protocol.game.ClientboundBlockUpdatePacket
+- XXX.protocol.game.ClientboundBossEventPacket
++ XXX.protocol.game.ClientboundBossEventPacket$1
+- XXX.protocol.game.ClientboundBossEventPacket$AddOperation
++ XXX.protocol.game.ClientboundBossEventPacket$Handler
+- XXX.protocol.game.ClientboundBossEventPacket$Operation
++ XXX.protocol.game.ClientboundBossEventPacket$OperationType
+- XXX.protocol.game.ClientboundBossEventPacket$UpdateNameOperation
++ XXX.protocol.game.ClientboundBossEventPacket$UpdateProgressOperation
+- XXX.protocol.game.ClientboundBossEventPacket$UpdatePropertiesOperation
++ XXX.protocol.game.ClientboundBossEventPacket$UpdateStyleOperation
+- XXX.protocol.game.ClientboundBundleDelimiterPacket
++ XXX.protocol.game.ClientboundBundlePacket
+- XXX.protocol.game.ClientboundChangeDifficultyPacket
++ XXX.protocol.game.ClientboundChunkBatchFinishedPacket
+- XXX.protocol.game.ClientboundChunkBatchStartPacket
++ XXX.protocol.game.ClientboundChunksBiomesPacket
+- XXX.protocol.game.ClientboundChunksBiomesPacket$ChunkBiomeData
++ XXX.protocol.game.ClientboundClearTitlesPacket
+- XXX.protocol.game.ClientboundCommandsPacket
++ XXX.protocol.game.ClientboundCommandsPacket$ArgumentNodeStub
+- XXX.protocol.game.ClientboundCommandsPacket$Entry
++ XXX.protocol.game.ClientboundCommandsPacket$LiteralNodeStub
+- XXX.protocol.game.ClientboundCommandsPacket$NodeBuilder
++ XXX.protocol.game.ClientboundCommandsPacket$NodeInspector
+- XXX.protocol.game.ClientboundCommandsPacket$NodeResolver
++ XXX.protocol.game.ClientboundCommandsPacket$NodeStub
+- XXX.protocol.game.ClientboundCommandSuggestionsPacket
++ XXX.protocol.game.ClientboundCommandSuggestionsPacket$Entry
+- XXX.protocol.game.ClientboundContainerClosePacket
++ XXX.protocol.game.ClientboundContainerSetContentPacket
+- XXX.protocol.game.ClientboundContainerSetDataPacket
++ XXX.protocol.game.ClientboundContainerSetSlotPacket
+- XXX.protocol.game.ClientboundCooldownPacket
++ XXX.protocol.game.ClientboundCustomChatCompletionsPacket
+- XXX.protocol.game.ClientboundCustomChatCompletionsPacket$Action
++ XXX.protocol.game.ClientboundDamageEventPacket
+- XXX.protocol.game.ClientboundDebugBlockValuePacket
++ XXX.protocol.game.ClientboundDebugChunkValuePacket
+- XXX.protocol.game.ClientboundDebugEntityValuePacket
++ XXX.protocol.game.ClientboundDebugEventPacket
+- XXX.protocol.game.ClientboundDebugSamplePacket
++ XXX.protocol.game.ClientboundDeleteChatPacket
+- XXX.protocol.game.ClientboundDisguisedChatPacket
++ XXX.protocol.game.ClientboundEntityEventPacket
+- XXX.protocol.game.ClientboundEntityPositionSyncPacket
++ XXX.protocol.game.ClientboundExplodePacket
+- XXX.protocol.game.ClientboundForgetLevelChunkPacket
++ XXX.protocol.game.ClientboundGameEventPacket
+- XXX.protocol.game.ClientboundGameEventPacket$Type
++ XXX.protocol.game.ClientboundGameTestHighlightPosPacket
+- XXX.protocol.game.ClientboundHurtAnimationPacket
++ XXX.protocol.game.ClientboundInitializeBorderPacket
+- XXX.protocol.game.ClientboundLevelChunkPacketData
++ XXX.protocol.game.ClientboundLevelChunkPacketData$BlockEntityInfo
+- XXX.protocol.game.ClientboundLevelChunkPacketData$BlockEntityTagOutput
++ XXX.protocol.game.ClientboundLevelChunkWithLightPacket
+- XXX.protocol.game.ClientboundLevelEventPacket
++ XXX.protocol.game.ClientboundLevelParticlesPacket
+- XXX.protocol.game.ClientboundLightUpdatePacket
++ XXX.protocol.game.ClientboundLightUpdatePacketData
+- XXX.protocol.game.ClientboundLoginPacket
++ XXX.protocol.game.ClientboundMapItemDataPacket
+- XXX.protocol.game.ClientboundMerchantOffersPacket
++ XXX.protocol.game.ClientboundMountScreenOpenPacket
+- XXX.protocol.game.ClientboundMoveEntityPacket
++ XXX.protocol.game.ClientboundMoveEntityPacket$Pos
+- XXX.protocol.game.ClientboundMoveEntityPacket$PosRot
++ XXX.protocol.game.ClientboundMoveEntityPacket$Rot
+- XXX.protocol.game.ClientboundMoveMinecartPacket
++ XXX.protocol.game.ClientboundMoveVehiclePacket
+- XXX.protocol.game.ClientboundOpenBookPacket
++ XXX.protocol.game.ClientboundOpenScreenPacket
+- XXX.protocol.game.ClientboundOpenSignEditorPacket
++ XXX.protocol.game.ClientboundPlaceGhostRecipePacket
+- XXX.protocol.game.ClientboundPlayerAbilitiesPacket
++ XXX.protocol.game.ClientboundPlayerChatPacket
+- XXX.protocol.game.ClientboundPlayerCombatEndPacket
++ XXX.protocol.game.ClientboundPlayerCombatEnterPacket
+- XXX.protocol.game.ClientboundPlayerCombatKillPacket
++ XXX.protocol.game.ClientboundPlayerInfoRemovePacket
+- XXX.protocol.game.ClientboundPlayerInfoUpdatePacket
++ XXX.protocol.game.ClientboundPlayerInfoUpdatePacket$Action
+- XXX.protocol.game.ClientboundPlayerInfoUpdatePacket$Action$Reader
++ XXX.protocol.game.ClientboundPlayerInfoUpdatePacket$Action$Writer
+- XXX.protocol.game.ClientboundPlayerInfoUpdatePacket$Entry
++ XXX.protocol.game.ClientboundPlayerInfoUpdatePacket$EntryBuilder
+- XXX.protocol.game.ClientboundPlayerLookAtPacket
++ XXX.protocol.game.ClientboundPlayerPositionPacket
+- XXX.protocol.game.ClientboundPlayerRotationPacket
++ XXX.protocol.game.ClientboundProjectilePowerPacket
+- XXX.protocol.game.ClientboundRecipeBookAddPacket
++ XXX.protocol.game.ClientboundRecipeBookAddPacket$Entry
+- XXX.protocol.game.ClientboundRecipeBookRemovePacket
++ XXX.protocol.game.ClientboundRecipeBookSettingsPacket
+- XXX.protocol.game.ClientboundRemoveEntitiesPacket
++ XXX.protocol.game.ClientboundRemoveMobEffectPacket
+- XXX.protocol.game.ClientboundResetScorePacket
++ XXX.protocol.game.ClientboundRespawnPacket
+- XXX.protocol.game.ClientboundRotateHeadPacket
++ XXX.protocol.game.ClientboundSectionBlocksUpdatePacket
+- XXX.protocol.game.ClientboundSelectAdvancementsTabPacket
++ XXX.protocol.game.ClientboundServerDataPacket
+- XXX.protocol.game.ClientboundSetActionBarTextPacket
++ XXX.protocol.game.ClientboundSetBorderCenterPacket
+- XXX.protocol.game.ClientboundSetBorderLerpSizePacket
++ XXX.protocol.game.ClientboundSetBorderSizePacket
+- XXX.protocol.game.ClientboundSetBorderWarningDelayPacket
++ XXX.protocol.game.ClientboundSetBorderWarningDistancePacket
+- XXX.protocol.game.ClientboundSetCameraPacket
++ XXX.protocol.game.ClientboundSetChunkCacheCenterPacket
+- XXX.protocol.game.ClientboundSetChunkCacheRadiusPacket
++ XXX.protocol.game.ClientboundSetCursorItemPacket
+- XXX.protocol.game.ClientboundSetDefaultSpawnPositionPacket
++ XXX.protocol.game.ClientboundSetDisplayObjectivePacket
+- XXX.protocol.game.ClientboundSetEntityDataPacket
++ XXX.protocol.game.ClientboundSetEntityLinkPacket
+- XXX.protocol.game.ClientboundSetEntityMotionPacket
++ XXX.protocol.game.ClientboundSetEquipmentPacket
+- XXX.protocol.game.ClientboundSetExperiencePacket
++ XXX.protocol.game.ClientboundSetHealthPacket
+- XXX.protocol.game.ClientboundSetHeldSlotPacket
++ XXX.protocol.game.ClientboundSetObjectivePacket
+- XXX.protocol.game.ClientboundSetPassengersPacket
++ XXX.protocol.game.ClientboundSetPlayerInventoryPacket
+- XXX.protocol.game.ClientboundSetPlayerTeamPacket
++ XXX.protocol.game.ClientboundSetPlayerTeamPacket$Action
+- XXX.protocol.game.ClientboundSetPlayerTeamPacket$Parameters
++ XXX.protocol.game.ClientboundSetScorePacket
+- XXX.protocol.game.ClientboundSetSimulationDistancePacket
++ XXX.protocol.game.ClientboundSetSubtitleTextPacket
+- XXX.protocol.game.ClientboundSetTimePacket
+- XXX.protocol.game.ClientboundSetTitlesAnimationPacket
++ XXX.protocol.game.ClientboundSetTitleTextPacket
++ XXX.protocol.game.ClientboundSoundEntityPacket
+- XXX.protocol.game.ClientboundSoundPacket
++ XXX.protocol.game.ClientboundStartConfigurationPacket
+- XXX.protocol.game.ClientboundStopSoundPacket
++ XXX.protocol.game.ClientboundSystemChatPacket
+- XXX.protocol.game.ClientboundTabListPacket
++ XXX.protocol.game.ClientboundTagQueryPacket
+- XXX.protocol.game.ClientboundTakeItemEntityPacket
++ XXX.protocol.game.ClientboundTeleportEntityPacket
+- XXX.protocol.game.ClientboundTestInstanceBlockStatus
++ XXX.protocol.game.ClientboundTickingStatePacket
+- XXX.protocol.game.ClientboundTickingStepPacket
++ XXX.protocol.game.ClientboundTrackedWaypointPacket
+- XXX.protocol.game.ClientboundTrackedWaypointPacket$Operation
++ XXX.protocol.game.ClientboundUpdateAdvancementsPacket
+- XXX.protocol.game.ClientboundUpdateAttributesPacket
++ XXX.protocol.game.ClientboundUpdateAttributesPacket$AttributeSnapshot
+- XXX.protocol.game.ClientboundUpdateMobEffectPacket
++ XXX.protocol.game.ClientboundUpdateRecipesPacket
++ XXX.protocol.game.ClientGamePacketListener
+- XXX.protocol.game.CommonPlayerSpawnInfo
++ XXX.protocol.game.DebugEntityNameGenerator
+- XXX.protocol.game.GamePacketTypes
++ XXX.protocol.game.GameProtocols
+- XXX.protocol.game.GameProtocols$1
++ XXX.protocol.game.GameProtocols$Context
++ XXX.protocol.game.package-info
+- XXX.protocol.game.ServerboundAcceptTeleportationPacket
++ XXX.protocol.game.ServerboundBlockEntityTagQueryPacket
+- XXX.protocol.game.ServerboundChangeDifficultyPacket
++ XXX.protocol.game.ServerboundChangeGameModePacket
+- XXX.protocol.game.ServerboundChatAckPacket
++ XXX.protocol.game.ServerboundChatCommandPacket
+- XXX.protocol.game.ServerboundChatCommandSignedPacket
++ XXX.protocol.game.ServerboundChatPacket
+- XXX.protocol.game.ServerboundChatSessionUpdatePacket
++ XXX.protocol.game.ServerboundChunkBatchReceivedPacket
+- XXX.protocol.game.ServerboundClientCommandPacket
++ XXX.protocol.game.ServerboundClientCommandPacket$Action
+- XXX.protocol.game.ServerboundClientTickEndPacket
++ XXX.protocol.game.ServerboundCommandSuggestionPacket
+- XXX.protocol.game.ServerboundConfigurationAcknowledgedPacket
++ XXX.protocol.game.ServerboundContainerButtonClickPacket
+- XXX.protocol.game.ServerboundContainerClickPacket
++ XXX.protocol.game.ServerboundContainerClosePacket
+- XXX.protocol.game.ServerboundContainerSlotStateChangedPacket
++ XXX.protocol.game.ServerboundDebugSubscriptionRequestPacket
+- XXX.protocol.game.ServerboundEditBookPacket
++ XXX.protocol.game.ServerboundEntityTagQueryPacket
+- XXX.protocol.game.ServerboundInteractPacket
++ XXX.protocol.game.ServerboundInteractPacket$1
+- XXX.protocol.game.ServerboundInteractPacket$Action
++ XXX.protocol.game.ServerboundInteractPacket$ActionType
+- XXX.protocol.game.ServerboundInteractPacket$Handler
++ XXX.protocol.game.ServerboundInteractPacket$InteractionAction
+- XXX.protocol.game.ServerboundInteractPacket$InteractionAtLocationAction
++ XXX.protocol.game.ServerboundJigsawGeneratePacket
+- XXX.protocol.game.ServerboundLockDifficultyPacket
++ XXX.protocol.game.ServerboundMovePlayerPacket
+- XXX.protocol.game.ServerboundMovePlayerPacket$Pos
++ XXX.protocol.game.ServerboundMovePlayerPacket$PosRot
+- XXX.protocol.game.ServerboundMovePlayerPacket$Rot
++ XXX.protocol.game.ServerboundMovePlayerPacket$StatusOnly
+- XXX.protocol.game.ServerboundMoveVehiclePacket
++ XXX.protocol.game.ServerboundPaddleBoatPacket
+- XXX.protocol.game.ServerboundPickItemFromBlockPacket
++ XXX.protocol.game.ServerboundPickItemFromEntityPacket
+- XXX.protocol.game.ServerboundPlaceRecipePacket
++ XXX.protocol.game.ServerboundPlayerAbilitiesPacket
+- XXX.protocol.game.ServerboundPlayerActionPacket
++ XXX.protocol.game.ServerboundPlayerActionPacket$Action
+- XXX.protocol.game.ServerboundPlayerCommandPacket
++ XXX.protocol.game.ServerboundPlayerCommandPacket$Action
+- XXX.protocol.game.ServerboundPlayerInputPacket
++ XXX.protocol.game.ServerboundPlayerLoadedPacket
+- XXX.protocol.game.ServerboundRecipeBookChangeSettingsPacket
++ XXX.protocol.game.ServerboundRecipeBookSeenRecipePacket
+- XXX.protocol.game.ServerboundRenameItemPacket
++ XXX.protocol.game.ServerboundSeenAdvancementsPacket
+- XXX.protocol.game.ServerboundSeenAdvancementsPacket$Action
++ XXX.protocol.game.ServerboundSelectBundleItemPacket
+- XXX.protocol.game.ServerboundSelectTradePacket
++ XXX.protocol.game.ServerboundSetBeaconPacket
+- XXX.protocol.game.ServerboundSetCarriedItemPacket
++ XXX.protocol.game.ServerboundSetCommandBlockPacket
+- XXX.protocol.game.ServerboundSetCommandMinecartPacket
++ XXX.protocol.game.ServerboundSetCreativeModeSlotPacket
+- XXX.protocol.game.ServerboundSetJigsawBlockPacket
++ XXX.protocol.game.ServerboundSetStructureBlockPacket
+- XXX.protocol.game.ServerboundSetTestBlockPacket
++ XXX.protocol.game.ServerboundSignUpdatePacket
+- XXX.protocol.game.ServerboundSwingPacket
++ XXX.protocol.game.ServerboundTeleportToEntityPacket
+- XXX.protocol.game.ServerboundTestInstanceBlockActionPacket
++ XXX.protocol.game.ServerboundTestInstanceBlockActionPacket$Action
+- XXX.protocol.game.ServerboundUseItemOnPacket
++ XXX.protocol.game.ServerboundUseItemPacket
+- XXX.protocol.game.ServerGamePacketListener
++ XXX.protocol.game.ServerPacketListener
+- XXX.protocol.game.VecDeltaCodec
+- XXX.protocol.handshake.ClientIntent
++ XXX.protocol.handshake.ClientIntentionPacket
+- XXX.protocol.handshake.HandshakePacketTypes
++ XXX.protocol.handshake.HandshakeProtocols
++ XXX.protocol.handshake.package-info
+- XXX.protocol.handshake.ServerHandshakePacketListener
++ XXX.protocol.login.ClientboundCustomQueryPacket
+- XXX.protocol.login.ClientboundHelloPacket
++ XXX.protocol.login.ClientboundLoginCompressionPacket
+- XXX.protocol.login.ClientboundLoginDisconnectPacket
++ XXX.protocol.login.ClientboundLoginFinishedPacket
+- XXX.protocol.login.ClientLoginPacketListener
+- XXX.protocol.login.LoginPacketTypes
++ XXX.protocol.login.LoginProtocols
+- XXX.protocol.login.package-info
++ XXX.protocol.login.ServerboundCustomQueryAnswerPacket
+- XXX.protocol.login.ServerboundHelloPacket
++ XXX.protocol.login.ServerboundKeyPacket
+- XXX.protocol.login.ServerboundLoginAcknowledgedPacket
+- XXX.protocol.login.ServerLoginPacketListener
++ XXX.protocol.ping.ClientboundPongResponsePacket
+- XXX.protocol.ping.ClientPongPacketListener
++ XXX.protocol.ping.package-info
+- XXX.protocol.ping.PingPacketTypes
+- XXX.protocol.ping.ServerboundPingRequestPacket
++ XXX.protocol.ping.ServerPingPacketListener
++ XXX.protocol.status.ClientboundStatusResponsePacket
+- XXX.protocol.status.ClientStatusPacketListener
+- XXX.protocol.status.package-info
++ XXX.protocol.status.ServerboundStatusRequestPacket
+- XXX.protocol.status.ServerStatus
++ XXX.protocol.status.ServerStatus$Favicon
+- XXX.protocol.status.ServerStatus$Players
++ XXX.protocol.status.ServerStatus$Version
+- XXX.protocol.status.ServerStatusPacketListener
+- XXX.protocol.status.StatusPacketTypes
++ XXX.protocol.status.StatusProtocols
+- XXX.providers.nbt.ContextNbtProvider
++ XXX.providers.nbt.ContextNbtProvider$BlockEntitySource
+- XXX.providers.nbt.ContextNbtProvider$EntitySource
++ XXX.providers.nbt.LootNbtProviderType
+- XXX.providers.nbt.NbtProvider
++ XXX.providers.nbt.NbtProviders
++ XXX.providers.nbt.package-info
+- XXX.providers.nbt.StorageNbtProvider
+- XXX.providers.number.BinomialDistributionGenerator
++ XXX.providers.number.ConstantValue
+- XXX.providers.number.EnchantmentLevelProvider
++ XXX.providers.number.LootNumberProviderType
+- XXX.providers.number.NumberProvider
++ XXX.providers.number.NumberProviders
++ XXX.providers.number.package-info
+- XXX.providers.number.ScoreboardValue
++ XXX.providers.number.StorageValue
+- XXX.providers.number.UniformGenerator
+- XXX.providers.score.ContextScoreboardNameProvider
++ XXX.providers.score.FixedScoreboardNameProvider
+- XXX.providers.score.LootScoreProviderType
++ XXX.providers.score.package-info
++ XXX.providers.score.ScoreboardNameProvider
+- XXX.providers.score.ScoreboardNameProviders
+- XXX.rcon.thread.GenericThread
++ XXX.rcon.thread.package-info
++ XXX.rcon.thread.QueryThreadGs4
+- XXX.rcon.thread.QueryThreadGs4$RequestChallenge
++ XXX.rcon.thread.RconClient
+- XXX.rcon.thread.RconThread
++ XXX.recipes.packs.package-info
+- XXX.recipes.packs.VanillaRecipeProvider
++ XXX.recipes.packs.VanillaRecipeProvider$Runner
+- XXX.recipes.packs.VanillaRecipeProvider$TrimTemplate
++ XXX.render.pip.GuiBannerResultRenderer
+- XXX.render.pip.GuiBookModelRenderer
++ XXX.render.pip.GuiEntityRenderer
+- XXX.render.pip.GuiProfilerChartRenderer
++ XXX.render.pip.GuiSignRenderer
+- XXX.render.pip.GuiSkinRenderer
++ XXX.render.pip.OversizedItemRenderer
++ XXX.render.pip.package-info
+- XXX.render.pip.PictureInPictureRenderer
+- XXX.render.state.BlitRenderState
++ XXX.render.state.ColoredRectangleRenderState
+- XXX.render.state.GlyphRenderState
++ XXX.render.state.GuiElementRenderState
+- XXX.render.state.GuiItemRenderState
++ XXX.render.state.GuiRenderState
+- XXX.render.state.GuiRenderState$Node
++ XXX.render.state.GuiRenderState$TraverseRange
+- XXX.render.state.GuiTextRenderState
++ XXX.render.state.package-info
++ XXX.render.state.ScreenArea
+- XXX.render.state.TiledBlitRenderState
++ XXX.renderer.block.package-info
+- XXX.renderer.blockentity.AbstractEndPortalRenderer
++ XXX.renderer.blockentity.AbstractSignRenderer
+- XXX.renderer.blockentity.BannerRenderer
++ XXX.renderer.blockentity.BeaconRenderer
+- XXX.renderer.blockentity.BedRenderer
++ XXX.renderer.blockentity.BellRenderer
+- XXX.renderer.blockentity.BlockEntityRenderDispatcher
++ XXX.renderer.blockentity.BlockEntityRenderer
+- XXX.renderer.blockentity.BlockEntityRendererProvider
++ XXX.renderer.blockentity.BlockEntityRendererProvider$Context
+- XXX.renderer.blockentity.BlockEntityRenderers
++ XXX.renderer.blockentity.BlockEntityWithBoundingBoxRenderer
+- XXX.renderer.blockentity.BrightnessCombiner
++ XXX.renderer.blockentity.BrushableBlockRenderer
+- XXX.renderer.blockentity.BrushableBlockRenderer$1
++ XXX.renderer.blockentity.CampfireRenderer
+- XXX.renderer.blockentity.ChestRenderer
++ XXX.renderer.blockentity.ChestRenderer$1
+- XXX.renderer.blockentity.ConduitRenderer
++ XXX.renderer.blockentity.CopperGolemStatueBlockRenderer
+- XXX.renderer.blockentity.DecoratedPotRenderer
++ XXX.renderer.blockentity.EnchantTableRenderer
+- XXX.renderer.blockentity.HangingSignRenderer
++ XXX.renderer.blockentity.HangingSignRenderer$AttachmentType
+- XXX.renderer.blockentity.HangingSignRenderer$ModelKey
++ XXX.renderer.blockentity.LecternRenderer
+- XXX.renderer.blockentity.package-info
+- XXX.renderer.blockentity.PistonHeadRenderer
++ XXX.renderer.blockentity.ShelfRenderer
+- XXX.renderer.blockentity.ShulkerBoxRenderer
++ XXX.renderer.blockentity.ShulkerBoxRenderer$ShulkerBoxModel
+- XXX.renderer.blockentity.SignRenderer
++ XXX.renderer.blockentity.SignRenderer$Models
+- XXX.renderer.blockentity.SkullBlockRenderer
++ XXX.renderer.blockentity.SkullBlockRenderer$1
+- XXX.renderer.blockentity.SpawnerRenderer
++ XXX.renderer.blockentity.TestInstanceRenderer
+- XXX.renderer.blockentity.TheEndGatewayRenderer
++ XXX.renderer.blockentity.TheEndPortalRenderer
+- XXX.renderer.blockentity.TrialSpawnerRenderer
++ XXX.renderer.blockentity.VaultRenderer
++ XXX.renderer.chunk.ChunkSectionLayer
+- XXX.renderer.chunk.ChunkSectionLayerGroup
++ XXX.renderer.chunk.ChunkSectionsToRender
++ XXX.renderer.chunk.CompiledSectionMesh
+- XXX.renderer.chunk.CompiledSectionMesh$1
++ XXX.renderer.chunk.CompiledSectionMesh$2
+- XXX.renderer.chunk.CompileTaskDynamicQueue
++ XXX.renderer.chunk.package-info
+- XXX.renderer.chunk.RenderRegionCache
++ XXX.renderer.chunk.RenderSectionRegion
+- XXX.renderer.chunk.SectionBuffers
++ XXX.renderer.chunk.SectionCompiler
+- XXX.renderer.chunk.SectionCompiler$Results
++ XXX.renderer.chunk.SectionCopy
+- XXX.renderer.chunk.SectionMesh
++ XXX.renderer.chunk.SectionRenderDispatcher
+- XXX.renderer.chunk.SectionRenderDispatcher$RenderSection
++ XXX.renderer.chunk.SectionRenderDispatcher$RenderSection$CompileTask
+- XXX.renderer.chunk.SectionRenderDispatcher$RenderSection$RebuildTask
++ XXX.renderer.chunk.SectionRenderDispatcher$RenderSection$ResortTransparencyTask
+- XXX.renderer.chunk.SectionRenderDispatcher$SectionTaskResult
++ XXX.renderer.chunk.TranslucencyPointOfView
+- XXX.renderer.chunk.VisGraph
++ XXX.renderer.chunk.VisGraph$1
+- XXX.renderer.chunk.VisibilitySet
+- XXX.renderer.culling.Frustum
++ XXX.renderer.culling.package-info
+- XXX.renderer.debug.BeeDebugRenderer
++ XXX.renderer.debug.BrainDebugRenderer
+- XXX.renderer.debug.BreezeDebugRenderer
++ XXX.renderer.debug.ChunkBorderRenderer
+- XXX.renderer.debug.ChunkCullingDebugRenderer
++ XXX.renderer.debug.ChunkDebugRenderer
+- XXX.renderer.debug.ChunkDebugRenderer$ChunkData
++ XXX.renderer.debug.CollisionBoxRenderer
+- XXX.renderer.debug.DebugRenderer
++ XXX.renderer.debug.DebugRenderer$SimpleDebugRenderer
+- XXX.renderer.debug.EntityBlockIntersectionDebugRenderer
++ XXX.renderer.debug.EntityHitboxDebugRenderer
+- XXX.renderer.debug.GameEventListenerRenderer
++ XXX.renderer.debug.GameEventListenerRenderer$ListenerVisitor
+- XXX.renderer.debug.GameTestBlockHighlightRenderer
++ XXX.renderer.debug.GameTestBlockHighlightRenderer$Marker
+- XXX.renderer.debug.GoalSelectorDebugRenderer
++ XXX.renderer.debug.HeightMapRenderer
+- XXX.renderer.debug.HeightMapRenderer$1
++ XXX.renderer.debug.LightDebugRenderer
+- XXX.renderer.debug.LightSectionDebugRenderer
++ XXX.renderer.debug.LightSectionDebugRenderer$SectionData
+- XXX.renderer.debug.NeighborsUpdateRenderer
++ XXX.renderer.debug.NeighborsUpdateRenderer$LastUpdate
+- XXX.renderer.debug.OctreeDebugRenderer
+- XXX.renderer.debug.package-info
++ XXX.renderer.debug.PathfindingRenderer
+- XXX.renderer.debug.PoiDebugRenderer
++ XXX.renderer.debug.RaidDebugRenderer
+- XXX.renderer.debug.RedstoneWireOrientationsRenderer
++ XXX.renderer.debug.SolidFaceRenderer
+- XXX.renderer.debug.StructureRenderer
++ XXX.renderer.debug.SupportBlockRenderer
+- XXX.renderer.debug.VillageSectionsDebugRenderer
++ XXX.renderer.debug.WaterDebugRenderer
++ XXX.renderer.entity.AbstractBoatRenderer
+- XXX.renderer.entity.AbstractHoglinRenderer
++ XXX.renderer.entity.AbstractHorseRenderer
+- XXX.renderer.entity.AbstractMinecartRenderer
++ XXX.renderer.entity.AbstractSkeletonRenderer
+- XXX.renderer.entity.AbstractZombieRenderer
++ XXX.renderer.entity.AgeableMobRenderer
+- XXX.renderer.entity.AllayRenderer
++ XXX.renderer.entity.ArmadilloRenderer
+- XXX.renderer.entity.ArmorModelSet
++ XXX.renderer.entity.ArmorModelSet$1
+- XXX.renderer.entity.ArmorStandRenderer
++ XXX.renderer.entity.ArrowRenderer
+- XXX.renderer.entity.AxolotlRenderer
++ XXX.renderer.entity.BatRenderer
+- XXX.renderer.entity.BeeRenderer
++ XXX.renderer.entity.BlazeRenderer
+- XXX.renderer.entity.BoatRenderer
++ XXX.renderer.entity.BoggedRenderer
+- XXX.renderer.entity.BreezeRenderer
++ XXX.renderer.entity.CamelHuskRenderer
+- XXX.renderer.entity.CamelRenderer
++ XXX.renderer.entity.CatRenderer
+- XXX.renderer.entity.CaveSpiderRenderer
++ XXX.renderer.entity.ChickenRenderer
+- XXX.renderer.entity.CodRenderer
++ XXX.renderer.entity.CopperGolemRenderer
+- XXX.renderer.entity.CowRenderer
++ XXX.renderer.entity.CreakingRenderer
+- XXX.renderer.entity.CreeperRenderer
++ XXX.renderer.entity.DisplayRenderer
+- XXX.renderer.entity.DisplayRenderer$1
++ XXX.renderer.entity.DisplayRenderer$BlockDisplayRenderer
+- XXX.renderer.entity.DisplayRenderer$ItemDisplayRenderer
++ XXX.renderer.entity.DisplayRenderer$TextDisplayRenderer
+- XXX.renderer.entity.DolphinRenderer
++ XXX.renderer.entity.DonkeyRenderer
+- XXX.renderer.entity.DonkeyRenderer$Type
++ XXX.renderer.entity.DragonFireballRenderer
+- XXX.renderer.entity.DrownedRenderer
++ XXX.renderer.entity.ElderGuardianRenderer
+- XXX.renderer.entity.EndCrystalRenderer
++ XXX.renderer.entity.EnderDragonRenderer
+- XXX.renderer.entity.EndermanRenderer
++ XXX.renderer.entity.EndermiteRenderer
+- XXX.renderer.entity.EntityRenderDispatcher
++ XXX.renderer.entity.EntityRenderer
+- XXX.renderer.entity.EntityRendererProvider
++ XXX.renderer.entity.EntityRendererProvider$Context
+- XXX.renderer.entity.EntityRenderers
++ XXX.renderer.entity.EvokerFangsRenderer
+- XXX.renderer.entity.EvokerRenderer
++ XXX.renderer.entity.EvokerRenderer$1
+- XXX.renderer.entity.ExperienceOrbRenderer
++ XXX.renderer.entity.FallingBlockRenderer
+- XXX.renderer.entity.FireworkEntityRenderer
++ XXX.renderer.entity.FishingHookRenderer
+- XXX.renderer.entity.FoxRenderer
++ XXX.renderer.entity.FrogRenderer
+- XXX.renderer.entity.GhastRenderer
++ XXX.renderer.entity.GiantMobRenderer
+- XXX.renderer.entity.GlowSquidRenderer
++ XXX.renderer.entity.GoatRenderer
+- XXX.renderer.entity.GuardianRenderer
++ XXX.renderer.entity.HappyGhastRenderer
+- XXX.renderer.entity.HoglinRenderer
++ XXX.renderer.entity.HorseRenderer
+- XXX.renderer.entity.HumanoidMobRenderer
++ XXX.renderer.entity.HuskRenderer
+- XXX.renderer.entity.IllagerRenderer
++ XXX.renderer.entity.IllusionerRenderer
+- XXX.renderer.entity.IllusionerRenderer$1
++ XXX.renderer.entity.IronGolemRenderer
+- XXX.renderer.entity.ItemEntityRenderer
++ XXX.renderer.entity.ItemFrameRenderer
+- XXX.renderer.entity.ItemRenderer
++ XXX.renderer.entity.LeashKnotRenderer
+- XXX.renderer.entity.LightningBoltRenderer
++ XXX.renderer.entity.LivingEntityRenderer
+- XXX.renderer.entity.LivingEntityRenderer$1
++ XXX.renderer.entity.LlamaRenderer
+- XXX.renderer.entity.LlamaRenderer$1
++ XXX.renderer.entity.LlamaSpitRenderer
+- XXX.renderer.entity.MagmaCubeRenderer
++ XXX.renderer.entity.MinecartRenderer
+- XXX.renderer.entity.MobRenderer
++ XXX.renderer.entity.MushroomCowRenderer
+- XXX.renderer.entity.NautilusRenderer
++ XXX.renderer.entity.NoopRenderer
+- XXX.renderer.entity.OcelotRenderer
++ XXX.renderer.entity.OminousItemSpawnerRenderer
+- XXX.renderer.entity.package-info
+- XXX.renderer.entity.PaintingRenderer
++ XXX.renderer.entity.PaintingRenderer$1
+- XXX.renderer.entity.PandaRenderer
++ XXX.renderer.entity.ParchedRenderer
+- XXX.renderer.entity.ParrotRenderer
++ XXX.renderer.entity.ParrotRenderer$1
+- XXX.renderer.entity.PhantomRenderer
+- XXX.renderer.entity.PiglinRenderer
++ XXX.renderer.entity.PigRenderer
++ XXX.renderer.entity.PillagerRenderer
+- XXX.renderer.entity.PolarBearRenderer
++ XXX.renderer.entity.PufferfishRenderer
+- XXX.renderer.entity.RabbitRenderer
++ XXX.renderer.entity.RabbitRenderer$1
+- XXX.renderer.entity.RaftRenderer
++ XXX.renderer.entity.RavagerRenderer
+- XXX.renderer.entity.RenderLayerParent
++ XXX.renderer.entity.SalmonRenderer
+- XXX.renderer.entity.SalmonRenderer$1
++ XXX.renderer.entity.SheepRenderer
+- XXX.renderer.entity.ShulkerBulletRenderer
++ XXX.renderer.entity.ShulkerRenderer
+- XXX.renderer.entity.SilverfishRenderer
++ XXX.renderer.entity.SkeletonRenderer
+- XXX.renderer.entity.SlimeRenderer
++ XXX.renderer.entity.SnifferRenderer
+- XXX.renderer.entity.SnowGolemRenderer
++ XXX.renderer.entity.SpectralArrowRenderer
+- XXX.renderer.entity.SpiderRenderer
++ XXX.renderer.entity.SquidRenderer
+- XXX.renderer.entity.StrayRenderer
++ XXX.renderer.entity.StriderRenderer
+- XXX.renderer.entity.TadpoleRenderer
++ XXX.renderer.entity.ThrownItemRenderer
+- XXX.renderer.entity.ThrownTridentRenderer
++ XXX.renderer.entity.TippableArrowRenderer
+- XXX.renderer.entity.TntMinecartRenderer
++ XXX.renderer.entity.TntRenderer
+- XXX.renderer.entity.TropicalFishRenderer
++ XXX.renderer.entity.TropicalFishRenderer$1
+- XXX.renderer.entity.TurtleRenderer
++ XXX.renderer.entity.UndeadHorseRenderer
+- XXX.renderer.entity.UndeadHorseRenderer$Type
++ XXX.renderer.entity.VexRenderer
+- XXX.renderer.entity.VillagerRenderer
++ XXX.renderer.entity.VindicatorRenderer
+- XXX.renderer.entity.VindicatorRenderer$1
++ XXX.renderer.entity.WanderingTraderRenderer
+- XXX.renderer.entity.WardenRenderer
++ XXX.renderer.entity.WindChargeRenderer
+- XXX.renderer.entity.WitchRenderer
++ XXX.renderer.entity.WitherBossRenderer
+- XXX.renderer.entity.WitherSkeletonRenderer
++ XXX.renderer.entity.WitherSkullRenderer
+- XXX.renderer.entity.WolfRenderer
++ XXX.renderer.entity.ZoglinRenderer
+- XXX.renderer.entity.ZombieNautilusRenderer
++ XXX.renderer.entity.ZombieRenderer
+- XXX.renderer.entity.ZombieVillagerRenderer
++ XXX.renderer.entity.ZombifiedPiglinRenderer
+- XXX.renderer.feature.BlockFeatureRenderer
++ XXX.renderer.feature.CustomFeatureRenderer
+- XXX.renderer.feature.CustomFeatureRenderer$Storage
++ XXX.renderer.feature.FeatureRenderDispatcher
+- XXX.renderer.feature.FlameFeatureRenderer
++ XXX.renderer.feature.ItemFeatureRenderer
+- XXX.renderer.feature.LeashFeatureRenderer
++ XXX.renderer.feature.ModelFeatureRenderer
+- XXX.renderer.feature.ModelFeatureRenderer$CrumblingOverlay
++ XXX.renderer.feature.ModelFeatureRenderer$Storage
+- XXX.renderer.feature.ModelPartFeatureRenderer
++ XXX.renderer.feature.ModelPartFeatureRenderer$Storage
+- XXX.renderer.feature.NameTagFeatureRenderer
++ XXX.renderer.feature.NameTagFeatureRenderer$Storage
+- XXX.renderer.feature.package-info
+- XXX.renderer.feature.ParticleFeatureRenderer
++ XXX.renderer.feature.ParticleFeatureRenderer$ParticleBufferCache
+- XXX.renderer.feature.ShadowFeatureRenderer
++ XXX.renderer.feature.TextFeatureRenderer
++ XXX.renderer.fog.FogData
+- XXX.renderer.fog.FogRenderer
++ XXX.renderer.fog.FogRenderer$FogMode
++ XXX.renderer.fog.package-info
+- XXX.renderer.gizmos.DrawableGizmoPrimitives
++ XXX.renderer.gizmos.DrawableGizmoPrimitives$Group
+- XXX.renderer.gizmos.DrawableGizmoPrimitives$Line
++ XXX.renderer.gizmos.DrawableGizmoPrimitives$Point
+- XXX.renderer.gizmos.DrawableGizmoPrimitives$Quad
++ XXX.renderer.gizmos.DrawableGizmoPrimitives$Text
+- XXX.renderer.gizmos.DrawableGizmoPrimitives$TriangleFan
++ XXX.renderer.gizmos.package-info
+- XXX.renderer.item.BlockModelWrapper
++ XXX.renderer.item.BlockModelWrapper$Unbaked
+- XXX.renderer.item.BundleSelectedItemSpecialRenderer
++ XXX.renderer.item.BundleSelectedItemSpecialRenderer$Unbaked
+- XXX.renderer.item.ClientItem
++ XXX.renderer.item.ClientItem$Properties
+- XXX.renderer.item.CompositeModel
++ XXX.renderer.item.CompositeModel$Unbaked
+- XXX.renderer.item.ConditionalItemModel
++ XXX.renderer.item.ConditionalItemModel$Unbaked
+- XXX.renderer.item.EmptyModel
++ XXX.renderer.item.EmptyModel$Unbaked
+- XXX.renderer.item.ItemModel
++ XXX.renderer.item.ItemModel$BakingContext
+- XXX.renderer.item.ItemModel$Unbaked
++ XXX.renderer.item.ItemModelResolver
+- XXX.renderer.item.ItemModels
++ XXX.renderer.item.ItemStackRenderState
+- XXX.renderer.item.ItemStackRenderState$FoilType
++ XXX.renderer.item.ItemStackRenderState$LayerRenderState
+- XXX.renderer.item.MissingItemModel
++ XXX.renderer.item.ModelRenderProperties
++ XXX.renderer.item.package-info
+- XXX.renderer.item.RangeSelectItemModel
++ XXX.renderer.item.RangeSelectItemModel$Entry
+- XXX.renderer.item.RangeSelectItemModel$Unbaked
++ XXX.renderer.item.SelectItemModel
+- XXX.renderer.item.SelectItemModel$ModelSelector
++ XXX.renderer.item.SelectItemModel$SwitchCase
+- XXX.renderer.item.SelectItemModel$Unbaked
++ XXX.renderer.item.SelectItemModel$UnbakedSwitch
+- XXX.renderer.item.SpecialModelWrapper
++ XXX.renderer.item.SpecialModelWrapper$Unbaked
+- XXX.renderer.item.TrackingItemStackRenderState
++ XXX.renderer.rendertype.LayeringTransform
+- XXX.renderer.rendertype.OutputTarget
+- XXX.renderer.rendertype.package-info
++ XXX.renderer.rendertype.RenderSetup
+- XXX.renderer.rendertype.RenderSetup$OutlineProperty
++ XXX.renderer.rendertype.RenderSetup$RenderSetupBuilder
+- XXX.renderer.rendertype.RenderSetup$TextureAndSampler
++ XXX.renderer.rendertype.RenderSetup$TextureBinding
+- XXX.renderer.rendertype.RenderType
++ XXX.renderer.rendertype.RenderTypes
+- XXX.renderer.rendertype.TextureTransform
++ XXX.renderer.rendertype.TextureTransform$OffsetTextureTransform
++ XXX.renderer.special.BannerSpecialRenderer
+- XXX.renderer.special.BannerSpecialRenderer$Unbaked
++ XXX.renderer.special.BedSpecialRenderer
+- XXX.renderer.special.BedSpecialRenderer$Unbaked
++ XXX.renderer.special.ChestSpecialRenderer
+- XXX.renderer.special.ChestSpecialRenderer$Unbaked
++ XXX.renderer.special.ConduitSpecialRenderer
+- XXX.renderer.special.ConduitSpecialRenderer$Unbaked
++ XXX.renderer.special.CopperGolemStatueSpecialRenderer
+- XXX.renderer.special.CopperGolemStatueSpecialRenderer$Unbaked
++ XXX.renderer.special.DecoratedPotSpecialRenderer
+- XXX.renderer.special.DecoratedPotSpecialRenderer$Unbaked
++ XXX.renderer.special.HangingSignSpecialRenderer
+- XXX.renderer.special.HangingSignSpecialRenderer$Unbaked
++ XXX.renderer.special.NoDataSpecialModelRenderer
++ XXX.renderer.special.package-info
+- XXX.renderer.special.PlayerHeadSpecialRenderer
++ XXX.renderer.special.PlayerHeadSpecialRenderer$Unbaked
+- XXX.renderer.special.ShieldSpecialRenderer
++ XXX.renderer.special.ShieldSpecialRenderer$Unbaked
+- XXX.renderer.special.ShulkerBoxSpecialRenderer
++ XXX.renderer.special.ShulkerBoxSpecialRenderer$Unbaked
+- XXX.renderer.special.SkullSpecialRenderer
++ XXX.renderer.special.SkullSpecialRenderer$Unbaked
+- XXX.renderer.special.SpecialModelRenderer
++ XXX.renderer.special.SpecialModelRenderer$BakingContext
+- XXX.renderer.special.SpecialModelRenderer$BakingContext$Simple
++ XXX.renderer.special.SpecialModelRenderer$Unbaked
+- XXX.renderer.special.SpecialModelRenderers
++ XXX.renderer.special.StandingSignSpecialRenderer
+- XXX.renderer.special.StandingSignSpecialRenderer$Unbaked
++ XXX.renderer.special.TridentSpecialRenderer
+- XXX.renderer.special.TridentSpecialRenderer$Unbaked
+- XXX.renderer.state.BlockBreakingRenderState
++ XXX.renderer.state.BlockOutlineRenderState
+- XXX.renderer.state.CameraRenderState
++ XXX.renderer.state.LevelRenderState
+- XXX.renderer.state.MapRenderState
++ XXX.renderer.state.MapRenderState$MapDecorationRenderState
++ XXX.renderer.state.package-info
+- XXX.renderer.state.ParticleGroupRenderState
++ XXX.renderer.state.ParticlesRenderState
+- XXX.renderer.state.QuadParticleRenderState
++ XXX.renderer.state.QuadParticleRenderState$ParticleConsumer
+- XXX.renderer.state.QuadParticleRenderState$PreparedBuffers
++ XXX.renderer.state.QuadParticleRenderState$PreparedLayer
+- XXX.renderer.state.QuadParticleRenderState$Storage
++ XXX.renderer.state.SkyRenderState
+- XXX.renderer.state.WeatherRenderState
++ XXX.renderer.state.WorldBorderRenderState
+- XXX.renderer.state.WorldBorderRenderState$DistancePerDirection
+- XXX.renderer.texture.AbstractTexture
++ XXX.renderer.texture.CubeMapTexture
+- XXX.renderer.texture.Dumpable
++ XXX.renderer.texture.DynamicTexture
+- XXX.renderer.texture.MipmapGenerator
++ XXX.renderer.texture.MipmapStrategy
+- XXX.renderer.texture.MissingTextureAtlasSprite
++ XXX.renderer.texture.OverlayTexture
+- XXX.renderer.texture.package-info
+- XXX.renderer.texture.ReloadableTexture
++ XXX.renderer.texture.SimpleTexture
+- XXX.renderer.texture.SkinTextureDownloader
++ XXX.renderer.texture.SpriteContents
+- XXX.renderer.texture.SpriteContents$AnimatedTexture
++ XXX.renderer.texture.SpriteContents$AnimationState
+- XXX.renderer.texture.SpriteContents$FrameInfo
++ XXX.renderer.texture.SpriteLoader
+- XXX.renderer.texture.SpriteLoader$Preparations
++ XXX.renderer.texture.Stitcher
+- XXX.renderer.texture.Stitcher$Entry
++ XXX.renderer.texture.Stitcher$Holder
+- XXX.renderer.texture.Stitcher$Region
++ XXX.renderer.texture.Stitcher$SpriteLoader
+- XXX.renderer.texture.StitcherException
++ XXX.renderer.texture.TextureAtlas
+- XXX.renderer.texture.TextureAtlasSprite
++ XXX.renderer.texture.TextureContents
+- XXX.renderer.texture.TextureManager
++ XXX.renderer.texture.TextureManager$PendingReload
+- XXX.renderer.texture.TickableTexture
+- XXX.resources.language.ClientLanguage
++ XXX.resources.language.FormattedBidiReorder
+- XXX.resources.language.I18n
++ XXX.resources.language.LanguageInfo
+- XXX.resources.language.LanguageManager
++ XXX.resources.language.package-info
+- XXX.resources.metadata.package-info
++ XXX.resources.model.AtlasManager
+- XXX.resources.model.AtlasManager$AtlasConfig
++ XXX.resources.model.AtlasManager$AtlasEntry
+- XXX.resources.model.AtlasManager$PendingStitch
++ XXX.resources.model.AtlasManager$PendingStitchResults
+- XXX.resources.model.BlockModelRotation
++ XXX.resources.model.BlockModelRotation$WithUvLock
+- XXX.resources.model.BlockStateDefinitions
++ XXX.resources.model.BlockStateModelLoader
+- XXX.resources.model.BlockStateModelLoader$LoadedBlockModelDefinition
++ XXX.resources.model.BlockStateModelLoader$LoadedModels
+- XXX.resources.model.ClientItemInfoLoader
++ XXX.resources.model.ClientItemInfoLoader$LoadedClientInfos
+- XXX.resources.model.ClientItemInfoLoader$PendingLoad
++ XXX.resources.model.EquipmentAssetManager
+- XXX.resources.model.EquipmentClientInfo
++ XXX.resources.model.EquipmentClientInfo$Builder
+- XXX.resources.model.EquipmentClientInfo$Dyeable
++ XXX.resources.model.EquipmentClientInfo$Layer
+- XXX.resources.model.EquipmentClientInfo$LayerType
++ XXX.resources.model.Material
+- XXX.resources.model.MaterialSet
++ XXX.resources.model.MissingBlockModel
+- XXX.resources.model.ModelBaker
++ XXX.resources.model.ModelBaker$PartCache
+- XXX.resources.model.ModelBaker$SharedOperationKey
++ XXX.resources.model.ModelBakery
+- XXX.resources.model.ModelBakery$BakingResult
++ XXX.resources.model.ModelBakery$MissingModels
+- XXX.resources.model.ModelBakery$MissingModels$1
++ XXX.resources.model.ModelBakery$ModelBakerImpl
+- XXX.resources.model.ModelBakery$PartCacheImpl
++ XXX.resources.model.ModelDebugName
+- XXX.resources.model.ModelDiscovery
++ XXX.resources.model.ModelDiscovery$ModelWrapper
+- XXX.resources.model.ModelDiscovery$Slot
++ XXX.resources.model.ModelGroupCollector
+- XXX.resources.model.ModelGroupCollector$GroupKey
++ XXX.resources.model.ModelManager
+- XXX.resources.model.ModelManager$1
++ XXX.resources.model.ModelManager$ReloadState
+- XXX.resources.model.ModelManager$ResolvedModels
++ XXX.resources.model.ModelState
++ XXX.resources.model.package-info
+- XXX.resources.model.QuadCollection
++ XXX.resources.model.QuadCollection$Builder
+- XXX.resources.model.ResolvableModel
++ XXX.resources.model.ResolvableModel$Resolver
+- XXX.resources.model.ResolvedModel
++ XXX.resources.model.SpriteGetter
+- XXX.resources.model.UnbakedGeometry
++ XXX.resources.model.UnbakedModel
+- XXX.resources.model.UnbakedModel$GuiLight
++ XXX.resources.model.WeightedVariants
+- XXX.resources.model.WeightedVariants$Unbaked
++ XXX.resources.server.DownloadedPackSource
+- XXX.resources.server.DownloadedPackSource$1
++ XXX.resources.server.DownloadedPackSource$2
+- XXX.resources.server.DownloadedPackSource$3
++ XXX.resources.server.DownloadedPackSource$4
+- XXX.resources.server.DownloadedPackSource$5
++ XXX.resources.server.DownloadedPackSource$6
+- XXX.resources.server.DownloadedPackSource$7
++ XXX.resources.server.DownloadedPackSource$8
+- XXX.resources.server.package-info
+- XXX.resources.server.PackDownloader
++ XXX.resources.server.PackLoadFeedback
+- XXX.resources.server.PackLoadFeedback$FinalResult
++ XXX.resources.server.PackLoadFeedback$Update
+- XXX.resources.server.PackReloadConfig
++ XXX.resources.server.PackReloadConfig$Callbacks
+- XXX.resources.server.PackReloadConfig$IdAndPath
++ XXX.resources.server.ServerPackManager
+- XXX.resources.server.ServerPackManager$1
++ XXX.resources.server.ServerPackManager$ActivationStatus
+- XXX.resources.server.ServerPackManager$PackDownloadStatus
++ XXX.resources.server.ServerPackManager$PackPromptStatus
+- XXX.resources.server.ServerPackManager$RemovalReason
++ XXX.resources.server.ServerPackManager$ServerPackData
++ XXX.resources.sounds.AbstractSoundInstance
+- XXX.resources.sounds.AbstractTickableSoundInstance
++ XXX.resources.sounds.AmbientSoundHandler
+- XXX.resources.sounds.BeeAggressiveSoundInstance
++ XXX.resources.sounds.BeeFlyingSoundInstance
+- XXX.resources.sounds.BeeSoundInstance
++ XXX.resources.sounds.BiomeAmbientSoundsHandler
+- XXX.resources.sounds.BiomeAmbientSoundsHandler$LoopSoundInstance
++ XXX.resources.sounds.BubbleColumnAmbientSoundHandler
+- XXX.resources.sounds.DirectionalSoundInstance
++ XXX.resources.sounds.ElytraOnPlayerSoundInstance
+- XXX.resources.sounds.EntityBoundSoundInstance
++ XXX.resources.sounds.GuardianAttackSoundInstance
+- XXX.resources.sounds.MinecartSoundInstance
+- XXX.resources.sounds.package-info
++ XXX.resources.sounds.RidingEntitySoundInstance
+- XXX.resources.sounds.RidingMinecartSoundInstance
++ XXX.resources.sounds.SimpleSoundInstance
+- XXX.resources.sounds.SnifferSoundInstance
++ XXX.resources.sounds.Sound
+- XXX.resources.sounds.Sound$Type
++ XXX.resources.sounds.SoundEventRegistration
+- XXX.resources.sounds.SoundEventRegistrationSerializer
++ XXX.resources.sounds.SoundInstance
+- XXX.resources.sounds.SoundInstance$Attenuation
++ XXX.resources.sounds.TickableSoundInstance
+- XXX.resources.sounds.UnderwaterAmbientSoundHandler
++ XXX.resources.sounds.UnderwaterAmbientSoundInstances
+- XXX.resources.sounds.UnderwaterAmbientSoundInstances$SubSound
++ XXX.resources.sounds.UnderwaterAmbientSoundInstances$UnderwaterAmbientSoundInstance
++ XXX.rule.blockentity.AppendLoot
+- XXX.rule.blockentity.AppendStatic
++ XXX.rule.blockentity.Clear
++ XXX.rule.blockentity.package-info
+- XXX.rule.blockentity.Passthrough
++ XXX.rule.blockentity.RuleBlockEntityModifier
+- XXX.rule.blockentity.RuleBlockEntityModifierType
+- XXX.saveddata.maps.MapBanner
++ XXX.saveddata.maps.MapBanner$1
+- XXX.saveddata.maps.MapDecoration
++ XXX.saveddata.maps.MapDecorationType
+- XXX.saveddata.maps.MapDecorationTypes
++ XXX.saveddata.maps.MapFrame
+- XXX.saveddata.maps.MapId
++ XXX.saveddata.maps.MapIndex
+- XXX.saveddata.maps.MapItemSavedData
++ XXX.saveddata.maps.MapItemSavedData$HoldingPlayer
+- XXX.saveddata.maps.MapItemSavedData$MapDecorationLocation
++ XXX.saveddata.maps.MapItemSavedData$MapPatch
+- XXX.saveddata.maps.package-info
+- XXX.scores.criteria.ObjectiveCriteria
++ XXX.scores.criteria.ObjectiveCriteria$RenderType
+- XXX.scores.criteria.package-info
+- XXX.screens.achievement.package-info
++ XXX.screens.achievement.StatsScreen
+- XXX.screens.achievement.StatsScreen$GeneralStatisticsList
++ XXX.screens.achievement.StatsScreen$GeneralStatisticsList$Entry
+- XXX.screens.achievement.StatsScreen$ItemStatisticsList
++ XXX.screens.achievement.StatsScreen$ItemStatisticsList$Entry
+- XXX.screens.achievement.StatsScreen$ItemStatisticsList$HeaderEntry
++ XXX.screens.achievement.StatsScreen$ItemStatisticsList$HeaderEntry$StatSortButton
+- XXX.screens.achievement.StatsScreen$ItemStatisticsList$ItemRow
++ XXX.screens.achievement.StatsScreen$ItemStatisticsList$ItemRow$ItemRowWidget
+- XXX.screens.achievement.StatsScreen$ItemStatisticsList$ItemRowComparator
++ XXX.screens.achievement.StatsScreen$MobsStatisticsList
+- XXX.screens.achievement.StatsScreen$MobsStatisticsList$MobRow
++ XXX.screens.achievement.StatsScreen$StatisticsTab
++ XXX.screens.advancements.AdvancementsScreen
++ XXX.screens.advancements.AdvancementTab
+- XXX.screens.advancements.AdvancementTabType
++ XXX.screens.advancements.AdvancementTabType$Sprites
+- XXX.screens.advancements.AdvancementWidget
++ XXX.screens.advancements.AdvancementWidgetType
+- XXX.screens.advancements.AdvancementWidgetType$1
+- XXX.screens.advancements.package-info
++ XXX.screens.debug.DebugOptionsScreen
+- XXX.screens.debug.DebugOptionsScreen$AbstractOptionEntry
++ XXX.screens.debug.DebugOptionsScreen$CategoryEntry
+- XXX.screens.debug.DebugOptionsScreen$CategoryEntry$1
++ XXX.screens.debug.DebugOptionsScreen$OptionEntry
+- XXX.screens.debug.DebugOptionsScreen$OptionList
++ XXX.screens.debug.GameModeSwitcherScreen
+- XXX.screens.debug.GameModeSwitcherScreen$1
++ XXX.screens.debug.GameModeSwitcherScreen$GameModeIcon
+- XXX.screens.debug.GameModeSwitcherScreen$GameModeSlot
++ XXX.screens.debug.package-info
+- XXX.screens.dialog.ButtonListDialogScreen
++ XXX.screens.dialog.DialogConnectionAccess
+- XXX.screens.dialog.DialogControlSet
++ XXX.screens.dialog.DialogListDialogScreen
+- XXX.screens.dialog.DialogScreen
++ XXX.screens.dialog.DialogScreen$1
+- XXX.screens.dialog.DialogScreen$WarningScreen
++ XXX.screens.dialog.DialogScreens
+- XXX.screens.dialog.DialogScreens$Factory
++ XXX.screens.dialog.MultiButtonDialogScreen
+- XXX.screens.dialog.package-info
+- XXX.screens.dialog.ServerLinksDialogScreen
++ XXX.screens.dialog.SimpleDialogScreen
+- XXX.screens.dialog.WaitingForResponseScreen
++ XXX.screens.inventory.AbstractCommandBlockEditScreen
+- XXX.screens.inventory.AbstractCommandBlockEditScreen$1
++ XXX.screens.inventory.AbstractContainerScreen
+- XXX.screens.inventory.AbstractContainerScreen$SnapbackData
++ XXX.screens.inventory.AbstractFurnaceScreen
+- XXX.screens.inventory.AbstractMountInventoryScreen
++ XXX.screens.inventory.AbstractRecipeBookScreen
+- XXX.screens.inventory.AbstractSignEditScreen
++ XXX.screens.inventory.AnvilScreen
+- XXX.screens.inventory.BeaconScreen
++ XXX.screens.inventory.BeaconScreen$1
+- XXX.screens.inventory.BeaconScreen$BeaconButton
++ XXX.screens.inventory.BeaconScreen$BeaconCancelButton
+- XXX.screens.inventory.BeaconScreen$BeaconConfirmButton
++ XXX.screens.inventory.BeaconScreen$BeaconPowerButton
+- XXX.screens.inventory.BeaconScreen$BeaconScreenButton
++ XXX.screens.inventory.BeaconScreen$BeaconSpriteScreenButton
+- XXX.screens.inventory.BeaconScreen$BeaconUpgradePowerButton
++ XXX.screens.inventory.BlastFurnaceScreen
+- XXX.screens.inventory.BookEditScreen
++ XXX.screens.inventory.BookSignScreen
+- XXX.screens.inventory.BookViewScreen
++ XXX.screens.inventory.BookViewScreen$BookAccess
+- XXX.screens.inventory.BrewingStandScreen
++ XXX.screens.inventory.CartographyTableScreen
+- XXX.screens.inventory.CommandBlockEditScreen
++ XXX.screens.inventory.CommandBlockEditScreen$1
+- XXX.screens.inventory.ContainerScreen
++ XXX.screens.inventory.CrafterScreen
+- XXX.screens.inventory.CrafterScreen$1
++ XXX.screens.inventory.CraftingScreen
+- XXX.screens.inventory.CreativeInventoryListener
++ XXX.screens.inventory.CreativeModeInventoryScreen
+- XXX.screens.inventory.CreativeModeInventoryScreen$CustomCreativeSlot
++ XXX.screens.inventory.CreativeModeInventoryScreen$ItemPickerMenu
+- XXX.screens.inventory.CreativeModeInventoryScreen$SlotWrapper
++ XXX.screens.inventory.CyclingSlotBackground
+- XXX.screens.inventory.DispenserScreen
++ XXX.screens.inventory.EffectsInInventory
+- XXX.screens.inventory.EnchantmentNames
++ XXX.screens.inventory.EnchantmentScreen
+- XXX.screens.inventory.FurnaceScreen
++ XXX.screens.inventory.GrindstoneScreen
+- XXX.screens.inventory.HangingSignEditScreen
++ XXX.screens.inventory.HopperScreen
+- XXX.screens.inventory.HorseInventoryScreen
++ XXX.screens.inventory.InventoryScreen
+- XXX.screens.inventory.ItemCombinerScreen
++ XXX.screens.inventory.JigsawBlockEditScreen
+- XXX.screens.inventory.JigsawBlockEditScreen$1
++ XXX.screens.inventory.LecternScreen
+- XXX.screens.inventory.LecternScreen$1
++ XXX.screens.inventory.LoomScreen
+- XXX.screens.inventory.MenuAccess
++ XXX.screens.inventory.MerchantScreen
+- XXX.screens.inventory.MerchantScreen$TradeOfferButton
++ XXX.screens.inventory.MinecartCommandBlockEditScreen
+- XXX.screens.inventory.NautilusInventoryScreen
++ XXX.screens.inventory.package-info
++ XXX.screens.inventory.PageButton
+- XXX.screens.inventory.ShulkerBoxScreen
++ XXX.screens.inventory.SignEditScreen
+- XXX.screens.inventory.SmithingScreen
++ XXX.screens.inventory.SmokerScreen
+- XXX.screens.inventory.StonecutterScreen
++ XXX.screens.inventory.StructureBlockEditScreen
+- XXX.screens.inventory.StructureBlockEditScreen$1
++ XXX.screens.inventory.StructureBlockEditScreen$2
+- XXX.screens.inventory.TestBlockEditScreen
++ XXX.screens.inventory.TestInstanceBlockEditScreen
+- XXX.screens.inventory.TestInstanceBlockEditScreen$1
++ XXX.screens.multiplayer.CodeOfConductScreen
+- XXX.screens.multiplayer.JoinMultiplayerScreen
+- XXX.screens.multiplayer.package-info
++ XXX.screens.multiplayer.SafetyScreen
+- XXX.screens.multiplayer.ServerReconfigScreen
++ XXX.screens.multiplayer.ServerSelectionList
+- XXX.screens.multiplayer.ServerSelectionList$1
++ XXX.screens.multiplayer.ServerSelectionList$Entry
+- XXX.screens.multiplayer.ServerSelectionList$LANHeader
++ XXX.screens.multiplayer.ServerSelectionList$NetworkServerEntry
+- XXX.screens.multiplayer.ServerSelectionList$OnlineServerEntry
++ XXX.screens.multiplayer.WarningScreen
++ XXX.screens.options.AccessibilityOptionsScreen
+- XXX.screens.options.ChatOptionsScreen
++ XXX.screens.options.FontOptionsScreen
+- XXX.screens.options.LanguageSelectScreen
++ XXX.screens.options.LanguageSelectScreen$LanguageSelectionList
+- XXX.screens.options.LanguageSelectScreen$LanguageSelectionList$Entry
++ XXX.screens.options.MouseSettingsScreen
+- XXX.screens.options.OnlineOptionsScreen
++ XXX.screens.options.OptionsScreen
+- XXX.screens.options.OptionsSubScreen
++ XXX.screens.options.package-info
++ XXX.screens.options.SkinCustomizationScreen
+- XXX.screens.options.SoundOptionsScreen
++ XXX.screens.options.UnsupportedGraphicsWarningScreen
+- XXX.screens.options.UnsupportedGraphicsWarningScreen$ButtonOption
++ XXX.screens.options.VideoSettingsScreen
++ XXX.screens.packs.package-info
++ XXX.screens.packs.PackSelectionModel
+- XXX.screens.packs.PackSelectionModel$Entry
++ XXX.screens.packs.PackSelectionModel$EntryBase
+- XXX.screens.packs.PackSelectionModel$SelectedPackEntry
++ XXX.screens.packs.PackSelectionModel$UnselectedPackEntry
+- XXX.screens.packs.PackSelectionScreen
++ XXX.screens.packs.PackSelectionScreen$1
+- XXX.screens.packs.PackSelectionScreen$Watcher
++ XXX.screens.packs.TransferableSelectionList
+- XXX.screens.packs.TransferableSelectionList$Entry
++ XXX.screens.packs.TransferableSelectionList$HeaderEntry
+- XXX.screens.packs.TransferableSelectionList$PackEntry
+- XXX.screens.recipebook.CraftingRecipeBookComponent
++ XXX.screens.recipebook.FurnaceRecipeBookComponent
+- XXX.screens.recipebook.GhostSlots
++ XXX.screens.recipebook.GhostSlots$GhostSlot
+- XXX.screens.recipebook.OverlayRecipeComponent
++ XXX.screens.recipebook.OverlayRecipeComponent$OverlayCraftingRecipeButton
+- XXX.screens.recipebook.OverlayRecipeComponent$OverlayRecipeButton
++ XXX.screens.recipebook.OverlayRecipeComponent$OverlayRecipeButton$Pos
+- XXX.screens.recipebook.OverlayRecipeComponent$OverlaySmeltingRecipeButton
+- XXX.screens.recipebook.package-info
++ XXX.screens.recipebook.RecipeBookComponent
+- XXX.screens.recipebook.RecipeBookComponent$TabInfo
++ XXX.screens.recipebook.RecipeBookPage
+- XXX.screens.recipebook.RecipeBookTabButton
++ XXX.screens.recipebook.RecipeButton
+- XXX.screens.recipebook.RecipeButton$ResolvedEntry
++ XXX.screens.recipebook.RecipeCollection
+- XXX.screens.recipebook.RecipeCollection$CraftableStatus
++ XXX.screens.recipebook.RecipeUpdateListener
+- XXX.screens.recipebook.SearchRecipeBookCategory
++ XXX.screens.recipebook.SlotSelectTime
++ XXX.screens.reporting.AbstractReportScreen
+- XXX.screens.reporting.AbstractReportScreen$DiscardReportWarningScreen
++ XXX.screens.reporting.ChatReportScreen
+- XXX.screens.reporting.ChatSelectionLogFiller
++ XXX.screens.reporting.ChatSelectionLogFiller$Output
+- XXX.screens.reporting.ChatSelectionScreen
++ XXX.screens.reporting.ChatSelectionScreen$ChatSelectionList
+- XXX.screens.reporting.ChatSelectionScreen$ChatSelectionList$DividerEntry
++ XXX.screens.reporting.ChatSelectionScreen$ChatSelectionList$Entry
+- XXX.screens.reporting.ChatSelectionScreen$ChatSelectionList$Heading
++ XXX.screens.reporting.ChatSelectionScreen$ChatSelectionList$MessageEntry
+- XXX.screens.reporting.ChatSelectionScreen$ChatSelectionList$MessageHeadingEntry
++ XXX.screens.reporting.ChatSelectionScreen$ChatSelectionList$PaddingEntry
+- XXX.screens.reporting.NameReportScreen
+- XXX.screens.reporting.package-info
++ XXX.screens.reporting.ReportPlayerScreen
+- XXX.screens.reporting.ReportReasonSelectionScreen
++ XXX.screens.reporting.ReportReasonSelectionScreen$ReasonSelectionList
+- XXX.screens.reporting.ReportReasonSelectionScreen$ReasonSelectionList$Entry
++ XXX.screens.reporting.SkinReportScreen
+- XXX.screens.social.package-info
++ XXX.screens.social.PlayerEntry
+- XXX.screens.social.PlayerEntry$1
++ XXX.screens.social.PlayerEntry$2
+- XXX.screens.social.PlayerEntry$3
++ XXX.screens.social.PlayerSocialManager
+- XXX.screens.social.SocialInteractionsPlayerList
++ XXX.screens.social.SocialInteractionsScreen
+- XXX.screens.social.SocialInteractionsScreen$1
++ XXX.screens.social.SocialInteractionsScreen$Page
++ XXX.screens.telemetry.package-info
++ XXX.screens.telemetry.TelemetryEventWidget
+- XXX.screens.telemetry.TelemetryEventWidget$Content
++ XXX.screens.telemetry.TelemetryEventWidget$ContentBuilder
+- XXX.screens.telemetry.TelemetryInfoScreen
+- XXX.screens.worldselection.ConfirmExperimentalFeaturesScreen
++ XXX.screens.worldselection.ConfirmExperimentalFeaturesScreen$DetailsScreen
+- XXX.screens.worldselection.ConfirmExperimentalFeaturesScreen$DetailsScreen$PackList
++ XXX.screens.worldselection.ConfirmExperimentalFeaturesScreen$DetailsScreen$PackListEntry
+- XXX.screens.worldselection.CreateWorldCallback
++ XXX.screens.worldselection.CreateWorldScreen
+- XXX.screens.worldselection.CreateWorldScreen$GameTab
++ XXX.screens.worldselection.CreateWorldScreen$MoreTab
+- XXX.screens.worldselection.CreateWorldScreen$WorldTab
++ XXX.screens.worldselection.CreateWorldScreen$WorldTab$1
+- XXX.screens.worldselection.CreateWorldScreen$WorldTab$2
++ XXX.screens.worldselection.DataPackReloadCookie
+- XXX.screens.worldselection.EditGameRulesScreen
++ XXX.screens.worldselection.EditGameRulesScreen$BooleanRuleEntry
+- XXX.screens.worldselection.EditGameRulesScreen$CategoryRuleEntry
++ XXX.screens.worldselection.EditGameRulesScreen$CategoryRuleEntry$1
+- XXX.screens.worldselection.EditGameRulesScreen$EntryFactory
++ XXX.screens.worldselection.EditGameRulesScreen$GameRuleEntry
+- XXX.screens.worldselection.EditGameRulesScreen$IntegerRuleEntry
++ XXX.screens.worldselection.EditGameRulesScreen$RuleEntry
+- XXX.screens.worldselection.EditGameRulesScreen$RuleList
++ XXX.screens.worldselection.EditGameRulesScreen$RuleList$1
+- XXX.screens.worldselection.EditWorldScreen
++ XXX.screens.worldselection.ExperimentsScreen
+- XXX.screens.worldselection.InitialWorldCreationOptions
++ XXX.screens.worldselection.OptimizeWorldScreen
++ XXX.screens.worldselection.package-info
+- XXX.screens.worldselection.PresetEditor
++ XXX.screens.worldselection.SelectWorldScreen
+- XXX.screens.worldselection.SwitchGrid
++ XXX.screens.worldselection.SwitchGrid$Builder
+- XXX.screens.worldselection.SwitchGrid$InfoUnderneathSettings
++ XXX.screens.worldselection.SwitchGrid$LabeledSwitch
+- XXX.screens.worldselection.SwitchGrid$SwitchBuilder
++ XXX.screens.worldselection.WorldCreationContext
+- XXX.screens.worldselection.WorldCreationContext$DimensionsUpdater
++ XXX.screens.worldselection.WorldCreationContext$OptionsModifier
+- XXX.screens.worldselection.WorldCreationContextMapper
++ XXX.screens.worldselection.WorldCreationUiState
+- XXX.screens.worldselection.WorldCreationUiState$SelectedGameMode
++ XXX.screens.worldselection.WorldCreationUiState$WorldTypeEntry
+- XXX.screens.worldselection.WorldOpenFlows
++ XXX.screens.worldselection.WorldOpenFlows$1Data
+- XXX.screens.worldselection.WorldSelectionList
++ XXX.screens.worldselection.WorldSelectionList$Builder
+- XXX.screens.worldselection.WorldSelectionList$Entry
++ XXX.screens.worldselection.WorldSelectionList$EntryType
+- XXX.screens.worldselection.WorldSelectionList$LoadingHeader
++ XXX.screens.worldselection.WorldSelectionList$NoWorldsEntry
+- XXX.screens.worldselection.WorldSelectionList$WorldListEntry
++ XXX.selector.options.EntitySelectorOptions
+- XXX.selector.options.EntitySelectorOptions$Modifier
++ XXX.selector.options.EntitySelectorOptions$Option
+- XXX.selector.options.package-info
++ XXX.server.advancements.AdvancementVisibilityEvaluator
+- XXX.server.advancements.AdvancementVisibilityEvaluator$Output
++ XXX.server.advancements.AdvancementVisibilityEvaluator$VisibilityRule
+- XXX.server.advancements.package-info
++ XXX.server.bossevents.CustomBossEvent
+- XXX.server.bossevents.CustomBossEvent$Packed
++ XXX.server.bossevents.CustomBossEvents
+- XXX.server.bossevents.package-info
++ XXX.server.chase.ChaseClient
+- XXX.server.chase.ChaseClient$TeleportTarget
++ XXX.server.chase.ChaseServer
+- XXX.server.chase.ChaseServer$PlayerPosition
++ XXX.server.chase.package-info
+- XXX.server.commands.AdvancementCommands
++ XXX.server.commands.AdvancementCommands$Action
+- XXX.server.commands.AdvancementCommands$Action$1
++ XXX.server.commands.AdvancementCommands$Action$2
+- XXX.server.commands.AdvancementCommands$Mode
++ XXX.server.commands.AttributeCommand
+- XXX.server.commands.BanIpCommands
++ XXX.server.commands.BanListCommands
+- XXX.server.commands.BanPlayerCommands
++ XXX.server.commands.BossBarCommands
+- XXX.server.commands.ChaseCommand
++ XXX.server.commands.ClearInventoryCommands
+- XXX.server.commands.CloneCommands
++ XXX.server.commands.CloneCommands$CloneBlockEntityInfo
+- XXX.server.commands.CloneCommands$CloneBlockInfo
++ XXX.server.commands.CloneCommands$DimensionAndPosition
+- XXX.server.commands.CloneCommands$Mode
++ XXX.server.commands.DamageCommand
+- XXX.server.commands.DataPackCommand
++ XXX.server.commands.DataPackCommand$Inserter
++ XXX.server.commands.DebugCommand
+- XXX.server.commands.DebugCommand$TraceCustomExecutor
++ XXX.server.commands.DebugCommand$TraceCustomExecutor$1
+- XXX.server.commands.DebugCommand$Tracer
++ XXX.server.commands.DebugConfigCommand
+- XXX.server.commands.DebugMobSpawningCommand
++ XXX.server.commands.DebugPathCommand
+- XXX.server.commands.DefaultGameModeCommands
+- XXX.server.commands.DeOpCommands
++ XXX.server.commands.DialogCommand
+- XXX.server.commands.DifficultyCommand
++ XXX.server.commands.EffectCommands
+- XXX.server.commands.EmoteCommands
++ XXX.server.commands.EnchantCommand
+- XXX.server.commands.ExecuteCommand
++ XXX.server.commands.ExecuteCommand$CommandNumericPredicate
+- XXX.server.commands.ExecuteCommand$CommandPredicate
++ XXX.server.commands.ExecuteCommand$ExecuteIfFunctionCustomModifier
+- XXX.server.commands.ExecuteCommand$IntBiPredicate
++ XXX.server.commands.ExperienceCommand
+- XXX.server.commands.ExperienceCommand$Type
++ XXX.server.commands.FetchProfileCommand
+- XXX.server.commands.FillBiomeCommand
++ XXX.server.commands.FillCommand
+- XXX.server.commands.FillCommand$1UpdatedPosition
++ XXX.server.commands.FillCommand$Affector
+- XXX.server.commands.FillCommand$Filter
++ XXX.server.commands.FillCommand$Mode
+- XXX.server.commands.FillCommand$NullableCommandFunction
++ XXX.server.commands.ForceLoadCommand
+- XXX.server.commands.FunctionCommand
++ XXX.server.commands.FunctionCommand$1
+- XXX.server.commands.FunctionCommand$1Accumulator
++ XXX.server.commands.FunctionCommand$2
+- XXX.server.commands.FunctionCommand$3
++ XXX.server.commands.FunctionCommand$4
+- XXX.server.commands.FunctionCommand$5
++ XXX.server.commands.FunctionCommand$Callbacks
+- XXX.server.commands.FunctionCommand$FunctionCustomExecutor
++ XXX.server.commands.GameModeCommand
+- XXX.server.commands.GameRuleCommand
++ XXX.server.commands.GameRuleCommand$1
+- XXX.server.commands.GiveCommand
++ XXX.server.commands.HelpCommand
+- XXX.server.commands.InCommandFunction
++ XXX.server.commands.ItemCommands
+- XXX.server.commands.JfrCommand
++ XXX.server.commands.KickCommand
+- XXX.server.commands.KillCommand
++ XXX.server.commands.ListPlayersCommand
+- XXX.server.commands.LocateCommand
++ XXX.server.commands.LookAt
+- XXX.server.commands.LookAt$LookAtEntity
++ XXX.server.commands.LookAt$LookAtPosition
+- XXX.server.commands.LootCommand
++ XXX.server.commands.LootCommand$Callback
+- XXX.server.commands.LootCommand$DropConsumer
++ XXX.server.commands.LootCommand$TailProvider
+- XXX.server.commands.MsgCommand
++ XXX.server.commands.OpCommand
+- XXX.server.commands.package-info
+- XXX.server.commands.PardonCommand
++ XXX.server.commands.PardonIpCommand
+- XXX.server.commands.ParticleCommand
++ XXX.server.commands.PerfCommand
+- XXX.server.commands.PlaceCommand
++ XXX.server.commands.PlaySoundCommand
+- XXX.server.commands.PublishCommand
++ XXX.server.commands.RaidCommand
+- XXX.server.commands.RandomCommand
++ XXX.server.commands.RecipeCommand
+- XXX.server.commands.ReloadCommand
++ XXX.server.commands.ReturnCommand
+- XXX.server.commands.ReturnCommand$ReturnFailCustomExecutor
++ XXX.server.commands.ReturnCommand$ReturnFromCommandCustomModifier
+- XXX.server.commands.ReturnCommand$ReturnValueCustomExecutor
++ XXX.server.commands.RideCommand
+- XXX.server.commands.RotateCommand
++ XXX.server.commands.SaveAllCommand
+- XXX.server.commands.SaveOffCommand
++ XXX.server.commands.SaveOnCommand
+- XXX.server.commands.SayCommand
++ XXX.server.commands.ScheduleCommand
+- XXX.server.commands.ScoreboardCommand
++ XXX.server.commands.ScoreboardCommand$NumberFormatCommandExecutor
+- XXX.server.commands.SeedCommand
++ XXX.server.commands.ServerPackCommand
+- XXX.server.commands.SetBlockCommand
++ XXX.server.commands.SetBlockCommand$Mode
+- XXX.server.commands.SetPlayerIdleTimeoutCommand
++ XXX.server.commands.SetSpawnCommand
+- XXX.server.commands.SetWorldSpawnCommand
++ XXX.server.commands.SpawnArmorTrimsCommand
+- XXX.server.commands.SpectateCommand
++ XXX.server.commands.SpreadPlayersCommand
+- XXX.server.commands.SpreadPlayersCommand$Position
++ XXX.server.commands.StopCommand
+- XXX.server.commands.StopSoundCommand
++ XXX.server.commands.StopwatchCommand
+- XXX.server.commands.SummonCommand
++ XXX.server.commands.TagCommand
+- XXX.server.commands.TeamCommand
++ XXX.server.commands.TeamMsgCommand
+- XXX.server.commands.TeleportCommand
++ XXX.server.commands.TellRawCommand
+- XXX.server.commands.TickCommand
++ XXX.server.commands.TimeCommand
+- XXX.server.commands.TitleCommand
++ XXX.server.commands.TransferCommand
+- XXX.server.commands.TriggerCommand
++ XXX.server.commands.VersionCommand
+- XXX.server.commands.WardenSpawnTrackerCommand
++ XXX.server.commands.WaypointCommand
+- XXX.server.commands.WeatherCommand
++ XXX.server.commands.WhitelistCommand
+- XXX.server.commands.WorldBorderCommand
++ XXX.server.dedicated.DedicatedPlayerList
+- XXX.server.dedicated.DedicatedServer
++ XXX.server.dedicated.DedicatedServer$1
+- XXX.server.dedicated.DedicatedServerProperties
++ XXX.server.dedicated.DedicatedServerProperties$WorldDimensionData
+- XXX.server.dedicated.DedicatedServerSettings
++ XXX.server.dedicated.package-info
++ XXX.server.dedicated.ServerWatchdog
+- XXX.server.dedicated.ServerWatchdog$1
++ XXX.server.dedicated.Settings
+- XXX.server.dedicated.Settings$MutableValue
+- XXX.server.dialog.ActionButton
++ XXX.server.dialog.ButtonListDialog
+- XXX.server.dialog.CommonButtonData
++ XXX.server.dialog.CommonDialogData
+- XXX.server.dialog.ConfirmationDialog
++ XXX.server.dialog.Dialog
+- XXX.server.dialog.DialogAction
++ XXX.server.dialog.DialogListDialog
++ XXX.server.dialog.Dialogs
+- XXX.server.dialog.DialogTypes
+- XXX.server.dialog.Input
++ XXX.server.dialog.MultiActionDialog
+- XXX.server.dialog.NoticeDialog
+- XXX.server.dialog.package-info
++ XXX.server.dialog.ServerLinksDialog
+- XXX.server.dialog.SimpleDialog
++ XXX.server.gui.MinecraftServerGui
+- XXX.server.gui.MinecraftServerGui$1
++ XXX.server.gui.MinecraftServerGui$2
+- XXX.server.gui.package-info
+- XXX.server.gui.PlayerListComponent
++ XXX.server.gui.StatsComponent
++ XXX.server.jsonrpc.Connection
+- XXX.server.jsonrpc.IncomingRpcMethod
++ XXX.server.jsonrpc.IncomingRpcMethod$Attributes
+- XXX.server.jsonrpc.IncomingRpcMethod$IncomingRpcMethodBuilder
++ XXX.server.jsonrpc.IncomingRpcMethod$Method
+- XXX.server.jsonrpc.IncomingRpcMethod$ParameterlessMethod
++ XXX.server.jsonrpc.IncomingRpcMethod$ParameterlessRpcMethodFunction
+- XXX.server.jsonrpc.IncomingRpcMethod$RpcMethodFunction
++ XXX.server.jsonrpc.IncomingRpcMethods
+- XXX.server.jsonrpc.JsonRPCErrors
+- XXX.server.jsonrpc.JsonRpcLogger
++ XXX.server.jsonrpc.JsonRpcNotificationService
++ XXX.server.jsonrpc.JsonRPCUtils
+- XXX.server.jsonrpc.ManagementServer
++ XXX.server.jsonrpc.ManagementServer$1
+- XXX.server.jsonrpc.OutgoingRpcMethod
++ XXX.server.jsonrpc.OutgoingRpcMethod$Attributes
+- XXX.server.jsonrpc.OutgoingRpcMethod$Factory
++ XXX.server.jsonrpc.OutgoingRpcMethod$Method
+- XXX.server.jsonrpc.OutgoingRpcMethod$Notification
++ XXX.server.jsonrpc.OutgoingRpcMethod$OutgoingRpcMethodBuilder
+- XXX.server.jsonrpc.OutgoingRpcMethod$ParameterlessMethod
++ XXX.server.jsonrpc.OutgoingRpcMethod$ParmeterlessNotification
+- XXX.server.jsonrpc.OutgoingRpcMethods
+- XXX.server.jsonrpc.package-info
++ XXX.server.jsonrpc.PendingRpcRequest
++ XXX.server.level.BlockDestructionProgress
+- XXX.server.level.ChunkGenerationTask
++ XXX.server.level.ChunkHolder
+- XXX.server.level.ChunkHolder$LevelChangeListener
++ XXX.server.level.ChunkHolder$PlayerProvider
+- XXX.server.level.ChunkLevel
++ XXX.server.level.ChunkLevel$1
+- XXX.server.level.ChunkLoadCounter
++ XXX.server.level.ChunkMap
+- XXX.server.level.ChunkMap$DistanceManager
++ XXX.server.level.ChunkMap$TrackedEntity
+- XXX.server.level.ChunkResult
++ XXX.server.level.ChunkResult$Fail
+- XXX.server.level.ChunkResult$Success
++ XXX.server.level.ChunkTaskDispatcher
+- XXX.server.level.ChunkTaskPriorityQueue
++ XXX.server.level.ChunkTaskPriorityQueue$TasksForChunk
+- XXX.server.level.ChunkTracker
++ XXX.server.level.ChunkTrackingView
+- XXX.server.level.ChunkTrackingView$1
++ XXX.server.level.ChunkTrackingView$Positioned
+- XXX.server.level.ClientInformation
++ XXX.server.level.ColumnPos
+- XXX.server.level.DemoMode
++ XXX.server.level.DistanceManager
+- XXX.server.level.DistanceManager$FixedPlayerDistanceChunkTracker
++ XXX.server.level.DistanceManager$PlayerTicketTracker
+- XXX.server.level.FullChunkStatus
++ XXX.server.level.GeneratingChunkMap
+- XXX.server.level.GenerationChunkHolder
++ XXX.server.level.LoadingChunkTracker
+- XXX.server.level.package-info
+- XXX.server.level.ParticleStatus
++ XXX.server.level.PlayerMap
+- XXX.server.level.PlayerSpawnFinder
++ XXX.server.level.SectionTracker
+- XXX.server.level.ServerBossEvent
++ XXX.server.level.ServerChunkCache
+- XXX.server.level.ServerChunkCache$MainThreadExecutor
++ XXX.server.level.ServerEntity
+- XXX.server.level.ServerEntity$Synchronizer
++ XXX.server.level.ServerEntityGetter
+- XXX.server.level.ServerLevel
++ XXX.server.level.ServerLevel$1
+- XXX.server.level.ServerLevel$EntityCallbacks
++ XXX.server.level.ServerPlayer
+- XXX.server.level.ServerPlayer$1
++ XXX.server.level.ServerPlayer$1$1
+- XXX.server.level.ServerPlayer$2
++ XXX.server.level.ServerPlayer$3
+- XXX.server.level.ServerPlayer$RespawnConfig
++ XXX.server.level.ServerPlayer$RespawnPosAngle
+- XXX.server.level.ServerPlayer$SavedPosition
++ XXX.server.level.ServerPlayerGameMode
+- XXX.server.level.SimulationChunkTracker
++ XXX.server.level.ThreadedLevelLightEngine
+- XXX.server.level.ThreadedLevelLightEngine$TaskType
++ XXX.server.level.ThrottlingChunkTaskDispatcher
+- XXX.server.level.Ticket
++ XXX.server.level.TicketType
+- XXX.server.level.TicketType$Flags
++ XXX.server.level.WorldGenRegion
+- XXX.server.network.CommonListenerCookie
++ XXX.server.network.ConfigurationTask
+- XXX.server.network.ConfigurationTask$Type
++ XXX.server.network.EventLoopGroupHolder
+- XXX.server.network.EventLoopGroupHolder$1
++ XXX.server.network.EventLoopGroupHolder$2
+- XXX.server.network.EventLoopGroupHolder$3
++ XXX.server.network.EventLoopGroupHolder$4
+- XXX.server.network.Filterable
++ XXX.server.network.FilteredText
+- XXX.server.network.LegacyProtocolUtils
++ XXX.server.network.LegacyQueryHandler
+- XXX.server.network.LegacyTextFilter
++ XXX.server.network.LegacyTextFilter$1
+- XXX.server.network.LegacyTextFilter$JoinOrLeaveEncoder
++ XXX.server.network.MemoryServerHandshakePacketListenerImpl
+- XXX.server.network.package-info
+- XXX.server.network.PlayerChunkSender
++ XXX.server.network.PlayerSafetyServiceTextFilter
+- XXX.server.network.ServerCommonPacketListenerImpl
++ XXX.server.network.ServerConfigurationPacketListenerImpl
+- XXX.server.network.ServerConnectionListener
++ XXX.server.network.ServerConnectionListener$1
+- XXX.server.network.ServerConnectionListener$2
++ XXX.server.network.ServerConnectionListener$LatencySimulator
+- XXX.server.network.ServerConnectionListener$LatencySimulator$DelayedMessage
++ XXX.server.network.ServerGamePacketListenerImpl
+- XXX.server.network.ServerGamePacketListenerImpl$1
++ XXX.server.network.ServerGamePacketListenerImpl$2
+- XXX.server.network.ServerGamePacketListenerImpl$EntityInteraction
++ XXX.server.network.ServerHandshakePacketListenerImpl
+- XXX.server.network.ServerHandshakePacketListenerImpl$1
++ XXX.server.network.ServerLoginPacketListenerImpl
+- XXX.server.network.ServerLoginPacketListenerImpl$1
++ XXX.server.network.ServerLoginPacketListenerImpl$State
+- XXX.server.network.ServerPlayerConnection
++ XXX.server.network.ServerStatusPacketListenerImpl
+- XXX.server.network.ServerTextFilter
++ XXX.server.network.ServerTextFilter$IgnoreStrategy
+- XXX.server.network.ServerTextFilter$MessageEncoder
++ XXX.server.network.ServerTextFilter$PlayerContext
+- XXX.server.network.ServerTextFilter$RequestFailedException
++ XXX.server.network.TextFilter
+- XXX.server.network.TextFilter$1
++ XXX.server.notifications.EmptyNotificationService
+- XXX.server.notifications.NotificationManager
++ XXX.server.notifications.NotificationService
++ XXX.server.notifications.package-info
+- XXX.server.notifications.ServerActivityMonitor
++ XXX.server.packs.AbstractPackResources
+- XXX.server.packs.BuiltInMetadata
++ XXX.server.packs.CompositePackResources
+- XXX.server.packs.DownloadCacheCleaner
++ XXX.server.packs.DownloadCacheCleaner$1
+- XXX.server.packs.DownloadCacheCleaner$PathAndPriority
++ XXX.server.packs.DownloadCacheCleaner$PathAndTime
+- XXX.server.packs.DownloadQueue
++ XXX.server.packs.DownloadQueue$BatchConfig
+- XXX.server.packs.DownloadQueue$BatchResult
++ XXX.server.packs.DownloadQueue$DownloadRequest
+- XXX.server.packs.DownloadQueue$FileInfoEntry
++ XXX.server.packs.DownloadQueue$LogEntry
+- XXX.server.packs.FeatureFlagsMetadataSection
++ XXX.server.packs.FilePackResources
+- XXX.server.packs.FilePackResources$FileResourcesSupplier
++ XXX.server.packs.FilePackResources$SharedZipFileAccess
+- XXX.server.packs.OverlayMetadataSection
++ XXX.server.packs.OverlayMetadataSection$1
+- XXX.server.packs.OverlayMetadataSection$OverlayEntry
++ XXX.server.packs.OverlayMetadataSection$OverlayEntry$IntermediateEntry
++ XXX.server.packs.package-info
+- XXX.server.packs.PackLocationInfo
++ XXX.server.packs.PackResources
+- XXX.server.packs.PackResources$ResourceOutput
++ XXX.server.packs.PackSelectionConfig
+- XXX.server.packs.PackType
++ XXX.server.packs.PathPackResources
+- XXX.server.packs.PathPackResources$PathResourcesSupplier
++ XXX.server.packs.VanillaPackResources
+- XXX.server.packs.VanillaPackResourcesBuilder
++ XXX.server.permissions.LevelBasedPermissionSet
+- XXX.server.permissions.LevelBasedPermissionSet$1
++ XXX.server.permissions.LevelBasedPermissionSet$2
+- XXX.server.permissions.package-info
+- XXX.server.permissions.Permission
++ XXX.server.permissions.Permission$Atom
+- XXX.server.permissions.Permission$HasCommandLevel
++ XXX.server.permissions.PermissionCheck
+- XXX.server.permissions.PermissionCheck$AlwaysPass
++ XXX.server.permissions.PermissionCheck$Require
+- XXX.server.permissions.PermissionCheckTypes
++ XXX.server.permissions.PermissionLevel
+- XXX.server.permissions.PermissionProviderCheck
++ XXX.server.permissions.Permissions
++ XXX.server.permissions.PermissionSet
+- XXX.server.permissions.PermissionSetSupplier
++ XXX.server.permissions.PermissionSetUnion
+- XXX.server.permissions.PermissionTypes
++ XXX.server.players.BanListEntry
+- XXX.server.players.CachedUserNameToIdResolver
++ XXX.server.players.CachedUserNameToIdResolver$GameProfileInfo
+- XXX.server.players.IpBanList
++ XXX.server.players.IpBanListEntry
+- XXX.server.players.NameAndId
++ XXX.server.players.OldUsersConverter
+- XXX.server.players.OldUsersConverter$1
++ XXX.server.players.OldUsersConverter$2
+- XXX.server.players.OldUsersConverter$3
++ XXX.server.players.OldUsersConverter$4
+- XXX.server.players.OldUsersConverter$5
++ XXX.server.players.OldUsersConverter$ConversionError
++ XXX.server.players.package-info
+- XXX.server.players.PlayerList
++ XXX.server.players.PlayerList$1
+- XXX.server.players.PlayerList$2
++ XXX.server.players.ProfileResolver
+- XXX.server.players.ProfileResolver$Cached
++ XXX.server.players.ProfileResolver$Cached$1
+- XXX.server.players.ProfileResolver$Cached$2
++ XXX.server.players.ServerOpList
+- XXX.server.players.ServerOpListEntry
++ XXX.server.players.SleepStatus
+- XXX.server.players.StoredUserEntry
++ XXX.server.players.StoredUserList
+- XXX.server.players.UserBanList
++ XXX.server.players.UserBanListEntry
+- XXX.server.players.UserNameToIdResolver
++ XXX.server.players.UserWhiteList
+- XXX.server.players.UserWhiteListEntry
+- XXX.server.rcon.NetworkDataOutputStream
++ XXX.server.rcon.package-info
++ XXX.server.rcon.PktUtils
+- XXX.server.rcon.RconConsoleSource
++ XXX.server.waypoints.package-info
+- XXX.server.waypoints.ServerWaypointManager
++ XXX.spectator.categories.package-info
++ XXX.spectator.categories.SpectatorPage
+- XXX.spectator.categories.TeleportToPlayerMenuCategory
++ XXX.spectator.categories.TeleportToTeamMenuCategory
+- XXX.spectator.categories.TeleportToTeamMenuCategory$TeamSelectionItem
++ XXX.state.pattern.BlockInWorld
+- XXX.state.pattern.BlockPattern
++ XXX.state.pattern.BlockPattern$BlockCacheLoader
+- XXX.state.pattern.BlockPattern$BlockPatternMatch
++ XXX.state.pattern.BlockPatternBuilder
+- XXX.state.pattern.package-info
+- XXX.state.pip.GuiBannerResultRenderState
++ XXX.state.pip.GuiBookModelRenderState
+- XXX.state.pip.GuiEntityRenderState
++ XXX.state.pip.GuiProfilerChartRenderState
+- XXX.state.pip.GuiSignRenderState
++ XXX.state.pip.GuiSkinRenderState
+- XXX.state.pip.OversizedItemRenderState
+- XXX.state.pip.package-info
++ XXX.state.pip.PictureInPictureRenderState
++ XXX.state.predicate.BlockPredicate
+- XXX.state.predicate.BlockStatePredicate
++ XXX.state.predicate.package-info
+- XXX.state.properties.AttachFace
++ XXX.state.properties.BambooLeaves
+- XXX.state.properties.BedPart
++ XXX.state.properties.BellAttachType
+- XXX.state.properties.BlockSetType
++ XXX.state.properties.BlockSetType$PressurePlateSensitivity
+- XXX.state.properties.BlockStateProperties
++ XXX.state.properties.BooleanProperty
+- XXX.state.properties.ChestType
++ XXX.state.properties.ComparatorMode
+- XXX.state.properties.CreakingHeartState
++ XXX.state.properties.DoorHingeSide
+- XXX.state.properties.DoubleBlockHalf
++ XXX.state.properties.DripstoneThickness
+- XXX.state.properties.EnumProperty
++ XXX.state.properties.Half
+- XXX.state.properties.IntegerProperty
++ XXX.state.properties.NoteBlockInstrument
+- XXX.state.properties.NoteBlockInstrument$Type
+- XXX.state.properties.package-info
++ XXX.state.properties.PistonType
+- XXX.state.properties.Property
++ XXX.state.properties.Property$Value
+- XXX.state.properties.RailShape
++ XXX.state.properties.RedstoneSide
+- XXX.state.properties.RotationSegment
++ XXX.state.properties.SculkSensorPhase
+- XXX.state.properties.SideChainPart
++ XXX.state.properties.SlabType
+- XXX.state.properties.StairsShape
++ XXX.state.properties.StructureMode
+- XXX.state.properties.TestBlockMode
++ XXX.state.properties.Tilt
+- XXX.state.properties.WallSide
++ XXX.state.properties.WoodType
++ XXX.storage.loot.BuiltInLootTables
+- XXX.storage.loot.ContainerComponentManipulator
++ XXX.storage.loot.ContainerComponentManipulators
+- XXX.storage.loot.ContainerComponentManipulators$1
++ XXX.storage.loot.ContainerComponentManipulators$2
+- XXX.storage.loot.ContainerComponentManipulators$3
++ XXX.storage.loot.IntRange
+- XXX.storage.loot.IntRange$IntChecker
++ XXX.storage.loot.IntRange$IntLimiter
+- XXX.storage.loot.LootContext
++ XXX.storage.loot.LootContext$BlockEntityTarget
+- XXX.storage.loot.LootContext$Builder
++ XXX.storage.loot.LootContext$EntityTarget
+- XXX.storage.loot.LootContext$ItemStackTarget
++ XXX.storage.loot.LootContext$VisitedEntry
+- XXX.storage.loot.LootContextArg
++ XXX.storage.loot.LootContextArg$ArgCodecBuilder
+- XXX.storage.loot.LootContextArg$Getter
++ XXX.storage.loot.LootContextArg$SimpleGetter
+- XXX.storage.loot.LootContextUser
++ XXX.storage.loot.LootDataType
+- XXX.storage.loot.LootDataType$Validator
++ XXX.storage.loot.LootParams
+- XXX.storage.loot.LootParams$Builder
++ XXX.storage.loot.LootParams$DynamicDrop
+- XXX.storage.loot.LootPool
++ XXX.storage.loot.LootPool$Builder
+- XXX.storage.loot.LootTable
++ XXX.storage.loot.LootTable$Builder
++ XXX.storage.loot.package-info
+- XXX.storage.loot.ValidationContext
++ XXX.storage.loot.ValidationContext$MissingReferenceProblem
+- XXX.storage.loot.ValidationContext$ParametersNotProvidedProblem
++ XXX.storage.loot.ValidationContext$RecursiveReferenceProblem
+- XXX.storage.loot.ValidationContext$ReferenceNotAllowedProblem
++ XXX.structure.pieces.package-info
++ XXX.structure.pieces.PieceGenerator
+- XXX.structure.pieces.PieceGenerator$Context
++ XXX.structure.pieces.PieceGeneratorSupplier
+- XXX.structure.pieces.PieceGeneratorSupplier$Context
++ XXX.structure.pieces.PiecesContainer
+- XXX.structure.pieces.StructurePiecesBuilder
+- XXX.structure.pieces.StructurePieceSerializationContext
++ XXX.structure.pieces.StructurePieceType
+- XXX.structure.pieces.StructurePieceType$ContextlessType
++ XXX.structure.pieces.StructurePieceType$StructureTemplateType
+- XXX.structure.placement.ConcentricRingsStructurePlacement
+- XXX.structure.placement.package-info
++ XXX.structure.placement.RandomSpreadStructurePlacement
+- XXX.structure.placement.RandomSpreadType
++ XXX.structure.placement.StructurePlacement
+- XXX.structure.placement.StructurePlacement$ExclusionZone
++ XXX.structure.placement.StructurePlacement$FrequencyReducer
+- XXX.structure.placement.StructurePlacement$FrequencyReductionMethod
++ XXX.structure.placement.StructurePlacementType
++ XXX.structure.pools.DimensionPadding
+- XXX.structure.pools.EmptyPoolElement
++ XXX.structure.pools.FeaturePoolElement
+- XXX.structure.pools.JigsawJunction
++ XXX.structure.pools.JigsawPlacement
+- XXX.structure.pools.JigsawPlacement$PieceState
++ XXX.structure.pools.JigsawPlacement$Placer
+- XXX.structure.pools.LegacySinglePoolElement
++ XXX.structure.pools.ListPoolElement
+- XXX.structure.pools.package-info
+- XXX.structure.pools.SinglePoolElement
++ XXX.structure.pools.StructurePoolElement
+- XXX.structure.pools.StructurePoolElementType
++ XXX.structure.pools.StructureTemplatePool
+- XXX.structure.pools.StructureTemplatePool$Projection
++ XXX.structure.structures.BuriedTreasurePieces
+- XXX.structure.structures.BuriedTreasurePieces$BuriedTreasurePiece
++ XXX.structure.structures.BuriedTreasureStructure
+- XXX.structure.structures.DesertPyramidPiece
++ XXX.structure.structures.DesertPyramidStructure
+- XXX.structure.structures.EndCityPieces
++ XXX.structure.structures.EndCityPieces$1
+- XXX.structure.structures.EndCityPieces$2
++ XXX.structure.structures.EndCityPieces$3
+- XXX.structure.structures.EndCityPieces$4
++ XXX.structure.structures.EndCityPieces$EndCityPiece
+- XXX.structure.structures.EndCityPieces$SectionGenerator
++ XXX.structure.structures.EndCityStructure
+- XXX.structure.structures.IglooPieces
++ XXX.structure.structures.IglooPieces$IglooPiece
+- XXX.structure.structures.IglooStructure
++ XXX.structure.structures.JigsawStructure
+- XXX.structure.structures.JigsawStructure$1
++ XXX.structure.structures.JigsawStructure$MaxDistance
+- XXX.structure.structures.JungleTemplePiece
++ XXX.structure.structures.JungleTemplePiece$MossStoneSelector
+- XXX.structure.structures.JungleTempleStructure
++ XXX.structure.structures.MineshaftPieces
+- XXX.structure.structures.MineshaftPieces$1
++ XXX.structure.structures.MineshaftPieces$MineShaftCorridor
+- XXX.structure.structures.MineshaftPieces$MineShaftCrossing
++ XXX.structure.structures.MineshaftPieces$MineShaftPiece
+- XXX.structure.structures.MineshaftPieces$MineShaftRoom
++ XXX.structure.structures.MineshaftPieces$MineShaftStairs
+- XXX.structure.structures.MineshaftStructure
++ XXX.structure.structures.MineshaftStructure$Type
+- XXX.structure.structures.NetherFortressPieces
++ XXX.structure.structures.NetherFortressPieces$1
+- XXX.structure.structures.NetherFortressPieces$BridgeCrossing
++ XXX.structure.structures.NetherFortressPieces$BridgeEndFiller
+- XXX.structure.structures.NetherFortressPieces$BridgeStraight
++ XXX.structure.structures.NetherFortressPieces$CastleCorridorStairsPiece
+- XXX.structure.structures.NetherFortressPieces$CastleCorridorTBalconyPiece
++ XXX.structure.structures.NetherFortressPieces$CastleEntrance
+- XXX.structure.structures.NetherFortressPieces$CastleSmallCorridorCrossingPiece
++ XXX.structure.structures.NetherFortressPieces$CastleSmallCorridorLeftTurnPiece
+- XXX.structure.structures.NetherFortressPieces$CastleSmallCorridorPiece
++ XXX.structure.structures.NetherFortressPieces$CastleSmallCorridorRightTurnPiece
+- XXX.structure.structures.NetherFortressPieces$CastleStalkRoom
++ XXX.structure.structures.NetherFortressPieces$MonsterThrone
+- XXX.structure.structures.NetherFortressPieces$NetherBridgePiece
++ XXX.structure.structures.NetherFortressPieces$PieceWeight
+- XXX.structure.structures.NetherFortressPieces$RoomCrossing
++ XXX.structure.structures.NetherFortressPieces$StairsRoom
+- XXX.structure.structures.NetherFortressPieces$StartPiece
++ XXX.structure.structures.NetherFortressStructure
+- XXX.structure.structures.NetherFossilPieces
++ XXX.structure.structures.NetherFossilPieces$NetherFossilPiece
+- XXX.structure.structures.NetherFossilStructure
++ XXX.structure.structures.OceanMonumentPieces
+- XXX.structure.structures.OceanMonumentPieces$1
++ XXX.structure.structures.OceanMonumentPieces$FitDoubleXRoom
+- XXX.structure.structures.OceanMonumentPieces$FitDoubleXYRoom
++ XXX.structure.structures.OceanMonumentPieces$FitDoubleYRoom
+- XXX.structure.structures.OceanMonumentPieces$FitDoubleYZRoom
++ XXX.structure.structures.OceanMonumentPieces$FitDoubleZRoom
+- XXX.structure.structures.OceanMonumentPieces$FitSimpleRoom
++ XXX.structure.structures.OceanMonumentPieces$FitSimpleTopRoom
+- XXX.structure.structures.OceanMonumentPieces$MonumentBuilding
++ XXX.structure.structures.OceanMonumentPieces$MonumentRoomFitter
+- XXX.structure.structures.OceanMonumentPieces$OceanMonumentCoreRoom
++ XXX.structure.structures.OceanMonumentPieces$OceanMonumentDoubleXRoom
+- XXX.structure.structures.OceanMonumentPieces$OceanMonumentDoubleXYRoom
++ XXX.structure.structures.OceanMonumentPieces$OceanMonumentDoubleYRoom
+- XXX.structure.structures.OceanMonumentPieces$OceanMonumentDoubleYZRoom
++ XXX.structure.structures.OceanMonumentPieces$OceanMonumentDoubleZRoom
+- XXX.structure.structures.OceanMonumentPieces$OceanMonumentEntryRoom
++ XXX.structure.structures.OceanMonumentPieces$OceanMonumentPenthouse
+- XXX.structure.structures.OceanMonumentPieces$OceanMonumentPiece
++ XXX.structure.structures.OceanMonumentPieces$OceanMonumentSimpleRoom
+- XXX.structure.structures.OceanMonumentPieces$OceanMonumentSimpleTopRoom
++ XXX.structure.structures.OceanMonumentPieces$OceanMonumentWingRoom
+- XXX.structure.structures.OceanMonumentPieces$RoomDefinition
++ XXX.structure.structures.OceanMonumentStructure
+- XXX.structure.structures.OceanRuinPieces
++ XXX.structure.structures.OceanRuinPieces$1
+- XXX.structure.structures.OceanRuinPieces$OceanRuinPiece
++ XXX.structure.structures.OceanRuinStructure
+- XXX.structure.structures.OceanRuinStructure$Type
++ XXX.structure.structures.package-info
++ XXX.structure.structures.RuinedPortalPiece
+- XXX.structure.structures.RuinedPortalPiece$Properties
++ XXX.structure.structures.RuinedPortalPiece$VerticalPlacement
+- XXX.structure.structures.RuinedPortalStructure
++ XXX.structure.structures.RuinedPortalStructure$Setup
+- XXX.structure.structures.ShipwreckPieces
++ XXX.structure.structures.ShipwreckPieces$ShipwreckPiece
+- XXX.structure.structures.ShipwreckStructure
++ XXX.structure.structures.StrongholdPieces
+- XXX.structure.structures.StrongholdPieces$1
++ XXX.structure.structures.StrongholdPieces$2
+- XXX.structure.structures.StrongholdPieces$3
++ XXX.structure.structures.StrongholdPieces$ChestCorridor
+- XXX.structure.structures.StrongholdPieces$FillerCorridor
++ XXX.structure.structures.StrongholdPieces$FiveCrossing
+- XXX.structure.structures.StrongholdPieces$LeftTurn
++ XXX.structure.structures.StrongholdPieces$Library
+- XXX.structure.structures.StrongholdPieces$PieceWeight
++ XXX.structure.structures.StrongholdPieces$PortalRoom
+- XXX.structure.structures.StrongholdPieces$PrisonHall
++ XXX.structure.structures.StrongholdPieces$RightTurn
+- XXX.structure.structures.StrongholdPieces$RoomCrossing
++ XXX.structure.structures.StrongholdPieces$SmoothStoneSelector
+- XXX.structure.structures.StrongholdPieces$StairsDown
++ XXX.structure.structures.StrongholdPieces$StartPiece
+- XXX.structure.structures.StrongholdPieces$Straight
++ XXX.structure.structures.StrongholdPieces$StraightStairsDown
+- XXX.structure.structures.StrongholdPieces$StrongholdPiece
++ XXX.structure.structures.StrongholdPieces$StrongholdPiece$SmallDoorType
+- XXX.structure.structures.StrongholdPieces$Turn
++ XXX.structure.structures.StrongholdStructure
+- XXX.structure.structures.SwampHutPiece
++ XXX.structure.structures.SwampHutStructure
+- XXX.structure.structures.WoodlandMansionPieces
++ XXX.structure.structures.WoodlandMansionPieces$FirstFloorRoomCollection
+- XXX.structure.structures.WoodlandMansionPieces$FloorRoomCollection
++ XXX.structure.structures.WoodlandMansionPieces$MansionGrid
+- XXX.structure.structures.WoodlandMansionPieces$MansionPiecePlacer
++ XXX.structure.structures.WoodlandMansionPieces$PlacementData
+- XXX.structure.structures.WoodlandMansionPieces$SecondFloorRoomCollection
++ XXX.structure.structures.WoodlandMansionPieces$SimpleGrid
+- XXX.structure.structures.WoodlandMansionPieces$ThirdFloorRoomCollection
++ XXX.structure.structures.WoodlandMansionPieces$WoodlandMansionPiece
+- XXX.structure.structures.WoodlandMansionStructure
+- XXX.structure.templatesystem.AlwaysTrueTest
++ XXX.structure.templatesystem.AxisAlignedLinearPosTest
+- XXX.structure.templatesystem.BlackstoneReplaceProcessor
++ XXX.structure.templatesystem.BlockAgeProcessor
+- XXX.structure.templatesystem.BlockIgnoreProcessor
++ XXX.structure.templatesystem.BlockMatchTest
+- XXX.structure.templatesystem.BlockRotProcessor
++ XXX.structure.templatesystem.BlockStateMatchTest
+- XXX.structure.templatesystem.CappedProcessor
++ XXX.structure.templatesystem.GravityProcessor
+- XXX.structure.templatesystem.JigsawReplacementProcessor
++ XXX.structure.templatesystem.LavaSubmergedBlockProcessor
+- XXX.structure.templatesystem.LinearPosTest
++ XXX.structure.templatesystem.LiquidSettings
+- XXX.structure.templatesystem.NopProcessor
+- XXX.structure.templatesystem.package-info
++ XXX.structure.templatesystem.PosAlwaysTrueTest
+- XXX.structure.templatesystem.PosRuleTest
++ XXX.structure.templatesystem.PosRuleTestType
+- XXX.structure.templatesystem.ProcessorRule
++ XXX.structure.templatesystem.ProtectedBlockProcessor
+- XXX.structure.templatesystem.RandomBlockMatchTest
++ XXX.structure.templatesystem.RandomBlockStateMatchTest
+- XXX.structure.templatesystem.RuleProcessor
++ XXX.structure.templatesystem.RuleTest
+- XXX.structure.templatesystem.RuleTestType
++ XXX.structure.templatesystem.StructurePlaceSettings
+- XXX.structure.templatesystem.StructureProcessor
++ XXX.structure.templatesystem.StructureProcessorList
+- XXX.structure.templatesystem.StructureProcessorType
++ XXX.structure.templatesystem.StructureTemplate
+- XXX.structure.templatesystem.StructureTemplate$1
++ XXX.structure.templatesystem.StructureTemplate$JigsawBlockInfo
+- XXX.structure.templatesystem.StructureTemplate$Palette
++ XXX.structure.templatesystem.StructureTemplate$SimplePalette
+- XXX.structure.templatesystem.StructureTemplate$StructureBlockInfo
++ XXX.structure.templatesystem.StructureTemplate$StructureEntityInfo
+- XXX.structure.templatesystem.StructureTemplateManager
++ XXX.structure.templatesystem.StructureTemplateManager$InputStreamOpener
+- XXX.structure.templatesystem.StructureTemplateManager$Source
++ XXX.structure.templatesystem.TagMatchTest
+- XXX.synchronization.brigadier.DoubleArgumentInfo
++ XXX.synchronization.brigadier.DoubleArgumentInfo$Template
+- XXX.synchronization.brigadier.FloatArgumentInfo
++ XXX.synchronization.brigadier.FloatArgumentInfo$Template
+- XXX.synchronization.brigadier.IntegerArgumentInfo
++ XXX.synchronization.brigadier.IntegerArgumentInfo$Template
+- XXX.synchronization.brigadier.LongArgumentInfo
++ XXX.synchronization.brigadier.LongArgumentInfo$Template
++ XXX.synchronization.brigadier.package-info
+- XXX.synchronization.brigadier.StringArgumentSerializer
++ XXX.synchronization.brigadier.StringArgumentSerializer$1
+- XXX.synchronization.brigadier.StringArgumentSerializer$Template
+- XXX.telemetry.events.AggregatedTelemetryEvent
++ XXX.telemetry.events.GameLoadTimesEvent
+- XXX.telemetry.events.GameLoadTimesEvent$Measurement
+- XXX.telemetry.events.package-info
++ XXX.telemetry.events.PerformanceMetricsEvent
+- XXX.telemetry.events.WorldLoadEvent
++ XXX.telemetry.events.WorldLoadEvent$1
+- XXX.telemetry.events.WorldLoadTimesEvent
++ XXX.telemetry.events.WorldUnloadEvent
++ XXX.texture.atlas.package-info
++ XXX.texture.atlas.SpriteResourceLoader
+- XXX.texture.atlas.SpriteSource
++ XXX.texture.atlas.SpriteSource$DiscardableLoader
+- XXX.texture.atlas.SpriteSource$Loader
++ XXX.texture.atlas.SpriteSource$Output
+- XXX.texture.atlas.SpriteSourceList
++ XXX.texture.atlas.SpriteSourceList$1
+- XXX.texture.atlas.SpriteSources
++ XXX.util.context.ContextKey
+- XXX.util.context.ContextKeySet
++ XXX.util.context.ContextKeySet$Builder
+- XXX.util.context.ContextMap
++ XXX.util.context.ContextMap$Builder
+- XXX.util.context.package-info
++ XXX.util.datafix.DataFixers
+- XXX.util.datafix.DataFixers$1
++ XXX.util.datafix.DataFixers$2
++ XXX.util.datafix.DataFixTypes
+- XXX.util.datafix.DataFixTypes$1
+- XXX.util.datafix.ExtraDataFixUtils
++ XXX.util.datafix.LegacyComponentDataFixUtils
++ XXX.util.datafix.package-info
+- XXX.util.datafix.PackedBitStorage
+- XXX.util.debug.DebugBeeInfo
++ XXX.util.debug.DebugBrainDump
+- XXX.util.debug.DebugBreezeInfo
++ XXX.util.debug.DebugEntityBlockIntersection
+- XXX.util.debug.DebugGameEventInfo
++ XXX.util.debug.DebugGameEventListenerInfo
+- XXX.util.debug.DebugGoalInfo
++ XXX.util.debug.DebugGoalInfo$DebugGoal
+- XXX.util.debug.DebugHiveInfo
++ XXX.util.debug.DebugPathInfo
+- XXX.util.debug.DebugPoiInfo
++ XXX.util.debug.DebugStructureInfo
+- XXX.util.debug.DebugStructureInfo$Piece
++ XXX.util.debug.DebugSubscription
+- XXX.util.debug.DebugSubscription$Event
++ XXX.util.debug.DebugSubscription$Update
+- XXX.util.debug.DebugSubscriptions
++ XXX.util.debug.DebugValueAccess
+- XXX.util.debug.DebugValueAccess$EventVisitor
++ XXX.util.debug.DebugValueSource
+- XXX.util.debug.DebugValueSource$Registration
++ XXX.util.debug.DebugValueSource$ValueGetter
+- XXX.util.debug.LevelDebugSynchronizers
++ XXX.util.debug.LevelDebugSynchronizers$1
+- XXX.util.debug.LevelDebugSynchronizers$2
++ XXX.util.debug.LevelDebugSynchronizers$3
+- XXX.util.debug.package-info
+- XXX.util.debug.ServerDebugSubscribers
++ XXX.util.debug.TrackingDebugSynchronizer
+- XXX.util.debug.TrackingDebugSynchronizer$PoiSynchronizer
++ XXX.util.debug.TrackingDebugSynchronizer$SourceSynchronizer
+- XXX.util.debug.TrackingDebugSynchronizer$ValueSource
++ XXX.util.debug.TrackingDebugSynchronizer$VillageSectionSynchronizer
++ XXX.util.debugchart.AbstractSampleLogger
+- XXX.util.debugchart.LocalSampleLogger
+- XXX.util.debugchart.package-info
++ XXX.util.debugchart.RemoteDebugSampleType
+- XXX.util.debugchart.RemoteSampleLogger
++ XXX.util.debugchart.SampleLogger
+- XXX.util.debugchart.SampleStorage
++ XXX.util.debugchart.TpsDebugDimensions
++ XXX.util.eventlog.EventLogDirectory
+- XXX.util.eventlog.EventLogDirectory$CompressedFile
++ XXX.util.eventlog.EventLogDirectory$File
+- XXX.util.eventlog.EventLogDirectory$FileId
++ XXX.util.eventlog.EventLogDirectory$FileList
+- XXX.util.eventlog.EventLogDirectory$RawFile
++ XXX.util.eventlog.JsonEventLog
+- XXX.util.eventlog.JsonEventLog$1
++ XXX.util.eventlog.JsonEventLogReader
+- XXX.util.eventlog.JsonEventLogReader$1
++ XXX.util.eventlog.package-info
+- XXX.util.parsing.package-info
++ XXX.util.profiling.ActiveProfiler
+- XXX.util.profiling.ActiveProfiler$PathEntry
++ XXX.util.profiling.ContinuousProfiler
+- XXX.util.profiling.EmptyProfileResults
++ XXX.util.profiling.FilledProfileResults
+- XXX.util.profiling.FilledProfileResults$1
++ XXX.util.profiling.FilledProfileResults$CounterCollector
+- XXX.util.profiling.InactiveProfiler
+- XXX.util.profiling.package-info
++ XXX.util.profiling.ProfileCollector
++ XXX.util.profiling.Profiler
+- XXX.util.profiling.Profiler$Scope
+- XXX.util.profiling.ProfileResults
++ XXX.util.profiling.ProfilerFiller
+- XXX.util.profiling.ProfilerFiller$CombinedProfileFiller
++ XXX.util.profiling.ProfilerPathEntry
+- XXX.util.profiling.ResultField
++ XXX.util.profiling.SingleTickProfiler
+- XXX.util.profiling.TracyZoneFiller
++ XXX.util.profiling.TracyZoneFiller$PlotAndValue
+- XXX.util.profiling.Zone
+- XXX.util.random.package-info
++ XXX.util.random.Weighted
+- XXX.util.random.WeightedList
++ XXX.util.random.WeightedList$Builder
+- XXX.util.random.WeightedList$Compact
++ XXX.util.random.WeightedList$Flat
+- XXX.util.random.WeightedList$Selector
++ XXX.util.random.WeightedRandom
++ XXX.util.thread.AbstractConsecutiveExecutor
+- XXX.util.thread.AbstractConsecutiveExecutor$Status
++ XXX.util.thread.BlockableEventLoop
+- XXX.util.thread.ConsecutiveExecutor
+- XXX.util.thread.package-info
++ XXX.util.thread.ParallelMapTransform
+- XXX.util.thread.ParallelMapTransform$BatchedTaskSplitter
++ XXX.util.thread.ParallelMapTransform$Container
+- XXX.util.thread.ParallelMapTransform$SingleTaskSplitter
++ XXX.util.thread.ParallelMapTransform$SplitterBase
+- XXX.util.thread.PriorityConsecutiveExecutor
++ XXX.util.thread.ReentrantBlockableEventLoop
+- XXX.util.thread.StrictQueue
++ XXX.util.thread.StrictQueue$FixedPriorityQueue
+- XXX.util.thread.StrictQueue$QueueStrictQueue
++ XXX.util.thread.StrictQueue$RunnableWithPriority
+- XXX.util.thread.TaskScheduler
++ XXX.util.thread.TaskScheduler$1
++ XXX.util.valueproviders.BiasedToBottomInt
+- XXX.util.valueproviders.ClampedInt
++ XXX.util.valueproviders.ClampedNormalFloat
+- XXX.util.valueproviders.ClampedNormalInt
++ XXX.util.valueproviders.ConstantFloat
+- XXX.util.valueproviders.ConstantInt
++ XXX.util.valueproviders.FloatProvider
+- XXX.util.valueproviders.FloatProviderType
++ XXX.util.valueproviders.IntProvider
+- XXX.util.valueproviders.IntProviderType
++ XXX.util.valueproviders.MultipliedFloats
++ XXX.util.valueproviders.package-info
+- XXX.util.valueproviders.SampledFloat
++ XXX.util.valueproviders.TrapezoidFloat
+- XXX.util.valueproviders.UniformFloat
++ XXX.util.valueproviders.UniformInt
+- XXX.util.valueproviders.WeightedListInt
+- XXX.util.worldupdate.package-info
+- XXX.util.worldupdate.WorldUpgrader
++ XXX.util.worldupdate.WorldUpgrader$AbstractUpgrader
+- XXX.util.worldupdate.WorldUpgrader$ChunkUpgrader
++ XXX.util.worldupdate.WorldUpgrader$DimensionToUpgrade
+- XXX.util.worldupdate.WorldUpgrader$EntityUpgrader
++ XXX.util.worldupdate.WorldUpgrader$FileToUpgrade
+- XXX.util.worldupdate.WorldUpgrader$PoiUpgrader
++ XXX.util.worldupdate.WorldUpgrader$SimpleRegionStorageUpgrader
+- XXX.vehicle.boat.AbstractBoat
+- XXX.vehicle.boat.AbstractChestBoat
+- XXX.vehicle.boat.ChestBoat
+- XXX.vehicle.boat.Raft
+- XXX.vehicle.minecart.AbstractMinecart
+- XXX.vehicle.minecart.Minecart
+- XXX.vehicle.minecart.MinecartChest
+- XXX.vehicle.minecart.MinecartCommandBlock$MinecartCommandBase
+- XXX.vehicle.minecart.MinecartHopper
+- XXX.vehicle.minecart.MinecartSpawner$1
+- XXX.vehicle.minecart.NewMinecartBehavior
+- XXX.vehicle.minecart.NewMinecartBehavior$MinecartStep
+- XXX.vehicle.minecart.NewMinecartBehavior$TrackIteration
+- XXX.vehicle.minecart.OldMinecartBehavior$1
+- XXX.village.poi.package-info
++ XXX.village.poi.PoiManager
+- XXX.village.poi.PoiManager$DistanceTracker
++ XXX.village.poi.PoiManager$Occupancy
+- XXX.village.poi.PoiRecord
++ XXX.village.poi.PoiRecord$Packed
+- XXX.village.poi.PoiSection
++ XXX.village.poi.PoiSection$Packed
+- XXX.village.poi.PoiType
++ XXX.village.poi.PoiTypes
++ XXX.world.attribute.AmbientAdditionsSettings
+- XXX.world.attribute.AmbientMoodSettings
++ XXX.world.attribute.AmbientParticle
+- XXX.world.attribute.AmbientSounds
++ XXX.world.attribute.AttributeRange
+- XXX.world.attribute.AttributeRange$1
++ XXX.world.attribute.AttributeRange$2
+- XXX.world.attribute.AttributeType
++ XXX.world.attribute.AttributeTypes
+- XXX.world.attribute.BackgroundMusic
++ XXX.world.attribute.BedRule
+- XXX.world.attribute.BedRule$Rule
++ XXX.world.attribute.EnvironmentAttribute
+- XXX.world.attribute.EnvironmentAttribute$Builder
++ XXX.world.attribute.EnvironmentAttributeLayer
+- XXX.world.attribute.EnvironmentAttributeLayer$Constant
++ XXX.world.attribute.EnvironmentAttributeLayer$Positional
+- XXX.world.attribute.EnvironmentAttributeLayer$TimeBased
++ XXX.world.attribute.EnvironmentAttributeMap
+- XXX.world.attribute.EnvironmentAttributeMap$Builder
++ XXX.world.attribute.EnvironmentAttributeMap$Entry
+- XXX.world.attribute.EnvironmentAttributeProbe
++ XXX.world.attribute.EnvironmentAttributeProbe$ValueProbe
+- XXX.world.attribute.EnvironmentAttributeReader
++ XXX.world.attribute.EnvironmentAttributeReader$1
++ XXX.world.attribute.EnvironmentAttributes
+- XXX.world.attribute.EnvironmentAttributeSystem
++ XXX.world.attribute.EnvironmentAttributeSystem$Builder
+- XXX.world.attribute.EnvironmentAttributeSystem$ValueSampler
+- XXX.world.attribute.GaussianSampler
++ XXX.world.attribute.GaussianSampler$Accumulator
+- XXX.world.attribute.GaussianSampler$Sampler
++ XXX.world.attribute.LerpFunction
++ XXX.world.attribute.package-info
+- XXX.world.attribute.SpatialAttributeInterpolator
++ XXX.world.attribute.WeatherAttributes
+- XXX.world.attribute.WeatherAttributes$WeatherAccess
++ XXX.world.attribute.WeatherAttributes$WeatherAccess$1
+- XXX.world.damagesource.CombatEntry
++ XXX.world.damagesource.CombatRules
+- XXX.world.damagesource.CombatTracker
++ XXX.world.damagesource.DamageEffects
+- XXX.world.damagesource.DamageScaling
++ XXX.world.damagesource.DamageSource
+- XXX.world.damagesource.DamageSource$1
++ XXX.world.damagesource.DamageSources
+- XXX.world.damagesource.DamageType
++ XXX.world.damagesource.DamageTypes
+- XXX.world.damagesource.DeathMessageType
++ XXX.world.damagesource.FallLocation
+- XXX.world.damagesource.package-info
++ XXX.world.effect.AbsorptionMobEffect
+- XXX.world.effect.BadOmenMobEffect
++ XXX.world.effect.HealOrHarmMobEffect
+- XXX.world.effect.HungerMobEffect
++ XXX.world.effect.InfestedMobEffect
+- XXX.world.effect.InstantenousMobEffect
++ XXX.world.effect.MobEffect
+- XXX.world.effect.MobEffect$AttributeTemplate
++ XXX.world.effect.MobEffectCategory
+- XXX.world.effect.MobEffectInstance
++ XXX.world.effect.MobEffectInstance$BlendState
+- XXX.world.effect.MobEffectInstance$Details
+- XXX.world.effect.MobEffects
++ XXX.world.effect.MobEffectUtil
++ XXX.world.effect.OozingMobEffect
+- XXX.world.effect.OozingMobEffect$NearbySlimes
+- XXX.world.effect.package-info
++ XXX.world.effect.PoisonMobEffect
+- XXX.world.effect.RaidOmenMobEffect
++ XXX.world.effect.RegenerationMobEffect
+- XXX.world.effect.SaturationMobEffect
++ XXX.world.effect.WeavingMobEffect
+- XXX.world.effect.WindChargedMobEffect
++ XXX.world.effect.WitherMobEffect
++ XXX.world.entity.AgeableMob
+- XXX.world.entity.AgeableMob$AgeableMobGroupData
++ XXX.world.entity.AnimationState
+- XXX.world.entity.AreaEffectCloud
++ XXX.world.entity.Attackable
+- XXX.world.entity.Avatar
++ XXX.world.entity.ContainerUser
+- XXX.world.entity.ConversionParams
++ XXX.world.entity.ConversionParams$AfterConversion
+- XXX.world.entity.ConversionType
++ XXX.world.entity.ConversionType$1
+- XXX.world.entity.ConversionType$2
++ XXX.world.entity.Crackiness
+- XXX.world.entity.Crackiness$Level
++ XXX.world.entity.Display
+- XXX.world.entity.Display$BillboardConstraints
++ XXX.world.entity.Display$BlockDisplay
+- XXX.world.entity.Display$BlockDisplay$BlockRenderState
++ XXX.world.entity.Display$ColorInterpolator
+- XXX.world.entity.Display$FloatInterpolator
++ XXX.world.entity.Display$GenericInterpolator
+- XXX.world.entity.Display$IntInterpolator
++ XXX.world.entity.Display$ItemDisplay
+- XXX.world.entity.Display$ItemDisplay$ItemRenderState
++ XXX.world.entity.Display$LinearFloatInterpolator
+- XXX.world.entity.Display$LinearIntInterpolator
++ XXX.world.entity.Display$RenderState
+- XXX.world.entity.Display$TextDisplay
++ XXX.world.entity.Display$TextDisplay$Align
+- XXX.world.entity.Display$TextDisplay$CachedInfo
++ XXX.world.entity.Display$TextDisplay$CachedLine
+- XXX.world.entity.Display$TextDisplay$LineSplitter
++ XXX.world.entity.Display$TextDisplay$TextRenderState
+- XXX.world.entity.Display$TransformationInterpolator
++ XXX.world.entity.DropChances
+- XXX.world.entity.ElytraAnimationState
++ XXX.world.entity.Entity
+- XXX.world.entity.Entity$1
++ XXX.world.entity.Entity$EntityPathElement
+- XXX.world.entity.Entity$MoveFunction
++ XXX.world.entity.Entity$Movement
+- XXX.world.entity.Entity$MovementEmission
++ XXX.world.entity.Entity$RemovalReason
+- XXX.world.entity.EntityAttachment
++ XXX.world.entity.EntityAttachment$Fallback
+- XXX.world.entity.EntityAttachments
++ XXX.world.entity.EntityAttachments$Builder
+- XXX.world.entity.EntityDimensions
++ XXX.world.entity.EntityEquipment
+- XXX.world.entity.EntityEvent
++ XXX.world.entity.EntityProcessor
+- XXX.world.entity.EntityReference
++ XXX.world.entity.EntitySelector
+- XXX.world.entity.EntitySpawnReason
++ XXX.world.entity.EntityType
+- XXX.world.entity.EntityType$Builder
++ XXX.world.entity.EntityType$EntityFactory
+- XXX.world.entity.EquipmentSlot
++ XXX.world.entity.EquipmentSlot$Type
+- XXX.world.entity.EquipmentSlotGroup
++ XXX.world.entity.EquipmentSlotGroup$1
+- XXX.world.entity.EquipmentTable
++ XXX.world.entity.EquipmentUser
+- XXX.world.entity.ExperienceOrb
++ XXX.world.entity.GlowSquid
++ XXX.world.entity.package-info
++ XXX.world.item.package-info
+- XXX.world.level.BaseCommandBlock
++ XXX.world.level.BaseCommandBlock$CloseableCommandBlockSource
+- XXX.world.level.BaseSpawner
++ XXX.world.level.BlockAndTintGetter
+- XXX.world.level.BlockCollisions
++ XXX.world.level.BlockEventData
+- XXX.world.level.BlockGetter
++ XXX.world.level.BlockGetter$BlockStepVisitor
+- XXX.world.level.ChunkPos
++ XXX.world.level.ChunkPos$1
+- XXX.world.level.ChunkPos$2
++ XXX.world.level.ClipBlockStateContext
+- XXX.world.level.ClipContext
++ XXX.world.level.ClipContext$Block
+- XXX.world.level.ClipContext$Fluid
++ XXX.world.level.ClipContext$ShapeGetter
+- XXX.world.level.CollisionGetter
++ XXX.world.level.ColorMapColorUtil
+- XXX.world.level.ColorResolver
++ XXX.world.level.CommonLevelAccessor
+- XXX.world.level.CustomSpawner
++ XXX.world.level.DataPackConfig
+- XXX.world.level.DryFoliageColor
++ XXX.world.level.EmptyBlockAndTintGetter
+- XXX.world.level.EmptyBlockGetter
++ XXX.world.level.EntityBasedExplosionDamageCalculator
+- XXX.world.level.EntityGetter
++ XXX.world.level.Explosion
+- XXX.world.level.Explosion$BlockInteraction
++ XXX.world.level.ExplosionDamageCalculator
+- XXX.world.level.FoliageColor
++ XXX.world.level.GameType
+- XXX.world.level.GrassColor
++ XXX.world.level.ItemLike
+- XXX.world.level.Level
++ XXX.world.level.Level$ExplosionInteraction
+- XXX.world.level.LevelAccessor
++ XXX.world.level.LevelHeightAccessor
+- XXX.world.level.LevelHeightAccessor$1
++ XXX.world.level.LevelReader
+- XXX.world.level.LevelSettings
+- XXX.world.level.LevelSimulatedReader
++ XXX.world.level.LevelSimulatedRW
++ XXX.world.level.LevelWriter
+- XXX.world.level.LightLayer
++ XXX.world.level.LocalMobCapCalculator
+- XXX.world.level.LocalMobCapCalculator$MobCounts
++ XXX.world.level.MoonPhase
+- XXX.world.level.NaturalSpawner
++ XXX.world.level.NaturalSpawner$AfterSpawnCallback
+- XXX.world.level.NaturalSpawner$ChunkGetter
++ XXX.world.level.NaturalSpawner$SpawnPredicate
+- XXX.world.level.NaturalSpawner$SpawnState
++ XXX.world.level.NoiseColumn
++ XXX.world.level.package-info
+- XXX.world.level.PathNavigationRegion
++ XXX.world.level.PotentialCalculator
+- XXX.world.level.PotentialCalculator$PointCharge
++ XXX.world.level.ScheduledTickAccess
+- XXX.world.level.ServerExplosion
++ XXX.world.level.ServerExplosion$StackCollector
+- XXX.world.level.ServerLevelAccessor
++ XXX.world.level.SignalGetter
+- XXX.world.level.SimpleExplosionDamageCalculator
++ XXX.world.level.SpawnData
+- XXX.world.level.SpawnData$CustomSpawnRules
++ XXX.world.level.Spawner
+- XXX.world.level.StructureManager
++ XXX.world.level.TicketStorage
+- XXX.world.level.TicketStorage$ChunkUpdated
++ XXX.world.level.TicketStorage$TicketPredicate
+- XXX.world.level.WorldDataConfiguration
++ XXX.world.level.WorldGenLevel
++ XXX.world.phys.AABB
+- XXX.world.phys.AABB$Builder
++ XXX.world.phys.BlockHitResult
+- XXX.world.phys.EntityHitResult
++ XXX.world.phys.HitResult
+- XXX.world.phys.HitResult$Type
+- XXX.world.phys.package-info
++ XXX.world.phys.Vec2
+- XXX.world.phys.Vec3
++ XXX.world.phys.Vec3$1
+- XXX.world.scores.DisplaySlot
++ XXX.world.scores.DisplaySlot$1
+- XXX.world.scores.Objective
++ XXX.world.scores.Objective$Packed
++ XXX.world.scores.package-info
+- XXX.world.scores.PlayerScoreEntry
++ XXX.world.scores.PlayerScores
+- XXX.world.scores.PlayerTeam
++ XXX.world.scores.PlayerTeam$Packed
+- XXX.world.scores.ReadOnlyScoreInfo
++ XXX.world.scores.Score
+- XXX.world.scores.Score$Packed
++ XXX.world.scores.ScoreAccess
+- XXX.world.scores.Scoreboard
++ XXX.world.scores.Scoreboard$1
+- XXX.world.scores.Scoreboard$PackedScore
++ XXX.world.scores.ScoreboardSaveData
+- XXX.world.scores.ScoreboardSaveData$Packed
+- XXX.world.scores.ScoreHolder
++ XXX.world.scores.ScoreHolder$1
+- XXX.world.scores.ScoreHolder$2
++ XXX.world.scores.ScoreHolder$3
++ XXX.world.scores.Team
+- XXX.world.scores.Team$CollisionRule
++ XXX.world.scores.Team$Visibility
+- XXX.world.ticks.BlackholeTickAccess
++ XXX.world.ticks.BlackholeTickAccess$1
+- XXX.world.ticks.BlackholeTickAccess$2
++ XXX.world.ticks.ContainerSingleItem
+- XXX.world.ticks.ContainerSingleItem$BlockContainerSingleItem
++ XXX.world.ticks.LevelChunkTicks
+- XXX.world.ticks.LevelTickAccess
++ XXX.world.ticks.LevelTicks
+- XXX.world.ticks.LevelTicks$PosAndContainerConsumer
++ XXX.world.ticks.package-info
++ XXX.world.ticks.ProtoChunkTicks
+- XXX.world.ticks.SavedTick
++ XXX.world.ticks.SavedTick$1
+- XXX.world.ticks.ScheduledTick
++ XXX.world.ticks.ScheduledTick$1
+- XXX.world.ticks.SerializableTickContainer
++ XXX.world.ticks.TickAccess
+- XXX.world.ticks.TickContainerAccess
++ XXX.world.ticks.TickPriority
+- XXX.world.ticks.WorldGenTickAccess
+- XXX.world.timeline.AttributeTrack
++ XXX.world.timeline.AttributeTrackSampler
++ XXX.world.timeline.package-info
+- XXX.world.timeline.Timeline
++ XXX.world.timeline.Timeline$Builder
+- XXX.world.timeline.Timelines
++ XXX.world.waypoints.package-info
+- XXX.world.waypoints.PartialTickSupplier
++ XXX.world.waypoints.TrackedWaypoint
+- XXX.world.waypoints.TrackedWaypoint$AzimuthWaypoint
++ XXX.world.waypoints.TrackedWaypoint$Camera
+- XXX.world.waypoints.TrackedWaypoint$ChunkWaypoint
++ XXX.world.waypoints.TrackedWaypoint$EmptyWaypoint
+- XXX.world.waypoints.TrackedWaypoint$PitchDirection
++ XXX.world.waypoints.TrackedWaypoint$Projector
+- XXX.world.waypoints.TrackedWaypoint$Type
++ XXX.world.waypoints.TrackedWaypoint$Vec3iWaypoint
+- XXX.world.waypoints.TrackedWaypointManager
++ XXX.world.waypoints.Waypoint
+- XXX.world.waypoints.Waypoint$Icon
++ XXX.world.waypoints.WaypointManager
+- XXX.world.waypoints.WaypointStyleAsset
++ XXX.world.waypoints.WaypointStyleAssets
+- XXX.world.waypoints.WaypointTransmitter
++ XXX.world.waypoints.WaypointTransmitter$BlockConnection
+- XXX.world.waypoints.WaypointTransmitter$ChunkConnection
++ XXX.world.waypoints.WaypointTransmitter$Connection
+- XXX.world.waypoints.WaypointTransmitter$EntityAzimuthConnection
++ XXX.world.waypoints.WaypointTransmitter$EntityBlockConnection
+- XXX.world.waypoints.WaypointTransmitter$EntityChunkConnection
++ XXX.worldgen.biome.BiomeData
+- XXX.worldgen.biome.EndBiomes
++ XXX.worldgen.biome.NetherBiomes
+- XXX.worldgen.biome.OverworldBiomes
++ XXX.worldgen.biome.package-info
+- XXX.worldgen.features.AquaticFeatures
++ XXX.worldgen.features.CaveFeatures
+- XXX.worldgen.features.EndFeatures
++ XXX.worldgen.features.FeatureUtils
+- XXX.worldgen.features.MiscOverworldFeatures
++ XXX.worldgen.features.NetherFeatures
+- XXX.worldgen.features.OreFeatures
+- XXX.worldgen.features.package-info
++ XXX.worldgen.features.PileFeatures
+- XXX.worldgen.features.TreeFeatures
++ XXX.worldgen.features.VegetationFeatures
+- XXX.worldgen.placement.AquaticPlacements
++ XXX.worldgen.placement.CavePlacements
+- XXX.worldgen.placement.EndPlacements
++ XXX.worldgen.placement.MiscOverworldPlacements
+- XXX.worldgen.placement.NetherPlacements
++ XXX.worldgen.placement.OrePlacements
+- XXX.worldgen.placement.package-info
+- XXX.worldgen.placement.PlacementUtils
++ XXX.worldgen.placement.TreePlacements
+- XXX.worldgen.placement.VegetationPlacements
++ XXX.worldgen.placement.VillagePlacements
+```
+
+</details>
+<details>
+<summary>
+Changes
+</summary>
+
+```
+XXX.advancements.criterion.TradeTrigger +1M -1M
+```
+```
+XXX.minecraft.client.Options +60M -56M | +4P
+```
+```
+XXX.client.multiplayer.ClientDebugSubscriber +2M -1M
+```
+```
+XXX.client.multiplayer.ClientPacketListener +2M | +1P
+```
+```
+XXX.client.player.LocalPlayer +4M -1M
+```
+```
+XXX.block.model.SimpleUnbakedGeometry -1M
+```
+```
+XXX.ai.behavior.AssignProfessionFromJobSite +2M -2M
+```
+```
+XXX.ai.behavior.GiveGiftToHero +11M -11M
+```
+```
+XXX.ai.behavior.GoToClosestVillage +1M -1M
+```
+```
+XXX.ai.behavior.HarvestFarmland +5M -5M
+```
+```
+XXX.ai.behavior.SetWalkTargetFromBlockMemory +1M -1M
+```
+```
+XXX.ai.behavior.ShowTradesToPlayer +12M -12M
+```
+```
+XXX.ai.behavior.VillagerMakeLove +12M -12M
+```
+```
+XXX.ai.behavior.WorkAtPoi +4M -4M
+```
+```
+XXX.ai.goal.CatSitOnBlockGoal +1M -1M | +1P -1P
+```
+```
+XXX.ai.goal.DolphinJumpGoal +1M -1M | +1P -1P
+```
+```
+XXX.ai.goal.FollowFlockLeaderGoal +4M -4M | +1P -1P
+```
+```
+XXX.ai.goal.LandOnOwnersShoulderGoal +1M -1M | +1P -1P
+```
+```
+XXX.ai.goal.LlamaFollowCaravanGoal +2M -2M | +1P -1P
+```
+```
+XXX.ai.goal.LookAtTradingPlayerGoal +1M -1M | +1P -1P
+```
+```
+XXX.ai.goal.OfferFlowerGoal +1M -1M | +1P -1P
+```
+```
+XXX.ai.goal.RunAroundLikeCrazyGoal +1M -1M | +1P -1P
+```
+```
+XXX.ai.goal.SpearUseGoal +7P -6P
+```
+```
+XXX.boss.enderdragon.EnderDragon +3M -3M | +9P -9P
+```
+```
+XXX.monster.piglin.Piglin +1M -1M
+```
+```
+XXX.world.inventory.HorseInventoryMenu$1 +1M -1M | +1P -1P
+```
+```
+XXX.world.item.ArrowItem +1M -1M
+```
+```
+XXX.world.item.SpectralArrowItem +1M -1M
+```
+```
+XXX.world.item.WindChargeItem +1M -1M
+```
+
+</details>
+<details>
+<summary>
+net.minecraft.advancements.criterion.TradeTrigger
+</summary>
+
+```diff
++ void trigger(ServerPlayer,AbstractVillager,ItemStack)
+- void trigger(ServerPlayer,AbstractVillager,ItemStack)
+```
+
+</details>
+<details>
+<summary>
+net.minecraft.client.Options
+</summary>
+
+```diff
+- Component lambda$new$100(Component,Boolean)
++ Component lambda$new$105(Component,Double)
++ Component lambda$new$107(Component,Integer)
+- Component lambda$new$108(Component,Double)
+- Component lambda$new$110(Component,Integer)
++ Component lambda$new$110(Component,ParticleStatus)
++ Component lambda$new$112(Component,NarratorStatus)
+- Component lambda$new$113(Component,ParticleStatus)
++ Component lambda$new$114(Component,String)
+- Component lambda$new$115(Component,NarratorStatus)
+- Component lambda$new$117(Component,String)
++ Component lambda$new$118(Component,MusicManager$MusicFrequency)
+- Component lambda$new$121(Component,MusicManager$MusicFrequency)
++ Component lambda$new$121(Component,MusicToastDisplayState)
++ Component lambda$new$123(Component,Integer)
+- Component lambda$new$124(Component,MusicToastDisplayState)
++ Component lambda$new$125(Component,Integer)
+- Component lambda$new$126(Component,Integer)
+- Component lambda$new$128(Component,Integer)
++ Component lambda$new$61(Component,AttackIndicatorStatus)
+- Component lambda$new$62(Component,TextureFilteringMethod)
++ Component lambda$new$63(Component,Integer)
+- Component lambda$new$64(Component,AttackIndicatorStatus)
++ Component lambda$new$65(Component,Double)
+- Component lambda$new$66(Component,Integer)
+- Component lambda$new$68(Component,Double)
++ Component lambda$new$79(Component,Boolean)
++ Component lambda$new$84(Component,Boolean)
+- Component lambda$new$85(Component,Boolean)
++ Component lambda$new$86(Component,Boolean)
+- Component lambda$new$87(Component,Boolean)
++ Component lambda$new$88(Component,Boolean)
+- Component lambda$new$89(Component,Boolean)
++ Component lambda$new$90(Component,Integer)
+- Component lambda$new$91(Component,Boolean)
+- Component lambda$new$96(Component,Integer)
++ Component lambda$new$97(Component,Boolean)
++ Double lambda$new$95(Integer)
+- Double lambda$new$98(Integer)
++ int lambda$new$108()
+- int lambda$new$111()
++ Integer lambda$new$94(Double)
+- Integer lambda$new$97(Double)
++ KeyMapping[] lambda$new$92(int)
+- KeyMapping[] lambda$new$95(int)
++ List lambda$new$115()
+- List lambda$new$118()
++ Optional lambda$new$116(String)
+- Optional lambda$new$119(String)
++ OptionInstance lambda$new$75(SoundSource)
+- OptionInstance lambda$new$78(SoundSource)
+- OptionInstance textureFiltering()
++ String lambda$dumpOptionsForReport$129(Pair)
+- String lambda$dumpOptionsForReport$132(Pair)
++ Tooltip lambda$new$120(MusicToastDisplayState)
+- Tooltip lambda$new$123(MusicToastDisplayState)
+- Tooltip lambda$new$61(TextureFilteringMethod)
++ Tooltip lambda$new$77(Boolean)
+- Tooltip lambda$new$80(Boolean)
++ void lambda$createSoundSliderOptionInstance$76(SoundSource,Double)
+- void lambda$createSoundSliderOptionInstance$79(SoundSource,Double)
++ void lambda$load$127(CompoundTag,String)
++ void lambda$load$128(String)
+- void lambda$load$130(CompoundTag,String)
+- void lambda$load$131(String)
++ void lambda$new$100(Double)
+- void lambda$new$101(Boolean)
++ void lambda$new$101(Double)
+- void lambda$new$105(Double)
+- void lambda$new$107(Double)
+- void lambda$new$109(Double)
++ void lambda$new$109(Integer)
++ void lambda$new$111(ParticleStatus)
+- void lambda$new$112(Integer)
++ void lambda$new$113(NarratorStatus)
+- void lambda$new$114(ParticleStatus)
+- void lambda$new$116(NarratorStatus)
++ void lambda$new$117(String)
++ void lambda$new$119(MusicManager$MusicFrequency)
+- void lambda$new$120(String)
+- void lambda$new$122(MusicManager$MusicFrequency)
++ void lambda$new$122(MusicToastDisplayState)
++ void lambda$new$124(Integer)
+- void lambda$new$125(MusicToastDisplayState)
++ void lambda$new$126(Integer)
+- void lambda$new$127(Integer)
+- void lambda$new$129(Integer)
++ void lambda$new$62(AttackIndicatorStatus)
+- void lambda$new$63(TextureFilteringMethod)
++ void lambda$new$64(Integer)
+- void lambda$new$65(AttackIndicatorStatus)
++ void lambda$new$66(Double)
++ void lambda$new$67(Boolean)
+- void lambda$new$67(Integer)
++ void lambda$new$68(Boolean)
++ void lambda$new$69(Boolean)
+- void lambda$new$69(Double)
+- void lambda$new$75(Boolean)
+- void lambda$new$76(Boolean)
+- void lambda$new$77(Boolean)
++ void lambda$new$78(Boolean)
++ void lambda$new$80(Boolean)
+- void lambda$new$84(Boolean)
++ void lambda$new$85(Boolean)
+- void lambda$new$86(Boolean)
++ void lambda$new$87(Boolean)
+- void lambda$new$88(Boolean)
++ void lambda$new$89(Boolean)
+- void lambda$new$90(Boolean)
++ void lambda$new$91(Integer)
+- void lambda$new$92(Boolean)
+- void lambda$new$94(Integer)
++ void lambda$new$96(Integer)
++ void lambda$new$98(Boolean)
++ void lambda$new$99(Double)
+- void lambda$new$99(Integer)
+```
+
+</details>
+<details>
+<summary>
+net.minecraft.client.multiplayer.ClientDebugSubscriber
+</summary>
+
+```diff
+- ClientDebugSubscriber$ValueMaps lambda$initializeSubscriptions$1(DebugSubscription)
++ ClientDebugSubscriber$ValueMaps lambda$onSubscriptionsChanged$1(DebugSubscription)
+- void initializeSubscriptions(Set)
+```
+
+</details>
+<details>
+<summary>
+net.minecraft.client.multiplayer.ClientPacketListener
+</summary>
+
+```diff
+- boolean hasClientLoaded()
+- void setClientLoaded(boolean)
+```
+
+</details>
+<details>
+<summary>
+net.minecraft.client.player.LocalPlayer
+</summary>
+
+```diff
+- HitResult filterHitResult(HitResult,Vec3,double)
+- HitResult pick(Entity,double,double,float)
+- HitResult raycastHitResult(float,Entity)
++ void openMinecartCommandBlock(MinecartCommandBlock)
+- void openMinecartCommandBlock(MinecartCommandBlock)
+```
+
+</details>
+<details>
+<summary>
+net.minecraft.client.renderer.block.model.SimpleUnbakedGeometry
+</summary>
+
+```diff
++ void lambda$bake$0(ModelBaker,TextureSlots,ModelDebugName,BlockElement,ModelState,QuadCollection$Builder,Direction,BlockElementFace)
+```
+
+</details>
+<details>
+<summary>
+net.minecraft.world.entity.ai.behavior.AssignProfessionFromJobSite
+</summary>
+
+```diff
++ boolean lambda$create$4(BehaviorBuilder$Instance,MemoryAccessor,MemoryAccessor,ServerLevel,Villager,long)
+- boolean lambda$create$4(BehaviorBuilder$Instance,MemoryAccessor,MemoryAccessor,ServerLevel,Villager,long)
++ void lambda$create$3(Villager,ServerLevel,Holder$Reference)
+- void lambda$create$3(Villager,ServerLevel,Holder$Reference)
+```
+
+</details>
+<details>
+<summary>
+net.minecraft.world.entity.ai.behavior.GiveGiftToHero
+</summary>
+
+```diff
++ boolean canStillUse(ServerLevel,Villager,long)
+- boolean canStillUse(ServerLevel,Villager,long)
++ boolean checkExtraStartConditions(ServerLevel,Villager)
+- boolean checkExtraStartConditions(ServerLevel,Villager)
++ boolean isHeroVisible(Villager)
+- boolean isHeroVisible(Villager)
++ boolean isWithinThrowingDistance(Villager,Player)
+- boolean isWithinThrowingDistance(Villager,Player)
++ Optional getNearestTargetableHero(Villager)
+- Optional getNearestTargetableHero(Villager)
++ ResourceKey getLootTableToThrow(Villager)
+- ResourceKey getLootTableToThrow(Villager)
++ void lambda$throwGift$0(Villager,LivingEntity,ServerLevel,ItemStack)
+- void lambda$throwGift$0(Villager,LivingEntity,ServerLevel,ItemStack)
++ void start(ServerLevel,Villager,long)
+- void start(ServerLevel,Villager,long)
++ void stop(ServerLevel,Villager,long)
+- void stop(ServerLevel,Villager,long)
++ void throwGift(ServerLevel,Villager,LivingEntity)
+- void throwGift(ServerLevel,Villager,LivingEntity)
++ void tick(ServerLevel,Villager,long)
+- void tick(ServerLevel,Villager,long)
+```
+
+</details>
+<details>
+<summary>
+net.minecraft.world.entity.ai.behavior.GoToClosestVillage
+</summary>
+
+```diff
++ boolean lambda$create$1(MemoryAccessor,float,int,ServerLevel,Villager,long)
+- boolean lambda$create$1(MemoryAccessor,float,int,ServerLevel,Villager,long)
+```
+
+</details>
+<details>
+<summary>
+net.minecraft.world.entity.ai.behavior.HarvestFarmland
+</summary>
+
+```diff
++ boolean canStillUse(ServerLevel,Villager,long)
+- boolean canStillUse(ServerLevel,Villager,long)
++ boolean checkExtraStartConditions(ServerLevel,Villager)
+- boolean checkExtraStartConditions(ServerLevel,Villager)
++ void start(ServerLevel,Villager,long)
+- void start(ServerLevel,Villager,long)
++ void stop(ServerLevel,Villager,long)
+- void stop(ServerLevel,Villager,long)
++ void tick(ServerLevel,Villager,long)
+- void tick(ServerLevel,Villager,long)
+```
+
+</details>
+<details>
+<summary>
+net.minecraft.world.entity.ai.behavior.SetWalkTargetFromBlockMemory
+</summary>
+
+```diff
++ boolean lambda$create$0(BehaviorBuilder$Instance,MemoryAccessor,MemoryAccessor,int,MemoryModuleType,int,MemoryAccessor,float,int,ServerLevel,Villager,long)
+- boolean lambda$create$0(BehaviorBuilder$Instance,MemoryAccessor,MemoryAccessor,int,MemoryModuleType,int,MemoryAccessor,float,int,ServerLevel,Villager,long)
+```
+
+</details>
+<details>
+<summary>
+net.minecraft.world.entity.ai.behavior.ShowTradesToPlayer
+</summary>
+
+```diff
++ boolean canStillUse(ServerLevel,Villager,long)
+- boolean canStillUse(ServerLevel,Villager,long)
++ boolean checkExtraStartConditions(ServerLevel,Villager)
+- boolean checkExtraStartConditions(ServerLevel,Villager)
++ LivingEntity lookAtTarget(Villager)
+- LivingEntity lookAtTarget(Villager)
++ void clearHeldItem(Villager)
+- void clearHeldItem(Villager)
++ void displayAsHeldItem(Villager,ItemStack)
+- void displayAsHeldItem(Villager,ItemStack)
++ void displayCyclingItems(Villager)
+- void displayCyclingItems(Villager)
++ void displayFirstItem(Villager)
+- void displayFirstItem(Villager)
++ void findItemsToDisplay(LivingEntity,Villager)
+- void findItemsToDisplay(LivingEntity,Villager)
++ void start(ServerLevel,Villager,long)
+- void start(ServerLevel,Villager,long)
++ void stop(ServerLevel,Villager,long)
+- void stop(ServerLevel,Villager,long)
++ void tick(ServerLevel,Villager,long)
+- void tick(ServerLevel,Villager,long)
++ void updateDisplayItems(Villager)
+- void updateDisplayItems(Villager)
+```
+
+</details>
+<details>
+<summary>
+net.minecraft.world.entity.ai.behavior.VillagerMakeLove
+</summary>
+
+```diff
++ boolean canReach(Villager,BlockPos,Holder)
+- boolean canReach(Villager,BlockPos,Holder)
++ boolean canStillUse(ServerLevel,Villager,long)
+- boolean canStillUse(ServerLevel,Villager,long)
++ boolean checkExtraStartConditions(ServerLevel,Villager)
+- boolean checkExtraStartConditions(ServerLevel,Villager)
++ boolean isBreedingPossible(Villager)
+- boolean isBreedingPossible(Villager)
++ boolean lambda$takeVacantBed$2(Villager,Holder,BlockPos)
+- boolean lambda$takeVacantBed$2(Villager,Holder,BlockPos)
++ Optional breed(ServerLevel,Villager,Villager)
+- Optional breed(ServerLevel,Villager,Villager)
++ Optional takeVacantBed(ServerLevel,Villager)
+- Optional takeVacantBed(ServerLevel,Villager)
++ void giveBedToChild(ServerLevel,Villager,BlockPos)
+- void giveBedToChild(ServerLevel,Villager,BlockPos)
++ void start(ServerLevel,Villager,long)
+- void start(ServerLevel,Villager,long)
++ void stop(ServerLevel,Villager,long)
+- void stop(ServerLevel,Villager,long)
++ void tick(ServerLevel,Villager,long)
+- void tick(ServerLevel,Villager,long)
++ void tryToGiveBirth(ServerLevel,Villager,Villager)
+- void tryToGiveBirth(ServerLevel,Villager,Villager)
+```
+
+</details>
+<details>
+<summary>
+net.minecraft.world.entity.ai.behavior.WorkAtPoi
+</summary>
+
+```diff
++ boolean canStillUse(ServerLevel,Villager,long)
+- boolean canStillUse(ServerLevel,Villager,long)
++ boolean checkExtraStartConditions(ServerLevel,Villager)
+- boolean checkExtraStartConditions(ServerLevel,Villager)
++ void start(ServerLevel,Villager,long)
+- void start(ServerLevel,Villager,long)
++ void useWorkstation(ServerLevel,Villager)
+- void useWorkstation(ServerLevel,Villager)
+```
+
+</details>
+<details>
+<summary>
+net.minecraft.world.entity.ai.goal.CatSitOnBlockGoal
+</summary>
+
+```diff
++ void <init>(Cat,double)
+- void <init>(Cat,double)
+```
+
+</details>
+<details>
+<summary>
+net.minecraft.world.entity.ai.goal.DolphinJumpGoal
+</summary>
+
+```diff
++ void <init>(Dolphin,int)
+- void <init>(Dolphin,int)
+```
+
+</details>
+<details>
+<summary>
+net.minecraft.world.entity.ai.goal.FollowFlockLeaderGoal
+</summary>
+
+```diff
++ boolean lambda$canUse$0(AbstractSchoolingFish)
+- boolean lambda$canUse$0(AbstractSchoolingFish)
++ boolean lambda$canUse$1(AbstractSchoolingFish)
+- boolean lambda$canUse$1(AbstractSchoolingFish)
++ int nextStartTick(AbstractSchoolingFish)
+- int nextStartTick(AbstractSchoolingFish)
++ void <init>(AbstractSchoolingFish)
+- void <init>(AbstractSchoolingFish)
+```
+
+</details>
+<details>
+<summary>
+net.minecraft.world.entity.ai.goal.LandOnOwnersShoulderGoal
+</summary>
+
+```diff
++ void <init>(ShoulderRidingEntity)
+- void <init>(ShoulderRidingEntity)
+```
+
+</details>
+<details>
+<summary>
+net.minecraft.world.entity.ai.goal.LlamaFollowCaravanGoal
+</summary>
+
+```diff
++ boolean firstIsLeashed(Llama,int)
+- boolean firstIsLeashed(Llama,int)
++ void <init>(Llama,double)
+- void <init>(Llama,double)
+```
+
+</details>
+<details>
+<summary>
+net.minecraft.world.entity.ai.goal.LookAtTradingPlayerGoal
+</summary>
+
+```diff
++ void <init>(AbstractVillager)
+- void <init>(AbstractVillager)
+```
+
+</details>
+<details>
+<summary>
+net.minecraft.world.entity.ai.goal.OfferFlowerGoal
+</summary>
+
+```diff
++ void <init>(IronGolem)
+- void <init>(IronGolem)
+```
+
+</details>
+<details>
+<summary>
+net.minecraft.world.entity.ai.goal.RunAroundLikeCrazyGoal
+</summary>
+
+```diff
++ void <init>(AbstractHorse,double)
+- void <init>(AbstractHorse,double)
+```
+
+</details>
+<details>
+<summary>
+net.minecraft.world.entity.boss.enderdragon.EnderDragon
+</summary>
+
+```diff
++ boolean hurt(ServerLevel,EnderDragonPart,DamageSource,float)
+- boolean hurt(ServerLevel,EnderDragonPart,DamageSource,float)
++ EnderDragonPart[] getSubEntities()
+- EnderDragonPart[] getSubEntities()
++ void tickPart(EnderDragonPart,double,double,double)
+- void tickPart(EnderDragonPart,double,double,double)
+```
+
+</details>
+<details>
+<summary>
+net.minecraft.world.entity.monster.piglin.Piglin
+</summary>
+
+```diff
++ boolean canFireProjectileWeapon(ProjectileWeaponItem)
+- boolean canUseNonMeleeWeapon(ItemStack)
+```
+
+</details>
+<details>
+<summary>
+net.minecraft.world.inventory.HorseInventoryMenu$1
+</summary>
+
+```diff
++ void <init>(HorseInventoryMenu,Container,LivingEntity,EquipmentSlot,int,int,int,Identifier,AbstractHorse)
+- void <init>(HorseInventoryMenu,Container,LivingEntity,EquipmentSlot,int,int,int,Identifier,AbstractHorse)
+```
+
+</details>
+<details>
+<summary>
+net.minecraft.world.item.ArrowItem
+</summary>
+
+```diff
++ AbstractArrow createArrow(Level,ItemStack,LivingEntity,ItemStack)
+- AbstractArrow createArrow(Level,ItemStack,LivingEntity,ItemStack)
+```
+
+</details>
+<details>
+<summary>
+net.minecraft.world.item.SpectralArrowItem
+</summary>
+
+```diff
++ AbstractArrow createArrow(Level,ItemStack,LivingEntity,ItemStack)
+- AbstractArrow createArrow(Level,ItemStack,LivingEntity,ItemStack)
+```
+
+</details>
+<details>
+<summary>
+net.minecraft.world.item.WindChargeItem
+</summary>
+
+```diff
++ WindCharge lambda$use$0(Player,Level,ServerLevel,LivingEntity,ItemStack)
+- WindCharge lambda$use$0(Player,Level,ServerLevel,LivingEntity,ItemStack)
+```
+
+</details>
+</details>
+<hr/>
