@@ -1,0 +1,204 @@
+{
+  "version_data": [
+    {
+      "type": "table",
+      "value": {
+        "previousLabel": "1.21.11-pre1",
+        "currentLabel": "1.21.11-pre2",
+        "values": [
+          {
+            "key": "DataPack version",
+            "previous": "{\"major\":94,\"minor\":0}",
+            "current": "{\"major\":94,\"minor\":0}"
+          },
+          {
+            "key": "ResourcePack version",
+            "previous": "{\"major\":75,\"minor\":0}",
+            "current": "{\"major\":75,\"minor\":0}"
+          },
+          {
+            "key": "World version",
+            "previous": "4663",
+            "current": "4664"
+          },
+          {
+            "key": "Protocol version",
+            "previous": "1073742103",
+            "current": "1073742104"
+          }
+        ]
+      }
+    }
+  ],
+  "translations": [
+    {
+      "type": "text",
+      "value": {
+        "title": "Changes",
+        "values": [
+          {
+            "key": "options.cutoutLeaves.tooltip",
+            "previous": "Allows to see through gaps in leaves. Disabling may improve performance.",
+            "current": "Allows you to see through gaps in leaves. Disabling improves performance."
+          }
+        ]
+      }
+    }
+  ],
+  "mappings": [
+    {
+      "type": "title",
+      "value": {
+        "title": "Server",
+        "id": "server-mappings",
+        "size": 2
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "Changes",
+        "lines": [
+          "XXX.server.level.ServerPlayer \u001b[2;31m-1M\u001b[0m",
+          "XXX.minecraft.world.LockCode \u001b[2;32m+1M\u001b[0m",
+          "XXX.level.block.LeavesBlock \u001b[2;32m+2M\u001b[0m | \u001b[2;32m+1P\u001b[0m",
+          "XXX.block.entity.BaseContainerBlockEntity \u001b[2;32m+1M\u001b[0m \u001b[2;31m-1M\u001b[0m"
+        ]
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.server.level.ServerPlayer",
+        "differences": {
+          "added": [
+            "void playNotifySound(SoundEvent,SoundSource,float,float)"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.LockCode",
+        "differences": {
+          "added": [],
+          "removed": [
+            "boolean canUnlock(Player)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.level.block.LeavesBlock",
+        "differences": {
+          "added": [],
+          "removed": [
+            "boolean skipRendering(BlockState,BlockState,Direction)",
+            "void setCutoutLeaves(boolean)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.level.block.entity.BaseContainerBlockEntity",
+        "differences": {
+          "added": [
+            "boolean canUnlock(Player,LockCode,Component)"
+          ],
+          "removed": [
+            "void sendChestLockedNotifications(Vec3,Player,Component)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "title",
+      "value": {
+        "title": "Client",
+        "id": "client-mappings",
+        "size": 2
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "Changes",
+        "lines": [
+          "XXX.minecraft.client.Options \u001b[2;32m+1M\u001b[0m \u001b[2;31m-1M\u001b[0m",
+          "XXX.client.player.LocalPlayer \u001b[2;31m-1M\u001b[0m",
+          "XXX.entity.player.Player \u001b[2;31m-1M\u001b[0m",
+          "XXX.entity.projectile.ProjectileUtil \u001b[2;32m+1M\u001b[0m \u001b[2;31m-1M\u001b[0m",
+          "XXX.levelgen.structure.LegacyStructureDataHandler \u001b[2;32m+2P\u001b[0m"
+        ]
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.client.Options",
+        "differences": {
+          "added": [
+            "void lambda$new$127(Integer)"
+          ],
+          "removed": [
+            "void lambda$new$127(Minecraft,Integer)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.client.player.LocalPlayer",
+        "differences": {
+          "added": [
+            "void playNotifySound(SoundEvent,SoundSource,float,float)"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.entity.player.Player",
+        "differences": {
+          "added": [
+            "void playNotifySound(SoundEvent,SoundSource,float,float)"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.entity.projectile.ProjectileUtil",
+        "differences": {
+          "added": [
+            "Either getHitEntitiesAlong(Entity,AttackRange,Predicate)"
+          ],
+          "removed": [
+            "Either getHitEntitiesAlong(Entity,AttackRange,Predicate,ClipContext$Block)"
+          ]
+        }
+      }
+    }
+  ],
+  "custom": [
+    {
+      "type": "title",
+      "value": {
+        "title": "datapacks.json",
+        "id": "custom-datapacks-json",
+        "size": 2
+      }
+    }
+  ]
+}
