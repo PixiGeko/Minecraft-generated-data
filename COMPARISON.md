@@ -1,0 +1,316 @@
+## Comparison with [26.1-snapshot-1](https://github.com/PixiGeko/Minecraft-generated-data/tree/26.1-snapshot-1)
+
+> [!TIP]
+> - [Version data](#version-data)
+> - [Recipes](#recipes)
+> - [Translations](#translations)
+> - [File structure](#file-structure)
+
+<br/><br/>
+<details><summary><b><ins>VERSION DATA</ins></b><a name="version-data"></a></summary>
+<br/>
+<table><tr><th></th><th align="left">26.1-snapshot-1</th><th>26.1-snapshot-2</th></tr><tr><td>DataPack version</td><td><pre>95.0</pre></td><td><pre>96.0</pre></td></tr><tr><td>ResourcePack version</td><td><pre>76.0</pre></td><td><pre>77.0</pre></td></tr><tr><td>World version</td><td><pre>4764</pre></td><td><pre>4765</pre></td></tr><tr><td>Protocol version</td><td><pre>1073742111</pre></td><td><pre>1073742112</pre></td></tr></table>
+</details>
+<hr/>
+<details><summary><b><ins>RECIPES</ins></b><a name="recipes"></a></summary>
+<br/>
+<details>
+<summary>
+🗒️ List
+</summary>
+
+```diff
++ name_tag.json
+```
+
+</details>
+</details>
+<hr/>
+<details><summary><b><ins>TRANSLATIONS</ins></b><a name="translations"></a></summary>
+<br/>
+<details>
+<summary>
+Keys
+</summary>
+
+```diff
++ subtitles.entity.baby_cat.ambient: Kitten meows
++ subtitles.entity.baby_cat.beg_for_food: Kitten begs
++ subtitles.entity.baby_cat.death: Kitten dies
++ subtitles.entity.baby_cat.eat: Kitten eats
++ subtitles.entity.baby_cat.hiss: Kitten hisses
++ subtitles.entity.baby_cat.hurt: Kitten hurts
++ subtitles.entity.baby_cat.purr: Kitten purrs
++ subtitles.entity.baby_pig.ambient: Baby Pig oinks
++ subtitles.entity.baby_pig.death: Baby Pig dies
++ subtitles.entity.baby_pig.hurt: Baby Pig hurts
++ subtitles.entity.baby_wolf.ambient: Puppy yips
++ subtitles.entity.baby_wolf.death: Puppy dies
++ subtitles.entity.baby_wolf.growl: Puppy growls
++ subtitles.entity.baby_wolf.hurt: Puppy hurts
++ subtitles.entity.baby_wolf.pant: Puppy pants
++ subtitles.entity.baby_wolf.whine: Puppy whines
+```
+
+</details>
+</details>
+<hr/>
+<details><summary><b><ins>FILE STRUCTURE</ins></b><a name="file-structure"></a></summary>
+<br/>
+<details>
+<summary>
+data
+</summary>
+
+```diff
++ minecraft/advancement/recipes/tools/name_tag.json
++ minecraft/recipe/name_tag.json
++ minecraft/tags/item/metal_nuggets.json
++ minecraft/villager_trade/armorer/3/diamond_emerald.json
+- minecraft/villager_trade/smith/4/diamond_emerald.json
++ minecraft/villager_trade/toolsmith/4/diamond_emerald.json
++ minecraft/villager_trade/weaponsmith/4/diamond_emerald.json
+```
+
+</details>
+<details>
+<summary>
+assets
+</summary>
+
+```diff
+- minecraft/textures/entity/armadillo.png
++ minecraft/textures/entity/armadillo/armadillo.png
++ minecraft/textures/entity/armorstand/armorstand.png
+- minecraft/textures/entity/armorstand/wood.png
+- minecraft/textures/entity/banner_base.png
++ minecraft/textures/entity/banner/banner_base.png
+- minecraft/textures/entity/bat.png
++ minecraft/textures/entity/bat/bat.png
+- minecraft/textures/entity/beacon_beam.png
++ minecraft/textures/entity/beacon/beacon_beam.png
+- minecraft/textures/entity/blaze.png
++ minecraft/textures/entity/blaze/blaze.png
+- minecraft/textures/entity/cat/all_black.png
+- minecraft/textures/entity/cat/black.png
+- minecraft/textures/entity/cat/british_shorthair.png
+- minecraft/textures/entity/cat/calico.png
++ minecraft/textures/entity/cat/cat_all_black_baby.png
++ minecraft/textures/entity/cat/cat_all_black.png
++ minecraft/textures/entity/cat/cat_black_baby.png
++ minecraft/textures/entity/cat/cat_black.png
++ minecraft/textures/entity/cat/cat_british_shorthair_baby.png
++ minecraft/textures/entity/cat/cat_british_shorthair.png
++ minecraft/textures/entity/cat/cat_calico_baby.png
++ minecraft/textures/entity/cat/cat_calico.png
++ minecraft/textures/entity/cat/cat_collar_baby.png
++ minecraft/textures/entity/cat/cat_jellie_baby.png
++ minecraft/textures/entity/cat/cat_jellie.png
++ minecraft/textures/entity/cat/cat_persian_baby.png
++ minecraft/textures/entity/cat/cat_persian.png
++ minecraft/textures/entity/cat/cat_ragdoll_baby.png
++ minecraft/textures/entity/cat/cat_ragdoll.png
++ minecraft/textures/entity/cat/cat_red_baby.png
++ minecraft/textures/entity/cat/cat_red.png
++ minecraft/textures/entity/cat/cat_siamese_baby.png
++ minecraft/textures/entity/cat/cat_siamese.png
++ minecraft/textures/entity/cat/cat_tabby_baby.png
++ minecraft/textures/entity/cat/cat_tabby.png
++ minecraft/textures/entity/cat/cat_white_baby.png
++ minecraft/textures/entity/cat/cat_white.png
+- minecraft/textures/entity/cat/jellie.png
++ minecraft/textures/entity/cat/ocelot_baby.png
+- minecraft/textures/entity/cat/persian.png
+- minecraft/textures/entity/cat/ragdoll.png
+- minecraft/textures/entity/cat/red.png
+- minecraft/textures/entity/cat/siamese.png
+- minecraft/textures/entity/cat/tabby.png
+- minecraft/textures/entity/cat/white.png
++ minecraft/textures/entity/chicken/chicken_cold_baby.png
++ minecraft/textures/entity/chicken/chicken_cold.png
++ minecraft/textures/entity/chicken/chicken_temperate_baby.png
++ minecraft/textures/entity/chicken/chicken_temperate.png
++ minecraft/textures/entity/chicken/chicken_warm_baby.png
++ minecraft/textures/entity/chicken/chicken_warm.png
+- minecraft/textures/entity/chicken/cold_chicken.png
+- minecraft/textures/entity/chicken/temperate_chicken.png
+- minecraft/textures/entity/chicken/warm_chicken.png
++ minecraft/textures/entity/copper_golem/copper_golem_exposed.png
++ minecraft/textures/entity/copper_golem/copper_golem_eyes_exposed.png
++ minecraft/textures/entity/copper_golem/copper_golem_eyes_oxidized.png
++ minecraft/textures/entity/copper_golem/copper_golem_eyes_weathered.png
++ minecraft/textures/entity/copper_golem/copper_golem_oxidized.png
++ minecraft/textures/entity/copper_golem/copper_golem_weathered.png
+- minecraft/textures/entity/copper_golem/exposed_copper_golem_eyes.png
+- minecraft/textures/entity/copper_golem/exposed_copper_golem.png
+- minecraft/textures/entity/copper_golem/oxidized_copper_golem_eyes.png
+- minecraft/textures/entity/copper_golem/oxidized_copper_golem.png
+- minecraft/textures/entity/copper_golem/weathered_copper_golem_eyes.png
+- minecraft/textures/entity/copper_golem/weathered_copper_golem.png
+- minecraft/textures/entity/cow/brown_mooshroom.png
+- minecraft/textures/entity/cow/cold_cow.png
++ minecraft/textures/entity/cow/cow_cold_baby.png
++ minecraft/textures/entity/cow/cow_cold.png
++ minecraft/textures/entity/cow/cow_temperate_baby.png
++ minecraft/textures/entity/cow/cow_temperate.png
++ minecraft/textures/entity/cow/cow_warm_baby.png
++ minecraft/textures/entity/cow/cow_warm.png
++ minecraft/textures/entity/cow/mooshroom_brown_baby.png
++ minecraft/textures/entity/cow/mooshroom_brown.png
++ minecraft/textures/entity/cow/mooshroom_red_baby.png
++ minecraft/textures/entity/cow/mooshroom_red.png
+- minecraft/textures/entity/cow/red_mooshroom.png
+- minecraft/textures/entity/cow/temperate_cow.png
+- minecraft/textures/entity/cow/warm_cow.png
+- minecraft/textures/entity/dolphin.png
++ minecraft/textures/entity/dolphin/dolphin.png
+- minecraft/textures/entity/enchanting_table_book.png
++ minecraft/textures/entity/enchantment/enchanting_table_book.png
+- minecraft/textures/entity/end_gateway_beam.png
+- minecraft/textures/entity/end_portal.png
++ minecraft/textures/entity/end_portal/end_gateway_beam.png
++ minecraft/textures/entity/end_portal/end_portal.png
+- minecraft/textures/entity/endermite.png
++ minecraft/textures/entity/endermite/endermite.png
+- minecraft/textures/entity/experience_orb.png
++ minecraft/textures/entity/experience/experience_orb.png
+- minecraft/textures/entity/fishing_hook.png
++ minecraft/textures/entity/fishing/fishing_hook.png
++ minecraft/textures/entity/fox/fox_snow_sleep.png
++ minecraft/textures/entity/fox/fox_snow.png
+- minecraft/textures/entity/fox/snow_fox_sleep.png
+- minecraft/textures/entity/fox/snow_fox.png
+- minecraft/textures/entity/frog/cold_frog.png
++ minecraft/textures/entity/frog/frog_cold.png
++ minecraft/textures/entity/frog/frog_temperate.png
++ minecraft/textures/entity/frog/frog_warm.png
+- minecraft/textures/entity/frog/temperate_frog.png
+- minecraft/textures/entity/frog/warm_frog.png
+- minecraft/textures/entity/guardian_beam.png
+- minecraft/textures/entity/guardian_elder.png
+- minecraft/textures/entity/guardian.png
++ minecraft/textures/entity/guardian/guardian_beam.png
++ minecraft/textures/entity/guardian/guardian_elder.png
++ minecraft/textures/entity/guardian/guardian.png
+- minecraft/textures/entity/lead_knot.png
++ minecraft/textures/entity/lead_knot/lead_knot.png
+- minecraft/textures/entity/llama/brown.png
+- minecraft/textures/entity/llama/creamy.png
+- minecraft/textures/entity/llama/gray.png
++ minecraft/textures/entity/llama/llama_brown.png
++ minecraft/textures/entity/llama/llama_creamy.png
++ minecraft/textures/entity/llama/llama_gray.png
++ minecraft/textures/entity/llama/llama_spit.png
++ minecraft/textures/entity/llama/llama_white.png
+- minecraft/textures/entity/llama/spit.png
+- minecraft/textures/entity/llama/white.png
+- minecraft/textures/entity/minecart.png
++ minecraft/textures/entity/minecart/minecart.png
+- minecraft/textures/entity/panda/aggressive_panda.png
+- minecraft/textures/entity/panda/brown_panda.png
+- minecraft/textures/entity/panda/lazy_panda.png
++ minecraft/textures/entity/panda/panda_aggressive.png
++ minecraft/textures/entity/panda/panda_brown.png
++ minecraft/textures/entity/panda/panda_lazy.png
++ minecraft/textures/entity/panda/panda_playful.png
++ minecraft/textures/entity/panda/panda_weak.png
++ minecraft/textures/entity/panda/panda_worried.png
+- minecraft/textures/entity/panda/playful_panda.png
+- minecraft/textures/entity/panda/weak_panda.png
+- minecraft/textures/entity/panda/worried_panda.png
+- minecraft/textures/entity/phantom_eyes.png
+- minecraft/textures/entity/phantom.png
++ minecraft/textures/entity/phantom/phantom_eyes.png
++ minecraft/textures/entity/phantom/phantom.png
+- minecraft/textures/entity/pig/cold_pig.png
++ minecraft/textures/entity/pig/pig_cold_baby.png
++ minecraft/textures/entity/pig/pig_cold.png
++ minecraft/textures/entity/pig/pig_temperate_baby.png
++ minecraft/textures/entity/pig/pig_temperate.png
++ minecraft/textures/entity/pig/pig_warm_baby.png
++ minecraft/textures/entity/pig/pig_warm.png
+- minecraft/textures/entity/pig/temperate_pig.png
+- minecraft/textures/entity/pig/warm_pig.png
++ minecraft/textures/entity/projectiles/arrow_spectral.png
++ minecraft/textures/entity/projectiles/arrow_tipped.png
+- minecraft/textures/entity/projectiles/spectral_arrow.png
+- minecraft/textures/entity/projectiles/tipped_arrow.png
+- minecraft/textures/entity/rabbit/black.png
+- minecraft/textures/entity/rabbit/brown.png
+- minecraft/textures/entity/rabbit/caerbannog.png
+- minecraft/textures/entity/rabbit/gold.png
++ minecraft/textures/entity/rabbit/rabbit_black_baby.png
++ minecraft/textures/entity/rabbit/rabbit_black.png
++ minecraft/textures/entity/rabbit/rabbit_brown_baby.png
++ minecraft/textures/entity/rabbit/rabbit_brown.png
++ minecraft/textures/entity/rabbit/rabbit_caerbannog_baby.png
++ minecraft/textures/entity/rabbit/rabbit_caerbannog.png
++ minecraft/textures/entity/rabbit/rabbit_gold_baby.png
++ minecraft/textures/entity/rabbit/rabbit_gold.png
++ minecraft/textures/entity/rabbit/rabbit_salt_baby.png
++ minecraft/textures/entity/rabbit/rabbit_salt.png
++ minecraft/textures/entity/rabbit/rabbit_toast_baby.png
++ minecraft/textures/entity/rabbit/rabbit_toast.png
++ minecraft/textures/entity/rabbit/rabbit_white_baby.png
++ minecraft/textures/entity/rabbit/rabbit_white_splotched_baby.png
++ minecraft/textures/entity/rabbit/rabbit_white_splotched.png
++ minecraft/textures/entity/rabbit/rabbit_white.png
+- minecraft/textures/entity/rabbit/salt.png
+- minecraft/textures/entity/rabbit/toast.png
+- minecraft/textures/entity/rabbit/white_splotched.png
+- minecraft/textures/entity/rabbit/white.png
++ minecraft/textures/entity/sheep/sheep_baby.png
++ minecraft/textures/entity/sheep/sheep_wool_baby.png
+- minecraft/textures/entity/shield_base_nopattern.png
+- minecraft/textures/entity/shield_base.png
++ minecraft/textures/entity/shield/shield_base_nopattern.png
++ minecraft/textures/entity/shield/shield_base.png
+- minecraft/textures/entity/silverfish.png
++ minecraft/textures/entity/silverfish/silverfish.png
+- minecraft/textures/entity/snow_golem.png
++ minecraft/textures/entity/snow_golem/snow_golem.png
+- minecraft/textures/entity/spider_eyes.png
++ minecraft/textures/entity/spider/spider_eyes.png
+- minecraft/textures/entity/trident_riptide.png
+- minecraft/textures/entity/trident.png
++ minecraft/textures/entity/trident/trident_riptide.png
++ minecraft/textures/entity/trident/trident.png
+- minecraft/textures/entity/turtle/big_sea_turtle.png
++ minecraft/textures/entity/turtle/turtle.png
+- minecraft/textures/entity/wandering_trader.png
++ minecraft/textures/entity/wandering_trader/wandering_trader.png
+- minecraft/textures/entity/witch.png
++ minecraft/textures/entity/witch/witch.png
++ minecraft/textures/entity/wolf/wolf_angry_baby.png
++ minecraft/textures/entity/wolf/wolf_ashen_angry_baby.png
++ minecraft/textures/entity/wolf/wolf_ashen_baby.png
++ minecraft/textures/entity/wolf/wolf_ashen_tame_baby.png
++ minecraft/textures/entity/wolf/wolf_baby.png
++ minecraft/textures/entity/wolf/wolf_black_angry_baby.png
++ minecraft/textures/entity/wolf/wolf_black_baby.png
++ minecraft/textures/entity/wolf/wolf_black_tame_baby.png
++ minecraft/textures/entity/wolf/wolf_chestnut_angry_baby.png
++ minecraft/textures/entity/wolf/wolf_chestnut_baby.png
++ minecraft/textures/entity/wolf/wolf_chestnut_tame_baby.png
++ minecraft/textures/entity/wolf/wolf_collar_baby.png
++ minecraft/textures/entity/wolf/wolf_rusty_angry_baby.png
++ minecraft/textures/entity/wolf/wolf_rusty_baby.png
++ minecraft/textures/entity/wolf/wolf_rusty_tame_baby.png
++ minecraft/textures/entity/wolf/wolf_snowy_angry_baby.png
++ minecraft/textures/entity/wolf/wolf_snowy_baby.png
++ minecraft/textures/entity/wolf/wolf_snowy_tame_baby.png
++ minecraft/textures/entity/wolf/wolf_spotted_angry_baby.png
++ minecraft/textures/entity/wolf/wolf_spotted_baby.png
++ minecraft/textures/entity/wolf/wolf_spotted_tame_baby.png
++ minecraft/textures/entity/wolf/wolf_striped_angry_baby.png
++ minecraft/textures/entity/wolf/wolf_striped_baby.png
++ minecraft/textures/entity/wolf/wolf_striped_tame_baby.png
++ minecraft/textures/entity/wolf/wolf_tame_baby.png
++ minecraft/textures/entity/wolf/wolf_woods_angry_baby.png
++ minecraft/textures/entity/wolf/wolf_woods_baby.png
++ minecraft/textures/entity/wolf/wolf_woods_tame_baby.png
+```
+
+</details>
+</details>
+<hr/>
