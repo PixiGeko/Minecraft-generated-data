@@ -2,6 +2,8 @@
 
 > [!TIP]
 > - [Version data](#version-data)
+> - [Registries](#registries)
+> - [Tags](#tags)
 > - [Recipes](#recipes)
 > - [Translations](#translations)
 > - [File structure](#file-structure)
@@ -10,6 +12,72 @@
 <details><summary><b><ins>VERSION DATA</ins></b><a name="version-data"></a></summary>
 <br/>
 <table><tr><th></th><th align="left">26.1-snapshot-1</th><th>26.1-snapshot-2</th></tr><tr><td>DataPack version</td><td><pre>95.0</pre></td><td><pre>96.0</pre></td></tr><tr><td>ResourcePack version</td><td><pre>76.0</pre></td><td><pre>77.0</pre></td></tr><tr><td>World version</td><td><pre>4764</pre></td><td><pre>4765</pre></td></tr><tr><td>Protocol version</td><td><pre>1073742111</pre></td><td><pre>1073742112</pre></td></tr></table>
+</details>
+<hr/>
+<details><summary><b><ins>REGISTRIES</ins></b><a name="registries"></a></summary>
+<br/>
+<details>
+<summary>
+sound_event
+</summary>
+
+```diff
++ minecraft:entity.baby_cat.ambient
++ minecraft:entity.baby_cat.beg_for_food
++ minecraft:entity.baby_cat.death
++ minecraft:entity.baby_cat.eat
++ minecraft:entity.baby_cat.hiss
++ minecraft:entity.baby_cat.hurt
++ minecraft:entity.baby_cat.purr
++ minecraft:entity.baby_cat.purreow
++ minecraft:entity.baby_cat.stray_ambient
++ minecraft:entity.baby_pig.ambient
++ minecraft:entity.baby_pig.death
++ minecraft:entity.baby_pig.hurt
++ minecraft:entity.baby_pig.step
++ minecraft:entity.baby_wolf.ambient
++ minecraft:entity.baby_wolf.death
++ minecraft:entity.baby_wolf.growl
++ minecraft:entity.baby_wolf.hurt
++ minecraft:entity.baby_wolf.pant
++ minecraft:entity.baby_wolf.step
++ minecraft:entity.baby_wolf.whine
+```
+
+</details>
+</details>
+<hr/>
+<details><summary><b><ins>TAGS</ins></b><a name="tags"></a></summary>
+<br/>
+<details>
+<summary>
+universal_tags/sound_event.json
+</summary>
+
+```diff
++ minecraft:entity.baby_cat.ambient
++ minecraft:entity.baby_cat.beg_for_food
++ minecraft:entity.baby_cat.death
++ minecraft:entity.baby_cat.eat
++ minecraft:entity.baby_cat.hiss
++ minecraft:entity.baby_cat.hurt
++ minecraft:entity.baby_cat.purr
++ minecraft:entity.baby_cat.purreow
++ minecraft:entity.baby_cat.stray_ambient
++ minecraft:entity.baby_pig.ambient
++ minecraft:entity.baby_pig.death
++ minecraft:entity.baby_pig.hurt
++ minecraft:entity.baby_pig.step
++ minecraft:entity.baby_wolf.ambient
++ minecraft:entity.baby_wolf.death
++ minecraft:entity.baby_wolf.growl
++ minecraft:entity.baby_wolf.hurt
++ minecraft:entity.baby_wolf.pant
++ minecraft:entity.baby_wolf.step
++ minecraft:entity.baby_wolf.whine
+```
+
+</details>
 </details>
 <hr/>
 <details><summary><b><ins>RECIPES</ins></b><a name="recipes"></a></summary>

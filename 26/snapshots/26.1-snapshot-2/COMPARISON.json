@@ -30,6 +30,72 @@
       }
     }
   ],
+  "registries": [
+    {
+      "type": "entries",
+      "value": {
+        "name": "sound_event",
+        "differences": {
+          "added": [
+            "minecraft:entity.baby_cat.ambient",
+            "minecraft:entity.baby_cat.beg_for_food",
+            "minecraft:entity.baby_cat.death",
+            "minecraft:entity.baby_cat.eat",
+            "minecraft:entity.baby_cat.hiss",
+            "minecraft:entity.baby_cat.hurt",
+            "minecraft:entity.baby_cat.purr",
+            "minecraft:entity.baby_cat.purreow",
+            "minecraft:entity.baby_cat.stray_ambient",
+            "minecraft:entity.baby_pig.ambient",
+            "minecraft:entity.baby_pig.death",
+            "minecraft:entity.baby_pig.hurt",
+            "minecraft:entity.baby_pig.step",
+            "minecraft:entity.baby_wolf.ambient",
+            "minecraft:entity.baby_wolf.death",
+            "minecraft:entity.baby_wolf.growl",
+            "minecraft:entity.baby_wolf.hurt",
+            "minecraft:entity.baby_wolf.pant",
+            "minecraft:entity.baby_wolf.step",
+            "minecraft:entity.baby_wolf.whine"
+          ],
+          "removed": []
+        }
+      }
+    }
+  ],
+  "tags": [
+    {
+      "type": "entries",
+      "value": {
+        "name": "universal_tags/sound_event.json",
+        "differences": {
+          "added": [
+            "minecraft:entity.baby_cat.ambient",
+            "minecraft:entity.baby_cat.beg_for_food",
+            "minecraft:entity.baby_cat.death",
+            "minecraft:entity.baby_cat.eat",
+            "minecraft:entity.baby_cat.hiss",
+            "minecraft:entity.baby_cat.hurt",
+            "minecraft:entity.baby_cat.purr",
+            "minecraft:entity.baby_cat.purreow",
+            "minecraft:entity.baby_cat.stray_ambient",
+            "minecraft:entity.baby_pig.ambient",
+            "minecraft:entity.baby_pig.death",
+            "minecraft:entity.baby_pig.hurt",
+            "minecraft:entity.baby_pig.step",
+            "minecraft:entity.baby_wolf.ambient",
+            "minecraft:entity.baby_wolf.death",
+            "minecraft:entity.baby_wolf.growl",
+            "minecraft:entity.baby_wolf.hurt",
+            "minecraft:entity.baby_wolf.pant",
+            "minecraft:entity.baby_wolf.step",
+            "minecraft:entity.baby_wolf.whine"
+          ],
+          "removed": []
+        }
+      }
+    }
+  ],
   "recipes": [
     {
       "type": "entries",
@@ -333,6 +399,16 @@
             "minecraft/textures/entity/witch.png"
           ]
         }
+      }
+    }
+  ],
+  "custom": [
+    {
+      "type": "title",
+      "value": {
+        "title": "datapacks.json",
+        "id": "custom-datapacks-json",
+        "size": 2
       }
     }
   ]

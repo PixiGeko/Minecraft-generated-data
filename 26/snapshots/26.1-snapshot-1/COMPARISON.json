@@ -53,6 +53,165 @@
       }
     }
   ],
+  "registries": [
+    {
+      "type": "entries",
+      "value": {
+        "name": "data_component_predicate_type",
+        "differences": {
+          "added": [
+            "minecraft:villager/variant"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "data_component_type",
+        "differences": {
+          "added": [
+            "minecraft:additional_trade_cost"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "environment_attribute",
+        "differences": {
+          "added": [
+            "minecraft:visual/ambient_light_color",
+            "minecraft:visual/block_light_tint",
+            "minecraft:visual/night_vision_color"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "loot_function_type",
+        "differences": {
+          "added": [
+            "minecraft:set_random_dyes",
+            "minecraft:set_random_potion"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "loot_number_provider_type",
+        "differences": {
+          "added": [
+            "minecraft:sum"
+          ],
+          "removed": []
+        }
+      }
+    }
+  ],
+  "tags": [
+    {
+      "type": "entries",
+      "value": {
+        "name": "universal_tags/data_component_predicate_type.json",
+        "differences": {
+          "added": [
+            "minecraft:villager/variant"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "universal_tags/data_component_type.json",
+        "differences": {
+          "added": [
+            "minecraft:additional_trade_cost"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "universal_tags/environment_attribute.json",
+        "differences": {
+          "added": [
+            "minecraft:visual/ambient_light_color",
+            "minecraft:visual/block_light_tint",
+            "minecraft:visual/night_vision_color"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "universal_tags/loot_function_type.json",
+        "differences": {
+          "added": [
+            "minecraft:set_random_dyes",
+            "minecraft:set_random_potion"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "universal_tags/loot_number_provider_type.json",
+        "differences": {
+          "added": [
+            "minecraft:sum"
+          ],
+          "removed": []
+        }
+      }
+    }
+  ],
+  "commands": [
+    {
+      "type": "entries",
+      "value": {
+        "name": "🗒️ List",
+        "differences": {
+          "added": [
+            "swing.txt"
+          ],
+          "removed": []
+        }
+      }
+    }
+  ],
+  "datapacks": [
+    {
+      "type": "entries",
+      "value": {
+        "name": "[registries] List",
+        "differences": {
+          "added": [
+            "minecraft:trade_set",
+            "minecraft:villager_trade"
+          ],
+          "removed": []
+        }
+      }
+    }
+  ],
   "translations": [
     {
       "type": "entries",
@@ -66,6 +225,20 @@
             "gamerule.minecraft.universal_anger.description: Angered neutral mobs attack any nearby player, not just the player that angered them. Works best if forgive_dead_players is disabled.",
             "key.debug.lightmapTexture: Lightmap Texture",
             "test.error.expected_block_present: Expected block %s to be present"
+          ],
+          "removed": []
+        }
+      }
+    }
+  ],
+  "packets": [
+    {
+      "type": "entries",
+      "value": {
+        "name": "[client] play",
+        "differences": {
+          "added": [
+            "minecraft:low_disk_space_warning"
           ],
           "removed": []
         }
@@ -776,6 +949,16 @@
             "Java 16 + 1 + 4 = 21!"
           ]
         }
+      }
+    }
+  ],
+  "custom": [
+    {
+      "type": "title",
+      "value": {
+        "title": "datapacks.json",
+        "id": "custom-datapacks-json",
+        "size": 2
       }
     }
   ]

@@ -3,7 +3,12 @@
 > [!TIP]
 > - [Version data](#version-data)
 >     - [Libraries](#version-data-libraries)
+> - [Registries](#registries)
+> - [Tags](#tags)
+> - [Commands](#commands)
+> - [Datapacks](#datapacks)
 > - [Translations](#translations)
+> - [Packets](#packets)
 > - [File structure](#file-structure)
 > - [Misc](#misc)
 
@@ -17,6 +22,149 @@
 Versions
 </summary>
 <table><tr><th></th><th align="left">1.21.11</th><th>26.1-snapshot-1</th></tr><tr><td>at.yawk.lz4:lz4-java</td><td><pre>1.8.1</pre></td><td><pre>1.10.1</pre></td></tr></table>
+</details>
+</details>
+<hr/>
+<details><summary><b><ins>REGISTRIES</ins></b><a name="registries"></a></summary>
+<br/>
+<details>
+<summary>
+data_component_predicate_type
+</summary>
+
+```diff
++ minecraft:villager/variant
+```
+
+</details>
+<details>
+<summary>
+data_component_type
+</summary>
+
+```diff
++ minecraft:additional_trade_cost
+```
+
+</details>
+<details>
+<summary>
+environment_attribute
+</summary>
+
+```diff
++ minecraft:visual/ambient_light_color
++ minecraft:visual/block_light_tint
++ minecraft:visual/night_vision_color
+```
+
+</details>
+<details>
+<summary>
+loot_function_type
+</summary>
+
+```diff
++ minecraft:set_random_dyes
++ minecraft:set_random_potion
+```
+
+</details>
+<details>
+<summary>
+loot_number_provider_type
+</summary>
+
+```diff
++ minecraft:sum
+```
+
+</details>
+</details>
+<hr/>
+<details><summary><b><ins>TAGS</ins></b><a name="tags"></a></summary>
+<br/>
+<details>
+<summary>
+universal_tags/data_component_predicate_type.json
+</summary>
+
+```diff
++ minecraft:villager/variant
+```
+
+</details>
+<details>
+<summary>
+universal_tags/data_component_type.json
+</summary>
+
+```diff
++ minecraft:additional_trade_cost
+```
+
+</details>
+<details>
+<summary>
+universal_tags/environment_attribute.json
+</summary>
+
+```diff
++ minecraft:visual/ambient_light_color
++ minecraft:visual/block_light_tint
++ minecraft:visual/night_vision_color
+```
+
+</details>
+<details>
+<summary>
+universal_tags/loot_function_type.json
+</summary>
+
+```diff
++ minecraft:set_random_dyes
++ minecraft:set_random_potion
+```
+
+</details>
+<details>
+<summary>
+universal_tags/loot_number_provider_type.json
+</summary>
+
+```diff
++ minecraft:sum
+```
+
+</details>
+</details>
+<hr/>
+<details><summary><b><ins>COMMANDS</ins></b><a name="commands"></a></summary>
+<br/>
+<details>
+<summary>
+🗒️ List
+</summary>
+
+```diff
++ swing.txt
+```
+
+</details>
+</details>
+<hr/>
+<details><summary><b><ins>DATAPACKS</ins></b><a name="datapacks"></a></summary>
+<br/>
+<details>
+<summary>
+[registries] List
+</summary>
+
+```diff
++ minecraft:trade_set
++ minecraft:villager_trade
+```
+
 </details>
 </details>
 <hr/>
@@ -34,6 +182,20 @@ Keys
 + gamerule.minecraft.universal_anger.description: Angered neutral mobs attack any nearby player, not just the player that angered them. Works best if forgive_dead_players is disabled.
 + key.debug.lightmapTexture: Lightmap Texture
 + test.error.expected_block_present: Expected block %s to be present
+```
+
+</details>
+</details>
+<hr/>
+<details><summary><b><ins>PACKETS</ins></b><a name="packets"></a></summary>
+<br/>
+<details>
+<summary>
+[client] play
+</summary>
+
+```diff
++ minecraft:low_disk_space_warning
 ```
 
 </details>
