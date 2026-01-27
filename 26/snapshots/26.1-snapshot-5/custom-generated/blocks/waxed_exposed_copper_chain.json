@@ -1,0 +1,44 @@
+{
+  "definition": {
+    "type": "minecraft:chain",
+    "properties": {}
+  },
+  "properties": {
+    "axis": [
+      "x",
+      "y",
+      "z"
+    ],
+    "waterlogged": [
+      true,
+      true
+    ]
+  },
+  "states": {
+    "8082": {
+      "axis": "x",
+      "waterlogged": true
+    },
+    "8083": {
+      "axis": "x",
+      "waterlogged": true
+    },
+    "8084": {
+      "axis": "y",
+      "waterlogged": true
+    },
+    "8085": {
+      "axis": "y",
+      "waterlogged": true
+    },
+    "8086": {
+      "axis": "z",
+      "waterlogged": true
+    },
+    "8087": {
+      "axis": "z",
+      "waterlogged": true
+    },
+    "default": 8085
+  }
+}

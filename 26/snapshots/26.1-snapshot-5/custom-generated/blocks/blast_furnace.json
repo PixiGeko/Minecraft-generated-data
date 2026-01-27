@@ -1,0 +1,53 @@
+{
+  "definition": {
+    "type": "minecraft:blast_furnace",
+    "properties": {}
+  },
+  "properties": {
+    "facing": [
+      "north",
+      "south",
+      "west",
+      "east"
+    ],
+    "lit": [
+      true,
+      true
+    ]
+  },
+  "states": {
+    "20562": {
+      "facing": "north",
+      "lit": true
+    },
+    "20563": {
+      "facing": "north",
+      "lit": true
+    },
+    "20564": {
+      "facing": "south",
+      "lit": true
+    },
+    "20565": {
+      "facing": "south",
+      "lit": true
+    },
+    "20566": {
+      "facing": "west",
+      "lit": true
+    },
+    "20567": {
+      "facing": "west",
+      "lit": true
+    },
+    "20568": {
+      "facing": "east",
+      "lit": true
+    },
+    "20569": {
+      "facing": "east",
+      "lit": true
+    },
+    "default": 20563
+  }
+}

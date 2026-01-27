@@ -1,0 +1,611 @@
+{
+  "version_data": [
+    {
+      "type": "table",
+      "value": {
+        "previousLabel": "26.1-snapshot-4",
+        "currentLabel": "26.1-snapshot-5",
+        "values": [
+          {
+            "key": "DataPack version",
+            "previous": "97.1",
+            "current": "98.0"
+          },
+          {
+            "key": "ResourcePack version",
+            "previous": "78.1",
+            "current": "79.0"
+          },
+          {
+            "key": "World version",
+            "previous": "4768",
+            "current": "4770"
+          },
+          {
+            "key": "Protocol version",
+            "previous": "1073742114",
+            "current": "1073742115"
+          }
+        ]
+      }
+    },
+    {
+      "type": "title",
+      "value": {
+        "title": "Libraries",
+        "id": "version-data-libraries",
+        "size": 3
+      }
+    },
+    {
+      "type": "table",
+      "value": {
+        "title": "Versions",
+        "previousLabel": "26.1-snapshot-4",
+        "currentLabel": "26.1-snapshot-5",
+        "values": [
+          {
+            "key": "com.mojang:authlib",
+            "previous": "7.0.61",
+            "current": "7.0.62"
+          }
+        ]
+      }
+    }
+  ],
+  "registries": [
+    {
+      "type": "entries",
+      "value": {
+        "name": "block",
+        "differences": {
+          "added": [
+            "minecraft:golden_dandelion",
+            "minecraft:potted_golden_dandelion"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "data_component_type",
+        "differences": {
+          "added": [
+            "minecraft:dye"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "item",
+        "differences": {
+          "added": [
+            "minecraft:golden_dandelion"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "recipe_serializer",
+        "differences": {
+          "added": [
+            "minecraft:crafting_dye",
+            "minecraft:crafting_imbue"
+          ],
+          "removed": [
+            "minecraft:crafting_special_armordye",
+            "minecraft:crafting_special_mapcloning",
+            "minecraft:crafting_special_tippedarrow"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "slot_display",
+        "differences": {
+          "added": [
+            "minecraft:dyed",
+            "minecraft:only_with_component",
+            "minecraft:with_any_potion"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "sound_event",
+        "differences": {
+          "added": [
+            "minecraft:entity.baby_chicken.ambient",
+            "minecraft:entity.baby_chicken.death",
+            "minecraft:entity.baby_chicken.hurt",
+            "minecraft:item.golden_dandelion.unuse",
+            "minecraft:item.golden_dandelion.use"
+          ],
+          "removed": []
+        }
+      }
+    }
+  ],
+  "tags": [
+    {
+      "type": "entries",
+      "value": {
+        "name": "all_blocks_with_drop.json",
+        "differences": {
+          "added": [
+            "minecraft:golden_dandelion",
+            "minecraft:potted_golden_dandelion"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "universal_tags/block.json",
+        "differences": {
+          "added": [
+            "minecraft:golden_dandelion",
+            "minecraft:potted_golden_dandelion"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "universal_tags/data_component_type.json",
+        "differences": {
+          "added": [
+            "minecraft:dye"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "universal_tags/item.json",
+        "differences": {
+          "added": [
+            "minecraft:golden_dandelion"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "universal_tags/recipe_serializer.json",
+        "differences": {
+          "added": [
+            "minecraft:crafting_dye",
+            "minecraft:crafting_imbue"
+          ],
+          "removed": [
+            "minecraft:crafting_special_armordye",
+            "minecraft:crafting_special_mapcloning",
+            "minecraft:crafting_special_tippedarrow"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "universal_tags/slot_display.json",
+        "differences": {
+          "added": [
+            "minecraft:dyed",
+            "minecraft:only_with_component",
+            "minecraft:with_any_potion"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "universal_tags/sound_event.json",
+        "differences": {
+          "added": [
+            "minecraft:entity.baby_chicken.ambient",
+            "minecraft:entity.baby_chicken.death",
+            "minecraft:entity.baby_chicken.hurt",
+            "minecraft:item.golden_dandelion.unuse",
+            "minecraft:item.golden_dandelion.use"
+          ],
+          "removed": []
+        }
+      }
+    }
+  ],
+  "blocks": [
+    {
+      "type": "entries",
+      "value": {
+        "name": "🗒️ List",
+        "differences": {
+          "added": [
+            "golden_dandelion.json",
+            "potted_golden_dandelion.json"
+          ],
+          "removed": []
+        }
+      }
+    }
+  ],
+  "recipes": [
+    {
+      "type": "entries",
+      "value": {
+        "name": "🗒️ List",
+        "differences": {
+          "added": [
+            "black_banner_duplicate.json",
+            "blue_banner_duplicate.json",
+            "brown_banner_duplicate.json",
+            "chiseled_stone_bricks_from_stone_stonecutting.json",
+            "cyan_banner_duplicate.json",
+            "end_stone_brick_slab_from_end_stone_bricks_stonecutting.json",
+            "end_stone_brick_stairs_from_end_stone_bricks_stonecutting.json",
+            "end_stone_brick_wall_from_end_stone_bricks_stonecutting.json",
+            "golden_dandelion.json",
+            "gray_banner_duplicate.json",
+            "green_banner_duplicate.json",
+            "leather_boots_dyed.json",
+            "leather_chestplate_dyed.json",
+            "leather_helmet_dyed.json",
+            "leather_horse_armor_dyed.json",
+            "leather_leggings_dyed.json",
+            "light_blue_banner_duplicate.json",
+            "light_gray_banner_duplicate.json",
+            "lime_banner_duplicate.json",
+            "magenta_banner_duplicate.json",
+            "mossy_stone_brick_slab_from_mossy_stone_bricks_stonecutting.json",
+            "mossy_stone_brick_stairs_from_mossy_stone_bricks_stonecutting.json",
+            "mossy_stone_brick_wall_from_mossy_stone_bricks_stonecutting.json",
+            "orange_banner_duplicate.json",
+            "pink_banner_duplicate.json",
+            "prismarine_brick_slab_from_prismarine_bricks_stonecutting.json",
+            "prismarine_brick_stairs_from_prismarine_bricks_stonecutting.json",
+            "purple_banner_duplicate.json",
+            "quartz_slab_from_quartz_block_stonecutting.json",
+            "red_banner_duplicate.json",
+            "stone_brick_wall_from_stone_stonecutting.json",
+            "suspicious_stew_from_golden_dandelion.json",
+            "white_banner_duplicate.json",
+            "wolf_armor_dyed.json",
+            "yellow_banner_duplicate.json",
+            "yellow_dye_from_golden_dandelion.json"
+          ],
+          "removed": [
+            "armor_dye.json",
+            "banner_duplicate.json",
+            "chiseled_stone_bricks_stone_from_stonecutting.json",
+            "end_stone_brick_slab_from_end_stone_brick_stonecutting.json",
+            "end_stone_brick_stairs_from_end_stone_brick_stonecutting.json",
+            "end_stone_brick_wall_from_end_stone_brick_stonecutting.json",
+            "mossy_stone_brick_slab_from_mossy_stone_brick_stonecutting.json",
+            "mossy_stone_brick_stairs_from_mossy_stone_brick_stonecutting.json",
+            "mossy_stone_brick_wall_from_mossy_stone_brick_stonecutting.json",
+            "prismarine_brick_slab_from_prismarine_stonecutting.json",
+            "prismarine_brick_stairs_from_prismarine_stonecutting.json",
+            "quartz_slab_from_stonecutting.json",
+            "stone_brick_walls_from_stone_stonecutting.json"
+          ]
+        }
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "book_cloning.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none\n\u001b[1;2mResult:\u001b[0m \u001b[2;33m\u001b[0m \u001b[2;0mx1\u001b[0m -> \u001b[2;33mwritten_book\u001b[0m \u001b[2;0mx1\u001b[0m"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "decorated_pot.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none\n\u001b[1;2mResult:\u001b[0m \u001b[2;33m\u001b[0m \u001b[2;0mx1\u001b[0m -> \u001b[2;33mdecorated_pot\u001b[0m \u001b[2;0mx1\u001b[0m"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "firework_rocket.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none\n\u001b[1;2mResult:\u001b[0m \u001b[2;33m\u001b[0m \u001b[2;33mx1\u001b[0m -> \u001b[2;33mfirework_rocket\u001b[0m \u001b[2;33mx3\u001b[0m"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "firework_star.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none\n\u001b[1;2mResult:\u001b[0m \u001b[2;33m\u001b[0m \u001b[2;0mx1\u001b[0m -> \u001b[2;33mfirework_star\u001b[0m \u001b[2;0mx1\u001b[0m"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "firework_star_fade.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none\n\u001b[1;2mResult:\u001b[0m \u001b[2;33m\u001b[0m \u001b[2;0mx1\u001b[0m -> \u001b[2;33mfirework_star\u001b[0m \u001b[2;0mx1\u001b[0m"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "map_cloning.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m minecraft:crafting_special_mapcloning -> minecraft:crafting_transmute\n\u001b[1;2mGroup:\u001b[0m none -> map_cloning\n\u001b[1;2mResult:\u001b[0m \u001b[2;33m\u001b[0m \u001b[2;0mx1\u001b[0m -> \u001b[2;33mfilled_map\u001b[0m \u001b[2;0mx1\u001b[0m"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "map_extending.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none\n\u001b[1;2mResult:\u001b[0m \u001b[2;33m\u001b[0m \u001b[2;0mx1\u001b[0m -> \u001b[2;33mfilled_map\u001b[0m \u001b[2;0mx1\u001b[0m"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "repair_item.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "shield_decoration.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none\n\u001b[1;2mResult:\u001b[0m \u001b[2;33m\u001b[0m \u001b[2;0mx1\u001b[0m -> \u001b[2;33mshield\u001b[0m \u001b[2;0mx1\u001b[0m"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "tipped_arrow.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m minecraft:crafting_special_tippedarrow -> minecraft:crafting_imbue\n\u001b[1;2mResult:\u001b[0m \u001b[2;33m\u001b[0m \u001b[2;33mx1\u001b[0m -> \u001b[2;33mtipped_arrow\u001b[0m \u001b[2;33mx8\u001b[0m"
+        ]
+      }
+    }
+  ],
+  "translations": [
+    {
+      "type": "entries",
+      "value": {
+        "name": "Keys",
+        "differences": {
+          "added": [
+            "block.minecraft.golden_dandelion: Golden Dandelion",
+            "block.minecraft.potted_golden_dandelion: Potted Golden Dandelion",
+            "subtitles.entity.baby_chicken.ambient: Chick peeps",
+            "subtitles.entity.baby_chicken.death: Chick dies",
+            "subtitles.entity.baby_chicken.hurts: Chick hurts",
+            "subtitles.entity.baby_horse.ambient: Foal neighs",
+            "subtitles.entity.baby_horse.angry: Foal neighs",
+            "subtitles.entity.baby_horse.breathe: Foal breathes",
+            "subtitles.entity.baby_horse.death: Foal dies",
+            "subtitles.entity.baby_horse.eat: Foal eats",
+            "subtitles.entity.baby_horse.hurt: Foal hurts",
+            "subtitles.item.golden_dandelion.unuse: Golden Dandelion starts aging",
+            "subtitles.item.golden_dandelion.use: Golden Dandelion halts aging"
+          ],
+          "removed": []
+        }
+      }
+    }
+  ],
+  "file_structure": [
+    {
+      "type": "entries",
+      "value": {
+        "name": "generated",
+        "differences": {
+          "added": [
+            "reports/minecraft/components/block/golden_dandelion.json",
+            "reports/minecraft/components/block/potted_golden_dandelion.json",
+            "reports/minecraft/components/data_component_type/dye.json",
+            "reports/minecraft/components/item/golden_dandelion.json",
+            "reports/minecraft/components/recipe_serializer/crafting_dye.json",
+            "reports/minecraft/components/recipe_serializer/crafting_imbue.json",
+            "reports/minecraft/components/slot_display/dyed.json",
+            "reports/minecraft/components/slot_display/only_with_component.json",
+            "reports/minecraft/components/slot_display/with_any_potion.json",
+            "reports/minecraft/components/sound_event/entity.baby_chicken.ambient.json",
+            "reports/minecraft/components/sound_event/entity.baby_chicken.death.json",
+            "reports/minecraft/components/sound_event/entity.baby_chicken.hurt.json",
+            "reports/minecraft/components/sound_event/item.golden_dandelion.unuse.json",
+            "reports/minecraft/components/sound_event/item.golden_dandelion.use.json",
+            "reports/minecraft/components/villager_trade/wandering_trader/emerald_golden_dandelion.json"
+          ],
+          "removed": [
+            "reports/minecraft/components/recipe_serializer/crafting_special_armordye.json",
+            "reports/minecraft/components/recipe_serializer/crafting_special_mapcloning.json",
+            "reports/minecraft/components/recipe_serializer/crafting_special_tippedarrow.json"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "data",
+        "differences": {
+          "added": [
+            "minecraft/advancement/recipes/building_blocks/chiseled_stone_bricks_from_stone_stonecutting.json",
+            "minecraft/advancement/recipes/building_blocks/end_stone_brick_slab_from_end_stone_bricks_stonecutting.json",
+            "minecraft/advancement/recipes/building_blocks/end_stone_brick_stairs_from_end_stone_bricks_stonecutting.json",
+            "minecraft/advancement/recipes/building_blocks/mossy_stone_brick_slab_from_mossy_stone_bricks_stonecutting.json",
+            "minecraft/advancement/recipes/building_blocks/mossy_stone_brick_stairs_from_mossy_stone_bricks_stonecutting.json",
+            "minecraft/advancement/recipes/building_blocks/prismarine_brick_slab_from_prismarine_bricks_stonecutting.json",
+            "minecraft/advancement/recipes/building_blocks/prismarine_brick_stairs_from_prismarine_bricks_stonecutting.json",
+            "minecraft/advancement/recipes/building_blocks/quartz_slab_from_quartz_block_stonecutting.json",
+            "minecraft/advancement/recipes/decorations/end_stone_brick_wall_from_end_stone_bricks_stonecutting.json",
+            "minecraft/advancement/recipes/decorations/golden_dandelion.json",
+            "minecraft/advancement/recipes/decorations/mossy_stone_brick_wall_from_mossy_stone_bricks_stonecutting.json",
+            "minecraft/advancement/recipes/decorations/stone_brick_wall_from_stone_stonecutting.json",
+            "minecraft/advancement/recipes/food/suspicious_stew_from_golden_dandelion.json",
+            "minecraft/advancement/recipes/misc/leather_boots_dyed.json",
+            "minecraft/advancement/recipes/misc/leather_chestplate_dyed.json",
+            "minecraft/advancement/recipes/misc/leather_helmet_dyed.json",
+            "minecraft/advancement/recipes/misc/leather_horse_armor_dyed.json",
+            "minecraft/advancement/recipes/misc/leather_leggings_dyed.json",
+            "minecraft/advancement/recipes/misc/map_cloning.json",
+            "minecraft/advancement/recipes/misc/tipped_arrow.json",
+            "minecraft/advancement/recipes/misc/wolf_armor_dyed.json",
+            "minecraft/advancement/recipes/misc/yellow_dye_from_golden_dandelion.json",
+            "minecraft/loot_table/blocks/golden_dandelion.json",
+            "minecraft/loot_table/blocks/potted_golden_dandelion.json",
+            "minecraft/recipe/black_banner_duplicate.json",
+            "minecraft/recipe/blue_banner_duplicate.json",
+            "minecraft/recipe/brown_banner_duplicate.json",
+            "minecraft/recipe/chiseled_stone_bricks_from_stone_stonecutting.json",
+            "minecraft/recipe/cyan_banner_duplicate.json",
+            "minecraft/recipe/end_stone_brick_slab_from_end_stone_bricks_stonecutting.json",
+            "minecraft/recipe/end_stone_brick_stairs_from_end_stone_bricks_stonecutting.json",
+            "minecraft/recipe/end_stone_brick_wall_from_end_stone_bricks_stonecutting.json",
+            "minecraft/recipe/golden_dandelion.json",
+            "minecraft/recipe/gray_banner_duplicate.json",
+            "minecraft/recipe/green_banner_duplicate.json",
+            "minecraft/recipe/leather_boots_dyed.json",
+            "minecraft/recipe/leather_chestplate_dyed.json",
+            "minecraft/recipe/leather_helmet_dyed.json",
+            "minecraft/recipe/leather_horse_armor_dyed.json",
+            "minecraft/recipe/leather_leggings_dyed.json",
+            "minecraft/recipe/light_blue_banner_duplicate.json",
+            "minecraft/recipe/light_gray_banner_duplicate.json",
+            "minecraft/recipe/lime_banner_duplicate.json",
+            "minecraft/recipe/magenta_banner_duplicate.json",
+            "minecraft/recipe/mossy_stone_brick_slab_from_mossy_stone_bricks_stonecutting.json",
+            "minecraft/recipe/mossy_stone_brick_stairs_from_mossy_stone_bricks_stonecutting.json",
+            "minecraft/recipe/mossy_stone_brick_wall_from_mossy_stone_bricks_stonecutting.json",
+            "minecraft/recipe/orange_banner_duplicate.json",
+            "minecraft/recipe/pink_banner_duplicate.json",
+            "minecraft/recipe/prismarine_brick_slab_from_prismarine_bricks_stonecutting.json",
+            "minecraft/recipe/prismarine_brick_stairs_from_prismarine_bricks_stonecutting.json",
+            "minecraft/recipe/purple_banner_duplicate.json",
+            "minecraft/recipe/quartz_slab_from_quartz_block_stonecutting.json",
+            "minecraft/recipe/red_banner_duplicate.json",
+            "minecraft/recipe/stone_brick_wall_from_stone_stonecutting.json",
+            "minecraft/recipe/suspicious_stew_from_golden_dandelion.json",
+            "minecraft/recipe/white_banner_duplicate.json",
+            "minecraft/recipe/wolf_armor_dyed.json",
+            "minecraft/recipe/yellow_banner_duplicate.json",
+            "minecraft/recipe/yellow_dye_from_golden_dandelion.json",
+            "minecraft/tags/entity_type/cannot_be_age_locked.json",
+            "minecraft/tags/item/cat_collar_dyes.json",
+            "minecraft/tags/item/cauldron_can_remove_dye.json",
+            "minecraft/tags/item/dyes.json",
+            "minecraft/tags/item/loom_dyes.json",
+            "minecraft/tags/item/loom_patterns.json",
+            "minecraft/tags/item/wolf_collar_dyes.json",
+            "minecraft/villager_trade/wandering_trader/emerald_golden_dandelion.json"
+          ],
+          "removed": [
+            "minecraft/advancement/recipes/building_blocks/chiseled_stone_bricks_stone_from_stonecutting.json",
+            "minecraft/advancement/recipes/building_blocks/end_stone_brick_slab_from_end_stone_brick_stonecutting.json",
+            "minecraft/advancement/recipes/building_blocks/end_stone_brick_stairs_from_end_stone_brick_stonecutting.json",
+            "minecraft/advancement/recipes/building_blocks/mossy_stone_brick_slab_from_mossy_stone_brick_stonecutting.json",
+            "minecraft/advancement/recipes/building_blocks/mossy_stone_brick_stairs_from_mossy_stone_brick_stonecutting.json",
+            "minecraft/advancement/recipes/building_blocks/prismarine_brick_slab_from_prismarine_stonecutting.json",
+            "minecraft/advancement/recipes/building_blocks/prismarine_brick_stairs_from_prismarine_stonecutting.json",
+            "minecraft/advancement/recipes/building_blocks/quartz_slab_from_stonecutting.json",
+            "minecraft/advancement/recipes/decorations/end_stone_brick_wall_from_end_stone_brick_stonecutting.json",
+            "minecraft/advancement/recipes/decorations/mossy_stone_brick_wall_from_mossy_stone_brick_stonecutting.json",
+            "minecraft/advancement/recipes/decorations/stone_brick_walls_from_stone_stonecutting.json",
+            "minecraft/recipe/armor_dye.json",
+            "minecraft/recipe/banner_duplicate.json",
+            "minecraft/recipe/chiseled_stone_bricks_stone_from_stonecutting.json",
+            "minecraft/recipe/end_stone_brick_slab_from_end_stone_brick_stonecutting.json",
+            "minecraft/recipe/end_stone_brick_stairs_from_end_stone_brick_stonecutting.json",
+            "minecraft/recipe/end_stone_brick_wall_from_end_stone_brick_stonecutting.json",
+            "minecraft/recipe/mossy_stone_brick_slab_from_mossy_stone_brick_stonecutting.json",
+            "minecraft/recipe/mossy_stone_brick_stairs_from_mossy_stone_brick_stonecutting.json",
+            "minecraft/recipe/mossy_stone_brick_wall_from_mossy_stone_brick_stonecutting.json",
+            "minecraft/recipe/prismarine_brick_slab_from_prismarine_stonecutting.json",
+            "minecraft/recipe/prismarine_brick_stairs_from_prismarine_stonecutting.json",
+            "minecraft/recipe/quartz_slab_from_stonecutting.json",
+            "minecraft/recipe/stone_brick_walls_from_stone_stonecutting.json",
+            "minecraft/tags/item/dyeable.json"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "assets",
+        "differences": {
+          "added": [
+            "minecraft/blockstates/golden_dandelion.json",
+            "minecraft/blockstates/potted_golden_dandelion.json",
+            "minecraft/items/golden_dandelion.json",
+            "minecraft/models/block/golden_dandelion.json",
+            "minecraft/models/block/potted_golden_dandelion.json",
+            "minecraft/models/item/golden_dandelion.json",
+            "minecraft/textures/block/golden_dandelion.png",
+            "minecraft/textures/entity/axolotl/axolotl_blue_baby.png",
+            "minecraft/textures/entity/axolotl/axolotl_cyan_baby.png",
+            "minecraft/textures/entity/axolotl/axolotl_gold_baby.png",
+            "minecraft/textures/entity/axolotl/axolotl_lucy_baby.png",
+            "minecraft/textures/entity/axolotl/axolotl_wild_baby.png",
+            "minecraft/textures/entity/dolphin/dolphin_baby.png",
+            "minecraft/textures/entity/squid/glow_squid_baby.png",
+            "minecraft/textures/entity/squid/squid_baby.png",
+            "minecraft/textures/entity/turtle/turtle_baby.png"
+          ],
+          "removed": [
+            "minecraft/textures/gui/demo_background.png"
+          ]
+        }
+      }
+    }
+  ],
+  "custom": [
+    {
+      "type": "title",
+      "value": {
+        "title": "datapacks.json",
+        "id": "custom-datapacks-json",
+        "size": 2
+      }
+    }
+  ]
+}

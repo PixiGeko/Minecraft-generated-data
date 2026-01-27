@@ -1,0 +1,38 @@
+{
+  "definition": {
+    "type": "minecraft:shulker_box",
+    "color": "gray",
+    "properties": {}
+  },
+  "properties": {
+    "facing": [
+      "north",
+      "east",
+      "south",
+      "west",
+      "up",
+      "down"
+    ]
+  },
+  "states": {
+    "14712": {
+      "facing": "north"
+    },
+    "14713": {
+      "facing": "east"
+    },
+    "14714": {
+      "facing": "south"
+    },
+    "14715": {
+      "facing": "west"
+    },
+    "14716": {
+      "facing": "up"
+    },
+    "14717": {
+      "facing": "down"
+    },
+    "default": 14716
+  }
+}

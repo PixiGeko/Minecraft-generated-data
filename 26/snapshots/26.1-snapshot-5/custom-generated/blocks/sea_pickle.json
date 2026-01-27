@@ -1,0 +1,53 @@
+{
+  "definition": {
+    "type": "minecraft:sea_pickle",
+    "properties": {}
+  },
+  "properties": {
+    "pickles": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "waterlogged": [
+      true,
+      true
+    ]
+  },
+  "states": {
+    "15067": {
+      "pickles": 1,
+      "waterlogged": true
+    },
+    "15068": {
+      "pickles": 1,
+      "waterlogged": true
+    },
+    "15069": {
+      "pickles": 2,
+      "waterlogged": true
+    },
+    "15070": {
+      "pickles": 2,
+      "waterlogged": true
+    },
+    "15071": {
+      "pickles": 3,
+      "waterlogged": true
+    },
+    "15072": {
+      "pickles": 3,
+      "waterlogged": true
+    },
+    "15073": {
+      "pickles": 4,
+      "waterlogged": true
+    },
+    "15074": {
+      "pickles": 4,
+      "waterlogged": true
+    },
+    "default": 15067
+  }
+}
