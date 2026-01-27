@@ -1,0 +1,107 @@
+{
+  "definition": {
+    "type": "minecraft:rail",
+    "properties": {}
+  },
+  "properties": {
+    "shape": [
+      "north_south",
+      "east_west",
+      "ascending_east",
+      "ascending_west",
+      "ascending_north",
+      "ascending_south",
+      "south_east",
+      "south_west",
+      "north_west",
+      "north_east"
+    ],
+    "waterlogged": [
+      true,
+      true
+    ]
+  },
+  "states": {
+    "5527": {
+      "shape": "north_south",
+      "waterlogged": true
+    },
+    "5528": {
+      "shape": "north_south",
+      "waterlogged": true
+    },
+    "5529": {
+      "shape": "east_west",
+      "waterlogged": true
+    },
+    "5530": {
+      "shape": "east_west",
+      "waterlogged": true
+    },
+    "5531": {
+      "shape": "ascending_east",
+      "waterlogged": true
+    },
+    "5532": {
+      "shape": "ascending_east",
+      "waterlogged": true
+    },
+    "5533": {
+      "shape": "ascending_west",
+      "waterlogged": true
+    },
+    "5534": {
+      "shape": "ascending_west",
+      "waterlogged": true
+    },
+    "5535": {
+      "shape": "ascending_north",
+      "waterlogged": true
+    },
+    "5536": {
+      "shape": "ascending_north",
+      "waterlogged": true
+    },
+    "5537": {
+      "shape": "ascending_south",
+      "waterlogged": true
+    },
+    "5538": {
+      "shape": "ascending_south",
+      "waterlogged": true
+    },
+    "5539": {
+      "shape": "south_east",
+      "waterlogged": true
+    },
+    "5540": {
+      "shape": "south_east",
+      "waterlogged": true
+    },
+    "5541": {
+      "shape": "south_west",
+      "waterlogged": true
+    },
+    "5542": {
+      "shape": "south_west",
+      "waterlogged": true
+    },
+    "5543": {
+      "shape": "north_west",
+      "waterlogged": true
+    },
+    "5544": {
+      "shape": "north_west",
+      "waterlogged": true
+    },
+    "5545": {
+      "shape": "north_east",
+      "waterlogged": true
+    },
+    "5546": {
+      "shape": "north_east",
+      "waterlogged": true
+    },
+    "default": 5528
+  }
+}
