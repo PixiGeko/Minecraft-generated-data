@@ -1,0 +1,53 @@
+{
+  "definition": {
+    "type": "minecraft:redstone_wall_torch",
+    "properties": {}
+  },
+  "properties": {
+    "facing": [
+      "north",
+      "south",
+      "west",
+      "east"
+    ],
+    "lit": [
+      true,
+      true
+    ]
+  },
+  "states": {
+    "6687": {
+      "facing": "north",
+      "lit": true
+    },
+    "6688": {
+      "facing": "north",
+      "lit": true
+    },
+    "6689": {
+      "facing": "south",
+      "lit": true
+    },
+    "6690": {
+      "facing": "south",
+      "lit": true
+    },
+    "6691": {
+      "facing": "west",
+      "lit": true
+    },
+    "6692": {
+      "facing": "west",
+      "lit": true
+    },
+    "6693": {
+      "facing": "east",
+      "lit": true
+    },
+    "6694": {
+      "facing": "east",
+      "lit": true
+    },
+    "default": 6687
+  }
+}
