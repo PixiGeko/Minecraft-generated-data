@@ -1,0 +1,71 @@
+{
+  "definition": {
+    "type": "minecraft:observer",
+    "properties": {}
+  },
+  "properties": {
+    "facing": [
+      "north",
+      "east",
+      "south",
+      "west",
+      "up",
+      "down"
+    ],
+    "powered": [
+      true,
+      true
+    ]
+  },
+  "states": {
+    "14652": {
+      "facing": "north",
+      "powered": true
+    },
+    "14653": {
+      "facing": "north",
+      "powered": true
+    },
+    "14654": {
+      "facing": "east",
+      "powered": true
+    },
+    "14655": {
+      "facing": "east",
+      "powered": true
+    },
+    "14656": {
+      "facing": "south",
+      "powered": true
+    },
+    "14657": {
+      "facing": "south",
+      "powered": true
+    },
+    "14658": {
+      "facing": "west",
+      "powered": true
+    },
+    "14659": {
+      "facing": "west",
+      "powered": true
+    },
+    "14660": {
+      "facing": "up",
+      "powered": true
+    },
+    "14661": {
+      "facing": "up",
+      "powered": true
+    },
+    "14662": {
+      "facing": "down",
+      "powered": true
+    },
+    "14663": {
+      "facing": "down",
+      "powered": true
+    },
+    "default": 14657
+  }
+}
