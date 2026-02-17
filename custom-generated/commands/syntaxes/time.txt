@@ -1,0 +1,15 @@
+time add <time: time>
+time of <clock: resource> add <time: time>
+time of <clock: resource> pause
+time of <clock: resource> query time
+time of <clock: resource> query <timeline: resource> repetition
+time of <clock: resource> resume
+time of <clock: resource> set <time: time>
+time of <clock: resource> set <timemarker: resource_location>
+time pause
+time query gametime
+time query time
+time query <timeline: resource> repetition
+time resume
+time set <time: time>
+time set <timemarker: resource_location>
