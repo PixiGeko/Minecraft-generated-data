@@ -1,0 +1,497 @@
+{
+  "version_data": [
+    {
+      "type": "table",
+      "value": {
+        "previousLabel": "26.1-snapshot-7",
+        "currentLabel": "26.1-snapshot-8",
+        "values": [
+          {
+            "key": "DataPack version",
+            "previous": "99.1",
+            "current": "99.2"
+          },
+          {
+            "key": "ResourcePack version",
+            "previous": "81.0",
+            "current": "81.1"
+          },
+          {
+            "key": "World version",
+            "previous": "4775",
+            "current": "4776"
+          },
+          {
+            "key": "Protocol version",
+            "previous": "1073742117",
+            "current": "1073742118"
+          }
+        ]
+      }
+    },
+    {
+      "type": "title",
+      "value": {
+        "title": "Libraries",
+        "id": "version-data-libraries",
+        "size": 3
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "🗒️ List",
+        "differences": {
+          "added": [
+            "org.lwjgl:lwjgl-freetype (natives-macos) V3.4.1"
+          ],
+          "removed": [
+            "org.lwjgl:lwjgl-freetype (natives-macos-patch) V3.3.3"
+          ]
+        }
+      }
+    },
+    {
+      "type": "table",
+      "value": {
+        "title": "Versions",
+        "previousLabel": "26.1-snapshot-7",
+        "currentLabel": "26.1-snapshot-8",
+        "values": [
+          {
+            "key": "org.lwjgl:lwjgl-freetype",
+            "previous": "3.3.3",
+            "current": "3.4.1"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-freetype (natives-linux)",
+            "previous": "3.3.3",
+            "current": "3.4.1"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-freetype (natives-macos-arm64)",
+            "previous": "3.3.3",
+            "current": "3.4.1"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-freetype (natives-windows)",
+            "previous": "3.3.3",
+            "current": "3.4.1"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-freetype (natives-windows-arm64)",
+            "previous": "3.3.3",
+            "current": "3.4.1"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-freetype (natives-windows-x86)",
+            "previous": "3.3.3",
+            "current": "3.4.1"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-glfw",
+            "previous": "3.3.3",
+            "current": "3.4.1"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-glfw (natives-linux)",
+            "previous": "3.3.3",
+            "current": "3.4.1"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-glfw (natives-macos)",
+            "previous": "3.3.3",
+            "current": "3.4.1"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-glfw (natives-macos-arm64)",
+            "previous": "3.3.3",
+            "current": "3.4.1"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-glfw (natives-windows)",
+            "previous": "3.3.3",
+            "current": "3.4.1"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-glfw (natives-windows-arm64)",
+            "previous": "3.3.3",
+            "current": "3.4.1"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-glfw (natives-windows-x86)",
+            "previous": "3.3.3",
+            "current": "3.4.1"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-jemalloc",
+            "previous": "3.3.3",
+            "current": "3.4.1"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-jemalloc (natives-linux)",
+            "previous": "3.3.3",
+            "current": "3.4.1"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-jemalloc (natives-macos)",
+            "previous": "3.3.3",
+            "current": "3.4.1"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-jemalloc (natives-macos-arm64)",
+            "previous": "3.3.3",
+            "current": "3.4.1"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-jemalloc (natives-windows)",
+            "previous": "3.3.3",
+            "current": "3.4.1"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-jemalloc (natives-windows-arm64)",
+            "previous": "3.3.3",
+            "current": "3.4.1"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-jemalloc (natives-windows-x86)",
+            "previous": "3.3.3",
+            "current": "3.4.1"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-openal",
+            "previous": "3.3.3",
+            "current": "3.4.1"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-openal (natives-linux)",
+            "previous": "3.3.3",
+            "current": "3.4.1"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-openal (natives-macos)",
+            "previous": "3.3.3",
+            "current": "3.4.1"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-openal (natives-macos-arm64)",
+            "previous": "3.3.3",
+            "current": "3.4.1"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-openal (natives-windows)",
+            "previous": "3.3.3",
+            "current": "3.4.1"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-openal (natives-windows-arm64)",
+            "previous": "3.3.3",
+            "current": "3.4.1"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-openal (natives-windows-x86)",
+            "previous": "3.3.3",
+            "current": "3.4.1"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-opengl",
+            "previous": "3.3.3",
+            "current": "3.4.1"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-opengl (natives-linux)",
+            "previous": "3.3.3",
+            "current": "3.4.1"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-opengl (natives-macos)",
+            "previous": "3.3.3",
+            "current": "3.4.1"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-opengl (natives-macos-arm64)",
+            "previous": "3.3.3",
+            "current": "3.4.1"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-opengl (natives-windows)",
+            "previous": "3.3.3",
+            "current": "3.4.1"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-opengl (natives-windows-arm64)",
+            "previous": "3.3.3",
+            "current": "3.4.1"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-opengl (natives-windows-x86)",
+            "previous": "3.3.3",
+            "current": "3.4.1"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-stb",
+            "previous": "3.3.3",
+            "current": "3.4.1"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-stb (natives-linux)",
+            "previous": "3.3.3",
+            "current": "3.4.1"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-stb (natives-macos)",
+            "previous": "3.3.3",
+            "current": "3.4.1"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-stb (natives-macos-arm64)",
+            "previous": "3.3.3",
+            "current": "3.4.1"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-stb (natives-windows)",
+            "previous": "3.3.3",
+            "current": "3.4.1"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-stb (natives-windows-arm64)",
+            "previous": "3.3.3",
+            "current": "3.4.1"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-stb (natives-windows-x86)",
+            "previous": "3.3.3",
+            "current": "3.4.1"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-tinyfd",
+            "previous": "3.3.3",
+            "current": "3.4.1"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-tinyfd (natives-linux)",
+            "previous": "3.3.3",
+            "current": "3.4.1"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-tinyfd (natives-macos)",
+            "previous": "3.3.3",
+            "current": "3.4.1"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-tinyfd (natives-macos-arm64)",
+            "previous": "3.3.3",
+            "current": "3.4.1"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-tinyfd (natives-windows)",
+            "previous": "3.3.3",
+            "current": "3.4.1"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-tinyfd (natives-windows-arm64)",
+            "previous": "3.3.3",
+            "current": "3.4.1"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-tinyfd (natives-windows-x86)",
+            "previous": "3.3.3",
+            "current": "3.4.1"
+          },
+          {
+            "key": "org.lwjgl:lwjgl",
+            "previous": "3.3.3",
+            "current": "3.4.1"
+          },
+          {
+            "key": "org.lwjgl:lwjgl (natives-linux)",
+            "previous": "3.3.3",
+            "current": "3.4.1"
+          },
+          {
+            "key": "org.lwjgl:lwjgl (natives-macos)",
+            "previous": "3.3.3",
+            "current": "3.4.1"
+          },
+          {
+            "key": "org.lwjgl:lwjgl (natives-macos-arm64)",
+            "previous": "3.3.3",
+            "current": "3.4.1"
+          },
+          {
+            "key": "org.lwjgl:lwjgl (natives-windows)",
+            "previous": "3.3.3",
+            "current": "3.4.1"
+          },
+          {
+            "key": "org.lwjgl:lwjgl (natives-windows-arm64)",
+            "previous": "3.3.3",
+            "current": "3.4.1"
+          },
+          {
+            "key": "org.lwjgl:lwjgl (natives-windows-x86)",
+            "previous": "3.3.3",
+            "current": "3.4.1"
+          }
+        ]
+      }
+    }
+  ],
+  "commands": [
+    {
+      "type": "entries",
+      "value": {
+        "name": "fetchprofile",
+        "differences": {
+          "added": [
+            "fetchprofile entity <entity: entity>"
+          ],
+          "removed": []
+        }
+      }
+    }
+  ],
+  "recipes": [
+    {
+      "type": "entries",
+      "value": {
+        "name": "🗒️ List",
+        "differences": {
+          "added": [
+            "chiseled_deepslate_from_deepslate_stonecutting.json",
+            "cobbled_deepslate_from_deepslate_stonecutting.json",
+            "cobbled_deepslate_slab_from_deepslate_stonecutting.json",
+            "cobbled_deepslate_stairs_from_deepslate_stonecutting.json",
+            "cobbled_deepslate_wall_from_deepslate_stonecutting.json",
+            "cobblestone_from_stone_stonecutting.json",
+            "cobblestone_slab_from_stone_stonecutting.json",
+            "cobblestone_stairs_from_stone_stonecutting.json",
+            "cobblestone_wall_from_stone_stonecutting.json",
+            "deepslate_bricks_from_deepslate_stonecutting.json",
+            "deepslate_brick_slab_from_deepslate_stonecutting.json",
+            "deepslate_brick_stairs_from_deepslate_stonecutting.json",
+            "deepslate_brick_wall_from_deepslate_stonecutting.json",
+            "deepslate_tiles_from_deepslate_stonecutting.json",
+            "deepslate_tile_slab_from_deepslate_stonecutting.json",
+            "deepslate_tile_stairs_from_deepslate_stonecutting.json",
+            "deepslate_tile_wall_from_deepslate_stonecutting.json",
+            "polished_deepslate_from_deepslate_stonecutting.json",
+            "polished_deepslate_slab_from_deepslate_stonecutting.json",
+            "polished_deepslate_stairs_from_deepslate_stonecutting.json",
+            "polished_deepslate_wall_from_deepslate_stonecutting.json"
+          ],
+          "removed": []
+        }
+      }
+    }
+  ],
+  "translations": [
+    {
+      "type": "entries",
+      "value": {
+        "name": "Keys",
+        "differences": {
+          "added": [
+            "build.tooLow: Minimum height for building is %s",
+            "command.trailing_data: Trailing data found: %s",
+            "commands.fetchprofile.entity.success: Resolved profile for entity %s: %s",
+            "commands.fetchprofile.no_profile: Entity %s has no profile",
+            "upgradeWorld.canceled.message: Your world remains as it was before.",
+            "upgradeWorld.canceled.title: World upgrade canceled"
+          ],
+          "removed": []
+        }
+      }
+    }
+  ],
+  "file_structure": [
+    {
+      "type": "entries",
+      "value": {
+        "name": "data",
+        "differences": {
+          "added": [
+            "minecraft/advancement/recipes/building_blocks/chiseled_deepslate_from_deepslate_stonecutting.json",
+            "minecraft/advancement/recipes/building_blocks/cobbled_deepslate_from_deepslate_stonecutting.json",
+            "minecraft/advancement/recipes/building_blocks/cobbled_deepslate_slab_from_deepslate_stonecutting.json",
+            "minecraft/advancement/recipes/building_blocks/cobbled_deepslate_stairs_from_deepslate_stonecutting.json",
+            "minecraft/advancement/recipes/building_blocks/cobblestone_from_stone_stonecutting.json",
+            "minecraft/advancement/recipes/building_blocks/cobblestone_slab_from_stone_stonecutting.json",
+            "minecraft/advancement/recipes/building_blocks/cobblestone_stairs_from_stone_stonecutting.json",
+            "minecraft/advancement/recipes/building_blocks/deepslate_bricks_from_deepslate_stonecutting.json",
+            "minecraft/advancement/recipes/building_blocks/deepslate_brick_slab_from_deepslate_stonecutting.json",
+            "minecraft/advancement/recipes/building_blocks/deepslate_brick_stairs_from_deepslate_stonecutting.json",
+            "minecraft/advancement/recipes/building_blocks/deepslate_tiles_from_deepslate_stonecutting.json",
+            "minecraft/advancement/recipes/building_blocks/deepslate_tile_slab_from_deepslate_stonecutting.json",
+            "minecraft/advancement/recipes/building_blocks/deepslate_tile_stairs_from_deepslate_stonecutting.json",
+            "minecraft/advancement/recipes/building_blocks/polished_deepslate_from_deepslate_stonecutting.json",
+            "minecraft/advancement/recipes/building_blocks/polished_deepslate_slab_from_deepslate_stonecutting.json",
+            "minecraft/advancement/recipes/building_blocks/polished_deepslate_stairs_from_deepslate_stonecutting.json",
+            "minecraft/advancement/recipes/decorations/cobbled_deepslate_wall_from_deepslate_stonecutting.json",
+            "minecraft/advancement/recipes/decorations/cobblestone_wall_from_stone_stonecutting.json",
+            "minecraft/advancement/recipes/decorations/deepslate_brick_wall_from_deepslate_stonecutting.json",
+            "minecraft/advancement/recipes/decorations/deepslate_tile_wall_from_deepslate_stonecutting.json",
+            "minecraft/advancement/recipes/decorations/polished_deepslate_wall_from_deepslate_stonecutting.json",
+            "minecraft/recipe/chiseled_deepslate_from_deepslate_stonecutting.json",
+            "minecraft/recipe/cobbled_deepslate_from_deepslate_stonecutting.json",
+            "minecraft/recipe/cobbled_deepslate_slab_from_deepslate_stonecutting.json",
+            "minecraft/recipe/cobbled_deepslate_stairs_from_deepslate_stonecutting.json",
+            "minecraft/recipe/cobbled_deepslate_wall_from_deepslate_stonecutting.json",
+            "minecraft/recipe/cobblestone_from_stone_stonecutting.json",
+            "minecraft/recipe/cobblestone_slab_from_stone_stonecutting.json",
+            "minecraft/recipe/cobblestone_stairs_from_stone_stonecutting.json",
+            "minecraft/recipe/cobblestone_wall_from_stone_stonecutting.json",
+            "minecraft/recipe/deepslate_bricks_from_deepslate_stonecutting.json",
+            "minecraft/recipe/deepslate_brick_slab_from_deepslate_stonecutting.json",
+            "minecraft/recipe/deepslate_brick_stairs_from_deepslate_stonecutting.json",
+            "minecraft/recipe/deepslate_brick_wall_from_deepslate_stonecutting.json",
+            "minecraft/recipe/deepslate_tiles_from_deepslate_stonecutting.json",
+            "minecraft/recipe/deepslate_tile_slab_from_deepslate_stonecutting.json",
+            "minecraft/recipe/deepslate_tile_stairs_from_deepslate_stonecutting.json",
+            "minecraft/recipe/deepslate_tile_wall_from_deepslate_stonecutting.json",
+            "minecraft/recipe/polished_deepslate_from_deepslate_stonecutting.json",
+            "minecraft/recipe/polished_deepslate_slab_from_deepslate_stonecutting.json",
+            "minecraft/recipe/polished_deepslate_stairs_from_deepslate_stonecutting.json",
+            "minecraft/recipe/polished_deepslate_wall_from_deepslate_stonecutting.json"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "assets",
+        "differences": {
+          "added": [
+            "minecraft/textures/entity/hoglin/hoglin_baby.png",
+            "minecraft/textures/entity/hoglin/zoglin_baby.png",
+            "minecraft/textures/entity/panda/aggressive_panda_baby.png",
+            "minecraft/textures/entity/panda/brown_panda_baby.png",
+            "minecraft/textures/entity/panda/lazy_panda_baby.png",
+            "minecraft/textures/entity/panda/panda_baby.png",
+            "minecraft/textures/entity/panda/playful_panda_baby.png",
+            "minecraft/textures/entity/panda/weak_panda_baby.png",
+            "minecraft/textures/entity/panda/worried_panda_baby.png",
+            "minecraft/textures/entity/sniffer/snifflet.png",
+            "minecraft/textures/entity/strider/strider_baby.png",
+            "minecraft/textures/entity/strider/strider_cold_baby.png",
+            "minecraft/textures/gui/sprites/widget/preedit.png",
+            "minecraft/textures/gui/sprites/widget/preedit.png.mcmeta"
+          ],
+          "removed": []
+        }
+      }
+    }
+  ],
+  "custom": [
+    {
+      "type": "title",
+      "value": {
+        "title": "datapacks.json",
+        "id": "custom-datapacks-json",
+        "size": 2
+      }
+    }
+  ]
+}
