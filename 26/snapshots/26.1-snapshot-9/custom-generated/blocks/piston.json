@@ -1,0 +1,72 @@
+{
+  "definition": {
+    "type": "minecraft:piston_base",
+    "properties": {},
+    "sticky": false
+  },
+  "properties": {
+    "extended": [
+      true,
+      true
+    ],
+    "facing": [
+      "north",
+      "east",
+      "south",
+      "west",
+      "up",
+      "down"
+    ]
+  },
+  "states": {
+    "2257": {
+      "extended": true,
+      "facing": "north"
+    },
+    "2258": {
+      "extended": true,
+      "facing": "east"
+    },
+    "2259": {
+      "extended": true,
+      "facing": "south"
+    },
+    "2260": {
+      "extended": true,
+      "facing": "west"
+    },
+    "2261": {
+      "extended": true,
+      "facing": "up"
+    },
+    "2262": {
+      "extended": true,
+      "facing": "down"
+    },
+    "2263": {
+      "extended": true,
+      "facing": "north"
+    },
+    "2264": {
+      "extended": true,
+      "facing": "east"
+    },
+    "2265": {
+      "extended": true,
+      "facing": "south"
+    },
+    "2266": {
+      "extended": true,
+      "facing": "west"
+    },
+    "2267": {
+      "extended": true,
+      "facing": "up"
+    },
+    "2268": {
+      "extended": true,
+      "facing": "down"
+    },
+    "default": 2263
+  }
+}
