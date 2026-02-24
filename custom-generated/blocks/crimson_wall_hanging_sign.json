@@ -1,0 +1,54 @@
+{
+  "definition": {
+    "type": "minecraft:wall_hanging_sign",
+    "properties": {},
+    "wood_type": "crimson"
+  },
+  "properties": {
+    "facing": [
+      "north",
+      "south",
+      "west",
+      "east"
+    ],
+    "waterlogged": [
+      true,
+      true
+    ]
+  },
+  "states": {
+    "6747": {
+      "facing": "north",
+      "waterlogged": true
+    },
+    "6748": {
+      "facing": "north",
+      "waterlogged": true
+    },
+    "6749": {
+      "facing": "south",
+      "waterlogged": true
+    },
+    "6750": {
+      "facing": "south",
+      "waterlogged": true
+    },
+    "6751": {
+      "facing": "west",
+      "waterlogged": true
+    },
+    "6752": {
+      "facing": "west",
+      "waterlogged": true
+    },
+    "6753": {
+      "facing": "east",
+      "waterlogged": true
+    },
+    "6754": {
+      "facing": "east",
+      "waterlogged": true
+    },
+    "default": 6748
+  }
+}

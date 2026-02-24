@@ -1,0 +1,106 @@
+{
+  "version_data": [
+    {
+      "type": "table",
+      "value": {
+        "previousLabel": "26.1-snapshot-9",
+        "currentLabel": "26.1-snapshot-10",
+        "values": [
+          {
+            "key": "DataPack version",
+            "previous": "99.2",
+            "current": "99.3"
+          },
+          {
+            "key": "ResourcePack version",
+            "previous": "81.1",
+            "current": "82.0"
+          },
+          {
+            "key": "World version",
+            "previous": "4777",
+            "current": "4778"
+          },
+          {
+            "key": "Protocol version",
+            "previous": "1073742119",
+            "current": "1073742120"
+          }
+        ]
+      }
+    }
+  ],
+  "registries": [
+    {
+      "type": "entries",
+      "value": {
+        "name": "particle_type",
+        "differences": {
+          "added": [
+            "minecraft:pause_mob_growth",
+            "minecraft:reset_mob_growth"
+          ],
+          "removed": []
+        }
+      }
+    }
+  ],
+  "tags": [
+    {
+      "type": "entries",
+      "value": {
+        "name": "universal_tags/particle_type.json",
+        "differences": {
+          "added": [
+            "minecraft:pause_mob_growth",
+            "minecraft:reset_mob_growth"
+          ],
+          "removed": []
+        }
+      }
+    }
+  ],
+  "file_structure": [
+    {
+      "type": "entries",
+      "value": {
+        "name": "generated",
+        "differences": {
+          "added": [
+            "reports/minecraft/components/particle_type/pause_mob_growth.json",
+            "reports/minecraft/components/particle_type/reset_mob_growth.json"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "assets",
+        "differences": {
+          "added": [
+            "minecraft/particles/pause_mob_growth.json",
+            "minecraft/particles/reset_mob_growth.json",
+            "minecraft/shaders/include/sample_lightmap.glsl",
+            "minecraft/textures/block/cactus_side.png.mcmeta",
+            "minecraft/textures/block/cactus_top.png.mcmeta"
+          ],
+          "removed": [
+            "minecraft/shaders/include/smooth_lighting.glsl"
+          ]
+        }
+      }
+    }
+  ],
+  "custom": [
+    {
+      "type": "title",
+      "value": {
+        "title": "datapacks.json",
+        "id": "custom-datapacks-json",
+        "size": 2
+      }
+    }
+  ]
+}
