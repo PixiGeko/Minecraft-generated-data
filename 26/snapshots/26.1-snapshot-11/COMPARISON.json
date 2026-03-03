@@ -1,0 +1,232 @@
+{
+  "version_data": [
+    {
+      "type": "table",
+      "value": {
+        "previousLabel": "26.1-snapshot-10",
+        "currentLabel": "26.1-snapshot-11",
+        "values": [
+          {
+            "key": "DataPack version",
+            "previous": "99.3",
+            "current": "100.0"
+          },
+          {
+            "key": "ResourcePack version",
+            "previous": "82.0",
+            "current": "83.0"
+          },
+          {
+            "key": "World version",
+            "previous": "4778",
+            "current": "4779"
+          },
+          {
+            "key": "Protocol version",
+            "previous": "1073742120",
+            "current": "1073742121"
+          }
+        ]
+      }
+    }
+  ],
+  "registries": [
+    {
+      "type": "entries",
+      "value": {
+        "name": "sound_event",
+        "differences": {
+          "added": [
+            "minecraft:entity.baby_pig.eat",
+            "minecraft:entity.pig.eat",
+            "minecraft:entity.pig_big.eat",
+            "minecraft:entity.pig_mini.eat"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "test_environment_definition_type",
+        "differences": {
+          "added": [
+            "minecraft:timeline_attributes"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "worldgen/block_state_provider_type",
+        "differences": {
+          "added": [
+            "minecraft:rule_based_state_provider"
+          ],
+          "removed": []
+        }
+      }
+    }
+  ],
+  "tags": [
+    {
+      "type": "entries",
+      "value": {
+        "name": "universal_tags/sound_event.json",
+        "differences": {
+          "added": [
+            "minecraft:entity.baby_pig.eat",
+            "minecraft:entity.pig.eat",
+            "minecraft:entity.pig_big.eat",
+            "minecraft:entity.pig_mini.eat"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "universal_tags/test_environment_definition_type.json",
+        "differences": {
+          "added": [
+            "minecraft:timeline_attributes"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "universal_tags/worldgen/block_state_provider_type.json",
+        "differences": {
+          "added": [
+            "minecraft:rule_based_state_provider"
+          ],
+          "removed": []
+        }
+      }
+    }
+  ],
+  "item_models": [
+    {
+      "type": "entries",
+      "value": {
+        "name": "Model types",
+        "differences": {
+          "added": [
+            "minecraft:composite"
+          ],
+          "removed": []
+        }
+      }
+    }
+  ],
+  "translations": [
+    {
+      "type": "entries",
+      "value": {
+        "name": "Keys",
+        "differences": {
+          "added": [
+            "subtitles.entity.baby_pig.eat: Baby Pig eats",
+            "subtitles.entity.pig.eat: Pig eats"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "text",
+      "value": {
+        "title": "Changes",
+        "values": [
+          {
+            "key": "chat_restriction.chat_disabled_by_options.action",
+            "previous": "Go to Chat Settings screen",
+            "current": "Go to the Chat Settings screen"
+          },
+          {
+            "key": "chat_restriction.disabled_by_launcher",
+            "previous": "Chat is restricted by launcher",
+            "current": "Chat is restricted by the launcher"
+          },
+          {
+            "key": "restrictions_screen.permission.receive_system_messages.allowed",
+            "previous": "You can receive system messages from server",
+            "current": "You can receive system messages from the server"
+          },
+          {
+            "key": "restrictions_screen.permission.receive_system_messages.denied",
+            "previous": "You can't receive system messages from server",
+            "current": "You can't receive system messages from the server"
+          },
+          {
+            "key": "upgradeWorld.aborted.message",
+            "previous": "This may happen if another program accessed the world during the upgrade.\n\nIt may help to restart your computer and trying again. If the issue persists, please consider reporting a bug.",
+            "current": "This may happen if another program accessed the world during the upgrade.\n\nIt may help to restart your computer and try again. If the issue persists, please consider reporting a bug."
+          }
+        ]
+      }
+    }
+  ],
+  "file_structure": [
+    {
+      "type": "entries",
+      "value": {
+        "name": "generated",
+        "differences": {
+          "added": [
+            "reports/minecraft/components/sound_event/entity.baby_pig.eat.json",
+            "reports/minecraft/components/sound_event/entity.pig.eat.json",
+            "reports/minecraft/components/sound_event/entity.pig_big.eat.json",
+            "reports/minecraft/components/sound_event/entity.pig_mini.eat.json",
+            "reports/minecraft/components/test_environment_definition_type/timeline_attributes.json",
+            "reports/minecraft/components/villager_trade/librarian/5/emerald_red_candle.json",
+            "reports/minecraft/components/villager_trade/librarian/5/emerald_yellow_candle.json",
+            "reports/minecraft/components/villager_trade/wandering_trader/emerald_name_tag.json",
+            "reports/minecraft/components/worldgen/block_state_provider_type/rule_based_state_provider.json",
+            "reports/minecraft/components/worldgen/noise/nether/temperature.json",
+            "reports/minecraft/components/worldgen/noise/nether/vegetation.json"
+          ],
+          "removed": [
+            "reports/minecraft/components/villager_trade/librarian/5/emerald_name_tag.json"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "data",
+        "differences": {
+          "added": [
+            "minecraft/tags/block/prevents_nearby_leaf_decay.json",
+            "minecraft/villager_trade/librarian/5/emerald_red_candle.json",
+            "minecraft/villager_trade/librarian/5/emerald_yellow_candle.json",
+            "minecraft/villager_trade/wandering_trader/emerald_name_tag.json",
+            "minecraft/worldgen/noise/nether/temperature.json",
+            "minecraft/worldgen/noise/nether/vegetation.json"
+          ],
+          "removed": [
+            "minecraft/villager_trade/librarian/5/emerald_name_tag.json"
+          ]
+        }
+      }
+    }
+  ],
+  "custom": [
+    {
+      "type": "title",
+      "value": {
+        "title": "datapacks.json",
+        "id": "custom-datapacks-json",
+        "size": 2
+      }
+    }
+  ]
+}

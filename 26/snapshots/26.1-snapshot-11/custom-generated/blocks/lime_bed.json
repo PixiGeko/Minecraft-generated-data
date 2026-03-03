@@ -1,0 +1,106 @@
+{
+  "definition": {
+    "type": "minecraft:bed",
+    "color": "lime",
+    "properties": {}
+  },
+  "properties": {
+    "facing": [
+      "north",
+      "south",
+      "west",
+      "east"
+    ],
+    "occupied": [
+      true,
+      true
+    ],
+    "part": [
+      "head",
+      "foot"
+    ]
+  },
+  "states": {
+    "2011": {
+      "facing": "north",
+      "occupied": true,
+      "part": "head"
+    },
+    "2012": {
+      "facing": "north",
+      "occupied": true,
+      "part": "foot"
+    },
+    "2013": {
+      "facing": "north",
+      "occupied": true,
+      "part": "head"
+    },
+    "2014": {
+      "facing": "north",
+      "occupied": true,
+      "part": "foot"
+    },
+    "2015": {
+      "facing": "south",
+      "occupied": true,
+      "part": "head"
+    },
+    "2016": {
+      "facing": "south",
+      "occupied": true,
+      "part": "foot"
+    },
+    "2017": {
+      "facing": "south",
+      "occupied": true,
+      "part": "head"
+    },
+    "2018": {
+      "facing": "south",
+      "occupied": true,
+      "part": "foot"
+    },
+    "2019": {
+      "facing": "west",
+      "occupied": true,
+      "part": "head"
+    },
+    "2020": {
+      "facing": "west",
+      "occupied": true,
+      "part": "foot"
+    },
+    "2021": {
+      "facing": "west",
+      "occupied": true,
+      "part": "head"
+    },
+    "2022": {
+      "facing": "west",
+      "occupied": true,
+      "part": "foot"
+    },
+    "2023": {
+      "facing": "east",
+      "occupied": true,
+      "part": "head"
+    },
+    "2024": {
+      "facing": "east",
+      "occupied": true,
+      "part": "foot"
+    },
+    "2025": {
+      "facing": "east",
+      "occupied": true,
+      "part": "head"
+    },
+    "2026": {
+      "facing": "east",
+      "occupied": true,
+      "part": "foot"
+    },
+    "default": 2014
+  }
+}
