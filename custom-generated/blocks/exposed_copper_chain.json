@@ -1,0 +1,45 @@
+{
+  "definition": {
+    "type": "minecraft:weathering_copper_chain",
+    "properties": {},
+    "weathering_state": "exposed"
+  },
+  "properties": {
+    "axis": [
+      "x",
+      "y",
+      "z"
+    ],
+    "waterlogged": [
+      true,
+      true
+    ]
+  },
+  "states": {
+    "8258": {
+      "axis": "x",
+      "waterlogged": true
+    },
+    "8259": {
+      "axis": "x",
+      "waterlogged": true
+    },
+    "8260": {
+      "axis": "y",
+      "waterlogged": true
+    },
+    "8261": {
+      "axis": "y",
+      "waterlogged": true
+    },
+    "8262": {
+      "axis": "z",
+      "waterlogged": true
+    },
+    "8263": {
+      "axis": "z",
+      "waterlogged": true
+    },
+    "default": 8261
+  }
+}
