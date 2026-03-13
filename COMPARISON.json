@@ -1,0 +1,51 @@
+{
+  "version_data": [
+    {
+      "type": "table",
+      "value": {
+        "previousLabel": "26.1-pre-1",
+        "currentLabel": "26.1-pre-2",
+        "values": [
+          {
+            "key": "World version",
+            "previous": "4780",
+            "current": "4781"
+          },
+          {
+            "key": "Protocol version",
+            "previous": "1073742122",
+            "current": "1073742123"
+          }
+        ]
+      }
+    }
+  ],
+  "translations": [
+    {
+      "type": "entries",
+      "value": {
+        "name": "Keys",
+        "differences": {
+          "added": [
+            "build.spawn_protection: %s is under spawn protection",
+            "options.exclusiveFullscreen: Exclusive Fullscreen",
+            "options.exclusiveFullscreen.warningTooltip: This option might prevent some input methods from working.",
+            "options.needsRestart: Option will be applied after restart.",
+            "test.error.not_a_block_item: Given block is not a block item"
+          ],
+          "removed": []
+        }
+      }
+    }
+  ],
+  "custom": [
+    {
+      "type": "title",
+      "value": {
+        "title": "datapacks.json",
+        "id": "custom-datapacks-json",
+        "size": 2
+      }
+    }
+  ]
+}
