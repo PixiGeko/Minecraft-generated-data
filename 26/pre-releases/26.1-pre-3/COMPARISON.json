@@ -1,0 +1,84 @@
+{
+  "version_data": [
+    {
+      "type": "table",
+      "value": {
+        "previousLabel": "26.1-pre-2",
+        "currentLabel": "26.1-pre-3",
+        "values": [
+          {
+            "key": "DataPack version",
+            "previous": "101.0",
+            "current": "101.1"
+          },
+          {
+            "key": "World version",
+            "previous": "4781",
+            "current": "4782"
+          },
+          {
+            "key": "Protocol version",
+            "previous": "1073742123",
+            "current": "1073742124"
+          }
+        ]
+      }
+    },
+    {
+      "type": "title",
+      "value": {
+        "title": "Libraries",
+        "id": "version-data-libraries",
+        "size": 3
+      }
+    },
+    {
+      "type": "table",
+      "value": {
+        "title": "Versions",
+        "previousLabel": "26.1-pre-2",
+        "currentLabel": "26.1-pre-3",
+        "values": [
+          {
+            "key": "com.mojang:authlib",
+            "previous": "7.0.62",
+            "current": "7.0.63"
+          }
+        ]
+      }
+    }
+  ],
+  "file_structure": [
+    {
+      "type": "entries",
+      "value": {
+        "name": "data",
+        "differences": {
+          "added": [
+            "minecraft/villager_trade/fletcher/1/gravel_and_emerald_flint.json"
+          ],
+          "removed": [
+            "minecraft/datapacks/trade_rebalance/data/minecraft/villager_trade/librarian/4/emerald_and_book_desert_enchanted_book.json",
+            "minecraft/datapacks/trade_rebalance/data/minecraft/villager_trade/librarian/4/emerald_and_book_jungle_enchanted_book.json",
+            "minecraft/datapacks/trade_rebalance/data/minecraft/villager_trade/librarian/4/emerald_and_book_plains_enchanted_book.json",
+            "minecraft/datapacks/trade_rebalance/data/minecraft/villager_trade/librarian/4/emerald_and_book_savanna_enchanted_book.json",
+            "minecraft/datapacks/trade_rebalance/data/minecraft/villager_trade/librarian/4/emerald_and_book_snow_enchanted_book.json",
+            "minecraft/datapacks/trade_rebalance/data/minecraft/villager_trade/librarian/4/emerald_and_book_swamp_enchanted_book.json",
+            "minecraft/datapacks/trade_rebalance/data/minecraft/villager_trade/librarian/4/emerald_and_book_taiga_enchanted_book.json",
+            "minecraft/villager_trade/fletcher/1/gravel_and_emerald_arrow.json"
+          ]
+        }
+      }
+    }
+  ],
+  "custom": [
+    {
+      "type": "title",
+      "value": {
+        "title": "datapacks.json",
+        "id": "custom-datapacks-json",
+        "size": 2
+      }
+    }
+  ]
+}
