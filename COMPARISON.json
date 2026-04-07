@@ -1,0 +1,2639 @@
+{
+  "version_data": [
+    {
+      "type": "table",
+      "value": {
+        "previousLabel": "26w14a",
+        "currentLabel": "26.2-snapshot-1",
+        "values": [
+          {
+            "key": "DataPack version",
+            "previous": "101.1",
+            "current": "101.2"
+          },
+          {
+            "key": "ResourcePack version",
+            "previous": "84.0",
+            "current": "85.0"
+          },
+          {
+            "key": "World version",
+            "previous": "5000",
+            "current": "4883"
+          },
+          {
+            "key": "Protocol version",
+            "previous": "1073742129",
+            "current": "1073742130"
+          }
+        ]
+      }
+    },
+    {
+      "type": "title",
+      "value": {
+        "title": "Libraries",
+        "id": "version-data-libraries",
+        "size": 3
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "🗒️ List",
+        "differences": {
+          "added": [
+            "org.lwjgl:lwjgl-shaderc V3.4.1",
+            "org.lwjgl:lwjgl-shaderc (natives-linux) V3.4.1",
+            "org.lwjgl:lwjgl-shaderc (natives-macos) V3.4.1",
+            "org.lwjgl:lwjgl-shaderc (natives-macos-arm64) V3.4.1",
+            "org.lwjgl:lwjgl-shaderc (natives-windows) V3.4.1",
+            "org.lwjgl:lwjgl-shaderc (natives-windows-arm64) V3.4.1",
+            "org.lwjgl:lwjgl-shaderc (natives-windows-x86) V3.4.1",
+            "org.lwjgl:lwjgl-spvc V3.4.1",
+            "org.lwjgl:lwjgl-spvc (natives-linux) V3.4.1",
+            "org.lwjgl:lwjgl-spvc (natives-macos) V3.4.1",
+            "org.lwjgl:lwjgl-spvc (natives-macos-arm64) V3.4.1",
+            "org.lwjgl:lwjgl-spvc (natives-windows) V3.4.1",
+            "org.lwjgl:lwjgl-spvc (natives-windows-arm64) V3.4.1",
+            "org.lwjgl:lwjgl-spvc (natives-windows-x86) V3.4.1",
+            "org.lwjgl:lwjgl-vma V3.4.1",
+            "org.lwjgl:lwjgl-vma (natives-linux) V3.4.1",
+            "org.lwjgl:lwjgl-vma (natives-macos) V3.4.1",
+            "org.lwjgl:lwjgl-vma (natives-macos-arm64) V3.4.1",
+            "org.lwjgl:lwjgl-vma (natives-windows) V3.4.1",
+            "org.lwjgl:lwjgl-vma (natives-windows-arm64) V3.4.1",
+            "org.lwjgl:lwjgl-vma (natives-windows-x86) V3.4.1",
+            "org.lwjgl:lwjgl-vulkan V3.4.1",
+            "org.lwjgl:lwjgl-vulkan (natives-macos) V3.4.1",
+            "org.lwjgl:lwjgl-vulkan (natives-macos-arm64) V3.4.1"
+          ],
+          "removed": []
+        }
+      }
+    }
+  ],
+  "registries": [
+    {
+      "type": "entries",
+      "value": {
+        "name": "attribute",
+        "differences": {
+          "added": [
+            "minecraft:air_drag_modifier",
+            "minecraft:bounciness",
+            "minecraft:friction_modifier"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "block",
+        "differences": {
+          "added": [
+            "minecraft:chiseled_cinnabar",
+            "minecraft:chiseled_sulfur",
+            "minecraft:cinnabar",
+            "minecraft:cinnabar_brick_slab",
+            "minecraft:cinnabar_brick_stairs",
+            "minecraft:cinnabar_brick_wall",
+            "minecraft:cinnabar_bricks",
+            "minecraft:cinnabar_slab",
+            "minecraft:cinnabar_stairs",
+            "minecraft:cinnabar_wall",
+            "minecraft:polished_cinnabar",
+            "minecraft:polished_cinnabar_slab",
+            "minecraft:polished_cinnabar_stairs",
+            "minecraft:polished_cinnabar_wall",
+            "minecraft:polished_sulfur",
+            "minecraft:polished_sulfur_slab",
+            "minecraft:polished_sulfur_stairs",
+            "minecraft:polished_sulfur_wall",
+            "minecraft:potent_sulfur",
+            "minecraft:sulfur",
+            "minecraft:sulfur_brick_slab",
+            "minecraft:sulfur_brick_stairs",
+            "minecraft:sulfur_brick_wall",
+            "minecraft:sulfur_bricks",
+            "minecraft:sulfur_slab",
+            "minecraft:sulfur_stairs",
+            "minecraft:sulfur_wall"
+          ],
+          "removed": [
+            "minecraft:copper_trap",
+            "minecraft:exposed_copper_trap",
+            "minecraft:iron_trap",
+            "minecraft:oxidized_copper_trap",
+            "minecraft:waxed_copper_trap",
+            "minecraft:waxed_exposed_copper_trap",
+            "minecraft:waxed_oxidized_copper_trap",
+            "minecraft:waxed_weathered_copper_trap",
+            "minecraft:weathered_copper_trap"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "block_entity_type",
+        "differences": {
+          "added": [
+            "minecraft:potent_sulfur"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "block_type",
+        "differences": {
+          "added": [
+            "minecraft:potent_sulfur",
+            "minecraft:weathering_copper_trapdoor"
+          ],
+          "removed": [
+            "minecraft:weathering_copper_trap_door"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "data_component_type",
+        "differences": {
+          "added": [
+            "minecraft:sulfur_cube_content"
+          ],
+          "removed": [
+            "minecraft:follow"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "entity_sub_predicate_type",
+        "differences": {
+          "added": [],
+          "removed": [
+            "minecraft:living_block"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "entity_type",
+        "differences": {
+          "added": [
+            "minecraft:item",
+            "minecraft:sulfur_cube"
+          ],
+          "removed": [
+            "minecraft:crafting_grid",
+            "minecraft:hovering_item",
+            "minecraft:living_block",
+            "minecraft:living_block_command"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "game_event",
+        "differences": {
+          "added": [
+            "minecraft:bounce"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "item",
+        "differences": {
+          "added": [
+            "minecraft:chiseled_cinnabar",
+            "minecraft:chiseled_sulfur",
+            "minecraft:cinnabar",
+            "minecraft:cinnabar_brick_slab",
+            "minecraft:cinnabar_brick_stairs",
+            "minecraft:cinnabar_brick_wall",
+            "minecraft:cinnabar_bricks",
+            "minecraft:cinnabar_slab",
+            "minecraft:cinnabar_stairs",
+            "minecraft:cinnabar_wall",
+            "minecraft:polished_cinnabar",
+            "minecraft:polished_cinnabar_slab",
+            "minecraft:polished_cinnabar_stairs",
+            "minecraft:polished_cinnabar_wall",
+            "minecraft:polished_sulfur",
+            "minecraft:polished_sulfur_slab",
+            "minecraft:polished_sulfur_stairs",
+            "minecraft:polished_sulfur_wall",
+            "minecraft:potent_sulfur",
+            "minecraft:sulfur",
+            "minecraft:sulfur_brick_slab",
+            "minecraft:sulfur_brick_stairs",
+            "minecraft:sulfur_brick_wall",
+            "minecraft:sulfur_bricks",
+            "minecraft:sulfur_cube_bucket",
+            "minecraft:sulfur_cube_spawn_egg",
+            "minecraft:sulfur_slab",
+            "minecraft:sulfur_stairs",
+            "minecraft:sulfur_wall"
+          ],
+          "removed": [
+            "minecraft:attack_action",
+            "minecraft:build_action",
+            "minecraft:copper_trap",
+            "minecraft:crafting_action",
+            "minecraft:exposed_copper_trap",
+            "minecraft:follow_action",
+            "minecraft:group_action",
+            "minecraft:highlight_action",
+            "minecraft:iron_trap",
+            "minecraft:move_action",
+            "minecraft:oxidized_copper_trap",
+            "minecraft:punch_action",
+            "minecraft:waxed_copper_trap",
+            "minecraft:waxed_exposed_copper_trap",
+            "minecraft:waxed_oxidized_copper_trap",
+            "minecraft:waxed_weathered_copper_trap",
+            "minecraft:weathered_copper_trap"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "particle_type",
+        "differences": {
+          "added": [
+            "minecraft:noxious_gas",
+            "minecraft:noxious_gas_cloud",
+            "minecraft:sulfur_bubbles",
+            "minecraft:sulfur_cube_goo"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "sound_event",
+        "differences": {
+          "added": [
+            "minecraft:block.cinnabar.break",
+            "minecraft:block.cinnabar.fall",
+            "minecraft:block.cinnabar.hit",
+            "minecraft:block.cinnabar.place",
+            "minecraft:block.cinnabar.step",
+            "minecraft:block.potent_sulfur.break",
+            "minecraft:block.potent_sulfur.fall",
+            "minecraft:block.potent_sulfur.hit",
+            "minecraft:block.potent_sulfur.noxious_gas",
+            "minecraft:block.potent_sulfur.place",
+            "minecraft:block.potent_sulfur.step",
+            "minecraft:block.sulfur.break",
+            "minecraft:block.sulfur.fall",
+            "minecraft:block.sulfur.hit",
+            "minecraft:block.sulfur.place",
+            "minecraft:block.sulfur.step",
+            "minecraft:entity.small_sulfur_cube.death",
+            "minecraft:entity.small_sulfur_cube.hurt",
+            "minecraft:entity.small_sulfur_cube.jump",
+            "minecraft:entity.small_sulfur_cube.squish",
+            "minecraft:entity.sulfur_cube.absorb",
+            "minecraft:entity.sulfur_cube.bounce",
+            "minecraft:entity.sulfur_cube.death",
+            "minecraft:entity.sulfur_cube.eject",
+            "minecraft:entity.sulfur_cube.hit",
+            "minecraft:entity.sulfur_cube.hurt",
+            "minecraft:entity.sulfur_cube.jump",
+            "minecraft:entity.sulfur_cube.push",
+            "minecraft:entity.sulfur_cube.squish"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "trigger_type",
+        "differences": {
+          "added": [],
+          "removed": [
+            "minecraft:barrel_roll",
+            "minecraft:built_house",
+            "minecraft:built_trap",
+            "minecraft:end_portal_crafted",
+            "minecraft:eye_frame_combination",
+            "minecraft:nether_portal_crafted",
+            "minecraft:use_item"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "worldgen/feature",
+        "differences": {
+          "added": [
+            "minecraft:sequence",
+            "minecraft:speleothem",
+            "minecraft:speleothem_cluster",
+            "minecraft:template"
+          ],
+          "removed": [
+            "minecraft:dripstone_cluster",
+            "minecraft:pointed_dripstone"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "worldgen/material_rule",
+        "differences": {
+          "added": [
+            "minecraft:noise_gradient"
+          ],
+          "removed": []
+        }
+      }
+    }
+  ],
+  "tags": [
+    {
+      "type": "entries",
+      "value": {
+        "name": "all_blocks_without_drop.json",
+        "differences": {
+          "added": [],
+          "removed": [
+            "minecraft:leaf_litter"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "all_blocks_with_drop.json",
+        "differences": {
+          "added": [
+            "minecraft:chiseled_cinnabar",
+            "minecraft:chiseled_sulfur",
+            "minecraft:cinnabar",
+            "minecraft:cinnabar_bricks",
+            "minecraft:cinnabar_brick_slab",
+            "minecraft:cinnabar_brick_stairs",
+            "minecraft:cinnabar_brick_wall",
+            "minecraft:cinnabar_slab",
+            "minecraft:cinnabar_stairs",
+            "minecraft:cinnabar_wall",
+            "minecraft:leaf_litter",
+            "minecraft:polished_cinnabar",
+            "minecraft:polished_cinnabar_slab",
+            "minecraft:polished_cinnabar_stairs",
+            "minecraft:polished_cinnabar_wall",
+            "minecraft:polished_sulfur",
+            "minecraft:polished_sulfur_slab",
+            "minecraft:polished_sulfur_stairs",
+            "minecraft:polished_sulfur_wall",
+            "minecraft:potent_sulfur",
+            "minecraft:sulfur",
+            "minecraft:sulfur_bricks",
+            "minecraft:sulfur_brick_slab",
+            "minecraft:sulfur_brick_stairs",
+            "minecraft:sulfur_brick_wall",
+            "minecraft:sulfur_slab",
+            "minecraft:sulfur_stairs",
+            "minecraft:sulfur_wall"
+          ],
+          "removed": [
+            "minecraft:copper_trap",
+            "minecraft:exposed_copper_trap",
+            "minecraft:iron_trap",
+            "minecraft:oxidized_copper_trap",
+            "minecraft:waxed_copper_trap",
+            "minecraft:waxed_exposed_copper_trap",
+            "minecraft:waxed_oxidized_copper_trap",
+            "minecraft:waxed_weathered_copper_trap",
+            "minecraft:weathered_copper_trap"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "all_entities_without_drop.json",
+        "differences": {
+          "added": [
+            "minecraft:item",
+            "minecraft:sulfur_cube"
+          ],
+          "removed": [
+            "minecraft:crafting_grid",
+            "minecraft:hovering_item",
+            "minecraft:living_block",
+            "minecraft:living_block_command"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "all_living_entities_without_drop.json",
+        "differences": {
+          "added": [
+            "minecraft:sulfur_cube"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "all_survival_blocks_without_drop.json",
+        "differences": {
+          "added": [],
+          "removed": [
+            "minecraft:leaf_litter"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "universal_tags/attribute.json",
+        "differences": {
+          "added": [
+            "minecraft:air_drag_modifier",
+            "minecraft:bounciness",
+            "minecraft:friction_modifier"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "universal_tags/block.json",
+        "differences": {
+          "added": [
+            "minecraft:chiseled_cinnabar",
+            "minecraft:chiseled_sulfur",
+            "minecraft:cinnabar",
+            "minecraft:cinnabar_brick_slab",
+            "minecraft:cinnabar_brick_stairs",
+            "minecraft:cinnabar_brick_wall",
+            "minecraft:cinnabar_bricks",
+            "minecraft:cinnabar_slab",
+            "minecraft:cinnabar_stairs",
+            "minecraft:cinnabar_wall",
+            "minecraft:polished_cinnabar",
+            "minecraft:polished_cinnabar_slab",
+            "minecraft:polished_cinnabar_stairs",
+            "minecraft:polished_cinnabar_wall",
+            "minecraft:polished_sulfur",
+            "minecraft:polished_sulfur_slab",
+            "minecraft:polished_sulfur_stairs",
+            "minecraft:polished_sulfur_wall",
+            "minecraft:potent_sulfur",
+            "minecraft:sulfur",
+            "minecraft:sulfur_brick_slab",
+            "minecraft:sulfur_brick_stairs",
+            "minecraft:sulfur_brick_wall",
+            "minecraft:sulfur_bricks",
+            "minecraft:sulfur_slab",
+            "minecraft:sulfur_stairs",
+            "minecraft:sulfur_wall"
+          ],
+          "removed": [
+            "minecraft:copper_trap",
+            "minecraft:exposed_copper_trap",
+            "minecraft:iron_trap",
+            "minecraft:oxidized_copper_trap",
+            "minecraft:waxed_copper_trap",
+            "minecraft:waxed_exposed_copper_trap",
+            "minecraft:waxed_oxidized_copper_trap",
+            "minecraft:waxed_weathered_copper_trap",
+            "minecraft:weathered_copper_trap"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "universal_tags/block_entity_type.json",
+        "differences": {
+          "added": [
+            "minecraft:potent_sulfur"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "universal_tags/block_type.json",
+        "differences": {
+          "added": [
+            "minecraft:potent_sulfur",
+            "minecraft:weathering_copper_trapdoor"
+          ],
+          "removed": [
+            "minecraft:weathering_copper_trap_door"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "universal_tags/data_component_type.json",
+        "differences": {
+          "added": [
+            "minecraft:sulfur_cube_content"
+          ],
+          "removed": [
+            "minecraft:follow"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "universal_tags/entity_sub_predicate_type.json",
+        "differences": {
+          "added": [],
+          "removed": [
+            "minecraft:living_block"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "universal_tags/entity_type.json",
+        "differences": {
+          "added": [
+            "minecraft:item",
+            "minecraft:sulfur_cube"
+          ],
+          "removed": [
+            "minecraft:crafting_grid",
+            "minecraft:hovering_item",
+            "minecraft:living_block",
+            "minecraft:living_block_command"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "universal_tags/game_event.json",
+        "differences": {
+          "added": [
+            "minecraft:bounce"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "universal_tags/item.json",
+        "differences": {
+          "added": [
+            "minecraft:chiseled_cinnabar",
+            "minecraft:chiseled_sulfur",
+            "minecraft:cinnabar",
+            "minecraft:cinnabar_brick_slab",
+            "minecraft:cinnabar_brick_stairs",
+            "minecraft:cinnabar_brick_wall",
+            "minecraft:cinnabar_bricks",
+            "minecraft:cinnabar_slab",
+            "minecraft:cinnabar_stairs",
+            "minecraft:cinnabar_wall",
+            "minecraft:polished_cinnabar",
+            "minecraft:polished_cinnabar_slab",
+            "minecraft:polished_cinnabar_stairs",
+            "minecraft:polished_cinnabar_wall",
+            "minecraft:polished_sulfur",
+            "minecraft:polished_sulfur_slab",
+            "minecraft:polished_sulfur_stairs",
+            "minecraft:polished_sulfur_wall",
+            "minecraft:potent_sulfur",
+            "minecraft:sulfur",
+            "minecraft:sulfur_brick_slab",
+            "minecraft:sulfur_brick_stairs",
+            "minecraft:sulfur_brick_wall",
+            "minecraft:sulfur_bricks",
+            "minecraft:sulfur_cube_bucket",
+            "minecraft:sulfur_cube_spawn_egg",
+            "minecraft:sulfur_slab",
+            "minecraft:sulfur_stairs",
+            "minecraft:sulfur_wall"
+          ],
+          "removed": [
+            "minecraft:attack_action",
+            "minecraft:build_action",
+            "minecraft:copper_trap",
+            "minecraft:crafting_action",
+            "minecraft:exposed_copper_trap",
+            "minecraft:follow_action",
+            "minecraft:group_action",
+            "minecraft:highlight_action",
+            "minecraft:iron_trap",
+            "minecraft:move_action",
+            "minecraft:oxidized_copper_trap",
+            "minecraft:punch_action",
+            "minecraft:waxed_copper_trap",
+            "minecraft:waxed_exposed_copper_trap",
+            "minecraft:waxed_oxidized_copper_trap",
+            "minecraft:waxed_weathered_copper_trap",
+            "minecraft:weathered_copper_trap"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "universal_tags/particle_type.json",
+        "differences": {
+          "added": [
+            "minecraft:noxious_gas",
+            "minecraft:noxious_gas_cloud",
+            "minecraft:sulfur_bubbles",
+            "minecraft:sulfur_cube_goo"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "universal_tags/sound_event.json",
+        "differences": {
+          "added": [
+            "minecraft:block.cinnabar.break",
+            "minecraft:block.cinnabar.fall",
+            "minecraft:block.cinnabar.hit",
+            "minecraft:block.cinnabar.place",
+            "minecraft:block.cinnabar.step",
+            "minecraft:block.potent_sulfur.break",
+            "minecraft:block.potent_sulfur.fall",
+            "minecraft:block.potent_sulfur.hit",
+            "minecraft:block.potent_sulfur.noxious_gas",
+            "minecraft:block.potent_sulfur.place",
+            "minecraft:block.potent_sulfur.step",
+            "minecraft:block.sulfur.break",
+            "minecraft:block.sulfur.fall",
+            "minecraft:block.sulfur.hit",
+            "minecraft:block.sulfur.place",
+            "minecraft:block.sulfur.step",
+            "minecraft:entity.small_sulfur_cube.death",
+            "minecraft:entity.small_sulfur_cube.hurt",
+            "minecraft:entity.small_sulfur_cube.jump",
+            "minecraft:entity.small_sulfur_cube.squish",
+            "minecraft:entity.sulfur_cube.absorb",
+            "minecraft:entity.sulfur_cube.bounce",
+            "minecraft:entity.sulfur_cube.death",
+            "minecraft:entity.sulfur_cube.eject",
+            "minecraft:entity.sulfur_cube.hit",
+            "minecraft:entity.sulfur_cube.hurt",
+            "minecraft:entity.sulfur_cube.jump",
+            "minecraft:entity.sulfur_cube.push",
+            "minecraft:entity.sulfur_cube.squish"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "universal_tags/trigger_type.json",
+        "differences": {
+          "added": [],
+          "removed": [
+            "minecraft:barrel_roll",
+            "minecraft:built_house",
+            "minecraft:built_trap",
+            "minecraft:end_portal_crafted",
+            "minecraft:eye_frame_combination",
+            "minecraft:nether_portal_crafted",
+            "minecraft:use_item"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "universal_tags/worldgen/feature.json",
+        "differences": {
+          "added": [
+            "minecraft:sequence",
+            "minecraft:speleothem",
+            "minecraft:speleothem_cluster",
+            "minecraft:template"
+          ],
+          "removed": [
+            "minecraft:dripstone_cluster",
+            "minecraft:pointed_dripstone"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "universal_tags/worldgen/material_rule.json",
+        "differences": {
+          "added": [
+            "minecraft:noise_gradient"
+          ],
+          "removed": []
+        }
+      }
+    }
+  ],
+  "item_models": [
+    {
+      "type": "entries",
+      "value": {
+        "name": "Model types",
+        "differences": {
+          "added": [
+            "minecraft:composite"
+          ],
+          "removed": []
+        }
+      }
+    }
+  ],
+  "blocks": [
+    {
+      "type": "entries",
+      "value": {
+        "name": "🗒️ List",
+        "differences": {
+          "added": [
+            "chiseled_cinnabar.json",
+            "chiseled_sulfur.json",
+            "cinnabar.json",
+            "cinnabar_bricks.json",
+            "cinnabar_brick_slab.json",
+            "cinnabar_brick_stairs.json",
+            "cinnabar_brick_wall.json",
+            "cinnabar_slab.json",
+            "cinnabar_stairs.json",
+            "cinnabar_wall.json",
+            "polished_cinnabar.json",
+            "polished_cinnabar_slab.json",
+            "polished_cinnabar_stairs.json",
+            "polished_cinnabar_wall.json",
+            "polished_sulfur.json",
+            "polished_sulfur_slab.json",
+            "polished_sulfur_stairs.json",
+            "polished_sulfur_wall.json",
+            "potent_sulfur.json",
+            "sulfur.json",
+            "sulfur_bricks.json",
+            "sulfur_brick_slab.json",
+            "sulfur_brick_stairs.json",
+            "sulfur_brick_wall.json",
+            "sulfur_slab.json",
+            "sulfur_stairs.json",
+            "sulfur_wall.json"
+          ],
+          "removed": [
+            "copper_trap.json",
+            "exposed_copper_trap.json",
+            "iron_trap.json",
+            "oxidized_copper_trap.json",
+            "waxed_copper_trap.json",
+            "waxed_exposed_copper_trap.json",
+            "waxed_oxidized_copper_trap.json",
+            "waxed_weathered_copper_trap.json",
+            "weathered_copper_trap.json"
+          ]
+        }
+      }
+    },
+    {
+      "type": "group",
+      "value": {
+        "title": "copper_trapdoor",
+        "comparisons": [
+          {
+            "name": "Definition",
+            "value": {
+              "type": "table",
+              "value": {
+                "previousLabel": "26w14a",
+                "currentLabel": "26.2-snapshot-1",
+                "values": [
+                  {
+                    "key": "type",
+                    "previous": "minecraft:weathering_copper_trap_door",
+                    "current": "minecraft:weathering_copper_trapdoor"
+                  }
+                ]
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "type": "group",
+      "value": {
+        "title": "exposed_copper_trapdoor",
+        "comparisons": [
+          {
+            "name": "Definition",
+            "value": {
+              "type": "table",
+              "value": {
+                "previousLabel": "26w14a",
+                "currentLabel": "26.2-snapshot-1",
+                "values": [
+                  {
+                    "key": "type",
+                    "previous": "minecraft:weathering_copper_trap_door",
+                    "current": "minecraft:weathering_copper_trapdoor"
+                  }
+                ]
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "type": "group",
+      "value": {
+        "title": "oxidized_copper_trapdoor",
+        "comparisons": [
+          {
+            "name": "Definition",
+            "value": {
+              "type": "table",
+              "value": {
+                "previousLabel": "26w14a",
+                "currentLabel": "26.2-snapshot-1",
+                "values": [
+                  {
+                    "key": "type",
+                    "previous": "minecraft:weathering_copper_trap_door",
+                    "current": "minecraft:weathering_copper_trapdoor"
+                  }
+                ]
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "type": "group",
+      "value": {
+        "title": "weathered_copper_trapdoor",
+        "comparisons": [
+          {
+            "name": "Definition",
+            "value": {
+              "type": "table",
+              "value": {
+                "previousLabel": "26w14a",
+                "currentLabel": "26.2-snapshot-1",
+                "values": [
+                  {
+                    "key": "type",
+                    "previous": "minecraft:weathering_copper_trap_door",
+                    "current": "minecraft:weathering_copper_trapdoor"
+                  }
+                ]
+              }
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "recipes": [
+    {
+      "type": "entries",
+      "value": {
+        "name": "🗒️ List",
+        "differences": {
+          "added": [
+            "chiseled_cinnabar.json",
+            "chiseled_cinnabar_from_cinnabar_stonecutting.json",
+            "chiseled_sulfur.json",
+            "chiseled_sulfur_from_sulfur_stonecutting.json",
+            "cinnabar_bricks.json",
+            "cinnabar_bricks_from_cinnabar_stonecutting.json",
+            "cinnabar_bricks_from_polished_cinnabar_stonecutting.json",
+            "cinnabar_brick_slab.json",
+            "cinnabar_brick_slab_from_cinnabar_bricks_stonecutting.json",
+            "cinnabar_brick_slab_from_cinnabar_stonecutting.json",
+            "cinnabar_brick_slab_from_polished_cinnabar_stonecutting.json",
+            "cinnabar_brick_stairs.json",
+            "cinnabar_brick_stairs_from_cinnabar_bricks_stonecutting.json",
+            "cinnabar_brick_stairs_from_cinnabar_stonecutting.json",
+            "cinnabar_brick_stairs_from_polished_cinnabar_stonecutting.json",
+            "cinnabar_brick_wall.json",
+            "cinnabar_brick_wall_from_cinnabar_bricks_stonecutting.json",
+            "cinnabar_brick_wall_from_cinnabar_stonecutting.json",
+            "cinnabar_brick_wall_from_polished_cinnabar_stonecutting.json",
+            "cinnabar_slab.json",
+            "cinnabar_slab_from_cinnabar_stonecutting.json",
+            "cinnabar_stairs.json",
+            "cinnabar_stairs_from_cinnabar_stonecutting.json",
+            "cinnabar_wall.json",
+            "cinnabar_wall_from_cinnabar_stonecutting.json",
+            "polished_cinnabar.json",
+            "polished_cinnabar_from_cinnabar_stonecutting.json",
+            "polished_cinnabar_slab.json",
+            "polished_cinnabar_slab_from_cinnabar_stonecutting.json",
+            "polished_cinnabar_slab_from_polished_cinnabar_stonecutting.json",
+            "polished_cinnabar_stairs.json",
+            "polished_cinnabar_stairs_from_cinnabar_stonecutting.json",
+            "polished_cinnabar_stairs_from_polished_cinnabar_stonecutting.json",
+            "polished_cinnabar_wall.json",
+            "polished_cinnabar_wall_from_cinnabar_stonecutting.json",
+            "polished_cinnabar_wall_from_polished_cinnabar_stonecutting.json",
+            "polished_sulfur.json",
+            "polished_sulfur_from_sulfur_stonecutting.json",
+            "polished_sulfur_slab.json",
+            "polished_sulfur_slab_from_polished_sulfur_stonecutting.json",
+            "polished_sulfur_slab_from_sulfur_stonecutting.json",
+            "polished_sulfur_stairs.json",
+            "polished_sulfur_stairs_from_polished_sulfur_stonecutting.json",
+            "polished_sulfur_stairs_from_sulfur_stonecutting.json",
+            "polished_sulfur_wall.json",
+            "polished_sulfur_wall_from_polished_sulfur_stonecutting.json",
+            "polished_sulfur_wall_from_sulfur_stonecutting.json",
+            "potent_sulfur.json",
+            "sulfur.json",
+            "sulfur_bricks.json",
+            "sulfur_bricks_from_polished_sulfur_stonecutting.json",
+            "sulfur_bricks_from_sulfur_stonecutting.json",
+            "sulfur_brick_slab.json",
+            "sulfur_brick_slab_from_polished_sulfur_stonecutting.json",
+            "sulfur_brick_slab_from_sulfur_bricks_stonecutting.json",
+            "sulfur_brick_slab_from_sulfur_stonecutting.json",
+            "sulfur_brick_stairs.json",
+            "sulfur_brick_stairs_from_polished_sulfur_stonecutting.json",
+            "sulfur_brick_stairs_from_sulfur_bricks_stonecutting.json",
+            "sulfur_brick_stairs_from_sulfur_stonecutting.json",
+            "sulfur_brick_wall.json",
+            "sulfur_brick_wall_from_polished_sulfur_stonecutting.json",
+            "sulfur_brick_wall_from_sulfur_bricks_stonecutting.json",
+            "sulfur_brick_wall_from_sulfur_stonecutting.json",
+            "sulfur_slab.json",
+            "sulfur_slab_from_sulfur_stonecutting.json",
+            "sulfur_stairs.json",
+            "sulfur_stairs_from_sulfur_stonecutting.json",
+            "sulfur_wall.json",
+            "sulfur_wall_from_sulfur_stonecutting.json"
+          ],
+          "removed": []
+        }
+      }
+    }
+  ],
+  "datapacks": [
+    {
+      "type": "entries",
+      "value": {
+        "name": "[registries] List",
+        "differences": {
+          "added": [
+            "minecraft:sulfur_cube_archetype"
+          ],
+          "removed": []
+        }
+      }
+    }
+  ],
+  "translations": [
+    {
+      "type": "entries",
+      "value": {
+        "name": "Keys",
+        "differences": {
+          "added": [
+            "attribute.name.air_drag_modifier: Air Drag Modifier",
+            "attribute.name.bounciness: Bounciness",
+            "attribute.name.friction_modifier: Friction Modifier",
+            "biome.minecraft.sulfur_caves: Sulfur Caves",
+            "block.minecraft.chiseled_cinnabar: Chiseled Cinnabar",
+            "block.minecraft.chiseled_sulfur: Chiseled Sulfur",
+            "block.minecraft.cinnabar: Cinnabar",
+            "block.minecraft.cinnabar_brick_slab: Cinnabar Brick Slab",
+            "block.minecraft.cinnabar_brick_stairs: Cinnabar Brick Stairs",
+            "block.minecraft.cinnabar_brick_wall: Cinnabar Brick Wall",
+            "block.minecraft.cinnabar_bricks: Cinnabar Bricks",
+            "block.minecraft.cinnabar_slab: Cinnabar Slab",
+            "block.minecraft.cinnabar_stairs: Cinnabar Stairs",
+            "block.minecraft.cinnabar_wall: Cinnabar Wall",
+            "block.minecraft.polished_cinnabar: Polished Cinnabar",
+            "block.minecraft.polished_cinnabar_slab: Polished Cinnabar Slab",
+            "block.minecraft.polished_cinnabar_stairs: Polished Cinnabar Stairs",
+            "block.minecraft.polished_cinnabar_wall: Polished Cinnabar Wall",
+            "block.minecraft.polished_sulfur: Polished Sulfur Block",
+            "block.minecraft.polished_sulfur_slab: Polished Sulfur Slab",
+            "block.minecraft.polished_sulfur_stairs: Polished Sulfur Stairs",
+            "block.minecraft.polished_sulfur_wall: Polished Sulfur Wall",
+            "block.minecraft.potent_sulfur: Potent Sulfur",
+            "block.minecraft.sulfur: Sulfur",
+            "block.minecraft.sulfur_brick_slab: Sulfur Brick Slab",
+            "block.minecraft.sulfur_brick_stairs: Sulfur Brick Stairs",
+            "block.minecraft.sulfur_brick_wall: Sulfur Brick Wall",
+            "block.minecraft.sulfur_bricks: Sulfur Bricks",
+            "block.minecraft.sulfur_slab: Sulfur Slab",
+            "block.minecraft.sulfur_stairs: Sulfur Stairs",
+            "block.minecraft.sulfur_wall: Sulfur Wall",
+            "entity.minecraft.sulfur_cube: Sulfur Cube",
+            "entity.minecraft.sulfur_cube.content: Contains: %s",
+            "item.minecraft.sulfur_cube_bucket: Bucket of Sulfur Cube",
+            "item.minecraft.sulfur_cube_spawn_egg: Sulfur Cube Spawn Egg",
+            "options.graphicsApi: Graphics API",
+            "options.graphicsApi.default: Default",
+            "options.graphicsApi.opengl: Prefer OpenGL",
+            "options.graphicsApi.restart: You must restart your game to change the graphics API.",
+            "options.graphicsApi.tooltip: Which graphics API to use for rendering. Leave as Default unless you have a specific need to change this! Will take affect the next time you start the game.",
+            "options.graphicsApi.vulkan: Prefer Vulkan",
+            "subtitles.block.potent_sulfur.noxious_gas: Noxious gas appears",
+            "subtitles.entity.sulfur_cube.absorb: Sulfur Cube full",
+            "subtitles.entity.sulfur_cube.bounce: Sulfur Cube bounces",
+            "subtitles.entity.sulfur_cube.death: Sulfur Cube dies",
+            "subtitles.entity.sulfur_cube.eject: Block removed",
+            "subtitles.entity.sulfur_cube.hit: Sulfur Cube hit",
+            "subtitles.entity.sulfur_cube.hurt: Sulfur Cube hurts",
+            "subtitles.entity.sulfur_cube.push: Sulfur Cube pushed",
+            "subtitles.entity.sulfur_cube.squish: Sulfur Cube bounces",
+            "test.error.value_not_in_between: Expected %s to be in between %s and %s: was %s"
+          ],
+          "removed": [
+            "advancements.adventure.barrel_roll.description: Make a barrel roll",
+            "advancements.adventure.barrel_roll.title: Do a Barrel Roll!",
+            "advancements.adventure.build_house.description: Watch 23 blocks and a door combine into a tiny house",
+            "advancements.adventure.build_house.title: Tiny House, Assemble!",
+            "advancements.adventure.build_trap.description: Watch out for 8 iron (or copper) bars, they're dangerous in groups. When you least expect it!",
+            "advancements.adventure.build_trap.title: You Played Yourself",
+            "advancements.adventure.craft_chest.description: Craft a Chest to keep track of your blocks",
+            "advancements.adventure.craft_chest.title: Random Access Materials",
+            "advancements.adventure.craft_sword.description: Craft a Sword",
+            "advancements.adventure.craft_sword.title: Time to Fight!",
+            "advancements.adventure.crafter.description: Automate your crafting with a Crafter",
+            "advancements.adventure.crafter.title: Large Living Blocks Model",
+            "advancements.adventure.crafting_table.description: Craft a Crafting Table",
+            "advancements.adventure.crafting_table.title: Integrated Crafting Environment",
+            "advancements.adventure.door.description: Craft a Door",
+            "advancements.adventure.door.title: Seek Shelter",
+            "advancements.adventure.end_portal.description: Watch twelve End Portal Frames with Eyes of Ender inserted combine into an End Portal",
+            "advancements.adventure.end_portal.title: End of Line",
+            "advancements.adventure.eye_frame_combination.description: Move an Eye of Ender close enough to an End Portal Frame for them to combine",
+            "advancements.adventure.eye_frame_combination.title: Unifying Eye-Frame Interaction",
+            "advancements.adventure.furnace.description: Make a furnace that can smelt things for you",
+            "advancements.adventure.furnace.title: You're Cookin'",
+            "advancements.adventure.iron_ingot.description: Make your way to the iron age",
+            "advancements.adventure.iron_ingot.title: Ferrocious Ferrous",
+            "advancements.adventure.mine_a_block.description: Punch a block until it comes alive",
+            "advancements.adventure.mine_a_block.title: Mine a Block",
+            "advancements.adventure.nether_portal.description: Watch twelve Obsidian and a Flint and Steel combine into a Nether Portal",
+            "advancements.adventure.nether_portal.title: Nether-field Crafting",
+            "advancements.adventure.obsidian.description: Mine some Obsidian",
+            "advancements.adventure.obsidian.title: You require additional...",
+            "advancements.adventure.wooden_pickaxe.description: Craft a tool that can mine for you",
+            "advancements.adventure.wooden_pickaxe.title: Craft a Miner",
+            "advancements.end.barrel_roll.description: Roll a barrel to the ends of the universe",
+            "advancements.end.barrel_roll.title: Never Give Up! Trust Your Instincts!",
+            "advancements.nether.barrel_roll.description: Do it! Do it now!",
+            "advancements.nether.barrel_roll.title: Do a Barrel Roll! Do it! Do it! Do it in the Nether!",
+            "block.minecraft.copper_trap: Copper Trap",
+            "block.minecraft.exposed_copper_trap: Exposed Copper Trap",
+            "block.minecraft.iron_trap: Iron Trap",
+            "block.minecraft.oxidized_copper_trap: Oxidized Copper Trap",
+            "block.minecraft.waxed_copper_trap: Waxed Copper Trap",
+            "block.minecraft.waxed_exposed_copper_trap: Waxed Exposed Copper Trap",
+            "block.minecraft.waxed_oxidized_copper_trap: Waxed Oxidized Copper Trap",
+            "block.minecraft.waxed_weathered_copper_trap: Waxed Weathered Copper Trap",
+            "block.minecraft.weathered_copper_trap: Weathered Copper Trap",
+            "crafting.table.unable_to_place: The crafting grid needs a 2x2 block wide level surface",
+            "entity.minecraft.crafting_action: Craft",
+            "entity.minecraft.crafting_grid: Crafting Grid",
+            "entity.minecraft.follow_action: Follow Me",
+            "entity.minecraft.hovering_item: Crafting Results",
+            "entity.minecraft.living_block: Living Block",
+            "entity.minecraft.living_block_command: Living Block Command",
+            "entity.minecraft.punch_action: Punch",
+            "inventory.place_grid: Use the Craft action to place a crafting grid",
+            "item.minecraft.attack_action: Attack / Mine",
+            "item.minecraft.build_action: Build",
+            "item.minecraft.crafting_action: Craft",
+            "item.minecraft.follow_action: Follow Me",
+            "item.minecraft.group_action: Group / Ungroup",
+            "item.minecraft.highlight_action: Highlight",
+            "item.minecraft.move_action: Move",
+            "item.minecraft.punch_action: Punch",
+            "item.minecraft.select_action: Select",
+            "item.minecraft.select_group_action.details: Selected Group: %s",
+            "living_blocks.group.all: All",
+            "living_blocks.group.aqua: Aqua",
+            "living_blocks.group.blue: Blue",
+            "living_blocks.group.lime: Lime",
+            "living_blocks.group.none: None",
+            "living_blocks.group.purple: Purple",
+            "living_blocks.group.red: Red",
+            "living_blocks.group.yellow: Yellow"
+          ]
+        }
+      }
+    },
+    {
+      "type": "text",
+      "value": {
+        "title": "Changes",
+        "values": [
+          {
+            "key": "advancements.adventure.kill_a_mob.description",
+            "previous": "Have your sword kill any hostile monster",
+            "current": "Kill any hostile monster"
+          },
+          {
+            "key": "advancements.adventure.kill_a_mob.title",
+            "previous": "Monster Hunter (With Friends)",
+            "current": "Monster Hunter"
+          },
+          {
+            "key": "advancements.adventure.kill_all_mobs.description",
+            "previous": "Command an army of weapons to kill one of every hostile monster",
+            "current": "Kill one of every hostile monster"
+          },
+          {
+            "key": "advancements.adventure.ol_betsy.description",
+            "previous": "Aqcuire a Crossbow",
+            "current": "Shoot a Crossbow"
+          },
+          {
+            "key": "advancements.adventure.root.description",
+            "previous": "Herding and crafting your world",
+            "current": "Adventure, exploration and combat"
+          },
+          {
+            "key": "advancements.adventure.root.title",
+            "previous": "HerdCraft",
+            "current": "Adventure"
+          },
+          {
+            "key": "advancements.story.enter_the_end.description",
+            "previous": "Gather enough Eyes of Ender, find some End Portal Frames and enter the End",
+            "current": "Enter the End Portal"
+          },
+          {
+            "key": "advancements.story.enter_the_nether.description",
+            "previous": "Gather enough Obsidian and a Flint and Steel, then enter the Nether",
+            "current": "Build, light, and enter a Nether Portal"
+          },
+          {
+            "key": "argument.resource_or_id.invalid",
+            "previous": "Invalid id or tag",
+            "current": "Invalid ID or tag"
+          },
+          {
+            "key": "build.tooHigh",
+            "previous": "Height limit for building is %s",
+            "current": "The height limit for building is %s"
+          },
+          {
+            "key": "build.tooLow",
+            "previous": "Minimum height for building is %s",
+            "current": "The minimum height for building is %s"
+          },
+          {
+            "key": "command.failed",
+            "previous": "An unexpected error occurred trying to execute that command",
+            "current": "An unexpected error occurred while trying to execute that command"
+          },
+          {
+            "key": "commands.locate.biome.not_found",
+            "previous": "Could not find a biome of type \"%s\" within reasonable distance",
+            "current": "Could not find a biome of type \"%s\" within a reasonable distance"
+          },
+          {
+            "key": "commands.locate.poi.not_found",
+            "previous": "Could not find a point of interest of type \"%s\" within reasonable distance",
+            "current": "Could not find a point of interest of type \"%s\" within a reasonable distance"
+          },
+          {
+            "key": "commands.place.template.invalid",
+            "previous": "There is no template with id \"%s\"",
+            "current": "There is no template with ID \"%s\""
+          },
+          {
+            "key": "commands.profile_fetch.id.failure",
+            "previous": "Failed to resolved profile for id %s",
+            "current": "Failed to resolve profile for ID %s"
+          },
+          {
+            "key": "commands.profile_fetch.id.success",
+            "previous": "Resolved profile for id %s: %s",
+            "current": "Resolved profile for ID %s: %s"
+          },
+          {
+            "key": "commands.schedule.cleared.failure",
+            "previous": "No schedules with id %s",
+            "current": "No schedules with ID %s"
+          },
+          {
+            "key": "commands.schedule.cleared.success",
+            "previous": "Removed %s schedule(s) with id %s",
+            "current": "Removed %s schedule(s) with ID %s"
+          },
+          {
+            "key": "datapackFailure.title",
+            "previous": "Errors in currently selected data packs prevented the world from loading.\n\nYou can either try to load it with only the vanilla data pack (\"safe mode\"), or go back to the title screen and fix it manually.",
+            "current": "Errors in the currently selected data pack(s) prevented the world from loading.\n\nYou can either try to load it with only the vanilla data pack (\"Safe Mode\"), or go back to the title screen and fix it manually."
+          },
+          {
+            "key": "filled_map.id",
+            "previous": "Id #%s",
+            "current": "ID #%s"
+          },
+          {
+            "key": "gamerule.lavaSourceConversion.description",
+            "previous": "When flowing lava is surrounded on two sides by lava sources it converts into a source.",
+            "current": "When flowing lava is surrounded on two sides by lava sources it, converts into a source."
+          },
+          {
+            "key": "gamerule.playersNetherPortalCreativeDelay",
+            "previous": "Player's Nether portal delay in creative mode",
+            "current": "Player's Nether Portal delay in creative mode"
+          },
+          {
+            "key": "gamerule.playersNetherPortalCreativeDelay.description",
+            "previous": "Time (in ticks) that a creative mode player needs to stand in a Nether portal before changing dimensions.",
+            "current": "Time (in ticks) that a creative mode player needs to stand in a Nether Portal before changing dimensions."
+          },
+          {
+            "key": "gamerule.playersNetherPortalDefaultDelay",
+            "previous": "Player's Nether portal delay in non-creative mode",
+            "current": "Player's Nether Portal delay in non-creative mode"
+          },
+          {
+            "key": "gamerule.playersNetherPortalDefaultDelay.description",
+            "previous": "Time (in ticks) that a non-creative mode player needs to stand in a Nether portal before changing dimensions.",
+            "current": "Time (in ticks) that a non-creative mode player needs to stand in a Nether Portal before changing dimensions."
+          },
+          {
+            "key": "gamerule.waterSourceConversion.description",
+            "previous": "When flowing water is surrounded on two sides by water sources it converts into a source.",
+            "current": "When flowing water is surrounded on two sides by water sources, it converts into a source."
+          },
+          {
+            "key": "gui.abuseReport.discard.title",
+            "previous": "Discard report and comments?",
+            "current": "Discard Report and Comments?"
+          },
+          {
+            "key": "gui.abuseReport.draft.title",
+            "previous": "Edit draft chat report?",
+            "current": "Edit Draft Chat Report?"
+          },
+          {
+            "key": "gui.abuseReport.error.title",
+            "previous": "Problem sending your report",
+            "current": "Problem Sending Your Report"
+          },
+          {
+            "key": "gui.abuseReport.sending.title",
+            "previous": "Sending your report...",
+            "current": "Sending Your Report..."
+          },
+          {
+            "key": "gui.abuseReport.sent.title",
+            "previous": "Report sent",
+            "current": "Report Sent"
+          },
+          {
+            "key": "gui.banned.title.permanent",
+            "previous": "Account permanently banned",
+            "current": "Account Permanently Banned"
+          },
+          {
+            "key": "gui.banned.title.temporary",
+            "previous": "Account temporarily suspended",
+            "current": "Account Temporarily Suspended"
+          },
+          {
+            "key": "gui.chatReport.discard.title",
+            "previous": "Discard report and comments?",
+            "current": "Discard Report and Comments?"
+          },
+          {
+            "key": "gui.chatReport.draft.title",
+            "previous": "Edit draft chat report?",
+            "current": "Edit Draft Chat Report?"
+          },
+          {
+            "key": "mco.configure.world.leave.question.line1",
+            "previous": "If you leave this Realm you won't see it unless you are invited again",
+            "current": "If you leave this Realm, you won't see it unless you are invited again"
+          },
+          {
+            "key": "mco.configure.world.restore.download.question.line1",
+            "previous": "The world will be downloaded and added to your single player worlds.",
+            "current": "The world will be downloaded and added to your singleplayer worlds."
+          },
+          {
+            "key": "mco.selectServer.popup",
+            "previous": "Realms is a safe, simple way to enjoy an online Minecraft world with up to ten friends at a time. It supports loads of minigames and plenty of custom worlds! Only the owner of the realm needs to pay.",
+            "current": "Realms is a safe, simple way to enjoy an online Minecraft world with up to ten friends at a time. It supports loads of minigames and plenty of custom worlds! Only the owner of the Realm needs to pay."
+          },
+          {
+            "key": "options.allowServerListing.tooltip",
+            "previous": "Servers may list online players as part of their public status.\n\nWith this option off your name will not show up in such lists.",
+            "current": "Servers may list online players as part of their public status.\n\nWith this option off, your name will not show up in such lists."
+          },
+          {
+            "key": "options.directionalAudio.on.tooltip",
+            "previous": "Uses HRTF-based directional audio to improve the simulation of 3D sound. Requires HRTF compatible audio hardware, and is best experienced with headphones.",
+            "current": "Uses HRTF-based directional audio to improve the simulation of 3D sound. Requires HRTF-compatible audio hardware, and is best experienced with headphones."
+          },
+          {
+            "key": "options.screenEffectScale.tooltip",
+            "previous": "Strength of nausea and Nether portal screen distortion effects.\n\nAt lower values, the nausea effect is replaced with a green overlay.",
+            "current": "Strength of Nausea and Nether Portal screen distortion effects.\n\nAt lower values, the Nausea effect is replaced with a green overlay."
+          },
+          {
+            "key": "options.textureFiltering.anisotropic.tooltip",
+            "previous": "A hardware based filtering method, but impacts performance and significantly impacts video memory usage. May not be supported on all hardware.",
+            "current": "A hardware-based filtering method, but impacts performance and significantly impacts video memory usage. May not be supported on all hardware."
+          },
+          {
+            "key": "options.textureFiltering.rgss.tooltip",
+            "previous": "(Rotated Grid Super Sampling)\n\nA shader based filtering method that improves texture quality with a moderate performance impact.",
+            "current": "(Rotated Grid Super Sampling)\n\nA shader-based filtering method that improves texture quality with a moderate performance impact."
+          },
+          {
+            "key": "selectWorld.backupJoinSkipButton",
+            "previous": "I know what I'm doing!",
+            "current": "I Know What I'm Doing!"
+          }
+        ]
+      }
+    }
+  ],
+  "file_structure": [
+    {
+      "type": "entries",
+      "value": {
+        "name": "generated",
+        "differences": {
+          "added": [
+            "reports/minecraft/components/item/chiseled_cinnabar.json",
+            "reports/minecraft/components/item/chiseled_sulfur.json",
+            "reports/minecraft/components/item/cinnabar.json",
+            "reports/minecraft/components/item/cinnabar_bricks.json",
+            "reports/minecraft/components/item/cinnabar_brick_slab.json",
+            "reports/minecraft/components/item/cinnabar_brick_stairs.json",
+            "reports/minecraft/components/item/cinnabar_brick_wall.json",
+            "reports/minecraft/components/item/cinnabar_slab.json",
+            "reports/minecraft/components/item/cinnabar_stairs.json",
+            "reports/minecraft/components/item/cinnabar_wall.json",
+            "reports/minecraft/components/item/polished_cinnabar.json",
+            "reports/minecraft/components/item/polished_cinnabar_slab.json",
+            "reports/minecraft/components/item/polished_cinnabar_stairs.json",
+            "reports/minecraft/components/item/polished_cinnabar_wall.json",
+            "reports/minecraft/components/item/polished_sulfur.json",
+            "reports/minecraft/components/item/polished_sulfur_slab.json",
+            "reports/minecraft/components/item/polished_sulfur_stairs.json",
+            "reports/minecraft/components/item/polished_sulfur_wall.json",
+            "reports/minecraft/components/item/potent_sulfur.json",
+            "reports/minecraft/components/item/sulfur.json",
+            "reports/minecraft/components/item/sulfur_bricks.json",
+            "reports/minecraft/components/item/sulfur_brick_slab.json",
+            "reports/minecraft/components/item/sulfur_brick_stairs.json",
+            "reports/minecraft/components/item/sulfur_brick_wall.json",
+            "reports/minecraft/components/item/sulfur_cube_bucket.json",
+            "reports/minecraft/components/item/sulfur_cube_spawn_egg.json",
+            "reports/minecraft/components/item/sulfur_slab.json",
+            "reports/minecraft/components/item/sulfur_stairs.json",
+            "reports/minecraft/components/item/sulfur_wall.json"
+          ],
+          "removed": [
+            "reports/minecraft/components/item/attack_action.json",
+            "reports/minecraft/components/item/build_action.json",
+            "reports/minecraft/components/item/copper_trap.json",
+            "reports/minecraft/components/item/crafting_action.json",
+            "reports/minecraft/components/item/exposed_copper_trap.json",
+            "reports/minecraft/components/item/follow_action.json",
+            "reports/minecraft/components/item/group_action.json",
+            "reports/minecraft/components/item/highlight_action.json",
+            "reports/minecraft/components/item/iron_trap.json",
+            "reports/minecraft/components/item/move_action.json",
+            "reports/minecraft/components/item/oxidized_copper_trap.json",
+            "reports/minecraft/components/item/punch_action.json",
+            "reports/minecraft/components/item/waxed_copper_trap.json",
+            "reports/minecraft/components/item/waxed_exposed_copper_trap.json",
+            "reports/minecraft/components/item/waxed_oxidized_copper_trap.json",
+            "reports/minecraft/components/item/waxed_weathered_copper_trap.json",
+            "reports/minecraft/components/item/weathered_copper_trap.json"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "data",
+        "differences": {
+          "added": [
+            "minecraft/advancement/adventure/adventuring_time.json",
+            "minecraft/advancement/adventure/arbalistic.json",
+            "minecraft/advancement/adventure/avoid_vibration.json",
+            "minecraft/advancement/adventure/blowback.json",
+            "minecraft/advancement/adventure/brush_armadillo.json",
+            "minecraft/advancement/adventure/bullseye.json",
+            "minecraft/advancement/adventure/crafters_crafting_crafters.json",
+            "minecraft/advancement/adventure/craft_decorated_pot_using_only_sherds.json",
+            "minecraft/advancement/adventure/fall_from_world_height.json",
+            "minecraft/advancement/adventure/heart_transplanter.json",
+            "minecraft/advancement/adventure/hero_of_the_village.json",
+            "minecraft/advancement/adventure/honey_block_slide.json",
+            "minecraft/advancement/adventure/kill_mob_near_sculk_catalyst.json",
+            "minecraft/advancement/adventure/lighten_up.json",
+            "minecraft/advancement/adventure/lightning_rod_with_villager_no_fire.json",
+            "minecraft/advancement/adventure/minecraft_trials_edition.json",
+            "minecraft/advancement/adventure/ol_betsy.json",
+            "minecraft/advancement/adventure/overoverkill.json",
+            "minecraft/advancement/adventure/play_jukebox_in_meadows.json",
+            "minecraft/advancement/adventure/read_power_of_chiseled_bookshelf.json",
+            "minecraft/advancement/adventure/revaulting.json",
+            "minecraft/advancement/adventure/salvage_sherd.json",
+            "minecraft/advancement/adventure/shoot_arrow.json",
+            "minecraft/advancement/adventure/sleep_in_bed.json",
+            "minecraft/advancement/adventure/sniper_duel.json",
+            "minecraft/advancement/adventure/spear_many_mobs.json",
+            "minecraft/advancement/adventure/spyglass_at_dragon.json",
+            "minecraft/advancement/adventure/spyglass_at_ghast.json",
+            "minecraft/advancement/adventure/spyglass_at_parrot.json",
+            "minecraft/advancement/adventure/summon_iron_golem.json",
+            "minecraft/advancement/adventure/throw_trident.json",
+            "minecraft/advancement/adventure/totem_of_undying.json",
+            "minecraft/advancement/adventure/trade.json",
+            "minecraft/advancement/adventure/trade_at_world_height.json",
+            "minecraft/advancement/adventure/trim_with_all_exclusive_armor_patterns.json",
+            "minecraft/advancement/adventure/trim_with_any_armor_pattern.json",
+            "minecraft/advancement/adventure/two_birds_one_arrow.json",
+            "minecraft/advancement/adventure/under_lock_and_key.json",
+            "minecraft/advancement/adventure/use_lodestone.json",
+            "minecraft/advancement/adventure/very_very_frightening.json",
+            "minecraft/advancement/adventure/voluntary_exile.json",
+            "minecraft/advancement/adventure/walk_on_powder_snow_with_leather_boots.json",
+            "minecraft/advancement/adventure/whos_the_pillager_now.json",
+            "minecraft/advancement/adventure/who_needs_rockets.json",
+            "minecraft/advancement/end/dragon_breath.json",
+            "minecraft/advancement/end/dragon_egg.json",
+            "minecraft/advancement/end/elytra.json",
+            "minecraft/advancement/end/enter_end_gateway.json",
+            "minecraft/advancement/end/find_end_city.json",
+            "minecraft/advancement/end/kill_dragon.json",
+            "minecraft/advancement/end/levitate.json",
+            "minecraft/advancement/end/respawn_dragon.json",
+            "minecraft/advancement/end/root.json",
+            "minecraft/advancement/husbandry/allay_deliver_cake_to_note_block.json",
+            "minecraft/advancement/husbandry/allay_deliver_item_to_player.json",
+            "minecraft/advancement/husbandry/axolotl_in_a_bucket.json",
+            "minecraft/advancement/husbandry/balanced_diet.json",
+            "minecraft/advancement/husbandry/bred_all_animals.json",
+            "minecraft/advancement/husbandry/breed_an_animal.json",
+            "minecraft/advancement/husbandry/complete_catalogue.json",
+            "minecraft/advancement/husbandry/feed_snifflet.json",
+            "minecraft/advancement/husbandry/fishy_business.json",
+            "minecraft/advancement/husbandry/froglights.json",
+            "minecraft/advancement/husbandry/kill_axolotl_target.json",
+            "minecraft/advancement/husbandry/leash_all_frog_variants.json",
+            "minecraft/advancement/husbandry/make_a_sign_glow.json",
+            "minecraft/advancement/husbandry/obtain_netherite_hoe.json",
+            "minecraft/advancement/husbandry/obtain_sniffer_egg.json",
+            "minecraft/advancement/husbandry/place_dried_ghast_in_water.json",
+            "minecraft/advancement/husbandry/plant_any_sniffer_seed.json",
+            "minecraft/advancement/husbandry/plant_seed.json",
+            "minecraft/advancement/husbandry/remove_wolf_armor.json",
+            "minecraft/advancement/husbandry/repair_wolf_armor.json",
+            "minecraft/advancement/husbandry/ride_a_boat_with_a_goat.json",
+            "minecraft/advancement/husbandry/root.json",
+            "minecraft/advancement/husbandry/safely_harvest_honey.json",
+            "minecraft/advancement/husbandry/silk_touch_nest.json",
+            "minecraft/advancement/husbandry/tactical_fishing.json",
+            "minecraft/advancement/husbandry/tadpole_in_a_bucket.json",
+            "minecraft/advancement/husbandry/tame_an_animal.json",
+            "minecraft/advancement/husbandry/wax_off.json",
+            "minecraft/advancement/husbandry/wax_on.json",
+            "minecraft/advancement/husbandry/whole_pack.json",
+            "minecraft/advancement/nether/all_effects.json",
+            "minecraft/advancement/nether/all_potions.json",
+            "minecraft/advancement/nether/brew_potion.json",
+            "minecraft/advancement/nether/charge_respawn_anchor.json",
+            "minecraft/advancement/nether/create_beacon.json",
+            "minecraft/advancement/nether/create_full_beacon.json",
+            "minecraft/advancement/nether/distract_piglin.json",
+            "minecraft/advancement/nether/explore_nether.json",
+            "minecraft/advancement/nether/fast_travel.json",
+            "minecraft/advancement/nether/find_bastion.json",
+            "minecraft/advancement/nether/find_fortress.json",
+            "minecraft/advancement/nether/get_wither_skull.json",
+            "minecraft/advancement/nether/loot_bastion.json",
+            "minecraft/advancement/nether/netherite_armor.json",
+            "minecraft/advancement/nether/obtain_ancient_debris.json",
+            "minecraft/advancement/nether/obtain_blaze_rod.json",
+            "minecraft/advancement/nether/obtain_crying_obsidian.json",
+            "minecraft/advancement/nether/return_to_sender.json",
+            "minecraft/advancement/nether/ride_strider.json",
+            "minecraft/advancement/nether/ride_strider_in_overworld_lava.json",
+            "minecraft/advancement/nether/root.json",
+            "minecraft/advancement/nether/summon_wither.json",
+            "minecraft/advancement/nether/uneasy_alliance.json",
+            "minecraft/advancement/recipes/building_blocks/chiseled_cinnabar.json",
+            "minecraft/advancement/recipes/building_blocks/chiseled_cinnabar_from_cinnabar_stonecutting.json",
+            "minecraft/advancement/recipes/building_blocks/chiseled_sulfur.json",
+            "minecraft/advancement/recipes/building_blocks/chiseled_sulfur_from_sulfur_stonecutting.json",
+            "minecraft/advancement/recipes/building_blocks/cinnabar_bricks.json",
+            "minecraft/advancement/recipes/building_blocks/cinnabar_bricks_from_cinnabar_stonecutting.json",
+            "minecraft/advancement/recipes/building_blocks/cinnabar_bricks_from_polished_cinnabar_stonecutting.json",
+            "minecraft/advancement/recipes/building_blocks/cinnabar_brick_slab.json",
+            "minecraft/advancement/recipes/building_blocks/cinnabar_brick_slab_from_cinnabar_bricks_stonecutting.json",
+            "minecraft/advancement/recipes/building_blocks/cinnabar_brick_slab_from_cinnabar_stonecutting.json",
+            "minecraft/advancement/recipes/building_blocks/cinnabar_brick_slab_from_polished_cinnabar_stonecutting.json",
+            "minecraft/advancement/recipes/building_blocks/cinnabar_brick_stairs.json",
+            "minecraft/advancement/recipes/building_blocks/cinnabar_brick_stairs_from_cinnabar_bricks_stonecutting.json",
+            "minecraft/advancement/recipes/building_blocks/cinnabar_brick_stairs_from_cinnabar_stonecutting.json",
+            "minecraft/advancement/recipes/building_blocks/cinnabar_brick_stairs_from_polished_cinnabar_stonecutting.json",
+            "minecraft/advancement/recipes/building_blocks/cinnabar_slab.json",
+            "minecraft/advancement/recipes/building_blocks/cinnabar_slab_from_cinnabar_stonecutting.json",
+            "minecraft/advancement/recipes/building_blocks/cinnabar_stairs.json",
+            "minecraft/advancement/recipes/building_blocks/cinnabar_stairs_from_cinnabar_stonecutting.json",
+            "minecraft/advancement/recipes/building_blocks/polished_cinnabar.json",
+            "minecraft/advancement/recipes/building_blocks/polished_cinnabar_from_cinnabar_stonecutting.json",
+            "minecraft/advancement/recipes/building_blocks/polished_cinnabar_slab.json",
+            "minecraft/advancement/recipes/building_blocks/polished_cinnabar_slab_from_cinnabar_stonecutting.json",
+            "minecraft/advancement/recipes/building_blocks/polished_cinnabar_slab_from_polished_cinnabar_stonecutting.json",
+            "minecraft/advancement/recipes/building_blocks/polished_cinnabar_stairs.json",
+            "minecraft/advancement/recipes/building_blocks/polished_cinnabar_stairs_from_cinnabar_stonecutting.json",
+            "minecraft/advancement/recipes/building_blocks/polished_cinnabar_stairs_from_polished_cinnabar_stonecutting.json",
+            "minecraft/advancement/recipes/building_blocks/polished_sulfur.json",
+            "minecraft/advancement/recipes/building_blocks/polished_sulfur_from_sulfur_stonecutting.json",
+            "minecraft/advancement/recipes/building_blocks/polished_sulfur_slab.json",
+            "minecraft/advancement/recipes/building_blocks/polished_sulfur_slab_from_polished_sulfur_stonecutting.json",
+            "minecraft/advancement/recipes/building_blocks/polished_sulfur_slab_from_sulfur_stonecutting.json",
+            "minecraft/advancement/recipes/building_blocks/polished_sulfur_stairs.json",
+            "minecraft/advancement/recipes/building_blocks/polished_sulfur_stairs_from_polished_sulfur_stonecutting.json",
+            "minecraft/advancement/recipes/building_blocks/polished_sulfur_stairs_from_sulfur_stonecutting.json",
+            "minecraft/advancement/recipes/building_blocks/potent_sulfur.json",
+            "minecraft/advancement/recipes/building_blocks/sulfur.json",
+            "minecraft/advancement/recipes/building_blocks/sulfur_bricks.json",
+            "minecraft/advancement/recipes/building_blocks/sulfur_bricks_from_polished_sulfur_stonecutting.json",
+            "minecraft/advancement/recipes/building_blocks/sulfur_bricks_from_sulfur_stonecutting.json",
+            "minecraft/advancement/recipes/building_blocks/sulfur_brick_slab.json",
+            "minecraft/advancement/recipes/building_blocks/sulfur_brick_slab_from_polished_sulfur_stonecutting.json",
+            "minecraft/advancement/recipes/building_blocks/sulfur_brick_slab_from_sulfur_bricks_stonecutting.json",
+            "minecraft/advancement/recipes/building_blocks/sulfur_brick_slab_from_sulfur_stonecutting.json",
+            "minecraft/advancement/recipes/building_blocks/sulfur_brick_stairs.json",
+            "minecraft/advancement/recipes/building_blocks/sulfur_brick_stairs_from_polished_sulfur_stonecutting.json",
+            "minecraft/advancement/recipes/building_blocks/sulfur_brick_stairs_from_sulfur_bricks_stonecutting.json",
+            "minecraft/advancement/recipes/building_blocks/sulfur_brick_stairs_from_sulfur_stonecutting.json",
+            "minecraft/advancement/recipes/building_blocks/sulfur_slab.json",
+            "minecraft/advancement/recipes/building_blocks/sulfur_slab_from_sulfur_stonecutting.json",
+            "minecraft/advancement/recipes/building_blocks/sulfur_stairs.json",
+            "minecraft/advancement/recipes/building_blocks/sulfur_stairs_from_sulfur_stonecutting.json",
+            "minecraft/advancement/recipes/decorations/cinnabar_brick_wall.json",
+            "minecraft/advancement/recipes/decorations/cinnabar_brick_wall_from_cinnabar_bricks_stonecutting.json",
+            "minecraft/advancement/recipes/decorations/cinnabar_brick_wall_from_cinnabar_stonecutting.json",
+            "minecraft/advancement/recipes/decorations/cinnabar_brick_wall_from_polished_cinnabar_stonecutting.json",
+            "minecraft/advancement/recipes/decorations/cinnabar_wall.json",
+            "minecraft/advancement/recipes/decorations/cinnabar_wall_from_cinnabar_stonecutting.json",
+            "minecraft/advancement/recipes/decorations/polished_cinnabar_wall.json",
+            "minecraft/advancement/recipes/decorations/polished_cinnabar_wall_from_cinnabar_stonecutting.json",
+            "minecraft/advancement/recipes/decorations/polished_cinnabar_wall_from_polished_cinnabar_stonecutting.json",
+            "minecraft/advancement/recipes/decorations/polished_sulfur_wall.json",
+            "minecraft/advancement/recipes/decorations/polished_sulfur_wall_from_polished_sulfur_stonecutting.json",
+            "minecraft/advancement/recipes/decorations/polished_sulfur_wall_from_sulfur_stonecutting.json",
+            "minecraft/advancement/recipes/decorations/sulfur_brick_wall.json",
+            "minecraft/advancement/recipes/decorations/sulfur_brick_wall_from_polished_sulfur_stonecutting.json",
+            "minecraft/advancement/recipes/decorations/sulfur_brick_wall_from_sulfur_bricks_stonecutting.json",
+            "minecraft/advancement/recipes/decorations/sulfur_brick_wall_from_sulfur_stonecutting.json",
+            "minecraft/advancement/recipes/decorations/sulfur_wall.json",
+            "minecraft/advancement/recipes/decorations/sulfur_wall_from_sulfur_stonecutting.json",
+            "minecraft/advancement/story/cure_zombie_villager.json",
+            "minecraft/advancement/story/deflect_arrow.json",
+            "minecraft/advancement/story/enchant_item.json",
+            "minecraft/advancement/story/enter_the_end.json",
+            "minecraft/advancement/story/enter_the_nether.json",
+            "minecraft/advancement/story/follow_ender_eye.json",
+            "minecraft/advancement/story/form_obsidian.json",
+            "minecraft/advancement/story/iron_tools.json",
+            "minecraft/advancement/story/lava_bucket.json",
+            "minecraft/advancement/story/mine_diamond.json",
+            "minecraft/advancement/story/mine_stone.json",
+            "minecraft/advancement/story/obtain_armor.json",
+            "minecraft/advancement/story/root.json",
+            "minecraft/advancement/story/shiny_gear.json",
+            "minecraft/advancement/story/smelt_iron.json",
+            "minecraft/advancement/story/upgrade_tools.json",
+            "minecraft/loot_table/blocks/chiseled_cinnabar.json",
+            "minecraft/loot_table/blocks/chiseled_sulfur.json",
+            "minecraft/loot_table/blocks/cinnabar.json",
+            "minecraft/loot_table/blocks/cinnabar_bricks.json",
+            "minecraft/loot_table/blocks/cinnabar_brick_slab.json",
+            "minecraft/loot_table/blocks/cinnabar_brick_stairs.json",
+            "minecraft/loot_table/blocks/cinnabar_brick_wall.json",
+            "minecraft/loot_table/blocks/cinnabar_slab.json",
+            "minecraft/loot_table/blocks/cinnabar_stairs.json",
+            "minecraft/loot_table/blocks/cinnabar_wall.json",
+            "minecraft/loot_table/blocks/polished_cinnabar.json",
+            "minecraft/loot_table/blocks/polished_cinnabar_slab.json",
+            "minecraft/loot_table/blocks/polished_cinnabar_stairs.json",
+            "minecraft/loot_table/blocks/polished_cinnabar_wall.json",
+            "minecraft/loot_table/blocks/polished_sulfur.json",
+            "minecraft/loot_table/blocks/polished_sulfur_slab.json",
+            "minecraft/loot_table/blocks/polished_sulfur_stairs.json",
+            "minecraft/loot_table/blocks/polished_sulfur_wall.json",
+            "minecraft/loot_table/blocks/potent_sulfur.json",
+            "minecraft/loot_table/blocks/sulfur.json",
+            "minecraft/loot_table/blocks/sulfur_bricks.json",
+            "minecraft/loot_table/blocks/sulfur_brick_slab.json",
+            "minecraft/loot_table/blocks/sulfur_brick_stairs.json",
+            "minecraft/loot_table/blocks/sulfur_brick_wall.json",
+            "minecraft/loot_table/blocks/sulfur_slab.json",
+            "minecraft/loot_table/blocks/sulfur_stairs.json",
+            "minecraft/loot_table/blocks/sulfur_wall.json",
+            "minecraft/loot_table/entities/sulfur_cube.json",
+            "minecraft/recipe/chiseled_cinnabar.json",
+            "minecraft/recipe/chiseled_cinnabar_from_cinnabar_stonecutting.json",
+            "minecraft/recipe/chiseled_sulfur.json",
+            "minecraft/recipe/chiseled_sulfur_from_sulfur_stonecutting.json",
+            "minecraft/recipe/cinnabar_bricks.json",
+            "minecraft/recipe/cinnabar_bricks_from_cinnabar_stonecutting.json",
+            "minecraft/recipe/cinnabar_bricks_from_polished_cinnabar_stonecutting.json",
+            "minecraft/recipe/cinnabar_brick_slab.json",
+            "minecraft/recipe/cinnabar_brick_slab_from_cinnabar_bricks_stonecutting.json",
+            "minecraft/recipe/cinnabar_brick_slab_from_cinnabar_stonecutting.json",
+            "minecraft/recipe/cinnabar_brick_slab_from_polished_cinnabar_stonecutting.json",
+            "minecraft/recipe/cinnabar_brick_stairs.json",
+            "minecraft/recipe/cinnabar_brick_stairs_from_cinnabar_bricks_stonecutting.json",
+            "minecraft/recipe/cinnabar_brick_stairs_from_cinnabar_stonecutting.json",
+            "minecraft/recipe/cinnabar_brick_stairs_from_polished_cinnabar_stonecutting.json",
+            "minecraft/recipe/cinnabar_brick_wall.json",
+            "minecraft/recipe/cinnabar_brick_wall_from_cinnabar_bricks_stonecutting.json",
+            "minecraft/recipe/cinnabar_brick_wall_from_cinnabar_stonecutting.json",
+            "minecraft/recipe/cinnabar_brick_wall_from_polished_cinnabar_stonecutting.json",
+            "minecraft/recipe/cinnabar_slab.json",
+            "minecraft/recipe/cinnabar_slab_from_cinnabar_stonecutting.json",
+            "minecraft/recipe/cinnabar_stairs.json",
+            "minecraft/recipe/cinnabar_stairs_from_cinnabar_stonecutting.json",
+            "minecraft/recipe/cinnabar_wall.json",
+            "minecraft/recipe/cinnabar_wall_from_cinnabar_stonecutting.json",
+            "minecraft/recipe/polished_cinnabar.json",
+            "minecraft/recipe/polished_cinnabar_from_cinnabar_stonecutting.json",
+            "minecraft/recipe/polished_cinnabar_slab.json",
+            "minecraft/recipe/polished_cinnabar_slab_from_cinnabar_stonecutting.json",
+            "minecraft/recipe/polished_cinnabar_slab_from_polished_cinnabar_stonecutting.json",
+            "minecraft/recipe/polished_cinnabar_stairs.json",
+            "minecraft/recipe/polished_cinnabar_stairs_from_cinnabar_stonecutting.json",
+            "minecraft/recipe/polished_cinnabar_stairs_from_polished_cinnabar_stonecutting.json",
+            "minecraft/recipe/polished_cinnabar_wall.json",
+            "minecraft/recipe/polished_cinnabar_wall_from_cinnabar_stonecutting.json",
+            "minecraft/recipe/polished_cinnabar_wall_from_polished_cinnabar_stonecutting.json",
+            "minecraft/recipe/polished_sulfur.json",
+            "minecraft/recipe/polished_sulfur_from_sulfur_stonecutting.json",
+            "minecraft/recipe/polished_sulfur_slab.json",
+            "minecraft/recipe/polished_sulfur_slab_from_polished_sulfur_stonecutting.json",
+            "minecraft/recipe/polished_sulfur_slab_from_sulfur_stonecutting.json",
+            "minecraft/recipe/polished_sulfur_stairs.json",
+            "minecraft/recipe/polished_sulfur_stairs_from_polished_sulfur_stonecutting.json",
+            "minecraft/recipe/polished_sulfur_stairs_from_sulfur_stonecutting.json",
+            "minecraft/recipe/polished_sulfur_wall.json",
+            "minecraft/recipe/polished_sulfur_wall_from_polished_sulfur_stonecutting.json",
+            "minecraft/recipe/polished_sulfur_wall_from_sulfur_stonecutting.json",
+            "minecraft/recipe/potent_sulfur.json",
+            "minecraft/recipe/sulfur.json",
+            "minecraft/recipe/sulfur_bricks.json",
+            "minecraft/recipe/sulfur_bricks_from_polished_sulfur_stonecutting.json",
+            "minecraft/recipe/sulfur_bricks_from_sulfur_stonecutting.json",
+            "minecraft/recipe/sulfur_brick_slab.json",
+            "minecraft/recipe/sulfur_brick_slab_from_polished_sulfur_stonecutting.json",
+            "minecraft/recipe/sulfur_brick_slab_from_sulfur_bricks_stonecutting.json",
+            "minecraft/recipe/sulfur_brick_slab_from_sulfur_stonecutting.json",
+            "minecraft/recipe/sulfur_brick_stairs.json",
+            "minecraft/recipe/sulfur_brick_stairs_from_polished_sulfur_stonecutting.json",
+            "minecraft/recipe/sulfur_brick_stairs_from_sulfur_bricks_stonecutting.json",
+            "minecraft/recipe/sulfur_brick_stairs_from_sulfur_stonecutting.json",
+            "minecraft/recipe/sulfur_brick_wall.json",
+            "minecraft/recipe/sulfur_brick_wall_from_polished_sulfur_stonecutting.json",
+            "minecraft/recipe/sulfur_brick_wall_from_sulfur_bricks_stonecutting.json",
+            "minecraft/recipe/sulfur_brick_wall_from_sulfur_stonecutting.json",
+            "minecraft/recipe/sulfur_slab.json",
+            "minecraft/recipe/sulfur_slab_from_sulfur_stonecutting.json",
+            "minecraft/recipe/sulfur_stairs.json",
+            "minecraft/recipe/sulfur_stairs_from_sulfur_stonecutting.json",
+            "minecraft/recipe/sulfur_wall.json",
+            "minecraft/recipe/sulfur_wall_from_sulfur_stonecutting.json",
+            "minecraft/structure/spring/sulfur_spring_extra_large_1.nbt",
+            "minecraft/structure/spring/sulfur_spring_large_1.nbt",
+            "minecraft/structure/spring/sulfur_spring_large_2.nbt",
+            "minecraft/structure/spring/sulfur_spring_medium_1.nbt",
+            "minecraft/structure/spring/sulfur_spring_medium_2.nbt",
+            "minecraft/structure/spring/sulfur_spring_medium_3.nbt",
+            "minecraft/structure/spring/sulfur_spring_small_1.nbt",
+            "minecraft/structure/spring/sulfur_spring_small_2.nbt",
+            "minecraft/structure/spring/sulfur_spring_small_3.nbt",
+            "minecraft/structure/spring/sulfur_spring_small_4.nbt",
+            "minecraft/sulfur_cube_archetype/bouncy.json",
+            "minecraft/sulfur_cube_archetype/fast_flat.json",
+            "minecraft/sulfur_cube_archetype/fast_sliding.json",
+            "minecraft/sulfur_cube_archetype/high_resistance.json",
+            "minecraft/sulfur_cube_archetype/light.json",
+            "minecraft/sulfur_cube_archetype/regular.json",
+            "minecraft/sulfur_cube_archetype/slow_flat.json",
+            "minecraft/sulfur_cube_archetype/slow_sliding.json",
+            "minecraft/sulfur_cube_archetype/sticky.json",
+            "minecraft/tags/block/concrete.json",
+            "minecraft/tags/block/concrete_powders.json",
+            "minecraft/tags/block/glazed_terracotta.json",
+            "minecraft/tags/block/shears_extreme_breaking_speed.json",
+            "minecraft/tags/block/shears_major_breaking_speed.json",
+            "minecraft/tags/block/shears_minor_breaking_speed.json",
+            "minecraft/tags/block/suppresses_bounce.json",
+            "minecraft/tags/damage_type/sulfur_cube_with_block_immune_to.json",
+            "minecraft/tags/item/concrete.json",
+            "minecraft/tags/item/concrete_powders.json",
+            "minecraft/tags/item/glazed_terracotta.json",
+            "minecraft/tags/item/sulfur_cube_archetype/bouncy.json",
+            "minecraft/tags/item/sulfur_cube_archetype/fast_flat.json",
+            "minecraft/tags/item/sulfur_cube_archetype/fast_sliding.json",
+            "minecraft/tags/item/sulfur_cube_archetype/high_resistance.json",
+            "minecraft/tags/item/sulfur_cube_archetype/light.json",
+            "minecraft/tags/item/sulfur_cube_archetype/regular.json",
+            "minecraft/tags/item/sulfur_cube_archetype/slow_flat.json",
+            "minecraft/tags/item/sulfur_cube_archetype/slow_sliding.json",
+            "minecraft/tags/item/sulfur_cube_archetype/sticky.json",
+            "minecraft/tags/item/sulfur_cube_food.json",
+            "minecraft/tags/item/sulfur_cube_swallowable.json",
+            "minecraft/worldgen/biome/sulfur_caves.json",
+            "minecraft/worldgen/configured_feature/rooted_sulfur_spring.json",
+            "minecraft/worldgen/configured_feature/sulfur_pool.json",
+            "minecraft/worldgen/configured_feature/sulfur_spring.json",
+            "minecraft/worldgen/noise/sulfur_cave_gradient.json",
+            "minecraft/worldgen/placed_feature/rooted_sulfur_spring.json",
+            "minecraft/worldgen/placed_feature/sulfur_pool.json"
+          ],
+          "removed": [
+            "minecraft/advancement/adventure/barrel_roll.json",
+            "minecraft/advancement/adventure/build_house.json",
+            "minecraft/advancement/adventure/build_trap.json",
+            "minecraft/advancement/adventure/crafter.json",
+            "minecraft/advancement/adventure/craft_chest.json",
+            "minecraft/advancement/adventure/craft_end_portal.json",
+            "minecraft/advancement/adventure/craft_nether_portal.json",
+            "minecraft/advancement/adventure/craft_sword.json",
+            "minecraft/advancement/adventure/craft_table.json",
+            "minecraft/advancement/adventure/door.json",
+            "minecraft/advancement/adventure/end_barrel_roll.json",
+            "minecraft/advancement/adventure/enter_the_end.json",
+            "minecraft/advancement/adventure/eye_frame_combination.json",
+            "minecraft/advancement/adventure/find_fortress.json",
+            "minecraft/advancement/adventure/follow_ender_eye.json",
+            "minecraft/advancement/adventure/furnace.json",
+            "minecraft/advancement/adventure/iron_ingot.json",
+            "minecraft/advancement/adventure/kill_dragon.json",
+            "minecraft/advancement/adventure/mine_a_block.json",
+            "minecraft/advancement/adventure/nether_barrel_roll.json",
+            "minecraft/advancement/adventure/obsidian.json",
+            "minecraft/advancement/adventure/obtain_armor.json",
+            "minecraft/advancement/adventure/obtain_blaze_rod.json",
+            "minecraft/advancement/adventure/wooden_pickaxe.json",
+            "minecraft/loot_table/blocks/copper_trap.json",
+            "minecraft/loot_table/blocks/exposed_copper_trap.json",
+            "minecraft/loot_table/blocks/iron_trap.json",
+            "minecraft/loot_table/blocks/oxidized_copper_trap.json",
+            "minecraft/loot_table/blocks/waxed_copper_trap.json",
+            "minecraft/loot_table/blocks/waxed_exposed_copper_trap.json",
+            "minecraft/loot_table/blocks/waxed_oxidized_copper_trap.json",
+            "minecraft/loot_table/blocks/waxed_weathered_copper_trap.json",
+            "minecraft/loot_table/blocks/weathered_copper_trap.json",
+            "minecraft/structure/herding/nine_by_nine.nbt",
+            "minecraft/structure/herding/nine_by_nine_copper_torch.nbt",
+            "minecraft/structure/herding/nine_by_nine_soul_torch.nbt",
+            "minecraft/tags/block/builds_into_house.json",
+            "minecraft/tags/block/concrete_powder.json",
+            "minecraft/tags/block/cow_food.json",
+            "minecraft/tags/block/living_block_takes_fall_damage.json",
+            "minecraft/tags/block/pig_food.json",
+            "minecraft/tags/block/sheep_food.json",
+            "minecraft/tags/item/block_placers.json"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "assets",
+        "differences": {
+          "added": [
+            "minecraft/blockstates/chiseled_cinnabar.json",
+            "minecraft/blockstates/chiseled_sulfur.json",
+            "minecraft/blockstates/cinnabar.json",
+            "minecraft/blockstates/cinnabar_bricks.json",
+            "minecraft/blockstates/cinnabar_brick_slab.json",
+            "minecraft/blockstates/cinnabar_brick_stairs.json",
+            "minecraft/blockstates/cinnabar_brick_wall.json",
+            "minecraft/blockstates/cinnabar_slab.json",
+            "minecraft/blockstates/cinnabar_stairs.json",
+            "minecraft/blockstates/cinnabar_wall.json",
+            "minecraft/blockstates/polished_cinnabar.json",
+            "minecraft/blockstates/polished_cinnabar_slab.json",
+            "minecraft/blockstates/polished_cinnabar_stairs.json",
+            "minecraft/blockstates/polished_cinnabar_wall.json",
+            "minecraft/blockstates/polished_sulfur.json",
+            "minecraft/blockstates/polished_sulfur_slab.json",
+            "minecraft/blockstates/polished_sulfur_stairs.json",
+            "minecraft/blockstates/polished_sulfur_wall.json",
+            "minecraft/blockstates/potent_sulfur.json",
+            "minecraft/blockstates/sulfur.json",
+            "minecraft/blockstates/sulfur_bricks.json",
+            "minecraft/blockstates/sulfur_brick_slab.json",
+            "minecraft/blockstates/sulfur_brick_stairs.json",
+            "minecraft/blockstates/sulfur_brick_wall.json",
+            "minecraft/blockstates/sulfur_slab.json",
+            "minecraft/blockstates/sulfur_stairs.json",
+            "minecraft/blockstates/sulfur_wall.json",
+            "minecraft/items/chiseled_cinnabar.json",
+            "minecraft/items/chiseled_sulfur.json",
+            "minecraft/items/cinnabar.json",
+            "minecraft/items/cinnabar_bricks.json",
+            "minecraft/items/cinnabar_brick_slab.json",
+            "minecraft/items/cinnabar_brick_stairs.json",
+            "minecraft/items/cinnabar_brick_wall.json",
+            "minecraft/items/cinnabar_slab.json",
+            "minecraft/items/cinnabar_stairs.json",
+            "minecraft/items/cinnabar_wall.json",
+            "minecraft/items/polished_cinnabar.json",
+            "minecraft/items/polished_cinnabar_slab.json",
+            "minecraft/items/polished_cinnabar_stairs.json",
+            "minecraft/items/polished_cinnabar_wall.json",
+            "minecraft/items/polished_sulfur.json",
+            "minecraft/items/polished_sulfur_slab.json",
+            "minecraft/items/polished_sulfur_stairs.json",
+            "minecraft/items/polished_sulfur_wall.json",
+            "minecraft/items/potent_sulfur.json",
+            "minecraft/items/sulfur.json",
+            "minecraft/items/sulfur_bricks.json",
+            "minecraft/items/sulfur_brick_slab.json",
+            "minecraft/items/sulfur_brick_stairs.json",
+            "minecraft/items/sulfur_brick_wall.json",
+            "minecraft/items/sulfur_cube_bucket.json",
+            "minecraft/items/sulfur_cube_spawn_egg.json",
+            "minecraft/items/sulfur_slab.json",
+            "minecraft/items/sulfur_stairs.json",
+            "minecraft/items/sulfur_wall.json",
+            "minecraft/models/block/chiseled_cinnabar.json",
+            "minecraft/models/block/chiseled_sulfur.json",
+            "minecraft/models/block/cinnabar.json",
+            "minecraft/models/block/cinnabar_bricks.json",
+            "minecraft/models/block/cinnabar_brick_slab.json",
+            "minecraft/models/block/cinnabar_brick_slab_top.json",
+            "minecraft/models/block/cinnabar_brick_stairs.json",
+            "minecraft/models/block/cinnabar_brick_stairs_inner.json",
+            "minecraft/models/block/cinnabar_brick_stairs_outer.json",
+            "minecraft/models/block/cinnabar_brick_wall_inventory.json",
+            "minecraft/models/block/cinnabar_brick_wall_post.json",
+            "minecraft/models/block/cinnabar_brick_wall_side.json",
+            "minecraft/models/block/cinnabar_brick_wall_side_tall.json",
+            "minecraft/models/block/cinnabar_slab.json",
+            "minecraft/models/block/cinnabar_slab_top.json",
+            "minecraft/models/block/cinnabar_stairs.json",
+            "minecraft/models/block/cinnabar_stairs_inner.json",
+            "minecraft/models/block/cinnabar_stairs_outer.json",
+            "minecraft/models/block/cinnabar_wall_inventory.json",
+            "minecraft/models/block/cinnabar_wall_post.json",
+            "minecraft/models/block/cinnabar_wall_side.json",
+            "minecraft/models/block/cinnabar_wall_side_tall.json",
+            "minecraft/models/block/polished_cinnabar.json",
+            "minecraft/models/block/polished_cinnabar_slab.json",
+            "minecraft/models/block/polished_cinnabar_slab_top.json",
+            "minecraft/models/block/polished_cinnabar_stairs.json",
+            "minecraft/models/block/polished_cinnabar_stairs_inner.json",
+            "minecraft/models/block/polished_cinnabar_stairs_outer.json",
+            "minecraft/models/block/polished_cinnabar_wall_inventory.json",
+            "minecraft/models/block/polished_cinnabar_wall_post.json",
+            "minecraft/models/block/polished_cinnabar_wall_side.json",
+            "minecraft/models/block/polished_cinnabar_wall_side_tall.json",
+            "minecraft/models/block/polished_sulfur.json",
+            "minecraft/models/block/polished_sulfur_slab.json",
+            "minecraft/models/block/polished_sulfur_slab_top.json",
+            "minecraft/models/block/polished_sulfur_stairs.json",
+            "minecraft/models/block/polished_sulfur_stairs_inner.json",
+            "minecraft/models/block/polished_sulfur_stairs_outer.json",
+            "minecraft/models/block/polished_sulfur_wall_inventory.json",
+            "minecraft/models/block/polished_sulfur_wall_post.json",
+            "minecraft/models/block/polished_sulfur_wall_side.json",
+            "minecraft/models/block/polished_sulfur_wall_side_tall.json",
+            "minecraft/models/block/potent_sulfur.json",
+            "minecraft/models/block/sulfur.json",
+            "minecraft/models/block/sulfur_bricks.json",
+            "minecraft/models/block/sulfur_brick_slab.json",
+            "minecraft/models/block/sulfur_brick_slab_top.json",
+            "minecraft/models/block/sulfur_brick_stairs.json",
+            "minecraft/models/block/sulfur_brick_stairs_inner.json",
+            "minecraft/models/block/sulfur_brick_stairs_outer.json",
+            "minecraft/models/block/sulfur_brick_wall_inventory.json",
+            "minecraft/models/block/sulfur_brick_wall_post.json",
+            "minecraft/models/block/sulfur_brick_wall_side.json",
+            "minecraft/models/block/sulfur_brick_wall_side_tall.json",
+            "minecraft/models/block/sulfur_slab.json",
+            "minecraft/models/block/sulfur_slab_top.json",
+            "minecraft/models/block/sulfur_stairs.json",
+            "minecraft/models/block/sulfur_stairs_inner.json",
+            "minecraft/models/block/sulfur_stairs_outer.json",
+            "minecraft/models/block/sulfur_wall_inventory.json",
+            "minecraft/models/block/sulfur_wall_post.json",
+            "minecraft/models/block/sulfur_wall_side.json",
+            "minecraft/models/block/sulfur_wall_side_tall.json",
+            "minecraft/models/item/sulfur_cube_bucket.json",
+            "minecraft/models/item/sulfur_cube_spawn_egg.json",
+            "minecraft/particles/noxious_gas.json",
+            "minecraft/particles/sulfur_bubbles.json",
+            "minecraft/particles/sulfur_cube_goo.json",
+            "minecraft/shaders/core/text.fsh",
+            "minecraft/shaders/core/text.vsh",
+            "minecraft/shaders/core/text_background.fsh",
+            "minecraft/shaders/core/text_background.vsh",
+            "minecraft/textures/block/chiseled_cinnabar.png",
+            "minecraft/textures/block/chiseled_sulfur.png",
+            "minecraft/textures/block/cinnabar.png",
+            "minecraft/textures/block/cinnabar_bricks.png",
+            "minecraft/textures/block/polished_cinnabar.png",
+            "minecraft/textures/block/polished_sulfur.png",
+            "minecraft/textures/block/potent_sulfur.png",
+            "minecraft/textures/block/sulfur.png",
+            "minecraft/textures/block/sulfur_bricks.png",
+            "minecraft/textures/entity/sulfur_cube/sulfur_cube_inner.png",
+            "minecraft/textures/entity/sulfur_cube/sulfur_cube_outer.png",
+            "minecraft/textures/item/sulfur_cube_bucket.png",
+            "minecraft/textures/item/sulfur_cube_spawn_egg.png",
+            "minecraft/textures/particle/bubble_white.png",
+            "minecraft/textures/particle/noxious_gas_01.png",
+            "minecraft/textures/particle/noxious_gas_02.png",
+            "minecraft/textures/particle/noxious_gas_03.png",
+            "minecraft/textures/particle/noxious_gas_04.png",
+            "minecraft/textures/particle/noxious_gas_05.png",
+            "minecraft/textures/particle/noxious_gas_06.png",
+            "minecraft/textures/particle/noxious_gas_07.png",
+            "minecraft/textures/particle/noxious_gas_08.png",
+            "minecraft/textures/particle/sulfur_cube_goo.png"
+          ],
+          "removed": [
+            "minecraft/blockstates/copper_trap.json",
+            "minecraft/blockstates/exposed_copper_trap.json",
+            "minecraft/blockstates/iron_trap.json",
+            "minecraft/blockstates/oxidized_copper_trap.json",
+            "minecraft/blockstates/waxed_copper_trap.json",
+            "minecraft/blockstates/waxed_exposed_copper_trap.json",
+            "minecraft/blockstates/waxed_oxidized_copper_trap.json",
+            "minecraft/blockstates/waxed_weathered_copper_trap.json",
+            "minecraft/blockstates/weathered_copper_trap.json",
+            "minecraft/items/attack_action.json",
+            "minecraft/items/build_action.json",
+            "minecraft/items/copper_trap.json",
+            "minecraft/items/crafting_action.json",
+            "minecraft/items/exposed_copper_trap.json",
+            "minecraft/items/follow_action.json",
+            "minecraft/items/group_action.json",
+            "minecraft/items/highlight_action.json",
+            "minecraft/items/iron_trap.json",
+            "minecraft/items/move_action.json",
+            "minecraft/items/oxidized_copper_trap.json",
+            "minecraft/items/punch_action.json",
+            "minecraft/items/waxed_copper_trap.json",
+            "minecraft/items/waxed_exposed_copper_trap.json",
+            "minecraft/items/waxed_oxidized_copper_trap.json",
+            "minecraft/items/waxed_weathered_copper_trap.json",
+            "minecraft/items/weathered_copper_trap.json",
+            "minecraft/models/block/copper_trap.json",
+            "minecraft/models/block/exposed_copper_trap.json",
+            "minecraft/models/block/iron_trap.json",
+            "minecraft/models/block/oxidized_copper_trap.json",
+            "minecraft/models/block/waxed_copper_trap.json",
+            "minecraft/models/block/waxed_exposed_copper_trap.json",
+            "minecraft/models/block/waxed_oxidized_copper_trap.json",
+            "minecraft/models/block/waxed_weathered_copper_trap.json",
+            "minecraft/models/block/weathered_copper_trap.json",
+            "minecraft/models/item/attack_action.json",
+            "minecraft/models/item/attack_signalling_arrow.json",
+            "minecraft/models/item/build_action.json",
+            "minecraft/models/item/crafting_action.json",
+            "minecraft/models/item/follow_action.json",
+            "minecraft/models/item/group_action.json",
+            "minecraft/models/item/highlight_action.json",
+            "minecraft/models/item/move_action.json",
+            "minecraft/models/item/punch_action.json",
+            "minecraft/shaders/core/rendertype_text.fsh",
+            "minecraft/shaders/core/rendertype_text.vsh",
+            "minecraft/shaders/core/rendertype_text_background.fsh",
+            "minecraft/shaders/core/rendertype_text_background.vsh",
+            "minecraft/shaders/core/rendertype_text_background_see_through.fsh",
+            "minecraft/shaders/core/rendertype_text_background_see_through.vsh",
+            "minecraft/shaders/core/rendertype_text_intensity.fsh",
+            "minecraft/shaders/core/rendertype_text_intensity.vsh",
+            "minecraft/shaders/core/rendertype_text_intensity_see_through.fsh",
+            "minecraft/shaders/core/rendertype_text_intensity_see_through.vsh",
+            "minecraft/shaders/core/rendertype_text_see_through.fsh",
+            "minecraft/shaders/core/rendertype_text_see_through.vsh",
+            "minecraft/textures/entity/command/attack.png",
+            "minecraft/textures/entity/command/build.png",
+            "minecraft/textures/entity/command/follow.png",
+            "minecraft/textures/entity/command/move.png",
+            "minecraft/textures/entity/crafting_grid/2x2.png",
+            "minecraft/textures/entity/crafting_grid/3x3.png",
+            "minecraft/textures/gui/title/background/af/panorama_0.png",
+            "minecraft/textures/gui/title/background/af/panorama_1.png",
+            "minecraft/textures/gui/title/background/af/panorama_2.png",
+            "minecraft/textures/gui/title/background/af/panorama_3.png",
+            "minecraft/textures/gui/title/background/af/panorama_4.png",
+            "minecraft/textures/gui/title/background/af/panorama_5.png",
+            "minecraft/textures/gui/title/herdcraft.png",
+            "minecraft/textures/item/attack_action.png",
+            "minecraft/textures/item/attack_signalling_arrow.png",
+            "minecraft/textures/item/build_action.png",
+            "minecraft/textures/item/crafting_action.png",
+            "minecraft/textures/item/follow_action.png",
+            "minecraft/textures/item/group_action.png",
+            "minecraft/textures/item/group_action_overlay.png",
+            "minecraft/textures/item/highlight_action.png",
+            "minecraft/textures/item/move_action.png",
+            "minecraft/textures/item/punch_action.png",
+            "minecraft/textures/item/signalling_arrow.png"
+          ]
+        }
+      }
+    }
+  ],
+  "misc": [
+    {
+      "type": "entries",
+      "value": {
+        "name": "splashes",
+        "differences": {
+          "added": [
+            "As seen on TV!",
+            "Awesome!",
+            "100% pure!",
+            "May contain nuts!",
+            "More polygons!",
+            "Moderately attractive!",
+            "Limited edition!",
+            "Flashing letters!",
+            "It's here!",
+            "Best in class!",
+            "It's finished!",
+            "Kind of dragon free!",
+            "Excitement!",
+            "More than 500 sold!",
+            "One of a kind!",
+            "Heaps of hits on YouTube!",
+            "Indev!",
+            "Spiders everywhere!",
+            "Check it out!",
+            "Holy cow, man!",
+            "It's a game!",
+            "Made in Sweden!",
+            "Uses LWJGL!",
+            "Reticulating splines!",
+            "Minecraft!",
+            "Yaaay!",
+            "Singleplayer!",
+            "Keyboard compatible!",
+            "Ingots!",
+            "Exploding creepers!",
+            "That's no moon!",
+            "l33t!",
+            "Create!",
+            "Survive!",
+            "Dungeon!",
+            "Exclusive!",
+            "The bee's knees!",
+            "Closed source!",
+            "Classy!",
+            "Wow!",
+            "Not on steam!",
+            "Oh man!",
+            "Awesome community!",
+            "Pixels!",
+            "Teetsuuuuoooo!",
+            "Kaaneeeedaaaa!",
+            "Now with difficulty!",
+            "Enhanced!",
+            "90% bug free!",
+            "Pretty!",
+            "12 herbs and spices!",
+            "Fat free!",
+            "Absolutely no memes!",
+            "Free dental!",
+            "Ask your doctor!",
+            "Cloud computing!",
+            "Legal in Finland!",
+            "Hard to label!",
+            "Technically good!",
+            "Bringing home the bacon!",
+            "Indie!",
+            "GOTY!",
+            "Ceci n'est pas une title screen!",
+            "Euclidian!",
+            "Now in 3D!",
+            "Inspirational!",
+            "Herregud!",
+            "Complex cellular automata!",
+            "Yes, sir!",
+            "Played by cowboys!",
+            "Now on OpenGL 3.3 core profile!",
+            "Now on Vulkan 1.2!",
+            "Thousands of colors!",
+            "Try it!",
+            "Age of Wonders is better!",
+            "Try the mushroom stew!",
+            "Sensational!",
+            "Hot tamale, hot hot tamale!",
+            "Play him off, keyboard cat!",
+            "Guaranteed!",
+            "Macroscopic!",
+            "Bring it on!",
+            "Random splash!",
+            "Call your mother!",
+            "Monster infighting!",
+            "Loved by millions!",
+            "Ultimate edition!",
+            "Freaky!",
+            "You've got a brand new key!",
+            "Water proof!",
+            "Uninflammable!",
+            "Whoa, dude!",
+            "All inclusive!",
+            "Tell your friends!",
+            "NP is not in P!",
+            "Music by C418!",
+            "Livestreamed!",
+            "Haunted!",
+            "Polynomial!",
+            "Terrestrial!",
+            "All is full of love!",
+            "Full of stars!",
+            "Scientific!",
+            "Not as cool as Spock!",
+            "Collaborate and listen!",
+            "Never dig down!",
+            "Take frequent breaks!",
+            "Not linear!",
+            "Han shot first!",
+            "Nice to meet you!",
+            "Buckets of lava!",
+            "Ride the pig!",
+            "Larger than Earth!",
+            "sqrt(-1) love you!",
+            "Phobos anomaly!",
+            "Punching wood!",
+            "Falling off cliffs!",
+            "1% sugar!",
+            "150% hyperbole!",
+            "Synecdoche!",
+            "Let's danec!",
+            "Seecret Friday update!",
+            "Reference implementation!",
+            "Kiss the sky!",
+            "20 GOTO 10!",
+            "Verlet integration!",
+            "Peter Griffin!",
+            "Do not distribute!",
+            "Cogito ergo sum!",
+            "4815162342 lines of code!",
+            "A skeleton popped out!",
+            "The sum of its parts!",
+            "BTAF used to be good!",
+            "I miss ADOM!",
+            "umop-apisdn!",
+            "OICU812!",
+            "Bring me Ray Cokes!",
+            "Finger-licking!",
+            "Thematic!",
+            "Pneumatic!",
+            "Sublime!",
+            "Octagonal!",
+            "Une baguette!",
+            "Gargamel plays it!",
+            "Rita is the new top dog!",
+            "SWM forever!",
+            "Representing Edsbyn!",
+            "Matt Damon!",
+            "Supercalifragilisticexpialidocious!",
+            "Consummate V's!",
+            "Cow Tools!",
+            "Double buffered!",
+            "Fan fiction!",
+            "Flaxkikare!",
+            "Jason! Jason! Jason!",
+            "Hotter than the sun!",
+            "Internet enabled!",
+            "Autonomous!",
+            "Engage!",
+            "Fantasy!",
+            "DRR! DRR! DRR!",
+            "Kick it root down!",
+            "Regional resources!",
+            "Woo, facepunch!",
+            "Woo, somethingawful!",
+            "Woo, tigsource!",
+            "Woo, worldofminecraft!",
+            "Woo, reddit!",
+            "Woo, 2pp!",
+            "Google anlyticsed!",
+            "Now supports åäö!",
+            "Give us Gordon!",
+            "Tip your waiter!",
+            "Very fun!",
+            "12345 is a bad password!",
+            "Vote for net neutrality!",
+            "Lives in a pineapple under the sea!",
+            "MAP11 has two names!",
+            "Omnipotent!",
+            "Gasp!",
+            "...!",
+            "Bees, bees, bees, bees!",
+            "Jag känner en bot!",
+            "This text is hard to read if you play the game at the default resolution, but at 1080p it's fine!",
+            "Haha, LOL!",
+            "Hampsterdance!",
+            "Menger sponge!",
+            "idspispopd!",
+            "Eple (original edit)!",
+            "So fresh, so clean!",
+            "Slow acting portals!",
+            "Try the Nether!",
+            "Don't look directly at the bugs!",
+            "Oh, ok, Pigmen!",
+            "Finally with ladders!",
+            "Scary!",
+            "Play Minecraft, Watch Topgear, Get Pig!",
+            "Twittered about!",
+            "Jump up, jump up, and get down!",
+            "Joel is neat!",
+            "A riddle, wrapped in a mystery!",
+            "This parrot is no more! It has ceased to be!",
+            "Welcome to your Doom!",
+            "Stay a while, stay forever!",
+            "Stay a while and listen!",
+            "Treatment for your rash!",
+            "\"Autological\" is!",
+            "Information wants to be free!",
+            "\"Almost never\" is an interesting concept!",
+            "Lots of truthiness!",
+            "The creeper is a spy!",
+            "Turing complete!",
+            "It's groundbreaking!",
+            "Let our battle's begin!",
+            "The sky is the limit!",
+            "Jeb has amazing hair!",
+            "Ryan also has amazing hair!",
+            "Casual gaming!",
+            "Undefeated!",
+            "Kinda like Lemmings!",
+            "Follow the train, CJ!",
+            "Leveraging synergy!",
+            "This message will never appear on the splash screen, isn't that weird?",
+            "DungeonQuest is unfair!",
+            "90210!",
+            "Check out the far lands!",
+            "Tyrion would love it!",
+            "Also try VVVVVV!",
+            "Also try Super Meat Boy!",
+            "Also try Terraria!",
+            "Also try Mount And Blade!",
+            "Also try Project Zomboid!",
+            "Also try World of Goo!",
+            "Also try Limbo!",
+            "Also try Pixeljunk Shooter!",
+            "Also try Braid!",
+            "That's super!",
+            "Bread is pain!",
+            "Read more books!",
+            "Khaaaaaaaaan!",
+            "Less addictive than TV Tropes!",
+            "More addictive than lemonade!",
+            "Bigger than a bread box!",
+            "Millions of peaches!",
+            "Fnord!",
+            "This is my true form!",
+            "Don't bother with the clones!",
+            "Pumpkinhead!",
+            "Made by Jeb!",
+            "Has an ending!",
+            "Finally complete!",
+            "Feature packed!",
+            "Boots with the fur!",
+            "Stop, hammertime!",
+            "Testificates!",
+            "Conventional!",
+            "Homeomorphic to a 3-sphere!",
+            "Doesn't avoid double negatives!",
+            "Place ALL the blocks!",
+            "Does barrel rolls!",
+            "Meeting expectations!",
+            "PC gaming since 1873!",
+            "Ghoughpteighbteau tchoghs!",
+            "Déjà vu!",
+            "Déjà vu!",
+            "Got your nose!",
+            "Haley loves Elan!",
+            "Afraid of the big, black bat!",
+            "Doesn't use the U-word!",
+            "Child's play!",
+            "See you next Friday or so!",
+            "From the streets of Södermalm!",
+            "150 bpm for 400000 minutes!",
+            "Technologic!",
+            "Funk soul brother!",
+            "Pumpakungen!",
+            "日本ハロー！",
+            "한국 안녕하세요!",
+            "Helo Cymru!",
+            "Cześć Polsko!",
+            "你好中国！",
+            "Γεια σου Ελλάδα!",
+            "My life for Aiur!",
+            "Lennart lennart = new Lennart();",
+            "I see your vocabulary has improved!",
+            "Who put it there?",
+            "You can't explain that!",
+            "if not ok then return end",
+            "§1C§2o§3l§4o§5r§6m§7a§8t§9i§ac",
+            "§kFUNKY LOL",
+            "Big Pointy Teeth!",
+            "Bekarton guards the gate!",
+            "Mmmph, mmph!",
+            "Don't feed avocados to parrots!",
+            "Swords for everyone!",
+            "Plz reply to my tweet!",
+            ".party()!",
+            "Take her pillow!",
+            "Put that cookie down!",
+            "Pretty scary!",
+            "I have a suggestion.",
+            "Now with extra hugs!",
+            "Java 16 + 1 + 4 * 2 = 25!",
+            "Woah.",
+            "HURNERJSGER?",
+            "What's up, Doc?",
+            "Now contains 32 random daily cats!",
+            "That's Numberwang!",
+            "pls rt",
+            "Do you want to join my server?",
+            "Put a little fence around it!",
+            "Throw a blanket over it!",
+            "One day, somewhere in the future, my work will be quoted!",
+            "Now with additional stuff!",
+            "Extra things!",
+            "Yay, puppies for everyone!",
+            "So sweet, like a nice bon bon!",
+            "Very influential in its circle!",
+            "Now With Multiplayer!",
+            "Rise from your grave!",
+            "Warning! A huge battleship \"STEVE\" is approaching fast!",
+            "Blue warrior shot the food!",
+            "Run, coward! I hunger!",
+            "Flavor with no seasoning!",
+            "Strange, but not a stranger!",
+            "Tougher than diamonds, rich like cream!",
+            "It swings, it jives!",
+            "Cruising streets for gold!",
+            "Take an eggbeater and beat it against a skillet!",
+            "Make me a table, a funky table!",
+            "Take the elevator to the mezzanine!",
+            "Stop being reasonable, this is the Internet!",
+            "/give @a hugs 64",
+            "This is good for Realms.",
+            "Any computer is a laptop if you're brave enough!",
+            "Do it all, everything!",
+            "Where there is not light, there can spider!",
+            "GNU Terry Pratchett",
+            "More Digital!",
+            "doot doot",
+            "Falling with style!",
+            "There's no stopping the Trollmaso",
+            "Throw yourself at the ground and miss",
+            "Rule #1: it's never my fault",
+            "Replaced molten cheese with blood?",
+            "Absolutely fixed relatively broken coordinates",
+            "Boats FTW",
+            "Javalicious edition",
+            "Should not be played while driving",
+            "You're going too fast!",
+            "Don't feed chocolate to parrots!",
+            "The true meaning of covfefe",
+            "An illusion! What are you hiding?",
+            "Something's not quite right...",
+            "Thank you for the fish!",
+            "All rumors are true!",
+            "Truly gone fishing!",
+            "Rainbow turtle?",
+            "Something funny!",
+            "I need more context.",
+            "Ahhhhhh!",
+            "Don't worry, be happy!",
+            "Water bottle!",
+            "What's the question?",
+            "Plant a tree!",
+            "Go to the dentist!",
+            "What do you expect?",
+            "Look mum, I'm in a splash!",
+            "It came from space.",
+            "Awesome game design right there!",
+            "Ph1lza had a good run!",
+            "15 years of Mining and Crafting!",
+            "Ping the human!",
+            "In case it isn't obvious, foxes aren't players.",
+            "Buzzy Bees!",
+            "Minecraft Java Edition presents: Disgusting Bugs",
+            "Wash your hands!",
+            "Soap and water!",
+            "Support local businesses!",
+            "Stay home and play games!",
+            "Stay safe!",
+            "Stay strong!",
+            "Cough or sneeze into your elbow!",
+            "Don’t touch your face!",
+            "Support elderly relatives and friends!",
+            "Prepare, but don’t hoard!",
+            "Gamers unite – separately in your own homes!",
+            "Save the world – stay inside!",
+            "Shop for your elders!",
+            "Hang out with your friends online!",
+            "Honey, I grew the bees!",
+            "Find your claw!",
+            "Everybody do the Leif!",
+            "<3 Max & 99 & Ducky!",
+            "Bushy eyebrows!",
+            "Edit is a name!",
+            "From free range developers!",
+            "Music by Lena Raine!",
+            "Aww man!",
+            "#minecraftfarms",
+            "And my pickaxe!",
+            "Envision! Create! Share!",
+            "Fabulous graphics!",
+            "Also try Minecraft Dungeons!",
+            "Vanilla!",
+            "May contain traces of citrus!",
+            "Zoglin!?",
+            "Black lives matter!",
+            "Be anti-racist!",
+            "Learn about allyship!",
+            "Speak OUT against injustice and UP for equality!",
+            "Amplify and listen to BIPOC voices!",
+            "Educate your friends on anti-racism!",
+            "Support the BIPOC community and creators!",
+            "Stand up for equality in your community!",
+            "[this splash text is now available]",
+            "Contains simulated goats!",
+            "Home-made!",
+            "There's <<a cat on ,my keyboard!~",
+            "The cutest predator you'll ever meet!",
+            "Now you are thinking with pistons!",
+            "Get to the coppah!",
+            "Board game version also available!",
+            "Honey, I waxed the copper!",
+            "Plant-based light sources!",
+            "Made by \"real\" people!",
+            "Shriek like a Sculk Shrieker!",
+            "Who let the frogs out?",
+            "RIBBIT!",
+            "Croak team!",
+            "Nooooooooooooo!",
+            "Flower forest TM perfume",
+            "Hat Fridays!",
+            "Technoblade never dies!",
+            "You are valid!",
+            "I'm glad you're here!",
+            "You are welcome here!",
+            "Your gender is valid!",
+            "Contains infinite genders!",
+            "Made with lave!",
+            "This sand is sus",
+            "Remember to brush your... ...teeth",
+            "Has working bookshelves!",
+            "Sniff sniff...",
+            "Place hanging sign here",
+            "Joule is neat too!",
+            "Music by Aaron Cherof!",
+            "Music by Kumi Tanioka!",
+            "Music by Amos Roddy!",
+            "Flint and Steel!",
+            "Chicken Jockey!",
+            "One does not simply walk to the Far Lands",
+            "Music by Hyper Potions!"
+          ],
+          "removed": [
+            "Watch out for traps!",
+            "Biggest herd in town!",
+            "Cozy dirt house!",
+            "Have you herd the news? The blocks came alive!",
+            "They see me rolling!",
+            "272 Cobblestone!",
+            "Nom nom nom!",
+            "15 minutes 6 seconds!",
+            "Gooey!",
+            "Don't let your tools loose!",
+            "What's an item entity?",
+            "We solved the inventory problem!",
+            "Several blocks at a time!",
+            "What's that mysterious clicking noise?",
+            "Why, you stuck-up, half-witted, scruffy-looking block herder!",
+            "What is the collective noun for a group of blocks?",
+            "A blockade.",
+            "Marching Cubes!",
+            "Moving Block Entities!",
+            "Beautiful Block Balloons",
+            "Don't let the wool float away",
+            "Pogo Tools",
+            "Cute Cuboid Companions",
+            "Slice some blocks into the lime group",
+            "Large block the size of a small block",
+            "Anything can be an entity if you try hard enough",
+            "Blocked.",
+            "The true meaning of block game",
+            "Hungry, hungry chests",
+            "Auto-Assembling Automata",
+            "Like sleeping in a tumble dryer",
+            "It's alive!",
+            "Fifteen years of ... whatever this is!",
+            "26w14a!",
+            "Enough balloons make you walk on water",
+            "Wool is lighter than air",
+            "Flashes make so much light",
+            "Lightning for the miners",
+            "Who Let the Blocks Out?",
+            "This portal is §mnot§r going to build itself"
+          ]
+        }
+      }
+    }
+  ],
+  "custom": [
+    {
+      "type": "title",
+      "value": {
+        "title": "datapacks.json",
+        "id": "custom-datapacks-json",
+        "size": 2
+      }
+    }
+  ]
+}
