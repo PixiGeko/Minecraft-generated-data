@@ -1,0 +1,163 @@
+{
+  "version_data": [
+    {
+      "type": "table",
+      "value": {
+        "previousLabel": "26.2-snapshot-3",
+        "currentLabel": "26.2-snapshot-4",
+        "values": [
+          {
+            "key": "DataPack version",
+            "previous": "102.0",
+            "current": "103.0"
+          },
+          {
+            "key": "ResourcePack version",
+            "previous": "86.0",
+            "current": "86.1"
+          },
+          {
+            "key": "World version",
+            "previous": "4886",
+            "current": "4887"
+          },
+          {
+            "key": "Protocol version",
+            "previous": "1073742133",
+            "current": "1073742134"
+          }
+        ]
+      }
+    }
+  ],
+  "registries": [
+    {
+      "type": "entries",
+      "value": {
+        "name": "attribute",
+        "differences": {
+          "added": [
+            "minecraft:below_name_distance",
+            "minecraft:nameplate_distance"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "entity_sub_predicate_type",
+        "differences": {
+          "added": [
+            "minecraft:type_specific/cube_mob"
+          ],
+          "removed": [
+            "minecraft:type_specific/slime"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "sound_event",
+        "differences": {
+          "added": [
+            "minecraft:item.bucket.empty_sulfur_cube",
+            "minecraft:item.bucket.fill_sulfur_cube"
+          ],
+          "removed": []
+        }
+      }
+    }
+  ],
+  "tags": [
+    {
+      "type": "entries",
+      "value": {
+        "name": "universal_tags/attribute.json",
+        "differences": {
+          "added": [
+            "minecraft:below_name_distance",
+            "minecraft:nameplate_distance"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "universal_tags/entity_sub_predicate_type.json",
+        "differences": {
+          "added": [
+            "minecraft:type_specific/cube_mob"
+          ],
+          "removed": [
+            "minecraft:type_specific/slime"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "universal_tags/sound_event.json",
+        "differences": {
+          "added": [
+            "minecraft:item.bucket.empty_sulfur_cube",
+            "minecraft:item.bucket.fill_sulfur_cube"
+          ],
+          "removed": []
+        }
+      }
+    }
+  ],
+  "translations": [
+    {
+      "type": "entries",
+      "value": {
+        "name": "Keys",
+        "differences": {
+          "added": [
+            "attribute.name.below_name_distance: Nameplate Score Distance",
+            "attribute.name.nameplate_distance: Nameplate Distance",
+            "subtitles.item.bucket.fill_sulfur_cube: Sulfur Cube scooped",
+            "telemetry.event.graphics_capabilities.description: This event informs us of the capabilities of the graphics device used to play the game.",
+            "telemetry.event.graphics_capabilities.title: Graphics Capabilities",
+            "telemetry.property.backend_failure_message.title: Backend Creation Failure Message",
+            "telemetry.property.backend_failure_missing_capabilities.title: Backend Creation Failure Missing Capabilities",
+            "telemetry.property.backend_failure_reason.title: Backend Creation Failure Reason",
+            "telemetry.property.backend_name.title: Backend Name"
+          ],
+          "removed": []
+        }
+      }
+    }
+  ],
+  "file_structure": [
+    {
+      "type": "entries",
+      "value": {
+        "name": "assets",
+        "differences": {
+          "added": [],
+          "removed": [
+            "minecraft/atlases/beds.json"
+          ]
+        }
+      }
+    }
+  ],
+  "custom": [
+    {
+      "type": "title",
+      "value": {
+        "title": "datapacks.json",
+        "id": "custom-datapacks-json",
+        "size": 2
+      }
+    }
+  ]
+}
