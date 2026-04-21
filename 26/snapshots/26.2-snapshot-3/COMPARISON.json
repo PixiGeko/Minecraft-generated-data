@@ -1,0 +1,612 @@
+{
+  "version_data": [
+    {
+      "type": "table",
+      "value": {
+        "previousLabel": "26.2-snapshot-2",
+        "currentLabel": "26.2-snapshot-3",
+        "values": [
+          {
+            "key": "DataPack version",
+            "previous": "101.2",
+            "current": "102.0"
+          },
+          {
+            "key": "ResourcePack version",
+            "previous": "85.0",
+            "current": "86.0"
+          },
+          {
+            "key": "World version",
+            "previous": "4884",
+            "current": "4886"
+          },
+          {
+            "key": "Protocol version",
+            "previous": "1073742132",
+            "current": "1073742133"
+          }
+        ]
+      }
+    },
+    {
+      "type": "title",
+      "value": {
+        "title": "Libraries",
+        "id": "version-data-libraries",
+        "size": 3
+      }
+    },
+    {
+      "type": "table",
+      "value": {
+        "title": "Versions",
+        "previousLabel": "26.2-snapshot-2",
+        "currentLabel": "26.2-snapshot-3",
+        "values": [
+          {
+            "key": "com.mojang:text2speech",
+            "previous": "1.18.11",
+            "current": "1.19.12"
+          }
+        ]
+      }
+    }
+  ],
+  "registries": [
+    {
+      "type": "entries",
+      "value": {
+        "name": "block",
+        "differences": {
+          "added": [
+            "minecraft:sulfur_spike"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "block_entity_type",
+        "differences": {
+          "added": [],
+          "removed": [
+            "minecraft:bed"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "block_type",
+        "differences": {
+          "added": [
+            "minecraft:sulfur_spike"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "entity_sub_predicate_type",
+        "differences": {
+          "added": [
+            "minecraft:components",
+            "minecraft:distance",
+            "minecraft:effects",
+            "minecraft:entity_tags",
+            "minecraft:entity_type",
+            "minecraft:equipment",
+            "minecraft:flags",
+            "minecraft:location",
+            "minecraft:movement",
+            "minecraft:movement_affected_by",
+            "minecraft:nbt",
+            "minecraft:passenger",
+            "minecraft:periodic_tick",
+            "minecraft:predicates",
+            "minecraft:slots",
+            "minecraft:stepping_on",
+            "minecraft:targeted_entity",
+            "minecraft:team",
+            "minecraft:type_specific/fishing_hook",
+            "minecraft:type_specific/lightning",
+            "minecraft:type_specific/player",
+            "minecraft:type_specific/raider",
+            "minecraft:type_specific/sheep",
+            "minecraft:type_specific/slime",
+            "minecraft:vehicle"
+          ],
+          "removed": [
+            "minecraft:fishing_hook",
+            "minecraft:lightning",
+            "minecraft:player",
+            "minecraft:raider",
+            "minecraft:sheep",
+            "minecraft:slime"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "item",
+        "differences": {
+          "added": [
+            "minecraft:sulfur_spike"
+          ],
+          "removed": []
+        }
+      }
+    }
+  ],
+  "tags": [
+    {
+      "type": "entries",
+      "value": {
+        "name": "all_blocks_with_drop.json",
+        "differences": {
+          "added": [
+            "minecraft:sulfur_spike"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "universal_tags/block.json",
+        "differences": {
+          "added": [
+            "minecraft:sulfur_spike"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "universal_tags/block_entity_type.json",
+        "differences": {
+          "added": [],
+          "removed": [
+            "minecraft:bed"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "universal_tags/block_type.json",
+        "differences": {
+          "added": [
+            "minecraft:sulfur_spike"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "universal_tags/entity_sub_predicate_type.json",
+        "differences": {
+          "added": [
+            "minecraft:components",
+            "minecraft:distance",
+            "minecraft:effects",
+            "minecraft:entity_tags",
+            "minecraft:entity_type",
+            "minecraft:equipment",
+            "minecraft:flags",
+            "minecraft:location",
+            "minecraft:movement",
+            "minecraft:movement_affected_by",
+            "minecraft:nbt",
+            "minecraft:passenger",
+            "minecraft:periodic_tick",
+            "minecraft:predicates",
+            "minecraft:slots",
+            "minecraft:stepping_on",
+            "minecraft:targeted_entity",
+            "minecraft:team",
+            "minecraft:type_specific/fishing_hook",
+            "minecraft:type_specific/lightning",
+            "minecraft:type_specific/player",
+            "minecraft:type_specific/raider",
+            "minecraft:type_specific/sheep",
+            "minecraft:type_specific/slime",
+            "minecraft:vehicle"
+          ],
+          "removed": [
+            "minecraft:fishing_hook",
+            "minecraft:lightning",
+            "minecraft:player",
+            "minecraft:raider",
+            "minecraft:sheep",
+            "minecraft:slime"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "universal_tags/item.json",
+        "differences": {
+          "added": [
+            "minecraft:sulfur_spike"
+          ],
+          "removed": []
+        }
+      }
+    }
+  ],
+  "blocks": [
+    {
+      "type": "entries",
+      "value": {
+        "name": "🗒️ List",
+        "differences": {
+          "added": [
+            "sulfur_spike.json"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "group",
+      "value": {
+        "title": "pointed_dripstone",
+        "comparisons": [
+          {
+            "name": "Definition",
+            "value": {
+              "type": "table",
+              "value": {
+                "previousLabel": "26.2-snapshot-2",
+                "currentLabel": "26.2-snapshot-3",
+                "values": [
+                  {
+                    "key": "block_to_grow_on",
+                    "previous": "/",
+                    "current": "{\"Name\":\"minecraft:dripstone_block\"}"
+                  }
+                ]
+              }
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "recipes": [
+    {
+      "type": "entries",
+      "value": {
+        "name": "🗒️ List",
+        "differences": {
+          "added": [
+            "sulfur_from_sulfur_spikes.json"
+          ],
+          "removed": [
+            "sulfur.json"
+          ]
+        }
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "potent_sulfur.json",
+        "lines": [
+          "\u001b[1;2mType:\u001b[0m minecraft:crafting_shaped -> minecraft:crafting_shapeless\n\u001b[1;2mGroup:\u001b[0m potent_sulfur -> none"
+        ]
+      }
+    }
+  ],
+  "translations": [
+    {
+      "type": "entries",
+      "value": {
+        "name": "Keys",
+        "differences": {
+          "added": [
+            "block.minecraft.sulfur_spike: Sulfur Spike"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "text",
+      "value": {
+        "title": "Changes",
+        "values": [
+          {
+            "key": "block.minecraft.polished_sulfur",
+            "previous": "Polished Sulfur Block",
+            "current": "Polished Sulfur"
+          }
+        ]
+      }
+    }
+  ],
+  "file_structure": [
+    {
+      "type": "entries",
+      "value": {
+        "name": "generated",
+        "differences": {
+          "added": [
+            "reports/minecraft/components/item/sulfur_spike.json"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "data",
+        "differences": {
+          "added": [
+            "minecraft/advancement/recipes/building_blocks/sulfur_from_sulfur_spikes.json",
+            "minecraft/loot_table/blocks/sulfur_spike.json",
+            "minecraft/recipe/sulfur_from_sulfur_spikes.json",
+            "minecraft/tags/block/speleothems.json",
+            "minecraft/tags/block/sulfur_spike_replaceable_blocks.json",
+            "minecraft/villager_trade/wandering_trader/emerald_sulfur_spike.json",
+            "minecraft/worldgen/configured_feature/sulfur_spike.json",
+            "minecraft/worldgen/configured_feature/sulfur_spike_cluster.json",
+            "minecraft/worldgen/placed_feature/sulfur_spike.json",
+            "minecraft/worldgen/placed_feature/sulfur_spike_cluster.json"
+          ],
+          "removed": [
+            "minecraft/advancement/recipes/building_blocks/sulfur.json",
+            "minecraft/recipe/sulfur.json"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "assets",
+        "differences": {
+          "added": [
+            "minecraft/blockstates/sulfur_spike.json",
+            "minecraft/items/sulfur_spike.json",
+            "minecraft/models/block/bed_foot.json",
+            "minecraft/models/block/bed_head.json",
+            "minecraft/models/block/black_bed_foot.json",
+            "minecraft/models/block/black_bed_head.json",
+            "minecraft/models/block/blue_bed_foot.json",
+            "minecraft/models/block/blue_bed_head.json",
+            "minecraft/models/block/brown_bed_foot.json",
+            "minecraft/models/block/brown_bed_head.json",
+            "minecraft/models/block/cyan_bed_foot.json",
+            "minecraft/models/block/cyan_bed_head.json",
+            "minecraft/models/block/gray_bed_foot.json",
+            "minecraft/models/block/gray_bed_head.json",
+            "minecraft/models/block/green_bed_foot.json",
+            "minecraft/models/block/green_bed_head.json",
+            "minecraft/models/block/light_blue_bed_foot.json",
+            "minecraft/models/block/light_blue_bed_head.json",
+            "minecraft/models/block/light_gray_bed_foot.json",
+            "minecraft/models/block/light_gray_bed_head.json",
+            "minecraft/models/block/lime_bed_foot.json",
+            "minecraft/models/block/lime_bed_head.json",
+            "minecraft/models/block/magenta_bed_foot.json",
+            "minecraft/models/block/magenta_bed_head.json",
+            "minecraft/models/block/orange_bed_foot.json",
+            "minecraft/models/block/orange_bed_head.json",
+            "minecraft/models/block/pink_bed_foot.json",
+            "minecraft/models/block/pink_bed_head.json",
+            "minecraft/models/block/purple_bed_foot.json",
+            "minecraft/models/block/purple_bed_head.json",
+            "minecraft/models/block/red_bed_foot.json",
+            "minecraft/models/block/red_bed_head.json",
+            "minecraft/models/block/sulfur_spike_down_base.json",
+            "minecraft/models/block/sulfur_spike_down_frustum.json",
+            "minecraft/models/block/sulfur_spike_down_middle.json",
+            "minecraft/models/block/sulfur_spike_down_tip.json",
+            "minecraft/models/block/sulfur_spike_down_tip_merge.json",
+            "minecraft/models/block/sulfur_spike_up_base.json",
+            "minecraft/models/block/sulfur_spike_up_frustum.json",
+            "minecraft/models/block/sulfur_spike_up_middle.json",
+            "minecraft/models/block/sulfur_spike_up_tip.json",
+            "minecraft/models/block/sulfur_spike_up_tip_merge.json",
+            "minecraft/models/block/template_bed.json",
+            "minecraft/models/block/white_bed_foot.json",
+            "minecraft/models/block/white_bed_head.json",
+            "minecraft/models/block/yellow_bed_foot.json",
+            "minecraft/models/block/yellow_bed_head.json",
+            "minecraft/models/item/sulfur_spike.json",
+            "minecraft/textures/block/bed_down.png",
+            "minecraft/textures/block/bed_head_north.png",
+            "minecraft/textures/block/black_bed_foot_east.png",
+            "minecraft/textures/block/black_bed_foot_south.png",
+            "minecraft/textures/block/black_bed_foot_up.png",
+            "minecraft/textures/block/black_bed_foot_west.png",
+            "minecraft/textures/block/black_bed_head_east.png",
+            "minecraft/textures/block/black_bed_head_up.png",
+            "minecraft/textures/block/black_bed_head_west.png",
+            "minecraft/textures/block/blue_bed_foot_east.png",
+            "minecraft/textures/block/blue_bed_foot_south.png",
+            "minecraft/textures/block/blue_bed_foot_up.png",
+            "minecraft/textures/block/blue_bed_foot_west.png",
+            "minecraft/textures/block/blue_bed_head_east.png",
+            "minecraft/textures/block/blue_bed_head_up.png",
+            "minecraft/textures/block/blue_bed_head_west.png",
+            "minecraft/textures/block/brown_bed_foot_east.png",
+            "minecraft/textures/block/brown_bed_foot_south.png",
+            "minecraft/textures/block/brown_bed_foot_up.png",
+            "minecraft/textures/block/brown_bed_foot_west.png",
+            "minecraft/textures/block/brown_bed_head_east.png",
+            "minecraft/textures/block/brown_bed_head_up.png",
+            "minecraft/textures/block/brown_bed_head_west.png",
+            "minecraft/textures/block/cyan_bed_foot_east.png",
+            "minecraft/textures/block/cyan_bed_foot_south.png",
+            "minecraft/textures/block/cyan_bed_foot_up.png",
+            "minecraft/textures/block/cyan_bed_foot_west.png",
+            "minecraft/textures/block/cyan_bed_head_east.png",
+            "minecraft/textures/block/cyan_bed_head_up.png",
+            "minecraft/textures/block/cyan_bed_head_west.png",
+            "minecraft/textures/block/gray_bed_foot_east.png",
+            "minecraft/textures/block/gray_bed_foot_south.png",
+            "minecraft/textures/block/gray_bed_foot_up.png",
+            "minecraft/textures/block/gray_bed_foot_west.png",
+            "minecraft/textures/block/gray_bed_head_east.png",
+            "minecraft/textures/block/gray_bed_head_up.png",
+            "minecraft/textures/block/gray_bed_head_west.png",
+            "minecraft/textures/block/green_bed_foot_east.png",
+            "minecraft/textures/block/green_bed_foot_south.png",
+            "minecraft/textures/block/green_bed_foot_up.png",
+            "minecraft/textures/block/green_bed_foot_west.png",
+            "minecraft/textures/block/green_bed_head_east.png",
+            "minecraft/textures/block/green_bed_head_up.png",
+            "minecraft/textures/block/green_bed_head_west.png",
+            "minecraft/textures/block/light_blue_bed_foot_east.png",
+            "minecraft/textures/block/light_blue_bed_foot_south.png",
+            "minecraft/textures/block/light_blue_bed_foot_up.png",
+            "minecraft/textures/block/light_blue_bed_foot_west.png",
+            "minecraft/textures/block/light_blue_bed_head_east.png",
+            "minecraft/textures/block/light_blue_bed_head_up.png",
+            "minecraft/textures/block/light_blue_bed_head_west.png",
+            "minecraft/textures/block/light_gray_bed_foot_east.png",
+            "minecraft/textures/block/light_gray_bed_foot_south.png",
+            "minecraft/textures/block/light_gray_bed_foot_up.png",
+            "minecraft/textures/block/light_gray_bed_foot_west.png",
+            "minecraft/textures/block/light_gray_bed_head_east.png",
+            "minecraft/textures/block/light_gray_bed_head_up.png",
+            "minecraft/textures/block/light_gray_bed_head_west.png",
+            "minecraft/textures/block/lime_bed_foot_east.png",
+            "minecraft/textures/block/lime_bed_foot_south.png",
+            "minecraft/textures/block/lime_bed_foot_up.png",
+            "minecraft/textures/block/lime_bed_foot_west.png",
+            "minecraft/textures/block/lime_bed_head_east.png",
+            "minecraft/textures/block/lime_bed_head_up.png",
+            "minecraft/textures/block/lime_bed_head_west.png",
+            "minecraft/textures/block/magenta_bed_foot_east.png",
+            "minecraft/textures/block/magenta_bed_foot_south.png",
+            "minecraft/textures/block/magenta_bed_foot_up.png",
+            "minecraft/textures/block/magenta_bed_foot_west.png",
+            "minecraft/textures/block/magenta_bed_head_east.png",
+            "minecraft/textures/block/magenta_bed_head_up.png",
+            "minecraft/textures/block/magenta_bed_head_west.png",
+            "minecraft/textures/block/orange_bed_foot_east.png",
+            "minecraft/textures/block/orange_bed_foot_south.png",
+            "minecraft/textures/block/orange_bed_foot_up.png",
+            "minecraft/textures/block/orange_bed_foot_west.png",
+            "minecraft/textures/block/orange_bed_head_east.png",
+            "minecraft/textures/block/orange_bed_head_up.png",
+            "minecraft/textures/block/orange_bed_head_west.png",
+            "minecraft/textures/block/pink_bed_foot_east.png",
+            "minecraft/textures/block/pink_bed_foot_south.png",
+            "minecraft/textures/block/pink_bed_foot_up.png",
+            "minecraft/textures/block/pink_bed_foot_west.png",
+            "minecraft/textures/block/pink_bed_head_east.png",
+            "minecraft/textures/block/pink_bed_head_up.png",
+            "minecraft/textures/block/pink_bed_head_west.png",
+            "minecraft/textures/block/purple_bed_foot_east.png",
+            "minecraft/textures/block/purple_bed_foot_south.png",
+            "minecraft/textures/block/purple_bed_foot_up.png",
+            "minecraft/textures/block/purple_bed_foot_west.png",
+            "minecraft/textures/block/purple_bed_head_east.png",
+            "minecraft/textures/block/purple_bed_head_up.png",
+            "minecraft/textures/block/purple_bed_head_west.png",
+            "minecraft/textures/block/red_bed_foot_east.png",
+            "minecraft/textures/block/red_bed_foot_south.png",
+            "minecraft/textures/block/red_bed_foot_up.png",
+            "minecraft/textures/block/red_bed_foot_west.png",
+            "minecraft/textures/block/red_bed_head_east.png",
+            "minecraft/textures/block/red_bed_head_up.png",
+            "minecraft/textures/block/red_bed_head_west.png",
+            "minecraft/textures/block/sulfur_spike_down_base.png",
+            "minecraft/textures/block/sulfur_spike_down_frustum.png",
+            "minecraft/textures/block/sulfur_spike_down_middle.png",
+            "minecraft/textures/block/sulfur_spike_down_tip.png",
+            "minecraft/textures/block/sulfur_spike_down_tip_merge.png",
+            "minecraft/textures/block/sulfur_spike_up_base.png",
+            "minecraft/textures/block/sulfur_spike_up_frustum.png",
+            "minecraft/textures/block/sulfur_spike_up_middle.png",
+            "minecraft/textures/block/sulfur_spike_up_tip.png",
+            "minecraft/textures/block/sulfur_spike_up_tip_merge.png",
+            "minecraft/textures/block/white_bed_foot_east.png",
+            "minecraft/textures/block/white_bed_foot_south.png",
+            "minecraft/textures/block/white_bed_foot_up.png",
+            "minecraft/textures/block/white_bed_foot_west.png",
+            "minecraft/textures/block/white_bed_head_east.png",
+            "minecraft/textures/block/white_bed_head_up.png",
+            "minecraft/textures/block/white_bed_head_west.png",
+            "minecraft/textures/block/yellow_bed_foot_east.png",
+            "minecraft/textures/block/yellow_bed_foot_south.png",
+            "minecraft/textures/block/yellow_bed_foot_up.png",
+            "minecraft/textures/block/yellow_bed_foot_west.png",
+            "minecraft/textures/block/yellow_bed_head_east.png",
+            "minecraft/textures/block/yellow_bed_head_up.png",
+            "minecraft/textures/block/yellow_bed_head_west.png",
+            "minecraft/textures/item/sulfur_spike.png"
+          ],
+          "removed": [
+            "minecraft/models/block/bed.json",
+            "minecraft/models/item/black_bed.json",
+            "minecraft/models/item/blue_bed.json",
+            "minecraft/models/item/brown_bed.json",
+            "minecraft/models/item/cyan_bed.json",
+            "minecraft/models/item/gray_bed.json",
+            "minecraft/models/item/green_bed.json",
+            "minecraft/models/item/light_blue_bed.json",
+            "minecraft/models/item/light_gray_bed.json",
+            "minecraft/models/item/lime_bed.json",
+            "minecraft/models/item/magenta_bed.json",
+            "minecraft/models/item/orange_bed.json",
+            "minecraft/models/item/pink_bed.json",
+            "minecraft/models/item/purple_bed.json",
+            "minecraft/models/item/red_bed.json",
+            "minecraft/models/item/template_bed.json",
+            "minecraft/models/item/white_bed.json",
+            "minecraft/models/item/yellow_bed.json",
+            "minecraft/textures/entity/bed/black.png",
+            "minecraft/textures/entity/bed/blue.png",
+            "minecraft/textures/entity/bed/brown.png",
+            "minecraft/textures/entity/bed/cyan.png",
+            "minecraft/textures/entity/bed/gray.png",
+            "minecraft/textures/entity/bed/green.png",
+            "minecraft/textures/entity/bed/light_blue.png",
+            "minecraft/textures/entity/bed/light_gray.png",
+            "minecraft/textures/entity/bed/lime.png",
+            "minecraft/textures/entity/bed/magenta.png",
+            "minecraft/textures/entity/bed/orange.png",
+            "minecraft/textures/entity/bed/pink.png",
+            "minecraft/textures/entity/bed/purple.png",
+            "minecraft/textures/entity/bed/red.png",
+            "minecraft/textures/entity/bed/white.png",
+            "minecraft/textures/entity/bed/yellow.png"
+          ]
+        }
+      }
+    }
+  ],
+  "custom": [
+    {
+      "type": "title",
+      "value": {
+        "title": "datapacks.json",
+        "id": "custom-datapacks-json",
+        "size": 2
+      }
+    }
+  ]
+}

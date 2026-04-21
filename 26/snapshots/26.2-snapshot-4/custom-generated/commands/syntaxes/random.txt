@@ -1,0 +1,4 @@
+random reset * <seed: integer> <includeWorldSeed: bool> <includeSequenceId: bool>
+random reset <sequence: resource_location> <seed: integer> <includeWorldSeed: bool> <includeSequenceId: bool>
+random roll <range: int_range> <sequence: resource_location>
+random value <range: int_range> <sequence: resource_location>
