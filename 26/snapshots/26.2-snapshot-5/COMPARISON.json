@@ -1,0 +1,5051 @@
+{
+  "version_data": [
+    {
+      "type": "table",
+      "value": {
+        "previousLabel": "26.2-snapshot-4",
+        "currentLabel": "26.2-snapshot-5",
+        "values": [
+          {
+            "key": "DataPack version",
+            "previous": "103.0",
+            "current": "104.0"
+          },
+          {
+            "key": "ResourcePack version",
+            "previous": "86.1",
+            "current": "86.2"
+          },
+          {
+            "key": "World version",
+            "previous": "4887",
+            "current": "4889"
+          },
+          {
+            "key": "Protocol version",
+            "previous": "1073742134",
+            "current": "1073742135"
+          }
+        ]
+      }
+    }
+  ],
+  "registries": [
+    {
+      "type": "entries",
+      "value": {
+        "name": "attribute",
+        "differences": {
+          "added": [
+            "minecraft:name_tag_distance"
+          ],
+          "removed": [
+            "minecraft:nameplate_distance"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "block_predicate_type",
+        "differences": {
+          "added": [
+            "minecraft:matching_biomes"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "command_argument_type",
+        "differences": {
+          "added": [
+            "minecraft:team_color"
+          ],
+          "removed": [
+            "minecraft:color"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "particle_type",
+        "differences": {
+          "added": [
+            "minecraft:geyser",
+            "minecraft:geyser_base",
+            "minecraft:geyser_plume",
+            "minecraft:geyser_poof"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "sound_event",
+        "differences": {
+          "added": [
+            "minecraft:block.potent_sulfur.geyser_eruption",
+            "minecraft:block.potent_sulfur.geyser_eruption_active",
+            "minecraft:block.sulfur_spike.break",
+            "minecraft:block.sulfur_spike.fall",
+            "minecraft:block.sulfur_spike.hit",
+            "minecraft:block.sulfur_spike.land",
+            "minecraft:block.sulfur_spike.place",
+            "minecraft:block.sulfur_spike.step"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "test_environment_definition_type",
+        "differences": {
+          "added": [
+            "minecraft:difficulty"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "worldgen/density_function_type",
+        "differences": {
+          "added": [
+            "minecraft:interval_select"
+          ],
+          "removed": [
+            "minecraft:weird_scaled_sampler"
+          ]
+        }
+      }
+    }
+  ],
+  "tags": [
+    {
+      "type": "entries",
+      "value": {
+        "name": "universal_tags/attribute.json",
+        "differences": {
+          "added": [
+            "minecraft:name_tag_distance"
+          ],
+          "removed": [
+            "minecraft:nameplate_distance"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "universal_tags/block_predicate_type.json",
+        "differences": {
+          "added": [
+            "minecraft:matching_biomes"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "universal_tags/command_argument_type.json",
+        "differences": {
+          "added": [
+            "minecraft:team_color"
+          ],
+          "removed": [
+            "minecraft:color"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "universal_tags/particle_type.json",
+        "differences": {
+          "added": [
+            "minecraft:geyser",
+            "minecraft:geyser_base",
+            "minecraft:geyser_plume",
+            "minecraft:geyser_poof"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "universal_tags/sound_event.json",
+        "differences": {
+          "added": [
+            "minecraft:block.potent_sulfur.geyser_eruption",
+            "minecraft:block.potent_sulfur.geyser_eruption_active",
+            "minecraft:block.sulfur_spike.break",
+            "minecraft:block.sulfur_spike.fall",
+            "minecraft:block.sulfur_spike.hit",
+            "minecraft:block.sulfur_spike.land",
+            "minecraft:block.sulfur_spike.place",
+            "minecraft:block.sulfur_spike.step"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "universal_tags/test_environment_definition_type.json",
+        "differences": {
+          "added": [
+            "minecraft:difficulty"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "universal_tags/worldgen/density_function_type.json",
+        "differences": {
+          "added": [
+            "minecraft:interval_select"
+          ],
+          "removed": [
+            "minecraft:weird_scaled_sampler"
+          ]
+        }
+      }
+    }
+  ],
+  "commands": [
+    {
+      "type": "entries",
+      "value": {
+        "name": "team",
+        "differences": {
+          "added": [
+            "team modify <team: team> color reset",
+            "team modify <team: team> color <value: team_color>"
+          ],
+          "removed": [
+            "team modify <team: team> color <value: color>"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "waypoint",
+        "differences": {
+          "added": [
+            "waypoint modify <waypoint: entity> color <color: team_color>"
+          ],
+          "removed": [
+            "waypoint modify <waypoint: entity> color <color: color>"
+          ]
+        }
+      }
+    }
+  ],
+  "recipes": [
+    {
+      "type": "ansi",
+      "value": {
+        "title": "acacia_boat.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "acacia_chest_boat.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "acacia_fence.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "acacia_hanging_sign.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "acacia_shelf.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "acacia_sign.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "activator_rail.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "andesite_wall.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "anvil.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "armor_stand.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "bamboo_chest_raft.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "bamboo_fence.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "bamboo_hanging_sign.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "bamboo_mosaic.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "bamboo_raft.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "bamboo_shelf.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "bamboo_sign.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "barrel.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "beacon.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "beehive.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "beetroot_soup.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "birch_boat.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "birch_chest_boat.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "birch_fence.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "birch_hanging_sign.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "birch_shelf.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "birch_sign.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "blackstone_wall.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "black_banner.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "black_bed.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "black_candle.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "black_carpet.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "black_dye.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "black_dye_from_wither_rose.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "black_shulker_box.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "black_stained_glass_pane.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "black_stained_glass_pane_from_glass_pane.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "blast_furnace.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "blaze_powder.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "blue_banner.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "blue_bed.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "blue_candle.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "blue_carpet.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "blue_dye.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "blue_dye_from_cornflower.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "blue_shulker_box.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "blue_stained_glass_pane.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "blue_stained_glass_pane_from_glass_pane.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "bolt_armor_trim_smithing_template.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "bone_meal.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "bone_meal_from_bone_block.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "book.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "bordure_indented_banner_pattern.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "bowl.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "bread.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "brewing_stand.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "brick.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "brick_wall.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "brown_banner.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "brown_bed.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "brown_candle.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "brown_carpet.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "brown_dye.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "brown_shulker_box.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "brown_stained_glass_pane.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "brown_stained_glass_pane_from_glass_pane.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "bucket.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "cake.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "campfire.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "candle.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "carrot_on_a_stick.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "cartography_table.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "cauldron.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "charcoal.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "cherry_boat.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "cherry_chest_boat.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "cherry_fence.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "cherry_hanging_sign.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "cherry_shelf.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "cherry_sign.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "chest.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "chest_minecart.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "cinnabar_brick_wall.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "cinnabar_wall.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "coal.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "coal_from_blasting_coal_ore.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "coal_from_blasting_deepslate_coal_ore.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "coal_from_smelting_coal_ore.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "coal_from_smelting_deepslate_coal_ore.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "coast_armor_trim_smithing_template.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "cobbled_deepslate_wall.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "cobblestone_wall.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "composter.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "conduit.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "cookie.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "copper_bars.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "copper_chain.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "copper_chest.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "copper_ingot.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "copper_ingot_from_blasting_copper_ore.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "copper_ingot_from_blasting_deepslate_copper_ore.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "copper_ingot_from_blasting_raw_copper.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "copper_ingot_from_nuggets.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "copper_ingot_from_smelting_copper_ore.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "copper_ingot_from_smelting_deepslate_copper_ore.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "copper_ingot_from_smelting_raw_copper.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "copper_ingot_from_waxed_copper_block.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "copper_lantern.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "copper_nugget.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "copper_nugget_from_blasting.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "copper_nugget_from_smelting.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "copper_torch.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "crafting_table.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "creaking_heart.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "creeper_banner_pattern.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "crimson_fence.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "crimson_hanging_sign.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "crimson_shelf.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "crimson_sign.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "cyan_banner.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "cyan_bed.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "cyan_candle.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "cyan_carpet.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "cyan_dye.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "cyan_dye_from_pitcher_plant.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "cyan_shulker_box.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "cyan_stained_glass_pane.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "cyan_stained_glass_pane_from_glass_pane.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "dark_oak_boat.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "dark_oak_chest_boat.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "dark_oak_fence.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "dark_oak_hanging_sign.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "dark_oak_shelf.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "dark_oak_sign.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "decorated_pot_simple.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "deepslate_brick_wall.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "deepslate_tile_wall.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "detector_rail.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "diamond.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "diamond_from_blasting_deepslate_diamond_ore.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "diamond_from_blasting_diamond_ore.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "diamond_from_smelting_deepslate_diamond_ore.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "diamond_from_smelting_diamond_ore.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "diorite_wall.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "dried_kelp.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "dune_armor_trim_smithing_template.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "dye_black_bed.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "dye_black_carpet.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "dye_blue_bed.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "dye_blue_carpet.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "dye_brown_bed.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "dye_brown_carpet.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "dye_cyan_bed.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "dye_cyan_carpet.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "dye_gray_bed.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "dye_gray_carpet.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "dye_green_bed.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "dye_green_carpet.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "dye_light_blue_bed.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "dye_light_blue_carpet.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "dye_light_gray_bed.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "dye_light_gray_carpet.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "dye_lime_bed.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "dye_lime_carpet.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "dye_magenta_bed.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "dye_magenta_carpet.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "dye_orange_bed.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "dye_orange_carpet.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "dye_pink_bed.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "dye_pink_carpet.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "dye_purple_bed.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "dye_purple_carpet.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "dye_red_bed.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "dye_red_carpet.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "dye_white_bed.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "dye_white_carpet.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "dye_yellow_bed.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "dye_yellow_carpet.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "emerald.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "emerald_from_blasting_deepslate_emerald_ore.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "emerald_from_blasting_emerald_ore.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "emerald_from_smelting_deepslate_emerald_ore.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "emerald_from_smelting_emerald_ore.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "enchanting_table.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "ender_chest.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "ender_eye.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "end_crystal.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "end_rod.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "end_stone_brick_wall.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "eye_armor_trim_smithing_template.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "fermented_spider_eye.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "field_masoned_banner_pattern.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "firework_rocket_simple.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "fire_charge.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "fletching_table.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "flower_banner_pattern.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "flower_pot.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "flow_armor_trim_smithing_template.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "furnace.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "furnace_minecart.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "glass_bottle.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "glass_pane.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "glistering_melon_slice.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "glow_item_frame.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "golden_apple.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "golden_carrot.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "golden_dandelion.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "gold_ingot_from_blasting_deepslate_gold_ore.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "gold_ingot_from_blasting_gold_ore.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "gold_ingot_from_blasting_nether_gold_ore.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "gold_ingot_from_blasting_raw_gold.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "gold_ingot_from_gold_block.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "gold_ingot_from_nuggets.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "gold_ingot_from_smelting_deepslate_gold_ore.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "gold_ingot_from_smelting_gold_ore.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "gold_ingot_from_smelting_nether_gold_ore.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "gold_ingot_from_smelting_raw_gold.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "gold_nugget.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "gold_nugget_from_blasting.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "gold_nugget_from_smelting.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "granite_wall.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "gray_banner.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "gray_bed.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "gray_candle.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "gray_carpet.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "gray_dye.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "gray_dye_from_closed_eyeblossom.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "gray_shulker_box.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "gray_stained_glass_pane.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "gray_stained_glass_pane_from_glass_pane.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "green_banner.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "green_bed.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "green_candle.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "green_carpet.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "green_dye.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "green_shulker_box.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "green_stained_glass_pane.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "green_stained_glass_pane_from_glass_pane.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "grindstone.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "honeycomb_block.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "honey_bottle.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "hopper_minecart.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "host_armor_trim_smithing_template.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "iron_bars.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "iron_chain.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "iron_ingot_from_blasting_deepslate_iron_ore.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "iron_ingot_from_blasting_iron_ore.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "iron_ingot_from_blasting_raw_iron.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "iron_ingot_from_iron_block.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "iron_ingot_from_nuggets.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "iron_ingot_from_smelting_deepslate_iron_ore.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "iron_ingot_from_smelting_iron_ore.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "iron_ingot_from_smelting_raw_iron.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "iron_nugget.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "iron_nugget_from_blasting.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "iron_nugget_from_smelting.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "item_frame.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "jukebox.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "jungle_boat.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "jungle_chest_boat.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "jungle_fence.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "jungle_hanging_sign.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "jungle_shelf.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "jungle_sign.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "ladder.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "lantern.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "lapis_lazuli.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "lapis_lazuli_from_blasting_deepslate_lapis_ore.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "lapis_lazuli_from_blasting_lapis_ore.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "lapis_lazuli_from_smelting_deepslate_lapis_ore.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "lapis_lazuli_from_smelting_lapis_ore.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "leather.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "leather_boots_dyed.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "leather_chestplate_dyed.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "leather_helmet_dyed.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "leather_horse_armor.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "leather_horse_armor_dyed.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "leather_leggings_dyed.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "light_blue_banner.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "light_blue_bed.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "light_blue_candle.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "light_blue_carpet.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "light_blue_dye_from_blue_orchid.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "light_blue_dye_from_blue_white_dye.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "light_blue_shulker_box.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "light_blue_stained_glass_pane.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "light_blue_stained_glass_pane_from_glass_pane.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "light_gray_banner.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "light_gray_bed.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "light_gray_candle.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "light_gray_carpet.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "light_gray_dye_from_azure_bluet.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "light_gray_dye_from_black_white_dye.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "light_gray_dye_from_gray_white_dye.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "light_gray_dye_from_oxeye_daisy.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "light_gray_dye_from_white_tulip.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "light_gray_shulker_box.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "light_gray_stained_glass_pane.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "light_gray_stained_glass_pane_from_glass_pane.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "lime_banner.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "lime_bed.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "lime_candle.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "lime_carpet.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "lime_dye.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "lime_dye_from_smelting.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "lime_shulker_box.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "lime_stained_glass_pane.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "lime_stained_glass_pane_from_glass_pane.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "lodestone.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "loom.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "magenta_banner.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "magenta_bed.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "magenta_candle.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "magenta_carpet.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "magenta_dye_from_allium.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "magenta_dye_from_blue_red_pink.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "magenta_dye_from_blue_red_white_dye.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "magenta_dye_from_lilac.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "magenta_dye_from_purple_and_pink.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "magenta_shulker_box.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "magenta_stained_glass_pane.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "magenta_stained_glass_pane_from_glass_pane.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "magma_cream.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "mangrove_boat.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "mangrove_chest_boat.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "mangrove_fence.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "mangrove_hanging_sign.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "mangrove_shelf.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "mangrove_sign.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "map.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "map_cloning.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "melon_seeds.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "minecart.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "mojang_banner_pattern.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "mossy_cobblestone_wall.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "mossy_stone_brick_wall.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "moss_carpet.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "mud_brick_wall.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "mushroom_stew.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "music_disc_5.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "netherite_ingot.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "netherite_ingot_from_netherite_block.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "netherite_scrap.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "netherite_scrap_from_blasting.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "netherite_upgrade_smithing_template.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "nether_brick.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "nether_brick_fence.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "nether_brick_wall.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "oak_boat.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "oak_chest_boat.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "oak_fence.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "oak_hanging_sign.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "oak_shelf.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "oak_sign.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "orange_banner.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "orange_bed.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "orange_candle.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "orange_carpet.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "orange_dye_from_open_eyeblossom.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "orange_dye_from_orange_tulip.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "orange_dye_from_red_yellow.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "orange_dye_from_torchflower.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "orange_shulker_box.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "orange_stained_glass_pane.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "orange_stained_glass_pane_from_glass_pane.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "painting.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "pale_moss_carpet.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "pale_oak_boat.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "pale_oak_chest_boat.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "pale_oak_fence.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "pale_oak_hanging_sign.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "pale_oak_shelf.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "pale_oak_sign.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "paper.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "pink_banner.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "pink_bed.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "pink_candle.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "pink_carpet.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "pink_dye_from_cactus_flower.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "pink_dye_from_peony.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "pink_dye_from_pink_petals.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "pink_dye_from_pink_tulip.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "pink_dye_from_red_white_dye.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "pink_shulker_box.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "pink_stained_glass_pane.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "pink_stained_glass_pane_from_glass_pane.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "polished_blackstone_brick_wall.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "polished_blackstone_wall.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "polished_cinnabar_wall.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "polished_deepslate_wall.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "polished_sulfur_wall.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "polished_tuff_wall.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "popped_chorus_fruit.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "powered_rail.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "prismarine_wall.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "pumpkin_pie.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "pumpkin_seeds.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "purple_banner.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "purple_bed.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "purple_candle.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "purple_carpet.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "purple_dye.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "purple_shulker_box.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "purple_stained_glass_pane.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "purple_stained_glass_pane_from_glass_pane.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "quartz.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "quartz_from_blasting.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "rabbit_stew_from_brown_mushroom.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "rabbit_stew_from_red_mushroom.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "rail.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "raiser_armor_trim_smithing_template.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "raw_copper.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "raw_gold.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "raw_iron.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "red_banner.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "red_bed.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "red_candle.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "red_carpet.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "red_dye_from_beetroot.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "red_dye_from_poppy.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "red_dye_from_rose_bush.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "red_dye_from_tulip.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "red_nether_brick_wall.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "red_sandstone_wall.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "red_shulker_box.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "red_stained_glass_pane.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "red_stained_glass_pane_from_glass_pane.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "resin_brick.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "resin_brick_wall.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "resin_clump.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "respawn_anchor.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "rib_armor_trim_smithing_template.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "sandstone_wall.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "scaffolding.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "sentry_armor_trim_smithing_template.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "shaper_armor_trim_smithing_template.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "shulker_box.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "silence_armor_trim_smithing_template.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "skull_banner_pattern.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "slime_ball.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "smithing_table.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "smoker.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "snout_armor_trim_smithing_template.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "snow.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "soul_campfire.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "soul_lantern.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "soul_torch.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "spire_armor_trim_smithing_template.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "spruce_boat.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "spruce_chest_boat.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "spruce_fence.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "spruce_hanging_sign.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "spruce_shelf.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "spruce_sign.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "stick.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "stick_from_bamboo_item.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "stonecutter.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "stone_brick_wall.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "sugar_from_honey_bottle.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "sugar_from_sugar_cane.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "sulfur_brick_wall.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "sulfur_wall.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "suspicious_stew_from_allium.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "suspicious_stew_from_azure_bluet.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "suspicious_stew_from_blue_orchid.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "suspicious_stew_from_closed_eyeblossom.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "suspicious_stew_from_cornflower.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "suspicious_stew_from_dandelion.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "suspicious_stew_from_golden_dandelion.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "suspicious_stew_from_lily_of_the_valley.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "suspicious_stew_from_open_eyeblossom.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "suspicious_stew_from_orange_tulip.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "suspicious_stew_from_oxeye_daisy.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "suspicious_stew_from_pink_tulip.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "suspicious_stew_from_poppy.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "suspicious_stew_from_red_tulip.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "suspicious_stew_from_torchflower.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "suspicious_stew_from_white_tulip.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "suspicious_stew_from_wither_rose.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "tide_armor_trim_smithing_template.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "tipped_arrow.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "tnt_minecart.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "torch.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "tuff_brick_wall.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "tuff_wall.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "vex_armor_trim_smithing_template.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "ward_armor_trim_smithing_template.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "warped_fence.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "warped_fungus_on_a_stick.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "warped_hanging_sign.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "warped_shelf.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "warped_sign.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "wayfinder_armor_trim_smithing_template.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "wheat.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "white_banner.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "white_bed.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "white_candle.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "white_carpet.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "white_dye.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "white_dye_from_lily_of_the_valley.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "white_shulker_box.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "white_stained_glass_pane.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "white_stained_glass_pane_from_glass_pane.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "wild_armor_trim_smithing_template.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "wind_charge.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "wolf_armor_dyed.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "writable_book.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "yellow_banner.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "yellow_bed.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "yellow_candle.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "yellow_carpet.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "yellow_dye_from_dandelion.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "yellow_dye_from_golden_dandelion.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "yellow_dye_from_sunflower.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "yellow_dye_from_wildflowers.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "yellow_shulker_box.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "yellow_stained_glass_pane.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "yellow_stained_glass_pane_from_glass_pane.json",
+        "lines": [
+          "\u001b[1;2mCategory:\u001b[0m misc -> none"
+        ]
+      }
+    }
+  ],
+  "translations": [
+    {
+      "type": "entries",
+      "value": {
+        "name": "Keys",
+        "differences": {
+          "added": [
+            "commands.team.option.color.clear.success: Cleared the color for team %s",
+            "subtitles.block.potent_sulfur.geyser_eruption: Sulfur spring bursts"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "text",
+      "value": {
+        "title": "Changes",
+        "values": [
+          {
+            "key": "attribute.name.below_name_distance",
+            "previous": "Nameplate Score Distance",
+            "current": "Name Tag Score Distance"
+          },
+          {
+            "key": "attribute.name.nameplate_distance",
+            "previous": "Nameplate Distance",
+            "current": "Name Tag Distance"
+          }
+        ]
+      }
+    }
+  ],
+  "file_structure": [
+    {
+      "type": "entries",
+      "value": {
+        "name": "data",
+        "differences": {
+          "added": [
+            "minecraft/sulfur_cube_archetype/explosive.json",
+            "minecraft/tags/block/default_immune_to.json",
+            "minecraft/tags/block/fox_immune_to.json",
+            "minecraft/tags/block/polar_bear_immune_to.json",
+            "minecraft/tags/block/snow_golem_immune_to.json",
+            "minecraft/tags/block/stray_immune_to.json",
+            "minecraft/tags/block/wither_immune_to.json",
+            "minecraft/tags/block/wither_skeleton_immune_to.json",
+            "minecraft/tags/item/sulfur_cube_archetype/explosive.json"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "assets",
+        "differences": {
+          "added": [
+            "minecraft/particles/geyser_base.json",
+            "minecraft/particles/geyser_plume.json",
+            "minecraft/particles/geyser_poof.json",
+            "minecraft/textures/particle/geyser_base_01.png",
+            "minecraft/textures/particle/geyser_base_02.png",
+            "minecraft/textures/particle/geyser_base_03.png",
+            "minecraft/textures/particle/geyser_base_04.png",
+            "minecraft/textures/particle/geyser_base_05.png",
+            "minecraft/textures/particle/geyser_base_06.png",
+            "minecraft/textures/particle/geyser_base_07.png",
+            "minecraft/textures/particle/geyser_base_08.png",
+            "minecraft/textures/particle/geyser_plume_01.png",
+            "minecraft/textures/particle/geyser_plume_02.png",
+            "minecraft/textures/particle/geyser_plume_03.png",
+            "minecraft/textures/particle/geyser_plume_04.png",
+            "minecraft/textures/particle/geyser_plume_05.png",
+            "minecraft/textures/particle/geyser_plume_06.png",
+            "minecraft/textures/particle/geyser_plume_07.png",
+            "minecraft/textures/particle/geyser_plume_08.png",
+            "minecraft/textures/particle/geyser_poof_01.png",
+            "minecraft/textures/particle/geyser_poof_02.png",
+            "minecraft/textures/particle/geyser_poof_03.png",
+            "minecraft/textures/particle/geyser_poof_04.png",
+            "minecraft/textures/particle/geyser_poof_05.png",
+            "minecraft/textures/particle/geyser_poof_06.png",
+            "minecraft/textures/particle/geyser_poof_07.png",
+            "minecraft/textures/particle/geyser_poof_08.png"
+          ],
+          "removed": []
+        }
+      }
+    }
+  ],
+  "misc": [
+    {
+      "type": "entries",
+      "value": {
+        "name": "parsers",
+        "differences": {
+          "added": [
+            "minecraft:team_color"
+          ],
+          "removed": [
+            "minecraft:color"
+          ]
+        }
+      }
+    }
+  ],
+  "custom": [
+    {
+      "type": "title",
+      "value": {
+        "title": "datapacks.json",
+        "id": "custom-datapacks-json",
+        "size": 2
+      }
+    }
+  ]
+}

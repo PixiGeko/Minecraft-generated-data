@@ -1,0 +1,87 @@
+{
+  "definition": {
+    "type": "minecraft:flower_bed",
+    "properties": {}
+  },
+  "properties": {
+    "facing": [
+      "north",
+      "south",
+      "west",
+      "east"
+    ],
+    "flower_amount": [
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  "states": {
+    "30306": {
+      "facing": "north",
+      "flower_amount": 1
+    },
+    "30307": {
+      "facing": "north",
+      "flower_amount": 2
+    },
+    "30308": {
+      "facing": "north",
+      "flower_amount": 3
+    },
+    "30309": {
+      "facing": "north",
+      "flower_amount": 4
+    },
+    "30310": {
+      "facing": "south",
+      "flower_amount": 1
+    },
+    "30311": {
+      "facing": "south",
+      "flower_amount": 2
+    },
+    "30312": {
+      "facing": "south",
+      "flower_amount": 3
+    },
+    "30313": {
+      "facing": "south",
+      "flower_amount": 4
+    },
+    "30314": {
+      "facing": "west",
+      "flower_amount": 1
+    },
+    "30315": {
+      "facing": "west",
+      "flower_amount": 2
+    },
+    "30316": {
+      "facing": "west",
+      "flower_amount": 3
+    },
+    "30317": {
+      "facing": "west",
+      "flower_amount": 4
+    },
+    "30318": {
+      "facing": "east",
+      "flower_amount": 1
+    },
+    "30319": {
+      "facing": "east",
+      "flower_amount": 2
+    },
+    "30320": {
+      "facing": "east",
+      "flower_amount": 3
+    },
+    "30321": {
+      "facing": "east",
+      "flower_amount": 4
+    },
+    "default": 30306
+  }
+}
