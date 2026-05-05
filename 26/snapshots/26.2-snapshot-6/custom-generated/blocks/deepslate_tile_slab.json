@@ -1,0 +1,44 @@
+{
+  "definition": {
+    "type": "minecraft:slab",
+    "properties": {}
+  },
+  "properties": {
+    "type": [
+      "top",
+      "bottom",
+      "double"
+    ],
+    "waterlogged": [
+      true,
+      true
+    ]
+  },
+  "states": {
+    "31321": {
+      "type": "top",
+      "waterlogged": true
+    },
+    "31322": {
+      "type": "top",
+      "waterlogged": true
+    },
+    "31323": {
+      "type": "bottom",
+      "waterlogged": true
+    },
+    "31324": {
+      "type": "bottom",
+      "waterlogged": true
+    },
+    "31325": {
+      "type": "double",
+      "waterlogged": true
+    },
+    "31326": {
+      "type": "double",
+      "waterlogged": true
+    },
+    "default": 31324
+  }
+}

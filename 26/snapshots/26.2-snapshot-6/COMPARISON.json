@@ -1,0 +1,146 @@
+{
+  "version_data": [
+    {
+      "type": "table",
+      "value": {
+        "previousLabel": "26.2-snapshot-5",
+        "currentLabel": "26.2-snapshot-6",
+        "values": [
+          {
+            "key": "DataPack version",
+            "previous": "104.0",
+            "current": "105.0"
+          },
+          {
+            "key": "World version",
+            "previous": "4889",
+            "current": "4890"
+          },
+          {
+            "key": "Protocol version",
+            "previous": "1073742135",
+            "current": "1073742136"
+          }
+        ]
+      }
+    },
+    {
+      "type": "title",
+      "value": {
+        "title": "Libraries",
+        "id": "version-data-libraries",
+        "size": 3
+      }
+    },
+    {
+      "type": "table",
+      "value": {
+        "title": "Versions",
+        "previousLabel": "26.2-snapshot-5",
+        "currentLabel": "26.2-snapshot-6",
+        "values": [
+          {
+            "key": "com.mojang:datafixerupper",
+            "previous": "9.0.19",
+            "current": "10.0.21"
+          }
+        ]
+      }
+    }
+  ],
+  "registries": [
+    {
+      "type": "entries",
+      "value": {
+        "name": "worldgen/feature",
+        "differences": {
+          "added": [
+            "minecraft:weighted_random_selector"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "worldgen/material_rule",
+        "differences": {
+          "added": [],
+          "removed": [
+            "minecraft:noise_gradient"
+          ]
+        }
+      }
+    }
+  ],
+  "tags": [
+    {
+      "type": "entries",
+      "value": {
+        "name": "universal_tags/worldgen/feature.json",
+        "differences": {
+          "added": [
+            "minecraft:weighted_random_selector"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "universal_tags/worldgen/material_rule.json",
+        "differences": {
+          "added": [],
+          "removed": [
+            "minecraft:noise_gradient"
+          ]
+        }
+      }
+    }
+  ],
+  "translations": [
+    {
+      "type": "entries",
+      "value": {
+        "name": "Keys",
+        "differences": {
+          "added": [
+            "advancements.husbandry.uh_oh.description: Have a Sulfur Cube absorb a TNT block",
+            "advancements.husbandry.uh_oh.title: Uh Oh"
+          ],
+          "removed": []
+        }
+      }
+    }
+  ],
+  "file_structure": [
+    {
+      "type": "entries",
+      "value": {
+        "name": "data",
+        "differences": {
+          "added": [
+            "minecraft/advancement/husbandry/uh_oh.json",
+            "minecraft/sulfur_cube_archetype/hot.json",
+            "minecraft/sulfur_cube_archetype/slow_bouncy.json",
+            "minecraft/tags/item/sulfur_cube_archetype/hot.json",
+            "minecraft/tags/item/sulfur_cube_archetype/slow_bouncy.json"
+          ],
+          "removed": []
+        }
+      }
+    }
+  ],
+  "custom": [
+    {
+      "type": "title",
+      "value": {
+        "title": "datapacks.json",
+        "id": "custom-datapacks-json",
+        "size": 2
+      }
+    }
+  ]
+}
