@@ -1,0 +1,3792 @@
+{
+  "version_data": [
+    {
+      "type": "table",
+      "value": {
+        "previousLabel": "26.2-snapshot-6",
+        "currentLabel": "26.2-snapshot-7",
+        "values": [
+          {
+            "key": "DataPack version",
+            "previous": "105.0",
+            "current": "105.1"
+          },
+          {
+            "key": "ResourcePack version",
+            "previous": "86.2",
+            "current": "87.0"
+          },
+          {
+            "key": "World version",
+            "previous": "4890",
+            "current": "4891"
+          },
+          {
+            "key": "Protocol version",
+            "previous": "1073742136",
+            "current": "1073742137"
+          }
+        ]
+      }
+    },
+    {
+      "type": "title",
+      "value": {
+        "title": "Libraries",
+        "id": "version-data-libraries",
+        "size": 3
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "🗒️ List",
+        "differences": {
+          "added": [
+            "dev.onvoid.webrtc:webrtc-java V0.14.0",
+            "dev.onvoid.webrtc:webrtc-java (linux-aarch32) V0.14.0",
+            "dev.onvoid.webrtc:webrtc-java (linux-aarch64) V0.14.0",
+            "dev.onvoid.webrtc:webrtc-java (linux-x86_64) V0.14.0",
+            "dev.onvoid.webrtc:webrtc-java (macos-aarch64) V0.14.0",
+            "dev.onvoid.webrtc:webrtc-java (macos-x86_64) V0.14.0",
+            "dev.onvoid.webrtc:webrtc-java (windows-x86_64) V0.14.0"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "table",
+      "value": {
+        "title": "Versions",
+        "previousLabel": "26.2-snapshot-6",
+        "currentLabel": "26.2-snapshot-7",
+        "values": [
+          {
+            "key": "com.mojang:authlib",
+            "previous": "7.0.63",
+            "current": "7.0.72"
+          }
+        ]
+      }
+    }
+  ],
+  "registries": [
+    {
+      "type": "entries",
+      "value": {
+        "name": "item",
+        "differences": {
+          "added": [
+            "minecraft:music_disc_bounce"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "sound_event",
+        "differences": {
+          "added": [
+            "minecraft:block.potent_sulfur.geyser_continuous_eruption",
+            "minecraft:block.potent_sulfur.geyser_continuous_eruption_active",
+            "minecraft:music.overworld.sulfur_caves",
+            "minecraft:music_disc.bounce"
+          ],
+          "removed": []
+        }
+      }
+    }
+  ],
+  "tags": [
+    {
+      "type": "entries",
+      "value": {
+        "name": "universal_tags/item.json",
+        "differences": {
+          "added": [
+            "minecraft:music_disc_bounce"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "universal_tags/sound_event.json",
+        "differences": {
+          "added": [
+            "minecraft:block.potent_sulfur.geyser_continuous_eruption",
+            "minecraft:block.potent_sulfur.geyser_continuous_eruption_active",
+            "minecraft:music.overworld.sulfur_caves",
+            "minecraft:music_disc.bounce"
+          ],
+          "removed": []
+        }
+      }
+    }
+  ],
+  "recipes": [
+    {
+      "type": "ansi",
+      "value": {
+        "title": "acacia_hanging_sign.json",
+        "lines": [
+          "\u001b[1;2mGroup:\u001b[0m hanging_sign -> wooden_hanging_sign"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "bamboo_hanging_sign.json",
+        "lines": [
+          "\u001b[1;2mGroup:\u001b[0m hanging_sign -> wooden_hanging_sign"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "birch_hanging_sign.json",
+        "lines": [
+          "\u001b[1;2mGroup:\u001b[0m hanging_sign -> wooden_hanging_sign"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "cherry_hanging_sign.json",
+        "lines": [
+          "\u001b[1;2mGroup:\u001b[0m hanging_sign -> wooden_hanging_sign"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "crimson_hanging_sign.json",
+        "lines": [
+          "\u001b[1;2mGroup:\u001b[0m hanging_sign -> wooden_hanging_sign"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "dark_oak_hanging_sign.json",
+        "lines": [
+          "\u001b[1;2mGroup:\u001b[0m hanging_sign -> wooden_hanging_sign"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "jungle_hanging_sign.json",
+        "lines": [
+          "\u001b[1;2mGroup:\u001b[0m hanging_sign -> wooden_hanging_sign"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "mangrove_hanging_sign.json",
+        "lines": [
+          "\u001b[1;2mGroup:\u001b[0m hanging_sign -> wooden_hanging_sign"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "oak_hanging_sign.json",
+        "lines": [
+          "\u001b[1;2mGroup:\u001b[0m hanging_sign -> wooden_hanging_sign"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "pale_oak_hanging_sign.json",
+        "lines": [
+          "\u001b[1;2mGroup:\u001b[0m hanging_sign -> wooden_hanging_sign"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "spruce_hanging_sign.json",
+        "lines": [
+          "\u001b[1;2mGroup:\u001b[0m hanging_sign -> wooden_hanging_sign"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "warped_hanging_sign.json",
+        "lines": [
+          "\u001b[1;2mGroup:\u001b[0m hanging_sign -> wooden_hanging_sign"
+        ]
+      }
+    }
+  ],
+  "translations": [
+    {
+      "type": "entries",
+      "value": {
+        "name": "Keys",
+        "differences": {
+          "added": [
+            "accessibility.onboarding.accessibility.button.narration: Accessibility Settings",
+            "connect.p2p.establishing: Establishing connection...",
+            "connect.p2p.failed.generic: Couldn't connect to player",
+            "connect.p2p.failed.signaling: It is not possible to connect right now.\nTry again later.",
+            "connect.p2p.failed.timeout: Connection request timed out",
+            "connect.p2p.failed.unreachable: Player isn't reachable",
+            "gui.friends.accept: Accept",
+            "gui.friends.button.loading: Wait...",
+            "gui.friends.button.loading.join_request_pending: Waiting on confirmation from %s",
+            "gui.friends.cancel_request: Cancel request",
+            "gui.friends.confirm_title: Confirm",
+            "gui.friends.confirm_unfriend: Are you sure you want to remove this player from your Friends List?",
+            "gui.friends.copy_to_clipboard: Copy to Clipboard",
+            "gui.friends.decline: Decline",
+            "gui.friends.empty_nickname: Enter a valid profile name before sending a friend request",
+            "gui.friends.empty_state: Friends you add will be listed here.\n\nManage online safety with your %s.",
+            "gui.friends.empty_state.link: Microsoft account",
+            "gui.friends.enter_nickname: Enter Profile Name",
+            "gui.friends.error.connection_issue: Friends List is not working right now.\n\nCheck your internet connection and try again.",
+            "gui.friends.error.failed.message: Unable to send your friend request right now",
+            "gui.friends.error.forbidden.message: Failed to perform this friend action. It may be due to the account's privacy settings.",
+            "gui.friends.error.generic: Something's wrong — with this feature, not your friends!\n\nTry again later.",
+            "gui.friends.error.rateLimited.message: You're performing Friends List actions too quickly. Please wait a moment and try again.",
+            "gui.friends.error.temporary_unavailable: Friends List is not working right now.\n\nTry again later.",
+            "gui.friends.error.unavailable.message: The Friends List service is currently unavailable. Please check your connection and try again later.",
+            "gui.friends.error.upgrade_needed: Update the game to access your Friends List.",
+            "gui.friends.error.user_may_lack_active_profile: There is no player with this profile name",
+            "gui.friends.join: Join",
+            "gui.friends.loading_friends: Loading Friends List...",
+            "gui.friends.loading_requests: Loading requests...",
+            "gui.friends.manage_account_footer: Manage online safety with your %s",
+            "gui.friends.multiplayer.invite: Invite to world",
+            "gui.friends.multiplayer.invite_accept: Accept invite to join world",
+            "gui.friends.multiplayer.invite_reject: Reject invite to join world",
+            "gui.friends.multiplayer.join_request: Request to join world",
+            "gui.friends.multiplayer.join_request_accept: Accept request to join world",
+            "gui.friends.multiplayer.join_request_reject: Reject request to join world",
+            "gui.friends.my_profile_name: My profile name: ",
+            "gui.friends.my_profile_name.narration: Copy profile name %s to clipboard",
+            "gui.friends.narration.button.accept: Press enter to accept friend request from %s",
+            "gui.friends.narration.button.cancel_request: Press enter to cancel friend request to %s",
+            "gui.friends.narration.button.decline: Press enter to decline friend request from %s",
+            "gui.friends.narration.button.unfriend: Press enter to remove %s from Friends List",
+            "gui.friends.narration.entry.friend: Friend %s",
+            "gui.friends.narration.entry.incoming: Incoming friend request from %s",
+            "gui.friends.narration.entry.outgoing: Outgoing friend request to %s",
+            "gui.friends.open: Friends",
+            "gui.friends.open.narration: Friends List",
+            "gui.friends.open.tooltip: Friends",
+            "gui.friends.pending.empty: No pending friend requests",
+            "gui.friends.pending.received: Received",
+            "gui.friends.pending.sent: Sent",
+            "gui.friends.presence.status.offline: Offline",
+            "gui.friends.presence.status.online: Online",
+            "gui.friends.presence.status.playing_hosted_server: In a joinable world",
+            "gui.friends.presence.status.playing_offline: In a world",
+            "gui.friends.presence.status.playing_realms: In a Realm",
+            "gui.friends.presence.status.playing_server: On a server",
+            "gui.friends.requests_count: Requests (%s)",
+            "gui.friends.send_request: Send friend request",
+            "gui.friends.tab_friends: Friends",
+            "gui.friends.toast.friend_added.message: %s accepted your friend request",
+            "gui.friends.toast.friend_invited.message: %s has been invited to join your world.",
+            "gui.friends.toast.friend_removed.message: %s has been removed from your friends list",
+            "gui.friends.toast.generic_error: An unexpected error occurred while updating your Friends List. Please try again later.",
+            "gui.friends.toast.host_invite_expired.message: Invitation to %s to join this world has expired.",
+            "gui.friends.toast.invite_from_friend.message: %s invited you to join their world. Open the friends list by pressing \"%s\" to join",
+            "gui.friends.toast.join_invite_expired.message: Invitation to join %s's world has expired.",
+            "gui.friends.toast.join_request.message: %s has requested to join your world. Open the friends list by pressing \"%s\" or access it through the game menu.",
+            "gui.friends.toast.request_accepted.message: You are now friends with %s",
+            "gui.friends.toast.request_received.message: %s sent you a friend request",
+            "gui.friends.toast.request_sent.message: Friend request sent to %s",
+            "gui.friends.toast.request_to_join_friend.message: Request to join world has been sent to %s",
+            "gui.friends.toast.requests_accepted_multiple.message: %s friends accepted your friend requests",
+            "gui.friends.toast.requests_received_multiple.message: You have received %s friend requests",
+            "gui.friends.unfriend: Remove Friend",
+            "gui.privacy_link.message: Open this link to manage your privacy and online safety settings.",
+            "gui.privacy_link.title: Changes to Xbox settings may take some time to apply.\n\nIf they don't update, restart the game.",
+            "gui.remove: Remove",
+            "item.minecraft.music_disc_bounce: Music Disc",
+            "item.minecraft.music_disc_bounce.desc: fingerspit - Bounce",
+            "jukebox_song.minecraft.bounce: fingerspit - Bounce",
+            "key.friends: Friends Screen",
+            "menu.multiplayerOptions.applyChanges: Apply Changes",
+            "menu.multiplayerOptions.button: Multiplayer...",
+            "menu.multiplayerOptions.network: Multiplayer",
+            "menu.multiplayerOptions.network.header: Network",
+            "menu.multiplayerOptions.network.lan: LAN",
+            "menu.multiplayerOptions.network.lan.tooltip: Players on the same network can join.",
+            "menu.multiplayerOptions.network.off: OFF",
+            "menu.multiplayerOptions.network.off.tooltip: Nobody can join.",
+            "menu.multiplayerOptions.network.online: Online",
+            "menu.multiplayerOptions.network.online.tooltip: Friends online can join.",
+            "menu.multiplayerOptions.otherPlayers.header: Other Players",
+            "menu.multiplayerOptions.publish.started.lan: This world is now open to LAN. The port number is %s",
+            "menu.multiplayerOptions.publish.started.online: This world is now open to multiplayer. The port number is %s",
+            "menu.multiplayerOptions.publish.stopped: This world is no longer open to multiplayer",
+            "menu.multiplayerOptions.title: Multiplayer Options",
+            "menu.playerReporting.no_players: There are no players to report in this world",
+            "music.game.ebb: fingerspit - Ebb",
+            "music.game.home: fingerspit - Home",
+            "music.game.memories: fingerspit - Memories",
+            "music.game.nightly: fingerspit - Nightly",
+            "music.game.shores: fingerspit - Shores",
+            "options.accessibility.tooltip: Accessibility Settings",
+            "options.allowFriendRequests: Allow Requests",
+            "options.allowFriendRequests.tooltip: Allow other players to send you friend requests",
+            "options.friendsList: Friends List",
+            "options.friendsList.confirm.message: The Friends List controls who you can chat with when \"Can communicate outside Xbox\" is set to \"Friends\".\n\nManage this setting on your Microsoft account.\n\nWhen Friends List is ON, other players can send you friend requests. You can turn OFF friend invitations or the Friends List at any time.",
+            "options.friendsList.confirm.title: Turn ON Friends List?",
+            "options.friendsList.confirm.turnOff: Turn OFF",
+            "options.friendsList.confirm.turnOn: Turn ON",
+            "options.inGameNotification: In-game Notification",
+            "options.inGameNotification.tooltip: Show Friend notifications in-game",
+            "options.language.narration: Change Language",
+            "options.language.tooltip: Change Language",
+            "options.online.friends.header: Friends List",
+            "options.online.realms.header: Realms",
+            "options.online.xboxSettings: Xbox Settings...",
+            "options.restartRequired: Some of your changes require a game restart to be applied.",
+            "options.sharePresence: Presence",
+            "options.sharePresence.all: All",
+            "options.sharePresence.all.tooltip: Presence is shared with your friends. Appearing as online and sharing what you are doing.",
+            "options.sharePresence.limited: Limited",
+            "options.sharePresence.limited.tooltip: Sharing limited presence. Appearing as online, but not sharing what you are doing. You can still invite friends to your game.",
+            "options.sharePresence.none: None",
+            "options.sharePresence.none.tooltip: Not sharing any presence. Appearing as offline.",
+            "telemetry.event.p2p_connection.description: This event helps us understand the reliability and performance of peer-to-peer connections between players. It records whether the connection was successful, the type of Interactive Connectivity Establishment (ICE, the protocol we use to establish peer-to-peer connections) candidate used, and how long it took to establish the connection.",
+            "telemetry.event.p2p_connection.title: Peer-to-peer Connection",
+            "telemetry.property.p2p_connection_failure_stage.title: Failure Stage",
+            "telemetry.property.p2p_connection_ice_connect_time_ms.title: Interactive Connectivity Establishment (ICE) Connect Time (Milliseconds)",
+            "telemetry.property.p2p_connection_ice_path.title: Interactive Connectivity Establishment (ICE) Path",
+            "telemetry.property.p2p_connection_local_candidate_type.title: Local Candidate Type",
+            "telemetry.property.p2p_connection_remote_candidate_type.title: Remote Candidate Type",
+            "telemetry.property.p2p_connection_signaling_time_ms.title: Signaling Connection Time (Milliseconds)",
+            "telemetry.property.p2p_connection_successful.title: Connection Successful",
+            "telemetry.property.p2p_connection_total_time_ms.title: Total Connection Time (Milliseconds)",
+            "title.multiplayer.online: Multiplayer (Online)"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "text",
+      "value": {
+        "title": "Changes",
+        "values": [
+          {
+            "key": "options.graphicsApi.tooltip",
+            "previous": "Which graphics API to use for rendering. Leave as Default unless you have a specific need to change this! Will take affect the next time you start the game.",
+            "current": "Which graphics API to use for rendering. Leave as Default unless you have a specific need to change this!"
+          },
+          {
+            "key": "options.multiplayer.title",
+            "previous": "Multiplayer Settings...",
+            "current": "Multiplayer Options..."
+          },
+          {
+            "key": "options.needsRestart",
+            "previous": "Option will be applied after restart.",
+            "current": "Requires a game restart to take effect."
+          }
+        ]
+      }
+    }
+  ],
+  "packets": [
+    {
+      "type": "entries",
+      "value": {
+        "name": "[server] play",
+        "differences": {
+          "added": [
+            "minecraft:spectator_action"
+          ],
+          "removed": [
+            "minecraft:spectate_entity"
+          ]
+        }
+      }
+    }
+  ],
+  "file_structure": [
+    {
+      "type": "entries",
+      "value": {
+        "name": "generated",
+        "differences": {
+          "added": [
+            "reports/minecraft/components/item/music_disc_bounce.json"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "data",
+        "differences": {
+          "added": [
+            "minecraft/jukebox_song/bounce.json",
+            "minecraft/tags/block/causes_continuous_geyser_eruptions.json",
+            "minecraft/tags/block/causes_periodic_geyser_eruptions.json"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "assets",
+        "differences": {
+          "added": [
+            "minecraft/items/music_disc_bounce.json",
+            "minecraft/models/block/acacia_hanging_sign_attached_rot_0.json",
+            "minecraft/models/block/acacia_hanging_sign_attached_rot_1.json",
+            "minecraft/models/block/acacia_hanging_sign_attached_rot_2.json",
+            "minecraft/models/block/acacia_hanging_sign_attached_rot_3.json",
+            "minecraft/models/block/acacia_hanging_sign_rot_0.json",
+            "minecraft/models/block/acacia_hanging_sign_rot_1.json",
+            "minecraft/models/block/acacia_hanging_sign_rot_2.json",
+            "minecraft/models/block/acacia_hanging_sign_rot_3.json",
+            "minecraft/models/block/acacia_sign_rot_0.json",
+            "minecraft/models/block/acacia_sign_rot_1.json",
+            "minecraft/models/block/acacia_sign_rot_2.json",
+            "minecraft/models/block/acacia_sign_rot_3.json",
+            "minecraft/models/block/acacia_wall_hanging_sign.json",
+            "minecraft/models/block/acacia_wall_sign.json",
+            "minecraft/models/block/attached_hanging_sign_rot_0.json",
+            "minecraft/models/block/attached_hanging_sign_rot_1.json",
+            "minecraft/models/block/attached_hanging_sign_rot_2.json",
+            "minecraft/models/block/attached_hanging_sign_rot_3.json",
+            "minecraft/models/block/bamboo_hanging_sign_attached_rot_0.json",
+            "minecraft/models/block/bamboo_hanging_sign_attached_rot_1.json",
+            "minecraft/models/block/bamboo_hanging_sign_attached_rot_2.json",
+            "minecraft/models/block/bamboo_hanging_sign_attached_rot_3.json",
+            "minecraft/models/block/bamboo_hanging_sign_rot_0.json",
+            "minecraft/models/block/bamboo_hanging_sign_rot_1.json",
+            "minecraft/models/block/bamboo_hanging_sign_rot_2.json",
+            "minecraft/models/block/bamboo_hanging_sign_rot_3.json",
+            "minecraft/models/block/bamboo_sign_rot_0.json",
+            "minecraft/models/block/bamboo_sign_rot_1.json",
+            "minecraft/models/block/bamboo_sign_rot_2.json",
+            "minecraft/models/block/bamboo_sign_rot_3.json",
+            "minecraft/models/block/bamboo_wall_hanging_sign.json",
+            "minecraft/models/block/bamboo_wall_sign.json",
+            "minecraft/models/block/birch_hanging_sign_attached_rot_0.json",
+            "minecraft/models/block/birch_hanging_sign_attached_rot_1.json",
+            "minecraft/models/block/birch_hanging_sign_attached_rot_2.json",
+            "minecraft/models/block/birch_hanging_sign_attached_rot_3.json",
+            "minecraft/models/block/birch_hanging_sign_rot_0.json",
+            "minecraft/models/block/birch_hanging_sign_rot_1.json",
+            "minecraft/models/block/birch_hanging_sign_rot_2.json",
+            "minecraft/models/block/birch_hanging_sign_rot_3.json",
+            "minecraft/models/block/birch_sign_rot_0.json",
+            "minecraft/models/block/birch_sign_rot_1.json",
+            "minecraft/models/block/birch_sign_rot_2.json",
+            "minecraft/models/block/birch_sign_rot_3.json",
+            "minecraft/models/block/birch_wall_hanging_sign.json",
+            "minecraft/models/block/birch_wall_sign.json",
+            "minecraft/models/block/cherry_hanging_sign_attached_rot_0.json",
+            "minecraft/models/block/cherry_hanging_sign_attached_rot_1.json",
+            "minecraft/models/block/cherry_hanging_sign_attached_rot_2.json",
+            "minecraft/models/block/cherry_hanging_sign_attached_rot_3.json",
+            "minecraft/models/block/cherry_hanging_sign_rot_0.json",
+            "minecraft/models/block/cherry_hanging_sign_rot_1.json",
+            "minecraft/models/block/cherry_hanging_sign_rot_2.json",
+            "minecraft/models/block/cherry_hanging_sign_rot_3.json",
+            "minecraft/models/block/cherry_sign_rot_0.json",
+            "minecraft/models/block/cherry_sign_rot_1.json",
+            "minecraft/models/block/cherry_sign_rot_2.json",
+            "minecraft/models/block/cherry_sign_rot_3.json",
+            "minecraft/models/block/cherry_wall_hanging_sign.json",
+            "minecraft/models/block/cherry_wall_sign.json",
+            "minecraft/models/block/crimson_hanging_sign_attached_rot_0.json",
+            "minecraft/models/block/crimson_hanging_sign_attached_rot_1.json",
+            "minecraft/models/block/crimson_hanging_sign_attached_rot_2.json",
+            "minecraft/models/block/crimson_hanging_sign_attached_rot_3.json",
+            "minecraft/models/block/crimson_hanging_sign_rot_0.json",
+            "minecraft/models/block/crimson_hanging_sign_rot_1.json",
+            "minecraft/models/block/crimson_hanging_sign_rot_2.json",
+            "minecraft/models/block/crimson_hanging_sign_rot_3.json",
+            "minecraft/models/block/crimson_sign_rot_0.json",
+            "minecraft/models/block/crimson_sign_rot_1.json",
+            "minecraft/models/block/crimson_sign_rot_2.json",
+            "minecraft/models/block/crimson_sign_rot_3.json",
+            "minecraft/models/block/crimson_wall_hanging_sign.json",
+            "minecraft/models/block/crimson_wall_sign.json",
+            "minecraft/models/block/dark_oak_hanging_sign_attached_rot_0.json",
+            "minecraft/models/block/dark_oak_hanging_sign_attached_rot_1.json",
+            "minecraft/models/block/dark_oak_hanging_sign_attached_rot_2.json",
+            "minecraft/models/block/dark_oak_hanging_sign_attached_rot_3.json",
+            "minecraft/models/block/dark_oak_hanging_sign_rot_0.json",
+            "minecraft/models/block/dark_oak_hanging_sign_rot_1.json",
+            "minecraft/models/block/dark_oak_hanging_sign_rot_2.json",
+            "minecraft/models/block/dark_oak_hanging_sign_rot_3.json",
+            "minecraft/models/block/dark_oak_sign_rot_0.json",
+            "minecraft/models/block/dark_oak_sign_rot_1.json",
+            "minecraft/models/block/dark_oak_sign_rot_2.json",
+            "minecraft/models/block/dark_oak_sign_rot_3.json",
+            "minecraft/models/block/dark_oak_wall_hanging_sign.json",
+            "minecraft/models/block/dark_oak_wall_sign.json",
+            "minecraft/models/block/hanging_sign_rot_0.json",
+            "minecraft/models/block/hanging_sign_rot_1.json",
+            "minecraft/models/block/hanging_sign_rot_2.json",
+            "minecraft/models/block/hanging_sign_rot_3.json",
+            "minecraft/models/block/jungle_hanging_sign_attached_rot_0.json",
+            "minecraft/models/block/jungle_hanging_sign_attached_rot_1.json",
+            "minecraft/models/block/jungle_hanging_sign_attached_rot_2.json",
+            "minecraft/models/block/jungle_hanging_sign_attached_rot_3.json",
+            "minecraft/models/block/jungle_hanging_sign_rot_0.json",
+            "minecraft/models/block/jungle_hanging_sign_rot_1.json",
+            "minecraft/models/block/jungle_hanging_sign_rot_2.json",
+            "minecraft/models/block/jungle_hanging_sign_rot_3.json",
+            "minecraft/models/block/jungle_sign_rot_0.json",
+            "minecraft/models/block/jungle_sign_rot_1.json",
+            "minecraft/models/block/jungle_sign_rot_2.json",
+            "minecraft/models/block/jungle_sign_rot_3.json",
+            "minecraft/models/block/jungle_wall_hanging_sign.json",
+            "minecraft/models/block/jungle_wall_sign.json",
+            "minecraft/models/block/mangrove_hanging_sign_attached_rot_0.json",
+            "minecraft/models/block/mangrove_hanging_sign_attached_rot_1.json",
+            "minecraft/models/block/mangrove_hanging_sign_attached_rot_2.json",
+            "minecraft/models/block/mangrove_hanging_sign_attached_rot_3.json",
+            "minecraft/models/block/mangrove_hanging_sign_rot_0.json",
+            "minecraft/models/block/mangrove_hanging_sign_rot_1.json",
+            "minecraft/models/block/mangrove_hanging_sign_rot_2.json",
+            "minecraft/models/block/mangrove_hanging_sign_rot_3.json",
+            "minecraft/models/block/mangrove_sign_rot_0.json",
+            "minecraft/models/block/mangrove_sign_rot_1.json",
+            "minecraft/models/block/mangrove_sign_rot_2.json",
+            "minecraft/models/block/mangrove_sign_rot_3.json",
+            "minecraft/models/block/mangrove_wall_hanging_sign.json",
+            "minecraft/models/block/mangrove_wall_sign.json",
+            "minecraft/models/block/oak_hanging_sign_attached_rot_0.json",
+            "minecraft/models/block/oak_hanging_sign_attached_rot_1.json",
+            "minecraft/models/block/oak_hanging_sign_attached_rot_2.json",
+            "minecraft/models/block/oak_hanging_sign_attached_rot_3.json",
+            "minecraft/models/block/oak_hanging_sign_rot_0.json",
+            "minecraft/models/block/oak_hanging_sign_rot_1.json",
+            "minecraft/models/block/oak_hanging_sign_rot_2.json",
+            "minecraft/models/block/oak_hanging_sign_rot_3.json",
+            "minecraft/models/block/oak_sign_rot_0.json",
+            "minecraft/models/block/oak_sign_rot_1.json",
+            "minecraft/models/block/oak_sign_rot_2.json",
+            "minecraft/models/block/oak_sign_rot_3.json",
+            "minecraft/models/block/oak_wall_hanging_sign.json",
+            "minecraft/models/block/oak_wall_sign.json",
+            "minecraft/models/block/pale_oak_hanging_sign_attached_rot_0.json",
+            "minecraft/models/block/pale_oak_hanging_sign_attached_rot_1.json",
+            "minecraft/models/block/pale_oak_hanging_sign_attached_rot_2.json",
+            "minecraft/models/block/pale_oak_hanging_sign_attached_rot_3.json",
+            "minecraft/models/block/pale_oak_hanging_sign_rot_0.json",
+            "minecraft/models/block/pale_oak_hanging_sign_rot_1.json",
+            "minecraft/models/block/pale_oak_hanging_sign_rot_2.json",
+            "minecraft/models/block/pale_oak_hanging_sign_rot_3.json",
+            "minecraft/models/block/pale_oak_sign_rot_0.json",
+            "minecraft/models/block/pale_oak_sign_rot_1.json",
+            "minecraft/models/block/pale_oak_sign_rot_2.json",
+            "minecraft/models/block/pale_oak_sign_rot_3.json",
+            "minecraft/models/block/pale_oak_wall_hanging_sign.json",
+            "minecraft/models/block/pale_oak_wall_sign.json",
+            "minecraft/models/block/sign_rot_0.json",
+            "minecraft/models/block/sign_rot_1.json",
+            "minecraft/models/block/sign_rot_2.json",
+            "minecraft/models/block/sign_rot_3.json",
+            "minecraft/models/block/spruce_hanging_sign_attached_rot_0.json",
+            "minecraft/models/block/spruce_hanging_sign_attached_rot_1.json",
+            "minecraft/models/block/spruce_hanging_sign_attached_rot_2.json",
+            "minecraft/models/block/spruce_hanging_sign_attached_rot_3.json",
+            "minecraft/models/block/spruce_hanging_sign_rot_0.json",
+            "minecraft/models/block/spruce_hanging_sign_rot_1.json",
+            "minecraft/models/block/spruce_hanging_sign_rot_2.json",
+            "minecraft/models/block/spruce_hanging_sign_rot_3.json",
+            "minecraft/models/block/spruce_sign_rot_0.json",
+            "minecraft/models/block/spruce_sign_rot_1.json",
+            "minecraft/models/block/spruce_sign_rot_2.json",
+            "minecraft/models/block/spruce_sign_rot_3.json",
+            "minecraft/models/block/spruce_wall_hanging_sign.json",
+            "minecraft/models/block/spruce_wall_sign.json",
+            "minecraft/models/block/wall_hanging_sign.json",
+            "minecraft/models/block/wall_sign.json",
+            "minecraft/models/block/warped_hanging_sign_attached_rot_0.json",
+            "minecraft/models/block/warped_hanging_sign_attached_rot_1.json",
+            "minecraft/models/block/warped_hanging_sign_attached_rot_2.json",
+            "minecraft/models/block/warped_hanging_sign_attached_rot_3.json",
+            "minecraft/models/block/warped_hanging_sign_rot_0.json",
+            "minecraft/models/block/warped_hanging_sign_rot_1.json",
+            "minecraft/models/block/warped_hanging_sign_rot_2.json",
+            "minecraft/models/block/warped_hanging_sign_rot_3.json",
+            "minecraft/models/block/warped_sign_rot_0.json",
+            "minecraft/models/block/warped_sign_rot_1.json",
+            "minecraft/models/block/warped_sign_rot_2.json",
+            "minecraft/models/block/warped_sign_rot_3.json",
+            "minecraft/models/block/warped_wall_hanging_sign.json",
+            "minecraft/models/block/warped_wall_sign.json",
+            "minecraft/models/item/music_disc_bounce.json",
+            "minecraft/textures/block/acacia_hanging_sign.png",
+            "minecraft/textures/block/acacia_sign.png",
+            "minecraft/textures/block/bamboo_hanging_sign.png",
+            "minecraft/textures/block/bamboo_sign.png",
+            "minecraft/textures/block/birch_hanging_sign.png",
+            "minecraft/textures/block/birch_sign.png",
+            "minecraft/textures/block/cherry_hanging_sign.png",
+            "minecraft/textures/block/cherry_sign.png",
+            "minecraft/textures/block/crimson_hanging_sign.png",
+            "minecraft/textures/block/crimson_sign.png",
+            "minecraft/textures/block/dark_oak_hanging_sign.png",
+            "minecraft/textures/block/dark_oak_sign.png",
+            "minecraft/textures/block/jungle_hanging_sign.png",
+            "minecraft/textures/block/jungle_sign.png",
+            "minecraft/textures/block/mangrove_hanging_sign.png",
+            "minecraft/textures/block/mangrove_sign.png",
+            "minecraft/textures/block/oak_hanging_sign.png",
+            "minecraft/textures/block/oak_sign.png",
+            "minecraft/textures/block/pale_oak_hanging_sign.png",
+            "minecraft/textures/block/pale_oak_sign.png",
+            "minecraft/textures/block/spruce_hanging_sign.png",
+            "minecraft/textures/block/spruce_sign.png",
+            "minecraft/textures/block/warped_hanging_sign.png",
+            "minecraft/textures/block/warped_sign.png",
+            "minecraft/textures/gui/signs/acacia.png",
+            "minecraft/textures/gui/signs/bamboo.png",
+            "minecraft/textures/gui/signs/birch.png",
+            "minecraft/textures/gui/signs/cherry.png",
+            "minecraft/textures/gui/signs/crimson.png",
+            "minecraft/textures/gui/signs/dark_oak.png",
+            "minecraft/textures/gui/signs/jungle.png",
+            "minecraft/textures/gui/signs/mangrove.png",
+            "minecraft/textures/gui/signs/oak.png",
+            "minecraft/textures/gui/signs/pale_oak.png",
+            "minecraft/textures/gui/signs/spruce.png",
+            "minecraft/textures/gui/signs/warped.png",
+            "minecraft/textures/gui/sprites/friends/accept.png",
+            "minecraft/textures/gui/sprites/friends/accept_highlighted.png",
+            "minecraft/textures/gui/sprites/friends/background.png",
+            "minecraft/textures/gui/sprites/friends/background.png.mcmeta",
+            "minecraft/textures/gui/sprites/friends/button.png",
+            "minecraft/textures/gui/sprites/friends/button.png.mcmeta",
+            "minecraft/textures/gui/sprites/friends/button_disabled.png",
+            "minecraft/textures/gui/sprites/friends/button_disabled.png.mcmeta",
+            "minecraft/textures/gui/sprites/friends/button_highlighted.png",
+            "minecraft/textures/gui/sprites/friends/button_highlighted.png.mcmeta",
+            "minecraft/textures/gui/sprites/friends/cancel.png",
+            "minecraft/textures/gui/sprites/friends/friends.png",
+            "minecraft/textures/gui/sprites/friends/illustrations_00.png",
+            "minecraft/textures/gui/sprites/friends/list_separator_top.png",
+            "minecraft/textures/gui/sprites/friends/loading.png",
+            "minecraft/textures/gui/sprites/friends/loading.png.mcmeta",
+            "minecraft/textures/gui/sprites/friends/multiplayer/invite.png",
+            "minecraft/textures/gui/sprites/friends/multiplayer/join_request.png",
+            "minecraft/textures/gui/sprites/friends/reject.png",
+            "minecraft/textures/gui/sprites/friends/reject_highlighted.png",
+            "minecraft/textures/gui/sprites/friends/remove.png",
+            "minecraft/textures/gui/sprites/friends/toast.png",
+            "minecraft/textures/gui/sprites/friends/toast.png.mcmeta",
+            "minecraft/textures/gui/sprites/friends/toast_background.png",
+            "minecraft/textures/gui/sprites/friends/toast_background.png.mcmeta",
+            "minecraft/textures/gui/sprites/pause_menu/bug.png",
+            "minecraft/textures/gui/sprites/pause_menu/player_reporting.png",
+            "minecraft/textures/gui/sprites/pause_menu/social_interactions.png",
+            "minecraft/textures/item/music_disc_bounce.png"
+          ],
+          "removed": [
+            "minecraft/atlases/signs.json",
+            "minecraft/models/block/acacia_hanging_sign.json",
+            "minecraft/models/block/acacia_sign.json",
+            "minecraft/models/block/bamboo_hanging_sign.json",
+            "minecraft/models/block/bamboo_sign.json",
+            "minecraft/models/block/birch_hanging_sign.json",
+            "minecraft/models/block/birch_sign.json",
+            "minecraft/models/block/cherry_hanging_sign.json",
+            "minecraft/models/block/cherry_sign.json",
+            "minecraft/models/block/crimson_hanging_sign.json",
+            "minecraft/models/block/crimson_sign.json",
+            "minecraft/models/block/dark_oak_hanging_sign.json",
+            "minecraft/models/block/dark_oak_sign.json",
+            "minecraft/models/block/jungle_hanging_sign.json",
+            "minecraft/models/block/jungle_sign.json",
+            "minecraft/models/block/mangrove_hanging_sign.json",
+            "minecraft/models/block/mangrove_sign.json",
+            "minecraft/models/block/oak_hanging_sign.json",
+            "minecraft/models/block/oak_sign.json",
+            "minecraft/models/block/pale_oak_hanging_sign.json",
+            "minecraft/models/block/pale_oak_sign.json",
+            "minecraft/models/block/spruce_hanging_sign.json",
+            "minecraft/models/block/spruce_sign.json",
+            "minecraft/models/block/warped_hanging_sign.json",
+            "minecraft/models/block/warped_sign.json",
+            "minecraft/textures/entity/signs/acacia.png",
+            "minecraft/textures/entity/signs/bamboo.png",
+            "minecraft/textures/entity/signs/birch.png",
+            "minecraft/textures/entity/signs/cherry.png",
+            "minecraft/textures/entity/signs/crimson.png",
+            "minecraft/textures/entity/signs/dark_oak.png",
+            "minecraft/textures/entity/signs/hanging/acacia.png",
+            "minecraft/textures/entity/signs/hanging/bamboo.png",
+            "minecraft/textures/entity/signs/hanging/birch.png",
+            "minecraft/textures/entity/signs/hanging/cherry.png",
+            "minecraft/textures/entity/signs/hanging/crimson.png",
+            "minecraft/textures/entity/signs/hanging/dark_oak.png",
+            "minecraft/textures/entity/signs/hanging/jungle.png",
+            "minecraft/textures/entity/signs/hanging/mangrove.png",
+            "minecraft/textures/entity/signs/hanging/oak.png",
+            "minecraft/textures/entity/signs/hanging/pale_oak.png",
+            "minecraft/textures/entity/signs/hanging/spruce.png",
+            "minecraft/textures/entity/signs/hanging/warped.png",
+            "minecraft/textures/entity/signs/jungle.png",
+            "minecraft/textures/entity/signs/mangrove.png",
+            "minecraft/textures/entity/signs/oak.png",
+            "minecraft/textures/entity/signs/pale_oak.png",
+            "minecraft/textures/entity/signs/spruce.png",
+            "minecraft/textures/entity/signs/warped.png"
+          ]
+        }
+      }
+    }
+  ],
+  "credits": [
+    {
+      "type": "entries",
+      "value": {
+        "name": "🗒️ Sections",
+        "differences": {
+          "added": [
+            "Development Partner - Artech Consulting, LLC",
+            "Development Partner - Globant LLC",
+            "Development Partner - Netlight Consulting AB",
+            "Development Partner - Globant LLC Alumni",
+            "Development Partner - Netlight Consulting AB Alumni"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "title",
+      "value": {
+        "title": "Mojang Studios",
+        "id": "credits-mojang-studios",
+        "size": 1
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "🗒️ Disciplines",
+        "differences": {
+          "added": [
+            "Player Care"
+          ],
+          "removed": [
+            "Player Support",
+            "Community"
+          ]
+        }
+      }
+    },
+    {
+      "type": "title",
+      "value": {
+        "title": "Mojang Studios Leadership",
+        "id": "credits-mojang-studios-mojang-studios-leadership",
+        "size": 3
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "🗒️ Titles",
+        "differences": {
+          "added": [
+            "Vice President, Chief Operating Officer",
+            "General Manager, Creative",
+            "Head of Brand & Marketing",
+            "General Manager, Franchise Development",
+            "Strategic Operations & Planning"
+          ],
+          "removed": [
+            "Chief Operating Officer",
+            "Head of Brand, Growth & Partnerships",
+            "Chief of Staff",
+            "Head of Franchise Product Strategy"
+          ]
+        }
+      }
+    },
+    {
+      "type": "title",
+      "value": {
+        "title": "Design",
+        "id": "credits-mojang-studios-design",
+        "size": 3
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "🗒️ Titles",
+        "differences": {
+          "added": [
+            "Creative Director, Art",
+            "Narrative Designer",
+            "User Experience Design Lead",
+            "User Experience Writer"
+          ],
+          "removed": [
+            "Creative Director, Brand",
+            "User Experience Design Leads"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "Design Managers",
+        "differences": {
+          "added": [],
+          "removed": [
+            "Jesper Staafjord"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "Lead Game Designers",
+        "differences": {
+          "added": [],
+          "removed": [
+            "Matthew Gatland"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "Game Designers",
+        "differences": {
+          "added": [
+            "Angehlica Wallin Halling",
+            "Dana Lee (Insight Global, LLC)",
+            "Jason Bernhardt (Insight Global, LLC)",
+            "Jesper Westlund",
+            "Justice Mealer (Insight Global, LLC)",
+            "Katherine Durkin (Insight Global, LLC)",
+            "Kyle Wood (Insight Global, LLC)",
+            "Matthew Gatland",
+            "Tate Sliwa (Insight Global, LLC)"
+          ],
+          "removed": [
+            "Dana Lee (Insight Global, Inc)",
+            "Giuseppe Libonati (Insight Global, Inc)",
+            "Justice Mealer (Insight Global, Inc)",
+            "Katherine Durkin (Insight Global, Inc)",
+            "Kelsey Howard",
+            "Kyle Wood (Insight Global, Inc)",
+            "Tate Sliwa (Insight Global, Inc)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "User Experience Design Directors",
+        "differences": {
+          "added": [
+            "Josefine Lindqvist",
+            "Sabina Sonning (Netlight)"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "User Experience Designers",
+        "differences": {
+          "added": [
+            "Lia Aquino"
+          ],
+          "removed": [
+            "Alejandra Ricciardi (Globant)",
+            "Jem Alexander",
+            "Karolin Pettersson"
+          ]
+        }
+      }
+    },
+    {
+      "type": "title",
+      "value": {
+        "title": "Programming",
+        "id": "credits-mojang-studios-programming",
+        "size": 3
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "🗒️ Titles",
+        "differences": {
+          "added": [
+            "Engineering Directors",
+            "Engineering Directors, Franchise Technologies and Services"
+          ],
+          "removed": [
+            "Engineering Director",
+            "Engineering Director, Franchise Technologies and Services",
+            "Engineering Director, Growth Products",
+            "Engineering Manager, Franchise Services"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "Technical Directors",
+        "differences": {
+          "added": [
+            "Craig Steyn",
+            "Mikael Hedberg"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "Engineering Managers",
+        "differences": {
+          "added": [
+            "Gökhan Oğuz",
+            "Henrik Sävenstedt",
+            "Kesem Zur-Korakin",
+            "Vinay Kumar S B (Ascendion, Inc)"
+          ],
+          "removed": [
+            "Henrik Savenstedt",
+            "Joel Bergman",
+            "Jonas Jonsson",
+            "Tanya Reinhardt (Ascendion, Inc)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "Lead Software Engineers",
+        "differences": {
+          "added": [
+            "Andrew Maher",
+            "Chris Blackwell",
+            "Garrett Allen",
+            "Jose Marcos Lanna De Oliveira",
+            "Patrick McGannon"
+          ],
+          "removed": [
+            "Chris BeHanna",
+            "Henning Erlandsen",
+            "Jose Marcos De Oliveira",
+            "Max Bouchez",
+            "Torbjörn Allard",
+            "Yash Shroff"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "Technical Leads",
+        "differences": {
+          "added": [
+            "A.J. Fairfield",
+            "Jacek Wołkowicz",
+            "Jessica Chen",
+            "Lorenzo Vigano",
+            "Marco Ballabio",
+            "Michael Seydl",
+            "Richard Meurling",
+            "Simon Fagerholm",
+            "Tony Miller",
+            "Yash Shroff"
+          ],
+          "removed": [
+            "Andrew Maher",
+            "Garrett Allen",
+            "Michael Stoyke",
+            "Mikael Hedberg",
+            "Patrick McGannon"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "Software Engineers",
+        "differences": {
+          "added": [
+            "Aaron Walker",
+            "Aayush Raj (Ascendion, Inc)",
+            "Adam Granzer (MURPHY AND ASSOCIATES INC)",
+            "Adrianna Brown",
+            "Alex Wouters (Insight Global, LLC)",
+            "Alexander Kofford (Insight Global, LLC)",
+            "Amanch Esmailzadeh",
+            "Anton Orö",
+            "Austin Shaythong (Insight Global, LLC)",
+            "Bijay Kushawaha (Ascendion, Inc)",
+            "Bjarni Gudmundsson",
+            "Bodha Kulkarni (Ascendion, Inc)",
+            "Bronson Brown (Insight Global, LLC)",
+            "Bryce Mercado",
+            "Cameron Chancey (Insight Global, LLC)",
+            "Charani Lakkireddy (Ascendion, Inc)",
+            "Charlotte Gore",
+            "Chris BeHanna",
+            "CJ Rosas",
+            "Corey Goodman (Insight Global, LLC)",
+            "Corey Smith (Insight Global, LLC)",
+            "Daisy Mehta (Ascendion, Inc)",
+            "Dan Berlin (Insight Global, LLC)",
+            "Daniel Lehmann",
+            "Daniil Shcherban (Ascendion, Inc)",
+            "Diana Duenas Chavez",
+            "Dylan Ross (Insight Global, LLC)",
+            "Elias Wickander",
+            "Elliott Strait (Ascendion, Inc)",
+            "Filip Randenbäck",
+            "Gaurav Singh (Ascendion, Inc)",
+            "Gayathri Mani (Ascendion, Inc)",
+            "Heather Mills",
+            "Helena Ruiz Ramírez",
+            "Henning Erlandsen",
+            "Huseyin Karakullukcu",
+            "Iqbal Hossain",
+            "Ivan Mota-Aguilar",
+            "Jade Spooner (Insight Global, LLC)",
+            "James Friedenberg (Insight Global, LLC)",
+            "Jeff Foster",
+            "Jeff Grantham",
+            "Jon Castro (Insight Global, LLC)",
+            "Jonah Fritz",
+            "Jonatan Landsberg",
+            "Jonatan Pålsson (Netlight)",
+            "Jordan Maxwell (Insight Global, LLC)",
+            "Joshua Key (Insight Global, LLC)",
+            "Justus Burger",
+            "Laiyin Dai",
+            "Leon Yao",
+            "Ludvig de Verdier",
+            "Lysann Tranvouez",
+            "Manvi Sharma",
+            "Marlene Cota",
+            "Matt VanderKolk",
+            "Max Bouchez",
+            "Michael Davidson (Insight Global, LLC)",
+            "Michael Stoyke",
+            "Mona El-Falou",
+            "Muthukumar S Muthukumar (Ascendion, Inc)",
+            "Muying Cui",
+            "Niklas Borestam",
+            "Oskar Pedersen",
+            "Patrick Godwin",
+            "Paul van Vulpen",
+            "Pavel Dogurevich",
+            "Per Ersson (DevCode AB)",
+            "Per Johansson",
+            "Peter Phillips",
+            "Petter Gisslén",
+            "Petter Holmberg",
+            "Phil Shapira",
+            "Philipp V Rabe",
+            "Rebecca Åbrandt (Rift Gaming)",
+            "Reece Sagun",
+            "Rick Payne (Insight Global, LLC)",
+            "Rob Barber",
+            "Sagar Surve (Ascendion, Inc)",
+            "Sai Samudrala (Experis)",
+            "Sakura Shih (Insight Global, LLC)",
+            "Samuel Sage",
+            "Samy Khatib",
+            "Stav Hinenzon",
+            "Stewart Partington (Ascendion, Inc)",
+            "Tal Fix",
+            "Tamal Dey (Ascendion, Inc)",
+            "Thomas Rosenquist",
+            "Torbjörn Allard",
+            "Tyler Fedoris (Insight Global, LLC)",
+            "Victor Conner",
+            "Warren Grubbs",
+            "Yavuz Akyuz"
+          ],
+          "removed": [
+            "A.J. Fairfield",
+            "Abhinav Jain (Ascendion, Inc)",
+            "Abhishek Talati (Ascendion, Inc)",
+            "Abinaya Sambandam (Ascendion, Inc)",
+            "Addison Kaufmann",
+            "Adrian Ferrer (Insight Global, Inc)",
+            "Adrian Ster (Globant)",
+            "Alejandro Rosales Martinez (Artech Consulting, LLC)",
+            "Alex Wouters (Insight Global, Inc)",
+            "Alexander Kofford (Insight Global, Inc)",
+            "Alexandru Boaru (Globant)",
+            "Ali Yassiry (Netlight)",
+            "Álvaro García Gutiérrez (Globant)",
+            "Andres Altamirano Montealvo",
+            "Anthony Sopkow (Ascendion, Inc)",
+            "Antonino Liconti",
+            "Ashwin Brahmarouthu (Ascendion, Inc)",
+            "Austin Shaythong (Insight Global, Inc)",
+            "Brian Luger",
+            "Cameron Chancey (Insight Global, Inc)",
+            "Corey Goodman (Insight Global, Inc)",
+            "Corey Smith (Insight Global, Inc)",
+            "Craig Steyn",
+            "Dmytro Safonov",
+            "Dragos Bogdan (Globant)",
+            "Dylan Ross (Insight Global, Inc)",
+            "Emma Villemoes",
+            "Eric Grimsborn (Netlight)",
+            "Ericson Gonzalez (Globant)",
+            "Hebert Pena Serna (Artech Consulting, LLC)",
+            "Hedvig Fahlstedt (Netlight)",
+            "Hugo Hägglund",
+            "Isaiah Dickison (Insight Global, Inc)",
+            "Jacek Wołkowicz",
+            "Jacob Presley (Insight Global, Inc)",
+            "James Friedenberg (Insight Global, Inc)",
+            "Javier Castro Landaverde (Artech Consulting, LLC)",
+            "Jeremy Robinson (Insight Global, Inc)",
+            "Jessica Chen",
+            "Jifeng Zhang",
+            "John Littlewood (Mirado Consulting)",
+            "Jonas Johansson",
+            "Jordan Maxwell (Insight Global, Inc)",
+            "Jozsef Hollo (Globant)",
+            "Kiran Beersing-Vasquez (Netlight)",
+            "Kyle Schwaneke",
+            "Lorenzo Vigano",
+            "Marco Ballabio",
+            "Mark Rowland (Insight Global, Inc)",
+            "Martin Hornqvist",
+            "Max Perea Düring",
+            "Michael Davidson (Insight Global, Inc)",
+            "Michael Seydl",
+            "Michelle Rosenbarker (Insight Global, Inc)",
+            "Miles Mbo",
+            "Mona El-Falou (Ascendion, Inc)",
+            "Nicolas del Fiorentino (Globant)",
+            "Niklas Erhard Olsson",
+            "Oscar Andersson (Netlight)",
+            "Oswaldo Leyva Barrientos",
+            "Per Ersson",
+            "Petter Gisslen",
+            "Pouya Ashraf (Netlight)",
+            "Ragnar Rova",
+            "Reece Sagun (Ascendion, Inc)",
+            "Richard Meurling",
+            "Richard Payne (Insight Global, Inc)",
+            "Samuel Sage (Insight Global, Inc)",
+            "Samuel Schimmel (Insight Global, Inc)",
+            "Santosha Bhat (Ascendion, Inc)",
+            "Sarmis Streanga (Globant)",
+            "Shane Pierce",
+            "Simon Fagerholm",
+            "Soundar B (Ascendion, Inc)",
+            "Tyler Fedoris (Insight Global, Inc)",
+            "Vinay Kumar S B (Ascendion, Inc)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "title",
+      "value": {
+        "title": "Production",
+        "id": "credits-mojang-studios-production",
+        "size": 3
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "🗒️ Titles",
+        "differences": {
+          "added": [
+            "Executive Producers, Education",
+            "Director of Minecraft Online",
+            "Product Director, Franchise Technologies and Services"
+          ],
+          "removed": [
+            "Executive Producer, Education",
+            "Director of Internal New Games",
+            "Director of Minecraft Online & Marketplace",
+            "Director of Trust and Safety",
+            "Product Directors, Franchise Technologies and Services",
+            "Organizational Coach"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "Executive Producers",
+        "differences": {
+          "added": [],
+          "removed": [
+            "Fredrik Telenius",
+            "Ingela Garneij",
+            "Klas Hammarström",
+            "Nikoo Jorjani"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "Production Directors",
+        "differences": {
+          "added": [
+            "Klas Hammarström",
+            "Laura Taranto",
+            "Micah Myerscough"
+          ],
+          "removed": [
+            "Justin Edwards"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "Production Managers",
+        "differences": {
+          "added": [
+            "Aaron Hughes (Insight Global, LLC)",
+            "Andrea Lam-Flannery",
+            "Karolina Manko",
+            "Pretoria Chang"
+          ],
+          "removed": [
+            "Caroline Smith (Insight Global, Inc)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "Production Leads",
+        "differences": {
+          "added": [
+            "Liz Leo",
+            "Marie-Louise Milo Bengtsson"
+          ],
+          "removed": [
+            "Carrie Doring",
+            "Milo Bengtsson"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "Principal Producers",
+        "differences": {
+          "added": [
+            "Charlotte Angantyr",
+            "Josefine Brink Larm"
+          ],
+          "removed": [
+            "Melinda Knight"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "Producers",
+        "differences": {
+          "added": [
+            "Ani Grey",
+            "Calvin Crowner (Allegis Group Holdings Inc)",
+            "David T Brown (Talent Technical Services Inc)",
+            "Gustav Höglund",
+            "Isabel Hahnel",
+            "Jens Sand",
+            "Jessica Pardue (Insight Global, LLC)",
+            "Jessica Trygg",
+            "Kev Katona",
+            "Lea Heleotis",
+            "Leigh Eckert (SIMPLICITY CONSULTING LLC)",
+            "Margarita Testa",
+            "Nikoo Jorjani",
+            "Oskar Thysell",
+            "Per Kjellström",
+            "Sofia Frode",
+            "Steph Huske",
+            "Tina Lin (Ascendion, Inc)"
+          ],
+          "removed": [
+            "Aaron Hughes (Insight Global, Inc)",
+            "Dawn Boughton (Apex Systems, Inc)",
+            "Elin Roslund",
+            "Ellen Karlsten",
+            "Eric Karlshammar",
+            "Heesung Koo",
+            "Hillary Good (Simplicity Consulting Inc.)",
+            "Jennifer Boespflug Dotson (Insight Global, Inc)",
+            "Kev Katona (Insight Global, Inc)",
+            "Kristina Barandiy",
+            "Laylah Bulman",
+            "Marie Bustgaard",
+            "Rakiv Joy",
+            "Sarah Von Reis",
+            "Sofia Gothlin"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "Media Producers",
+        "differences": {
+          "added": [
+            "Nanna Påskesen"
+          ],
+          "removed": [
+            "Andreas Dea Svensson",
+            "Sandra Schöön"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "Product Manager Leads",
+        "differences": {
+          "added": [
+            "Andreas Tael",
+            "Daniel Bittencourt",
+            "Kara Kono",
+            "Melissa Torres"
+          ],
+          "removed": [
+            "Justin Johnson"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "Product Managers",
+        "differences": {
+          "added": [
+            "Alexandru Ionescu",
+            "Allan Contreras",
+            "Carrie Doring",
+            "Heesung Koo",
+            "Jacob Berglund",
+            "James Gregory",
+            "Laylah Bulman",
+            "Maria Berejan",
+            "Marie Bustgaard",
+            "Milena Xóchitl González",
+            "Mimi Holmstead",
+            "Nathalie Ek",
+            "Nick Hegge",
+            "Patrik H"
+          ],
+          "removed": [
+            "Ahmed Asif",
+            "Carolina Broberg (Netlight)",
+            "Dejan Dimic",
+            "Esteban Balbuena (Globant)",
+            "Grace Jung (Allegis Group Services, Inc)",
+            "Kara Kono",
+            "Micah Myerscough",
+            "Milena Gonzalez",
+            "Nick Ljungqvist (MVP Global AB)",
+            "Tori Tippin"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "Release Managers",
+        "differences": {
+          "added": [
+            "Joseph Panaccione (Apex Systems)"
+          ],
+          "removed": [
+            "Joseph Panaccione (Apex Systems, Inc)",
+            "Kyle Sullivan (Hanson Consulting Group, Inc)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "Technical Writers",
+        "differences": {
+          "added": [
+            "Cameron Wilkerson",
+            "Maxwell Moeller (BLUEPRINT TECHNOLOGIES)",
+            "Watts Martin (Insight Global, LLC)"
+          ],
+          "removed": [
+            "Jeff Kim (Insight Global, Inc)",
+            "Jill Headen (Insight Global, Inc)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "Technical Program Managers",
+        "differences": {
+          "added": [
+            "Beth Carty (Insight Global, LLC)",
+            "Bridget Danaher",
+            "Brynn Mendelsohn (Insight Global, LLC)",
+            "Danica Orille (my3Twelve, LLC)",
+            "Diana Lind",
+            "Erfon Haubenstock",
+            "Jay Wells",
+            "Jennifer Dotson (Insight Global, LLC)"
+          ],
+          "removed": [
+            "Andrea Lam-Flannery",
+            "Aqsa Rauf (Apex Systems, Inc)",
+            "Benjamin Fall",
+            "Brynn Mendelsohn (Insight Global, Inc)",
+            "David Jho (my3Twelve, LLC)",
+            "Diana Lind (Harvey Nash, Inc)",
+            "Elizabeth Carty (Insight Global, Inc)",
+            "James Gregory",
+            "Jered Dowden (Ascendion, Inc)",
+            "Mabel Chan (my3Twelve, LLC)",
+            "Timothy Mehta (Aquent, LLC)",
+            "Tina Lin (Ascendion, Inc)",
+            "William Weber (Apex Systems, Inc)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "Playtest Coordinator",
+        "differences": {
+          "added": [
+            "Ky Lim (my3Twelve, LLC)"
+          ],
+          "removed": [
+            "Jonathan Carroll (Insight Global, Inc)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "title",
+      "value": {
+        "title": "Visual Arts",
+        "id": "credits-mojang-studios-visual-arts",
+        "size": 3
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "🗒️ Titles",
+        "differences": {
+          "added": [
+            "Art Leads"
+          ],
+          "removed": [
+            "Artist Leads"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "Art Directors",
+        "differences": {
+          "added": [
+            "Wiktor Persson",
+            "Yong-Namm Lee"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "Art Manager",
+        "differences": {
+          "added": [
+            "Magdalena Hermelin"
+          ],
+          "removed": [
+            "Magdalena Berglind"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "Artists",
+        "differences": {
+          "added": [
+            "Chris Nordgren",
+            "Iván Rújula Rodríguez",
+            "Ricardo Chamizo",
+            "Scott Jobe",
+            "Yosh Tsoi (Yokaj Studio)"
+          ],
+          "removed": [
+            "Chase Farthing (Allegis Group Services, Inc)",
+            "Christian Nordgren",
+            "Christina Dolan (Aquent, LLC)",
+            "Jan Cariaga",
+            "Kirk Barnett",
+            "Lauren Bravo-Kohler",
+            "Margarita Sanchez (Allegis Group Services, Inc)",
+            "Noam Briner",
+            "Scott Jobe (Allegis Group Services, Inc)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "Product Designers",
+        "differences": {
+          "added": [
+            "Johanna Björck",
+            "Josefine Larsson",
+            "Kelsey Ranallo",
+            "Kirsty Saunders (Allegis Group Holdings Inc)",
+            "Ro Ocampo"
+          ],
+          "removed": [
+            "Ro Ocampo (Allegis Group Services, Inc)",
+            "Timothy Lusk (Allegis Group Services, Inc)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "Graphic Designers",
+        "differences": {
+          "added": [
+            "Bryan Rude (Ten Gun Design, Inc)"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "title",
+      "value": {
+        "title": "Audio",
+        "id": "credits-mojang-studios-audio",
+        "size": 3
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "🗒️ Titles",
+        "differences": {
+          "added": [],
+          "removed": [
+            "Music Supervisors"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "Sound Designers",
+        "differences": {
+          "added": [
+            "Mikael Berne Eriksson (Tingent AB)",
+            "Szymon Żbikowski"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "Music composed by",
+        "differences": {
+          "added": [
+            "Ian Tsuchiura",
+            "Paula Ruiz"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "title",
+      "value": {
+        "title": "Quality Assessment",
+        "id": "credits-mojang-studios-quality-assessment",
+        "size": 3
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "🗒️ Titles",
+        "differences": {
+          "added": [
+            "Quality Lead",
+            "Test Directors"
+          ],
+          "removed": [
+            "Quality Leads",
+            "Test Director"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "Quality Engineers",
+        "differences": {
+          "added": [
+            "Björn Philipson",
+            "Tobias Luckey"
+          ],
+          "removed": [
+            "Archita Keni"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "Quality Assessment Specialists",
+        "differences": {
+          "added": [
+            "Mimmi Boman-Börjesson (Petit Choux Consulting AB)"
+          ],
+          "removed": [
+            "Björn Philipson"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "Program Managers",
+        "differences": {
+          "added": [
+            "Brian Canning (Experis)"
+          ],
+          "removed": [
+            "Bill Brewster (Experis)",
+            "Dave Watkins (Experis)",
+            "Jon Doyle (Experis)",
+            "Lewis Read (Experis)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "Test Managers",
+        "differences": {
+          "added": [],
+          "removed": [
+            "Emily Lovering (Experis)",
+            "Mateusz Kałuża (Lionbridge)",
+            "Raasahn Browder (Experis)",
+            "Tyler Lovemark (Experis)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "Team Leads",
+        "differences": {
+          "added": [
+            "Arkadiusz Czarnecki (Lionbridge)",
+            "Jarosław Zebrowski (Lionbridge)"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "Test Leads",
+        "differences": {
+          "added": [
+            "Julie Tucker (Experis)"
+          ],
+          "removed": [
+            "Benjamin Sousa (Experis)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "Software Test Engineers",
+        "differences": {
+          "added": [
+            "Alystin Carico (Lionbridge)",
+            "Anastazia Junge (Insight Global, LLC)",
+            "Anna Gordon (Lionbridge)",
+            "Arthur Mickelson (Experis)",
+            "Bartosz Binka (Lionbridge)",
+            "Damian Rokosz (Lionbridge)",
+            "Francisco Medel Munoz (Experis)",
+            "Jessica Stephenson (Lionbridge)",
+            "Jordan Santos (Experis)",
+            "Manuel Gaytan II (Experis)",
+            "Manuel Ontiveros (Experis)",
+            "Michał Przystup (Lionbridge)",
+            "Milo Meacham (Insight Global, LLC)",
+            "Rafał Gołębiewski (Lionbridge)",
+            "Robert Jordanek (Lionbridge)",
+            "Simon Diaz-Ramirez (Experis)",
+            "Thomas Benson (Experis)",
+            "Yuliia Stefurak (Lionbridge)"
+          ],
+          "removed": [
+            "Ada Kierzkowska (Lionbridge)",
+            "Alex Vue (Experis)",
+            "Daniel Tazelaar (Lionbridge)",
+            "Jordan Heredia (Experis)",
+            "Julie Tucker (Experis)",
+            "Mikaela Reed (Experis)",
+            "Piotr Burkowski (Lionbridge)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "Test Associates",
+        "differences": {
+          "added": [
+            "Adrian Kiliś  (Lionbridge)",
+            "Aleksander Szymański  (Lionbridge)",
+            "Aleksandra Wojtczak  (Lionbridge)",
+            "Bartłomiej Dubak  (Lionbridge)",
+            "Bartlomiej Wysocki (Lionbridge)",
+            "Bartlomiej Zakrzewski  (Lionbridge)",
+            "Bartosz Bloch (Lionbridge)",
+            "Bartosz Steć  (Lionbridge)",
+            "Bohdan Miroshnychenko  (Lionbridge)",
+            "Cort Lane (Lionbridge)",
+            "Daniel Fronczak  (Lionbridge)",
+            "Danylo Kashperovetskyi  (Lionbridge)",
+            "Daria Urbańska  (Lionbridge)",
+            "Dawid Nadzieja  (Lionbridge)",
+            "Dawit Demissie  (Lionbridge)",
+            "Dominik Rejdak (Lionbridge)",
+            "Elise Flory (Lionbridge)",
+            "Emilia Andrzejewska (Lionbridge)",
+            "Filip Bąba  (Lionbridge)",
+            "Filip Morawski  (Lionbridge)",
+            "Florian Hajduk  (Lionbridge)",
+            "Gabriela Gryko (Lionbridge)",
+            "Gaweł Zaręba (Lionbridge)",
+            "Grzegorz Gawryś  (Lionbridge)",
+            "Igor Tarasiuk  (Lionbridge)",
+            "Igor Wyszomirski  (Lionbridge)",
+            "Ihor Vlasiuk  (Lionbridge)",
+            "Ivan Savenko  (Lionbridge)",
+            "Ivan Tsimchyshyn  (Lionbridge)",
+            "Jakub Jamrozik  (Lionbridge)",
+            "Jakub Kalicki  (Lionbridge)",
+            "Jakub Mielcarz  (Lionbridge)",
+            "Jakub Tryfon  (Lionbridge)",
+            "Jakub Wołoszyński  (Lionbridge)",
+            "Kacper Koniarczyk  (Lionbridge)",
+            "Kacper Malczewski (Lionbridge)",
+            "Kacper Szczerbiak  (Lionbridge)",
+            "Kacper Szpondowski  (Lionbridge)",
+            "Kamil Zielinski (Lionbridge)",
+            "Karol Sierocinski  (Lionbridge)",
+            "Karolina Fischbach (Lionbridge)",
+            "Katarzyna Jabłońska  (Lionbridge)",
+            "Kevin Górski  (Lionbridge)",
+            "Kinga Prochniewicz (Lionbridge)",
+            "Komronbek Alimkulov  (Lionbridge)",
+            "Krzysztof Breiter  (Lionbridge)",
+            "Krzysztof Grybos (Lionbridge)",
+            "Krzysztof Konieczny (Lionbridge)",
+            "Krzysztof Krasa  (Lionbridge)",
+            "Krzysztof Żurkiewicz  (Lionbridge)",
+            "Lukasz Grenda (Lionbridge)",
+            "Lukasz Konopka (Lionbridge)",
+            "Łukasz Korolkiewicz (Lionbridge)",
+            "Łukasz Łuckiewicz  (Lionbridge)",
+            "Maciej Guzik  (Lionbridge)",
+            "Maksym Markov  (Lionbridge)",
+            "Maksymilian Wojda(Lionbridge)",
+            "Masud Nazarli  (Lionbridge)",
+            "Mateusz Jankowski  (Lionbridge)",
+            "Mateusz Kepczynski (Lionbridge)",
+            "Meshaal Alrefaei  (Lionbridge)",
+            "Michał Butkiewicz  (Lionbridge)",
+            "Michal Cierzuch  (Lionbridge)",
+            "Michal Gorski  (Lionbridge)",
+            "Michal Kryszewski (Lionbridge)",
+            "Michał Puchalski  (Lionbridge)",
+            "Micheal Arabshahi (Lionbridge)",
+            "Mykyta Khmelevskyi  (Lionbridge)",
+            "Niall Wilson  (Lionbridge)",
+            "Ołeksandr Szynkariow  (Lionbridge)",
+            "Olga Leczycka (Lionbridge)",
+            "Patrick Hermes  (Lionbridge)",
+            "Patryk Pawłowski  (Lionbridge)",
+            "Piotr Kolendo (Lionbridge)",
+            "Piotr Śpiewak  (Lionbridge)",
+            "Rafał Stawarz  (Lionbridge)",
+            "Remigiusz Dolata (Lionbridge)",
+            "Reshan Madugula  (Lionbridge)",
+            "Rion Cox (Lionbridge)",
+            "Robert Worwa  (Lionbridge)",
+            "Rodney Chirombo  (Lionbridge)",
+            "Roman Marchenko  (Lionbridge)",
+            "Samantha Glass (Insight Global, LLC)",
+            "Seyed Arabshahi  (Lionbridge)",
+            "Shannon Ross (Lionbridge)",
+            "Szymon Wróbel (Lionbridge)",
+            "Teresa Stelmach (Lionbridge)",
+            "Valeriia Menko  (Lionbridge)",
+            "Viktoriia Protsenko  (Lionbridge)",
+            "Vishnu Puthiyapurayil  (Lionbridge)",
+            "Wiktor Antonowski  (Lionbridge)",
+            "Wojciech Menkus  (Lionbridge)",
+            "Wojciech Rygielski  (Lionbridge)",
+            "Yishak Wordofa  (Lionbridge)",
+            "Yuliya Vashkialevich (Lionbridge)",
+            "Yurii Tyshchenko  (Lionbridge)"
+          ],
+          "removed": [
+            "Alex Nissen (Insight Global, Inc)",
+            "Andżelika Kurek (Lionbridge)",
+            "Anna Gordon (Lionbridge)",
+            "Anna Gutowska (Lionbridge)",
+            "Anthony Lopez (Lionbridge)",
+            "Antoni Kostrzewa (Lionbridge)",
+            "Arkadiusz Czarnecki (Lionbridge)",
+            "Bartłomiej Truszkowski (Lionbridge)",
+            "Bartlomiej Wysocki",
+            "Bartosz Staszczak (Lionbridge)",
+            "Brady Smith (Lionbridge)",
+            "Burton Groves (Lionbridge)",
+            "Casper Sparks (Insight Global, Inc)",
+            "Damian Rokosz (Lionbridge)",
+            "Dominik Zwoliński (Lionbridge)",
+            "Emir Ali Misiratov (Lionbridge)",
+            "Filip Busłowicz (Lionbridge)",
+            "Gabriel Wiśniowski (Lionbridge)",
+            "Igor Grabski (Lionbridge)",
+            "Jakub Bobiński (Lionbridge)",
+            "Jakub Górnicki (Lionbridge)",
+            "Jakub Istynowicz (Lionbridge)",
+            "Jakub Łuckiewicz (Lionbridge)",
+            "Jakub Mierzejewski (Lionbridge)",
+            "Jakub Obstawski (Lionbridge)",
+            "Jakub Więch (Lionbridge)",
+            "Jakub Zgajewski (Lionbridge)",
+            "Jan Tomaszewski (Lionbridge)",
+            "Jessica Stephenson (Lionbridge)",
+            "Julia Jóźwiak (Lionbridge)",
+            "Kacper Gosławski (Lionbridge)",
+            "Kacper Pławny (Lionbridge)",
+            "Karolina Pietraś (Lionbridge)",
+            "Karolina Prekurat (Lionbridge)",
+            "Klim Kuznetsov (Lionbridge)",
+            "Krzysztof Bajor (Lionbridge)",
+            "Kyrylo Kunytskyi (Lionbridge)",
+            "Maciej Bielecki (Lionbridge)",
+            "Maciej Michaluk (Lionbridge)",
+            "Maciej Pieszalski (Lionbridge)",
+            "Maciej Ruciński (Lionbridge)",
+            "Maciej Waszczuk (Lionbridge)",
+            "Maciej Wnuk (Lionbridge)",
+            "Magdalena Orzyłowska (Lionbridge)",
+            "Magdalena Wardak (Lionbridge)",
+            "Maksymilian Skalski (Lionbridge)",
+            "Malichi Wilson (Lionbridge)",
+            "Maliki Wilson (Lionbridge)",
+            "Marceli Naskrętski (Lionbridge)",
+            "Marcin Słoniewski (Lionbridge)",
+            "Marion Bojarski (Lionbridge)",
+            "Mateusz Borowski (Lionbridge)",
+            "Mateusz Koriat (Lionbridge)",
+            "Michał Kierzkowski (Lionbridge)",
+            "Michał Kowalik (Lionbridge)",
+            "Michał Przystup (Lionbridge)",
+            "Mykhailo Prokhorov (Lionbridge)",
+            "Natalia Walczyńska (Lionbridge)",
+            "Nikola Janiak (Lionbridge)",
+            "Odo Przęczka (Lionbridge)",
+            "Oleksii Hrabovskyi (Lionbridge)",
+            "Piotr Kompa (Lionbridge)",
+            "Piotr Mudryk (Lionbridge)",
+            "Piotr Szafranowski (Lionbridge)",
+            "Rafał Gołębiowski (Lionbridge)",
+            "Sabina Ocaya Gamon (Lionbridge)",
+            "Samantha Glass (Insight Global, Inc)",
+            "Sebastian Biegaj (Lionbridge)",
+            "Tomasz Kubajka (Lionbridge)",
+            "Uladzislau Kakhniuk (Lionbridge)",
+            "Yuliia Stefurak (Lionbridge)",
+            "Zuzanna Krężlewicz (Lionbridge)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "title",
+      "value": {
+        "title": "Operations",
+        "id": "credits-mojang-studios-operations",
+        "size": 3
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "🗒️ Titles",
+        "differences": {
+          "added": [
+            "Player Operations Director",
+            "Product Operations Director",
+            "Operations Directors",
+            "Operations Coordinators",
+            "HR Director",
+            "Security Director"
+          ],
+          "removed": [
+            "Operations Director, Global",
+            "Operations Director",
+            "Operations Coordinator",
+            "HR Directors",
+            "Lead Automation Support",
+            "DevOps Engineer"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "Operations Managers",
+        "differences": {
+          "added": [
+            "Christy Weckner",
+            "Ryan Eng",
+            "Stephanie Golden (Insight Global, LLC)",
+            "Tanya Reinhardt (Ascendion, Inc)"
+          ],
+          "removed": [
+            "Karolina Nylén",
+            "Sheila Ho",
+            "Stephanie Golden (Insight Global, Inc)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "People Operations Managers",
+        "differences": {
+          "added": [
+            "Yvonne Zarrin Manesh"
+          ],
+          "removed": [
+            "Ani Grey",
+            "Brittney Pettway",
+            "Ludwig Moberg Edenbäck"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "Human Resources",
+        "differences": {
+          "added": [
+            "Andreas Aschan"
+          ],
+          "removed": [
+            "Yvonne Zarrin Manesh"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "Talent Acquisition",
+        "differences": {
+          "added": [
+            "Jeff Guyton (Insight Global, LLC)",
+            "Jessica Bergstrom",
+            "Rolf Kusch",
+            "Scott MacPherson (Insight Global, LLC)"
+          ],
+          "removed": [
+            "Adam Conder (Insight Global, Inc)",
+            "Jeff Guyton (Insight Global, Inc)",
+            "Scott MacPherson (Insight Global, Inc)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "Executive Business Administrators",
+        "differences": {
+          "added": [],
+          "removed": [
+            "Erin Decker"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "IT Managers",
+        "differences": {
+          "added": [
+            "Sam Khorasani"
+          ],
+          "removed": [
+            "Jason Perry Minard"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "IT",
+        "differences": {
+          "added": [
+            "Alexandre Machado (my3Twelve, LLC)",
+            "Benjamin Fall",
+            "Eric Filarski (my3Twelve, LLC)",
+            "Frederico da Costa (my3Twelve, LLC)",
+            "Mabel Chan (my3Twelve, LLC)",
+            "Mason Blaut (Experis)",
+            "Matthew C. Moreno",
+            "Patrick Boyle (my3Twelve, LLC)",
+            "Tevin Crabtree (Experis)",
+            "Tyler Camacho (Experis)",
+            "Wenzhao Liu (my3Twelve, LLC)",
+            "Zelda Karttunen (my3Twelve, LLC)"
+          ],
+          "removed": [
+            "Aaron Brindell (Experis)",
+            "Brian Hein (Experis)",
+            "Dacke Blixt (Techfactory, AB)",
+            "Eric Filarski (My3Twelve, LLC)",
+            "Hannah Feilberg-Maiti (Techfactory, AB)",
+            "Zelda Karttunen (Academic Work IT AB)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "title",
+      "value": {
+        "title": "Business Management & Licensing",
+        "id": "credits-mojang-studios-business-management-&-licensing",
+        "size": 3
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "🗒️ Titles",
+        "differences": {
+          "added": [
+            "Business Director, Japan",
+            "Business Director, Operations"
+          ],
+          "removed": [
+            "Program Director, China Consumer & Global Partnerships",
+            "Program Director, Franchise Development",
+            "Business Director, Japan & Market Expansion",
+            "Business Directors, Operations"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "Program Directors",
+        "differences": {
+          "added": [
+            "Tom Quinn"
+          ],
+          "removed": [
+            "Ava Volandes"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "Business Directors",
+        "differences": {
+          "added": [
+            "Eve Vashkus",
+            "Martin Rybrink"
+          ],
+          "removed": [
+            "Patrick Geuder"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "Business Development Managers",
+        "differences": {
+          "added": [
+            "Lauren Narosky-Rolfe (Allegis Global Solutions Inc)",
+            "MaryKate Mullen (Allegis Global Solutions Inc)",
+            "Roger Villegas (Allegis Global Solutions Inc)",
+            "Xhulia Bratja (Apex Systems)"
+          ],
+          "removed": [
+            "Albert Pastore",
+            "Christy Weckner",
+            "MaryKate Mullen (Allegis Global Services, Inc)",
+            "Roger Villegas (Allegis Global Services, Inc)",
+            "Timothy Norton (Ascendion, Inc)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "Program Manager Lead",
+        "differences": {
+          "added": [
+            "Josh Ayala (Insight Global, LLC)"
+          ],
+          "removed": [
+            "Susie Tinker"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "Program Managers",
+        "differences": {
+          "added": [
+            "Benjamin Phillips III",
+            "Chris Dauchot (Insight Global, LLC)",
+            "Greg Walls",
+            "John Mercil (Insight Global, LLC)",
+            "Reiji Sato",
+            "Vince Davis Espino (Insight Global, LLC)"
+          ],
+          "removed": [
+            "Alex Luschen",
+            "Anita Collins (Excelsior Staffing LLC)",
+            "Bethany Gager (Apex Systems, Inc)",
+            "Brett Coleman (Apex Systems, Inc)",
+            "Chris Dauchot (Insight Global, Inc)",
+            "Greg Walls (Insight Global, Inc)",
+            "John Mercil (Insight Global, Inc)",
+            "Josh Ayala (Insight Global, Inc)",
+            "Liz Leo",
+            "Monica Burba (Apex Systems, Inc)",
+            "Susan Morales (Apex Systems, Inc)",
+            "Vince Davis Espino (Insight Global, Inc)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "Business Managers",
+        "differences": {
+          "added": [
+            "Cassandra Puertas (KFORCE INC)",
+            "Felix Huang Jr.",
+            "Josefina Axelsson",
+            "Kristin M. Grein",
+            "Marissa Crowley (Harvey Nash, Inc)",
+            "Mikkel Flækøy",
+            "Remy Cristiani",
+            "Richard Li (KFORCE INC)",
+            "Stephanie Turl (SIMPLICITY CONSULTING LLC)",
+            "Timothy Luk"
+          ],
+          "removed": [
+            "Audrey Searcy",
+            "Christopher Johnsen (Allegis Group Services, Inc)",
+            "David K. Lau",
+            "Elizabeth Link (Aquent, LLC)",
+            "Eve Vashkus",
+            "Kristin Grein",
+            "Lori Merritt (SGF USA LLC)",
+            "Stephanie Turl (Simplicity Consulting Inc.)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "title",
+      "value": {
+        "title": "Brand Management",
+        "id": "credits-mojang-studios-brand-management",
+        "size": 3
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "🗒️ Titles",
+        "differences": {
+          "added": [
+            "Brand Directors"
+          ],
+          "removed": [
+            "Brand Director",
+            "Brand Analyst"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "Brand Manager",
+        "differences": {
+          "added": [
+            "Hampus Johansson"
+          ],
+          "removed": [
+            "Harry Elonen"
+          ]
+        }
+      }
+    },
+    {
+      "type": "title",
+      "value": {
+        "title": "Communications",
+        "id": "credits-mojang-studios-communications",
+        "size": 3
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "🗒️ Titles",
+        "differences": {
+          "added": [],
+          "removed": [
+            "Director of Community",
+            "Social Media Lead",
+            "Social Media Managers",
+            "Community Management Lead",
+            "Community Managers"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "Director of Communications",
+        "differences": {
+          "added": [
+            "Addie Coronado",
+            "Chris de Haan"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "Communications Managers",
+        "differences": {
+          "added": [
+            "Brenda Saucedo",
+            "Connor Rice",
+            "Fernando Cienfuegos (Assembly Media, Inc)",
+            "Graham Hardock (Assembly Media, Inc)",
+            "Jacob Smith (Assembly Media, Inc)",
+            "Jordan Maestas (Assembly Media, Inc)",
+            "Sloane Wolf (Assembly Media, Inc)",
+            "Sue Chan"
+          ],
+          "removed": [
+            "Addie Coronado",
+            "Alexis Crofts (Assembly Media, Inc)",
+            "Cynthia Park (Assembly Media, Inc)",
+            "Holly Amber Smith",
+            "Maysan Zubi (Assembly Media, Inc)",
+            "Petra Tell",
+            "Ramona Suris (Assembly Media, Inc)",
+            "Wesley Gore (Assembly Media, Inc)",
+            "Zulai Serrano Shimamoto"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "Creative Writers",
+        "differences": {
+          "added": [
+            "Jess Ross (Insight Global, Inc)",
+            "Jules Caesar (Insight Global, LLC)"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "Content Managers",
+        "differences": {
+          "added": [
+            "David Mejia (BCforward)",
+            "Jason King (KFORCE INC)"
+          ],
+          "removed": [
+            "John Hansen (Insight Global, Inc)",
+            "Nadja Anderberg",
+            "Oskar Thysell",
+            "Reagan Sterner (Apex Systems, Inc)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "title",
+      "value": {
+        "title": "Marketing",
+        "id": "credits-mojang-studios-marketing",
+        "size": 3
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "🗒️ Titles",
+        "differences": {
+          "added": [
+            "Director of Global Social & Influence",
+            "Head of Global Influence",
+            "Social Media Lead",
+            "Social Media Managers"
+          ],
+          "removed": [
+            "Head of Marketing"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "Marketing Directors",
+        "differences": {
+          "added": [
+            "Bradley Cummings",
+            "Jeanie DuMont",
+            "Nick Ketter"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "Marketing Managers",
+        "differences": {
+          "added": [
+            "Egil G. Gloersen",
+            "Halley Yunyu Chang",
+            "Jaime Limon Leycegui",
+            "Janis Fein (Insight Global, LLC)",
+            "Jordan Lofy (TEN GUN DESIGN INC)",
+            "Lindsay Auten (DBA SYNAXIS CONSULTING)",
+            "Nicolas Sherman (NEXTANT LLC)",
+            "Nicole Gary",
+            "Ryan Conner (TEN GUN DESIGN INC)",
+            "Sanjana Sivakumar"
+          ],
+          "removed": [
+            "Amy Vuong (Cypress Human Capital)",
+            "Bradley Cummings",
+            "Egil Gloersen",
+            "Emily Orrson (Unfollow Media)",
+            "Halley Chang",
+            "Jaime Limon",
+            "Janis Fein (Ascendion, Inc)",
+            "Lindsay Auten (Synaxis Corporation)",
+            "Nick Ketter",
+            "Nicolas Sherman (Nextant LLC)",
+            "Shari Gari (Aquent, LLC)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "Marketing Content Managers",
+        "differences": {
+          "added": [
+            "Britt Riley (Insight Global, LLC)",
+            "Daria Sykuleva (TATA CONSULTANCY SERVICES LTD)",
+            "Nicole Fabian Parodi (TATA CONSULTANCY SERVICES LTD)",
+            "Prashanth Chandrasekaran (TATA CONSULTANCY SERVICES LTD)",
+            "Sonali Patra (TATA CONSULTANCY SERVICES LTD)",
+            "Wanda Roe (TATA CONSULTANCY SERVICES LTD)"
+          ],
+          "removed": [
+            "Britt Riley (Insight Global, Inc)",
+            "Daria Sykuleva (Tata Consultancy Services LTD)",
+            "Jules Caesar (Insight Global, Inc)",
+            "Nicole Fabian Parodi (Tata Consultancy Services LTD)",
+            "Richard Lecker (Insight Global, Inc)",
+            "Sanjana Jadhav (Tata Consultancy Services LTD)",
+            "Wanda Roe (Tata Consultancy Services LTD)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "Web Content Authors & QA",
+        "differences": {
+          "added": [
+            "Ankur Aggarwal (HCL Technologies)"
+          ],
+          "removed": [
+            "Jack Markley (HCL Technologies)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "title",
+      "value": {
+        "title": "Legal",
+        "id": "credits-mojang-studios-legal",
+        "size": 3
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "🗒️ Titles",
+        "differences": {
+          "added": [],
+          "removed": [
+            "Senior Legal Counsel"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "Head of Legal",
+        "differences": {
+          "added": [
+            "Timothy Han (CELA)"
+          ],
+          "removed": [
+            "Nick Morgan (CELA)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "Legal Counsel",
+        "differences": {
+          "added": [
+            "Kari Annand (Annand Technology Law)",
+            "Rachel Silvers"
+          ],
+          "removed": [
+            "Jessica Henderson",
+            "Kari Annand (Snodgrass Annand)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "title",
+      "value": {
+        "title": "Finance",
+        "id": "credits-mojang-studios-finance",
+        "size": 3
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "🗒️ Titles",
+        "differences": {
+          "added": [],
+          "removed": [
+            "Finance Director",
+            "Financial Accountant",
+            "Financial Consultants"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "Finance Managers",
+        "differences": {
+          "added": [],
+          "removed": [
+            "Dennis Laviolette (Apex Systems, Inc)",
+            "Felix Huang Jr.",
+            "Mikkel Flækøy"
+          ]
+        }
+      }
+    },
+    {
+      "type": "title",
+      "value": {
+        "title": "Development Partner - Blackbird Interactive",
+        "id": "credits-development-partner---blackbird-interactive",
+        "size": 1
+      }
+    },
+    {
+      "type": "title",
+      "value": {
+        "title": "Main",
+        "id": "credits-development-partner---blackbird-interactive-main",
+        "size": 3
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "🗒️ Titles",
+        "differences": {
+          "added": [
+            "Lead Programmer",
+            "CDO",
+            "CTO"
+          ],
+          "removed": [
+            "Vice President, Development",
+            "Studio Technical Director"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "Programmers",
+        "differences": {
+          "added": [
+            "Daniel Cossu",
+            "Nathan Tipper"
+          ],
+          "removed": [
+            "David Galloway",
+            "Devon Plourde",
+            "Jc Fowles",
+            "Mike Biddlecombe",
+            "Stevie Giovanni",
+            "Tim Stump"
+          ]
+        }
+      }
+    },
+    {
+      "type": "title",
+      "value": {
+        "title": "Development Partner - Disbelief",
+        "id": "credits-development-partner---disbelief",
+        "size": 1
+      }
+    },
+    {
+      "type": "title",
+      "value": {
+        "title": "Main",
+        "id": "credits-development-partner---disbelief-main",
+        "size": 3
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "🗒️ Titles",
+        "differences": {
+          "added": [
+            "Production Director"
+          ],
+          "removed": [
+            "Art Director",
+            "Senior Technical Artist",
+            "Technical Artist"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "Additional Production",
+        "differences": {
+          "added": [
+            "Alanna Lynch"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "Senior Programmers",
+        "differences": {
+          "added": [
+            "Micah Johnston"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "Programmers",
+        "differences": {
+          "added": [
+            "Angelo Moyers",
+            "Aran Gilman",
+            "Steve Radomski"
+          ],
+          "removed": [
+            "David Stout",
+            "Emmaline Kelly",
+            "Micah Johnston"
+          ]
+        }
+      }
+    },
+    {
+      "type": "title",
+      "value": {
+        "title": "Development Partner - Sprung Studios Ltd",
+        "id": "credits-development-partner---sprung-studios-ltd",
+        "size": 1
+      }
+    },
+    {
+      "type": "title",
+      "value": {
+        "title": "Main",
+        "id": "credits-development-partner---sprung-studios-ltd-main",
+        "size": 3
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "🗒️ Titles",
+        "differences": {
+          "added": [
+            "Business Development",
+            "Digital Marketing Specialist",
+            "Producers",
+            "IT Lead",
+            "User Researcher"
+          ],
+          "removed": [
+            "Producer",
+            "Senior UX/UI Designer",
+            "Senior UI Engineer",
+            "IT Support"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "UX/UI Designers",
+        "differences": {
+          "added": [
+            "Emanuelle Cavalcante",
+            "Luna Sever"
+          ],
+          "removed": [
+            "Felix Pham",
+            "Leticia Dornel"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "UI Engineers",
+        "differences": {
+          "added": [
+            "Curtis Reynolds"
+          ],
+          "removed": [
+            "Yewon Jung"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "Senior User Researcher",
+        "differences": {
+          "added": [
+            "Denitza Dramkin"
+          ],
+          "removed": [
+            "Erica Qiu"
+          ]
+        }
+      }
+    },
+    {
+      "type": "title",
+      "value": {
+        "title": "Mojang Studios Alumni",
+        "id": "credits-mojang-studios-alumni",
+        "size": 1
+      }
+    },
+    {
+      "type": "title",
+      "value": {
+        "title": "Main",
+        "id": "credits-mojang-studios-alumni-main",
+        "size": 3
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "🗒️ Titles",
+        "differences": {
+          "added": [
+            "Head of Global Partnerships",
+            "Director of Internal New Games",
+            "Executive Producer, Education",
+            "Principal Producer",
+            "Product Director, Franchise Technologies and Services",
+            "Product Manager Leads",
+            "Quality Lead",
+            "Test Director",
+            "Test Leads",
+            "User Experience Writers",
+            "Program Director, China Consumer & Global Partnerships",
+            "Program Director",
+            "Business Director, Operations",
+            "Business Director",
+            "Operations Director, Global",
+            "Operations Director, Stockholm",
+            "Operations Coordinator",
+            "People Operations Managers",
+            "Interns",
+            "Data Science and Analytics Managers",
+            "Director of Player Care",
+            "Brand Analyst",
+            "Directors of Community",
+            "Content Managers",
+            "Marketing Content Managers",
+            "Web Content Authors & QA",
+            "Finance Director"
+          ],
+          "removed": [
+            "Test Lead",
+            "User Experience Writer",
+            "Content Manager"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "Chief of Staff",
+        "differences": {
+          "added": [
+            "Amy Stillion"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "Design Managers",
+        "differences": {
+          "added": [
+            "Jesper Staafjord"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "Game Designers",
+        "differences": {
+          "added": [
+            "Giuseppe Libonati (Insight Global, LLC)",
+            "Kelsey Howard"
+          ],
+          "removed": [
+            "Jesper Westlund"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "Engineering Managers",
+        "differences": {
+          "added": [
+            "Jonas Jonsson",
+            "Sandeep Singh (Ascendion, Inc)"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "Software Engineers",
+        "differences": {
+          "added": [
+            "Abhinav Jain (Ascendion, Inc)",
+            "Abhishek Talati (Ascendion, Inc)",
+            "Abinaya Sambandam (Ascendion, Inc)",
+            "Addison Kaufmann",
+            "Adrian Ferrer (Insight Global, LLC)",
+            "Andres Altamirano Montealvo",
+            "Anthony Sopkow (Ascendion, Inc)",
+            "Antonino Liconti",
+            "Ashish Sharma (Ascendion, Inc)",
+            "Ashwin Brahmarouthu (Ascendion, Inc)",
+            "Brian Luger",
+            "Dmytro Safonov",
+            "Emma Villemoes",
+            "Hugo Hägglund",
+            "Isaiah Dickison (Insight Global, LLC)",
+            "Jacob Presley (Insight Global, LLC)",
+            "Jeremy Robinson (Insight Global, LLC)",
+            "Jifeng Zhang",
+            "John Littlewood (Mirado Consulting)",
+            "Jonas Johansson",
+            "Kyle Schwaneke",
+            "Mark Rowland (Insight Global, LLC)",
+            "Martin Hornqvist",
+            "Michelle Rosenbarker (Insight Global, LLC)",
+            "Miles Mbo",
+            "Naveen Komma (Insight Global, LLC)",
+            "Niklas Erhard Olsson",
+            "Oswaldo Leyva Barrientos",
+            "Ragnar Rova",
+            "Samuel Schimmel (Insight Global, LLC)",
+            "Santosha Bhat (Ascendion, Inc)",
+            "Shane Pierce",
+            "Soundar B (Ascendion, Inc)"
+          ],
+          "removed": [
+            "Adam Granzer (TEKsystems, Inc)",
+            "Ashish Sharma (Ascendion Inc)",
+            "Bjarni Gudmundsson",
+            "Eric Grimsborn",
+            "Oskar Pedersen",
+            "Paula Roth",
+            "Petter Holmberg"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "Executive Producers",
+        "differences": {
+          "added": [
+            "Ingela Garneij"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "Producers",
+        "differences": {
+          "added": [
+            "Dawn Boughton (Apex Systems)",
+            "Elin Roslund",
+            "Ellen Karlsten",
+            "Eric Karlshammar",
+            "Hillary Good (Simplicity Consulting Inc.)",
+            "Johan Byttner",
+            "Kristina Barandiy",
+            "Rakiv Joy",
+            "Sandra Schöön",
+            "Sarah Von Reis",
+            "Sofia Göthlin"
+          ],
+          "removed": [
+            "Allan Contreras (Insight Global, Inc)",
+            "Charlotte Angantyr",
+            "Christina-Antoinette Neofotistou"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "Media Producers",
+        "differences": {
+          "added": [
+            "Andreas Dea Hedenström"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "Product Managers",
+        "differences": {
+          "added": [
+            "Carolina Broberg (Netlight)",
+            "Caroline Smith (Insight Global, LLC)",
+            "Dejan Dimic",
+            "Grace Jung (TEKSYSTEMS, INC.)",
+            "Nick Ljungqvist (MVP Global AB)",
+            "Tori Tippin"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "Organizational Coaches",
+        "differences": {
+          "added": [
+            "Jennie Mårtensson (Jenuine Coaching & Consulting AB)"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "Release Managers",
+        "differences": {
+          "added": [
+            "Kai DeLeon (Hanson Consulting Group, Inc)",
+            "Kyle Sullivan (Hanson Consulting Group, Inc)"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "Technical Writers",
+        "differences": {
+          "added": [
+            "Jeff Kim (Insight Global, LLC)",
+            "Jill Headen (Insight Global, LLC)"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "Technical Program Managers",
+        "differences": {
+          "added": [
+            "Anna DeSimone (Insight Global, LLC)",
+            "Aqsa Rauf (Apex Systems)",
+            "David Jho (my3Twelve, LLC)",
+            "Jered Dowden (Ascendion, Inc)",
+            "Stuart U (my3Twelve, LLC)",
+            "Timothy Mehta (AQUENT LLC)",
+            "William Weber (Apex Systems)"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "Playtest Coordinators",
+        "differences": {
+          "added": [
+            "Jonathan Carroll (Insight Global, LLC)"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "Art Directors",
+        "differences": {
+          "added": [],
+          "removed": [
+            "Wiktor Persson"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "Artists",
+        "differences": {
+          "added": [
+            "Chase Farthing (TEKSYSTEMS, INC.)",
+            "Christina Dolan (AQUENT LLC)",
+            "Christina-Antoinette Neofotistou",
+            "Jan Cariaga",
+            "Kirk Barnett",
+            "Lauren Bravo-Kohler",
+            "Margarita Sanchez (TEKSYSTEMS, INC.)",
+            "Nikoleta Jovanovic",
+            "Noam Briner"
+          ],
+          "removed": [
+            "William Thomas"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "Product Designers",
+        "differences": {
+          "added": [
+            "Timothy Lusk (TEKSYSTEMS, INC.)"
+          ],
+          "removed": [
+            "Kelsey Ranallo"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "Graphic Designers",
+        "differences": {
+          "added": [],
+          "removed": [
+            "Yong-Namm Lee"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "Quality Engineers",
+        "differences": {
+          "added": [
+            "Archita Keni"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "Software Test Engineers",
+        "differences": {
+          "added": [
+            "Ada Kierzkowska (Lionbridge)",
+            "Alex Vue (Experis)",
+            "Daniel Tazelaar (Lionbridge)",
+            "Mikaela Reed (Experis)",
+            "Piotr Burkowski (Lionbridge)"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "Test Associates",
+        "differences": {
+          "added": [
+            "Agnieszka Sobota (Lionbridge)",
+            "Albert Adamczyk (Lionbridge)",
+            "Alex Nissen (Insight Global, LLC)",
+            "Andżelika Kurek (Lionbridge)",
+            "Anna Gutowska (Lionbridge)",
+            "Anthony Lopez (Lionbridge)",
+            "Antoni Kostrzewa (Lionbridge)",
+            "Bartłomiej Truszkowski (Lionbridge)",
+            "Bartosz Staszczak (Lionbridge)",
+            "Brady Smith (Lionbridge)",
+            "Burton Groves (Lionbridge)",
+            "Casper Sparks (Insight Global, LLC)",
+            "Dominik Zwoliński (Lionbridge)",
+            "Emir Ali Misiratov (Lionbridge)",
+            "Filip Busłowicz (Lionbridge)",
+            "Gabriel Wiśniowski (Lionbridge)",
+            "Igor Grabski (Lionbridge)",
+            "Jakub Bobiński (Lionbridge)",
+            "Jakub Górnicki (Lionbridge)",
+            "Jakub Istynowicz (Lionbridge)",
+            "Jakub Łuckiewicz (Lionbridge)",
+            "Jakub Mierzejewski (Lionbridge)",
+            "Jakub Obstawski (Lionbridge)",
+            "Jakub Więch (Lionbridge)",
+            "Jan Tomaszewski (Lionbridge)",
+            "Joel Larsson",
+            "Julia Jóźwiak (Lionbridge)",
+            "Kacper Gosławski (Lionbridge)",
+            "Kacper Pławny (Lionbridge)",
+            "Karolina Pietraś (Lionbridge)",
+            "Karolina Prekurat (Lionbridge)",
+            "Klim Kuznetsov (Lionbridge)",
+            "Krzysztof Bajor (Lionbridge)",
+            "Kyrylo Kunytskyi (Lionbridge)",
+            "Maciej Bielecki (Lionbridge)",
+            "Maciej Michaluk (Lionbridge)",
+            "Maciej Pieszalski (Lionbridge)",
+            "Maciej Ruciński (Lionbridge)",
+            "Maciej Waszczuk (Lionbridge)",
+            "Maciej Wnuk (Lionbridge)",
+            "Magdalena Orzyłowska (Lionbridge)",
+            "Magdalena Wardak (Lionbridge)",
+            "Maksymilian Skalski (Lionbridge)",
+            "Malichi Wilson (Lionbridge)",
+            "Marceli Naskrętski (Lionbridge)",
+            "Marcin Słoniewski (Lionbridge)",
+            "Marion Bojarski (Lionbridge)",
+            "Mateusz Borowski (Lionbridge)",
+            "Mateusz Koriat (Lionbridge)",
+            "Michał Kierzkowski (Lionbridge)",
+            "Michał Kowalik (Lionbridge)",
+            "Mikołaj Rappold  (Lionbridge)",
+            "Mykhailo Prokhorov (Lionbridge)",
+            "Natalia Walczyńska (Lionbridge)",
+            "Nick Latino (Insight Global, Inc)",
+            "Nikola Janiak (Lionbridge)",
+            "Odo Przęczka (Lionbridge)",
+            "Oleksii Hrabovskyi (Lionbridge)",
+            "Piotr Kompa (Lionbridge)",
+            "Piotr Mudryk (Lionbridge)",
+            "Piotr Szafranowski (Lionbridge)",
+            "Sabina Ocaya Gamon (Lionbridge)",
+            "Sebastian Biegaj (Lionbridge)",
+            "Tomasz Kubajka (Lionbridge)",
+            "Tsu Chlebicka (Lionbridge)",
+            "Uladzislau Kakhniuk (Lionbridge)",
+            "Zuzanna Krężlewicz (Lionbridge)"
+          ],
+          "removed": [
+            "NIck Latino (Insight Global, Inc)",
+            "Rion Cox (Lionbridge)",
+            "Teresa Stelmach (Lionbridge)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "Test Managers",
+        "differences": {
+          "added": [
+            "Emily Lovering (Experis)",
+            "Mateusz Kałuża (Lionbridge)",
+            "Raasahn Browder (Experis)",
+            "Tyler Lovemark (Experis)"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "User Experience Designers",
+        "differences": {
+          "added": [
+            "Karolin Pettersson"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "Operations Managers",
+        "differences": {
+          "added": [
+            "Emmi Chartier",
+            "Karolina Nylén",
+            "Sheila Ho"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "Business Development Managers",
+        "differences": {
+          "added": [
+            "Albert Pastore",
+            "Timothy Norton (Ascendion, Inc)"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "Program Managers",
+        "differences": {
+          "added": [
+            "Ahmed Asif",
+            "Anita Collins (Excelsior Staffing LLC)",
+            "Bill Brewster (Experis)",
+            "Brett Coleman (Apex Systems)",
+            "Dave Watkins (Experis)",
+            "Jade Marsh (Apex Systems)",
+            "Jon Doyle (Experis)",
+            "Lewis Read (Experis)",
+            "Monica Burba (Apex Systems)",
+            "Susan Morales (Apex Systems)",
+            "Susie Tinker"
+          ],
+          "removed": [
+            "Brian Canning (Experis)",
+            "Stuart U (my3Twelve, LLC)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "Business Managers",
+        "differences": {
+          "added": [
+            "Audrey Searcy",
+            "Christopher Johnsen (TEKSYSTEMS, INC.)",
+            "David K. Lau",
+            "Liz Link",
+            "Lori Merritt (SGF USA LLC)"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "HR Directors",
+        "differences": {
+          "added": [
+            "Darcy Harpel"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "Human Resources",
+        "differences": {
+          "added": [],
+          "removed": [
+            "Jennie Sjöman"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "Talent Acquisition",
+        "differences": {
+          "added": [
+            "Adam Conder (Insight Global, LLC)",
+            "Clara-Li Hedberg",
+            "Eman Lakhani (Insight Global, LLC)"
+          ],
+          "removed": [
+            "Hanan Naamneh"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "Executive Business Administrators",
+        "differences": {
+          "added": [
+            "Alex Luschen",
+            "Erin Decker"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "IT Managers",
+        "differences": {
+          "added": [
+            "Jason Perry Minard"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "IT",
+        "differences": {
+          "added": [
+            "Aaron Brindell (Experis)",
+            "Andrew McCabe (my3Twelve, LLC)",
+            "Brian Hein (Experis)",
+            "Dacke Blixt (Techfactory, AB)",
+            "Grace Jho (my3Twelve LLC)",
+            "Hannah Feilberg-Maiti (Techfactory, AB)"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "Analytics Environment Engineering",
+        "differences": {
+          "added": [
+            "Ryan Cox (Ascendion, Inc)"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "Data Science",
+        "differences": {
+          "added": [
+            "Bhrigu Shree",
+            "Christer Norström",
+            "Kent Go (AQUENT LLC)",
+            "Matilda Tamm",
+            "Siva Balantrapu (Hitachi Digital Services LLC)",
+            "Tiana Ramirez (KellyMitchell Group, LLC)",
+            "Victor Fong (Ascendion, Inc)"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "Player Support",
+        "differences": {
+          "added": [
+            "Brandon Lopez (Apex Systems)",
+            "Julia Osobampo (Apex Systems)",
+            "Karoline Malik (Apex Systems)",
+            "Mara Croesy (Apex Systems)",
+            "Melinda Morales (Apex Systems)",
+            "Whitney Okafor (Apex Systems)"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "Communications Managers",
+        "differences": {
+          "added": [
+            "Alexis Crofts (Assembly Media, Inc)",
+            "Cynthia Park (Assembly Media, Inc)",
+            "Holly Amber Smith",
+            "Maysan Zubi (Assembly Media, Inc)",
+            "Petra Tell",
+            "Ramona Suris (Assembly Media, Inc)",
+            "Wesley Gore (Assembly Media, Inc)",
+            "Zulai Serrano Shimamoto"
+          ],
+          "removed": [
+            "Christopher de Haan (Simplicity Consulting Inc)",
+            "Hollis Wacker-Leja",
+            "Katie Guo (Assembly Media, Inc)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "Social Media Managers",
+        "differences": {
+          "added": [
+            "Cassandra Jones (Cypress Human Capital)",
+            "William Chang (Randstad)"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "Community Managers",
+        "differences": {
+          "added": [
+            "DèJa Easter (Apex Systems)",
+            "Emily Hayes (Averro LLC)",
+            "Hollis Wacker-Leja",
+            "Katie Guo (Assembly Media, Inc)",
+            "Nadine Ebri (Apex Systems)",
+            "Sophia Lyon"
+          ],
+          "removed": [
+            "DèJa Easter (Apex Systems, Inc)",
+            "Nadine Ebri (Apex Systems, Inc)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "Marketing Managers",
+        "differences": {
+          "added": [
+            "Amy Vuong (Cypress Human Capital)",
+            "Emily Orrson (Unfollow Media)",
+            "Shari Gari (Aquent, LLC)"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "Finance Managers",
+        "differences": {
+          "added": [
+            "Dennis Laviolette (Apex Systems)"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "Financial Consultants",
+        "differences": {
+          "added": [
+            "Amani Ziadi",
+            "Elias Selmö"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "title",
+      "value": {
+        "title": "Studios Quality Alumni",
+        "id": "credits-studios-quality-alumni",
+        "size": 1
+      }
+    },
+    {
+      "type": "title",
+      "value": {
+        "title": "Main",
+        "id": "credits-studios-quality-alumni-main",
+        "size": 3
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "🗒️ Titles",
+        "differences": {
+          "added": [],
+          "removed": [
+            "Quality Analyst"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "Test Associates",
+        "differences": {
+          "added": [],
+          "removed": [
+            "Piotr Kolendo (Lionbridge)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "title",
+      "value": {
+        "title": "Development Partner - Disbelief Alumni",
+        "id": "credits-development-partner---disbelief-alumni",
+        "size": 1
+      }
+    },
+    {
+      "type": "title",
+      "value": {
+        "title": "Main",
+        "id": "credits-development-partner---disbelief-alumni-main",
+        "size": 3
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "🗒️ Titles",
+        "differences": {
+          "added": [
+            "Art Director",
+            "Senior Technical Artist",
+            "Technical Artist"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "Programmers",
+        "differences": {
+          "added": [
+            "David Stout",
+            "Emmaline Kelly"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "title",
+      "value": {
+        "title": "Development Partner - Sprung Studios Ltd Alumni",
+        "id": "credits-development-partner---sprung-studios-ltd-alumni",
+        "size": 1
+      }
+    },
+    {
+      "type": "title",
+      "value": {
+        "title": "Main",
+        "id": "credits-development-partner---sprung-studios-ltd-alumni-main",
+        "size": 3
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "🗒️ Titles",
+        "differences": {
+          "added": [
+            "Producers",
+            "Senior UX/UI Designers",
+            "UX/UI Designers",
+            "Senior UI Engineer",
+            "UI Engineers"
+          ],
+          "removed": [
+            "Senior UX/UI Designer II",
+            "UI Engineer",
+            "IT Support"
+          ]
+        }
+      }
+    }
+  ],
+  "misc": [
+    {
+      "type": "entries",
+      "value": {
+        "name": "splashes",
+        "differences": {
+          "added": [
+            "Music by fingerspit!"
+          ],
+          "removed": []
+        }
+      }
+    }
+  ],
+  "custom": [
+    {
+      "type": "title",
+      "value": {
+        "title": "datapacks.json",
+        "id": "custom-datapacks-json",
+        "size": 2
+      }
+    }
+  ]
+}
