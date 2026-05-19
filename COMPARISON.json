@@ -1,0 +1,365 @@
+{
+  "version_data": [
+    {
+      "type": "table",
+      "value": {
+        "previousLabel": "26.2-snapshot-7",
+        "currentLabel": "26.2-snapshot-8",
+        "values": [
+          {
+            "key": "DataPack version",
+            "previous": "105.1",
+            "current": "106.0"
+          },
+          {
+            "key": "World version",
+            "previous": "4891",
+            "current": "4893"
+          },
+          {
+            "key": "Protocol version",
+            "previous": "1073742137",
+            "current": "1073742138"
+          }
+        ]
+      }
+    },
+    {
+      "type": "title",
+      "value": {
+        "title": "Libraries",
+        "id": "version-data-libraries",
+        "size": 3
+      }
+    },
+    {
+      "type": "table",
+      "value": {
+        "title": "Versions",
+        "previousLabel": "26.2-snapshot-7",
+        "currentLabel": "26.2-snapshot-8",
+        "values": [
+          {
+            "key": "com.google.code.gson:gson",
+            "previous": "2.13.2",
+            "current": "2.14.0"
+          },
+          {
+            "key": "com.google.guava:guava",
+            "previous": "33.5.0-jre",
+            "current": "33.6.0-jre"
+          },
+          {
+            "key": "com.ibm.icu:icu4j",
+            "previous": "77.1",
+            "current": "78.3"
+          },
+          {
+            "key": "com.microsoft.azure:msal4j",
+            "previous": "1.23.1",
+            "current": "1.24.1"
+          },
+          {
+            "key": "com.mojang:logging",
+            "previous": "1.6.11",
+            "current": "1.7.12"
+          },
+          {
+            "key": "commons-codec:commons-codec",
+            "previous": "1.19.0",
+            "current": "1.22.0"
+          },
+          {
+            "key": "io.netty:netty-buffer",
+            "previous": "4.2.7.Final",
+            "current": "4.2.13.Final"
+          },
+          {
+            "key": "io.netty:netty-codec-base",
+            "previous": "4.2.7.Final",
+            "current": "4.2.13.Final"
+          },
+          {
+            "key": "io.netty:netty-codec-compression",
+            "previous": "4.2.7.Final",
+            "current": "4.2.13.Final"
+          },
+          {
+            "key": "io.netty:netty-codec-http",
+            "previous": "4.2.7.Final",
+            "current": "4.2.13.Final"
+          },
+          {
+            "key": "io.netty:netty-common",
+            "previous": "4.2.7.Final",
+            "current": "4.2.13.Final"
+          },
+          {
+            "key": "io.netty:netty-handler",
+            "previous": "4.2.7.Final",
+            "current": "4.2.13.Final"
+          },
+          {
+            "key": "io.netty:netty-resolver",
+            "previous": "4.2.7.Final",
+            "current": "4.2.13.Final"
+          },
+          {
+            "key": "io.netty:netty-transport-classes-epoll",
+            "previous": "4.2.7.Final",
+            "current": "4.2.13.Final"
+          },
+          {
+            "key": "io.netty:netty-transport-classes-kqueue",
+            "previous": "4.2.7.Final",
+            "current": "4.2.13.Final"
+          },
+          {
+            "key": "io.netty:netty-transport-native-epoll (linux-aarch_64)",
+            "previous": "4.2.7.Final",
+            "current": "4.2.13.Final"
+          },
+          {
+            "key": "io.netty:netty-transport-native-epoll (linux-x86_64)",
+            "previous": "4.2.7.Final",
+            "current": "4.2.13.Final"
+          },
+          {
+            "key": "io.netty:netty-transport-native-kqueue (osx-aarch_64)",
+            "previous": "4.2.7.Final",
+            "current": "4.2.13.Final"
+          },
+          {
+            "key": "io.netty:netty-transport-native-kqueue (osx-x86_64)",
+            "previous": "4.2.7.Final",
+            "current": "4.2.13.Final"
+          },
+          {
+            "key": "io.netty:netty-transport-native-unix-common",
+            "previous": "4.2.7.Final",
+            "current": "4.2.13.Final"
+          },
+          {
+            "key": "io.netty:netty-transport",
+            "previous": "4.2.7.Final",
+            "current": "4.2.13.Final"
+          },
+          {
+            "key": "org.apache.commons:commons-lang3",
+            "previous": "3.19.0",
+            "current": "3.20.0"
+          },
+          {
+            "key": "org.apache.logging.log4j:log4j-api",
+            "previous": "2.25.2",
+            "current": "2.26.0"
+          },
+          {
+            "key": "org.apache.logging.log4j:log4j-core",
+            "previous": "2.25.2",
+            "current": "2.26.0"
+          },
+          {
+            "key": "org.apache.logging.log4j:log4j-slf4j2-impl",
+            "previous": "2.25.2",
+            "current": "2.26.0"
+          }
+        ]
+      }
+    }
+  ],
+  "commands": [
+    {
+      "type": "entries",
+      "value": {
+        "name": "🗒️ List",
+        "differences": {
+          "added": [
+            "unpublish.txt"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "publish",
+        "differences": {
+          "added": [
+            "publish <online: bool> <allowCommands: bool> <gamemode: gamemode> <port: integer>"
+          ],
+          "removed": [
+            "publish <allowCommands: bool> <gamemode: gamemode> <port: integer>"
+          ]
+        }
+      }
+    }
+  ],
+  "translations": [
+    {
+      "type": "entries",
+      "value": {
+        "name": "Keys",
+        "differences": {
+          "added": [
+            "commands.publish.alreadyPublished.lan: Local game is already hosted on port %s",
+            "commands.publish.alreadyPublished.online: Online game is already hosted",
+            "commands.publish.started.lan: Local game hosted on port %s",
+            "commands.publish.started.online: Online game hosted",
+            "commands.unpublish.notPublished: No multiplayer game published",
+            "commands.unpublish.success: Multiplayer game is now unpublished",
+            "death.attack.sulfurCubeHot: %1$s died because not just the floor is lava",
+            "death.attack.sulfurCubeHot.player: %2$s showed %1$s that not just the floor is lava",
+            "gui.friends.button.loading.invite_request_pending: Waiting for confirmation",
+            "narration.link.usage.focused: Press Enter to follow the link",
+            "narration.link.usage.hovered: Left click to follow the link",
+            "options.friendsList.confirm.message.link: Microsoft account",
+            "options.graphicsApi.tooltip.vulkan: Experimental. Might reduce performance or cause instability on some systems.",
+            "options.online.servers.header: Servers",
+            "options.realmsNotifications.button: News & Invites"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "text",
+      "value": {
+        "title": "Changes",
+        "values": [
+          {
+            "key": "gui.friends.button.loading.join_request_pending",
+            "previous": "Waiting on confirmation from %s",
+            "current": "Waiting for confirmation"
+          },
+          {
+            "key": "gui.friends.multiplayer.invite",
+            "previous": "Invite to world",
+            "current": "Invite"
+          },
+          {
+            "key": "gui.friends.multiplayer.invite_accept",
+            "previous": "Accept invite to join world",
+            "current": "Accept"
+          },
+          {
+            "key": "gui.friends.multiplayer.invite_reject",
+            "previous": "Reject invite to join world",
+            "current": "Decline"
+          },
+          {
+            "key": "gui.friends.multiplayer.join_request",
+            "previous": "Request to join world",
+            "current": "Ask to join"
+          },
+          {
+            "key": "gui.friends.multiplayer.join_request_accept",
+            "previous": "Accept request to join world",
+            "current": "Accept"
+          },
+          {
+            "key": "gui.friends.multiplayer.join_request_reject",
+            "previous": "Reject request to join world",
+            "current": "Decline"
+          },
+          {
+            "key": "gui.friends.presence.status.playing_hosted_server",
+            "previous": "In a joinable world",
+            "current": "Online (World)"
+          },
+          {
+            "key": "gui.friends.presence.status.playing_offline",
+            "previous": "In a world",
+            "current": "Online (World)"
+          },
+          {
+            "key": "gui.friends.presence.status.playing_realms",
+            "previous": "In a Realm",
+            "current": "Online (Realm)"
+          },
+          {
+            "key": "gui.friends.presence.status.playing_server",
+            "previous": "On a server",
+            "current": "Online (Server)"
+          },
+          {
+            "key": "gui.friends.toast.join_request.message",
+            "previous": "%s has requested to join your world. Open the friends list by pressing \"%s\" or access it through the game menu.",
+            "current": "%s wants to join your world. Open the Friends list with \"%s\" or from the game menu."
+          },
+          {
+            "key": "gui.friends.toast.request_to_join_friend.message",
+            "previous": "Request to join world has been sent to %s",
+            "current": "You asked to join %s's world"
+          },
+          {
+            "key": "menu.multiplayerOptions.publish.started.online",
+            "previous": "This world is now open to multiplayer. The port number is %s",
+            "current": "This world is now open to Online multiplayer."
+          },
+          {
+            "key": "options.friendsList.confirm.message",
+            "previous": "The Friends List controls who you can chat with when \"Can communicate outside Xbox\" is set to \"Friends\".\n\n\n\nManage this setting on your Microsoft account.\n\n\n\nWhen Friends List is ON, other players can send you friend requests. You can turn OFF friend invitations or the Friends List at any time.",
+            "current": "Use your Friends List to send and receive friend requests.\n\n\n\nManage online safety settings with your %s."
+          },
+          {
+            "key": "options.friendsList.confirm.title",
+            "previous": "Turn ON Friends List?",
+            "current": "Friends List"
+          },
+          {
+            "key": "options.graphicsApi.vulkan",
+            "previous": "Prefer Vulkan",
+            "current": "Prefer Vulkan (Experimental)"
+          },
+          {
+            "key": "options.inGameNotification",
+            "previous": "In-game Notification",
+            "current": "In-Game Notification"
+          }
+        ]
+      }
+    }
+  ],
+  "file_structure": [
+    {
+      "type": "entries",
+      "value": {
+        "name": "data",
+        "differences": {
+          "added": [
+            "minecraft/damage_type/sulfur_cube_hot.json"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "assets",
+        "differences": {
+          "added": [
+            "minecraft/textures/gui/sprites/friends/background_dark.png",
+            "minecraft/textures/gui/sprites/friends/background_dark.png.mcmeta"
+          ],
+          "removed": [
+            "minecraft/textures/gui/sprites/friends/toast.png",
+            "minecraft/textures/gui/sprites/friends/toast.png.mcmeta"
+          ]
+        }
+      }
+    }
+  ],
+  "custom": [
+    {
+      "type": "title",
+      "value": {
+        "title": "datapacks.json",
+        "id": "custom-datapacks-json",
+        "size": 2
+      }
+    }
+  ]
+}
