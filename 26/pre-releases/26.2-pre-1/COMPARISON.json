@@ -1,0 +1,285 @@
+{
+  "version_data": [
+    {
+      "type": "table",
+      "value": {
+        "previousLabel": "26.2-snapshot-8",
+        "currentLabel": "26.2-pre-1",
+        "values": [
+          {
+            "key": "DataPack version",
+            "previous": "106.0",
+            "current": "106.1"
+          },
+          {
+            "key": "ResourcePack version",
+            "previous": "87.0",
+            "current": "88.0"
+          },
+          {
+            "key": "World version",
+            "previous": "4893",
+            "current": "4894"
+          },
+          {
+            "key": "Protocol version",
+            "previous": "1073742138",
+            "current": "1073742139"
+          }
+        ]
+      }
+    },
+    {
+      "type": "title",
+      "value": {
+        "title": "Libraries",
+        "id": "version-data-libraries",
+        "size": 3
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "🗒️ List",
+        "differences": {
+          "added": [
+            "org.lwjgl:lwjgl (unsafe) V3.4.1"
+          ],
+          "removed": [
+            "dev.onvoid.webrtc:webrtc-java V0.14.0",
+            "dev.onvoid.webrtc:webrtc-java (linux-aarch32) V0.14.0",
+            "dev.onvoid.webrtc:webrtc-java (linux-aarch64) V0.14.0",
+            "dev.onvoid.webrtc:webrtc-java (linux-x86_64) V0.14.0",
+            "dev.onvoid.webrtc:webrtc-java (macos-aarch64) V0.14.0",
+            "dev.onvoid.webrtc:webrtc-java (macos-x86_64) V0.14.0",
+            "dev.onvoid.webrtc:webrtc-java (windows-x86_64) V0.14.0",
+            "org.lwjgl:lwjgl V3.4.1"
+          ]
+        }
+      }
+    },
+    {
+      "type": "table",
+      "value": {
+        "title": "Versions",
+        "previousLabel": "26.2-snapshot-8",
+        "currentLabel": "26.2-pre-1",
+        "values": [
+          {
+            "key": "com.mojang:authlib",
+            "previous": "7.0.72",
+            "current": "8.0.73"
+          }
+        ]
+      }
+    }
+  ],
+  "registries": [
+    {
+      "type": "entries",
+      "value": {
+        "name": "sound_event",
+        "differences": {
+          "added": [
+            "minecraft:entity.small_sulfur_cube.eat",
+            "minecraft:entity.sulfur_cube.bouncy.hit",
+            "minecraft:entity.sulfur_cube.bouncy.push",
+            "minecraft:entity.sulfur_cube.explosive.hit",
+            "minecraft:entity.sulfur_cube.explosive.push",
+            "minecraft:entity.sulfur_cube.fast_flat.hit",
+            "minecraft:entity.sulfur_cube.fast_flat.push",
+            "minecraft:entity.sulfur_cube.fast_sliding.hit",
+            "minecraft:entity.sulfur_cube.fast_sliding.push",
+            "minecraft:entity.sulfur_cube.high_resistance.hit",
+            "minecraft:entity.sulfur_cube.high_resistance.push",
+            "minecraft:entity.sulfur_cube.hot.hit",
+            "minecraft:entity.sulfur_cube.hot.push",
+            "minecraft:entity.sulfur_cube.light.hit",
+            "minecraft:entity.sulfur_cube.light.push",
+            "minecraft:entity.sulfur_cube.regular.hit",
+            "minecraft:entity.sulfur_cube.regular.push",
+            "minecraft:entity.sulfur_cube.slow_bouncy.hit",
+            "minecraft:entity.sulfur_cube.slow_bouncy.push",
+            "minecraft:entity.sulfur_cube.slow_flat.hit",
+            "minecraft:entity.sulfur_cube.slow_flat.push",
+            "minecraft:entity.sulfur_cube.slow_sliding.hit",
+            "minecraft:entity.sulfur_cube.slow_sliding.push",
+            "minecraft:entity.sulfur_cube.sticky.hit",
+            "minecraft:entity.sulfur_cube.sticky.push"
+          ],
+          "removed": [
+            "minecraft:entity.sulfur_cube.hit",
+            "minecraft:entity.sulfur_cube.push"
+          ]
+        }
+      }
+    }
+  ],
+  "tags": [
+    {
+      "type": "entries",
+      "value": {
+        "name": "universal_tags/sound_event.json",
+        "differences": {
+          "added": [
+            "minecraft:entity.small_sulfur_cube.eat",
+            "minecraft:entity.sulfur_cube.bouncy.hit",
+            "minecraft:entity.sulfur_cube.bouncy.push",
+            "minecraft:entity.sulfur_cube.explosive.hit",
+            "minecraft:entity.sulfur_cube.explosive.push",
+            "minecraft:entity.sulfur_cube.fast_flat.hit",
+            "minecraft:entity.sulfur_cube.fast_flat.push",
+            "minecraft:entity.sulfur_cube.fast_sliding.hit",
+            "minecraft:entity.sulfur_cube.fast_sliding.push",
+            "minecraft:entity.sulfur_cube.high_resistance.hit",
+            "minecraft:entity.sulfur_cube.high_resistance.push",
+            "minecraft:entity.sulfur_cube.hot.hit",
+            "minecraft:entity.sulfur_cube.hot.push",
+            "minecraft:entity.sulfur_cube.light.hit",
+            "minecraft:entity.sulfur_cube.light.push",
+            "minecraft:entity.sulfur_cube.regular.hit",
+            "minecraft:entity.sulfur_cube.regular.push",
+            "minecraft:entity.sulfur_cube.slow_bouncy.hit",
+            "minecraft:entity.sulfur_cube.slow_bouncy.push",
+            "minecraft:entity.sulfur_cube.slow_flat.hit",
+            "minecraft:entity.sulfur_cube.slow_flat.push",
+            "minecraft:entity.sulfur_cube.slow_sliding.hit",
+            "minecraft:entity.sulfur_cube.slow_sliding.push",
+            "minecraft:entity.sulfur_cube.sticky.hit",
+            "minecraft:entity.sulfur_cube.sticky.push"
+          ],
+          "removed": [
+            "minecraft:entity.sulfur_cube.hit",
+            "minecraft:entity.sulfur_cube.push"
+          ]
+        }
+      }
+    }
+  ],
+  "commands": [
+    {
+      "type": "entries",
+      "value": {
+        "name": "publish",
+        "differences": {
+          "added": [
+            "publish <allowCommands: bool> <gamemode: gamemode> <port: integer>"
+          ],
+          "removed": [
+            "publish <online: bool> <allowCommands: bool> <gamemode: gamemode> <port: integer>"
+          ]
+        }
+      }
+    }
+  ],
+  "translations": [
+    {
+      "type": "entries",
+      "value": {
+        "name": "Keys",
+        "differences": {
+          "added": [
+            "generator.minecraft.flat_all_dimensions: Flat All Dimensions",
+            "subtitles.entity.small_sulfur_cube.death: Small Sulfur Cube dies",
+            "subtitles.entity.small_sulfur_cube.eat: Small Sulfur Cube puts on mass",
+            "subtitles.entity.small_sulfur_cube.hurt: Small Sulfur Cube hurts",
+            "subtitles.entity.small_sulfur_cube.jump: Small Sulfur Cube bounces",
+            "subtitles.entity.sulfur_cube.jump: Sulfur Cube bounces",
+            "telemetry.property.server_session_id.title: Server Session ID"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "text",
+      "value": {
+        "title": "Changes",
+        "values": [
+          {
+            "key": "options.sharePresence.limited.tooltip",
+            "previous": "Sharing limited presence. Appearing as online, but not sharing what you are doing. You can still invite friends to your game.",
+            "current": "Sharing limited presence. Appearing as online, but not sharing what you are doing."
+          }
+        ]
+      }
+    }
+  ],
+  "file_structure": [
+    {
+      "type": "entries",
+      "value": {
+        "name": "data",
+        "differences": {
+          "added": [
+            "minecraft/worldgen/world_preset/flat_all_dimensions.json"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "assets",
+        "differences": {
+          "added": [
+            "minecraft/models/block/template_attached_hanging_sign_rot_0.json",
+            "minecraft/models/block/template_attached_hanging_sign_rot_1.json",
+            "minecraft/models/block/template_attached_hanging_sign_rot_2.json",
+            "minecraft/models/block/template_attached_hanging_sign_rot_3.json",
+            "minecraft/models/block/template_bed_foot.json",
+            "minecraft/models/block/template_bed_head.json",
+            "minecraft/models/block/template_hanging_sign_rot_0.json",
+            "minecraft/models/block/template_hanging_sign_rot_1.json",
+            "minecraft/models/block/template_hanging_sign_rot_2.json",
+            "minecraft/models/block/template_hanging_sign_rot_3.json",
+            "minecraft/models/block/template_sign_rot_0.json",
+            "minecraft/models/block/template_sign_rot_1.json",
+            "minecraft/models/block/template_sign_rot_2.json",
+            "minecraft/models/block/template_sign_rot_3.json",
+            "minecraft/models/block/template_wall_hanging_sign.json",
+            "minecraft/models/block/template_wall_sign.json",
+            "minecraft/textures/block/purpur_pillar_side.png",
+            "minecraft/textures/block/quartz_pillar_side.png",
+            "minecraft/textures/entity/sulfur_cube/sulfur_cube_inner_small.png",
+            "minecraft/textures/entity/sulfur_cube/sulfur_cube_outer_small.png",
+            "minecraft/textures/gui/sprites/friends/send_request.png"
+          ],
+          "removed": [
+            "minecraft/models/block/attached_hanging_sign_rot_0.json",
+            "minecraft/models/block/attached_hanging_sign_rot_1.json",
+            "minecraft/models/block/attached_hanging_sign_rot_2.json",
+            "minecraft/models/block/attached_hanging_sign_rot_3.json",
+            "minecraft/models/block/bed_foot.json",
+            "minecraft/models/block/bed_head.json",
+            "minecraft/models/block/hanging_sign_rot_0.json",
+            "minecraft/models/block/hanging_sign_rot_1.json",
+            "minecraft/models/block/hanging_sign_rot_2.json",
+            "minecraft/models/block/hanging_sign_rot_3.json",
+            "minecraft/models/block/sign_rot_0.json",
+            "minecraft/models/block/sign_rot_1.json",
+            "minecraft/models/block/sign_rot_2.json",
+            "minecraft/models/block/sign_rot_3.json",
+            "minecraft/models/block/wall_hanging_sign.json",
+            "minecraft/models/block/wall_sign.json",
+            "minecraft/textures/block/purpur_pillar.png",
+            "minecraft/textures/block/quartz_pillar.png",
+            "minecraft/textures/gui/sprites/friends/multiplayer/invite.png",
+            "minecraft/textures/gui/sprites/friends/multiplayer/join_request.png"
+          ]
+        }
+      }
+    }
+  ],
+  "custom": [
+    {
+      "type": "title",
+      "value": {
+        "title": "datapacks.json",
+        "id": "custom-datapacks-json",
+        "size": 2
+      }
+    }
+  ]
+}
