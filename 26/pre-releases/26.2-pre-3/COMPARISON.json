@@ -1,0 +1,52 @@
+{
+  "version_data": [
+    {
+      "type": "table",
+      "value": {
+        "previousLabel": "26.2-pre-2",
+        "currentLabel": "26.2-pre-3",
+        "values": [
+          {
+            "key": "World version",
+            "previous": "4895",
+            "current": "4896"
+          },
+          {
+            "key": "Protocol version",
+            "previous": "1073742140",
+            "current": "1073742141"
+          }
+        ]
+      }
+    }
+  ],
+  "translations": [
+    {
+      "type": "entries",
+      "value": {
+        "name": "Keys",
+        "differences": {
+          "added": [
+            "gui.friends.validation.already_friend: %s is already on your Friends List",
+            "gui.friends.validation.already_incoming: %s has already sent you a friend request",
+            "gui.friends.validation.already_outgoing: You've already sent a friend request to %s",
+            "gui.friends.validation.cannot_add_self: You cannot send a friend request to yourself",
+            "options.exclusiveFullscreen.off.tooltip: All input methods are expected to work in this fullscreen mode, but adaptive sync (Nvidia G-Sync, AMD FreeSync) will not work.",
+            "options.exclusiveFullscreen.on.tooltip: This fullscreen mode might prevent some input methods from working, but adaptive sync (Nvidia G-Sync, AMD FreeSync) should work."
+          ],
+          "removed": []
+        }
+      }
+    }
+  ],
+  "custom": [
+    {
+      "type": "title",
+      "value": {
+        "title": "datapacks.json",
+        "id": "custom-datapacks-json",
+        "size": 2
+      }
+    }
+  ]
+}
