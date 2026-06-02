@@ -1,0 +1,33 @@
+{
+  "definition": {
+    "type": "minecraft:potent_sulfur",
+    "properties": {}
+  },
+  "properties": {
+    "potent_sulfur_state": [
+      "dry",
+      "wet",
+      "dormant",
+      "erupting",
+      "continuous"
+    ]
+  },
+  "states": {
+    "24688": {
+      "potent_sulfur_state": "dry"
+    },
+    "24689": {
+      "potent_sulfur_state": "wet"
+    },
+    "24690": {
+      "potent_sulfur_state": "dormant"
+    },
+    "24691": {
+      "potent_sulfur_state": "erupting"
+    },
+    "24692": {
+      "potent_sulfur_state": "continuous"
+    },
+    "default": 24688
+  }
+}
