@@ -1,0 +1,153 @@
+{
+  "version_data": [
+    {
+      "type": "table",
+      "value": {
+        "previousLabel": "26.2-pre-3",
+        "currentLabel": "26.2-pre-4",
+        "values": [
+          {
+            "key": "DataPack version",
+            "previous": "107.0",
+            "current": "107.1"
+          },
+          {
+            "key": "World version",
+            "previous": "4896",
+            "current": "4897"
+          },
+          {
+            "key": "Protocol version",
+            "previous": "1073742141",
+            "current": "1073742142"
+          }
+        ]
+      }
+    },
+    {
+      "type": "title",
+      "value": {
+        "title": "Libraries",
+        "id": "version-data-libraries",
+        "size": 3
+      }
+    },
+    {
+      "type": "table",
+      "value": {
+        "title": "Versions",
+        "previousLabel": "26.2-pre-3",
+        "currentLabel": "26.2-pre-4",
+        "values": [
+          {
+            "key": "com.mojang:authlib",
+            "previous": "8.0.73",
+            "current": "9.0.75"
+          }
+        ]
+      }
+    }
+  ],
+  "translations": [
+    {
+      "type": "entries",
+      "value": {
+        "name": "Keys",
+        "differences": {
+          "added": [
+            "gui.friends.error.unauthorized: Invalid token supplied, restart your game and launcher and try again",
+            "menu.multiplayerOptions.lan: LAN"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "text",
+      "value": {
+        "title": "Changes",
+        "values": [
+          {
+            "key": "gui.friends.presence.status.playing_hosted_server",
+            "previous": "Online (World)",
+            "current": "Online (LAN)"
+          },
+          {
+            "key": "menu.multiplayerOptions.button",
+            "previous": "Multiplayer...",
+            "current": "Open to LAN"
+          },
+          {
+            "key": "menu.multiplayerOptions.otherPlayers.header",
+            "previous": "Other Players",
+            "current": "Settings for Other Players"
+          },
+          {
+            "key": "menu.multiplayerOptions.title",
+            "previous": "Multiplayer Options",
+            "current": "LAN Options"
+          },
+          {
+            "key": "options.multiplayer.title",
+            "previous": "Multiplayer Options...",
+            "current": "Open to LAN"
+          },
+          {
+            "key": "options.sharePresence",
+            "previous": "Presence",
+            "current": "Visibility"
+          },
+          {
+            "key": "options.sharePresence.all",
+            "previous": "All",
+            "current": "Full"
+          },
+          {
+            "key": "options.sharePresence.all.tooltip",
+            "previous": "Presence is shared with your friends. Appearing as online and sharing what you are doing.",
+            "current": "Friends can see what you're playing."
+          },
+          {
+            "key": "options.sharePresence.limited.tooltip",
+            "previous": "Sharing limited presence. Appearing as online, but not sharing what you are doing.",
+            "current": "Friends can see when you're online, but not what you're playing."
+          },
+          {
+            "key": "options.sharePresence.none",
+            "previous": "None",
+            "current": "Hidden"
+          },
+          {
+            "key": "options.sharePresence.none.tooltip",
+            "previous": "Not sharing any presence. Appearing as offline.",
+            "current": "Friends will always see you as offline."
+          }
+        ]
+      }
+    }
+  ],
+  "file_structure": [
+    {
+      "type": "entries",
+      "value": {
+        "name": "data",
+        "differences": {
+          "added": [
+            "minecraft/tags/entity_type/not_affected_by_geysers.json"
+          ],
+          "removed": []
+        }
+      }
+    }
+  ],
+  "custom": [
+    {
+      "type": "title",
+      "value": {
+        "title": "datapacks.json",
+        "id": "custom-datapacks-json",
+        "size": 2
+      }
+    }
+  ]
+}
