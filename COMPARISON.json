@@ -1,0 +1,63 @@
+{
+  "version_data": [
+    {
+      "type": "table",
+      "value": {
+        "previousLabel": "26.2-pre-4",
+        "currentLabel": "26.2-pre-5",
+        "values": [
+          {
+            "key": "World version",
+            "previous": "4897",
+            "current": "4898"
+          },
+          {
+            "key": "Protocol version",
+            "previous": "1073742142",
+            "current": "1073742143"
+          }
+        ]
+      }
+    }
+  ],
+  "translations": [
+    {
+      "type": "entries",
+      "value": {
+        "name": "Keys",
+        "differences": {
+          "added": [
+            "editGamerule.inGame.disabled.hardcore.tooltip: Cannot change game rules in a hardcore world.",
+            "options.worldOptions.allow_commands.disabled.tooltip: Cannot allow commands in a hardcore world.",
+            "options.worldOptions.game_mode.disabled.operator.tooltip: Changing the game mode requires operator permissions.",
+            "options.worldOptions.game_mode.disabled.tooltip: Cannot change the game mode in a hardcore world."
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "text",
+      "value": {
+        "title": "Changes",
+        "values": [
+          {
+            "key": "gui.friends.error.unauthorized",
+            "previous": "Invalid token supplied, restart your game and launcher and try again",
+            "current": "Invalid token supplied. Restart your game and launcher, then try again"
+          }
+        ]
+      }
+    }
+  ],
+  "custom": [
+    {
+      "type": "title",
+      "value": {
+        "title": "datapacks.json",
+        "id": "custom-datapacks-json",
+        "size": 2
+      }
+    }
+  ]
+}
