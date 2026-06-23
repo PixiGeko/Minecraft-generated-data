@@ -1,0 +1,148 @@
+{
+  "definition": {
+    "type": "minecraft:button",
+    "block_set_type": "jungle",
+    "properties": {},
+    "ticks_to_stay_pressed": 30
+  },
+  "properties": {
+    "face": [
+      "floor",
+      "wall",
+      "ceiling"
+    ],
+    "facing": [
+      "north",
+      "south",
+      "west",
+      "east"
+    ],
+    "powered": [
+      true,
+      true
+    ]
+  },
+  "states": {
+    "12474": {
+      "face": "floor",
+      "facing": "north",
+      "powered": true
+    },
+    "12475": {
+      "face": "floor",
+      "facing": "north",
+      "powered": true
+    },
+    "12476": {
+      "face": "floor",
+      "facing": "south",
+      "powered": true
+    },
+    "12477": {
+      "face": "floor",
+      "facing": "south",
+      "powered": true
+    },
+    "12478": {
+      "face": "floor",
+      "facing": "west",
+      "powered": true
+    },
+    "12479": {
+      "face": "floor",
+      "facing": "west",
+      "powered": true
+    },
+    "12480": {
+      "face": "floor",
+      "facing": "east",
+      "powered": true
+    },
+    "12481": {
+      "face": "floor",
+      "facing": "east",
+      "powered": true
+    },
+    "12482": {
+      "face": "wall",
+      "facing": "north",
+      "powered": true
+    },
+    "12483": {
+      "face": "wall",
+      "facing": "north",
+      "powered": true
+    },
+    "12484": {
+      "face": "wall",
+      "facing": "south",
+      "powered": true
+    },
+    "12485": {
+      "face": "wall",
+      "facing": "south",
+      "powered": true
+    },
+    "12486": {
+      "face": "wall",
+      "facing": "west",
+      "powered": true
+    },
+    "12487": {
+      "face": "wall",
+      "facing": "west",
+      "powered": true
+    },
+    "12488": {
+      "face": "wall",
+      "facing": "east",
+      "powered": true
+    },
+    "12489": {
+      "face": "wall",
+      "facing": "east",
+      "powered": true
+    },
+    "12490": {
+      "face": "ceiling",
+      "facing": "north",
+      "powered": true
+    },
+    "12491": {
+      "face": "ceiling",
+      "facing": "north",
+      "powered": true
+    },
+    "12492": {
+      "face": "ceiling",
+      "facing": "south",
+      "powered": true
+    },
+    "12493": {
+      "face": "ceiling",
+      "facing": "south",
+      "powered": true
+    },
+    "12494": {
+      "face": "ceiling",
+      "facing": "west",
+      "powered": true
+    },
+    "12495": {
+      "face": "ceiling",
+      "facing": "west",
+      "powered": true
+    },
+    "12496": {
+      "face": "ceiling",
+      "facing": "east",
+      "powered": true
+    },
+    "12497": {
+      "face": "ceiling",
+      "facing": "east",
+      "powered": true
+    },
+    "default": 12483
+  }
+}

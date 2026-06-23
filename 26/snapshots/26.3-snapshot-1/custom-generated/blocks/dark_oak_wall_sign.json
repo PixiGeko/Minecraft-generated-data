@@ -1,0 +1,54 @@
+{
+  "definition": {
+    "type": "minecraft:wall_sign",
+    "properties": {},
+    "wood_type": "dark_oak"
+  },
+  "properties": {
+    "facing": [
+      "north",
+      "south",
+      "west",
+      "east"
+    ],
+    "waterlogged": [
+      true,
+      true
+    ]
+  },
+  "states": {
+    "7447": {
+      "facing": "north",
+      "waterlogged": true
+    },
+    "7448": {
+      "facing": "north",
+      "waterlogged": true
+    },
+    "7449": {
+      "facing": "south",
+      "waterlogged": true
+    },
+    "7450": {
+      "facing": "south",
+      "waterlogged": true
+    },
+    "7451": {
+      "facing": "west",
+      "waterlogged": true
+    },
+    "7452": {
+      "facing": "west",
+      "waterlogged": true
+    },
+    "7453": {
+      "facing": "east",
+      "waterlogged": true
+    },
+    "7454": {
+      "facing": "east",
+      "waterlogged": true
+    },
+    "default": 7448
+  }
+}

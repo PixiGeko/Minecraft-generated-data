@@ -1,0 +1,54 @@
+{
+  "definition": {
+    "type": "minecraft:wall_hanging_sign",
+    "properties": {},
+    "wood_type": "poplar"
+  },
+  "properties": {
+    "facing": [
+      "north",
+      "south",
+      "west",
+      "east"
+    ],
+    "waterlogged": [
+      true,
+      true
+    ]
+  },
+  "states": {
+    "8391": {
+      "facing": "north",
+      "waterlogged": true
+    },
+    "8392": {
+      "facing": "north",
+      "waterlogged": true
+    },
+    "8393": {
+      "facing": "south",
+      "waterlogged": true
+    },
+    "8394": {
+      "facing": "south",
+      "waterlogged": true
+    },
+    "8395": {
+      "facing": "west",
+      "waterlogged": true
+    },
+    "8396": {
+      "facing": "west",
+      "waterlogged": true
+    },
+    "8397": {
+      "facing": "east",
+      "waterlogged": true
+    },
+    "8398": {
+      "facing": "east",
+      "waterlogged": true
+    },
+    "default": 8392
+  }
+}

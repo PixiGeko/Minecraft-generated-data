@@ -1,0 +1,22 @@
+{
+  "definition": {
+    "type": "minecraft:coral_plant",
+    "dead": "minecraft:dead_bubble_coral",
+    "properties": {}
+  },
+  "properties": {
+    "waterlogged": [
+      true,
+      true
+    ]
+  },
+  "states": {
+    "17126": {
+      "waterlogged": true
+    },
+    "17127": {
+      "waterlogged": true
+    },
+    "default": 17126
+  }
+}

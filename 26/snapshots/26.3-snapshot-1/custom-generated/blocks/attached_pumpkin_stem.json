@@ -1,0 +1,33 @@
+{
+  "definition": {
+    "type": "minecraft:attached_stem",
+    "fruit": "minecraft:pumpkin",
+    "properties": {},
+    "seed": "minecraft:pumpkin_seeds",
+    "stem": "minecraft:pumpkin_stem",
+    "support_blocks": "minecraft:supports_pumpkin_stem"
+  },
+  "properties": {
+    "facing": [
+      "north",
+      "south",
+      "west",
+      "east"
+    ]
+  },
+  "states": {
+    "10052": {
+      "facing": "north"
+    },
+    "10053": {
+      "facing": "south"
+    },
+    "10054": {
+      "facing": "west"
+    },
+    "10055": {
+      "facing": "east"
+    },
+    "default": 10052
+  }
+}

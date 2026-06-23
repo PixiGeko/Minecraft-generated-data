@@ -1,0 +1,176 @@
+{
+  "definition": {
+    "type": "minecraft:untinted_particle_leaves",
+    "ambient_leaves_block_sound_player": {
+      "ambient_sound": "minecraft:block.poplar_leaves.ambient",
+      "satisfying_blocks": "minecraft:required_for_poplar_leaf_ambience"
+    },
+    "leaf_particle": {
+      "type": "minecraft:yellow_poplar_leaves"
+    },
+    "leaf_particle_chance": 0.01,
+    "properties": {}
+  },
+  "properties": {
+    "distance": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "persistent": [
+      true,
+      true
+    ],
+    "waterlogged": [
+      true,
+      true
+    ]
+  },
+  "states": {
+    "575": {
+      "distance": 1,
+      "persistent": true,
+      "waterlogged": true
+    },
+    "576": {
+      "distance": 1,
+      "persistent": true,
+      "waterlogged": true
+    },
+    "577": {
+      "distance": 1,
+      "persistent": true,
+      "waterlogged": true
+    },
+    "578": {
+      "distance": 1,
+      "persistent": true,
+      "waterlogged": true
+    },
+    "579": {
+      "distance": 2,
+      "persistent": true,
+      "waterlogged": true
+    },
+    "580": {
+      "distance": 2,
+      "persistent": true,
+      "waterlogged": true
+    },
+    "581": {
+      "distance": 2,
+      "persistent": true,
+      "waterlogged": true
+    },
+    "582": {
+      "distance": 2,
+      "persistent": true,
+      "waterlogged": true
+    },
+    "583": {
+      "distance": 3,
+      "persistent": true,
+      "waterlogged": true
+    },
+    "584": {
+      "distance": 3,
+      "persistent": true,
+      "waterlogged": true
+    },
+    "585": {
+      "distance": 3,
+      "persistent": true,
+      "waterlogged": true
+    },
+    "586": {
+      "distance": 3,
+      "persistent": true,
+      "waterlogged": true
+    },
+    "587": {
+      "distance": 4,
+      "persistent": true,
+      "waterlogged": true
+    },
+    "588": {
+      "distance": 4,
+      "persistent": true,
+      "waterlogged": true
+    },
+    "589": {
+      "distance": 4,
+      "persistent": true,
+      "waterlogged": true
+    },
+    "590": {
+      "distance": 4,
+      "persistent": true,
+      "waterlogged": true
+    },
+    "591": {
+      "distance": 5,
+      "persistent": true,
+      "waterlogged": true
+    },
+    "592": {
+      "distance": 5,
+      "persistent": true,
+      "waterlogged": true
+    },
+    "593": {
+      "distance": 5,
+      "persistent": true,
+      "waterlogged": true
+    },
+    "594": {
+      "distance": 5,
+      "persistent": true,
+      "waterlogged": true
+    },
+    "595": {
+      "distance": 6,
+      "persistent": true,
+      "waterlogged": true
+    },
+    "596": {
+      "distance": 6,
+      "persistent": true,
+      "waterlogged": true
+    },
+    "597": {
+      "distance": 6,
+      "persistent": true,
+      "waterlogged": true
+    },
+    "598": {
+      "distance": 6,
+      "persistent": true,
+      "waterlogged": true
+    },
+    "599": {
+      "distance": 7,
+      "persistent": true,
+      "waterlogged": true
+    },
+    "600": {
+      "distance": 7,
+      "persistent": true,
+      "waterlogged": true
+    },
+    "601": {
+      "distance": 7,
+      "persistent": true,
+      "waterlogged": true
+    },
+    "602": {
+      "distance": 7,
+      "persistent": true,
+      "waterlogged": true
+    },
+    "default": 602
+  }
+}
