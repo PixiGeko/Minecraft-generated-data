@@ -1,0 +1,149 @@
+{
+  "definition": {
+    "type": "minecraft:weathering_copper_chest",
+    "close_sound": "minecraft:block.copper_chest_weathered.close",
+    "open_sound": "minecraft:block.copper_chest_weathered.open",
+    "properties": {},
+    "weathering_state": "weathered"
+  },
+  "properties": {
+    "type": [
+      "single",
+      "left",
+      "right"
+    ],
+    "facing": [
+      "north",
+      "south",
+      "west",
+      "east"
+    ],
+    "waterlogged": [
+      true,
+      true
+    ]
+  },
+  "states": {
+    "31581": {
+      "type": "single",
+      "facing": "north",
+      "waterlogged": true
+    },
+    "31582": {
+      "type": "single",
+      "facing": "north",
+      "waterlogged": true
+    },
+    "31583": {
+      "type": "left",
+      "facing": "north",
+      "waterlogged": true
+    },
+    "31584": {
+      "type": "left",
+      "facing": "north",
+      "waterlogged": true
+    },
+    "31585": {
+      "type": "right",
+      "facing": "north",
+      "waterlogged": true
+    },
+    "31586": {
+      "type": "right",
+      "facing": "north",
+      "waterlogged": true
+    },
+    "31587": {
+      "type": "single",
+      "facing": "south",
+      "waterlogged": true
+    },
+    "31588": {
+      "type": "single",
+      "facing": "south",
+      "waterlogged": true
+    },
+    "31589": {
+      "type": "left",
+      "facing": "south",
+      "waterlogged": true
+    },
+    "31590": {
+      "type": "left",
+      "facing": "south",
+      "waterlogged": true
+    },
+    "31591": {
+      "type": "right",
+      "facing": "south",
+      "waterlogged": true
+    },
+    "31592": {
+      "type": "right",
+      "facing": "south",
+      "waterlogged": true
+    },
+    "31593": {
+      "type": "single",
+      "facing": "west",
+      "waterlogged": true
+    },
+    "31594": {
+      "type": "single",
+      "facing": "west",
+      "waterlogged": true
+    },
+    "31595": {
+      "type": "left",
+      "facing": "west",
+      "waterlogged": true
+    },
+    "31596": {
+      "type": "left",
+      "facing": "west",
+      "waterlogged": true
+    },
+    "31597": {
+      "type": "right",
+      "facing": "west",
+      "waterlogged": true
+    },
+    "31598": {
+      "type": "right",
+      "facing": "west",
+      "waterlogged": true
+    },
+    "31599": {
+      "type": "single",
+      "facing": "east",
+      "waterlogged": true
+    },
+    "31600": {
+      "type": "single",
+      "facing": "east",
+      "waterlogged": true
+    },
+    "31601": {
+      "type": "left",
+      "facing": "east",
+      "waterlogged": true
+    },
+    "31602": {
+      "type": "left",
+      "facing": "east",
+      "waterlogged": true
+    },
+    "31603": {
+      "type": "right",
+      "facing": "east",
+      "waterlogged": true
+    },
+    "31604": {
+      "type": "right",
+      "facing": "east",
+      "waterlogged": true
+    },
+    "default": 31582
+  }
+}

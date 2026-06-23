@@ -1,0 +1,54 @@
+{
+  "definition": {
+    "type": "minecraft:wall_hanging_sign",
+    "properties": {},
+    "wood_type": "jungle"
+  },
+  "properties": {
+    "facing": [
+      "north",
+      "south",
+      "west",
+      "east"
+    ],
+    "waterlogged": [
+      true,
+      true
+    ]
+  },
+  "states": {
+    "8359": {
+      "facing": "north",
+      "waterlogged": true
+    },
+    "8360": {
+      "facing": "north",
+      "waterlogged": true
+    },
+    "8361": {
+      "facing": "south",
+      "waterlogged": true
+    },
+    "8362": {
+      "facing": "south",
+      "waterlogged": true
+    },
+    "8363": {
+      "facing": "west",
+      "waterlogged": true
+    },
+    "8364": {
+      "facing": "west",
+      "waterlogged": true
+    },
+    "8365": {
+      "facing": "east",
+      "waterlogged": true
+    },
+    "8366": {
+      "facing": "east",
+      "waterlogged": true
+    },
+    "default": 8360
+  }
+}

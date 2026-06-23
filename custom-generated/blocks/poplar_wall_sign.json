@@ -1,0 +1,54 @@
+{
+  "definition": {
+    "type": "minecraft:wall_sign",
+    "properties": {},
+    "wood_type": "poplar"
+  },
+  "properties": {
+    "facing": [
+      "north",
+      "south",
+      "west",
+      "east"
+    ],
+    "waterlogged": [
+      true,
+      true
+    ]
+  },
+  "states": {
+    "7471": {
+      "facing": "north",
+      "waterlogged": true
+    },
+    "7472": {
+      "facing": "north",
+      "waterlogged": true
+    },
+    "7473": {
+      "facing": "south",
+      "waterlogged": true
+    },
+    "7474": {
+      "facing": "south",
+      "waterlogged": true
+    },
+    "7475": {
+      "facing": "west",
+      "waterlogged": true
+    },
+    "7476": {
+      "facing": "west",
+      "waterlogged": true
+    },
+    "7477": {
+      "facing": "east",
+      "waterlogged": true
+    },
+    "7478": {
+      "facing": "east",
+      "waterlogged": true
+    },
+    "default": 7472
+  }
+}

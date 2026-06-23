@@ -1,0 +1,53 @@
+{
+  "definition": {
+    "type": "minecraft:smoker",
+    "properties": {}
+  },
+  "properties": {
+    "facing": [
+      "north",
+      "south",
+      "west",
+      "east"
+    ],
+    "lit": [
+      true,
+      true
+    ]
+  },
+  "states": {
+    "22719": {
+      "facing": "north",
+      "lit": true
+    },
+    "22720": {
+      "facing": "north",
+      "lit": true
+    },
+    "22721": {
+      "facing": "south",
+      "lit": true
+    },
+    "22722": {
+      "facing": "south",
+      "lit": true
+    },
+    "22723": {
+      "facing": "west",
+      "lit": true
+    },
+    "22724": {
+      "facing": "west",
+      "lit": true
+    },
+    "22725": {
+      "facing": "east",
+      "lit": true
+    },
+    "22726": {
+      "facing": "east",
+      "lit": true
+    },
+    "default": 22720
+  }
+}

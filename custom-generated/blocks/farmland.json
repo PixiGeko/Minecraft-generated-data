@@ -1,0 +1,46 @@
+{
+  "definition": {
+    "type": "minecraft:farmland",
+    "properties": {},
+    "turns_into": "minecraft:dirt"
+  },
+  "properties": {
+    "moisture": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ]
+  },
+  "states": {
+    "6859": {
+      "moisture": 0
+    },
+    "6860": {
+      "moisture": 1
+    },
+    "6861": {
+      "moisture": 2
+    },
+    "6862": {
+      "moisture": 3
+    },
+    "6863": {
+      "moisture": 4
+    },
+    "6864": {
+      "moisture": 5
+    },
+    "6865": {
+      "moisture": 6
+    },
+    "6866": {
+      "moisture": 7
+    },
+    "default": 6859
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "definition": {
+    "type": "minecraft:shelf_mushroom",
+    "properties": {}
+  },
+  "properties": {
+    "age": [
+      0,
+      1
+    ],
+    "facing": [
+      "north",
+      "south",
+      "west",
+      "east"
+    ]
+  },
+  "states": {
+    "11211": {
+      "age": 0,
+      "facing": "north"
+    },
+    "11212": {
+      "age": 0,
+      "facing": "south"
+    },
+    "11213": {
+      "age": 0,
+      "facing": "west"
+    },
+    "11214": {
+      "age": 0,
+      "facing": "east"
+    },
+    "11215": {
+      "age": 1,
+      "facing": "north"
+    },
+    "11216": {
+      "age": 1,
+      "facing": "south"
+    },
+    "11217": {
+      "age": 1,
+      "facing": "west"
+    },
+    "11218": {
+      "age": 1,
+      "facing": "east"
+    },
+    "default": 11211
+  }
+}
