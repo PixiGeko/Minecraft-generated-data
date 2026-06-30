@@ -1,0 +1,40 @@
+{
+  "properties": {
+    "axis": [
+      "x",
+      "y",
+      "z"
+    ],
+    "waterlogged": [
+      true,
+      true
+    ]
+  },
+  "states": {
+    "10006": {
+      "axis": "x",
+      "waterlogged": true
+    },
+    "10007": {
+      "axis": "x",
+      "waterlogged": true
+    },
+    "10008": {
+      "axis": "y",
+      "waterlogged": true
+    },
+    "10009": {
+      "axis": "y",
+      "waterlogged": true
+    },
+    "10010": {
+      "axis": "z",
+      "waterlogged": true
+    },
+    "10011": {
+      "axis": "z",
+      "waterlogged": true
+    },
+    "default": 10009
+  }
+}
