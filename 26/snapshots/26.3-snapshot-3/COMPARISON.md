@@ -1,0 +1,1460 @@
+## Comparison with [26.3-snapshot-2](https://github.com/PixiGeko/Minecraft-generated-data/tree/26.3-snapshot-2)
+
+> [!TIP]
+> - [Version data](#version-data)
+> - [Registries](#registries)
+> - [Tags](#tags)
+> - [Blocks](#blocks)
+> - [Commands](#commands)
+> - [Recipes](#recipes)
+> - [Datapacks](#datapacks)
+> - [Translations](#translations)
+> - [Packets](#packets)
+> - [File structure](#file-structure)
+> - [Misc](#misc)
+
+<br/><br/>
+<details><summary><b><ins>VERSION DATA</ins></b><a name="version-data"></a></summary>
+<br/>
+<table><tr><th></th><th align="left">26.3-snapshot-2</th><th>26.3-snapshot-3</th></tr><tr><td>DataPack version</td><td><pre>109.0</pre></td><td><pre>110.0</pre></td></tr><tr><td>ResourcePack version</td><td><pre>90.0</pre></td><td><pre>91.0</pre></td></tr><tr><td>World version</td><td><pre>4999</pre></td><td><pre>5001</pre></td></tr><tr><td>Protocol version</td><td><pre>1073742148</pre></td><td><pre>1073742149</pre></td></tr></table>
+</details>
+<hr/>
+<details><summary><b><ins>REGISTRIES</ins></b><a name="registries"></a></summary>
+<br/>
+<details>
+<summary>
+block
+</summary>
+
+```diff
++ minecraft:straw_bed
+```
+
+</details>
+<details>
+<summary>
+command_argument_type
+</summary>
+
+```diff
++ minecraft:feature
+```
+
+</details>
+<details>
+<summary>
+custom_stat
+</summary>
+
+```diff
++ minecraft:sleep_in_straw_bed
+```
+
+</details>
+<details>
+<summary>
+data_component_type
+</summary>
+
+```diff
++ minecraft:compostable
+```
+
+</details>
+<details>
+<summary>
+entity_type
+</summary>
+
+```diff
++ minecraft:cushion
+```
+
+</details>
+<details>
+<summary>
+environment_attribute
+</summary>
+
+```diff
++ minecraft:gameplay/straw_bed_rule
+```
+
+</details>
+<details>
+<summary>
+item
+</summary>
+
+```diff
++ minecraft:black_cushion
++ minecraft:blue_cushion
++ minecraft:brown_cushion
++ minecraft:cyan_cushion
++ minecraft:gray_cushion
++ minecraft:green_cushion
++ minecraft:light_blue_cushion
++ minecraft:light_gray_cushion
++ minecraft:lime_cushion
++ minecraft:magenta_cushion
++ minecraft:orange_cushion
++ minecraft:pink_cushion
++ minecraft:purple_cushion
++ minecraft:red_cushion
++ minecraft:straw_bed
++ minecraft:white_cushion
++ minecraft:yellow_cushion
+```
+
+</details>
+<details>
+<summary>
+loot_number_provider_type
+</summary>
+
+```diff
++ minecraft:conditional
++ minecraft:number_dispatcher
++ minecraft:weighted_list
+```
+
+</details>
+<details>
+<summary>
+recipe_serializer
+</summary>
+
+```diff
++ minecraft:brewing
+```
+
+</details>
+<details>
+<summary>
+recipe_type
+</summary>
+
+```diff
++ minecraft:brewing
+```
+
+</details>
+<details>
+<summary>
+rule_test
+</summary>
+
+```diff
++ minecraft:any_of
++ minecraft:not
+```
+
+</details>
+<details>
+<summary>
+sound_event
+</summary>
+
+```diff
++ minecraft:block.poplar_leaves.break
++ minecraft:block.poplar_leaves.fall
++ minecraft:block.poplar_leaves.hit
++ minecraft:block.poplar_leaves.place
++ minecraft:block.poplar_leaves.step
++ minecraft:block.red_shrub.break
++ minecraft:block.red_shrub.place
++ minecraft:block.straw_bed.break
++ minecraft:block.straw_bed.break_leave
++ minecraft:block.straw_bed.fall
++ minecraft:block.straw_bed.hit
++ minecraft:block.straw_bed.place
++ minecraft:block.straw_bed.step
++ minecraft:entity.cushion.break
++ minecraft:entity.cushion.get_up
++ minecraft:entity.cushion.place
++ minecraft:entity.cushion.sit
+```
+
+</details>
+<details>
+<summary>
+worldgen/block_state_provider_type
+</summary>
+
+```diff
++ minecraft:random_block_provider
+```
+
+</details>
+<details>
+<summary>
+worldgen/feature_type
+</summary>
+
+```diff
+- minecraft:coral_mushroom
+- minecraft:kelp
+- minecraft:sea_pickle
+- minecraft:seagrass
+```
+
+</details>
+<details>
+<summary>
+worldgen/placement_modifier_type
+</summary>
+
+```diff
++ minecraft:cuboid
++ minecraft:random_chance
+```
+
+</details>
+</details>
+<hr/>
+<details><summary><b><ins>TAGS</ins></b><a name="tags"></a></summary>
+<br/>
+<details>
+<summary>
+all_blocks_with_drop.json
+</summary>
+
+```diff
++ minecraft:straw_bed
+```
+
+</details>
+<details>
+<summary>
+all_entities_without_drop.json
+</summary>
+
+```diff
++ minecraft:cushion
+```
+
+</details>
+<details>
+<summary>
+universal_tags/block.json
+</summary>
+
+```diff
++ minecraft:straw_bed
+```
+
+</details>
+<details>
+<summary>
+universal_tags/command_argument_type.json
+</summary>
+
+```diff
++ minecraft:feature
+```
+
+</details>
+<details>
+<summary>
+universal_tags/custom_stat.json
+</summary>
+
+```diff
++ minecraft:sleep_in_straw_bed
+```
+
+</details>
+<details>
+<summary>
+universal_tags/data_component_type.json
+</summary>
+
+```diff
++ minecraft:compostable
+```
+
+</details>
+<details>
+<summary>
+universal_tags/entity_type.json
+</summary>
+
+```diff
++ minecraft:cushion
+```
+
+</details>
+<details>
+<summary>
+universal_tags/environment_attribute.json
+</summary>
+
+```diff
++ minecraft:gameplay/straw_bed_rule
+```
+
+</details>
+<details>
+<summary>
+universal_tags/item.json
+</summary>
+
+```diff
++ minecraft:black_cushion
++ minecraft:blue_cushion
++ minecraft:brown_cushion
++ minecraft:cyan_cushion
++ minecraft:gray_cushion
++ minecraft:green_cushion
++ minecraft:light_blue_cushion
++ minecraft:light_gray_cushion
++ minecraft:lime_cushion
++ minecraft:magenta_cushion
++ minecraft:orange_cushion
++ minecraft:pink_cushion
++ minecraft:purple_cushion
++ minecraft:red_cushion
++ minecraft:straw_bed
++ minecraft:white_cushion
++ minecraft:yellow_cushion
+```
+
+</details>
+<details>
+<summary>
+universal_tags/loot_number_provider_type.json
+</summary>
+
+```diff
++ minecraft:conditional
++ minecraft:number_dispatcher
++ minecraft:weighted_list
+```
+
+</details>
+<details>
+<summary>
+universal_tags/recipe_serializer.json
+</summary>
+
+```diff
++ minecraft:brewing
+```
+
+</details>
+<details>
+<summary>
+universal_tags/recipe_type.json
+</summary>
+
+```diff
++ minecraft:brewing
+```
+
+</details>
+<details>
+<summary>
+universal_tags/rule_test.json
+</summary>
+
+```diff
++ minecraft:any_of
++ minecraft:not
+```
+
+</details>
+<details>
+<summary>
+universal_tags/sound_event.json
+</summary>
+
+```diff
++ minecraft:block.poplar_leaves.break
++ minecraft:block.poplar_leaves.fall
++ minecraft:block.poplar_leaves.hit
++ minecraft:block.poplar_leaves.place
++ minecraft:block.poplar_leaves.step
++ minecraft:block.red_shrub.break
++ minecraft:block.red_shrub.place
++ minecraft:block.straw_bed.break
++ minecraft:block.straw_bed.break_leave
++ minecraft:block.straw_bed.fall
++ minecraft:block.straw_bed.hit
++ minecraft:block.straw_bed.place
++ minecraft:block.straw_bed.step
++ minecraft:entity.cushion.break
++ minecraft:entity.cushion.get_up
++ minecraft:entity.cushion.place
++ minecraft:entity.cushion.sit
+```
+
+</details>
+<details>
+<summary>
+universal_tags/worldgen/block_state_provider_type.json
+</summary>
+
+```diff
++ minecraft:random_block_provider
+```
+
+</details>
+<details>
+<summary>
+universal_tags/worldgen/feature_type.json
+</summary>
+
+```diff
+- minecraft:coral_mushroom
+- minecraft:kelp
+- minecraft:sea_pickle
+- minecraft:seagrass
+```
+
+</details>
+<details>
+<summary>
+universal_tags/worldgen/placement_modifier_type.json
+</summary>
+
+```diff
++ minecraft:cuboid
++ minecraft:random_chance
+```
+
+</details>
+</details>
+<hr/>
+<details><summary><b><ins>BLOCKS</ins></b><a name="blocks"></a></summary>
+<br/>
+<details>
+<summary>
+🗒️ List
+</summary>
+
+```diff
++ straw_bed.json
+```
+
+</details>
+</details>
+<hr/>
+<details><summary><b><ins>COMMANDS</ins></b><a name="commands"></a></summary>
+<br/>
+<details>
+<summary>
+🗒️ List
+</summary>
+
+```diff
++ posteffect.txt
+```
+
+</details>
+<details>
+<summary>
+place
+</summary>
+
+```diff
++ place feature <feature: feature> <pos: block_pos>
+- place feature <feature: resource_key> <pos: block_pos>
+```
+
+</details>
+<details>
+<summary>
+schedule
+</summary>
+
+```diff
++ schedule clear <function: resource_location>
+- schedule clear <function: string>
+```
+
+</details>
+</details>
+<hr/>
+<details><summary><b><ins>RECIPES</ins></b><a name="recipes"></a></summary>
+<br/>
+<details>
+<summary>
+🗒️ List
+</summary>
+
+```diff
++ black_cushion.json
++ blue_cushion.json
++ brewing/lingering_potion_awkward_blaze_powder.json
++ brewing/lingering_potion_awkward_breeze_rod.json
++ brewing/lingering_potion_awkward_cobweb.json
++ brewing/lingering_potion_awkward_ghast_tear.json
++ brewing/lingering_potion_awkward_glistering_melon_slice.json
++ brewing/lingering_potion_awkward_golden_carrot.json
++ brewing/lingering_potion_awkward_magma_cream.json
++ brewing/lingering_potion_awkward_phantom_membrane.json
++ brewing/lingering_potion_awkward_pufferfish.json
++ brewing/lingering_potion_awkward_rabbit_foot.json
++ brewing/lingering_potion_awkward_slime_block.json
++ brewing/lingering_potion_awkward_spider_eye.json
++ brewing/lingering_potion_awkward_stone.json
++ brewing/lingering_potion_awkward_sugar.json
++ brewing/lingering_potion_awkward_turtle_helmet.json
++ brewing/lingering_potion_fire_resistance_redstone.json
++ brewing/lingering_potion_harming_glowstone_dust.json
++ brewing/lingering_potion_healing_fermented_spider_eye.json
++ brewing/lingering_potion_healing_glowstone_dust.json
++ brewing/lingering_potion_invisibility_redstone.json
++ brewing/lingering_potion_leaping_fermented_spider_eye.json
++ brewing/lingering_potion_leaping_glowstone_dust.json
++ brewing/lingering_potion_leaping_redstone.json
++ brewing/lingering_potion_long_leaping_fermented_spider_eye.json
++ brewing/lingering_potion_long_night_vision_fermented_spider_eye.json
++ brewing/lingering_potion_long_poison_fermented_spider_eye.json
++ brewing/lingering_potion_long_swiftness_fermented_spider_eye.json
++ brewing/lingering_potion_night_vision_fermented_spider_eye.json
++ brewing/lingering_potion_night_vision_redstone.json
++ brewing/lingering_potion_poison_fermented_spider_eye.json
++ brewing/lingering_potion_poison_glowstone_dust.json
++ brewing/lingering_potion_poison_redstone.json
++ brewing/lingering_potion_regeneration_glowstone_dust.json
++ brewing/lingering_potion_regeneration_redstone.json
++ brewing/lingering_potion_slow_falling_redstone.json
++ brewing/lingering_potion_slowness_glowstone_dust.json
++ brewing/lingering_potion_slowness_redstone.json
++ brewing/lingering_potion_strength_glowstone_dust.json
++ brewing/lingering_potion_strength_redstone.json
++ brewing/lingering_potion_strong_healing_fermented_spider_eye.json
++ brewing/lingering_potion_strong_poison_fermented_spider_eye.json
++ brewing/lingering_potion_swiftness_fermented_spider_eye.json
++ brewing/lingering_potion_swiftness_glowstone_dust.json
++ brewing/lingering_potion_swiftness_redstone.json
++ brewing/lingering_potion_turtle_master_glowstone_dust.json
++ brewing/lingering_potion_turtle_master_redstone.json
++ brewing/lingering_potion_water_blaze_powder.json
++ brewing/lingering_potion_water_breathing_redstone.json
++ brewing/lingering_potion_water_breeze_rod.json
++ brewing/lingering_potion_water_cobweb.json
++ brewing/lingering_potion_water_fermented_spider_eye.json
++ brewing/lingering_potion_water_ghast_tear.json
++ brewing/lingering_potion_water_glistering_melon_slice.json
++ brewing/lingering_potion_water_glowstone_dust.json
++ brewing/lingering_potion_water_magma_cream.json
++ brewing/lingering_potion_water_nether_wart.json
++ brewing/lingering_potion_water_rabbit_foot.json
++ brewing/lingering_potion_water_redstone.json
++ brewing/lingering_potion_water_slime_block.json
++ brewing/lingering_potion_water_spider_eye.json
++ brewing/lingering_potion_water_stone.json
++ brewing/lingering_potion_water_sugar.json
++ brewing/lingering_potion_weakness_redstone.json
++ brewing/potion_awkward_blaze_powder.json
++ brewing/potion_awkward_breeze_rod.json
++ brewing/potion_awkward_cobweb.json
++ brewing/potion_awkward_ghast_tear.json
++ brewing/potion_awkward_glistering_melon_slice.json
++ brewing/potion_awkward_golden_carrot.json
++ brewing/potion_awkward_gunpowder.json
++ brewing/potion_awkward_magma_cream.json
++ brewing/potion_awkward_phantom_membrane.json
++ brewing/potion_awkward_pufferfish.json
++ brewing/potion_awkward_rabbit_foot.json
++ brewing/potion_awkward_slime_block.json
++ brewing/potion_awkward_spider_eye.json
++ brewing/potion_awkward_stone.json
++ brewing/potion_awkward_sugar.json
++ brewing/potion_awkward_turtle_helmet.json
++ brewing/potion_fire_resistance_gunpowder.json
++ brewing/potion_fire_resistance_redstone.json
++ brewing/potion_harming_glowstone_dust.json
++ brewing/potion_harming_gunpowder.json
++ brewing/potion_healing_fermented_spider_eye.json
++ brewing/potion_healing_glowstone_dust.json
++ brewing/potion_healing_gunpowder.json
++ brewing/potion_infested_gunpowder.json
++ brewing/potion_invisibility_gunpowder.json
++ brewing/potion_invisibility_redstone.json
++ brewing/potion_leaping_fermented_spider_eye.json
++ brewing/potion_leaping_glowstone_dust.json
++ brewing/potion_leaping_gunpowder.json
++ brewing/potion_leaping_redstone.json
++ brewing/potion_long_fire_resistance_gunpowder.json
++ brewing/potion_long_invisibility_gunpowder.json
++ brewing/potion_long_leaping_fermented_spider_eye.json
++ brewing/potion_long_leaping_gunpowder.json
++ brewing/potion_long_night_vision_fermented_spider_eye.json
++ brewing/potion_long_night_vision_gunpowder.json
++ brewing/potion_long_poison_fermented_spider_eye.json
++ brewing/potion_long_poison_gunpowder.json
++ brewing/potion_long_regeneration_gunpowder.json
++ brewing/potion_long_slow_falling_gunpowder.json
++ brewing/potion_long_slowness_gunpowder.json
++ brewing/potion_long_strength_gunpowder.json
++ brewing/potion_long_swiftness_fermented_spider_eye.json
++ brewing/potion_long_swiftness_gunpowder.json
++ brewing/potion_long_turtle_master_gunpowder.json
++ brewing/potion_long_water_breathing_gunpowder.json
++ brewing/potion_long_weakness_gunpowder.json
++ brewing/potion_mundane_gunpowder.json
++ brewing/potion_night_vision_fermented_spider_eye.json
++ brewing/potion_night_vision_gunpowder.json
++ brewing/potion_night_vision_redstone.json
++ brewing/potion_oozing_gunpowder.json
++ brewing/potion_poison_fermented_spider_eye.json
++ brewing/potion_poison_glowstone_dust.json
++ brewing/potion_poison_gunpowder.json
++ brewing/potion_poison_redstone.json
++ brewing/potion_regeneration_glowstone_dust.json
++ brewing/potion_regeneration_gunpowder.json
++ brewing/potion_regeneration_redstone.json
++ brewing/potion_slow_falling_gunpowder.json
++ brewing/potion_slow_falling_redstone.json
++ brewing/potion_slowness_glowstone_dust.json
++ brewing/potion_slowness_gunpowder.json
++ brewing/potion_slowness_redstone.json
++ brewing/potion_strength_glowstone_dust.json
++ brewing/potion_strength_gunpowder.json
++ brewing/potion_strength_redstone.json
++ brewing/potion_strong_harming_gunpowder.json
++ brewing/potion_strong_healing_fermented_spider_eye.json
++ brewing/potion_strong_healing_gunpowder.json
++ brewing/potion_strong_leaping_gunpowder.json
++ brewing/potion_strong_poison_fermented_spider_eye.json
++ brewing/potion_strong_poison_gunpowder.json
++ brewing/potion_strong_regeneration_gunpowder.json
++ brewing/potion_strong_slowness_gunpowder.json
++ brewing/potion_strong_strength_gunpowder.json
++ brewing/potion_strong_swiftness_gunpowder.json
++ brewing/potion_strong_turtle_master_gunpowder.json
++ brewing/potion_swiftness_fermented_spider_eye.json
++ brewing/potion_swiftness_glowstone_dust.json
++ brewing/potion_swiftness_gunpowder.json
++ brewing/potion_swiftness_redstone.json
++ brewing/potion_thick_gunpowder.json
++ brewing/potion_turtle_master_glowstone_dust.json
++ brewing/potion_turtle_master_gunpowder.json
++ brewing/potion_turtle_master_redstone.json
++ brewing/potion_water_blaze_powder.json
++ brewing/potion_water_breathing_gunpowder.json
++ brewing/potion_water_breathing_redstone.json
++ brewing/potion_water_breeze_rod.json
++ brewing/potion_water_cobweb.json
++ brewing/potion_water_fermented_spider_eye.json
++ brewing/potion_water_ghast_tear.json
++ brewing/potion_water_glistering_melon_slice.json
++ brewing/potion_water_glowstone_dust.json
++ brewing/potion_water_gunpowder.json
++ brewing/potion_water_magma_cream.json
++ brewing/potion_water_nether_wart.json
++ brewing/potion_water_rabbit_foot.json
++ brewing/potion_water_redstone.json
++ brewing/potion_water_slime_block.json
++ brewing/potion_water_spider_eye.json
++ brewing/potion_water_stone.json
++ brewing/potion_water_sugar.json
++ brewing/potion_weakness_gunpowder.json
++ brewing/potion_weakness_redstone.json
++ brewing/potion_weaving_gunpowder.json
++ brewing/potion_wind_charged_gunpowder.json
++ brewing/splash_potion_awkward_blaze_powder.json
++ brewing/splash_potion_awkward_breeze_rod.json
++ brewing/splash_potion_awkward_cobweb.json
++ brewing/splash_potion_awkward_dragon_breath.json
++ brewing/splash_potion_awkward_ghast_tear.json
++ brewing/splash_potion_awkward_glistering_melon_slice.json
++ brewing/splash_potion_awkward_golden_carrot.json
++ brewing/splash_potion_awkward_magma_cream.json
++ brewing/splash_potion_awkward_phantom_membrane.json
++ brewing/splash_potion_awkward_pufferfish.json
++ brewing/splash_potion_awkward_rabbit_foot.json
++ brewing/splash_potion_awkward_slime_block.json
++ brewing/splash_potion_awkward_spider_eye.json
++ brewing/splash_potion_awkward_stone.json
++ brewing/splash_potion_awkward_sugar.json
++ brewing/splash_potion_awkward_turtle_helmet.json
++ brewing/splash_potion_fire_resistance_dragon_breath.json
++ brewing/splash_potion_fire_resistance_redstone.json
++ brewing/splash_potion_harming_dragon_breath.json
++ brewing/splash_potion_harming_glowstone_dust.json
++ brewing/splash_potion_healing_dragon_breath.json
++ brewing/splash_potion_healing_fermented_spider_eye.json
++ brewing/splash_potion_healing_glowstone_dust.json
++ brewing/splash_potion_infested_dragon_breath.json
++ brewing/splash_potion_invisibility_dragon_breath.json
++ brewing/splash_potion_invisibility_redstone.json
++ brewing/splash_potion_leaping_dragon_breath.json
++ brewing/splash_potion_leaping_fermented_spider_eye.json
++ brewing/splash_potion_leaping_glowstone_dust.json
++ brewing/splash_potion_leaping_redstone.json
++ brewing/splash_potion_long_fire_resistance_dragon_breath.json
++ brewing/splash_potion_long_invisibility_dragon_breath.json
++ brewing/splash_potion_long_leaping_dragon_breath.json
++ brewing/splash_potion_long_leaping_fermented_spider_eye.json
++ brewing/splash_potion_long_night_vision_dragon_breath.json
++ brewing/splash_potion_long_night_vision_fermented_spider_eye.json
++ brewing/splash_potion_long_poison_dragon_breath.json
++ brewing/splash_potion_long_poison_fermented_spider_eye.json
++ brewing/splash_potion_long_regeneration_dragon_breath.json
++ brewing/splash_potion_long_slow_falling_dragon_breath.json
++ brewing/splash_potion_long_slowness_dragon_breath.json
++ brewing/splash_potion_long_strength_dragon_breath.json
++ brewing/splash_potion_long_swiftness_dragon_breath.json
++ brewing/splash_potion_long_swiftness_fermented_spider_eye.json
++ brewing/splash_potion_long_turtle_master_dragon_breath.json
++ brewing/splash_potion_long_water_breathing_dragon_breath.json
++ brewing/splash_potion_long_weakness_dragon_breath.json
++ brewing/splash_potion_mundane_dragon_breath.json
++ brewing/splash_potion_night_vision_dragon_breath.json
++ brewing/splash_potion_night_vision_fermented_spider_eye.json
++ brewing/splash_potion_night_vision_redstone.json
++ brewing/splash_potion_oozing_dragon_breath.json
++ brewing/splash_potion_poison_dragon_breath.json
++ brewing/splash_potion_poison_fermented_spider_eye.json
++ brewing/splash_potion_poison_glowstone_dust.json
++ brewing/splash_potion_poison_redstone.json
++ brewing/splash_potion_regeneration_dragon_breath.json
++ brewing/splash_potion_regeneration_glowstone_dust.json
++ brewing/splash_potion_regeneration_redstone.json
++ brewing/splash_potion_slow_falling_dragon_breath.json
++ brewing/splash_potion_slow_falling_redstone.json
++ brewing/splash_potion_slowness_dragon_breath.json
++ brewing/splash_potion_slowness_glowstone_dust.json
++ brewing/splash_potion_slowness_redstone.json
++ brewing/splash_potion_strength_dragon_breath.json
++ brewing/splash_potion_strength_glowstone_dust.json
++ brewing/splash_potion_strength_redstone.json
++ brewing/splash_potion_strong_harming_dragon_breath.json
++ brewing/splash_potion_strong_healing_dragon_breath.json
++ brewing/splash_potion_strong_healing_fermented_spider_eye.json
++ brewing/splash_potion_strong_leaping_dragon_breath.json
++ brewing/splash_potion_strong_poison_dragon_breath.json
++ brewing/splash_potion_strong_poison_fermented_spider_eye.json
++ brewing/splash_potion_strong_regeneration_dragon_breath.json
++ brewing/splash_potion_strong_slowness_dragon_breath.json
++ brewing/splash_potion_strong_strength_dragon_breath.json
++ brewing/splash_potion_strong_swiftness_dragon_breath.json
++ brewing/splash_potion_strong_turtle_master_dragon_breath.json
++ brewing/splash_potion_swiftness_dragon_breath.json
++ brewing/splash_potion_swiftness_fermented_spider_eye.json
++ brewing/splash_potion_swiftness_glowstone_dust.json
++ brewing/splash_potion_swiftness_redstone.json
++ brewing/splash_potion_thick_dragon_breath.json
++ brewing/splash_potion_turtle_master_dragon_breath.json
++ brewing/splash_potion_turtle_master_glowstone_dust.json
++ brewing/splash_potion_turtle_master_redstone.json
++ brewing/splash_potion_water_blaze_powder.json
++ brewing/splash_potion_water_breathing_dragon_breath.json
++ brewing/splash_potion_water_breathing_redstone.json
++ brewing/splash_potion_water_breeze_rod.json
++ brewing/splash_potion_water_cobweb.json
++ brewing/splash_potion_water_dragon_breath.json
++ brewing/splash_potion_water_fermented_spider_eye.json
++ brewing/splash_potion_water_ghast_tear.json
++ brewing/splash_potion_water_glistering_melon_slice.json
++ brewing/splash_potion_water_glowstone_dust.json
++ brewing/splash_potion_water_magma_cream.json
++ brewing/splash_potion_water_nether_wart.json
++ brewing/splash_potion_water_rabbit_foot.json
++ brewing/splash_potion_water_redstone.json
++ brewing/splash_potion_water_slime_block.json
++ brewing/splash_potion_water_spider_eye.json
++ brewing/splash_potion_water_stone.json
++ brewing/splash_potion_water_sugar.json
++ brewing/splash_potion_weakness_dragon_breath.json
++ brewing/splash_potion_weakness_redstone.json
++ brewing/splash_potion_weaving_dragon_breath.json
++ brewing/splash_potion_wind_charged_dragon_breath.json
++ brown_cushion.json
++ cyan_cushion.json
++ dye_black_cushion.json
++ dye_blue_cushion.json
++ dye_brown_cushion.json
++ dye_cyan_cushion.json
++ dye_gray_cushion.json
++ dye_green_cushion.json
++ dye_light_blue_cushion.json
++ dye_light_gray_cushion.json
++ dye_lime_cushion.json
++ dye_magenta_cushion.json
++ dye_orange_cushion.json
++ dye_pink_cushion.json
++ dye_purple_cushion.json
++ dye_red_cushion.json
++ dye_white_cushion.json
++ dye_yellow_cushion.json
++ gray_cushion.json
++ green_cushion.json
++ light_blue_cushion.json
++ light_gray_cushion.json
++ lime_cushion.json
++ magenta_cushion.json
++ orange_cushion.json
++ pink_cushion.json
++ purple_cushion.json
++ red_cushion.json
++ straw_bed.json
++ white_cushion.json
++ yellow_cushion.json
+```
+
+</details>
+</details>
+<hr/>
+<details><summary><b><ins>DATAPACKS</ins></b><a name="datapacks"></a></summary>
+<br/>
+<details>
+<summary>
+[registries] List
+</summary>
+
+```diff
++ minecraft:number_provider
+```
+
+</details>
+</details>
+<hr/>
+<details><summary><b><ins>TRANSLATIONS</ins></b><a name="translations"></a></summary>
+<br/>
+<details>
+<summary>
+Keys
+</summary>
+
+```diff
++ block.minecraft.straw_bed: Straw Bed
++ commands.fillbiome.no_changes: No biome entries were changed
++ commands.gamerule.not_set: Game rule %s is already set to %s
++ commands.place.feature.success.inline: Placed feature at %s, %s, %s
++ commands.posteffect.add.failed: Player already has the specified post effect
++ commands.posteffect.add.success.multiple: Added post effect %s to %s players
++ commands.posteffect.add.success.single: Added post effect %s to %s
++ commands.posteffect.clear.failed: Player does not have any post effects to remove
++ commands.posteffect.clear.success.multiple: Removed all post effects from %s players
++ commands.posteffect.clear.success.single: Removed all post effects from %s
++ commands.posteffect.list.empty: Player %s does not have any post effects
++ commands.posteffect.list.success: Player %s has %s post effects: %s
++ commands.posteffect.remove.failed: Player does not have the specified post effect
++ commands.posteffect.remove.success.multiple: Removed post effect %s from %s players
++ commands.posteffect.remove.success.single: Removed post effect %s from %s
++ commands.time.pause.already_paused: Clock %s is already paused
++ commands.time.pause.already_running: Clock %s is already running
++ commands.time.rate.already_same: Clock %s is already advancing at %sx normal rate
++ commands.time.set.already_at_time_marker: Clock %s is already at time marker %s
++ commands.time.set.already_at_time: Clock %s is already set to %s tick(s)
++ death.attack.sulfurCubeHot.item: %2$s showed %1$s that not just the floor is lava using %3$s
++ entity.minecraft.cushion: Cushion
++ item.minecraft.black_cushion: Black Cushion
++ item.minecraft.blue_cushion: Blue Cushion
++ item.minecraft.brown_cushion: Brown Cushion
++ item.minecraft.cyan_cushion: Cyan Cushion
++ item.minecraft.gray_cushion: Gray Cushion
++ item.minecraft.green_cushion: Green Cushion
++ item.minecraft.light_blue_cushion: Light Blue Cushion
++ item.minecraft.light_gray_cushion: Light Gray Cushion
++ item.minecraft.lime_cushion: Lime Cushion
++ item.minecraft.magenta_cushion: Magenta Cushion
++ item.minecraft.orange_cushion: Orange Cushion
++ item.minecraft.pink_cushion: Pink Cushion
++ item.minecraft.purple_cushion: Purple Cushion
++ item.minecraft.red_cushion: Red Cushion
++ item.minecraft.straw_bed: Straw Bed
++ item.minecraft.white_cushion: White Cushion
++ item.minecraft.yellow_cushion: Yellow Cushion
++ mount.sit: Press %1$s to get up
++ stat.minecraft.sleep_in_straw_bed: Times Slept in a Straw Bed
++ subtitles.block.poplar_leaves.ambient: Leaves rustling
++ subtitles.block.straw_bed.break_leave: Straw Bed breaks
++ subtitles.entity.cushion.break: Cushion breaks
++ subtitles.entity.cushion.get_up: Gets up from Cushion
++ subtitles.entity.cushion.place: Cushion placed
++ subtitles.entity.cushion.sit: Sits on Cushion
+```
+
+</details>
+<details>
+<summary>
+Changes
+</summary>
+<br/>
+<table>
+<tr><th>Name</th><th>26.3-snapshot-2</th><th>26.3-snapshot-3</th></tr>
+<tr><th align="left"><div style="width:290px">chat_restriction.disabled_by_profile.action</div></th><td>Go to your profile settings</td><td>Go to Your Profile Settings</td></tr>
+<tr><th align="left"><div style="width:290px">commands.gamerule.query</div></th><td>Gamerule %s is currently set to: %s</td><td>Game rule %s is currently set to %s</td></tr>
+<tr><th align="left"><div style="width:290px">commands.gamerule.set</div></th><td>Gamerule %s is now set to: %s</td><td>Game rule %s is now set to %s</td></tr>
+<tr><th align="left"><div style="width:290px">commands.random.error.range_too_large</div></th><td>The range of the random value must be at most 2147483646</td><td>The range of the random value must be at most 2147483647</td></tr>
+<tr><th align="left"><div style="width:290px">commands.random.error.range_too_small</div></th><td>The range of the random value must be at least 2</td><td>The range of the random value must be at least 1</td></tr>
+<tr><th align="left"><div style="width:290px">container.shulkerBox.itemCount</div></th><td>%s x%s</td><td>%s x %s</td></tr>
+<tr><th align="left"><div style="width:290px">item.minecraft.firework_rocket.flight</div></th><td>Flight Duration:</td><td>Flight Duration: %s</td></tr>
+<tr><th align="left"><div style="width:290px">key.debug.fpsCharts</div></th><td>FPS Charts</td><td>Fps Charts</td></tr>
+<tr><th align="left"><div style="width:290px">options.inactivityFpsLimit</div></th><td>Reduce FPS when</td><td>Reduce fps when</td></tr>
+<tr><th align="left"><div style="width:290px">selectWorld.load_folder_access</div></th><td>Unable to read or access folder where game worlds are saved!</td><td>Unable to read or access the folder where game worlds are saved!</td></tr>
+<tr><th align="left"><div style="width:290px">telemetry.property.frame_rate_samples.title</div></th><td>Frame Rate Samples (FPS)</td><td>Frame Rate Samples (fps)</td></tr>
+</table>
+<br/>
+</details>
+</details>
+<hr/>
+<details><summary><b><ins>PACKETS</ins></b><a name="packets"></a></summary>
+<br/>
+<details>
+<summary>
+[client] configuration
+</summary>
+
+```diff
++ minecraft:post_effects
+```
+
+</details>
+<details>
+<summary>
+[client] play
+</summary>
+
+```diff
++ minecraft:post_effects
+```
+
+</details>
+</details>
+<hr/>
+<details><summary><b><ins>FILE STRUCTURE</ins></b><a name="file-structure"></a></summary>
+<br/>
+<details>
+<summary>
+generated
+</summary>
+
+```diff
++ reports/minecraft/components/item/black_cushion.json
++ reports/minecraft/components/item/blue_cushion.json
++ reports/minecraft/components/item/brown_cushion.json
++ reports/minecraft/components/item/cyan_cushion.json
++ reports/minecraft/components/item/gray_cushion.json
++ reports/minecraft/components/item/green_cushion.json
++ reports/minecraft/components/item/light_blue_cushion.json
++ reports/minecraft/components/item/light_gray_cushion.json
++ reports/minecraft/components/item/lime_cushion.json
++ reports/minecraft/components/item/magenta_cushion.json
++ reports/minecraft/components/item/orange_cushion.json
++ reports/minecraft/components/item/pink_cushion.json
++ reports/minecraft/components/item/purple_cushion.json
++ reports/minecraft/components/item/red_cushion.json
++ reports/minecraft/components/item/straw_bed.json
++ reports/minecraft/components/item/white_cushion.json
++ reports/minecraft/components/item/yellow_cushion.json
+```
+
+</details>
+<details>
+<summary>
+data
+</summary>
+
+```diff
++ minecraft/advancement/recipes/decorations/black_cushion.json
++ minecraft/advancement/recipes/decorations/blue_cushion.json
++ minecraft/advancement/recipes/decorations/brown_cushion.json
++ minecraft/advancement/recipes/decorations/cyan_cushion.json
++ minecraft/advancement/recipes/decorations/dye_black_cushion.json
++ minecraft/advancement/recipes/decorations/dye_blue_cushion.json
++ minecraft/advancement/recipes/decorations/dye_brown_cushion.json
++ minecraft/advancement/recipes/decorations/dye_cyan_cushion.json
++ minecraft/advancement/recipes/decorations/dye_gray_cushion.json
++ minecraft/advancement/recipes/decorations/dye_green_cushion.json
++ minecraft/advancement/recipes/decorations/dye_light_blue_cushion.json
++ minecraft/advancement/recipes/decorations/dye_light_gray_cushion.json
++ minecraft/advancement/recipes/decorations/dye_lime_cushion.json
++ minecraft/advancement/recipes/decorations/dye_magenta_cushion.json
++ minecraft/advancement/recipes/decorations/dye_orange_cushion.json
++ minecraft/advancement/recipes/decorations/dye_pink_cushion.json
++ minecraft/advancement/recipes/decorations/dye_purple_cushion.json
++ minecraft/advancement/recipes/decorations/dye_red_cushion.json
++ minecraft/advancement/recipes/decorations/dye_white_cushion.json
++ minecraft/advancement/recipes/decorations/dye_yellow_cushion.json
++ minecraft/advancement/recipes/decorations/gray_cushion.json
++ minecraft/advancement/recipes/decorations/green_cushion.json
++ minecraft/advancement/recipes/decorations/light_blue_cushion.json
++ minecraft/advancement/recipes/decorations/light_gray_cushion.json
++ minecraft/advancement/recipes/decorations/lime_cushion.json
++ minecraft/advancement/recipes/decorations/magenta_cushion.json
++ minecraft/advancement/recipes/decorations/orange_cushion.json
++ minecraft/advancement/recipes/decorations/pink_cushion.json
++ minecraft/advancement/recipes/decorations/purple_cushion.json
++ minecraft/advancement/recipes/decorations/red_cushion.json
++ minecraft/advancement/recipes/decorations/straw_bed.json
++ minecraft/advancement/recipes/decorations/white_cushion.json
++ minecraft/advancement/recipes/decorations/yellow_cushion.json
++ minecraft/loot_table/blocks/straw_bed.json
++ minecraft/number_provider/compostable/always_add_one.json
++ minecraft/number_provider/compostable/low_medium.json
++ minecraft/number_provider/compostable/low.json
++ minecraft/number_provider/compostable/medium_high.json
++ minecraft/number_provider/compostable/medium.json
++ minecraft/predicate/tool/can_shear.json
++ minecraft/predicate/tool/can_silk_touch.json
++ minecraft/recipe/black_cushion.json
++ minecraft/recipe/blue_cushion.json
++ minecraft/recipe/brewing/lingering_potion_awkward_blaze_powder.json
++ minecraft/recipe/brewing/lingering_potion_awkward_breeze_rod.json
++ minecraft/recipe/brewing/lingering_potion_awkward_cobweb.json
++ minecraft/recipe/brewing/lingering_potion_awkward_ghast_tear.json
++ minecraft/recipe/brewing/lingering_potion_awkward_glistering_melon_slice.json
++ minecraft/recipe/brewing/lingering_potion_awkward_golden_carrot.json
++ minecraft/recipe/brewing/lingering_potion_awkward_magma_cream.json
++ minecraft/recipe/brewing/lingering_potion_awkward_phantom_membrane.json
++ minecraft/recipe/brewing/lingering_potion_awkward_pufferfish.json
++ minecraft/recipe/brewing/lingering_potion_awkward_rabbit_foot.json
++ minecraft/recipe/brewing/lingering_potion_awkward_slime_block.json
++ minecraft/recipe/brewing/lingering_potion_awkward_spider_eye.json
++ minecraft/recipe/brewing/lingering_potion_awkward_stone.json
++ minecraft/recipe/brewing/lingering_potion_awkward_sugar.json
++ minecraft/recipe/brewing/lingering_potion_awkward_turtle_helmet.json
++ minecraft/recipe/brewing/lingering_potion_fire_resistance_redstone.json
++ minecraft/recipe/brewing/lingering_potion_harming_glowstone_dust.json
++ minecraft/recipe/brewing/lingering_potion_healing_fermented_spider_eye.json
++ minecraft/recipe/brewing/lingering_potion_healing_glowstone_dust.json
++ minecraft/recipe/brewing/lingering_potion_invisibility_redstone.json
++ minecraft/recipe/brewing/lingering_potion_leaping_fermented_spider_eye.json
++ minecraft/recipe/brewing/lingering_potion_leaping_glowstone_dust.json
++ minecraft/recipe/brewing/lingering_potion_leaping_redstone.json
++ minecraft/recipe/brewing/lingering_potion_long_leaping_fermented_spider_eye.json
++ minecraft/recipe/brewing/lingering_potion_long_night_vision_fermented_spider_eye.json
++ minecraft/recipe/brewing/lingering_potion_long_poison_fermented_spider_eye.json
++ minecraft/recipe/brewing/lingering_potion_long_swiftness_fermented_spider_eye.json
++ minecraft/recipe/brewing/lingering_potion_night_vision_fermented_spider_eye.json
++ minecraft/recipe/brewing/lingering_potion_night_vision_redstone.json
++ minecraft/recipe/brewing/lingering_potion_poison_fermented_spider_eye.json
++ minecraft/recipe/brewing/lingering_potion_poison_glowstone_dust.json
++ minecraft/recipe/brewing/lingering_potion_poison_redstone.json
++ minecraft/recipe/brewing/lingering_potion_regeneration_glowstone_dust.json
++ minecraft/recipe/brewing/lingering_potion_regeneration_redstone.json
++ minecraft/recipe/brewing/lingering_potion_slow_falling_redstone.json
++ minecraft/recipe/brewing/lingering_potion_slowness_glowstone_dust.json
++ minecraft/recipe/brewing/lingering_potion_slowness_redstone.json
++ minecraft/recipe/brewing/lingering_potion_strength_glowstone_dust.json
++ minecraft/recipe/brewing/lingering_potion_strength_redstone.json
++ minecraft/recipe/brewing/lingering_potion_strong_healing_fermented_spider_eye.json
++ minecraft/recipe/brewing/lingering_potion_strong_poison_fermented_spider_eye.json
++ minecraft/recipe/brewing/lingering_potion_swiftness_fermented_spider_eye.json
++ minecraft/recipe/brewing/lingering_potion_swiftness_glowstone_dust.json
++ minecraft/recipe/brewing/lingering_potion_swiftness_redstone.json
++ minecraft/recipe/brewing/lingering_potion_turtle_master_glowstone_dust.json
++ minecraft/recipe/brewing/lingering_potion_turtle_master_redstone.json
++ minecraft/recipe/brewing/lingering_potion_water_blaze_powder.json
++ minecraft/recipe/brewing/lingering_potion_water_breathing_redstone.json
++ minecraft/recipe/brewing/lingering_potion_water_breeze_rod.json
++ minecraft/recipe/brewing/lingering_potion_water_cobweb.json
++ minecraft/recipe/brewing/lingering_potion_water_fermented_spider_eye.json
++ minecraft/recipe/brewing/lingering_potion_water_ghast_tear.json
++ minecraft/recipe/brewing/lingering_potion_water_glistering_melon_slice.json
++ minecraft/recipe/brewing/lingering_potion_water_glowstone_dust.json
++ minecraft/recipe/brewing/lingering_potion_water_magma_cream.json
++ minecraft/recipe/brewing/lingering_potion_water_nether_wart.json
++ minecraft/recipe/brewing/lingering_potion_water_rabbit_foot.json
++ minecraft/recipe/brewing/lingering_potion_water_redstone.json
++ minecraft/recipe/brewing/lingering_potion_water_slime_block.json
++ minecraft/recipe/brewing/lingering_potion_water_spider_eye.json
++ minecraft/recipe/brewing/lingering_potion_water_stone.json
++ minecraft/recipe/brewing/lingering_potion_water_sugar.json
++ minecraft/recipe/brewing/lingering_potion_weakness_redstone.json
++ minecraft/recipe/brewing/potion_awkward_blaze_powder.json
++ minecraft/recipe/brewing/potion_awkward_breeze_rod.json
++ minecraft/recipe/brewing/potion_awkward_cobweb.json
++ minecraft/recipe/brewing/potion_awkward_ghast_tear.json
++ minecraft/recipe/brewing/potion_awkward_glistering_melon_slice.json
++ minecraft/recipe/brewing/potion_awkward_golden_carrot.json
++ minecraft/recipe/brewing/potion_awkward_gunpowder.json
++ minecraft/recipe/brewing/potion_awkward_magma_cream.json
++ minecraft/recipe/brewing/potion_awkward_phantom_membrane.json
++ minecraft/recipe/brewing/potion_awkward_pufferfish.json
++ minecraft/recipe/brewing/potion_awkward_rabbit_foot.json
++ minecraft/recipe/brewing/potion_awkward_slime_block.json
++ minecraft/recipe/brewing/potion_awkward_spider_eye.json
++ minecraft/recipe/brewing/potion_awkward_stone.json
++ minecraft/recipe/brewing/potion_awkward_sugar.json
++ minecraft/recipe/brewing/potion_awkward_turtle_helmet.json
++ minecraft/recipe/brewing/potion_fire_resistance_gunpowder.json
++ minecraft/recipe/brewing/potion_fire_resistance_redstone.json
++ minecraft/recipe/brewing/potion_harming_glowstone_dust.json
++ minecraft/recipe/brewing/potion_harming_gunpowder.json
++ minecraft/recipe/brewing/potion_healing_fermented_spider_eye.json
++ minecraft/recipe/brewing/potion_healing_glowstone_dust.json
++ minecraft/recipe/brewing/potion_healing_gunpowder.json
++ minecraft/recipe/brewing/potion_infested_gunpowder.json
++ minecraft/recipe/brewing/potion_invisibility_gunpowder.json
++ minecraft/recipe/brewing/potion_invisibility_redstone.json
++ minecraft/recipe/brewing/potion_leaping_fermented_spider_eye.json
++ minecraft/recipe/brewing/potion_leaping_glowstone_dust.json
++ minecraft/recipe/brewing/potion_leaping_gunpowder.json
++ minecraft/recipe/brewing/potion_leaping_redstone.json
++ minecraft/recipe/brewing/potion_long_fire_resistance_gunpowder.json
++ minecraft/recipe/brewing/potion_long_invisibility_gunpowder.json
++ minecraft/recipe/brewing/potion_long_leaping_fermented_spider_eye.json
++ minecraft/recipe/brewing/potion_long_leaping_gunpowder.json
++ minecraft/recipe/brewing/potion_long_night_vision_fermented_spider_eye.json
++ minecraft/recipe/brewing/potion_long_night_vision_gunpowder.json
++ minecraft/recipe/brewing/potion_long_poison_fermented_spider_eye.json
++ minecraft/recipe/brewing/potion_long_poison_gunpowder.json
++ minecraft/recipe/brewing/potion_long_regeneration_gunpowder.json
++ minecraft/recipe/brewing/potion_long_slow_falling_gunpowder.json
++ minecraft/recipe/brewing/potion_long_slowness_gunpowder.json
++ minecraft/recipe/brewing/potion_long_strength_gunpowder.json
++ minecraft/recipe/brewing/potion_long_swiftness_fermented_spider_eye.json
++ minecraft/recipe/brewing/potion_long_swiftness_gunpowder.json
++ minecraft/recipe/brewing/potion_long_turtle_master_gunpowder.json
++ minecraft/recipe/brewing/potion_long_water_breathing_gunpowder.json
++ minecraft/recipe/brewing/potion_long_weakness_gunpowder.json
++ minecraft/recipe/brewing/potion_mundane_gunpowder.json
++ minecraft/recipe/brewing/potion_night_vision_fermented_spider_eye.json
++ minecraft/recipe/brewing/potion_night_vision_gunpowder.json
++ minecraft/recipe/brewing/potion_night_vision_redstone.json
++ minecraft/recipe/brewing/potion_oozing_gunpowder.json
++ minecraft/recipe/brewing/potion_poison_fermented_spider_eye.json
++ minecraft/recipe/brewing/potion_poison_glowstone_dust.json
++ minecraft/recipe/brewing/potion_poison_gunpowder.json
++ minecraft/recipe/brewing/potion_poison_redstone.json
++ minecraft/recipe/brewing/potion_regeneration_glowstone_dust.json
++ minecraft/recipe/brewing/potion_regeneration_gunpowder.json
++ minecraft/recipe/brewing/potion_regeneration_redstone.json
++ minecraft/recipe/brewing/potion_slow_falling_gunpowder.json
++ minecraft/recipe/brewing/potion_slow_falling_redstone.json
++ minecraft/recipe/brewing/potion_slowness_glowstone_dust.json
++ minecraft/recipe/brewing/potion_slowness_gunpowder.json
++ minecraft/recipe/brewing/potion_slowness_redstone.json
++ minecraft/recipe/brewing/potion_strength_glowstone_dust.json
++ minecraft/recipe/brewing/potion_strength_gunpowder.json
++ minecraft/recipe/brewing/potion_strength_redstone.json
++ minecraft/recipe/brewing/potion_strong_harming_gunpowder.json
++ minecraft/recipe/brewing/potion_strong_healing_fermented_spider_eye.json
++ minecraft/recipe/brewing/potion_strong_healing_gunpowder.json
++ minecraft/recipe/brewing/potion_strong_leaping_gunpowder.json
++ minecraft/recipe/brewing/potion_strong_poison_fermented_spider_eye.json
++ minecraft/recipe/brewing/potion_strong_poison_gunpowder.json
++ minecraft/recipe/brewing/potion_strong_regeneration_gunpowder.json
++ minecraft/recipe/brewing/potion_strong_slowness_gunpowder.json
++ minecraft/recipe/brewing/potion_strong_strength_gunpowder.json
++ minecraft/recipe/brewing/potion_strong_swiftness_gunpowder.json
++ minecraft/recipe/brewing/potion_strong_turtle_master_gunpowder.json
++ minecraft/recipe/brewing/potion_swiftness_fermented_spider_eye.json
++ minecraft/recipe/brewing/potion_swiftness_glowstone_dust.json
++ minecraft/recipe/brewing/potion_swiftness_gunpowder.json
++ minecraft/recipe/brewing/potion_swiftness_redstone.json
++ minecraft/recipe/brewing/potion_thick_gunpowder.json
++ minecraft/recipe/brewing/potion_turtle_master_glowstone_dust.json
++ minecraft/recipe/brewing/potion_turtle_master_gunpowder.json
++ minecraft/recipe/brewing/potion_turtle_master_redstone.json
++ minecraft/recipe/brewing/potion_water_blaze_powder.json
++ minecraft/recipe/brewing/potion_water_breathing_gunpowder.json
++ minecraft/recipe/brewing/potion_water_breathing_redstone.json
++ minecraft/recipe/brewing/potion_water_breeze_rod.json
++ minecraft/recipe/brewing/potion_water_cobweb.json
++ minecraft/recipe/brewing/potion_water_fermented_spider_eye.json
++ minecraft/recipe/brewing/potion_water_ghast_tear.json
++ minecraft/recipe/brewing/potion_water_glistering_melon_slice.json
++ minecraft/recipe/brewing/potion_water_glowstone_dust.json
++ minecraft/recipe/brewing/potion_water_gunpowder.json
++ minecraft/recipe/brewing/potion_water_magma_cream.json
++ minecraft/recipe/brewing/potion_water_nether_wart.json
++ minecraft/recipe/brewing/potion_water_rabbit_foot.json
++ minecraft/recipe/brewing/potion_water_redstone.json
++ minecraft/recipe/brewing/potion_water_slime_block.json
++ minecraft/recipe/brewing/potion_water_spider_eye.json
++ minecraft/recipe/brewing/potion_water_stone.json
++ minecraft/recipe/brewing/potion_water_sugar.json
++ minecraft/recipe/brewing/potion_weakness_gunpowder.json
++ minecraft/recipe/brewing/potion_weakness_redstone.json
++ minecraft/recipe/brewing/potion_weaving_gunpowder.json
++ minecraft/recipe/brewing/potion_wind_charged_gunpowder.json
++ minecraft/recipe/brewing/splash_potion_awkward_blaze_powder.json
++ minecraft/recipe/brewing/splash_potion_awkward_breeze_rod.json
++ minecraft/recipe/brewing/splash_potion_awkward_cobweb.json
++ minecraft/recipe/brewing/splash_potion_awkward_dragon_breath.json
++ minecraft/recipe/brewing/splash_potion_awkward_ghast_tear.json
++ minecraft/recipe/brewing/splash_potion_awkward_glistering_melon_slice.json
++ minecraft/recipe/brewing/splash_potion_awkward_golden_carrot.json
++ minecraft/recipe/brewing/splash_potion_awkward_magma_cream.json
++ minecraft/recipe/brewing/splash_potion_awkward_phantom_membrane.json
++ minecraft/recipe/brewing/splash_potion_awkward_pufferfish.json
++ minecraft/recipe/brewing/splash_potion_awkward_rabbit_foot.json
++ minecraft/recipe/brewing/splash_potion_awkward_slime_block.json
++ minecraft/recipe/brewing/splash_potion_awkward_spider_eye.json
++ minecraft/recipe/brewing/splash_potion_awkward_stone.json
++ minecraft/recipe/brewing/splash_potion_awkward_sugar.json
++ minecraft/recipe/brewing/splash_potion_awkward_turtle_helmet.json
++ minecraft/recipe/brewing/splash_potion_fire_resistance_dragon_breath.json
++ minecraft/recipe/brewing/splash_potion_fire_resistance_redstone.json
++ minecraft/recipe/brewing/splash_potion_harming_dragon_breath.json
++ minecraft/recipe/brewing/splash_potion_harming_glowstone_dust.json
++ minecraft/recipe/brewing/splash_potion_healing_dragon_breath.json
++ minecraft/recipe/brewing/splash_potion_healing_fermented_spider_eye.json
++ minecraft/recipe/brewing/splash_potion_healing_glowstone_dust.json
++ minecraft/recipe/brewing/splash_potion_infested_dragon_breath.json
++ minecraft/recipe/brewing/splash_potion_invisibility_dragon_breath.json
++ minecraft/recipe/brewing/splash_potion_invisibility_redstone.json
++ minecraft/recipe/brewing/splash_potion_leaping_dragon_breath.json
++ minecraft/recipe/brewing/splash_potion_leaping_fermented_spider_eye.json
++ minecraft/recipe/brewing/splash_potion_leaping_glowstone_dust.json
++ minecraft/recipe/brewing/splash_potion_leaping_redstone.json
++ minecraft/recipe/brewing/splash_potion_long_fire_resistance_dragon_breath.json
++ minecraft/recipe/brewing/splash_potion_long_invisibility_dragon_breath.json
++ minecraft/recipe/brewing/splash_potion_long_leaping_dragon_breath.json
++ minecraft/recipe/brewing/splash_potion_long_leaping_fermented_spider_eye.json
++ minecraft/recipe/brewing/splash_potion_long_night_vision_dragon_breath.json
++ minecraft/recipe/brewing/splash_potion_long_night_vision_fermented_spider_eye.json
++ minecraft/recipe/brewing/splash_potion_long_poison_dragon_breath.json
++ minecraft/recipe/brewing/splash_potion_long_poison_fermented_spider_eye.json
++ minecraft/recipe/brewing/splash_potion_long_regeneration_dragon_breath.json
++ minecraft/recipe/brewing/splash_potion_long_slow_falling_dragon_breath.json
++ minecraft/recipe/brewing/splash_potion_long_slowness_dragon_breath.json
++ minecraft/recipe/brewing/splash_potion_long_strength_dragon_breath.json
++ minecraft/recipe/brewing/splash_potion_long_swiftness_dragon_breath.json
++ minecraft/recipe/brewing/splash_potion_long_swiftness_fermented_spider_eye.json
++ minecraft/recipe/brewing/splash_potion_long_turtle_master_dragon_breath.json
++ minecraft/recipe/brewing/splash_potion_long_water_breathing_dragon_breath.json
++ minecraft/recipe/brewing/splash_potion_long_weakness_dragon_breath.json
++ minecraft/recipe/brewing/splash_potion_mundane_dragon_breath.json
++ minecraft/recipe/brewing/splash_potion_night_vision_dragon_breath.json
++ minecraft/recipe/brewing/splash_potion_night_vision_fermented_spider_eye.json
++ minecraft/recipe/brewing/splash_potion_night_vision_redstone.json
++ minecraft/recipe/brewing/splash_potion_oozing_dragon_breath.json
++ minecraft/recipe/brewing/splash_potion_poison_dragon_breath.json
++ minecraft/recipe/brewing/splash_potion_poison_fermented_spider_eye.json
++ minecraft/recipe/brewing/splash_potion_poison_glowstone_dust.json
++ minecraft/recipe/brewing/splash_potion_poison_redstone.json
++ minecraft/recipe/brewing/splash_potion_regeneration_dragon_breath.json
++ minecraft/recipe/brewing/splash_potion_regeneration_glowstone_dust.json
++ minecraft/recipe/brewing/splash_potion_regeneration_redstone.json
++ minecraft/recipe/brewing/splash_potion_slow_falling_dragon_breath.json
++ minecraft/recipe/brewing/splash_potion_slow_falling_redstone.json
++ minecraft/recipe/brewing/splash_potion_slowness_dragon_breath.json
++ minecraft/recipe/brewing/splash_potion_slowness_glowstone_dust.json
++ minecraft/recipe/brewing/splash_potion_slowness_redstone.json
++ minecraft/recipe/brewing/splash_potion_strength_dragon_breath.json
++ minecraft/recipe/brewing/splash_potion_strength_glowstone_dust.json
++ minecraft/recipe/brewing/splash_potion_strength_redstone.json
++ minecraft/recipe/brewing/splash_potion_strong_harming_dragon_breath.json
++ minecraft/recipe/brewing/splash_potion_strong_healing_dragon_breath.json
++ minecraft/recipe/brewing/splash_potion_strong_healing_fermented_spider_eye.json
++ minecraft/recipe/brewing/splash_potion_strong_leaping_dragon_breath.json
++ minecraft/recipe/brewing/splash_potion_strong_poison_dragon_breath.json
++ minecraft/recipe/brewing/splash_potion_strong_poison_fermented_spider_eye.json
++ minecraft/recipe/brewing/splash_potion_strong_regeneration_dragon_breath.json
++ minecraft/recipe/brewing/splash_potion_strong_slowness_dragon_breath.json
++ minecraft/recipe/brewing/splash_potion_strong_strength_dragon_breath.json
++ minecraft/recipe/brewing/splash_potion_strong_swiftness_dragon_breath.json
++ minecraft/recipe/brewing/splash_potion_strong_turtle_master_dragon_breath.json
++ minecraft/recipe/brewing/splash_potion_swiftness_dragon_breath.json
++ minecraft/recipe/brewing/splash_potion_swiftness_fermented_spider_eye.json
++ minecraft/recipe/brewing/splash_potion_swiftness_glowstone_dust.json
++ minecraft/recipe/brewing/splash_potion_swiftness_redstone.json
++ minecraft/recipe/brewing/splash_potion_thick_dragon_breath.json
++ minecraft/recipe/brewing/splash_potion_turtle_master_dragon_breath.json
++ minecraft/recipe/brewing/splash_potion_turtle_master_glowstone_dust.json
++ minecraft/recipe/brewing/splash_potion_turtle_master_redstone.json
++ minecraft/recipe/brewing/splash_potion_water_blaze_powder.json
++ minecraft/recipe/brewing/splash_potion_water_breathing_dragon_breath.json
++ minecraft/recipe/brewing/splash_potion_water_breathing_redstone.json
++ minecraft/recipe/brewing/splash_potion_water_breeze_rod.json
++ minecraft/recipe/brewing/splash_potion_water_cobweb.json
++ minecraft/recipe/brewing/splash_potion_water_dragon_breath.json
++ minecraft/recipe/brewing/splash_potion_water_fermented_spider_eye.json
++ minecraft/recipe/brewing/splash_potion_water_ghast_tear.json
++ minecraft/recipe/brewing/splash_potion_water_glistering_melon_slice.json
++ minecraft/recipe/brewing/splash_potion_water_glowstone_dust.json
++ minecraft/recipe/brewing/splash_potion_water_magma_cream.json
++ minecraft/recipe/brewing/splash_potion_water_nether_wart.json
++ minecraft/recipe/brewing/splash_potion_water_rabbit_foot.json
++ minecraft/recipe/brewing/splash_potion_water_redstone.json
++ minecraft/recipe/brewing/splash_potion_water_slime_block.json
++ minecraft/recipe/brewing/splash_potion_water_spider_eye.json
++ minecraft/recipe/brewing/splash_potion_water_stone.json
++ minecraft/recipe/brewing/splash_potion_water_sugar.json
++ minecraft/recipe/brewing/splash_potion_weakness_dragon_breath.json
++ minecraft/recipe/brewing/splash_potion_weakness_redstone.json
++ minecraft/recipe/brewing/splash_potion_weaving_dragon_breath.json
++ minecraft/recipe/brewing/splash_potion_wind_charged_dragon_breath.json
++ minecraft/recipe/brown_cushion.json
++ minecraft/recipe/cyan_cushion.json
++ minecraft/recipe/dye_black_cushion.json
++ minecraft/recipe/dye_blue_cushion.json
++ minecraft/recipe/dye_brown_cushion.json
++ minecraft/recipe/dye_cyan_cushion.json
++ minecraft/recipe/dye_gray_cushion.json
++ minecraft/recipe/dye_green_cushion.json
++ minecraft/recipe/dye_light_blue_cushion.json
++ minecraft/recipe/dye_light_gray_cushion.json
++ minecraft/recipe/dye_lime_cushion.json
++ minecraft/recipe/dye_magenta_cushion.json
++ minecraft/recipe/dye_orange_cushion.json
++ minecraft/recipe/dye_pink_cushion.json
++ minecraft/recipe/dye_purple_cushion.json
++ minecraft/recipe/dye_red_cushion.json
++ minecraft/recipe/dye_white_cushion.json
++ minecraft/recipe/dye_yellow_cushion.json
++ minecraft/recipe/gray_cushion.json
++ minecraft/recipe/green_cushion.json
++ minecraft/recipe/light_blue_cushion.json
++ minecraft/recipe/light_gray_cushion.json
++ minecraft/recipe/lime_cushion.json
++ minecraft/recipe/magenta_cushion.json
++ minecraft/recipe/orange_cushion.json
++ minecraft/recipe/pink_cushion.json
++ minecraft/recipe/purple_cushion.json
++ minecraft/recipe/red_cushion.json
++ minecraft/recipe/straw_bed.json
++ minecraft/recipe/white_cushion.json
++ minecraft/recipe/yellow_cushion.json
++ minecraft/tags/block/cats_can_lie_on.json
++ minecraft/tags/block/cats_can_sit_on.json
+- minecraft/tags/block/convertable_to_mud.json
++ minecraft/tags/block/convertible_to_mud.json
++ minecraft/tags/block/height_specific_ore_replaceables.json
++ minecraft/tags/block/sculk_growth_inhibitors.json
++ minecraft/tags/block/speeds_up_zombie_villager_curing.json
++ minecraft/tags/block/villager_babies_can_jump_on_bed.json
++ minecraft/tags/block/villagers_can_sleep_on_bed.json
++ minecraft/tags/item/cushions.json
++ minecraft/tags/item/douses_campfires.json
+- minecraft/tags/item/dowses_campfires.json
++ minecraft/tags/worldgen/structure/abandoned_camp.json
++ minecraft/worldgen/placed_feature/bamboo_in_structure.json
++ minecraft/worldgen/placed_feature/orange_poplar.json
++ minecraft/worldgen/placed_feature/red_poplar.json
++ minecraft/worldgen/placed_feature/yellow_poplar.json
++ minecraft/worldgen/template_pool/abandoned_camp/trees/acacia.json
++ minecraft/worldgen/template_pool/abandoned_camp/trees/bamboo.json
++ minecraft/worldgen/template_pool/abandoned_camp/trees/birch_bees.json
++ minecraft/worldgen/template_pool/abandoned_camp/trees/birch.json
++ minecraft/worldgen/template_pool/abandoned_camp/trees/cherry_bees.json
++ minecraft/worldgen/template_pool/abandoned_camp/trees/cherry.json
++ minecraft/worldgen/template_pool/abandoned_camp/trees/fancy_oak_bees.json
++ minecraft/worldgen/template_pool/abandoned_camp/trees/fancy_oak.json
++ minecraft/worldgen/template_pool/abandoned_camp/trees/jungle.json
++ minecraft/worldgen/template_pool/abandoned_camp/trees/mega_jungle.json
++ minecraft/worldgen/template_pool/abandoned_camp/trees/mega_pine.json
++ minecraft/worldgen/template_pool/abandoned_camp/trees/oak.json
++ minecraft/worldgen/template_pool/abandoned_camp/trees/orange_poplar.json
++ minecraft/worldgen/template_pool/abandoned_camp/trees/pale_oak.json
++ minecraft/worldgen/template_pool/abandoned_camp/trees/pine.json
++ minecraft/worldgen/template_pool/abandoned_camp/trees/red_poplar.json
++ minecraft/worldgen/template_pool/abandoned_camp/trees/spruce_on_snow.json
++ minecraft/worldgen/template_pool/abandoned_camp/trees/spruce.json
++ minecraft/worldgen/template_pool/abandoned_camp/trees/super_birch_bees.json
++ minecraft/worldgen/template_pool/abandoned_camp/trees/thick_spruce.json
++ minecraft/worldgen/template_pool/abandoned_camp/trees/yellow_poplar.json
+```
+
+</details>
+<details>
+<summary>
+assets
+</summary>
+
+```diff
++ minecraft/blockstates/straw_bed.json
++ minecraft/items/black_cushion.json
++ minecraft/items/blue_cushion.json
++ minecraft/items/brown_cushion.json
++ minecraft/items/cyan_cushion.json
++ minecraft/items/gray_cushion.json
++ minecraft/items/green_cushion.json
++ minecraft/items/light_blue_cushion.json
++ minecraft/items/light_gray_cushion.json
++ minecraft/items/lime_cushion.json
++ minecraft/items/magenta_cushion.json
++ minecraft/items/orange_cushion.json
++ minecraft/items/pink_cushion.json
++ minecraft/items/purple_cushion.json
++ minecraft/items/red_cushion.json
++ minecraft/items/straw_bed.json
++ minecraft/items/white_cushion.json
++ minecraft/items/yellow_cushion.json
++ minecraft/models/block/straw_bed_foot.json
++ minecraft/models/block/straw_bed_head.json
++ minecraft/models/item/black_cushion.json
++ minecraft/models/item/blue_cushion.json
++ minecraft/models/item/brown_cushion.json
++ minecraft/models/item/cyan_cushion.json
++ minecraft/models/item/gray_cushion.json
++ minecraft/models/item/green_cushion.json
++ minecraft/models/item/light_blue_cushion.json
++ minecraft/models/item/light_gray_cushion.json
+- minecraft/models/item/light.json
++ minecraft/models/item/lime_cushion.json
++ minecraft/models/item/magenta_cushion.json
++ minecraft/models/item/orange_cushion.json
++ minecraft/models/item/pink_cushion.json
++ minecraft/models/item/purple_cushion.json
++ minecraft/models/item/red_cushion.json
++ minecraft/models/item/white_cushion.json
++ minecraft/models/item/yellow_cushion.json
++ minecraft/textures/block/straw_bed_head.json
++ minecraft/textures/block/straw_bed_particle.png
++ minecraft/textures/block/straw_bed.png
++ minecraft/textures/entity/cushion/black_cushion.png
++ minecraft/textures/entity/cushion/blue_cushion.png
++ minecraft/textures/entity/cushion/brown_cushion.png
++ minecraft/textures/entity/cushion/cyan_cushion.png
++ minecraft/textures/entity/cushion/gray_cushion.png
++ minecraft/textures/entity/cushion/green_cushion.png
++ minecraft/textures/entity/cushion/light_blue_cushion.png
++ minecraft/textures/entity/cushion/light_gray_cushion.png
++ minecraft/textures/entity/cushion/lime_cushion.png
++ minecraft/textures/entity/cushion/magenta_cushion.png
++ minecraft/textures/entity/cushion/orange_cushion.png
++ minecraft/textures/entity/cushion/pink_cushion.png
++ minecraft/textures/entity/cushion/purple_cushion.png
++ minecraft/textures/entity/cushion/red_cushion.png
++ minecraft/textures/entity/cushion/white_cushion.png
++ minecraft/textures/entity/cushion/yellow_cushion.png
++ minecraft/textures/item/black_cushion.png
++ minecraft/textures/item/blue_cushion.png
++ minecraft/textures/item/brown_cushion.png
++ minecraft/textures/item/cyan_cushion.png
++ minecraft/textures/item/gray_cushion.png
++ minecraft/textures/item/green_cushion.png
++ minecraft/textures/item/light_blue_cushion.png
++ minecraft/textures/item/light_gray_cushion.png
+- minecraft/textures/item/light.png
++ minecraft/textures/item/lime_cushion.png
++ minecraft/textures/item/magenta_cushion.png
++ minecraft/textures/item/orange_cushion.png
++ minecraft/textures/item/pink_cushion.png
++ minecraft/textures/item/purple_cushion.png
++ minecraft/textures/item/red_cushion.png
++ minecraft/textures/item/white_cushion.png
++ minecraft/textures/item/yellow_cushion.png
+```
+
+</details>
+</details>
+<hr/>
+<details><summary><b><ins>MISC</ins></b><a name="misc"></a></summary>
+<br/>
+<details>
+<summary>
+splashes
+</summary>
+
+```diff
++ Don't touch your face!
+- Don’t touch your face!
++ Prepare, but don't hoard!
+- Prepare, but don’t hoard!
+```
+
+</details>
+<details>
+<summary>
+parsers
+</summary>
+
+```diff
++ minecraft:feature
+```
+
+</details>
+</details>
+<hr/>
