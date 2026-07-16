@@ -1,0 +1,602 @@
+{
+  "version_data": [
+    {
+      "type": "table",
+      "value": {
+        "previousLabel": "26.3-snapshot-3",
+        "currentLabel": "26.3-snapshot-4",
+        "values": [
+          {
+            "key": "DataPack version",
+            "previous": "110.0",
+            "current": "111.0"
+          },
+          {
+            "key": "ResourcePack version",
+            "previous": "91.0",
+            "current": "92.0"
+          },
+          {
+            "key": "World version",
+            "previous": "5001",
+            "current": "5003"
+          },
+          {
+            "key": "Protocol version",
+            "previous": "1073742149",
+            "current": "1073742150"
+          }
+        ]
+      }
+    },
+    {
+      "type": "title",
+      "value": {
+        "title": "Libraries",
+        "id": "version-data-libraries",
+        "size": 3
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "🗒️ List",
+        "differences": {
+          "added": [
+            "org.lwjgl:lwjgl-sdl V3.4.1",
+            "org.lwjgl:lwjgl-sdl (natives-linux) V3.4.1",
+            "org.lwjgl:lwjgl-sdl (natives-macos) V3.4.1",
+            "org.lwjgl:lwjgl-sdl (natives-macos-arm64) V3.4.1",
+            "org.lwjgl:lwjgl-sdl (natives-windows) V3.4.1",
+            "org.lwjgl:lwjgl-sdl (natives-windows-arm64) V3.4.1",
+            "org.lwjgl:lwjgl-sdl (natives-windows-x86) V3.4.1"
+          ],
+          "removed": [
+            "org.lwjgl:lwjgl-glfw V3.4.1",
+            "org.lwjgl:lwjgl-glfw (natives-linux) V3.4.1",
+            "org.lwjgl:lwjgl-glfw (natives-macos) V3.4.1",
+            "org.lwjgl:lwjgl-glfw (natives-macos-arm64) V3.4.1",
+            "org.lwjgl:lwjgl-glfw (natives-windows) V3.4.1",
+            "org.lwjgl:lwjgl-glfw (natives-windows-arm64) V3.4.1",
+            "org.lwjgl:lwjgl-glfw (natives-windows-x86) V3.4.1"
+          ]
+        }
+      }
+    }
+  ],
+  "registries": [
+    {
+      "type": "entries",
+      "value": {
+        "name": "attribute_type",
+        "differences": {
+          "added": [
+            "minecraft:mob_spawn_settings"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "data_component_type",
+        "differences": {
+          "added": [
+            "minecraft:brewing_fuel",
+            "minecraft:cooking_fuel",
+            "minecraft:cushion/color",
+            "minecraft:mob_visibility",
+            "minecraft:sign_text_back",
+            "minecraft:sign_text_front",
+            "minecraft:villager_food",
+            "minecraft:waxed"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "environment_attribute",
+        "differences": {
+          "added": [
+            "minecraft:gameplay/creature_world_gen_spawn_probability",
+            "minecraft:gameplay/natural_mob_spawns"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "loot_condition_type",
+        "differences": {
+          "added": [
+            "minecraft:match_block"
+          ],
+          "removed": [
+            "minecraft:block_state_property",
+            "minecraft:reference"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "loot_function_type",
+        "differences": {
+          "added": [],
+          "removed": [
+            "minecraft:reference"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "slot_source_type",
+        "differences": {
+          "added": [],
+          "removed": [
+            "minecraft:reference"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "test_environment_definition_type",
+        "differences": {
+          "added": [],
+          "removed": [
+            "minecraft:dimension"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "worldgen/density_function_type",
+        "differences": {
+          "added": [
+            "minecraft:ceil",
+            "minecraft:div",
+            "minecraft:floor",
+            "minecraft:lerp",
+            "minecraft:negate",
+            "minecraft:reciprocal",
+            "minecraft:round",
+            "minecraft:sub",
+            "minecraft:truncate"
+          ],
+          "removed": [
+            "minecraft:invert"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "worldgen/feature_type",
+        "differences": {
+          "added": [],
+          "removed": [
+            "minecraft:nether_forest_vegetation",
+            "minecraft:twisting_vines",
+            "minecraft:weeping_vines"
+          ]
+        }
+      }
+    }
+  ],
+  "tags": [
+    {
+      "type": "entries",
+      "value": {
+        "name": "universal_tags/attribute_type.json",
+        "differences": {
+          "added": [
+            "minecraft:mob_spawn_settings"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "universal_tags/data_component_type.json",
+        "differences": {
+          "added": [
+            "minecraft:brewing_fuel",
+            "minecraft:cooking_fuel",
+            "minecraft:cushion/color",
+            "minecraft:mob_visibility",
+            "minecraft:sign_text_back",
+            "minecraft:sign_text_front",
+            "minecraft:villager_food",
+            "minecraft:waxed"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "universal_tags/environment_attribute.json",
+        "differences": {
+          "added": [
+            "minecraft:gameplay/creature_world_gen_spawn_probability",
+            "minecraft:gameplay/natural_mob_spawns"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "universal_tags/loot_condition_type.json",
+        "differences": {
+          "added": [
+            "minecraft:match_block"
+          ],
+          "removed": [
+            "minecraft:block_state_property",
+            "minecraft:reference"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "universal_tags/loot_function_type.json",
+        "differences": {
+          "added": [],
+          "removed": [
+            "minecraft:reference"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "universal_tags/slot_source_type.json",
+        "differences": {
+          "added": [],
+          "removed": [
+            "minecraft:reference"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "universal_tags/test_environment_definition_type.json",
+        "differences": {
+          "added": [],
+          "removed": [
+            "minecraft:dimension"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "universal_tags/worldgen/density_function_type.json",
+        "differences": {
+          "added": [
+            "minecraft:ceil",
+            "minecraft:div",
+            "minecraft:floor",
+            "minecraft:lerp",
+            "minecraft:negate",
+            "minecraft:reciprocal",
+            "minecraft:round",
+            "minecraft:sub",
+            "minecraft:truncate"
+          ],
+          "removed": [
+            "minecraft:invert"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "universal_tags/worldgen/feature_type.json",
+        "differences": {
+          "added": [],
+          "removed": [
+            "minecraft:nether_forest_vegetation",
+            "minecraft:twisting_vines",
+            "minecraft:weeping_vines"
+          ]
+        }
+      }
+    }
+  ],
+  "translations": [
+    {
+      "type": "entries",
+      "value": {
+        "name": "Keys",
+        "differences": {
+          "added": [
+            "options.debugGuiScale.tooltip: Overrides the debug overlay with a different GUI scale than the rest of the game",
+            "options.debugGuiScale.unchanged: Unchanged",
+            "options.fullscreen.exclusive.mode: Exclusive Fullscreen Mode",
+            "sign.back_text: Back Text:",
+            "sign.click_actions_disabled: Click actions are disabled for this sign",
+            "sign.front_text: Front Text:",
+            "spectator.cannot_teleport: Unable to teleport. The other side is not generated yet."
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "text",
+      "value": {
+        "title": "Changes",
+        "values": [
+          {
+            "key": "advancements.story.iron_tools.title",
+            "previous": "Isn't It Iron Pick",
+            "current": "Isn't It Iron Pick?"
+          },
+          {
+            "key": "advMode.trackOutput",
+            "previous": "Track output",
+            "current": "Track Output"
+          },
+          {
+            "key": "argument.enum.invalid",
+            "previous": "Invalid value \"%s\"",
+            "current": "Invalid value '%s'"
+          },
+          {
+            "key": "argument.pos.outofbounds",
+            "previous": "That position is outside the allowed boundaries.",
+            "current": "That position is outside the allowed boundaries"
+          },
+          {
+            "key": "chat_restriction.disabled_by_launcher",
+            "previous": "Chat is restricted by the launcher",
+            "current": "Chat is restricted by the launcher."
+          },
+          {
+            "key": "commands.kick.owner.failed",
+            "previous": "Cannot kick server owner in LAN game",
+            "current": "Cannot kick the server owner in a LAN game"
+          },
+          {
+            "key": "commands.op.failed",
+            "previous": "Nothing changed. The player already is an operator",
+            "current": "Nothing changed. The player is already an operator"
+          },
+          {
+            "key": "commands.perf.started",
+            "previous": "Started 10 second performance profiling run (use '/perf stop' to stop early)",
+            "current": "Started 10-second performance profiling run (use '/perf stop' to stop early)"
+          },
+          {
+            "key": "commands.stopwatch.create.success",
+            "previous": "Created Stopwatch '%s'",
+            "current": "Created stopwatch '%s'"
+          },
+          {
+            "key": "commands.stopwatch.remove.success",
+            "previous": "Removed Stopwatch '%s'",
+            "current": "Removed stopwatch '%s'"
+          },
+          {
+            "key": "commands.stopwatch.restart.success",
+            "previous": "Restarted Stopwatch '%s'",
+            "current": "Restarted stopwatch '%s'"
+          },
+          {
+            "key": "commands.worldborder.set.grow",
+            "previous": "Growing the world border to %s blocks wide over %s seconds",
+            "current": "Growing the world border to %s blocks wide over %s second(s)"
+          },
+          {
+            "key": "datapackFailure.safeMode.failed.title",
+            "previous": "Failed to load world in Safe Mode.",
+            "current": "Failed to load world in Safe Mode"
+          },
+          {
+            "key": "editGamerule.inGame.discardChanges.title",
+            "previous": "Game rule Changes",
+            "current": "Game Rule Changes"
+          },
+          {
+            "key": "gamerule.doEntityDrops.description",
+            "previous": "Controls drops from minecarts (including inventories), item frames, boats, etc.",
+            "current": "Controls drops from Minecarts (including inventories), Item Frames, Boats, etc."
+          },
+          {
+            "key": "gamerule.minecraft.fire_spread_radius_around_player.description",
+            "previous": "The radius in blocks around a player in which fire can spread",
+            "current": "The radius in blocks around a player in which fire can spread."
+          },
+          {
+            "key": "gui.friends.error.unauthorized",
+            "previous": "Invalid token supplied. Restart your game and launcher, then try again",
+            "current": "Invalid token supplied. Restart your game and launcher, then try again."
+          },
+          {
+            "key": "gui.report_to_server",
+            "previous": "Report To Server",
+            "current": "Report to Server"
+          },
+          {
+            "key": "mco.configure.world.close.question.line1",
+            "previous": "You can temporarily close your Realm, preventing play while you make adjustments. Open it back up when you're ready. \n\n\n\nThis does not cancel your Realms Subscription.",
+            "current": "You can temporarily close your Realm, preventing play while you make adjustments. Open it back up when you're ready.\n\n\n\nThis does not cancel your Realms subscription."
+          },
+          {
+            "key": "mco.errorMessage.6002",
+            "previous": "Terms of service not accepted",
+            "current": "Terms of Service not accepted"
+          },
+          {
+            "key": "mco.snapshot.subscription.info",
+            "previous": "This is a Snapshot Realm that is paired to the subscription of your Realm '%s'. It will stay active for as long as its paired Realm is.",
+            "current": "This is a Snapshot Realm that is paired with the subscription of your Realm '%s'. It will stay active for as long as its paired Realm is."
+          },
+          {
+            "key": "mount.onboard",
+            "previous": "Press %1$s to Dismount",
+            "current": "Press %1$s to dismount"
+          },
+          {
+            "key": "multiplayer.confirm_command.signature_required",
+            "previous": "You are trying to execute a command that will send chat messages using your name.\n\nIt can only be run from the chat screen\n\nCommand: %s",
+            "current": "You are trying to execute a command that will send chat messages using your name.\n\nIt can only be run from the chat screen.\n\nCommand: %s"
+          },
+          {
+            "key": "pack.dropRejected.message",
+            "previous": "The following entries were not valid packs and were not copied:\n\n %s",
+            "current": "The following entries were not valid packs and were not copied:\n\n%s"
+          },
+          {
+            "key": "quickplay.error.invalid_identifier",
+            "previous": "Could not find world with the provided identifier",
+            "current": "Could not find a world with the provided identifier"
+          },
+          {
+            "key": "quickplay.error.realm_connect",
+            "previous": "Could not connect to Realm",
+            "current": "Could not connect to this Realm"
+          },
+          {
+            "key": "selectWorld.edit.backupSize",
+            "previous": "size: %s MB",
+            "current": "Size: %s MB"
+          },
+          {
+            "key": "structure_block.position.x",
+            "previous": "relative Position x",
+            "current": "relative position x"
+          },
+          {
+            "key": "subtitles.block.bubble_column.upwards_inside",
+            "previous": "Bubbles woosh",
+            "current": "Bubbles whoosh"
+          },
+          {
+            "key": "subtitles.entity.copper_golem.no_item_get",
+            "previous": "Copper Golem is picking up item",
+            "current": "Copper Golem is picking up an item"
+          },
+          {
+            "key": "subtitles.entity.copper_golem.no_item_no_get",
+            "previous": "Copper Golem can't pick up item",
+            "current": "Copper Golem can't pick up an item"
+          },
+          {
+            "key": "telemetry.event.performance_metrics.description",
+            "previous": "Knowing the overall performance profile of Minecraft helps us tune and optimize the game for a wide range of machine specifications and operating systems. \n\nGame version is included to help us compare the performance profile for new versions of Minecraft.",
+            "current": "Knowing the overall performance profile of Minecraft helps us tune and optimize the game for a wide range of machine specifications and operating systems.\n\nGame version is included to help us compare the performance profile for new versions of Minecraft."
+          }
+        ]
+      }
+    }
+  ],
+  "file_structure": [
+    {
+      "type": "entries",
+      "value": {
+        "name": "data",
+        "differences": {
+          "added": [
+            "minecraft/number_provider/brewing/speed_default.json",
+            "minecraft/number_provider/brewing/uses_default.json",
+            "minecraft/number_provider/cooking/speed_default.json",
+            "minecraft/number_provider/cooking/time_bamboo.json",
+            "minecraft/number_provider/cooking/time_blaze_rod.json",
+            "minecraft/number_provider/cooking/time_boats.json",
+            "minecraft/number_provider/cooking/time_coal.json",
+            "minecraft/number_provider/cooking/time_coal_block.json",
+            "minecraft/number_provider/cooking/time_dried_kelp_block.json",
+            "minecraft/number_provider/cooking/time_dry_plants.json",
+            "minecraft/number_provider/cooking/time_hanging_signs.json",
+            "minecraft/number_provider/cooking/time_lava_bucket.json",
+            "minecraft/number_provider/cooking/time_roots.json",
+            "minecraft/number_provider/cooking/time_wood_blocks.json",
+            "minecraft/number_provider/cooking/time_wood_items_extra_small.json",
+            "minecraft/number_provider/cooking/time_wood_items_large.json",
+            "minecraft/number_provider/cooking/time_wood_items_small.json",
+            "minecraft/number_provider/cooking/time_wood_slabs.json",
+            "minecraft/number_provider/cooking/time_wool.json",
+            "minecraft/number_provider/cooking/time_wool_carpets.json",
+            "minecraft/number_provider/cooking/time_wool_slabs.json",
+            "minecraft/predicate/block/fast_cooking.json",
+            "minecraft/tags/block/cushion_uses_collision_shape.json",
+            "minecraft/worldgen/density_function/overworld/ore_vein/copper_density.json",
+            "minecraft/worldgen/density_function/overworld/ore_vein/gap.json",
+            "minecraft/worldgen/density_function/overworld/ore_vein/iron_density.json",
+            "minecraft/worldgen/density_function/overworld/ore_vein/mask.json",
+            "minecraft/worldgen/density_function/overworld/ore_vein/richness.json",
+            "minecraft/worldgen/density_function/overworld/ore_vein/toggle.json",
+            "minecraft/worldgen/density_function/overworld/preliminary_surface_level.json",
+            "minecraft/worldgen/density_function/overworld_amplified/preliminary_surface_level.json",
+            "minecraft/worldgen/density_function/overworld_large_biomes/preliminary_surface_level.json",
+            "minecraft/worldgen/feature/coral/block_decoration.json",
+            "minecraft/worldgen/feature/coral/brain_block.json",
+            "minecraft/worldgen/feature/coral/bubble_block.json",
+            "minecraft/worldgen/feature/coral/fire_block.json",
+            "minecraft/worldgen/feature/coral/horn_block.json",
+            "minecraft/worldgen/feature/coral/tube_block.json",
+            "minecraft/worldgen/feature/nylium_bonemeal.json"
+          ],
+          "removed": [
+            "minecraft/tags/item/brewing_fuel.json",
+            "minecraft/worldgen/feature/crimson_forest_vegetation_bonemeal.json",
+            "minecraft/worldgen/feature/nether_sprouts_bonemeal.json",
+            "minecraft/worldgen/feature/twisting_vines_bonemeal.json",
+            "minecraft/worldgen/feature/warped_forest_vegetation_bonemeal.json"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "assets",
+        "differences": {
+          "added": [
+            "minecraft/shaders/core/integrate_depth.fsh",
+            "minecraft/shaders/core/oit_depth_bounds_cull.fsh"
+          ],
+          "removed": []
+        }
+      }
+    }
+  ],
+  "custom": [
+    {
+      "type": "title",
+      "value": {
+        "title": "datapacks.json",
+        "id": "custom-datapacks-json",
+        "size": 2
+      }
+    }
+  ]
+}
