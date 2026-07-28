@@ -1,0 +1,703 @@
+{
+  "version_data": [
+    {
+      "type": "table",
+      "value": {
+        "previousLabel": "26.3-snapshot-5",
+        "currentLabel": "26.3-snapshot-6",
+        "values": [
+          {
+            "key": "DataPack version",
+            "previous": "112.0",
+            "current": "113.0"
+          },
+          {
+            "key": "ResourcePack version",
+            "previous": "93.0",
+            "current": "94.0"
+          },
+          {
+            "key": "World version",
+            "previous": "5004",
+            "current": "5005"
+          },
+          {
+            "key": "Protocol version",
+            "previous": "1073742151",
+            "current": "1073742152"
+          }
+        ]
+      }
+    },
+    {
+      "type": "title",
+      "value": {
+        "title": "Libraries",
+        "id": "version-data-libraries",
+        "size": 3
+      }
+    },
+    {
+      "type": "table",
+      "value": {
+        "title": "Versions",
+        "previousLabel": "26.3-snapshot-5",
+        "currentLabel": "26.3-snapshot-6",
+        "values": [
+          {
+            "key": "io.netty:netty-buffer",
+            "previous": "4.2.15.Final",
+            "current": "4.2.16.Final"
+          },
+          {
+            "key": "io.netty:netty-codec-base",
+            "previous": "4.2.15.Final",
+            "current": "4.2.16.Final"
+          },
+          {
+            "key": "io.netty:netty-codec-compression",
+            "previous": "4.2.15.Final",
+            "current": "4.2.16.Final"
+          },
+          {
+            "key": "io.netty:netty-codec-http",
+            "previous": "4.2.15.Final",
+            "current": "4.2.16.Final"
+          },
+          {
+            "key": "io.netty:netty-common",
+            "previous": "4.2.15.Final",
+            "current": "4.2.16.Final"
+          },
+          {
+            "key": "io.netty:netty-handler",
+            "previous": "4.2.15.Final",
+            "current": "4.2.16.Final"
+          },
+          {
+            "key": "io.netty:netty-resolver",
+            "previous": "4.2.15.Final",
+            "current": "4.2.16.Final"
+          },
+          {
+            "key": "io.netty:netty-transport-classes-epoll",
+            "previous": "4.2.15.Final",
+            "current": "4.2.16.Final"
+          },
+          {
+            "key": "io.netty:netty-transport-classes-kqueue",
+            "previous": "4.2.15.Final",
+            "current": "4.2.16.Final"
+          },
+          {
+            "key": "io.netty:netty-transport-native-epoll (linux-aarch_64)",
+            "previous": "4.2.15.Final",
+            "current": "4.2.16.Final"
+          },
+          {
+            "key": "io.netty:netty-transport-native-epoll (linux-x86_64)",
+            "previous": "4.2.15.Final",
+            "current": "4.2.16.Final"
+          },
+          {
+            "key": "io.netty:netty-transport-native-kqueue (osx-aarch_64)",
+            "previous": "4.2.15.Final",
+            "current": "4.2.16.Final"
+          },
+          {
+            "key": "io.netty:netty-transport-native-kqueue (osx-x86_64)",
+            "previous": "4.2.15.Final",
+            "current": "4.2.16.Final"
+          },
+          {
+            "key": "io.netty:netty-transport-native-unix-common",
+            "previous": "4.2.15.Final",
+            "current": "4.2.16.Final"
+          },
+          {
+            "key": "io.netty:netty-transport",
+            "previous": "4.2.15.Final",
+            "current": "4.2.16.Final"
+          }
+        ]
+      }
+    }
+  ],
+  "registries": [
+    {
+      "type": "entries",
+      "value": {
+        "name": "worldgen/density_function_type",
+        "differences": {
+          "added": [
+            "minecraft:distance_to_point",
+            "minecraft:end_outer_islands",
+            "minecraft:gradient",
+            "minecraft:log",
+            "minecraft:pow",
+            "minecraft:sign",
+            "minecraft:slice",
+            "minecraft:sqrt"
+          ],
+          "removed": [
+            "minecraft:end_islands",
+            "minecraft:y_clamped_gradient"
+          ]
+        }
+      }
+    }
+  ],
+  "tags": [
+    {
+      "type": "entries",
+      "value": {
+        "name": "universal_tags/worldgen/density_function_type.json",
+        "differences": {
+          "added": [
+            "minecraft:distance_to_point",
+            "minecraft:end_outer_islands",
+            "minecraft:gradient",
+            "minecraft:log",
+            "minecraft:pow",
+            "minecraft:sign",
+            "minecraft:slice",
+            "minecraft:sqrt"
+          ],
+          "removed": [
+            "minecraft:end_islands",
+            "minecraft:y_clamped_gradient"
+          ]
+        }
+      }
+    }
+  ],
+  "commands": [
+    {
+      "type": "entries",
+      "value": {
+        "name": "publish",
+        "differences": {
+          "added": [
+            "publish <allowCommands: bool> <port: integer>"
+          ],
+          "removed": [
+            "publish <allowCommands: bool> <gamemode: gamemode> <port: integer>"
+          ]
+        }
+      }
+    }
+  ],
+  "recipes": [
+    {
+      "type": "ansi",
+      "value": {
+        "title": "black_carpet.json",
+        "lines": [
+          "\u001b[1;2mGroup:\u001b[0m carpet -> woolen_carpet"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "black_wool_slab.json",
+        "lines": [
+          "\u001b[1;2mGroup:\u001b[0m none -> woolen_slab"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "black_wool_stairs.json",
+        "lines": [
+          "\u001b[1;2mGroup:\u001b[0m none -> woolen_stairs"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "blue_carpet.json",
+        "lines": [
+          "\u001b[1;2mGroup:\u001b[0m carpet -> woolen_carpet"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "blue_wool_slab.json",
+        "lines": [
+          "\u001b[1;2mGroup:\u001b[0m none -> woolen_slab"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "blue_wool_stairs.json",
+        "lines": [
+          "\u001b[1;2mGroup:\u001b[0m none -> woolen_stairs"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "brown_carpet.json",
+        "lines": [
+          "\u001b[1;2mGroup:\u001b[0m carpet -> woolen_carpet"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "brown_wool_slab.json",
+        "lines": [
+          "\u001b[1;2mGroup:\u001b[0m none -> woolen_slab"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "brown_wool_stairs.json",
+        "lines": [
+          "\u001b[1;2mGroup:\u001b[0m none -> woolen_stairs"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "cyan_carpet.json",
+        "lines": [
+          "\u001b[1;2mGroup:\u001b[0m carpet -> woolen_carpet"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "cyan_wool_slab.json",
+        "lines": [
+          "\u001b[1;2mGroup:\u001b[0m none -> woolen_slab"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "cyan_wool_stairs.json",
+        "lines": [
+          "\u001b[1;2mGroup:\u001b[0m none -> woolen_stairs"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "gray_carpet.json",
+        "lines": [
+          "\u001b[1;2mGroup:\u001b[0m carpet -> woolen_carpet"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "gray_wool_slab.json",
+        "lines": [
+          "\u001b[1;2mGroup:\u001b[0m none -> woolen_slab"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "gray_wool_stairs.json",
+        "lines": [
+          "\u001b[1;2mGroup:\u001b[0m none -> woolen_stairs"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "green_carpet.json",
+        "lines": [
+          "\u001b[1;2mGroup:\u001b[0m carpet -> woolen_carpet"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "green_wool_slab.json",
+        "lines": [
+          "\u001b[1;2mGroup:\u001b[0m none -> woolen_slab"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "green_wool_stairs.json",
+        "lines": [
+          "\u001b[1;2mGroup:\u001b[0m none -> woolen_stairs"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "light_blue_carpet.json",
+        "lines": [
+          "\u001b[1;2mGroup:\u001b[0m carpet -> woolen_carpet"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "light_blue_wool_slab.json",
+        "lines": [
+          "\u001b[1;2mGroup:\u001b[0m none -> woolen_slab"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "light_blue_wool_stairs.json",
+        "lines": [
+          "\u001b[1;2mGroup:\u001b[0m none -> woolen_stairs"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "light_gray_carpet.json",
+        "lines": [
+          "\u001b[1;2mGroup:\u001b[0m carpet -> woolen_carpet"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "light_gray_wool_slab.json",
+        "lines": [
+          "\u001b[1;2mGroup:\u001b[0m none -> woolen_slab"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "light_gray_wool_stairs.json",
+        "lines": [
+          "\u001b[1;2mGroup:\u001b[0m none -> woolen_stairs"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "lime_carpet.json",
+        "lines": [
+          "\u001b[1;2mGroup:\u001b[0m carpet -> woolen_carpet"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "lime_wool_slab.json",
+        "lines": [
+          "\u001b[1;2mGroup:\u001b[0m none -> woolen_slab"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "lime_wool_stairs.json",
+        "lines": [
+          "\u001b[1;2mGroup:\u001b[0m none -> woolen_stairs"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "magenta_carpet.json",
+        "lines": [
+          "\u001b[1;2mGroup:\u001b[0m carpet -> woolen_carpet"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "magenta_wool_slab.json",
+        "lines": [
+          "\u001b[1;2mGroup:\u001b[0m none -> woolen_slab"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "magenta_wool_stairs.json",
+        "lines": [
+          "\u001b[1;2mGroup:\u001b[0m none -> woolen_stairs"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "orange_carpet.json",
+        "lines": [
+          "\u001b[1;2mGroup:\u001b[0m carpet -> woolen_carpet"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "orange_wool_slab.json",
+        "lines": [
+          "\u001b[1;2mGroup:\u001b[0m none -> woolen_slab"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "orange_wool_stairs.json",
+        "lines": [
+          "\u001b[1;2mGroup:\u001b[0m none -> woolen_stairs"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "pink_carpet.json",
+        "lines": [
+          "\u001b[1;2mGroup:\u001b[0m carpet -> woolen_carpet"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "pink_wool_slab.json",
+        "lines": [
+          "\u001b[1;2mGroup:\u001b[0m none -> woolen_slab"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "pink_wool_stairs.json",
+        "lines": [
+          "\u001b[1;2mGroup:\u001b[0m none -> woolen_stairs"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "purple_carpet.json",
+        "lines": [
+          "\u001b[1;2mGroup:\u001b[0m carpet -> woolen_carpet"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "purple_wool_slab.json",
+        "lines": [
+          "\u001b[1;2mGroup:\u001b[0m none -> woolen_slab"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "purple_wool_stairs.json",
+        "lines": [
+          "\u001b[1;2mGroup:\u001b[0m none -> woolen_stairs"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "red_carpet.json",
+        "lines": [
+          "\u001b[1;2mGroup:\u001b[0m carpet -> woolen_carpet"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "red_wool_slab.json",
+        "lines": [
+          "\u001b[1;2mGroup:\u001b[0m none -> woolen_slab"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "red_wool_stairs.json",
+        "lines": [
+          "\u001b[1;2mGroup:\u001b[0m none -> woolen_stairs"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "white_carpet.json",
+        "lines": [
+          "\u001b[1;2mGroup:\u001b[0m carpet -> woolen_carpet"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "white_wool_slab.json",
+        "lines": [
+          "\u001b[1;2mGroup:\u001b[0m none -> woolen_slab"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "white_wool_stairs.json",
+        "lines": [
+          "\u001b[1;2mGroup:\u001b[0m none -> woolen_stairs"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "yellow_carpet.json",
+        "lines": [
+          "\u001b[1;2mGroup:\u001b[0m carpet -> woolen_carpet"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "yellow_wool_slab.json",
+        "lines": [
+          "\u001b[1;2mGroup:\u001b[0m none -> woolen_slab"
+        ]
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "yellow_wool_stairs.json",
+        "lines": [
+          "\u001b[1;2mGroup:\u001b[0m none -> woolen_stairs"
+        ]
+      }
+    }
+  ],
+  "translations": [
+    {
+      "type": "entries",
+      "value": {
+        "name": "Keys",
+        "differences": {
+          "added": [
+            "options.quitShortcuts: Quit Shortcuts",
+            "options.quitShortcuts.tooltip: Whether keyboard shortcuts can close the game. When off, Alt + F4 on Windows and Linux, and Cmd + Q and Cmd + W on macOS, will no longer quit the game.",
+            "options.worldOptions.allow_commands.disabled.demo.tooltip: Cannot allow commands in a demo world.",
+            "options.worldOptions.difficulty.disabled.hardcore.tooltip: Cannot change the difficulty in a hardcore world.",
+            "options.worldOptions.difficulty.disabled.locked.tooltip: Difficulty is locked.",
+            "options.worldOptions.difficulty.disabled.operator.tooltip: Changing the difficulty requires operator permissions.",
+            "options.worldOptions.general.title: General",
+            "options.worldOptions.guest.command_access: Command Access",
+            "options.worldOptions.guest.command_access.disabled.commands.tooltip: Cannot change the command access of players joining your world when commands are not allowed.",
+            "options.worldOptions.guest.command_access.disabled.scope.tooltip: Cannot change the command access of players joining your world when the world's multiplayer scope is set to \"Off\".",
+            "options.worldOptions.guest.command_access.tooltip: Controls whether players that join your world can use commands or not.",
+            "options.worldOptions.multiplayer.title: Multiplayer"
+          ],
+          "removed": []
+        }
+      }
+    }
+  ],
+  "file_structure": [
+    {
+      "type": "entries",
+      "value": {
+        "name": "data",
+        "differences": {
+          "added": [
+            "minecraft/structure/abandoned_camp/camp/bamboo_jungle/campsite_bamboo_jungle_4.nbt",
+            "minecraft/structure/abandoned_camp/camp/birch_forest/campsite_birch_forest_4.nbt",
+            "minecraft/structure/abandoned_camp/camp/cherry_grove/campsite_cherry_grove_4.nbt",
+            "minecraft/structure/abandoned_camp/camp/dappled_forest/campsite_dappled_forest_4.nbt",
+            "minecraft/structure/abandoned_camp/camp/flower_forest/campsite_flower_forest_4.nbt",
+            "minecraft/structure/abandoned_camp/camp/forest/campsite_forest_4.nbt",
+            "minecraft/structure/abandoned_camp/camp/meadow/campsite_meadow_4.nbt",
+            "minecraft/structure/abandoned_camp/camp/old_growth_birch_forest/campsite_old_growth_birch_forest_4.nbt",
+            "minecraft/structure/abandoned_camp/camp/old_growth_pine_taiga/campsite_old_growth_pine_taiga_4.nbt",
+            "minecraft/structure/abandoned_camp/camp/old_growth_spruce_taiga/campsite_old_growth_spruce_taiga_4.nbt",
+            "minecraft/structure/abandoned_camp/camp/pale_garden/campsite_pale_garden_4.nbt",
+            "minecraft/structure/abandoned_camp/camp/savanna/campsite_savanna_4.nbt",
+            "minecraft/structure/abandoned_camp/camp/snowy_taiga/campsite_snowy_taiga_4.nbt",
+            "minecraft/structure/abandoned_camp/camp/sparse_jungle/campsite_sparse_jungle_4.nbt",
+            "minecraft/structure/abandoned_camp/camp/swamp/campsite_swamp_4.nbt",
+            "minecraft/structure/abandoned_camp/camp/taiga/campsite_taiga_4.nbt",
+            "minecraft/structure/abandoned_camp/camp/windswept_forest/campsite_windswept_forest_4.nbt",
+            "minecraft/structure/abandoned_camp/camp/wooded_badlands/campsite_wooded_badlands_4.nbt",
+            "minecraft/worldgen/density_function/end/islands.json"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "assets",
+        "differences": {
+          "added": [
+            "minecraft/shaders/include/terrainglobals.glsl"
+          ],
+          "removed": []
+        }
+      }
+    }
+  ],
+  "custom": [
+    {
+      "type": "title",
+      "value": {
+        "title": "datapacks.json",
+        "id": "custom-datapacks-json",
+        "size": 2
+      }
+    }
+  ]
+}
