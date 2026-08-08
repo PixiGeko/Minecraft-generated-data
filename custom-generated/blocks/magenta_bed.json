@@ -1,0 +1,106 @@
+{
+  "definition": {
+    "type": "minecraft:bed",
+    "color": "magenta",
+    "properties": {}
+  },
+  "properties": {
+    "facing": [
+      "north",
+      "south",
+      "west",
+      "east"
+    ],
+    "occupied": [
+      true,
+      true
+    ],
+    "part": [
+      "head",
+      "foot"
+    ]
+  },
+  "states": {
+    "1963": {
+      "facing": "north",
+      "occupied": true,
+      "part": "head"
+    },
+    "1964": {
+      "facing": "north",
+      "occupied": true,
+      "part": "foot"
+    },
+    "1965": {
+      "facing": "north",
+      "occupied": true,
+      "part": "head"
+    },
+    "1966": {
+      "facing": "north",
+      "occupied": true,
+      "part": "foot"
+    },
+    "1967": {
+      "facing": "south",
+      "occupied": true,
+      "part": "head"
+    },
+    "1968": {
+      "facing": "south",
+      "occupied": true,
+      "part": "foot"
+    },
+    "1969": {
+      "facing": "south",
+      "occupied": true,
+      "part": "head"
+    },
+    "1970": {
+      "facing": "south",
+      "occupied": true,
+      "part": "foot"
+    },
+    "1971": {
+      "facing": "west",
+      "occupied": true,
+      "part": "head"
+    },
+    "1972": {
+      "facing": "west",
+      "occupied": true,
+      "part": "foot"
+    },
+    "1973": {
+      "facing": "west",
+      "occupied": true,
+      "part": "head"
+    },
+    "1974": {
+      "facing": "west",
+      "occupied": true,
+      "part": "foot"
+    },
+    "1975": {
+      "facing": "east",
+      "occupied": true,
+      "part": "head"
+    },
+    "1976": {
+      "facing": "east",
+      "occupied": true,
+      "part": "foot"
+    },
+    "1977": {
+      "facing": "east",
+      "occupied": true,
+      "part": "head"
+    },
+    "1978": {
+      "facing": "east",
+      "occupied": true,
+      "part": "foot"
+    },
+    "default": 1966
+  }
+}

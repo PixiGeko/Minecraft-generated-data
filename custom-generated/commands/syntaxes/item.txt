@@ -1,0 +1,8 @@
+item modify block <pos: block_pos> <slot: item_slot> <modifier: loot_modifier>
+item modify entity <targets: entity> <slot: item_slot> <modifier: loot_modifier>
+item replace block <pos: block_pos> <slot: item_slot> from block <source: block_pos> <sourceSlot: item_slot> <modifier: loot_modifier>
+item replace block <pos: block_pos> <slot: item_slot> from entity <source: entity> <sourceSlot: item_slot> <modifier: loot_modifier>
+item replace block <pos: block_pos> <slot: item_slot> with <item: item_stack> <count: integer>
+item replace entity <targets: entity> <slot: item_slot> from block <source: block_pos> <sourceSlot: item_slot> <modifier: loot_modifier>
+item replace entity <targets: entity> <slot: item_slot> from entity <source: entity> <sourceSlot: item_slot> <modifier: loot_modifier>
+item replace entity <targets: entity> <slot: item_slot> with <item: item_stack> <count: integer>
