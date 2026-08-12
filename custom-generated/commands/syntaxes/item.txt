@@ -1,0 +1,20 @@
+item fill block <target: block_pos> <slots: slot_source> from block <source: block_pos> <sourceSlots: slot_source> <modifier: loot_modifier>
+item fill block <target: block_pos> <slots: slot_source> from entity <source: entity> <sourceSlots: slot_source> <modifier: loot_modifier>
+item fill block <target: block_pos> <slots: slot_source> with <item: item_stack> <count: integer>
+item fill entity <target: entity> <slots: slot_source> from block <source: block_pos> <sourceSlots: slot_source> <modifier: loot_modifier>
+item fill entity <target: entity> <slots: slot_source> from entity <source: entity> <sourceSlots: slot_source> <modifier: loot_modifier>
+item fill entity <target: entity> <slots: slot_source> with <item: item_stack> <count: integer>
+item modify block <target: block_pos> <slots: slot_source> <modifier: loot_modifier>
+item modify entity <target: entity> <slots: slot_source> <modifier: loot_modifier>
+item override block <target: block_pos> <slots: slot_source> from block <source: block_pos> <sourceSlots: slot_source> <modifier: loot_modifier>
+item override block <target: block_pos> <slots: slot_source> from entity <source: entity> <sourceSlots: slot_source> <modifier: loot_modifier>
+item override block <target: block_pos> <slots: slot_source> with <item: item_stack> <count: integer>
+item override entity <target: entity> <slots: slot_source> from block <source: block_pos> <sourceSlots: slot_source> <modifier: loot_modifier>
+item override entity <target: entity> <slots: slot_source> from entity <source: entity> <sourceSlots: slot_source> <modifier: loot_modifier>
+item override entity <target: entity> <slots: slot_source> with <item: item_stack> <count: integer>
+item replace block <target: block_pos> <slots: slot_source> from block <source: block_pos> <sourceSlots: slot_source> <modifier: loot_modifier>
+item replace block <target: block_pos> <slots: slot_source> from entity <source: entity> <sourceSlots: slot_source> <modifier: loot_modifier>
+item replace block <target: block_pos> <slots: slot_source> with <item: item_stack> <count: integer>
+item replace entity <target: entity> <slots: slot_source> from block <source: block_pos> <sourceSlots: slot_source> <modifier: loot_modifier>
+item replace entity <target: entity> <slots: slot_source> from entity <source: entity> <sourceSlots: slot_source> <modifier: loot_modifier>
+item replace entity <target: entity> <slots: slot_source> with <item: item_stack> <count: integer>
