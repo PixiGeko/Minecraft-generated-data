@@ -1,0 +1,916 @@
+{
+  "version_data": [
+    {
+      "type": "table",
+      "value": {
+        "previousLabel": "26.3-snapshot-9",
+        "currentLabel": "26.3-snapshot-10",
+        "values": [
+          {
+            "key": "DataPack version",
+            "previous": "117.0",
+            "current": "118.0"
+          },
+          {
+            "key": "ResourcePack version",
+            "previous": "96.0",
+            "current": "97.0"
+          },
+          {
+            "key": "World version",
+            "previous": "5011",
+            "current": "5015"
+          },
+          {
+            "key": "Protocol version",
+            "previous": "1073742155",
+            "current": "1073742156"
+          }
+        ]
+      }
+    },
+    {
+      "type": "title",
+      "value": {
+        "title": "Libraries",
+        "id": "version-data-libraries",
+        "size": 3
+      }
+    },
+    {
+      "type": "table",
+      "value": {
+        "title": "Versions",
+        "previousLabel": "26.3-snapshot-9",
+        "currentLabel": "26.3-snapshot-10",
+        "values": [
+          {
+            "key": "org.lwjgl:lwjgl-freetype",
+            "previous": "3.4.2",
+            "current": "3.4.3"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-freetype (natives-linux)",
+            "previous": "3.4.2",
+            "current": "3.4.3"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-freetype (natives-macos)",
+            "previous": "3.4.2",
+            "current": "3.4.3"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-freetype (natives-macos-arm64)",
+            "previous": "3.4.2",
+            "current": "3.4.3"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-freetype (natives-windows)",
+            "previous": "3.4.2",
+            "current": "3.4.3"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-freetype (natives-windows-arm64)",
+            "previous": "3.4.2",
+            "current": "3.4.3"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-freetype (natives-windows-x86)",
+            "previous": "3.4.2",
+            "current": "3.4.3"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-jemalloc",
+            "previous": "3.4.2",
+            "current": "3.4.3"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-jemalloc (natives-linux)",
+            "previous": "3.4.2",
+            "current": "3.4.3"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-jemalloc (natives-macos)",
+            "previous": "3.4.2",
+            "current": "3.4.3"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-jemalloc (natives-macos-arm64)",
+            "previous": "3.4.2",
+            "current": "3.4.3"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-jemalloc (natives-windows)",
+            "previous": "3.4.2",
+            "current": "3.4.3"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-jemalloc (natives-windows-arm64)",
+            "previous": "3.4.2",
+            "current": "3.4.3"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-jemalloc (natives-windows-x86)",
+            "previous": "3.4.2",
+            "current": "3.4.3"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-openal",
+            "previous": "3.4.2",
+            "current": "3.4.3"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-openal (natives-linux)",
+            "previous": "3.4.2",
+            "current": "3.4.3"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-openal (natives-macos)",
+            "previous": "3.4.2",
+            "current": "3.4.3"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-openal (natives-macos-arm64)",
+            "previous": "3.4.2",
+            "current": "3.4.3"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-openal (natives-windows)",
+            "previous": "3.4.2",
+            "current": "3.4.3"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-openal (natives-windows-arm64)",
+            "previous": "3.4.2",
+            "current": "3.4.3"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-openal (natives-windows-x86)",
+            "previous": "3.4.2",
+            "current": "3.4.3"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-opengl",
+            "previous": "3.4.2",
+            "current": "3.4.3"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-opengl (natives-linux)",
+            "previous": "3.4.2",
+            "current": "3.4.3"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-opengl (natives-macos)",
+            "previous": "3.4.2",
+            "current": "3.4.3"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-opengl (natives-macos-arm64)",
+            "previous": "3.4.2",
+            "current": "3.4.3"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-opengl (natives-windows)",
+            "previous": "3.4.2",
+            "current": "3.4.3"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-opengl (natives-windows-arm64)",
+            "previous": "3.4.2",
+            "current": "3.4.3"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-opengl (natives-windows-x86)",
+            "previous": "3.4.2",
+            "current": "3.4.3"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-sdl",
+            "previous": "3.4.2",
+            "current": "3.4.3"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-sdl (natives-linux)",
+            "previous": "3.4.2",
+            "current": "3.4.3"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-sdl (natives-macos)",
+            "previous": "3.4.2",
+            "current": "3.4.3"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-sdl (natives-macos-arm64)",
+            "previous": "3.4.2",
+            "current": "3.4.3"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-sdl (natives-windows)",
+            "previous": "3.4.2",
+            "current": "3.4.3"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-sdl (natives-windows-arm64)",
+            "previous": "3.4.2",
+            "current": "3.4.3"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-sdl (natives-windows-x86)",
+            "previous": "3.4.2",
+            "current": "3.4.3"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-shaderc",
+            "previous": "3.4.2",
+            "current": "3.4.3"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-shaderc (natives-linux)",
+            "previous": "3.4.2",
+            "current": "3.4.3"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-shaderc (natives-macos)",
+            "previous": "3.4.2",
+            "current": "3.4.3"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-shaderc (natives-macos-arm64)",
+            "previous": "3.4.2",
+            "current": "3.4.3"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-shaderc (natives-windows)",
+            "previous": "3.4.2",
+            "current": "3.4.3"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-shaderc (natives-windows-arm64)",
+            "previous": "3.4.2",
+            "current": "3.4.3"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-shaderc (natives-windows-x86)",
+            "previous": "3.4.2",
+            "current": "3.4.3"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-spvc",
+            "previous": "3.4.2",
+            "current": "3.4.3"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-spvc (natives-linux)",
+            "previous": "3.4.2",
+            "current": "3.4.3"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-spvc (natives-macos)",
+            "previous": "3.4.2",
+            "current": "3.4.3"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-spvc (natives-macos-arm64)",
+            "previous": "3.4.2",
+            "current": "3.4.3"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-spvc (natives-windows)",
+            "previous": "3.4.2",
+            "current": "3.4.3"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-spvc (natives-windows-arm64)",
+            "previous": "3.4.2",
+            "current": "3.4.3"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-spvc (natives-windows-x86)",
+            "previous": "3.4.2",
+            "current": "3.4.3"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-stb",
+            "previous": "3.4.2",
+            "current": "3.4.3"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-stb (natives-linux)",
+            "previous": "3.4.2",
+            "current": "3.4.3"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-stb (natives-macos)",
+            "previous": "3.4.2",
+            "current": "3.4.3"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-stb (natives-macos-arm64)",
+            "previous": "3.4.2",
+            "current": "3.4.3"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-stb (natives-windows)",
+            "previous": "3.4.2",
+            "current": "3.4.3"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-stb (natives-windows-arm64)",
+            "previous": "3.4.2",
+            "current": "3.4.3"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-stb (natives-windows-x86)",
+            "previous": "3.4.2",
+            "current": "3.4.3"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-vma",
+            "previous": "3.4.2",
+            "current": "3.4.3"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-vma (natives-linux)",
+            "previous": "3.4.2",
+            "current": "3.4.3"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-vma (natives-macos)",
+            "previous": "3.4.2",
+            "current": "3.4.3"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-vma (natives-macos-arm64)",
+            "previous": "3.4.2",
+            "current": "3.4.3"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-vma (natives-windows)",
+            "previous": "3.4.2",
+            "current": "3.4.3"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-vma (natives-windows-arm64)",
+            "previous": "3.4.2",
+            "current": "3.4.3"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-vma (natives-windows-x86)",
+            "previous": "3.4.2",
+            "current": "3.4.3"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-vulkan",
+            "previous": "3.4.2",
+            "current": "3.4.3"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-vulkan (natives-macos)",
+            "previous": "3.4.2",
+            "current": "3.4.3"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-vulkan (natives-macos-arm64)",
+            "previous": "3.4.2",
+            "current": "3.4.3"
+          },
+          {
+            "key": "org.lwjgl:lwjgl",
+            "previous": "3.4.2",
+            "current": "3.4.3"
+          },
+          {
+            "key": "org.lwjgl:lwjgl (natives-linux)",
+            "previous": "3.4.2",
+            "current": "3.4.3"
+          },
+          {
+            "key": "org.lwjgl:lwjgl (natives-macos)",
+            "previous": "3.4.2",
+            "current": "3.4.3"
+          },
+          {
+            "key": "org.lwjgl:lwjgl (natives-macos-arm64)",
+            "previous": "3.4.2",
+            "current": "3.4.3"
+          },
+          {
+            "key": "org.lwjgl:lwjgl (natives-windows)",
+            "previous": "3.4.2",
+            "current": "3.4.3"
+          },
+          {
+            "key": "org.lwjgl:lwjgl (natives-windows-arm64)",
+            "previous": "3.4.2",
+            "current": "3.4.3"
+          },
+          {
+            "key": "org.lwjgl:lwjgl (natives-windows-x86)",
+            "previous": "3.4.2",
+            "current": "3.4.3"
+          }
+        ]
+      }
+    }
+  ],
+  "registries": [
+    {
+      "type": "entries",
+      "value": {
+        "name": "chunk_status",
+        "differences": {
+          "added": [
+            "minecraft:terrain"
+          ],
+          "removed": [
+            "minecraft:carvers",
+            "minecraft:noise",
+            "minecraft:surface"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "command_argument_type",
+        "differences": {
+          "added": [
+            "minecraft:number_provider"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "item",
+        "differences": {
+          "added": [
+            "minecraft:buried_trial_chambers_map",
+            "minecraft:jungle_pyramid_map",
+            "minecraft:ocean_monument_map",
+            "minecraft:swamp_hut_map",
+            "minecraft:woodland_mansion_map"
+          ],
+          "removed": [
+            "minecraft:jungle_explorer_map",
+            "minecraft:ocean_explorer_map",
+            "minecraft:swamp_explorer_map",
+            "minecraft:trial_explorer_map",
+            "minecraft:woodland_explorer_map"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "worldgen/density_function_type",
+        "differences": {
+          "added": [
+            "minecraft:cache"
+          ],
+          "removed": [
+            "minecraft:cache_2d",
+            "minecraft:cache_all_in_cell",
+            "minecraft:cache_once",
+            "minecraft:flat_cache",
+            "minecraft:shifted_noise"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "worldgen/material_rule_type",
+        "differences": {
+          "added": [
+            "minecraft:ore_vein"
+          ],
+          "removed": []
+        }
+      }
+    }
+  ],
+  "tags": [
+    {
+      "type": "entries",
+      "value": {
+        "name": "universal_tags/chunk_status.json",
+        "differences": {
+          "added": [
+            "minecraft:terrain"
+          ],
+          "removed": [
+            "minecraft:carvers",
+            "minecraft:noise",
+            "minecraft:surface"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "universal_tags/command_argument_type.json",
+        "differences": {
+          "added": [
+            "minecraft:number_provider"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "universal_tags/item.json",
+        "differences": {
+          "added": [
+            "minecraft:buried_trial_chambers_map",
+            "minecraft:jungle_pyramid_map",
+            "minecraft:ocean_monument_map",
+            "minecraft:swamp_hut_map",
+            "minecraft:woodland_mansion_map"
+          ],
+          "removed": [
+            "minecraft:jungle_explorer_map",
+            "minecraft:ocean_explorer_map",
+            "minecraft:swamp_explorer_map",
+            "minecraft:trial_explorer_map",
+            "minecraft:woodland_explorer_map"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "universal_tags/worldgen/density_function_type.json",
+        "differences": {
+          "added": [
+            "minecraft:cache"
+          ],
+          "removed": [
+            "minecraft:cache_2d",
+            "minecraft:cache_all_in_cell",
+            "minecraft:cache_once",
+            "minecraft:flat_cache",
+            "minecraft:shifted_noise"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "universal_tags/worldgen/material_rule_type.json",
+        "differences": {
+          "added": [
+            "minecraft:ore_vein"
+          ],
+          "removed": []
+        }
+      }
+    }
+  ],
+  "commands": [
+    {
+      "type": "entries",
+      "value": {
+        "name": "🗒️ List",
+        "differences": {
+          "added": [
+            "compute.txt"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "data",
+        "differences": {
+          "added": [
+            "data modify block <target: block_pos> <targetPath: nbt_path> append compute block <computePos: block_pos> <provider: number_provider> integer",
+            "data modify block <target: block_pos> <targetPath: nbt_path> append compute default <provider: number_provider> integer",
+            "data modify block <target: block_pos> <targetPath: nbt_path> append compute entity <computeTarget: entity> <provider: number_provider> integer",
+            "data modify block <target: block_pos> <targetPath: nbt_path> insert <index: integer> compute block <computePos: block_pos> <provider: number_provider> integer",
+            "data modify block <target: block_pos> <targetPath: nbt_path> insert <index: integer> compute default <provider: number_provider> integer",
+            "data modify block <target: block_pos> <targetPath: nbt_path> insert <index: integer> compute entity <computeTarget: entity> <provider: number_provider> integer",
+            "data modify block <target: block_pos> <targetPath: nbt_path> merge compute block <computePos: block_pos> <provider: number_provider> integer",
+            "data modify block <target: block_pos> <targetPath: nbt_path> merge compute default <provider: number_provider> integer",
+            "data modify block <target: block_pos> <targetPath: nbt_path> merge compute entity <computeTarget: entity> <provider: number_provider> integer",
+            "data modify block <target: block_pos> <targetPath: nbt_path> prepend compute block <computePos: block_pos> <provider: number_provider> integer",
+            "data modify block <target: block_pos> <targetPath: nbt_path> prepend compute default <provider: number_provider> integer",
+            "data modify block <target: block_pos> <targetPath: nbt_path> prepend compute entity <computeTarget: entity> <provider: number_provider> integer",
+            "data modify block <target: block_pos> <targetPath: nbt_path> set compute block <computePos: block_pos> <provider: number_provider> integer",
+            "data modify block <target: block_pos> <targetPath: nbt_path> set compute default <provider: number_provider> integer",
+            "data modify block <target: block_pos> <targetPath: nbt_path> set compute entity <computeTarget: entity> <provider: number_provider> integer",
+            "data modify entity <target: entity> <targetPath: nbt_path> append compute block <computePos: block_pos> <provider: number_provider> integer",
+            "data modify entity <target: entity> <targetPath: nbt_path> append compute default <provider: number_provider> integer",
+            "data modify entity <target: entity> <targetPath: nbt_path> append compute entity <computeTarget: entity> <provider: number_provider> integer",
+            "data modify entity <target: entity> <targetPath: nbt_path> insert <index: integer> compute block <computePos: block_pos> <provider: number_provider> integer",
+            "data modify entity <target: entity> <targetPath: nbt_path> insert <index: integer> compute default <provider: number_provider> integer",
+            "data modify entity <target: entity> <targetPath: nbt_path> insert <index: integer> compute entity <computeTarget: entity> <provider: number_provider> integer",
+            "data modify entity <target: entity> <targetPath: nbt_path> merge compute block <computePos: block_pos> <provider: number_provider> integer",
+            "data modify entity <target: entity> <targetPath: nbt_path> merge compute default <provider: number_provider> integer",
+            "data modify entity <target: entity> <targetPath: nbt_path> merge compute entity <computeTarget: entity> <provider: number_provider> integer",
+            "data modify entity <target: entity> <targetPath: nbt_path> prepend compute block <computePos: block_pos> <provider: number_provider> integer",
+            "data modify entity <target: entity> <targetPath: nbt_path> prepend compute default <provider: number_provider> integer",
+            "data modify entity <target: entity> <targetPath: nbt_path> prepend compute entity <computeTarget: entity> <provider: number_provider> integer",
+            "data modify entity <target: entity> <targetPath: nbt_path> set compute block <computePos: block_pos> <provider: number_provider> integer",
+            "data modify entity <target: entity> <targetPath: nbt_path> set compute default <provider: number_provider> integer",
+            "data modify entity <target: entity> <targetPath: nbt_path> set compute entity <computeTarget: entity> <provider: number_provider> integer",
+            "data modify storage <target: resource_location> <targetPath: nbt_path> append compute block <computePos: block_pos> <provider: number_provider> integer",
+            "data modify storage <target: resource_location> <targetPath: nbt_path> append compute default <provider: number_provider> integer",
+            "data modify storage <target: resource_location> <targetPath: nbt_path> append compute entity <computeTarget: entity> <provider: number_provider> integer",
+            "data modify storage <target: resource_location> <targetPath: nbt_path> insert <index: integer> compute block <computePos: block_pos> <provider: number_provider> integer",
+            "data modify storage <target: resource_location> <targetPath: nbt_path> insert <index: integer> compute default <provider: number_provider> integer",
+            "data modify storage <target: resource_location> <targetPath: nbt_path> insert <index: integer> compute entity <computeTarget: entity> <provider: number_provider> integer",
+            "data modify storage <target: resource_location> <targetPath: nbt_path> merge compute block <computePos: block_pos> <provider: number_provider> integer",
+            "data modify storage <target: resource_location> <targetPath: nbt_path> merge compute default <provider: number_provider> integer",
+            "data modify storage <target: resource_location> <targetPath: nbt_path> merge compute entity <computeTarget: entity> <provider: number_provider> integer",
+            "data modify storage <target: resource_location> <targetPath: nbt_path> prepend compute block <computePos: block_pos> <provider: number_provider> integer",
+            "data modify storage <target: resource_location> <targetPath: nbt_path> prepend compute default <provider: number_provider> integer",
+            "data modify storage <target: resource_location> <targetPath: nbt_path> prepend compute entity <computeTarget: entity> <provider: number_provider> integer",
+            "data modify storage <target: resource_location> <targetPath: nbt_path> set compute block <computePos: block_pos> <provider: number_provider> integer",
+            "data modify storage <target: resource_location> <targetPath: nbt_path> set compute default <provider: number_provider> integer",
+            "data modify storage <target: resource_location> <targetPath: nbt_path> set compute entity <computeTarget: entity> <provider: number_provider> integer"
+          ],
+          "removed": []
+        }
+      }
+    }
+  ],
+  "datapacks": [
+    {
+      "type": "entries",
+      "value": {
+        "name": "[registries] List",
+        "differences": {
+          "added": [
+            "minecraft:block_transformer"
+          ],
+          "removed": []
+        }
+      }
+    }
+  ],
+  "translations": [
+    {
+      "type": "entries",
+      "value": {
+        "name": "Keys",
+        "differences": {
+          "added": [
+            "command.compute.result.named.exact: %s returned value %s",
+            "command.compute.result.named.rounded: %s returned value %s (rounded to %s)",
+            "command.compute.result.unnamed.exact: Number provider returned value %s",
+            "command.compute.result.unnamed.rounded: Number provider returned value %s (rounded to %s)",
+            "item.minecraft.buried_trial_chambers_map: Buried Trial Chambers Map",
+            "item.minecraft.jungle_pyramid_map: Jungle Pyramid Map",
+            "item.minecraft.ocean_monument_map: Ocean Monument Map",
+            "item.minecraft.swamp_hut_map: Swamp Hut Map",
+            "item.minecraft.woodland_mansion_map: Woodland Mansion Map",
+            "mco.pdp.friends.description: Your invited friends can play in your Realm for free, anytime - even when you're not online. Play with up to 10 at once!",
+            "mco.pdp.friends.title: A better way to play together",
+            "mco.pdp.minigames.description: Explore the rotating library of minigames, adventure maps and more.",
+            "mco.pdp.minigames.title: Minigames - Free creator content",
+            "mco.pdp.private.backups: • Automatic backups",
+            "mco.pdp.private.easyToManage: • Easy to set up, easy to manage",
+            "mco.pdp.private.secure: • Private and secure",
+            "mco.pdp.private.title: Personal server",
+            "mco.pdp.private.worldSlots: • Three world slots",
+            "mco.pdp.trial.description: Free 30-day trial!",
+            "mco.pdp.trial.title: Your own server, always online",
+            "mco.pdp.tryForFree: Try for free",
+            "mco.selectServer.freeTrial: Free trial",
+            "options.worldOptions.guest.force_game_mode.off.hardcore.tooltip: Cannot change this setting in a hardcore world.",
+            "options.worldOptions.guest.force_game_mode.off.scope.tooltip: Cannot change this setting when the world's multiplayer scope is set to \"Off\".",
+            "subtitles.entity.happy_ghast.riding: Wind rushes past",
+            "subtitles.entity.nautilus.riding: Nautilus bubbles",
+            "test_instance.description.dimension: Dimension: %s",
+            "upgradeWorld.aborted.file_already_exists: The world folder seems to already contain some upgraded files. The game is unable to correctly upgrade your world."
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "text",
+      "value": {
+        "title": "Changes",
+        "values": [
+          {
+            "key": "argument.pos.mixed",
+            "previous": "Cannot mix world & local coordinates (everything must either use ^ or not)",
+            "current": "Cannot mix world and local coordinates (everything must either use ^ or not)"
+          },
+          {
+            "key": "commands.bossbar.get.visible.visible",
+            "previous": "Custom bossbar %s is currently shown",
+            "current": "Custom bossbar %s is currently visible"
+          },
+          {
+            "key": "commands.bossbar.set.max.unchanged",
+            "previous": "Nothing changed. That's already the max of this bossbar",
+            "current": "Nothing changed. That's already the maximum of this bossbar"
+          },
+          {
+            "key": "commands.setworldspawn.failure.not_overworld",
+            "previous": "Can only set the world spawn for overworld",
+            "current": "Can only set the world spawn for the Overworld"
+          },
+          {
+            "key": "commands.tag.list.multiple.success",
+            "previous": "The %s entities have %s total tags: %s",
+            "current": "The %s entities have %s total tag(s): %s"
+          },
+          {
+            "key": "commands.tag.list.single.success",
+            "previous": "%s has %s tags: %s",
+            "current": "%s has %s tag(s): %s"
+          },
+          {
+            "key": "commands.weather.set.thunder",
+            "previous": "Set the weather to rain & thunder",
+            "current": "Set the weather to rain and thunder"
+          },
+          {
+            "key": "debug.options.notAllowed.tooltip",
+            "previous": "Not visible when debug info is reduced",
+            "current": "Not visible when debug info is reduced."
+          },
+          {
+            "key": "gamerule.spawnChunkRadius.description",
+            "previous": "The amount of chunks that stay loaded around the overworld spawn position.",
+            "current": "The amount of chunks that stay loaded around the Overworld spawn position."
+          },
+          {
+            "key": "mco.download.percent",
+            "previous": "%s %%",
+            "current": "%s%%"
+          },
+          {
+            "key": "mco.upload.percent",
+            "previous": "%s %%",
+            "current": "%s%%"
+          },
+          {
+            "key": "options.languageWarning",
+            "previous": "Language translations may not be 100%% accurate",
+            "current": "Language translations may not be 100%% accurate."
+          },
+          {
+            "key": "options.prioritizeChunkUpdates.byPlayer.tooltip",
+            "previous": "Some actions within a chunk will recompile the chunk immediately. This includes block placing & destroying.",
+            "current": "Some actions within a chunk will recompile the chunk immediately. This includes block placing and destroying."
+          },
+          {
+            "key": "selectWorld.conversion.tooltip",
+            "previous": "This world must be opened in an older version (like 1.6.4) to be safely converted",
+            "current": "This world must be opened in an older version (like 1.6.4) to be safely converted."
+          }
+        ]
+      }
+    }
+  ],
+  "file_structure": [
+    {
+      "type": "entries",
+      "value": {
+        "name": "generated",
+        "differences": {
+          "added": [
+            "reports/minecraft/components/item/buried_trial_chambers_map.json",
+            "reports/minecraft/components/item/jungle_pyramid_map.json",
+            "reports/minecraft/components/item/ocean_monument_map.json",
+            "reports/minecraft/components/item/swamp_hut_map.json",
+            "reports/minecraft/components/item/woodland_mansion_map.json"
+          ],
+          "removed": [
+            "reports/minecraft/components/item/jungle_explorer_map.json",
+            "reports/minecraft/components/item/ocean_explorer_map.json",
+            "reports/minecraft/components/item/swamp_explorer_map.json",
+            "reports/minecraft/components/item/trial_explorer_map.json",
+            "reports/minecraft/components/item/woodland_explorer_map.json"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "data",
+        "differences": {
+          "added": [
+            "minecraft/block_transformer/axe.json",
+            "minecraft/block_transformer/hoe.json",
+            "minecraft/block_transformer/shovel.json",
+            "minecraft/tags/block/conduit_effect_block.json",
+            "minecraft/tags/block/nether_portal_frame.json",
+            "minecraft/tags/fluid/axolotl_tries_to_find.json",
+            "minecraft/tags/fluid/dolphin_tries_to_find.json",
+            "minecraft/tags/fluid/entity_floatable.json",
+            "minecraft/tags/fluid/frog_tries_to_find_land_near.json",
+            "minecraft/tags/worldgen/structure/on_buried_trial_chambers_maps.json",
+            "minecraft/tags/worldgen/structure/on_jungle_pyramid_maps.json",
+            "minecraft/tags/worldgen/structure/on_ocean_monument_maps.json",
+            "minecraft/tags/worldgen/structure/on_swamp_hut_maps.json",
+            "minecraft/tags/worldgen/structure/on_woodland_mansion_maps.json",
+            "minecraft/villager_trade/cartographer/3/emerald_and_compass_buried_trial_chambers_map.json",
+            "minecraft/villager_trade/cartographer/3/emerald_and_compass_ocean_monument_map.json",
+            "minecraft/worldgen/density_function/overworld/chunk_surface_level.json",
+            "minecraft/worldgen/density_function/overworld_amplified/chunk_surface_level.json",
+            "minecraft/worldgen/density_function/overworld_large_biomes/chunk_surface_level.json",
+            "minecraft/worldgen/material_rule/overworld/copper_ore_vein.json",
+            "minecraft/worldgen/material_rule/overworld/iron_ore_vein.json"
+          ],
+          "removed": [
+            "minecraft/tags/worldgen/structure/on_jungle_explorer_maps.json",
+            "minecraft/tags/worldgen/structure/on_ocean_explorer_maps.json",
+            "minecraft/tags/worldgen/structure/on_swamp_explorer_maps.json",
+            "minecraft/tags/worldgen/structure/on_trial_chambers_maps.json",
+            "minecraft/tags/worldgen/structure/on_woodland_explorer_maps.json",
+            "minecraft/villager_trade/cartographer/3/emerald_and_compass_ocean_explorer_map.json",
+            "minecraft/villager_trade/cartographer/3/emerald_and_compass_trial_chamber_map.json"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "assets",
+        "differences": {
+          "added": [
+            "minecraft/items/buried_trial_chambers_map.json",
+            "minecraft/items/jungle_pyramid_map.json",
+            "minecraft/items/ocean_monument_map.json",
+            "minecraft/items/swamp_hut_map.json",
+            "minecraft/items/woodland_mansion_map.json",
+            "minecraft/models/item/buried_trial_chambers_map.json",
+            "minecraft/models/item/jungle_pyramid_map.json",
+            "minecraft/models/item/ocean_monument_map.json",
+            "minecraft/models/item/swamp_hut_map.json",
+            "minecraft/models/item/woodland_mansion_map.json",
+            "minecraft/textures/gui/realms/friends.png",
+            "minecraft/textures/gui/realms/minigames.png",
+            "minecraft/textures/gui/realms/private_server.png",
+            "minecraft/textures/gui/sprites/widget/realms_button.png",
+            "minecraft/textures/gui/sprites/widget/realms_button.png.mcmeta",
+            "minecraft/textures/gui/sprites/widget/realms_button_disabled.png",
+            "minecraft/textures/gui/sprites/widget/realms_button_disabled.png.mcmeta",
+            "minecraft/textures/gui/sprites/widget/realms_button_highlighted.png",
+            "minecraft/textures/gui/sprites/widget/realms_button_highlighted.png.mcmeta",
+            "minecraft/textures/item/buried_trial_chambers_map.png",
+            "minecraft/textures/item/jungle_pyramid_map.png"
+          ],
+          "removed": [
+            "minecraft/items/jungle_explorer_map.json",
+            "minecraft/items/ocean_explorer_map.json",
+            "minecraft/items/swamp_explorer_map.json",
+            "minecraft/items/trial_explorer_map.json",
+            "minecraft/items/woodland_explorer_map.json",
+            "minecraft/models/item/jungle_explorer_map.json",
+            "minecraft/models/item/ocean_explorer_map.json",
+            "minecraft/models/item/swamp_explorer_map.json",
+            "minecraft/models/item/trial_explorer_map.json",
+            "minecraft/models/item/woodland_explorer_map.json",
+            "minecraft/textures/item/jungle_temple_map.png",
+            "minecraft/textures/item/trial_chamber_map.png"
+          ]
+        }
+      }
+    }
+  ],
+  "misc": [
+    {
+      "type": "entries",
+      "value": {
+        "name": "parsers",
+        "differences": {
+          "added": [
+            "minecraft:number_provider"
+          ],
+          "removed": []
+        }
+      }
+    }
+  ],
+  "custom": [
+    {
+      "type": "title",
+      "value": {
+        "title": "datapacks.json",
+        "id": "custom-datapacks-json",
+        "size": 2
+      }
+    }
+  ]
+}
