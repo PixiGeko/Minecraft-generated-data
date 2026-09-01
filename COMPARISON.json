@@ -1,0 +1,585 @@
+{
+  "version_data": [
+    {
+      "type": "table",
+      "value": {
+        "previousLabel": "26.3-snapshot-10",
+        "currentLabel": "26.3-pre-1",
+        "values": [
+          {
+            "key": "DataPack version",
+            "previous": "118.0",
+            "current": "119.0"
+          },
+          {
+            "key": "ResourcePack version",
+            "previous": "97.0",
+            "current": "97.1"
+          },
+          {
+            "key": "World version",
+            "previous": "5015",
+            "current": "5017"
+          },
+          {
+            "key": "Protocol version",
+            "previous": "1073742156",
+            "current": "1073742157"
+          }
+        ]
+      }
+    },
+    {
+      "type": "title",
+      "value": {
+        "title": "Libraries",
+        "id": "version-data-libraries",
+        "size": 3
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "🗒️ List",
+        "differences": {
+          "added": [
+            "org.lwjgl:lwjgl-spng V3.4.3",
+            "org.lwjgl:lwjgl-spng (natives-linux) V3.4.3",
+            "org.lwjgl:lwjgl-spng (natives-macos) V3.4.3",
+            "org.lwjgl:lwjgl-spng (natives-macos-arm64) V3.4.3",
+            "org.lwjgl:lwjgl-spng (natives-windows) V3.4.3",
+            "org.lwjgl:lwjgl-spng (natives-windows-arm64) V3.4.3",
+            "org.lwjgl:lwjgl-spng (natives-windows-x86) V3.4.3"
+          ],
+          "removed": []
+        }
+      }
+    }
+  ],
+  "registries": [
+    {
+      "type": "entries",
+      "value": {
+        "name": "🗒️ List",
+        "differences": {
+          "added": [
+            "context_float_provider_type.txt",
+            "context_int_provider_type.txt"
+          ],
+          "removed": [
+            "loot_number_provider_type.txt"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "command_argument_type",
+        "differences": {
+          "added": [
+            "minecraft:context_float_provider",
+            "minecraft:context_int_provider"
+          ],
+          "removed": [
+            "minecraft:number_provider"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "loot_condition_type",
+        "differences": {
+          "added": [
+            "minecraft:float_value_check",
+            "minecraft:int_value_check"
+          ],
+          "removed": [
+            "minecraft:value_check"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "worldgen/block_state_provider_type",
+        "differences": {
+          "added": [
+            "minecraft:copy_properties",
+            "minecraft:dual_noise",
+            "minecraft:noise",
+            "minecraft:noise_threshold",
+            "minecraft:random_block",
+            "minecraft:randomized_int",
+            "minecraft:rotated",
+            "minecraft:rule_based",
+            "minecraft:simple",
+            "minecraft:weighted"
+          ],
+          "removed": [
+            "minecraft:copy_properties_provider",
+            "minecraft:dual_noise_provider",
+            "minecraft:noise_provider",
+            "minecraft:noise_threshold_provider",
+            "minecraft:random_block_provider",
+            "minecraft:randomized_int_state_provider",
+            "minecraft:rotated_block_provider",
+            "minecraft:rule_based_state_provider",
+            "minecraft:simple_state_provider",
+            "minecraft:weighted_state_provider"
+          ]
+        }
+      }
+    }
+  ],
+  "tags": [
+    {
+      "type": "entries",
+      "value": {
+        "name": "🗒️ List",
+        "differences": {
+          "added": [
+            "universal_tags/context_float_provider_type.json",
+            "universal_tags/context_int_provider_type.json"
+          ],
+          "removed": [
+            "universal_tags/loot_number_provider_type.json"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "universal_tags/command_argument_type.json",
+        "differences": {
+          "added": [
+            "minecraft:context_float_provider",
+            "minecraft:context_int_provider"
+          ],
+          "removed": [
+            "minecraft:number_provider"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "universal_tags/loot_condition_type.json",
+        "differences": {
+          "added": [
+            "minecraft:float_value_check",
+            "minecraft:int_value_check"
+          ],
+          "removed": [
+            "minecraft:value_check"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "universal_tags/worldgen/block_state_provider_type.json",
+        "differences": {
+          "added": [
+            "minecraft:copy_properties",
+            "minecraft:dual_noise",
+            "minecraft:noise",
+            "minecraft:noise_threshold",
+            "minecraft:random_block",
+            "minecraft:randomized_int",
+            "minecraft:rotated",
+            "minecraft:rule_based",
+            "minecraft:simple",
+            "minecraft:weighted"
+          ],
+          "removed": [
+            "minecraft:copy_properties_provider",
+            "minecraft:dual_noise_provider",
+            "minecraft:noise_provider",
+            "minecraft:noise_threshold_provider",
+            "minecraft:random_block_provider",
+            "minecraft:randomized_int_state_provider",
+            "minecraft:rotated_block_provider",
+            "minecraft:rule_based_state_provider",
+            "minecraft:simple_state_provider",
+            "minecraft:weighted_state_provider"
+          ]
+        }
+      }
+    }
+  ],
+  "commands": [
+    {
+      "type": "entries",
+      "value": {
+        "name": "compute",
+        "differences": {
+          "added": [
+            "compute block <computePos: block_pos> float <provider: context_float_provider> <scale: float>",
+            "compute block <computePos: block_pos> integer <provider: context_int_provider>",
+            "compute default float <provider: context_float_provider> <scale: float>",
+            "compute default integer <provider: context_int_provider>",
+            "compute entity <computeTarget: entity> float <provider: context_float_provider> <scale: float>",
+            "compute entity <computeTarget: entity> integer <provider: context_int_provider>"
+          ],
+          "removed": [
+            "compute block <computePos: block_pos> <provider: number_provider> integer",
+            "compute block <computePos: block_pos> <provider: number_provider> <scale: float>",
+            "compute default <provider: number_provider> integer",
+            "compute default <provider: number_provider> <scale: float>",
+            "compute entity <computeTarget: entity> <provider: number_provider> integer",
+            "compute entity <computeTarget: entity> <provider: number_provider> <scale: float>"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "data",
+        "differences": {
+          "added": [
+            "data modify block <target: block_pos> <targetPath: nbt_path> append compute block <computePos: block_pos> float <provider: context_float_provider>",
+            "data modify block <target: block_pos> <targetPath: nbt_path> append compute block <computePos: block_pos> integer <provider: context_int_provider>",
+            "data modify block <target: block_pos> <targetPath: nbt_path> append compute default float <provider: context_float_provider>",
+            "data modify block <target: block_pos> <targetPath: nbt_path> append compute default integer <provider: context_int_provider>",
+            "data modify block <target: block_pos> <targetPath: nbt_path> append compute entity <computeTarget: entity> float <provider: context_float_provider>",
+            "data modify block <target: block_pos> <targetPath: nbt_path> append compute entity <computeTarget: entity> integer <provider: context_int_provider>",
+            "data modify block <target: block_pos> <targetPath: nbt_path> insert <index: integer> compute block <computePos: block_pos> float <provider: context_float_provider>",
+            "data modify block <target: block_pos> <targetPath: nbt_path> insert <index: integer> compute block <computePos: block_pos> integer <provider: context_int_provider>",
+            "data modify block <target: block_pos> <targetPath: nbt_path> insert <index: integer> compute default float <provider: context_float_provider>",
+            "data modify block <target: block_pos> <targetPath: nbt_path> insert <index: integer> compute default integer <provider: context_int_provider>",
+            "data modify block <target: block_pos> <targetPath: nbt_path> insert <index: integer> compute entity <computeTarget: entity> float <provider: context_float_provider>",
+            "data modify block <target: block_pos> <targetPath: nbt_path> insert <index: integer> compute entity <computeTarget: entity> integer <provider: context_int_provider>",
+            "data modify block <target: block_pos> <targetPath: nbt_path> merge compute block <computePos: block_pos> float <provider: context_float_provider>",
+            "data modify block <target: block_pos> <targetPath: nbt_path> merge compute block <computePos: block_pos> integer <provider: context_int_provider>",
+            "data modify block <target: block_pos> <targetPath: nbt_path> merge compute default float <provider: context_float_provider>",
+            "data modify block <target: block_pos> <targetPath: nbt_path> merge compute default integer <provider: context_int_provider>",
+            "data modify block <target: block_pos> <targetPath: nbt_path> merge compute entity <computeTarget: entity> float <provider: context_float_provider>",
+            "data modify block <target: block_pos> <targetPath: nbt_path> merge compute entity <computeTarget: entity> integer <provider: context_int_provider>",
+            "data modify block <target: block_pos> <targetPath: nbt_path> prepend compute block <computePos: block_pos> float <provider: context_float_provider>",
+            "data modify block <target: block_pos> <targetPath: nbt_path> prepend compute block <computePos: block_pos> integer <provider: context_int_provider>",
+            "data modify block <target: block_pos> <targetPath: nbt_path> prepend compute default float <provider: context_float_provider>",
+            "data modify block <target: block_pos> <targetPath: nbt_path> prepend compute default integer <provider: context_int_provider>",
+            "data modify block <target: block_pos> <targetPath: nbt_path> prepend compute entity <computeTarget: entity> float <provider: context_float_provider>",
+            "data modify block <target: block_pos> <targetPath: nbt_path> prepend compute entity <computeTarget: entity> integer <provider: context_int_provider>",
+            "data modify block <target: block_pos> <targetPath: nbt_path> set compute block <computePos: block_pos> float <provider: context_float_provider>",
+            "data modify block <target: block_pos> <targetPath: nbt_path> set compute block <computePos: block_pos> integer <provider: context_int_provider>",
+            "data modify block <target: block_pos> <targetPath: nbt_path> set compute default float <provider: context_float_provider>",
+            "data modify block <target: block_pos> <targetPath: nbt_path> set compute default integer <provider: context_int_provider>",
+            "data modify block <target: block_pos> <targetPath: nbt_path> set compute entity <computeTarget: entity> float <provider: context_float_provider>",
+            "data modify block <target: block_pos> <targetPath: nbt_path> set compute entity <computeTarget: entity> integer <provider: context_int_provider>",
+            "data modify entity <target: entity> <targetPath: nbt_path> append compute block <computePos: block_pos> float <provider: context_float_provider>",
+            "data modify entity <target: entity> <targetPath: nbt_path> append compute block <computePos: block_pos> integer <provider: context_int_provider>",
+            "data modify entity <target: entity> <targetPath: nbt_path> append compute default float <provider: context_float_provider>",
+            "data modify entity <target: entity> <targetPath: nbt_path> append compute default integer <provider: context_int_provider>",
+            "data modify entity <target: entity> <targetPath: nbt_path> append compute entity <computeTarget: entity> float <provider: context_float_provider>",
+            "data modify entity <target: entity> <targetPath: nbt_path> append compute entity <computeTarget: entity> integer <provider: context_int_provider>",
+            "data modify entity <target: entity> <targetPath: nbt_path> insert <index: integer> compute block <computePos: block_pos> float <provider: context_float_provider>",
+            "data modify entity <target: entity> <targetPath: nbt_path> insert <index: integer> compute block <computePos: block_pos> integer <provider: context_int_provider>",
+            "data modify entity <target: entity> <targetPath: nbt_path> insert <index: integer> compute default float <provider: context_float_provider>",
+            "data modify entity <target: entity> <targetPath: nbt_path> insert <index: integer> compute default integer <provider: context_int_provider>",
+            "data modify entity <target: entity> <targetPath: nbt_path> insert <index: integer> compute entity <computeTarget: entity> float <provider: context_float_provider>",
+            "data modify entity <target: entity> <targetPath: nbt_path> insert <index: integer> compute entity <computeTarget: entity> integer <provider: context_int_provider>",
+            "data modify entity <target: entity> <targetPath: nbt_path> merge compute block <computePos: block_pos> float <provider: context_float_provider>",
+            "data modify entity <target: entity> <targetPath: nbt_path> merge compute block <computePos: block_pos> integer <provider: context_int_provider>",
+            "data modify entity <target: entity> <targetPath: nbt_path> merge compute default float <provider: context_float_provider>",
+            "data modify entity <target: entity> <targetPath: nbt_path> merge compute default integer <provider: context_int_provider>",
+            "data modify entity <target: entity> <targetPath: nbt_path> merge compute entity <computeTarget: entity> float <provider: context_float_provider>",
+            "data modify entity <target: entity> <targetPath: nbt_path> merge compute entity <computeTarget: entity> integer <provider: context_int_provider>",
+            "data modify entity <target: entity> <targetPath: nbt_path> prepend compute block <computePos: block_pos> float <provider: context_float_provider>",
+            "data modify entity <target: entity> <targetPath: nbt_path> prepend compute block <computePos: block_pos> integer <provider: context_int_provider>",
+            "data modify entity <target: entity> <targetPath: nbt_path> prepend compute default float <provider: context_float_provider>",
+            "data modify entity <target: entity> <targetPath: nbt_path> prepend compute default integer <provider: context_int_provider>",
+            "data modify entity <target: entity> <targetPath: nbt_path> prepend compute entity <computeTarget: entity> float <provider: context_float_provider>",
+            "data modify entity <target: entity> <targetPath: nbt_path> prepend compute entity <computeTarget: entity> integer <provider: context_int_provider>",
+            "data modify entity <target: entity> <targetPath: nbt_path> set compute block <computePos: block_pos> float <provider: context_float_provider>",
+            "data modify entity <target: entity> <targetPath: nbt_path> set compute block <computePos: block_pos> integer <provider: context_int_provider>",
+            "data modify entity <target: entity> <targetPath: nbt_path> set compute default float <provider: context_float_provider>",
+            "data modify entity <target: entity> <targetPath: nbt_path> set compute default integer <provider: context_int_provider>",
+            "data modify entity <target: entity> <targetPath: nbt_path> set compute entity <computeTarget: entity> float <provider: context_float_provider>",
+            "data modify entity <target: entity> <targetPath: nbt_path> set compute entity <computeTarget: entity> integer <provider: context_int_provider>",
+            "data modify storage <target: resource_location> <targetPath: nbt_path> append compute block <computePos: block_pos> float <provider: context_float_provider>",
+            "data modify storage <target: resource_location> <targetPath: nbt_path> append compute block <computePos: block_pos> integer <provider: context_int_provider>",
+            "data modify storage <target: resource_location> <targetPath: nbt_path> append compute default float <provider: context_float_provider>",
+            "data modify storage <target: resource_location> <targetPath: nbt_path> append compute default integer <provider: context_int_provider>",
+            "data modify storage <target: resource_location> <targetPath: nbt_path> append compute entity <computeTarget: entity> float <provider: context_float_provider>",
+            "data modify storage <target: resource_location> <targetPath: nbt_path> append compute entity <computeTarget: entity> integer <provider: context_int_provider>",
+            "data modify storage <target: resource_location> <targetPath: nbt_path> insert <index: integer> compute block <computePos: block_pos> float <provider: context_float_provider>",
+            "data modify storage <target: resource_location> <targetPath: nbt_path> insert <index: integer> compute block <computePos: block_pos> integer <provider: context_int_provider>",
+            "data modify storage <target: resource_location> <targetPath: nbt_path> insert <index: integer> compute default float <provider: context_float_provider>",
+            "data modify storage <target: resource_location> <targetPath: nbt_path> insert <index: integer> compute default integer <provider: context_int_provider>",
+            "data modify storage <target: resource_location> <targetPath: nbt_path> insert <index: integer> compute entity <computeTarget: entity> float <provider: context_float_provider>",
+            "data modify storage <target: resource_location> <targetPath: nbt_path> insert <index: integer> compute entity <computeTarget: entity> integer <provider: context_int_provider>",
+            "data modify storage <target: resource_location> <targetPath: nbt_path> merge compute block <computePos: block_pos> float <provider: context_float_provider>",
+            "data modify storage <target: resource_location> <targetPath: nbt_path> merge compute block <computePos: block_pos> integer <provider: context_int_provider>",
+            "data modify storage <target: resource_location> <targetPath: nbt_path> merge compute default float <provider: context_float_provider>",
+            "data modify storage <target: resource_location> <targetPath: nbt_path> merge compute default integer <provider: context_int_provider>",
+            "data modify storage <target: resource_location> <targetPath: nbt_path> merge compute entity <computeTarget: entity> float <provider: context_float_provider>",
+            "data modify storage <target: resource_location> <targetPath: nbt_path> merge compute entity <computeTarget: entity> integer <provider: context_int_provider>",
+            "data modify storage <target: resource_location> <targetPath: nbt_path> prepend compute block <computePos: block_pos> float <provider: context_float_provider>",
+            "data modify storage <target: resource_location> <targetPath: nbt_path> prepend compute block <computePos: block_pos> integer <provider: context_int_provider>",
+            "data modify storage <target: resource_location> <targetPath: nbt_path> prepend compute default float <provider: context_float_provider>",
+            "data modify storage <target: resource_location> <targetPath: nbt_path> prepend compute default integer <provider: context_int_provider>",
+            "data modify storage <target: resource_location> <targetPath: nbt_path> prepend compute entity <computeTarget: entity> float <provider: context_float_provider>",
+            "data modify storage <target: resource_location> <targetPath: nbt_path> prepend compute entity <computeTarget: entity> integer <provider: context_int_provider>",
+            "data modify storage <target: resource_location> <targetPath: nbt_path> set compute block <computePos: block_pos> float <provider: context_float_provider>",
+            "data modify storage <target: resource_location> <targetPath: nbt_path> set compute block <computePos: block_pos> integer <provider: context_int_provider>",
+            "data modify storage <target: resource_location> <targetPath: nbt_path> set compute default float <provider: context_float_provider>",
+            "data modify storage <target: resource_location> <targetPath: nbt_path> set compute default integer <provider: context_int_provider>",
+            "data modify storage <target: resource_location> <targetPath: nbt_path> set compute entity <computeTarget: entity> float <provider: context_float_provider>",
+            "data modify storage <target: resource_location> <targetPath: nbt_path> set compute entity <computeTarget: entity> integer <provider: context_int_provider>"
+          ],
+          "removed": [
+            "data modify block <target: block_pos> <targetPath: nbt_path> append compute block <computePos: block_pos> <provider: number_provider> integer",
+            "data modify block <target: block_pos> <targetPath: nbt_path> append compute default <provider: number_provider> integer",
+            "data modify block <target: block_pos> <targetPath: nbt_path> append compute entity <computeTarget: entity> <provider: number_provider> integer",
+            "data modify block <target: block_pos> <targetPath: nbt_path> insert <index: integer> compute block <computePos: block_pos> <provider: number_provider> integer",
+            "data modify block <target: block_pos> <targetPath: nbt_path> insert <index: integer> compute default <provider: number_provider> integer",
+            "data modify block <target: block_pos> <targetPath: nbt_path> insert <index: integer> compute entity <computeTarget: entity> <provider: number_provider> integer",
+            "data modify block <target: block_pos> <targetPath: nbt_path> merge compute block <computePos: block_pos> <provider: number_provider> integer",
+            "data modify block <target: block_pos> <targetPath: nbt_path> merge compute default <provider: number_provider> integer",
+            "data modify block <target: block_pos> <targetPath: nbt_path> merge compute entity <computeTarget: entity> <provider: number_provider> integer",
+            "data modify block <target: block_pos> <targetPath: nbt_path> prepend compute block <computePos: block_pos> <provider: number_provider> integer",
+            "data modify block <target: block_pos> <targetPath: nbt_path> prepend compute default <provider: number_provider> integer",
+            "data modify block <target: block_pos> <targetPath: nbt_path> prepend compute entity <computeTarget: entity> <provider: number_provider> integer",
+            "data modify block <target: block_pos> <targetPath: nbt_path> set compute block <computePos: block_pos> <provider: number_provider> integer",
+            "data modify block <target: block_pos> <targetPath: nbt_path> set compute default <provider: number_provider> integer",
+            "data modify block <target: block_pos> <targetPath: nbt_path> set compute entity <computeTarget: entity> <provider: number_provider> integer",
+            "data modify entity <target: entity> <targetPath: nbt_path> append compute block <computePos: block_pos> <provider: number_provider> integer",
+            "data modify entity <target: entity> <targetPath: nbt_path> append compute default <provider: number_provider> integer",
+            "data modify entity <target: entity> <targetPath: nbt_path> append compute entity <computeTarget: entity> <provider: number_provider> integer",
+            "data modify entity <target: entity> <targetPath: nbt_path> insert <index: integer> compute block <computePos: block_pos> <provider: number_provider> integer",
+            "data modify entity <target: entity> <targetPath: nbt_path> insert <index: integer> compute default <provider: number_provider> integer",
+            "data modify entity <target: entity> <targetPath: nbt_path> insert <index: integer> compute entity <computeTarget: entity> <provider: number_provider> integer",
+            "data modify entity <target: entity> <targetPath: nbt_path> merge compute block <computePos: block_pos> <provider: number_provider> integer",
+            "data modify entity <target: entity> <targetPath: nbt_path> merge compute default <provider: number_provider> integer",
+            "data modify entity <target: entity> <targetPath: nbt_path> merge compute entity <computeTarget: entity> <provider: number_provider> integer",
+            "data modify entity <target: entity> <targetPath: nbt_path> prepend compute block <computePos: block_pos> <provider: number_provider> integer",
+            "data modify entity <target: entity> <targetPath: nbt_path> prepend compute default <provider: number_provider> integer",
+            "data modify entity <target: entity> <targetPath: nbt_path> prepend compute entity <computeTarget: entity> <provider: number_provider> integer",
+            "data modify entity <target: entity> <targetPath: nbt_path> set compute block <computePos: block_pos> <provider: number_provider> integer",
+            "data modify entity <target: entity> <targetPath: nbt_path> set compute default <provider: number_provider> integer",
+            "data modify entity <target: entity> <targetPath: nbt_path> set compute entity <computeTarget: entity> <provider: number_provider> integer",
+            "data modify storage <target: resource_location> <targetPath: nbt_path> append compute block <computePos: block_pos> <provider: number_provider> integer",
+            "data modify storage <target: resource_location> <targetPath: nbt_path> append compute default <provider: number_provider> integer",
+            "data modify storage <target: resource_location> <targetPath: nbt_path> append compute entity <computeTarget: entity> <provider: number_provider> integer",
+            "data modify storage <target: resource_location> <targetPath: nbt_path> insert <index: integer> compute block <computePos: block_pos> <provider: number_provider> integer",
+            "data modify storage <target: resource_location> <targetPath: nbt_path> insert <index: integer> compute default <provider: number_provider> integer",
+            "data modify storage <target: resource_location> <targetPath: nbt_path> insert <index: integer> compute entity <computeTarget: entity> <provider: number_provider> integer",
+            "data modify storage <target: resource_location> <targetPath: nbt_path> merge compute block <computePos: block_pos> <provider: number_provider> integer",
+            "data modify storage <target: resource_location> <targetPath: nbt_path> merge compute default <provider: number_provider> integer",
+            "data modify storage <target: resource_location> <targetPath: nbt_path> merge compute entity <computeTarget: entity> <provider: number_provider> integer",
+            "data modify storage <target: resource_location> <targetPath: nbt_path> prepend compute block <computePos: block_pos> <provider: number_provider> integer",
+            "data modify storage <target: resource_location> <targetPath: nbt_path> prepend compute default <provider: number_provider> integer",
+            "data modify storage <target: resource_location> <targetPath: nbt_path> prepend compute entity <computeTarget: entity> <provider: number_provider> integer",
+            "data modify storage <target: resource_location> <targetPath: nbt_path> set compute block <computePos: block_pos> <provider: number_provider> integer",
+            "data modify storage <target: resource_location> <targetPath: nbt_path> set compute default <provider: number_provider> integer",
+            "data modify storage <target: resource_location> <targetPath: nbt_path> set compute entity <computeTarget: entity> <provider: number_provider> integer"
+          ]
+        }
+      }
+    }
+  ],
+  "datapacks": [
+    {
+      "type": "entries",
+      "value": {
+        "name": "[registries] List",
+        "differences": {
+          "added": [
+            "minecraft:context_float_provider",
+            "minecraft:context_float_provider_type",
+            "minecraft:context_int_provider",
+            "minecraft:context_int_provider_type",
+            "minecraft:worldgen/block_state_provider"
+          ],
+          "removed": [
+            "minecraft:loot_number_provider_type",
+            "minecraft:number_provider"
+          ]
+        }
+      }
+    },
+    {
+      "type": "table",
+      "value": {
+        "title": "[registries] minecraft:advancement",
+        "previousLabel": "26.3-snapshot-10",
+        "currentLabel": "26.3-pre-1",
+        "values": [
+          {
+            "key": "tags",
+            "previous": "false",
+            "current": "true"
+          }
+        ]
+      }
+    },
+    {
+      "type": "table",
+      "value": {
+        "title": "[registries] minecraft:recipe",
+        "previousLabel": "26.3-snapshot-10",
+        "currentLabel": "26.3-pre-1",
+        "values": [
+          {
+            "key": "tags",
+            "previous": "false",
+            "current": "true"
+          }
+        ]
+      }
+    }
+  ],
+  "translations": [
+    {
+      "type": "entries",
+      "value": {
+        "name": "Keys",
+        "differences": {
+          "added": [
+            "command.compute.result.named.invalid: %s returned invalid value (%s)",
+            "command.compute.result.unnamed.invalid: Number provider returned invalid value (%s)",
+            "mco.selectServer.joinCode.select: Join Realm",
+            "options.macFullscreenMenuVisibility: Menu/Dock Visibility",
+            "options.macFullscreenMenuVisibility.tooltip: Whether the macOS Menu bar and Dock can be revealed by moving the mouse to the edge of the screen while in non-exclusive fullscreen."
+          ],
+          "removed": []
+        }
+      }
+    }
+  ],
+  "file_structure": [
+    {
+      "type": "entries",
+      "value": {
+        "name": "data",
+        "differences": {
+          "added": [
+            "minecraft/context_float_provider/brewing/speed_default.json",
+            "minecraft/context_float_provider/cooking/fast_speed_multiplier.json",
+            "minecraft/context_float_provider/cooking/normal_speed_multiplier.json",
+            "minecraft/context_float_provider/cooking/speed_default.json",
+            "minecraft/context_int_provider/brewing/uses_default.json",
+            "minecraft/context_int_provider/compostable/always_add_one.json",
+            "minecraft/context_int_provider/compostable/low.json",
+            "minecraft/context_int_provider/compostable/low_medium.json",
+            "minecraft/context_int_provider/compostable/medium.json",
+            "minecraft/context_int_provider/compostable/medium_high.json",
+            "minecraft/context_int_provider/cooking/fast_burn_time_reduction_factor.json",
+            "minecraft/context_int_provider/cooking/normal_burn_time_reduction_factor.json",
+            "minecraft/context_int_provider/cooking/time_bamboo.json",
+            "minecraft/context_int_provider/cooking/time_blaze_rod.json",
+            "minecraft/context_int_provider/cooking/time_boats.json",
+            "minecraft/context_int_provider/cooking/time_coal.json",
+            "minecraft/context_int_provider/cooking/time_coal_block.json",
+            "minecraft/context_int_provider/cooking/time_dried_kelp_block.json",
+            "minecraft/context_int_provider/cooking/time_dry_plants.json",
+            "minecraft/context_int_provider/cooking/time_hanging_signs.json",
+            "minecraft/context_int_provider/cooking/time_lava_bucket.json",
+            "minecraft/context_int_provider/cooking/time_roots.json",
+            "minecraft/context_int_provider/cooking/time_wood_blocks.json",
+            "minecraft/context_int_provider/cooking/time_wood_items_extra_small.json",
+            "minecraft/context_int_provider/cooking/time_wood_items_large.json",
+            "minecraft/context_int_provider/cooking/time_wood_items_small.json",
+            "minecraft/context_int_provider/cooking/time_wood_slabs.json",
+            "minecraft/context_int_provider/cooking/time_wool.json",
+            "minecraft/context_int_provider/cooking/time_wool_carpets.json",
+            "minecraft/context_int_provider/cooking/time_wool_slabs.json",
+            "minecraft/tags/item/furnace_fuel_bottom_takeable.json",
+            "minecraft/worldgen/block_state_provider/cave_vines_body.json",
+            "minecraft/worldgen/block_state_provider/cave_vines_head.json",
+            "minecraft/worldgen/block_state_provider/flower_flower_forest.json",
+            "minecraft/worldgen/block_state_provider/flower_meadow.json",
+            "minecraft/worldgen/block_state_provider/flower_plain.json",
+            "minecraft/worldgen/block_state_provider/mangrove_propagule.json",
+            "minecraft/worldgen/block_state_provider/podzol_beneath_tree.json",
+            "minecraft/worldgen/block_state_provider/soil_beneath_tree.json"
+          ],
+          "removed": [
+            "minecraft/number_provider/brewing/speed_default.json",
+            "minecraft/number_provider/brewing/uses_default.json",
+            "minecraft/number_provider/compostable/always_add_one.json",
+            "minecraft/number_provider/compostable/low.json",
+            "minecraft/number_provider/compostable/low_medium.json",
+            "minecraft/number_provider/compostable/medium.json",
+            "minecraft/number_provider/compostable/medium_high.json",
+            "minecraft/number_provider/cooking/fast_burn_time_multiplier.json",
+            "minecraft/number_provider/cooking/fast_speed_multiplier.json",
+            "minecraft/number_provider/cooking/normal_burn_time_multiplier.json",
+            "minecraft/number_provider/cooking/normal_speed_multiplier.json",
+            "minecraft/number_provider/cooking/speed_default.json",
+            "minecraft/number_provider/cooking/time_bamboo.json",
+            "minecraft/number_provider/cooking/time_blaze_rod.json",
+            "minecraft/number_provider/cooking/time_boats.json",
+            "minecraft/number_provider/cooking/time_coal.json",
+            "minecraft/number_provider/cooking/time_coal_block.json",
+            "minecraft/number_provider/cooking/time_dried_kelp_block.json",
+            "minecraft/number_provider/cooking/time_dry_plants.json",
+            "minecraft/number_provider/cooking/time_hanging_signs.json",
+            "minecraft/number_provider/cooking/time_lava_bucket.json",
+            "minecraft/number_provider/cooking/time_roots.json",
+            "minecraft/number_provider/cooking/time_wood_blocks.json",
+            "minecraft/number_provider/cooking/time_wood_items_extra_small.json",
+            "minecraft/number_provider/cooking/time_wood_items_large.json",
+            "minecraft/number_provider/cooking/time_wood_items_small.json",
+            "minecraft/number_provider/cooking/time_wood_slabs.json",
+            "minecraft/number_provider/cooking/time_wool.json",
+            "minecraft/number_provider/cooking/time_wool_carpets.json",
+            "minecraft/number_provider/cooking/time_wool_slabs.json"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "assets",
+        "differences": {
+          "added": [
+            "minecraft/shaders/core/blit_depth.fsh"
+          ],
+          "removed": []
+        }
+      }
+    }
+  ],
+  "misc": [
+    {
+      "type": "entries",
+      "value": {
+        "name": "parsers",
+        "differences": {
+          "added": [
+            "minecraft:context_float_provider",
+            "minecraft:context_int_provider"
+          ],
+          "removed": [
+            "minecraft:number_provider"
+          ]
+        }
+      }
+    }
+  ],
+  "custom": [
+    {
+      "type": "title",
+      "value": {
+        "title": "datapacks.json",
+        "id": "custom-datapacks-json",
+        "size": 2
+      }
+    },
+    {
+      "type": "true_false",
+      "value": {}
+    }
+  ]
+}
