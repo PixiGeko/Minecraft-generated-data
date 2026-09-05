@@ -1,0 +1,6 @@
+compute block <computePos: block_pos> float <provider: context_float_provider> <scale: float>
+compute block <computePos: block_pos> integer <provider: context_int_provider>
+compute default float <provider: context_float_provider> <scale: float>
+compute default integer <provider: context_int_provider>
+compute entity <computeTarget: entity> float <provider: context_float_provider> <scale: float>
+compute entity <computeTarget: entity> integer <provider: context_int_provider>

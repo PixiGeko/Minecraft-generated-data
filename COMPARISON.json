@@ -1,0 +1,122 @@
+{
+  "version_data": [
+    {
+      "type": "table",
+      "value": {
+        "previousLabel": "26.3-pre-1",
+        "currentLabel": "26.3-pre-2",
+        "values": [
+          {
+            "key": "DataPack version",
+            "previous": "119.0",
+            "current": "120.0"
+          },
+          {
+            "key": "World version",
+            "previous": "5017",
+            "current": "5018"
+          },
+          {
+            "key": "Protocol version",
+            "previous": "1073742157",
+            "current": "1073742158"
+          }
+        ]
+      }
+    },
+    {
+      "type": "title",
+      "value": {
+        "title": "Libraries",
+        "id": "version-data-libraries",
+        "size": 3
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "🗒️ List",
+        "differences": {
+          "added": [],
+          "removed": [
+            "org.lwjgl:lwjgl-spng V3.4.3",
+            "org.lwjgl:lwjgl-spng (natives-linux) V3.4.3",
+            "org.lwjgl:lwjgl-spng (natives-macos) V3.4.3",
+            "org.lwjgl:lwjgl-spng (natives-macos-arm64) V3.4.3",
+            "org.lwjgl:lwjgl-spng (natives-windows) V3.4.3",
+            "org.lwjgl:lwjgl-spng (natives-windows-arm64) V3.4.3",
+            "org.lwjgl:lwjgl-spng (natives-windows-x86) V3.4.3"
+          ]
+        }
+      }
+    }
+  ],
+  "registries": [
+    {
+      "type": "entries",
+      "value": {
+        "name": "🗒️ List",
+        "differences": {
+          "added": [
+            "context_key_set.txt"
+          ],
+          "removed": []
+        }
+      }
+    }
+  ],
+  "tags": [
+    {
+      "type": "entries",
+      "value": {
+        "name": "🗒️ List",
+        "differences": {
+          "added": [
+            "universal_tags/context_key_set.json"
+          ],
+          "removed": []
+        }
+      }
+    }
+  ],
+  "datapacks": [
+    {
+      "type": "entries",
+      "value": {
+        "name": "[registries] List",
+        "differences": {
+          "added": [
+            "minecraft:context_key_set"
+          ],
+          "removed": []
+        }
+      }
+    }
+  ],
+  "file_structure": [
+    {
+      "type": "entries",
+      "value": {
+        "name": "data",
+        "differences": {
+          "added": [
+            "minecraft/tags/worldgen/structure/on_abandoned_camp_windswept_forest.json"
+          ],
+          "removed": [
+            "minecraft/tags/worldgen/structure/on_abandoned_camp_windswept.json"
+          ]
+        }
+      }
+    }
+  ],
+  "custom": [
+    {
+      "type": "title",
+      "value": {
+        "title": "datapacks.json",
+        "id": "custom-datapacks-json",
+        "size": 2
+      }
+    }
+  ]
+}
