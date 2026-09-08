@@ -1,0 +1,81 @@
+{
+  "version_data": [
+    {
+      "type": "table",
+      "value": {
+        "previousLabel": "26.3-pre-2",
+        "currentLabel": "26.3-pre-3",
+        "values": [
+          {
+            "key": "DataPack version",
+            "previous": "120.0",
+            "current": "121.0"
+          },
+          {
+            "key": "World version",
+            "previous": "5018",
+            "current": "5019"
+          },
+          {
+            "key": "Protocol version",
+            "previous": "1073742158",
+            "current": "1073742159"
+          }
+        ]
+      }
+    },
+    {
+      "type": "title",
+      "value": {
+        "title": "Libraries",
+        "id": "version-data-libraries",
+        "size": 3
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "🗒️ List",
+        "differences": {
+          "added": [],
+          "removed": [
+            "org.lwjgl:lwjgl-freetype (natives-windows-x86) V3.4.3",
+            "org.lwjgl:lwjgl-jemalloc (natives-windows-x86) V3.4.3",
+            "org.lwjgl:lwjgl-openal (natives-windows-x86) V3.4.3",
+            "org.lwjgl:lwjgl-opengl (natives-windows-x86) V3.4.3",
+            "org.lwjgl:lwjgl-sdl (natives-windows-x86) V3.4.3",
+            "org.lwjgl:lwjgl-shaderc (natives-windows-x86) V3.4.3",
+            "org.lwjgl:lwjgl-spvc (natives-windows-x86) V3.4.3",
+            "org.lwjgl:lwjgl-stb (natives-windows-x86) V3.4.3",
+            "org.lwjgl:lwjgl-vma (natives-windows-x86) V3.4.3",
+            "org.lwjgl:lwjgl (natives-windows-x86) V3.4.3"
+          ]
+        }
+      }
+    }
+  ],
+  "packets": [
+    {
+      "type": "entries",
+      "value": {
+        "name": "[client] play",
+        "differences": {
+          "added": [
+            "minecraft:add_transient_block"
+          ],
+          "removed": []
+        }
+      }
+    }
+  ],
+  "custom": [
+    {
+      "type": "title",
+      "value": {
+        "title": "datapacks.json",
+        "id": "custom-datapacks-json",
+        "size": 2
+      }
+    }
+  ]
+}
