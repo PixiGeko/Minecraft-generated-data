@@ -1,0 +1,130 @@
+{
+  "version_data": [
+    {
+      "type": "table",
+      "value": {
+        "previousLabel": "26.3",
+        "currentLabel": "26.4-snapshot-1",
+        "values": [
+          {
+            "key": "DataPack version",
+            "previous": "121.0",
+            "current": "122.0"
+          },
+          {
+            "key": "ResourcePack version",
+            "previous": "97.1",
+            "current": "98.0"
+          },
+          {
+            "key": "World version",
+            "previous": "5023",
+            "current": "5119"
+          },
+          {
+            "key": "Protocol version",
+            "previous": "777",
+            "current": "1073742163"
+          }
+        ]
+      }
+    }
+  ],
+  "registries": [
+    {
+      "type": "entries",
+      "value": {
+        "name": "chunk_status",
+        "differences": {
+          "added": [
+            "minecraft:noise_biomes"
+          ],
+          "removed": []
+        }
+      }
+    }
+  ],
+  "tags": [
+    {
+      "type": "entries",
+      "value": {
+        "name": "universal_tags/chunk_status.json",
+        "differences": {
+          "added": [
+            "minecraft:noise_biomes"
+          ],
+          "removed": []
+        }
+      }
+    }
+  ],
+  "translations": [
+    {
+      "type": "entries",
+      "value": {
+        "name": "Keys",
+        "differences": {
+          "added": [
+            "multiplayer.disconnect.rejected: Connection rejected by server",
+            "narration.tab_navigation.mac.usage: Press Command and Tab to switch between tabs",
+            "options.graphicsApi.vulkanNonExperimental: Prefer Vulkan"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "text",
+      "value": {
+        "title": "Changes",
+        "values": [
+          {
+            "key": "narration.tab_navigation.usage",
+            "previous": "Press Ctrl and Tab to switch between tabs",
+            "current": "Press Control and Tab to switch between tabs"
+          },
+          {
+            "key": "options.accessibility.narrator_hotkey.mac.tooltip",
+            "previous": "Allows the Narrator to be toggled on and off with 'Cmd + B'.",
+            "current": "Allows the Narrator to be toggled on and off with 'Command + B'."
+          },
+          {
+            "key": "options.accessibility.narrator_hotkey.tooltip",
+            "previous": "Allows the Narrator to be toggled on and off with 'Ctrl + B'.",
+            "current": "Allows the Narrator to be toggled on and off with 'Control + B'."
+          },
+          {
+            "key": "options.quitShortcuts.tooltip",
+            "previous": "Whether keyboard shortcuts can close the game. When off, Alt + F4 on Windows and Linux, and Cmd + Q on macOS, will no longer quit the game.",
+            "current": "Whether keyboard shortcuts can close the game. When off, Alt + F4 on Windows and Linux, and Command + Q on macOS, will no longer quit the game."
+          }
+        ]
+      }
+    }
+  ],
+  "file_structure": [
+    {
+      "type": "entries",
+      "value": {
+        "name": "data",
+        "differences": {
+          "added": [
+            "minecraft/tags/worldgen/biome/generated_in_below_zero_retrogen.json",
+            "minecraft/tags/worldgen/biome/is_cave.json"
+          ],
+          "removed": []
+        }
+      }
+    }
+  ],
+  "custom": [
+    {
+      "type": "title",
+      "value": {
+        "title": "datapacks.json",
+        "id": "custom-datapacks-json",
+        "size": 2
+      }
+    }
+  ]
+}
