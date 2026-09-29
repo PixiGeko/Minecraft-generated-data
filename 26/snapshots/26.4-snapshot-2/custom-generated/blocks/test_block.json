@@ -1,0 +1,25 @@
+{
+  "properties": {
+    "mode": [
+      "start",
+      "log",
+      "fail",
+      "accept"
+    ]
+  },
+  "states": {
+    "25095": {
+      "mode": "start"
+    },
+    "25096": {
+      "mode": "log"
+    },
+    "25097": {
+      "mode": "fail"
+    },
+    "25098": {
+      "mode": "accept"
+    },
+    "default": 25095
+  }
+}

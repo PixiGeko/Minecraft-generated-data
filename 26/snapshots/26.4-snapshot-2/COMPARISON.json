@@ -1,0 +1,1431 @@
+{
+  "version_data": [
+    {
+      "type": "table",
+      "value": {
+        "previousLabel": "26.4-snapshot-1",
+        "currentLabel": "26.4-snapshot-2",
+        "values": [
+          {
+            "key": "DataPack version",
+            "previous": "122.0",
+            "current": "122.1"
+          },
+          {
+            "key": "ResourcePack version",
+            "previous": "98.0",
+            "current": "99.0"
+          },
+          {
+            "key": "World version",
+            "previous": "5119",
+            "current": "5120"
+          },
+          {
+            "key": "Protocol version",
+            "previous": "1073742163",
+            "current": "1073742164"
+          }
+        ]
+      }
+    }
+  ],
+  "registries": [
+    {
+      "type": "entries",
+      "value": {
+        "name": "🗒️ List",
+        "differences": {
+          "added": [
+            "rule_test_type.txt"
+          ],
+          "removed": [
+            "rule_test.txt"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "block_predicate_type",
+        "differences": {
+          "added": [
+            "minecraft:below_heightmap"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "environment_attribute",
+        "differences": {
+          "added": [
+            "minecraft:visual/has_sky_occluder"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "sound_event",
+        "differences": {
+          "added": [
+            "minecraft:entity.zombie_nautilus.riding"
+          ],
+          "removed": []
+        }
+      }
+    }
+  ],
+  "tags": [
+    {
+      "type": "entries",
+      "value": {
+        "name": "🗒️ List",
+        "differences": {
+          "added": [
+            "universal_tags/rule_test_type.json"
+          ],
+          "removed": [
+            "universal_tags/rule_test.json"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "universal_tags/block_predicate_type.json",
+        "differences": {
+          "added": [
+            "minecraft:below_heightmap"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "universal_tags/environment_attribute.json",
+        "differences": {
+          "added": [
+            "minecraft:visual/has_sky_occluder"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "universal_tags/sound_event.json",
+        "differences": {
+          "added": [
+            "minecraft:entity.zombie_nautilus.riding"
+          ],
+          "removed": []
+        }
+      }
+    }
+  ],
+  "datapacks": [
+    {
+      "type": "entries",
+      "value": {
+        "name": "[registries] List",
+        "differences": {
+          "added": [
+            "minecraft:rule_test_type"
+          ],
+          "removed": [
+            "minecraft:rule_test"
+          ]
+        }
+      }
+    }
+  ],
+  "translations": [
+    {
+      "type": "entries",
+      "value": {
+        "name": "Keys",
+        "differences": {
+          "added": [
+            "options.improvedTransparency.oitWithImprovedFog.tooltip: An experimental approach that uses an order-independent transparency algorithm to avoid graphical issues normally present when looking through multiple layers of translucent objects.\nThis option will also blend the sky background and the clouds with render distance-based fog to make the boundary between the terrain and the sky invisible.\nThis will impact performance.",
+            "subtitles.entity.zombie_nautilus.riding: Zombie Nautilus bubbles"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "text",
+      "value": {
+        "title": "Changes",
+        "values": [
+          {
+            "key": "advancement.advancementNotFound",
+            "previous": "Unknown advancement: %s",
+            "current": "Unknown advancement '%s'"
+          },
+          {
+            "key": "advancements.husbandry.uh_oh.title",
+            "previous": "Uh Oh",
+            "current": "Uh-Oh"
+          },
+          {
+            "key": "advancements.nether.distract_piglin.title",
+            "previous": "Oh Shiny",
+            "current": "Oooh, Shiny!"
+          },
+          {
+            "key": "argument.anchor.invalid",
+            "previous": "Invalid entity anchor position %s",
+            "current": "Invalid entity anchor position '%s'"
+          },
+          {
+            "key": "argument.component.invalid",
+            "previous": "Invalid chat component: %s",
+            "current": "Invalid chat component '%s'"
+          },
+          {
+            "key": "argument.gamemode.invalid",
+            "previous": "Unknown game mode: %s",
+            "current": "Unknown game mode '%s'"
+          },
+          {
+            "key": "argument.id.unknown",
+            "previous": "Unknown ID: %s",
+            "current": "Unknown ID '%s'"
+          },
+          {
+            "key": "argument.style.invalid",
+            "previous": "Invalid style: %s",
+            "current": "Invalid style '%s'"
+          },
+          {
+            "key": "argument.swing_animation.invalid",
+            "previous": "Unknown swing animation type: %s",
+            "current": "Unknown swing animation type '%s'"
+          },
+          {
+            "key": "arguments.function.unknown",
+            "previous": "Unknown function %s",
+            "current": "Unknown function '%s'"
+          },
+          {
+            "key": "chat_restriction.chat_disabled_by_options.action",
+            "previous": "Go to the Chat Settings screen",
+            "current": "Go to the Chat Settings Screen"
+          },
+          {
+            "key": "chat_screen.title",
+            "previous": "Chat screen",
+            "current": "Chat Screen"
+          },
+          {
+            "key": "chat.copy.click",
+            "previous": "Click to Copy to Clipboard",
+            "current": "Click to copy to clipboard"
+          },
+          {
+            "key": "command.compute.result.named.invalid",
+            "previous": "%s returned invalid value (%s)",
+            "current": "%s returned an invalid value (%s)"
+          },
+          {
+            "key": "command.compute.result.unnamed.invalid",
+            "previous": "Number provider returned invalid value (%s)",
+            "current": "Number provider returned an invalid value (%s)"
+          },
+          {
+            "key": "commands.data.modify.invalid_index",
+            "previous": "Invalid list index: %s",
+            "current": "Invalid list index '%s'"
+          },
+          {
+            "key": "commands.function.error.argument_not_compound",
+            "previous": "Invalid argument type: %s. Expected Compound",
+            "current": "Invalid argument type '%s'. Expected Compound"
+          },
+          {
+            "key": "commands.item.source.no_such_slot.unnamed",
+            "previous": "The source does not have specified slots",
+            "current": "The source does not have the specified slots"
+          },
+          {
+            "key": "commands.item.target.failed",
+            "previous": "No targets accepted items into specified slots",
+            "current": "No targets accepted items into the specified slots"
+          },
+          {
+            "key": "commands.item.target.failed.known_item",
+            "previous": "No targets accepted item %s into specified slots",
+            "current": "No targets accepted item %s into the specified slots"
+          },
+          {
+            "key": "commands.item.target.no_such_slot.unnamed",
+            "previous": "The target does not have specified slots",
+            "current": "The target does not have the specified slots"
+          },
+          {
+            "key": "commands.posteffect.list.success",
+            "previous": "Player %s has %s post effects: %s",
+            "current": "Player %s has %s post effect(s): %s"
+          },
+          {
+            "key": "commands.spreadplayers.failed.invalid.height",
+            "previous": "Invalid maxHeight %s; expected higher than world minimum %s",
+            "current": "Invalid maxHeight '%s'; expected higher than world minimum %s"
+          },
+          {
+            "key": "disconnect.loginFailedInfo.invalidSession",
+            "previous": "Invalid session (Try restarting your game and the launcher)",
+            "current": "Invalid session (try restarting your game and the launcher)"
+          },
+          {
+            "key": "gamerule.doMobLoot.description",
+            "previous": "Controls resource drops from mobs, including experience orbs.",
+            "current": "Controls resource drops from mobs, including Experience Orbs."
+          },
+          {
+            "key": "gamerule.doTileDrops.description",
+            "previous": "Controls resource drops from blocks, including experience orbs.",
+            "current": "Controls resource drops from blocks, including Experience Orbs."
+          },
+          {
+            "key": "gui.recipebook.moreRecipes",
+            "previous": "Right Click for More",
+            "current": "Right-Click for More"
+          },
+          {
+            "key": "item_modifier.unknown",
+            "previous": "Unknown item modifier: %s",
+            "current": "Unknown item modifier '%s'"
+          },
+          {
+            "key": "jigsaw_block.final_state",
+            "previous": "Turns into:",
+            "current": "Turns Into:"
+          },
+          {
+            "key": "mco.configure.world.invite_codes.subtitle",
+            "previous": "You can add up to %s invite codes and share them so people can join your Realm",
+            "current": "You can create up to %s invite codes and share them so people can join your Realm"
+          },
+          {
+            "key": "mco.snapshotRealmsPopup.message",
+            "previous": "Realms is now available in Snapshots starting with Snapshot 23w41a. Every Realms subscription comes with a free Snapshot Realm that is separate from your normal Java Realm!",
+            "current": "Realms is now available in snapshots starting with Snapshot 23w41a. Every Realms subscription comes with a free Snapshot Realm that is separate from your normal Java Realm!"
+          },
+          {
+            "key": "mco.snapshotRealmsPopup.title",
+            "previous": "Realms is now available in Snapshots",
+            "current": "Realms is now available in snapshots"
+          },
+          {
+            "key": "multiplayer.socialInteractions.not_available",
+            "previous": "Social Interactions are only available in Multiplayer worlds",
+            "current": "Social Interactions are only available in multiplayer worlds"
+          },
+          {
+            "key": "narration.button.usage.hovered",
+            "previous": "Left click to activate",
+            "current": "Left-click to activate"
+          },
+          {
+            "key": "narration.checkbox.usage.hovered",
+            "previous": "Left click to toggle",
+            "current": "Left-click to toggle"
+          },
+          {
+            "key": "narration.checkbox.usage.hovered.check",
+            "previous": "Left click to check",
+            "current": "Left-click to check"
+          },
+          {
+            "key": "narration.checkbox.usage.hovered.uncheck",
+            "previous": "Left click to uncheck",
+            "current": "Left-click to uncheck"
+          },
+          {
+            "key": "narration.cycle_button.usage.hovered",
+            "previous": "Left click to switch to %s",
+            "current": "Left-click to switch to %s"
+          },
+          {
+            "key": "narration.link.usage.hovered",
+            "previous": "Left click to follow the link",
+            "current": "Left-click to follow the link"
+          },
+          {
+            "key": "narration.recipe.usage",
+            "previous": "Left click to select",
+            "current": "Left-click to select"
+          },
+          {
+            "key": "narration.recipe.usage.more",
+            "previous": "Right click to show more recipes",
+            "current": "Right-click to show more recipes"
+          },
+          {
+            "key": "options.ctrlClickEmulatesRightClick",
+            "previous": "Right Click Emulation",
+            "current": "Right-Click Emulation"
+          },
+          {
+            "key": "options.debugGuiScale.tooltip",
+            "previous": "Overrides the debug overlay with a different GUI scale than the rest of the game",
+            "current": "Overrides the debug overlay with a different GUI scale than the rest of the game."
+          },
+          {
+            "key": "options.directionalAudio.off.tooltip",
+            "previous": "Classic Stereo sound.",
+            "current": "Classic stereo sound."
+          },
+          {
+            "key": "options.fullscreen.entry",
+            "previous": "%sx%s@%s (%sbit)",
+            "current": "%sx%s@%s (%s-bit)"
+          },
+          {
+            "key": "options.fullscreen.unavailable",
+            "previous": "Setting unavailable",
+            "current": "Setting Unavailable"
+          },
+          {
+            "key": "options.hideMatchedNames.tooltip",
+            "previous": "3rd-party Servers may send chat messages in non-standard formats.\n\nWith this option on, hidden players will be matched based on chat sender names.",
+            "current": "Third-party servers may send chat messages in non-standard formats.\n\nWith this option on, hidden players will be matched based on chat sender names."
+          },
+          {
+            "key": "options.inactivityFpsLimit",
+            "previous": "Reduce fps when",
+            "current": "Reduce FPS When"
+          },
+          {
+            "key": "options.inGameNotification.tooltip",
+            "previous": "Show Friend notifications in-game",
+            "current": "Show friend notifications in-game"
+          },
+          {
+            "key": "options.macFullscreenMenuVisibility.tooltip",
+            "previous": "Whether the macOS Menu bar and Dock can be revealed by moving the mouse to the edge of the screen while in non-exclusive fullscreen.",
+            "current": "Whether the macOS menu bar and Dock can be revealed by moving the mouse to the edge of the screen while in non-exclusive fullscreen."
+          },
+          {
+            "key": "options.vignette.tooltip",
+            "previous": "This is a subtle texture over the game screen used for reducing brightness towards the edges of the screen and warning about the world border.",
+            "current": "This is a subtle texture over the game screen used for reducing brightness toward the edges of the screen and warning about the world border."
+          },
+          {
+            "key": "options.worldOptions.guest.command_access.disabled.scope.tooltip",
+            "previous": "Cannot change the command access of players joining your world when the world's multiplayer scope is set to \"Off\".",
+            "current": "Cannot change the command access of players joining your world when \"LAN\" is set to \"OFF\"."
+          },
+          {
+            "key": "options.worldOptions.guest.command_access.tooltip",
+            "previous": "Controls whether players that join your world can use commands or not.",
+            "current": "Controls whether players that join your world can use commands."
+          },
+          {
+            "key": "options.worldOptions.guest.force_game_mode.off.scope.tooltip",
+            "previous": "Cannot change this setting when the world's multiplayer scope is set to \"Off\".",
+            "current": "Cannot change this setting when \"LAN\" is set to \"OFF\"."
+          },
+          {
+            "key": "particle.notFound",
+            "previous": "Unknown particle: %s",
+            "current": "Unknown particle '%s'"
+          },
+          {
+            "key": "predicate.unknown",
+            "previous": "Unknown predicate: %s",
+            "current": "Unknown predicate '%s'"
+          },
+          {
+            "key": "recipe.notFound",
+            "previous": "Unknown recipe: %s",
+            "current": "Unknown recipe '%s'"
+          },
+          {
+            "key": "selectWorld.backupQuestion.experimental",
+            "previous": "Worlds using Experimental Settings are not supported",
+            "current": "Worlds using experimental settings are not supported"
+          },
+          {
+            "key": "subtitles.block.anvil.destroy",
+            "previous": "Anvil destroyed",
+            "current": "Anvil breaks"
+          },
+          {
+            "key": "subtitles.block.anvil.land",
+            "previous": "Anvil landed",
+            "current": "Anvil lands"
+          },
+          {
+            "key": "subtitles.block.anvil.use",
+            "previous": "Anvil used",
+            "current": "Anvil is used"
+          },
+          {
+            "key": "subtitles.block.beacon.power_select",
+            "previous": "Beacon power selected",
+            "current": "Beacon power is selected"
+          },
+          {
+            "key": "subtitles.block.chest.locked",
+            "previous": "Chest locked",
+            "current": "Chest lock clangs"
+          },
+          {
+            "key": "subtitles.block.composter.empty",
+            "previous": "Composter emptied",
+            "current": "Composter empties"
+          },
+          {
+            "key": "subtitles.block.composter.fill",
+            "previous": "Composter filled",
+            "current": "Composter is filled"
+          },
+          {
+            "key": "subtitles.block.dispenser.dispense",
+            "previous": "Dispensed item",
+            "current": "Dispenser dispenses item"
+          },
+          {
+            "key": "subtitles.block.dispenser.fail",
+            "previous": "Dispenser failed",
+            "current": "Dispenser fails"
+          },
+          {
+            "key": "subtitles.block.enchantment_table.use",
+            "previous": "Enchanting Table used",
+            "current": "Enchanting Table is used"
+          },
+          {
+            "key": "subtitles.block.fire.extinguish",
+            "previous": "Fire extinguished",
+            "current": "Fire extinguishes"
+          },
+          {
+            "key": "subtitles.block.generic.place",
+            "previous": "Block placed",
+            "current": "Block is placed"
+          },
+          {
+            "key": "subtitles.block.grindstone.use",
+            "previous": "Grindstone used",
+            "current": "Grindstone is used"
+          },
+          {
+            "key": "subtitles.block.growing_plant.crop",
+            "previous": "Plant cropped",
+            "current": "Plant is cropped"
+          },
+          {
+            "key": "subtitles.block.honey_block.slide",
+            "previous": "Sliding down a honey block",
+            "current": "Sliding down a Honey Block"
+          },
+          {
+            "key": "subtitles.block.shelf.place_item",
+            "previous": "Item placed",
+            "current": "Item is placed"
+          },
+          {
+            "key": "subtitles.block.shelf.take_item",
+            "previous": "Item taken",
+            "current": "Item is taken"
+          },
+          {
+            "key": "subtitles.block.smithing_table.use",
+            "previous": "Smithing Table used",
+            "current": "Smithing Table is used"
+          },
+          {
+            "key": "subtitles.chiseled_bookshelf.insert",
+            "previous": "Book placed",
+            "current": "Book is placed"
+          },
+          {
+            "key": "subtitles.chiseled_bookshelf.insert_enchanted",
+            "previous": "Enchanted Book placed",
+            "current": "Enchanted Book is placed"
+          },
+          {
+            "key": "subtitles.chiseled_bookshelf.take",
+            "previous": "Book taken",
+            "current": "Book is taken"
+          },
+          {
+            "key": "subtitles.chiseled_bookshelf.take_enchanted",
+            "previous": "Enchanted Book taken",
+            "current": "Enchanted Book is taken"
+          },
+          {
+            "key": "subtitles.entity.allay.hurt",
+            "previous": "Allay hurts",
+            "current": "Allay is hurt"
+          },
+          {
+            "key": "subtitles.entity.armadillo.hurt",
+            "previous": "Armadillo hurts",
+            "current": "Armadillo is hurt"
+          },
+          {
+            "key": "subtitles.entity.armor_stand.fall",
+            "previous": "Something fell",
+            "current": "Something falls"
+          },
+          {
+            "key": "subtitles.entity.arrow.hit_player",
+            "previous": "Player hit",
+            "current": "Player is hit"
+          },
+          {
+            "key": "subtitles.entity.arrow.shoot",
+            "previous": "Arrow fired",
+            "current": "Arrow is fired"
+          },
+          {
+            "key": "subtitles.entity.axolotl.hurt",
+            "previous": "Axolotl hurts",
+            "current": "Axolotl is hurt"
+          },
+          {
+            "key": "subtitles.entity.baby_cat.hurt",
+            "previous": "Kitten hurts",
+            "current": "Kitten is hurt"
+          },
+          {
+            "key": "subtitles.entity.baby_chicken.hurts",
+            "previous": "Chick hurts",
+            "current": "Chick is hurt"
+          },
+          {
+            "key": "subtitles.entity.baby_horse.hurt",
+            "previous": "Foal hurts",
+            "current": "Foal is hurt"
+          },
+          {
+            "key": "subtitles.entity.baby_nautilus.hurt",
+            "previous": "Baby Nautilus hurts",
+            "current": "Baby Nautilus is hurt"
+          },
+          {
+            "key": "subtitles.entity.baby_nautilus.hurt_land",
+            "previous": "Baby Nautilus hurts",
+            "current": "Baby Nautilus is hurt"
+          },
+          {
+            "key": "subtitles.entity.baby_pig.hurt",
+            "previous": "Baby Pig hurts",
+            "current": "Baby Pig is hurt"
+          },
+          {
+            "key": "subtitles.entity.baby_wolf.hurt",
+            "previous": "Puppy hurts",
+            "current": "Puppy is hurt"
+          },
+          {
+            "key": "subtitles.entity.bat.hurt",
+            "previous": "Bat hurts",
+            "current": "Bat is hurt"
+          },
+          {
+            "key": "subtitles.entity.bee.hurt",
+            "previous": "Bee hurts",
+            "current": "Bee is hurt"
+          },
+          {
+            "key": "subtitles.entity.blaze.hurt",
+            "previous": "Blaze hurts",
+            "current": "Blaze is hurt"
+          },
+          {
+            "key": "subtitles.entity.bogged.hurt",
+            "previous": "Bogged hurts",
+            "current": "Bogged is hurt"
+          },
+          {
+            "key": "subtitles.entity.breeze.hurt",
+            "previous": "Breeze hurts",
+            "current": "Breeze is hurt"
+          },
+          {
+            "key": "subtitles.entity.camel_husk.hurt",
+            "previous": "Camel Husk hurts",
+            "current": "Camel Husk is hurt"
+          },
+          {
+            "key": "subtitles.entity.camel_husk.saddle",
+            "previous": "Saddle equips",
+            "current": "Saddle is equipped"
+          },
+          {
+            "key": "subtitles.entity.camel.hurt",
+            "previous": "Camel hurts",
+            "current": "Camel is hurt"
+          },
+          {
+            "key": "subtitles.entity.camel.saddle",
+            "previous": "Saddle equips",
+            "current": "Saddle is equipped"
+          },
+          {
+            "key": "subtitles.entity.cat.hurt",
+            "previous": "Cat hurts",
+            "current": "Cat is hurt"
+          },
+          {
+            "key": "subtitles.entity.chicken.hurt",
+            "previous": "Chicken hurts",
+            "current": "Chicken is hurt"
+          },
+          {
+            "key": "subtitles.entity.cod.hurt",
+            "previous": "Cod hurts",
+            "current": "Cod is hurt"
+          },
+          {
+            "key": "subtitles.entity.copper_golem_oxidized.hurt",
+            "previous": "Copper Golem hurts",
+            "current": "Copper Golem is hurt"
+          },
+          {
+            "key": "subtitles.entity.copper_golem_weathered.hurt",
+            "previous": "Copper Golem hurts",
+            "current": "Copper Golem is hurt"
+          },
+          {
+            "key": "subtitles.entity.copper_golem.hurt",
+            "previous": "Copper Golem hurts",
+            "current": "Copper Golem is hurt"
+          },
+          {
+            "key": "subtitles.entity.cow.hurt",
+            "previous": "Cow hurts",
+            "current": "Cow is hurt"
+          },
+          {
+            "key": "subtitles.entity.creeper.hurt",
+            "previous": "Creeper hurts",
+            "current": "Creeper is hurt"
+          },
+          {
+            "key": "subtitles.entity.dolphin.hurt",
+            "previous": "Dolphin hurts",
+            "current": "Dolphin is hurt"
+          },
+          {
+            "key": "subtitles.entity.donkey.chest",
+            "previous": "Donkey Chest equips",
+            "current": "Donkey Chest is equipped"
+          },
+          {
+            "key": "subtitles.entity.donkey.hurt",
+            "previous": "Donkey hurts",
+            "current": "Donkey is hurt"
+          },
+          {
+            "key": "subtitles.entity.drowned.hurt",
+            "previous": "Drowned hurts",
+            "current": "Drowned is hurt"
+          },
+          {
+            "key": "subtitles.entity.elder_guardian.hurt",
+            "previous": "Elder Guardian hurts",
+            "current": "Elder Guardian is hurt"
+          },
+          {
+            "key": "subtitles.entity.ender_dragon.hurt",
+            "previous": "Dragon hurts",
+            "current": "Dragon is hurt"
+          },
+          {
+            "key": "subtitles.entity.enderman.hurt",
+            "previous": "Enderman hurts",
+            "current": "Enderman is hurt"
+          },
+          {
+            "key": "subtitles.entity.endermite.hurt",
+            "previous": "Endermite hurts",
+            "current": "Endermite is hurt"
+          },
+          {
+            "key": "subtitles.entity.evoker.hurt",
+            "previous": "Evoker hurts",
+            "current": "Evoker is hurt"
+          },
+          {
+            "key": "subtitles.entity.evoker.prepare_summon",
+            "previous": "Evoker prepares summoning",
+            "current": "Evoker prepares to summon"
+          },
+          {
+            "key": "subtitles.entity.evoker.prepare_wololo",
+            "previous": "Evoker prepares charming",
+            "current": "Evoker prepares to charm"
+          },
+          {
+            "key": "subtitles.entity.fishing_bobber.retrieve",
+            "previous": "Bobber retrieved",
+            "current": "Bobber is retrieved"
+          },
+          {
+            "key": "subtitles.entity.fishing_bobber.throw",
+            "previous": "Bobber thrown",
+            "current": "Bobber is thrown"
+          },
+          {
+            "key": "subtitles.entity.fox.aggro",
+            "previous": "Fox angers",
+            "current": "Fox gets angry"
+          },
+          {
+            "key": "subtitles.entity.fox.hurt",
+            "previous": "Fox hurts",
+            "current": "Fox is hurt"
+          },
+          {
+            "key": "subtitles.entity.frog.hurt",
+            "previous": "Frog hurts",
+            "current": "Frog is hurt"
+          },
+          {
+            "key": "subtitles.entity.generic.big_fall",
+            "previous": "Something fell",
+            "current": "Something falls"
+          },
+          {
+            "key": "subtitles.entity.generic.hurt",
+            "previous": "Something hurts",
+            "current": "Something is hurt"
+          },
+          {
+            "key": "subtitles.entity.ghast.hurt",
+            "previous": "Ghast hurts",
+            "current": "Ghast is hurt"
+          },
+          {
+            "key": "subtitles.entity.ghastling.hurt",
+            "previous": "Ghastling hurts",
+            "current": "Ghastling is hurt"
+          },
+          {
+            "key": "subtitles.entity.glow_item_frame.add_item",
+            "previous": "Glow Item Frame fills",
+            "current": "Glow Item Frame is filled"
+          },
+          {
+            "key": "subtitles.entity.glow_item_frame.break",
+            "previous": "Glow Item Frame broken",
+            "current": "Glow Item Frame breaks"
+          },
+          {
+            "key": "subtitles.entity.glow_item_frame.place",
+            "previous": "Glow Item Frame placed",
+            "current": "Glow Item Frame is placed"
+          },
+          {
+            "key": "subtitles.entity.glow_squid.hurt",
+            "previous": "Glow Squid hurts",
+            "current": "Glow Squid is hurt"
+          },
+          {
+            "key": "subtitles.entity.goat.hurt",
+            "previous": "Goat hurts",
+            "current": "Goat is hurt"
+          },
+          {
+            "key": "subtitles.entity.guardian.hurt",
+            "previous": "Guardian hurts",
+            "current": "Guardian is hurt"
+          },
+          {
+            "key": "subtitles.entity.happy_ghast.equip",
+            "previous": "Harness equips",
+            "current": "Harness is equipped"
+          },
+          {
+            "key": "subtitles.entity.happy_ghast.hurt",
+            "previous": "Happy Ghast hurts",
+            "current": "Happy Ghast is hurt"
+          },
+          {
+            "key": "subtitles.entity.happy_ghast.unequip",
+            "previous": "Harness unequips",
+            "current": "Harness is unequipped"
+          },
+          {
+            "key": "subtitles.entity.hoglin.hurt",
+            "previous": "Hoglin hurts",
+            "current": "Hoglin is hurt"
+          },
+          {
+            "key": "subtitles.entity.horse.armor",
+            "previous": "Horse armor equips",
+            "current": "Horse armor is equipped"
+          },
+          {
+            "key": "subtitles.entity.horse.hurt",
+            "previous": "Horse hurts",
+            "current": "Horse is hurt"
+          },
+          {
+            "key": "subtitles.entity.horse.saddle",
+            "previous": "Saddle equips",
+            "current": "Saddle is equipped"
+          },
+          {
+            "key": "subtitles.entity.husk.hurt",
+            "previous": "Husk hurts",
+            "current": "Husk is hurt"
+          },
+          {
+            "key": "subtitles.entity.illusioner.hurt",
+            "previous": "Illusioner hurts",
+            "current": "Illusioner is hurt"
+          },
+          {
+            "key": "subtitles.entity.iron_golem.hurt",
+            "previous": "Iron Golem hurts",
+            "current": "Iron Golem is hurt"
+          },
+          {
+            "key": "subtitles.entity.iron_golem.repair",
+            "previous": "Iron Golem repaired",
+            "current": "Iron Golem is repaired"
+          },
+          {
+            "key": "subtitles.entity.item_frame.add_item",
+            "previous": "Item Frame fills",
+            "current": "Item Frame is filled"
+          },
+          {
+            "key": "subtitles.entity.item_frame.break",
+            "previous": "Item Frame broken",
+            "current": "Item Frame breaks"
+          },
+          {
+            "key": "subtitles.entity.item_frame.place",
+            "previous": "Item Frame placed",
+            "current": "Item Frame is placed"
+          },
+          {
+            "key": "subtitles.entity.leash_knot.break",
+            "previous": "Leash Knot broken",
+            "current": "Leash Knot breaks"
+          },
+          {
+            "key": "subtitles.entity.leash_knot.place",
+            "previous": "Leash Knot tied",
+            "current": "Leash Knot is tied"
+          },
+          {
+            "key": "subtitles.entity.llama.chest",
+            "previous": "Llama Chest equips",
+            "current": "Llama Chest is equipped"
+          },
+          {
+            "key": "subtitles.entity.llama.hurt",
+            "previous": "Llama hurts",
+            "current": "Llama is hurt"
+          },
+          {
+            "key": "subtitles.entity.magma_cube.hurt",
+            "previous": "Magma Cube hurts",
+            "current": "Magma Cube is hurt"
+          },
+          {
+            "key": "subtitles.entity.mule.chest",
+            "previous": "Mule Chest equips",
+            "current": "Mule Chest is equipped"
+          },
+          {
+            "key": "subtitles.entity.mule.hurt",
+            "previous": "Mule hurts",
+            "current": "Mule is hurt"
+          },
+          {
+            "key": "subtitles.entity.nautilus.hurt",
+            "previous": "Nautilus hurts",
+            "current": "Nautilus is hurt"
+          },
+          {
+            "key": "subtitles.entity.nautilus.hurt_land",
+            "previous": "Nautilus hurts",
+            "current": "Nautilus is hurt"
+          },
+          {
+            "key": "subtitles.entity.painting.break",
+            "previous": "Painting broken",
+            "current": "Painting breaks"
+          },
+          {
+            "key": "subtitles.entity.painting.place",
+            "previous": "Painting placed",
+            "current": "Painting is placed"
+          },
+          {
+            "key": "subtitles.entity.panda.hurt",
+            "previous": "Panda hurts",
+            "current": "Panda is hurt"
+          },
+          {
+            "key": "subtitles.entity.parched.hurt",
+            "previous": "Parched hurts",
+            "current": "Parched is hurt"
+          },
+          {
+            "key": "subtitles.entity.parrot.hurts",
+            "previous": "Parrot hurts",
+            "current": "Parrot is hurt"
+          },
+          {
+            "key": "subtitles.entity.parrot.imitate.wither",
+            "previous": "Parrot angers",
+            "current": "Parrot gets angry"
+          },
+          {
+            "key": "subtitles.entity.phantom.hurt",
+            "previous": "Phantom hurts",
+            "current": "Phantom is hurt"
+          },
+          {
+            "key": "subtitles.entity.pig.hurt",
+            "previous": "Pig hurts",
+            "current": "Pig is hurt"
+          },
+          {
+            "key": "subtitles.entity.pig.saddle",
+            "previous": "Saddle equips",
+            "current": "Saddle is equipped"
+          },
+          {
+            "key": "subtitles.entity.piglin_brute.hurt",
+            "previous": "Piglin Brute hurts",
+            "current": "Piglin Brute is hurt"
+          },
+          {
+            "key": "subtitles.entity.piglin.hurt",
+            "previous": "Piglin hurts",
+            "current": "Piglin is hurt"
+          },
+          {
+            "key": "subtitles.entity.pillager.hurt",
+            "previous": "Pillager hurts",
+            "current": "Pillager is hurt"
+          },
+          {
+            "key": "subtitles.entity.player.burp",
+            "previous": "Burp",
+            "current": "Player burps"
+          },
+          {
+            "key": "subtitles.entity.player.hurt",
+            "previous": "Player hurts",
+            "current": "Player is hurt"
+          },
+          {
+            "key": "subtitles.entity.player.hurt_drown",
+            "previous": "Player drowning",
+            "current": "Player is drowning"
+          },
+          {
+            "key": "subtitles.entity.player.hurt_on_fire",
+            "previous": "Player burns",
+            "current": "Player is burning"
+          },
+          {
+            "key": "subtitles.entity.polar_bear.hurt",
+            "previous": "Polar Bear hurts",
+            "current": "Polar Bear is hurt"
+          },
+          {
+            "key": "subtitles.entity.potion.throw",
+            "previous": "Bottle thrown",
+            "current": "Bottle is thrown"
+          },
+          {
+            "key": "subtitles.entity.puffer_fish.hurt",
+            "previous": "Pufferfish hurts",
+            "current": "Pufferfish is hurt"
+          },
+          {
+            "key": "subtitles.entity.rabbit.hurt",
+            "previous": "Rabbit hurts",
+            "current": "Rabbit is hurt"
+          },
+          {
+            "key": "subtitles.entity.ravager.hurt",
+            "previous": "Ravager hurts",
+            "current": "Ravager is hurt"
+          },
+          {
+            "key": "subtitles.entity.salmon.hurt",
+            "previous": "Salmon hurts",
+            "current": "Salmon is hurt"
+          },
+          {
+            "key": "subtitles.entity.sheep.hurt",
+            "previous": "Sheep hurts",
+            "current": "Sheep is hurt"
+          },
+          {
+            "key": "subtitles.entity.shulker.hurt",
+            "previous": "Shulker hurts",
+            "current": "Shulker is hurt"
+          },
+          {
+            "key": "subtitles.entity.silverfish.hurt",
+            "previous": "Silverfish hurts",
+            "current": "Silverfish is hurt"
+          },
+          {
+            "key": "subtitles.entity.skeleton_horse.hurt",
+            "previous": "Skeleton Horse hurts",
+            "current": "Skeleton Horse is hurt"
+          },
+          {
+            "key": "subtitles.entity.skeleton.hurt",
+            "previous": "Skeleton hurts",
+            "current": "Skeleton is hurt"
+          },
+          {
+            "key": "subtitles.entity.slime.hurt",
+            "previous": "Slime hurts",
+            "current": "Slime is hurt"
+          },
+          {
+            "key": "subtitles.entity.small_sulfur_cube.hurt",
+            "previous": "Small Sulfur Cube hurts",
+            "current": "Small Sulfur Cube is hurt"
+          },
+          {
+            "key": "subtitles.entity.sniffer.hurt",
+            "previous": "Sniffer hurts",
+            "current": "Sniffer is hurt"
+          },
+          {
+            "key": "subtitles.entity.snow_golem.hurt",
+            "previous": "Snow Golem hurts",
+            "current": "Snow Golem is hurt"
+          },
+          {
+            "key": "subtitles.entity.spider.hurt",
+            "previous": "Spider hurts",
+            "current": "Spider is hurt"
+          },
+          {
+            "key": "subtitles.entity.squid.hurt",
+            "previous": "Squid hurts",
+            "current": "Squid is hurt"
+          },
+          {
+            "key": "subtitles.entity.stray.hurt",
+            "previous": "Stray hurts",
+            "current": "Stray is hurt"
+          },
+          {
+            "key": "subtitles.entity.strider.hurt",
+            "previous": "Strider hurts",
+            "current": "Strider is hurt"
+          },
+          {
+            "key": "subtitles.entity.sulfur_cube.hurt",
+            "previous": "Sulfur Cube hurts",
+            "current": "Sulfur Cube is hurt"
+          },
+          {
+            "key": "subtitles.entity.tadpole.hurt",
+            "previous": "Tadpole hurts",
+            "current": "Tadpole is hurt"
+          },
+          {
+            "key": "subtitles.entity.tropical_fish.hurt",
+            "previous": "Tropical Fish hurts",
+            "current": "Tropical Fish is hurt"
+          },
+          {
+            "key": "subtitles.entity.turtle.hurt",
+            "previous": "Turtle hurts",
+            "current": "Turtle is hurt"
+          },
+          {
+            "key": "subtitles.entity.turtle.hurt_baby",
+            "previous": "Baby Turtle hurts",
+            "current": "Baby Turtle is hurt"
+          },
+          {
+            "key": "subtitles.entity.vex.hurt",
+            "previous": "Vex hurts",
+            "current": "Vex is hurt"
+          },
+          {
+            "key": "subtitles.entity.villager.hurt",
+            "previous": "Villager hurts",
+            "current": "Villager is hurt"
+          },
+          {
+            "key": "subtitles.entity.vindicator.hurt",
+            "previous": "Vindicator hurts",
+            "current": "Vindicator is hurt"
+          },
+          {
+            "key": "subtitles.entity.wandering_trader.hurt",
+            "previous": "Wandering Trader hurts",
+            "current": "Wandering Trader is hurt"
+          },
+          {
+            "key": "subtitles.entity.warden.hurt",
+            "previous": "Warden hurts",
+            "current": "Warden is hurt"
+          },
+          {
+            "key": "subtitles.entity.witch.hurt",
+            "previous": "Witch hurts",
+            "current": "Witch is hurt"
+          },
+          {
+            "key": "subtitles.entity.wither_skeleton.hurt",
+            "previous": "Wither Skeleton hurts",
+            "current": "Wither Skeleton is hurt"
+          },
+          {
+            "key": "subtitles.entity.wither.ambient",
+            "previous": "Wither angers",
+            "current": "Wither gets angry"
+          },
+          {
+            "key": "subtitles.entity.wither.hurt",
+            "previous": "Wither hurts",
+            "current": "Wither is hurt"
+          },
+          {
+            "key": "subtitles.entity.wolf.hurt",
+            "previous": "Wolf hurts",
+            "current": "Wolf is hurt"
+          },
+          {
+            "key": "subtitles.entity.zoglin.hurt",
+            "previous": "Zoglin hurts",
+            "current": "Zoglin is hurt"
+          },
+          {
+            "key": "subtitles.entity.zombie_horse.hurt",
+            "previous": "Zombie Horse hurts",
+            "current": "Zombie Horse is hurt"
+          },
+          {
+            "key": "subtitles.entity.zombie_nautilus.hurt",
+            "previous": "Zombie Nautilus hurts",
+            "current": "Zombie Nautilus is hurt"
+          },
+          {
+            "key": "subtitles.entity.zombie_nautilus.hurt_land",
+            "previous": "Zombie Nautilus hurts",
+            "current": "Zombie Nautilus is hurt"
+          },
+          {
+            "key": "subtitles.entity.zombie_villager.hurt",
+            "previous": "Zombie Villager hurts",
+            "current": "Zombie Villager is hurt"
+          },
+          {
+            "key": "subtitles.entity.zombie.destroy_egg",
+            "previous": "Turtle Egg stomped",
+            "current": "Turtle Egg is stomped"
+          },
+          {
+            "key": "subtitles.entity.zombie.hurt",
+            "previous": "Zombie hurts",
+            "current": "Zombie is hurt"
+          },
+          {
+            "key": "subtitles.entity.zombified_piglin.hurt",
+            "previous": "Zombified Piglin hurts",
+            "current": "Zombified Piglin is hurt"
+          },
+          {
+            "key": "subtitles.item.armor.equip",
+            "previous": "Gear equips",
+            "current": "Gear is equipped"
+          },
+          {
+            "key": "subtitles.item.armor.equip_nautilus",
+            "previous": "Nautilus Armor equips",
+            "current": "Nautilus Armor is equipped"
+          },
+          {
+            "key": "subtitles.item.armor.unequip_nautilus",
+            "previous": "Nautilus Armor unequips",
+            "current": "Nautilus Armor is unequipped"
+          },
+          {
+            "key": "subtitles.item.brush.brushing.gravel.complete",
+            "previous": "Brushing Gravel completed",
+            "current": "Brushing Gravel is completed"
+          },
+          {
+            "key": "subtitles.item.brush.brushing.sand.complete",
+            "previous": "Brushing Sand completed",
+            "current": "Brushing Sand is completed"
+          },
+          {
+            "key": "subtitles.item.bucket.fill_axolotl",
+            "previous": "Axolotl scooped",
+            "current": "Axolotl is scooped"
+          },
+          {
+            "key": "subtitles.item.bucket.fill_fish",
+            "previous": "Fish captured",
+            "current": "Fish is captured"
+          },
+          {
+            "key": "subtitles.item.bucket.fill_sulfur_cube",
+            "previous": "Sulfur Cube scooped",
+            "current": "Sulfur Cube is scooped"
+          },
+          {
+            "key": "subtitles.item.bucket.fill_tadpole",
+            "previous": "Tadpole captured",
+            "current": "Tadpole is captured"
+          },
+          {
+            "key": "subtitles.item.bundle.insert",
+            "previous": "Item packed",
+            "current": "Item is packed"
+          },
+          {
+            "key": "subtitles.item.bundle.insert_fail",
+            "previous": "Bundle full",
+            "current": "Bundle rejects an item"
+          },
+          {
+            "key": "subtitles.item.bundle.remove_one",
+            "previous": "Item unpacked",
+            "current": "Item is unpacked"
+          },
+          {
+            "key": "subtitles.item.crop.plant",
+            "previous": "Crop planted",
+            "current": "Crop is planted"
+          },
+          {
+            "key": "subtitles.item.flintandsteel.use",
+            "previous": "Flint and Steel click",
+            "current": "Flint and Steel clicks"
+          },
+          {
+            "key": "subtitles.item.nautilus_saddle_equip",
+            "previous": "Saddle equips",
+            "current": "Saddle is equipped"
+          },
+          {
+            "key": "subtitles.item.nautilus_saddle_underwater_equip",
+            "previous": "Saddle equips",
+            "current": "Saddle is equipped"
+          },
+          {
+            "key": "subtitles.item.nether_wart.plant",
+            "previous": "Crop planted",
+            "current": "Crop is planted"
+          },
+          {
+            "key": "subtitles.item.underwater_saddle.equip",
+            "previous": "Saddle equips",
+            "current": "Saddle is equipped"
+          },
+          {
+            "key": "subtitles.ui.cartography_table.take_result",
+            "previous": "Map drawn",
+            "current": "Map is drawn"
+          },
+          {
+            "key": "subtitles.ui.hud.bubble_pop",
+            "previous": "Breath meter dropping",
+            "current": "Breath meter drops"
+          },
+          {
+            "key": "subtitles.ui.loom.take_result",
+            "previous": "Loom used",
+            "current": "Loom is used"
+          },
+          {
+            "key": "subtitles.ui.stonecutter.take_result",
+            "previous": "Stonecutter used",
+            "current": "Stonecutter is used"
+          },
+          {
+            "key": "telemetry.event.world_loaded.description",
+            "previous": "Knowing how players play Minecraft (such as Game Mode, client or server modded, and game version) allows us to focus game updates to improve the areas that players care about most.\n\nThe World Loaded event is paired with the World Unloaded event to calculate how long the play session has lasted.",
+            "current": "Knowing how players play Minecraft (such as game mode, client or server modded, and game version) allows us to focus game updates to improve the areas that players care about most.\n\nThe World Loaded event is paired with the World Unloaded event to calculate how long the play session has lasted."
+          },
+          {
+            "key": "test.error.sequence.invalid_tick",
+            "previous": "Succeeded in invalid tick: expected %s",
+            "current": "Succeeded in an invalid tick: expected %s"
+          },
+          {
+            "key": "test.player.coordinates",
+            "previous": "Player coordinates: [%s, %s, %s] in %s",
+            "current": "Player coordinates: %s, %s, %s in %s"
+          },
+          {
+            "key": "test.run.coordinates",
+            "previous": "Test coordinates: [%s, %s, %s] in %s",
+            "current": "Test coordinates: %s, %s, %s in %s"
+          },
+          {
+            "key": "title.multiplayer.other",
+            "previous": "Multiplayer (3rd-party Server)",
+            "current": "Multiplayer (Third-party Server)"
+          },
+          {
+            "key": "tutorial.bundleInsert.description",
+            "previous": "Right Click to add items",
+            "current": "Right-click to add items"
+          }
+        ]
+      }
+    }
+  ],
+  "file_structure": [
+    {
+      "type": "entries",
+      "value": {
+        "name": "assets",
+        "differences": {
+          "added": [
+            "minecraft/shaders/core/blit_clouds.fsh",
+            "minecraft/shaders/core/screentriangle.vsh",
+            "minecraft/shaders/core/sky_occluder.fsh",
+            "minecraft/shaders/core/sky_occluder.vsh",
+            "minecraft/shaders/include/fullscreen_triangle.glsl"
+          ],
+          "removed": [
+            "minecraft/shaders/core/screenquad.vsh"
+          ]
+        }
+      }
+    }
+  ],
+  "custom": [
+    {
+      "type": "title",
+      "value": {
+        "title": "datapacks.json",
+        "id": "custom-datapacks-json",
+        "size": 2
+      }
+    }
+  ]
+}
