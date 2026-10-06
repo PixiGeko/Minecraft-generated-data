@@ -1,0 +1,798 @@
+## Comparison with [26.4-snapshot-2](https://github.com/PixiGeko/Minecraft-generated-data/tree/26.4-snapshot-2)
+
+> [!TIP]
+> - [Version data](#version-data)
+> - [Registries](#registries)
+> - [Tags](#tags)
+> - [Blocks](#blocks)
+> - [Recipes](#recipes)
+> - [Datapacks](#datapacks)
+> - [Translations](#translations)
+> - [File structure](#file-structure)
+
+<br/><br/>
+<details><summary><b><ins>VERSION DATA</ins></b><a name="version-data"></a></summary>
+<br/>
+<table><tr><th></th><th align="left">26.4-snapshot-2</th><th>26.4-snapshot-3</th></tr><tr><td>DataPack version</td><td><pre>122.1</pre></td><td><pre>123.0</pre></td></tr><tr><td>ResourcePack version</td><td><pre>99.0</pre></td><td><pre>100.0</pre></td></tr><tr><td>World version</td><td><pre>5120</pre></td><td><pre>5122</pre></td></tr><tr><td>Protocol version</td><td><pre>1073742164</pre></td><td><pre>1073742165</pre></td></tr></table>
+</details>
+<hr/>
+<details><summary><b><ins>REGISTRIES</ins></b><a name="registries"></a></summary>
+<br/>
+<details>
+<summary>
+block
+</summary>
+
+```diff
++ minecraft:ice_crystal
++ minecraft:icicle
+```
+
+</details>
+<details>
+<summary>
+entity_type
+</summary>
+
+```diff
++ minecraft:frostbite
++ minecraft:ice_ball
+```
+
+</details>
+<details>
+<summary>
+item
+</summary>
+
+```diff
++ minecraft:frostbite_spawn_egg
++ minecraft:ice_ball
++ minecraft:ice_crystal
++ minecraft:icicle
+```
+
+</details>
+<details>
+<summary>
+mob_effect
+</summary>
+
+```diff
++ minecraft:freezing
+```
+
+</details>
+<details>
+<summary>
+particle_type
+</summary>
+
+```diff
++ minecraft:freezing
+- minecraft:item_snowball
+```
+
+</details>
+<details>
+<summary>
+potion
+</summary>
+
+```diff
++ minecraft:freezing
++ minecraft:long_freezing
+```
+
+</details>
+<details>
+<summary>
+sound_event
+</summary>
+
+```diff
++ minecraft:block.ice_crystal.break
++ minecraft:block.ice_crystal.fall
++ minecraft:block.ice_crystal.hit
++ minecraft:block.ice_crystal.place
++ minecraft:block.ice_crystal.step
++ minecraft:block.ice.break
++ minecraft:block.ice.fall
++ minecraft:block.ice.hit
++ minecraft:block.ice.place
++ minecraft:block.ice.step
++ minecraft:block.icicle.break
++ minecraft:block.icicle.fall
++ minecraft:block.icicle.hit
++ minecraft:block.icicle.land
++ minecraft:block.icicle.place
++ minecraft:block.icicle.step
++ minecraft:entity.frostbite.ambient
++ minecraft:entity.frostbite.converted_to_zombie
++ minecraft:entity.frostbite.death
++ minecraft:entity.frostbite.hurt
++ minecraft:entity.frostbite.step
++ minecraft:entity.ice_ball.break
++ minecraft:entity.ice_ball.throw
++ minecraft:entity.zombie.converted_to_frostbite
++ minecraft:event.mob_effect.freezing
+```
+
+</details>
+<details>
+<summary>
+worldgen/feature_type
+</summary>
+
+```diff
+- minecraft:large_dripstone
++ minecraft:large_speleothem
+```
+
+</details>
+</details>
+<hr/>
+<details><summary><b><ins>TAGS</ins></b><a name="tags"></a></summary>
+<br/>
+<details>
+<summary>
+all_blocks_with_drop.json
+</summary>
+
+```diff
++ minecraft:ice_crystal
++ minecraft:icicle
+```
+
+</details>
+<details>
+<summary>
+all_entities_without_drop.json
+</summary>
+
+```diff
++ minecraft:ice_ball
+```
+
+</details>
+<details>
+<summary>
+all_entities_with_drop.json
+</summary>
+
+```diff
++ minecraft:frostbite
+```
+
+</details>
+<details>
+<summary>
+universal_tags/block.json
+</summary>
+
+```diff
++ minecraft:ice_crystal
++ minecraft:icicle
+```
+
+</details>
+<details>
+<summary>
+universal_tags/entity_type.json
+</summary>
+
+```diff
++ minecraft:frostbite
++ minecraft:ice_ball
+```
+
+</details>
+<details>
+<summary>
+universal_tags/item.json
+</summary>
+
+```diff
++ minecraft:frostbite_spawn_egg
++ minecraft:ice_ball
++ minecraft:ice_crystal
++ minecraft:icicle
+```
+
+</details>
+<details>
+<summary>
+universal_tags/mob_effect.json
+</summary>
+
+```diff
++ minecraft:freezing
+```
+
+</details>
+<details>
+<summary>
+universal_tags/particle_type.json
+</summary>
+
+```diff
++ minecraft:freezing
+- minecraft:item_snowball
+```
+
+</details>
+<details>
+<summary>
+universal_tags/potion.json
+</summary>
+
+```diff
++ minecraft:freezing
++ minecraft:long_freezing
+```
+
+</details>
+<details>
+<summary>
+universal_tags/sound_event.json
+</summary>
+
+```diff
++ minecraft:block.ice_crystal.break
++ minecraft:block.ice_crystal.fall
++ minecraft:block.ice_crystal.hit
++ minecraft:block.ice_crystal.place
++ minecraft:block.ice_crystal.step
++ minecraft:block.ice.break
++ minecraft:block.ice.fall
++ minecraft:block.ice.hit
++ minecraft:block.ice.place
++ minecraft:block.ice.step
++ minecraft:block.icicle.break
++ minecraft:block.icicle.fall
++ minecraft:block.icicle.hit
++ minecraft:block.icicle.land
++ minecraft:block.icicle.place
++ minecraft:block.icicle.step
++ minecraft:entity.frostbite.ambient
++ minecraft:entity.frostbite.converted_to_zombie
++ minecraft:entity.frostbite.death
++ minecraft:entity.frostbite.hurt
++ minecraft:entity.frostbite.step
++ minecraft:entity.ice_ball.break
++ minecraft:entity.ice_ball.throw
++ minecraft:entity.zombie.converted_to_frostbite
++ minecraft:event.mob_effect.freezing
+```
+
+</details>
+<details>
+<summary>
+universal_tags/worldgen/feature_type.json
+</summary>
+
+```diff
+- minecraft:large_dripstone
++ minecraft:large_speleothem
+```
+
+</details>
+</details>
+<hr/>
+<details><summary><b><ins>BLOCKS</ins></b><a name="blocks"></a></summary>
+<br/>
+<details>
+<summary>
+🗒️ List
+</summary>
+
+```diff
++ ice_crystal.json
++ icicle.json
+```
+
+</details>
+</details>
+<hr/>
+<details><summary><b><ins>RECIPES</ins></b><a name="recipes"></a></summary>
+<br/>
+<details>
+<summary>
+🗒️ List
+</summary>
+
+```diff
++ brewing/lingering_potion_awkward_ice_ball.json
++ brewing/lingering_potion_freezing_redstone.json
++ brewing/lingering_potion_water_ice_ball.json
++ brewing/potion_awkward_ice_ball.json
++ brewing/potion_freezing_gunpowder.json
++ brewing/potion_freezing_redstone.json
++ brewing/potion_long_freezing_gunpowder.json
++ brewing/potion_water_ice_ball.json
++ brewing/splash_potion_awkward_ice_ball.json
++ brewing/splash_potion_freezing_dragon_breath.json
++ brewing/splash_potion_freezing_redstone.json
++ brewing/splash_potion_long_freezing_dragon_breath.json
++ brewing/splash_potion_water_ice_ball.json
+```
+
+</details>
+</details>
+<hr/>
+<details><summary><b><ins>DATAPACKS</ins></b><a name="datapacks"></a></summary>
+<br/>
+<details>
+<summary>
+[registries] List
+</summary>
+
+```diff
++ minecraft:block_sound_set
+```
+
+</details>
+</details>
+<hr/>
+<details><summary><b><ins>TRANSLATIONS</ins></b><a name="translations"></a></summary>
+<br/>
+<details>
+<summary>
+Keys
+</summary>
+
+```diff
++ biome.minecraft.ice_caves: Ice Caves
++ block.minecraft.ice_crystal: Ice Crystal
++ block.minecraft.icicle: Icicle
++ effect.minecraft.freezing: Freezing
++ entity.minecraft.frostbite: Frostbite
++ entity.minecraft.ice_ball: Ice Ball
++ gui.abuseReport.discard.draft.overwrite: You already have a report draft saved. Saving a new draft will permanently overwrite it.
++ gui.abuseReport.draft.quittotitle.content.new: You have an unfinished report that will be lost if you quit. Would you like to continue editing it or discard it?
++ gui.abuseReport.draft.quittotitle.discard: Quit and Discard Report
++ gui.abuseReport.draft.quittotitle.title.new: Discard Draft Report?
++ gui.abuseReport.draft.quittotitle.tooltip: Quitting will permanently discard your draft.
++ gui.abuseReport.draft.quittotitle.tooltip.chat: Quitting will permanently discard your draft. You won't be able to report these chat messages later.
++ gui.abuseReport.draft.restart: Discard and Start New Report
++ gui.abuseReport.draft.title.new: Edit Draft Report?
++ gui.friends.accept.tooltip: Accept friend request.
++ gui.friends.decline.tooltip: Decline friend request.
++ gui.friends.narration.button.player_options: Press enter to open player options for %s
++ gui.friends.narration.button.send_request: Press enter to send a friend request to %s
++ gui.friends.pending.disabled: Friend requests are disabled.
+
+You can enable friend requests in the "Online Options" screen.
++ gui.friends.pending.search: Search...
++ gui.friends.pending.search.no_results: No players with that profile name here.
++ gui.friends.player_options: Player Options
++ gui.friends.search.no_results: No players found.
++ gui.friends.sort: Sort Players
++ gui.friends.sort.alphabetical: Sort by alphabetical order
++ gui.friends.sort.presence: Sort by who's online
++ gui.friends.title: Friends
++ gui.loading: Wait...
++ gui.player_interactions.empty_blocked: No blocked players in chat
+
+Manage blocked players with your %s.
++ gui.player_interactions.empty_blocked.link: Microsoft account
++ gui.player_interactions.empty_muted: No muted players in chat
++ gui.player_interactions.empty: This world is open to multiplayer, but no one else is here yet!
++ gui.player_interactions.manage_account_footer: Manage blocked players with your %s
++ gui.player_interactions.search: Search...
++ gui.player_interactions.search.no_results: Couldn't find any players with that name
++ gui.player_interactions.tab_all: All (%s)
++ gui.player_interactions.tab_blocked: Blocked
++ gui.player_interactions.tab_muted: Muted
++ gui.player_interactions.title: Other Players
++ gui.player_interactions.title.full: Other Players - %s
++ gui.player_options.cancel_request: Cancel Friend Request
++ gui.player_options.edit_report: Edit Report
++ gui.player_options.edit_report.tooltip: Continue editing the existing report or discard it and create a new one.
++ gui.player_options.mute: Mute
++ gui.player_options.mute.feedback: Chat messages from %s will be hidden
++ gui.player_options.mute.tooltip: Hide chat messages from this player.
++ gui.player_options.report: Report
++ gui.player_options.report.tooltip: Create a report about this player's appearance or behavior.
++ gui.player_options.report.tooltip.disabled: The reporting service is unavailable.
++ gui.player_options.send_request: Send Friend Request
++ gui.player_options.status.blocked: Blocked - %s
++ gui.player_options.status.muted: Muted - %s
++ gui.player_options.title: Player Options
++ gui.player_options.unfriend: Remove Friend
++ gui.player_options.unfriend.confirm: This player will be removed from your Friends.
++ gui.player_options.unmute: Unmute
++ gui.player_options.unmute.feedback: Chat messages from %s will be shown
++ gui.player_options.unmute.tooltip: Show chat messages from this player.
++ gui.socialInteractions.tooltip.report.skin_not_reportable: This player can't be reported because their skin can't be verified.
++ item.minecraft.frostbite_spawn_egg: Frostbite Spawn Egg
++ item.minecraft.ice_ball: Ice Ball
++ item.minecraft.lingering_potion.effect.freezing: Lingering Potion of Freezing
++ item.minecraft.potion.effect.freezing: Potion of Freezing
++ item.minecraft.splash_potion.effect.freezing: Splash Potion of Freezing
++ item.minecraft.tipped_arrow.effect.freezing: Arrow of Freezing
++ key.otherPlayers: Other Players
++ menu.disconnect.draft_report.tooltip: You have an unsent draft player report.
++ menu.other_players: Other Players
++ menu.other_players.no_players: This world is not currently joinable by other players
++ multiplayer.other_players.not_available: Other Players only available in Multiplayer worlds
++ options.sharePresence.all.description: You will appear online and active
++ options.sharePresence.all.name: Full visibility
++ options.sharePresence.limited.description: You will appear online
++ options.sharePresence.limited.name: Limited visibility
++ options.sharePresence.none.description: You will appear offline
++ options.sharePresence.none.name: No visibility
++ restrictions_screen.permission.receive_player_messages.friends_only: You can only receive messages from friends
++ subtitles.entity.frostbite.ambient: Frostbite groans
++ subtitles.entity.frostbite.converted_to_zombie: Frostbite converts to Zombie
++ subtitles.entity.frostbite.death: Frostbite dies
++ subtitles.entity.frostbite.hurt: Frostbite hurts
++ subtitles.entity.ice_ball.break: Ice Ball hits
++ subtitles.entity.ice_ball.throw: Ice Ball flies
++ subtitles.entity.zombie.converted_to_frostbite: Zombie converts to Frostbite
++ subtitles.event.mob_effect.freezing: Starting to freeze
++ tutorial.other_players.description: Press %s to open
++ tutorial.other_players.title: Other Players
+```
+
+</details>
+<details>
+<summary>
+Changes
+</summary>
+<br/>
+<table>
+<tr><th>Name</th><th>26.4-snapshot-2</th><th>26.4-snapshot-3</th></tr>
+<tr><th align="left"><div style="width:290px">gui.friends.error.generic</div></th><td>Something's wrong — with this feature, not your friends!
+
+
+
+Try again later.</td><td>Something's wrong - with this feature, not your friends!
+
+
+
+Try again later.</td></tr>
+<tr><th align="left"><div style="width:290px">gui.friends.toast.friend_removed.message</div></th><td>%s has been removed from your friends list</td><td>%s has been removed from your Friends List</td></tr>
+<tr><th align="left"><div style="width:290px">gui.friends.toast.invite_from_friend.message</div></th><td>%s invited you to join their world. Open the friends list by pressing "%s" to join</td><td>%s invited you to join their world. Open the Friends List by pressing "%s" to join</td></tr>
+<tr><th align="left"><div style="width:290px">gui.friends.toast.join_request.message</div></th><td>%s wants to join your world. Open the Friends list with "%s" or from the game menu.</td><td>%s wants to join your world. Open the Friends List with "%s" or from the game menu.</td></tr>
+<tr><th align="left"><div style="width:290px">gui.socialInteractions.tooltip.report.chat_disabled_or_blocked</div></th><td>This player can't be reported because chat is disabled or blocked</td><td>This player can't be reported because chat is disabled or blocked.</td></tr>
+<tr><th align="left"><div style="width:290px">gui.socialInteractions.tooltip.report.disabled</div></th><td>The reporting service is unavailable</td><td>The reporting service is unavailable.</td></tr>
+<tr><th align="left"><div style="width:290px">gui.socialInteractions.tooltip.report.no_messages</div></th><td>No reportable messages from player %s</td><td>No reportable messages from player %s.</td></tr>
+<tr><th align="left"><div style="width:290px">gui.socialInteractions.tooltip.report.not_reportable</div></th><td>This player can't be reported, because their chat messages can't be verified on this server</td><td>This player can't be reported because their chat messages can't be verified on this server.</td></tr>
+<tr><th align="left"><div style="width:290px">key.friends</div></th><td>Friends Screen</td><td>Friends</td></tr>
+<tr><th align="left"><div style="width:290px">options.allowFriendRequests.tooltip</div></th><td>Allow other players to send you friend requests</td><td>Allow other players to send you friend requests.</td></tr>
+<tr><th align="left"><div style="width:290px">options.inGameNotification.tooltip</div></th><td>Show friend notifications in-game</td><td>Show friend notifications in-game.</td></tr>
+<tr><th align="left"><div style="width:290px">subtitles.block.poplar_leaves.ambient</div></th><td>Leaves rustling</td><td>Leaves rustle</td></tr>
+</table>
+<br/>
+</details>
+</details>
+<hr/>
+<details><summary><b><ins>FILE STRUCTURE</ins></b><a name="file-structure"></a></summary>
+<br/>
+<details>
+<summary>
+generated
+</summary>
+
+```diff
++ reports/minecraft/components/item/frostbite_spawn_egg.json
++ reports/minecraft/components/item/ice_ball.json
++ reports/minecraft/components/item/ice_crystal.json
++ reports/minecraft/components/item/icicle.json
+```
+
+</details>
+<details>
+<summary>
+data
+</summary>
+
+```diff
++ minecraft/block_sound_set/amethyst_cluster.json
++ minecraft/block_sound_set/amethyst.json
++ minecraft/block_sound_set/ancient_debris.json
++ minecraft/block_sound_set/anvil.json
++ minecraft/block_sound_set/azalea_leaves.json
++ minecraft/block_sound_set/azalea.json
++ minecraft/block_sound_set/bamboo_sapling.json
++ minecraft/block_sound_set/bamboo_wood_hanging_sign.json
++ minecraft/block_sound_set/bamboo_wood.json
++ minecraft/block_sound_set/bamboo.json
++ minecraft/block_sound_set/basalt.json
++ minecraft/block_sound_set/big_dripleaf.json
++ minecraft/block_sound_set/bone_block.json
++ minecraft/block_sound_set/cactus_flower.json
++ minecraft/block_sound_set/calcite.json
++ minecraft/block_sound_set/candle.json
++ minecraft/block_sound_set/cave_vines.json
++ minecraft/block_sound_set/chain.json
++ minecraft/block_sound_set/cherry_leaves.json
++ minecraft/block_sound_set/cherry_sapling.json
++ minecraft/block_sound_set/cherry_wood_hanging_sign.json
++ minecraft/block_sound_set/cherry_wood.json
++ minecraft/block_sound_set/chiseled_bookshelf.json
++ minecraft/block_sound_set/cinnabar.json
++ minecraft/block_sound_set/cobweb.json
++ minecraft/block_sound_set/copper_bulb.json
++ minecraft/block_sound_set/copper_golem_statue.json
++ minecraft/block_sound_set/copper_grate.json
++ minecraft/block_sound_set/copper.json
++ minecraft/block_sound_set/coral_block.json
++ minecraft/block_sound_set/creaking_heart.json
++ minecraft/block_sound_set/crop.json
++ minecraft/block_sound_set/decorated_pot_cracked.json
++ minecraft/block_sound_set/decorated_pot.json
++ minecraft/block_sound_set/deepslate_bricks.json
++ minecraft/block_sound_set/deepslate_tiles.json
++ minecraft/block_sound_set/deepslate.json
++ minecraft/block_sound_set/dried_ghast.json
++ minecraft/block_sound_set/dripstone_block.json
++ minecraft/block_sound_set/flowering_azalea.json
++ minecraft/block_sound_set/froglight.json
++ minecraft/block_sound_set/frogspawn.json
++ minecraft/block_sound_set/fungus.json
++ minecraft/block_sound_set/gilded_blackstone.json
++ minecraft/block_sound_set/glass.json
++ minecraft/block_sound_set/glow_lichen.json
++ minecraft/block_sound_set/grass.json
++ minecraft/block_sound_set/gravel.json
++ minecraft/block_sound_set/hanging_roots.json
++ minecraft/block_sound_set/hanging_sign.json
++ minecraft/block_sound_set/hard_crop.json
++ minecraft/block_sound_set/heavy_core.json
++ minecraft/block_sound_set/honey_block.json
++ minecraft/block_sound_set/ice_crystal.json
++ minecraft/block_sound_set/ice.json
++ minecraft/block_sound_set/icicle.json
++ minecraft/block_sound_set/iron.json
++ minecraft/block_sound_set/ladder.json
++ minecraft/block_sound_set/lantern.json
++ minecraft/block_sound_set/large_amethyst_bud.json
++ minecraft/block_sound_set/leaf_litter.json
++ minecraft/block_sound_set/lily_pad.json
++ minecraft/block_sound_set/lodestone.json
++ minecraft/block_sound_set/mangrove_roots.json
++ minecraft/block_sound_set/medium_amethyst_bud.json
++ minecraft/block_sound_set/metal.json
++ minecraft/block_sound_set/moss_carpet.json
++ minecraft/block_sound_set/moss.json
++ minecraft/block_sound_set/mud_bricks.json
++ minecraft/block_sound_set/mud.json
++ minecraft/block_sound_set/muddy_mangrove_roots.json
++ minecraft/block_sound_set/nether_bricks.json
++ minecraft/block_sound_set/nether_gold_ore.json
++ minecraft/block_sound_set/nether_ore.json
++ minecraft/block_sound_set/nether_sprouts.json
++ minecraft/block_sound_set/nether_wart.json
++ minecraft/block_sound_set/nether_wood_hanging_sign.json
++ minecraft/block_sound_set/nether_wood.json
++ minecraft/block_sound_set/netherite_block.json
++ minecraft/block_sound_set/netherrack.json
++ minecraft/block_sound_set/nylium.json
++ minecraft/block_sound_set/packed_mud.json
++ minecraft/block_sound_set/pink_petals.json
++ minecraft/block_sound_set/pointed_dripstone.json
++ minecraft/block_sound_set/polished_deepslate.json
++ minecraft/block_sound_set/polished_tuff.json
++ minecraft/block_sound_set/poplar_leaves.json
++ minecraft/block_sound_set/potent_sulfur.json
++ minecraft/block_sound_set/powder_snow.json
++ minecraft/block_sound_set/red_shrub.json
++ minecraft/block_sound_set/resin_bricks.json
++ minecraft/block_sound_set/resin.json
++ minecraft/block_sound_set/rooted_dirt.json
++ minecraft/block_sound_set/roots.json
++ minecraft/block_sound_set/sand.json
++ minecraft/block_sound_set/scaffolding.json
++ minecraft/block_sound_set/sculk_catalyst.json
++ minecraft/block_sound_set/sculk_sensor.json
++ minecraft/block_sound_set/sculk_shrieker.json
++ minecraft/block_sound_set/sculk_vein.json
++ minecraft/block_sound_set/sculk.json
++ minecraft/block_sound_set/shelf_mushroom.json
++ minecraft/block_sound_set/shelf.json
++ minecraft/block_sound_set/shroomlight.json
++ minecraft/block_sound_set/slime_block.json
++ minecraft/block_sound_set/small_amethyst_bud.json
++ minecraft/block_sound_set/small_dripleaf.json
++ minecraft/block_sound_set/snow.json
++ minecraft/block_sound_set/soul_sand.json
++ minecraft/block_sound_set/soul_soil.json
++ minecraft/block_sound_set/spawner.json
++ minecraft/block_sound_set/sponge.json
++ minecraft/block_sound_set/spore_blossom.json
++ minecraft/block_sound_set/stem.json
++ minecraft/block_sound_set/stone.json
++ minecraft/block_sound_set/straw_bed.json
++ minecraft/block_sound_set/sulfur_spike.json
++ minecraft/block_sound_set/sulfur.json
++ minecraft/block_sound_set/suspicious_gravel.json
++ minecraft/block_sound_set/suspicious_sand.json
++ minecraft/block_sound_set/sweet_berry_bush.json
++ minecraft/block_sound_set/trial_spawner.json
++ minecraft/block_sound_set/tuff_bricks.json
++ minecraft/block_sound_set/tuff.json
++ minecraft/block_sound_set/twisting_vines.json
++ minecraft/block_sound_set/vault.json
++ minecraft/block_sound_set/vine.json
++ minecraft/block_sound_set/wart_block.json
++ minecraft/block_sound_set/weeping_vines.json
++ minecraft/block_sound_set/wet_grass.json
++ minecraft/block_sound_set/wet_sponge.json
++ minecraft/block_sound_set/wood.json
++ minecraft/block_sound_set/wool.json
++ minecraft/loot_table/blocks/ice_crystal.json
++ minecraft/loot_table/blocks/icicle.json
++ minecraft/loot_table/entities/frostbite.json
++ minecraft/recipe/brewing/lingering_potion_awkward_ice_ball.json
++ minecraft/recipe/brewing/lingering_potion_freezing_redstone.json
++ minecraft/recipe/brewing/lingering_potion_water_ice_ball.json
++ minecraft/recipe/brewing/potion_awkward_ice_ball.json
++ minecraft/recipe/brewing/potion_freezing_gunpowder.json
++ minecraft/recipe/brewing/potion_freezing_redstone.json
++ minecraft/recipe/brewing/potion_long_freezing_gunpowder.json
++ minecraft/recipe/brewing/potion_water_ice_ball.json
++ minecraft/recipe/brewing/splash_potion_awkward_ice_ball.json
++ minecraft/recipe/brewing/splash_potion_freezing_dragon_breath.json
++ minecraft/recipe/brewing/splash_potion_freezing_redstone.json
++ minecraft/recipe/brewing/splash_potion_long_freezing_dragon_breath.json
++ minecraft/recipe/brewing/splash_potion_water_ice_ball.json
++ minecraft/tags/block_sound_set/sounds_wooden.json
++ minecraft/tags/block/ice_cave_ore_replaceables.json
++ minecraft/tags/block/large_icicle_replaceable.json
++ minecraft/tags/block/melts_icicle_above.json
++ minecraft/tags/block/pathfinding/avoid_in_air.json
++ minecraft/tags/block/pathfinding/damage_cautious.json
++ minecraft/tags/block/pathfinding/damaging.json
++ minecraft/tags/block/pathfinding/drop_down.json
++ minecraft/tags/block/pathfinding/leaves.json
++ minecraft/tags/block/pathfinding/open.json
++ minecraft/tags/block/pathfinding/powder_snow.json
++ minecraft/tags/block/pathfinding/rails.json
++ minecraft/tags/block/pathfinding/sticky.json
++ minecraft/tags/item/frostbite_preferred_weapons.json
++ minecraft/tags/item/knocks_back_players_even_with_zero_damage.json
++ minecraft/tags/item/sheep_wool_dyes.json
++ minecraft/tags/worldgen/biome/spawns_strays_without_powder_snow.json
++ minecraft/villager_trade/wandering_trader/emerald_ice_crystal.json
++ minecraft/villager_trade/wandering_trader/emerald_icicle.json
++ minecraft/worldgen/biome/ice_caves.json
++ minecraft/worldgen/feature/ice_cave_ore_andesite.json
++ minecraft/worldgen/feature/ice_cave_ore_coal_buried.json
++ minecraft/worldgen/feature/ice_cave_ore_coal.json
++ minecraft/worldgen/feature/ice_cave_ore_copper_small.json
++ minecraft/worldgen/feature/ice_cave_ore_diamond_buried.json
++ minecraft/worldgen/feature/ice_cave_ore_diamond_large.json
++ minecraft/worldgen/feature/ice_cave_ore_diamond_medium.json
++ minecraft/worldgen/feature/ice_cave_ore_diamond_small.json
++ minecraft/worldgen/feature/ice_cave_ore_diorite.json
++ minecraft/worldgen/feature/ice_cave_ore_gold_buried.json
++ minecraft/worldgen/feature/ice_cave_ore_gravel.json
++ minecraft/worldgen/feature/ice_cave_ore_iron_small.json
++ minecraft/worldgen/feature/ice_cave_ore_iron.json
++ minecraft/worldgen/feature/ice_cave_ore_lapis_buried.json
++ minecraft/worldgen/feature/ice_cave_ore_lapis.json
++ minecraft/worldgen/feature/ice_cave_ore_redstone.json
++ minecraft/worldgen/feature/ice_crystal.json
++ minecraft/worldgen/feature/icicle_cluster.json
++ minecraft/worldgen/feature/large_icicle.json
++ minecraft/worldgen/feature/snow_layer.json
++ minecraft/worldgen/material_rule/overworld/biome_surface/ice_caves.json
++ minecraft/worldgen/material_rule/overworld/ice_cave_bands.json
++ minecraft/worldgen/noise/ice_cave_gradient.json
++ minecraft/worldgen/placed_feature/ice_cave_ore_andesite_lower.json
++ minecraft/worldgen/placed_feature/ice_cave_ore_andesite_upper.json
++ minecraft/worldgen/placed_feature/ice_cave_ore_coal_lower.json
++ minecraft/worldgen/placed_feature/ice_cave_ore_coal_upper.json
++ minecraft/worldgen/placed_feature/ice_cave_ore_copper.json
++ minecraft/worldgen/placed_feature/ice_cave_ore_diamond_buried.json
++ minecraft/worldgen/placed_feature/ice_cave_ore_diamond_large.json
++ minecraft/worldgen/placed_feature/ice_cave_ore_diamond_medium.json
++ minecraft/worldgen/placed_feature/ice_cave_ore_diamond.json
++ minecraft/worldgen/placed_feature/ice_cave_ore_diorite_lower.json
++ minecraft/worldgen/placed_feature/ice_cave_ore_diorite_upper.json
++ minecraft/worldgen/placed_feature/ice_cave_ore_gold_lower.json
++ minecraft/worldgen/placed_feature/ice_cave_ore_gold.json
++ minecraft/worldgen/placed_feature/ice_cave_ore_gravel.json
++ minecraft/worldgen/placed_feature/ice_cave_ore_iron_middle.json
++ minecraft/worldgen/placed_feature/ice_cave_ore_iron_small.json
++ minecraft/worldgen/placed_feature/ice_cave_ore_iron_upper.json
++ minecraft/worldgen/placed_feature/ice_cave_ore_lapis_buried.json
++ minecraft/worldgen/placed_feature/ice_cave_ore_lapis.json
++ minecraft/worldgen/placed_feature/ice_cave_ore_redstone_lower.json
++ minecraft/worldgen/placed_feature/ice_cave_ore_redstone.json
++ minecraft/worldgen/placed_feature/ice_crystals.json
++ minecraft/worldgen/placed_feature/icicle_cluster.json
++ minecraft/worldgen/placed_feature/large_icicle.json
++ minecraft/worldgen/placed_feature/snow_layers.json
+```
+
+</details>
+<details>
+<summary>
+assets
+</summary>
+
+```diff
++ minecraft/blockstates/ice_crystal.json
++ minecraft/blockstates/icicle.json
++ minecraft/items/frostbite_spawn_egg.json
++ minecraft/items/ice_ball.json
++ minecraft/items/ice_crystal.json
++ minecraft/items/icicle.json
++ minecraft/models/block/ice_crystal.json
++ minecraft/models/block/icicle_base.json
++ minecraft/models/block/icicle_down_base_base.json
++ minecraft/models/block/icicle_down_base.json
++ minecraft/models/block/icicle_down_frustum_base.json
++ minecraft/models/block/icicle_down_frustum.json
++ minecraft/models/block/icicle_down_middle_base.json
++ minecraft/models/block/icicle_down_middle.json
++ minecraft/models/block/icicle_down_tip_base.json
++ minecraft/models/block/icicle_down_tip_merge_base.json
++ minecraft/models/block/icicle_down_tip_merge.json
++ minecraft/models/block/icicle_down_tip.json
++ minecraft/models/block/icicle.json
++ minecraft/models/item/frostbite_spawn_egg.json
++ minecraft/models/item/ice_ball.json
++ minecraft/models/item/ice_crystal.json
++ minecraft/models/item/icicle.json
++ minecraft/particles/freezing.json
++ minecraft/textures/block/ice_crystal.png
++ minecraft/textures/block/icicle_down_base.png
++ minecraft/textures/block/icicle_down_frustum.png
++ minecraft/textures/block/icicle_down_middle.png
++ minecraft/textures/block/icicle_down_tip_merge.png
++ minecraft/textures/block/icicle_down_tip.png
++ minecraft/textures/block/icicle_side.png
++ minecraft/textures/block/icicle_top.png
++ minecraft/textures/entity/zombie/frostbite_baby.png
++ minecraft/textures/entity/zombie/frostbite_outer_layer.png
++ minecraft/textures/entity/zombie/frostbite.png
++ minecraft/textures/gui/sprites/friends/background_light.png
+- minecraft/textures/gui/sprites/friends/button_disabled.png
+- minecraft/textures/gui/sprites/friends/button_disabled.png.mcmeta
+- minecraft/textures/gui/sprites/friends/button_highlighted.png
+- minecraft/textures/gui/sprites/friends/button_highlighted.png.mcmeta
+- minecraft/textures/gui/sprites/friends/button.png
+- minecraft/textures/gui/sprites/friends/button.png.mcmeta
+- minecraft/textures/gui/sprites/friends/loading.png
+- minecraft/textures/gui/sprites/friends/loading.png.mcmeta
++ minecraft/textures/gui/sprites/friends/presence_all.png
++ minecraft/textures/gui/sprites/friends/presence_limited.png
++ minecraft/textures/gui/sprites/friends/presence_none.png
++ minecraft/textures/gui/sprites/friends/profile_highlighted.png
++ minecraft/textures/gui/sprites/friends/profile.png
+- minecraft/textures/gui/sprites/friends/remove.png
++ minecraft/textures/gui/sprites/friends/sort_alphabetical.png
++ minecraft/textures/gui/sprites/friends/sort_presence.png
++ minecraft/textures/gui/sprites/friends/tab_highlighted.png
++ minecraft/textures/gui/sprites/friends/tab_highlighted.png.mcmeta
++ minecraft/textures/gui/sprites/friends/tab_selected.png
++ minecraft/textures/gui/sprites/friends/tab_selected.png.mcmeta
++ minecraft/textures/gui/sprites/friends/tab.png
++ minecraft/textures/gui/sprites/friends/tab.png.mcmeta
++ minecraft/textures/gui/sprites/pause_menu/feedback.png
++ minecraft/textures/gui/sprites/pause_menu/other_players.png
+- minecraft/textures/gui/sprites/pause_menu/player_reporting.png
+- minecraft/textures/gui/sprites/pause_menu/social_interactions.png
+- minecraft/textures/gui/sprites/toast/social_interactions.png
++ minecraft/textures/gui/sprites/widget/loading.png
++ minecraft/textures/gui/sprites/widget/loading.png.mcmeta
++ minecraft/textures/item/frostbite_spawn_egg.png
++ minecraft/textures/item/ice_ball.png
++ minecraft/textures/item/ice_crystal.png
++ minecraft/textures/item/icicle.png
++ minecraft/textures/mob_effect/freezing.png
++ minecraft/textures/particle/freezing_0.png
++ minecraft/textures/particle/freezing_1.png
++ minecraft/textures/particle/freezing_2.png
++ minecraft/textures/particle/freezing_3.png
++ minecraft/textures/particle/freezing_4.png
++ minecraft/textures/particle/freezing_5.png
+```
+
+</details>
+</details>
+<hr/>
