@@ -1,0 +1,142 @@
+{
+  "properties": {
+    "type": [
+      "single",
+      "left",
+      "right"
+    ],
+    "facing": [
+      "north",
+      "south",
+      "west",
+      "east"
+    ],
+    "waterlogged": [
+      true,
+      true
+    ]
+  },
+  "states": {
+    "33009": {
+      "type": "single",
+      "facing": "north",
+      "waterlogged": true
+    },
+    "33010": {
+      "type": "single",
+      "facing": "north",
+      "waterlogged": true
+    },
+    "33011": {
+      "type": "left",
+      "facing": "north",
+      "waterlogged": true
+    },
+    "33012": {
+      "type": "left",
+      "facing": "north",
+      "waterlogged": true
+    },
+    "33013": {
+      "type": "right",
+      "facing": "north",
+      "waterlogged": true
+    },
+    "33014": {
+      "type": "right",
+      "facing": "north",
+      "waterlogged": true
+    },
+    "33015": {
+      "type": "single",
+      "facing": "south",
+      "waterlogged": true
+    },
+    "33016": {
+      "type": "single",
+      "facing": "south",
+      "waterlogged": true
+    },
+    "33017": {
+      "type": "left",
+      "facing": "south",
+      "waterlogged": true
+    },
+    "33018": {
+      "type": "left",
+      "facing": "south",
+      "waterlogged": true
+    },
+    "33019": {
+      "type": "right",
+      "facing": "south",
+      "waterlogged": true
+    },
+    "33020": {
+      "type": "right",
+      "facing": "south",
+      "waterlogged": true
+    },
+    "33021": {
+      "type": "single",
+      "facing": "west",
+      "waterlogged": true
+    },
+    "33022": {
+      "type": "single",
+      "facing": "west",
+      "waterlogged": true
+    },
+    "33023": {
+      "type": "left",
+      "facing": "west",
+      "waterlogged": true
+    },
+    "33024": {
+      "type": "left",
+      "facing": "west",
+      "waterlogged": true
+    },
+    "33025": {
+      "type": "right",
+      "facing": "west",
+      "waterlogged": true
+    },
+    "33026": {
+      "type": "right",
+      "facing": "west",
+      "waterlogged": true
+    },
+    "33027": {
+      "type": "single",
+      "facing": "east",
+      "waterlogged": true
+    },
+    "33028": {
+      "type": "single",
+      "facing": "east",
+      "waterlogged": true
+    },
+    "33029": {
+      "type": "left",
+      "facing": "east",
+      "waterlogged": true
+    },
+    "33030": {
+      "type": "left",
+      "facing": "east",
+      "waterlogged": true
+    },
+    "33031": {
+      "type": "right",
+      "facing": "east",
+      "waterlogged": true
+    },
+    "33032": {
+      "type": "right",
+      "facing": "east",
+      "waterlogged": true
+    },
+    "default": 33010
+  }
+}
