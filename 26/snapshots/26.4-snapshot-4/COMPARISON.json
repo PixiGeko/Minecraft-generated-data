@@ -1,0 +1,405 @@
+{
+  "version_data": [
+    {
+      "type": "table",
+      "value": {
+        "previousLabel": "26.4-snapshot-3",
+        "currentLabel": "26.4-snapshot-4",
+        "values": [
+          {
+            "key": "DataPack version",
+            "previous": "123.0",
+            "current": "124.0"
+          },
+          {
+            "key": "ResourcePack version",
+            "previous": "100.0",
+            "current": "100.1"
+          },
+          {
+            "key": "World version",
+            "previous": "5122",
+            "current": "5124"
+          },
+          {
+            "key": "Protocol version",
+            "previous": "1073742165",
+            "current": "1073742166"
+          }
+        ]
+      }
+    },
+    {
+      "type": "title",
+      "value": {
+        "title": "Libraries",
+        "id": "version-data-libraries",
+        "size": 3
+      }
+    },
+    {
+      "type": "table",
+      "value": {
+        "title": "Versions",
+        "previousLabel": "26.4-snapshot-3",
+        "currentLabel": "26.4-snapshot-4",
+        "values": [
+          {
+            "key": "com.mojang:authlib",
+            "previous": "10.0.77",
+            "current": "11.0.80"
+          },
+          {
+            "key": "com.mojang:datafixerupper",
+            "previous": "10.0.21",
+            "current": "11.0.22"
+          }
+        ]
+      }
+    }
+  ],
+  "registries": [
+    {
+      "type": "entries",
+      "value": {
+        "name": "block",
+        "differences": {
+          "added": [
+            "minecraft:brittle_ice"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "fluid",
+        "differences": {
+          "added": [],
+          "removed": [
+            "minecraft:flowing_lava",
+            "minecraft:flowing_water"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "item",
+        "differences": {
+          "added": [
+            "minecraft:brittle_ice"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "menu",
+        "differences": {
+          "added": [
+            "minecraft:jukebox"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "sound_event",
+        "differences": {
+          "added": [
+            "minecraft:block.blue_ice.break",
+            "minecraft:block.blue_ice.fall",
+            "minecraft:block.blue_ice.hit",
+            "minecraft:block.blue_ice.place",
+            "minecraft:block.blue_ice.step",
+            "minecraft:block.brittle_ice.break",
+            "minecraft:block.brittle_ice.crack",
+            "minecraft:block.brittle_ice.fall",
+            "minecraft:block.brittle_ice.hit",
+            "minecraft:block.brittle_ice.place",
+            "minecraft:block.brittle_ice.step",
+            "minecraft:block.frosted_ice.break",
+            "minecraft:block.frosted_ice.fall",
+            "minecraft:block.frosted_ice.hit",
+            "minecraft:block.frosted_ice.place",
+            "minecraft:block.frosted_ice.step",
+            "minecraft:block.packed_ice.break",
+            "minecraft:block.packed_ice.fall",
+            "minecraft:block.packed_ice.hit",
+            "minecraft:block.packed_ice.place",
+            "minecraft:block.packed_ice.step",
+            "minecraft:entity.chicken_picky.step",
+            "minecraft:entity.drowned.converted_to_zombie"
+          ],
+          "removed": [
+            "minecraft:intentionally_empty"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "worldgen/feature_type",
+        "differences": {
+          "added": [
+            "minecraft:crevasse"
+          ],
+          "removed": []
+        }
+      }
+    }
+  ],
+  "tags": [
+    {
+      "type": "entries",
+      "value": {
+        "name": "all_blocks_with_drop.json",
+        "differences": {
+          "added": [
+            "minecraft:brittle_ice"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "universal_tags/block.json",
+        "differences": {
+          "added": [
+            "minecraft:brittle_ice"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "universal_tags/fluid.json",
+        "differences": {
+          "added": [],
+          "removed": [
+            "minecraft:flowing_lava",
+            "minecraft:flowing_water"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "universal_tags/item.json",
+        "differences": {
+          "added": [
+            "minecraft:brittle_ice"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "universal_tags/menu.json",
+        "differences": {
+          "added": [
+            "minecraft:jukebox"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "universal_tags/sound_event.json",
+        "differences": {
+          "added": [
+            "minecraft:block.blue_ice.break",
+            "minecraft:block.blue_ice.fall",
+            "minecraft:block.blue_ice.hit",
+            "minecraft:block.blue_ice.place",
+            "minecraft:block.blue_ice.step",
+            "minecraft:block.brittle_ice.break",
+            "minecraft:block.brittle_ice.crack",
+            "minecraft:block.brittle_ice.fall",
+            "minecraft:block.brittle_ice.hit",
+            "minecraft:block.brittle_ice.place",
+            "minecraft:block.brittle_ice.step",
+            "minecraft:block.frosted_ice.break",
+            "minecraft:block.frosted_ice.fall",
+            "minecraft:block.frosted_ice.hit",
+            "minecraft:block.frosted_ice.place",
+            "minecraft:block.frosted_ice.step",
+            "minecraft:block.packed_ice.break",
+            "minecraft:block.packed_ice.fall",
+            "minecraft:block.packed_ice.hit",
+            "minecraft:block.packed_ice.place",
+            "minecraft:block.packed_ice.step",
+            "minecraft:entity.chicken_picky.step",
+            "minecraft:entity.drowned.converted_to_zombie"
+          ],
+          "removed": [
+            "minecraft:intentionally_empty"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "universal_tags/worldgen/feature_type.json",
+        "differences": {
+          "added": [
+            "minecraft:crevasse"
+          ],
+          "removed": []
+        }
+      }
+    }
+  ],
+  "blocks": [
+    {
+      "type": "entries",
+      "value": {
+        "name": "🗒️ List",
+        "differences": {
+          "added": [
+            "brittle_ice.json"
+          ],
+          "removed": []
+        }
+      }
+    }
+  ],
+  "translations": [
+    {
+      "type": "entries",
+      "value": {
+        "name": "Keys",
+        "differences": {
+          "added": [
+            "block.minecraft.brittle_ice: Brittle Ice",
+            "record.playingNext: Playing Next",
+            "subtitles.block.brittle_ice.crack: Brittle Ice cracks",
+            "subtitles.block.icicle.land: Icicle crashes down",
+            "subtitles.block.sulfur_spike.land: Sulfur Spike crashes down",
+            "subtitles.entity.drowned.converted_to_zombie: Drowned converts to Zombie"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "text",
+      "value": {
+        "title": "Changes",
+        "values": [
+          {
+            "key": "key.debug.fpsCharts",
+            "previous": "Fps Charts",
+            "current": "FPS Charts"
+          },
+          {
+            "key": "options.framerate",
+            "previous": "%s fps",
+            "current": "%s FPS"
+          },
+          {
+            "key": "subtitles.block.pointed_dripstone.land",
+            "previous": "Stalactite crashes down",
+            "current": "Pointed Dripstone crashes down"
+          },
+          {
+            "key": "subtitles.entity.frostbite.hurt",
+            "previous": "Frostbite hurts",
+            "current": "Frostbite is hurt"
+          }
+        ]
+      }
+    }
+  ],
+  "file_structure": [
+    {
+      "type": "entries",
+      "value": {
+        "name": "generated",
+        "differences": {
+          "added": [
+            "reports/minecraft/components/item/brittle_ice.json"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "data",
+        "differences": {
+          "added": [
+            "minecraft/block_sound_set/amethyst_block.json",
+            "minecraft/block_sound_set/blue_ice.json",
+            "minecraft/block_sound_set/brittle_ice.json",
+            "minecraft/block_sound_set/frosted_ice.json",
+            "minecraft/block_sound_set/packed_ice.json",
+            "minecraft/loot_table/blocks/brittle_ice.json",
+            "minecraft/tags/block/face_occluding_ice_blocks.json",
+            "minecraft/tags/block/ice_crevasse_replaceables.json",
+            "minecraft/tags/block/jukebox_containers.json",
+            "minecraft/tags/damage_type/no_hurt_sound.json",
+            "minecraft/tags/entity_type/does_not_break_brittle_ice.json",
+            "minecraft/tags/item/jukebox_containers.json",
+            "minecraft/worldgen/feature/ice_crevasse.json",
+            "minecraft/worldgen/placed_feature/ice_crevasse.json"
+          ],
+          "removed": [
+            "minecraft/block_sound_set/amethyst.json"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "assets",
+        "differences": {
+          "added": [
+            "minecraft/blockstates/brittle_ice.json",
+            "minecraft/items/brittle_ice.json",
+            "minecraft/models/block/brittle_ice_0.json",
+            "minecraft/models/block/brittle_ice_1.json",
+            "minecraft/models/block/brittle_ice_2.json",
+            "minecraft/models/block/brittle_ice_3.json",
+            "minecraft/textures/block/brittle_ice_0.png",
+            "minecraft/textures/block/brittle_ice_1.png",
+            "minecraft/textures/block/brittle_ice_2.png",
+            "minecraft/textures/block/brittle_ice_3.png",
+            "minecraft/textures/block/jukebox_bottom.png"
+          ],
+          "removed": []
+        }
+      }
+    }
+  ],
+  "custom": [
+    {
+      "type": "title",
+      "value": {
+        "title": "datapacks.json",
+        "id": "custom-datapacks-json",
+        "size": 2
+      }
+    }
+  ]
+}
