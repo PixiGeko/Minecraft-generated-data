@@ -1,0 +1,413 @@
+{
+  "version_data": [
+    {
+      "type": "table",
+      "value": {
+        "previousLabel": "26.4-snapshot-4",
+        "currentLabel": "26.4-snapshot-5",
+        "values": [
+          {
+            "key": "DataPack version",
+            "previous": "124.0",
+            "current": "125.0"
+          },
+          {
+            "key": "ResourcePack version",
+            "previous": "100.1",
+            "current": "100.2"
+          },
+          {
+            "key": "World version",
+            "previous": "5124",
+            "current": "5125"
+          },
+          {
+            "key": "Protocol version",
+            "previous": "1073742166",
+            "current": "1073742167"
+          }
+        ]
+      }
+    },
+    {
+      "type": "title",
+      "value": {
+        "title": "Libraries",
+        "id": "version-data-libraries",
+        "size": 3
+      }
+    },
+    {
+      "type": "table",
+      "value": {
+        "title": "Versions",
+        "previousLabel": "26.4-snapshot-4",
+        "currentLabel": "26.4-snapshot-5",
+        "values": [
+          {
+            "key": "com.mojang:authlib",
+            "previous": "11.0.80",
+            "current": "12.0.81"
+          }
+        ]
+      }
+    }
+  ],
+  "registries": [
+    {
+      "type": "entries",
+      "value": {
+        "name": "block",
+        "differences": {
+          "added": [
+            "minecraft:chiseled_packed_ice",
+            "minecraft:packed_ice_brick_slab",
+            "minecraft:packed_ice_brick_stairs",
+            "minecraft:packed_ice_brick_wall",
+            "minecraft:packed_ice_bricks"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "item",
+        "differences": {
+          "added": [
+            "minecraft:chiseled_packed_ice",
+            "minecraft:packed_ice_brick_slab",
+            "minecraft:packed_ice_brick_stairs",
+            "minecraft:packed_ice_brick_wall",
+            "minecraft:packed_ice_bricks"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "sound_event",
+        "differences": {
+          "added": [
+            "minecraft:block.ice.ambient"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "worldgen/density_function_type",
+        "differences": {
+          "added": [
+            "minecraft:upscale"
+          ],
+          "removed": [
+            "minecraft:interpolated"
+          ]
+        }
+      }
+    }
+  ],
+  "tags": [
+    {
+      "type": "entries",
+      "value": {
+        "name": "all_blocks_with_drop.json",
+        "differences": {
+          "added": [
+            "minecraft:chiseled_packed_ice",
+            "minecraft:packed_ice_bricks",
+            "minecraft:packed_ice_brick_slab",
+            "minecraft:packed_ice_brick_stairs",
+            "minecraft:packed_ice_brick_wall"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "universal_tags/block.json",
+        "differences": {
+          "added": [
+            "minecraft:chiseled_packed_ice",
+            "minecraft:packed_ice_brick_slab",
+            "minecraft:packed_ice_brick_stairs",
+            "minecraft:packed_ice_brick_wall",
+            "minecraft:packed_ice_bricks"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "universal_tags/item.json",
+        "differences": {
+          "added": [
+            "minecraft:chiseled_packed_ice",
+            "minecraft:packed_ice_brick_slab",
+            "minecraft:packed_ice_brick_stairs",
+            "minecraft:packed_ice_brick_wall",
+            "minecraft:packed_ice_bricks"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "universal_tags/sound_event.json",
+        "differences": {
+          "added": [
+            "minecraft:block.ice.ambient"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "universal_tags/worldgen/density_function_type.json",
+        "differences": {
+          "added": [
+            "minecraft:upscale"
+          ],
+          "removed": [
+            "minecraft:interpolated"
+          ]
+        }
+      }
+    }
+  ],
+  "blocks": [
+    {
+      "type": "entries",
+      "value": {
+        "name": "🗒️ List",
+        "differences": {
+          "added": [
+            "chiseled_packed_ice.json",
+            "packed_ice_bricks.json",
+            "packed_ice_brick_slab.json",
+            "packed_ice_brick_stairs.json",
+            "packed_ice_brick_wall.json"
+          ],
+          "removed": []
+        }
+      }
+    }
+  ],
+  "recipes": [
+    {
+      "type": "entries",
+      "value": {
+        "name": "🗒️ List",
+        "differences": {
+          "added": [
+            "chiseled_packed_ice.json",
+            "chiseled_packed_ice_from_packed_ice_bricks_stonecutting.json",
+            "chiseled_packed_ice_from_packed_ice_stonecutting.json",
+            "packed_ice_bricks.json",
+            "packed_ice_bricks_from_packed_ice_stonecutting.json",
+            "packed_ice_brick_slab.json",
+            "packed_ice_brick_slab_from_packed_ice_bricks_stonecutting.json",
+            "packed_ice_brick_slab_from_packed_ice_stonecutting.json",
+            "packed_ice_brick_stairs.json",
+            "packed_ice_brick_stairs_from_packed_ice_bricks_stonecutting.json",
+            "packed_ice_brick_stairs_from_packed_ice_stonecutting.json",
+            "packed_ice_brick_wall.json",
+            "packed_ice_brick_wall_from_packed_ice_bricks_stonecutting.json",
+            "packed_ice_brick_wall_from_packed_ice_stonecutting.json"
+          ],
+          "removed": []
+        }
+      }
+    }
+  ],
+  "translations": [
+    {
+      "type": "entries",
+      "value": {
+        "name": "Keys",
+        "differences": {
+          "added": [
+            "advancements.adventure.what_goes_around_comes_around.description: Kill a Frostbite using an Ice Ball",
+            "advancements.adventure.what_goes_around_comes_around.title: What Goes Around Comes Around",
+            "block.minecraft.chiseled_packed_ice: Chiseled Packed Ice",
+            "block.minecraft.packed_ice_brick_slab: Packed Ice Brick Slab",
+            "block.minecraft.packed_ice_brick_stairs: Packed Ice Brick Stairs",
+            "block.minecraft.packed_ice_brick_wall: Packed Ice Brick Wall",
+            "block.minecraft.packed_ice_bricks: Packed Ice Bricks",
+            "options.preferDXGIPresent.experimental: Prefer DXGI Present",
+            "options.preferDXGIPresent.tooltip.experimental: Experimental. Attempts to use DirectX to present the game, which may improve compatibility with some IMEs and better support variable refresh rates.",
+            "subtitles.block.ice.ambient: Ice resonates"
+          ],
+          "removed": []
+        }
+      }
+    }
+  ],
+  "packets": [
+    {
+      "type": "entries",
+      "value": {
+        "name": "[client] login",
+        "differences": {
+          "added": [
+            "minecraft:apply_options",
+            "minecraft:key",
+            "minecraft:setup_compression"
+          ],
+          "removed": [
+            "minecraft:hello",
+            "minecraft:login_compression"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "[server] login",
+        "differences": {
+          "added": [
+            "minecraft:options_applied"
+          ],
+          "removed": []
+        }
+      }
+    }
+  ],
+  "file_structure": [
+    {
+      "type": "entries",
+      "value": {
+        "name": "generated",
+        "differences": {
+          "added": [
+            "reports/minecraft/components/item/chiseled_packed_ice.json",
+            "reports/minecraft/components/item/packed_ice_bricks.json",
+            "reports/minecraft/components/item/packed_ice_brick_slab.json",
+            "reports/minecraft/components/item/packed_ice_brick_stairs.json",
+            "reports/minecraft/components/item/packed_ice_brick_wall.json"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "data",
+        "differences": {
+          "added": [
+            "minecraft/advancement/adventure/what_goes_around_comes_around.json",
+            "minecraft/advancement/recipes/building_blocks/chiseled_packed_ice.json",
+            "minecraft/advancement/recipes/building_blocks/chiseled_packed_ice_from_packed_ice_bricks_stonecutting.json",
+            "minecraft/advancement/recipes/building_blocks/chiseled_packed_ice_from_packed_ice_stonecutting.json",
+            "minecraft/advancement/recipes/building_blocks/packed_ice_bricks.json",
+            "minecraft/advancement/recipes/building_blocks/packed_ice_bricks_from_packed_ice_stonecutting.json",
+            "minecraft/advancement/recipes/building_blocks/packed_ice_brick_slab.json",
+            "minecraft/advancement/recipes/building_blocks/packed_ice_brick_slab_from_packed_ice_bricks_stonecutting.json",
+            "minecraft/advancement/recipes/building_blocks/packed_ice_brick_slab_from_packed_ice_stonecutting.json",
+            "minecraft/advancement/recipes/building_blocks/packed_ice_brick_stairs.json",
+            "minecraft/advancement/recipes/building_blocks/packed_ice_brick_stairs_from_packed_ice_bricks_stonecutting.json",
+            "minecraft/advancement/recipes/building_blocks/packed_ice_brick_stairs_from_packed_ice_stonecutting.json",
+            "minecraft/advancement/recipes/decorations/packed_ice_brick_wall.json",
+            "minecraft/advancement/recipes/decorations/packed_ice_brick_wall_from_packed_ice_bricks_stonecutting.json",
+            "minecraft/advancement/recipes/decorations/packed_ice_brick_wall_from_packed_ice_stonecutting.json",
+            "minecraft/loot_table/blocks/chiseled_packed_ice.json",
+            "minecraft/loot_table/blocks/packed_ice_bricks.json",
+            "minecraft/loot_table/blocks/packed_ice_brick_slab.json",
+            "minecraft/loot_table/blocks/packed_ice_brick_stairs.json",
+            "minecraft/loot_table/blocks/packed_ice_brick_wall.json",
+            "minecraft/recipe/chiseled_packed_ice.json",
+            "minecraft/recipe/chiseled_packed_ice_from_packed_ice_bricks_stonecutting.json",
+            "minecraft/recipe/chiseled_packed_ice_from_packed_ice_stonecutting.json",
+            "minecraft/recipe/packed_ice_bricks.json",
+            "minecraft/recipe/packed_ice_bricks_from_packed_ice_stonecutting.json",
+            "minecraft/recipe/packed_ice_brick_slab.json",
+            "minecraft/recipe/packed_ice_brick_slab_from_packed_ice_bricks_stonecutting.json",
+            "minecraft/recipe/packed_ice_brick_slab_from_packed_ice_stonecutting.json",
+            "minecraft/recipe/packed_ice_brick_stairs.json",
+            "minecraft/recipe/packed_ice_brick_stairs_from_packed_ice_bricks_stonecutting.json",
+            "minecraft/recipe/packed_ice_brick_stairs_from_packed_ice_stonecutting.json",
+            "minecraft/recipe/packed_ice_brick_wall.json",
+            "minecraft/recipe/packed_ice_brick_wall_from_packed_ice_bricks_stonecutting.json",
+            "minecraft/recipe/packed_ice_brick_wall_from_packed_ice_stonecutting.json",
+            "minecraft/tags/entity_type/immune_to_freezing.json",
+            "minecraft/tags/entity_type/immune_to_poison.json",
+            "minecraft/tags/entity_type/immune_to_regeneration.json",
+            "minecraft/tags/entity_type/immune_to_weakness.json",
+            "minecraft/tags/entity_type/immune_to_wither.json",
+            "minecraft/tags/worldgen/biome/spawns_cold_variants_underground.json"
+          ],
+          "removed": [
+            "minecraft/tags/entity_type/freeze_immune_entity_types.json",
+            "minecraft/tags/entity_type/ignores_poison_and_regen.json",
+            "minecraft/tags/worldgen/biome/spawns_strays_without_powder_snow.json"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "assets",
+        "differences": {
+          "added": [
+            "minecraft/blockstates/chiseled_packed_ice.json",
+            "minecraft/blockstates/packed_ice_bricks.json",
+            "minecraft/blockstates/packed_ice_brick_slab.json",
+            "minecraft/blockstates/packed_ice_brick_stairs.json",
+            "minecraft/blockstates/packed_ice_brick_wall.json",
+            "minecraft/items/chiseled_packed_ice.json",
+            "minecraft/items/packed_ice_bricks.json",
+            "minecraft/items/packed_ice_brick_slab.json",
+            "minecraft/items/packed_ice_brick_stairs.json",
+            "minecraft/items/packed_ice_brick_wall.json",
+            "minecraft/models/block/chiseled_packed_ice.json",
+            "minecraft/models/block/packed_ice_bricks.json",
+            "minecraft/models/block/packed_ice_brick_slab.json",
+            "minecraft/models/block/packed_ice_brick_slab_top.json",
+            "minecraft/models/block/packed_ice_brick_stairs.json",
+            "minecraft/models/block/packed_ice_brick_stairs_inner.json",
+            "minecraft/models/block/packed_ice_brick_stairs_outer.json",
+            "minecraft/models/block/packed_ice_brick_wall_inventory.json",
+            "minecraft/models/block/packed_ice_brick_wall_post.json",
+            "minecraft/models/block/packed_ice_brick_wall_side.json",
+            "minecraft/models/block/packed_ice_brick_wall_side_tall.json",
+            "minecraft/models/block/template_icicle.json",
+            "minecraft/models/block/template_icicle_base.json",
+            "minecraft/textures/block/chiseled_packed_ice.png",
+            "minecraft/textures/block/packed_ice_bricks.png"
+          ],
+          "removed": [
+            "minecraft/models/block/icicle.json",
+            "minecraft/models/block/icicle_base.json"
+          ]
+        }
+      }
+    }
+  ],
+  "custom": [
+    {
+      "type": "title",
+      "value": {
+        "title": "datapacks.json",
+        "id": "custom-datapacks-json",
+        "size": 2
+      }
+    }
+  ]
+}
