@@ -1,0 +1,67 @@
+{
+  "properties": {
+    "ominous": [
+      true,
+      true
+    ],
+    "trial_spawner_state": [
+      "inactive",
+      "waiting_for_players",
+      "active",
+      "waiting_for_reward_ejection",
+      "ejecting_reward",
+      "cooldown"
+    ]
+  },
+  "states": {
+    "36388": {
+      "ominous": true,
+      "trial_spawner_state": "inactive"
+    },
+    "36389": {
+      "ominous": true,
+      "trial_spawner_state": "waiting_for_players"
+    },
+    "36390": {
+      "ominous": true,
+      "trial_spawner_state": "active"
+    },
+    "36391": {
+      "ominous": true,
+      "trial_spawner_state": "waiting_for_reward_ejection"
+    },
+    "36392": {
+      "ominous": true,
+      "trial_spawner_state": "ejecting_reward"
+    },
+    "36393": {
+      "ominous": true,
+      "trial_spawner_state": "cooldown"
+    },
+    "36394": {
+      "ominous": true,
+      "trial_spawner_state": "inactive"
+    },
+    "36395": {
+      "ominous": true,
+      "trial_spawner_state": "waiting_for_players"
+    },
+    "36396": {
+      "ominous": true,
+      "trial_spawner_state": "active"
+    },
+    "36397": {
+      "ominous": true,
+      "trial_spawner_state": "waiting_for_reward_ejection"
+    },
+    "36398": {
+      "ominous": true,
+      "trial_spawner_state": "ejecting_reward"
+    },
+    "36399": {
+      "ominous": true,
+      "trial_spawner_state": "cooldown"
+    },
+    "default": 36394
+  }
+}
