@@ -1,0 +1,475 @@
+{
+  "version_data": [
+    {
+      "type": "table",
+      "value": {
+        "previousLabel": "26.4-snapshot-5",
+        "currentLabel": "26.4-snapshot-6",
+        "values": [
+          {
+            "key": "DataPack version",
+            "previous": "125.0",
+            "current": "125.1"
+          },
+          {
+            "key": "ResourcePack version",
+            "previous": "100.2",
+            "current": "101.0"
+          },
+          {
+            "key": "World version",
+            "previous": "5125",
+            "current": "5126"
+          },
+          {
+            "key": "Protocol version",
+            "previous": "1073742167",
+            "current": "1073742168"
+          }
+        ]
+      }
+    },
+    {
+      "type": "title",
+      "value": {
+        "title": "Libraries",
+        "id": "version-data-libraries",
+        "size": 3
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "🗒️ List",
+        "differences": {
+          "added": [
+            "com.github.oshi:oshi-common V7.7.2",
+            "com.github.oshi:oshi-core-ffm V7.7.2"
+          ],
+          "removed": [
+            "com.github.oshi:oshi-core V6.9.0"
+          ]
+        }
+      }
+    },
+    {
+      "type": "table",
+      "value": {
+        "title": "Versions",
+        "previousLabel": "26.4-snapshot-5",
+        "currentLabel": "26.4-snapshot-6",
+        "values": [
+          {
+            "key": "at.yawk.lz4:lz4-java",
+            "previous": "1.10.1",
+            "current": "1.12.1"
+          },
+          {
+            "key": "io.netty:netty-buffer",
+            "previous": "4.2.16.Final",
+            "current": "4.2.19.Final"
+          },
+          {
+            "key": "io.netty:netty-codec-base",
+            "previous": "4.2.16.Final",
+            "current": "4.2.19.Final"
+          },
+          {
+            "key": "io.netty:netty-codec-compression",
+            "previous": "4.2.16.Final",
+            "current": "4.2.19.Final"
+          },
+          {
+            "key": "io.netty:netty-codec-http",
+            "previous": "4.2.16.Final",
+            "current": "4.2.19.Final"
+          },
+          {
+            "key": "io.netty:netty-common",
+            "previous": "4.2.16.Final",
+            "current": "4.2.19.Final"
+          },
+          {
+            "key": "io.netty:netty-handler",
+            "previous": "4.2.16.Final",
+            "current": "4.2.19.Final"
+          },
+          {
+            "key": "io.netty:netty-resolver",
+            "previous": "4.2.16.Final",
+            "current": "4.2.19.Final"
+          },
+          {
+            "key": "io.netty:netty-transport-classes-epoll",
+            "previous": "4.2.16.Final",
+            "current": "4.2.19.Final"
+          },
+          {
+            "key": "io.netty:netty-transport-classes-kqueue",
+            "previous": "4.2.16.Final",
+            "current": "4.2.19.Final"
+          },
+          {
+            "key": "io.netty:netty-transport-native-epoll (linux-aarch_64)",
+            "previous": "4.2.16.Final",
+            "current": "4.2.19.Final"
+          },
+          {
+            "key": "io.netty:netty-transport-native-epoll (linux-x86_64)",
+            "previous": "4.2.16.Final",
+            "current": "4.2.19.Final"
+          },
+          {
+            "key": "io.netty:netty-transport-native-kqueue (osx-aarch_64)",
+            "previous": "4.2.16.Final",
+            "current": "4.2.19.Final"
+          },
+          {
+            "key": "io.netty:netty-transport-native-kqueue (osx-x86_64)",
+            "previous": "4.2.16.Final",
+            "current": "4.2.19.Final"
+          },
+          {
+            "key": "io.netty:netty-transport-native-unix-common",
+            "previous": "4.2.16.Final",
+            "current": "4.2.19.Final"
+          },
+          {
+            "key": "io.netty:netty-transport",
+            "previous": "4.2.16.Final",
+            "current": "4.2.19.Final"
+          },
+          {
+            "key": "net.java.dev.jna:jna-platform",
+            "previous": "5.17.0",
+            "current": "5.19.1"
+          },
+          {
+            "key": "net.java.dev.jna:jna",
+            "previous": "5.17.0",
+            "current": "5.19.1"
+          },
+          {
+            "key": "org.slf4j:slf4j-api",
+            "previous": "2.0.17",
+            "current": "2.0.20"
+          }
+        ]
+      }
+    }
+  ],
+  "registries": [
+    {
+      "type": "entries",
+      "value": {
+        "name": "block",
+        "differences": {
+          "added": [
+            "minecraft:snow_brick_slab",
+            "minecraft:snow_brick_stairs",
+            "minecraft:snow_brick_wall",
+            "minecraft:snow_bricks"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "item",
+        "differences": {
+          "added": [
+            "minecraft:snow_brick_slab",
+            "minecraft:snow_brick_stairs",
+            "minecraft:snow_brick_wall",
+            "minecraft:snow_bricks"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "sound_event",
+        "differences": {
+          "added": [
+            "minecraft:block.ice_crystal.ambient"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "worldgen/density_function_type",
+        "differences": {
+          "added": [
+            "minecraft:domain_warp"
+          ],
+          "removed": []
+        }
+      }
+    }
+  ],
+  "tags": [
+    {
+      "type": "entries",
+      "value": {
+        "name": "all_blocks_with_drop.json",
+        "differences": {
+          "added": [
+            "minecraft:snow_bricks",
+            "minecraft:snow_brick_slab",
+            "minecraft:snow_brick_stairs",
+            "minecraft:snow_brick_wall"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "universal_tags/block.json",
+        "differences": {
+          "added": [
+            "minecraft:snow_brick_slab",
+            "minecraft:snow_brick_stairs",
+            "minecraft:snow_brick_wall",
+            "minecraft:snow_bricks"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "universal_tags/item.json",
+        "differences": {
+          "added": [
+            "minecraft:snow_brick_slab",
+            "minecraft:snow_brick_stairs",
+            "minecraft:snow_brick_wall",
+            "minecraft:snow_bricks"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "universal_tags/sound_event.json",
+        "differences": {
+          "added": [
+            "minecraft:block.ice_crystal.ambient"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "universal_tags/worldgen/density_function_type.json",
+        "differences": {
+          "added": [
+            "minecraft:domain_warp"
+          ],
+          "removed": []
+        }
+      }
+    }
+  ],
+  "blocks": [
+    {
+      "type": "entries",
+      "value": {
+        "name": "🗒️ List",
+        "differences": {
+          "added": [
+            "snow_bricks.json",
+            "snow_brick_slab.json",
+            "snow_brick_stairs.json",
+            "snow_brick_wall.json"
+          ],
+          "removed": []
+        }
+      }
+    }
+  ],
+  "recipes": [
+    {
+      "type": "entries",
+      "value": {
+        "name": "🗒️ List",
+        "differences": {
+          "added": [
+            "snow_bricks.json",
+            "snow_brick_slab.json",
+            "snow_brick_stairs.json",
+            "snow_brick_wall.json"
+          ],
+          "removed": []
+        }
+      }
+    }
+  ],
+  "translations": [
+    {
+      "type": "entries",
+      "value": {
+        "name": "Keys",
+        "differences": {
+          "added": [
+            "block.minecraft.snow_brick_slab: Snow Brick Slab",
+            "block.minecraft.snow_brick_stairs: Snow Brick Stairs",
+            "block.minecraft.snow_brick_wall: Snow Brick Wall",
+            "block.minecraft.snow_bricks: Snow Bricks",
+            "subtitles.block.ice_crystal.ambient: Ice Crystal chimes"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "text",
+      "value": {
+        "title": "Changes",
+        "values": [
+          {
+            "key": "gui.abuseReport.discard.draft.overwrite",
+            "previous": "You already have a report draft saved. Saving a new draft will permanently overwrite it.",
+            "current": "You already have a draft report saved. Saving a new draft will permanently overwrite it."
+          },
+          {
+            "key": "gui.abuseReport.draft.restart",
+            "previous": "Discard and Start New Report",
+            "current": "Discard and Create New Report"
+          },
+          {
+            "key": "gui.player_options.unfriend.confirm",
+            "previous": "This player will be removed from your Friends.",
+            "current": "This player will be removed from your Friends List."
+          },
+          {
+            "key": "mco.selectServer.joinCode",
+            "previous": "Join Code",
+            "current": "Invite Code"
+          },
+          {
+            "key": "mco.selectServer.joinCode.hint",
+            "previous": "Enter join code",
+            "current": "Enter invite code"
+          },
+          {
+            "key": "mco.selectServer.joinCode.title",
+            "previous": "Enter Join Code",
+            "current": "Enter Invite Code"
+          },
+          {
+            "key": "multiplayer.other_players.not_available",
+            "previous": "Other Players only available in Multiplayer worlds",
+            "current": "The Other Players screen is only available in multiplayer worlds"
+          },
+          {
+            "key": "options.hideMatchedNames.tooltip",
+            "previous": "Third-party servers may send chat messages in non-standard formats.\n\nWith this option on, hidden players will be matched based on chat sender names.",
+            "current": "Third-party servers may send chat messages in non-standard formats.\n\nWith this option on, muted players will be matched based on chat sender names."
+          }
+        ]
+      }
+    }
+  ],
+  "file_structure": [
+    {
+      "type": "entries",
+      "value": {
+        "name": "generated",
+        "differences": {
+          "added": [
+            "reports/minecraft/components/item/snow_bricks.json",
+            "reports/minecraft/components/item/snow_brick_slab.json",
+            "reports/minecraft/components/item/snow_brick_stairs.json",
+            "reports/minecraft/components/item/snow_brick_wall.json"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "data",
+        "differences": {
+          "added": [
+            "minecraft/advancement/recipes/building_blocks/snow_bricks.json",
+            "minecraft/advancement/recipes/building_blocks/snow_brick_slab.json",
+            "minecraft/advancement/recipes/building_blocks/snow_brick_stairs.json",
+            "minecraft/advancement/recipes/decorations/snow_brick_wall.json",
+            "minecraft/loot_table/blocks/snow_bricks.json",
+            "minecraft/loot_table/blocks/snow_brick_slab.json",
+            "minecraft/loot_table/blocks/snow_brick_stairs.json",
+            "minecraft/loot_table/blocks/snow_brick_wall.json",
+            "minecraft/recipe/snow_bricks.json",
+            "minecraft/recipe/snow_brick_slab.json",
+            "minecraft/recipe/snow_brick_stairs.json",
+            "minecraft/recipe/snow_brick_wall.json",
+            "minecraft/sulfur_cube_archetype/cold.json",
+            "minecraft/tags/entity_type/flying.json",
+            "minecraft/tags/entity_type/swimming.json",
+            "minecraft/tags/fluid/swimmable.json",
+            "minecraft/tags/item/sulfur_cube_archetype/cold.json"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "assets",
+        "differences": {
+          "added": [
+            "minecraft/blockstates/snow_bricks.json",
+            "minecraft/blockstates/snow_brick_slab.json",
+            "minecraft/blockstates/snow_brick_stairs.json",
+            "minecraft/blockstates/snow_brick_wall.json",
+            "minecraft/items/snow_bricks.json",
+            "minecraft/items/snow_brick_slab.json",
+            "minecraft/items/snow_brick_stairs.json",
+            "minecraft/items/snow_brick_wall.json",
+            "minecraft/models/block/snow_bricks.json",
+            "minecraft/models/block/snow_brick_slab.json",
+            "minecraft/models/block/snow_brick_slab_top.json",
+            "minecraft/models/block/snow_brick_stairs.json",
+            "minecraft/models/block/snow_brick_stairs_inner.json",
+            "minecraft/models/block/snow_brick_stairs_outer.json",
+            "minecraft/models/block/snow_brick_wall_inventory.json",
+            "minecraft/models/block/snow_brick_wall_post.json",
+            "minecraft/models/block/snow_brick_wall_side.json",
+            "minecraft/models/block/snow_brick_wall_side_tall.json",
+            "minecraft/textures/block/snow_bricks.png"
+          ],
+          "removed": [
+            "minecraft/models/block/cube_top.json"
+          ]
+        }
+      }
+    }
+  ],
+  "custom": [
+    {
+      "type": "title",
+      "value": {
+        "title": "datapacks.json",
+        "id": "custom-datapacks-json",
+        "size": 2
+      }
+    }
+  ]
+}
