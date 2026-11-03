@@ -1,0 +1,3 @@
+effect clear <targets: entity> <effect: resource_or_tag>
+effect give <targets: entity> <effect: resource_or_tag> infinite <amplifier: integer> <hideParticles: bool>
+effect give <targets: entity> <effect: resource_or_tag> <seconds: integer> <amplifier: integer> <hideParticles: bool>
