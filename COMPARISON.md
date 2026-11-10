@@ -1,0 +1,2661 @@
+## Comparison with [26.4-snapshot-7](https://github.com/PixiGeko/Minecraft-generated-data/tree/26.4-snapshot-7)
+
+> [!TIP]
+> - [Version data](#version-data)
+> - [Registries](#registries)
+> - [Tags](#tags)
+> - [Commands](#commands)
+> - [Datapacks](#datapacks)
+> - [Translations](#translations)
+> - [Packets](#packets)
+> - [File structure](#file-structure)
+
+<br/><br/>
+<details><summary><b><ins>VERSION DATA</ins></b><a name="version-data"></a></summary>
+<br/>
+<table><tr><th></th><th align="left">26.4-snapshot-7</th><th>26.4-snapshot-8</th></tr><tr><td>DataPack version</td><td><pre>126.0</pre></td><td><pre>127.0</pre></td></tr><tr><td>ResourcePack version</td><td><pre>102.0</pre></td><td><pre>103.0</pre></td></tr><tr><td>World version</td><td><pre>5127</pre></td><td><pre>5128</pre></td></tr><tr><td>Protocol version</td><td><pre>1073742169</pre></td><td><pre>1073742170</pre></td></tr></table>
+</details>
+<hr/>
+<details><summary><b><ins>REGISTRIES</ins></b><a name="registries"></a></summary>
+<br/>
+<details>
+<summary>
+🗒️ List
+</summary>
+
+```diff
++ command_suggestion_type.txt
+```
+
+</details>
+<details>
+<summary>
+command_argument_type
+</summary>
+
+```diff
+- brigadier:bool
+- brigadier:double
+- brigadier:float
+- brigadier:integer
+- brigadier:long
+- brigadier:string
++ minecraft:bool
++ minecraft:double
++ minecraft:float
++ minecraft:integer
++ minecraft:long
++ minecraft:pattern
+- minecraft:resource_key
+- minecraft:resource_or_tag_key
++ minecraft:string
+```
+
+</details>
+<details>
+<summary>
+context_key_set
+</summary>
+
+```diff
+- minecraft:command
++ minecraft:command_modifier
++ minecraft:command_predicate
+```
+
+</details>
+<details>
+<summary>
+sound_event
+</summary>
+
+```diff
++ minecraft:entity.frostbite.throw
+```
+
+</details>
+</details>
+<hr/>
+<details><summary><b><ins>TAGS</ins></b><a name="tags"></a></summary>
+<br/>
+<details>
+<summary>
+🗒️ List
+</summary>
+
+```diff
++ universal_tags/command_suggestion_type.json
+```
+
+</details>
+<details>
+<summary>
+universal_tags/command_argument_type.json
+</summary>
+
+```diff
+- brigadier:bool
+- brigadier:double
+- brigadier:float
+- brigadier:integer
+- brigadier:long
+- brigadier:string
++ minecraft:bool
++ minecraft:double
++ minecraft:float
++ minecraft:integer
++ minecraft:long
++ minecraft:pattern
+- minecraft:resource_key
+- minecraft:resource_or_tag_key
++ minecraft:string
+```
+
+</details>
+<details>
+<summary>
+universal_tags/context_key_set.json
+</summary>
+
+```diff
+- minecraft:command
++ minecraft:command_modifier
++ minecraft:command_predicate
+```
+
+</details>
+<details>
+<summary>
+universal_tags/sound_event.json
+</summary>
+
+```diff
++ minecraft:entity.frostbite.throw
+```
+
+</details>
+</details>
+<hr/>
+<details><summary><b><ins>COMMANDS</ins></b><a name="commands"></a></summary>
+<br/>
+<details>
+<summary>
+advancement
+</summary>
+
+```diff
+- advancement grant <targets: entity> everything
+- advancement grant <targets: entity> from <advancement: resource_key>
+- advancement grant <targets: entity> only <advancement: resource_key> <criterion: string>
+- advancement grant <targets: entity> through <advancement: resource_key>
+- advancement grant <targets: entity> until <advancement: resource_key>
++ advancement grant <targets> everything
++ advancement grant <targets> from <advancement>
++ advancement grant <targets> only <advancement> <criterion>
++ advancement grant <targets> through <advancement>
++ advancement grant <targets> until <advancement>
+- advancement revoke <targets: entity> everything
+- advancement revoke <targets: entity> from <advancement: resource_key>
+- advancement revoke <targets: entity> only <advancement: resource_key> <criterion: string>
+- advancement revoke <targets: entity> through <advancement: resource_key>
+- advancement revoke <targets: entity> until <advancement: resource_key>
++ advancement revoke <targets> everything
++ advancement revoke <targets> from <advancement>
++ advancement revoke <targets> only <advancement> <criterion>
++ advancement revoke <targets> through <advancement>
++ advancement revoke <targets> until <advancement>
+```
+
+</details>
+<details>
+<summary>
+attribute
+</summary>
+
+```diff
+- attribute <target: entity> <attribute: resource> base get <scale: double>
+- attribute <target: entity> <attribute: resource> base reset
+- attribute <target: entity> <attribute: resource> base set <value: double>
+- attribute <target: entity> <attribute: resource> get <scale: double>
+- attribute <target: entity> <attribute: resource> modifier add <id: resource_location> <value: double> add_multiplied_base
+- attribute <target: entity> <attribute: resource> modifier add <id: resource_location> <value: double> add_multiplied_total
+- attribute <target: entity> <attribute: resource> modifier add <id: resource_location> <value: double> add_value
+- attribute <target: entity> <attribute: resource> modifier remove <id: resource_location>
+- attribute <target: entity> <attribute: resource> modifier value get <id: resource_location> <scale: double>
++ attribute <target> <attribute> base get <scale>
++ attribute <target> <attribute> base reset
++ attribute <target> <attribute> base set <value>
++ attribute <target> <attribute> get <scale>
++ attribute <target> <attribute> modifier add <id> <value> add_multiplied_base
++ attribute <target> <attribute> modifier add <id> <value> add_multiplied_total
++ attribute <target> <attribute> modifier add <id> <value> add_value
++ attribute <target> <attribute> modifier remove <id>
++ attribute <target> <attribute> modifier value get <id> <scale>
+```
+
+</details>
+<details>
+<summary>
+ban-ip
+</summary>
+
+```diff
+- ban-ip <target: string> <reason: message>
++ ban-ip <target> <reason>
+```
+
+</details>
+<details>
+<summary>
+ban
+</summary>
+
+```diff
+- ban <targets: game_profile> <reason: message>
++ ban <targets> <reason>
+```
+
+</details>
+<details>
+<summary>
+bossbar
+</summary>
+
+```diff
+- bossbar add <id: resource_location> <name: component>
++ bossbar add <id> <name>
+- bossbar get <id: resource_location> max
+- bossbar get <id: resource_location> players
+- bossbar get <id: resource_location> value
+- bossbar get <id: resource_location> visible
++ bossbar get <id> max
++ bossbar get <id> players
++ bossbar get <id> value
++ bossbar get <id> visible
+- bossbar remove <id: resource_location>
++ bossbar remove <id>
+- bossbar set <id: resource_location> color blue
+- bossbar set <id: resource_location> color green
+- bossbar set <id: resource_location> color pink
+- bossbar set <id: resource_location> color purple
+- bossbar set <id: resource_location> color red
+- bossbar set <id: resource_location> color white
+- bossbar set <id: resource_location> color yellow
+- bossbar set <id: resource_location> max <max: integer>
+- bossbar set <id: resource_location> name <name: component>
+- bossbar set <id: resource_location> players <targets: entity>
+- bossbar set <id: resource_location> style notched_10
+- bossbar set <id: resource_location> style notched_12
+- bossbar set <id: resource_location> style notched_20
+- bossbar set <id: resource_location> style notched_6
+- bossbar set <id: resource_location> style progress
+- bossbar set <id: resource_location> value <value: integer>
+- bossbar set <id: resource_location> visible <visible: bool>
++ bossbar set <id> color blue
++ bossbar set <id> color green
++ bossbar set <id> color pink
++ bossbar set <id> color purple
++ bossbar set <id> color red
++ bossbar set <id> color white
++ bossbar set <id> color yellow
++ bossbar set <id> max <max>
++ bossbar set <id> name <name>
++ bossbar set <id> players <targets>
++ bossbar set <id> style notched_10
++ bossbar set <id> style notched_12
++ bossbar set <id> style notched_20
++ bossbar set <id> style notched_6
++ bossbar set <id> style progress
++ bossbar set <id> value <value>
++ bossbar set <id> visible <visible>
+```
+
+</details>
+<details>
+<summary>
+clear
+</summary>
+
+```diff
+- clear <targets: entity> <item: item_predicate> <maxCount: integer>
++ clear <targets> <item> <maxCount>
+```
+
+</details>
+<details>
+<summary>
+clone
+</summary>
+
+```diff
+- clone <begin: block_pos> <end: block_pos> <destination: block_pos> filtered <filter: block_predicate> force
+- clone <begin: block_pos> <end: block_pos> <destination: block_pos> filtered <filter: block_predicate> move
+- clone <begin: block_pos> <end: block_pos> <destination: block_pos> filtered <filter: block_predicate> normal
+- clone <begin: block_pos> <end: block_pos> <destination: block_pos> masked force
+- clone <begin: block_pos> <end: block_pos> <destination: block_pos> masked move
+- clone <begin: block_pos> <end: block_pos> <destination: block_pos> masked normal
+- clone <begin: block_pos> <end: block_pos> <destination: block_pos> replace force
+- clone <begin: block_pos> <end: block_pos> <destination: block_pos> replace move
+- clone <begin: block_pos> <end: block_pos> <destination: block_pos> replace normal
+- clone <begin: block_pos> <end: block_pos> <destination: block_pos> strict filtered <filter: block_predicate> force
+- clone <begin: block_pos> <end: block_pos> <destination: block_pos> strict filtered <filter: block_predicate> move
+- clone <begin: block_pos> <end: block_pos> <destination: block_pos> strict filtered <filter: block_predicate> normal
+- clone <begin: block_pos> <end: block_pos> <destination: block_pos> strict masked force
+- clone <begin: block_pos> <end: block_pos> <destination: block_pos> strict masked move
+- clone <begin: block_pos> <end: block_pos> <destination: block_pos> strict masked normal
+- clone <begin: block_pos> <end: block_pos> <destination: block_pos> strict replace force
+- clone <begin: block_pos> <end: block_pos> <destination: block_pos> strict replace move
+- clone <begin: block_pos> <end: block_pos> <destination: block_pos> strict replace normal
+- clone <begin: block_pos> <end: block_pos> to <targetDimension: dimension> <destination: block_pos> filtered <filter: block_predicate> force
+- clone <begin: block_pos> <end: block_pos> to <targetDimension: dimension> <destination: block_pos> filtered <filter: block_predicate> move
+- clone <begin: block_pos> <end: block_pos> to <targetDimension: dimension> <destination: block_pos> filtered <filter: block_predicate> normal
+- clone <begin: block_pos> <end: block_pos> to <targetDimension: dimension> <destination: block_pos> masked force
+- clone <begin: block_pos> <end: block_pos> to <targetDimension: dimension> <destination: block_pos> masked move
+- clone <begin: block_pos> <end: block_pos> to <targetDimension: dimension> <destination: block_pos> masked normal
+- clone <begin: block_pos> <end: block_pos> to <targetDimension: dimension> <destination: block_pos> replace force
+- clone <begin: block_pos> <end: block_pos> to <targetDimension: dimension> <destination: block_pos> replace move
+- clone <begin: block_pos> <end: block_pos> to <targetDimension: dimension> <destination: block_pos> replace normal
+- clone <begin: block_pos> <end: block_pos> to <targetDimension: dimension> <destination: block_pos> strict filtered <filter: block_predicate> force
+- clone <begin: block_pos> <end: block_pos> to <targetDimension: dimension> <destination: block_pos> strict filtered <filter: block_predicate> move
+- clone <begin: block_pos> <end: block_pos> to <targetDimension: dimension> <destination: block_pos> strict filtered <filter: block_predicate> normal
+- clone <begin: block_pos> <end: block_pos> to <targetDimension: dimension> <destination: block_pos> strict masked force
+- clone <begin: block_pos> <end: block_pos> to <targetDimension: dimension> <destination: block_pos> strict masked move
+- clone <begin: block_pos> <end: block_pos> to <targetDimension: dimension> <destination: block_pos> strict masked normal
+- clone <begin: block_pos> <end: block_pos> to <targetDimension: dimension> <destination: block_pos> strict replace force
+- clone <begin: block_pos> <end: block_pos> to <targetDimension: dimension> <destination: block_pos> strict replace move
+- clone <begin: block_pos> <end: block_pos> to <targetDimension: dimension> <destination: block_pos> strict replace normal
++ clone <begin> <end> <destination> filtered <filter> force
++ clone <begin> <end> <destination> filtered <filter> move
++ clone <begin> <end> <destination> filtered <filter> normal
++ clone <begin> <end> <destination> masked force
++ clone <begin> <end> <destination> masked move
++ clone <begin> <end> <destination> masked normal
++ clone <begin> <end> <destination> replace force
++ clone <begin> <end> <destination> replace move
++ clone <begin> <end> <destination> replace normal
++ clone <begin> <end> <destination> strict filtered <filter> force
++ clone <begin> <end> <destination> strict filtered <filter> move
++ clone <begin> <end> <destination> strict filtered <filter> normal
++ clone <begin> <end> <destination> strict masked force
++ clone <begin> <end> <destination> strict masked move
++ clone <begin> <end> <destination> strict masked normal
++ clone <begin> <end> <destination> strict replace force
++ clone <begin> <end> <destination> strict replace move
++ clone <begin> <end> <destination> strict replace normal
++ clone <begin> <end> to <targetDimension> <destination> filtered <filter> force
++ clone <begin> <end> to <targetDimension> <destination> filtered <filter> move
++ clone <begin> <end> to <targetDimension> <destination> filtered <filter> normal
++ clone <begin> <end> to <targetDimension> <destination> masked force
++ clone <begin> <end> to <targetDimension> <destination> masked move
++ clone <begin> <end> to <targetDimension> <destination> masked normal
++ clone <begin> <end> to <targetDimension> <destination> replace force
++ clone <begin> <end> to <targetDimension> <destination> replace move
++ clone <begin> <end> to <targetDimension> <destination> replace normal
++ clone <begin> <end> to <targetDimension> <destination> strict filtered <filter> force
++ clone <begin> <end> to <targetDimension> <destination> strict filtered <filter> move
++ clone <begin> <end> to <targetDimension> <destination> strict filtered <filter> normal
++ clone <begin> <end> to <targetDimension> <destination> strict masked force
++ clone <begin> <end> to <targetDimension> <destination> strict masked move
++ clone <begin> <end> to <targetDimension> <destination> strict masked normal
++ clone <begin> <end> to <targetDimension> <destination> strict replace force
++ clone <begin> <end> to <targetDimension> <destination> strict replace move
++ clone <begin> <end> to <targetDimension> <destination> strict replace normal
+- clone from <sourceDimension: dimension> <begin: block_pos> <end: block_pos> <destination: block_pos> filtered <filter: block_predicate> force
+- clone from <sourceDimension: dimension> <begin: block_pos> <end: block_pos> <destination: block_pos> filtered <filter: block_predicate> move
+- clone from <sourceDimension: dimension> <begin: block_pos> <end: block_pos> <destination: block_pos> filtered <filter: block_predicate> normal
+- clone from <sourceDimension: dimension> <begin: block_pos> <end: block_pos> <destination: block_pos> masked force
+- clone from <sourceDimension: dimension> <begin: block_pos> <end: block_pos> <destination: block_pos> masked move
+- clone from <sourceDimension: dimension> <begin: block_pos> <end: block_pos> <destination: block_pos> masked normal
+- clone from <sourceDimension: dimension> <begin: block_pos> <end: block_pos> <destination: block_pos> replace force
+- clone from <sourceDimension: dimension> <begin: block_pos> <end: block_pos> <destination: block_pos> replace move
+- clone from <sourceDimension: dimension> <begin: block_pos> <end: block_pos> <destination: block_pos> replace normal
+- clone from <sourceDimension: dimension> <begin: block_pos> <end: block_pos> <destination: block_pos> strict filtered <filter: block_predicate> force
+- clone from <sourceDimension: dimension> <begin: block_pos> <end: block_pos> <destination: block_pos> strict filtered <filter: block_predicate> move
+- clone from <sourceDimension: dimension> <begin: block_pos> <end: block_pos> <destination: block_pos> strict filtered <filter: block_predicate> normal
+- clone from <sourceDimension: dimension> <begin: block_pos> <end: block_pos> <destination: block_pos> strict masked force
+- clone from <sourceDimension: dimension> <begin: block_pos> <end: block_pos> <destination: block_pos> strict masked move
+- clone from <sourceDimension: dimension> <begin: block_pos> <end: block_pos> <destination: block_pos> strict masked normal
+- clone from <sourceDimension: dimension> <begin: block_pos> <end: block_pos> <destination: block_pos> strict replace force
+- clone from <sourceDimension: dimension> <begin: block_pos> <end: block_pos> <destination: block_pos> strict replace move
+- clone from <sourceDimension: dimension> <begin: block_pos> <end: block_pos> <destination: block_pos> strict replace normal
+- clone from <sourceDimension: dimension> <begin: block_pos> <end: block_pos> to <targetDimension: dimension> <destination: block_pos> filtered <filter: block_predicate> force
+- clone from <sourceDimension: dimension> <begin: block_pos> <end: block_pos> to <targetDimension: dimension> <destination: block_pos> filtered <filter: block_predicate> move
+- clone from <sourceDimension: dimension> <begin: block_pos> <end: block_pos> to <targetDimension: dimension> <destination: block_pos> filtered <filter: block_predicate> normal
+- clone from <sourceDimension: dimension> <begin: block_pos> <end: block_pos> to <targetDimension: dimension> <destination: block_pos> masked force
+- clone from <sourceDimension: dimension> <begin: block_pos> <end: block_pos> to <targetDimension: dimension> <destination: block_pos> masked move
+- clone from <sourceDimension: dimension> <begin: block_pos> <end: block_pos> to <targetDimension: dimension> <destination: block_pos> masked normal
+- clone from <sourceDimension: dimension> <begin: block_pos> <end: block_pos> to <targetDimension: dimension> <destination: block_pos> replace force
+- clone from <sourceDimension: dimension> <begin: block_pos> <end: block_pos> to <targetDimension: dimension> <destination: block_pos> replace move
+- clone from <sourceDimension: dimension> <begin: block_pos> <end: block_pos> to <targetDimension: dimension> <destination: block_pos> replace normal
+- clone from <sourceDimension: dimension> <begin: block_pos> <end: block_pos> to <targetDimension: dimension> <destination: block_pos> strict filtered <filter: block_predicate> force
+- clone from <sourceDimension: dimension> <begin: block_pos> <end: block_pos> to <targetDimension: dimension> <destination: block_pos> strict filtered <filter: block_predicate> move
+- clone from <sourceDimension: dimension> <begin: block_pos> <end: block_pos> to <targetDimension: dimension> <destination: block_pos> strict filtered <filter: block_predicate> normal
+- clone from <sourceDimension: dimension> <begin: block_pos> <end: block_pos> to <targetDimension: dimension> <destination: block_pos> strict masked force
+- clone from <sourceDimension: dimension> <begin: block_pos> <end: block_pos> to <targetDimension: dimension> <destination: block_pos> strict masked move
+- clone from <sourceDimension: dimension> <begin: block_pos> <end: block_pos> to <targetDimension: dimension> <destination: block_pos> strict masked normal
+- clone from <sourceDimension: dimension> <begin: block_pos> <end: block_pos> to <targetDimension: dimension> <destination: block_pos> strict replace force
+- clone from <sourceDimension: dimension> <begin: block_pos> <end: block_pos> to <targetDimension: dimension> <destination: block_pos> strict replace move
+- clone from <sourceDimension: dimension> <begin: block_pos> <end: block_pos> to <targetDimension: dimension> <destination: block_pos> strict replace normal
++ clone from <sourceDimension> <begin> <end> <destination> filtered <filter> force
++ clone from <sourceDimension> <begin> <end> <destination> filtered <filter> move
++ clone from <sourceDimension> <begin> <end> <destination> filtered <filter> normal
++ clone from <sourceDimension> <begin> <end> <destination> masked force
++ clone from <sourceDimension> <begin> <end> <destination> masked move
++ clone from <sourceDimension> <begin> <end> <destination> masked normal
++ clone from <sourceDimension> <begin> <end> <destination> replace force
++ clone from <sourceDimension> <begin> <end> <destination> replace move
++ clone from <sourceDimension> <begin> <end> <destination> replace normal
++ clone from <sourceDimension> <begin> <end> <destination> strict filtered <filter> force
++ clone from <sourceDimension> <begin> <end> <destination> strict filtered <filter> move
++ clone from <sourceDimension> <begin> <end> <destination> strict filtered <filter> normal
++ clone from <sourceDimension> <begin> <end> <destination> strict masked force
++ clone from <sourceDimension> <begin> <end> <destination> strict masked move
++ clone from <sourceDimension> <begin> <end> <destination> strict masked normal
++ clone from <sourceDimension> <begin> <end> <destination> strict replace force
++ clone from <sourceDimension> <begin> <end> <destination> strict replace move
++ clone from <sourceDimension> <begin> <end> <destination> strict replace normal
++ clone from <sourceDimension> <begin> <end> to <targetDimension> <destination> filtered <filter> force
++ clone from <sourceDimension> <begin> <end> to <targetDimension> <destination> filtered <filter> move
++ clone from <sourceDimension> <begin> <end> to <targetDimension> <destination> filtered <filter> normal
++ clone from <sourceDimension> <begin> <end> to <targetDimension> <destination> masked force
++ clone from <sourceDimension> <begin> <end> to <targetDimension> <destination> masked move
++ clone from <sourceDimension> <begin> <end> to <targetDimension> <destination> masked normal
++ clone from <sourceDimension> <begin> <end> to <targetDimension> <destination> replace force
++ clone from <sourceDimension> <begin> <end> to <targetDimension> <destination> replace move
++ clone from <sourceDimension> <begin> <end> to <targetDimension> <destination> replace normal
++ clone from <sourceDimension> <begin> <end> to <targetDimension> <destination> strict filtered <filter> force
++ clone from <sourceDimension> <begin> <end> to <targetDimension> <destination> strict filtered <filter> move
++ clone from <sourceDimension> <begin> <end> to <targetDimension> <destination> strict filtered <filter> normal
++ clone from <sourceDimension> <begin> <end> to <targetDimension> <destination> strict masked force
++ clone from <sourceDimension> <begin> <end> to <targetDimension> <destination> strict masked move
++ clone from <sourceDimension> <begin> <end> to <targetDimension> <destination> strict masked normal
++ clone from <sourceDimension> <begin> <end> to <targetDimension> <destination> strict replace force
++ clone from <sourceDimension> <begin> <end> to <targetDimension> <destination> strict replace move
++ clone from <sourceDimension> <begin> <end> to <targetDimension> <destination> strict replace normal
+```
+
+</details>
+<details>
+<summary>
+compute
+</summary>
+
+```diff
+- compute block <computePos: block_pos> float <provider: context_float_provider> <scale: float>
+- compute block <computePos: block_pos> integer <provider: context_int_provider>
++ compute block <computePos> float <provider> <scale>
++ compute block <computePos> integer <provider>
+- compute default float <provider: context_float_provider> <scale: float>
++ compute default float <provider> <scale>
+- compute default integer <provider: context_int_provider>
++ compute default integer <provider>
+- compute entity <computeTarget: entity> float <provider: context_float_provider> <scale: float>
+- compute entity <computeTarget: entity> integer <provider: context_int_provider>
++ compute entity <computeTarget> float <provider> <scale>
++ compute entity <computeTarget> integer <provider>
+```
+
+</details>
+<details>
+<summary>
+damage
+</summary>
+
+```diff
+- damage <target: entity> <amount: float> <damageType: resource> at <location: vec3>
+- damage <target: entity> <amount: float> <damageType: resource> by <entity: entity> from <cause: entity>
++ damage <target> <amount> <damageType> at <location>
++ damage <target> <amount> <damageType> by <entity> from <cause>
+```
+
+</details>
+<details>
+<summary>
+data
+</summary>
+
+```diff
+- data get block <target: block_pos> <path: nbt_path> <scale: double>
++ data get block <target> <path> <scale>
+- data get entity <target: entity> <path: nbt_path> <scale: double>
++ data get entity <target> <path> <scale>
+- data get storage <target: resource_location> <path: nbt_path> <scale: double>
++ data get storage <target> <path> <scale>
+- data merge block <target: block_pos> <nbt: nbt_compound_tag>
++ data merge block <target> <nbt>
+- data merge entity <target: entity> <nbt: nbt_compound_tag>
++ data merge entity <target> <nbt>
+- data merge storage <target: resource_location> <nbt: nbt_compound_tag>
++ data merge storage <target> <nbt>
+- data modify block <target: block_pos> <targetPath: nbt_path> append compute block <computePos: block_pos> float <provider: context_float_provider>
+- data modify block <target: block_pos> <targetPath: nbt_path> append compute block <computePos: block_pos> integer <provider: context_int_provider>
+- data modify block <target: block_pos> <targetPath: nbt_path> append compute default float <provider: context_float_provider>
+- data modify block <target: block_pos> <targetPath: nbt_path> append compute default integer <provider: context_int_provider>
+- data modify block <target: block_pos> <targetPath: nbt_path> append compute entity <computeTarget: entity> float <provider: context_float_provider>
+- data modify block <target: block_pos> <targetPath: nbt_path> append compute entity <computeTarget: entity> integer <provider: context_int_provider>
+- data modify block <target: block_pos> <targetPath: nbt_path> append from block <source: block_pos> <sourcePath: nbt_path>
+- data modify block <target: block_pos> <targetPath: nbt_path> append from entity <source: entity> <sourcePath: nbt_path>
+- data modify block <target: block_pos> <targetPath: nbt_path> append from storage <source: resource_location> <sourcePath: nbt_path>
+- data modify block <target: block_pos> <targetPath: nbt_path> append string block <source: block_pos> <sourcePath: nbt_path> <start: integer> <end: integer>
+- data modify block <target: block_pos> <targetPath: nbt_path> append string entity <source: entity> <sourcePath: nbt_path> <start: integer> <end: integer>
+- data modify block <target: block_pos> <targetPath: nbt_path> append string storage <source: resource_location> <sourcePath: nbt_path> <start: integer> <end: integer>
+- data modify block <target: block_pos> <targetPath: nbt_path> append value <value: nbt_tag>
+- data modify block <target: block_pos> <targetPath: nbt_path> insert <index: integer> compute block <computePos: block_pos> float <provider: context_float_provider>
+- data modify block <target: block_pos> <targetPath: nbt_path> insert <index: integer> compute block <computePos: block_pos> integer <provider: context_int_provider>
+- data modify block <target: block_pos> <targetPath: nbt_path> insert <index: integer> compute default float <provider: context_float_provider>
+- data modify block <target: block_pos> <targetPath: nbt_path> insert <index: integer> compute default integer <provider: context_int_provider>
+- data modify block <target: block_pos> <targetPath: nbt_path> insert <index: integer> compute entity <computeTarget: entity> float <provider: context_float_provider>
+- data modify block <target: block_pos> <targetPath: nbt_path> insert <index: integer> compute entity <computeTarget: entity> integer <provider: context_int_provider>
+- data modify block <target: block_pos> <targetPath: nbt_path> insert <index: integer> from block <source: block_pos> <sourcePath: nbt_path>
+- data modify block <target: block_pos> <targetPath: nbt_path> insert <index: integer> from entity <source: entity> <sourcePath: nbt_path>
+- data modify block <target: block_pos> <targetPath: nbt_path> insert <index: integer> from storage <source: resource_location> <sourcePath: nbt_path>
+- data modify block <target: block_pos> <targetPath: nbt_path> insert <index: integer> string block <source: block_pos> <sourcePath: nbt_path> <start: integer> <end: integer>
+- data modify block <target: block_pos> <targetPath: nbt_path> insert <index: integer> string entity <source: entity> <sourcePath: nbt_path> <start: integer> <end: integer>
+- data modify block <target: block_pos> <targetPath: nbt_path> insert <index: integer> string storage <source: resource_location> <sourcePath: nbt_path> <start: integer> <end: integer>
+- data modify block <target: block_pos> <targetPath: nbt_path> insert <index: integer> value <value: nbt_tag>
+- data modify block <target: block_pos> <targetPath: nbt_path> merge compute block <computePos: block_pos> float <provider: context_float_provider>
+- data modify block <target: block_pos> <targetPath: nbt_path> merge compute block <computePos: block_pos> integer <provider: context_int_provider>
+- data modify block <target: block_pos> <targetPath: nbt_path> merge compute default float <provider: context_float_provider>
+- data modify block <target: block_pos> <targetPath: nbt_path> merge compute default integer <provider: context_int_provider>
+- data modify block <target: block_pos> <targetPath: nbt_path> merge compute entity <computeTarget: entity> float <provider: context_float_provider>
+- data modify block <target: block_pos> <targetPath: nbt_path> merge compute entity <computeTarget: entity> integer <provider: context_int_provider>
+- data modify block <target: block_pos> <targetPath: nbt_path> merge from block <source: block_pos> <sourcePath: nbt_path>
+- data modify block <target: block_pos> <targetPath: nbt_path> merge from entity <source: entity> <sourcePath: nbt_path>
+- data modify block <target: block_pos> <targetPath: nbt_path> merge from storage <source: resource_location> <sourcePath: nbt_path>
+- data modify block <target: block_pos> <targetPath: nbt_path> merge string block <source: block_pos> <sourcePath: nbt_path> <start: integer> <end: integer>
+- data modify block <target: block_pos> <targetPath: nbt_path> merge string entity <source: entity> <sourcePath: nbt_path> <start: integer> <end: integer>
+- data modify block <target: block_pos> <targetPath: nbt_path> merge string storage <source: resource_location> <sourcePath: nbt_path> <start: integer> <end: integer>
+- data modify block <target: block_pos> <targetPath: nbt_path> merge value <value: nbt_tag>
+- data modify block <target: block_pos> <targetPath: nbt_path> prepend compute block <computePos: block_pos> float <provider: context_float_provider>
+- data modify block <target: block_pos> <targetPath: nbt_path> prepend compute block <computePos: block_pos> integer <provider: context_int_provider>
+- data modify block <target: block_pos> <targetPath: nbt_path> prepend compute default float <provider: context_float_provider>
+- data modify block <target: block_pos> <targetPath: nbt_path> prepend compute default integer <provider: context_int_provider>
+- data modify block <target: block_pos> <targetPath: nbt_path> prepend compute entity <computeTarget: entity> float <provider: context_float_provider>
+- data modify block <target: block_pos> <targetPath: nbt_path> prepend compute entity <computeTarget: entity> integer <provider: context_int_provider>
+- data modify block <target: block_pos> <targetPath: nbt_path> prepend from block <source: block_pos> <sourcePath: nbt_path>
+- data modify block <target: block_pos> <targetPath: nbt_path> prepend from entity <source: entity> <sourcePath: nbt_path>
+- data modify block <target: block_pos> <targetPath: nbt_path> prepend from storage <source: resource_location> <sourcePath: nbt_path>
+- data modify block <target: block_pos> <targetPath: nbt_path> prepend string block <source: block_pos> <sourcePath: nbt_path> <start: integer> <end: integer>
+- data modify block <target: block_pos> <targetPath: nbt_path> prepend string entity <source: entity> <sourcePath: nbt_path> <start: integer> <end: integer>
+- data modify block <target: block_pos> <targetPath: nbt_path> prepend string storage <source: resource_location> <sourcePath: nbt_path> <start: integer> <end: integer>
+- data modify block <target: block_pos> <targetPath: nbt_path> prepend value <value: nbt_tag>
+- data modify block <target: block_pos> <targetPath: nbt_path> set compute block <computePos: block_pos> float <provider: context_float_provider>
+- data modify block <target: block_pos> <targetPath: nbt_path> set compute block <computePos: block_pos> integer <provider: context_int_provider>
+- data modify block <target: block_pos> <targetPath: nbt_path> set compute default float <provider: context_float_provider>
+- data modify block <target: block_pos> <targetPath: nbt_path> set compute default integer <provider: context_int_provider>
+- data modify block <target: block_pos> <targetPath: nbt_path> set compute entity <computeTarget: entity> float <provider: context_float_provider>
+- data modify block <target: block_pos> <targetPath: nbt_path> set compute entity <computeTarget: entity> integer <provider: context_int_provider>
+- data modify block <target: block_pos> <targetPath: nbt_path> set from block <source: block_pos> <sourcePath: nbt_path>
+- data modify block <target: block_pos> <targetPath: nbt_path> set from entity <source: entity> <sourcePath: nbt_path>
+- data modify block <target: block_pos> <targetPath: nbt_path> set from storage <source: resource_location> <sourcePath: nbt_path>
+- data modify block <target: block_pos> <targetPath: nbt_path> set string block <source: block_pos> <sourcePath: nbt_path> <start: integer> <end: integer>
+- data modify block <target: block_pos> <targetPath: nbt_path> set string entity <source: entity> <sourcePath: nbt_path> <start: integer> <end: integer>
+- data modify block <target: block_pos> <targetPath: nbt_path> set string storage <source: resource_location> <sourcePath: nbt_path> <start: integer> <end: integer>
+- data modify block <target: block_pos> <targetPath: nbt_path> set value <value: nbt_tag>
++ data modify block <target> <targetPath> append compute block <computePos> float <provider>
++ data modify block <target> <targetPath> append compute block <computePos> integer <provider>
++ data modify block <target> <targetPath> append compute default float <provider>
++ data modify block <target> <targetPath> append compute default integer <provider>
++ data modify block <target> <targetPath> append compute entity <computeTarget> float <provider>
++ data modify block <target> <targetPath> append compute entity <computeTarget> integer <provider>
++ data modify block <target> <targetPath> append from block <source> <sourcePath>
++ data modify block <target> <targetPath> append from entity <source> <sourcePath>
++ data modify block <target> <targetPath> append from storage <source> <sourcePath>
++ data modify block <target> <targetPath> append string block <source> <sourcePath> <start> <end>
++ data modify block <target> <targetPath> append string entity <source> <sourcePath> <start> <end>
++ data modify block <target> <targetPath> append string storage <source> <sourcePath> <start> <end>
++ data modify block <target> <targetPath> append value <value>
++ data modify block <target> <targetPath> insert <index> compute block <computePos> float <provider>
++ data modify block <target> <targetPath> insert <index> compute block <computePos> integer <provider>
++ data modify block <target> <targetPath> insert <index> compute default float <provider>
++ data modify block <target> <targetPath> insert <index> compute default integer <provider>
++ data modify block <target> <targetPath> insert <index> compute entity <computeTarget> float <provider>
++ data modify block <target> <targetPath> insert <index> compute entity <computeTarget> integer <provider>
++ data modify block <target> <targetPath> insert <index> from block <source> <sourcePath>
++ data modify block <target> <targetPath> insert <index> from entity <source> <sourcePath>
++ data modify block <target> <targetPath> insert <index> from storage <source> <sourcePath>
++ data modify block <target> <targetPath> insert <index> string block <source> <sourcePath> <start> <end>
++ data modify block <target> <targetPath> insert <index> string entity <source> <sourcePath> <start> <end>
++ data modify block <target> <targetPath> insert <index> string storage <source> <sourcePath> <start> <end>
++ data modify block <target> <targetPath> insert <index> value <value>
++ data modify block <target> <targetPath> merge compute block <computePos> float <provider>
++ data modify block <target> <targetPath> merge compute block <computePos> integer <provider>
++ data modify block <target> <targetPath> merge compute default float <provider>
++ data modify block <target> <targetPath> merge compute default integer <provider>
++ data modify block <target> <targetPath> merge compute entity <computeTarget> float <provider>
++ data modify block <target> <targetPath> merge compute entity <computeTarget> integer <provider>
++ data modify block <target> <targetPath> merge from block <source> <sourcePath>
++ data modify block <target> <targetPath> merge from entity <source> <sourcePath>
++ data modify block <target> <targetPath> merge from storage <source> <sourcePath>
++ data modify block <target> <targetPath> merge string block <source> <sourcePath> <start> <end>
++ data modify block <target> <targetPath> merge string entity <source> <sourcePath> <start> <end>
++ data modify block <target> <targetPath> merge string storage <source> <sourcePath> <start> <end>
++ data modify block <target> <targetPath> merge value <value>
++ data modify block <target> <targetPath> prepend compute block <computePos> float <provider>
++ data modify block <target> <targetPath> prepend compute block <computePos> integer <provider>
++ data modify block <target> <targetPath> prepend compute default float <provider>
++ data modify block <target> <targetPath> prepend compute default integer <provider>
++ data modify block <target> <targetPath> prepend compute entity <computeTarget> float <provider>
++ data modify block <target> <targetPath> prepend compute entity <computeTarget> integer <provider>
++ data modify block <target> <targetPath> prepend from block <source> <sourcePath>
++ data modify block <target> <targetPath> prepend from entity <source> <sourcePath>
++ data modify block <target> <targetPath> prepend from storage <source> <sourcePath>
++ data modify block <target> <targetPath> prepend string block <source> <sourcePath> <start> <end>
++ data modify block <target> <targetPath> prepend string entity <source> <sourcePath> <start> <end>
++ data modify block <target> <targetPath> prepend string storage <source> <sourcePath> <start> <end>
++ data modify block <target> <targetPath> prepend value <value>
++ data modify block <target> <targetPath> set compute block <computePos> float <provider>
++ data modify block <target> <targetPath> set compute block <computePos> integer <provider>
++ data modify block <target> <targetPath> set compute default float <provider>
++ data modify block <target> <targetPath> set compute default integer <provider>
++ data modify block <target> <targetPath> set compute entity <computeTarget> float <provider>
++ data modify block <target> <targetPath> set compute entity <computeTarget> integer <provider>
++ data modify block <target> <targetPath> set from block <source> <sourcePath>
++ data modify block <target> <targetPath> set from entity <source> <sourcePath>
++ data modify block <target> <targetPath> set from storage <source> <sourcePath>
++ data modify block <target> <targetPath> set string block <source> <sourcePath> <start> <end>
++ data modify block <target> <targetPath> set string entity <source> <sourcePath> <start> <end>
++ data modify block <target> <targetPath> set string storage <source> <sourcePath> <start> <end>
++ data modify block <target> <targetPath> set value <value>
+- data modify entity <target: entity> <targetPath: nbt_path> append compute block <computePos: block_pos> float <provider: context_float_provider>
+- data modify entity <target: entity> <targetPath: nbt_path> append compute block <computePos: block_pos> integer <provider: context_int_provider>
+- data modify entity <target: entity> <targetPath: nbt_path> append compute default float <provider: context_float_provider>
+- data modify entity <target: entity> <targetPath: nbt_path> append compute default integer <provider: context_int_provider>
+- data modify entity <target: entity> <targetPath: nbt_path> append compute entity <computeTarget: entity> float <provider: context_float_provider>
+- data modify entity <target: entity> <targetPath: nbt_path> append compute entity <computeTarget: entity> integer <provider: context_int_provider>
+- data modify entity <target: entity> <targetPath: nbt_path> append from block <source: block_pos> <sourcePath: nbt_path>
+- data modify entity <target: entity> <targetPath: nbt_path> append from entity <source: entity> <sourcePath: nbt_path>
+- data modify entity <target: entity> <targetPath: nbt_path> append from storage <source: resource_location> <sourcePath: nbt_path>
+- data modify entity <target: entity> <targetPath: nbt_path> append string block <source: block_pos> <sourcePath: nbt_path> <start: integer> <end: integer>
+- data modify entity <target: entity> <targetPath: nbt_path> append string entity <source: entity> <sourcePath: nbt_path> <start: integer> <end: integer>
+- data modify entity <target: entity> <targetPath: nbt_path> append string storage <source: resource_location> <sourcePath: nbt_path> <start: integer> <end: integer>
+- data modify entity <target: entity> <targetPath: nbt_path> append value <value: nbt_tag>
+- data modify entity <target: entity> <targetPath: nbt_path> insert <index: integer> compute block <computePos: block_pos> float <provider: context_float_provider>
+- data modify entity <target: entity> <targetPath: nbt_path> insert <index: integer> compute block <computePos: block_pos> integer <provider: context_int_provider>
+- data modify entity <target: entity> <targetPath: nbt_path> insert <index: integer> compute default float <provider: context_float_provider>
+- data modify entity <target: entity> <targetPath: nbt_path> insert <index: integer> compute default integer <provider: context_int_provider>
+- data modify entity <target: entity> <targetPath: nbt_path> insert <index: integer> compute entity <computeTarget: entity> float <provider: context_float_provider>
+- data modify entity <target: entity> <targetPath: nbt_path> insert <index: integer> compute entity <computeTarget: entity> integer <provider: context_int_provider>
+- data modify entity <target: entity> <targetPath: nbt_path> insert <index: integer> from block <source: block_pos> <sourcePath: nbt_path>
+- data modify entity <target: entity> <targetPath: nbt_path> insert <index: integer> from entity <source: entity> <sourcePath: nbt_path>
+- data modify entity <target: entity> <targetPath: nbt_path> insert <index: integer> from storage <source: resource_location> <sourcePath: nbt_path>
+- data modify entity <target: entity> <targetPath: nbt_path> insert <index: integer> string block <source: block_pos> <sourcePath: nbt_path> <start: integer> <end: integer>
+- data modify entity <target: entity> <targetPath: nbt_path> insert <index: integer> string entity <source: entity> <sourcePath: nbt_path> <start: integer> <end: integer>
+- data modify entity <target: entity> <targetPath: nbt_path> insert <index: integer> string storage <source: resource_location> <sourcePath: nbt_path> <start: integer> <end: integer>
+- data modify entity <target: entity> <targetPath: nbt_path> insert <index: integer> value <value: nbt_tag>
+- data modify entity <target: entity> <targetPath: nbt_path> merge compute block <computePos: block_pos> float <provider: context_float_provider>
+- data modify entity <target: entity> <targetPath: nbt_path> merge compute block <computePos: block_pos> integer <provider: context_int_provider>
+- data modify entity <target: entity> <targetPath: nbt_path> merge compute default float <provider: context_float_provider>
+- data modify entity <target: entity> <targetPath: nbt_path> merge compute default integer <provider: context_int_provider>
+- data modify entity <target: entity> <targetPath: nbt_path> merge compute entity <computeTarget: entity> float <provider: context_float_provider>
+- data modify entity <target: entity> <targetPath: nbt_path> merge compute entity <computeTarget: entity> integer <provider: context_int_provider>
+- data modify entity <target: entity> <targetPath: nbt_path> merge from block <source: block_pos> <sourcePath: nbt_path>
+- data modify entity <target: entity> <targetPath: nbt_path> merge from entity <source: entity> <sourcePath: nbt_path>
+- data modify entity <target: entity> <targetPath: nbt_path> merge from storage <source: resource_location> <sourcePath: nbt_path>
+- data modify entity <target: entity> <targetPath: nbt_path> merge string block <source: block_pos> <sourcePath: nbt_path> <start: integer> <end: integer>
+- data modify entity <target: entity> <targetPath: nbt_path> merge string entity <source: entity> <sourcePath: nbt_path> <start: integer> <end: integer>
+- data modify entity <target: entity> <targetPath: nbt_path> merge string storage <source: resource_location> <sourcePath: nbt_path> <start: integer> <end: integer>
+- data modify entity <target: entity> <targetPath: nbt_path> merge value <value: nbt_tag>
+- data modify entity <target: entity> <targetPath: nbt_path> prepend compute block <computePos: block_pos> float <provider: context_float_provider>
+- data modify entity <target: entity> <targetPath: nbt_path> prepend compute block <computePos: block_pos> integer <provider: context_int_provider>
+- data modify entity <target: entity> <targetPath: nbt_path> prepend compute default float <provider: context_float_provider>
+- data modify entity <target: entity> <targetPath: nbt_path> prepend compute default integer <provider: context_int_provider>
+- data modify entity <target: entity> <targetPath: nbt_path> prepend compute entity <computeTarget: entity> float <provider: context_float_provider>
+- data modify entity <target: entity> <targetPath: nbt_path> prepend compute entity <computeTarget: entity> integer <provider: context_int_provider>
+- data modify entity <target: entity> <targetPath: nbt_path> prepend from block <source: block_pos> <sourcePath: nbt_path>
+- data modify entity <target: entity> <targetPath: nbt_path> prepend from entity <source: entity> <sourcePath: nbt_path>
+- data modify entity <target: entity> <targetPath: nbt_path> prepend from storage <source: resource_location> <sourcePath: nbt_path>
+- data modify entity <target: entity> <targetPath: nbt_path> prepend string block <source: block_pos> <sourcePath: nbt_path> <start: integer> <end: integer>
+- data modify entity <target: entity> <targetPath: nbt_path> prepend string entity <source: entity> <sourcePath: nbt_path> <start: integer> <end: integer>
+- data modify entity <target: entity> <targetPath: nbt_path> prepend string storage <source: resource_location> <sourcePath: nbt_path> <start: integer> <end: integer>
+- data modify entity <target: entity> <targetPath: nbt_path> prepend value <value: nbt_tag>
+- data modify entity <target: entity> <targetPath: nbt_path> set compute block <computePos: block_pos> float <provider: context_float_provider>
+- data modify entity <target: entity> <targetPath: nbt_path> set compute block <computePos: block_pos> integer <provider: context_int_provider>
+- data modify entity <target: entity> <targetPath: nbt_path> set compute default float <provider: context_float_provider>
+- data modify entity <target: entity> <targetPath: nbt_path> set compute default integer <provider: context_int_provider>
+- data modify entity <target: entity> <targetPath: nbt_path> set compute entity <computeTarget: entity> float <provider: context_float_provider>
+- data modify entity <target: entity> <targetPath: nbt_path> set compute entity <computeTarget: entity> integer <provider: context_int_provider>
+- data modify entity <target: entity> <targetPath: nbt_path> set from block <source: block_pos> <sourcePath: nbt_path>
+- data modify entity <target: entity> <targetPath: nbt_path> set from entity <source: entity> <sourcePath: nbt_path>
+- data modify entity <target: entity> <targetPath: nbt_path> set from storage <source: resource_location> <sourcePath: nbt_path>
+- data modify entity <target: entity> <targetPath: nbt_path> set string block <source: block_pos> <sourcePath: nbt_path> <start: integer> <end: integer>
+- data modify entity <target: entity> <targetPath: nbt_path> set string entity <source: entity> <sourcePath: nbt_path> <start: integer> <end: integer>
+- data modify entity <target: entity> <targetPath: nbt_path> set string storage <source: resource_location> <sourcePath: nbt_path> <start: integer> <end: integer>
+- data modify entity <target: entity> <targetPath: nbt_path> set value <value: nbt_tag>
++ data modify entity <target> <targetPath> append compute block <computePos> float <provider>
++ data modify entity <target> <targetPath> append compute block <computePos> integer <provider>
++ data modify entity <target> <targetPath> append compute default float <provider>
++ data modify entity <target> <targetPath> append compute default integer <provider>
++ data modify entity <target> <targetPath> append compute entity <computeTarget> float <provider>
++ data modify entity <target> <targetPath> append compute entity <computeTarget> integer <provider>
++ data modify entity <target> <targetPath> append from block <source> <sourcePath>
++ data modify entity <target> <targetPath> append from entity <source> <sourcePath>
++ data modify entity <target> <targetPath> append from storage <source> <sourcePath>
++ data modify entity <target> <targetPath> append string block <source> <sourcePath> <start> <end>
++ data modify entity <target> <targetPath> append string entity <source> <sourcePath> <start> <end>
++ data modify entity <target> <targetPath> append string storage <source> <sourcePath> <start> <end>
++ data modify entity <target> <targetPath> append value <value>
++ data modify entity <target> <targetPath> insert <index> compute block <computePos> float <provider>
++ data modify entity <target> <targetPath> insert <index> compute block <computePos> integer <provider>
++ data modify entity <target> <targetPath> insert <index> compute default float <provider>
++ data modify entity <target> <targetPath> insert <index> compute default integer <provider>
++ data modify entity <target> <targetPath> insert <index> compute entity <computeTarget> float <provider>
++ data modify entity <target> <targetPath> insert <index> compute entity <computeTarget> integer <provider>
++ data modify entity <target> <targetPath> insert <index> from block <source> <sourcePath>
++ data modify entity <target> <targetPath> insert <index> from entity <source> <sourcePath>
++ data modify entity <target> <targetPath> insert <index> from storage <source> <sourcePath>
++ data modify entity <target> <targetPath> insert <index> string block <source> <sourcePath> <start> <end>
++ data modify entity <target> <targetPath> insert <index> string entity <source> <sourcePath> <start> <end>
++ data modify entity <target> <targetPath> insert <index> string storage <source> <sourcePath> <start> <end>
++ data modify entity <target> <targetPath> insert <index> value <value>
++ data modify entity <target> <targetPath> merge compute block <computePos> float <provider>
++ data modify entity <target> <targetPath> merge compute block <computePos> integer <provider>
++ data modify entity <target> <targetPath> merge compute default float <provider>
++ data modify entity <target> <targetPath> merge compute default integer <provider>
++ data modify entity <target> <targetPath> merge compute entity <computeTarget> float <provider>
++ data modify entity <target> <targetPath> merge compute entity <computeTarget> integer <provider>
++ data modify entity <target> <targetPath> merge from block <source> <sourcePath>
++ data modify entity <target> <targetPath> merge from entity <source> <sourcePath>
++ data modify entity <target> <targetPath> merge from storage <source> <sourcePath>
++ data modify entity <target> <targetPath> merge string block <source> <sourcePath> <start> <end>
++ data modify entity <target> <targetPath> merge string entity <source> <sourcePath> <start> <end>
++ data modify entity <target> <targetPath> merge string storage <source> <sourcePath> <start> <end>
++ data modify entity <target> <targetPath> merge value <value>
++ data modify entity <target> <targetPath> prepend compute block <computePos> float <provider>
++ data modify entity <target> <targetPath> prepend compute block <computePos> integer <provider>
++ data modify entity <target> <targetPath> prepend compute default float <provider>
++ data modify entity <target> <targetPath> prepend compute default integer <provider>
++ data modify entity <target> <targetPath> prepend compute entity <computeTarget> float <provider>
++ data modify entity <target> <targetPath> prepend compute entity <computeTarget> integer <provider>
++ data modify entity <target> <targetPath> prepend from block <source> <sourcePath>
++ data modify entity <target> <targetPath> prepend from entity <source> <sourcePath>
++ data modify entity <target> <targetPath> prepend from storage <source> <sourcePath>
++ data modify entity <target> <targetPath> prepend string block <source> <sourcePath> <start> <end>
++ data modify entity <target> <targetPath> prepend string entity <source> <sourcePath> <start> <end>
++ data modify entity <target> <targetPath> prepend string storage <source> <sourcePath> <start> <end>
++ data modify entity <target> <targetPath> prepend value <value>
++ data modify entity <target> <targetPath> set compute block <computePos> float <provider>
++ data modify entity <target> <targetPath> set compute block <computePos> integer <provider>
++ data modify entity <target> <targetPath> set compute default float <provider>
++ data modify entity <target> <targetPath> set compute default integer <provider>
++ data modify entity <target> <targetPath> set compute entity <computeTarget> float <provider>
++ data modify entity <target> <targetPath> set compute entity <computeTarget> integer <provider>
++ data modify entity <target> <targetPath> set from block <source> <sourcePath>
++ data modify entity <target> <targetPath> set from entity <source> <sourcePath>
++ data modify entity <target> <targetPath> set from storage <source> <sourcePath>
++ data modify entity <target> <targetPath> set string block <source> <sourcePath> <start> <end>
++ data modify entity <target> <targetPath> set string entity <source> <sourcePath> <start> <end>
++ data modify entity <target> <targetPath> set string storage <source> <sourcePath> <start> <end>
++ data modify entity <target> <targetPath> set value <value>
+- data modify storage <target: resource_location> <targetPath: nbt_path> append compute block <computePos: block_pos> float <provider: context_float_provider>
+- data modify storage <target: resource_location> <targetPath: nbt_path> append compute block <computePos: block_pos> integer <provider: context_int_provider>
+- data modify storage <target: resource_location> <targetPath: nbt_path> append compute default float <provider: context_float_provider>
+- data modify storage <target: resource_location> <targetPath: nbt_path> append compute default integer <provider: context_int_provider>
+- data modify storage <target: resource_location> <targetPath: nbt_path> append compute entity <computeTarget: entity> float <provider: context_float_provider>
+- data modify storage <target: resource_location> <targetPath: nbt_path> append compute entity <computeTarget: entity> integer <provider: context_int_provider>
+- data modify storage <target: resource_location> <targetPath: nbt_path> append from block <source: block_pos> <sourcePath: nbt_path>
+- data modify storage <target: resource_location> <targetPath: nbt_path> append from entity <source: entity> <sourcePath: nbt_path>
+- data modify storage <target: resource_location> <targetPath: nbt_path> append from storage <source: resource_location> <sourcePath: nbt_path>
+- data modify storage <target: resource_location> <targetPath: nbt_path> append string block <source: block_pos> <sourcePath: nbt_path> <start: integer> <end: integer>
+- data modify storage <target: resource_location> <targetPath: nbt_path> append string entity <source: entity> <sourcePath: nbt_path> <start: integer> <end: integer>
+- data modify storage <target: resource_location> <targetPath: nbt_path> append string storage <source: resource_location> <sourcePath: nbt_path> <start: integer> <end: integer>
+- data modify storage <target: resource_location> <targetPath: nbt_path> append value <value: nbt_tag>
+- data modify storage <target: resource_location> <targetPath: nbt_path> insert <index: integer> compute block <computePos: block_pos> float <provider: context_float_provider>
+- data modify storage <target: resource_location> <targetPath: nbt_path> insert <index: integer> compute block <computePos: block_pos> integer <provider: context_int_provider>
+- data modify storage <target: resource_location> <targetPath: nbt_path> insert <index: integer> compute default float <provider: context_float_provider>
+- data modify storage <target: resource_location> <targetPath: nbt_path> insert <index: integer> compute default integer <provider: context_int_provider>
+- data modify storage <target: resource_location> <targetPath: nbt_path> insert <index: integer> compute entity <computeTarget: entity> float <provider: context_float_provider>
+- data modify storage <target: resource_location> <targetPath: nbt_path> insert <index: integer> compute entity <computeTarget: entity> integer <provider: context_int_provider>
+- data modify storage <target: resource_location> <targetPath: nbt_path> insert <index: integer> from block <source: block_pos> <sourcePath: nbt_path>
+- data modify storage <target: resource_location> <targetPath: nbt_path> insert <index: integer> from entity <source: entity> <sourcePath: nbt_path>
+- data modify storage <target: resource_location> <targetPath: nbt_path> insert <index: integer> from storage <source: resource_location> <sourcePath: nbt_path>
+- data modify storage <target: resource_location> <targetPath: nbt_path> insert <index: integer> string block <source: block_pos> <sourcePath: nbt_path> <start: integer> <end: integer>
+- data modify storage <target: resource_location> <targetPath: nbt_path> insert <index: integer> string entity <source: entity> <sourcePath: nbt_path> <start: integer> <end: integer>
+- data modify storage <target: resource_location> <targetPath: nbt_path> insert <index: integer> string storage <source: resource_location> <sourcePath: nbt_path> <start: integer> <end: integer>
+- data modify storage <target: resource_location> <targetPath: nbt_path> insert <index: integer> value <value: nbt_tag>
+- data modify storage <target: resource_location> <targetPath: nbt_path> merge compute block <computePos: block_pos> float <provider: context_float_provider>
+- data modify storage <target: resource_location> <targetPath: nbt_path> merge compute block <computePos: block_pos> integer <provider: context_int_provider>
+- data modify storage <target: resource_location> <targetPath: nbt_path> merge compute default float <provider: context_float_provider>
+- data modify storage <target: resource_location> <targetPath: nbt_path> merge compute default integer <provider: context_int_provider>
+- data modify storage <target: resource_location> <targetPath: nbt_path> merge compute entity <computeTarget: entity> float <provider: context_float_provider>
+- data modify storage <target: resource_location> <targetPath: nbt_path> merge compute entity <computeTarget: entity> integer <provider: context_int_provider>
+- data modify storage <target: resource_location> <targetPath: nbt_path> merge from block <source: block_pos> <sourcePath: nbt_path>
+- data modify storage <target: resource_location> <targetPath: nbt_path> merge from entity <source: entity> <sourcePath: nbt_path>
+- data modify storage <target: resource_location> <targetPath: nbt_path> merge from storage <source: resource_location> <sourcePath: nbt_path>
+- data modify storage <target: resource_location> <targetPath: nbt_path> merge string block <source: block_pos> <sourcePath: nbt_path> <start: integer> <end: integer>
+- data modify storage <target: resource_location> <targetPath: nbt_path> merge string entity <source: entity> <sourcePath: nbt_path> <start: integer> <end: integer>
+- data modify storage <target: resource_location> <targetPath: nbt_path> merge string storage <source: resource_location> <sourcePath: nbt_path> <start: integer> <end: integer>
+- data modify storage <target: resource_location> <targetPath: nbt_path> merge value <value: nbt_tag>
+- data modify storage <target: resource_location> <targetPath: nbt_path> prepend compute block <computePos: block_pos> float <provider: context_float_provider>
+- data modify storage <target: resource_location> <targetPath: nbt_path> prepend compute block <computePos: block_pos> integer <provider: context_int_provider>
+- data modify storage <target: resource_location> <targetPath: nbt_path> prepend compute default float <provider: context_float_provider>
+- data modify storage <target: resource_location> <targetPath: nbt_path> prepend compute default integer <provider: context_int_provider>
+- data modify storage <target: resource_location> <targetPath: nbt_path> prepend compute entity <computeTarget: entity> float <provider: context_float_provider>
+- data modify storage <target: resource_location> <targetPath: nbt_path> prepend compute entity <computeTarget: entity> integer <provider: context_int_provider>
+- data modify storage <target: resource_location> <targetPath: nbt_path> prepend from block <source: block_pos> <sourcePath: nbt_path>
+- data modify storage <target: resource_location> <targetPath: nbt_path> prepend from entity <source: entity> <sourcePath: nbt_path>
+- data modify storage <target: resource_location> <targetPath: nbt_path> prepend from storage <source: resource_location> <sourcePath: nbt_path>
+- data modify storage <target: resource_location> <targetPath: nbt_path> prepend string block <source: block_pos> <sourcePath: nbt_path> <start: integer> <end: integer>
+- data modify storage <target: resource_location> <targetPath: nbt_path> prepend string entity <source: entity> <sourcePath: nbt_path> <start: integer> <end: integer>
+- data modify storage <target: resource_location> <targetPath: nbt_path> prepend string storage <source: resource_location> <sourcePath: nbt_path> <start: integer> <end: integer>
+- data modify storage <target: resource_location> <targetPath: nbt_path> prepend value <value: nbt_tag>
+- data modify storage <target: resource_location> <targetPath: nbt_path> set compute block <computePos: block_pos> float <provider: context_float_provider>
+- data modify storage <target: resource_location> <targetPath: nbt_path> set compute block <computePos: block_pos> integer <provider: context_int_provider>
+- data modify storage <target: resource_location> <targetPath: nbt_path> set compute default float <provider: context_float_provider>
+- data modify storage <target: resource_location> <targetPath: nbt_path> set compute default integer <provider: context_int_provider>
+- data modify storage <target: resource_location> <targetPath: nbt_path> set compute entity <computeTarget: entity> float <provider: context_float_provider>
+- data modify storage <target: resource_location> <targetPath: nbt_path> set compute entity <computeTarget: entity> integer <provider: context_int_provider>
+- data modify storage <target: resource_location> <targetPath: nbt_path> set from block <source: block_pos> <sourcePath: nbt_path>
+- data modify storage <target: resource_location> <targetPath: nbt_path> set from entity <source: entity> <sourcePath: nbt_path>
+- data modify storage <target: resource_location> <targetPath: nbt_path> set from storage <source: resource_location> <sourcePath: nbt_path>
+- data modify storage <target: resource_location> <targetPath: nbt_path> set string block <source: block_pos> <sourcePath: nbt_path> <start: integer> <end: integer>
+- data modify storage <target: resource_location> <targetPath: nbt_path> set string entity <source: entity> <sourcePath: nbt_path> <start: integer> <end: integer>
+- data modify storage <target: resource_location> <targetPath: nbt_path> set string storage <source: resource_location> <sourcePath: nbt_path> <start: integer> <end: integer>
+- data modify storage <target: resource_location> <targetPath: nbt_path> set value <value: nbt_tag>
++ data modify storage <target> <targetPath> append compute block <computePos> float <provider>
++ data modify storage <target> <targetPath> append compute block <computePos> integer <provider>
++ data modify storage <target> <targetPath> append compute default float <provider>
++ data modify storage <target> <targetPath> append compute default integer <provider>
++ data modify storage <target> <targetPath> append compute entity <computeTarget> float <provider>
++ data modify storage <target> <targetPath> append compute entity <computeTarget> integer <provider>
++ data modify storage <target> <targetPath> append from block <source> <sourcePath>
++ data modify storage <target> <targetPath> append from entity <source> <sourcePath>
++ data modify storage <target> <targetPath> append from storage <source> <sourcePath>
++ data modify storage <target> <targetPath> append string block <source> <sourcePath> <start> <end>
++ data modify storage <target> <targetPath> append string entity <source> <sourcePath> <start> <end>
++ data modify storage <target> <targetPath> append string storage <source> <sourcePath> <start> <end>
++ data modify storage <target> <targetPath> append value <value>
++ data modify storage <target> <targetPath> insert <index> compute block <computePos> float <provider>
++ data modify storage <target> <targetPath> insert <index> compute block <computePos> integer <provider>
++ data modify storage <target> <targetPath> insert <index> compute default float <provider>
++ data modify storage <target> <targetPath> insert <index> compute default integer <provider>
++ data modify storage <target> <targetPath> insert <index> compute entity <computeTarget> float <provider>
++ data modify storage <target> <targetPath> insert <index> compute entity <computeTarget> integer <provider>
++ data modify storage <target> <targetPath> insert <index> from block <source> <sourcePath>
++ data modify storage <target> <targetPath> insert <index> from entity <source> <sourcePath>
++ data modify storage <target> <targetPath> insert <index> from storage <source> <sourcePath>
++ data modify storage <target> <targetPath> insert <index> string block <source> <sourcePath> <start> <end>
++ data modify storage <target> <targetPath> insert <index> string entity <source> <sourcePath> <start> <end>
++ data modify storage <target> <targetPath> insert <index> string storage <source> <sourcePath> <start> <end>
++ data modify storage <target> <targetPath> insert <index> value <value>
++ data modify storage <target> <targetPath> merge compute block <computePos> float <provider>
++ data modify storage <target> <targetPath> merge compute block <computePos> integer <provider>
++ data modify storage <target> <targetPath> merge compute default float <provider>
++ data modify storage <target> <targetPath> merge compute default integer <provider>
++ data modify storage <target> <targetPath> merge compute entity <computeTarget> float <provider>
++ data modify storage <target> <targetPath> merge compute entity <computeTarget> integer <provider>
++ data modify storage <target> <targetPath> merge from block <source> <sourcePath>
++ data modify storage <target> <targetPath> merge from entity <source> <sourcePath>
++ data modify storage <target> <targetPath> merge from storage <source> <sourcePath>
++ data modify storage <target> <targetPath> merge string block <source> <sourcePath> <start> <end>
++ data modify storage <target> <targetPath> merge string entity <source> <sourcePath> <start> <end>
++ data modify storage <target> <targetPath> merge string storage <source> <sourcePath> <start> <end>
++ data modify storage <target> <targetPath> merge value <value>
++ data modify storage <target> <targetPath> prepend compute block <computePos> float <provider>
++ data modify storage <target> <targetPath> prepend compute block <computePos> integer <provider>
++ data modify storage <target> <targetPath> prepend compute default float <provider>
++ data modify storage <target> <targetPath> prepend compute default integer <provider>
++ data modify storage <target> <targetPath> prepend compute entity <computeTarget> float <provider>
++ data modify storage <target> <targetPath> prepend compute entity <computeTarget> integer <provider>
++ data modify storage <target> <targetPath> prepend from block <source> <sourcePath>
++ data modify storage <target> <targetPath> prepend from entity <source> <sourcePath>
++ data modify storage <target> <targetPath> prepend from storage <source> <sourcePath>
++ data modify storage <target> <targetPath> prepend string block <source> <sourcePath> <start> <end>
++ data modify storage <target> <targetPath> prepend string entity <source> <sourcePath> <start> <end>
++ data modify storage <target> <targetPath> prepend string storage <source> <sourcePath> <start> <end>
++ data modify storage <target> <targetPath> prepend value <value>
++ data modify storage <target> <targetPath> set compute block <computePos> float <provider>
++ data modify storage <target> <targetPath> set compute block <computePos> integer <provider>
++ data modify storage <target> <targetPath> set compute default float <provider>
++ data modify storage <target> <targetPath> set compute default integer <provider>
++ data modify storage <target> <targetPath> set compute entity <computeTarget> float <provider>
++ data modify storage <target> <targetPath> set compute entity <computeTarget> integer <provider>
++ data modify storage <target> <targetPath> set from block <source> <sourcePath>
++ data modify storage <target> <targetPath> set from entity <source> <sourcePath>
++ data modify storage <target> <targetPath> set from storage <source> <sourcePath>
++ data modify storage <target> <targetPath> set string block <source> <sourcePath> <start> <end>
++ data modify storage <target> <targetPath> set string entity <source> <sourcePath> <start> <end>
++ data modify storage <target> <targetPath> set string storage <source> <sourcePath> <start> <end>
++ data modify storage <target> <targetPath> set value <value>
+- data remove block <target: block_pos> <path: nbt_path>
++ data remove block <target> <path>
+- data remove entity <target: entity> <path: nbt_path>
++ data remove entity <target> <path>
+- data remove storage <target: resource_location> <path: nbt_path>
++ data remove storage <target> <path>
+```
+
+</details>
+<details>
+<summary>
+datapack
+</summary>
+
+```diff
+- datapack create <id: string> <description: component>
++ datapack create <id> <description>
+- datapack disable <name: string>
++ datapack disable <name>
+- datapack enable <name: string> after <existing: string>
+- datapack enable <name: string> before <existing: string>
+- datapack enable <name: string> first
+- datapack enable <name: string> last
++ datapack enable <name> after <existing>
++ datapack enable <name> before <existing>
++ datapack enable <name> first
++ datapack enable <name> last
+```
+
+</details>
+<details>
+<summary>
+debug
+</summary>
+
+```diff
+- debug function <name: function>
++ debug function <name>
+```
+
+</details>
+<details>
+<summary>
+defaultgamemode
+</summary>
+
+```diff
+- defaultgamemode <gamemode: gamemode>
++ defaultgamemode <gamemode>
+```
+
+</details>
+<details>
+<summary>
+deop
+</summary>
+
+```diff
+- deop <targets: game_profile>
++ deop <targets>
+```
+
+</details>
+<details>
+<summary>
+dialog
+</summary>
+
+```diff
+- dialog clear <targets: entity>
++ dialog clear <targets>
+- dialog show <targets: entity> <dialog: dialog>
++ dialog show <targets> <dialog>
+```
+
+</details>
+<details>
+<summary>
+effect
+</summary>
+
+```diff
+- effect clear <targets: entity> <effect: resource_or_tag>
++ effect clear <targets> <effect>
+- effect give <targets: entity> <effect: resource_or_tag> <seconds: integer> <amplifier: integer> <hideParticles: bool>
+- effect give <targets: entity> <effect: resource_or_tag> infinite <amplifier: integer> <hideParticles: bool>
++ effect give <targets> <effect> <seconds> <amplifier> <hideParticles>
++ effect give <targets> <effect> infinite <amplifier> <hideParticles>
+```
+
+</details>
+<details>
+<summary>
+enchant
+</summary>
+
+```diff
+- enchant <targets: entity> <enchantment: resource> <level: integer>
++ enchant <targets> <enchantment> <level>
+```
+
+</details>
+<details>
+<summary>
+execute
+</summary>
+
+```diff
+- execute align <axes: swizzle>
++ execute align <axes>
+- execute anchored <anchor: entity_anchor>
++ execute anchored <anchor>
+- execute as <targets: entity>
++ execute as <targets>
+- execute at <targets: entity>
++ execute at <targets>
+- execute facing <pos: vec3>
++ execute facing <pos>
+- execute facing entity <targets: entity> <anchor: entity_anchor>
++ execute facing entity <targets> <anchor>
+- execute if biome <pos: block_pos> <biome: resource_or_tag>
++ execute if biome <pos> <biome>
+- execute if block <pos: block_pos> <block: block_predicate>
++ execute if block <pos> <block>
+- execute if blocks <start: block_pos> <end: block_pos> <destination: block_pos> all
+- execute if blocks <start: block_pos> <end: block_pos> <destination: block_pos> masked
++ execute if blocks <start> <end> <destination> all
++ execute if blocks <start> <end> <destination> masked
+- execute if data block <source: block_pos> <path: nbt_path>
++ execute if data block <source> <path>
+- execute if data entity <source: entity> <path: nbt_path>
++ execute if data entity <source> <path>
+- execute if data storage <source: resource_location> <path: nbt_path>
++ execute if data storage <source> <path>
+- execute if dimension <dimension: dimension>
++ execute if dimension <dimension>
+- execute if entity <entities: entity>
++ execute if entity <entities>
+- execute if function <name: function>
++ execute if function <name>
+- execute if items block <source: block_pos> <slots: slot_source> <item_predicate: item_predicate>
++ execute if items block <source> <slots> <item_predicate>
+- execute if items entity <source: entity> <slots: slot_source> <item_predicate: item_predicate>
++ execute if items entity <source> <slots> <item_predicate>
+- execute if loaded <pos: block_pos>
++ execute if loaded <pos>
+- execute if predicate <predicate: loot_predicate>
++ execute if predicate <predicate>
+- execute if score <target: score_holder> <targetObjective: objective> < <source: score_holder> <sourceObjective: objective>
+- execute if score <target: score_holder> <targetObjective: objective> <= <source: score_holder> <sourceObjective: objective>
+- execute if score <target: score_holder> <targetObjective: objective> = <source: score_holder> <sourceObjective: objective>
+- execute if score <target: score_holder> <targetObjective: objective> > <source: score_holder> <sourceObjective: objective>
+- execute if score <target: score_holder> <targetObjective: objective> >= <source: score_holder> <sourceObjective: objective>
+- execute if score <target: score_holder> <targetObjective: objective> matches <range: int_range>
++ execute if score <target> <targetObjective> < <source> <sourceObjective>
++ execute if score <target> <targetObjective> <= <source> <sourceObjective>
++ execute if score <target> <targetObjective> = <source> <sourceObjective>
++ execute if score <target> <targetObjective> > <source> <sourceObjective>
++ execute if score <target> <targetObjective> >= <source> <sourceObjective>
++ execute if score <target> <targetObjective> matches <range>
+- execute if slots block <source: block_pos> <slots: slot_source>
++ execute if slots block <source> <slots>
+- execute if slots entity <source: entity> <slots: slot_source>
++ execute if slots entity <source> <slots>
+- execute if stopwatch <id: resource_location> <range: float_range>
++ execute if stopwatch <id> <range>
+- execute in <dimension: dimension>
++ execute in <dimension>
+- execute positioned <pos: vec3>
++ execute positioned <pos>
+- execute positioned as <targets: entity>
++ execute positioned as <targets>
+- execute positioned over <heightmap: heightmap>
++ execute positioned over <heightmap>
+- execute rotated <rot: rotation>
++ execute rotated <rot>
+- execute rotated as <targets: entity>
++ execute rotated as <targets>
+- execute store result block <target: block_pos> <path: nbt_path> byte <scale: double>
+- execute store result block <target: block_pos> <path: nbt_path> double <scale: double>
+- execute store result block <target: block_pos> <path: nbt_path> float <scale: double>
+- execute store result block <target: block_pos> <path: nbt_path> int <scale: double>
+- execute store result block <target: block_pos> <path: nbt_path> long <scale: double>
+- execute store result block <target: block_pos> <path: nbt_path> short <scale: double>
++ execute store result block <target> <path> byte <scale>
++ execute store result block <target> <path> double <scale>
++ execute store result block <target> <path> float <scale>
++ execute store result block <target> <path> int <scale>
++ execute store result block <target> <path> long <scale>
++ execute store result block <target> <path> short <scale>
+- execute store result bossbar <id: resource_location> max
+- execute store result bossbar <id: resource_location> value
++ execute store result bossbar <id> max
++ execute store result bossbar <id> value
+- execute store result entity <target: entity> <path: nbt_path> byte <scale: double>
+- execute store result entity <target: entity> <path: nbt_path> double <scale: double>
+- execute store result entity <target: entity> <path: nbt_path> float <scale: double>
+- execute store result entity <target: entity> <path: nbt_path> int <scale: double>
+- execute store result entity <target: entity> <path: nbt_path> long <scale: double>
+- execute store result entity <target: entity> <path: nbt_path> short <scale: double>
++ execute store result entity <target> <path> byte <scale>
++ execute store result entity <target> <path> double <scale>
++ execute store result entity <target> <path> float <scale>
++ execute store result entity <target> <path> int <scale>
++ execute store result entity <target> <path> long <scale>
++ execute store result entity <target> <path> short <scale>
+- execute store result score <targets: score_holder> <objective: objective>
++ execute store result score <targets> <objective>
+- execute store result storage <target: resource_location> <path: nbt_path> byte <scale: double>
+- execute store result storage <target: resource_location> <path: nbt_path> double <scale: double>
+- execute store result storage <target: resource_location> <path: nbt_path> float <scale: double>
+- execute store result storage <target: resource_location> <path: nbt_path> int <scale: double>
+- execute store result storage <target: resource_location> <path: nbt_path> long <scale: double>
+- execute store result storage <target: resource_location> <path: nbt_path> short <scale: double>
++ execute store result storage <target> <path> byte <scale>
++ execute store result storage <target> <path> double <scale>
++ execute store result storage <target> <path> float <scale>
++ execute store result storage <target> <path> int <scale>
++ execute store result storage <target> <path> long <scale>
++ execute store result storage <target> <path> short <scale>
+- execute store success block <target: block_pos> <path: nbt_path> byte <scale: double>
+- execute store success block <target: block_pos> <path: nbt_path> double <scale: double>
+- execute store success block <target: block_pos> <path: nbt_path> float <scale: double>
+- execute store success block <target: block_pos> <path: nbt_path> int <scale: double>
+- execute store success block <target: block_pos> <path: nbt_path> long <scale: double>
+- execute store success block <target: block_pos> <path: nbt_path> short <scale: double>
++ execute store success block <target> <path> byte <scale>
++ execute store success block <target> <path> double <scale>
++ execute store success block <target> <path> float <scale>
++ execute store success block <target> <path> int <scale>
++ execute store success block <target> <path> long <scale>
++ execute store success block <target> <path> short <scale>
+- execute store success bossbar <id: resource_location> max
+- execute store success bossbar <id: resource_location> value
++ execute store success bossbar <id> max
++ execute store success bossbar <id> value
+- execute store success entity <target: entity> <path: nbt_path> byte <scale: double>
+- execute store success entity <target: entity> <path: nbt_path> double <scale: double>
+- execute store success entity <target: entity> <path: nbt_path> float <scale: double>
+- execute store success entity <target: entity> <path: nbt_path> int <scale: double>
+- execute store success entity <target: entity> <path: nbt_path> long <scale: double>
+- execute store success entity <target: entity> <path: nbt_path> short <scale: double>
++ execute store success entity <target> <path> byte <scale>
++ execute store success entity <target> <path> double <scale>
++ execute store success entity <target> <path> float <scale>
++ execute store success entity <target> <path> int <scale>
++ execute store success entity <target> <path> long <scale>
++ execute store success entity <target> <path> short <scale>
+- execute store success score <targets: score_holder> <objective: objective>
++ execute store success score <targets> <objective>
+- execute store success storage <target: resource_location> <path: nbt_path> byte <scale: double>
+- execute store success storage <target: resource_location> <path: nbt_path> double <scale: double>
+- execute store success storage <target: resource_location> <path: nbt_path> float <scale: double>
+- execute store success storage <target: resource_location> <path: nbt_path> int <scale: double>
+- execute store success storage <target: resource_location> <path: nbt_path> long <scale: double>
+- execute store success storage <target: resource_location> <path: nbt_path> short <scale: double>
++ execute store success storage <target> <path> byte <scale>
++ execute store success storage <target> <path> double <scale>
++ execute store success storage <target> <path> float <scale>
++ execute store success storage <target> <path> int <scale>
++ execute store success storage <target> <path> long <scale>
++ execute store success storage <target> <path> short <scale>
+- execute summon <entity: resource>
++ execute summon <entity>
+- execute unless biome <pos: block_pos> <biome: resource_or_tag>
++ execute unless biome <pos> <biome>
+- execute unless block <pos: block_pos> <block: block_predicate>
++ execute unless block <pos> <block>
+- execute unless blocks <start: block_pos> <end: block_pos> <destination: block_pos> all
+- execute unless blocks <start: block_pos> <end: block_pos> <destination: block_pos> masked
++ execute unless blocks <start> <end> <destination> all
++ execute unless blocks <start> <end> <destination> masked
+- execute unless data block <source: block_pos> <path: nbt_path>
++ execute unless data block <source> <path>
+- execute unless data entity <source: entity> <path: nbt_path>
++ execute unless data entity <source> <path>
+- execute unless data storage <source: resource_location> <path: nbt_path>
++ execute unless data storage <source> <path>
+- execute unless dimension <dimension: dimension>
++ execute unless dimension <dimension>
+- execute unless entity <entities: entity>
++ execute unless entity <entities>
+- execute unless function <name: function>
++ execute unless function <name>
+- execute unless items block <source: block_pos> <slots: slot_source> <item_predicate: item_predicate>
++ execute unless items block <source> <slots> <item_predicate>
+- execute unless items entity <source: entity> <slots: slot_source> <item_predicate: item_predicate>
++ execute unless items entity <source> <slots> <item_predicate>
+- execute unless loaded <pos: block_pos>
++ execute unless loaded <pos>
+- execute unless predicate <predicate: loot_predicate>
++ execute unless predicate <predicate>
+- execute unless score <target: score_holder> <targetObjective: objective> < <source: score_holder> <sourceObjective: objective>
+- execute unless score <target: score_holder> <targetObjective: objective> <= <source: score_holder> <sourceObjective: objective>
+- execute unless score <target: score_holder> <targetObjective: objective> = <source: score_holder> <sourceObjective: objective>
+- execute unless score <target: score_holder> <targetObjective: objective> > <source: score_holder> <sourceObjective: objective>
+- execute unless score <target: score_holder> <targetObjective: objective> >= <source: score_holder> <sourceObjective: objective>
+- execute unless score <target: score_holder> <targetObjective: objective> matches <range: int_range>
++ execute unless score <target> <targetObjective> < <source> <sourceObjective>
++ execute unless score <target> <targetObjective> <= <source> <sourceObjective>
++ execute unless score <target> <targetObjective> = <source> <sourceObjective>
++ execute unless score <target> <targetObjective> > <source> <sourceObjective>
++ execute unless score <target> <targetObjective> >= <source> <sourceObjective>
++ execute unless score <target> <targetObjective> matches <range>
+- execute unless slots block <source: block_pos> <slots: slot_source>
++ execute unless slots block <source> <slots>
+- execute unless slots entity <source: entity> <slots: slot_source>
++ execute unless slots entity <source> <slots>
+- execute unless stopwatch <id: resource_location> <range: float_range>
++ execute unless stopwatch <id> <range>
+```
+
+</details>
+<details>
+<summary>
+experience
+</summary>
+
+```diff
+- experience add <target: entity> <amount: integer> levels
+- experience add <target: entity> <amount: integer> points
++ experience add <target> <amount> levels
++ experience add <target> <amount> points
+- experience query <target: entity> levels
+- experience query <target: entity> points
++ experience query <target> levels
++ experience query <target> points
+- experience set <target: entity> <amount: integer> levels
+- experience set <target: entity> <amount: integer> points
++ experience set <target> <amount> levels
++ experience set <target> <amount> points
+```
+
+</details>
+<details>
+<summary>
+fetchprofile
+</summary>
+
+```diff
+- fetchprofile entity <entity: entity>
++ fetchprofile entity <entity>
+- fetchprofile id <id: uuid>
++ fetchprofile id <id>
+- fetchprofile name <name: string>
++ fetchprofile name <name>
+```
+
+</details>
+<details>
+<summary>
+fill
+</summary>
+
+```diff
+- fill <from: block_pos> <to: block_pos> <block: block_state> destroy
+- fill <from: block_pos> <to: block_pos> <block: block_state> hollow
+- fill <from: block_pos> <to: block_pos> <block: block_state> keep
+- fill <from: block_pos> <to: block_pos> <block: block_state> outline
+- fill <from: block_pos> <to: block_pos> <block: block_state> replace <filter: block_predicate> destroy
+- fill <from: block_pos> <to: block_pos> <block: block_state> replace <filter: block_predicate> hollow
+- fill <from: block_pos> <to: block_pos> <block: block_state> replace <filter: block_predicate> outline
+- fill <from: block_pos> <to: block_pos> <block: block_state> replace <filter: block_predicate> strict
+- fill <from: block_pos> <to: block_pos> <block: block_state> strict
++ fill <from> <to> <block> destroy
++ fill <from> <to> <block> hollow
++ fill <from> <to> <block> keep
++ fill <from> <to> <block> outline
++ fill <from> <to> <block> replace <filter> destroy
++ fill <from> <to> <block> replace <filter> hollow
++ fill <from> <to> <block> replace <filter> outline
++ fill <from> <to> <block> replace <filter> strict
++ fill <from> <to> <block> strict
+```
+
+</details>
+<details>
+<summary>
+fillbiome
+</summary>
+
+```diff
+- fillbiome <from: block_pos> <to: block_pos> <biome: resource> replace <filter: resource_or_tag>
++ fillbiome <from> <to> <biome> replace <filter>
+```
+
+</details>
+<details>
+<summary>
+forceload
+</summary>
+
+```diff
+- forceload add <from: column_pos> <to: column_pos>
++ forceload add <from> <to>
+- forceload query <pos: column_pos>
++ forceload query <pos>
+- forceload remove <from: column_pos> <to: column_pos>
++ forceload remove <from> <to>
+```
+
+</details>
+<details>
+<summary>
+function
+</summary>
+
+```diff
+- function <name: function> <arguments: nbt_compound_tag>
+- function <name: function> with block <source: block_pos> <path: nbt_path>
+- function <name: function> with entity <source: entity> <path: nbt_path>
+- function <name: function> with storage <source: resource_location> <path: nbt_path>
++ function <name> <arguments>
++ function <name> with block <source> <path>
++ function <name> with entity <source> <path>
++ function <name> with storage <source> <path>
+```
+
+</details>
+<details>
+<summary>
+gamemode
+</summary>
+
+```diff
+- gamemode <gamemode: gamemode> <target: entity>
++ gamemode <gamemode> <target>
+```
+
+</details>
+<details>
+<summary>
+gamerule
+</summary>
+
+```diff
+- gamerule advance_time <value: bool>
++ gamerule advance_time <value>
+- gamerule advance_weather <value: bool>
++ gamerule advance_weather <value>
+- gamerule allow_entering_nether_using_portals <value: bool>
++ gamerule allow_entering_nether_using_portals <value>
+- gamerule block_drops <value: bool>
++ gamerule block_drops <value>
+- gamerule block_explosion_drop_decay <value: bool>
++ gamerule block_explosion_drop_decay <value>
+- gamerule command_block_output <value: bool>
++ gamerule command_block_output <value>
+- gamerule command_blocks_work <value: bool>
++ gamerule command_blocks_work <value>
+- gamerule drowning_damage <value: bool>
++ gamerule drowning_damage <value>
+- gamerule elytra_movement_check <value: bool>
++ gamerule elytra_movement_check <value>
+- gamerule ender_pearls_vanish_on_death <value: bool>
++ gamerule ender_pearls_vanish_on_death <value>
+- gamerule entity_drops <value: bool>
++ gamerule entity_drops <value>
+- gamerule fall_damage <value: bool>
++ gamerule fall_damage <value>
+- gamerule fire_damage <value: bool>
++ gamerule fire_damage <value>
+- gamerule fire_spread_radius_around_player <value: integer>
++ gamerule fire_spread_radius_around_player <value>
+- gamerule forgive_dead_players <value: bool>
++ gamerule forgive_dead_players <value>
+- gamerule freeze_damage <value: bool>
++ gamerule freeze_damage <value>
+- gamerule global_sound_events <value: bool>
++ gamerule global_sound_events <value>
+- gamerule immediate_respawn <value: bool>
++ gamerule immediate_respawn <value>
+- gamerule keep_inventory <value: bool>
++ gamerule keep_inventory <value>
+- gamerule lava_source_conversion <value: bool>
++ gamerule lava_source_conversion <value>
+- gamerule limited_crafting <value: bool>
++ gamerule limited_crafting <value>
+- gamerule locator_bar <value: bool>
++ gamerule locator_bar <value>
+- gamerule log_admin_commands <value: bool>
++ gamerule log_admin_commands <value>
+- gamerule max_block_modifications <value: integer>
++ gamerule max_block_modifications <value>
+- gamerule max_command_forks <value: integer>
++ gamerule max_command_forks <value>
+- gamerule max_command_sequence_length <value: integer>
++ gamerule max_command_sequence_length <value>
+- gamerule max_entity_cramming <value: integer>
++ gamerule max_entity_cramming <value>
+- gamerule max_minecart_speed <value: integer>
++ gamerule max_minecart_speed <value>
+- gamerule max_snow_accumulation_height <value: integer>
++ gamerule max_snow_accumulation_height <value>
+- gamerule minecraft:advance_time <value: bool>
++ gamerule minecraft:advance_time <value>
+- gamerule minecraft:advance_weather <value: bool>
++ gamerule minecraft:advance_weather <value>
+- gamerule minecraft:allow_entering_nether_using_portals <value: bool>
++ gamerule minecraft:allow_entering_nether_using_portals <value>
+- gamerule minecraft:block_drops <value: bool>
++ gamerule minecraft:block_drops <value>
+- gamerule minecraft:block_explosion_drop_decay <value: bool>
++ gamerule minecraft:block_explosion_drop_decay <value>
+- gamerule minecraft:command_block_output <value: bool>
++ gamerule minecraft:command_block_output <value>
+- gamerule minecraft:command_blocks_work <value: bool>
++ gamerule minecraft:command_blocks_work <value>
+- gamerule minecraft:drowning_damage <value: bool>
++ gamerule minecraft:drowning_damage <value>
+- gamerule minecraft:elytra_movement_check <value: bool>
++ gamerule minecraft:elytra_movement_check <value>
+- gamerule minecraft:ender_pearls_vanish_on_death <value: bool>
++ gamerule minecraft:ender_pearls_vanish_on_death <value>
+- gamerule minecraft:entity_drops <value: bool>
++ gamerule minecraft:entity_drops <value>
+- gamerule minecraft:fall_damage <value: bool>
++ gamerule minecraft:fall_damage <value>
+- gamerule minecraft:fire_damage <value: bool>
++ gamerule minecraft:fire_damage <value>
+- gamerule minecraft:fire_spread_radius_around_player <value: integer>
++ gamerule minecraft:fire_spread_radius_around_player <value>
+- gamerule minecraft:forgive_dead_players <value: bool>
++ gamerule minecraft:forgive_dead_players <value>
+- gamerule minecraft:freeze_damage <value: bool>
++ gamerule minecraft:freeze_damage <value>
+- gamerule minecraft:global_sound_events <value: bool>
++ gamerule minecraft:global_sound_events <value>
+- gamerule minecraft:immediate_respawn <value: bool>
++ gamerule minecraft:immediate_respawn <value>
+- gamerule minecraft:keep_inventory <value: bool>
++ gamerule minecraft:keep_inventory <value>
+- gamerule minecraft:lava_source_conversion <value: bool>
++ gamerule minecraft:lava_source_conversion <value>
+- gamerule minecraft:limited_crafting <value: bool>
++ gamerule minecraft:limited_crafting <value>
+- gamerule minecraft:locator_bar <value: bool>
++ gamerule minecraft:locator_bar <value>
+- gamerule minecraft:log_admin_commands <value: bool>
++ gamerule minecraft:log_admin_commands <value>
+- gamerule minecraft:max_block_modifications <value: integer>
++ gamerule minecraft:max_block_modifications <value>
+- gamerule minecraft:max_command_forks <value: integer>
++ gamerule minecraft:max_command_forks <value>
+- gamerule minecraft:max_command_sequence_length <value: integer>
++ gamerule minecraft:max_command_sequence_length <value>
+- gamerule minecraft:max_entity_cramming <value: integer>
++ gamerule minecraft:max_entity_cramming <value>
+- gamerule minecraft:max_minecart_speed <value: integer>
++ gamerule minecraft:max_minecart_speed <value>
+- gamerule minecraft:max_snow_accumulation_height <value: integer>
++ gamerule minecraft:max_snow_accumulation_height <value>
+- gamerule minecraft:mob_drops <value: bool>
++ gamerule minecraft:mob_drops <value>
+- gamerule minecraft:mob_explosion_drop_decay <value: bool>
++ gamerule minecraft:mob_explosion_drop_decay <value>
+- gamerule minecraft:mob_griefing <value: bool>
++ gamerule minecraft:mob_griefing <value>
+- gamerule minecraft:natural_health_regeneration <value: bool>
++ gamerule minecraft:natural_health_regeneration <value>
+- gamerule minecraft:player_movement_check <value: bool>
++ gamerule minecraft:player_movement_check <value>
+- gamerule minecraft:players_nether_portal_creative_delay <value: integer>
++ gamerule minecraft:players_nether_portal_creative_delay <value>
+- gamerule minecraft:players_nether_portal_default_delay <value: integer>
++ gamerule minecraft:players_nether_portal_default_delay <value>
+- gamerule minecraft:players_sleeping_percentage <value: integer>
++ gamerule minecraft:players_sleeping_percentage <value>
+- gamerule minecraft:projectiles_can_break_blocks <value: bool>
++ gamerule minecraft:projectiles_can_break_blocks <value>
+- gamerule minecraft:pvp <value: bool>
++ gamerule minecraft:pvp <value>
+- gamerule minecraft:raids <value: bool>
++ gamerule minecraft:raids <value>
+- gamerule minecraft:random_tick_speed <value: integer>
++ gamerule minecraft:random_tick_speed <value>
+- gamerule minecraft:reduced_debug_info <value: bool>
++ gamerule minecraft:reduced_debug_info <value>
+- gamerule minecraft:respawn_radius <value: integer>
++ gamerule minecraft:respawn_radius <value>
+- gamerule minecraft:send_command_feedback <value: bool>
++ gamerule minecraft:send_command_feedback <value>
+- gamerule minecraft:show_advancement_messages <value: bool>
++ gamerule minecraft:show_advancement_messages <value>
+- gamerule minecraft:show_death_messages <value: bool>
++ gamerule minecraft:show_death_messages <value>
+- gamerule minecraft:spawn_mobs <value: bool>
++ gamerule minecraft:spawn_mobs <value>
+- gamerule minecraft:spawn_monsters <value: bool>
++ gamerule minecraft:spawn_monsters <value>
+- gamerule minecraft:spawn_patrols <value: bool>
++ gamerule minecraft:spawn_patrols <value>
+- gamerule minecraft:spawn_phantoms <value: bool>
++ gamerule minecraft:spawn_phantoms <value>
+- gamerule minecraft:spawn_wandering_traders <value: bool>
++ gamerule minecraft:spawn_wandering_traders <value>
+- gamerule minecraft:spawn_wardens <value: bool>
++ gamerule minecraft:spawn_wardens <value>
+- gamerule minecraft:spawner_blocks_work <value: bool>
++ gamerule minecraft:spawner_blocks_work <value>
+- gamerule minecraft:spectators_generate_chunks <value: bool>
++ gamerule minecraft:spectators_generate_chunks <value>
+- gamerule minecraft:spread_vines <value: bool>
++ gamerule minecraft:spread_vines <value>
+- gamerule minecraft:tnt_explodes <value: bool>
++ gamerule minecraft:tnt_explodes <value>
+- gamerule minecraft:tnt_explosion_drop_decay <value: bool>
++ gamerule minecraft:tnt_explosion_drop_decay <value>
+- gamerule minecraft:universal_anger <value: bool>
++ gamerule minecraft:universal_anger <value>
+- gamerule minecraft:water_source_conversion <value: bool>
++ gamerule minecraft:water_source_conversion <value>
+- gamerule mob_drops <value: bool>
++ gamerule mob_drops <value>
+- gamerule mob_explosion_drop_decay <value: bool>
++ gamerule mob_explosion_drop_decay <value>
+- gamerule mob_griefing <value: bool>
++ gamerule mob_griefing <value>
+- gamerule natural_health_regeneration <value: bool>
++ gamerule natural_health_regeneration <value>
+- gamerule player_movement_check <value: bool>
++ gamerule player_movement_check <value>
+- gamerule players_nether_portal_creative_delay <value: integer>
++ gamerule players_nether_portal_creative_delay <value>
+- gamerule players_nether_portal_default_delay <value: integer>
++ gamerule players_nether_portal_default_delay <value>
+- gamerule players_sleeping_percentage <value: integer>
++ gamerule players_sleeping_percentage <value>
+- gamerule projectiles_can_break_blocks <value: bool>
++ gamerule projectiles_can_break_blocks <value>
+- gamerule pvp <value: bool>
++ gamerule pvp <value>
+- gamerule raids <value: bool>
++ gamerule raids <value>
+- gamerule random_tick_speed <value: integer>
++ gamerule random_tick_speed <value>
+- gamerule reduced_debug_info <value: bool>
++ gamerule reduced_debug_info <value>
+- gamerule respawn_radius <value: integer>
++ gamerule respawn_radius <value>
+- gamerule send_command_feedback <value: bool>
++ gamerule send_command_feedback <value>
+- gamerule show_advancement_messages <value: bool>
++ gamerule show_advancement_messages <value>
+- gamerule show_death_messages <value: bool>
++ gamerule show_death_messages <value>
+- gamerule spawn_mobs <value: bool>
++ gamerule spawn_mobs <value>
+- gamerule spawn_monsters <value: bool>
++ gamerule spawn_monsters <value>
+- gamerule spawn_patrols <value: bool>
++ gamerule spawn_patrols <value>
+- gamerule spawn_phantoms <value: bool>
++ gamerule spawn_phantoms <value>
+- gamerule spawn_wandering_traders <value: bool>
++ gamerule spawn_wandering_traders <value>
+- gamerule spawn_wardens <value: bool>
++ gamerule spawn_wardens <value>
+- gamerule spawner_blocks_work <value: bool>
++ gamerule spawner_blocks_work <value>
+- gamerule spectators_generate_chunks <value: bool>
++ gamerule spectators_generate_chunks <value>
+- gamerule spread_vines <value: bool>
++ gamerule spread_vines <value>
+- gamerule tnt_explodes <value: bool>
++ gamerule tnt_explodes <value>
+- gamerule tnt_explosion_drop_decay <value: bool>
++ gamerule tnt_explosion_drop_decay <value>
+- gamerule universal_anger <value: bool>
++ gamerule universal_anger <value>
+- gamerule water_source_conversion <value: bool>
++ gamerule water_source_conversion <value>
+```
+
+</details>
+<details>
+<summary>
+give
+</summary>
+
+```diff
+- give <targets: entity> <item: item_stack> <count: integer>
++ give <targets> <item> <count>
+```
+
+</details>
+<details>
+<summary>
+help
+</summary>
+
+```diff
+- help <command: string>
++ help <command>
+```
+
+</details>
+<details>
+<summary>
+item
+</summary>
+
+```diff
+- item fill block <target: block_pos> <slots: slot_source> from block <source: block_pos> <sourceSlots: slot_source> <modifier: loot_modifier>
+- item fill block <target: block_pos> <slots: slot_source> from entity <source: entity> <sourceSlots: slot_source> <modifier: loot_modifier>
+- item fill block <target: block_pos> <slots: slot_source> with <item: item_stack> <count: integer>
++ item fill block <target> <slots> from block <source> <sourceSlots> <modifier>
++ item fill block <target> <slots> from entity <source> <sourceSlots> <modifier>
++ item fill block <target> <slots> with <item> <count>
+- item fill entity <target: entity> <slots: slot_source> from block <source: block_pos> <sourceSlots: slot_source> <modifier: loot_modifier>
+- item fill entity <target: entity> <slots: slot_source> from entity <source: entity> <sourceSlots: slot_source> <modifier: loot_modifier>
+- item fill entity <target: entity> <slots: slot_source> with <item: item_stack> <count: integer>
++ item fill entity <target> <slots> from block <source> <sourceSlots> <modifier>
++ item fill entity <target> <slots> from entity <source> <sourceSlots> <modifier>
++ item fill entity <target> <slots> with <item> <count>
+- item modify block <target: block_pos> <slots: slot_source> <modifier: loot_modifier>
++ item modify block <target> <slots> <modifier>
+- item modify entity <target: entity> <slots: slot_source> <modifier: loot_modifier>
++ item modify entity <target> <slots> <modifier>
+- item override block <target: block_pos> <slots: slot_source> from block <source: block_pos> <sourceSlots: slot_source> <modifier: loot_modifier>
+- item override block <target: block_pos> <slots: slot_source> from entity <source: entity> <sourceSlots: slot_source> <modifier: loot_modifier>
+- item override block <target: block_pos> <slots: slot_source> with <item: item_stack> <count: integer>
++ item override block <target> <slots> from block <source> <sourceSlots> <modifier>
++ item override block <target> <slots> from entity <source> <sourceSlots> <modifier>
++ item override block <target> <slots> with <item> <count>
+- item override entity <target: entity> <slots: slot_source> from block <source: block_pos> <sourceSlots: slot_source> <modifier: loot_modifier>
+- item override entity <target: entity> <slots: slot_source> from entity <source: entity> <sourceSlots: slot_source> <modifier: loot_modifier>
+- item override entity <target: entity> <slots: slot_source> with <item: item_stack> <count: integer>
++ item override entity <target> <slots> from block <source> <sourceSlots> <modifier>
++ item override entity <target> <slots> from entity <source> <sourceSlots> <modifier>
++ item override entity <target> <slots> with <item> <count>
+- item replace block <target: block_pos> <slots: slot_source> from block <source: block_pos> <sourceSlots: slot_source> <modifier: loot_modifier>
+- item replace block <target: block_pos> <slots: slot_source> from entity <source: entity> <sourceSlots: slot_source> <modifier: loot_modifier>
+- item replace block <target: block_pos> <slots: slot_source> with <item: item_stack> <count: integer>
++ item replace block <target> <slots> from block <source> <sourceSlots> <modifier>
++ item replace block <target> <slots> from entity <source> <sourceSlots> <modifier>
++ item replace block <target> <slots> with <item> <count>
+- item replace entity <target: entity> <slots: slot_source> from block <source: block_pos> <sourceSlots: slot_source> <modifier: loot_modifier>
+- item replace entity <target: entity> <slots: slot_source> from entity <source: entity> <sourceSlots: slot_source> <modifier: loot_modifier>
+- item replace entity <target: entity> <slots: slot_source> with <item: item_stack> <count: integer>
++ item replace entity <target> <slots> from block <source> <sourceSlots> <modifier>
++ item replace entity <target> <slots> from entity <source> <sourceSlots> <modifier>
++ item replace entity <target> <slots> with <item> <count>
+```
+
+</details>
+<details>
+<summary>
+kick
+</summary>
+
+```diff
+- kick <targets: entity> <reason: message>
++ kick <targets> <reason>
+```
+
+</details>
+<details>
+<summary>
+kill
+</summary>
+
+```diff
+- kill <targets: entity>
++ kill <targets>
+```
+
+</details>
+<details>
+<summary>
+locate
+</summary>
+
+```diff
+- locate biome <biome: resource_or_tag>
++ locate biome <biome>
+- locate poi <poi: resource_or_tag>
++ locate poi <poi>
+- locate structure <structure: resource_or_tag_key>
++ locate structure <structure>
+```
+
+</details>
+<details>
+<summary>
+loot
+</summary>
+
+```diff
+- loot give <players: entity> fish <loot_table: loot_table> <pos: block_pos> <tool: item_stack>
+- loot give <players: entity> fish <loot_table: loot_table> <pos: block_pos> mainhand
+- loot give <players: entity> fish <loot_table: loot_table> <pos: block_pos> offhand
+- loot give <players: entity> kill <target: entity>
+- loot give <players: entity> loot <loot_table: loot_table>
+- loot give <players: entity> mine <pos: block_pos> <tool: item_stack>
+- loot give <players: entity> mine <pos: block_pos> mainhand
+- loot give <players: entity> mine <pos: block_pos> offhand
++ loot give <players> fish <loot_table> <pos> <tool>
++ loot give <players> fish <loot_table> <pos> mainhand
++ loot give <players> fish <loot_table> <pos> offhand
++ loot give <players> kill <target>
++ loot give <players> loot <loot_table>
++ loot give <players> mine <pos> <tool>
++ loot give <players> mine <pos> mainhand
++ loot give <players> mine <pos> offhand
+- loot insert <targetPos: block_pos> fish <loot_table: loot_table> <pos: block_pos> <tool: item_stack>
+- loot insert <targetPos: block_pos> fish <loot_table: loot_table> <pos: block_pos> mainhand
+- loot insert <targetPos: block_pos> fish <loot_table: loot_table> <pos: block_pos> offhand
+- loot insert <targetPos: block_pos> kill <target: entity>
+- loot insert <targetPos: block_pos> loot <loot_table: loot_table>
+- loot insert <targetPos: block_pos> mine <pos: block_pos> <tool: item_stack>
+- loot insert <targetPos: block_pos> mine <pos: block_pos> mainhand
+- loot insert <targetPos: block_pos> mine <pos: block_pos> offhand
++ loot insert <targetPos> fish <loot_table> <pos> <tool>
++ loot insert <targetPos> fish <loot_table> <pos> mainhand
++ loot insert <targetPos> fish <loot_table> <pos> offhand
++ loot insert <targetPos> kill <target>
++ loot insert <targetPos> loot <loot_table>
++ loot insert <targetPos> mine <pos> <tool>
++ loot insert <targetPos> mine <pos> mainhand
++ loot insert <targetPos> mine <pos> offhand
+- loot replace block <targetPos: block_pos> <slot: item_slot> <count: integer> fish <loot_table: loot_table> <pos: block_pos> <tool: item_stack>
+- loot replace block <targetPos: block_pos> <slot: item_slot> <count: integer> fish <loot_table: loot_table> <pos: block_pos> mainhand
+- loot replace block <targetPos: block_pos> <slot: item_slot> <count: integer> fish <loot_table: loot_table> <pos: block_pos> offhand
+- loot replace block <targetPos: block_pos> <slot: item_slot> <count: integer> kill <target: entity>
+- loot replace block <targetPos: block_pos> <slot: item_slot> <count: integer> loot <loot_table: loot_table>
+- loot replace block <targetPos: block_pos> <slot: item_slot> <count: integer> mine <pos: block_pos> <tool: item_stack>
+- loot replace block <targetPos: block_pos> <slot: item_slot> <count: integer> mine <pos: block_pos> mainhand
+- loot replace block <targetPos: block_pos> <slot: item_slot> <count: integer> mine <pos: block_pos> offhand
+- loot replace block <targetPos: block_pos> <slot: item_slot> fish <loot_table: loot_table> <pos: block_pos> <tool: item_stack>
+- loot replace block <targetPos: block_pos> <slot: item_slot> fish <loot_table: loot_table> <pos: block_pos> mainhand
+- loot replace block <targetPos: block_pos> <slot: item_slot> fish <loot_table: loot_table> <pos: block_pos> offhand
+- loot replace block <targetPos: block_pos> <slot: item_slot> kill <target: entity>
+- loot replace block <targetPos: block_pos> <slot: item_slot> loot <loot_table: loot_table>
+- loot replace block <targetPos: block_pos> <slot: item_slot> mine <pos: block_pos> <tool: item_stack>
+- loot replace block <targetPos: block_pos> <slot: item_slot> mine <pos: block_pos> mainhand
+- loot replace block <targetPos: block_pos> <slot: item_slot> mine <pos: block_pos> offhand
++ loot replace block <targetPos> <slot> <count> fish <loot_table> <pos> <tool>
++ loot replace block <targetPos> <slot> <count> fish <loot_table> <pos> mainhand
++ loot replace block <targetPos> <slot> <count> fish <loot_table> <pos> offhand
++ loot replace block <targetPos> <slot> <count> kill <target>
++ loot replace block <targetPos> <slot> <count> loot <loot_table>
++ loot replace block <targetPos> <slot> <count> mine <pos> <tool>
++ loot replace block <targetPos> <slot> <count> mine <pos> mainhand
++ loot replace block <targetPos> <slot> <count> mine <pos> offhand
++ loot replace block <targetPos> <slot> fish <loot_table> <pos> <tool>
++ loot replace block <targetPos> <slot> fish <loot_table> <pos> mainhand
++ loot replace block <targetPos> <slot> fish <loot_table> <pos> offhand
++ loot replace block <targetPos> <slot> kill <target>
++ loot replace block <targetPos> <slot> loot <loot_table>
++ loot replace block <targetPos> <slot> mine <pos> <tool>
++ loot replace block <targetPos> <slot> mine <pos> mainhand
++ loot replace block <targetPos> <slot> mine <pos> offhand
+- loot replace entity <entities: entity> <slot: item_slot> <count: integer> fish <loot_table: loot_table> <pos: block_pos> <tool: item_stack>
+- loot replace entity <entities: entity> <slot: item_slot> <count: integer> fish <loot_table: loot_table> <pos: block_pos> mainhand
+- loot replace entity <entities: entity> <slot: item_slot> <count: integer> fish <loot_table: loot_table> <pos: block_pos> offhand
+- loot replace entity <entities: entity> <slot: item_slot> <count: integer> kill <target: entity>
+- loot replace entity <entities: entity> <slot: item_slot> <count: integer> loot <loot_table: loot_table>
+- loot replace entity <entities: entity> <slot: item_slot> <count: integer> mine <pos: block_pos> <tool: item_stack>
+- loot replace entity <entities: entity> <slot: item_slot> <count: integer> mine <pos: block_pos> mainhand
+- loot replace entity <entities: entity> <slot: item_slot> <count: integer> mine <pos: block_pos> offhand
+- loot replace entity <entities: entity> <slot: item_slot> fish <loot_table: loot_table> <pos: block_pos> <tool: item_stack>
+- loot replace entity <entities: entity> <slot: item_slot> fish <loot_table: loot_table> <pos: block_pos> mainhand
+- loot replace entity <entities: entity> <slot: item_slot> fish <loot_table: loot_table> <pos: block_pos> offhand
+- loot replace entity <entities: entity> <slot: item_slot> kill <target: entity>
+- loot replace entity <entities: entity> <slot: item_slot> loot <loot_table: loot_table>
+- loot replace entity <entities: entity> <slot: item_slot> mine <pos: block_pos> <tool: item_stack>
+- loot replace entity <entities: entity> <slot: item_slot> mine <pos: block_pos> mainhand
+- loot replace entity <entities: entity> <slot: item_slot> mine <pos: block_pos> offhand
++ loot replace entity <entities> <slot> <count> fish <loot_table> <pos> <tool>
++ loot replace entity <entities> <slot> <count> fish <loot_table> <pos> mainhand
++ loot replace entity <entities> <slot> <count> fish <loot_table> <pos> offhand
++ loot replace entity <entities> <slot> <count> kill <target>
++ loot replace entity <entities> <slot> <count> loot <loot_table>
++ loot replace entity <entities> <slot> <count> mine <pos> <tool>
++ loot replace entity <entities> <slot> <count> mine <pos> mainhand
++ loot replace entity <entities> <slot> <count> mine <pos> offhand
++ loot replace entity <entities> <slot> fish <loot_table> <pos> <tool>
++ loot replace entity <entities> <slot> fish <loot_table> <pos> mainhand
++ loot replace entity <entities> <slot> fish <loot_table> <pos> offhand
++ loot replace entity <entities> <slot> kill <target>
++ loot replace entity <entities> <slot> loot <loot_table>
++ loot replace entity <entities> <slot> mine <pos> <tool>
++ loot replace entity <entities> <slot> mine <pos> mainhand
++ loot replace entity <entities> <slot> mine <pos> offhand
+- loot spawn <targetPos: vec3> fish <loot_table: loot_table> <pos: block_pos> <tool: item_stack>
+- loot spawn <targetPos: vec3> fish <loot_table: loot_table> <pos: block_pos> mainhand
+- loot spawn <targetPos: vec3> fish <loot_table: loot_table> <pos: block_pos> offhand
+- loot spawn <targetPos: vec3> kill <target: entity>
+- loot spawn <targetPos: vec3> loot <loot_table: loot_table>
+- loot spawn <targetPos: vec3> mine <pos: block_pos> <tool: item_stack>
+- loot spawn <targetPos: vec3> mine <pos: block_pos> mainhand
+- loot spawn <targetPos: vec3> mine <pos: block_pos> offhand
++ loot spawn <targetPos> fish <loot_table> <pos> <tool>
++ loot spawn <targetPos> fish <loot_table> <pos> mainhand
++ loot spawn <targetPos> fish <loot_table> <pos> offhand
++ loot spawn <targetPos> kill <target>
++ loot spawn <targetPos> loot <loot_table>
++ loot spawn <targetPos> mine <pos> <tool>
++ loot spawn <targetPos> mine <pos> mainhand
++ loot spawn <targetPos> mine <pos> offhand
+```
+
+</details>
+<details>
+<summary>
+me
+</summary>
+
+```diff
+- me <action: message>
++ me <action>
+```
+
+</details>
+<details>
+<summary>
+msg
+</summary>
+
+```diff
+- msg <targets: entity> <message: message>
++ msg <targets> <message>
+```
+
+</details>
+<details>
+<summary>
+op
+</summary>
+
+```diff
+- op <targets: game_profile>
++ op <targets>
+```
+
+</details>
+<details>
+<summary>
+pardon-ip
+</summary>
+
+```diff
+- pardon-ip <target: string>
++ pardon-ip <target>
+```
+
+</details>
+<details>
+<summary>
+pardon
+</summary>
+
+```diff
+- pardon <targets: game_profile>
++ pardon <targets>
+```
+
+</details>
+<details>
+<summary>
+particle
+</summary>
+
+```diff
+- particle <name: particle> <pos: vec3> <delta: vec3> <speed: float> <count: integer> force <viewers: entity>
+- particle <name: particle> <pos: vec3> <delta: vec3> <speed: float> <count: integer> normal <viewers: entity>
++ particle <name> <pos> <delta> <speed> <count> force <viewers>
++ particle <name> <pos> <delta> <speed> <count> normal <viewers>
+```
+
+</details>
+<details>
+<summary>
+place
+</summary>
+
+```diff
+- place feature <feature: feature> <pos: block_pos>
++ place feature <feature> <pos>
+- place jigsaw <pool: resource_key> <target: resource_location> <max_depth: integer> <position: block_pos>
++ place jigsaw <pool> <target> <max_depth> <position>
+- place structure <structure: resource_key> <pos: block_pos>
++ place structure <structure> <pos>
+- place template <template: resource_location> <pos: block_pos> <rotation: template_rotation> <mirror: template_mirror> <integrity: float> <seed: integer> strict
++ place template <template> <pos> <rotation> <mirror> <integrity> <seed> strict
+```
+
+</details>
+<details>
+<summary>
+playsound
+</summary>
+
+```diff
+- playsound <sound: resource_location> ambient <targets: entity> <pos: vec3> <volume: float> <pitch: float> <minVolume: float>
+- playsound <sound: resource_location> block <targets: entity> <pos: vec3> <volume: float> <pitch: float> <minVolume: float>
+- playsound <sound: resource_location> hostile <targets: entity> <pos: vec3> <volume: float> <pitch: float> <minVolume: float>
+- playsound <sound: resource_location> master <targets: entity> <pos: vec3> <volume: float> <pitch: float> <minVolume: float>
+- playsound <sound: resource_location> music <targets: entity> <pos: vec3> <volume: float> <pitch: float> <minVolume: float>
+- playsound <sound: resource_location> neutral <targets: entity> <pos: vec3> <volume: float> <pitch: float> <minVolume: float>
+- playsound <sound: resource_location> player <targets: entity> <pos: vec3> <volume: float> <pitch: float> <minVolume: float>
+- playsound <sound: resource_location> record <targets: entity> <pos: vec3> <volume: float> <pitch: float> <minVolume: float>
+- playsound <sound: resource_location> ui <targets: entity> <pos: vec3> <volume: float> <pitch: float> <minVolume: float>
+- playsound <sound: resource_location> voice <targets: entity> <pos: vec3> <volume: float> <pitch: float> <minVolume: float>
+- playsound <sound: resource_location> weather <targets: entity> <pos: vec3> <volume: float> <pitch: float> <minVolume: float>
++ playsound <sound> ambient <targets> <pos> <volume> <pitch> <minVolume>
++ playsound <sound> block <targets> <pos> <volume> <pitch> <minVolume>
++ playsound <sound> hostile <targets> <pos> <volume> <pitch> <minVolume>
++ playsound <sound> master <targets> <pos> <volume> <pitch> <minVolume>
++ playsound <sound> music <targets> <pos> <volume> <pitch> <minVolume>
++ playsound <sound> neutral <targets> <pos> <volume> <pitch> <minVolume>
++ playsound <sound> player <targets> <pos> <volume> <pitch> <minVolume>
++ playsound <sound> record <targets> <pos> <volume> <pitch> <minVolume>
++ playsound <sound> ui <targets> <pos> <volume> <pitch> <minVolume>
++ playsound <sound> voice <targets> <pos> <volume> <pitch> <minVolume>
++ playsound <sound> weather <targets> <pos> <volume> <pitch> <minVolume>
+```
+
+</details>
+<details>
+<summary>
+posteffect
+</summary>
+
+```diff
+- posteffect add <targets: entity> <posteffect: resource_location>
++ posteffect add <targets> <posteffect>
+- posteffect clear <targets: entity>
++ posteffect clear <targets>
+- posteffect list <target: entity>
++ posteffect list <target>
+- posteffect remove <targets: entity> <posteffect: resource_location>
++ posteffect remove <targets> <posteffect>
+```
+
+</details>
+<details>
+<summary>
+publish
+</summary>
+
+```diff
+- publish <allowCommands: bool> <port: integer>
++ publish <allowCommands> <port>
+```
+
+</details>
+<details>
+<summary>
+random
+</summary>
+
+```diff
+- random reset * <seed: integer> <includeWorldSeed: bool> <includeSequenceId: bool>
++ random reset * <seed> <includeWorldSeed> <includeSequenceId>
+- random reset <sequence: resource_location> <seed: integer> <includeWorldSeed: bool> <includeSequenceId: bool>
++ random reset <sequence> <seed> <includeWorldSeed> <includeSequenceId>
+- random roll <range: int_range> <sequence: resource_location>
++ random roll <range> <sequence>
+- random value <range: int_range> <sequence: resource_location>
++ random value <range> <sequence>
+```
+
+</details>
+<details>
+<summary>
+recipe
+</summary>
+
+```diff
+- recipe give <targets: entity> *
+- recipe give <targets: entity> <recipe: resource_key>
++ recipe give <targets> *
++ recipe give <targets> <recipe>
+- recipe take <targets: entity> *
+- recipe take <targets: entity> <recipe: resource_key>
++ recipe take <targets> *
++ recipe take <targets> <recipe>
+```
+
+</details>
+<details>
+<summary>
+return
+</summary>
+
+```diff
+- return <value: integer>
++ return <value>
+```
+
+</details>
+<details>
+<summary>
+ride
+</summary>
+
+```diff
+- ride <target: entity> dismount
+- ride <target: entity> mount <vehicle: entity>
++ ride <target> dismount
++ ride <target> mount <vehicle>
+```
+
+</details>
+<details>
+<summary>
+rotate
+</summary>
+
+```diff
+- rotate <target: entity> <rotation: rotation>
+- rotate <target: entity> facing <facingLocation: vec3>
+- rotate <target: entity> facing entity <facingEntity: entity> <facingAnchor: entity_anchor>
++ rotate <target> <rotation>
++ rotate <target> facing <facingLocation>
++ rotate <target> facing entity <facingEntity> <facingAnchor>
+```
+
+</details>
+<details>
+<summary>
+say
+</summary>
+
+```diff
+- say <message: message>
++ say <message>
+```
+
+</details>
+<details>
+<summary>
+schedule
+</summary>
+
+```diff
+- schedule clear <function: resource_location>
++ schedule clear <function>
+- schedule function <function: function> <time: time> append
+- schedule function <function: function> <time: time> replace
++ schedule function <function> <time> append
++ schedule function <function> <time> replace
+```
+
+</details>
+<details>
+<summary>
+scoreboard
+</summary>
+
+```diff
+- scoreboard objectives add <objective: string> <criteria: objective_criteria> <displayName: component>
++ scoreboard objectives add <objective> <criteria> <displayName>
+- scoreboard objectives modify <objective: objective> displayautoupdate <value: bool>
+- scoreboard objectives modify <objective: objective> displayname <displayName: component>
+- scoreboard objectives modify <objective: objective> numberformat blank
+- scoreboard objectives modify <objective: objective> numberformat fixed <contents: component>
+- scoreboard objectives modify <objective: objective> numberformat styled <style: style>
+- scoreboard objectives modify <objective: objective> rendertype hearts
+- scoreboard objectives modify <objective: objective> rendertype integer
++ scoreboard objectives modify <objective> displayautoupdate <value>
++ scoreboard objectives modify <objective> displayname <displayName>
++ scoreboard objectives modify <objective> numberformat blank
++ scoreboard objectives modify <objective> numberformat fixed <contents>
++ scoreboard objectives modify <objective> numberformat styled <style>
++ scoreboard objectives modify <objective> rendertype hearts
++ scoreboard objectives modify <objective> rendertype integer
+- scoreboard objectives remove <objective: objective>
++ scoreboard objectives remove <objective>
+- scoreboard objectives setdisplay <slot: scoreboard_slot> <objective: objective>
++ scoreboard objectives setdisplay <slot> <objective>
+- scoreboard players add <targets: score_holder> <objective: objective> <score: integer>
++ scoreboard players add <targets> <objective> <score>
+- scoreboard players display name <targets: score_holder> <objective: objective> <name: component>
++ scoreboard players display name <targets> <objective> <name>
+- scoreboard players display numberformat <targets: score_holder> <objective: objective> blank
+- scoreboard players display numberformat <targets: score_holder> <objective: objective> fixed <contents: component>
+- scoreboard players display numberformat <targets: score_holder> <objective: objective> styled <style: style>
++ scoreboard players display numberformat <targets> <objective> blank
++ scoreboard players display numberformat <targets> <objective> fixed <contents>
++ scoreboard players display numberformat <targets> <objective> styled <style>
+- scoreboard players enable <targets: score_holder> <objective: objective>
++ scoreboard players enable <targets> <objective>
+- scoreboard players get <target: score_holder> <objective: objective>
++ scoreboard players get <target> <objective>
+- scoreboard players list <target: score_holder>
++ scoreboard players list <target>
+- scoreboard players operation <targets: score_holder> <targetObjective: objective> <operation: operation> <source: score_holder> <sourceObjective: objective>
++ scoreboard players operation <targets> <targetObjective> <operation> <source> <sourceObjective>
+- scoreboard players remove <targets: score_holder> <objective: objective> <score: integer>
++ scoreboard players remove <targets> <objective> <score>
+- scoreboard players reset <targets: score_holder> <objective: objective>
++ scoreboard players reset <targets> <objective>
+- scoreboard players set <targets: score_holder> <objective: objective> <score: integer>
++ scoreboard players set <targets> <objective> <score>
+```
+
+</details>
+<details>
+<summary>
+setblock
+</summary>
+
+```diff
+- setblock <pos: block_pos> <block: block_state> destroy
+- setblock <pos: block_pos> <block: block_state> keep
+- setblock <pos: block_pos> <block: block_state> replace
+- setblock <pos: block_pos> <block: block_state> strict
++ setblock <pos> <block> destroy
++ setblock <pos> <block> keep
++ setblock <pos> <block> replace
++ setblock <pos> <block> strict
+```
+
+</details>
+<details>
+<summary>
+setidletimeout
+</summary>
+
+```diff
+- setidletimeout <minutes: integer>
++ setidletimeout <minutes>
+```
+
+</details>
+<details>
+<summary>
+setworldspawn
+</summary>
+
+```diff
+- setworldspawn <pos: block_pos> <rotation: rotation>
++ setworldspawn <pos> <rotation>
+```
+
+</details>
+<details>
+<summary>
+spawnpoint
+</summary>
+
+```diff
+- spawnpoint <targets: entity> <pos: block_pos> <rotation: rotation>
++ spawnpoint <targets> <pos> <rotation>
+```
+
+</details>
+<details>
+<summary>
+spectate
+</summary>
+
+```diff
+- spectate <target: entity> <player: entity>
++ spectate <target> <player>
+```
+
+</details>
+<details>
+<summary>
+spreadplayers
+</summary>
+
+```diff
+- spreadplayers <center: vec2> <spreadDistance: float> <maxRange: float> <respectTeams: bool> <targets: entity>
+- spreadplayers <center: vec2> <spreadDistance: float> <maxRange: float> under <maxHeight: integer> <respectTeams: bool> <targets: entity>
++ spreadplayers <center> <spreadDistance> <maxRange> <respectTeams> <targets>
++ spreadplayers <center> <spreadDistance> <maxRange> under <maxHeight> <respectTeams> <targets>
+```
+
+</details>
+<details>
+<summary>
+stopsound
+</summary>
+
+```diff
+- stopsound <targets: entity> * <sound: resource_location>
+- stopsound <targets: entity> ambient <sound: resource_location>
+- stopsound <targets: entity> block <sound: resource_location>
+- stopsound <targets: entity> hostile <sound: resource_location>
+- stopsound <targets: entity> master <sound: resource_location>
+- stopsound <targets: entity> music <sound: resource_location>
+- stopsound <targets: entity> neutral <sound: resource_location>
+- stopsound <targets: entity> player <sound: resource_location>
+- stopsound <targets: entity> record <sound: resource_location>
+- stopsound <targets: entity> ui <sound: resource_location>
+- stopsound <targets: entity> voice <sound: resource_location>
+- stopsound <targets: entity> weather <sound: resource_location>
++ stopsound <targets> * <sound>
++ stopsound <targets> ambient <sound>
++ stopsound <targets> block <sound>
++ stopsound <targets> hostile <sound>
++ stopsound <targets> master <sound>
++ stopsound <targets> music <sound>
++ stopsound <targets> neutral <sound>
++ stopsound <targets> player <sound>
++ stopsound <targets> record <sound>
++ stopsound <targets> ui <sound>
++ stopsound <targets> voice <sound>
++ stopsound <targets> weather <sound>
+```
+
+</details>
+<details>
+<summary>
+stopwatch
+</summary>
+
+```diff
+- stopwatch create <id: resource_location>
++ stopwatch create <id>
+- stopwatch query <id: resource_location> <scale: double>
++ stopwatch query <id> <scale>
+- stopwatch remove <id: resource_location>
++ stopwatch remove <id>
+- stopwatch restart <id: resource_location>
++ stopwatch restart <id>
+```
+
+</details>
+<details>
+<summary>
+summon
+</summary>
+
+```diff
+- summon <entity: resource> <pos: vec3> <nbt: nbt_compound_tag>
++ summon <entity> <pos> <nbt>
+```
+
+</details>
+<details>
+<summary>
+swing
+</summary>
+
+```diff
+- swing <targets: entity> mainhand <animation: swing_animation> <duration: time>
+- swing <targets: entity> offhand <animation: swing_animation> <duration: time>
++ swing <targets> mainhand <animation> <duration>
++ swing <targets> offhand <animation> <duration>
+```
+
+</details>
+<details>
+<summary>
+tag
+</summary>
+
+```diff
+- tag <targets: entity> add <name: string>
+- tag <targets: entity> list
+- tag <targets: entity> remove <name: string>
++ tag <targets> add <name>
++ tag <targets> list
++ tag <targets> remove <name>
+```
+
+</details>
+<details>
+<summary>
+team
+</summary>
+
+```diff
+- team add <team: string> <displayName: component>
++ team add <team> <displayName>
+- team empty <team: team>
++ team empty <team>
+- team join <team: team> <members: score_holder>
++ team join <team> <members>
+- team leave <members: score_holder>
++ team leave <members>
+- team list <team: team>
++ team list <team>
+- team modify <team: team> collisionRule always
+- team modify <team: team> collisionRule never
+- team modify <team: team> collisionRule pushOtherTeams
+- team modify <team: team> collisionRule pushOwnTeam
+- team modify <team: team> color <value: team_color>
+- team modify <team: team> color reset
+- team modify <team: team> deathMessageVisibility always
+- team modify <team: team> deathMessageVisibility hideForOtherTeams
+- team modify <team: team> deathMessageVisibility hideForOwnTeam
+- team modify <team: team> deathMessageVisibility never
+- team modify <team: team> displayName <displayName: component>
+- team modify <team: team> friendlyFire <allowed: bool>
+- team modify <team: team> nametagVisibility always
+- team modify <team: team> nametagVisibility hideForOtherTeams
+- team modify <team: team> nametagVisibility hideForOwnTeam
+- team modify <team: team> nametagVisibility never
+- team modify <team: team> prefix <prefix: component>
+- team modify <team: team> seeFriendlyInvisibles <allowed: bool>
+- team modify <team: team> suffix <suffix: component>
++ team modify <team> collisionRule always
++ team modify <team> collisionRule never
++ team modify <team> collisionRule pushOtherTeams
++ team modify <team> collisionRule pushOwnTeam
++ team modify <team> color <value>
++ team modify <team> color reset
++ team modify <team> deathMessageVisibility always
++ team modify <team> deathMessageVisibility hideForOtherTeams
++ team modify <team> deathMessageVisibility hideForOwnTeam
++ team modify <team> deathMessageVisibility never
++ team modify <team> displayName <displayName>
++ team modify <team> friendlyFire <allowed>
++ team modify <team> nametagVisibility always
++ team modify <team> nametagVisibility hideForOtherTeams
++ team modify <team> nametagVisibility hideForOwnTeam
++ team modify <team> nametagVisibility never
++ team modify <team> prefix <prefix>
++ team modify <team> seeFriendlyInvisibles <allowed>
++ team modify <team> suffix <suffix>
+- team remove <team: team>
++ team remove <team>
+```
+
+</details>
+<details>
+<summary>
+teammsg
+</summary>
+
+```diff
+- teammsg <message: message>
++ teammsg <message>
+```
+
+</details>
+<details>
+<summary>
+teleport
+</summary>
+
+```diff
+- teleport <destination: entity>
++ teleport <destination>
+- teleport <location: vec3>
++ teleport <location>
+- teleport <targets: entity> <destination: entity>
+- teleport <targets: entity> <location: vec3> <rotation: rotation>
+- teleport <targets: entity> <location: vec3> facing <facingLocation: vec3>
+- teleport <targets: entity> <location: vec3> facing entity <facingEntity: entity> <facingAnchor: entity_anchor>
++ teleport <targets> <destination>
++ teleport <targets> <location> <rotation>
++ teleport <targets> <location> facing <facingLocation>
++ teleport <targets> <location> facing entity <facingEntity> <facingAnchor>
+```
+
+</details>
+<details>
+<summary>
+tellraw
+</summary>
+
+```diff
+- tellraw <targets: entity> <message: component>
++ tellraw <targets> <message>
+```
+
+</details>
+<details>
+<summary>
+test
+</summary>
+
+```diff
+- test clearall <radius: integer>
++ test clearall <radius>
+- test create <id: resource_location> <width: integer> <height: integer> <depth: integer>
++ test create <id> <width> <height> <depth>
+- test locate <tests: resource_selector>
++ test locate <tests>
+- test pos <var: string>
++ test pos <var>
+- test run <tests: resource_selector> <numberOfTimes: integer> <untilFailed: bool> <rotationSteps: integer> <testsPerRow: integer>
++ test run <tests> <numberOfTimes> <untilFailed> <rotationSteps> <testsPerRow>
+- test runclosest <numberOfTimes: integer> <untilFailed: bool>
++ test runclosest <numberOfTimes> <untilFailed>
+- test runfailed <numberOfTimes: integer> <untilFailed: bool> <rotationSteps: integer> <testsPerRow: integer>
++ test runfailed <numberOfTimes> <untilFailed> <rotationSteps> <testsPerRow>
+- test runfailed <onlyRequiredTests: bool> <numberOfTimes: integer> <untilFailed: bool> <rotationSteps: integer> <testsPerRow: integer>
++ test runfailed <onlyRequiredTests> <numberOfTimes> <untilFailed> <rotationSteps> <testsPerRow>
+- test runmultiple <tests: resource_selector> <amount: integer>
++ test runmultiple <tests> <amount>
+- test runthat <numberOfTimes: integer> <untilFailed: bool>
++ test runthat <numberOfTimes> <untilFailed>
+- test runthese <numberOfTimes: integer> <untilFailed: bool>
++ test runthese <numberOfTimes> <untilFailed>
+- test verify <tests: resource_selector>
++ test verify <tests>
+```
+
+</details>
+<details>
+<summary>
+tick
+</summary>
+
+```diff
+- tick rate <rate: float>
++ tick rate <rate>
+- tick sprint <time: time>
++ tick sprint <time>
+- tick step <time: time>
++ tick step <time>
+```
+
+</details>
+<details>
+<summary>
+time
+</summary>
+
+```diff
+- time add <time: time>
++ time add <time>
+- time of <clock: resource> add <time: time>
+- time of <clock: resource> pause
+- time of <clock: resource> query <timeline: resource> repetition
+- time of <clock: resource> query time
+- time of <clock: resource> rate <rate: float>
+- time of <clock: resource> resume
+- time of <clock: resource> set <time: time>
+- time of <clock: resource> set <timemarker: resource_location>
++ time of <clock> add <time>
++ time of <clock> pause
++ time of <clock> query <timeline> repetition
++ time of <clock> query time
++ time of <clock> rate <rate>
++ time of <clock> resume
++ time of <clock> set <time>
++ time of <clock> set <timemarker>
+- time query <timeline: resource> repetition
++ time query <timeline> repetition
+- time rate <rate: float>
++ time rate <rate>
+- time set <time: time>
++ time set <time>
+- time set <timemarker: resource_location>
++ time set <timemarker>
+```
+
+</details>
+<details>
+<summary>
+title
+</summary>
+
+```diff
+- title <targets: entity> actionbar <title: component>
+- title <targets: entity> clear
+- title <targets: entity> reset
+- title <targets: entity> subtitle <title: component>
+- title <targets: entity> times <fadeIn: time> <stay: time> <fadeOut: time>
+- title <targets: entity> title <title: component>
++ title <targets> actionbar <title>
++ title <targets> clear
++ title <targets> reset
++ title <targets> subtitle <title>
++ title <targets> times <fadeIn> <stay> <fadeOut>
++ title <targets> title <title>
+```
+
+</details>
+<details>
+<summary>
+transfer
+</summary>
+
+```diff
+- transfer <hostname: string> <port: integer> <players: entity>
++ transfer <hostname> <port> <players>
+```
+
+</details>
+<details>
+<summary>
+trigger
+</summary>
+
+```diff
+- trigger <objective: objective> add <value: integer>
+- trigger <objective: objective> set <value: integer>
++ trigger <objective> add <value>
++ trigger <objective> set <value>
+```
+
+</details>
+<details>
+<summary>
+waypoint
+</summary>
+
+```diff
+- waypoint modify <waypoint: entity> color <color: team_color>
+- waypoint modify <waypoint: entity> color hex <color: hex_color>
+- waypoint modify <waypoint: entity> color reset
+- waypoint modify <waypoint: entity> style reset
+- waypoint modify <waypoint: entity> style set <style: resource_location>
++ waypoint modify <waypoint> color <color>
++ waypoint modify <waypoint> color hex <color>
++ waypoint modify <waypoint> color reset
++ waypoint modify <waypoint> style reset
++ waypoint modify <waypoint> style set <style>
+```
+
+</details>
+<details>
+<summary>
+weather
+</summary>
+
+```diff
+- weather clear <duration: time>
++ weather clear <duration>
+- weather rain <duration: time>
++ weather rain <duration>
+- weather thunder <duration: time>
++ weather thunder <duration>
+```
+
+</details>
+<details>
+<summary>
+whitelist
+</summary>
+
+```diff
+- whitelist add <targets: game_profile>
++ whitelist add <targets>
+- whitelist remove <targets: game_profile>
++ whitelist remove <targets>
+```
+
+</details>
+<details>
+<summary>
+worldborder
+</summary>
+
+```diff
+- worldborder add <distance: double> <time: time>
++ worldborder add <distance> <time>
+- worldborder center <pos: vec2>
++ worldborder center <pos>
+- worldborder damage amount <damagePerBlock: float>
++ worldborder damage amount <damagePerBlock>
+- worldborder damage buffer <distance: float>
++ worldborder damage buffer <distance>
+- worldborder set <distance: double> <time: time>
++ worldborder set <distance> <time>
+- worldborder warning distance <distance: integer>
++ worldborder warning distance <distance>
+- worldborder warning time <time: time>
++ worldborder warning time <time>
+```
+
+</details>
+</details>
+<hr/>
+<details><summary><b><ins>DATAPACKS</ins></b><a name="datapacks"></a></summary>
+<br/>
+<details>
+<summary>
+[registries] List
+</summary>
+
+```diff
++ minecraft:command_suggestion_type
+```
+
+</details>
+</details>
+<hr/>
+<details><summary><b><ins>TRANSLATIONS</ins></b><a name="translations"></a></summary>
+<br/>
+<details>
+<summary>
+Keys
+</summary>
+
+```diff
++ argument.pattern.not_matched: Failed to match pattern argument
++ argument.resource.validation_failed: Argument validation failed, see log file for details
++ commands.effect.no_effects: No effects were provided
++ commands.function.error.validation: While instantiating macro %s: Some commands failed validation: %s
++ gui.player_interactions.narration.entry: Player %s
+- item.minecraft.music_disc_bounce.desc: fingerspit - Bounce
+- item.minecraft.music_disc_flurry.desc: Hyper Potions - flurry
+- item.minecraft.music_disc_lava_chicken.desc: Hyper Potions - Lava Chicken
+- item.minecraft.music_disc_tears.desc: Amos Roddy - Tears
++ key.debug.environmentAttributeOptions: Open Environment Attribute Options
++ subtitles.entity.frostbite.throw: Frostbite throws
++ subtitles.entity.snow_golem.shoot: Snow Golem throws
+```
+
+</details>
+<details>
+<summary>
+Changes
+</summary>
+<br/>
+<table>
+<tr><th>Name</th><th>26.4-snapshot-7</th><th>26.4-snapshot-8</th></tr>
+<tr><th align="left"><div style="width:290px">jukebox_song.minecraft.flurry</div></th><td>Hyper Potions - flurry</td><td>Hyper Potions - Flurry</td></tr>
+<tr><th align="left"><div style="width:290px">mco.backup.restoring</div></th><td>Restoring your Realm</td><td>Restoring Your Realm</td></tr>
+<tr><th align="left"><div style="width:290px">mco.configure.world.closing</div></th><td>Temporarily closing the Realm...</td><td>Temporarily Closing the Realm...</td></tr>
+<tr><th align="left"><div style="width:290px">mco.create.world.reset.title</div></th><td>Creating world...</td><td>Creating World...</td></tr>
+<tr><th align="left"><div style="width:290px">mco.download.preparing</div></th><td>Preparing download</td><td>Preparing Download</td></tr>
+<tr><th align="left"><div style="width:290px">mco.reset.world.resetting.screen.title</div></th><td>Resetting world...</td><td>Resetting World...</td></tr>
+</table>
+<br/>
+</details>
+</details>
+<hr/>
+<details><summary><b><ins>PACKETS</ins></b><a name="packets"></a></summary>
+<br/>
+<details>
+<summary>
+[client] configuration
+</summary>
+
+```diff
++ minecraft:commands
+```
+
+</details>
+<details>
+<summary>
+[client] play
+</summary>
+
+```diff
++ minecraft:add_entity_motion
+```
+
+</details>
+</details>
+<hr/>
+<details><summary><b><ins>FILE STRUCTURE</ins></b><a name="file-structure"></a></summary>
+<br/>
+<details>
+<summary>
+generated
+</summary>
+
+```diff
++ reports/loot_context_requirements.json
+```
+
+</details>
+<details>
+<summary>
+data
+</summary>
+
+```diff
++ minecraft/tags/block/triggers_ambient_ice_block_sounds.json
++ minecraft/tags/block/triggers_ambient_ice_crystal_sounds.json
+```
+
+</details>
+<details>
+<summary>
+assets
+</summary>
+
+```diff
++ minecraft/shaders/core/blit_depth_bounds.fsh
+- minecraft/shaders/core/blit_depth.fsh
++ minecraft/textures/gui/sprites/friends/tab_focused.png
++ minecraft/textures/gui/sprites/friends/tab_focused.png.mcmeta
+```
+
+</details>
+</details>
+<hr/>
