@@ -1,0 +1,23 @@
+scoreboard objectives add <objective> <criteria> <displayName>
+scoreboard objectives list
+scoreboard objectives modify <objective> displayautoupdate <value>
+scoreboard objectives modify <objective> displayname <displayName>
+scoreboard objectives modify <objective> numberformat blank
+scoreboard objectives modify <objective> numberformat fixed <contents>
+scoreboard objectives modify <objective> numberformat styled <style>
+scoreboard objectives modify <objective> rendertype hearts
+scoreboard objectives modify <objective> rendertype integer
+scoreboard objectives remove <objective>
+scoreboard objectives setdisplay <slot> <objective>
+scoreboard players add <targets> <objective> <score>
+scoreboard players display name <targets> <objective> <name>
+scoreboard players display numberformat <targets> <objective> blank
+scoreboard players display numberformat <targets> <objective> fixed <contents>
+scoreboard players display numberformat <targets> <objective> styled <style>
+scoreboard players enable <targets> <objective>
+scoreboard players get <target> <objective>
+scoreboard players list <target>
+scoreboard players operation <targets> <targetObjective> <operation> <source> <sourceObjective>
+scoreboard players remove <targets> <objective> <score>
+scoreboard players reset <targets> <objective>
+scoreboard players set <targets> <objective> <score>
