@@ -1,0 +1,56 @@
+loot give <players> fish <loot_table> <pos> mainhand
+loot give <players> fish <loot_table> <pos> offhand
+loot give <players> fish <loot_table> <pos> <tool>
+loot give <players> kill <target>
+loot give <players> loot <loot_table>
+loot give <players> mine <pos> mainhand
+loot give <players> mine <pos> offhand
+loot give <players> mine <pos> <tool>
+loot insert <targetPos> fish <loot_table> <pos> mainhand
+loot insert <targetPos> fish <loot_table> <pos> offhand
+loot insert <targetPos> fish <loot_table> <pos> <tool>
+loot insert <targetPos> kill <target>
+loot insert <targetPos> loot <loot_table>
+loot insert <targetPos> mine <pos> mainhand
+loot insert <targetPos> mine <pos> offhand
+loot insert <targetPos> mine <pos> <tool>
+loot replace block <targetPos> <slot> <count> fish <loot_table> <pos> mainhand
+loot replace block <targetPos> <slot> <count> fish <loot_table> <pos> offhand
+loot replace block <targetPos> <slot> <count> fish <loot_table> <pos> <tool>
+loot replace block <targetPos> <slot> <count> kill <target>
+loot replace block <targetPos> <slot> <count> loot <loot_table>
+loot replace block <targetPos> <slot> <count> mine <pos> mainhand
+loot replace block <targetPos> <slot> <count> mine <pos> offhand
+loot replace block <targetPos> <slot> <count> mine <pos> <tool>
+loot replace block <targetPos> <slot> fish <loot_table> <pos> mainhand
+loot replace block <targetPos> <slot> fish <loot_table> <pos> offhand
+loot replace block <targetPos> <slot> fish <loot_table> <pos> <tool>
+loot replace block <targetPos> <slot> kill <target>
+loot replace block <targetPos> <slot> loot <loot_table>
+loot replace block <targetPos> <slot> mine <pos> mainhand
+loot replace block <targetPos> <slot> mine <pos> offhand
+loot replace block <targetPos> <slot> mine <pos> <tool>
+loot replace entity <entities> <slot> <count> fish <loot_table> <pos> mainhand
+loot replace entity <entities> <slot> <count> fish <loot_table> <pos> offhand
+loot replace entity <entities> <slot> <count> fish <loot_table> <pos> <tool>
+loot replace entity <entities> <slot> <count> kill <target>
+loot replace entity <entities> <slot> <count> loot <loot_table>
+loot replace entity <entities> <slot> <count> mine <pos> mainhand
+loot replace entity <entities> <slot> <count> mine <pos> offhand
+loot replace entity <entities> <slot> <count> mine <pos> <tool>
+loot replace entity <entities> <slot> fish <loot_table> <pos> mainhand
+loot replace entity <entities> <slot> fish <loot_table> <pos> offhand
+loot replace entity <entities> <slot> fish <loot_table> <pos> <tool>
+loot replace entity <entities> <slot> kill <target>
+loot replace entity <entities> <slot> loot <loot_table>
+loot replace entity <entities> <slot> mine <pos> mainhand
+loot replace entity <entities> <slot> mine <pos> offhand
+loot replace entity <entities> <slot> mine <pos> <tool>
+loot spawn <targetPos> fish <loot_table> <pos> mainhand
+loot spawn <targetPos> fish <loot_table> <pos> offhand
+loot spawn <targetPos> fish <loot_table> <pos> <tool>
+loot spawn <targetPos> kill <target>
+loot spawn <targetPos> loot <loot_table>
+loot spawn <targetPos> mine <pos> mainhand
+loot spawn <targetPos> mine <pos> offhand
+loot spawn <targetPos> mine <pos> <tool>

@@ -1,0 +1,110 @@
+execute align <axes>
+execute anchored <anchor>
+execute as <targets>
+execute at <targets>
+execute facing entity <targets> <anchor>
+execute facing <pos>
+execute if biome <pos> <biome>
+execute if block <pos> <block>
+execute if blocks <start> <end> <destination> all
+execute if blocks <start> <end> <destination> masked
+execute if data block <source> <path>
+execute if data entity <source> <path>
+execute if data storage <source> <path>
+execute if dimension <dimension>
+execute if entity <entities>
+execute if function <name>
+execute if items block <source> <slots> <item_predicate>
+execute if items entity <source> <slots> <item_predicate>
+execute if loaded <pos>
+execute if predicate <predicate>
+execute if score <target> <targetObjective> < <source> <sourceObjective>
+execute if score <target> <targetObjective> <= <source> <sourceObjective>
+execute if score <target> <targetObjective> = <source> <sourceObjective>
+execute if score <target> <targetObjective> > <source> <sourceObjective>
+execute if score <target> <targetObjective> >= <source> <sourceObjective>
+execute if score <target> <targetObjective> matches <range>
+execute if slots block <source> <slots>
+execute if slots entity <source> <slots>
+execute if stopwatch <id> <range>
+execute in <dimension>
+execute on attacker
+execute on controller
+execute on leasher
+execute on origin
+execute on owner
+execute on passengers
+execute on target
+execute on vehicle
+execute positioned as <targets>
+execute positioned over <heightmap>
+execute positioned <pos>
+execute rotated as <targets>
+execute rotated <rot>
+execute run
+execute store result block <target> <path> byte <scale>
+execute store result block <target> <path> double <scale>
+execute store result block <target> <path> float <scale>
+execute store result block <target> <path> int <scale>
+execute store result block <target> <path> long <scale>
+execute store result block <target> <path> short <scale>
+execute store result bossbar <id> max
+execute store result bossbar <id> value
+execute store result entity <target> <path> byte <scale>
+execute store result entity <target> <path> double <scale>
+execute store result entity <target> <path> float <scale>
+execute store result entity <target> <path> int <scale>
+execute store result entity <target> <path> long <scale>
+execute store result entity <target> <path> short <scale>
+execute store result score <targets> <objective>
+execute store result storage <target> <path> byte <scale>
+execute store result storage <target> <path> double <scale>
+execute store result storage <target> <path> float <scale>
+execute store result storage <target> <path> int <scale>
+execute store result storage <target> <path> long <scale>
+execute store result storage <target> <path> short <scale>
+execute store success block <target> <path> byte <scale>
+execute store success block <target> <path> double <scale>
+execute store success block <target> <path> float <scale>
+execute store success block <target> <path> int <scale>
+execute store success block <target> <path> long <scale>
+execute store success block <target> <path> short <scale>
+execute store success bossbar <id> max
+execute store success bossbar <id> value
+execute store success entity <target> <path> byte <scale>
+execute store success entity <target> <path> double <scale>
+execute store success entity <target> <path> float <scale>
+execute store success entity <target> <path> int <scale>
+execute store success entity <target> <path> long <scale>
+execute store success entity <target> <path> short <scale>
+execute store success score <targets> <objective>
+execute store success storage <target> <path> byte <scale>
+execute store success storage <target> <path> double <scale>
+execute store success storage <target> <path> float <scale>
+execute store success storage <target> <path> int <scale>
+execute store success storage <target> <path> long <scale>
+execute store success storage <target> <path> short <scale>
+execute summon <entity>
+execute unless biome <pos> <biome>
+execute unless block <pos> <block>
+execute unless blocks <start> <end> <destination> all
+execute unless blocks <start> <end> <destination> masked
+execute unless data block <source> <path>
+execute unless data entity <source> <path>
+execute unless data storage <source> <path>
+execute unless dimension <dimension>
+execute unless entity <entities>
+execute unless function <name>
+execute unless items block <source> <slots> <item_predicate>
+execute unless items entity <source> <slots> <item_predicate>
+execute unless loaded <pos>
+execute unless predicate <predicate>
+execute unless score <target> <targetObjective> < <source> <sourceObjective>
+execute unless score <target> <targetObjective> <= <source> <sourceObjective>
+execute unless score <target> <targetObjective> = <source> <sourceObjective>
+execute unless score <target> <targetObjective> > <source> <sourceObjective>
+execute unless score <target> <targetObjective> >= <source> <sourceObjective>
+execute unless score <target> <targetObjective> matches <range>
+execute unless slots block <source> <slots>
+execute unless slots entity <source> <slots>
+execute unless stopwatch <id> <range>
