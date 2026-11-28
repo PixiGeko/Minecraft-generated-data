@@ -1,0 +1,115 @@
+{
+  "version_data": [
+    {
+      "type": "table",
+      "value": {
+        "previousLabel": "26.4-pre-1",
+        "currentLabel": "26.4-pre-2",
+        "values": [
+          {
+            "key": "DataPack version",
+            "previous": "128.1",
+            "current": "128.2"
+          },
+          {
+            "key": "World version",
+            "previous": "5131",
+            "current": "5132"
+          },
+          {
+            "key": "Protocol version",
+            "previous": "1073742173",
+            "current": "1073742174"
+          }
+        ]
+      }
+    },
+    {
+      "type": "title",
+      "value": {
+        "title": "Libraries",
+        "id": "version-data-libraries",
+        "size": 3
+      }
+    },
+    {
+      "type": "table",
+      "value": {
+        "title": "Versions",
+        "previousLabel": "26.4-pre-1",
+        "currentLabel": "26.4-pre-2",
+        "values": [
+          {
+            "key": "org.lwjgl:lwjgl-freetype",
+            "previous": "3.4.3",
+            "current": "3.4.3-mojang-2.15.0"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-freetype (natives-linux)",
+            "previous": "3.4.3",
+            "current": "3.4.3-mojang-2.15.0"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-freetype (natives-macos)",
+            "previous": "3.4.3",
+            "current": "3.4.3-mojang-2.15.0"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-freetype (natives-macos-arm64)",
+            "previous": "3.4.3",
+            "current": "3.4.3-mojang-2.15.0"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-freetype (natives-windows)",
+            "previous": "3.4.3",
+            "current": "3.4.3-mojang-2.15.0"
+          },
+          {
+            "key": "org.lwjgl:lwjgl-freetype (natives-windows-arm64)",
+            "previous": "3.4.3",
+            "current": "3.4.3-mojang-2.15.0"
+          }
+        ]
+      }
+    }
+  ],
+  "translations": [
+    {
+      "type": "entries",
+      "value": {
+        "name": "Keys",
+        "differences": {
+          "added": [
+            "narration.slot.usage.focused.store: Press Enter to store %s in %s",
+            "narration.slot.usage.hovered.store: Left-click to store %s in %s"
+          ],
+          "removed": []
+        }
+      }
+    }
+  ],
+  "file_structure": [
+    {
+      "type": "entries",
+      "value": {
+        "name": "data",
+        "differences": {
+          "added": [
+            "minecraft/tags/block/wall_side_shape_override.json"
+          ],
+          "removed": []
+        }
+      }
+    }
+  ],
+  "custom": [
+    {
+      "type": "title",
+      "value": {
+        "title": "datapacks.json",
+        "id": "custom-datapacks-json",
+        "size": 2
+      }
+    }
+  ]
+}
