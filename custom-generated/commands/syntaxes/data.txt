@@ -1,0 +1,204 @@
+data get block <target> <path> <scale>
+data get entity <target> <path> <scale>
+data get storage <target> <path> <scale>
+data merge block <target> <nbt>
+data merge entity <target> <nbt>
+data merge storage <target> <nbt>
+data modify block <target> <targetPath> append compute block <computePos> float <provider>
+data modify block <target> <targetPath> append compute block <computePos> integer <provider>
+data modify block <target> <targetPath> append compute default float <provider>
+data modify block <target> <targetPath> append compute default integer <provider>
+data modify block <target> <targetPath> append compute entity <computeTarget> float <provider>
+data modify block <target> <targetPath> append compute entity <computeTarget> integer <provider>
+data modify block <target> <targetPath> append from block <source> <sourcePath>
+data modify block <target> <targetPath> append from entity <source> <sourcePath>
+data modify block <target> <targetPath> append from storage <source> <sourcePath>
+data modify block <target> <targetPath> append string block <source> <sourcePath> <start> <end>
+data modify block <target> <targetPath> append string entity <source> <sourcePath> <start> <end>
+data modify block <target> <targetPath> append string storage <source> <sourcePath> <start> <end>
+data modify block <target> <targetPath> append value <value>
+data modify block <target> <targetPath> insert <index> compute block <computePos> float <provider>
+data modify block <target> <targetPath> insert <index> compute block <computePos> integer <provider>
+data modify block <target> <targetPath> insert <index> compute default float <provider>
+data modify block <target> <targetPath> insert <index> compute default integer <provider>
+data modify block <target> <targetPath> insert <index> compute entity <computeTarget> float <provider>
+data modify block <target> <targetPath> insert <index> compute entity <computeTarget> integer <provider>
+data modify block <target> <targetPath> insert <index> from block <source> <sourcePath>
+data modify block <target> <targetPath> insert <index> from entity <source> <sourcePath>
+data modify block <target> <targetPath> insert <index> from storage <source> <sourcePath>
+data modify block <target> <targetPath> insert <index> string block <source> <sourcePath> <start> <end>
+data modify block <target> <targetPath> insert <index> string entity <source> <sourcePath> <start> <end>
+data modify block <target> <targetPath> insert <index> string storage <source> <sourcePath> <start> <end>
+data modify block <target> <targetPath> insert <index> value <value>
+data modify block <target> <targetPath> merge compute block <computePos> float <provider>
+data modify block <target> <targetPath> merge compute block <computePos> integer <provider>
+data modify block <target> <targetPath> merge compute default float <provider>
+data modify block <target> <targetPath> merge compute default integer <provider>
+data modify block <target> <targetPath> merge compute entity <computeTarget> float <provider>
+data modify block <target> <targetPath> merge compute entity <computeTarget> integer <provider>
+data modify block <target> <targetPath> merge from block <source> <sourcePath>
+data modify block <target> <targetPath> merge from entity <source> <sourcePath>
+data modify block <target> <targetPath> merge from storage <source> <sourcePath>
+data modify block <target> <targetPath> merge string block <source> <sourcePath> <start> <end>
+data modify block <target> <targetPath> merge string entity <source> <sourcePath> <start> <end>
+data modify block <target> <targetPath> merge string storage <source> <sourcePath> <start> <end>
+data modify block <target> <targetPath> merge value <value>
+data modify block <target> <targetPath> prepend compute block <computePos> float <provider>
+data modify block <target> <targetPath> prepend compute block <computePos> integer <provider>
+data modify block <target> <targetPath> prepend compute default float <provider>
+data modify block <target> <targetPath> prepend compute default integer <provider>
+data modify block <target> <targetPath> prepend compute entity <computeTarget> float <provider>
+data modify block <target> <targetPath> prepend compute entity <computeTarget> integer <provider>
+data modify block <target> <targetPath> prepend from block <source> <sourcePath>
+data modify block <target> <targetPath> prepend from entity <source> <sourcePath>
+data modify block <target> <targetPath> prepend from storage <source> <sourcePath>
+data modify block <target> <targetPath> prepend string block <source> <sourcePath> <start> <end>
+data modify block <target> <targetPath> prepend string entity <source> <sourcePath> <start> <end>
+data modify block <target> <targetPath> prepend string storage <source> <sourcePath> <start> <end>
+data modify block <target> <targetPath> prepend value <value>
+data modify block <target> <targetPath> set compute block <computePos> float <provider>
+data modify block <target> <targetPath> set compute block <computePos> integer <provider>
+data modify block <target> <targetPath> set compute default float <provider>
+data modify block <target> <targetPath> set compute default integer <provider>
+data modify block <target> <targetPath> set compute entity <computeTarget> float <provider>
+data modify block <target> <targetPath> set compute entity <computeTarget> integer <provider>
+data modify block <target> <targetPath> set from block <source> <sourcePath>
+data modify block <target> <targetPath> set from entity <source> <sourcePath>
+data modify block <target> <targetPath> set from storage <source> <sourcePath>
+data modify block <target> <targetPath> set string block <source> <sourcePath> <start> <end>
+data modify block <target> <targetPath> set string entity <source> <sourcePath> <start> <end>
+data modify block <target> <targetPath> set string storage <source> <sourcePath> <start> <end>
+data modify block <target> <targetPath> set value <value>
+data modify entity <target> <targetPath> append compute block <computePos> float <provider>
+data modify entity <target> <targetPath> append compute block <computePos> integer <provider>
+data modify entity <target> <targetPath> append compute default float <provider>
+data modify entity <target> <targetPath> append compute default integer <provider>
+data modify entity <target> <targetPath> append compute entity <computeTarget> float <provider>
+data modify entity <target> <targetPath> append compute entity <computeTarget> integer <provider>
+data modify entity <target> <targetPath> append from block <source> <sourcePath>
+data modify entity <target> <targetPath> append from entity <source> <sourcePath>
+data modify entity <target> <targetPath> append from storage <source> <sourcePath>
+data modify entity <target> <targetPath> append string block <source> <sourcePath> <start> <end>
+data modify entity <target> <targetPath> append string entity <source> <sourcePath> <start> <end>
+data modify entity <target> <targetPath> append string storage <source> <sourcePath> <start> <end>
+data modify entity <target> <targetPath> append value <value>
+data modify entity <target> <targetPath> insert <index> compute block <computePos> float <provider>
+data modify entity <target> <targetPath> insert <index> compute block <computePos> integer <provider>
+data modify entity <target> <targetPath> insert <index> compute default float <provider>
+data modify entity <target> <targetPath> insert <index> compute default integer <provider>
+data modify entity <target> <targetPath> insert <index> compute entity <computeTarget> float <provider>
+data modify entity <target> <targetPath> insert <index> compute entity <computeTarget> integer <provider>
+data modify entity <target> <targetPath> insert <index> from block <source> <sourcePath>
+data modify entity <target> <targetPath> insert <index> from entity <source> <sourcePath>
+data modify entity <target> <targetPath> insert <index> from storage <source> <sourcePath>
+data modify entity <target> <targetPath> insert <index> string block <source> <sourcePath> <start> <end>
+data modify entity <target> <targetPath> insert <index> string entity <source> <sourcePath> <start> <end>
+data modify entity <target> <targetPath> insert <index> string storage <source> <sourcePath> <start> <end>
+data modify entity <target> <targetPath> insert <index> value <value>
+data modify entity <target> <targetPath> merge compute block <computePos> float <provider>
+data modify entity <target> <targetPath> merge compute block <computePos> integer <provider>
+data modify entity <target> <targetPath> merge compute default float <provider>
+data modify entity <target> <targetPath> merge compute default integer <provider>
+data modify entity <target> <targetPath> merge compute entity <computeTarget> float <provider>
+data modify entity <target> <targetPath> merge compute entity <computeTarget> integer <provider>
+data modify entity <target> <targetPath> merge from block <source> <sourcePath>
+data modify entity <target> <targetPath> merge from entity <source> <sourcePath>
+data modify entity <target> <targetPath> merge from storage <source> <sourcePath>
+data modify entity <target> <targetPath> merge string block <source> <sourcePath> <start> <end>
+data modify entity <target> <targetPath> merge string entity <source> <sourcePath> <start> <end>
+data modify entity <target> <targetPath> merge string storage <source> <sourcePath> <start> <end>
+data modify entity <target> <targetPath> merge value <value>
+data modify entity <target> <targetPath> prepend compute block <computePos> float <provider>
+data modify entity <target> <targetPath> prepend compute block <computePos> integer <provider>
+data modify entity <target> <targetPath> prepend compute default float <provider>
+data modify entity <target> <targetPath> prepend compute default integer <provider>
+data modify entity <target> <targetPath> prepend compute entity <computeTarget> float <provider>
+data modify entity <target> <targetPath> prepend compute entity <computeTarget> integer <provider>
+data modify entity <target> <targetPath> prepend from block <source> <sourcePath>
+data modify entity <target> <targetPath> prepend from entity <source> <sourcePath>
+data modify entity <target> <targetPath> prepend from storage <source> <sourcePath>
+data modify entity <target> <targetPath> prepend string block <source> <sourcePath> <start> <end>
+data modify entity <target> <targetPath> prepend string entity <source> <sourcePath> <start> <end>
+data modify entity <target> <targetPath> prepend string storage <source> <sourcePath> <start> <end>
+data modify entity <target> <targetPath> prepend value <value>
+data modify entity <target> <targetPath> set compute block <computePos> float <provider>
+data modify entity <target> <targetPath> set compute block <computePos> integer <provider>
+data modify entity <target> <targetPath> set compute default float <provider>
+data modify entity <target> <targetPath> set compute default integer <provider>
+data modify entity <target> <targetPath> set compute entity <computeTarget> float <provider>
+data modify entity <target> <targetPath> set compute entity <computeTarget> integer <provider>
+data modify entity <target> <targetPath> set from block <source> <sourcePath>
+data modify entity <target> <targetPath> set from entity <source> <sourcePath>
+data modify entity <target> <targetPath> set from storage <source> <sourcePath>
+data modify entity <target> <targetPath> set string block <source> <sourcePath> <start> <end>
+data modify entity <target> <targetPath> set string entity <source> <sourcePath> <start> <end>
+data modify entity <target> <targetPath> set string storage <source> <sourcePath> <start> <end>
+data modify entity <target> <targetPath> set value <value>
+data modify storage <target> <targetPath> append compute block <computePos> float <provider>
+data modify storage <target> <targetPath> append compute block <computePos> integer <provider>
+data modify storage <target> <targetPath> append compute default float <provider>
+data modify storage <target> <targetPath> append compute default integer <provider>
+data modify storage <target> <targetPath> append compute entity <computeTarget> float <provider>
+data modify storage <target> <targetPath> append compute entity <computeTarget> integer <provider>
+data modify storage <target> <targetPath> append from block <source> <sourcePath>
+data modify storage <target> <targetPath> append from entity <source> <sourcePath>
+data modify storage <target> <targetPath> append from storage <source> <sourcePath>
+data modify storage <target> <targetPath> append string block <source> <sourcePath> <start> <end>
+data modify storage <target> <targetPath> append string entity <source> <sourcePath> <start> <end>
+data modify storage <target> <targetPath> append string storage <source> <sourcePath> <start> <end>
+data modify storage <target> <targetPath> append value <value>
+data modify storage <target> <targetPath> insert <index> compute block <computePos> float <provider>
+data modify storage <target> <targetPath> insert <index> compute block <computePos> integer <provider>
+data modify storage <target> <targetPath> insert <index> compute default float <provider>
+data modify storage <target> <targetPath> insert <index> compute default integer <provider>
+data modify storage <target> <targetPath> insert <index> compute entity <computeTarget> float <provider>
+data modify storage <target> <targetPath> insert <index> compute entity <computeTarget> integer <provider>
+data modify storage <target> <targetPath> insert <index> from block <source> <sourcePath>
+data modify storage <target> <targetPath> insert <index> from entity <source> <sourcePath>
+data modify storage <target> <targetPath> insert <index> from storage <source> <sourcePath>
+data modify storage <target> <targetPath> insert <index> string block <source> <sourcePath> <start> <end>
+data modify storage <target> <targetPath> insert <index> string entity <source> <sourcePath> <start> <end>
+data modify storage <target> <targetPath> insert <index> string storage <source> <sourcePath> <start> <end>
+data modify storage <target> <targetPath> insert <index> value <value>
+data modify storage <target> <targetPath> merge compute block <computePos> float <provider>
+data modify storage <target> <targetPath> merge compute block <computePos> integer <provider>
+data modify storage <target> <targetPath> merge compute default float <provider>
+data modify storage <target> <targetPath> merge compute default integer <provider>
+data modify storage <target> <targetPath> merge compute entity <computeTarget> float <provider>
+data modify storage <target> <targetPath> merge compute entity <computeTarget> integer <provider>
+data modify storage <target> <targetPath> merge from block <source> <sourcePath>
+data modify storage <target> <targetPath> merge from entity <source> <sourcePath>
+data modify storage <target> <targetPath> merge from storage <source> <sourcePath>
+data modify storage <target> <targetPath> merge string block <source> <sourcePath> <start> <end>
+data modify storage <target> <targetPath> merge string entity <source> <sourcePath> <start> <end>
+data modify storage <target> <targetPath> merge string storage <source> <sourcePath> <start> <end>
+data modify storage <target> <targetPath> merge value <value>
+data modify storage <target> <targetPath> prepend compute block <computePos> float <provider>
+data modify storage <target> <targetPath> prepend compute block <computePos> integer <provider>
+data modify storage <target> <targetPath> prepend compute default float <provider>
+data modify storage <target> <targetPath> prepend compute default integer <provider>
+data modify storage <target> <targetPath> prepend compute entity <computeTarget> float <provider>
+data modify storage <target> <targetPath> prepend compute entity <computeTarget> integer <provider>
+data modify storage <target> <targetPath> prepend from block <source> <sourcePath>
+data modify storage <target> <targetPath> prepend from entity <source> <sourcePath>
+data modify storage <target> <targetPath> prepend from storage <source> <sourcePath>
+data modify storage <target> <targetPath> prepend string block <source> <sourcePath> <start> <end>
+data modify storage <target> <targetPath> prepend string entity <source> <sourcePath> <start> <end>
+data modify storage <target> <targetPath> prepend string storage <source> <sourcePath> <start> <end>
+data modify storage <target> <targetPath> prepend value <value>
+data modify storage <target> <targetPath> set compute block <computePos> float <provider>
+data modify storage <target> <targetPath> set compute block <computePos> integer <provider>
+data modify storage <target> <targetPath> set compute default float <provider>
+data modify storage <target> <targetPath> set compute default integer <provider>
+data modify storage <target> <targetPath> set compute entity <computeTarget> float <provider>
+data modify storage <target> <targetPath> set compute entity <computeTarget> integer <provider>
+data modify storage <target> <targetPath> set from block <source> <sourcePath>
+data modify storage <target> <targetPath> set from entity <source> <sourcePath>
+data modify storage <target> <targetPath> set from storage <source> <sourcePath>
+data modify storage <target> <targetPath> set string block <source> <sourcePath> <start> <end>
+data modify storage <target> <targetPath> set string entity <source> <sourcePath> <start> <end>
+data modify storage <target> <targetPath> set string storage <source> <sourcePath> <start> <end>
+data modify storage <target> <targetPath> set value <value>
+data remove block <target> <path>
+data remove entity <target> <path>
+data remove storage <target> <path>
